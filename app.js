@@ -87,7 +87,8 @@
     return ps[0] || { id: 'dengeli', ad: 'Dengeli', agirliklar: {} };
   }
   // Yönetim kararı 1 puan formülünü değiştirir: kişisel yatırımda MEKA uyumu ölçütü kapanır, ağırlığı diğerlerine dağılır
-  function agirlik(kid) { if (kid === 'M' && sel.yatirim === 'kisisel') return 0; return Number(profil().agirliklar[kid] || 0); }
+  // MEKA uyumu yalnız MEKA ile ilgili dalda ölçülür: bağımsız yaprak MEKA tesisine uymadığı için puan kaybetmez. Kişisel yatırımda her yerde kapalı.
+  function agirlik(kid, t) { if (kid === 'M' && (sel.yatirim === 'kisisel' || (t && t.dal === 'bagimsiz'))) return 0; return Number(profil().agirliklar[kid] || 0); }
   function secimEtkisi() {
     var all = tumYapraklar(); var soluk = all.filter(function (t) { return !uyum(t).ok; }).length;
     var p = [];
@@ -107,7 +108,7 @@
   function genelTemel(t) {
     var a = altPuan(t); if (!a || t.sepet) return null;
     var tot = 0, sw = 0;
-    KR.forEach(function (k) { var s = a[k.id]; if (s == null) return; var w = agirlik(k.id); tot += w * (s - 1) / 4; sw += w; });
+    KR.forEach(function (k) { var s = a[k.id]; if (s == null) return; var w = agirlik(k.id, t); tot += w * (s - 1) / 4; sw += w; });
     return sw ? 100 * tot / sw : null;
   }
   function genelPuan(t) {
@@ -157,7 +158,7 @@
   }
   function gucluZayif(t) {
     var a = altPuan(t); if (!a) return '';
-    var items = KR.map(function (k) { return { k: k, s: a[k.id] }; }).filter(function (x) { return x.s != null && agirlik(x.k.id) > 0; });
+    var items = KR.map(function (k) { return { k: k, s: a[k.id] }; }).filter(function (x) { return x.s != null && agirlik(x.k.id, t) > 0; });
     var up = items.slice().sort(function (p, q) { return q.s - p.s; }).filter(function (x) { return x.s >= 4; }).slice(0, 2).map(function (x) { return x.k.poz; });
     var dn = items.slice().sort(function (p, q) { return p.s - q.s; }).filter(function (x) { return x.s <= 2; }).slice(0, 2).map(function (x) { return x.k.neg; });
     return (up.length ? '+ ' + up.join(', ') : '') + (up.length && dn.length ? ' · ' : '') + (dn.length ? '− ' + dn.join(', ') : '');
@@ -279,7 +280,7 @@
       return '<a href="#/konu/' + t.id + '" class="' + (aktif(t) ? '' : 'off') + '"><span class="n">' + (i + 1) + '</span><span class="sym ' + b + '">' + BANT_SYM[b] + '</span><span><b>' + e(t.kisa || t.baslik) + '</b> <span class="tiny">' + e(t.dal_ad) + ' › ' + e(t.kol_ad) + ' · kanıt ' + e(t.kanit) + '/5' + (t.sepet ? ' · sepet: puanlanmadı' : '') + (aktif(t) ? '' : ' · seçime uymaz') + '</span><div class="why">' + e(gucluZayif(t)) + '</div></span>' + puanRozet(genelPuan(t)) + '</a>';
     }).join('') + '</div></div>';
     h += okumaRehberi();
-    h += '<div class="card"><div class="eyebrow">Puan nasıl hesaplanıyor</div><ul class="plain">' + (P.yontem || []).map(function (s) { return '<li>' + e(s) + '</li>'; }).join('') + '<li>Yönetim kararı 1 formülü değiştirir: kişisel yatırım seçilince MEKA uyumu ölçütü kapanır ve ağırlığı kalan ölçütlere dağılır. Böylece bağımsız dal MEKA tesisine uymadığı için puan kaybetmez.</li></ul>' +
+    h += '<div class="card"><div class="eyebrow">Puan nasıl hesaplanıyor</div><ul class="plain">' + (P.yontem || []).map(function (s) { return '<li>' + e(s) + '</li>'; }).join('') + '<li>MEKA uyumu ölçütü yalnız MEKA ile ilgili dalda sayılır; Bağımsız dalda ağırlığı sıfırdır ve kalan ölçütlere dağılır. Kişisel yatırım seçilince her yerde kapanır.</li></ul>' +
       '<div class="kv" style="margin-top:8px">' + KR.map(function (k) {
         return '<div class="r"><div class="k">' + e(k.id) + ' · %' + agirlik(k.id) + '</div><div><b>' + e(k.ad) + '</b> <span class="tiny">' + (k.kaynak === 'sistem' ? 'sistemden: ' : 'puanlayıcılar: ') + '</span>' + e(k.aciklama) + '<div class="src">' + e(k.capa || '') + '</div></div></div>';
       }).join('') + '</div></div>';
@@ -329,7 +330,7 @@
     h += '<div class="crits">' + KR.map(function (k) {
       var s = a[k.id]; var pct = s == null ? 0 : Math.round((s - 1) / 4 * 100);
       var not = (t.puan_not && t.puan_not[k.id]) || (k.id === 'B' ? ((BUTCE_AD[(t.kapilar || {}).butce] || '') + ' dilimi. ' + ((t.kapilar || {}).butce_not || '')) : '') || (k.id === 'K' ? ('Kanıt ' + (t.kanit || '–') + '/5, ' + (t.kapsam === 'tam' ? 'tam çalışma var' : 'kısmen çalışıldı')) : '');
-      return '<div class="crit"' + (agirlik(k.id) ? '' : ' style="opacity:0.45"') + '><div class="cl"><span class="cn">' + e(k.ad) + '</span><span class="cw">' + (agirlik(k.id) ? '%' + agirlik(k.id) : 'kişisel seçiminde kapalı') + '</span><b>' + (s == null ? '–' : fmt1(s)) + '/5</b></div><div class="cbar"><i style="width:' + pct + '%"></i></div>' + (not ? '<div class="cnote">' + e(not) + '</div>' : '') + '</div>';
+      return '<div class="crit"' + (agirlik(k.id, t) ? '' : ' style="opacity:0.45"') + '><div class="cl"><span class="cn">' + e(k.ad) + '</span><span class="cw">' + (agirlik(k.id, t) ? '%' + agirlik(k.id, t) : (t.dal === 'bagimsiz' ? 'bağımsız dalda sayılmaz' : 'kişisel seçiminde kapalı')) + '</span><b>' + (s == null ? '–' : fmt1(s)) + '/5</b></div><div class="cbar"><i style="width:' + pct + '%"></i></div>' + (not ? '<div class="cnote">' + e(not) + '</div>' : '') + '</div>';
     }).join('') + '</div>';
     if (t.puan_yayilim && t.puan_yayilim.length) h += '<p class="tiny">Puanlayıcılar şu ölçütlerde ayrıştı: ' + t.puan_yayilim.map(function (x) { return e(x); }).join(', ') + '. Bu ölçütlerdeki puan daha belirsiz.</p>';
     h += '<details><summary class="tiny">Çalışmanın kendi hükmü ve puanı (karşılaştırmada kullanılmaz)</summary><p class="tiny" style="margin-top:4px">Çalışmanın bandı: ' + e(BANT_AD[t.bant] || t.bant) + '. ' + e(t.puan_metni || '') + '</p></details></div>';
