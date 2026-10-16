@@ -35,6 +35,8 @@ button { font: inherit; cursor: pointer; }
 #bar nav { display: flex; gap: 4px; flex-wrap: wrap; }
 #bar nav a { color: #fff; text-decoration: none; font-size: 15px; padding: 6px 10px; border-radius: 6px; }
 #bar nav a.on, #bar nav a:hover { background: rgba(255,255,255,0.14); }
+#bar nav { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; gap: 2px; }
+#bar nav a { white-space: nowrap; padding: 6px 6px; font-size: 14px; }
 .eyebrow { font-family: var(--disp); font-weight: 600; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--acc); }
 .card { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
 .card.soft { background: var(--track); }
@@ -83,7 +85,7 @@ button { font: inherit; cursor: pointer; }
 .step .n { font-family: var(--disp); font-weight: 700; font-size: 20px; color: var(--acc); line-height: 1.1; }
 .step .meta { color: var(--grey); font-size: 13.5px; }
 .rank { display: flex; flex-direction: column; }
-.rank a { display: grid; grid-template-columns: 28px 1.2em minmax(0, 1fr); gap: 6px; align-items: baseline; padding: 8px 0; border-top: 1px solid var(--rule); text-decoration: none; color: var(--ink); }
+.rank a { display: grid; grid-template-columns: 28px 1.2em minmax(0, 1fr) auto; gap: 6px; align-items: baseline; padding: 8px 0; border-top: 1px solid var(--rule); text-decoration: none; color: var(--ink); }
 .rank a:first-child { border-top: 0; }
 .rank .n { font-family: var(--disp); font-weight: 700; font-size: 20px; color: var(--acc); }
 .rank .why { color: var(--sub); font-size: 14.5px; }
@@ -133,6 +135,41 @@ a.fullbtn:focus-visible { outline: 3px solid var(--steel); outline-offset: 2px; 
 .foot { color: var(--grey); font-size: 13px; border-top: 1px solid var(--rule); padding-top: 10px; }
 .search { width: 100%; font: inherit; font-size: 16px; padding: 9px 12px; border: 1px solid var(--rule); border-radius: 8px; }
 @media (prefers-reduced-motion: no-preference) { .seg button, .leaf, .rank a { transition: background 0.15s ease, opacity 0.15s ease; } }
+
+.scr { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; padding: 2px 8px; border-radius: 8px; font-family: var(--disp); font-weight: 700; font-size: 24px; line-height: 1.1; color: #fff; background: var(--grey); font-variant-numeric: tabular-nums; }
+.scr.hi { background: var(--acc); } .scr.mid { background: var(--steel); } .scr.lo { background: var(--grey); }
+.scr.sm { font-size: 18px; min-width: 36px; padding: 1px 6px; }
+.bigscore { font-family: var(--disp); font-weight: 700; font-size: 64px; line-height: 1; color: var(--acc); font-variant-numeric: tabular-nums; }
+.pathrow { display: flex; align-items: stretch; gap: 6px; flex-wrap: wrap; }
+.pnode { flex: 1 1 160px; min-width: 0; display: flex; flex-direction: column; gap: 3px; text-decoration: none; color: var(--ink); border: 1px solid var(--rule); border-radius: 10px; padding: 8px 10px; background: var(--bg); }
+.pnode small { color: var(--grey); font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.08em; }
+.pnode b { font-family: var(--disp); font-size: 20px; line-height: 1.1; }
+.parrow { align-self: center; color: var(--grey); font-size: 22px; }
+.leaf .n { font-family: var(--disp); font-weight: 700; color: var(--acc); font-size: 18px; }
+.crits { display: flex; flex-direction: column; margin-top: 8px; }
+.crit { display: grid; gap: 3px; padding: 7px 0; border-top: 1px solid var(--rule); }
+.crit:first-child { border-top: 0; }
+.crit .cl { display: flex; align-items: baseline; gap: 8px; }
+.crit .cn { font-weight: 600; }
+.crit .cw { color: var(--grey); font-size: 12.5px; }
+.crit .cl b { margin-left: auto; font-variant-numeric: tabular-nums; }
+.cbar { height: 8px; background: var(--track); border-radius: 999px; overflow: hidden; }
+.cbar i { display: block; height: 100%; background: var(--steel); }
+.cnote { color: var(--sub); font-size: 14px; }
+.notebox { display: flex; flex-direction: column; gap: 8px; }
+.notebox textarea, .edit textarea { font: inherit; font-size: 16px; padding: 8px 10px; border: 1px solid var(--rule); border-radius: 8px; width: 100%; resize: vertical; background: var(--card); color: var(--ink); }
+.notes { display: flex; flex-direction: column; gap: 10px; margin-top: 4px; }
+.note { border-left: 3px solid var(--steel); padding: 2px 0 2px 10px; }
+.note .meta { color: var(--grey); font-size: 13px; }
+.lnk { background: none; border: 0; padding: 0; color: var(--acc); text-decoration: underline; font-size: 13px; }
+.firms { display: flex; flex-direction: column; gap: 6px; margin: 6px 0 10px; }
+.firm { border-top: 1px solid var(--rule); padding-top: 6px; font-size: 15.5px; }
+.firm .src { color: var(--grey); font-size: 13px; }
+details > summary { padding: 4px 0; }
+.doclist { display: flex; flex-wrap: wrap; gap: 8px; }
+a.docbtn { display: inline-flex; align-items: center; text-decoration: none; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--steel); color: var(--steel); background: var(--card); font-size: 15px; font-weight: 600; }
+a.docbtn.main { background: var(--acc); border-color: var(--acc); color: #fff; }
+.docrow { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; padding: 6px 0; border-top: 1px solid var(--rule); flex: 1 1 100%; }
 </style>
 </head>
 <body>
@@ -140,294 +177,14 @@ a.fullbtn:focus-visible { outline: 3px solid var(--steel); outline-offset: 2px; 
   <a class="brand" href="#/">MEKA · Karar ağacı<small id="brandDate"></small></a>
   <nav>
     <a href="#/" data-nav="/">Ağaç</a>
+    <a href="#/siralama" data-nav="/siralama">Sıralama</a>
     <a href="#/takvim" data-nav="/takvim">Takvim</a>
     <a href="#/calismalar" data-nav="/calismalar">Çalışmalar</a>
-    <a href="#/ne-yapmali" data-nav="/ne-yapmali">Ne yapmalıyız</a>
+    <a href="#/ne-yapmali" data-nav="/ne-yapmali">Yapılacak</a>
   </nav>
 </div></div>
 <main class="wrap" id="app"></main>
-<script src="data.js"></script>
-<script>
-(function () {
-  var D = window.MEKA_DATA;
-  if (!D) { document.getElementById('app').innerHTML = '<div class="card">data.js yüklenemedi.</div>'; return; }
-  document.getElementById('brandDate').textContent = D.derleme_tarihi;
-  var BANT_SYM = { one_cikan: '★', ikincil: '○', izle: '▽', elendi: '▽' };
-  var BANT_AD = { one_cikan: 'öne çıkan', ikincil: 'ikincil', izle: 'izle', elendi: 'elendi' };
-  var BANT_SIRA = { one_cikan: 0, ikincil: 1, izle: 2, elendi: 3 };
-  var BUTCE_AD = { 1: '100 bin $ altı', 2: '100 bin ile 1 M$', 3: '1 ile 10 M$', 4: '10 M$ üstü' };
-  var YAT_AD = { sirket: 'şirket', kisisel: 'kişisel', ikisi: 'ikisi de olur' };
-  var YOL_AD = { kur: 'kuralım', ortak: 'ortak olalım', ikisi: 'ikisi de olur' };
-
-  // ---- durum (yalnızca yöneticinin işaretlediği ilerleme) ----
-  var durum = {};
-  try { durum = JSON.parse(localStorage.getItem('meka_durum') || '{}'); } catch (e) { durum = {}; }
-  if (D.durum) { Object.keys(D.durum).forEach(function (k) { if (!durum[k]) durum[k] = D.durum[k]; }); }
-  function saveDurum() { try { localStorage.setItem('meka_durum', JSON.stringify(durum)); } catch (e) {} }
-
-  // ---- kapılar ----
-  var sel = { yatirim: 'hepsi', butce: 'hepsi', yol: 'hepsi' };
-  try { var s0 = JSON.parse(localStorage.getItem('meka_sel') || 'null'); if (s0) sel = s0; } catch (e) {}
-  function saveSel() { try { localStorage.setItem('meka_sel', JSON.stringify(sel)); } catch (e) {} }
-  function uyum(t) {
-    var k = t.kapilar || {}; var r = { yatirim: true, butce: true, yol: true };
-    if (sel.yatirim !== 'hepsi') r.yatirim = (k.yatirim === sel.yatirim || k.yatirim === 'ikisi');
-    if (sel.butce !== 'hepsi') r.butce = ((k.butce || 1) <= Number(sel.butce));
-    if (sel.yol !== 'hepsi') r.yol = (k.yol === sel.yol || k.yol === 'ikisi');
-    r.ok = r.yatirim && r.butce && r.yol; return r;
-  }
-  function secimMetni() {
-    var p = [];
-    p.push(sel.yatirim === 'hepsi' ? 'yatırım: karar yok' : 'yatırım: ' + (sel.yatirim === 'sirket' ? 'şirket' : 'kişisel'));
-    p.push(sel.butce === 'hepsi' ? 'bütçe: karar yok' : 'bütçe: ' + BUTCE_AD[sel.butce]);
-    p.push(sel.yol === 'hepsi' ? 'yol: karar yok' : 'yol: ' + (sel.yol === 'kur' ? 'kuralım' : 'ortak olalım'));
-    return p.join(' · ');
-  }
-
-  // ---- yardımcılar ----
-  function e(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  function topic(id) { return D.konular[id]; }
-  function region(id) { return D.bolgeler[id]; }
-  function regionTopics(rid) {
-    var r = region(rid); var ids = (r && r.konu_ids) || []; return ids.map(topic).filter(Boolean);
-  }
-  // Saha kararı: yönetici görüşme sonrası bandı ve saha puanını elle değiştirebilir; sıralama bunu kullanır
-  function saha(id) { return durum[id] || {}; }
-  function bantOf(t) { var s = saha(t.id); return s.saha_bant ? s.saha_bant : t.bant; }
-  function sirala(list, rid) {
-    var r = rid ? region(rid) : null; var order = {};
-    if (r && r.siralama) r.siralama.forEach(function (x, i) { order[x.id] = i; });
-    return list.slice().sort(function (a, b) {
-      var ua = uyum(a).ok ? 0 : 1, ub = uyum(b).ok ? 0 : 1; if (ua !== ub) return ua - ub;
-      var ba = BANT_SIRA[bantOf(a)], bb = BANT_SIRA[bantOf(b)]; if (ba !== bb) return ba - bb;
-      var pa = Number(saha(a.id).saha_puan || 0), pb = Number(saha(b.id).saha_puan || 0); if (pa !== pb) return pb - pa;
-      var oa = order[a.id] == null ? 99 : order[a.id], ob = order[b.id] == null ? 99 : order[b.id]; if (oa !== ob) return oa - ob;
-      return (b.kanit || 0) - (a.kanit || 0);
-    });
-  }
-  function leafHtml(t) {
-    var u = uyum(t); var b = bantOf(t); var s = saha(t.id);
-    return '<a class="leaf' + (u.ok ? '' : ' off') + '" href="#/konu/' + t.id + '"><span class="sym ' + b + '">' + BANT_SYM[b] + '</span><span class="t">' + e(t.kisa || t.baslik) + (s.saha_bant || s.saha_puan ? ' <span class="tiny">· saha' + (s.saha_puan ? ' ' + e(s.saha_puan) + '/5' : '') + '</span>' : '') + '</span><span class="s">' + e(t.puan_kisa || '') + '</span></a>';
-  }
-  var DOC_ICON = '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg>';
-  function butonlarHtml(t) {
-    var bs = t.butonlar || [];
-    if (!bs.length) return '';
-    var ETIKET = { tam: 'Tam çalışmayı aç', ana: 'Ana raporda ilgili bölüm', kaynak: 'Kaynak belgeyi aç' };
-    var html = '<div class="fullrow">' + bs.map(function (b, i) {
-      var f = D.dosyalar[b.dosya]; if (!f) return '';
-      var href = 'pdf/' + f.pdf + (b.sayfa && b.sayfa > 1 ? '#page=' + b.sayfa : '');
-      var l2 = (f.kisa || f.ad) + ' · ' + (f.sayfa_sayisi ? f.sayfa_sayisi + ' sayfa' : 'PDF') + (b.sayfa && b.sayfa > 1 ? ' · s. ' + b.sayfa : '');
-      return '<a class="fullbtn' + (i ? ' alt' : '') + '" href="' + e(href) + '" target="_blank" rel="noopener">' + DOC_ICON + '<span class="fb"><span class="l1">' + ETIKET[b.rol] + '</span><span class="l2">' + e(l2) + '</span></span></a>';
-    }).join('') + '</div>';
-    if (bs[0].rol === 'kaynak') html += '<p class="tiny" style="margin-top:6px">Bu yaprak için ayrı bir tam çalışma yok; özet bu kaynak belgelere dayanıyor.</p>';
-    return html;
-  }
-  function ilerleme(id) {
-    var d = durum[id] || {}; var g = d.gorevler || []; var bitti = g.filter(function (x) { return x.bitti; }).length;
-    var yuzde = d.ilerleme != null ? Number(d.ilerleme) : (g.length ? Math.round(100 * bitti / g.length) : 0);
-    return { yuzde: yuzde, toplam: g.length, bitti: bitti, durum: d.durum || 'başlanmadı', gorevler: g, not: d.not || '', saha_bant: d.saha_bant || '', saha_puan: d.saha_puan || '', saha_not: d.saha_not || '', saha_tarih: d.saha_tarih || '' };
-  }
-
-  // ---- kapı paneli ----
-  function gatesHtml() {
-    function seg(name, opts) {
-      return '<div class="seg">' + opts.map(function (o) { return '<button type="button" data-gate="' + name + '" data-val="' + o[0] + '" class="' + (String(sel[name]) === String(o[0]) ? 'on' : '') + '">' + e(o[1]) + '</button>'; }).join('') + '</div>';
-    }
-    return '<div class="card"><div class="eyebrow">Yönetimin üç kararı</div><p class="muted">Seçim yapınca uymayan yapraklar soluklaşır, sıralama ve yapılacaklar değişir. Seçim bu cihazda kalır.</p><div id="gates">' +
-      '<div class="gate"><div class="q">1. Yatırım kimin üzerinden?</div>' + seg('yatirim', [['sirket', 'Şirket (MEKA)'], ['kisisel', 'Kişisel'], ['hepsi', 'Karar yok']]) + '</div>' +
-      '<div class="gate"><div class="q">2. İlk bütçe dilimi?</div>' + seg('butce', [['1', '< 100 bin $'], ['2', '100 bin ile 1 M$'], ['3', '1 ile 10 M$'], ['4', '> 10 M$'], ['hepsi', 'Karar yok']]) + '</div>' +
-      '<div class="gate"><div class="q">3. Kuralım mı, ortak mı olalım?</div>' + seg('yol', [['kur', 'Kuralım'], ['ortak', 'Ortak olalım'], ['hepsi', 'Karar yok']]) + '</div>' +
-      '</div><details><summary class="tiny">Dilim ve kapı kuralı</summary><p class="tiny" style="margin-top:4px">' + e(D.dilim_kurali || '') + '</p></details></div>';
-  }
-
-  // ---- sayfalar ----
-  function homeHtml() {
-    var h = '';
-    h += '<div><div class="eyebrow">MEKA Global · yeni iş alanı araştırmaları</div><h1>' + e(D.baslik) + '</h1><p class="muted">' + e(D.alt_baslik) + '</p></div>';
-    h += gatesHtml();
-    h += '<div class="card soft edit"><div class="eyebrow">Düzenleme modu nasıl işler</div><ul class="plain"><li>Bir yaprağı aç, en alttaki Durum kartında ilerleme, görevler ve saha kararını (bant, saha puanı, görüşme notu) gir, Kaydet.</li><li>Saha bandı çalışmanın bandının önüne geçer; saha puanı aynı banttaki yaprakları sıralar. Bölge sıralamaları ve "Ne yapmalıyız" anında değişir.</li><li>Herkes görsün istersen sayfanın altındaki "Durumu dışa aktar" ile durum.json indir, siteye (GitHub deposunun köküne) yükle. İşaretler o zaman bütün cihazlarda görünür.</li><li>Görüşme notlarını bana da gönderirsen özeti ve tam çalışmayı yeniden yazarım; o zaman veri dosyası güncellenir.</li></ul></div>';
-    h += '<div class="tree">';
-    h += '<div class="root"><div class="eyebrow" style="color:#F2B28B">Kök</div><h2>MEKA</h2><p class="muted" style="color:#ddd">' + e(D.kok_notu) + '</p></div>';
-    D.agac.forEach(function (br) {
-      h += '<div class="branch ' + br.id + '"><a class="head" href="#/bolge/' + br.id + '"><h2>' + e(br.ad) + '</h2><span class="tiny">' + e(br.aciklama) + ' · bölge özeti ›</span></a><div class="kols">';
-      br.kollar.forEach(function (k) {
-        var ts = sirala(k.konular.map(topic).filter(Boolean), k.id);
-        h += '<div class="kol"><a class="head" href="#/bolge/' + k.id + '"><h3>' + e(k.ad) + '</h3><span class="tiny">' + ts.length + ' yaprak ›</span></a><div>' + ts.map(leafHtml).join('') + '</div></div>';
-      });
-      h += '</div></div>';
-    });
-    h += '</div>';
-    h += '<div class="card"><div class="eyebrow">İşaretler</div><p class="muted"><b class="sym one_cikan">★</b> öne çıkan · <b class="sym ikincil">○</b> ikincil · <b class="sym izle">▽</b> izle veya elendi. Puanlar her çalışmanın kendi ölçeğidir: savunma 5 üzerinden, 5+5 çalışması 10 üzerinden, diğerleri sıra numarası. Birleştirilmedi.</p></div>';
-    h += '<div class="card"><div class="eyebrow">Görüş</div>' + D.gorus.map(function (g) { return '<p style="padding-left:10px;border-left:3px solid var(--acc)">' + e(g) + '</p>'; }).join('') + '</div>';
-    h += '<div class="foot">' + e(D.dipnot) + '</div>';
-    return h;
-  }
-
-  function regionHtml(rid) {
-    var r = region(rid); if (!r) return '<div class="card">Bölge bulunamadı.</div>';
-    var ts = sirala(regionTopics(rid), rid);
-    var why = {}; (r.siralama || []).forEach(function (x) { why[x.id] = x.neden; });
-    var h = '<a class="back" href="#/">‹ Ağaca dön</a>';
-    h += '<div><div class="eyebrow">Bölge</div><h1>' + e(r.baslik) + '</h1><p class="muted">' + ts.length + ' yaprak · ' + e(secimMetni()) + '</p></div>';
-    h += '<div class="card"><div class="eyebrow">Özet</div><p>' + e(r.ozet) + '</p></div>';
-    h += '<div class="card"><div class="eyebrow">Sıralama</div><div class="rank">' + ts.map(function (t, i) {
-      var u = uyum(t);
-      var b = bantOf(t); var s = saha(t.id);
-      return '<a href="#/konu/' + t.id + '" class="' + (u.ok ? '' : 'off') + '"><span class="n">' + (i + 1) + '</span><span class="sym ' + b + '">' + BANT_SYM[b] + '</span><span><b>' + e(t.kisa || t.baslik) + '</b> <span class="tiny">' + e(t.puan_kisa || '') + ' · ' + BANT_AD[b] + (s.saha_bant ? ' (saha kararı)' : '') + ' · kanıt ' + e(t.kanit) + '/5' + (s.saha_puan ? ' · saha puanı ' + e(s.saha_puan) + '/5' : '') + (u.ok ? '' : ' · seçime uymaz') + '</span><div class="why">' + e(s.saha_not ? 'Saha: ' + s.saha_not : (why[t.id] || '')) + '</div></span></a>';
-    }).join('') + '</div></div>';
-    var ke = r.kapi_etkisi || {};
-    var etk = [];
-    if (sel.yatirim === 'sirket') etk.push(ke.sirket); if (sel.yatirim === 'kisisel') etk.push(ke.kisisel);
-    if (sel.butce === '1' || sel.butce === '2') etk.push(ke.dusuk_butce); if (sel.butce === '3' || sel.butce === '4') etk.push(ke.yuksek_butce);
-    if (sel.yol === 'kur') etk.push(ke.kur); if (sel.yol === 'ortak') etk.push(ke.ortak);
-    h += '<div class="card"><div class="eyebrow">Kararlar bu bölgeyi nasıl değiştirir</div>' + (etk.length ? etk.map(function (x) { return '<p>' + e(x) + '</p>'; }).join('') : '<p class="muted">Henüz karar seçilmedi. Seçince burada etkisi yazar.</p>') +
-      '<details><summary>Altı durumun hepsi</summary><div class="kv" style="margin-top:8px">' + [['Şirket', ke.sirket], ['Kişisel', ke.kisisel], ['Düşük bütçe', ke.dusuk_butce], ['Yüksek bütçe', ke.yuksek_butce], ['Kuralım', ke.kur], ['Ortak', ke.ortak]].map(function (p) { return '<div class="r"><div class="k">' + e(p[0]) + '</div><div>' + e(p[1]) + '</div></div>'; }).join('') + '</div></details></div>';
-    var steps = (r.ne_yapmali || []).filter(function (s) { var t = topic(s.konu_id); return !t || uyum(t).ok; });
-    h += '<div class="card"><div class="eyebrow">Ne yapmalıyız</div><div class="steps">' + steps.map(function (s, i) {
-      var t = topic(s.konu_id);
-      return '<div class="step"><div class="n">' + (i + 1) + '</div><div>' + e(s.adim) + '<div class="meta">' + e(s.kim) + ' · ' + e(s.ne_zaman) + (t ? ' · <a href="#/konu/' + t.id + '">' + e(t.kisa || t.baslik) + '</a>' : '') + '</div></div></div>';
-    }).join('') + (steps.length ? '' : '<p class="muted">Seçime uyan adım kalmadı.</p>') + '</div></div>';
-    if (r.uyarilar && r.uyarilar.length) h += '<div class="card soft"><div class="eyebrow">Uyarılar</div><ul class="plain">' + r.uyarilar.map(function (u) { return '<li>' + e(u) + '</li>'; }).join('') + '</ul></div>';
-    return h;
-  }
-
-  function topicHtml(id) {
-    var t = topic(id); if (!t) return '<div class="card">Yaprak bulunamadı.</div>';
-    var u = uyum(t); var k = t.kapilar || {}; var il = ilerleme(id);
-    var h = '<a class="back" href="#/bolge/' + t.kol_id + '">‹ ' + e(t.kol_ad) + '</a>';
-    h += '<div><div class="eyebrow">' + e(t.dal_ad) + ' · ' + e(t.kol_ad) + '</div><h1>' + e(t.baslik) + '</h1>' + butonlarHtml(t) +
-      '<div class="row" style="margin-top:8px"><span class="pill ' + (bantOf(t) === 'one_cikan' ? 'acc' : '') + '"><span class="sym ' + bantOf(t) + '">' + BANT_SYM[bantOf(t)] + '</span>' + BANT_AD[bantOf(t)] + (saha(t.id).saha_bant ? ' (saha kararı)' : '') + '</span><span class="pill steel">' + e(t.puan_kisa || '') + '</span><span class="pill">kaynak tarihi ' + e(t.tarih) + '</span><span class="pill">kanıt ' + e(t.kanit) + '/5</span><span class="pill ' + (t.kapsam === 'tam' ? 'ok' : 'warn') + '">kapsam: ' + e(t.kapsam === 'tam' ? 'tam çalışma var' : (t.kapsam === 'kismi' ? 'kısmen çalışıldı' : 'çalışılmadı')) + '</span>' + (u.ok ? '' : '<span class="pill warn">seçime uymaz</span>') + '</div></div>';
-    if (t.kapsam !== 'tam' && t.kapsam_notu) h += '<div class="card soft"><p>' + e(t.kapsam_notu) + '</p></div>';
-    if (t.puan_metni) h += '<div class="card"><div class="eyebrow">Puan ve sıra</div><p class="muted">' + e(t.puan_metni) + '</p></div>';
-    h += '<div class="grid2">';
-    h += '<div class="card"><div class="eyebrow">Ne</div><p>' + e(t.ne) + '</p></div>';
-    h += '<div class="card"><div class="eyebrow">Neden MEKA için</div><p>' + e(t.neden) + '</p></div>';
-    h += '</div>';
-    if (t.rakamlar && t.rakamlar.length) h += '<div class="card"><div class="eyebrow">Rakamlar</div><div class="kv">' + t.rakamlar.map(function (r) { var web = /\bweb\b|https?:/i.test(r.kaynak || ''); return '<div class="r"><div class="k">' + e(r.deger) + '</div><div>' + e(r.aciklama) + '<div class="src">' + e(r.kaynak) + (web ? ' <span class="pill warn" style="font-size:12px">web, çalışmalarda yok</span>' : '') + '</div></div></div>'; }).join('') + '</div></div>';
-    h += '<div class="card"><div class="eyebrow">Durum</div><p>' + e(t.durum) + '</p>' +
-      '<div class="row" style="margin-top:4px"><span class="pill">' + e(il.durum) + '</span><span class="pill">' + il.yuzde + '% ilerleme</span><span class="pill">' + il.bitti + '/' + il.toplam + ' görev</span></div><div class="prog"><i style="width:' + il.yuzde + '%"></i></div>' +
-      (il.gorevler.length ? '<div class="steps">' + il.gorevler.map(function (g, i) { return '<div class="task' + (g.bitti ? ' done' : '') + '"><span>' + (g.bitti ? '☑' : '☐') + '</span><span>' + e(g.ad) + '</span></div>'; }).join('') + '</div>' : '') + (il.not ? '<p class="muted">' + e(il.not) + '</p>' : '') +
-      '<div class="edit"><label>Durum<select data-ed="durum"><option' + (il.durum === 'başlanmadı' ? ' selected' : '') + '>başlanmadı</option><option' + (il.durum === 'sürüyor' ? ' selected' : '') + '>sürüyor</option><option' + (il.durum === 'bekliyor' ? ' selected' : '') + '>bekliyor</option><option' + (il.durum === 'bitti' ? ' selected' : '') + '>bitti</option><option' + (il.durum === 'vazgeçildi' ? ' selected' : '') + '>vazgeçildi</option></select></label>' +
-      '<label>İlerleme yüzdesi<input type="number" min="0" max="100" data-ed="ilerleme" value="' + il.yuzde + '"></label>' +
-      '<label>Görevler (her satır bir görev; başına x koyarsan bitti sayılır)<textarea data-ed="gorevler" rows="4" style="font:inherit;font-size:15px;padding:6px 8px;border:1px solid var(--rule);border-radius:6px">' + e(il.gorevler.map(function (g) { return (g.bitti ? 'x ' : '') + g.ad; }).join('\n')) + '</textarea></label>' +
-      '<label>Not<input type="text" data-ed="not" value="' + e(il.not) + '"></label>' +
-      '<div class="eyebrow" style="margin-top:6px">Saha kararı (bayi, müşteri, kurum görüşmesinden sonra)</div>' +
-      '<label>Bant: çalışmanın bandını değiştir<select data-ed="saha_bant"><option value=""' + (il.saha_bant ? '' : ' selected') + '>değiştirme, çalışma bandı kalsın</option>' + ['one_cikan', 'ikincil', 'izle', 'elendi'].map(function (b) { return '<option value="' + b + '"' + (il.saha_bant === b ? ' selected' : '') + '>' + BANT_AD[b] + '</option>'; }).join('') + '</select></label>' +
-      '<label>Saha puanı, 1 ile 5 (aynı banttaki yaprakları bu puan sıralar)<input type="number" min="1" max="5" data-ed="saha_puan" value="' + e(il.saha_puan) + '"></label>' +
-      '<label>Saha notu: kimle konuşuldu, ne öğrenildi<textarea data-ed="saha_not" rows="3" style="font:inherit;font-size:15px;padding:6px 8px;border:1px solid var(--rule);border-radius:6px">' + e(il.saha_not) + '</textarea></label>' +
-      '<label>Görüşme tarihi<input type="text" data-ed="saha_tarih" placeholder="örnek: 20 Ekim 2026" value="' + e(il.saha_tarih) + '"></label>' +
-      '<div class="row"><button type="button" class="btn primary" data-act="kaydet" data-id="' + id + '">Kaydet</button><span class="tiny">Kaydet bu cihazda tutar. Herkes görsün istersen sayfanın altındaki "Durumu dışa aktar" ile durum.json indir ve siteye yükle.</span></div></div></div>';
-    if (il.saha_bant || il.saha_puan || il.saha_not) h += '<div class="card" style="border-left:4px solid var(--ok)"><div class="eyebrow">Saha bilgisi' + (il.saha_tarih ? ' · ' + e(il.saha_tarih) : '') + '</div>' +
-      '<div class="row">' + (il.saha_bant ? '<span class="pill ok">bant saha kararıyla: ' + BANT_AD[il.saha_bant] + ' (çalışma: ' + BANT_AD[t.bant] + ')</span>' : '') + (il.saha_puan ? '<span class="pill ok">saha puanı ' + e(il.saha_puan) + '/5</span>' : '') + '</div>' + (il.saha_not ? '<p>' + e(il.saha_not) + '</p>' : '') + '</div>';
-    h += '<div class="grid2">';
-    if (t.adimlar && t.adimlar.length) h += '<div class="card"><div class="eyebrow">İlk adımlar</div><div class="steps">' + t.adimlar.map(function (s, i) { return '<div class="step"><div class="n">' + (i + 1) + '</div><div>' + e(s.adim) + '<div class="meta">' + e(s.kim) + ' · ' + e(s.ne_zaman) + '</div></div></div>'; }).join('') + '</div></div>';
-    h += '<div class="card"><div class="eyebrow">Kararlarla uyum</div><div class="match">' +
-      '<div class="m"><span>Yatırım: <b>' + e(YAT_AD[k.yatirim] || '') + '</b></span><span class="pill ' + (u.yatirim ? 'ok' : 'warn') + '">' + (u.yatirim ? 'uyar' : 'uymaz') + '</span></div>' +
-      '<div class="m"><span>Bütçe: <b>' + e(BUTCE_AD[k.butce] || '') + '</b></span><span class="pill ' + (u.butce ? 'ok' : 'warn') + '">' + (u.butce ? 'uyar' : 'uymaz') + '</span></div>' +
-      '<div class="m"><span>Yol: <b>' + e(YOL_AD[k.yol] || '') + '</b></span><span class="pill ' + (u.yol ? 'ok' : 'warn') + '">' + (u.yol ? 'uyar' : 'uymaz') + '</span></div></div>' +
-      '<p class="tiny">' + e(k.butce_not || '') + ' ' + e(k.yol_not || '') + '</p></div>';
-    h += '</div>';
-    if (t.cevaplar && t.cevaplar.length) {
-      var CD = { cevaplandi: ['ok', 'cevaplandı'], kismen: ['warn', 'kısmen'], gorusme: ['steel', 'görüşme gerekir'], kapandi: ['', 'kapandı'] };
-      h += '<div class="card"><div class="eyebrow">Açık soruların cevapları (ikinci tur, ' + e(D.derleme_tarihi) + ')</div><div class="steps">' + t.cevaplar.map(function (c, i) {
-        var cd = CD[c.durum] || ['', c.durum];
-        return '<div class="step"><div class="n">' + (i + 1) + '</div><div><b>' + e(c.soru) + '</b> <span class="pill ' + cd[0] + '" style="font-size:12.5px">' + cd[1] + '</span><div style="margin-top:3px">' + e(c.cevap) + '</div>' + (c.kime && c.durum === 'gorusme' ? '<div class="meta">Kime: ' + e(c.kime) + '</div>' : '') + (c.kaynak ? '<div class="meta">' + e(c.kaynak) + '</div>' : '') + '</div></div>';
-      }).join('') + '</div></div>';
-    }
-    if (t.acik_sorular && t.acik_sorular.length) h += '<div class="card"><div class="eyebrow">' + (t.cevaplar && t.cevaplar.length ? 'Kalan sorular (görüşme gerektirir)' : 'Açık sorular') + '</div><ul class="plain">' + t.acik_sorular.map(function (q) { return '<li>' + e(q) + '</li>'; }).join('') + '</ul></div>';
-    if (t.riskler && t.riskler.length) h += '<div class="card"><div class="eyebrow">Riskler</div><ul class="plain">' + t.riskler.map(function (q) { return '<li>' + e(q) + '</li>'; }).join('') + '</ul></div>';
-    if (t.takvim && t.takvim.length) h += '<div class="card"><div class="eyebrow">Bu konunun takvimi</div>' + tlHtml(t.takvim.map(function (x) { return { tarih: x.tarih, iso: x.iso, olay: x.olay, kaynak: x.kaynak }; })) + '</div>';
-    if (t.celiskiler && t.celiskiler.length) h += '<div class="card soft"><div class="eyebrow">Çalışmalar arası çelişki</div><ul class="plain">' + t.celiskiler.map(function (q) { return '<li>' + e(q) + '</li>'; }).join('') + '</ul></div>';
-    h += '<div class="card"><div class="eyebrow">Kaynaklar ve doğrulama</div>' +
-      (t.kaynaklar && t.kaynaklar.length ? '<p class="tiny">Dayandığı bölümler: ' + t.kaynaklar.map(function (s) { return e(s.dosya) + ' (' + e(s.bolum) + (s.tarih ? ', ' + e(s.tarih) : '') + ')'; }).join(' · ') + '</p>' : '') +
-      (t.web && t.web.length ? '<p class="tiny">Web kaynakları (' + e(D.derleme_tarihi) + '): ' + t.web.map(function (w) { return '<a href="' + e(w.url) + '" target="_blank" rel="noopener">' + e(w.ne) + '</a>'; }).join(' · ') + '</p>' : '') +
-      (t.degisiklikler && t.degisiklikler.length ? '<details><summary>Doğrulama notları (' + t.degisiklikler.length + ')</summary><ul class="plain" style="margin-top:6px">' + t.degisiklikler.map(function (q) { return '<li class="tiny">' + e(q) + '</li>'; }).join('') + '</ul></details>' : '') + '</div>';
-    h += '<div class="foot">Özet ' + e(D.derleme_tarihi) + ' tarihinde ' + e(t.tarih) + ' tarihli çalışmadan derlendi; kaynak çalışmanın hükümleri kendi tarihine göredir.</div>';
-    return h;
-  }
-
-  function tlHtml(list) {
-    var today = D.bugun_iso;
-    var sorted = list.slice().sort(function (a, b) { return (a.iso || '9999') < (b.iso || '9999') ? -1 : 1; });
-    return '<div class="tl">' + sorted.map(function (x) {
-      var cls = 'ileri';
-      if (x.iso) { if (x.iso < today) cls = 'gecti'; else if (x.iso === today) cls = 'bugun'; else if (daysBetween(today, x.iso) <= 30) cls = 'yakin'; }
-      return '<div class="e ' + cls + '"><div class="d">' + e(x.tarih) + '</div><div class="dot"></div><div class="t">' + e(x.olay) + (x.konu_id && topic(x.konu_id) ? ' <a href="#/konu/' + x.konu_id + '">' + e(topic(x.konu_id).kisa || topic(x.konu_id).baslik) + '</a>' : '') + (x.kaynak ? '<small>' + e(x.kaynak) + '</small>' : '') + '</div></div>';
-    }).join('') + '</div>';
-  }
-  function daysBetween(a, b) { return Math.round((new Date(b) - new Date(a)) / 86400000); }
-
-  function takvimHtml() {
-    return '<a class="back" href="#/">‹ Ağaca dön</a><div><div class="eyebrow">Takvim</div><h1>Tarihi belli pencereler</h1><p class="muted">Gri geçti, turuncu 30 gün içinde, mavi ileride. Tarihler çalışmalardan alındı; ' + e(D.derleme_tarihi) + ' itibarıyla yeniden doğrulanmadı.</p></div><div class="card">' + tlHtml(D.takvim) + '</div>';
-  }
-
-  function calismalarHtml() {
-    return '<a class="back" href="#/">‹ Ağaca dön</a><div><div class="eyebrow">Çalışmalar</div><h1>Kaynak çalışmalar</h1><p class="muted">' + e(D.calismalar_notu) + '</p></div><div class="card"><div class="kv">' + D.calismalar.map(function (c) {
-      return '<div class="r"><div class="k">' + e(c.no) + '</div><div><b>' + e(c.ad) + '</b> <span class="tiny">' + e(c.tarih) + (c.sayfa ? ' · ' + c.sayfa + ' sayfa' : '') + '</span><div class="muted">' + e(c.aciklama) + '</div>' + (c.pdf ? '<a href="pdf/' + e(c.pdf) + '" target="_blank" rel="noopener">PDF aç</a>' : '') + (c.url ? ' · <a href="' + e(c.url) + '" target="_blank" rel="noopener">web kartı</a>' : '') + '</div></div>';
-    }).join('') + '</div></div>';
-  }
-
-  function neYapmaliHtml() {
-    var h = '<a class="back" href="#/">‹ Ağaca dön</a><div><div class="eyebrow">Ne yapmalıyız</div><h1>Seçime göre ilk adımlar</h1><p class="muted">' + e(secimMetni()) + '</p></div>';
-    h += gatesHtml();
-    D.agac.forEach(function (br) {
-      var r = region(br.id); if (!r) return;
-      var steps = (r.ne_yapmali || []).filter(function (s) { var t = topic(s.konu_id); return !t || uyum(t).ok; });
-      h += '<div class="card"><div class="eyebrow">' + e(br.ad) + '</div><div class="steps">' + steps.map(function (s, i) {
-        var t = topic(s.konu_id);
-        return '<div class="step"><div class="n">' + (i + 1) + '</div><div>' + e(s.adim) + '<div class="meta">' + e(s.kim) + ' · ' + e(s.ne_zaman) + (t ? ' · <a href="#/konu/' + t.id + '">' + e(t.kisa || t.baslik) + '</a>' : '') + '</div></div></div>';
-      }).join('') + (steps.length ? '' : '<p class="muted">Seçime uyan adım yok.</p>') + '</div></div>';
-    });
-    h += '<div class="card"><div class="eyebrow">Her zaman</div><ul class="plain">' + D.sabit_adimlar.map(function (s) { return '<li>' + e(s) + '</li>'; }).join('') + '</ul></div>';
-    return h;
-  }
-
-  // ---- yönlendirme ----
-  function render() {
-    var hash = location.hash.replace(/^#/, '') || '/';
-    var app = document.getElementById('app'); var html = '';
-    var m;
-    if ((m = hash.match(/^\/bolge\/([\w-]+)/))) html = regionHtml(m[1]);
-    else if ((m = hash.match(/^\/konu\/([\w-]+)/))) html = topicHtml(m[1]);
-    else if (hash.indexOf('/takvim') === 0) html = takvimHtml();
-    else if (hash.indexOf('/calismalar') === 0) html = calismalarHtml();
-    else if (hash.indexOf('/ne-yapmali') === 0) html = neYapmaliHtml();
-    else html = homeHtml();
-    html += '<div class="row tiny" style="justify-content:space-between"><span>' + e(D.surum) + '</span><span><button type="button" class="btn" data-act="edit">' + (document.body.classList.contains('editing') ? 'Düzenlemeyi kapat' : 'Düzenle') + '</button> <button type="button" class="btn" data-act="export">Durumu dışa aktar</button></span></div>';
-    app.innerHTML = html;
-    document.querySelectorAll('#bar nav a').forEach(function (a) { a.classList.toggle('on', hash === a.getAttribute('data-nav') || (a.getAttribute('data-nav') !== '/' && hash.indexOf(a.getAttribute('data-nav')) === 0)); });
-    window.scrollTo(0, 0);
-  }
-  document.addEventListener('click', function (ev) {
-    var b = ev.target.closest('button'); if (!b) return;
-    if (b.dataset.gate) { sel[b.dataset.gate] = b.dataset.val; saveSel(); render(); return; }
-    if (b.dataset.act === 'edit') { document.body.classList.toggle('editing'); render(); return; }
-    if (b.dataset.act === 'export') {
-      var blob = new Blob([JSON.stringify(durum, null, 1)], { type: 'application/json' }); var a = document.createElement('a');
-      a.href = URL.createObjectURL(blob); a.download = 'durum.json'; document.body.appendChild(a); a.click(); a.remove(); return;
-    }
-    if (b.dataset.act === 'kaydet') {
-      var id = b.dataset.id; var box = b.closest('.card'); var d = durum[id] || {};
-      d.durum = box.querySelector('[data-ed=durum]').value; d.ilerleme = Number(box.querySelector('[data-ed=ilerleme]').value);
-      d.gorevler = box.querySelector('[data-ed=gorevler]').value.split('\n').map(function (l) { return l.trim(); }).filter(Boolean).map(function (l) { var done = /^x\s+/i.test(l); return { ad: l.replace(/^x\s+/i, ''), bitti: done }; });
-      d.not = box.querySelector('[data-ed=not]').value;
-      d.saha_bant = box.querySelector('[data-ed=saha_bant]').value; d.saha_puan = box.querySelector('[data-ed=saha_puan]').value;
-      d.saha_not = box.querySelector('[data-ed=saha_not]').value; d.saha_tarih = box.querySelector('[data-ed=saha_tarih]').value;
-      durum[id] = d; saveDurum(); render(); return;
-    }
-  });
-  window.addEventListener('hashchange', render);
-  render();
-  // Sitenin kökünde durum.json varsa (yöneticinin dışa aktardığı işaretler) herkes için yükle; yerel işaretler önde kalır.
-  try {
-    fetch('durum.json', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
-      if (!j) return; var changed = false;
-      Object.keys(j).forEach(function (k) { if (!durum[k]) { durum[k] = j[k]; changed = true; } });
-      if (changed) render();
-    }).catch(function () {});
-  } catch (e) {}
-})();
-</script>
+<script src="data.js?v=r3"></script>
+<script src="app.js?v=r3"></script>
 </body>
 </html>
