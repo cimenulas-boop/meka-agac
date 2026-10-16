@@ -1,0 +1,62 @@
+# MEKA Karar Ağacı: yayına alma (GitHub Pages, Render ya da Azure)
+
+Uygulama tamamen statik: `index.html`, `data.js`, `pdf/` klasörü ve isteğe bağlı `durum.json`. Sunucu tarafı kod yok, veritabanı yok. Herhangi bir statik barındırma çalışır. Bilgisayarda `gh` kurulu ve GitHub oturumu olmadığı için yayını Claude yapamadı; aşağıdaki yollardan biri 10 dakika sürer.
+
+## En kısa yol: GitHub Pages, tarayıcıdan (kurulum gerekmez)
+
+1. github.com'da giriş yapın, **New repository**: ad `meka-agac`, görünürlük **Public** (ücretsiz hesapta Pages yalnız public depodan yayınlanır; içerik herkese açık olur, link bilmeyen bulmaz ama gizli değildir. Private depo için GitHub Pro ya da Team gerekir).
+2. Depo sayfasında **Add file > Upload files**: bu klasörün içindekileri (index.html, data.js, AZURE_KURULUM.md ve `pdf` klasörünü) sürükleyip bırakın, **Commit changes**.
+3. **Settings > Pages > Build and deployment**: Source *Deploy from a branch*, Branch *main*, klasör */ (root)*, **Save**.
+4. Bir iki dakika sonra adres: `https://<kullanici-adi>.github.io/meka-agac/`. Bu linki ekibe gönderin.
+
+Güncelleme: değişen dosyayı aynı yoldan tekrar yükleyin (Upload files, üzerine yazar).
+
+## Render (statik site, ücretsiz)
+
+1. Önce yukarıdaki gibi bir GitHub deposu olsun (Render depodan okur; zip kabul etmez).
+2. render.com'da **New > Static Site**, GitHub hesabını bağlayın, `meka-agac` deposunu seçin. Build command boş, Publish directory `.`.
+3. Adres `https://meka-agac.onrender.com` biçiminde olur. Depoya her yüklemede kendiliğinden yenilenir. Render'da depo private de olabilir.
+
+## Azure Static Web Apps (ücretsiz katman yeter)
+
+1. Azure portalında **Static Web App** oluşturun: Plan *Free*, dağıtım kaynağı *Other* (GitHub gerekmez).
+2. Bilgisayarınızda Node.js varsa SWA CLI ile yükleyin:
+
+```bash
+npm install -g @azure/static-web-apps-cli
+```
+
+```bash
+swa deploy ./meka_agac --env production --deployment-token <PORTALDAN_KOPYALANAN_TOKEN>
+```
+
+   Token: portalda Static Web App > *Overview* > *Manage deployment token*.
+3. Adres `https://<isim>.azurestaticapps.net` olur. Ekibe bu linki gönderin; telefon tarayıcısında açılır.
+4. Erişimi kısıtlamak isterseniz: *Standard* plana geçip Entra ID (şirket hesabı) ile oturum zorunluluğu koyabilirsiniz. Free planda herkese açık olur; link bilmeyen bulamaz ama gizli değildir.
+
+## Seçenek 2: Azure Storage statik web sitesi
+
+1. Bir Storage hesabı açın (StorageV2). *Static website* özelliğini açın, index belgesi `index.html`.
+2. `$web` kapsayıcısına klasörün içeriğini yükleyin (portaldan sürükle bırak ya da Azure Storage Explorer).
+3. Adres `https://<hesap>.z6.web.core.windows.net/` biçiminde olur.
+
+## Seçenek 3: Mevcut bir IIS ya da Linux sunucu
+
+Klasörü olduğu gibi kopyalayın. `.pdf` ve `.js` için MIME türleri standarttır; ek ayar gerekmez.
+
+## Güncelleme nasıl yapılır
+
+- **İçerik** (`data.js`): yeni çalışma eklenince ya da özetler düzeltilince Claude Code ile yeniden üretilir; dosyayı değiştirip tekrar yüklemek yeter.
+- **İlerleme ve görevler**: uygulamada *Düzenle* ile işaretleyin, *Durumu dışa aktar* ile `durum.json` indirin, bu dosyayı sitenin kök klasörüne koyup yükleyin. Herkes aynı durumu görür. İşaretler yüklenmeden önce yalnızca o cihazda kalır.
+- **Yeni PDF**: `pdf/` klasörüne koyun ve `data.js` içindeki `dosyalar` ya da `calismalar` listesine ekleyin.
+
+## Dosya listesi
+
+```
+meka_agac/
+  index.html          uygulama (tek dosya)
+  data.js             39 yaprak, 8 bölge, takvim, çalışmalar
+  durum.json          (isteğe bağlı) yöneticinin işaretlediği durum
+  AZURE_KURULUM.md    bu dosya
+  pdf/                14 PDF: savunma raporu ve özetleri, 02-10 çalışmaları, GPT kartı, poster
+```
