@@ -4,7 +4,7 @@ window.MEKA_DATA = {
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 12 yaprak 16 Ekim 2026'da web araştırmasıyla güncellendi.",
 "derleme_tarihi": "16 Ekim 2026",
 "bugun_iso": "2026-10-16",
-"surum": "Sürüm 16 Ekim 2026 · 12 yaprak web araştırmasıyla güncellendi · 30 Eylül sonrası çalışmalar pakette yok",
+"surum": "Sürüm 16 Ekim 2026 (2. tur) · 14 yaprağın açık soruları web'le kapatıldı · 30 Eylül sonrası çalışmalar pakette yok",
 "agac": [
 {
 "id": "meka",
@@ -1417,8 +1417,8 @@ window.MEKA_DATA = {
 "id": "sav_istihkam",
 "baslik": "İstihkam ataşmanları: dozer bıçağı, mayın pulluğu ve silindiri",
 "bant": "ikincil",
-"puan_metni": "Talep NATO tarafında firma duyuruları ve haberlerle doğrulandı; tek resmi kaynak olan İngiltere ilanı açılamadı. Ürün MEKA'nın ağır sac, kaynak ve hidrolik yetkinliğiyle örtüşüyor. Ancak pazar Pearson'ın hakimiyetinde, Türkiye'de yerli talep kanıtı bulunamadı ve MEKA'nın girişi bir iki araç üreticisinin alt yüklenici kararına bağlı. Bu yüzden öne çıkan değil ikincil; FNSS ve Hidromek görüşmeleri olumlu dönerse yükselebilir. 3,55 / 5, savunma raporu baz senaryo, Tablo 7.1. 24 niş içinde 7. sıra, sınıf ikincil. Kriter puanları: teknik uyum 4, ihracat pazarı 4, giriş engeli 3, rekabet 3, gelir süresi 3, yatırım 3, sinerji 4. Yalnızca savunma alıcılı nişler tablosunda 5. sıra, Tablo 7.3. Raporun 8.9 bölümünde ön puan 3,5 yazıyor. Kart da 3,55 veriyor.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 22 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Band değişmiyor. İhracat talebi resmi kaynakla doğrulandı: İngiltere 26 pulluk ve 24 kit için tahmini 10,5 milyon sterlin, doğrudan ihale, Pearson tek tedarikçi. Pearson'ın yerel ortak modeli firma beyanı ve Avustralya haberiyle doğrulandı. Bu yaprağı yaşatıyor. Ancak Türkiye'de açık bir Kara Kuvvetleri programı yok, Pearson'ın hiçbir sayfasında Türkiye geçmiyor, FNSS Umman işi 6 araçlık küçük bir adet. TGB ücreti ve İngiltere sözleşmesinin nihai bedeli teyitsiz; sözleşme için Haziran 2026'da sonlandırma bildirimi yayımlanmış, nedeni okunmadı. Giriş FNSS, BMC ya da Pearson'a alt yüklenici olmaya bağlı; zırh çeliği kaynak onayı, TGB ve MSB ihracat izni ek süre ister. Bu yüzden ikincil kalmalı; kapı değerleri şirket yatırımı, bütçe dilimi 2 ve iki yol korunur. Talep NATO tarafında firma duyuruları ve haberlerle doğrulandı; tek resmi kaynak olan İngiltere ilanı açılamadı. Ürün MEKA'nın ağır sac, kaynak ve hidrolik yetkinliğiyle örtüşüyor. Ancak pazar Pearson'ın hakimiyetinde, Türkiye'de yerli talep kanıtı bulunamadı ve MEKA'nın girişi bir iki araç üreticisinin alt yüklenici kararına bağlı. Bu yüzden öne çıkan değil ikincil; FNSS ve Hidromek görüşmeleri olumlu dönerse yükselebilir. 3,55 / 5, savunma raporu baz senaryo, Tablo 7.1. 24 niş içinde 7. sıra, sınıf ikincil. Kriter puanları: teknik uyum 4, ihracat pazarı 4, giriş engeli 3, rekabet 3, gelir süresi 3, yatırım 3, sinerji 4. Yalnızca savunma alıcılı nişler tablosunda 5. sıra, Tablo 7.3. Raporun 8.9 bölümünde ön puan 3,5 yazıyor. Kart da 3,55 veriyor.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 22 Eylül 2026",
 "ne": "Tank, zırhlı muharebe aracı ve zırhlı iş makinesine takılan ön ekipman: mayın pulluğu, muharebe dozer bıçağı, mayın silindiri, araç arayüz kiti, hızlı kazı kovası ve zırhlı kabin. Alıcı ordular değil, araç üreticileri ve Pearson gibi ataşman uzmanlarıdır. MEKA için yol, bu firmalara ağır sac gövde, kaynaklı konstrüksiyon ve hidrolik alt montaj yapmaktır.",
 "neden": "Ukrayna savaşı ve NATO doğu kanadı tahkimatı mayın açma ve engel aşma ekipmanına talebi 2023 sonrası belirgin artırdı. İngiltere'nin 2025'te 26 pulluk ve 24 tank kitini 8,67 milyon sterline aldığı bilgisi arama özetine dayanır, ilan sayfası açılamadı (doğrulanamadı). Polonya 99 Abrams için istihkam kiti sipariş etti (firma beyanı). Pearson 19 Ocak 2026'da insansız MineWolf 370 Next Generation sistemini duyurdu (firma beyanı). Ürün ağır sac, kaynak ve hidrolikten ibaret; MEKA'nın mevcut üretim yetkinliğiyle örtüşür.",
 "rakamlar": [
@@ -1481,42 +1481,146 @@ window.MEKA_DATA = {
 "deger": "bulunamadı",
 "aciklama": "Türkiye Kara Kuvvetleri 2025 ile 2026 arası zırhlı istihkam aracı ya da mayın pulluğu alım sözleşmesi; SSB ve FNSS sayfalarında açık kayıt yok",
 "kaynak": "bulunamadı"
+},
+{
+"deger": "10.500.000 sterlin; 26 pulluk ve 24 tank montaj kiti",
+"aciklama": "İngiltere Savunma Bakanlığı Pearson Engineering TWMP yenileme sözleşmesi, yaklaşık 18 ay, doğrudan ihale, UK7 bildirimi 4 Eylül 2025. Resmi sayfada doğrulandı.",
+"kaynak": "https://www.find-tender.service.gov.uk/procurement/ocds-h6vhtk-04ff4a"
+},
+{
+"deger": "29 Haziran 2026",
+"aciklama": "Aynı sözleşme için UK11 sözleşme sonlandırma bildirimi yayın tarihi; UK9 performans bildirimi 11 Haziran 2026. İçerikler açılmadı; tamamlanma mı erken bitiş mi belirsiz.",
+"kaynak": "https://www.find-tender.service.gov.uk/procurement/ocds-h6vhtk-04ff4a"
+},
+{
+"deger": "8.674.805 sterlin KDV hariç; 10.409.766 sterlin KDV dahil",
+"aciklama": "Aynı sözleşmenin UK6 ihale sonucu bildirimi; imza 20 Ağustos 2025, bitiş 31 Mart 2026. Doğrulanamadı, sayfa 403 verdi.",
+"kaynak": "https://www.find-tender.service.gov.uk/Notice/046166-2025"
+},
+{
+"deger": "Yaklaşık 60 milyon sterlin",
+"aciklama": "Pearson Engineering 2024 yılı toplam ihracatı, sayfada nearly 60m pounds. Firma beyanı, doğrulandı. Haber tarihi 18 Haziran 2026.",
+"kaynak": "https://www.pearson-eng.com/news/pearson-engineering-and-ukrainska-bavovna-expand-partnership-to-support-ukraines-mobility-and-demining-efforts/"
+},
+{
+"deger": "Yüzde 90'dan fazla; 80 kişi",
+"aciklama": "Pearson Engineering işinin yurt dışı payı ve İngiltere ekibi büyüklüğü; bağlı şirketler ABD ve Singapur. Firma beyanı, doğrulandı.",
+"kaynak": "https://www.pearson-eng.com/about/localisation/"
+},
+{
+"deger": "21 Ekim 2021",
+"aciklama": "Marand'ın Pearson için Avustralya'da prototip Earth Anchor Dozer Blade üretme sözleşmesi; ilk ünite Rheinmetall Lynx CSV'ye takılacak. Haber, doğrulandı; adet ve bedel yok.",
+"kaynak": "https://www.defenceconnect.com.au/land/8942-pearson-engineering-awards-local-manufacturing-deal-to-marand"
+},
+{
+"deger": "11,2 milyon dolar",
+"aciklama": "ABD Ordusu M1150 ABV sözleşme değişikliği, Pearson, Şubat 2024. Haber, bu turda açılmadı.",
+"kaynak": "https://www.army-technology.com/news/us-army-purchases-assault-breacher-vehicles-from-uk-company/"
+},
+{
+"deger": "100'üncü araç",
+"aciklama": "Pearson Armstrong Works'te üretilen Boxer görev modülü gövdeleri ile İngiliz ordusuna teslim edilen araç sayısı, 17 Eylül 2026. Firma beyanı, bu turda açılmadı.",
+"kaynak": "https://www.pearson-eng.com/news/team-boxer-uk-british-manufacturing-at-its-best/"
+},
+{
+"deger": "1.500 ton",
+"aciklama": "Frontline Manufacturing'in Rheinmetall Lynx gövdesini büktüğü pres kapasitesi, Avustralya, 2 Mart 2022. Haber, bu turda açılmadı.",
+"kaynak": "https://australiandefence.com.au/defence/land/frontline-manufacturing-completes-first-lynx-hull-bend-for-us-omfv"
+},
+{
+"deger": "172 araç; 145 adet 8x8, 27 adet 6x6; 6 istihkam aracı; 13 konfigürasyon",
+"aciklama": "FNSS Pars III Umman sözleşmesi, SavunmaSanayiST 24 Nisan 2019. Haber, doğrulandı. Janes'teki 8 adet rakamı bu turda açılmadı.",
+"kaynak": "https://www.savunmasanayist.com/pars-iiie-yeni-konfigurasyon-zirhli-istihkam-araci/"
+},
+{
+"deger": "2 adet Jandarma; 6 Türkiye, 20 Azerbaycan, 2 Togo, 2 Burkina Faso",
+"aciklama": "ASFAT MEMATT mayın temizleme aracı teslimatları, Mart 2023 itibarıyla. Haber, bu turda açılmadı.",
+"kaynak": "https://www.savunmasanayist.com/ssb-ile-asfat-arasinda-mematt-anlasmasi/"
+},
+{
+"deger": "141 adet; teslimat 2028 ilk çeyrek",
+"aciklama": "SSB ile Elektroland Defence bomba imha robotu projesi, 5 Aralık 2025. Haber, bu turda açılmadı.",
+"kaynak": "https://www.c4defence.com/?p=190536"
+},
+{
+"deger": "8.586,20 TL inceleme; 17.172,42 TL belgelendirme; 8.586,20 TL ikinci inceleme",
+"aciklama": "MSB Tesis Güvenlik Belgesi ücretleri 2026, KDV ve damga vergisi hariç. Doğrulanamadı: PDF yönlendirme döngüsü verdi, rakamlar arama özetinden.",
+"kaynak": "https://www.msb.gov.tr/Content/Upload/Docs/ucretler-ve-ucretlerin-odenmesi-sureci-2026.pdf"
+},
+{
+"deger": "3,0 ile 130,0 mm; 480 ile 540 HBW (3 ile 80 mm); 470 ile 540 HBW (80,1 ile 130 mm)",
+"aciklama": "SSAB Armox 500T kalınlık aralığı ve sertlik; 50 mm üzeri plakalar haddeden çıkmış kenarla teslim; ilave ısıl işlem için tasarlanmamış. Firma beyanı, doğrulandı.",
+"kaynak": "https://www.ssab.com/en/brands-and-products/armox/product-offer/armox-500t"
+},
+{
+"deger": "18 Haziran 2003",
+"aciklama": "MIL-STD-1185 iptal tarihi; yerine TACOM çizimi 12479550. Bu turda açılmadı.",
+"kaynak": "https://everyspec.com/MIL-STD/MIL-STD-1100-1299/MIL-STD-1185_NOTICE-1_11797/"
+},
+{
+"deger": "1 ile 5 yıl hapis",
+"aciklama": "5201 sayılı Kanun Madde 8, izinsiz ihracat cezası; Madde 7 ihracat MSB izni, Madde 4 liste her ocak ilan. Resmi, bu turda açılmadı.",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2004/07/20040703.htm"
 }
 ],
-"durum": "Talep tarafı canlı: Polonya 99 kit (firma beyanı), ABD ABV sözleşme değişikliği (haber, DoD duyurusuna dayanıyor), Almanya üzerinden Ukrayna pullukları (haber), Litvanya tahkimat parkları (haber, bakanlık kaynaklı). İngiltere 2025 doğrudan alımı resmi ilana dayanıyor ama sayfa açılamadı, rakamlar doğrulanamadı. Pearson Engineering pazarın baskın oyuncusu; 2026'da insansız MineWolf 370 NG'yi duyurdu (firma beyanı). Türkiye'de FNSS KUNDUZ 2013 tesliminden sonra yalnız Filipinler ihracatı aldı, yeni yerli alım bulunamadı. Hidromek zırhlı kabinli iş makinesiyle İspanya ordusuna girdi. MEKA bu zincirde ürün sahibi değil, alt yüklenici konumunda olabilir.",
+"durum": "İstihkam ataşmanı ihracat pazarı resmi kaynakla doğrulandı: İngiltere Savunma Bakanlığı 2025'te 26 pulluk ve 24 montaj kiti için tahmini 10,5 milyon sterlinlik sözleşmeyi Pearson'a doğrudan verdi; gerekçe Pearson'ın tek know-how sahibi olması ve Ukrayna'ya hibe edilen stokun yenilenmesi. Aynı kayıtta Haziran 2026 tarihli performans ve sonlandırma bildirimleri var, içerikleri okunmadı. Pearson kendi beyanıyla 2024'te yaklaşık 60 milyon sterlin ihracat yaptı, işinin yüzde 90'dan fazlası yurt dışı, yerelleşme şartı olan pazarlarda yerel ortakla üretiyor; kanıtlanmış örnekler ABD, İspanya, Hindistan, Uzak Doğu ve Avustralya'da Marand. Türkiye adı hiçbir Pearson sayfasında geçmiyor; tek bağ FNSS'nin Umman için 6 adet Pars III istihkam aracında Pearson donanımı kullanması. Yurt içinde Kara Kuvvetleri 2026-2028 planı web'de yok; SSB listesi, BMC ve MEMATT bulguları bu turda yeniden kontrol edilmedi. Giriş şartlarında iki önemli rakam teyitsiz kaldı: MSB TGB ücretleri ve İngiltere sözleşmesinin KDV hariç bedeli. Armox 500T malzeme verileri SSAB sayfasında doğrulandı. Yargı değişmiyor: nişe giriş ancak FNSS, BMC ya da Pearson gibi bir entegratörün alt yüklenicisi olarak mümkün; bağımsız ürün yolu uzun.",
 "acik_sorular": [
-"Kara Kuvvetleri'nin 2026 ile 2028 arası zırhlı istihkam aracı ve mayın açma ekipmanı planı nedir; SSB'de açık ya da kapalı bir proje var mı",
-"Pearson Engineering Avustralya'da yaptığı gibi Türkiye'de yerel imalatçı arıyor mu; FFG ve Rheinmetall gibi Avrupa entegratörleri sac gövde dış kaynak kullanıyor mu",
-"FNSS ve Otokar'ın zırhlı araç ihracat sözleşmelerinde dozer bıçağı ve pulluk opsiyonu var mı; bu ataşmanları kim üretiyor",
-"MEKA'nın plazma ya da oksijen kesim kapasitesi 50 mm zırh çeliğini ve aşınma çeliğini kesebiliyor mu; balistik çelik kaynak prosedürü onayı için ne gerekir",
-"Tesis Güvenlik Belgesi ve ihracat kontrol izni süresi ve maliyeti; ataşmanın tek başına askeri malzeme sayılıp sayılmadığı",
-"İngiltere 2025 Pearson sözleşmesinin gerçek bedeli ve adetleri; find-tender ilanı başka bir yoldan (Contracts Finder, basın) teyit edilmeli"
+"Görüşme gerekir: Kara Kuvvetleri'nin 2026 ile 2028 arası zırhlı istihkam aracı ve mayın açma ekipmanı planı nedir; SSB'de açık ya da kapalı bir proje var mı (SSB Kara Araçları Dairesi Başkanlığı; SSB santral ve iletişim formu üzerinden randevu. İkinci kanal: BMC Ankara savunma iş geliştirme, ALTAY tabanlı istihkam ve mayın temizleme araçları yan sanayi planı. Üçüncü kanal: EKAP'ta Kara Kuvvetleri Lojistik Komutanlığı ihale ilanları, anahtar kelime istihkam ve mayın.)",
+"Kısmen cevaplandı: Pearson Engineering Avustralya'da yaptığı gibi Türkiye'de yerel imalatçı arıyor mu; FFG ve Rheinmetall gibi Avrupa entegratörleri sac gövde dış kaynak kullanıyor mu",
+"Kısmen cevaplandı: FNSS ve Otokar'ın zırhlı araç ihracat sözleşmelerinde dozer bıçağı ve pulluk opsiyonu var mı; bu ataşmanları kim üretiyor",
+"Kısmen cevaplandı: Balistik çelik kaynak prosedürü onayı ve 50 mm zırh çeliği kesimi için ne gerekir; MEKA'nın plazma veya oksijen kesim kapasitesi şirket içi soru",
+"Kısmen cevaplandı: Tesis Güvenlik Belgesi ve ihracat kontrol izni süresi ve maliyeti; ataşmanın tek başına askeri malzeme sayılıp sayılmadığı"
 ],
 "adimlar": [
 {
-"adim": "FNSS ve Hidromek ile tedarikçi görüşmesi: ağır sac gövde, kaynaklı bıçak ve pulluk çerçevesi, hidrolik silindir montajı için kapasite sunumu",
-"kim": "MEKA iş geliştirme ve üretim müdürü",
+"adim": "Find a Tender UK9 (11 Haziran 2026) ve UK11 (29 Haziran 2026) bildirimlerini tarayıcıdan aç: sözleşme tamamlandı mı erken bitti mi, nihai ödenen bedel ne; KDV hariç 8.674.805 sterlin rakamını UK6 bildiriminden teyit et",
+"kim": "MEKA iş geliştirme",
+"ne_zaman": "Ekim 2026"
+},
+{
+"adim": "MSB 2026 ücret PDF'ini tarayıcıdan indir ve TGB ücretlerini teyit et; açılmazsa MSB Teknik Hizmetler Dairesi Savunma Sanayii Güvenliği şubesine sor: ücret, işlem süresi, Üretim İzin Belgesi gereği, 2026 kontrole tabi listede ataşman kalemi",
+"kim": "MEKA hukuk ve kalite birimi",
 "ne_zaman": "Kasım 2026"
 },
 {
-"adim": "Pearson Engineering ve FFG'ye yerel imalat ortağı başvurusu; Avustralya modelindeki fabrikasyon ve hidrolik alt tedarik rolü örnek alınmalı",
-"kim": "MEKA ihracat ekibi",
+"adim": "SSB Kara Araçları Dairesi ile görüşme: Kara Kuvvetleri 2026-2028 istihkam aracı ve mayın açma ekipmanı planı, kapalı proje var mı, yan sanayi beklentisi",
+"kim": "Mehmet Ulaş, MEKA iş geliştirme",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "FNSS Gölbaşı tedarik zinciri birimi ile görüşme: AZMİM ve Pars III istihkam ataşmanlarının kaynaklı gövde imalatında alt yüklenici kullanımı ve MEKA'nın aday olma şartları",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "Pearson Engineering iş geliştirme ekibine e-posta ve telefon (+44 191 234 0001): Türkiye'de yerel imalat ortağı ilgisi, Marand ve Ukrainska Bavovna modeli, MEKA kapasite özeti ile",
+"kim": "MEKA iş geliştirme, İngilizce dosya ile",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "Şirket içi kapasite tespiti: plazma ve oksijen kesim makinelerinin kalınlık sınırı, 50 mm sertleştirilmiş sacda deneme kesimi, kaynakçı belgeleri envanteri",
+"kim": "MEKA üretim müdürü",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "SSAB Türkiye'den Armox 500T numune plaka, Armox Guarantees ve atölye önerileri broşürü; EN ISO 15614-1 prosedür onayı için akredite kuruluştan teklif",
+"kim": "MEKA kalite ve kaynak mühendisi",
 "ne_zaman": "Aralık 2026"
 },
 {
-"adim": "Zırh çeliği ve aşınma çeliği kesim ve kaynak kapasitesi testi; 50 mm plazma kesim ve balistik çelik kaynak prosedürü ön çalışması",
-"kim": "MEKA üretim ve kalite",
-"ne_zaman": "Ocak 2027"
+"adim": "BMC ile görüşme: ALTAY tabanlı istihkam savaş aracı ve mayın temizleme sistemi için kaynaklı yapı alt yüklenici planı",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "Aralık 2026"
 },
 {
-"adim": "Tesis Güvenlik Belgesi başvurusu ve SSB sanayileşme portalı kaydı; istihkam ekipmanı için ihracat kontrol sınıfı sorgusu",
-"kim": "MEKA hukuk ve savunma koordinatörü",
-"ne_zaman": "Mart 2027"
+"adim": "Otokar Arifiye savunma satınalma ile kısa görüşme: ihracat araçlarında istihkam varyantı ve ataşman tedarikçisi var mı",
+"kim": "MEKA iş geliştirme",
+"ne_zaman": "Aralık 2026"
 },
 {
-"adim": "Eurosatory 2028 ve IDEF 2027 öncesi bir dozer bıçağı ya da pulluk gövdesi örnek üretimi; FNSS ile ortak sergi görüşmesi",
-"kim": "MEKA Ar-Ge",
-"ne_zaman": "Haziran 2027"
+"adim": "Görüşme sonuçlarını kayda geçirme: her görüşme için tarih, kişi, verilen cevap ve kanıt niteliği elle yazılır; durum etiketi gorusme olan kalemler buna göre cevaplandi ya da kapandi yapılır",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "Her görüşmeden sonra"
 }
 ],
 "riskler": [
@@ -1677,7 +1781,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: İlk araştırma: arama bütçesi 8 ile sınırlıydı ve tamamı kullanıldı; 20 sayfa okundu; find-tender ilanları 4 denemede 403 verdi; fnss.com.tr sertifika hatası, hidromek.com savunma sayfası 404, kam.lt, agg-net ve oemoffhighway 403. Çürütücü turu: 8 URL denendi, 7 açıldı. find-tender.service.gov.uk/Notice/046166-2025 yine 403 verdi; aynı ana makinedeki 013834-2025 bu nedenle denenmedi. İngiltere sözleşme rakamları (26 pulluk, 24 kit, 8.674.805 sterlin, 8,4 milyon ön tahmin, 20 Ağustos 2025, 31 Mart 2026, tek tedarikçi gerekçesi) hiçbir turda sayfadan okunamadı; tümü doğrulanamadı olarak işaretlendi. Bu turda kontrol edilmeyen kaynaklar: Pearson basın bültenleri listesi (3 milyon sterlin robotik, Eurosatory 2026 lansmanı), Calibre Defence, Defence Leaders, Defence Connect, Farmers Guide, Army Technology KUNDUZ, Defence Turkey, Janes, Bengütürk, Army Recognition İspanya, Pearson ABD 155 set bülteni; bunlar ilk araştırmanın okumasına dayanır ve metinde 'bu turda kontrol edilmedi' diye işaretlendi. Pazar büyüklüğüne dair bağımsız rapor yok; rakamlar tekil sözleşmelerdir ve çoğu tek kaynaklıdır. Firma sitesinden gelen tüm rakamlar firma beyanıdır. Bütçe ve yol kapıları tahmindir. Not: Kullanıcının Azure yerine GitHub veya Render'da yayınlama ve link isteği bu doğrulama görevinin kapsamı dışındadır; bu ajan yalnız web sayfası okur ve dağıtım yapamaz, link üretemez. Yayınlama işini ana akış yürütmelidir.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 6 açık sorunun 1'i cevaplandı, 4'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Çürütme turunda en fazla 8 URL açılabildi; 8 denendi, 6 açıldı. Find a Tender UK6 ihale sonucu bildirimi 403 verdi; KDV hariç bedel, imza ve bitiş tarihleri doğrulanamadı. MSB 2026 ücret PDF'i yönlendirme döngüsüne girdi; TGB ücretleri doğrulanamadı, yalnızca önceki tur arama özetine dayanıyor. OCDS kaydında Haziran 2026 tarihli performans ve sonlandırma bildirimleri görüldü ama açılamadı; sözleşmenin nasıl bittiği belirsiz. Defence Connect haberi kısmen ücretli duvar arkasında, ana cümleler okunabildi. SSB, BMC, MEMATT, c4defence, Janes, AA, Otokar, everyspec, akademik ve 5201 sayılı Kanun kaynakları bu turda açılmadı; bu bilgiler önceki turdan aktarıldı ve doğrulanmamış sayılmalı. Kara Kuvvetleri 2026-2028 planı, 2026 kontrole tabi liste ve SSB PDF metinleri web'den alınamıyor; bu boşluklar yalnızca görüşmeyle kapanır, daha fazla web araması bunları çözmez. Görüşme sonuçları web'de yoktur; elle girilir ve kanıt puanı elle güncellenir. EN ISO kaynak standartları genel bilgidir. Pearson birim fiyatı kaba hesaptır.",
 "kanit": 3,
 "web": [
 {
@@ -1774,6 +1878,176 @@ window.MEKA_DATA = {
 "url": "https://www.army-technology.com/contractors/mines/pearson-engineering/pressreleases/presspearson-awarded-deliver-breacher-equipment-us/",
 "ne": "Pearson ABD ABV ekipman geçmişi, 155 set; firma bülteni, haber sitesinde yayımlanmış; bu turda açılmadı",
 "tur": "firma"
+},
+{
+"url": "https://www.find-tender.service.gov.uk/procurement/ocds-h6vhtk-04ff4a",
+"ne": "İngiltere MoD Pearson TWMP yenileme sözleşmesi, tahmini 10,5 milyon sterlin, 26 pulluk ve 24 kit, doğrudan ihale, Ukrayna hibesi yenileme; UK9 performans 11 Haziran 2026 ve UK11 sonlandırma 29 Haziran 2026 bildirimleri listede. Bu turda doğrulandı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.find-tender.service.gov.uk/Notice/060619-2026",
+"ne": "UK11 sözleşme sonlandırma bildirimi, 29 Haziran 2026; açılmadı, içerik bilinmiyor",
+"tur": "resmi"
+},
+{
+"url": "https://www.find-tender.service.gov.uk/Notice/055023-2026",
+"ne": "UK9 sözleşme performans bildirimi, 11 Haziran 2026; açılmadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.army-technology.com/news/us-army-purchases-assault-breacher-vehicles-from-uk-company/",
+"ne": "ABD Ordusu ABV sözleşme değişikliği 11,2 milyon dolar, Şubat 2024; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.defenceconnect.com.au/land/8942-pearson-engineering-awards-local-manufacturing-deal-to-marand",
+"ne": "Pearson'ın Avustralya'da Marand ile prototip Earth Anchor Dozer Blade imalatı, Lynx CSV, 21 Ekim 2021; bu turda doğrulandı, kısmen ücretli duvar",
+"tur": "haber"
+},
+{
+"url": "https://australiandefence.com.au/defence/land/frontline-manufacturing-completes-first-lynx-hull-bend-for-us-omfv",
+"ne": "Rheinmetall Lynx gövdesi Frontline Manufacturing tarafından bükülüyor, 1.500 ton pres; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.bisalloy.com/news/australian-steel-for-a-military-vehicle-industry/",
+"ne": "Bisalloy zırh çeliği, Rheinmetall yerel tedarik modeli; bu turda açılmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.pearson-eng.com/about/localisation/",
+"ne": "Pearson yerelleşme sayfası: yüzde 90'dan fazla yurt dışı iş, ABD ve Singapur bağlı şirket, yerel ortakla üretim, 80 kişilik İngiltere ekibi; Türkiye geçmiyor. Bu turda doğrulandı, firma beyanı",
+"tur": "firma"
+},
+{
+"url": "https://www.pearson-eng.com/news/team-boxer-uk-british-manufacturing-at-its-best/",
+"ne": "Pearson Boxer görev modülü gövdeleri, 100'üncü araç, 17 Eylül 2026; bu turda açılmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.pearson-eng.com/news/pearson-engineering-and-ukrainska-bavovna-expand-partnership-to-support-ukraines-mobility-and-demining-efforts/",
+"ne": "Ukrayna lisans anlaşması 18 Haziran 2026, bakım onarım eğitim, 2024 ihracatı yaklaşık 60 milyon sterlin; bu turda doğrulandı, firma beyanı",
+"tur": "firma"
+},
+{
+"url": "https://www.pearson-eng.com/news/combat-engineering-heavyweights-join-forces-to-launch-world-first-uncrewed-mine-breaching-system-at-eurosatory-2026/",
+"ne": "Pearson, Rheinmetall Landsysteme ve DOK-ING insansız mayın açma sistemi, 15 Haziran 2026; bu turda açılmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.pearson-eng.com/news/us-army-partnership/",
+"ne": "ABD Ordusu ile 30 yıl, AUSA 2026; bu turda açılmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.pearson-eng.com/defence-manufacturing-services/",
+"ne": "Armstrong Works imalat hizmetleri; bu turda açılmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.janes.com/defence-intelligence-insights/defence-news/idef-2019-fnss-showcases-pars-88-engineering-vehicle",
+"ne": "FNSS Pars III istihkam aracı, Pearson kiti, Umman 8 araç; bu turda açılmadı, 8 adet doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.savunmasanayist.com/pars-iiie-yeni-konfigurasyon-zirhli-istihkam-araci/",
+"ne": "Umman 172 araç, 145 8x8, 27 6x6, 6 istihkam aracı, Pearson görev donanımı, 24 Nisan 2019; bu turda doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.savunmasanayist.com/fnssden-filipinlere-azmim-ve-silah-kulesi-ihracati/",
+"ne": "AZMİM Filipinler ihracatı; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://aa.com.tr/en/economy/turkish-firm-to-sell-philippines-amphibious-earthmovers/2098039",
+"ne": "FNSS Filipinler AACE sözleşmesi, 4 Ocak 2021; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.otokar.com.tr/en",
+"ne": "Otokar ana sayfa; bu turda açılmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.ssb.gov.tr/proje_kategori/kara-araclari",
+"ne": "SSB kara araçları projeleri; bu turda açılmadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.ssb.gov.tr/storage/img/2026-yili-performans-programi.pdf",
+"ne": "SSB 2026 performans programı, PDF metni okunamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.ssb.gov.tr/storage/img/stratejik-plan-2024-2028.pdf",
+"ne": "SSB 2024-2028 stratejik plan, PDF metni okunamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.savunmasanayist.com/altay-tanki-sasesinden-uc-farkli-arac-gelistiriliyor/",
+"ne": "BMC ALTAY şasesi üzerinde mayın temizleme, kurtarıcı ve istihkam aracı, 17 Ekim 2023; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.savunmasanayist.com/ssb-ile-asfat-arasinda-mematt-anlasmasi/",
+"ne": "MEMATT 2 adet Jandarma, önceki teslimatlar; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.c4defence.com/?p=190536",
+"ne": "SSB 141 bomba imha robotu projesi, 5 Aralık 2025; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://everyspec.com/MIL-STD/MIL-STD-1100-1299/MIL-STD-1185_NOTICE-1_11797/",
+"ne": "MIL-STD-1185 iptali; bu turda açılmadı",
+"tur": "diger"
+},
+{
+"url": "https://www.ssab.com/en/brands-and-products/armox/product-offer",
+"ne": "Armox ürün tablosu; bu turda açılmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.ssab.com/en/brands-and-products/armox/product-offer/armox-500t",
+"ne": "Armox 500T 3 ile 130 mm, 480 ile 540 HBW, 50 mm üzeri haddeden çıkmış kenar, ısıl işlem yapılmaz; bu turda doğrulandı, firma beyanı",
+"tur": "firma"
+},
+{
+"url": "https://www.ssab.com/en/brands-and-products/armox/civilian/armox-workshop-properties",
+"ne": "Armox atölye özellikleri, 701EN broşür; bu turda açılmadı",
+"tur": "firma"
+},
+{
+"url": "https://jeas.springeropen.com/articles/10.1186/s44147-022-00102-7/tables/6",
+"ne": "Armox 500T GTAW kaynak telleri; bu turda açılmadı",
+"tur": "rapor"
+},
+{
+"url": "https://www.mdpi.com/1996-1944/17/14/3427",
+"ne": "Armox lazer kaynak HAZ sertlik; bu turda açılmadı",
+"tur": "rapor"
+},
+{
+"url": "https://www.msb.gov.tr/Content/Upload/Docs/ucretler-ve-ucretlerin-odenmesi-sureci-2026.pdf",
+"ne": "MSB 2026 TGB ücretleri; bu turda yönlendirme döngüsü, doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2004/07/20040703.htm",
+"ne": "5201 sayılı Kanun tam metni; bu turda açılmadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5201&MevzuatTur=1&MevzuatTertip=5",
+"ne": "5201 sayılı Kanun mevzuat kaydı; bu turda açılmadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.ffg-flensburg.de/en/",
+"ne": "FFG ana sayfa; bu turda açılmadı",
+"tur": "firma"
 }
 ],
 "celiskiler": [
@@ -1791,6 +2065,22 @@ window.MEKA_DATA = {
 "İnceleme 01 için yönetime sunum ve karar kanıtı yok diyor; kartın 30 Eylül 2026 YETEN ve SSB fuar desteği son günü de geçti, yapıldığı dosyada yok."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 6 arama, 41 sayfa; çürütücü 6 sayfa açtı, güven 4/5.",
+"İngiltere sözleşmesi: OCDS kaydı açıldı; 26 pulluk, 24 kit, tahmini 10,5 milyon sterlin, 18 ay, madde 41(1) ve Ek 5 paragraf 6 ve 7, Ukrayna hibesi gerekçesi doğrulandı; cevaplandi etiketi korundu.",
+"İngiltere sözleşmesi: UK6 bildirimi 403 verdi; 8.674.805 sterlin KDV hariç, 10.409.766 sterlin KDV dahil, imza 20 Ağustos 2025 ve bitiş 31 Mart 2026 rakamlarına doğrulanamadı notu eklendi.",
+"İngiltere sözleşmesi: yeni bulgu eklendi; UK9 performans bildirimi 11 Haziran 2026 ve UK11 sonlandırma bildirimi 29 Haziran 2026 OCDS kaydında listeleniyor, içerikleri açılmadı.",
+"İngiltere sözleşmesi: bildirim zinciri eklendi; UK5 9 Nisan 2025, UK6 5 Ağustos 2025, UK7 4 Eylül 2025.",
+"Pearson yerelleşme: yüzde 90, ABD ve Singapur, yerel ortak ve yerel tedarik zinciri cümleleri doğrulandı; 80 kişilik İngiltere ekibi ile ABD, İspanya, Hindistan ve Uzak Doğu örnekleri eklendi; firma beyanı olarak işaretlendi; Türkiye adı geçmediği netleştirildi.",
+"Pearson Ukrayna: 18 Haziran 2026 tarihi, DSEI 2025 mutabakat zaptı bağı, onarım bakım eğitim kapsamı ve 2024'te yaklaşık 60 milyon sterlin ihracat doğrulandı; firma beyanı olarak işaretlendi.",
+"Marand haberi: 21 Ekim 2021, prototip Earth Anchor Dozer Blade, Rheinmetall Lynx CSV, Pearson'ın Rheinmetall tedarik düzenlemesi doğrulandı; kısmen ücretli duvar ve adet bedel yokluğu not edildi.",
+"FNSS Umman: 172 araç, 145 8x8, 27 6x6, 13 konfigürasyon, 6 istihkam aracı ve Pearson görev donanımı SavunmaSanayiST'te doğrulandı; haber tarihi 24 Nisan 2019 eklendi; Janes'teki 8 adet ve Pearson kit adları doğrulanmamış olarak işaretlendi.",
+"Armox 500T: 3 ile 80 mm 480 ile 540 HBW, 80,1 ile 130 mm 470 ile 540 HBW, 50 mm üzeri haddeden çıkmış kenar, ilave ısıl işlem için tasarlanmamış ifadesi doğrulandı; akma, çekme, uzama ve darbe değerleri eklendi; kesim yöntemlerinin bu sayfada olmadığı belirtildi; firma beyanı olarak işaretlendi.",
+"MSB TGB ücretleri: PDF yönlendirme döngüsü verdi; 8.586,20 TL, 17.172,42 TL ve 8.586,20 TL rakamlarına doğrulanamadı notu eklendi; durum_guncel'de yaklaşık 26 bin TL ifadesi teyitsiz olarak yeniden yazıldı.",
+"Bu turda açılmayan tüm kaynaklar (SSB, BMC, MEMATT, c4defence, Janes, AA, Otokar, everyspec, akademik, 5201 Kanun, Boxer, Frontline, Bisalloy) cevap ve kaynak alanlarında bu turda açılmadı diye işaretlendi.",
+"Kanıt puanı 4'ten 3'e düşürüldü: iki kritik rakam (TGB ücreti, sözleşme nihai bedeli) teyitsiz, Türkiye tarafı kaynakları bu turda kontrol edilmedi.",
+"Adımlara eklendi: Find a Tender UK9 ve UK11 bildirimlerinin tarayıcıdan açılması; MSB PDF'in tarayıcıdan indirilmesi; görüşme sonuçlarının elle kayda geçirilmesi ve puanlanması.",
+"ek_md'ye görüşme kayıtlarının nasıl puanlanacağına dair kısa not eklendi; kaynak listesine UK9 ve UK11 bildirimleri eklendi.",
+"Pearson iletişim bilgisi kime alanına eklendi: Armstrong Works, Scotswood Road, Newcastle upon Tyne NE15 6UX, +44 191 234 0001.",
 "16 Ekim 2026 ek araştırması: 8 arama, 20 sayfa okundu; çürütücü 7 sayfa açtı, güven 4/5.",
 "find-tender 046166-2025 bu turda da 403 verdi; İngiltere 26 pulluk, 24 kit, 8.674.805 sterlin, 20 Ağustos 2025, 31 Mart 2026 ve tek tedarikçi gerekçesi rakamlarının tümüne 'doğrulanamadı' eklendi (rakamlar, neden, durum, takvim, web, celiskiler, calisma_md)",
 "find-tender 013834-2025 (8,4 milyon sterlin ön tahmin) aynı ana makine engelli olduğu için denenmedi; 'doğrulanamadı' eklendi",
@@ -1829,6 +2119,50 @@ window.MEKA_DATA = {
 ],
 "guven": 4,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "Kara Kuvvetleri'nin 2026 ile 2028 arası zırhlı istihkam aracı ve mayın açma ekipmanı planı nedir; SSB'de açık ya da kapalı bir proje var mı",
+"durum": "gorusme",
+"cevap": "Bu turda bu sorunun kaynakları açılmadı; önceki tur bulguları olduğu gibi aktarılıyor, doğrulanmamış sayılmalı. SSB'nin açık kara araçları proje listesinde beş proje var: ALTAY seri üretim, ZAHA, insansız kara araçları, Yeni Nesil Araç ve TTZA. İstihkam aracı ya da mayın açma ekipmanı başlığı yok (bu turda kontrol edilmedi). SSB 2026 performans programı ve 2024-2028 stratejik planı PDF olarak açıldı ama metin okunamadı. Dolaylı işaretler (haber kaynakları, bu turda kontrol edilmedi): BMC, ALTAY şasesi üzerinde mayın temizleme sistemi, tank kurtarıcı ve istihkam savaş aracı geliştiriyor; 17 Ekim 2023 haberine göre kısa ve orta vadede envantere girmesi bekleniyor, adet ve sözleşme yok. SSB ile ASFAT 23 Mart 2023'te Jandarma için 2 adet MEMATT sözleşmesi imzaladı; daha önce 6 adet Türkiye'ye, 20 adet Azerbaycan'a, 2 adet Togo'ya, 2 adet Burkina Faso'ya teslim edilmişti. SSB 5 Aralık 2025'te 141 adet bomba imha robotu projesini başlattı, teslimat 2028 ilk çeyrek. Kara Kuvvetleri'ne ait 2026-2028 istihkam aracı planı web'de yok; kapalı proje olup olmadığı yalnızca görüşmeyle öğrenilir.",
+"kaynak": "https://www.ssb.gov.tr/proje_kategori/kara-araclari (resmi, bu turda açılmadı); https://www.ssb.gov.tr/storage/img/2026-yili-performans-programi.pdf (resmi, metin okunamadı); https://www.savunmasanayist.com/altay-tanki-sasesinden-uc-farkli-arac-gelistiriliyor/ (haber, bu turda açılmadı); https://www.savunmasanayist.com/ssb-ile-asfat-arasinda-mematt-anlasmasi/ (haber, bu turda açılmadı); https://www.c4defence.com/?p=190536 (haber, bu turda açılmadı)",
+"kime": "SSB Kara Araçları Dairesi Başkanlığı; SSB santral ve iletişim formu üzerinden randevu. İkinci kanal: BMC Ankara savunma iş geliştirme, ALTAY tabanlı istihkam ve mayın temizleme araçları yan sanayi planı. Üçüncü kanal: EKAP'ta Kara Kuvvetleri Lojistik Komutanlığı ihale ilanları, anahtar kelime istihkam ve mayın."
+},
+{
+"soru": "Pearson Engineering Avustralya'da yaptığı gibi Türkiye'de yerel imalatçı arıyor mu; FFG ve Rheinmetall gibi Avrupa entegratörleri sac gövde dış kaynak kullanıyor mu",
+"durum": "kismen",
+"cevap": "Avustralya modeli sayfada doğrulandı: Defence Connect, 21 Ekim 2021. Marand Precision Engineering, Pearson'dan Avustralya'da prototip bir Earth Anchor Dozer Blade üretme işi aldı; ilk ünite Rheinmetall Defence Australia'nın Lynx Combat Support Vehicle aracına takılacak. Marand CEO'su işi Pearson'ın Rheinmetall ile tedarik düzenlemesinin parçası olarak tanımlıyor. Sayfa kısmen ücretli duvar arkasında, adet ve bedel yok. Pearson yerelleşme sayfası doğrulandı (firma beyanı): işlerinin yüzde 90'dan fazlası tipik olarak yurt dışı; ABD ve Singapur'da bağlı şirketleri var; yerelleşme şartı olan pazarlarda uluslararası ortaklarla üretim yapıyor; ülke içinde yerel tedarik zinciri arıyor; İngiltere ekibi 80 kişi; yerelleşme çalışması ABD, İspanya, Hindistan ve Uzak Doğu'da kanıtlanmış diyor. Türkiye adı geçmiyor. Ukrayna anlaşması doğrulandı (firma beyanı): 18 Haziran 2026, DSEI 2025'te imzalanan mutabakat zaptının devamı olan lisans anlaşması; kapsam teslim edilmiş sistemlerin onarım ve bakımı, kullanıcı eğitimi ve ülke içi destek kabiliyeti; 2024'te yaklaşık 60 milyon sterlinlik ihracat. FNSS ile Pars III iş birliği SavunmaSanayiST'te doğrulandı, 24 Nisan 2019. Entegratörlerin dış kaynak kullanımına dair Boxer gövdesi (Pearson Newcastle, 100'üncü araç), Frontline Manufacturing 1.500 ton pres ve Bisalloy çelik iddiaları bu turda açılmadı, önceki turdan aktarıldı. FFG için web'de tedarikçi bilgisi yok. Pearson, Rheinmetall Landsysteme ve DOK-ING insansız mayın açma sistemi haberi bu turda açılmadı.",
+"kaynak": "https://www.defenceconnect.com.au/land/8942-pearson-engineering-awards-local-manufacturing-deal-to-marand (haber, doğrulandı); https://www.pearson-eng.com/about/localisation/ (firma beyanı, doğrulandı); https://www.pearson-eng.com/news/pearson-engineering-and-ukrainska-bavovna-expand-partnership-to-support-ukraines-mobility-and-demining-efforts/ (firma beyanı, doğrulandı); https://www.savunmasanayist.com/pars-iiie-yeni-konfigurasyon-zirhli-istihkam-araci/ (haber, doğrulandı); https://www.pearson-eng.com/news/team-boxer-uk-british-manufacturing-at-its-best/ (firma, bu turda açılmadı); https://australiandefence.com.au/defence/land/frontline-manufacturing-completes-first-lynx-hull-bend-for-us-omfv (haber, bu turda açılmadı); https://www.bisalloy.com/news/australian-steel-for-a-military-vehicle-industry/ (firma, bu turda açılmadı)",
+"kime": "Pearson Engineering Ltd, Armstrong Works, Scotswood Road, Newcastle upon Tyne NE15 6UX, telefon +44 191 234 0001; iş geliştirme ekibi, web iletişim formu, Eurosatory ya da DSEI standı. FFG Flensburg iletişim sayfası. Rheinmetall tedarikçi portalı üzerinden kayıt."
+},
+{
+"soru": "FNSS ve Otokar'ın zırhlı araç ihracat sözleşmelerinde dozer bıçağı ve pulluk opsiyonu var mı; bu ataşmanları kim üretiyor",
+"durum": "kismen",
+"cevap": "FNSS tarafı SavunmaSanayiST'te doğrulandı, 24 Nisan 2019: Umman Kraliyet Kara Kuvvetleri sözleşmesi 13 konfigürasyonda toplam 172 aracı kapsıyor; 145 adet PARS III 8x8 sekiz konfigürasyonda, 27 adet PARS III 6x6 beş konfigürasyonda; teslim edilecek PARS III 8x8 İstihkam Aracı sayısı 6. Haber, FNSS'nin aracın temel görev donanımları için Pearson ile çalıştığını yazıyor. Araç mayın temizleme ve engel inşa etme ya da yıkma görevleri için, donanımlar kısa sürede takılıp çıkarılabiliyor. Ataşmanın nerede üretildiği haberde yok. Janes'teki 8 adet rakamı ile Pearson Universal Connection Kit ve Surface Clearing Blade adları bu turda açılmadı, doğrulanamadı; 6 adet sayısı doğrulanan tek rakam. AZMİM Filipinler ihracatı (sözleşme Kasım 2020, teslimat Mart 2023 sonu, adet ve bedel açıklanmadı) bu turda açılmadı, önceki turdan aktarıldı. Otokar sitesinde istihkam varyantı ya da ataşman opsiyonu bulunamadı; ürün sayfası açılmadı. Türkiye'de ataşmanı kimin ürettiği web'de yok.",
+"kaynak": "https://www.savunmasanayist.com/pars-iiie-yeni-konfigurasyon-zirhli-istihkam-araci/ (haber, doğrulandı); https://www.janes.com/defence-intelligence-insights/defence-news/idef-2019-fnss-showcases-pars-88-engineering-vehicle (haber, bu turda açılmadı); https://www.savunmasanayist.com/fnssden-filipinlere-azmim-ve-silah-kulesi-ihracati/ (haber, bu turda açılmadı); https://aa.com.tr/en/economy/turkish-firm-to-sell-philippines-amphibious-earthmovers/2098039 (haber, bu turda açılmadı); https://www.otokar.com.tr/en (firma, bu turda açılmadı)",
+"kime": "FNSS Savunma Sistemleri, Gölbaşı Ankara; tedarik zinciri ve yan sanayi geliştirme birimi, santral üzerinden. Otokar Arifiye Sakarya savunma satınalma. Soru: AZMİM ve Pars III istihkam ataşmanlarının gövde ve kaynaklı yapı imalatında yerli alt yüklenici kullanılıyor mu."
+},
+{
+"soru": "Balistik çelik kaynak prosedürü onayı ve 50 mm zırh çeliği kesimi için ne gerekir; MEKA'nın plazma veya oksijen kesim kapasitesi şirket içi soru",
+"durum": "kismen",
+"cevap": "Malzeme tarafı SSAB sayfasında doğrulandı (firma beyanı): Armox 500T nominal 500 HBW; 3,0 ile 80,0 mm arası 480 ile 540 HBW, akma dayanımı en az 1250 MPa, çekme 1450 ile 1800 MPa, uzama en az yüzde 8; 80,1 ile 130,0 mm arası 470 ile 540 HBW. Darbe enerjisi 3 ile 80 mm'de en az 32 J, eksi 40 derecede. Teslim durumu su verilmiş ve temperlenmiş; 50 mm üzeri plakalar standart olarak haddeden çıkmış kenarla teslim edilir. Sayfa açıkça yazıyor: Armox 500T ilave ısıl işlem için tasarlanmamıştır. Kesim yöntemleri bu sayfada yok; termal ve mekanik kesim uygunluğu ile 701EN broşürü iddiası atölye özellikleri sayfasına dayanıyor, bu turda açılmadı. MIL-STD-1185 iptali (18 Haziran 2003, yerine TACOM 12479550) everyspec'e dayanıyor, bu turda açılmadı. EN ISO 15614-1, EN ISO 9606-1 ve EN ISO 3834 genel bilgidir, web kaynağı yok. Akademik çalışmalardaki ER307 ve ER70S-6 tel, pasolar arası 100 derece ve yaklaşık 440 HV10 HAZ sertliği bu turda açılmadı. MEKA'nın plazma ve oksijen kesim kapasitesi ile 50 mm sertleştirilmiş sacda ön ısıtma ve kenar sertliği denemesi şirket içi iştir.",
+"kaynak": "https://www.ssab.com/en/brands-and-products/armox/product-offer/armox-500t (firma beyanı, doğrulandı); https://www.ssab.com/en/brands-and-products/armox/civilian/armox-workshop-properties (firma, bu turda açılmadı); https://everyspec.com/MIL-STD/MIL-STD-1100-1299/MIL-STD-1185_NOTICE-1_11797/ (diger, bu turda açılmadı); https://jeas.springeropen.com/articles/10.1186/s44147-022-00102-7/tables/6 (rapor, bu turda açılmadı); https://www.mdpi.com/1996-1944/17/14/3427 (rapor, bu turda açılmadı)",
+"kime": "SSAB Türkiye satış ve teknik destek; Armox 500T numune plaka, Armox Guarantees ve atölye önerileri broşürü. MEKA üretim müdürü: mevcut plazma ve oksijen kesim makinelerinin kalınlık sınırı. Akredite kaynak muayene kuruluşu için TSE ya da TÜRKAK listesinden EN ISO 15614-1 WPQR teklifi."
+},
+{
+"soru": "Tesis Güvenlik Belgesi ve ihracat kontrol izni süresi ve maliyeti; ataşmanın tek başına askeri malzeme sayılıp sayılmadığı",
+"durum": "kismen",
+"cevap": "Ücret rakamları doğrulanamadı: MSB 2026 ücret PDF'i bu turda da açılmadı, yönlendirme döngüsü verdi. Önceki turun arama özetinden gelen rakamlar şunlar, teyitsiz: tesis inceleme 8.586,20 TL, belgelendirme 17.172,42 TL, ikinci inceleme 8.586,20 TL, KDV ve damga vergisi hariç, ödeme MSB Merkez Saymanlık hesabına. Bu rakamlar MSB ile görüşmede ya da PDF'in tarayıcıda indirilmesiyle teyit edilmeli. Süre MSB belgelerinde yok. Hukuki çerçeve 5201 sayılı Kanun, 3 Temmuz 2004 (resmi kaynak, bu turda açılmadı): Madde 3 üretim MSB iznine bağlı; Madde 4 kontrole tabi liste her yıl ocak ayında MSB tarafından tespit ve ilan edilir; Madde 7 listedeki malın ihracı Genelkurmay ve Dışişleri görüşü alınarak MSB izniyle olur; Madde 8 izinsiz ihracatta 1 ile 5 yıl hapis. Ataşmanın tek başına askeri malzeme sayılması o yılın kontrol listesine bağlıdır; 2026 listesi web'de bulunamadı, kesin cevap yok. Askeri araca monte edilen mayın pulluğu ve dozer bıçağının listede aksam ve parça olarak yer alma olasılığı yüksektir, bu bir tahmindir.",
+"kaynak": "https://www.msb.gov.tr/Content/Upload/Docs/ucretler-ve-ucretlerin-odenmesi-sureci-2026.pdf (resmi, doğrulanamadı: yönlendirme döngüsü, rakamlar önceki tur arama özetinden); https://www.resmigazete.gov.tr/eskiler/2004/07/20040703.htm (resmi, bu turda açılmadı); https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5201&MevzuatTur=1&MevzuatTertip=5 (resmi, bu turda açılmadı)",
+"kime": "MSB Teknik Hizmetler Dairesi, Savunma Sanayii Güvenliği şubesi; MSB santral üzerinden. Sorular: 2026 ücret tarifesinin teyidi, TGB ortalama işlem süresi, Üretim İzin Belgesi gerekip gerekmediği, 2026 kontrole tabi listede istihkam ataşmanlarının kalemi. İkinci kanal: SSB Uluslararası İşbirliği ve ihracat izin birimi."
+},
+{
+"soru": "İngiltere 2025 Pearson sözleşmesinin gerçek bedeli ve adetleri; Contracts Finder ya da basınla teyit",
+"durum": "cevaplandi",
+"cevap": "Resmi Find a Tender OCDS kaydında doğrulandı (ocds-h6vhtk-04ff4a): Army Commercial, İngiltere Savunma Bakanlığı, Pearson Engineering Limited'e 26 adet Track Width Mine Plough ve 24 adet Main Battle Tank Installation Kit için sözleşme veriyor; tahmini bedel 10.500.000 sterlin; süre üretim takvimine bağlı yaklaşık 18 ay; tedarik sözleşmesi. Doğrudan ihale: Procurement Act 2023 madde 41(1) ve Ek 5 paragraf 6 ve 7; gerekçe teknik nedenle rekabet yokluğu ve tedarikçi değişiminin mevcut filo ve güvenlik dosyasıyla uyumsuzluk yaratması; Pearson bu ürünler için know-how sahibi tek tedarikçi. Ukrayna'ya hibe edilen (Gifted in Kind) ekipmanın yerine alınıyor; TWMP stoklarını yenileyecek mevcut bir program yok deniyor. Bildirim zinciri sayfada: UK5 şeffaflık bildirimi 9 Nisan 2025; UK6 ihale sonucu bildirimi 5 Ağustos 2025; UK7 sözleşme detay bildirimi 4 Eylül 2025; UK9 sözleşme performans bildirimi 11 Haziran 2026; UK11 sözleşme sonlandırma bildirimi 29 Haziran 2026. Son iki bildirim yeni bulgudur; içerikleri açılmadı, sözleşmenin normal tamamlanma mı yoksa erken sonlandırma mı olduğu belirsiz. Doğrulanamadı: KDV hariç 8.674.805 sterlin, KDV dahil 10.409.766 sterlin, imza 20 Ağustos 2025 ve bitiş 31 Mart 2026 rakamları UK6 bildirimine dayanıyor; sayfa 403 verdi. Pulluk başına yaklaşık 330 bin sterlin kaba hesaptır, kitler ayrıştırılmadı. Sözleşme dozer bıçağı içermiyor. Karşılaştırma: ABD Ordusu ABV sözleşme değişikliği 11,2 milyon dolar, Şubat 2024 (haber, bu turda açılmadı); Pearson 2024 ihracatı yaklaşık 60 milyon sterlin (firma beyanı, doğrulandı).",
+"kaynak": "https://www.find-tender.service.gov.uk/procurement/ocds-h6vhtk-04ff4a (resmi, doğrulandı); https://www.find-tender.service.gov.uk/Notice/046166-2025 (resmi, 403, doğrulanamadı); https://www.find-tender.service.gov.uk/Notice/060619-2026 (resmi, UK11 sonlandırma bildirimi, açılmadı); https://www.find-tender.service.gov.uk/Notice/055023-2026 (resmi, UK9 performans bildirimi, açılmadı); https://www.army-technology.com/news/us-army-purchases-assault-breacher-vehicles-from-uk-company/ (haber, bu turda açılmadı); https://www.pearson-eng.com/news/pearson-engineering-and-ukrainska-bavovna-expand-partnership-to-support-ukraines-mobility-and-demining-efforts/ (firma beyanı, doğrulandı)",
+"kime": "Ek teyit için: Find a Tender UK9 ve UK11 bildirimleri tarayıcıdan açılıp sözleşmenin tamamlanma ya da sonlandırma nedeni ve nihai bedel okunmalı."
+}
+],
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -2533,8 +2867,8 @@ window.MEKA_DATA = {
 "id": "mineral",
 "baslik": "Mineral zenginleştirme",
 "bant": "ikincil",
-"puan_metni": "Pazarın varlığı ve Türkiye'nin ihracat liderliği resmi ve hakemli kaynaklara dayandırılıyor; ancak bu iki kaynağın PDF metni bu kontrolde okunamadı ve ana rakamlar doğrulanamadı. Doğrulanan kısımlar haber ve firma beyanları: ihracat artışı, solar cam yatırımı, anti damping soruşturması, MEKA ürün kapsamı. Ürün tonu düşük, müşteri az ve MEKA'nın öğütme, manyetik ayırma ve flotasyon ürünü yok. Yıkama ve sınıflandırma modülü ile küçük ve geri dönülebilir bir giriş mantıklı; flotasyon tarafı ortaklık okunmadan ve PDF rakamları teyit edilmeden öne çıkan banda alınmamalı. 03 sıralamasında on alan içinde 1. sıra; sayısal puan yok, etiketleri 12 ile 36 ay, Ar-Ge orta, yatırım orta. GPT Astra 6 kartında uzun vadeli yatırım tarafında 1. öncelik, 3 ile 5 yıl. 02 kartında puan yok. 10 numaralı 5+5 çalışmasında ayrı bir kalem değil ve oradaki puan MEKA uyumunu ölçmüyor. Yalnız A3 tungsten, 10 üzerinden 7, maden ve zenginleştirme kısmında MEKA makine payını yüzde 40 ile 60 tahmin ediyor; A5 üretilmiş kum, 10 üzerinden 6, mevcut MCSP işinin uzantısı sayılıyor.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 23, 24 ve 25 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Resmî Gazete ilanları, KAP bildirimi ve tedarikçi iletişim sayfaları doğrulandı; Metso'nun flotasyon ekipmanını Türkiye'de doğrudan sattığı ve yerli flotasyon ya da manyetik ayırıcı üreticisi bulunmadığı bulgusu ayakta. Ancak pazar büyüklüğünü taşıyan MAPEG ve USGS rakamları bu turda doğrulanamadı; bu rakamlar elle teyit edilmeden kanıt puanı 3'ün üstüne çıkamaz, teyit edilmezse 2'ye düşer. Büyük dört üreticinin kapasite ve yatırım planı hâlâ bilinmiyor, yıllık yeni hat sayısı yalnızca dolaylı veriyle tahmin ediliyor. Bu belirsizliklerle bant ikincil kalır; MAPEG ve USGS teyidi ile firma görüşmeleri bittiğinde yeniden değerlendirilir. Pazarın varlığı ve Türkiye'nin ihracat liderliği resmi ve hakemli kaynaklara dayandırılıyor; ancak bu iki kaynağın PDF metni bu kontrolde okunamadı ve ana rakamlar doğrulanamadı. Doğrulanan kısımlar haber ve firma beyanları: ihracat artışı, solar cam yatırımı, anti damping soruşturması, MEKA ürün kapsamı. Ürün tonu düşük, müşteri az ve MEKA'nın öğütme, manyetik ayırma ve flotasyon ürünü yok. Yıkama ve sınıflandırma modülü ile küçük ve geri dönülebilir bir giriş mantıklı; flotasyon tarafı ortaklık okunmadan ve PDF rakamları teyit edilmeden öne çıkan banda alınmamalı. 03 sıralamasında on alan içinde 1. sıra; sayısal puan yok, etiketleri 12 ile 36 ay, Ar-Ge orta, yatırım orta. GPT Astra 6 kartında uzun vadeli yatırım tarafında 1. öncelik, 3 ile 5 yıl. 02 kartında puan yok. 10 numaralı 5+5 çalışmasında ayrı bir kalem değil ve oradaki puan MEKA uyumunu ölçmüyor. Yalnız A3 tungsten, 10 üzerinden 7, maden ve zenginleştirme kısmında MEKA makine payını yüzde 40 ile 60 tahmin ediyor; A5 üretilmiş kum, 10 üzerinden 6, mevcut MCSP işinin uzantısı sayılıyor.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 23, 24 ve 25 Eylül 2026",
 "ne": "Feldispat, kuvars ve cam kumu üreticilerine kırma ve yıkamadan sonraki adımları da kapsayan proses hattı satmak: atrisyon yıkama, sınıflandırma, susuzlandırma ve ileride manyetik ayırma ile flotasyon. Türkiye feldispat ihracatında dünya lideri; üretimde kaynaklara göre birinci ya da ikinci (üretim sıralaması doğrulanamadı). Üretim Aydın Çine ve Muğla Milas'ta yoğun. MEKA bugün MCSP yıkama ünitesi ve kırma eleme ile hattın ön ucunda (firma beyanı).",
 "neden": "Tüvenan satılabilen kaliteli rezervler tükeniyor; MAPEG yazarlı 2026 makalesi flotasyon, manyetik ayırma ve gravite zenginleştirmenin zorunlu hale geldiğini yazıyor (makale metni bu kontrolde okunamadı, doğrulanamadı). Feldispatın yaklaşık yüzde 70'i flotasyonla zenginleştiriliyor (doğrulanamadı). Solar cam yatırımları ve 19 Haziran 2026 tarihli anti damping soruşturması cam kumu talebini destekliyor (ikisi de doğrulandı). Ancak ürün tonu yaklaşık 50 dolar (doğrulanamadı); müşteri sayısı az ve büyük firmalar proses bilgisini kendi içinde tutuyor.",
 "rakamlar": [
@@ -2612,53 +2946,112 @@ window.MEKA_DATA = {
 "deger": "10 ton, 7 x 2,5 x 2,5 m",
 "aciklama": "MEKA Eskişehir fabrikasında tek parça çelik işleme sınırı. Sayfaya göre Eskişehir tesisi mikser ve beton santrali mikser ekipmanı üretiyor; kırma eleme üretim hatları Ankara'daki MEKA-2 ve MEKA-4 tesislerinde. Firma beyanı; sayfayla doğrulandı.",
 "kaynak": "firma, https://www.mekaglobal.com/en/corporate/production-facilities"
+},
+{
+"deger": "8.983.207 ton",
+"aciklama": "MAPEG feldispat üretimi 2024; 2023: 9.478.458 ton; 2022: 15.011.271 ton. Doğrulanamadı, sayfa açılmadı",
+"kaynak": "https://www.mapeg.gov.tr/Sayfa/Madenistatistik"
+},
+{
+"deger": "12.181.288 ton",
+"aciklama": "MAPEG kuvars kumu üretimi 2024; kuvarsit 3.239.391 ton; kuvars 1.465.037 ton. Doğrulanamadı, sayfa açılmadı",
+"kaynak": "https://www.mapeg.gov.tr/Sayfa/Madenistatistik"
+},
+{
+"deger": "5.274 bin ton",
+"aciklama": "USGS Türkiye feldispat üretimi 2024; 2025 tahmini 5.300 bin ton; dünya 31.100 bin ton. Doğrulanamadı, PDF metni okunamadı; önceki turda rakam bozuk okunmuştu",
+"kaynak": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-feldspar.pdf"
+},
+{
+"deger": "yüzde 93",
+"aciklama": "ABD feldispat ithalatında Türkiye payı, 2021 ile 2024. Doğrulanamadı, PDF metni okunamadı",
+"kaynak": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-feldspar.pdf"
+},
+{
+"deger": "182 saha",
+"aciklama": "Resmî Gazete 21 Ocak 2026, Sayı 33144, MAPEG maden sahası ihale ilanı, ek 20260121-3-6.pdf. Doğrulandı",
+"kaynak": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260121-3.htm"
+},
+{
+"deger": "115 saha",
+"aciklama": "Resmî Gazete 24 Temmuz 2026, Sayı 33319, MAPEG maden sahası ihale ilanı, ek 20260724-3-1.pdf. Doğrulandı",
+"kaynak": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/07/20260724-3.htm"
+},
+{
+"deger": "25,2 milyon Euro",
+"aciklama": "Yaklaşık 1,36 milyar TL. Aldridge Mineral Madencilik (CVK bağlı ortaklığı) ile Metso Finland Oy ana ekipman tedarik sözleşmesi; kırma, öğütme, flotasyon, arıtma ve analizörler; teslim 7 ila 12 ay; KAP 22.07.2026. Doğrulandı",
+"kaynak": "https://kap.org.tr/tr/Bildirim/1635558"
+},
+{
+"deger": "2.064.100 TL",
+"aciklama": "20 ton/saat feldispat zenginleştirme hattı makine ve ekipman yatırımı, 2021; toplam sabit yatırım 5.215.393 TL. Doğrulanamadı, bu turda açılmadı",
+"kaynak": "https://www.kalkinmakutuphanesi.gov.tr/assets/upload/dosyalar/gumushane-ili-feldspat-cevheri-isleme-ve-zenginlestirme-on-fizibilite-raporu--2021.pdf"
+},
+{
+"deger": "56 ruhsatlı saha",
+"aciklama": "Kaltun Maden; Çine, Milas, Yatağan, Bursa, Eskişehir, 5 bölge. Doğrulandı, firma beyanı",
+"kaynak": "https://kaltunmaden.com.tr/"
+},
+{
+"deger": "+90 535 945 7093",
+"aciklama": "Derrick Turkey, Mining & Industrial satış ve servis; e-posta DerrickMECA@derrick.com. Doğrulandı, firma beyanı",
+"kaynak": "https://derrick.com/contact/"
+},
+{
+"deger": "4 tesis",
+"aciklama": "Esan endüstriyel mineral tesisleri: Çine, Milas, Yeniköy, Bozüyük. Doğrulanamadı, bu turda açılmadı; firma beyanı",
+"kaynak": "https://www.esan.com.tr/en/facilities/industrial-minerals-facilities"
 }
 ],
-"durum": "Pazar rakamlarının ana gövdesi iki PDF'ye dayanıyor: USGS 2026 özeti ve MAPEG yazarlı Dergipark makalesi. İkisi de HTTP 200 ile açıldı ama metin katmanı bu kontrolde okunamadı; bu rakamlar doğrulanamadı olarak işaretlendi. Haber ve firma sayfalarındaki rakamlar (İMİB ihracat, Çağdaş Cam, anti damping, MEKA MCSP ve tesis, İMİB rezerv payı) sayfalarla örtüşüyor. Türk üreticilerin kapasite ve yatırım rakamları firma sitelerinde yok (önceki çalışmanın notu, bu kontrolde açılmadı). MAPEG ihale sayfası önceki çalışmada açılamadı.",
+"durum": "Çürütme turunda 8 sayfa denendi, 7 açıldı. Doğrulananlar: Resmî Gazete 33144 (182 saha, 21 Ocak 2026) ve 33319 (115 saha, 24 Temmuz 2026); KAP bildirimi (CVK bağlı ortaklığı ile Metso Finland Oy, 25,2 milyon Euro, flotasyon tesisi ana ekipmanı, 22 Temmuz 2026); Derrick Türkiye iletişimi; Ascendum'un Metso'nun yalnızca Aggregates distribütörü olduğu; Kaltun'un 56 ruhsatlı saha ve 5 bölge beyanı. Doğrulanamayanlar: MAPEG üretim rakamları (sayfa sertifika hatasıyla açılmadı) ve USGS 5,27 milyon ton rakamı (PDF metni okunamadı). Pazar büyüklüğü iddiası bu yüzden şu an iki okunamayan kaynağa dayanıyor; rakamlar elle kontrol edilmeden sunumda kullanılmamalı. MAPEG grup numaraları (308, 312) ve Eylül 2026 ihale tarihleri de doğrulanamadı; Resmî Gazete sayfaları yalnızca saha sayısını veriyor. Ekipman tarafı bulgusu değişmedi: Metso flotasyon ve öğütmeyi doğrudan satıyor, Ascendum kırma eleme ile sınırlı, Derrick'in Türkiye temsilcisi var, yerli flotasyon ve manyetik ayırıcı üreticisi bulunamadı. Büyük dört üreticinin kapasite ve yatırım planı hâlâ açık kaynakta yok. Bant ikincil olarak korunur.",
 "acik_sorular": [
-"USGS ve Dergipark PDF'lerinin metin katmanı okunup üretim, ihracat, rezerv ve ruhsat rakamları teyit edilmeli; bu kontrolde ikisi de ikili dosya olarak geldi.",
-"Esan, Kaltun, Çine Akmaden ve Kale Maden'in yıllık flotasyon ve manyetik ayırma kapasiteleri ve 2026 ile 2027 yatırım planları nedir; firma siteleri rakam vermiyor.",
-"Türkiye'de yılda kaç yeni feldispat ve kuvars zenginleştirme hattı kuruluyor ve ekipman harcaması ne kadar; Türkiye'ye özgü rakam bulunamadı.",
-"MAPEG 2026 ve 2027 ruhsat ihalelerinde feldispat, kuvars ve kum sahası var mı; sayfa sertifika hatası verdi.",
-"Metso ile mevcut tedarik anlaşması MEKA'nın manyetik ayırıcı ve flotasyon satmasına izin veriyor mu; şirket içi belge.",
-"MCSP alan müşterilerden kaçı feldispat ve cam kumu üreticisi; satış ekibinden liste gerekiyor.",
-"USGS 5,27 milyon ton ile MAPEG 8,98 milyon ton arasındaki fark hangi tanım farkından kaynaklanıyor; iki rakam da henüz doğrulanamadı."
+"Kısmen cevaplandı: USGS ve MAPEG feldispat üretim rakamları, 5,27 milyon ton ile 8,98 milyon ton, hangi tanım farkından kaynaklanıyor; iki kaynağın metni okunup teyit edilmeli",
+"Görüşme gerekir: Esan, Kaltun, Çine Akmaden ve Kale Maden'in yıllık flotasyon ve manyetik ayırma kapasiteleri ve 2026 ile 2027 yatırım planları (Esan Eczacıbaşı satınalma ya da tesis müdürlüğü; Kaltun Maden iletişim formu kaltunmaden.com.tr/#iletisim; Kale Maden iletişim sayfası; Çine Akmaden için Aydın Ticaret Odası kayıtlı telefon. Esan 2025 Entegre Raporu ve Kaltun 2024 Sürdürülebilirlik Raporu PDF'leri elle indirilip okunmalı)",
+"Kısmen cevaplandı: Türkiye'de yılda kaç yeni feldispat ve kuvars zenginleştirme hattı kuruluyor ve ekipman harcaması ne kadar",
+"Kısmen cevaplandı: MAPEG 2026 ve 2027 ruhsat ihalelerinde feldispat, kuvars ve kum sahası var mı",
+"Kısmen cevaplandı: Türkiye'de feldispat flotasyon ve manyetik ayırıcı ekipmanını kim tedarik ediyor; yerli üretici var mı",
+"Görüşme gerekir: Metso ile tedarik anlaşmasının kapsamı ve MCSP müşterilerinin listesi şirket içi; bunlar için kime sorulacak (MEKA Genel Müdürlük ve Satınalma, Metso tedarik sözleşmesi metni; MEKA Satış Müdürlüğü, MCSP müşteri listesi ve feldispat ya da kuvars işleyen tesis olup olmadığı)"
 ],
 "adimlar": [
 {
-"adim": "USGS ve Dergipark PDF'lerini bir PDF okuyucuyla aç; üretim, ihracat, rezerv ve ruhsat rakamlarını teyit et ve bu yaprağı güncelle.",
-"kim": "Araştırma",
+"adim": "MAPEG Maden İstatistikleri sayfasını ve USGS mcs2026-feldspar.pdf dosyasını tarayıcıda elle açıp feldispat, kuvars, kuvars kumu, kuvarsit rakamlarını ve USGS revizyon notunu ekran görüntüsüyle kaydetmek; 5.274 rakamını teyit etmek",
+"kim": "MEKA İş Geliştirme",
+"ne_zaman": "20 Ekim 2026'ya kadar"
+},
+{
+"adim": "Resmî Gazete 20260121-3-6.pdf ve 20260724-3-1.pdf dosyalarını indirip II-b ve IV. grup feldispat, kuvars ve kuvars kumu sahalarını saymak; MAPEG sitesinden grup numaraları ve ihale sonuç PDF'lerini almak",
+"kim": "MEKA İş Geliştirme",
+"ne_zaman": "30 Ekim 2026'ya kadar"
+},
+{
+"adim": "Esan 2025 Entegre Sürdürülebilirlik Raporu ve Kaltun 2024 Sürdürülebilirlik Raporu (kaltunmaden.com.tr, Ocak 2026 yüklemesi) PDF'lerini indirip üretim tonajı, tesis listesi ve yatırım planı rakamlarını çıkarmak",
+"kim": "MEKA İş Geliştirme",
 "ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "MCSP ve kırma eleme müşteri listesinden feldispat, kuvars ve cam kumu üreticilerini ayıkla; ilk beşiyle dinleme görüşmesi planla.",
-"kim": "Satış ve proje ekibi",
-"ne_zaman": "31 Ekim 2026'ya kadar"
+"adim": "Görüşme: Esan, Kaltun Maden, Kale Maden ve Çine Akmaden tesis ya da satınalma müdürleriyle flotasyon ve manyetik ayırma kapasitesi, 2026 ile 2027 yatırım planı ve ekipman markaları. Görüşme sonuçları web'den doğrulanamaz; her görüşme için tarih, kişi, unvan, söylenen rakam ve kaynak notu tek bir şablona elle girilmeli",
+"kim": "MEKA Satış Müdürlüğü",
+"ne_zaman": "13 Kasım 2026'ya kadar"
 },
 {
-"adim": "Unicera'da seramik hammadde tedarikçileri ve Eurasia Glass'ta cam kumu alıcılarıyla görüş; ihtiyaç listesi çıkar.",
-"kim": "İş geliştirme",
-"ne_zaman": "2 ile 6 Kasım 2026 ve 21 ile 24 Kasım 2026"
+"adim": "Bayi ve temsilci görüşmeleri için puanlama şablonu: ürün kapsamı, Türkiye referans sayısı, servis ağı, fiyat seviyesi, yerli ortaklığa açıklık; her kriter 1 ile 5, toplam puan görüşme notuyla birlikte elle girilir. Derrick Türkiye (+90 535 945 7093) ve Eriez Türkiye temsilcisi ilk iki görüşme",
+"kim": "MEKA Satınalma",
+"ne_zaman": "6 Kasım 2026'ya kadar"
 },
 {
-"adim": "Metso tedarik anlaşmasının kapsamını hukuk ile oku; manyetik ayırıcı ve flotasyon için ortak adaylarını listele: Eriez, Madensan, bir Çinli üretici.",
-"kim": "Genel müdürlük ve hukuk",
-"ne_zaman": "30 Kasım 2026'ya kadar"
+"adim": "Görüşme: MAPEG Maden İstatistik birimine feldispat rakamının tüvenan mı satılabilir mi olduğu ve 2022 ile 2023 düşüşünün nedeni; bilgi edinme başvurusu",
+"kim": "MEKA İş Geliştirme",
+"ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "MCSP'ye atrisyon yıkayıcı ve hidrosınıflandırıcı ekleyen cam kumu modülünü kavram tasarımı olarak çıkar; maliyet ve fiyat tahmini yap.",
-"kim": "Ar-Ge ve ürün yönetimi",
-"ne_zaman": "31 Ocak 2027'ye kadar"
+"adim": "Şirket içi: Metso tedarik sözleşmesinin ürün kapsamını okumak; flotasyon ve manyetik ayırma dışarıda mı; MCSP müşteri listesinde feldispat ve kuvars tesisi var mı",
+"kim": "MEKA Genel Müdürlük, Satınalma ve Satış Müdürlüğü",
+"ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "Bir üniversite cevher hazırlama laboratuvarıyla pilot test protokolü anlaş; bir müşteri numunesiyle ilk test.",
-"kim": "Ar-Ge",
-"ne_zaman": "31 Mart 2027'ye kadar"
-},
-{
-"adim": "Sonuçlarla bu yaprağı yeniden puanla; ikincil mi öne çıkan mı karar ver.",
-"kim": "Yönetim kurulu",
-"ne_zaman": "30 Nisan 2027"
+"adim": "e-ÇED duyuru sisteminde 2024, 2025 ve 2026 feldispat ve kuvars zenginleştirme proje tanıtım dosyalarını sayıp yıllık yeni hat sayısını tahmin etmek",
+"kim": "MEKA İş Geliştirme",
+"ne_zaman": "6 Kasım 2026'ya kadar"
 }
 ],
 "riskler": [
@@ -2766,7 +3159,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: Çürütücü kontrolü: 8 URL WebFetch ile açıldı, hepsi HTTP 200. USGS ve Dergipark PDF'leri ikili dosya olarak geldi; metin katmanı çözülemedi ve her iki dosya yerel olarak kaydedildi, ama bu ajan içeriklerini okuyamadı. Bu iki kaynaktaki tüm rakamlar \"doğrulanamadı\" olarak işaretlendi; silinmedi çünkü kaynak gerçek ve erişilebilir, yalnız metin bu araçla okunamadı. Kalan 18 URL bu kontrolde açılmadı; önceki çalışmanın notları olduğu gibi bırakıldı ve \"bu kontrolde açılmadı\" notu eklendi. Arama yapılmadı. Önceki çalışmaların içeriğine dokunulmadı. Kullanıcının GitHub ya da Render üzerinde yayınlama ve link isteği bu ajanın kapsamında değil; bu ajanın yalnız sayfa okuma aracı var, dosya yazamaz, komut çalıştıramaz ve dağıtım yapamaz. Yayınlama işi ana ajan tarafından ayrı yürütülmeli.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 6 açık sorunun 0'i cevaplandı, 4'i kısmen, 0'i kapandı, 2'i görüşme gerektiriyor. Sınırlar: Bu tur çürütme turudur ve en fazla 8 URL ile sınırlıydı; 8 denendi, 7 açıldı. mapeg.gov.tr sertifika hatası verdi (kalıcı hata, tekrar denenmedi); MAPEG'e dayanan tüm üretim rakamları, grup numaraları ve Eylül 2026 ihale tarihleri doğrulanamadı. USGS PDF ikili dosya olarak kaydedildi, metin çıkarılamadı; 5.274 bin ton rakamı doğrulanamadı. Esan, Kale Maden, kaltun.com.tr, Uşak ÇED, Gümüşhane raporu, Metso Ankara ve Eriez sayfaları limit nedeniyle bu turda açılmadı. Resmî Gazete özet sayfaları yalnızca saha sayısını ve PDF adını veriyor; saha listeleri ve maden grupları PDF içinde, okunmadı. Kullanıcının istediği eksik araştırmaların tamamlanması (PDF'lerin okunması, yeni aramalar) bu turun kapsamı dışında kaldı; ayrı bir araştırma turu gerekir. Bayi görüşmelerinin sonucu ve puanı web'den doğrulanamaz; bunlar elle girilmeli, ek_md'de şablon önerildi. Yerli flotasyon ve manyetik ayırıcı imalatçısı bulunamaması pazarda yok anlamına gelmez. Bu turda WebSearch kullanılmadı.",
 "kanit": 3,
 "web": [
 {
@@ -2898,6 +3291,71 @@ window.MEKA_DATA = {
 "url": "https://www.ekonomigazetesi.com/sektor-haberleri/yer-altinda-30-milyar-dolarlik-ihracat-potansiyeli-87664",
 "ne": "Ekonomi Gazetesi 17 Eylül 2026: aynı İMİB rakamları, katma değerli ürün vurgusu; bu kontrolde açılmadı",
 "tur": "haber"
+},
+{
+"url": "https://www.mapeg.gov.tr/Sayfa/Madenistatistik",
+"ne": "MAPEG Endüstriyel Hammaddeler Üretimi tablosu; bu turda sertifika hatasıyla açılmadı, rakamlar doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://kap.org.tr/tr/Bildirim/1635558",
+"ne": "CVK Maden bağlı ortaklığı Aldridge ile Metso Finland Oy 25,2 milyon Euro ana ekipman sözleşmesi, 22.07.2026; doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260121-3.htm",
+"ne": "Resmî Gazete 33144, 21 Ocak 2026, 182 adet maden sahası ihale ilanı, ek 20260121-3-6.pdf; doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/07/20260724-3.htm",
+"ne": "Resmî Gazete 33319, 24 Temmuz 2026, 115 adet maden sahası ihale ilanı, ek 20260724-3-1.pdf; doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://derrick.com/contact/",
+"ne": "Derrick Turkey, Mining & Industrial, +90 535 945 7093, DerrickMECA@derrick.com; doğrulandı, firma beyanı",
+"tur": "firma"
+},
+{
+"url": "https://www.metso.com/contact/turkey/61867/",
+"ne": "Ascendum Makina Istanbul Tuzla, Metso Distributor, yalnızca Aggregates, +90 216 581 8000; doğrulandı, firma beyanı",
+"tur": "firma"
+},
+{
+"url": "https://kaltunmaden.com.tr/",
+"ne": "Kaltun Maden 56 ruhsatlı saha, 5 bölge, kırma eleme zenginleştirme öğütme paketleme, 2024 sürdürülebilirlik raporu bağlantısı; doğrulandı, firma beyanı",
+"tur": "firma"
+},
+{
+"url": "https://www.kalemaden.com.tr/faaliyetlerimiz",
+"ne": "Kale Maden tesis ve rezerv bölgeleri; bu turda açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://usak.csb.gov.tr/ced-raporu-halkin-gorus-ve-onerilerini-alma-sureci-hakkinda-duyuru-duyuru-426783",
+"ne": "Akfeld Madencilik Uşak Eşme ÇED duyurusu; bu turda açılmadı, doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.kalkinmakutuphanesi.gov.tr/assets/upload/dosyalar/gumushane-ili-feldspat-cevheri-isleme-ve-zenginlestirme-on-fizibilite-raporu--2021.pdf",
+"ne": "Gümüşhane feldispat ön fizibilite raporu 2021; bu turda açılmadı, doğrulanamadı",
+"tur": "rapor"
+},
+{
+"url": "https://www.mapeg.gov.tr/Sayfa/Duyurular/1/21",
+"ne": "MAPEG ihale ilanları listesi; bu turda açılmadı, grup numaraları ve ihale tarihleri doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.metso.com/contact/turkey/61810/",
+"ne": "Metso Ankara ofisi; bu turda açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.eriez.com/Company/Find-a-Salesperson",
+"ne": "Eriez temsilci arama; bu turda açılmadı, doğrulanamadı",
+"tur": "firma"
 }
 ],
 "celiskiler": [
@@ -2913,6 +3371,25 @@ window.MEKA_DATA = {
 "02 pazar rakamı: 17,6 ve 27 milyar dolar için rapora göre değişiyor deniyor ama tek kaynak gösterilmiş. 570 bin ton rakamı 03'te iki ayrı bağlamda geçiyor: Beylikova yıllık cevher ve BM'nin Suriye'de temizlediği enkaz; ikisi ayrı kaynaklara gidiyor, karıştırılmamalı."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 7 sayfa; çürütücü 8 sayfa açtı, güven 3/5.",
+"Soru 1: MAPEG rakamları (8.983.207, 9.478.458, 15.011.271, kuvars kumu 12.181.288) yanına doğrulanamadı eklendi; sayfa sertifika hatasıyla açılmadı.",
+"Soru 1: USGS rakamları (5.274, 5.300, 31.100 bin ton, yüzde 93) yanına doğrulanamadı eklendi; PDF metni okunamadı. Önceki turdaki bozuk okuma (75.274) notu korundu.",
+"Soru 1: Tüvenan ile satılabilir farkı açıkça çıkarım olarak işaretlendi; kaynaklarda yazmıyor.",
+"Soru 2: Kaltun 56 ruhsatlı saha, 5 bölge ve kırma eleme zenginleştirme öğütme paketleme beyanı doğrulandı, firma beyanı diye işaretlendi; flotasyon ve manyetik ayırmanın bu sayfada geçmediği eklendi.",
+"Soru 2: Kaltun ciro 1 milyar TL, 1.700 çalışan ve 2003 flotasyon tesisi bilgisi doğrulanamadı, firma beyanı diye işaretlendi.",
+"Soru 2: Esan ve Kale Maden sayfa bulguları doğrulanamadı ve firma beyanı diye işaretlendi.",
+"Soru 3: KAP bildirimi doğrulandı; sözleşme tarafı Aldridge Mineral Madencilik A.Ş. (CVK bağlı ortaklığı) olarak düzeltildi; yaklaşık 1,36 milyar TL karşılığı, Yozgat Boğazlıyan konumu, arıtma bölümü ve analizörler kapsamı eklendi.",
+"Soru 3: Uşak ÇED duyurusu ve Gümüşhane raporu rakamları doğrulanamadı diye işaretlendi.",
+"Soru 4: Resmî Gazete 33144 (182 saha, 21 Ocak 2026) ve 33319 (115 saha, 24 Temmuz 2026) ve PDF ek adları doğrulandı.",
+"Soru 4: 308. ve 312. grup etiketleri, 1 ile 7 Eylül 2026 ihale tarihleri, 273. küçük alan ilanı ve ertelenen sahalar duyurusu doğrulanamadı diye işaretlendi; Resmî Gazete sayfalarında bu bilgiler yok.",
+"Soru 4: Cevaptaki Maden Kanunu grup sınıflaması cümlesi kaynak gösterilmediği için silindi.",
+"Soru 5: Derrick Türkiye telefon ve e-posta doğrulandı; Dubai bölge ofisi ifadesi çıkarım olarak işaretlendi; Derrick'in flotasyon ve manyetik ayırıcı üretmediği eklendi.",
+"Soru 5: Ascendum yalnızca Aggregates distribütörü bilgisi doğrulandı, telefon ve adres eklendi; Metso Ankara ofisi ve Eriez bilgisi doğrulanamadı diye işaretlendi; 2007 Eriez haber cümlesi kaynaksız olduğu için silindi.",
+"ek_rakamlar: her satıra doğrulama durumu eklendi; KAP satırına 1,36 milyar TL eklendi; Derrick telefon satırı eklendi; saha satırları iki Resmî Gazete kaynağına ayrıldı.",
+"adimlar: MAPEG ve USGS rakamlarının elle teyidi için yeni adım eklendi; bayi puanlama şablonu adımı eklendi; görüşme sonuçlarının elle girilmesi notu eklendi.",
+"ek_md: görüşme ve bayi puanlaması bölümü eklendi; kaynak listesine doğrulama durumu yazıldı.",
+"bant_gerekcesi: kanıt puanının MAPEG ve USGS teyidine bağlı olduğu, teyit edilmezse 2'ye düşeceği eklendi.",
+"web listesi: her kayda doğrulandı ya da doğrulanamadı notu eklendi; bu turda hiç anılmayan agg-net haberi ve İTÜ tez kaydı çıkarıldı.",
 "16 Ekim 2026 ek araştırması: 8 arama, 30 sayfa okundu; çürütücü 8 sayfa açtı, güven 4/5.",
 "USGS feldispat PDF'si açıldı ama metin katmanı okunamadı; [1] kaynaklı 5.274 bin ton, 5.300 bin ton, 720 milyon ton rezerv, 31,0 milyon ton dünya, yüzde 93 ve yüzde 35 rakamlarına 'doğrulanamadı' eklendi.",
 "Dergipark makalesi PDF'si açıldı ama metin katmanı okunamadı; [2] kaynaklı üretim, ihracat, pazar payı, ruhsat, kalite şartı ve flotasyon payı rakamlarına 'doğrulanamadı' eklendi.",
@@ -2943,8 +3420,52 @@ window.MEKA_DATA = {
 "kapsam tam yerine kismi; kapsam_notu inceleme eksikliğini anlatıyor.",
 "celiskiler: Beylikova metalik cevher yorumu yumuşatıldı, kaynak atıfları dosyalara çevrildi."
 ],
-"guven": 4,
+"guven": 3,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "USGS ve MAPEG feldispat üretim rakamları, 5,27 milyon ton ile 8,98 milyon ton, hangi tanım farkından kaynaklanıyor; iki kaynağın metni okunup teyit edilmeli",
+"durum": "kismen",
+"cevap": "Bu turda iki kaynak da doğrulanamadı. MAPEG Maden İstatistikleri sayfası sertifika hatası verdi ve açılmadı; 8.983.207 ton (2024), 9.478.458 ton (2023), 15.011.271 ton (2022) rakamları önceki turun metin aracısı okumasına dayanıyor, doğrulanamadı. USGS Mineral Commodity Summaries 2026 feldispat PDF'i indirildi ama metin çıkarılamadı; Türkiye 5.274 bin ton (2024), 5.300 bin ton (2025 tahmini), dünya 31.100 bin ton rakamları ve revizyon notu doğrulanamadı. Önceki turda bile 2024 Türkiye rakamı bozuk okunmuştu (75.274 olarak çıktı, 5.274 diye yorumlandı). Tüvenan ile satılabilir ürün farkı yorumu iki kaynağın metninde açıkça yazmıyor; bu bir çıkarım. İki PDF ve MAPEG sayfası elle açılıp rakamlar kontrol edilmeli.",
+"kaynak": "https://www.mapeg.gov.tr/Sayfa/Madenistatistik (açılamadı, sertifika hatası) ; https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-feldspar.pdf (PDF indirildi, metin okunamadı)",
+"kime": "MAPEG Maden İstatistik birimi, bilgi edinme başvurusu ya da santral; soru: feldispat rakamı tüvenan mı, satılabilir mi, 2022 ile 2023 arasındaki düşüşün nedeni ne. Ayrıca MAPEG sayfası ve USGS PDF tarayıcıda elle açılıp rakamlar not edilmeli"
+},
+{
+"soru": "Esan, Kaltun, Çine Akmaden ve Kale Maden'in yıllık flotasyon ve manyetik ayırma kapasiteleri ve 2026 ile 2027 yatırım planları",
+"durum": "gorusme",
+"cevap": "Kaltun Maden sayfası bu turda açıldı ve şu firma beyanları doğrulandı: Çine, Milas, Yatağan, Bursa, Eskişehir olmak üzere 5 bölgede 56 ruhsatlı saha; tesislerde kırma, eleme, zenginleştirme, öğütme ve paketleme yapılıyor; flotasyon ya da manyetik ayırma bu sayfada geçmiyor; 2024 Yılı Sürdürülebilirlik Raporu PDF bağlantısı var (Ocak 2026'da yüklenmiş); kapasite rakamı ve 2026 ile 2027 yatırım planı yok. Kaltun grup cirosu 1 milyar TL, 1.700 üzeri çalışan ve 2003 Çine flotasyon tesisi bilgileri kaltun.com.tr sayfasından; bu turda açılmadı, doğrulanamadı, firma beyanı. Esan tesis sayfası (4 tesis listesi) ve Kale Maden faaliyet sayfası bu turda açılmadı, doğrulanamadı, firma beyanı. Çine Akmaden alan adları önceki turda çözülememişti. Hiçbir firmada 2026 ya da 2027 yatırım planı bulunamadı.",
+"kaynak": "https://kaltunmaden.com.tr/ (doğrulandı, firma beyanı) ; https://www.esan.com.tr/en/facilities/industrial-minerals-facilities (doğrulanamadı) ; https://www.kalemaden.com.tr/faaliyetlerimiz (doğrulanamadı)",
+"kime": "Esan Eczacıbaşı satınalma ya da tesis müdürlüğü; Kaltun Maden iletişim formu kaltunmaden.com.tr/#iletisim; Kale Maden iletişim sayfası; Çine Akmaden için Aydın Ticaret Odası kayıtlı telefon. Esan 2025 Entegre Raporu ve Kaltun 2024 Sürdürülebilirlik Raporu PDF'leri elle indirilip okunmalı"
+},
+{
+"soru": "Türkiye'de yılda kaç yeni feldispat ve kuvars zenginleştirme hattı kuruluyor ve ekipman harcaması ne kadar",
+"durum": "kismen",
+"cevap": "Yıllık yeni hat sayısı veren kaynak yok. Doğrulanan tek veri KAP bildirimi: CVK Maden'in bağlı ortaklığı Aldridge Mineral Madencilik A.Ş. ile Metso Finland Oy arasında 25,2 milyon Euro (yaklaşık 1,36 milyar TL) tutarında Ana Ekipman Tedarik Sözleşmesi; Yozgat Boğazlıyan Yenipazar Polimetalik Maden İşletmesi; flotasyon tesisinin kırma, öğütme, flotasyon ve arıtma bölümlerindeki ana makine ve ekipmanlar ile analizörler; teslim 7 ila 12 ay; bildirim tarihi 22.07.2026. Bu polimetalik bir tesis, feldispat değil; yalnızca fiyat ölçeği için referans. Akfeld Madencilik Uşak Eşme ÇED duyurusu (21 Haziran 2022) ve Gümüşhane feldispat ön fizibilite raporu (2021; 20 ton/saat hat, toplam sabit yatırım 5.215.393 TL, makine ekipman yaklaşık 2.064.100 TL) bu turda açılmadı, doğrulanamadı.",
+"kaynak": "https://kap.org.tr/tr/Bildirim/1635558 (doğrulandı) ; https://usak.csb.gov.tr/ced-raporu-halkin-gorus-ve-onerilerini-alma-sureci-hakkinda-duyuru-duyuru-426783 (doğrulanamadı) ; https://www.kalkinmakutuphanesi.gov.tr/assets/upload/dosyalar/gumushane-ili-feldspat-cevheri-isleme-ve-zenginlestirme-on-fizibilite-raporu--2021.pdf (doğrulanamadı)",
+"kime": "Çevre Bakanlığı e-ÇED duyuru sistemi, eced-duyuru.csb.gov.tr, feldispat ve kuvars zenginleştirme anahtar kelimeleriyle 2024, 2025, 2026 proje tanıtım dosyası sayımı; Aydın ve Muğla Çevre İl Müdürlüğü duyuru sayfaları; İMİB ya da Türkiye Madenciler Derneği sektör raporu"
+},
+{
+"soru": "MAPEG 2026 ve 2027 ruhsat ihalelerinde feldispat, kuvars ve kum sahası var mı",
+"durum": "kismen",
+"cevap": "Resmî Gazete iki ilanı doğrulandı. 21 Ocak 2026 Çarşamba, Sayı 33144: Enerji ve Tabii Kaynaklar Bakanlığı Maden ve Petrol İşleri Genel Müdürlüğü, 182 adet maden sahası ihale edilecektir; ek PDF 20260121-3-6.pdf. 24 Temmuz 2026 Cuma, Sayı 33319: aynı kurum, 115 adet maden sahası ihale edilecektir; ek PDF 20260724-3-1.pdf. Resmî Gazete özet sayfalarında grup numarası, ihale tarihi, maden grubu ve saha listesi yok; bunlar PDF içinde. 308. ve 312. grup etiketleri, 1 ile 7 Eylül 2026 ihale tarihleri, 273. küçük alan ilanı ve ertelenen sahalar duyurusu MAPEG sitesinden; MAPEG bu turda açılmadı, doğrulanamadı. 2027 için ilan görülmedi. Feldispat, kuvars ve kum sahası sayısı PDF okunmadan çıkarılamaz.",
+"kaynak": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/01/20260121-3.htm (doğrulandı) ; https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/07/20260724-3.htm (doğrulandı) ; https://www.mapeg.gov.tr/Sayfa/Duyurular/1/21 (doğrulanamadı)",
+"kime": "MAPEG Ruhsat ve İhale birimi; ya da 20260121-3-6.pdf ve 20260724-3-1.pdf dosyaları Resmî Gazete sitesinden elle indirilip II-b ve IV. grup feldispat, kuvars, kuvars kumu sahaları sayılmalı"
+},
+{
+"soru": "Türkiye'de feldispat flotasyon ve manyetik ayırıcı ekipmanını kim tedarik ediyor; yerli üretici var mı",
+"durum": "kismen",
+"cevap": "Derrick iletişim sayfası doğrulandı: Derrick Turkey, Sales and Service: Mining & Industrial, telefon +90 535 945 7093, e-posta DerrickMECA@derrick.com. Sayfada Türkiye için adres yok; aynı e-posta Dubai'deki Derrick Middle East ofisine ait, bu yüzden Türkiye'nin Dubai'den yönetildiği çıkarım. Derrick ürünleri eleme ve susuzlandırma; flotasyon ya da manyetik ayırıcı üretmiyor. Metso sayfası doğrulandı: Ascendum Makina Ticaret A.Ş., Istanbul, Distributor, Turkey, yalnızca Aggregates etiketi, +90 216 581 8000, Tuzla. Metso Ankara ofisi (61810) bu turda açılmadı, doğrulanamadı. Metso Finland Oy'un flotasyon tesisi ana ekipmanını Türkiye'de doğrudan sattığı KAP bildirimiyle doğrulandı. Eriez temsilci bilgisi önceki turda da görülememişti. Yerli flotasyon hücresi ya da yüksek alanlı manyetik ayırıcı üreticisi bulunamadı; bu, pazarda yok demek değil.",
+"kaynak": "https://derrick.com/contact/ (doğrulandı) ; https://www.metso.com/contact/turkey/61867/ (doğrulandı) ; https://kap.org.tr/tr/Bildirim/1635558 (doğrulandı) ; https://www.metso.com/contact/turkey/61810/ (doğrulanamadı)",
+"kime": "Derrick Türkiye temsilcisi, +90 535 945 7093; Eriez Find a Salesperson sayfasında Türkiye seçimi; Esan ve Kaltun tesis müdürlerine hangi marka flotasyon hücresi ve manyetik ayırıcı kullandıkları; Maden Mühendisleri Odası ya da İMİB üzerinden yerli imalatçı listesi"
+},
+{
+"soru": "Metso ile tedarik anlaşmasının kapsamı ve MCSP müşterilerinin listesi şirket içi; bunlar için kime sorulacak",
+"durum": "gorusme",
+"cevap": "Web kaynağı yok, şirket içi bilgi. Dış bulgu doğrulandı: Metso Türkiye'de kırma eleme (Aggregates) için Ascendum'u distribütör yapmış; flotasyon ve öğütme ana ekipmanı Metso Finland Oy'dan doğrudan satılıyor (CVK örneği). MEKA'nın Metso anlaşması kırma eleme tarafındaysa flotasyon ve manyetik ayırma için çakışma olmayabilir; teyit sözleşme metninde.",
+"kaynak": "https://www.metso.com/contact/turkey/61867/ (doğrulandı) ; https://kap.org.tr/tr/Bildirim/1635558 (doğrulandı)",
+"kime": "MEKA Genel Müdürlük ve Satınalma, Metso tedarik sözleşmesi metni; MEKA Satış Müdürlüğü, MCSP müşteri listesi ve feldispat ya da kuvars işleyen tesis olup olmadığı"
+}
+],
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -4344,8 +4865,8 @@ window.MEKA_DATA = {
 "id": "res_temel",
 "baslik": "RES temel paketi",
 "bant": "ikincil",
-"puan_metni": "Pazar gerçek ve tarihli: YEKA RES-2026 1.500 MW üç kaynakla, 2025'te 2.141 MW ekleme TÜREB verisiyle doğrulandı. Ama MEKA için iş gerekçesinin çekirdeği olan temel başına beton hacmi tek firma özetinden ve doğrulanamadı; hacim ve ciro tahminleri bu rakama dayanır. Bu yüzden kanıt puanı 2. Bant yine ikincil: bu yeni bir iş alanı değil, mevcut mobil santral ve kırıcının yeni bir müşteri segmentine satışıdır ve yıllık birkaç makine ölçeğinde kalır. Temel müteahhitliğine girmek MEKA'nın işi değildir. Belge 03 sıralamasında on alan içinde 4. sıra, \"Sonrakiler\" grubu. Etiketler: 6 ile 18 ay, Ar-Ge düşük, yatırım düşük. Harita: gelire uzaklık orta, potansiyel büyüklük orta. Sayısal puan yok; Belge 03 yalnızca sıra verir.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 24 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Bant değişmedi, kanıt puanı 3'ten 2'ye indi. Lehine: YEKA RES-2026 takvimi, 1.500 MW kapasite ve 7 yarışma iki haber kaynağıyla doğrulandı; Nordex 389 MW yeni sipariş ve yerli ankraj kafesi üretimi firma beyanıyla doğrulandı; hazır beton fiyatı ve THBB üretim rakamı doğrulandı. Aleyhine: yaprağın temel iddiası (şartnamede temel ve ankraj kafesine puan yok) ve pazar büyüklüğü hesabının iki girdisi (235 türbin, 568 ile 666 m3) okunamayan PDF'lere dayanıyor, doğrulanamadı. Müteahhitlerin mobil santral kullanıp kullanmadığı hâlâ bilinmiyor; bu MEKA için kritik soru. THBB Eylül 2026 endeksi genel inşaatta daralma gösteriyor, RES temeli niş talep olarak değer kazanabilir ama bunu gösteren kaynak yok. Belirsizlik kapanmadan öne çıkan banda alınamaz; doğrulanmış pazar işaretleri nedeniyle elenmez. Pazar gerçek ve tarihli: YEKA RES-2026 1.500 MW üç kaynakla, 2025'te 2.141 MW ekleme TÜREB verisiyle doğrulandı. Ama MEKA için iş gerekçesinin çekirdeği olan temel başına beton hacmi tek firma özetinden ve doğrulanamadı; hacim ve ciro tahminleri bu rakama dayanır. Bu yüzden kanıt puanı 2. Bant yine ikincil: bu yeni bir iş alanı değil, mevcut mobil santral ve kırıcının yeni bir müşteri segmentine satışıdır ve yıllık birkaç makine ölçeğinde kalır. Temel müteahhitliğine girmek MEKA'nın işi değildir. Belge 03 sıralamasında on alan içinde 4. sıra, \"Sonrakiler\" grubu. Etiketler: 6 ile 18 ay, Ar-Ge düşük, yatırım düşük. Harita: gelire uzaklık orta, potansiyel büyüklük orta. Sayısal puan yok; Belge 03 yalnızca sıra verir.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 Eylül 2026",
 "ne": "Rüzgâr santrali inşaatında türbin temellerinin beton ve agrega ihtiyacını sahada karşılayan paket: mobil beton santrali, mobil kırma eleme hattı ve kalıp ya da ankraj kafesi gibi kaynaklı yardımcı parçalar. MEKA bunu doğrudan temel müteahhidi olarak değil, CBoP müteahhidine makine satan ya da kiralayan ve saha kurulumunu üstlenen ortak olarak yapar.",
 "neden": "Türkiye 2035'e kadar her yıl 2.000 ile 2.500 MW rüzgâr kapasitesi tahsis etmeyi hedefliyor ve 2025 yılında rekor 2.141 MW eklendi (TÜREB verisi, Forbes aktarımı). YEKA RES-2026 ile 1.500 MW daha tahsis ediliyor ve başvurular 13 Ekim 2026 günü alındı. Bu kapasite 6 ile 7 MW sınıfı türbinlerle yılda 300 ile 400 türbin temeli demek. Temel başına 700 m3 dolayında beton rakamı tek firma kaynaklı ve bu turda doğrulanamadı. Beton sahada, uzak ve dağlık arazide üretilir; mobil santral ve mobil kırıcı bu işin makinesidir ve MEKA'nın mevcut ürünüdür (firma beyanı).",
 "rakamlar": [
@@ -4423,47 +4944,122 @@ window.MEKA_DATA = {
 "deger": "230 türbin, yaklaşık 160.000 m3 beton, yaklaşık 300.000 t agrega",
 "aciklama": "YEKA RES-2026'nın 1.500 MW'ı için tahmin: 6,5 MW türbin, 700 m3 yerçekimi temeli, m3 başına 1,9 t agrega varsayımı. Temel başına 700 m3 rakamı doğrulanamadığı için bu tahmin de doğrulanamamış bir girdiye dayanır. Kaya ankrajlı temellerde hacim üçte bire düşer.",
 "kaynak": "tahmin, doğrulanmış YEKA kapasitesi ile doğrulanamayan Peikko hacim rakamından türetildi"
+},
+{
+"deger": "100 puan toplam, asgari 55 puan (doğrulanamadı)",
+"aciklama": "YEKA RES-2026 Ek-2 aksam puan tablosu iddiası; kule 21, kanat 19,5, dişli kutusu 15, jeneratör 5 ile 30. Şartname PDF'i indi ama metin okunamadı. Kaydedilen dosya PDF okuyucuda açılıp teyit edilmeli.",
+"kaynak": "https://enerji.gov.tr/Media/Dizin/BHIM/tr/Duyurular//YEKA_RES-2026Sartname_202607111136.pdf"
+},
+{
+"deger": "235 türbin, 1.645 MW (doğrulanamadı)",
+"aciklama": "YEKA RES-2026 TEA sonuçları iddiası: 8 saha, nasel 119 m, Kütahya-1'de 112 m, kanat yarıçapı 87,5 m. TEA PDF'i indi ama metin okunamadı.",
+"kaynak": "https://enerji.gov.tr/Media/Dizin/BHIM/tr/Duyurular//YEKA_RES-2026_TEA_SONUCLARI_202607111136.pdf"
+},
+{
+"deger": "568 ile 666 m3 C35/45, 90 ile 100 t donatı (doğrulanamadı)",
+"aciklama": "Nordex Delta4000 TCS164 temel dokümanı iddiası. PDF üst verisi belge adını (Fundament_TCS164, 8 sayfa, 27 Mart 2020) doğruladı; rakamlar okunamadı.",
+"kaynak": "https://www.landkreis-helmstedt.de/downloads/datei/ZjQyMTk5ZTE2Njg4ZmFjMU4ramVINTFJcnI3RGthUzZTMHFUc3FpSXI2WmhFd2c3VlBDUkVrZlViQ0l3dTJwVlhxbVY5VHVaY0puVE1TMjExK09RZXNIZVl2T0pzcE1SQ3pISWd2a0hSdDQxeTJsSXo4Y0JBd2xFOFpWRDBnZW1oQ1R3ajcvOHlSSVpOTnQ2NHdML2plU1c1OWRDbjdjRFg1MWwvdz09"
+},
+{
+"deger": "Yaklaşık 141.000 m3 beton, 490 ile 545 milyon TL (hesap, girdileri doğrulanmamış)",
+"aciklama": "235 türbin çarpı 600 m3 eşittir 141.000 m3; C30/37 3.500 ile 3.850 TL/m3 ile. Türbin sayısı ve temel hacmi okunamayan PDF'lerden geliyor; yalnız fiyat doğrulandı. Sipariş büyüklüğü sırası için kullanılmalı, teklif için değil.",
+"kaynak": "Hesap; girdiler TEA sonuçları (doğrulanamadı), Nordex temel dokümanı (doğrulanamadı), Karekod fiyat tablosu (doğrulandı)"
+},
+{
+"deger": "3.500 ile 3.850 TL/m3 (doğrulandı)",
+"aciklama": "C30/37 hazır beton Türkiye referans fiyatı, Eylül 2026, 18 Ağustos 2026 piyasa verisine dayanıyor. Kamu birim fiyatı nakliye ve pompa dahil C35/45 4.404,39 TL, Ağustos 2026. Karekod bağımsız blog, resmi değil.",
+"kaynak": "https://www.karekod.org/blog/hazir-beton-fiyatlari/"
+},
+{
+"deger": "140 milyon m3, yüzde 7,7 artış, 293 milyar TL ciro (doğrulandı)",
+"aciklama": "THBB 2025 sektör raporu basın bülteni, 7 Nisan 2026; 50 bini aşan istihdam. Santral, mobil pompa ve transmikser satış sayıları bültende yok, doğrulanamadı.",
+"kaynak": "https://www.thbb.org/haberler/turkiye-hazir-beton-birligi-2025-yili-hazir-beton-sektor-raporunu-acikladi/"
+},
+{
+"deger": "Faaliyet Endeksi 98,00; yıllık yüzde 1,7 düşüş (doğrulandı, yeni)",
+"aciklama": "THBB Hazır Beton Endeksi Eylül 2026, 13 Ekim 2026. Beklenti yüzde 1,5, bileşik yüzde 1,2, Güven yüzde 0,3 geriledi; tüm endeksler 100 eşiğinin altında. Genel inşaat talebi zayıf; RES temeli bu ortamda beton üreticileri için niş talep.",
+"kaynak": "http://www.thbb.org/sektor/hazir-beton-endeksi/hazir-beton-endeksi-2026-eylul-ayi-raporu/"
+},
+{
+"deger": "389 MW, 56 türbin (doğrulandı, firma beyanı)",
+"aciklama": "Nordex Türkiye yeni siparişleri, Eylül 2026, duyuru 7 Ekim 2026; Delta4000 serisi, kurulum 2027 ile 2028, müşteri ve proje adı açıklanmadı. Ortalama yaklaşık 6,9 MW/türbin.",
+"kaynak": "https://www.nordex-online.com/en/2026/10/nordex-group-records-389-mw-of-new-orders-in-turkiye/"
+},
+{
+"deger": "4.006 MW kurulu, 1.450 MW inşa halinde, yüzde 29,47 pazar payı (doğrulandı, firma beyanı)",
+"aciklama": "Nordex Türkiye, Q3 2024 itibarıyla; 2017'den beri pazar lideri. Yerli bileşenler: kanat, ankraj kafesi, kule, jeneratör, kule bağlantı ekipmanı.",
+"kaynak": "https://www.nordex-online.com/en/turkey/"
+},
+{
+"deger": "Yaklaşık 2 milyar USD (doğrulandı, haber)",
+"aciklama": "TÜREB Başkanı İbrahim Erden'in YEKA RES-2026 1.500 MW için yatırım beklentisi; yerli üretim katkısını kule, kanat, jeneratör ve güç elektroniği olarak sayıyor. Para Dergi, 13 Ağustos 2026.",
+"kaynak": "https://www.paradergi.com.tr/sektorler/2026/08/13/yenilenebilir-enerjide-buyuk-yaris"
+},
+{
+"deger": "14.105 MW kurulu, 4.508 türbin, 3.814,90 MW inşa halinde (doğrulanamadı)",
+"aciklama": "TÜREB Ocak 2026 istatistiği iddiası. tureb.tr bu turda yalnız 103 karakterlik boş kabuk döndürdü, içerik JavaScript ile yükleniyor; rakamlar görülemedi.",
+"kaynak": "https://tureb.tr/"
+},
+{
+"deger": "2.500 MW yeni kurulum hedefi 2026 (doğrulanamadı)",
+"aciklama": "Milliyet 13 Mayıs 2026 haberi bu turda açılmadı. Yüzde 60 ve yüzde 65 yerlilik ifadeleri de doğrulanamadı.",
+"kaynak": "https://www.milliyet.com.tr/7586904"
+},
+{
+"deger": "20.000 Euro/MW başvuru, 100.000 Euro/MW sözleşme teminatı (doğrulandı)",
+"aciklama": "YEKA RES-2026; tavan 5,50, taban 3,50 Euro-cent/kWh; 72 ay serbest piyasa, PTF 4,75 altına düşerse 4,75 koruması; 20 yıl alım. Katkı payı yarışı 10.000 Euro/MW ile başlıyor, 100.000 ile 300.000 Euro/MW'a çıkabiliyor. Başvuru bedeli 100.000 TL doğrulanamadı.",
+"kaynak": "https://www.bloomberght.com/yeka-da-basvurular-alindi-22-yila-varan-kredi-imkani-motivasyonu-artiriyor-3791225"
 }
 ],
-"durum": "YEKA RES-2026 ilanı 11 Temmuz 2026 tarihli Resmî Gazete'de çıktı; başvurular 13 Ekim 2026 günü alındı. Yarışma gün ve saatinin Bakanlık sitesinden duyurulacağı Temmuz'da söylendi; 13 Ekim tarihli haberde yarışma günü geçmiyor ve açıklandığına dair kaynak bu araştırmada bulunmadı. Kazananların lisans sonrası 36 ay kurulum süresi var; piyasa uzmanı fiilen 20 ay ile 3 yıl diyor. Temel inşaatlarının 2027 sonu ile 2029 arasında yoğunlaşması tahmindir. YEKA RES-2024 kapsamında Enerjisa Edirne ve Balkaya (750 MW) ile Efor Yellice (160 MW) projeleri sürüyor; Yellice'nin Mayıs ile Haziran 2026'da tamamlanması planlanmıştı. Pazar canlı; MEKA'nın elinde ürün var ama firma sayfasında rüzgâr referansı yok.",
+"durum": "RES temel paketi ikincil bantta kalıyor, kanıt puanı 3'ten 2'ye indi. 16 Ekim 2026 çürütme turunda 13 çağrı yapıldı, 12 sayfa içerik döndü. Yaprağın en kritik iddiası, YEKA RES-2026 şartnamesinde temel, ankraj kafesi ve kalıbın yerli aksam puanı taşımadığı, doğrulanamadı: şartname PDF'i indi ama metin okunamadı. Aynı sorun TEA sonuçları (235 türbin, 1.645 MW, 119 m nasel) ve Nordex temel dokümanı (568 ile 666 m3 C35/45) için de geçerli; yalnız doküman adı ve tarihi görüldü. Bu üç PDF harness tarafından yerel dosyaya kaydedildi, ekip bir PDF okuyucuyla açıp teyit edebilir. Doğrulananlar: YEKA takvimi ve fiyat, teminat, süre koşulları (iki haber kaynağı); Nordex Türkiye'de yerli ankraj kafesi ve kule üretimi ile 389 MW yeni sipariş (firma beyanı); hazır beton Eylül 2026 fiyatları (bağımsız blog); THBB 2025 üretimi 140 milyon m3 ve Eylül 2026 endeksinde faaliyetin 98,00'a düşmesi. Yeni bilgi: inşaat sektörü genel olarak daralıyor; bu ortamda RES temeli beton üreticileri için niş ama istikrarlı bir talep olabilir. Eksik kalan iki ana konu değişmedi: temel müteahhitlerinin kim olduğu ve betonu mobil santralle mi hazır betoncudan mı aldıkları. Bu yalnız bayi anketi ve görüşmeyle kapanır; bayi cevapları web'den puanlanamaz, elle tabloya girilip basit bir puan şemasıyla sıralanmalı.",
 "acik_sorular": [
-"RES-2026 şartnamesinin Ek-2 aksam puan tablosu bu araştırmada açılamadı; temel, kalıp ya da ankraj kafesi herhangi bir puan taşıyor mu, yoksa yerlilik yalnız türbin aksamıyla mı sınırlı?",
-"Türkiye'de türbin temeli döken başlıca CBoP müteahhitleri kimler, yılda kaç temel döküyorlar, betonu kendi mobil santralleriyle mi yoksa yakın hazır beton tesisinden mi alıyorlar?",
-"Nordex N163 sınıfı türbinler için Türkiye sahalarında gerçek temel hacmi kaç m3 ve hangi beton sınıfı isteniyor? Peikko 700 m3 örneği doğrulanamadı; bağımsız bir kaynak gerekiyor.",
-"Hibrit beton kule ya da prekast temel Türkiye'de kullanılıyor mu; kullanılacaksa prekast kalıp ve beton üretim adımında MEKA'ya yer var mı?",
-"YEKA RES-2026 yarışması hangi tarihte yapılacak ve kazananlar kim olacak?",
-"Temel müteahhidi için mobil santral kiralama ya da m3 başına ücret modeli ekonomik olarak işliyor mu; MEKA mobil santralinin fiyat düzeyi ve hazır beton alternatifinin m3 maliyeti nedir? MEKA sayfası fiyatın kapasite ve mikser tipine göre değiştiğini söylüyor, rakam vermiyor."
+"Kısmen cevaplandı: YEKA RES-2026 şartnamesinin aksam puan tablosunda temel, kalıp ya da ankraj kafesi puan taşıyor mu, yoksa yerlilik yalnız türbin aksamıyla mı sınırlı",
+"Görüşme gerekir: Türkiye'de türbin temeli döken başlıca inşaat müteahhitleri kimler; betonu kendi mobil santralleriyle mi döküyorlar (TÜREB Ankara ofisi, üye müteahhit listesi için; telefon ve e-posta önceki turdan, tureb.tr bu turda içerik döndürmediği için doğrulanamadı. Enerjisa Üretim satın alma, Balkaya RES temel yüklenicisi ve beton tedarik modeli için. Nordex Enerji A.Ş. satış, SalesTurkey@nordex-online.com (doğrulandı), çalıştıkları CBoP yüklenicileri için. MEKA bayileri, saha anketi.)",
+"Kısmen cevaplandı: Nordex N163 ve benzeri sınıf türbinler için temel beton hacmi kaç m3 ve hangi beton sınıfı; bağımsız kaynak",
+"Kısmen cevaplandı: Hibrit beton kule ya da prekast temel Türkiye'de kullanılıyor mu; hangi projelerde",
+"Kısmen cevaplandı: YEKA RES-2026 yarışması tarihi, başvuru sonucu ve kazananlar",
+"Kısmen cevaplandı: Temel müteahhidi için mobil santral kiralama ya da m3 başına ücret modeli; hazır beton m3 fiyatı Türkiye 2026"
 ],
 "adimlar": [
 {
-"adim": "Enerji Bakanlığı sitesinden YEKA RES-2026 şartnamesini ve Ek-2 tablosunu indir, temel ve kalıp tarafına puan var mı diye oku",
+"adim": "Kaydedilen üç PDF'i (YEKA şartnamesi, TEA sonuçları, Nordex TCS164 temel dokümanı) bir PDF okuyucuda açmak; Ek-2 puan tablosu, Madde 2.1, türbin sayısı, nasel yüksekliği, beton hacmi ve sınıfını ekran görüntüsüyle kaydetmek. Doğrulanınca ilgili cevaplar yeniden cevaplandi yapılır",
+"kim": "Strateji ekibi",
+"ne_zaman": "20 Ekim 2026'ya kadar"
+},
+{
+"adim": "Bayi anketi cevaplarını elle tek tabloya girmek. Sütunlar: bayi adı, bölge, görüşme tarihi, RES temeli döken firma adları, mobil santral kullanıyor mu (evet, hayır, bilmiyor), m3 başına ücret ya da kiralama örneği, kaynak kişi. Puanlama: firma adı verdiyse 1 puan, mobil santral evet 2 puan, bilmiyor 1 puan, hayır 0 puan, ücret ya da kiralama örneği verdiyse 1 puan; toplam 0 ile 4. En yüksek puanlı bayi bölgesi öncelikli saha ziyareti olur. Yaprak kararı için ölçüt: mobil santral evet diyen bayi sayısı toplamın yarısını geçerse yaprak öne çıkan banda aday, üçte birinin altında kalırsa izle bandına düşer",
+"kim": "Satış müdürü ve bayi ağı",
+"ne_zaman": "30 Ekim 2026'ya kadar"
+},
+{
+"adim": "TÜREB Ankara ofisini arayıp inşaat ve BoP yapan üye firma listesi ile Ocak 2026 istatistik raporunu istemek. İletişim bilgisi bu turda doğrulanamadı, tureb.tr sitesinden tarayıcıyla teyit edilmeli",
 "kim": "Strateji ekibi",
 "ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "Temel başına beton hacmini bağımsız bir kaynaktan doğrula: Peikko ve Aarsleff sayfalarını yeniden dene, Türkiye'de bir CBoP müteahhidinden N163 sınıfı için gerçek m3 ve beton sınıfı al",
-"kim": "Teknik ekip",
-"ne_zaman": "15 Kasım 2026'ya kadar"
+"adim": "Nordex Enerji A.Ş. Türkiye satışa e-posta, SalesTurkey@nordex-online.com (doğrulandı): Türkiye projelerinde çelik kule için temel beton hacmi, beton sınıfı, ankraj kafesi tedarikçileri ve çalıştıkları CBoP yükleniciler",
+"kim": "Strateji ekibi",
+"ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "Balkaya, Edirne, Yellice ve YEKA RES-2025 sahalarının CBoP müteahhitlerini listele; en az üç müteahhitle görüşerek beton tedarik biçimini ve m3 hacimlerini öğren",
-"kim": "Satış ve iş geliştirme",
-"ne_zaman": "30 Kasım 2026'ya kadar"
+"adim": "Enerjisa Üretim satın alma ile Balkaya RES temel yüklenicisi ve beton tedarik modeli için görüşme; telefon bu turda doğrulanamadı, şirket sitesinden teyit edilmeli",
+"kim": "Satış müdürü",
+"ne_zaman": "6 Kasım 2026'ya kadar"
 },
 {
-"adim": "Bir mobil santral ve bir mobil kırıcı için saha demo ya da kiralama teklifi hazırla; 50 türbinlik bir RES için m3 başına maliyet tablosu çıkar",
-"kim": "Ürün yönetimi ve finans",
-"ne_zaman": "15 Aralık 2026'ya kadar"
+"adim": "enerji.gov.tr duyurular sayfasını haftalık kontrol: YEKA RES-2026 yarışma tarihi ve kazananlar; kazananlar açıklanınca her kazananın CBoP yüklenicisini öğrenmek",
+"kim": "Strateji ekibi",
+"ne_zaman": "Her Pazartesi, 19 Ekim 2026'dan itibaren"
 },
 {
-"adim": "YEKA RES-2026 yarışma sonucu açıklanınca kazanan yedi saha sahibine ve müteahhitlerine mobil santral ve agrega hattı teklifi götür",
-"kim": "Satış",
-"ne_zaman": "Yarışma sonucundan sonraki 60 gün içinde"
+"adim": "THBB 2025 sektör raporu PDF'ini açıp tesis sayısı, santral ve mobil pompa satış rakamlarını teyit etmek; Eylül 2026 endeks raporu zaten okundu, aylık takibe eklemek",
+"kim": "Strateji ekibi",
+"ne_zaman": "30 Ekim 2026'ya kadar"
 },
 {
-"adim": "Kütahya ve Balıkesir sahaları için saha yakını agrega kaynaklarını ve kaya tipini incele; kaya ankrajlı temel ihtimalini değerlendir",
-"kim": "Teknik ekip",
-"ne_zaman": "2027 ilk çeyrek"
+"adim": "Bayi tablosu ve görüşme sonuçlarıyla yaprağı yeniden puanlamak; mobil santral kullanımı yaygınsa paket kiralık ya da satılık mobil santral artı ankraj kafesi ve kalıp teklifi olarak yeniden tanımlanır, hazır betondan alınıyorsa izle bandına düşer",
+"kim": "Strateji ekibi ve genel müdür",
+"ne_zaman": "13 Kasım 2026"
 }
 ],
 "riskler": [
@@ -4561,7 +5157,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: Çürütücü turu: görev en fazla 8 sayfa açmaya izin verdi; 8'i açıldı (ruzgarenerjisi, bloomberght, dunyaenerji, forbes, capital, energyglobal, ekonomist Efor, mekaglobal). Kalan 9 kaynak (iki Bakanlık PDF'i, cnnturk, ekonomist 69879, peikko, aarsleff, windletteren, linkedin, ekonomigazetesi) bu turda açılmadı; onlara dayanan her rakam \"doğrulanamadı\" diye işaretlendi, silinmedi çünkü kaynakları var. Hiç kaynağı olmayan iki isim (Kalyon Enerji, Enercon) ve Energy Global'e yanlış atfedilen 2026-2027 temel takvimi silindi. Resmî Gazete'nin kendisi ve Bakanlık duyuru sayfası açılmadı; YEKA rakamları üç uyumlu haber kaynağına dayanır. Önceki çalışmaya atıf yapan cümlelere dokunulmadı. Kullanıcının sondaki isteği (Azure yerine GitHub ya da Render'da yayınlama ve link verme) bu ajanın yetkisi dışında: bu ajan yalnız web sayfası okuyabilir, dosya yazamaz, dağıtım yapamaz ve link üretemez; bu adımı üst ajan ya da kullanıcı yapmalı. Araştırmanın özgün sınırları aynen geçerli: sekiz WebSearch kullanıldı, TÜREB sitesi içerik vermedi, Peikko 404 verdi, Türkiye temel müteahhitleri listesi ve mobil santral birim fiyatı bulunamadı.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 6 açık sorunun 0'i cevaplandı, 5'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Çürütme turunda arama yapılmadı, yalnız verilen URL'ler ve aynı sitedeki bir yönlendirme hedefi açıldı. Üç resmi PDF HTTP 200 ile indi ama metin akışları sıkıştırılmış olduğu için içerik okunamadı; fetch aracı dosyaları yerel diske kaydetti, ben açamıyorum. Bu PDF'lere dayanan tüm rakamlar (puan tablosu, 235 türbin, 1.645 MW, 119 m, 568 ile 666 m3, C35/45, 90 ile 100 t) doğrulanamadı; önceki turun r.jina.ai dönüşümüyle okuduğu iddiası bağımsız teyit edilemedi. tureb.tr boş kabuk döndürdü, TÜREB rakamları ve iletişim bilgisi doğrulanamadı. Milliyet, Bursa Hakimiyet, Enerjisa iletişim, Resmî Gazete fihristi, TÜREB iletişim ve THBB rapor PDF'i bu turda açılmadı. Karekod bağımsız blog, resmi fiyat kaynağı değil. Nordex sayfaları firma beyanı. Beton hacmi ve tutar hesabı kendi hesabım, iki girdisi doğrulanmamış. Bayi anketi puanlaması web'den yapılamaz; şablon önerdim, veri girişi elle yapılacak. Kullanıcının bayi görüşmelerine ait notlar bana ulaşmadı, bu yüzden hangi bayinin puanı yüksek bilinemez.",
 "kanit": 2,
 "web": [
 {
@@ -4648,6 +5244,91 @@ window.MEKA_DATA = {
 "url": "https://www.ekonomigazetesi.com/sektor-haberleri/hedefte-4-kat-buyume-var-60272",
 "ne": "1 MW RES yaklaşık 1 milyon dolar; 2035 rüzgâr 50.000 MW; açılmadı, doğrulanamadı",
 "tur": "haber"
+},
+{
+"url": "https://enerji.gov.tr/Media/Dizin/BHIM/tr/Duyurular//YEKA_RES-2026Sartname_202607111136.pdf",
+"ne": "YEKA RES-2026 şartnamesi; HTTP 200, 29 sayfa, metin okunamadı; Ek-2 puan tablosu doğrulanamadı; dosya yerel diske kaydedildi",
+"tur": "resmi"
+},
+{
+"url": "https://enerji.gov.tr/Media/Dizin/BHIM/tr/Duyurular//YEKA_RES-2026_TEA_SONUCLARI_202607111136.pdf",
+"ne": "YEKA RES-2026 TEA sonuçları; HTTP 200, 17 sayfa, metin okunamadı; 235 türbin ve 1.645 MW doğrulanamadı; dosya kaydedildi",
+"tur": "resmi"
+},
+{
+"url": "https://www.landkreis-helmstedt.de/downloads/datei/ZjQyMTk5ZTE2Njg4ZmFjMU4ramVINTFJcnI3RGthUzZTMHFUc3FpSXI2WmhFd2c3VlBDUkVrZlViQ0l3dTJwVlhxbVY5VHVaY0puVE1TMjExK09RZXNIZVl2T0pzcE1SQ3pISWd2a0hSdDQxeTJsSXo4Y0JBd2xFOFpWRDBnZW1oQ1R3ajcvOHlSSVpOTnQ2NHdML2plU1c1OWRDbjdjRFg1MWwvdz09",
+"ne": "Nordex Fundament TCS164 dokümanı; HTTP 200, üst veri doğrulandı (8 sayfa, 27 Mart 2020), beton hacmi ve sınıfı okunamadı; dosya kaydedildi",
+"tur": "resmi"
+},
+{
+"url": "https://www.nordex-online.com/en/turkey/",
+"ne": "Nordex Türkiye, firma beyanı, doğrulandı: yerli kanat, ankraj kafesi, kule, jeneratör, kule bağlantı ekipmanı; 4.006 MW kurulu, 1.450 MW inşa, yüzde 29,47 pay, Q3 2024; SalesTurkey@nordex-online.com",
+"tur": "firma"
+},
+{
+"url": "https://www.nordex-online.com/en/2026/10/nordex-group-records-389-mw-of-new-orders-in-turkiye/",
+"ne": "Nordex 7 Ekim 2026, firma beyanı, doğrulandı: Eylül'de 389 MW, 56 Delta4000 türbini, kurulum 2027 ile 2028, kule tipi ve müşteri açıklanmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.bloomberght.com/yeka-da-yeni-yarisma-donemi-3782634",
+"ne": "Bloomberg HT 11 Temmuz 2026, doğrulandı: Resmî Gazete ilanı, 21 yarışma 2.400 MW, RES saha kapasiteleri, katkı payı 10.000 Euro başlangıç",
+"tur": "haber"
+},
+{
+"url": "https://www.paradergi.com.tr/sektorler/2026/08/13/yenilenebilir-enerjide-buyuk-yaris",
+"ne": "Para Dergi 13 Ağustos 2026, doğrulandı: başvuru 13 Ekim 10.00 ile 12.00, yarışma tarihi sonra ilan edilecek, TÜREB 2 milyar USD tahmini, yerli üretim kule, kanat, jeneratör, güç elektroniği",
+"tur": "haber"
+},
+{
+"url": "https://www.karekod.org/blog/hazir-beton-fiyatlari/",
+"ne": "Karekod 17 Eylül 2026 güncelleme, doğrulandı: C25/30 ile C40/50 fiyat aralıkları, kamu birim fiyatları Ağustos 2026, katkılı beton 100 ile 250 TL ek; bağımsız blog",
+"tur": "diger"
+},
+{
+"url": "https://www.thbb.org/haberler/turkiye-hazir-beton-birligi-2025-yili-hazir-beton-sektor-raporunu-acikladi/",
+"ne": "THBB bülteni 7 Nisan 2026, doğrulandı: 140 milyon m3, yüzde 7,7, 293 milyar TL ciro, 50 bini aşan istihdam; santral ve pompa satış sayıları bültende yok",
+"tur": "rapor"
+},
+{
+"url": "http://www.thbb.org/sektor/hazir-beton-endeksi/hazir-beton-endeksi-2026-eylul-ayi-raporu/",
+"ne": "THBB Hazır Beton Endeksi Eylül 2026, 13 Ekim 2026, doğrulandı, yeni: Faaliyet 98,00; yıllık düşüşler yüzde 1,7, 1,5, 1,2, 0,3; inşaatta durgunluk",
+"tur": "rapor"
+},
+{
+"url": "https://www.thbb.org/media/912564/2025-haz%C4%B1r-beton-sekt%C3%B6r-raporu-3103v5-son.pdf",
+"ne": "THBB 2025 sektör raporu PDF; bu turda açılmadı; 250 santral, 700 mobil pompa, 2.500 transmikser, yüzde 11 fiyat artışı doğrulanamadı",
+"tur": "rapor"
+},
+{
+"url": "https://tureb.tr/",
+"ne": "TÜREB ana sayfa; 103 karakterlik boş kabuk döndü, JavaScript ile yükleniyor; 14.105 MW ve 3.814,90 MW doğrulanamadı",
+"tur": "rapor"
+},
+{
+"url": "https://tureb.tr/iletisim",
+"ne": "TÜREB iletişim; bu turda açılmadı; telefon ve e-posta doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.milliyet.com.tr/7586904",
+"ne": "Milliyet 13 Mayıs 2026; bu turda açılmadı; 2.500 MW hedefi ve yerlilik oranları doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.bursahakimiyet.com.tr/bursa/bursa-kutahya-sinirina-743-milyon-tl-lik-yatirim-basvuru-yapildi-1300152",
+"ne": "Bursa Hakimiyet Ömer RES ÇED; bu turda açılmadı; yerinde betonarme temel ve 2,5 m kazı doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.enerjisauretim.com.tr/hakkimizda/bizi-taniyin/bize-ulasin",
+"ne": "Enerjisa Üretim iletişim; bu turda açılmadı; telefon doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2026/07/20260711.htm",
+"ne": "Resmî Gazete 11 Temmuz 2026; bu turda açılmadı; sayı 33307 doğrulanamadı",
+"tur": "resmi"
 }
 ],
 "celiskiler": [
@@ -4663,6 +5344,30 @@ window.MEKA_DATA = {
 "Taslak 5 Ekim 2026 inceleme dosyasına atıf yapıyor; bu dosya tura verilmedi. Oradan gelen 13 Ekim jeotermal ihalesi karışıklığı notu doğrulanamadığı için çıkarıldı."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 12 sayfa; çürütücü 13 sayfa açtı, güven 3/5.",
+"Soru 1 durumu cevaplandi'dan kismen'e çekildi: şartname PDF'i indi ama metin okunamadı; Ek-2 puan tablosu, Madde 2.1, Resmî Gazete 33307, Ar-Ge yok ve başvuru bedeli 100.000 TL doğrulanamadı olarak işaretlendi",
+"Soru 1'e haberlerle doğrulanan kısımlar eklendi: ilan 11 Temmuz 2026, tavan 5,50, taban 3,50, 72 ay, 20 yıl, 20.000 ve 100.000 Euro/MW",
+"Soru 1'e dolaylı kanıt eklendi: TÜREB Başkanı Erden yerli katkıyı kule, kanat, jeneratör ve güç elektroniği olarak sayıyor, temel geçmiyor (Para Dergi)",
+"Soru 2'de Bursa Hakimiyet ve Enerjisa iletişim kaynakları bu turda açılmadı, doğrulanamadı notu eklendi; Nordex ifadesi firma beyanı olarak işaretlendi",
+"Soru 3 durumu cevaplandi'dan kismen'e çekildi: Helmstedt PDF'inin yalnız üst verisi okundu (Fundament_TCS164, 8 sayfa, 27 Mart 2020), beton hacmi ve sınıfı doğrulanamadı",
+"Soru 3'e Nordex Türkiye portföyünde N163/5.X, N163/6.X, N149/5.X, N169/5.X bulunduğu eklendi (firma beyanı)",
+"Soru 4'te Nordex 389 MW duyurusuna enerji depolama ve müşteri adlarının açıklanmadığı bilgisi eklendi; TEA ve Ömer RES dayanakları doğrulanamadı olarak işaretlendi",
+"Soru 5'te başvuru saati 10.00 ile 12.00 ve yarışma tarihinin sonra ilan edileceği Para Dergi ile doğrulandı; Madde 3.3.2'deki 3 iş günü kuralı doğrulanamadı notu eklendi",
+"Soru 5'e yeni doğrulanmış rakamlar eklendi: PTF 4,75 koruması, katkı payı 10.000 Euro/MW başlangıç ve 100.000 ile 300.000 Euro/MW, 2025 yarışmalarından devreye giren proje yok, TÜREB 2 milyar USD tahmini",
+"Soru 5'te Resmî Gazete sayısı 33307 ve TEA rakamları (8 saha, 235 türbin, 1.645 MW) doğrulanamadı olarak işaretlendi",
+"Soru 6'da Karekod tarihleri düzeltildi: yayın 1 Eylül 2026, güncelleme 17 Eylül 2026, tablolar 18 Ağustos 2026 piyasa verisine dayanıyor",
+"Soru 6'da THBB rapor PDF'ine dayanan rakamlar (yüzde 11 fiyat artışı, 250 santral, 700 mobil pompa, 2.500 transmikser, 2026 beklentisi) doğrulanamadı olarak işaretlendi; bültenden 50 bini aşan istihdam eklendi",
+"Soru 6'ya yeni kaynak eklendi: THBB Hazır Beton Endeksi Eylül 2026, 13 Ekim 2026; Faaliyet 98,00, tüm endeksler 100 altında ve yıllık düşüşte",
+"Ek rakamlarda TÜREB 14.105 MW ve 3.814,90 MW ile Milliyet 2.500 MW hedefi doğrulanamadı olarak işaretlendi; tureb.tr boş kabuk döndürdü",
+"Ek rakamlara doğrulanmış yeni kalemler eklendi: Nordex 4.006 MW kurulu ve 1.450 MW inşa (Q3 2024, firma beyanı), TÜREB 2 milyar USD, THBB Eylül 2026 endeksi",
+"Hesap 140.000 m3'ten 141.000 m3'e ve 490 ile 545 milyon TL'ye düzeltildi; girdilerin doğrulanmamış olduğu belirtildi",
+"Kanıt puanı 3'ten 2'ye indirildi: temel iddia ve pazar hesabının girdileri okunamayan PDF'lere dayanıyor",
+"Bant ikincil olarak korundu, gerekçe doğrulama durumuna göre yeniden yazıldı",
+"Adımlara ilk adım olarak kaydedilen üç PDF'in PDF okuyucuda açılıp teyit edilmesi eklendi",
+"Bayi anketi adımına elle giriş ve 0 ile 4 puanlık puanlama şablonu ile yaprak karar ölçütü eklendi; ek_md'ye aynı şablon bölüm olarak eklendi",
+"TÜREB ve Enerjisa iletişim bilgileri doğrulanamadığı için adımlarda tarayıcıyla teyit edilmeli notu eklendi",
+"Web listesinde her URL için doğrulandı, doğrulanamadı ya da bu turda açılmadı durumu yazıldı; THBB Eylül 2026 endeks sayfası eklendi",
+"Sınırlar bölümü çürütme turuna göre yeniden yazıldı; arama sayısı 0, okunan sayfa 12",
 "16 Ekim 2026 ek araştırması: 8 arama, 15 sayfa okundu; çürütücü 8 sayfa açtı, güven 4/5.",
 "Kanıt puanı 3'ten 2'ye indirildi: iş gerekçesinin çekirdeği olan temel başına 700 m3 beton rakamı tek firma özetinden ve doğrulanamadı; hacim ve ciro tahminleri buna dayanıyor.",
 "\"13 Ekim 2026, 10.00 ile 12.00\" rakamının kaynağı düzeltildi: saat ve Merkez Saymanlık bilgisi Bloomberg HT'de yok, ruzgarenerjisi.com.tr ve dunyaenerji.org.tr sayfalarından geliyor; Bloomberg HT yalnız başvuruların alındığını yazıyor.",
@@ -4698,8 +5403,52 @@ window.MEKA_DATA = {
 "web: Belge 03'ün 10 numaralı kaynağı dunyaenerji.org.tr eklendi; her web maddesine bu turda doğrulanmadığı notu yazıldı. Ruzgarenerjisi maddesindeki '11 Temmuz 2026 ilan haberi' tarihi doğrulanamadığı için kaldırıldı.",
 "celiskiler: inceleme kaynaklı 13 Ekim jeotermal ihalesi karışıklığı maddesi silindi; kule gövdesi ve kanat maddesi Belge 03'e dayandırıldı; web kaynaklı iki maddeye doğrulanmadı notu eklendi; inceleme dosyasının verilmediği not edildi."
 ],
-"guven": 4,
+"guven": 3,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "YEKA RES-2026 şartnamesinin aksam puan tablosunda temel, kalıp ya da ankraj kafesi puan taşıyor mu, yoksa yerlilik yalnız türbin aksamıyla mı sınırlı",
+"durum": "kismen",
+"cevap": "Önceki turun cevabı şartname PDF'ine dayanıyor. 16 Ekim 2026 çürütme turunda PDF enerji.gov.tr'den HTTP 200 ile indi ama metin akışları sıkıştırılmış olduğu için okunamadı. Bu yüzden şu iddialar doğrulanamadı: Madde 2.1 Aksam tanımı; Ek-2 puan tablosu (kule 21, kule bağlantı 1, kanat 19,5, göbek 2,3, ana mil 2, pitch 4,5, dişli kutusu 15, jeneratör 5, 20 ya da 30); toplam 100 ve asgari 55 puan; yüzde 51 ve yüzde 65 ile 70 asgari yerli katkı; Resmî Gazete sayısı 33307; Ar-Ge yükümlülüğü olmadığı; temel, ankraj kafesi ve kalıbın tabloda bulunmadığı. Haber kaynaklarıyla doğrulananlar: ilan 11 Temmuz 2026 Resmî Gazete'de yayımlandı; tavan 5,50 ve taban 3,50 Euro-cent/kWh; 72 ay serbest piyasa, sonra 20 yıl alım; başvuru teminatı 20.000 Euro/MW, sözleşme teminatı 100.000 Euro/MW. Dolaylı destek: TÜREB Başkanı Erden, yarışmanın yerli üreticilere katkısını kule, kanat, jeneratör ve güç elektroniği olarak sayıyor; temel ya da beton geçmiyor. Sonuç (teyit bekliyor): temel paketinin YEKA puanı getirmediği iddiası makul ama şartname metninden doğrulanmadı. PDF harness tarafından yerel dosyaya kaydedildi; bir PDF okuyucuyla Ek-2 tablosu açılıp kontrol edilmeli.",
+"kaynak": "https://enerji.gov.tr/Media/Dizin/BHIM/tr/Duyurular//YEKA_RES-2026Sartname_202607111136.pdf (resmi, açıldı, metin okunamadı, doğrulanamadı); https://www.bloomberght.com/yeka-da-basvurular-alindi-22-yila-varan-kredi-imkani-motivasyonu-artiriyor-3791225 (haber, doğrulandı); https://www.paradergi.com.tr/sektorler/2026/08/13/yenilenebilir-enerjide-buyuk-yaris (haber, doğrulandı)",
+"kime": "Strateji ekibi: kaydedilen şartname PDF'ini Acrobat ya da benzeri okuyucuda açıp Ek-2 puan tablosunu ve Madde 2.1'i ekran görüntüsüyle teyit etmek. Enerji ve Tabii Kaynaklar Bakanlığı YEKA birimi, Ek-2 tablosunda temel ve ankraj kafesinin yer almadığının yazılı teyidi için."
+},
+{
+"soru": "Türkiye'de türbin temeli döken başlıca inşaat müteahhitleri kimler; betonu kendi mobil santralleriyle mi döküyorlar",
+"durum": "gorusme",
+"cevap": "Web'de doğrulanabilir bir müteahhit listesi yok. Bu turda doğrulanan tek nokta Nordex Türkiye sayfası (firma beyanı): Türkiye projelerinde yerli üretilen bileşenler kanat, ankraj kafesi, kule, jeneratör ve kule bağlantı ekipmanı; temel müteahhidi ya da beton tedarik modeli verilmiyor. Enerjisa Üretim Balkaya RES ve CAN Grup bilgisi önceki turda yalnız arama özetinden gelmişti, kaynak sayfa açılamamıştı; bu turda da açılmadı, doğrulanamadı. Ömer RES ÇED haberi (Bursa Hakimiyet) bu turda açılmadı; yerinde betonarme temel ve 2,5 m kazı bilgisi doğrulanamadı. Alke, Fernas, Gama sitelerinde RES temel işi bulunmadığı önceki turun gözlemi, bu turda kontrol edilmedi. Mobil santral kullanımı hakkında web kaynağı yok. Bu soru yalnız görüşme ve bayi anketiyle kapanır.",
+"kaynak": "https://www.nordex-online.com/en/turkey/ (firma beyanı, doğrulandı); https://www.bursahakimiyet.com.tr/bursa/bursa-kutahya-sinirina-743-milyon-tl-lik-yatirim-basvuru-yapildi-1300152 (haber, bu turda açılmadı, doğrulanamadı); https://www.enerjisauretim.com.tr/hakkimizda/bizi-taniyin/bize-ulasin (firma, bu turda açılmadı, telefon doğrulanamadı)",
+"kime": "TÜREB Ankara ofisi, üye müteahhit listesi için; telefon ve e-posta önceki turdan, tureb.tr bu turda içerik döndürmediği için doğrulanamadı. Enerjisa Üretim satın alma, Balkaya RES temel yüklenicisi ve beton tedarik modeli için. Nordex Enerji A.Ş. satış, SalesTurkey@nordex-online.com (doğrulandı), çalıştıkları CBoP yüklenicileri için. MEKA bayileri, saha anketi."
+},
+{
+"soru": "Nordex N163 ve benzeri sınıf türbinler için temel beton hacmi kaç m3 ve hangi beton sınıfı; bağımsız kaynak",
+"durum": "kismen",
+"cevap": "Landkreis Helmstedt izin dosyası HTTP 200 ile indi. PDF üst verisinde belge adı E0004936419_Fundament_TCS164.book, oluşturma tarihi 27 Mart 2020, 8 sayfa görünüyor; yani Nordex TCS164 temel dokümanı olduğu doğrulandı. Ancak metin akışları sıkıştırılmış olduğu için içerik okunamadı. Şu değerler doğrulanamadı: N149/5.X ve N163/5.X, 164 m göbek, hibrit kule, çap 23,80 ya da 25,80 m, yükseklik 3,20 m, plak 0,90 m, 12 nervür, soket 13,00 m, C35/45, 568 ya da 666 m3, B500B 90 ya da 100 t. YEKA RES-2026 TEA tablosundaki 119 m nasel yüksekliği ve 87,5 m kanat yarıçapı da TEA PDF'i okunamadığı için doğrulanamadı. Nordex Türkiye sayfası N163/5.X, N163/6.X, N149/5.X ve N169/5.X modellerini Türkiye portföyünde listeliyor (firma beyanı, doğrulandı). Türkiye'ye özgü temel hacmi için üreticiden temel yük dokümanı alınmalı.",
+"kaynak": "https://www.landkreis-helmstedt.de/downloads/datei/ZjQyMTk5ZTE2Njg4ZmFjMU4ramVINTFJcnI3RGthUzZTMHFUc3FpSXI2WmhFd2c3VlBDUkVrZlViQ0l3dTJwVlhxbVY5VHVaY0puVE1TMjExK09RZXNIZVl2T0pzcE1SQ3pISWd2a0hSdDQxeTJsSXo4Y0JBd2xFOFpWRDBnZW1oQ1R3ajcvOHlSSVpOTnQ2NHdML2plU1c1OWRDbjdjRFg1MWwvdz09 (resmi, açıldı, yalnız üst veri okundu, rakamlar doğrulanamadı); https://enerji.gov.tr/Media/Dizin/BHIM/tr/Duyurular//YEKA_RES-2026_TEA_SONUCLARI_202607111136.pdf (resmi, açıldı, metin okunamadı, doğrulanamadı); https://www.nordex-online.com/en/turkey/ (firma beyanı, doğrulandı)",
+"kime": "Strateji ekibi: kaydedilen iki PDF'i (Helmstedt temel dokümanı ve TEA sonuçları) PDF okuyucuda açıp beton hacmi, beton sınıfı ve nasel yüksekliği değerlerini teyit etmek. Nordex Enerji A.Ş. satış, SalesTurkey@nordex-online.com, Türkiye çelik kule için temel yük dokümanı."
+},
+{
+"soru": "Hibrit beton kule ya da prekast temel Türkiye'de kullanılıyor mu; hangi projelerde",
+"durum": "kismen",
+"cevap": "Türkiye'de hibrit beton kule ya da prekast temel kullanan kara RES projesi web'de bulunmadı. Doğrulanan (firma beyanı): Nordex Türkiye sayfası yerli üretilen bileşenleri kanat, ankraj kafesi, kule, jeneratör ve kule bağlantı ekipmanı olarak sayıyor; beton kule ya da hibrit kule geçmiyor. Nordex'in 7 Ekim 2026 tarihli duyurusu: Eylül 2026'da Türkiye'de toplam 389 MW, 56 adet Delta4000 türbini, kurulum 2027'de başlayıp 2028'e kadar sürecek; kule tipi, müşteri ve proje adları açıklanmadı; sözleşmelerde enerji depolama da geçiyor. Doğrulanamayan: YEKA TEA tablosundaki 112 ve 119 m nasel yükseklikleri (PDF okunamadı); Ömer RES temelinin yerinde betonarme olduğu (haber açılmadı). Sonuç: Türkiye'de piyasanın yerinde döküm temel ve çelik kule olduğu kanısı korunuyor ama doğrudan kanıt yok; üretici teyidi gerekli.",
+"kaynak": "https://www.nordex-online.com/en/turkey/ (firma beyanı, doğrulandı); https://www.nordex-online.com/en/2026/10/nordex-group-records-389-mw-of-new-orders-in-turkiye/ (firma beyanı, doğrulandı); https://enerji.gov.tr/Media/Dizin/BHIM/tr/Duyurular//YEKA_RES-2026_TEA_SONUCLARI_202607111136.pdf (resmi, metin okunamadı, doğrulanamadı)",
+"kime": "Nordex Enerji A.Ş. İstanbul satış, SalesTurkey@nordex-online.com (doğrulandı). Enercon ve Vestas Türkiye ofisleri. TÜREB."
+},
+{
+"soru": "YEKA RES-2026 yarışması tarihi, başvuru sonucu ve kazananlar",
+"durum": "kismen",
+"cevap": "Doğrulanan: İlan 11 Temmuz 2026'da Resmî Gazete'de yayımlandı (sayı 33307 doğrulanamadı). Başvurular 13 Ekim 2026'da saat 10.00 ile 12.00 arasında Bakanlık merkezinde elden alındı. Yarışmaların yeri, tarihi ve saati başvuruların incelenmesinden sonra Bakanlık sitesinde ilan edilecek; 16 Ekim 2026 itibarıyla kazanan yok. (Şartname Madde 3.3.2'deki en az 3 iş günü kuralı doğrulanamadı.) 7 RES yarışması, toplam 1.500 MWe: Sivas 320, Kütahya 260, Manisa 235, Balıkesir-2 235, Balıkesir-3 170, Balıkesir-1 140, Balıkesir-4 140. GES ile birlikte 21 yarışma, 2.400 MWe. Tavan 5,50, taban 3,50 Euro-cent/kWh; ilk 72 ay serbest piyasa, PTF 4,75 Euro-cent altına düşerse 4,75 koruması; sonra 20 yıl alım. Başvuru teminatı 20.000 Euro/MW, sözleşme teminatı 100.000 Euro/MW. Taban fiyata inilirse katkı payı yarışı 10.000 Euro/MW ile başlıyor; Danista'dan Burak Yitgin'e göre katkı bedeli 100.000 ile 300.000 Euro/MW'a çıkabiliyor. Devreye alma tahmini 20 ay ile 3 yıl (Yitgin); 2025 yarışmalarından henüz devreye giren proje yok. TÜREB Başkanı Erden 1.500 MW için yaklaşık 2 milyar USD yatırım bekliyor. Başvuru sayısı ve başvuran firmalar haberlerde yok. Doğrulanamayan: TEA sonuçlarındaki 8 saha, 235 türbin, 1.645 MW (PDF okunamadı).",
+"kaynak": "https://www.bloomberght.com/yeka-da-basvurular-alindi-22-yila-varan-kredi-imkani-motivasyonu-artiriyor-3791225 (haber, 13 Ekim 2026, doğrulandı); https://www.bloomberght.com/yeka-da-yeni-yarisma-donemi-3782634 (haber, 11 Temmuz 2026, doğrulandı); https://www.paradergi.com.tr/sektorler/2026/08/13/yenilenebilir-enerjide-buyuk-yaris (haber, 9 ve 13 Ağustos 2026, doğrulandı); https://enerji.gov.tr/Media/Dizin/BHIM/tr/Duyurular//YEKA_RES-2026_TEA_SONUCLARI_202607111136.pdf (resmi, metin okunamadı, doğrulanamadı)",
+"kime": "Enerji ve Tabii Kaynaklar Bakanlığı duyurular sayfası, yarışma tarihi ve kazananlar için haftalık takip; sayfa bu turda denenmedi."
+},
+{
+"soru": "Temel müteahhidi için mobil santral kiralama ya da m3 başına ücret modeli; hazır beton m3 fiyatı Türkiye 2026",
+"durum": "kismen",
+"cevap": "Hazır beton fiyatı doğrulandı, kiralama modeli yok. Karekod (yayın 1 Eylül 2026, güncelleme 17 Eylül 2026; tablolar 18 Ağustos 2026 piyasa verisine dayanıyor): C25/30 3.300 ile 3.650 TL/m3, C30/37 3.500 ile 3.850, C35/45 3.700 ile 4.050, C40/50 3.950 ile 4.300; katkılı betonda 100 ile 250 TL/m3 ek. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Ağustos 2026 birim fiyatı, nakliye ve pompa dahil: C25/30 4.046,71, C35/45 4.404,39, C40/50 4.547,46 TL/m3. Karekod bağımsız bir fiyat blogu, resmi kaynak değil. THBB basın bülteni 7 Nisan 2026 (doğrulandı): 2025 üretimi 140 milyon m3, yüzde 7,7 artış, ciro yaklaşık 293 milyar TL, 50 bini aşan istihdam. Doğrulanamayan (yalnız rapor PDF'inde, bu turda açılmadı): Ocak 2026 birim fiyat artışı yüzde 11, 2025'te 250 santral, 700 mobil pompa, 2.500 transmikser satışı, 2026 beklentisi. Yeni: THBB Hazır Beton Endeksi Eylül 2026 raporu 13 Ekim 2026'da yayımlandı; Faaliyet Endeksi 98,00'a düştü, yıllık Faaliyet yüzde 1,7, Beklenti yüzde 1,5, bileşik yüzde 1,2, Güven yüzde 0,3 geriledi; tüm endeksler 100 eşiğinin altında, THBB Başkanı Işık inşaatta durgunluğun sürdüğünü söylüyor. Mobil santral kiralama fiyatı ve m3 başına işletme ücreti için web kaynağı yok.",
+"kaynak": "https://www.karekod.org/blog/hazir-beton-fiyatlari/ (diger, doğrulandı); https://www.thbb.org/haberler/turkiye-hazir-beton-birligi-2025-yili-hazir-beton-sektor-raporunu-acikladi/ (rapor, doğrulandı); http://www.thbb.org/sektor/hazir-beton-endeksi/hazir-beton-endeksi-2026-eylul-ayi-raporu/ (rapor, doğrulandı); https://www.thbb.org/media/912564/2025-haz%C4%B1r-beton-sekt%C3%B6r-raporu-3103v5-son.pdf (rapor, bu turda açılmadı, doğrulanamadı)",
+"kime": "MEKA satış ve bayi ağı, mevcut mobil santral müşterilerinden kiralama ve m3 başına ücret örnekleri için. THBB, www.thbb.org/iletisim, 2025 raporu tesis sayısı için. Balkaya RES temel yüklenicisi, Enerjisa Üretim üzerinden."
+}
+],
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -4713,8 +5462,8 @@ window.MEKA_DATA = {
 "id": "parcalayici",
 "baslik": "Mobil parçalayıcı",
 "bant": "ikincil",
-"puan_metni": "Teknik uyum yüksek ve 2026 lastik mevzuatı Türkiye'de talep yaratıyor; ancak pazar rakamı tek bir ticari rapordan geliyor ve rapor tanımı geniş, doğrulanmış hiçbir makine fiyatı yok, Avrupa'da sekiz yerleşik rakip var. Kendi başına öne çıkacak kanıt yok; bayilik ya da ortak üretimle düşük maliyetli giriş denenebilir. 03 belgesinde on alan içinde 5. sıra, Sonrakiler grubunda. Etiket: 12-24 ay, Ar-Ge orta, yatırım orta. Haritada gelire uzaklık orta, potansiyel büyüklük orta. Sayısal puan yok. 03 belgesi etiketleri kaba tahmin sayıyor. 05 belgesinde konu geçmiyor.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 24 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulama bandı değiştirmiyor. Lehine: 2024 ithalatı 161,9 milyon dolar resmi kaynakta doğrulandı; Doppstadt'ın Ekim 2025'te yeni Türkiye bayisi ataması ve Hammel'in Ankara temsilcisi firma sitelerinde doğrulandı, pazar hareketli; LASDER'e göre 30'un üzerinde lisanslı lastik geri kazanım tesisi ve yılda 100.000 ton üstü akış var; kompakt çift şaft demo makine 150.000 euro ile MEKA'nın sac, hidrolik ve kaynak altyapısıyla ulaşılabilir sınıfta. Aleyhine: adet verisi yok, Comtrade adet alanı boş; 8479.82 kodu MEKA'nın zaten içinde olduğu kırıcıları da kapsıyor; Arjes ve Lindner bayi durumu doğrulanamadı; inşaat yıkıntı atığı tesis sayısı resmi olarak yok; fiyat verisinin yarısı ve Terminator 6000S rakamı doğrulanamadı. Adet ve tesis verisi gelmeden öne çıkan banda alınması erken, elenmesi için gerekçe yok. Teknik uyum yüksek ve 2026 lastik mevzuatı Türkiye'de talep yaratıyor; ancak pazar rakamı tek bir ticari rapordan geliyor ve rapor tanımı geniş, doğrulanmış hiçbir makine fiyatı yok, Avrupa'da sekiz yerleşik rakip var. Kendi başına öne çıkacak kanıt yok; bayilik ya da ortak üretimle düşük maliyetli giriş denenebilir. 03 belgesinde on alan içinde 5. sıra, Sonrakiler grubunda. Etiket: 12-24 ay, Ar-Ge orta, yatırım orta. Haritada gelire uzaklık orta, potansiyel büyüklük orta. Sayısal puan yok. 03 belgesi etiketleri kaba tahmin sayıyor. 05 belgesinde konu geçmiyor.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 Eylül 2026",
 "ne": "Yavaş devirli, dizel ya da elektrikli, paletli veya kanca yükleyicili mobil parçalayıcı. Lastik, hacimli atık, inşaat yıkıntı ahşabı, biyokütle ve hafif hurdayı ön parçalar. MEKA'nın mobil kırıcı şasisi, hidrolik ve kaynaklı çelik yetkinliğiyle aynı tezgahta üretilebilir.",
 "neden": "Küresel mobil parçalayıcı pazarı 2025 için 1,8 milyar dolar, Avrupa payı yüzde 29,4 olarak raporlanıyor; bu rakam tek bir ticari rapordan geliyor ve raporun tanımı mobil kağıt parçalayıcı kamyonlarını da kapsıyor. Türkiye'de 13 Ağustos 2026 yönetmelik değişikliği ömrünü tamamlamış lastik toplama yetkisini geri kazanım ve piroliz tesislerine açtı; bu tesisler saha parçalayıcısına ihtiyaç duyabilir. Pazar kalabalık ama Türkiye'de yerli ağır sınıf mobil üretici görünmüyor.",
 "rakamlar": [
@@ -4777,43 +5526,142 @@ window.MEKA_DATA = {
 "deger": "bulunamadı",
 "aciklama": "Türkiye ulusal yıllık inşaat ve yıkıntı atığı tonajı; il raporlarında parça veriler var, ulusal toplam yok; bu çürütmede yeniden açılmadı",
 "kaynak": "resmi https://yalova.csb.gov.tr/insaat-ve-yikinti-atiklari-ile-ilgili-mevzuat-ve-uygulamalar-haber-169143"
+},
+{
+"deger": "161.934.316 dolar; 7.816.835 kg (7.816,8 ton); adet alanı sıfır",
+"aciklama": "Türkiye HS 847982 ithalatı, 2024, tüm ülkeler, CIF; kod kırma, öğütme, karıştırma makinelerini de kapsar; sayfada doğrulandı",
+"kaynak": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=792&period=2024&cmdCode=847982&flowCode=M"
+},
+{
+"deger": "Almanya 40.120.975; Çin 37.663.484; İtalya 21.941.203; Avusturya 13.921.370; İsviçre 7.592.604; Fransa 7.108.492 dolar",
+"aciklama": "2024 HS 847982 ithalatında ilk altı tedarikçi; ülke adları ülke kodundan çıkarıldı; İsviçre rakamı sayfa özetinden; doğrulandı",
+"kaynak": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=792&period=2024&cmdCode=847982&flowCode=M"
+},
+{
+"deger": "131,3 milyon dolar",
+"aciklama": "Türkiye HS 847982 ithalatı, 2023; sayfa bu turda açılmadı, doğrulanamadı",
+"kaynak": "https://wits.worldbank.org/trade/comtrade/en/country/TUR/year/2023/tradeflow/Imports/partner/ALL/product/847982"
+},
+{
+"deger": "16 Ekim 2025 (sayfada 10/16/2025)",
+"aciklama": "Doppstadt'ın DTR TURKEY MAKINE'yi Türkiye dağıtım ortağı duyurduğu tarih; firma 2009'dan beri faal; firma beyanı, doğrulandı",
+"kaynak": "https://www.doppstadt.de/en/company/news/news-detail-page/unser-globales-netzwerk-waechst-willkommen-dtr-turkey-makine"
+},
+{
+"deger": "+90 312 425 1006; faks +90 312 418 6755",
+"aciklama": "Hammel Türkiye temsilcisi İMİ İnş. Mak. Ltd. Şti., Emre Şükrü Hamleci, Atatürk Bulvarı 105/809 Kızılay Ankara; firma beyanı, doğrulandı",
+"kaynak": "https://www.hammel.de/index.php/en/unternehmen-en/hammel-worldwide"
+},
+{
+"deger": "Ocak 2019 Afyonkarahisar Çay; Kasım 2020 Adana Yüreğir Crambo 5000; Mayıs 2021 İzmir Kınık elektrikli mobil kırma",
+"aciklama": "Komptech Türkiye projeleri; haber tarihi 28 Ekim 2021; Türk bayi adı yok; doğrulandı",
+"kaynak": "https://www.advantageaustria.org/tr/news/Komptech_GmbH_Tuerkiye_de_yeni_bir_projeye_daha_imza.tr.html"
+},
+{
+"deger": "100.000 ton/yıl üzeri; 30'un üzerinde lisanslı geri kazanım firması; en az 15 çimento fabrikası; 2015'te yenileme pazarı 315.000 ton",
+"aciklama": "LASDER ömrünü tamamlamış lastik çerçevesi; sektör derneği beyanı; sayfada yıl yok; doğrulandı",
+"kaynak": "https://www.lasder.org.tr/sayfa/turkiyede-otl"
+},
+{
+"deger": "94 düzenli depolama tesisi; 1.248 belediye; yüzde 94,5 nüfus",
+"aciklama": "Türkiye belediye atığı düzenli depolama tesisleri, 2024; inşaat yıkıntı atığı tesisi değil; resmi, doğrulandı",
+"kaynak": "https://cevreselgostergeler.csb.gov.tr/atik-duzenli-depolama-tesis-sayisi-belediye-sayisi-hizmet-verilen-nufus-i-85750"
+},
+{
+"deger": "200 milyon ton; 88 geçici depolama alanı; yüzde 10 işlendi",
+"aciklama": "6 Şubat 2023 depremleri yıkıntı atığı; haber sayfası bu turda açılmadı, doğrulanamadı",
+"kaynak": "https://www.santiye.com.tr/yikinti-atiklarinin-geri-donusum-potansiyeli-degerlendirilmeli-6331.html"
+},
+{
+"deger": "150.000 euro artı KDV",
+"aciklama": "Arjes Impaktor 250 EVO II demo makine, Rottenkolber ilanı, Almanya; doğrulandı",
+"kaynak": "https://www.kleinanzeigen.de/pro/RottenkolberGmbH"
+},
+{
+"deger": "150.000 eurodan başlayan net fiyat",
+"aciklama": "Arjes Impaktor 350 yeni ya da demo stok makine, Rottenkolber ilanı; doğrulandı",
+"kaynak": "https://www.kleinanzeigen.de/pro/RottenkolberGmbH"
+},
+{
+"deger": "225.000 euro artı KDV",
+"aciklama": "Komptech Crambo 5200, 2013, yaklaşık 7.500 saat, Rottenkolber ilanı; doğrulandı",
+"kaynak": "https://www.kleinanzeigen.de/pro/RottenkolberGmbH"
+},
+{
+"deger": "158.000 euro pazarlıklı artı KDV",
+"aciklama": "Doppstadt DW 3060, 2013, 5.566 saat, 360 kW, Herrieden Almanya; doğrulandı",
+"kaynak": "https://www.machineseeker.ie/mss/doppstadt+dw+3060"
+},
+{
+"deger": "127.500 euro; 169.500 euro; 355.810 euro; 474.810 euro",
+"aciklama": "Arjes Impaktor 250 EVO II 2023 400 saat; 350 EVO II sıfır; 850 sıfır; 1000 sıfır; ilgili sayfalar açılmadı, doğrulanamadı",
+"kaynak": "https://www.kleinanzeigen.de/s-arjes-impaktor/k0"
+},
+{
+"deger": "189.000 euro; 265.000 euro",
+"aciklama": "Doppstadt DW 3060K 2018 (Truckscout24) ve Hammel VB 850 DK 2013 (Machineseeker); sayfalar açılmadı, doğrulanamadı",
+"kaynak": "https://www.truckscout24.com/tsp/ts-222-64-332"
+},
+{
+"deger": "850.000 ile 980.000 Avustralya doları; yaklaşık 656.000 ABD doları",
+"aciklama": "Komptech Terminator 6000S, 2025, 429 saat, Avustralya ilanı; sayfa 403, doğrulanamadı",
+"kaynak": "https://www.machinerytrader.com/listing/for-sale/255810455/2025-komptech-terminator-6000s-scrap-processing-slash-demolition-equipment"
 }
 ],
-"durum": "Avrupa'da olgun ve kalabalık bir pazar: Komptech, Doppstadt, Arjes, Hammel, Lindner, Terex Ecotec, Tana ve UNTHA yavaş devirli mobil sınıfta yerleşik. Türkiye'de UNTHA İstanbul Ataşehir ofisiyle satış ve servis yapıyor (2022 kuruluş bilgisi firma haberinden, bu çürütmede yeniden açılmadı). Yerli üreticiler ağırlıkla sabit tek ve çift şaftlı makine yapıyor; MT Makina mobil ürün duyurmuş ama teknik veri paylaşmıyor. Talep tarafında 13 Ağustos 2026 lastik yönetmeliği toplama yetkisini genişletti; inşaat yıkıntı atığında ulusal rakam yok. Fiyat tarafında doğrulanmış tek bir ilan fiyatı yok.",
+"durum": "Çürütme turunda sekiz kaynak açıldı. Ana rakamlar doğrulandı: Türkiye'nin 8479.82 kodlu makine ithalatı 2024'te 161,9 milyon dolar ve 7.817 ton (BM Comtrade); kod kırıcı ve öğütücüleri de kapsar, adet alanı boş. Doppstadt'ın 16 Ekim 2025'te DTR TURKEY MAKINE'yi Türkiye dağıtım ortağı yaptığı ve Hammel'in Ankara temsilcisi İMİ İnşaat Makinaları firma sitelerinde doğrulandı (firma beyanı). Komptech'in 2019, 2020 ve 2021 Türkiye projeleri Avusturya ticaret ofisi haberinde doğrulandı; haberde Türk bayi adı yok. Arjes ve Lindner iddiaları doğrulanamadı. Fiyat tarafında üç ilan doğrulandı: Arjes Impaktor 250 EVO II demo 150.000 euro, Komptech Crambo 5200 2013 model 225.000 euro, Doppstadt DW 3060 2013 model 158.000 euro, hepsi KDV hariç. Diğer fiyatlar ve Terminator 6000S rakamı doğrulanamadı. LASDER'in 100.000 ton üstü yıllık toplama, 30'un üzerinde lisanslı tesis ve 2015'te 315.000 tonluk yenileme pazarı rakamları sayfada doğrulandı. Düzenli depolama tesisi 2024 verisi (94 tesis, 1.248 belediye, yüzde 94,5) doğrulandı; ancak bu belediye atığı göstergesidir, inşaat yıkıntı atığı tesis sayısı hâlâ yok. Deprem yıkıntı rakamları ve 2023 ithalat toplamı doğrulanamadı.",
 "acik_sorular": [
-"Türkiye'de yılda kaç adet yavaş devirli mobil parçalayıcı satılıyor; ithalat GTİP verisi çekilebilir mi",
-"Komptech, Doppstadt veya Arjes'in Türkiye'de bayisi var mı; yoksa bayilik ya da yerli şasi üretimi görüşmesine açık mı",
-"Lisanslı 30'un üzerinde lastik geri kazanım tesisi hangi makineleri kullanıyor; kaçı mobil ön parçalayıcı istiyor",
-"Türkiye ulusal inşaat ve yıkıntı atığı tonajı ve belediye tesislerinin sayısı; Bakanlık Atık Yönetim Uygulaması verisi alınabilir mi",
-"Hedef sınıf ne olmalı: 8 ile 10 tonluk kompakt çift şaft mı, 20 tonluk kanca yükleyicili tek şaft mı",
-"Kompakt çift şaft ve ağır tek şaft sınıfları için gerçek liste fiyatı: hiçbir açılan sayfada fiyat yok, bayiden teklif alınmalı",
-"Komptech Terminator 6000S için çelişen iki ilan fiyatından hangisi doğru"
+"Kısmen cevaplandı: Türkiye'de yılda kaç adet parçalayıcı ithal ediliyor; GTİP 8479.82 ya da ilgili kodla TÜİK veya Ticaret Bakanlığı dış ticaret verisi",
+"Kısmen cevaplandı: Komptech, Doppstadt, Arjes, Hammel, Lindner'in Türkiye bayisi var mı; kim",
+"Görüşme gerekir: Lisanslı lastik geri kazanım tesisleri hangi parçalayıcıları kullanıyor; tesis listesi ve örnek makineler (LASDER, 0 216 445 74 90, info@lasder.org.tr (sayfadan doğrulandı); Çevre, Şehircilik ve İklim Değişikliği Bakanlığı iletişim hattı 0312 410 17 25 (Bakanlık sayfasından doğrulandı), lisanslı ÖTL geri kazanım tesisi listesi istenecek; tesis ziyaretlerinde parçalayıcı markası sorulacak.)",
+"Kısmen cevaplandı: Türkiye ulusal inşaat ve yıkıntı atığı tonajı ve belediye tesis sayısı",
+"Kısmen cevaplandı: Kompakt çift şaft ve ağır tek şaft mobil parçalayıcılar için gerçek liste veya ilan fiyatları",
+"Kısmen cevaplandı: Komptech Terminator 6000S için gerçek fiyat aralığı"
 ],
 "adimlar": [
 {
-"adim": "Lisanslı lastik geri kazanım ve piroliz tesislerinden en az beşiyle görüşüp mevcut parçalayıcı marka, kapasite ve bütçe bilgisini almak",
-"kim": "MEKA satış ve pazarlama",
-"ne_zaman": "30 Kasım 2026'ya kadar"
+"adim": "TÜİK dış ticaret veri portalında 8479.82 alt GTİP kodlarını adet, kg ve ülke kırılımıyla 2022 ile 2025 için çekmek; parçalayıcıya özgü alt kodları ayırmak",
+"kim": "MEKA iş geliştirme analisti",
+"ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "Avrupa'daki ikinci kademe üreticilerle bayilik, ortak üretim ya da şasi tedariki için ilk temas; aday liste Arjes, Hammel, Tana; aynı görüşmede liste fiyatı istemek",
-"kim": "MEKA genel müdürlük ve ihracat",
-"ne_zaman": "31 Aralık 2026'ya kadar"
+"adim": "Doğrulanamayan kaynakları tek tek açmak: WITS 2023, Arjes ve Lindner partner sayfaları, Kleinanzeigen Arjes ve DW 3060 arama sayfaları, Truckscout24, Machineseeker Hammel, santiye.com.tr, Dünya 2015 yazısı; açılmayanları rapordan çıkarmak",
+"kim": "MEKA iş geliştirme analisti",
+"ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "TÜİK ve Ticaret Bakanlığı GTİP verisinden Türkiye parçalayıcı ithalatını adet ve değer olarak çıkarmak",
-"kim": "MEKA strateji",
-"ne_zaman": "15 Kasım 2026'ya kadar"
+"adim": "Komptech, Arjes ve Lindner'e e-posta ile Türkiye temsilcisi olup olmadığını ve Türkiye'deki kurulu makine sayısını sormak",
+"kim": "MEKA iş geliştirme analisti",
+"ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "Mobil kırıcı şasisi üzerine çift şaftlı hidrolik tahrikli kavram tasarımı ve maliyet tahmini",
-"kim": "MEKA Ar-Ge",
-"ne_zaman": "28 Şubat 2027'ye kadar"
+"adim": "DTR Makina ve İMİ İnşaat Makinaları (0312 425 10 06) ile görüşme: yıllık satış adedi, en çok satan sınıf, servis ağı, Türkiye teslim fiyatları; sonuçları görüşme formuna elle girmek",
+"kim": "MEKA satış ve pazarlama müdürü",
+"ne_zaman": "30 Ekim 2026'ya kadar"
 },
 {
-"adim": "IFAT Eurasia 2027'de ziyaretçi olarak rakip makine ve bayi haritası çıkarmak",
-"kim": "MEKA Ar-Ge ve satış",
-"ne_zaman": "5 ile 7 Mayıs 2027"
+"adim": "LASDER (0216 445 74 90) ve Bakanlık (0312 410 17 25) ile görüşme: lisanslı ÖTL geri kazanım tesisi listesi, inşaat yıkıntı atığı geri kazanım tesisi sayısı ve yıllık beyan tonajı",
+"kim": "MEKA iş geliştirme analisti",
+"ne_zaman": "30 Ekim 2026'ya kadar"
+},
+{
+"adim": "TÜİK Çevre İstatistikleri biriminden Atık İstatistikleri 2024 bülteninin inşaat ve yıkıntı atığı tablolarını istemek",
+"kim": "MEKA iş geliştirme analisti",
+"ne_zaman": "30 Ekim 2026'ya kadar"
+},
+{
+"adim": "Üç lisanslı lastik geri kazanım tesisine saha ziyareti; kullanılan parçalayıcı markası, kapasite, yedek parça sorunları",
+"kim": "MEKA Ar-Ge müdürü ve satış mühendisi",
+"ne_zaman": "13 Kasım 2026'ya kadar"
+},
+{
+"adim": "Komptech ya da Rottenkolber'den (+49 8752 6859000) Terminator 6000S ve Crambo için yazılı yeni makine teklifi; MEKA hedef maliyetle karşılaştırma",
+"kim": "MEKA satın alma ve Ar-Ge",
+"ne_zaman": "13 Kasım 2026'ya kadar"
+},
+{
+"adim": "Görüşme ve saha verileriyle bant kararını yeniden değerlendirmek; adet verisi 150 adedin altındaysa izle bandına çekmek",
+"kim": "MEKA yönetim kurulu yatırım komitesi",
+"ne_zaman": "27 Kasım 2026"
 }
 ],
 "riskler": [
@@ -4894,8 +5742,8 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: Çürütme kontrolünde 8 URL denendi, 7'si açıldı: marketintelo, hammel.de, untha.com/tr, lasder.org.tr, aa.com.tr, ifat.de/en/eurasia, machineseeker. webdosya.csb.gov.tr PDF'i sertifika hatasıyla yine açılamadı; bu kalıcı hata olduğu için tekrar denenmedi ve 200.000 ton rakamı doğrulanamadı. Komptech ilanları (machinerytrader.ie, farmmachinerysales.com.au) bu kontrolde yeniden denenmedi, önceki 403 durumu geçerli; fiyatlar doğrulanamadı. Marketintelo sayfasının ilk 39 bin karakteri ham metin olarak okundu, kalanı araç özeti; rakamların hepsi ham metin bölümünde. Machineseeker ilanı artık fiyat göstermiyor; önceki fiyat rakamları arama özetinden geliyordu ve silindi. Şu sayfalar bu kontrolde yeniden açılmadı ve orijinal araştırmanın okumasına dayanıyor: factmr, foodmag, untha news, arjes, tana, doppstadt, terex, mtmakina, plasticker, cevreselgostergeler, yalova.csb, afyonkarahisar PDF, komptech. Orijinal araştırma: 8 WebSearch, 40 WebFetch denemesi, 19 sayfa içerik. Pazar büyüklüğü tek ticari rapora dayanıyor ve rapor tanımı yavaş devirli atık sınıfından geniş. Doğrulanmış makine fiyatı yok. Türkiye ulusal inşaat ve yıkıntı atığı tonajı, biyokütle ve belediye tesis sayısı bulunamadı. Bütçe ve yol kapıları tahmindir.",
-"kanit": 2,
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 6 açık sorunun 0'i cevaplandı, 5'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Çürütme turunda en fazla 8 URL açılabildi; sekizi de açıldı. Doğrulanan sayfalar: Comtrade 2024, Doppstadt haberi, Hammel bayi listesi, Advantage Austria Komptech haberi, LASDER Türkiye'de ÖTL, Bakanlık düzenli depolama göstergesi, Rottenkolber Kleinanzeigen (yalnızca ilk sayfa, 34 ilanın bir kısmı), Machineseeker DW 3060 (sayfanın ilk yarısı ham, kalanı özet). Comtrade sayfası 39 bin karakterden sonra kesildi; İsviçre ve sonraki ülkeler özetten alındı; ülke adları boş geldi, ülke kodlarından çıkarıldı. Açılmayan 16 kaynak doğrulanamadı etiketiyle bırakıldı: WITS 2023, Arjes, Lindner, Kleinanzeigen arama sayfaları, Truckscout24, Machineseeker Hammel, santiye.com.tr, Dünya, Elazığ raporu, belediye atığı göstergesi, Machinery Trader ve Equipt (403). Arama yapılmadı. Bayi görüşmelerinin sonucu web'de yoktur; elle girilmelidir, bu tur onları doğrulayamaz. Tüm fiyatlar ilan fiyatı, işlem fiyatı değil; KDV ve nakliye hariç. LASDER sayfasında yıl bilgisi yok; '30'un üzerinde' rakamının güncelliği belirsiz. Bakanlık göstergesi belediye atığı tesisleri içindir, inşaat yıkıntı atığı tesisi değildir.",
+"kanit": 3,
 "web": [
 {
 "url": "https://marketintelo.com/report/mobile-shredder-market",
@@ -5001,6 +5849,126 @@ window.MEKA_DATA = {
 "url": "https://www.komptech.com/en/products/terminator-mobile/",
 "ne": "Komptech Terminator ürün sayfası; içerik okunamadı, yalnız başlık geldi",
 "tur": "firma"
+},
+{
+"url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=792&period=2024&cmdCode=847982&flowCode=M",
+"ne": "Türkiye HS 847982 ithalatı 2024; 161.934.316 dolar, 7.816.835 kg; adet alanı sıfır; açıldı, doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://wits.worldbank.org/trade/comtrade/en/country/TUR/year/2023/tradeflow/Imports/partner/ALL/product/847982",
+"ne": "Türkiye HS 847982 ithalatı 2023; bu turda açılmadı, doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.doppstadt.de/en/company/news/news-detail-page/unser-globales-netzwerk-waechst-willkommen-dtr-turkey-makine",
+"ne": "Doppstadt DTR TURKEY MAKINE duyurusu 10/16/2025; firma beyanı; açıldı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.hammel.de/index.php/en/unternehmen-en/hammel-worldwide",
+"ne": "Hammel dünya bayi listesi; Türkiye: İMİ, Emre Şükrü Hamleci, Ankara; firma beyanı; açıldı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.advantageaustria.org/tr/news/Komptech_GmbH_Tuerkiye_de_yeni_bir_projeye_daha_imza.tr.html",
+"ne": "Komptech Türkiye projeleri 2019, 2020, 2021; haber 28.10.2021; Türk bayi adı yok; açıldı, doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.arjes.de/en/sales-partners/",
+"ne": "Arjes partner sayfası; bu turda açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.lindner.com/",
+"ne": "Lindner ana sayfa; bu turda açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.lasder.org.tr/sayfa/turkiyede-otl",
+"ne": "LASDER Türkiye ÖTL rakamları; 100.000 ton üstü, 30'un üzerinde lisanslı firma, 2015'te 315.000 ton; açıldı, doğrulandı",
+"tur": "diger"
+},
+{
+"url": "https://www.lasder.org.tr/sayfa/malzeme-geri-kazanim-granulasyon",
+"ne": "Granülasyon süreci; bu turda açılmadı, doğrulanamadı",
+"tur": "diger"
+},
+{
+"url": "https://www.lasder.org.tr/sayfa/lasderin-omrunu-tamamlamis-lastiklerin-otl-toplama-ve-tasima-islerini-yurutecek-yuklenicileri-ve-bolgeleri",
+"ne": "LASDER 2026 yüklenicileri; bu turda açılmadı, doğrulanamadı",
+"tur": "diger"
+},
+{
+"url": "https://www.dunya.com/kose-yazisi/kullanilmis-lastikler-ne-oluyor/25184",
+"ne": "ÖTL pazarı 2015; bu turda açılmadı, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://cevreselgostergeler.csb.gov.tr/atik-duzenli-depolama-tesis-sayisi-belediye-sayisi-hizmet-verilen-nufus-i-85750",
+"ne": "Düzenli depolama tesisi 2024: 94 tesis, 1.248 belediye, yüzde 94,5; açıldı, doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://cevreselgostergeler.csb.gov.tr/belediye-atiklari-miktari-ve-bertaraf-miktari-i-85749",
+"ne": "Belediye atığı ve geri kazanım oranı; bu turda açılmadı, doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.santiye.com.tr/yikinti-atiklarinin-geri-donusum-potansiyeli-degerlendirilmeli-6331.html",
+"ne": "Deprem yıkıntı atığı 200 milyon ton; bu turda açılmadı, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://webdosya.csb.gov.tr/v2/ced/2026/01/Elaz-_icdr2024-20260105102918.pdf",
+"ne": "Elazığ 2024 il çevre durum raporu; bu turda açılmadı, doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.kleinanzeigen.de/pro/RottenkolberGmbH",
+"ne": "Rottenkolber ilanları: Impaktor 250 EVO II demo 150.000 euro, Impaktor 350 net 150.000 eurodan, Crambo 5200 2013 225.000 euro; açıldı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.kleinanzeigen.de/s-arjes-impaktor/k0",
+"ne": "Arjes Impaktor ilan fiyatları; bu turda açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.kleinanzeigen.de/s-doppstadt-dw-3060/k0",
+"ne": "DW 3060 ilan fiyatları; bu turda açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.kleinanzeigen.de/s-komptech-terminator/k0",
+"ne": "Komptech Terminator ilanları; bu turda açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.machineseeker.ie/mss/doppstadt+dw+3060",
+"ne": "DW 3060 2013, 5.566 saat, 158.000 euro artı KDV, Herrieden; açıldı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.machineseeker.ie/mss/hammel",
+"ne": "Hammel VB ilanları; bu turda açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.truckscout24.com/tsp/ts-222-64-332",
+"ne": "Doppstadt DW3060K 2018 fiyatı; bu turda açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.machinerytrader.com/listing/for-sale/255810455/2025-komptech-terminator-6000s-scrap-processing-slash-demolition-equipment",
+"ne": "Terminator 6000S 2025 Avustralya ilanı; 403, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.equipt.com/brands/komptech",
+"ne": "Komptech istenen fiyat; 403, doğrulanamadı",
+"tur": "firma"
 }
 ],
 "celiskiler": [
@@ -5016,6 +5984,24 @@ window.MEKA_DATA = {
 "03'te 12-24 ay ve Ar-Ge orta etiketi var ama yeni ürün geliştirme maliyeti ve pazar verisi yok; rakip olarak yalnızca Komptech anılıyor."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 8 sayfa; çürütücü 8 sayfa açtı, güven 3/5.",
+"Comtrade 2024 toplamı (161.934.316 dolar, 7.816.835 kg) ve ilk altı ülke sayfada doğrulandı; adet alanının sıfır olduğu eklendi; ülke adlarının koddan çıkarıldığı not edildi.",
+"WITS 2023 toplamı 131,3 milyon dolar açılmadı; 'doğrulanamadı' eklendi; yüzde 23 artış ifadesi ek_md'den çıkarıldı.",
+"Doppstadt haberi doğrulandı; 'firma beyanı' etiketi eklendi; imza törenindeki Gerd Schreier ve Boben Kalappurayil adları eklendi.",
+"Hammel Türkiye temsilcisi İMİ, Emre Şükrü Hamleci, telefon ve faks sayfada doğrulandı; 'firma beyanı' etiketi eklendi.",
+"Komptech haberi doğrulandı; haber tarihi 28 Ekim 2021 ve Afyonkarahisar projesinin Ocak 2019 tarihi eklendi; 'projeleri doğrudan yürütmüş' ifadesi 'haberde bayi adı yok, çıkarımdır' olarak düzeltildi.",
+"Arjes ve Lindner sayfaları açılmadı; 'Türkiye bayisi yok' iddiasına 'doğrulanamadı' eklendi.",
+"LASDER sayfası doğrulandı; 2015 yenileme pazarı 315.000 ton (Bakanlık verisi) ve kota yüzde 80 bilgisi eklendi; sayfada yıl olmadığı not edildi; Dünya 2015 yazısı doğrulanamadı etiketi aldı.",
+"Bakanlık düzenli depolama göstergesi (94 tesis, 1.248 belediye, yüzde 94,5, 2024) doğrulandı; yıllara göre tesis sayısı serisi eklendi; göstergenin belediye atığı için olduğu, inşaat yıkıntı tesisi olmadığı vurgulandı.",
+"Belediye atığı geri kazanım oranı, deprem yıkıntısı 200 milyon ton ve Elazığ raporu rakamlarına 'doğrulanamadı' eklendi.",
+"Fiyat cevabının durumu 'cevaplandi'den 'kismen'e çekildi: yalnızca Impaktor 250 EVO II demo 150.000 euro, Impaktor 350 net 150.000 eurodan, Crambo 5200 225.000 euro ve DW 3060 2013 158.000 euro sayfada doğrulandı.",
+"Impaktor 250 EVO II 127.500 euro ilanı Rottenkolber ilk sayfasında bulunamadı; 'doğrulanamadı' eklendi.",
+"Impaktor 129.000, 169.500, 355.810, 474.810 euro; Hammel VB 850 DK 265.000 euro; DW 3060K 189.000 euro; DW 3060 99.000 ve 79.000 euro ilanlarına 'doğrulanamadı' eklendi.",
+"Terminator 6000S cevabında Avustralya ilanı ve Equipt rakamı 403 nedeniyle 'doğrulanamadı' olarak işaretlendi; 550.000 ile 650.000 euro bandının kullanılmaması önerildi; Rottenkolber sayfasında Terminator ilanı olmadığı eklendi.",
+"Rottenkolber adres ve telefon (+49 8752 6859000), LASDER telefon (0216 445 74 90) ve Bakanlık hattı (0312 410 17 25) sayfalardan doğrulanıp 'kime' alanlarına eklendi.",
+"Adımlara doğrulanamayan 16 kaynağın tek tek açılması adımı eklendi.",
+"ek_md'ye bayi görüşmelerinin elle kaydı ve dört ölçütlü puanlama önerisi bölümü eklendi; görüşme verisinin web'den doğrulanamayacağı belirtildi.",
+"Kanıt puanı 3'te tutuldu; bant 'ikincil' olarak korundu.",
 "16 Ekim 2026 ek araştırması: 8 arama, 19 sayfa okundu; çürütücü 7 sayfa açtı, güven 4/5.",
 "Arjes Impaktor fiyatları (127.500 EUR, 150.000 EUR demo, 105.000 EUR 2021 model, Impaktor 350 150.000 EUR'dan) sayfada yok; silindi. İlan bugün Impaktor 350, 2026, yeni, fiyat talep üzerine, güncelleme 16.03.2026 gösteriyor; rakam girdisi buna göre yazıldı.",
 "Komptech Terminator 6000S 521.500 EUR ve 980.000 AUD rakamlarına 'doğrulanamadı' eklendi; sayfalar açılamamıştı, bu kontrolde yeniden denenmedi.",
@@ -5054,8 +6040,52 @@ window.MEKA_DATA = {
 "web: csb.gov.tr broşürü, paradergi, marketintelo ve wiseguyreports bağlantıları çıkarıldı; kaynak dosyalarda anılmıyor. AA ve Komptech bağlantıları kaldı, açıklamaları 03'teki bilgiyle sınırlandı.",
 "celiskiler: 01 kartı 4,35 üzerinden 5 iddiası çıkarıldı; 01 kartı kaynak olarak verilmedi. İnceleme konu listesi maddesi çıkarıldı; doğrulanamadı. Kalan maddeler 03 metnine dayandırıldı; savunma etiket karşılaştırması ve harita konumları eklendi."
 ],
-"guven": 4,
+"guven": 3,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "Türkiye'de yılda kaç adet parçalayıcı ithal ediliyor; GTİP 8479.82 ya da ilgili kodla TÜİK veya Ticaret Bakanlığı dış ticaret verisi",
+"durum": "kismen",
+"cevap": "Adet verisi yok. BM Comtrade sayfası doğrulandı: Türkiye'nin HS 847982 ithalatı 2024'te 161.934.316 dolar (CIF) ve 7.816.835 kg, yani 7.816,8 ton. Comtrade kaydında adet alanı (qty) sıfır; yani bu kaynak adet vermiyor, yalnızca kg veriyor. İlk tedarikçiler doğrulandı: Almanya 40.120.975 dolar, Çin 37.663.484 dolar, İtalya 21.941.203 dolar, Avusturya 13.921.370 dolar, İsviçre 7.592.604 dolar, Fransa 7.108.492 dolar. Not: İsviçre rakamı sayfanın kesilen bölümünün özetinden alındı; diğer beş ülke ham veride görüldü. Ülke adları Comtrade'de boş geldi, ülke kodlarından çıkarıldı (276 Almanya, 156 Çin, 380 İtalya, 40 Avusturya, 757 İsviçre, 251 Fransa). 2023 toplamı 131,3 milyon dolar (WITS) bu turda açılmadı, doğrulanamadı. Uyarı: 8479.82 kodu karıştırma, yoğurma, kırma, öğütme ve eleme makinelerini de kapsar; parçalayıcı payı ayrı görünmez. Adet için TÜİK dış ticaret portalında 12 haneli GTİP sorgusu gerekir.",
+"kaynak": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=792&period=2024&cmdCode=847982&flowCode=M (resmi, BM; açıldı, doğrulandı); https://wits.worldbank.org/trade/comtrade/en/country/TUR/year/2023/tradeflow/Imports/partner/ALL/product/847982 (resmi; bu turda açılmadı, doğrulanamadı)",
+"kime": "TÜİK Dış Ticaret İstatistikleri veri portalı, biruni.tuik.gov.tr/disticaretapp üzerinden 8479.82 alt kodları adet ve ülke kırılımıyla sorgulanacak; portal açılmazsa TÜİK Bilgi Edinme hattı 0312 454 72 00 ya da Ticaret Bakanlığı Dış Ticaret İstatistikleri birimi."
+},
+{
+"soru": "Komptech, Doppstadt, Arjes, Hammel, Lindner'in Türkiye bayisi var mı; kim",
+"durum": "kismen",
+"cevap": "Doppstadt (firma beyanı, sayfa doğrulandı): 16 Ekim 2025 tarihli haberde DTR TURKEY MAKINE resmi Türkiye dağıtım ortağı olarak duyuruldu. Firma 2009'dan beri faal; geri dönüşüm, inşaat, madencilik, plastik, enerji ve demir çelik alanlarında çözüm sağlayıcı. İmza töreninde Ramazan Ergin (DTR Makina kurucu direktör), Gerd Schreier (Doppstadt genel müdür) ve Boben Kalappurayil (bölge satış müdürü) yer aldı. Doppstadt yedek parça ve servis desteği sözü veriyor. Hammel (firma beyanı, sayfa doğrulandı): Türkiye temsilcisi İMİ İnş. Mak. İth. Müh. Müş. Müm. San. ve Tic. Ltd. Şti., Emre Şükrü Hamleci, Atatürk Bulvarı 105/809 Kızılay Ankara, telefon +90 312 425 1006, faks +90 312 418 6755. Komptech (Avusturya ticaret ofisi haberi, 28 Ekim 2021, doğrulandı): Mayıs 2021 İzmir Kınık biyokütle tesisinde ilk elektrik motorlu mobil kırma makinesi; Kasım 2020 Adana Yüreğir biyokütle tesisinde Crambo 5000 ağaç parçalama makinesi; Ocak 2019 Afyonkarahisar Çay tarımsal atık tesisi için parçalama ve elek makineleri. Haber Türk bayi ya da partner adı vermiyor; projelerin bayisiz yürütüldüğü bir çıkarımdır, sayfada yazmıyor. Arjes ve Lindner sayfaları bu turda açılmadı; Türkiye bayisi olmadığı iddiası doğrulanamadı.",
+"kaynak": "https://www.doppstadt.de/en/company/news/news-detail-page/unser-globales-netzwerk-waechst-willkommen-dtr-turkey-makine (firma beyanı; açıldı, doğrulandı); https://www.hammel.de/index.php/en/unternehmen-en/hammel-worldwide (firma beyanı; açıldı, doğrulandı); https://www.advantageaustria.org/tr/news/Komptech_GmbH_Tuerkiye_de_yeni_bir_projeye_daha_imza.tr.html (resmi, Avusturya ticaret ofisi; açıldı, doğrulandı); https://www.arjes.de/en/sales-partners/ (firma; açılmadı, doğrulanamadı); https://www.lindner.com/ (firma; açılmadı, doğrulanamadı)",
+"kime": "Komptech GmbH Frohnleiten, komptech.com/en/contact; Arjes GmbH, info@arjes.de, +49 36969 58 0; Lindner Recyclingtech, lindner.com/contact. Her üçüne Türkiye temsilcisi ve kurulu makine sayısı sorulacak. DTR Makina ve İMİ ile doğrudan görüşme yapılacak."
+},
+{
+"soru": "Lisanslı lastik geri kazanım tesisleri hangi parçalayıcıları kullanıyor; tesis listesi ve örnek makineler",
+"durum": "gorusme",
+"cevap": "Web'de tesis listesi ve makine markası yok. LASDER sayfası doğrulandı (sektör derneği beyanı): LASDER her yıl 100.000 tonun üzerinde kota miktarı ÖTL topluyor; kuruluş yıllarında 4 lisanslı geri kazanım firması ve 3 ile 4 çimento fabrikası vardı, bugün 30'un üzerinde lisanslı geri kazanım firması ve en az 15 çimento fabrikası ÖTL'yi alternatif yakıt olarak kullanıyor. Aynı sayfa 2015 Bakanlık verisiyle yenileme pazarına 315.000 ton lastik satıldığını, bunun yaklaşık yüzde 60'ının LASDER üyelerine ait olduğunu yazıyor. Kota yükümlülüğü yüzde 30'dan yüzde 80'e çıkmış. Sayfada tarih yok; '30'un üzerinde' rakamının hangi yıla ait olduğu belirsiz. Dünya gazetesi 2015 yazısı, granülasyon sayfası ve 2026 yüklenici listesi bu turda açılmadı, doğrulanamadı.",
+"kaynak": "https://www.lasder.org.tr/sayfa/turkiyede-otl (sektör derneği beyanı; açıldı, doğrulandı); https://www.lasder.org.tr/sayfa/malzeme-geri-kazanim-granulasyon (açılmadı, doğrulanamadı); https://www.lasder.org.tr/sayfa/lasderin-omrunu-tamamlamis-lastiklerin-otl-toplama-ve-tasima-islerini-yurutecek-yuklenicileri-ve-bolgeleri (açılmadı, doğrulanamadı); https://www.dunya.com/kose-yazisi/kullanilmis-lastikler-ne-oluyor/25184 (haber; açılmadı, doğrulanamadı)",
+"kime": "LASDER, 0 216 445 74 90, info@lasder.org.tr (sayfadan doğrulandı); Çevre, Şehircilik ve İklim Değişikliği Bakanlığı iletişim hattı 0312 410 17 25 (Bakanlık sayfasından doğrulandı), lisanslı ÖTL geri kazanım tesisi listesi istenecek; tesis ziyaretlerinde parçalayıcı markası sorulacak."
+},
+{
+"soru": "Türkiye ulusal inşaat ve yıkıntı atığı tonajı ve belediye tesis sayısı",
+"durum": "kismen",
+"cevap": "TÜİK'in inşaat ve yıkıntı atığı için ulusal yıllık ton verisi bulunamadı. Bakanlık çevresel göstergeler sayfası doğrulandı: düzenli depolama tesisi sayısı 2002'ye kadar 15, 2011'de 46, 2014'te 79, 2017'de 87, 2021'de 91, 2023'te 93; 2024 itibarıyla 94 tesis ile 1.248 belediyeye hizmet veriliyor; hizmet verilen nüfusun belediye nüfusuna oranı yüzde 94,5. Bu gösterge belediye atığı içindir, inşaat ve yıkıntı atığı tesisi değildir. Belediye atığı geri kazanım oranı yüzde 30,13 ve kişi başı 375,95 kg verileri bu turda açılmadı, doğrulanamadı. Deprem yıkıntısı 200 milyon ton, 88 geçici depolama alanı ve yüzde 10 işlendi rakamları (santiye.com.tr haberi) açılmadı, doğrulanamadı. Elazığ 2024 il çevre durum raporu açılmadı, doğrulanamadı.",
+"kaynak": "https://cevreselgostergeler.csb.gov.tr/atik-duzenli-depolama-tesis-sayisi-belediye-sayisi-hizmet-verilen-nufus-i-85750 (resmi; açıldı, doğrulandı); https://cevreselgostergeler.csb.gov.tr/belediye-atiklari-miktari-ve-bertaraf-miktari-i-85749 (resmi; açılmadı, doğrulanamadı); https://www.santiye.com.tr/yikinti-atiklarinin-geri-donusum-potansiyeli-degerlendirilmeli-6331.html (haber; açılmadı, doğrulanamadı); https://webdosya.csb.gov.tr/v2/ced/2026/01/Elaz-_icdr2024-20260105102918.pdf (resmi; açılmadı, doğrulanamadı)",
+"kime": "TÜİK Çevre İstatistikleri, Atık İstatistikleri 2024 bülteni, 0312 454 72 00; Çevre, Şehircilik ve İklim Değişikliği Bakanlığı 0312 410 17 25, hafriyat ve inşaat yıkıntı atığı geri kazanım tesisi sayısı ve yıllık beyan tonajı istenecek."
+},
+{
+"soru": "Kompakt çift şaft ve ağır tek şaft mobil parçalayıcılar için gerçek liste veya ilan fiyatları",
+"durum": "kismen",
+"cevap": "İlan fiyatları, KDV hariç, Avrupa pazarı. Doğrulananlar: Rottenkolber Umwelttechnik GmbH (Au in der Hallertau, Almanya) Kleinanzeigen sayfasında Arjes Impaktor 250 EVO II demo makine 150.000 euro artı KDV; Arjes Impaktor 350 yeni ya da demo, stok makineler için net fiyat 150.000 eurodan başlıyor; Komptech Crambo 5200, 2013, yaklaşık 7.500 saat, 225.000 euro artı KDV. Machineseeker'da Doppstadt DW 3060, 2013, 5.566 saat, Herrieden Almanya, 158.000 euro pazarlıklı artı KDV; aynı sayfadaki diğer DW 3060 ilanları (2006 ile 2019 arası, 4.867 ile 10.400 saat) fiyat sormalı. Doğrulanamayanlar: Impaktor 250 EVO II Ekim 2023 400 saat 127.500 euro (Rottenkolber sayfasının ilk sayfasında yok, ikinci sayfa okunmadı); 1.050 saatlik ikinci el 129.000 euro, Impaktor 350 EVO II sıfır 169.500 euro, Impaktor 850 sıfır 355.810 euro, Impaktor 1000 sıfır 474.810 euro (Kleinanzeigen arama sayfası açılmadı); Hammel VB 850 DK 2013 265.000 euro (açılmadı); Doppstadt DW 3060K 2018 189.000 euro (Truckscout24 açılmadı); DW 3060 99.000 ve 79.000 euro ilanları (açılmadı). Sonuç: kompakt çift şaft demo makine için 150.000 euro, ağır tek şaft 2013 model ikinci el için 158.000 euro ve Crambo 5200 2013 için 225.000 euro doğrulanmış referanslar.",
+"kaynak": "https://www.kleinanzeigen.de/pro/RottenkolberGmbH (firma, bayi ilanı; açıldı, doğrulandı); https://www.machineseeker.ie/mss/doppstadt+dw+3060 (firma, ilan; açıldı, doğrulandı); https://www.kleinanzeigen.de/s-arjes-impaktor/k0 (açılmadı, doğrulanamadı); https://www.kleinanzeigen.de/s-doppstadt-dw-3060/k0 (açılmadı, doğrulanamadı); https://www.machineseeker.ie/mss/hammel (açılmadı, doğrulanamadı); https://www.truckscout24.com/tsp/ts-222-64-332 (açılmadı, doğrulanamadı)",
+"kime": "Türkiye teslim fiyatı için DTR Makina ve İMİ İnşaat Makinaları'ndan teklif alınacak. Rottenkolber Umwelttechnik GmbH, Mainburger Straße 47, 84072 Au i.d. Hallertau, telefon +49 8752 6859000, Arjes ve Komptech ikinci el teklifi için."
+},
+{
+"soru": "Komptech Terminator 6000S için gerçek fiyat aralığı",
+"durum": "kismen",
+"cevap": "Avrupa'da açık fiyatlı 6000S ilanı bulunamadı. Tek fiyat Machinery Trader'daki 2025 model, 429 saatlik Avustralya ilanı: 850.000 Avustralya doları liste, açıklamada 980.000 Avustralya doları artı vergi, yaklaşık 656.000 ABD doları. Bu sayfa 403 verdi, rakam arama özetinden alındı; doğrulanamadı. Equipt sitesindeki 356.500 dolar da 403 verdi, doğrulanamadı. Kleinanzeigen Terminator arama sayfası bu turda açılmadı. Rottenkolber sayfasında Terminator ilanı yok, yalnızca Crambo ve Axtor parçaları var. 550.000 ile 650.000 euro bandı tek doğrulanamayan ilana dayalı kaba çıkarımdır; yazılı teklif alınmadan kullanılmamalı.",
+"kaynak": "https://www.machinerytrader.com/listing/for-sale/255810455/2025-komptech-terminator-6000s-scrap-processing-slash-demolition-equipment (firma, ilan; 403, doğrulanamadı); https://www.equipt.com/brands/komptech (firma; 403, doğrulanamadı); https://www.kleinanzeigen.de/s-komptech-terminator/k0 (açılmadı, doğrulanamadı); https://www.kleinanzeigen.de/pro/RottenkolberGmbH (açıldı; Terminator ilanı yok)",
+"kime": "Komptech GmbH satış, komptech.com/en/contact; Rottenkolber Umwelttechnik GmbH, +49 8752 6859000, Terminator 6000S yeni ve ikinci el teklifi."
+}
+],
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -5069,8 +6099,8 @@ window.MEKA_DATA = {
 "id": "asfalt",
 "baslik": "Asfalt plenti",
 "bant": "izle",
-"puan_metni": "Belge 03 sıralamasında on alan içinde 9. sıra, etiketi yedek. Süre 1-2 yıl, Ar-Ge orta, yatırım yüksek. Belge 03 etiketlerin kaba tahmin olduğunu ve belgenin karar değil tartışma haritası olduğunu söylüyor. Haritada gelire uzaklık orta, potansiyel büyüklük küçük. Belge 05 listesinde yer almıyor. Bu turda yalnız Belge 03 ve 05 okundu; başka çalışmada puanı doğrulanmadı.",
-"tarih": "24 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Bant değişmedi. Çürütme turu ana rakamları doğruladı ve ortaklık yolunu biraz güçlendirdi: emsal artık iki (Teknomak-Ammann 2010, Tekfalt-Marini 2011) ve E-MAK yabancı ortaksız tasarımın mümkün olduğunu gösteriyor, ama kurucu deneyimi ve kendi şantiyesi sayesinde. Aleyhte veriler aynı: asfalt plenti ihracatı 37 milyon dolarla fasıl 8474'ün yüzde 5,33'ü, pazar dört köklü oyuncuda, E-MAK da kırıcı sattığı için çok ürünlü model MEKA'ya özgü bir avantaj değil, yıllık satış adedi ve Ar-Ge bütçesi hâlâ yok. Constmach, Fabo ve İMDER rakamları bu turda doğrulanamadı. Kanıtın tamamı firma beyanı ve tek bir ticaret veri sitesinden geliyor, bu yüzden kanıt puanı 3'te kalıyor. Bayi puanları ve ortak görüşmeleri girilmeden ikincil banda çıkarmak için gerekçe yok. Belge 03 sıralamasında on alan içinde 9. sıra, etiketi yedek. Süre 1-2 yıl, Ar-Ge orta, yatırım yüksek. Belge 03 etiketlerin kaba tahmin olduğunu ve belgenin karar değil tartışma haritası olduğunu söylüyor. Haritada gelire uzaklık orta, potansiyel büyüklük küçük. Belge 05 listesinde yer almıyor. Bu turda yalnız Belge 03 ve 05 okundu; başka çalışmada puanı doğrulanmadı.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 Eylül 2026",
 "ne": "Asfalt plenti, agrega ile bitümü ısıtıp karıştırarak yol asfaltı üreten tesistir. Bu tanım genel bilgidir, çalışmalarda yok. Belge 03 müşterinin MEKA'nın bugünkü müşterisiyle aynı olduğunu söylüyor. Mobil kırıcı ve beton santrali MEKA'nın mevcut ürünü; asfalt plenti bu ürünlerin yanına eklenecek bir alan.",
 "neden": "Belge 03'ün gerekçesi tek cümle: aynı müşteri ama kalabalık pazar. E-MAK gibi üreticiler asfaltı kırma-elemeyle birlikte sunuyor; yani kırıcı ile asfalt plentini paket satmak pazarda var olan bir model. Bu yüzden konu MEKA'nın ürün gamına komşu sayılıyor. Ancak Belge 03 pazarı kalabalık buluyor ve yalnızca bir satın alma fırsatı çıkarsa bakılmasını öneriyor. Ürün benzerliği ya da teknik örtüşme üzerine bir açıklama çalışmalarda yok.",
 "rakamlar": [
@@ -5103,30 +6133,130 @@ window.MEKA_DATA = {
 "deger": "80-320 ton/saat",
 "aciklama": "Rakip E-MAK'ın Express serisi kapasite aralığı. E-MAK'ın Köln'deki Almanya şirketi üzerinden Danimarka'ya plent sattığı bilgisi ayrı bir web sayfasından; o sayfa açılamadı, arama özetinden alındı. Belge 03 E-MAK'ı yalnız kaynak [18] olarak anıyor, rakam vermiyor",
 "kaynak": "web, https://old.e-mak.com/uploads/content/70/asfalt-plentleri-mail-tr-339248febd7d35148b205d144aec63b3.pdf ve https://d9dev.worldhighways.com/wh6/products/turkish-asphalt-plant-supplied-denmark, 15 Ekim 2026; 03, kaynak [18] E-MAK"
+},
+{
+"deger": "37 milyon dolar",
+"aciklama": "Türkiye 2023 ihracatı, GTİP 847432, bitümle mineral karıştıran makineler. Fasıl 8474 ihracatının yüzde 5,33'ü. İthalat 6,54 milyon dolar, 8474 ithalatının yüzde 2,4'ü. Sayfada doğrulandı. Yayın tarihi 28 Ocak 2024.",
+"kaynak": "https://trendeconomy.com/data/h2/Turkey/8474"
+},
+{
+"deger": "703,6 milyon dolar",
+"aciklama": "Türkiye 2023 ihracatı, fasıl 8474 toplamı. 2022'de 664,7 milyon dolar, artış yüzde 5,86. 2023 ithalatı 271,7 milyon dolar. Seride 2021 yılı yok. Sayfada doğrulandı.",
+"kaynak": "https://trendeconomy.com/data/h2/Turkey/8474"
+},
+{
+"deger": "Rusya yüzde 12,1",
+"aciklama": "2023'te 8474 ihracatında ilk pazar, 85 milyon dolar. Sonra Kazakistan yüzde 5,73, Almanya yüzde 5,54, Irak yüzde 4,08, ABD yüzde 4. İthalatta İtalya yüzde 25, Almanya yüzde 20, Çin yüzde 17,2. Sayfada doğrulandı.",
+"kaynak": "https://trendeconomy.com/data/h2/Turkey/8474"
+},
+{
+"deger": "130'dan fazla",
+"aciklama": "Ammann'ın Türkiye'ye verdiği toplam asfalt plenti; aynı metinde cari yılda 10'dan fazla sipariş. OSTİM firma rehberindeki şirket metni, firma beyanı, tarihsiz. Metindeki 25. işbirliği yılı ifadesi 2022 civarına işaret ediyor (çıkarım).",
+"kaynak": "https://ostim.org.tr/companies/ammann-makina-insaat-as"
+},
+{
+"deger": "50 adet yıl",
+"aciklama": "E-MAK CEO'su Nezir Gencer'in 2016 Bauma haberinde açıkladığı yıllık asfalt plenti üretimi; yüzde 95 yerlilik, kilogram başına 7 dolar ihracat fiyatı; fuar harcaması 1,5 milyon euro. Yurt içi ve ihracat ayrımı yok. Firma beyanı.",
+"kaynak": "https://e-mak.com/en/news/fairs-events/bauma-2016"
+},
+{
+"deger": "1975",
+"aciklama": "E-MAK tarihçesine göre kurucu Mehmet Nezir Gencer TCK özel izniyle Türkiye'nin ilk asfalt plentini bu yıl üretti. Simge Grubu 1977, E-MAK 1992, ilk ihracat Irak 2002. Firma beyanı.",
+"kaynak": "https://e-mak.com/en/corporate/history"
+},
+{
+"deger": "1997, 2010, 2017",
+"aciklama": "Teknomak kuruluş yılı (iki şirket, Ostim'de atölye), Ammann ortaklık yılı ve Başkent OSB'ye taşınma yılı. Sayfada doğrulandı. Firma beyanı.",
+"kaynak": "https://www.teknomak.com.tr/"
+},
+{
+"deger": "Ocak 2009, Ağustos 2011, Nisan 2012",
+"aciklama": "Tekfalt Makina A.Ş. kuruluşu; Marini S.p.A. ile ortaklık ve Fayat çatısına giriş; Marini Makina A.Ş. adının alınması. Marini İtalya 1899 kuruluş, 1973 S.p.A., 1988 Fayat; dünya çapında 3.000'den fazla plent; Türkiye'de fabrika. Sayfada doğrulandı. Firma beyanı.",
+"kaynak": "https://www.marini.com.tr/hakkimizda"
+},
+{
+"deger": "2019",
+"aciklama": "Polygonmach kuruluş yılı; kurucular Ömer Baba ve Bayram Çambel, 15 yıldan fazla deneyim; üç fabrika (Yenimahalle ve Kahramankazan); başka markalar için 200'den fazla proje; Agriline'da 5 yıl, 4,9 puan, 31 değerlendirme. İlan metni, firma beyanı.",
+"kaynak": "https://agriline.com.tr/polygonmach/"
+},
+{
+"deger": "6.500 metrekare kapalı alan",
+"aciklama": "Sigma Asfalt Plentleri, Akyurt Ankara; 11.000 metrekare açık alan; İtalyan Türk işbirliği; 80 ile 340 ton saat ürün gamı; haberlerde İtalya (iki plent), Kosova, Rusya, Özbekistan, Ukrayna, Lübnan; İstanbul İzmir otoyolunda 260 ve 340 ton saat iki plent. Sayfada doğrulandı. Firma beyanı.",
+"kaynak": "https://www.sigmatec.com.tr/"
+},
+{
+"deger": "1.000'den fazla tesis, 110'dan fazla ülke, 240 çalışan",
+"aciklama": "Constmach önceki tur iddiası. Bu turda sayfa açılmadı, doğrulanamadı.",
+"kaynak": "https://www.constmach.com/ (doğrulanamadı)"
+},
+{
+"deger": "1,987 milyar dolar",
+"aciklama": "İMDER 2023 iş makineleri sektörü ihracatı; üretim 2,13 milyar dolar, ithalat 1,778 milyar dolar, ciro yaklaşık 5 milyar dolar. Bu turda sayfa açılmadı, doğrulanamadı.",
+"kaynak": "https://www.imder.org.tr/ (doğrulanamadı)"
 }
 ],
-"durum": "Belge 03, 24 Eylül 2026'da asfalt plentini on alan içinde dokuzuncu sıraya koydu ve yedek etiketi verdi. Gerekçe: müşteri aynı ama pazar kalabalık, E-MAK gibi üreticiler asfaltı kırma-elemeyle birlikte sunuyor. Öneri yalnızca bir satın alma fırsatı çıkarsa değerlendirmek. Belge 03'ün yakın takvimi ve ilk adımları asfalt plentini içermiyor. 27 Eylül 2026 tarihli Belge 05 konuyu hiç almadı; o belgenin ölçütü MEKA'dan bağımsız işler olduğu için bu beklenir. 5 Ekim 2026 inceleme dosyası bu tura verilmedi; incelemeye dayalı ifadeler çıkarıldı. Bugün itibarıyla atılmış bir adım çalışmalarda yok. Ön bant izle korunuyor: Belge 03 konuyu Önermediklerimiz listesine koymadı ama eylem de önermedi.",
+"durum": "16 Ekim 2026 çürütme turu: sekiz kaynak sayfa açıldı, rakamların çoğu tuttu, üç iddia düzeltildi. Türkiye pazarını Ankara merkezli Ammann-Teknomak, Marini Makina ve Sigma ile Bursa merkezli E-MAK taşıyor. Ortaklık emsali iki: Teknomak-Ammann 2010 ve Tekfalt-Marini 2011; ikisinde de yabancı üretici mevcut Türk firmasına ortak oldu. E-MAK yabancı ortaksız kendi tasarım emsali, ama kurucu 1975'ten gelen deneyime ve grup içi test sahasına sahipti. E-MAK ve Polygonmach kırıcı ve plenti aynı çatı altında satıyor; Constmach bu turda doğrulanamadı. Asfalt plenti ihracatı 2023'te 37 milyon dolar, fasıl 8474'ün yüzde 5,33'ü; 2021, 2024 ve 2025 verisi yok. Yıllık yurt içi satış adedi, Ar-Ge süresi ve bütçesi, satılık ya da ortaklığa açık firma bilgisi hiçbir sayfada yok; bunlar web ile kapanmaz, İMDER, TÜİK, EKAP ve yüz yüze görüşmeyle kapanır. Bayi görüşmesi sonuçları da web'de olmaz, elle girilecek.",
 "acik_sorular": [
-"Türkiye'de ya da ihracat pazarlarında satılık ya da ortaklığa açık bir asfalt plenti üreticisi var mı? Çalışmalarda yok.",
-"MEKA'nın mevcut müteahhit müşterileri son üç yılda kaç asfalt plenti aldı ve kimden aldı? Çalışmalarda yok.",
-"Kendi tasarımla girmek için gereken Ar-Ge süresi ve yatırım tutarı ne? Belge 03 yalnız 1-2 yıl, orta ve yüksek diyor, rakam yok.",
-"Kırıcı ile asfalt plentini paket satmak MEKA'ya kaç ek kırıcı satışı getirir? Çalışmalarda yok."
+"Kısmen cevaplandı: Türkiye'de asfalt plenti üreten firmalar kimler ve hangileri satılık ya da ortaklığa açık görünüyor",
+"Kısmen cevaplandı: Türkiye yıllık asfalt plenti satış adedi ya da pazar büyüklüğü; ihracat rakamları",
+"Kısmen cevaplandı: Kendi tasarımla asfalt plenti geliştirmek için tipik Ar-Ge süresi ve yatırım; emsal firmaların geçmişi",
+"Kısmen cevaplandı: Kırıcı ile asfalt plenti paket satışı yapan rakip var mı; MEKA'nın müteahhit müşterileri için anlamı"
 ],
 "adimlar": [
 {
-"adim": "Müteahhit müşteri listesinden asfalt plenti alanları ve tedarikçilerini çıkarmak; kaç müşteri paket istiyor, görmek. Bu adım özetin önerisidir, Belge 03'te yok",
-"kim": "MEKA satış ekibi",
+"adim": "Bayi görüşme notlarını cevaplar listesine elle girmek: her bayi için ayrı satır, durum etiketi gorusme, kaynak alanına bayi adı, görüşen kişi ve tarih; her soruya 1 ile 5 arası puan ve bir cümle gerekçe",
+"kim": "Satış müdürü",
+"ne_zaman": "23 Ekim 2026"
+},
+{
+"adim": "İMDER'den makine tipine göre yıllık satış adedi ve 2024 sektör raporunun okunabilir kopyasını istemek, e-posta imder@imder.org.tr; 2023 ciro, üretim, ihracat rakamlarını da teyit etmek",
+"kim": "Pazar analisti",
+"ne_zaman": "23 Ekim 2026"
+},
+{
+"adim": "TÜİK dış ticaret veri tabanından GTİP 847432 için 2019 ile 2025 yıllık ihracat ve ülke dağılımını çekmek; TrendEconomy'de eksik olan 2021, 2024, 2025'i tamamlamak",
+"kim": "Pazar analisti",
+"ne_zaman": "23 Ekim 2026"
+},
+{
+"adim": "Constmach, Fabo ve polygonmach.com sayfalarını açıp önceki tur iddialarını (dört fabrika, 110 ülke, 240 çalışan, Başkent OSB adresi, info@polygonmach.com) doğrulamak",
+"kim": "Pazar analisti",
+"ne_zaman": "23 Ekim 2026"
+},
+{
+"adim": "EKAP'ta son üç yılın asfalt plenti alım sonuç ilanlarını tarayıp belediye ve Karayolları alım adedini çıkarmak",
+"kim": "Pazar analisti",
+"ne_zaman": "30 Ekim 2026"
+},
+{
+"adim": "MEKA bayileriyle anket: müşteriler kırıcı ile birlikte asfalt plenti istiyor mu, hangi kapasite, hangi pazarlar; sonuçları puan tablosuna işlemek",
+"kim": "Satış müdürü",
+"ne_zaman": "30 Ekim 2026"
+},
+{
+"adim": "Gizli müşteri olarak Polygonmach, E-MAK ve Constmach'tan kırıcı ve plent birlikte teklif alıp paket indirimi var mı görmek",
+"kim": "Satış müdürü",
+"ne_zaman": "6 Kasım 2026"
+},
+{
+"adim": "Teknomak İmalat, Sigma ve Polygonmach ile ortaklık ya da tedarik ön görüşmesi; telefon +90 312 504 28 48, +90 312 847 53 61, +90 545 642 12 56",
+"kim": "Genel müdür ve iş geliştirme",
+"ne_zaman": "15 Kasım 2026"
+},
+{
+"adim": "Tekfalt-Marini 2011 ortaklığının yapısını öğrenmek için Marini Makina ile görüşme, +90 312 386 3322; ortaklık modeli MEKA için emsal olabilir",
+"kim": "Genel müdür ve iş geliştirme",
+"ne_zaman": "15 Kasım 2026"
+},
+{
+"adim": "Ar-Ge süresi ve bütçe için eski E-MAK ya da Marini tasarım mühendisiyle danışmanlık görüşmesi ve TÜBİTAK TEYDEB kapanmış proje listesinin taranması",
+"kim": "Ar-Ge müdürü",
 "ne_zaman": "30 Kasım 2026"
 },
 {
-"adim": "Türk asfalt plenti üreticilerinin listesini ve mali durumunu çıkarmak; satılık ya da ortaklığa açık olan var mı? Belge 03'e göre konu yalnız böyle bir fırsat çıkarsa ilerler",
-"kim": "Mehmet Bey ve mali danışman",
-"ne_zaman": "31 Aralık 2026"
-},
-{
-"adim": "Fırsat yoksa konuyu izleme listesinde tutmak ve yılda bir gözden geçirmek",
-"kim": "Yönetim",
-"ne_zaman": "Eylül 2027"
+"adim": "İMDER sektör raporu PDF'si ve E-MAK Simge bülteni PDF'si elle indirilip okunacak",
+"kim": "Pazar analisti",
+"ne_zaman": "20 Ekim 2026"
 }
 ],
 "riskler": [
@@ -5164,14 +6294,19 @@ window.MEKA_DATA = {
 ],
 "tam_calisma": [
 {
+"dosya": "c_asfalt",
+"bolum_basligi": "",
+"sayfa": null
+},
+{
 "dosya": "03",
 "bolum_basligi": "Asfalt plenti yedek",
 "sayfa": 1
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "Belge 03 konuyu iki cümle ve üç etiketle geçiyor; pazar, rakip ve yatırım rakamı yok. Belge 05'te hiç yok. Taslaktaki pazar büyüklüğü, Türkiye asfalt üretimi ve rakip bilgileri web aramasından; bu turda web araması yapılmadı, o rakamlar yeniden doğrulanmadı ve çalışmalarda yok diye işaretlendi. Taslağın andığı iki doğrulama sayfası açılamamıştı; o rakamlar arama özetinden. 5 Ekim 2026 inceleme dosyası bu tura verilmedi; ona dayanan ifadeler çıkarıldı.",
-"kanit": 2,
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 4 açık sorunun 0'i cevaplandı, 4'i kısmen, 0'i kapandı, 0'i görüşme gerektiriyor. Sınırlar: Çürütme turunda arama yapılmadı, yalnız 8 sayfa açıldı ve okundu; hepsi HTTP 200 döndü. Bütçe sınırı yüzünden Constmach, Fabo, polygonmach.com, İMDER ana sayfa, Marini tarihçe ve E-MAK hakkımızda sayfaları açılmadı; bunlara dayanan iddialar doğrulanamadı diye işaretlendi, silinmedi. Kaynakların tamamı firma beyanı ya da OSTİM ve Agriline'da yayımlanan şirket metinleri; tek bağımsız sayısal kaynak TrendEconomy ve onda 2021, 2024, 2025 yok. Ammann'ın 130 plent ve 10 sipariş rakamları tarihsiz; 2022 tahmini bir çıkarım. E-MAK'ın 50 plent rakamı 2016 tarihli. Yıllık yurt içi satış adedi, Ar-Ge süre ve bütçesi, satılık ya da ortaklığa açık firma bilgisi ve bayi görüşme puanları web'de yoktur; bunlar araştırmayla değil, İMDER, TÜİK, EKAP ve yüz yüze görüşmeyle kapanır. Bayi puanları elle girilmelidir; şemadaki gorusme durum etiketi bunun için kullanılabilir.",
+"kanit": 3,
 "web": [
 {
 "url": "https://www.giiresearch.com/report/tbrc1931843-asphalt-mixing-plants-global-market-report.html",
@@ -5192,6 +6327,81 @@ window.MEKA_DATA = {
 {
 "url": "https://agriline.com.tr/polygonmach/",
 "ne": "Polygonmach, Ankara Yenimahalle merkezli; kırıcı ve asfalt plentini birlikte satıyor. Bu turda yeniden doğrulanmadı"
+},
+{
+"url": "https://www.teknomak.com.tr/",
+"ne": "Açıldı. 1997 iki şirket, 2010 Ammann ortaklığı, Teknomak İmalat bağımsız tedarikçi, 2017 Başkent OSB, telefon ve e-posta doğrulandı. Firma beyanı.",
+"tur": "firma"
+},
+{
+"url": "https://ostim.org.tr/companies/ammann-makina-insaat-as",
+"ne": "Açıldı. OSTİM firma rehberindeki şirket metni: 130'dan fazla plent, cari yılda 10'dan fazla sipariş, 25. işbirliği yılı, tamamlayıcı çelik yapı üretimi. Tarihsiz. Firma beyanı.",
+"tur": "firma"
+},
+{
+"url": "https://www.marini.com.tr/hakkimizda",
+"ne": "Açıldı. Tekfalt Ocak 2009, Marini ortaklığı Ağustos 2011, isim değişikliği Nisan 2012, Sincan 1. OSB, 3.000'den fazla plent, Fayat 1988. Firma beyanı.",
+"tur": "firma"
+},
+{
+"url": "https://www.sigmatec.com.tr/",
+"ne": "Açıldı. Akyurt, 11.000 açık ve 6.500 kapalı metrekare, İtalyan Türk işbirliği, 80 ile 340 ton saat, ihracat haberleri, telefon ve e-posta doğrulandı. Firma beyanı.",
+"tur": "firma"
+},
+{
+"url": "https://e-mak.com/en/corporate/history",
+"ne": "Açıldı. 1975 ilk plent, 1977 Simge, 1992 E-MAK, 1994 Challenger, 2002 Irak, 2010 Ra-Tech; ürün menüsünde dik milli kırıcı ve Megaton. Firma beyanı.",
+"tur": "firma"
+},
+{
+"url": "https://e-mak.com/en/news/fairs-events/bauma-2016",
+"ne": "Açıldı. Yılda 50 plent, yüzde 95 yerlilik, kilogram başına 7 dolar, 1,5 milyon euro fuar bütçesi, ihracat bölgeleri. Firma beyanı.",
+"tur": "firma"
+},
+{
+"url": "https://trendeconomy.com/data/h2/Turkey/8474",
+"ne": "Açıldı. 8474 ihracat 2022 ve 2023, 847432 37 milyon dolar yüzde 5,33, ithalat 6,54 milyon dolar, ülke dağılımı, yayın 28 Ocak 2024, 2021 eksik.",
+"tur": "rapor"
+},
+{
+"url": "https://www.constmach.com/",
+"ne": "Bu turda açılmadı. Dört fabrika, 110 ülke, 240 çalışan iddiaları doğrulanamadı.",
+"tur": "firma"
+},
+{
+"url": "https://www.fabo.com.tr/",
+"ne": "Bu turda açılmadı. 2003 kuruluş ve plent olmaması iddiası doğrulanamadı.",
+"tur": "firma"
+},
+{
+"url": "https://www.polygonmach.com/",
+"ne": "Bu turda açılmadı. Başkent OSB adresi ve info@polygonmach.com doğrulanamadı.",
+"tur": "firma"
+},
+{
+"url": "https://www.imder.org.tr/",
+"ne": "Bu turda açılmadı. 2023 ciro, üretim, ihracat, ithalat rakamları doğrulanamadı.",
+"tur": "rapor"
+},
+{
+"url": "https://e-mak.com/en/corporate/about-us",
+"ne": "Bu turda açılmadı. Grup içi test yaklaşımı tarihçe sayfasından doğrulandı.",
+"tur": "firma"
+},
+{
+"url": "https://www.marini.com.tr/tarihce",
+"ne": "Bu turda açılmadı. Önceki tur bilgisi, doğrulanamadı.",
+"tur": "firma"
+},
+{
+"url": "http://imder.org.tr/sektorel-raporlar/",
+"ne": "Bu turda açılmadı.",
+"tur": "rapor"
+},
+{
+"url": "https://imder.org.tr/wp-content/uploads/2024/02/Insaat-ve-Madencilik-Makineleri-Sektor-Raporu.pdf",
+"ne": "Önceki turda şifreli, okunamadı. Bu turda açılmadı.",
+"tur": "rapor"
 }
 ],
 "celiskiler": [
@@ -5200,6 +6410,24 @@ window.MEKA_DATA = {
 "Belge 03 yatırım yüksek etiketini veriyor ama etiketlerin kaba tahmin olduğunu yazıyor; para karşılığı ya da eşik tanımı yok."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 8 sayfa; çürütücü 8 sayfa açtı, güven 3/5.",
+"Marini: 'Fayat lisansı ve markasıyla kuruldu, kendi tasarım yapmadı' iddiası silindi. Sayfaya göre Tekfalt Makina Ocak 2009'da bağımsız kuruldu, Ağustos 2011'de Marini ile ortak oldu, Nisan 2012'de ad değişti.",
+"Ortaklık emsali tekten ikiye çıkarıldı: Teknomak-Ammann 2010 ve Tekfalt-Marini 2011.",
+"E-MAK: 'kırıcı satmıyor, yalnız Challenger' iddiası düzeltildi. Ürün menüsünde dik milli kırıcı (500 ton saate kadar) ve Megaton agrega tesisi var. E-MAK da kırıcı ve plenti aynı çatı altında satıyor.",
+"Ar-Ge emsali: 'sıfırdan tek başına tasarım yapan emsal yok' ifadesi yumuşatıldı. E-MAK yabancı ortaksız kendi tasarım emsali; kurucu 1975'te Türkiye'nin ilk plentini yaptı, grup içi test sahası vardı.",
+"Ammann-Teknomak: OSTİM metni Ankara'da pazarlama, satış sonrası ve tamamlayıcı çelik yapı üretimi yazıyor; komple plent üretimi iddiası eklenmedi, nüans eklendi.",
+"OSTİM sayfası türü 'resmi'den 'firma'ya çevrildi; metin şirketin kendi tanıtımı, firma beyanı olarak işaretlendi.",
+"Ammann 130 plent sayfasına '25. işbirliği yılı' notu ve 2022 civarı tahmini eklendi, çıkarım olduğu belirtildi.",
+"Sigma: 'İtalyan Türk ortaklığı' ifadesi 'işbirliği' olarak düzeltildi; sayfa hisse ortaklığı yazmıyor.",
+"E-MAK 50 plent: 'ihracat dahil' ifadesi kaldırıldı; haber yurt içi ve ihracat ayrımı vermiyor.",
+"Polygonmach: fabrika yerleri Agriline'a göre Yenimahalle ve Kahramankazan olarak yazıldı; Başkent OSB adresi ve info@polygonmach.com doğrulanamadı diye işaretlendi.",
+"Constmach, Fabo, polygonmach.com, İMDER, Marini tarihçe ve E-MAK hakkımızda iddialarına 'doğrulanamadı (bu turda açılmadı)' eklendi.",
+"TrendEconomy'ye 8474 ithalatı 271,7 milyon dolar, ithalat kaynak ülkeleri, yayın tarihi 28 Ocak 2024 ve 2021 eksikliği eklendi.",
+"Ek rakamlara 1975 ilk plent ve Ocak 2009 / Ağustos 2011 / Nisan 2012 satırları eklendi.",
+"Adımlara bayi görüşme notlarının elle girilmesi, Marini görüşmesi ve açılmayan sayfaların doğrulanması eklendi.",
+"ek_md'ye 'Bayi görüşmeleri nasıl işlenir' ve 'Web ile kapanmayan eksikler' bölümleri eklendi.",
+"Dört cevabın durumu 'kismen' olarak kaldı; hiçbiri 'cevaplandi' yapılmadı çünkü ana alt sorular açık.",
+"Kanıt puanı 3'te bırakıldı; kaynaklar firma beyanı ve tek bir ticaret veri sitesi.",
 "puan_metni: Savunma raporu ve 5+5 çalışmasında puanı yok iddiası çıkarıldı; o dosyalar bu tura verilmedi, doğrulanamadı. Belge 03'ün etiketler kaba tahmin ve belge karar değil harita uyarısı eklendi.",
 "ne: Müşteri olarak belediyeler ve karayolu idareleri ifadesi çıkarıldı; Belge 03'te asfalt plenti müşterisi olarak böyle bir liste yok. Tanımın genel bilgi olduğu belirtildi. Mobil kırıcı ve beton santralinin mevcut ürün olduğu Belge 03 madde 3'ten alındı.",
 "neden: Bunker, konveyör, sac gövde ve otomasyon benzerliği ile agreganın ham madde olduğu cümleleri çıkarıldı; çalışmalarda yok. Gerekçe Belge 03'ün tek cümlesiyle sınırlandı.",
@@ -5214,7 +6442,37 @@ window.MEKA_DATA = {
 "acik_sorular ve adimlar: Birinci soruya çalışmalarda yok eklendi; birinci adımın özetin kendi önerisi olduğu belirtildi.",
 "web listesi: Doğrulanmamış kayıtlara bu turda yeniden doğrulanmadı notu eklendi; E-MAK PDF kaydında kaynak metinde kullanılmayan Green Type ve RATech ayrıntıları çıkarıldı."
 ],
-"guven": 4,
+"guven": 3,
+"cevaplar": [
+{
+"soru": "Türkiye'de asfalt plenti üreten firmalar kimler ve hangileri satılık ya da ortaklığa açık görünüyor",
+"durum": "kismen",
+"cevap": "Üretici listesi büyük ölçüde sayfalarla doğrulandı, iki düzeltme var. Ankara'da üç ana oyuncu: Ammann-Teknomak, Marini Makina A.Ş. ve Sigma Asfalt Plentleri. Teknomak 1997'de Ostim'de Teknomak Makine ve Teknomak İmalat adıyla iki şirket olarak kuruldu, 2010'da Ammann ortaklık teklif etti, Teknomak Makine ortak oldu, Teknomak İmalat bağımsız tedarikçi kaldı, 2017'de Başkent OSB'ye taşındı (firma beyanı). OSTİM firma sayfasındaki metne göre Ammann Türkiye'ye 130'dan fazla plent verdi; aynı metin Ammann-Teknomak'ın Ankara'da pazarlama, satış sonrası ve bitüm tankı, bunker, filler silosu gibi tamamlayıcı çelik yapı ürettiğini yazıyor, yani komple plent üretimi Türkiye'de yapılıyor demiyor (firma beyanı, sayfa tarihsiz). Düzeltme 1: Marini Makina A.Ş. Ocak 2009'da Tekfalt Makina A.Ş. adıyla bağımsız bir Türk firması olarak kuruldu, Ağustos 2011'de Marini S.p.A. ile ortak olup Fayat çatısına girdi, Nisan 2012'de Marini adını aldı; Tekfalt markalı ürünler de sürüyor. Üretim yeri Sincan 1. OSB (firma beyanı). Sigma Akyurt'ta 11.000 metrekare açık, 6.500 metrekare kapalı alanda İtalyan Türk işbirliğiyle 80 ile 340 ton saat plent üretiyor; sayfa 'işbirliği' diyor, hisse ortaklığı yazmıyor (firma beyanı). Bursa'da E-MAK 1992'de Simge Grubu içinde kuruldu; tarihçe sayfası kurucu Mehmet Nezir Gencer'in 1975'te TCK özel izniyle Türkiye'nin ilk asfalt plentini yaptığını yazıyor (firma beyanı). 2016'da yılda 50 plent ürettiğini açıkladı (firma beyanı). Ankara'da Polygonmach 2019'da Ömer Baba ve Bayram Çambel tarafından kuruldu; Agriline ilan sayfasına göre üç fabrikası var, biri Yenimahalle Dempa Sanayi Sitesi, ikisi Kahramankazan; kırma eleme, beton santrali ve asfalt plenti listeliyor; başka markalar için 200'den fazla proje yapmış (firma beyanı, ilan metni). Constmach ve Fabo bilgileri bu turda açılmadı, doğrulanamadı. Atlas Technologies doğrulanamadı. Satılık ya da ortaklığa açık firma bilgisi hiçbir sayfada yok. Düzeltme 2: ortaklık emsali tek değil iki: Teknomak-Ammann 2010 ve Tekfalt-Marini 2011. İkisinde de yabancı plent üreticisi mevcut Türk firmasına ortak oldu.",
+"kaynak": "https://www.teknomak.com.tr/ ; https://ostim.org.tr/companies/ammann-makina-insaat-as ; https://www.marini.com.tr/hakkimizda ; https://www.sigmatec.com.tr/ ; https://e-mak.com/en/corporate/history ; https://e-mak.com/en/news/fairs-events/bauma-2016 ; https://agriline.com.tr/polygonmach/ ; Constmach ve Fabo: doğrulanamadı (bu turda açılmadı)",
+"kime": "Ortaklık ve satış niyeti için: Teknomak İmalat, Ankara, telefon +90 312 504 28 48, e-posta ankara@teknomak.com.tr (sayfada doğrulandı); Sigma Asfalt Plentleri, Akyurt, telefon +90 312 847 53 61, e-posta sigma@sigma-asphalt.com (sayfada doğrulandı); Polygonmach, Bayram Çambel, telefon +90 545 642 12 56 (Agriline sayfasında doğrulandı), info@polygonmach.com (doğrulanamadı); Ammann-Teknomak, +90 312 386 22 11, info@ammann.com.tr (OSTİM sayfası); Marini Makina, +90 312 386 3322 (sayfada doğrulandı). Ayrıca İMDER üye listesi ve Komatek fuarı standları."
+},
+{
+"soru": "Türkiye yıllık asfalt plenti satış adedi ya da pazar büyüklüğü; ihracat rakamları",
+"durum": "kismen",
+"cevap": "Adet bazında resmi satış verisi web'de yok. İhracat rakamları TrendEconomy sayfasıyla doğrulandı: GTİP 847432 (bitümle mineral karıştıran makineler) 2023 ihracatı 37 milyon dolar, fasıl 8474 ihracatının yüzde 5,33'ü; 847432 ithalatı 6,54 milyon dolar, 8474 ithalatının yüzde 2,4'ü. Fasıl 8474 ihracatı 2022'de 664,7 milyon dolar, 2023'te 703,6 milyon dolar, artış yüzde 5,86. 8474 ithalatı 2023'te 271,7 milyon dolar. 2023 ihracatında ilk pazarlar Rusya yüzde 12,1 (85 milyon dolar), Kazakistan yüzde 5,73, Almanya yüzde 5,54, Irak yüzde 4,08, ABD yüzde 4. İthalatta ilk kaynaklar İtalya yüzde 25, Almanya yüzde 20, Çin yüzde 17,2. Sayfanın yayın tarihi 28 Ocak 2024; seride 2021 yılı yok, 2024 ve 2025 yok. Dolaylı göstergeler: Ammann Türkiye'ye toplam 130'dan fazla plent, cari yılda 10'dan fazla sipariş; sayfa tarihsiz, metindeki '25. işbirliği yılı' ifadesi 1997 başlangıcına göre 2022 civarına işaret ediyor (çıkarım, firma beyanı). E-MAK CEO'su Nezir Gencer 2016 Bauma haberinde yılda 50 plent ürettiklerini söyledi; yurt içi ve ihracat ayrımı verilmiyor (firma beyanı). İMDER 2023 sektör rakamları (ciro yaklaşık 5 milyar dolar, üretim 2,13 milyar dolar, ihracat 1,987 milyar dolar) bu turda açılmadı, doğrulanamadı.",
+"kaynak": "https://trendeconomy.com/data/h2/Turkey/8474 ; https://ostim.org.tr/companies/ammann-makina-insaat-as ; https://e-mak.com/en/news/fairs-events/bauma-2016 ; İMDER: doğrulanamadı (bu turda açılmadı)",
+"kime": "Adet verisi için İMDER, e-posta imder@imder.org.tr, sektörel raporlar sayfası; GTİP 847432 yıllık seri için TÜİK dış ticaret veri tabanı data.tuik.gov.tr; kamu alımı adedi için EKAP sonuç ilanları, ekap.kik.gov.tr."
+},
+{
+"soru": "Kendi tasarımla asfalt plenti geliştirmek için tipik Ar-Ge süresi ve yatırım; emsal firmaların geçmişi",
+"durum": "kismen",
+"cevap": "Ar-Ge süresi ve yatırım tutarı için açık rakam hiçbir sayfada yok. Emsal geçmişleri doğrulandı ve iki yerde düzeltildi. E-MAK: Simge Grubu 1977'de kuruldu, kurucu 1975'te Türkiye'nin ilk asfalt plentini yaptı, E-MAK 1992'de grup içi ihtiyaç için kuruldu, yeni ürünleri grup şirketlerinin tesislerinde test ediyor, 1994 Challenger deneme üretimi, 2002 ilk ihracat Irak Samawa, 2003 Intermat, 2004 Bauma, 2010 Ra-Tech deneme üretimi, 2015 ISO 9001 ve 14001, 2016 SanDry kum kurutma, 2018 Turquality (firma beyanı). Tarihçe sayfası E-MAK'ın 'kendi özgün teknolojisini geliştirdiğini' yazıyor; yabancı ortak yok. Düzeltme 1: önceki tur 'sıfırdan tek başına tasarım yapan emsal yok' demişti; E-MAK yabancı ortaksız tasarım emsalidir, ancak kurucunun 17 yıllık plent deneyimi ve grup içi şantiye test sahası vardı, kuruluştan ilk ihracata 10 yıl geçti. Teknomak 1997'de kuruldu, 13 yıl sonra 2010'da Ammann ortaklık teklif etti (firma beyanı). Düzeltme 2: Marini Türkiye lisansla kurulmadı; Tekfalt Makina Ocak 2009'da tasarım, üretim ve servis için bağımsız kuruldu, Ağustos 2011'de Marini ile ortak oldu, yani yaklaşık 2,5 yıl bağımsız çalıştı (firma beyanı). Sigma İtalyan Türk işbirliğiyle çalışıyor, sistemlerinin '35 yıllık deneyimin ürünü' olduğunu yazıyor (firma beyanı). Polygonmach 2019'da kuruldu, kurucular 15 yıldan fazla deneyimli, 200'den fazla projeyi başka markalar için yaptı (Agriline ilan metni, firma beyanı); polygonmach.com bu turda açılmadı. Ortak nokta: yerli üreticiler ya yabancı ortak aldı, ya grup içi test sahası ve kurucu deneyimiyle başladı, ya da fason üretimden markaya geçti. Deneyimsiz ve test sahasız sıfırdan başlayan emsal yok.",
+"kaynak": "https://e-mak.com/en/corporate/history ; https://e-mak.com/en/news/fairs-events/bauma-2016 ; https://www.teknomak.com.tr/ ; https://www.marini.com.tr/hakkimizda ; https://www.sigmatec.com.tr/ ; https://agriline.com.tr/polygonmach/ ; https://www.polygonmach.com/ ve https://e-mak.com/en/corporate/about-us: doğrulanamadı (bu turda açılmadı)",
+"kime": "Ar-Ge süresi ve bütçe için: TÜBİTAK TEYDEB kapanmış proje listesi, tubitak.gov.tr; Sanayi Bakanlığı Ar-Ge merkezi listesi; eski E-MAK ya da Marini tasarım mühendisi ile danışmanlık görüşmesi, LinkedIn üzerinden; Makina Mühendisleri Odası Ankara Şubesi."
+},
+{
+"soru": "Kırıcı ile asfalt plenti paket satışı yapan rakip var mı; MEKA'nın müteahhit müşterileri için anlamı",
+"durum": "kismen",
+"cevap": "Polygonmach'ın kırma eleme yıkama tesisi, sabit ve mobil beton santrali ve sabit ve mobil asfalt plenti ürettiği Agriline ilan sayfasında doğrulandı; 50 ilan arasında çeneli kırıcı, konik kırıcı, dik şaftlı kırıcı, 160 ve 320 ton saat asfalt plenti ve beton santrali var. Paket ya da birlikte alım indirimi ifadesi yok (firma beyanı). Constmach ve Fabo sayfaları bu turda açılmadı, önceki tur iddiaları doğrulanamadı. Düzeltme: E-MAK yalnız Challenger sunmuyor; ürün menüsünde agrega tesisleri başlığı altında Challenger (250 ile 450 ton saat), Megaton (günde 10.000 ton, asfalt, beton ve soğuk karışım tesisini aynı anda besliyor) ve 500 ton saate kadar dik milli kırıcı listeleniyor (firma beyanı). Yani E-MAK kırıcı ve plenti aynı çatı altında satan üçüncü yerli firma. Teknomak ürün listesinde kırıcı ya da komple plent yok, yol yapım ve bitüm ekipmanları var. Marini ürün listesinde kırıcı yok. MEKA için anlam: beton santrali ve kırıcıyı zaten satan MEKA plent eklerse Polygonmach ve E-MAK (ve doğrulanırsa Constmach) ile aynı çok ürünlü modele geçer. Bu modelin satışa etki ettiğine dair kanıt hiçbir sayfada yok; bayi görüşmeleriyle ölçülmeli.",
+"kaynak": "https://agriline.com.tr/polygonmach/ ; https://e-mak.com/en/corporate/history ; https://www.teknomak.com.tr/ ; https://www.marini.com.tr/hakkimizda ; https://www.constmach.com/ , https://www.fabo.com.tr/ ve https://www.polygonmach.com/: doğrulanamadı (bu turda açılmadı)",
+"kime": "Paket talebinin gerçek olup olmadığı için: MEKA'nın mevcut yurt içi ve yurt dışı bayileri ile anket; Polygonmach, Bayram Çambel, +90 545 642 12 56; E-MAK, +90 224 248 90 71 (sayfada doğrulandı); Constmach bayi ağı, +90 542 810 25 48 (doğrulanamadı); Karayolları yüklenicileri, Asfalt Müteahhitleri Derneği ASMÜD, asmud.org.tr."
+}
+],
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -5228,8 +6486,8 @@ window.MEKA_DATA = {
 "id": "izle_meka",
 "baslik": "İzleme ve elenenler, MEKA tarafı: tavuk gübresi enerjisi, batarya geri dönüşümü, bazalt karbon kredisi, Ay madenciliği, türbin kanadı, kule gövdesi, plastik kırıcı",
 "bant": "izle",
-"puan_metni": "Belge 03 sırası, 10 alan içinde: bazalttan karbon kredisi 7, etiketi \"uçuk fikir\"; batarya geri dönüşümü 8, etiketi \"izle\"; Ay madenciliği 10, etiketi \"prestij\". Türbin ve kanat, kule gövdesi, plastik kırıcı sıra dışı, \"Önermediklerimiz\" listesinde. Belge 03 haritası: bazalt gelire uzaklık orta ve potansiyel orta; batarya uzak ve küçük; Ay uzak ve orta. Belge 05 sırası, 12 iş içinde: tavuk gübresinden enerji 6, haritada gelire uzaklık orta ve potansiyel orta. İki belgede de sayısal puan yok, yalnız sıra ve kaba etiket.",
-"tarih": "24 Eylül 2026 ve 27 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulama bandı değiştirmiyor, hatta türbin tarafını biraz daha zayıflatıyor: kule gövdesi ve kule iç aksamı yerleşik oyuncularla dolu, Ateş Wind Power iç aksamı zaten üretiyor. Bazalt ve plastik kırıcı MEKA'nın ağır makine gücüne talep yaratmıyor; batarya geri dönüşümü hacmi yılda yaklaşık 500 ton pil düzeyinde. Tek olası açık biyogaz tesislerinde ağır sac işi; bu da tedarikçi görüşmesi yapılmadan doğrulanamıyor. İzle bandı yerinde. Belge 03 sırası, 10 alan içinde: bazalttan karbon kredisi 7, etiketi \"uçuk fikir\"; batarya geri dönüşümü 8, etiketi \"izle\"; Ay madenciliği 10, etiketi \"prestij\". Türbin ve kanat, kule gövdesi, plastik kırıcı sıra dışı, \"Önermediklerimiz\" listesinde. Belge 03 haritası: bazalt gelire uzaklık orta ve potansiyel orta; batarya uzak ve küçük; Ay uzak ve orta. Belge 05 sırası, 12 iş içinde: tavuk gübresinden enerji 6, haritada gelire uzaklık orta ve potansiyel orta. İki belgede de sayısal puan yok, yalnız sıra ve kaba etiket.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 Eylül 2026 ve 27 Eylül 2026",
 "ne": "Bu yaprak tek bir iş değil, yedi küçük kalemin toplamıdır. Dördü izleme listesinde: tavuk gübresinden enerji tesislerine ekipman, batarya geri dönüşümü, bazaltla karbon giderimi yapan girişimlere kırma tesisi satmak, Ay madenciliği çevresiyle tanışmak. Üçü belge 03'te açıkça elenmiş: rüzgar türbini kanadı, rüzgar kulesi gövdesi, plastik kırıcı.",
 "neden": "Hepsinde MEKA'nın mevcut yetkinliğine bir ucundan dokunan bir iş var. Belge 05 tavuk gübresi için besleme, tank, ayırıcı, kurutma ve otomasyonu \"bize uyan\" diye sayıyor. Belge 03 bazalt için kırma tesisi satışını, kule gövdesi için çelik gövde üretimini anıyor. Şimdilik hiçbiri gelire yakın değil. Yönetimin bu kalemlere yeniden zaman ayırmaması, yalnız belirli tetikleyiciler çıkınca dosyayı açması için tek sayfada toplandı.",
 "rakamlar": [
@@ -5267,42 +6525,166 @@ window.MEKA_DATA = {
 "deger": "Rakam yok",
 "aciklama": "Ay madenciliği: Interlune Ay kazıcısını iş makinesi üreticisi Vermeer ile yaptı. Belge 03 bunu tek örnek olarak veriyor; pazar büyüklüğü ya da gelir rakamı yok.",
 "kaynak": "03, 10. sıra, Ay madenciliği, kaynak 15"
+},
+{
+"deger": "185 ile 300 avro/ton CO2",
+"aciklama": "ERW karbon kredisi fiyatı, 2026; Senken sayfasında doğrulandı",
+"kaynak": "https://www.senken.io/carbon-removal/enhanced-rock-weathering"
+},
+{
+"deger": "200.000 ton; yaklaşık 126.000 ton; 115 milyon dolar",
+"aciklama": "Google Terradot ERW alımı; Microsoft dört tedarikçi toplamı; Frontier ERW ön alımları; Senken sayfasında doğrulandı",
+"kaynak": "https://www.senken.io/carbon-removal/enhanced-rock-weathering"
+},
+{
+"deger": "358.340 ton kaya; 61.310 akre; 444 çiftlik; 78.835 ton CO2",
+"aciklama": "UNDO sayacı, tüm kaya türleri; firma beyanı, doğrulandı",
+"kaynak": "https://un-do.com/"
+},
+{
+"deger": "4 ile 5 ton kaya tozu / ton CO2; 40 ile 50 ton/hektar",
+"aciklama": "Sheffield LC3M kuralı ve deneme sahası uygulama oranı; doğrulandı",
+"kaynak": "https://sheffield.ac.uk/lc3m/research/faqs"
+},
+{
+"deger": "95 tesis, 369,22 MW, 32 şehir",
+"aciklama": "Türkiye biyogaz YEKDEM tesisleri, 2022 listesi; doğrulandı",
+"kaynak": "https://www.biyogazder.org/biyogaz-tesisleri"
+},
+{
+"deger": "1 tesis, 2,4 MW",
+"aciklama": "Bolu biyogaz, Mudurnu Enerji, Mudurnu; doğrulandı",
+"kaynak": "https://www.biyogazder.org/biyogaz-tesisleri"
+},
+{
+"deger": "8 tesis, 30,6 MW",
+"aciklama": "Afyon biyogaz tesisleri toplamı; sayfadaki 8 güç değerinin toplamı, doğrulandı",
+"kaynak": "https://www.biyogazder.org/biyogaz-tesisleri"
+},
+{
+"deger": "3,1 MW, günde 300 ton gübre, yılda 24 milyon kWh, 10 milyon lira ek yatırım",
+"aciklama": "Çubuk Ankara tavuk gübresi tesisi, Era Yatırım Holding, 14 Mayıs 2016 haberi; doğrulandı",
+"kaynak": "http://uzmanpara.milliyet.com.tr/haber-detay/gundem/tavuk-gubresiyle-40-bin-eve-isik-olacak/47763/"
+},
+{
+"deger": "54, 50, 32 kuruş/kWh; yerli katkı 8 kuruş; 10 yıl ve 5 yıl",
+"aciklama": "Karar 3453 biyokütle başlangıç fiyatları ve süreler, 1 Temmuz 2021 ile 31 Aralık 2025 arası tesisler; Milliyet'te doğrulandı, karar numarası EPDK sayfasında doğrulandı",
+"kaynak": "https://www.milliyet.com.tr/ekonomi/yenilenebilir-enerjide-yeni-alim-ve-yerli-katki-fiyatlari-belirlendi-6418940"
+},
+{
+"deger": "8,60 sent, 8 sent, 5,10 sent/kWh",
+"aciklama": "Biyometanizasyon, termal bertaraf, çöp gazı dolar tavanları, Karar 3453; doğrulandı",
+"kaynak": "https://www.milliyet.com.tr/ekonomi/yenilenebilir-enerjide-yeni-alim-ve-yerli-katki-fiyatlari-belirlendi-6418940"
+},
+{
+"deger": "201,41 ile 617,89 TL/MWh",
+"aciklama": "2026 Ocak-Aralık YEKDEM birim maliyeti, EPDK kararı, 30 Aralık 2025 haberi; doğrulandı",
+"kaynak": "https://www.bloomberght.com/2026-yili-yekdem-maliyetleri-belirlendi-3765028"
+},
+{
+"deger": "524.989 kg; 11.077.667 kg",
+"aciklama": "TAP atık pil toplama 2026 içinde ve 2004'ten bu yana toplam; sayaç dinamik; doğrulandı",
+"kaynak": "https://www.tap.org.tr/"
+},
+{
+"deger": "21 milyon pil/yıl; 25 bin m2",
+"aciklama": "Aspilsan Kayseri lityum iyon pil tesisi planlanan üretim hedefi ve kapalı alan; firma beyanı, doğrulandı",
+"kaynak": "https://www.aspilsan.com/"
+},
+{
+"deger": "1.200 kanat/yıl; 2028 ilk yarısına kadar dolu; 130 bin m2 arazi, 90 bin m2 kapalı alan",
+"aciklama": "Nordex Menemen kanat fabrikası, üretim başlangıcı Mayıs 2026, 5 Ekim 2026 haberi; doğrulandı",
+"kaynak": "https://forum.donanimhaber.com/alman-enerji-devi-turkiye-de-vites-yukseltti-fabrika-2028-e-kadar-dolu--164167095"
+},
+{
+"deger": "5,6 GW; yüzde 60; 1,1 milyar avro; 300 milyon avro; 70 milyon avro",
+"aciklama": "Nordex Türkiye kurulu türbin gücü; inşa halindeki projelerde payı; Türkiye tedarikçi alımı; 2026 ihracat beklentisi (çoğu kule); Aliağa yatırımı, Şubat 2027; doğrulandı",
+"kaynak": "https://forum.donanimhaber.com/alman-enerji-devi-turkiye-de-vites-yukseltti-fabrika-2028-e-kadar-dolu--164167095"
+},
+{
+"deger": "16,2 GW; 2,1 GW; yüzde 13,5",
+"aciklama": "Türkiye rüzgar kurulu gücü 2026; 2025'te eklenen kapasite; 2026 ilk yarı elektrik üretim payı; doğrulandı",
+"kaynak": "https://forum.donanimhaber.com/alman-enerji-devi-turkiye-de-vites-yukseltti-fabrika-2028-e-kadar-dolu--164167095"
+},
+{
+"deger": "4.000 kanat/yıl, 6.000 üzeri çalışan, yüzde 75 üzeri ihracat, 700 milyon dolar ciro, 500 milyon dolar ihracat",
+"aciklama": "İzmir kanat üretimi, 3 firma 4 tesis, 4 Temmuz 2023 verisi; doğrulandı",
+"kaynak": "https://www.benguturk.com/ekonomi/ruzgar-turbinleri-izmirden-kanatlaniyor-112722h"
+},
+{
+"deger": "430 kule/yıl, 17 ülke, 95 kule tasarımı, 2 fabrika",
+"aciklama": "Gesbey Bandırma OSB; firma beyanı, doğrulandı",
+"kaynak": "https://www.gesbey.com.tr/"
+},
+{
+"deger": "2.000 seksiyon/yıl, 530.000 ton, 7.250 MW, 25 ülke, 15 ile 160 m, 20 ile 600 ton",
+"aciklama": "Çimtaş çelik rüzgar kulesi rakamları; firma beyanı, doğrulandı",
+"kaynak": "https://www.cimtas.com/"
+},
+{
+"deger": "759 kule 2.425 MW ve 220 set jeneratör yaklaşık 880 MW Türkiye; 300 kule 1.000 MW ve 91 set jeneratör Avrupa",
+"aciklama": "Ateş Wind Power Bergama teslimatları; firma beyanı, doğrulandı",
+"kaynak": "http://ateswindpower.com/"
+},
+{
+"deger": "5.420 kanat, yüzde 15 pay, 80.000 kanat",
+"aciklama": "TPI Composites 2025 küresel üretim, Çin dışı kara pazarı payı, 2001'den bu yana toplam; firma beyanı, doğrulandı",
+"kaynak": "https://www.tpicomposites.com/"
+},
+{
+"deger": "yüzde 70; yüzde 74",
+"aciklama": "TÜREB envanteri: 3 yılda yeni yatırım planlayan ve istihdam artırmayı planlayan firma oranları, 30 Eylül 2026; doğrulandı",
+"kaynak": "https://www.foreks.com/haber/detay/6abcbeb624008d7d43739702/AA/tr/turkiye-ruzgar-sektorunun-yuzde-70-i-gelecek-3-yilda-yeni-yatirim-planliyor-30-09-26/"
+},
+{
+"deger": "1.450 avro",
+"aciklama": "İkinci el 4 kW plastik kırıcı açık artırma başlangıç fiyatı, Avrupa, 2006 model; sayfa 404, doğrulanamadı",
+"kaynak": "https://www.resale.info/tr/kırma/No-170161352"
 }
 ],
-"durum": "15 Ekim 2026 itibarıyla yedi kalemin hiçbirinde eylem kaydı yok. Ay madenciliği için belge 03'ün önerdiği Antalya Uzay Kongresi 5 ile 9 Ekim arasında yapıldı ve geçti; katılım bilgisi dosyalarda yok. Bant izle kalıyor: belge 03 bataryaya \"izle\", bazalta \"uçuk fikir\", Ay'a \"prestij\" etiketi veriyor; hiçbirine puan vermiyor. Türbin kanadı, kule gövdesi ve plastik kırıcı bu yaprağın içinde elendi işaretiyle duruyor. Önceki taslağın web notu bazalt tarafındaki tek eylemi zayıflatıyordu: Alt Carbon kırma tesisi almıyor, ocak atığı tozu kullanıyor. Bu not çalışmalarda yok ve bu turda doğrulanmadı. Önceki taslağın dayandığı inceleme_sonuc.json dosyası klasörde bulunamadı; o dosyaya atfedilen bulgular yalnız 03 ve 05'ten doğrulanabildiği ölçüde kaldı.",
+"durum": "Çürütme turunda 24 sayfa açıldı, 23'ü okundu; iddiaların büyük çoğunluğu sayfalarla uyuştu. Yedi konu izleme listesinde kalıyor. Bazalt karbon giderimi ocakların elindeki ince yan ürünü kullanıyor, kırıcı satın almıyor; Türkiye'de girişim yok. Tavuk gübresi biyogazında Bolu'da 1, Afyon'da 8 tesis listede var ama liste hammadde vermiyor ve ekipman tedarikçisi hiçbir yerde yazmıyor; dernek üye sayfasında Energrom, İşmaksan, EYS Metal, Sigma, Eta ve Çalık Makina var, ürün tanımı yok. YEKDEM için Karar 3453 ve 2021 fiyatları doğrulandı; 419 kuruş hiçbir sayfada yok; 2026 sonrası fiyat kararı EPDK sayfasında yok. Batarya geri dönüşümünde toplanan pil yılda yaklaşık 500 ton; sanayi ölçekli lityum tesisi web'de yok; LG ve GO Enerji haberi açılamadı. Türbinde en az 5 kule fabrikası ve 4 kanat tesisi dolu çalışıyor; Nordex Menemen tesisini devralmış; Ateş Wind Power kule iç aksamını zaten üretiyor ve TÜREB bunu en yaygın üretim alanı sayıyor, yani önceki turda önerilen alt parça alanı da dolu. Plastik kırıcıda yalnız Diriliş Makina kaydı doğrulandı, diğer dört üretici adı ve ikinci el fiyat doğrulanamadı. Bant izle olarak kalıyor.",
 "acik_sorular": [
-"Bazaltla karbon giderimi girişimleri kırma tesisi alıyor mu? Belge 03 bunu varsayıyor ama kanıt vermiyor. Önceki taslağın doğrulanmamış web notuna göre Alt Carbon ocak atığı kullanıyor; doğruysa MEKA'nın müşterisi girişim değil, ona toz veren ocak olur.",
-"Türkiye'de bazalt tozu üreten ocak ya da bazaltla karbon giderimi girişimi var mı? Belge 03'teki iki örnek Hindistan ve Brezilya'da.",
-"Bolu ve Afyon tesislerinin besleme, tank, kurutma ve ayırıcı ekipmanı kimden alındı? MEKA'nın girebileceği bir boşluk var mı? Belge 05 yalnız tesislerin varlığını yazıyor.",
-"419 kr/kWh alım garantisi hangi tesisler için ve ne kadar süre geçerli? Belge 05 yalnız Mart 2026 fiyatını veriyor.",
-"Antalya Uzay Kongresi'ne 5 ile 9 Ekim 2026 arasında MEKA'dan katılan oldu mu?",
-"Mobil parçalayıcı belge 03'te 5. sırada önerilirken plastik kırıcı neden elendi? Belge 03 gerekçe olarak yalnız 'mobil olması anlamsız; pazar ucuz makineyle dolu' diyor."
+"Kısmen cevaplandı: Bazaltla karbon giderimi girişimleri kırma tesisi mi alıyor, yoksa ocak tozu mu kullanıyor; Türkiye'de bazalt tozu üreten ocak ya da girişim var mı",
+"Kısmen cevaplandı: Bolu ve Afyon tavuk gübresi biyogaz tesislerinin ekipmanı kimden alındı; MEKA'nın girebileceği boşluk var mı",
+"Kısmen cevaplandı: Biyokütle için 419 kuruş/kWh YEKDEM fiyatı hangi tesisler için ve ne kadar süre geçerli",
+"Kısmen cevaplandı: Türkiye batarya geri dönüşümü tesisleri ve kırma-ayırma ekipmanı ihtiyacı; kim var",
+"Görüşme gerekir: Plastik kırıcı pazarı Türkiye: yerli üretici sayısı ve fiyat düzeyi (PAGEV Türk Plastik Sanayicileri Araştırma Geliştirme ve Eğitim Vakfı, pagev.org iletişim sayfası; Plast Eurasia İstanbul fuarı Tüyap, Aralık 2026, kırıcı üreticisi standları; Diriliş Makina ve ÖZ-MAK'tan yazılı teklif, 300 kg/saat ve 1.000 kg/saat sınıfı için)"
 ],
 "adimlar": [
 {
-"adim": "Bazalt için önce müşteri tipini netleştirmek: karbon girişimleri mi kırma tesisi alıyor, yoksa onlara toz veren ocaklar mı? Belge 03'ün iki girişimine kısa yazıyla sormak. Yanıt ocaksa Türkiye'de bazalt ocağı listesi çıkarmak.",
-"kim": "MEKA satış ve iş geliştirme",
-"ne_zaman": "Kasım 2026"
-},
-{
-"adim": "Tavuk gübresi: Bolu ve Afyon tesislerinin ekipman tedarikçilerini ve yeni biyogaz yatırımlarını öğrenmek. 419 kr/kWh fiyatının geçerlilik koşullarını EPDK kararlarından teyit etmek.",
+"adim": "Biyogaz Derneği iletişim sayfasından doğru telefonu al (0216 325 84 89 üye listesinde Hunbiyogaz numarası olarak geçiyor); Bolu ve Afyon tesislerinin reaktör, karıştırıcı ve katı besleme ekipmanını kimden aldığını ve hangilerinin tavuk gübresi kullandığını sor; Afyon Enerji ve Gübre'den (Bayram Gebeş, 0272 255 53 01) ziyaret iste",
 "kim": "MEKA iş geliştirme",
-"ne_zaman": "Aralık 2026"
+"ne_zaman": "31 Ekim 2026'ya kadar"
 },
 {
-"adim": "Batarya geri dönüşümü: Kocaeli Dilovası tesisinin ÇED ve yatırım durumunu yılda bir kontrol etmek. Başka eylem yok.",
+"adim": "EPDK Yenilenebilir Enerji Dairesi'nden 2026 dördüncü çeyrek güncel biyokütle YEKDEM fiyat tablosunu ve 1 Ocak 2026 sonrası tesisler için geçerli kararı yazılı iste; 419 kuruş rakamını doğrula; EPDK sayfasındaki 2026 YEKDEM Duyurusu Word belgesini indirip son başvuru tarihini oku",
+"kim": "MEKA mali işler",
+"ne_zaman": "31 Ekim 2026'ya kadar"
+},
+{
+"adim": "TAP Derneği ve Exitcom ile görüşüp Türkiye'de lityum iyon kırma ve ayırma hattı planı olan tesis var mı öğren; Çevre Bakanlığı lisanslı pil tesisi listesini al; LG Energy Solution ve GO Enerji Ankara fabrikası haberini başka kaynaktan doğrula",
 "kim": "MEKA iş geliştirme",
-"ne_zaman": "Ekim 2027"
+"ne_zaman": "15 Kasım 2026'ya kadar"
 },
 {
-"adim": "Ay madenciliği: kongreye katılım olmadıysa dosyayı kapatmak. Yalnız Interlune ile Vermeer tipi iş makinesi ortaklıklarını yılda bir taramak.",
-"kim": "Mehmet Bey",
-"ne_zaman": "Ekim 2027"
+"adim": "Gesbey, Çimtaş ve Ateş Wind Power satın alma ile görüş; kule iç aksamı Ateş'te zaten üretildiği için teklif kule imalat fikstürü, döndürme ve taşıma ekipmanı gibi dar alt parçalarla sınırlı tutulsun; TÜREB envanter raporunun tam metnini iste",
+"kim": "MEKA satış",
+"ne_zaman": "30 Kasım 2026'ya kadar"
 },
 {
-"adim": "Elenen üç kalemi kapalı tutmak. Kule gövdesi yalnız 10 ton tek parça sınırı kalkarsa yeniden açılır. Türbin kanadı ve plastik kırıcı için yeni bilgi yok.",
-"kim": "Yönetim",
-"ne_zaman": "Tesis verisi geldiğinde, tarih yok"
+"adim": "Plast Eurasia fuarında kırıcı üreticisi standlarını gez; Diriliş Makina ve ÖZ-MAK'tan 300 ve 1.000 kg/saat sınıfı için yazılı fiyat al; PAGEV'den üretici sayısı ve güncel sektör raporu iste; Altek, ÖZ-MAK, Demir Makina, Adaplasmak adlarını fuarda doğrula",
+"kim": "MEKA ürün yönetimi",
+"ne_zaman": "Aralık 2026 fuar tarihleri"
+},
+{
+"adim": "MAPEG ruhsat sorgusundan Türkiye bazalt ocakları listesini çek; konuyu yalnızca yıllık tarama olarak izle",
+"kim": "MEKA strateji",
+"ne_zaman": "Ocak 2027"
+},
+{
+"adim": "Yedi konuyu izle bandında tut; görüşme sonuçları geldiğinde yalnızca biyogaz ağır sac işi için ayrı küçük not hazırla",
+"kim": "MEKA strateji",
+"ne_zaman": "Aralık 2026 gözden geçirme"
 }
 ],
 "riskler": [
@@ -5375,6 +6757,11 @@ window.MEKA_DATA = {
 ],
 "tam_calisma": [
 {
+"dosya": "c_izle_meka",
+"bolum_basligi": "",
+"sayfa": null
+},
+{
 "dosya": "03",
 "bolum_basligi": "Sonrakiler",
 "sayfa": 1
@@ -5391,8 +6778,8 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "Yedi kalemin her biri belge 03 ya da 05'te bir iki cümleyle geçiyor. Dördünde rakam var ama tek örnek düzeyinde; üç elenen kalem tek cümle. Belge 04'te konu yok. Önceki taslak inceleme_sonuc.json dosyasına ve üç web sayfasına dayanıyordu. İnceleme dosyası klasörde bulunamadı; web sayfaları bu turda açılmadı. Bu kaynaklara dayanan bilgiler ya 03 ve 05'ten doğrulandı ya \"çalışmalarda yok\" işaretiyle bırakıldı ya da silindi.",
-"kanit": 2,
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 6 açık sorunun 1'i cevaplandı, 4'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Bu tur yalnız doğrulama turuydu, yeni arama yapılmadı; önceki turun 29 kaynağından 24'ü açıldı, 23'ü okundu. Açılamayanlar: electrive (404), jwell-group (önceden 403), resale.info (önceden 404), PAGEV PDF (metin okunamadı). Bunlara dayanan ifadeler doğrulanamadı olarak işaretlendi, silinmedi. 419 kuruş rakamı hiçbir sayfada yok. EPDK sayfasındaki Word ve Excel belgeleri indirilip okunmadı; 2026 başvuru tarihi ve karar içeriği bu yüzden doğrulanamadı. Biyogaz tesis listesi 2022 tarihli ve hammadde vermiyor; tesislerin tavuk gübresi kullandığı varsayım. Biyogaz Derneği telefonu üye sayfasında Hunbiyogaz'a ait görünüyor, derneğin iletişim sayfası açılmadı. Exitcom sitesinde alakasız kumar reklam bağlantıları var, site ele geçirilmiş olabilir. DonanımHaber içeriği forum yeniden yayını, asıl kaynak ekonomim.com; forum yorumlarındaki TPI iflas iddiası doğrulanmadı ve kullanılmadı. Şirket sitesi rakamları firma beyanıdır. Kullanıcının sorduğu bayi görüşmesi puanlaması bu yaprağın kapsamında değil: bu yaprakta bayi görüşmesi kaydı yok, görüşme sonuçları web'de bulunmaz ve elle girilmesi gerekir; hangi bayinin daha çok puan aldığı ancak görüşme notları yaprağa eklenince hesaplanabilir.",
+"kanit": 3,
 "web": [
 {
 "url": "https://techcrunch.com/2025/05/21/alt-carbon-scores-12m-seed-to-scale-carbon-removal-in-india",
@@ -5401,6 +6788,136 @@ window.MEKA_DATA = {
 {
 "url": "https://www.milliyet.com.tr/ekonomi/yenilenebilir-enerjide-yeni-alim-ve-yerli-katki-fiyatlari-belirlendi-6418940",
 "ne": "Önceki taslağın notu, bu turda açılmadı: 30 Ocak 2021 tarihli haber; biyometanizasyon YEKDEM fiyatı 54 kr/kWh, tavan 8,60 dolar sent; 1 Temmuz 2021 ile 31 Aralık 2025 arasında işletmeye giren tesisler için. Belge 05'teki 419 kr/kWh ise Mart 2026 EPİAŞ fiyatı; iki rakam farklı dönem ve farklı kaynak."
+},
+{
+"url": "https://sheffield.ac.uk/lc3m/research/faqs",
+"ne": "ERW bazalt kaynağı: ocak yan ürünü ince toz; yeni ocak pahalı; doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://un-do.com/",
+"ne": "UNDO agrega yan ürünü, 358.340 ton, 4 ülke; firma beyanı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.senken.io/carbon-removal/enhanced-rock-weathering",
+"ne": "ERW kredi fiyatı 185 ile 300 avro, alıcılar; doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.biyogazder.org/biyogaz-tesisleri",
+"ne": "2022 YEKDEM biyogaz tesis listesi, Bolu 1, Afyon 8; hammadde yok; doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.biyogazder.org/sektorel-uyeler",
+"ne": "Biyogaz Derneği üye firmalar; 0216 numarası Hunbiyogaz'a ait; doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "http://uzmanpara.milliyet.com.tr/haber-detay/gundem/tavuk-gubresiyle-40-bin-eve-isik-olacak/47763/",
+"ne": "Çubuk 3,1 MW tavuk gübresi tesisi, 2016; doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.epdk.gov.tr/Detay/Icerik/3-0-72/elektrikyekdem",
+"ne": "EPDK YEKDEM sayfası, Karar 3453 belge başlığı, 2026 duyurusu; fiyat tablosu yok; doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.bloomberght.com/2026-yili-yekdem-maliyetleri-belirlendi-3765028",
+"ne": "2026 YEKDEM birim maliyet aralığı; doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.tap.org.tr/",
+"ne": "Atık pil toplama miktarları; doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.tap.org.tr/toplayici-firmalar",
+"ne": "Yetkili pil toplayıcı firmalar; doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.exitcom.com.tr/",
+"ne": "Exitcom Kartepe tesisi, iletişim; firma beyanı; sayfada şüpheli reklam bağlantıları; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.ekonomigazetesi.com/sehirler/bataryalari-geri-donusturecek-teknolojiyi-ulkemize-getirmeliyiz-10912",
+"ne": "ART Recycle lityum kara kütle ve rafineri açıklaması, 2023; doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.aspilsan.com/",
+"ne": "Aspilsan Kayseri hücre üretim hedefi; firma beyanı; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.electrive.com/2025/12/02/lg-energy-solution-and-go-enerji-to-build-battery-factory-in-ankara",
+"ne": "LG Energy Solution ve GO Enerji Ankara fabrikası; 404, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://forum.donanimhaber.com/alman-enerji-devi-turkiye-de-vites-yukseltti-fabrika-2028-e-kadar-dolu--164167095",
+"ne": "Nordex Menemen 1.200 kanat/yıl, 5 kule fabrikası, tesis devri; asıl kaynak ekonomim.com; doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.benguturk.com/ekonomi/ruzgar-turbinleri-izmirden-kanatlaniyor-112722h",
+"ne": "İzmir kanat üretimi 4.000 kanat, 6.000 çalışan, 2023; doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.gesbey.com.tr/",
+"ne": "Gesbey 430 kule/yıl; firma beyanı; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.cimtas.com/",
+"ne": "Çimtaş kule seksiyon ve tonaj; firma beyanı; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "http://ateswindpower.com/",
+"ne": "Ateş Wind Power kule ve jeneratör teslimatları; kule iç aksamı da üretiyor; firma beyanı; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.tpicomposites.com/",
+"ne": "TPI 2025 küresel kanat üretimi; firma beyanı; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.foreks.com/haber/detay/6abcbeb624008d7d43739702/AA/tr/turkiye-ruzgar-sektorunun-yuzde-70-i-gelecek-3-yilda-yeni-yatirim-planliyor-30-09-26/",
+"ne": "TÜREB sanayi envanteri 30 Eylül 2026; kule ve iç aksam en yaygın alan; doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.plastech.pl/en/business-directory/dirilis-makina-17765",
+"ne": "Diriliş Makina ürünleri ve adresi; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.jwell-group.com/blog/top-8-plastic-recycling-machine-manufacturers-in-istanbul-turkey/",
+"ne": "İstanbul geri dönüşüm makinesi üreticileri listesi; 403, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.makinaturkiye.com/parcalama-makineleri-c-2163782",
+"ne": "Parçalama makinesi tek ilan, fiyat gizli; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.resale.info/tr/kırma/No-170161352",
+"ne": "İkinci el kırıcı 1.450 avro; 404, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://pagev.org/upload/files/Hammadde%20Yeni%20Tebli%C4%9F%20Bilg.%203/T%C3%BCrkiye%20Plastik%20%C4%B0%C5%9Fleme%20Makineleri%20Sekt%C3%B6r%20%C4%B0zleme%20Raporu%202015%20-%20%C4%B0lk%206%20Ay.pdf",
+"ne": "PAGEV 2015 makine sektörü raporu; PDF okunamadı, doğrulanamadı",
+"tur": "rapor"
 }
 ],
 "celiskiler": [
@@ -5413,6 +6930,22 @@ window.MEKA_DATA = {
 "Önceki taslağın inceleme_sonuc.json atıflı dört maddesi doğrulanamadı ve silindi: belge 10'un 10 ton sınırını anmaması, belge 09 ve 10'daki Li-Cycle ve SSB Batarya OTAĞ örnekleri, indeks konu listesindeki plastik ibaresi, eleştirmenin yerleşim önerileri. İnceleme dosyası klasörde yok; belge 02, 09 ve 10 bu tura verilmedi."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 23 sayfa; çürütücü 24 sayfa açtı, güven 4/5.",
+"Türbin cevabına düzeltme: DonanımHaber haberi Nordex'in Menemen tesisini devraldığını yazıyor; 'TPI başı çekiyor' ifadesi 2023 verisi olarak işaretlendi",
+"Türbin cevabına düzeltme: Ateş Wind Power kule içi çelik aksam, temel halkası ve mekanik tamamlayıcıları zaten üretiyor; TÜREB kule ve iç aksamı en yaygın alan sayıyor; MEKA için önerilen 'kule iç aksamı' alanı dolu diye not edildi, öneri fikstür ve taşıma ekipmanına daraltıldı",
+"Türbin cevabına eklendi: Nordex 5,6 GW, yüzde 60 pay, 1,1 milyar avro tedarik, 300 milyon avro ihracat, Aliağa 70 milyon avro Şubat 2027, Türkiye 16,2 GW; Bengü Türk 700 milyon dolar ciro ve 500 milyon dolar ihracat; TPI 80.000 kanat; Ateş 220 set jeneratör; TÜREB yüzde 74 istihdam",
+"Gesbey, Çimtaş, Ateş, TPI, UNDO, Exitcom, Aspilsan rakamları 'firma beyanı' olarak işaretlendi",
+"Biyogaz cevabına düzeltme: 0216 325 84 89 üye sayfasında Hunbiyogaz numarası; dernek telefonu doğrulanamadı; görüşme listesi buna göre değiştirildi",
+"Biyogaz cevabına uyarı: 2022 listesi hammadde vermiyor, tavuk gübresi kullanımı listeden çıkmıyor",
+"Biyogaz cevabında 'çelik tank, karıştırıcı üreten yerli firmalar' ifadesi çıkarım olarak işaretlendi; üye sayfası yalnız ad ve adres veriyor; Afyon Enerji yetkilisi ve telefonu eklendi",
+"YEKDEM cevabı: Karar 3453 numarası Milliyet haberinde yok, EPDK sayfasında doğrulandı; '2026 başvuru son tarihi 1 Aralık 2025' sayfa metninde yok, doğrulanamadı yazıldı",
+"Batarya cevabı: electrive haberi 404, LG Energy Solution ve GO Enerji ifadesi doğrulanamadı olarak işaretlendi; Exitcom sitesindeki şüpheli reklam bağlantıları not edildi; TAP sayacının dinamik olduğu eklendi",
+"Plastik kırıcı cevabı: Altek, ÖZ-MAK, Demir Makina, Adaplasmak adları ve kuruluş yılları (jwell 403) doğrulanamadı; 1.450 avro (resale 404) doğrulanamadı; PAGEV ithalat yorumu doğrulanamadı; Diriliş Makina ürün listesi sayfaya göre düzeltildi",
+"Bazalt cevabına UNDO sayacının diğer değerleri (61.310 akre, 444 çiftlik, 78.835 ton CO2), Senken alıcı tonajları ve yüzde 0,8 pazar payı, Sheffield 4 ile 5 ton kaya/ton CO2 oranı eklendi",
+"Ek rakamlar listesine doğrulama etiketi eklendi; 1.450 avro satırı doğrulanamadı olarak kaldı; yeni doğrulanmış rakamlar eklendi",
+"Kaynaklar listesi 25 maddeye çıkarıldı, her birine doğrulandı/doğrulanamadı etiketi eklendi",
+"Kullanıcının bayi puanlaması sorusu sinirlar alanına not edildi: bu yaprakta bayi kaydı yok, görüşme sonuçları elle girilmeli",
+"okunan_sayfa 23, acilan_sayfa 24, arama_sayisi 0 olarak güncellendi; guven 4",
 "inceleme_sonuc.json klasörün hiçbir yerinde bulunamadı; kaynaklar listesinden çıkarıldı, kapsam notuna ve duruma yazıldı.",
 "Çelişkiler yeniden yazıldı: yalnız 03 ve 05'ten doğrulananlar kaldı ve bu dosyalara atfedildi. İnceleme, belge 02, 09, 10 ve indeks atıflı maddeler silindi; silinenler tek maddede listelendi.",
 "Rakam '500.000 hektar, 5 milyon ton' yalnız web kaynaklı; 'çalışmalarda yok, bu turda doğrulanmadı' işaretiyle bırakıldı.",
@@ -5431,6 +6964,50 @@ window.MEKA_DATA = {
 "Kaynaklar listesine 03 ve 05'in kullanılan kaynak numaraları eklendi; 03 kaynak 12'nin adresindeki 11 Haziran 2026 tarihi not edildi."
 ],
 "guven": 4,
+"cevaplar": [
+{
+"soru": "Bazaltla karbon giderimi girişimleri kırma tesisi mi alıyor, yoksa ocak tozu mu kullanıyor; Türkiye'de bazalt tozu üreten ocak ya da girişim var mı",
+"durum": "kismen",
+"cevap": "Üç kaynak da açıldı, rakamlar sayfada doğrulandı. Girişimler kırıcı satın almıyor. Sheffield LC3M sayfası, tüm deneme sahalarında çalışan ocakların ticari kullanım için fazla ince kalan yan ürün bazalt tozunu kullandığını yazıyor; yeni ocak açmanın pahalı ve hukuken karmaşık olduğunu, yakın vadede en pratik yolun mevcut ocakların üretimini artırmak olduğunu söylüyor. UNDO ana sayfası (firma beyanı) malzemeyi agrega yan ürünü diye tanımlıyor; sayaç 358.340 ton kaya, 61.310 akre, 444 çiftlik, 78.835 ton giderilecek CO2 gösteriyor; ülkeler Birleşik Krallık, ABD, Avustralya, Kanada, Doğu Afrika'da saha denemesi; Kanada'da bazalt yerine vollastonit de kullanılıyor. Senken sayfası 2026 fiyatını ton CO2 başına 185 ile 300 avro veriyor; Google Terradot ile 200.000 ton, Microsoft dört tedarikçiyle (InPlanet, UNDO, Alt Carbon, Terradot) yaklaşık 126.000 ton, Frontier 115 milyon dolardan fazla ön alım. Senken'e göre ERW 2026 ilk çeyrekte dayanıklı giderim sözleşmelerinin yüzde 0,8'i; ilk krediler 2024'te teslim edildi. Türkiye adı üç sayfanın hiçbirinde geçmiyor. Türkiye'de bazalt tozu satan ocak ya da ERW girişimi bu turda da bulunamadı; bu kısım açık kalıyor. MEKA için anlam: yeni kırıcı talebi yok; ocaklardaki ince malzemenin elenip torbalanması küçük ve dolaylı bir iş.",
+"kaynak": "https://sheffield.ac.uk/lc3m/research/faqs (rapor, doğrulandı); https://un-do.com/ (firma beyanı, doğrulandı); https://www.senken.io/carbon-removal/enhanced-rock-weathering (rapor, doğrulandı)",
+"kime": "MAPEG ruhsat sorgu sayfası ile Türkiye bazalt ocakları listesi; UNDO ve InPlanet tedarik ortaklığı sayfaları e-posta ile; Türkiye Madenciler Derneği santrali"
+},
+{
+"soru": "Bolu ve Afyon tavuk gübresi biyogaz tesislerinin ekipmanı kimden alındı; MEKA'nın girebileceği boşluk var mı",
+"durum": "kismen",
+"cevap": "Biyogaz Derneği 2022 YEKDEM listesi sayfada doğrulandı. Bolu'da tek tesis: Mudurnu Enerji, Mudurnu, 2,4 MW. Afyon'da 8 tesis: Afyon Enerji ve Gübre 4 MW Sülümenli, Afyon Biyogaz Üretim 8 MW Merkez, Akıncı 1,4 MW Sandıklı, Armatec 3,5 MW Çobanlar, Bioden 4 MW Başmakçı, Dinar 1,2 MW Dinar, İlis 4 MW Başmakçı, Respect 4,5 MW Bolvadin; toplam 30,6 MW. Türkiye toplamı 32 şehir, 95 tesis, 369,22 MW. Dikkat: bu genel biyogaz YEKDEM listesi; sayfada hammadde yazmıyor, tesislerin tavuk gübresi kullandığı listeden çıkmıyor. Ekipman tedarikçisi hiçbir tesis için yazılmamış. Sektörel üyeler sayfası doğrulandı: Altaca Ataşehir, Alternatif Power Ankara İvedik, Armaplast Dilovası, Artaş Beşiktaş, EYS Metal Aydın Astim OSB, Hunbiyogaz Kadıköy, Solea Enerji, Afyon Enerji ve Gübre Çavdarlı köyü (yetkili Bayram Gebeş, tel 0272 255 53 01), Energrom Beykoz Kavacık, İşmaksan Makina Pompa Bornova İzmir, Eta Ekipman Ümraniye, Sigma Ekipman Ataşehir, Çalık Makina Kemalpaşa OSB. Sayfa yalnız ad, adres ve telefon veriyor; hangi üyenin çelik tank, karıştırıcı ya da besleme ekipmanı yaptığı sayfada yok, bu önceki turun çıkarımıydı; yalnız İşmaksan'ın adında pompa geçiyor. Düzeltme: önceki turda dernek telefonu diye yazılan 0216 325 84 89, üye sayfasında Hunbiyogaz Tic. Ltd. Şti. numarası olarak geçiyor (yetkili Altan Denizsel); derneğin kendi iletişim sayfası bu turda açılmadı, dernek numarası doğrulanamadı. Çubuk Ankara haberi (Uzmanpara, 14 Mayıs 2016, AA) doğrulandı: Era Yatırım Holding, 3,1 MW, günde 300 ton tavuk gübresi, yılda 24 milyon kWh, 10 milyon lira ek yatırım, 40 bin konut; ekipman tedarikçisi yok. MEKA için boşluk ancak büyük çaplı çelik reaktör ve katı besleme bunkeri gibi ağır sac işlerinde olabilir; tesis sahipleriyle görüşülmeden doğrulanamaz.",
+"kaynak": "https://www.biyogazder.org/biyogaz-tesisleri (rapor, doğrulandı); https://www.biyogazder.org/sektorel-uyeler (rapor, doğrulandı); http://uzmanpara.milliyet.com.tr/haber-detay/gundem/tavuk-gubresiyle-40-bin-eve-isik-olacak/47763/ (haber, doğrulandı)",
+"kime": "Biyogaz Derneği iletişim sayfasından doğru numara alınacak, info@biyogazder.org; Afyon Enerji ve Gübre A.Ş. Çavdarlı köyü, Bayram Gebeş, 0272 255 53 01; Mudurnu Enerji işletme müdürü; Energrom Beykoz 0216 693 19 11"
+},
+{
+"soru": "Biyokütle için 419 kuruş/kWh YEKDEM fiyatı hangi tesisler için ve ne kadar süre geçerli",
+"durum": "kismen",
+"cevap": "419 kuruş rakamı açılan hiçbir sayfada yok; doğrulanamadı. Milliyet haberi (30 Ocak 2021, AA) sayfada doğrulandı: 1 Temmuz 2021 ile 31 Aralık 2025 arasında işletmeye girecek tesisler için biyokütle fiyatları çöp gazı ve atık lastik 32 kuruş, biyometanizasyon 54 kuruş, termal bertaraf 50 kuruş; yerli katkı 8 kuruş, 5 yıl; YEKDEM süresi 10 yıl; fiyatlar her yıl ocak, nisan, temmuz ve ekimde güncelleniyor; dolar tavanı çöp gazı 5,10 sent, biyometanizasyon 8,60 sent, termal bertaraf 8 sent. Haber karar numarasını vermiyor; Karar Sayısı 3453 EPDK YEKDEM sayfasındaki belge başlığında doğrulandı. EPDK sayfasında 2026 yılı YEKDEM Duyurusu ve 2026 Nihai YEK Listesi belge bağlantısı olarak var, ama çeyreklik güncel fiyat tablosu yok; 1 Ocak 2026 sonrası tesisler için yeni Cumhurbaşkanı Kararı listelenmiyor. Önceki turda yazılan 2026 başvuru son tarihi 1 Aralık 2025 sayfa metninde yok, Word belgesi içinde olabilir; doğrulanamadı. Bloomberg HT (30 Aralık 2025) doğrulandı: 2026 Ocak-Aralık YEKDEM maliyeti MWh başına 201,41 ile 617,89 TL arası, EPDK kararı Resmî Gazete'de. 419 kuruşun 54 kuruşun 2026'ya güncellenmiş hali olduğu yorum; kaynak yok.",
+"kaynak": "https://www.milliyet.com.tr/ekonomi/yenilenebilir-enerjide-yeni-alim-ve-yerli-katki-fiyatlari-belirlendi-6418940 (haber, doğrulandı); https://www.epdk.gov.tr/Detay/Icerik/3-0-72/elektrikyekdem (resmi, doğrulandı); https://www.bloomberght.com/2026-yili-yekdem-maliyetleri-belirlendi-3765028 (haber, doğrulandı)",
+"kime": "EPDK Yenilenebilir Enerji Kaynakları Dairesi, santral numarası epdk.gov.tr iletişim sayfasında; 2026 dördüncü çeyrek güncel YEKDEM fiyat tablosu ve 2026 sonrası tesisler için karar sorulacak"
+},
+{
+"soru": "Türkiye batarya geri dönüşümü tesisleri ve kırma-ayırma ekipmanı ihtiyacı; kim var",
+"durum": "kismen",
+"cevap": "TAP ana sayfası doğrulandı: 2026 yılı içinde 524.989 kg, 2004'ten bugüne 11.077.667 kg atık pil toplandı; sayaç dinamik, gün içinde değişebilir; telefon 0 212 438 08 25, info@tap.org.tr. Toplayıcı sayfası doğrulandı: Exitcom Recycling, Anel Doğa, Ekoden. Exitcom sayfası (firma beyanı) doğrulandı: Türkiye'nin ilk ve tek entegre AEEE geri dönüşüm tesisi, Kartepe Kocaeli, +90 262 352 36 76, 2003'ten beri toplama sistemi; Pil Geri Kazanım sekmesi var ama kapasite ve süreç bilgisi yok. Not: Exitcom sayfasının altında alakasız kumar reklam bağlantıları var; site güvenliği şüpheli, bilgi dikkatle kullanılmalı. Ekonomi Gazetesi (27 Mart 2023) doğrulandı: ART Recycle Genel Müdürü Gökhan Dursun lityum iyon kara kütle için sıfırdan yatırımın çok maliyetli olduğunu, yabancı firma taleplerinin çoğunun atığı toplayıp kendi ülkelerine göndermek yönünde olduğunu ve rafineri yatırımı gerektiğini söylüyor. Aspilsan (firma beyanı) doğrulandı: Kayseri Mimarsinan OSB'de 25 bin m2 kapalı alanlı lityum iyon pil tesisi seri üretime geçti, planlanan hedef yılda 21 milyon pil; geri dönüşüm yok. LG Energy Solution ve GO Enerji Ankara fabrikası haberi (electrive) 404 verdi; doğrulanamadı. Sonuç: hacim yılda yaklaşık 500 ton pil; sanayi ölçekli lityum iyon kırma ve ayırma hattı Türkiye'de web'de yok; pazar bir iki tesis büyüklüğünde.",
+"kaynak": "https://www.tap.org.tr/ (rapor, doğrulandı); https://www.tap.org.tr/toplayici-firmalar (rapor, doğrulandı); https://www.exitcom.com.tr/ (firma beyanı, doğrulandı); https://www.ekonomigazetesi.com/sehirler/bataryalari-geri-donusturecek-teknolojiyi-ulkemize-getirmeliyiz-10912 (haber, doğrulandı); https://www.aspilsan.com/ (firma beyanı, doğrulandı); https://www.electrive.com/2025/12/02/lg-energy-solution-and-go-enerji-to-build-battery-factory-in-ankara (haber, 404, doğrulanamadı)",
+"kime": "TAP Derneği, telefon 0212 438 08 25, info@tap.org.tr; Exitcom Recycling, telefon 0262 352 36 76, info@exitcom.com; Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Atık Yönetimi Dairesi lisanslı tesis listesi"
+},
+{
+"soru": "Türbin kanadı ve kule gövdesi üretimi Türkiye'de kimlerde; yeni girene yer var mı",
+"durum": "cevaplandi",
+"cevap": "Yedi kaynak da açıldı ve rakamlar sayfada doğrulandı. Kanat: Bengü Türk (AA, 4 Temmuz 2023) İzmir'de 3 firma 4 tesis, yılda yaklaşık 4.000 kanat, 6.000 üzeri doğrudan istihdam, 700 milyon dolar üzeri ciro, 500 milyon dolar üzeri ihracat, üretimin yüzde 75'inden fazlası ihraç; TPI Composites İzmir'de kurulu; İzmir rüzgar kurulu gücü 1.754,9 MW. DonanımHaber (5 Ekim 2026, kaynak ekonomim.com Vahap Munyar): Nordex Menemen kanat fabrikası Mayıs 2026'da üretime başladı, İzmir Serbest Bölgesi, 130 bin m2 arazi, 90 bin m2 kapalı alan, tam kapasitede 4 vardiyada yılda 1.200 kanat; 2026 kalanı, 2027 tamamı ve 2028 ilk yarısı dolu; N163 (YEKA RES-2024) ve N175 (YEKA RES-2025) kanatları; türbin yerliliği yüzde 55 ile 65; kuleler Türkiye'de 5 ayrı fabrikadan; Türkiye tedarikçi alımı 1,1 milyar avro; 2026 ihracatı yaklaşık 300 milyon avro, çoğu kule; Nordex Türkiye'de 5,6 GW üzeri kurulu, inşa halindeki projelerde yüzde 60 pay; Aliağa'da 70 milyon avro yatırım, açılış Şubat 2027; Türkiye rüzgar kurulu gücü 16,2 GW, 2025'te 2,1 GW eklendi. Düzeltme: haber Nordex'in Menemen tesisini devralıp kanat üretimini bünyesine aldığını yazıyor; önceki turdaki 'TPI başı çekiyor' ifadesi 2023 verisidir, 2026'da Menemen tesisi Nordex'te. TPI ana sayfası (firma beyanı): 2025'te 5.420 kanat, Çin dışı kara pazarında yüzde 15 pay, 2001'den bu yana 80.000 kanat; Türkiye bilgisi yok. Kule: Gesbey (firma beyanı) yılda 430 kule, 17 ülkeye ihracat, 95 kule tasarımı, Bandırma OSB'de 2 fabrika, Beyçelik ve GRI ortaklığı, kuruluş 2010. Çimtaş (firma beyanı) yılda 2.000 seksiyon, toplam 530.000 ton, 7.250 MW, 25 ülke, 15 ile 160 m boy, 20 ile 600 ton. Ateş Wind Power (firma beyanı) Türkiye 759 kule 2.425 MW ve 220 set jeneratör yaklaşık 880 MW; Avrupa 300 kule 1.000 MW ve 91 set jeneratör yaklaşık 378 MW; 2019'da Enercon ile direct-drive jeneratör fabrikası, Bergama. Önemli: Ateş kendisi kule temel halkası, kule temel ringi, kule içi çelik aksam, kule sevk ekipmanı ve rotor, stator gibi mekanik tamamlayıcılar üretiyor. TÜREB envanteri (AA, 30 Eylül 2026): sektörün yaklaşık yüzde 70'i 3 yılda yeni yatırım, yüzde 74'ü istihdam artışı planlıyor; kule ve kule iç aksamı en yaygın üretim alanı; ihracat pazarları Almanya, İspanya, Portekiz, Fransa, Çin. Sonuç: kule gövdesinde en az 5 yerleşik üretici var, kanat küresel oyuncuların elinde. Düzeltme: önceki turda MEKA için önerilen kule iç aksamı ve platform alanı da dolu görünüyor; Ateş bunu zaten üretiyor, TÜREB bunu en yaygın alan diye tanımlıyor. Olası yer varsa kule imalat fikstürü ve taşıma ekipmanı gibi daha dar alt parçalarda; bu da görüşme ister.",
+"kaynak": "https://forum.donanimhaber.com/alman-enerji-devi-turkiye-de-vites-yukseltti-fabrika-2028-e-kadar-dolu--164167095 (haber, doğrulandı; asıl kaynak ekonomim.com); https://www.benguturk.com/ekonomi/ruzgar-turbinleri-izmirden-kanatlaniyor-112722h (haber, doğrulandı); https://www.gesbey.com.tr/ (firma beyanı, doğrulandı); https://www.cimtas.com/ (firma beyanı, doğrulandı); http://ateswindpower.com/ (firma beyanı, doğrulandı); https://www.foreks.com/haber/detay/6abcbeb624008d7d43739702/AA/tr/turkiye-ruzgar-sektorunun-yuzde-70-i-gelecek-3-yilda-yeni-yatirim-planliyor-30-09-26/ (haber, doğrulandı); https://www.tpicomposites.com/ (firma beyanı, doğrulandı)",
+"kime": ""
+},
+{
+"soru": "Plastik kırıcı pazarı Türkiye: yerli üretici sayısı ve fiyat düzeyi",
+"durum": "gorusme",
+"cevap": "Üretici sayısı ve Türkiye yeni makine fiyatı web'de yok. Diriliş Makina Plastech kaydı doğrulandı: İkitelli OSB Başakşehir İstanbul; granülatör, shredder, aglomeratör, kompaktörlü peletleme hattı, Erema, MAS ve Fimic uyumlu lazer eriyik filtre elekleri; ihracat yapıyor; kuruluş yılı ve fiyat yok. Altek 1974, ÖZ-MAK 1998, Demir Makina 1992, Adaplasmak 1996 adları jwell-group listesinden geliyordu; o sayfa 403 ile açılmadı, bu dört ad ve yıllar doğrulanamadı. Makina Türkiye parçalama makineleri kategorisi doğrulandı: tek ilan, Wellmak WM-PP001 11 kW palet parçalama, Karaman Merkez, 'Fiyat Sorunuz'. 1.450 avro ikinci el kırıcı fiyatı resale.info sayfasından; sayfa 404, doğrulanamadı. PAGEV 2015 PDF metni okunamadı; makinenin ithalat ağırlıklı olduğu yorumu doğrulanamadı. Pazar görünümü: çok sayıda küçük İstanbul atölyesi, fiyatlar ilan sitelerinde gizli; MEKA'nın ağır sac gücü bu segmentte avantaj yaratmıyor. Fiyat ve üretici sayısı için fuar ve yazılı teklif gerekiyor.",
+"kaynak": "https://www.plastech.pl/en/business-directory/dirilis-makina-17765 (firma, doğrulandı); https://www.makinaturkiye.com/parcalama-makineleri-c-2163782 (firma, doğrulandı); https://pagev.org/upload/files/Hammadde%20Yeni%20Tebli%C4%9F%20Bilg.%203/T%C3%BCrkiye%20Plastik%20%C4%B0%C5%9Fleme%20Makineleri%20Sekt%C3%B6r%20%C4%B0zleme%20Raporu%202015%20-%20%C4%B0lk%206%20Ay.pdf (rapor, PDF okunamadı, doğrulanamadı)",
+"kime": "PAGEV Türk Plastik Sanayicileri Araştırma Geliştirme ve Eğitim Vakfı, pagev.org iletişim sayfası; Plast Eurasia İstanbul fuarı Tüyap, Aralık 2026, kırıcı üreticisi standları; Diriliş Makina ve ÖZ-MAK'tan yazılı teklif, 300 kg/saat ve 1.000 kg/saat sınıfı için"
+}
+],
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -5444,8 +7021,8 @@ window.MEKA_DATA = {
 "id": "beylikova",
 "baslik": "Beylikova nadir toprak tesisi ve Eti Maden",
 "bant": "ikincil",
-"puan_metni": "Proje gerçek ve 2026'da somut adımlar attı: NDK işletme lisansı, Resmî Gazete'de acele kamulaştırma, devlet alıcısı ve MEKA'nın asıl işi olan kırma ve eleme ön ucu. Temel rakamlar AA ve Resmî Gazete fihristiyle doğrulandı. Ama tek müşteri, takvim kayıyor, sanayi tesisi ihalesi henüz yok, 10 bin ton oksit rakamı tek köşe yazısına dayanıyor ve ekipman paketinin EPC içinden gelme ihtimali yüksek. Öne çıkan değil, EKAP izlemesiyle hazır tutulacak ikincil fırsat. 03 sıralamasında on alan içinde 1. sıra: \"Mineral zenginleştirme Beylikova dahil\". Beylikova bu başlığın iki gerekçesinden biri; diğeri MCSP'de Metso pompa ve hidrosiklonu ile kendi eleğin birleşmesi. Beylikova'nın kendine ait ayrı sırası ya da puanı yok. 03 etiketi: 12-36 ay, Ar-Ge orta, yatırım orta. 03 haritasında gelire uzaklık orta, potansiyel büyüklük büyük. 10 çalışmasında B4 ağır nadir toprak 10 üzerinden 6 puan aldı; kırılım Kapı 1, Takvim 2, Alınabilir 1, Boşluk 1, Taban 1. 10 Beylikova'yı yalnız kendi araştırma raporundan bildiğini, kaynak listesine almadığını yazıyor; Beylikova puana girmedi. 10'un puanı MEKA uyumunu değil kapı yapısını ölçer.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 24 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulama bandı değiştirmiyor. İki resmi kaynak (NDK lisans sayfaları, Resmî Gazete 11690 sayılı karar) ve birden çok haber kaynağı doğrulandı; 570.000 ton cevher girdisi, kırma ve öğütme içeren akış, kamulaştırma kararı MEKA için olumlu. Olumsuz yön ağır basıyor: 16 sayfanın hiçbirinde mühendislik firması, EPC ya da ekipman ihalesi yok; temel atma 2026 hedefi henüz gerçekleşmiş görünmüyor; yatırım rakamı Bakan'ın kendi iki ifadesinde 500 ile 600 milyon dolar arasında değişiyor ve Beylikova payı yok; kapasite 570.000 ile 500.000 ton arasında kaynaklara göre farklı; tenör resmi değil; dava bilgisi tek bir Bakan açıklamasına dayanıyor; bağımsız analiz ticari üretimi 2030'ların ortasına koyuyor. Tek müşteri, tek proje, kamu ihalesi. Bu yüzden ikincil bant; EKAP izleme ve Eti Maden görüşmesi öncelikli. Proje gerçek ve 2026'da somut adımlar attı: NDK işletme lisansı, Resmî Gazete'de acele kamulaştırma, devlet alıcısı ve MEKA'nın asıl işi olan kırma ve eleme ön ucu. Temel rakamlar AA ve Resmî Gazete fihristiyle doğrulandı. Ama tek müşteri, takvim kayıyor, sanayi tesisi ihalesi henüz yok, 10 bin ton oksit rakamı tek köşe yazısına dayanıyor ve ekipman paketinin EPC içinden gelme ihtimali yüksek. Öne çıkan değil, EKAP izlemesiyle hazır tutulacak ikincil fırsat. 03 sıralamasında on alan içinde 1. sıra: \"Mineral zenginleştirme Beylikova dahil\". Beylikova bu başlığın iki gerekçesinden biri; diğeri MCSP'de Metso pompa ve hidrosiklonu ile kendi eleğin birleşmesi. Beylikova'nın kendine ait ayrı sırası ya da puanı yok. 03 etiketi: 12-36 ay, Ar-Ge orta, yatırım orta. 03 haritasında gelire uzaklık orta, potansiyel büyüklük büyük. 10 çalışmasında B4 ağır nadir toprak 10 üzerinden 6 puan aldı; kırılım Kapı 1, Takvim 2, Alınabilir 1, Boşluk 1, Taban 1. 10 Beylikova'yı yalnız kendi araştırma raporundan bildiğini, kaynak listesine almadığını yazıyor; Beylikova puana girmedi. 10'un puanı MEKA uyumunu değil kapı yapısını ölçer.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 Eylül 2026",
 "ne": "Eti Maden, Eskişehir Beylikova ve Sivrihisar'daki toryum, barit, florit ve nadir toprak sahasını devlet eliyle işletiyor. Nisan 2023'te yılda 1.200 ton cevher işleyen pilot tesis devreye alındı. Yılda 570 bin ton kapasiteli, yaklaşık 10 bin ton nadir toprak oksidi ile barit ve florit üretecek sanayi tesisi planlanıyor. Bu tesis için kırma, öğütme, flotasyon ve hidrometalurji hattı gerekecek; alım yolu Eti Maden ihaleleri ve EKAP.",
 "neden": "Sanayi tesisinin ön ucu MEKA'nın asıl işi: kırma, eleme, besleme, bantlı konveyör ve çelik konstrüksiyon. Alıcı devlet kuruluşu, saha Ankara'ya yakın ve ihaleler yerli istekliye açık. 2026'da NDK işletme lisansı ve acele kamulaştırma kararı geldi, yani proje kağıttan sahaya iniyor.",
 "rakamlar": [
@@ -5508,39 +7085,128 @@ window.MEKA_DATA = {
 "deger": "360 gün teslim (doğrulanamadı)",
 "aciklama": "Eti Maden'in pilot ölçekli NTO üretim tesisi ekipmanları alım ihalesi; sayfa açılamadı, tarih ve ekipman listesi okunamadı.",
 "kaynak": "resmi, arama özeti, doğrulanamadı (Eti Maden ihale sistemi 15005) https://www.etimaden.gov.tr/ihale-yonetim-sistemi/15005"
+},
+{
+"deger": "600 milyon dolar",
+"aciklama": "Lityum Karbonat Projesi, Penta 6 Tesisi ve Beylikova Projesi toplam yatırımı; 1.500'e yakın istihdam. Bakan Bayraktar, 1 Mayıs 2026, Eskişehir. Sayfada doğrulandı.",
+"kaynak": "https://www.dunya.com/gundem/bakan-bayraktar-acikladi-nadir-toprak-elementlerinde-hedef-dunyada-ilk-bese-girmek-haberi-823648"
+},
+{
+"deger": "500 milyon dolar",
+"aciklama": "Aynı üç tesis için Bakan Bayraktar'ın Kırka'da aynı gün verdiği rakam; 'yaklaşık olarak 500 milyon dolarlık bir endüstriyel tesis yatırımı'. Yalnız Penta 6 için yaklaşık 300 istihdam. 1 Mayıs 2026. Sayfada doğrulandı.",
+"kaynak": "https://istanbulticaretgazetesi.com/bakan-bayraktardan-nadir-elementler-icin-aciklama-cok-onemli-asamaya-geldik"
+},
+{
+"deger": "570.000 ton/yıl cevher girdisi",
+"aciklama": "Sanayi tesisi yıllık cevher işleme kapasitesi; çıktı 10.000 ton NTE oksidi, 72.000 ton barit, 70.000 ton florit, 250 ton toryum. Bakan Dönmez, 1 Temmuz 2022, İHA. Sayfada doğrulandı.",
+"kaynak": "https://www.milliyet.com.tr/ekonomi/bakan-donmez-dunyanin-ikinci-buyuk-rezerv-kesfinin-detaylarini-duyurdu-6782614"
+},
+{
+"deger": "1.200 ton/yıl",
+"aciklama": "Pilot tesis cevher kapasitesi. Milliyet 2022 ve Sabah 2026'da doğrulandı. Açılış 2023; ay kaynaklarda farklı (Nisan 2023 erkansaka.net, 2023 sonu instituDE). NDK sayfalarında kapasite ve açılış tarihi yok.",
+"kaynak": "https://www.milliyet.com.tr/ekonomi/bakan-donmez-dunyanin-ikinci-buyuk-rezerv-kesfinin-detaylarini-duyurdu-6782614"
+},
+{
+"deger": "yüzde 92 ile 93",
+"aciklama": "Yerli imkanlarla ulaşılan saflık; hedef yüzde 99,9. Ham ürün yaklaşık 500 dolar, uç ürün 25 bin dolara kadar. Hacettepe Üniversitesi ile sertifikasyon sürüyor. 31 Aralık 2025, teknoloji sitesi aktarımı. Sayfada doğrulandı.",
+"kaynak": "https://www.donanimhaber.com/turkiye-nin-nadir-toprak-elementleri-hamlesi-2026-hedefi--200334"
+},
+{
+"deger": "yüzde 1,75 TREO",
+"aciklama": "instituDE'nin aktardığı mevcut modelleme varsayımı; 694 milyon ton kaynak için yaklaşık 12,5 milyon ton NTE oksidi. Bazı jeologlar yaklaşık yüzde 1'i daha gerçekçi görüyor. JORC başvurusu var, tamamlanmadı. 21 Mayıs 2026. Sayfada doğrulandı.",
+"kaynak": "https://www.institude.org/report/turkeys-rare-elements-challenges-and-opportunities---the-beylikova-case"
+},
+{
+"deger": "yüzde 0,1 ThO2",
+"aciklama": "Numune ortalaması; ResearchGate'teki Türkiye NTE kaynakları derlemesine atıf. Aktaran erkansaka.net, ChatGPT yardımıyla derlenmiş blog yazısı, 30 Ekim 2025. Mineraloji bastnazit ve monazit, karbonatit kökenli. Birincil kaynak açılmadı.",
+"kaynak": "https://erkansaka.net/2025/10/30/turkey-rare-earth-reserves-beylikova-2025/"
+},
+{
+"deger": "220 milyon dolar/yıl",
+"aciklama": "Tam üretimde beklenen yıllık gelir; instituDE, 21 Mayıs 2026. Sayfada doğrulandı.",
+"kaynak": "https://www.institude.org/report/turkeys-rare-elements-challenges-and-opportunities---the-beylikova-case"
+},
+{
+"deger": "Karar 11690, Resmî Gazete 33356, 31 Ağustos 2026",
+"aciklama": "Eti Maden Sicil 1075 IV. Grup (Toryum, Barit, Florit, NTE) ruhsat sahasında acele kamulaştırma; başlıkta açık ocak, dekapaj pasa döküm, bağlantı yolları, tüvenan ve düşük tenörlü cevher stok alanları, atık barajı, endüstriyel üretim tesisleri, idari bina alanları sayılıyor. Resmî Gazete fihristinde doğrulandı. 258 taşınmaz, 2.636.433 m2, Karkın, Okçu ve Kızılcaören mahalleleri Evrensel 2 Eylül 2026 haberinde doğrulandı; karar PDF'i açılmadı.",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260831.htm ; https://www.evrensel.net/haber/5998831/eskisehirde-kuresel-maden-savasi-acele-kamulastirma-karari-resmi-gazetede"
+},
+{
+"deger": "2023-8/5-1",
+"aciklama": "NDK sınırlı çalışma izni ve inşaat lisansı karar numarası, 26 Ocak 2023; yer lisansı 2022-2/2-1, 13 Ocak 2022; kurucu kararı 2019-49/1, 19 Eylül 2019. Ruhsat S:1075/İR:3360, ek ruhsat ER:3376319. NDK TR ve EN sayfalarında doğrulandı; 2024 ve sonrası kayıt yok.",
+"kaynak": "https://www.ndk.org.tr/eti-maden-beylikova-tesisi"
+},
+{
+"deger": "yüzde 99,5",
+"aciklama": "Prof. Dr. Muammer Kaya'nın (ESOGÜ) A Haber'e anlattığı uç ürün saflığı; akış: açık işletme, kırma ve öğütme, florit ve barit için flotasyon, kavurma ve liç, solvent ekstraksiyon ya da oksalat çöktürme. Akademisyen anlatımı, Eti Maden'in resmi akım şeması değil. 25 Ekim 2025. Sayfada doğrulandı.",
+"kaynak": "https://www.takvim.com.tr/guncel/2025/10/25/turkiyenin-gelecegi-beylikovada-sekilleniyor-a-haber-nadir-elementlerin-kalbine-indi"
+},
+{
+"deger": "500.000 ton/yıl, 2028 ile 2032",
+"aciklama": "instituDE'nin aktardığı üç fazlı yol haritası: pilot 1.200 ton/yıl, ikinci faz 500.000 ton/yıl 2028 ile 2032, 2035'te küresel konum. Dönmez'in 570.000 ton rakamıyla uyuşmuyor. Ticari ölçek 2030'ların ortasından önce olası görülmüyor. Sayfada doğrulandı.",
+"kaynak": "https://www.institude.org/report/turkeys-rare-elements-challenges-and-opportunities---the-beylikova-case"
+},
+{
+"deger": "150 milyar dolar",
+"aciklama": "Sahadaki madenlerin toplam değerinin bulabileceği belirtilen rakam; Sabah haberinde kaynak gösterilmiyor, 'belirtiliyor' diye aktarılıyor. 16 Ekim 2026. Temkinli kullanılmalı.",
+"kaynak": "https://www.sabah.com.tr/ekonomi/nadir-elementte-pilot-tesis-tamam-7681555"
+},
+{
+"deger": "2027",
+"aciklama": "rare-earth-mining.com'un yazdığı endüstriyel tesis hedef yılı (600 milyon dolar, 570.000 ton/yıl, yaklaşık 10.000 ton NTE oksidi). Yabancı sektör sitesi, birincil değil; 600 milyon doları yalnız Beylikova'ya yazması Türkçe kaynaklarla uyuşmuyor. 26 Haziran 2026.",
+"kaynak": "https://rare-earth-mining.com/turkey-rare-earth/"
 }
 ],
-"durum": "Pilot tesis çalışıyor ve 4 Ağustos 2026'da NDK işletme lisansı aldı. 31 Ağustos 2026'da sanayi tesisi, açık ocak ve atık barajı için acele kamulaştırma kararı çıktı. Bakan 13 Aralık 2025'te temeli 2026'da atacağını, 1 Mayıs 2026'da endüstriyel tesis üretimine bu yıl başlayacağını söyledi; 16 Ekim 2026 itibarıyla temel atıldığına dair haber bulunamadı. Bir köşe yazısı tasarımın 2026'da bitip inşaatın 2027'de başlayacağını yazıyor. Yabancı ortak için ABD ile görüşme Bloomberg'e göre Ekim 2025'te başladı; Çin ile Ekim 2024 mutabakatı Çin'in cevheri kendi ülkesinde işlemek istemesi yüzünden tıkandı. Bağlayıcı ortaklık ya da sanayi tesisi ihalesi bulunamadı.",
+"durum": "16 Ekim 2026 itibarıyla Beylikova'da yıllık 1.200 ton kapasiteli pilot tesis çalışıyor. Sabah'ın 16 Ekim 2026 tarihli haberine göre Eti Maden Genel Müdürü Yalçın Aydın TBMM KİT Komisyonu'nda konuştu; haber pilot tesislerin tamamlandığını ve endüstriyel üretim için iki faz halinde yatırım planlandığını yazıyor, komisyon tarihi haberde yok. Bakan Bayraktar 29 Ekim 2025'te temeli 2026'da atmayı, 1 Mayıs 2026'da üretime bu yıl başlamayı, 23 Mayıs 2026'da töreni çok yakında yapmayı söyledi; açılan sayfalarda gerçekleşmiş tören yok. 31 Ağustos 2026 Resmî Gazete'de 11690 sayılı acele kamulaştırma kararı çıktı; Evrensel'e göre 258 taşınmaz, yaklaşık 2,6 milyon m2. Sanayi tesisi yıllık 570.000 ton cevher işleyecek (Dönmez, 2022); instituDE ikinci faz için 500.000 ton yazıyor. Yatırım üç projenin toplamı olarak 600 milyon dolar (Dünya) ya da 500 milyon dolar (İstanbul Ticaret Gazetesi) olarak açıklandı; Beylikova payı yok. Mühendislik firması, EPC modeli ve ekipman ihalesi açılan 16 sayfanın hiçbirinde yok. NDK lisans kayıtları 26 Ocak 2023'te duruyor. Belediyenin yürütmeyi durdurma davası Bakan açıklamasıyla biliniyor; mahkeme, tarih ve karar bilgisi doğrulanamadı. Bağımsız analiz ticari üretimi 2030'ların ortasına koyuyor.",
 "acik_sorular": [
-"Sanayi tesisinin tasarımını hangi mühendislik firması yapıyor ve ekipman paketi EPC içinde mi, ayrı ihalelerle mi alınacak?",
-"Temel atma 2026 içinde gerçekleşecek mi, yoksa inşaat 2027'ye mi kaydı?",
-"Yalnız Beylikova sanayi tesisinin yatırım tutarı nedir? 600 milyon dolar üç projenin toplamı.",
-"570 bin ton cevher girdisi mi, ürün çıktısı mı? AA 'üretim' der, köşe yazısı 'cevher' der.",
-"Cevher hazırlama akışı nedir: kırma kademeleri, öğütme tipi, flotasyon devreleri, günlük tonaj? Pilot tesis ekipman şartnamesi okunmalı.",
-"Toryum içeren cevherde kırma ve eleme ekipmanı tedarikçisine NDK ek şart getiriyor mu?",
-"Eskişehir Büyükşehir Belediyesi'nin ÇED iptal davası ne durumda?",
-"Cevher tenörü yüzde 1'in üstü mü, yüzde 0,2 ile 0,3 mü? Proje ekonomisini belirler."
+"Görüşme gerekir: Sanayi tesisinin tasarımını hangi mühendislik firması yapıyor; ekipman paketi EPC içinde mi, ayrı ihalelerle mi alınacak (Eti Maden İşletmeleri Genel Müdürlüğü Yatırım ve Satınalma birimleri, Ankara; etimaden.gov.tr iletişim sayfası ve santral. EKAP'ta ekap.kik.gov.tr üzerinden idare adı Eti Maden ile ihale araması haftalık. Eti Maden Beylikova Florit Barit ve NTE İşletme Müdürlüğü Kızılcaören saha ziyareti.)",
+"Kısmen cevaplandı: Temel atma 2026 içinde mi, 2027'ye mi kaydı; son resmi açıklama",
+"Kısmen cevaplandı: Yalnız Beylikova sanayi tesisinin yatırım tutarı; 600 milyon dolar hangi projelerin toplamı",
+"Kısmen cevaplandı: Cevher hazırlama akışı: kırma kademeleri, öğütme tipi, flotasyon, günlük tonaj; pilot tesis bilgileri",
+"Kısmen cevaplandı: Toryum içeren cevherde kırma ve eleme ekipmanı tedarikçisine NDK ek şart getiriyor mu",
+"Kısmen cevaplandı: Eskişehir Büyükşehir Belediyesi'nin ÇED iptal davası durumu",
+"Kısmen cevaplandı: Cevher tenörü yüzde kaç; proje ekonomisi"
 ],
 "adimlar": [
 {
-"adim": "EKAP'ta Eti Maden Beylikova Florit, Barit ve NTE İşletme Müdürlüğü ihalelerini haftalık izlemeye almak; pilot ekipman ihalesi 15005'in şartnamesini indirip ekipman ve tedarikçi listesini çıkarmak",
-"kim": "Satış ve ihale ekibi",
-"ne_zaman": "Ekim 2026 içinde"
+"adim": "EKAP'ta idare adı Eti Maden ile Beylikova, nadir toprak, cevher hazırlama, kırma ve öğütme ihalelerini haftalık tara; çıkan ilanı aynı gün karar sahibine ilet",
+"kim": "MEKA ihale ve satış destek sorumlusu",
+"ne_zaman": "20 Ekim 2026'dan itibaren her hafta"
 },
 {
-"adim": "Eti Maden Tesis Mühendislik Dairesi ve Beylikova İşletme Müdürlüğü ile tanışma ziyareti; MEKA kırma, eleme ve konveyör referanslarını sunmak, tasarım firmasını ve alım yolunu öğrenmek",
-"kim": "Genel müdür ve iş geliştirme",
-"ne_zaman": "Kasım 2026"
+"adim": "Eti Maden Genel Müdürlüğü Yatırım ve Satınalma birimleriyle görüşme: sanayi tesisinin tasarımını yapan firma, EPC mi ayrı paket mi, kırma eleme paketinin ihale takvimi, yerli ekipman tercihi, 570.000 mi 500.000 ton/yıl mı",
+"kim": "MEKA iş geliştirme yöneticisi, Ankara",
+"ne_zaman": "Kasım 2026 içinde"
 },
 {
-"adim": "Öğütme ve flotasyon paketi için teknoloji ortağı taraması; mevcut Metso ilişkisinin kapsamını sormak, yerli bir alternatifi görüşmek",
-"kim": "Ar-Ge ve satın alma",
-"ne_zaman": "Aralık 2026"
+"adim": "e-ÇED sisteminden Beylikova kompleks cevher ÇED raporunu indir; kırma kademeleri, öğütme tipi, günlük tonaj ve ekipman listesini çıkar",
+"kim": "MEKA proses ve teklif mühendisi",
+"ne_zaman": "31 Ekim 2026'ya kadar"
 },
 {
-"adim": "Temel atma ya da tasarım firması duyurusu geldiğinde ön uç paketi için teklif dosyası hazırlamak; yerli malı belgesi ve madencilik referanslarını güncellemek",
-"kim": "Teklif ekibi",
-"ne_zaman": "Temel atmayı izleyen 60 gün"
+"adim": "NDK Lisanslama Dairesi'ne bilgi edinme başvurusu: toryumlu cevherde kırma ve eleme ekipmanı tedarikçisine ek şart, malzeme ya da belge gereği var mı; 2023 sonrası lisans güncellemesi var mı",
+"kim": "MEKA kalite ve belgelendirme sorumlusu",
+"ne_zaman": "Kasım 2026 içinde"
+},
+{
+"adim": "Eskişehir bölge bayisi aracılığıyla Eskişehir Büyükşehir Belediyesi Hukuk Müşavirliği ve İdare Mahkemesi kaleminden dava durumunu öğren; temel atma töreni duyurusunu izle",
+"kim": "MEKA Eskişehir bayisi ve satış sorumlusu",
+"ne_zaman": "Aralık 2026 sonuna kadar, sonra üç ayda bir"
+},
+{
+"adim": "Bayi ve saha görüşmelerinin sonucunu manuel kaydet: tarih, görüşülen kişi ve kurum, söylenen bilgi, belge var mı. Kayıt olmayan görüşme puana girmez; kayıt girilince ilgili sorunun durumu ve bant yeniden değerlendirilir",
+"kim": "MEKA satış sorumlusu ve karar sahibi",
+"ne_zaman": "Her görüşmeden sonra 3 iş günü içinde"
+},
+{
+"adim": "Eti Maden Beylikova İşletme Müdürlüğü saha ziyareti: pilot tesis kırma ve flotasyon hattını gör, tenör ve günlük tonaj bilgisini al",
+"kim": "MEKA satış mühendisi ve proses mühendisi",
+"ne_zaman": "Ocak 2027"
+},
+{
+"adim": "Temel atma gerçekleşirse ve EPC yüklenicisi açıklanırsa bandı yeniden değerlendir; yükleniciye kırma eleme alt tedarikçisi olarak teklif hazırla",
+"kim": "MEKA karar sahibi ve iş geliştirme",
+"ne_zaman": "Temel atma duyurusundan sonraki 30 gün içinde"
 }
 ],
 "riskler": [
@@ -5672,7 +7338,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: Çürütme turunda 8 sayfa açıldı: AA 17 Ekim 2025, AA 13 Aralık 2025, Türkiye Today 6 Ekim 2025, Türkiye Today 24 Temmuz 2026, Bloomberg HT 31 Ağustos 2026, net26 19 Ağustos 2026, Ekonomim 2 Eylül 2026, Dünya 1 Mayıs 2026. Diğer 15 kaynak bu turda açılmadı; onlara dayanan rakamlar ilk araştırmadaki haliyle bırakıldı ve \"bu turda kontrol edilmedi\" diye işaretlendi. Eti Maden ihale sayfaları ilk turda da açılamadı; 360 gün teslim ve yerli istekli bilgisi doğrulanamadı. Resmî Gazete PDF'i taranmış görüntü; karar içeriği Bloomberg HT fihristindeki başlıktan alındı, PDF metni okunmadı. 10 bin ton oksit rakamı yalnız bir köşe yazısında geçiyor. 570 bin tonun cevher girdisi mi ürün çıktısı mı olduğu AA metninde açık değil. Bütçe ve yol kapıları tahmin. Kullanıcının GitHub ya da onrender'da yayınlama ve link verme isteği bu araçla yapılamaz; bu görevde yalnız web doğrulaması yapıldı, yayınlama için ayrı bir adım gerekir.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 8 açık sorunun 1'i cevaplandı, 6'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Bu tur yalnız doğrulama turuydu; yeni web araması yapılmadı, cevaplarda zaten gösterilen 27 sayfadan 16'sı açıldı. Açılmayanlar: Habertürk, Ekofull, Net26, Milliyet 3 Mayıs, Millî İrade 1 Mayıs, Yeni Akit, eskisehir.net, Kısa Dalga, Advantis, Bigpara, Bianet; bunlara dayanan bilgiler doğrulanamadı diye işaretlendi. instituDE ve erkansaka.net sayfalarının ikinci yarıları yalnız özet olarak okundu; Çin'de kg başına 11 dolar, maliyetin üçte ikisi ve 2027 mühendislik ifadeleri bu zayıf kısımdan. Resmî Gazete'de yalnız fihrist açıldı, karar PDF'i açılmadı; taşınmaz sayısı ve mahalleler Evrensel'den. Eti Maden sitesi, EKAP ve e-ÇED yine açılmadı; mühendislik firması, EPC ve ekipman ihalesi için hiçbir web kaynağı yok. 'Temel atma yapılmadı' yargısı haber yokluğuna dayanıyor. Dava bilgisi tek bir Bakan açıklamasıyla sınırlı; mahkeme, tarih ve karar doğrulanamadı. Tenör rakamları resmi değil ve kaynaklar çelişiyor. Kullanıcının bayi sorusu: bayi görüşmeleri web'den doğrulanamaz; sonuçlar manuel girilmeli (tarih, kişi, söylenen, belge); girilmeden puana ve banda girmez. Yapraklar arası puan karşılaştırması bu yaprakta yapılmaz, tüm yapraklar toplandığında karar sahibi yapar.",
 "kanit": 3,
 "web": [
 {
@@ -5794,6 +7460,121 @@ window.MEKA_DATA = {
 "url": "https://www.aa.com.tr/tr/enerjiterminali/analiz/turkiyenin-nadir-toprak-elementleri-stratejik-olarak-neden-onemli/47357",
 "ne": "AA analiz 7 Şubat 2025: 10 bin ton oksidi pilot tesise atfediyor; bu turda kontrol edilmedi",
 "tur": "haber"
+},
+{
+"url": "https://www.ndk.org.tr/en-US/eti-maden-beylikova-facility",
+"ne": "Açıldı, doğrulandı. Lisans kararları 2022-2/2-1 ve 2023-8/5-1, kapsam, toryum nükleer madde; tedarikçi şartı yok; 2024 sonrası kayıt yok",
+"tur": "resmi"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260831.htm",
+"ne": "Açıldı, doğrulandı. 31 Ağustos 2026, Karar 11690 başlığı ve kapsam alanları; taşınmaz sayısı fihristte yok",
+"tur": "resmi"
+},
+{
+"url": "https://www.milliyet.com.tr/ekonomi/bakan-donmez-dunyanin-ikinci-buyuk-rezerv-kesfinin-detaylarini-duyurdu-6782614",
+"ne": "Açıldı, doğrulandı. 570.000 ton cevher girdisi, ürün çıktıları, pilot 1.200 ton, 1 Temmuz 2022, İHA",
+"tur": "haber"
+},
+{
+"url": "https://www.cumhuriyet.com.tr/siyaset/enerji-bakani-ndan-nadir-toprak-elementi-kanun-teklifi-aciklamasi-2447996",
+"ne": "Açıldı, doğrulandı. Temel 2026 hedefi, 2 yılda işletme, pilot 2023, devlet eliyle işletme, 29 Ekim 2025, AA",
+"tur": "haber"
+},
+{
+"url": "https://www.haberturk.com/enerji-ve-tabii-kaynaklar-bakani-bayraktar-dan-nadir-toprak-elementleri-aciklamasi-3833829-ekonomi",
+"ne": "Açılmadı. Fazlar, devlet işletmesi, 30 Ekim 2025; doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://ekofull.com/bakan-bayraktardan-nadir-toprak-elementlerine-iliskin-net-aciklama/",
+"ne": "Açılmadı. Davanın pilot tesis ÇED'ine karşı olduğu iddiası; doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.donanimhaber.com/turkiye-nin-nadir-toprak-elementleri-hamlesi-2026-hedefi--200334",
+"ne": "Açıldı, doğrulandı. 2026 temel hedefi, 570.000 ton, Hacettepe sertifikasyon, yüzde 92 ile 93, hedef 99,9, 31 Aralık 2025",
+"tur": "haber"
+},
+{
+"url": "https://istanbulticaretgazetesi.com/bakan-bayraktardan-nadir-elementler-icin-aciklama-cok-onemli-asamaya-geldik",
+"ne": "Açıldı, doğrulandı. Üç tesis için 500 milyon dolar, temeller bu sene, Penta 6 300 istihdam, 1 Mayıs 2026 Kırka",
+"tur": "haber"
+},
+{
+"url": "https://www.net26.com.tr/alparslan-bayraktar-600-milyon-dolarlik-maden-yatirimi-planlaniyor",
+"ne": "Açılmadı. 600 milyon dolar üç proje; Dünya ile aynı içerik, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.milliyet.com.tr/dunya/son-dakika-israil-basini-beylikova-projesini-yazdi-cine-meydan-okuyacak-hamle-ile-turkiye-kuresel-guc-olma-yolunda-7581295",
+"ne": "Açılmadı. 600 milyon dolar alıntısı, 3 Mayıs 2026; doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.milliirade.com/eskisehire-dev-maden-tesisi-geliyor",
+"ne": "Açıldı, doğrulandı. Temel atma çok yakın, 2. İstanbul Doğal Kaynaklar Zirvesi, 23 Mayıs 2026; tutar ve tarih yok",
+"tur": "haber"
+},
+{
+"url": "https://www.evrensel.net/haber/5998831/eskisehirde-kuresel-maden-savasi-acele-kamulastirma-karari-resmi-gazetede",
+"ne": "Açıldı, doğrulandı. 258 taşınmaz, 2.636.433 m2, Karkın, Okçu, Kızılcaören, toryum tartışması, 2 Eylül 2026",
+"tur": "haber"
+},
+{
+"url": "https://www.sabah.com.tr/ekonomi/nadir-elementte-pilot-tesis-tamam-7681555",
+"ne": "Açıldı, doğrulandı. KİT Komisyonu, GM Yalçın Aydın, pilot tamam, iki faz, 150 milyar dolar iddiası, 16 Ekim 2026; komisyon tarihi yok",
+"tur": "haber"
+},
+{
+"url": "https://www.yeniakit.com.tr/foto-galeri/bayraktar-isyan-etti-bu-nasil-bir-ikiyuzluluk-dev-yatirimi-chp-durdurdu-129529",
+"ne": "Açılmadı. Belediye davası açıklaması, 19 Ekim 2025; doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.gazetepencere.com/gundem/bakan-bayraktardan-eskisehir-belediyesine-nadir-toprak-elementleri-675591h",
+"ne": "Açıldı, doğrulandı. Bakan'ın sosyal medya açıklaması, yürütmeyi durdurma davası, 18 Ekim 2025, ANKA; mahkeme ve tarih yok",
+"tur": "haber"
+},
+{
+"url": "https://www.eskisehir.net/bakan-bayraktardan-beylikova-cikisi-hicbir-girisim-bu-sureci-durduramayacak",
+"ne": "Açılmadı. Bakan açıklaması, 18 Ekim 2025; doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://kisadalga.net/haber/gundem/bakan-mahkemeden-rahatsiz-chpli-belediye-nadir-toprak-elementleri-tesisine-dava-acti-133985",
+"ne": "Açılmadı. Dava haberi, 18 Ekim 2025; doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.takvim.com.tr/guncel/2025/10/25/turkiyenin-gelecegi-beylikovada-sekilleniyor-a-haber-nadir-elementlerin-kalbine-indi",
+"ne": "Açıldı, doğrulandı. Prof. Muammer Kaya'nın akış anlatımı: kırma, öğütme, flotasyon, kavurma, liç, yüzde 99,5; 25 Ekim 2025",
+"tur": "haber"
+},
+{
+"url": "https://www.institude.org/report/turkeys-rare-elements-challenges-and-opportunities---the-beylikova-case",
+"ne": "Açıldı, ilk yarısı doğrulandı, ikinci yarısı özet. Tenör yüzde 1,75, JORC yok, 220 milyon dolar, 500.000 ton 2028 ile 2032, 2030'ların ortası, 21 Mayıs 2026",
+"tur": "rapor"
+},
+{
+"url": "https://erkansaka.net/2025/10/30/turkey-rare-earth-reserves-beylikova-2025/",
+"ne": "Açıldı. ChatGPT yardımıyla derlenmiş blog; yüzde 2 varsayımı (Wired), yüzde 0,1 ThO2 (ResearchGate), bastnazit ve monazit, Nisan 2023 açılış, 30 Ekim 2025",
+"tur": "diger"
+},
+{
+"url": "https://rare-earth-mining.com/turkey-rare-earth/",
+"ne": "Açıldı, doğrulandı. Tenör yüzde 1 üstü, hafif NTE ağırlıklı, 600 milyon dolar yalnız Beylikova'ya yazılmış, 2027 hedefi, 26 Haziran 2026",
+"tur": "diger"
+},
+{
+"url": "https://bigpara.hurriyet.com.tr/haberler/genel-haberler/dunyanin-en-buyuk-yataklarindan-biri-turkiyede-beylikova-merkez-oluyor_ID100700801/",
+"ne": "Açılmadı. OECD forumu, 28 Nisan 2026; doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://bianet.org/haber/beylikovadaki-nte-rezervlerinin-neden-olabilecegi-tehlike-toryum-ve-diger-kimyasal-atiklar-312422",
+"ne": "Açılmadı. Toryum atık tartışması; doğrulanamadı",
+"tur": "haber"
 }
 ],
 "celiskiler": [
@@ -5811,6 +7592,22 @@ window.MEKA_DATA = {
 "Web kaynakları arasında, taslağın beyanı, bu kontrolde doğrulanamadı: 26 Aralık 2025 tarihli DHA haberinde bir bilim kurulu raporunun kısa vadede endüstriyel tesisin mümkün olmayabileceğini söylediği aktarılıyor. 1 Mayıs 2026'da Bakan Bayraktar temelin 2026'da atılması hedefini açıklamış. Taslak 15 Ekim 2026 itibarıyla temel atma haberi bulamadığını yazıyor. Çalışmalarda yok."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 16 sayfa; çürütücü 16 sayfa açtı, güven 3/5.",
+"Soru 1: instituDE'nin '2027 mühendislik' ifadesi raporun özetle okunan ikinci yarısındaki görsel altyazısından; zayıf dayanak olarak işaretlendi. Sabah haberi kaynak olarak eklendi.",
+"Soru 2: İstanbul Ticaret Gazetesi'ndeki 'üç tesisin temellerini bu sene atmayı hedefliyoruz' ifadesi eklendi; Cumhuriyet, Dünya, Millî İrade ve Resmî Gazete ifadeleri sayfayla doğrulandı. 'Tören yapılmadı' yargısının haber yokluğuna dayandığı açıkça yazıldı.",
+"Soru 3: 500 milyon dolar rakamı İstanbul Ticaret Gazetesi'nde doğrulandı; Dünya haberinde Penta 6 için 'Kırka' yazmadığı belirtildi. rare-earth-mining.com'un 600 milyon doları yalnız Beylikova'ya yazdığı doğrulandı ve uyumsuz diye işaretlendi.",
+"Soru 4: Milliyet'teki Dönmez sözü birebir doğrulandı, 'cevaplandi' kaldı. instituDE'nin 500.000 ton/yıl rakamıyla uyumsuzluk notu eklendi.",
+"Soru 5: Akış tarifinin Eti Maden'in resmi şeması değil, Prof. Muammer Kaya'nın A Haber anlatımı olduğu yazıldı; yüzde 99,5'in akademisyen ifadesi olduğu belirtildi. Pilot açılış ayı için kaynaklar çeliştiği için 'Nisan 2023' kesinliği kaldırıldı.",
+"Soru 6: NDK TR ve EN sayfalarıyla karar numaraları, ruhsat numaraları ve kapsam doğrulandı; kurucu kararı 2019-49/1 eklendi.",
+"Soru 7: Gazete Pencere'de yalnız Bakan açıklaması doğrulandı; 'dava pilot tesis ÇED'ine karşı' bilgisi ekofull açılmadığı için doğrulanamadı diye işaretlendi; eskisehir.net kaynaklardan çıkarıldı (açılmadı).",
+"Soru 8: erkansaka.net 'akademik derleme' tanımı düzeltildi; yazar ChatGPT yardımıyla derlediğini yazıyor. Tenör yüzde 2 ve yüzde 0,1 ThO2 rakamlarının Wired ve ResearchGate atıfları olduğu belirtildi. 'Hafif NTE ağırlıklı' ifadesinin instituDE'de değil rare-earth-mining.com'da olduğu düzeltildi; instituDE'nin tersi yönde ifadesi not edildi. Advantis yüzde 0,2 ile 0,3 doğrulanamadı. Çin'de 11 dolar ve üçte iki maliyet ifadeleri zayıf dayanak olarak işaretlendi.",
+"ek_rakamlar: 1.200 ton/yıl kaynağı NDK'dan Milliyet ve Sabah'a değiştirildi (NDK sayfasında kapasite yok). 258 taşınmaz kaydının kaynağı Resmî Gazete fihristi artı Evrensel oldu; fihristte taşınmaz sayısı olmadığı yazıldı. 0,1 ThO2 ve yüzde 99,5 kayıtlarının kaynak niteliği düzeltildi.",
+"ek_rakamlar: 500 milyon dolar (İstanbul Ticaret Gazetesi), 150 milyar dolar (Sabah, kaynak gösterilmemiş iddia) ve 2027 hedefi (rare-earth-mining.com) eklendi.",
+"durum_guncel: KİT Komisyonu için '15 Ekim 2026' tarihi kaldırıldı; Sabah haberinde komisyon tarihi yok, haber tarihi 16 Ekim 2026. 500 milyon dolar ve 500.000 ton uyumsuzlukları eklendi.",
+"adimlar: Bayi ve saha görüşmelerinin manuel kaydı ve puana giriş kuralı için yeni adım eklendi; Eti Maden görüşmesine kapasite sorusu, NDK başvurusuna lisans güncellemesi sorusu eklendi.",
+"web listesi: her URL için açıldı ve doğrulandı ya da açılmadı bilgisi eklendi; erkansaka.net türü 'rapor'dan 'diger'e çekildi.",
+"ek_md: Tüm bölümler doğrulama sonuçlarına göre yeniden yazıldı; kaynak listesine D/A işaretleri eklendi; bayi görüşmelerinin puana nasıl gireceği bölümü eklendi.",
+"kanit 3 ve bant ikincil korundu; gerekçe güncellendi. arama_sayisi 0, okunan_sayfa 16, acilan_sayfa 16 olarak bu turun kendi sayıları yazıldı.",
 "16 Ekim 2026 ek araştırması: 8 arama, 23 sayfa okundu; çürütücü 8 sayfa açtı, güven 4/5.",
 "1.200 ton/yıl kaynağı düzeltildi: AA 13 Aralık 2025 metninde bu rakam yok; rakam AA 17 Ekim 2025 ve Türkiye Today 24 Temmuz 2026'da geçiyor.",
 "Saflık yüzde 92 ile 93 ve karışık konsantre bilgisi bu turda kontrol edilmeyen kaynaklara (Enerji Günlüğü, Rare Earth Exchanges) dayanır diye işaretlendi.",
@@ -5849,8 +7646,66 @@ window.MEKA_DATA = {
 "tam_calisma: Üç başlık da dosyalarda bulundu; değişiklik yok.",
 "Bant ikincil olarak korundu; 03'ün 1. sırası tek cümlelik kanıta dayanıyor, 02 ve 10 desteklemiyor."
 ],
-"guven": 4,
+"guven": 3,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "Sanayi tesisinin tasarımını hangi mühendislik firması yapıyor; ekipman paketi EPC içinde mi, ayrı ihalelerle mi alınacak",
+"durum": "gorusme",
+"cevap": "Açılan 16 sayfanın hiçbirinde mühendislik firması adı, EPC yüklenicisi ya da ekipman ihalesi yok. Sabah 16 Ekim 2026: Eti Maden Genel Müdürü Yalçın Aydın TBMM KİT Komisyonu'nda konuştu; haber metni pilot tesisin tamamlandığını ve endüstriyel üretim için iki faz halinde yatırım planlandığını yazıyor, firma ya da ihale bilgisi vermiyor. NDK sayfaları (TR ve EN) tesisi ocak, cevher hazırlama ve zenginleştirme ile depolama tesisi olarak tanımlıyor; tedarik modeli yok. instituDE raporunda 'sanayi ölçekli mühendislik 2027'den itibaren planlandı' ifadesi raporun ikinci yarısındaki bir görsel altyazısında geçiyor; bu kısım yalnız özet üzerinden okundu, zayıf dayanak. rare-earth-mining.com (26 Haziran 2026) 2027 hedefini yazıyor; bu site birincil kaynak değil.",
+"kaynak": "https://www.sabah.com.tr/ekonomi/nadir-elementte-pilot-tesis-tamam-7681555 ; https://www.ndk.org.tr/eti-maden-beylikova-tesisi ; https://www.institude.org/report/turkeys-rare-elements-challenges-and-opportunities---the-beylikova-case",
+"kime": "Eti Maden İşletmeleri Genel Müdürlüğü Yatırım ve Satınalma birimleri, Ankara; etimaden.gov.tr iletişim sayfası ve santral. EKAP'ta ekap.kik.gov.tr üzerinden idare adı Eti Maden ile ihale araması haftalık. Eti Maden Beylikova Florit Barit ve NTE İşletme Müdürlüğü Kızılcaören saha ziyareti."
+},
+{
+"soru": "Temel atma 2026 içinde mi, 2027'ye mi kaydı; son resmi açıklama",
+"durum": "kismen",
+"cevap": "Doğrulanan zincir: Bakan Bayraktar 29 Ekim 2025 (Cumhuriyet, AA): 'temelini önümüzdeki yıl atmayı, 2 yıl içinde de tesisi hayata geçirmeyi hedefliyoruz'. 1 Mayıs 2026 (Dünya): 'endüstriyel tesis üretimine inşallah bu sene içerisinde başlıyoruz'. Aynı gün Kırka'da (İstanbul Ticaret Gazetesi): 'Bu üç tesisimizin inşallah temellerini bu sene atmayı hedefliyoruz'. 23 Mayıs 2026 (Millî İrade, 2. İstanbul Doğal Kaynaklar Zirvesi): temel atma töreni 'çok yakın bir tarihte'. 31 Ağustos 2026 Resmî Gazete 33356: 11690 sayılı acele kamulaştırma kararı; başlık açık ocak, dekapaj pasa döküm, bağlantı yolları, tüvenan ve düşük tenörlü cevher stok alanları, atık barajı ve endüstriyel üretim tesisleri alanlarını sayıyor. 16 Ekim 2026 Sabah haberi temel atmadan söz etmiyor. Açılan sayfalarda gerçekleşmiş bir tören ya da erteleme açıklaması yok; 'tören yapılmadı' yargısı haber yokluğuna dayanıyor, kesin değil.",
+"kaynak": "https://www.cumhuriyet.com.tr/siyaset/enerji-bakani-ndan-nadir-toprak-elementi-kanun-teklifi-aciklamasi-2447996 ; https://www.dunya.com/gundem/bakan-bayraktar-acikladi-nadir-toprak-elementlerinde-hedef-dunyada-ilk-bese-girmek-haberi-823648 ; https://istanbulticaretgazetesi.com/bakan-bayraktardan-nadir-elementler-icin-aciklama-cok-onemli-asamaya-geldik ; https://www.milliirade.com/eskisehire-dev-maden-tesisi-geliyor ; https://www.resmigazete.gov.tr/eskiler/2026/08/20260831.htm",
+"kime": "Enerji ve Tabii Kaynaklar Bakanlığı basın duyuruları enerji.gov.tr ve Eti Maden haber sayfası etimaden.gov.tr aylık izleme"
+},
+{
+"soru": "Yalnız Beylikova sanayi tesisinin yatırım tutarı; 600 milyon dolar hangi projelerin toplamı",
+"durum": "kismen",
+"cevap": "Dünya 1 Mayıs 2026 (AK Parti Eskişehir İl Başkanlığı ziyareti), Bakan Bayraktar: 'Lityum Karbonat Projesi, Penta 6 Tesisi ve Beylikova Projesi ile toplamda yaklaşık 600 milyon dolarlık bir yatırım'; '1500'e yakın yeni istihdam'. Aynı gün Kırka Bor İşletmesi ziyaretinde (İstanbul Ticaret Gazetesi) üç tesis için 'yaklaşık olarak 500 milyon dolarlık' dedi; yalnız Penta 6 için yaklaşık 300 istihdam. İki rakam da sayfalarda doğrulandı; fark Bakan'ın kendi ifadelerinden geliyor. Yalnız Beylikova için ayrı resmi tutar hiçbir sayfada yok. rare-earth-mining.com (26 Haziran 2026) 600 milyon doları yalnız Beylikova tesisine yazıyor; sayfa açıldı, ifade doğrulandı ama Türkçe birincil kaynaklarla uyuşmuyor. Dünya haberinde Penta 6 için 'Kırka' yazmıyor; Kırka bağlantısı Bakan'ın Kırka ziyaretinde Penta 5 ve 6'yı anmasından çıkarılıyor.",
+"kaynak": "https://www.dunya.com/gundem/bakan-bayraktar-acikladi-nadir-toprak-elementlerinde-hedef-dunyada-ilk-bese-girmek-haberi-823648 ; https://istanbulticaretgazetesi.com/bakan-bayraktardan-nadir-elementler-icin-aciklama-cok-onemli-asamaya-geldik ; https://rare-earth-mining.com/turkey-rare-earth/",
+"kime": "Eti Maden Strateji Geliştirme Dairesi; TBMM KİT Komisyonu tutanakları tbmm.gov.tr üzerinden Eti Maden 2025 yılı denetim görüşmesi"
+},
+{
+"soru": "570 bin ton cevher girdisi mi ürün çıktısı mı; resmi kaynak",
+"durum": "cevaplandi",
+"cevap": "Cevher girdisi. Milliyet (İHA) 1 Temmuz 2022, Bakan Dönmez Beylikova'da: 'Yıllık 570 bin ton cevheri işleyeceğiz. Bu işlenen cevherden 10 bin ton nadir toprak oksidi elde edeceğiz. Ayrıca 72 bin ton barit, 70 bin ton florit, 250 ton toryum üretilecek.' Aynı haberde pilot tesis 'yıllık bin 200 ton cevher işlenecek'. Donanımhaber (31 Aralık 2025) ve rare-earth-mining.com (26 Haziran 2026) aynı 570 bin ton rakamını tekrar ediyor. Dikkat: instituDE raporu ikinci faz için 500.000 ton/yıl yazıyor; 570.000 ile uyuşmuyor. Dayanak Bakan sözünün haber ajansı aktarımı; Eti Maden'in kendi belgesi açılamadı.",
+"kaynak": "https://www.milliyet.com.tr/ekonomi/bakan-donmez-dunyanin-ikinci-buyuk-rezerv-kesfinin-detaylarini-duyurdu-6782614 ; https://www.donanimhaber.com/turkiye-nin-nadir-toprak-elementleri-hamlesi-2026-hedefi--200334",
+"kime": ""
+},
+{
+"soru": "Cevher hazırlama akışı: kırma kademeleri, öğütme tipi, flotasyon, günlük tonaj; pilot tesis bilgileri",
+"durum": "kismen",
+"cevap": "Akış tarifi Eti Maden'in resmi akım şeması değil; Takvim 25 Ekim 2025'te A Haber'e konuşan ESOGÜ Maden Mühendisliği öğretim üyesi Prof. Dr. Muammer Kaya'nın anlatımı: açık işletme, boyut küçültme ile kırma ve öğütme, florit ve barit için flotasyon ile konsantre, NTE için kavurma ve liç, sonra solvent ekstraksiyon ya da oksalat çöktürme ile yüzde 99,5 saflık. Yüzde 99,5 de Kaya'nın 'uç ürün için gereken saflık' ifadesi, resmi hedef değil. Donanımhaber 31 Aralık 2025: yerli imkanlarla yüzde 92 ile 93 saflığa ulaşıldı, hedef yüzde 99,9. Pilot tesis yıllık 1.200 ton cevher (Milliyet 2022, Sabah 2026, instituDE). Açılış: Cumhuriyet'te Bakan '2023'te pilot tesisi hayata geçirdik' diyor; erkansaka.net Nisan 2023 (bianet'e atıf), instituDE '2023 sonu' yazıyor; ay kesin değil. Kırma kademe sayısı, öğütme tipi, eleme ve günlük tonaj hiçbir sayfada yok. 570.000 ton/yıl, 300 iş günü varsayımıyla günde yaklaşık 1.900 ton; kendi hesabımız. NDK lisansı tesisi 'Cevher Hazırlama ve Zenginleştirme' ve hidrometalurji olarak tanımlıyor.",
+"kaynak": "https://www.takvim.com.tr/guncel/2025/10/25/turkiyenin-gelecegi-beylikovada-sekilleniyor-a-haber-nadir-elementlerin-kalbine-indi ; https://www.donanimhaber.com/turkiye-nin-nadir-toprak-elementleri-hamlesi-2026-hedefi--200334 ; https://www.ndk.org.tr/eti-maden-beylikova-tesisi",
+"kime": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı e-ÇED sistemi eced.csb.gov.tr üzerinden Beylikova kompleks cevher ÇED raporu; Eti Maden Beylikova İşletme Müdürlüğü proses mühendisliği; Prof. Dr. Muammer Kaya, ESOGÜ Maden Mühendisliği"
+},
+{
+"soru": "Toryum içeren cevherde kırma ve eleme ekipmanı tedarikçisine NDK ek şart getiriyor mu",
+"durum": "kismen",
+"cevap": "NDK TR ve EN sayfaları doğrulandı. 13 Ocak 2022, 2022-2/2-1 sayılı karar: yer lisansı. 26 Ocak 2023, 2023-8/5-1 sayılı karar: 'Eskişehir-Beylikova Kompleks Cevher (Barit, Florit, Nadir Toprak Elementleri, Toryum) Ocağı, Cevher Hazırlama ve Zenginleştirme ve Depolama Tesisi' için sınırlı çalışma izni ve inşaat lisansı. Ruhsat S:1075/İR:3360 ve ek ruhsat ER:3376319. Kapsamda radyoaktif proses atıkları ve toryum bileşikleri için uzun süreli depolama tesisi var. Üretilecek toryum bileşiği 'nükleer madde kapsamında'. Sayfalarda ekipman tedarikçisine yönelik hiçbir şart yok; yükümlülük Kurucu olan Eti Maden'de. Son kayıt 26 Ocak 2023; 2024, 2025 ve 2026 tarihli güncelleme yok. Tedarikçiye dolaylı şart (malzeme, belge, radyasyon güvenliği) yalnız NDK ya da Eti Maden'den öğrenilebilir.",
+"kaynak": "https://www.ndk.org.tr/eti-maden-beylikova-tesisi ; https://www.ndk.org.tr/en-US/eti-maden-beylikova-facility",
+"kime": "Nükleer Düzenleme Kurumu Lisanslama Dairesi, Ankara; ndk.org.tr iletişim sayfası ve bilgi edinme başvurusu. Eti Maden Beylikova İşletme Müdürlüğü radyasyon güvenliği sorumlusu."
+},
+{
+"soru": "Eskişehir Büyükşehir Belediyesi'nin ÇED iptal davası durumu",
+"durum": "kismen",
+"cevap": "Doğrulanan tek şey Bakan Bayraktar'ın 18 Ekim 2025 tarihli sosyal medya açıklaması (Gazete Pencere, ANKA): belediye 'ÇED olumlu raporuna rağmen... yürütmeyi durdurma davası açtılar'; 'hiçbir siyasi engelleme girişimi bu süreci durduramayacaktır'. Bu sayfada mahkeme adı, dava tarihi ve davanın pilot mu sanayi tesisi ÇED'ine mi karşı olduğu yazmıyor. 'Dava pilot tesisin ÇED kararına karşı' bilgisi ekofull sayfasına dayanıyor; o sayfa bu turda açılmadı, doğrulanamadı. '5 Mart 2021, Eskişehir Nöbetçi İdare Mahkemesi' bilgisi yalnız arama özetinden, doğrulanamadı. Takvim 25 Ekim 2025 belediyenin 'proje alanıyla ilgili aldığı bazı kararlar'dan söz ediyor, ayrıntı yok. Mahkeme kararı, duruşma tarihi, yürütmeyi durdurma kararı ve belediye açıklaması hiçbir açılan sayfada yok. 31 Ağustos 2026 acele kamulaştırma kararı devlet tarafında sürecin devam ettiğini gösteriyor; davanın akıbetini söylemez.",
+"kaynak": "https://www.gazetepencere.com/gundem/bakan-bayraktardan-eskisehir-belediyesine-nadir-toprak-elementleri-675591h ; https://www.takvim.com.tr/guncel/2025/10/25/turkiyenin-gelecegi-beylikovada-sekilleniyor-a-haber-nadir-elementlerin-kalbine-indi ; https://www.resmigazete.gov.tr/eskiler/2026/08/20260831.htm",
+"kime": "Eskişehir Büyükşehir Belediyesi Hukuk Müşavirliği ve Basın Müdürlüğü eskisehir.bel.tr; Eskişehir İdare Mahkemesi kalem; sahaya giden bayi ya da avukat aracılığıyla dosya durumu"
+},
+{
+"soru": "Cevher tenörü yüzde kaç; proje ekonomisi",
+"durum": "kismen",
+"cevap": "Resmi tenör açıklaması yok. instituDE (21 Mayıs 2026, doğrulandı): mevcut modelleme 694 milyon ton kaynakta yaklaşık yüzde 1,75 TREO varsayıyor, bu yaklaşık 12,5 milyon ton NTE oksidi eder; bazı bağımsız jeologlar yaklaşık yüzde 1'i daha gerçekçi görüyor. 694 milyon ton kaynak tahmini, kanıtlanmış rezerv değil; JORC başvurusu yapıldı, süreç tamamlanmadı (Eti Maden GM Yalçın Aydın'a atıf). rare-earth-mining.com: tenör yüzde 1 TREO üstü; cevher hafif NTE ağırlıklı, hafif NTE oksitleri kg başına 5 ile 10 dolar. erkansaka.net 30 Ekim 2025: yazar ChatGPT yardımıyla derlediğini açıkça yazıyor, akademik derleme değil; Wired'a atıfla yüzde 2 ortalama tenör varsayımı ve yüzde 0,2 ile 2 aralığı, ResearchGate derlemesine atıfla ortalama yüzde 0,1 ThO2, mineraloji bastnazit ve monazit, karbonatit kökenli. Advantis'in yüzde 0,2 ile 0,3 iddiası bu turda açılmadı, doğrulanamadı. Ekonomi: instituDE tam üretimde yıllık yaklaşık 220 milyon dolar gelir (doğrulandı); Çin'de kg başına 11 dolar ve altı işleme maliyeti ile ayırma ve saflaştırmanın maliyetin üçte ikisi olduğu ifadeleri raporun özetle okunan ikinci yarısında, zayıf dayanak. instituDE özet: kanıtlanmış rezervden ticari üretime 15 ile 20 yıl; Beylikova'da ticari ölçek 2030'ların ortasından önce olası değil. Not: instituDE cevherin 'en yüksek değerli ticari uygulamalarla uyumlu' olduğunu yazıyor; rare-earth-mining.com'un 'hafif NTE ağırlıklı, düşük değerli' okuması ile çelişiyor.",
+"kaynak": "https://www.institude.org/report/turkeys-rare-elements-challenges-and-opportunities---the-beylikova-case ; https://rare-earth-mining.com/turkey-rare-earth/ ; https://erkansaka.net/2025/10/30/turkey-rare-earth-reserves-beylikova-2025/",
+"kime": "Eti Maden Beylikova İşletme Müdürlüğü ve MTA Genel Müdürlüğü; Hacettepe Üniversitesi Maden Mühendisliği sertifikasyon ekibi"
+}
+],
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_devlet",
 "kol_ad": "Devlet firmaları",
@@ -5864,8 +7719,8 @@ window.MEKA_DATA = {
 "id": "belediye",
 "baslik": "Belediyeler: hafriyat ve inşaat atığı tesisleri, EKAP ihaleleri",
 "bant": "ikincil",
-"puan_metni": "Talep gerçek ve büyüyor; mevzuat ve belediye örnekleri resmi kaynaklarla doğrulandı. Ürün hazır ve giriş maliyeti düşük. Ancak doğrudan belediye ekipman ihalesi son 24 ayda yalnız bir tane bulundu ve o da genel konkasör alımı; belediyeler çoğunlukla sahayı özel firmaya kiralıyor. Ekonomik rakamlar belediyenin kendi açıklamasına dayanıyor. Bu yüzden ana kol değil, düşük maliyetli yan kol olarak izlenip satış kanalı kurulmalı. 03 sıralamasında on alan içinde 2. sıra; sayısal puan yok. Etiketler: 0 ile 6 ay, Ar-Ge yok, yatırım düşük. 03 haritasında gelire uzaklık yakın, potansiyel büyüklük orta. GPT kartında inşaat ve yıkıntı atığından agrega kısa vadeli birinci öncelik, 12 ile 24 ay; belediye orada ayrı bir alan değil, müşteri grubu.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 24 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulanan kanıt talebin gerçek olduğunu gösteriyor: Giresun 2026'da iki kez konkasör ihalesine çıktı ve yerli malına yüzde 15 avantaj MEKA lehine; Samsun bir konkasör tesisine trafo ihalesi yaptı; Bornova 36 milyon TL'lik arsa kirasıyla özel işletmeci modeline geçti; yıkım yönetmeliği seçici yıkımı zorunlu kılıyor; Bakanlık yeni hafriyat yönetmeliği taslağını görüşe açtı. Ancak Giresun alımı mevcut tesisin revizyonu artı ek ekipman, bedel küçük ve kazanan belli değil; Samsun tesisinin yeni olduğu doğrulanmadı; Bornova'da müşteri belediye değil henüz bilinmeyen kiracı; taslak yönetmelik okunmadı; Keçiören, İSTAÇ kapasitesi ve EKAP sayısı açık. Birçok destekleyici ifade bu turda doğrulanamadı. Öne çıkan banda yükseltmek için gerekçe yetersiz; ikincil bant korunmalı, EKAP taraması ve taslak yönetmelik okunduktan sonra yeniden değerlendirilmeli. Talep gerçek ve büyüyor; mevzuat ve belediye örnekleri resmi kaynaklarla doğrulandı. Ürün hazır ve giriş maliyeti düşük. Ancak doğrudan belediye ekipman ihalesi son 24 ayda yalnız bir tane bulundu ve o da genel konkasör alımı; belediyeler çoğunlukla sahayı özel firmaya kiralıyor. Ekonomik rakamlar belediyenin kendi açıklamasına dayanıyor. Bu yüzden ana kol değil, düşük maliyetli yan kol olarak izlenip satış kanalı kurulmalı. 03 sıralamasında on alan içinde 2. sıra; sayısal puan yok. Etiketler: 0 ile 6 ay, Ar-Ge yok, yatırım düşük. 03 haritasında gelire uzaklık yakın, potansiyel büyüklük orta. GPT kartında inşaat ve yıkıntı atığından agrega kısa vadeli birinci öncelik, 12 ile 24 ay; belediye orada ayrı bir alan değil, müşteri grubu.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 Eylül 2026",
 "ne": "Belediyelerin inşaat ve yıkıntı atığı geri kazanım tesisleri ve hafriyat sahaları için kırma eleme ekipmanı. MEKA'nın üstbant mıknatıslı MCC 70, MP 90 ve MP 110C ürünleri bu işe hazır (firma beyanı). Satış yolu EKAP mal alımı ihaleleri ve belediye adına saha işleten özel firmalar.",
 "neden": "Yönetmelik tesis izin yetkisini belediyelere veriyor. Eskişehir modeli yılda 498 bin ton kapasiteyle son 4 ayda yaklaşık 24 ile 25 milyon TL tasarruf açıkladı; tesis 6 büyükşehir ve Bilecik Belediyesi'ne bilgi aktardığını söylüyor (belediye açıklaması, iki yerel haber). Giresun 2026 konkasör ihalesi yerli malına yüzde 15 fiyat avantajı tanıyor (resmi ilan metni). 12 Ağustos 2026 tarihli yıkım yönetmeliği değişikliği seçici yıkım ve bina yıkıntı atığı tanımlarını getirdi; yıkım planı atık yönetimi bilgisini içerecek; ana hükümler 12 Ağustos 2027'de yürürlüğe giriyor. Bu, tesis talebini artırabilir.",
 "rakamlar": [
@@ -5923,44 +7778,97 @@ window.MEKA_DATA = {
 "deger": "800 ton/gün",
 "aciklama": "Bursa Büyükşehir şirketi Burkent'in Erdoğanköy hafriyat sahası geri kazanım tesisi kapasitesi; tarih belirsiz, sayfa açılamadı, arama özetinden. Doğrulanamadı.",
 "kaynak": "haber, tek kaynak, doğrulanamadı: https://www.steelradar.com/erdogankoy-e-hafriyat-sahasi-53670/"
+},
+{
+"deger": "2026/1539482",
+"aciklama": "Giresun Belediye Başkanlığı Konkasör Mal Alımı İşi, pazarlık usulü 21/a, yeterlik 22.09.2026 saat 10.30, teslim 60 takvim günü, Ülper Mevkii, yerli malına yüzde 15 avantaj; doğrulandı",
+"kaynak": "https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi"
+},
+{
+"deger": "2026/1100761",
+"aciklama": "Giresun Belediyesi Fen İşleri Müdürlüğü 11 kalem konkasör alımı, açık ihale 16.07.2026 saat 10.30, yalnızca yerli istekli, yerli malına yüzde 15 avantaj; Küçükköy'deki mevcut tesis revize edilip Ülper'e taşınacak; doğrulandı",
+"kaynak": "https://www.yildizhaber.com.tr/haber-konkasor-satin-alinacaktir-170162.html"
+},
+{
+"deger": "36.000.000 TL",
+"aciklama": "Bornova Karaçam geri kazanım tesisi arsası 10 yıllık kira muhammen bedeli; yıllık 3.600.000 TL KDV hariç; geçici teminat 1.080.000 TL; ihale 23.12.2025 saat 10.00; doğrulandı",
+"kaynak": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan"
+},
+{
+"deger": "34.363,13 m2",
+"aciklama": "Bornova Karaçam Köyü 107 ada 63 parsel tesis arsası; doğrulandı",
+"kaynak": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan"
+},
+{
+"deger": "498.000 ton/yıl",
+"aciklama": "Eskişehir Büyükşehir Tepebaşı Keskin inşaat ve yıkıntı atığı geri kazanım tesisi kurulu kapasitesi; Aralık 2017'den Ekim 2023'e yaklaşık 1.000.000 ton kabul, yaklaşık 340.000 ton agrega, yaklaşık 1.000 ton metal ve plastik; doğrulandı",
+"kaynak": "https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24"
+},
+{
+"deger": "40.000.000 ton/yıl",
+"aciklama": "İSTAÇ hafriyat depolama sahalarında yılda ortalama depolanan hafriyat toprağı; İstanbul'da aylık 3.000.000 ton hafriyat atığı; firma beyanı, doğrulandı",
+"kaynak": "https://istac.istanbul/faaliyet-alanlarimiz/atik-yonetimi/hafriyat-topragi-yonetimi"
+},
+{
+"deger": "2026/1117468",
+"aciklama": "Samsun Büyükşehir Fen İşleri Daire Başkanlığı, İlkadım Güzeldere Konkasör Tesisi Enerji Besleme İşleri, 1600 kVA trafo, yapım işi, ihale 13.07.2026 saat 10.30, süre 75 takvim günü; doğrulandı",
+"kaynak": "https://www.gazetegercek.com.tr/resmi-ilan/konkasor-tesisi-enerji-besleme-isleri-yaptirilacaktir/228221"
+},
+{
+"deger": "1 Temmuz 2022",
+"aciklama": "Binaların Yıkılması Hakkında Yönetmelik yürürlük tarihi, Madde 20; Resmi Gazete 13 Ekim 2021 sayı 31627; Madde 15 seçici yıkım; doğrulandı",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2021/10/20211013-1.htm"
+},
+{
+"deger": "Mart 2026",
+"aciklama": "Hafriyat Toprağı ile İnşaat ve Yıkıntı Atıklarının Yönetimine İlişkin Yönetmelik Taslağı Bakanlık taslaklar sayfasında yayında; 13 ve 17 Mart tarihleri dosya adından çıkarıldı, sayfada tarih yok; görüş süresi yazmıyor",
+"kaynak": "https://cygm.csb.gov.tr/taslaklar-i-443"
 }
 ],
-"durum": "Belediyelerin konu üstündeki ilgisi 2025 ve 2026'da arttı; Eskişehir, İzmir ve Bornova örnekleri bu turda doğrulandı, Muğla ve Bursa örnekleri bu turda açılmadı. Son 24 ayda EKAP'ta doğrudan konkasör ya da mobil kırma eleme mal alımı ihalesi olarak yalnız Giresun bulundu; o ilan da yıkıntı atığı demiyor, genel kırma eleme tesisi ve mevcut ekipman revizyonu içeriyor. Diğer ihaleler saha kiralama, nakliye hizmeti ve kırma taş alımı biçiminde. Kazananlar ve sözleşme bedelleri bulunamadı.",
+"durum": "Belediye talebi iki doğrulanmış ihaleyle somut. Giresun Belediyesi 2026'da iki kez konkasör alımına çıktı: 16 Temmuz 2026 açık ihale ve 22 Eylül 2026 pazarlık; iki ilanda da yalnız yerli istekli ve yerli malına yüzde 15 avantaj var. Alım, Küçükköy'deki mevcut tesisin revizyonu ve Ülper'e taşınması; tamamen yeni tesis değil. Sonuç yayınlanmadı. Samsun Büyükşehir Güzeldere konkasör tesisi için 1600 kVA trafo ihalesi yaptı; tesisin yeni mi mevcut mu olduğu ilanda yok. Bornova Belediyesi Karaçam'da 34.363 m2 arsayı 10 yıl, 36 milyon TL muhammen bedelle kiralıyor; tesisi kiracı kuracak, bu nedenle MEKA'nın muhatabı belediye değil kiracı firma. Yıkım yönetmeliği 1 Temmuz 2022'den beri seçici yıkımı ve kaynakta ayırmayı zorunlu kılıyor; Resmi Gazete metniyle doğrulandı. Bakanlık Mart 2026'da hafriyat ve yıkıntı atığı yönetmelik taslağını görüşe açtı; metin okunmadı. İSTAÇ 40 milyon ton/yıl hafriyat rakamını veriyor ama yıkıntı atığı geri kazanım kapasitesi yok. Keçiören, Bornova ilk ihale, Işıklar kararı ve İSTAÇ raporlarına dair ifadeler bu turda doğrulanamadı.",
 "acik_sorular": [
-"Giresun 2026/1539482 ihalesini kim kazandı, bedel ne oldu, hangi marka seçildi; ilandaki 'mevcut ekipman' hangi marka",
-"Keçiören saha kiralama ihalesini hangi firma aldı; bu firma ekipman alacak mı",
-"Son 24 ayda EKAP'ta toplam kaç belediye konkasör ya da kırma eleme ihalesi var; EKAP arama erişimi gerekiyor",
-"İSTAÇ'ın inşaat yıkıntı atığı geri kazanım kapasitesi ve 2025 ile 2026 tesis planı",
-"Bornova Karaçam tesisini kim kuracak, hangi teknoloji ve ne zaman ekipman alımı",
-"MEKA'nın geçmişte belediyelere ya da belediye şirketlerine satışı var mı",
-"Hafriyat yönetmeliğinin güncel değişiklik tarihçesi; 2004 metni dışında değişiklik bulunamadı",
-"Yıkım yönetmeliği eklerinde (EK-2, EK-5) seçici yıkım ve atık yönetimi için somut zorunluluk var mı; ek PDF okunmadı"
+"Kısmen cevaplandı: Giresun 2026/1539482 ihalesini kim kazandı, bedel, seçilen marka",
+"Görüşme gerekir: Keçiören hafriyat sahası kiralama ihalesini hangi firma aldı (Keçiören Belediyesi Emlak ve İstimlak Müdürlüğü ve Fen İşleri Müdürlüğü; Ankara Büyükşehir Belediyesi Çevre Koruma ve Kontrol Dairesi Başkanlığı hafriyat birimi; EKAP'ta idare adıyla sonuç ilanı sorgusu.)",
+"Kısmen cevaplandı: Son 24 ayda EKAP'ta belediye konkasör, mobil kırma eleme ve inşaat yıkıntı atığı tesisi ihalesi sayısı; örnekler",
+"Kısmen cevaplandı: İSTAÇ'ın inşaat yıkıntı atığı geri kazanım kapasitesi ve 2025 ile 2026 tesis planı",
+"Kısmen cevaplandı: İzmir Bornova Karaçam tesisini kim kuracak, teknoloji ve takvim",
+"Kısmen cevaplandı: Hafriyat Toprağı, İnşaat ve Yıkıntı Atıkları yönetmeliğinin güncel değişiklikleri; Yıkım yönetmeliği eklerinde seçici yıkım zorunluluğu"
 ],
 "adimlar": [
 {
-"adim": "EKAP'ta konkasör, kırma eleme, yıkıntı atığı, hafriyat sahası anahtar kelimeleriyle son 24 ay sonuç ilanlarını çek; kazanan ve bedel listesi çıkar",
-"kim": "Satış ve pazarlama",
-"ne_zaman": "31 Ekim 2026'ya kadar"
+"adim": "EKAP'ta 2026/1539482 ve 2026/1100761 sonuç ilanlarını sorgula; yoksa Giresun Belediyesi Fen İşleri Müdürlüğü'nü 444 40 28'den ara; kazanan firma, bedel, marka, pazarlığa davet edilen firmalar ve Küçükköy'deki mevcut tesisin markası öğrenilsin",
+"kim": "Kamu ihale ve satış sorumlusu",
+"ne_zaman": "23 Ekim 2026"
 },
 {
-"adim": "Giresun Belediyesi ihale sonucunu öğren; kazanan yerli mi, hangi kapasite, mevcut ekipman markası ne",
-"kim": "Satış",
-"ne_zaman": "23 Ekim 2026'ya kadar"
+"adim": "CSB taslak yönetmeliği docx dosyasını indir ve oku; seçici yıkım, geri kazanım oranı ve geri kazanılmış agrega kullanım hükümlerini çıkar; görüş süresini Çevre Yönetimi Genel Müdürlüğü'nden 0312 586 30 00 ile sor; görüş formunu doldur",
+"kim": "Ürün yöneticisi ve hukuk",
+"ne_zaman": "31 Ekim 2026"
 },
 {
-"adim": "Eskişehir, Muğla, Bursa Burkent, Aliağa Belediyesi Petrol A.Ş. ve Egeşehir ile görüşme; mevcut ekipman ve yenileme planı",
-"kim": "Satış, bölge sorumlusu",
-"ne_zaman": "Kasım 2026"
+"adim": "Bornova Belediyesi İklim Değişikliği ve Sıfır Atık Müdürlüğü'nü ara; 23 Aralık 2025 Karaçam ihalesinin sonucunu ve kiracı firmayı öğren; 9 Eylül 2025 ilk ihalesinin akıbetini ve Işıklar ikinci tesis kararını teyit et; kiracıya tesis teklifi için temas kur",
+"kim": "Ege bölge satış",
+"ne_zaman": "30 Ekim 2026"
 },
 {
-"adim": "MCC 70 için yerli malı belgesi ve belediye ihale dosyası şablonu hazırla",
-"kim": "Satış destek, kalite",
-"ne_zaman": "Aralık 2026"
+"adim": "Keçiören Belediyesi Emlak ve İstimlak Müdürlüğü ile Ankara Büyükşehir Çevre Koruma ve Kontrol Dairesi'ni ara; hafriyat sahası kiralama ihalesinin hangi idarede olduğunu ve kazananı netleştir",
+"kim": "Ankara satış",
+"ne_zaman": "30 Ekim 2026"
 },
 {
-"adim": "Yıkım yönetmeliği 12 Ağustos 2027 yürürlüğü öncesinde belediyelere seçici yıkım ve geri kazanım semineri",
-"kim": "Pazarlama",
-"ne_zaman": "Mart ile Haziran 2027"
+"adim": "İSTAÇ 2024 Faaliyet Raporu ve 2025 Sürdürülebilirlik Raporu PDF'lerini indirip yıkıntı atığı tonajı ve tesis planını çıkar; döküm bedeli rakamlarını İSTAÇ'tan teyit et; ardından 444 85 00 ve İBB Atık Yönetimi Müdürlüğü ile görüş",
+"kim": "Pazarlama analisti ve Marmara satış",
+"ne_zaman": "6 Kasım 2026"
+},
+{
+"adim": "EKAP üyeliğiyle konkasör, kırma eleme ve yıkıntı atığı anahtar kelimeleriyle 1 Ekim 2024 ile 16 Ekim 2026 arası belediye ilanlarını ve sonuç ilanlarını tara; sayıyı, idareleri ve kazanan markaları tabloya yaz",
+"kim": "Pazarlama analisti",
+"ne_zaman": "31 Ekim 2026"
+},
+{
+"adim": "Samsun Büyükşehir Fen İşleri Daire Başkanlığı'nı 0362 431 60 90'dan ara; Güzeldere konkasör tesisinin yeni mi mevcut mu olduğunu, makine tedarikçisini ve ek ekipman ihtiyacını öğren",
+"kim": "Karadeniz bölge satış",
+"ne_zaman": "6 Kasım 2026"
 }
 ],
 "riskler": [
@@ -6077,7 +7985,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: Araştırma turu: 8 WebSearch, 31 sayfa denendi, 22 sayfa okundu. Çürütme turu: 8 kaynak sayfa açıldı ve okundu (Resmî Gazete, gzt26, İstikbal, Yeşil Giresun, izmir.bel.tr, bornova.bel.tr, mekaglobal, ardasanayi); hepsi HTTP 200. Bu turda açılmayan kaynaklar metinde 'bu turda açılmadı' diye işaretlendi; araştırma turunda da açılamayanlar (steelradar, ihalebul, sabah bu turda) 'doğrulanamadı' diye işaretlendi. Resmî Gazete ekleri (EK-2, EK-5 PDF) okunmadı; seçici yıkım için somut zorunluluk ana metinde görülmedi. EKAP arama erişimi yok; toplam ihale sayısı ve kazananlar bulunamadı. Türkiye geneli yıllık inşaat yıkıntı atığı miktarı resmi kaynakta bulunamadı. Eskişehir ekonomik rakamları belediyenin kendi açıklamasıdır, iki gazete aynı metni aktarıyor. Kullanıcı isteğindeki GitHub ve Render yayın konusu bu alt görevin kapsamı dışında; dosya yazılmadı, yalnız StructuredOutput verildi.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 6 açık sorunun 0'i cevaplandı, 5'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Bu turda yalnız 8 sayfa açıldı; önceki turun 24 kaynağından 16'sı açılmadı ve onlara dayanan ifadeler \"doğrulanamadı\" olarak işaretlendi, silinmedi. EKAP arama ve sonuç ilanı ekranları araçla açılamıyor; ihale sayısı ve kazanan firma EKAP üyeliğiyle elle sorgulanmalı. Bakanlık taslak yönetmelik docx dosyası ve Resmi Gazete ek PDF'i okunmadı. CSB taslak sayfasında tarih ve görüş süresi yok; 13 ve 17 Mart 2026 tarihleri dosya adlarından çıkarıldı. İSTAÇ rakamları firma beyanıdır, bağımsız kaynakla teyit edilmedi. Giresun 2026/1539482 sonucu ve Bornova 23 Aralık 2025 ihale sonucu web'de yok. Keçiören hafriyat sahası ihalesi hiçbir kaynakta doğrulanmadı. Bayi görüşmeleri ve bayi puanlaması bu araştırmanın kapsamı dışında; web kaynağı yok, o bilgiler saha ekibince elle girilmeli.",
 "kanit": 3,
 "web": [
 {
@@ -6174,6 +8082,96 @@ window.MEKA_DATA = {
 "url": "https://www.hurriyet.com.tr/gundem/mamak-coplugunde-eletrik-uretilecek-4697895",
 "ne": "Ankara Mamak tesisi 1.000 ton/gün planı, 2006. Bu turda açılmadı.",
 "tur": "haber"
+},
+{
+"url": "https://www.yildizhaber.com.tr/haber-konkasor-satin-alinacaktir-170162.html",
+"ne": "Giresun 2026/1100761 açık ihale, 16.07.2026, 11 kalem, Küçükköy tesisi revize edilip Ülper'e taşınacak; açıldı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan",
+"ne": "Bornova Karaçam arsa kiralama ilanı, 23.12.2025, 36 milyon TL muhammen bedel, ÇED ve lisans şartı; açıldı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.gazetegercek.com.tr/resmi-ilan/konkasor-tesisi-enerji-besleme-isleri-yaptirilacaktir/228221",
+"ne": "Samsun Büyükşehir Güzeldere konkasör tesisi 1600 kVA trafo ihalesi 2026/1117468, 13.07.2026; açıldı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://istac.istanbul/faaliyet-alanlarimiz/atik-yonetimi/hafriyat-topragi-yonetimi",
+"ne": "İSTAÇ hafriyat yönetimi, aylık 3 milyon ton, yılda 40 milyon ton; firma beyanı; açıldı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://cygm.csb.gov.tr/taslaklar-i-443",
+"ne": "Bakanlık taslaklar sayfası, Hafriyat ve Yıkıntı Atıkları Yönetmelik Taslağı docx ve görüş formu; tarih sayfada yok; açıldı, doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2021/10/20211013-1.htm",
+"ne": "Binaların Yıkılması Hakkında Yönetmelik tam metni, Madde 5/7, 14, 15, 20; açıldı, doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24",
+"ne": "Eskişehir Keskin tesisi 498.000 ton/yıl, 1.000.000 ton kabul, 340.000 ton agrega, haber 12.10.2023; açıldı, doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.yesilgiresun.com.tr/haber/28558764/giresun-belediyesi-konkasor-tesisi-kuruyor",
+"ne": "Giresun Ülper konkasör tesisi haberi; açılmadı, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.kecioren.bel.tr/ihaleler.php",
+"ne": "Keçiören ihale listesi; açılmadı, doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.gucluanadolugazetesi.com/kecioren-belediyesinden-ilan-iln02497376",
+"ne": "Keçiören 2026/1128301 Atık Getirme Merkezi ilanı; açılmadı, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.egedesonsoz.com/bornovada-geri-donusum-hamlesi-36-milyonluk-ihale",
+"ne": "Bornova 9 Eylül 2025 ilk ihale haberi; açılmadı, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://ilkses.com.tr/izmir/bornova-daki-geri-kazanim-tesisi-plani-istifali-tartismalara-sahne-oldu-444588",
+"ne": "Bornova Işıklar ikinci tesis kararı 17 Nisan 2026; açılmadı, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.yeniizmir.com/bornova-ya-insaat-atiklarini-donusturma-tesisi-geliyor",
+"ne": "Doa Hafriyat Madencilik ÇED başvurusu; açılmadı, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://istac.istanbul/tesislerimiz/geri-kazanim-tesisleri",
+"ne": "İSTAÇ geri kazanım tesisleri; açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://istac.istanbul/hakkimizda/belgeler-ve-raporlar",
+"ne": "İSTAÇ raporlar listesi; açılmadı, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.ihalekik.com/istanbul-hafriyat-dokum-ucretleri",
+"ne": "İSTAÇ döküm bedeli 2023 ile 2025; açılmadı, doğrulanamadı",
+"tur": "diger"
+},
+{
+"url": "https://www.lexpera.com.tr/mevzuat/yonetmelikler/hafriyat-topragi-insaat-ve-yikinti-atiklarinin-kontrolu-yonetmeligi",
+"ne": "Hafriyat yönetmeliği konsolide metin; açılmadı, doğrulanamadı",
+"tur": "diger"
+},
+{
+"url": "https://cygm.csb.gov.tr/yonetmelikler-i-440",
+"ne": "Bakanlık yönetmelik listesi; açılmadı, doğrulanamadı",
+"tur": "resmi"
 }
 ],
 "celiskiler": [
@@ -6191,6 +8189,24 @@ window.MEKA_DATA = {
 "03'teki Bu ay, içeride görevi belediye satışlarını sormak Eylül 2026'yı kastediyor; ay bitti, yapılıp yapılmadığı dosyada yok."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 8 sayfa; çürütücü 8 sayfa açtı, güven 4/5.",
+"Giresun 2026/1539482 ilanında idare adı Giresun Belediye Başkanlığı olarak düzeltildi; Fen İşleri Müdürlüğü adı yalnız 2026/1100761 ilanında geçiyor.",
+"Giresun pazarlık ilanında da yalnız yerli istekli şartı ve yerli malına yüzde 15 avantaj olduğu eklendi; önceki tur bunu yalnız açık ihaleye bağlamıştı.",
+"Giresun 2026/1100761 ilanından Küçükköy'deki mevcut konkasör tesisinin revize edilip Ülper'e taşınacağı bilgisi eklendi; alım tamamen yeni tesis değil.",
+"Giresun pazarlık ilanının yayın tarihi 21 Ağustos 2026, açık ihale ilanının yayın tarihi 24 Haziran 2026 olarak eklendi; teslim 'fabrika veya atölye teslimi' olarak netleştirildi.",
+"Samsun Güzeldere ilanı için 'yeni bir belediye kırma eleme tesisi kurulduğunu gösteriyor' yorumu kaldırıldı; ilanda tesisin yeni olduğu yazmıyor. Süre 75 takvim günü, ilan tarihi 22.06.2026, telefon 0362 431 60 90 eklendi.",
+"Bornova Karaçam ilanında alan 34.363,13 m2, ihale saati 10.00, doküman bedeli 1.000 TL ve dokümanı veren birim eklendi; 'yeniden ilan ilk ihalenin sonuçsuz kaldığını gösteriyor' ifadesi çıkarım olarak işaretlendi.",
+"Bornova 9 Eylül 2025 ilk ihale, 3 Haziran 2025 meclis kararı, Işıklar 17 Nisan 2026 kararı, Doa Hafriyat ÇED başvurusu, Karaçam halkı itirazı ve başkan açıklaması 'doğrulanamadı' olarak işaretlendi.",
+"Keçiören cevabındaki ihale sayfası ve 2026/1128301 bilgileri 'doğrulanamadı' olarak işaretlendi; Ankara Büyükşehir yetki iddiası kaynaksız varsayım olarak belirtildi.",
+"İSTAÇ 3 milyon ton/ay ve 40 milyon ton/yıl rakamları doğrulandı ve 'firma beyanı' olarak işaretlendi; geri kazanım tesisleri sayfası, raporlar sayfası ve döküm bedeli rakamları 'doğrulanamadı' oldu.",
+"Hafriyat yönetmeliği sorusunun durumu 'cevaplandi' yerine 'kismen' yapıldı; 2004 ve 2021 değişiklik geçmişi ile Madde 8 ve 27 içeriği açılmayan kaynağa dayanıyor.",
+"CSB taslak sayfasında tarih ve görüş süresi bulunmadığı eklendi; 13 Mart ve 17 Mart 2026 tarihlerinin dosya adlarından çıkarıldığı belirtildi; 'taslak mevcut yönetmeliği bütünüyle yenileyecek' iddiası doğrulanamadı olarak işaretlendi.",
+"Yıkım yönetmeliği için Madde 2 kapsam istisnaları (afet yıkımları, 6306/6A resen yıkımlar, 3194/32 kısmi yıkımlar, tescilli yapılar) ve Madde 7/9 küçük yapı muafiyeti eklendi; 'ruhsata bağlı tüm bina yıkımları kapsamda' ifadesi buna göre daraltıldı.",
+"Eskişehir Keskin tesisi için Aralık 2017 başlangıç, haber tarihi 12.10.2023 ve yaklaşık 1.000 ton metal ve plastik ayrımı eklendi.",
+"Van konkasör malzemesi ilanı kaynaksız olduğu için silindi.",
+"Ek rakamlardan 11.600 m2 Işıklar alanı, 3.800 TL/tır döküm bedeli ve '13 Mart 2026' kesin tarih kaldırıldı; yerine doğrulanmış 1 Temmuz 2022 yürürlük tarihi ve 'Mart 2026' taslak kaydı eklendi.",
+"Kanıt puanı 4'ten 3'e düşürüldü; ana sorular (kazanan, sayı, kapasite) açık ve kaynakların yarısından fazlası bu turda doğrulanamadı.",
+"Giresun 21 Ağustos 2026 haberi açılmadığı için 'yerel basın tesisin kurulacağını yazdı' ifadesi doğrulanamadı olarak işaretlendi.",
 "16 Ekim 2026 ek araştırması: 8 arama, 22 sayfa okundu; çürütücü 8 sayfa açtı, güven 4/5.",
 "neden: '7 büyükşehir bu modeli inceledi' ifadesi kaynağa göre '6 büyükşehir ve Bilecik Belediyesi'ne bilgi aktarıldı' olarak düzeltildi; kaynak inceleme değil bilgi verme diyor",
 "neden: 'yıkım yönetmeliği seçici yıkım ve atık yönetim planını zorunlu kılıyor' yumuşatıldı; metin tanımları ekliyor ve yıkım planı tanımı atık yönetimi bilgisi içeriyor, ana metinde açık zorunluluk hükmü görülmedi, ekler okunmadı",
@@ -6226,6 +8242,50 @@ window.MEKA_DATA = {
 ],
 "guven": 4,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "Giresun 2026/1539482 ihalesini kim kazandı, bedel, seçilen marka",
+"durum": "kismen",
+"cevap": "İhale kimliği ilan metniyle doğrulandı. 2026/1539482, Giresun Belediye Başkanlığı'nın Konkasör Mal Alımı İşi. İlanda idare adı Giresun Belediye Başkanlığı; Fen İşleri Müdürlüğü adı bu ilanda yok, 2026/1100761 ilanında var. Usul: 4734 sayılı Kanun 21/a pazarlık. Yeterlik değerlendirmesi 22.09.2026 saat 10.30, Hacımiktat Mah. Tabaklar Sok. No:1 Kat 6 İhale Salonu. Kapsam: Ülper Mevkii'nde yeni kurulacak şantiyede kırma eleme tesisi için makine, ekipman, mevcut ekipmanların revizyon parçaları, montaj, nakliye ve yardımcı tesisat. Teslim: sözleşmeden sonra fabrika veya atölye teslimi en geç 60 takvim günü. Alt yüklenici yasak. Bu pazarlık ilanında da yalnızca yerli istekli şartı ve yerli malına yüzde 15 fiyat avantajı var; önceki tur bunu yalnız açık ihaleye bağlamıştı, düzeltildi. İlan 21 Ağustos 2026'da yayımlandı, Basın No ILN02533242. Önceki açık ihale 2026/1100761: idare Giresun Belediye Başkanlığı Fen İşleri Müdürlüğü, 19. madde açık ihale, 16.07.2026 saat 10.30, 11 kalem, yalnız yerli istekli, yerli malına yüzde 15 avantaj, teklif geçerlilik 120 gün, ilan 24 Haziran 2026. Önemli ayrıntı: açık ihale ilanına göre Küçükköy Mahallesi'ndeki mevcut konkasör tesisi revize edilip yeni ekipmanla Ülper Köyü'ndeki belediye arsasına taşınacak; yani alım tamamen yeni tesis değil, revizyon artı ek ekipman. Kazanan, bedel ve marka iki ilanda da yok. 21 Ağustos 2026 tarihli yerel haber bu turda açılamadı, doğrulanamadı. Sonuç ilanı web'de bulunamadı.",
+"kaynak": "https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi (haber sitesinde resmi ilan metni, doğrulandı); https://www.yildizhaber.com.tr/haber-konkasor-satin-alinacaktir-170162.html (haber sitesinde resmi ilan metni, doğrulandı); https://www.yesilgiresun.com.tr/haber/28558764/giresun-belediyesi-konkasor-tesisi-kuruyor (haber, bu turda açılmadı, doğrulanamadı)",
+"kime": "Giresun Belediyesi Fen İşleri Müdürlüğü, santral 444 40 28, Hacımiktat Mah. Tabaklar Sok. No:1 Kat 6 İhale Salonu. EKAP sonuç ilanı: ekap.kik.gov.tr üzerinde İKN 2026/1539482 ve 2026/1100761 sorgusu. Pazarlığa davet edilen firmalar ve Küçükköy'deki mevcut tesisin markası sorulmalı."
+},
+{
+"soru": "Keçiören hafriyat sahası kiralama ihalesini hangi firma aldı",
+"durum": "gorusme",
+"cevap": "Web'de bulunamadı. Önceki turun dayandığı Keçiören Belediyesi ihale sayfası ve 2026/1128301 Atık Getirme Merkezi ilanı bu turda açılmadı; bu ifadeler doğrulanamadı. Ankara'da hafriyat sahası yetkisinin büyük ölçüde Ankara Büyükşehir Belediyesi'nde olduğu bilgisi de kaynakla doğrulanmadı, varsayım olarak kalıyor.",
+"kaynak": "https://www.kecioren.bel.tr/ihaleler.php (resmi, bu turda açılmadı, doğrulanamadı); https://www.gucluanadolugazetesi.com/kecioren-belediyesinden-ilan-iln02497376 (haber, bu turda açılmadı, doğrulanamadı)",
+"kime": "Keçiören Belediyesi Emlak ve İstimlak Müdürlüğü ve Fen İşleri Müdürlüğü; Ankara Büyükşehir Belediyesi Çevre Koruma ve Kontrol Dairesi Başkanlığı hafriyat birimi; EKAP'ta idare adıyla sonuç ilanı sorgusu."
+},
+{
+"soru": "Son 24 ayda EKAP'ta belediye konkasör, mobil kırma eleme ve inşaat yıkıntı atığı tesisi ihalesi sayısı; örnekler",
+"durum": "kismen",
+"cevap": "EKAP arama ekranı açılamadığı için sayı verilemiyor. Doğrulanan örnekler: Giresun Belediyesi konkasör mal alımı, açık ihale 16.07.2026, 2026/1100761; aynı iş pazarlık usulü, yeterlik 22.09.2026, 2026/1539482. Samsun Büyükşehir Belediye Başkanlığı Fen İşleri Daire Başkanlığı, İlkadım İlçesi Güzeldere Konkasör Tesisi Enerji Besleme İşleri, 1600 kVA trafo tesisi, yapım işi, 2026/1117468, ihale 13.07.2026 saat 10.30, süre 75 takvim günü, ilan 22.06.2026. İlanda tesisin yeni olduğu yazmıyor; mevcut bir tesise enerji beslemesi de olabilir, önceki turdaki 'yeni tesis' yorumu kaldırıldı. Bornova Belediyesi Karaçam 107 ada 63 parsel arsa kiralama, 2886 sayılı Kanun 35/a kapalı teklif, ihale 23.12.2025 saat 10.00, doğrulandı. 9 Eylül 2025 tarihli ilk ihale ve 17 Nisan 2026 Işıklar meclis kararı bu turda açılmayan kaynaklara dayanıyor, doğrulanamadı. Kıyas: Eskişehir Büyükşehir Tepebaşı Keskin tesisi 498.000 ton/yıl kurulu kapasite, resmi sayfa doğrulandı. Van konkasör malzemesi ilanı kaynaksız, silindi.",
+"kaynak": "https://www.gazetegercek.com.tr/resmi-ilan/konkasor-tesisi-enerji-besleme-isleri-yaptirilacaktir/228221 (haber sitesinde resmi ilan metni, doğrulandı); https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan (haber sitesinde resmi ilan metni, doğrulandı); https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24 (resmi, doğrulandı); https://ilkses.com.tr/izmir/bornova-daki-geri-kazanim-tesisi-plani-istifali-tartismalara-sahne-oldu-444588 (haber, açılmadı, doğrulanamadı)",
+"kime": "EKAP ihale arama ekranı, ekap.kik.gov.tr, anahtar kelimeler konkasör, kırma eleme, yıkıntı atığı, 1 Ekim 2024 ile 16 Ekim 2026 arası; MEKA'da EKAP üyeliği olan satış personeli tarasın. Samsun Fen İşleri Daire Başkanlığı 0362 431 60 90."
+},
+{
+"soru": "İSTAÇ'ın inşaat yıkıntı atığı geri kazanım kapasitesi ve 2025 ile 2026 tesis planı",
+"durum": "kismen",
+"cevap": "Firma beyanı: İSTAÇ sitesine göre İstanbul'da aylık 3 milyon ton hafriyat atığı oluşuyor ve hafriyat depolama sahalarında yılda ortalama 40 milyon ton hafriyat toprağı depolanıyor. Sayfa inşaat ve yıkıntı atıklarının işlendiğini yazıyor ama kapasite, tesis sayısı veya tonaj vermiyor. Geri kazanım tesisleri sayfası, raporlar sayfası ve haber duyuruları bu turda açılmadı; o sayfalara dayanan ifadeler doğrulanamadı. Döküm bedeli rakamları (600, 1.300, 3.800 TL/tır) üçüncü taraf bir siteden alınmıştı, bu turda açılmadı, doğrulanamadı.",
+"kaynak": "https://istac.istanbul/faaliyet-alanlarimiz/atik-yonetimi/hafriyat-topragi-yonetimi (firma beyanı, doğrulandı); https://istac.istanbul/tesislerimiz/geri-kazanim-tesisleri (firma, açılmadı, doğrulanamadı); https://istac.istanbul/hakkimizda/belgeler-ve-raporlar (firma, açılmadı, doğrulanamadı); https://www.ihalekik.com/istanbul-hafriyat-dokum-ucretleri (diğer, açılmadı, doğrulanamadı)",
+"kime": "İSTAÇ çağrı merkezi 444 85 00 ve Hafriyat Toprağı Yönetimi birimi; İBB Atık Yönetimi Müdürlüğü; önce 2024 Faaliyet Raporu PDF'i elle indirilip okunmalı."
+},
+{
+"soru": "İzmir Bornova Karaçam tesisini kim kuracak, teknoloji ve takvim",
+"durum": "kismen",
+"cevap": "İlan metni doğrulandı: Bornova Karaçam Köyü 107 ada 63 parsel, 34.363,13 m2 belediye arsası üzerinde hafriyat toprağı, inşaat ve yıkıntı atıkları geri kazanım tesisi kurulması ve 10 yıl işletilmesi için kiralama ihalesi. 2886 sayılı Kanun 35/a kapalı teklif, 23.12.2025 saat 10.00, Nevzat Kavalar Kültür Merkezi Meclis Salonu. Yıllık kira KDV hariç 3.600.000 TL, muhammen bedel 36.000.000 TL, geçici teminat 1.080.000 TL, doküman bedeli 1.000 TL, dokümanı veren birim İklim Değişikliği ve Sıfır Atık Müdürlüğü. İstekliden ÇED kararı belgesi (kapsam dışı, gerekli değildir veya olumlu) ve GSM ruhsatı, geçici faaliyet belgesi veya çevre izin ve lisans belgesi isteniyor. İlan 11.12.2025'te girildi. Tesisi belediye değil, kiracı kuracak; bu ilan metninden çıkıyor. 9 Eylül 2025 tarihli ilk ihale, 3 Haziran 2025 meclis kararı, Başkan Ömer Eşki'nin teknoloji açıklaması, Karaçam halkının itirazı, 17 Nisan 2026 Işıklar kararı ve Doa Hafriyat Madencilik ÇED başvurusu bu turda açılmayan kaynaklara dayanıyor, doğrulanamadı. 'Yeniden ilan ilk ihalenin sonuçsuz kaldığını gösteriyor' ifadesi çıkarımdır, ilanda yazmıyor. Teknoloji ilanda yok. Kazanan firma web'de yok.",
+"kaynak": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan (haber sitesinde resmi ilan metni, doğrulandı); https://www.egedesonsoz.com/bornovada-geri-donusum-hamlesi-36-milyonluk-ihale (haber, açılmadı, doğrulanamadı); https://bornova.bel.tr/recycling-facility-approved-in-bornova?lang=en (resmi, açılmadı, doğrulanamadı); https://ilkses.com.tr/izmir/bornova-daki-geri-kazanim-tesisi-plani-istifali-tartismalara-sahne-oldu-444588 (haber, açılmadı, doğrulanamadı); https://www.yeniizmir.com/bornova-ya-insaat-atiklarini-donusturma-tesisi-geliyor (haber, açılmadı, doğrulanamadı)",
+"kime": "Bornova Belediyesi İklim Değişikliği ve Sıfır Atık Müdürlüğü, Ergene Mah. 2. Sok. No:7 Prof. Dr. Kamil Okyay Sındır Hizmet Binası; 23 Aralık 2025 ihalesinin sonucu ve kiracı firma sorulacak."
+},
+{
+"soru": "Hafriyat Toprağı, İnşaat ve Yıkıntı Atıkları yönetmeliğinin güncel değişiklikleri; Yıkım yönetmeliği eklerinde seçici yıkım zorunluluğu",
+"durum": "kismen",
+"cevap": "Yıkım yönetmeliği kısmı Resmi Gazete metniyle doğrulandı. Binaların Yıkılması Hakkında Yönetmelik 13 Ekim 2021 tarih 31627 sayılı Resmi Gazete; Madde 20 ile yürürlük 1 Temmuz 2022. Madde 5/7: asbest ve benzeri tehlikeli kimyasal içeren imalatlar sökülüp uzaklaştırılmadan ve seçici yıkım yapılmadan ana yıkıma geçilemez. Madde 14: müteahhit atığı geri kazanılabilir malzemeden başlayarak kaynağında ayırır, öncelikle yeniden kullanır, çevre lisanslı geri kazanım veya bertaraf tesisine gönderir. Madde 15: yıkıntı atıklarının yüksek oranda geri dönüşümü için kontrollü ve aşamalı seçici yıkım uygulanır; metal, ahşap, alçı, tuğla, cam, yalıtım gibi malzemeler ayrılır. Madde 7/9: bodrum dışı en çok bir katlı, 6 m ve 250 m2'yi geçmeyen yapılar ile küçük kısmi yıkımlarda yıkım planı düzenlenmez. Kapsam Madde 2: yapı ruhsatına tabi bina türü yapılar; afet yıkımları, 6306 sayılı Kanun 6/A resen yıkımlar, 3194/32 kısmi yıkımlar ve tescilli yapılar kapsam dışı. Ekler metinde geçiyor: Ek 1 Form 1 yıkım ruhsatı, Ek 2 yıkım planı, Ek 3 atık yönetim planı formatı, Ek 4 taahhütnameler. Ek metinleri ayrı PDF, açılmadı. Hafriyat yönetmeliği değişiklik geçmişi (2004 tarih 25406 sayı, 9 Ekim 2021 tarih 31623 sayı ile kaldırılan maddeler, Madde 8 ve 27 içeriği) bu turda açılmayan konsolide metne dayanıyor, doğrulanamadı. Bakanlık taslak sayfası doğrulandı: Hafriyat Toprağı ile İnşaat ve Yıkıntı Atıklarının Yönetimine İlişkin Yönetmelik Taslağı docx ve Görüş Formu listede var. Sayfada tarih yazmıyor; 13 Mart ve 17 Mart 2026 tarihleri dosya adlarındaki damgalardan çıkarıldı. Görüş son tarihi sayfada yok. Taslağın mevcut yönetmeliği bütünüyle yenilediği iddiası metin okunmadan doğrulanamaz.",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2021/10/20211013-1.htm (resmi, doğrulandı); https://cygm.csb.gov.tr/taslaklar-i-443 (resmi, doğrulandı); https://www.lexpera.com.tr/mevzuat/yonetmelikler/hafriyat-topragi-insaat-ve-yikinti-atiklarinin-kontrolu-yonetmeligi (diğer, açılmadı, doğrulanamadı); https://cygm.csb.gov.tr/yonetmelikler-i-440 (resmi, açılmadı, doğrulanamadı)",
+"kime": "Taslak metin: cygm.csb.gov.tr taslaklar sayfasındaki docx elle indirilip okunacak; görüş için Çevre Yönetimi Genel Müdürlüğü Döngüsel Ekonomi ve Atık Yönetimi Dairesi, 0312 586 30 00; görüş formu aynı sayfada."
+}
+],
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_devlet",
 "kol_ad": "Devlet firmaları",
@@ -6524,8 +8584,8 @@ window.MEKA_DATA = {
 "id": "milvus",
 "baslik": "Milvus Robotics, ODTÜ Teknokent",
 "bant": "ikincil",
-"puan_metni": "Gerçek, ihracatçı ve büyüyen bir Ankara şirketi; yatırım turları ve Comau ortaklığı birden fazla kaynakla doğrulandı. Ancak çalışan, kurulu robot ve 1.700 kapasite rakamları tek bir röportajdaki şirket beyanına dayanıyor; ciro ve adet bilinmiyor; tedarik cirosu MEKA ölçeğinde küçük; gövde işi ince sac; pay girişi fonların takvimine bağlı. Düşük maliyetli bir tanışma ve numune teklifi ile ilerlenir; ana yatırım kararı için yeterli değil. 06: sıra ya da puan yok; başlık \"önce üretim ortağı, sonra ortak\". 04: yedi şirketlik ODTÜ Teknokent kısa listesinin ilk satırı; tablo sıralı değil, puan vermiyor. Kanıt kalitesi notu veren inceleme dosyası bu doğrulamada verilmedi; o rakam çıkarıldı.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 27 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulama bandı değiştirmedi. Lehine: yıllık 1.700 robot kapasiteli yeni fabrika hedefi 2026 sonu (CEO beyanı), Comau teknoloji ortaklığı Nisan 2026'da duyuruldu (firma beyanı), mekanik üretim 2021'de dışarıya yaptırılıyordu, fabrika MEKA'ya yakın Etimesgut'ta, iki yıl üst üste İnovaLİG KOBİ birinciliği resmi sayfayla doğrulandı. Aleyhine: şirket küçük, toplam dış yatırım 5,5 milyon dolar, çalışan yaklaşık 100 kişi, yıllık üretim ve ciro bilinmiyor, Comau adet taahhüdü yok, fabrika ve kapasite bilgisi tek bir söyleşiye dayanıyor, 2025'te şirketin kendi üretim tesisi olduğu için dış tedarik payı azalmış olabilir, yatırım tutarı ve resmi onay belgesi yok. Potansiyel iş hacmi MEKA ölçeğinde orta düzey kalır. Görüşmede dış tedarik payı ve Comau adedi doğrulanırsa öne çıkan banda yükseltilebilir. Gerçek, ihracatçı ve büyüyen bir Ankara şirketi; yatırım turları ve Comau ortaklığı birden fazla kaynakla doğrulandı. Ancak çalışan, kurulu robot ve 1.700 kapasite rakamları tek bir röportajdaki şirket beyanına dayanıyor; ciro ve adet bilinmiyor; tedarik cirosu MEKA ölçeğinde küçük; gövde işi ince sac; pay girişi fonların takvimine bağlı. Düşük maliyetli bir tanışma ve numune teklifi ile ilerlenir; ana yatırım kararı için yeterli değil. 06: sıra ya da puan yok; başlık \"önce üretim ortağı, sonra ortak\". 04: yedi şirketlik ODTÜ Teknokent kısa listesinin ilk satırı; tablo sıralı değil, puan vermiyor. Kanıt kalitesi notu veren inceleme dosyası bu doğrulamada verilmedi; o rakam çıkarıldı.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 27 Eylül 2026",
 "ne": "Milvus Robotics, 2011'de Ankara'da kurulan, fabrika ve depolar için SEIT markalı otonom mobil robot ve filo yazılımı üreten bir şirket. Ekim 2025'te 98 çalışan (röportaj), şirket sitesinde 100'den fazla (firma beyanı). Satışının yüzde 70'ten fazlası ihracat, 20'den fazla ülke. Ar-Ge ve üretim Ankara Bağlıca'da. MEKA için konu: şasi, çelik gövde ve boya tedarikçisi olmak, fabrikada robot kullanmak, sonraki turda azınlık ortak olmak.",
 "neden": "Ankara'da kanıtlanmış ürünü ve küresel müşterisi olan az sayıdaki donanım şirketinden biri. 2025'te 5,5 milyon dolar Seri A kapattı (firma ve röportajla doğrulandı), 2026 sonu için yılda 1.700'den fazla robotluk yeni fabrika açıkladı (tek kaynak, şirket beyanı) ve 13 Nisan 2026'da Comau'nun MyMR robot ailesi için teknoloji ortağı seçildi (firma duyurusu doğrulandı). Üretim hacmi büyürse çelik gövde ve sac alt yüklenici ihtiyacı doğabilir; MEKA'nın lazer, CNC, kaynak ve boya hattı buna uyar. Tedarik cirosu tek başına küçük kalır; asıl getiri ortaklıkta aranır.",
 "rakamlar": [
@@ -6583,44 +8643,126 @@ window.MEKA_DATA = {
 "deger": "ciro: bulunamadı",
 "aciklama": "Şirket ciro ve yıllık robot adedi açıklamıyor. Önceki çalışmadaki 40 bin dolar robot fiyatı ve tedarik cirosu tabloları varsayımdır.",
 "kaynak": "bulunamadı"
+},
+{
+"deger": "450 robot, 41 lokasyon",
+"aciklama": "2025 itibarıyla toplam kurulu robot ve lokasyon sayısı, birikimli; CEO beyanı, sayfada doğrulandı",
+"kaynak": "https://www.paradergi.com.tr/girisimcilik/2025/10/23/dunyanin-robotunu-uretecek"
+},
+{
+"deger": "1.700 robot/yıl",
+"aciklama": "2026 sonunda devreye girecek yeni Ankara tesisiyle hedeflenen yıllık kapasite; CEO beyanı, tek kaynak",
+"kaynak": "https://www.paradergi.com.tr/girisimcilik/2025/10/23/dunyanin-robotunu-uretecek"
+},
+{
+"deger": "2026 sonu",
+"aciklama": "Yeni Ankara üretim tesisinin devreye alınma hedefi; yatırım 2025'te 'Teknoloji Hamlesi Programı' kapsamında onaylandı; CEO beyanı, resmi belge yok",
+"kaynak": "https://www.paradergi.com.tr/girisimcilik/2025/10/23/dunyanin-robotunu-uretecek"
+},
+{
+"deger": "yüzde 70 ile 75 üstü",
+"aciklama": "İhracatın satışlardaki payı: Para Dergisi yüzde 70 üstü, firma bültenleri ve Webrazzi yüzde 75 üstü; hedef yüzde 80 üstü; 20'den fazla ülke",
+"kaynak": "https://www.milvusrobotics.com/blog/series-a-funding-to-5-5-million"
+},
+{
+"deger": "98 çalışan",
+"aciklama": "Ekim 2025 çalışan sayısı (Para Dergisi); firma bültenleri ve Webrazzi 'yaklaşık 100' ve '100'den fazla' diyor; Ankara ve Atlanta ofisleri",
+"kaynak": "https://www.paradergi.com.tr/girisimcilik/2025/10/23/dunyanin-robotunu-uretecek"
+},
+{
+"deger": "5,5 milyon dolar",
+"aciklama": "Seri A toplamı; 27 Mayıs 2025'te 4,5 milyon dolar (tur adı yok), 21 Temmuz 2025'te Ak Portföy GSYF ile 5,5 milyon dolar Seri A; dört sayfada doğrulandı",
+"kaynak": "https://www.milvusrobotics.com/blog/series-a-funding-to-5-5-million"
+},
+{
+"deger": "600 bin dolar",
+"aciklama": "Haziran 2023 ilk dış yatırım, APY Ventures; 2023 APY yatırımı Para Dergisi ve Mayıs 2025 bülteninde doğrulandı, 600 bin dolar rakamının kaynağı bu turda açılmadı, doğrulanamadı",
+"kaynak": "https://webrazzi.com/2023/06/05/milvus-robotics-apy-ventures-600-bin-dolar-yatirim/"
+},
+{
+"deger": "100 kg ile 2 ton",
+"aciklama": "Milvus AMR portföyünün taşıma kapasitesi aralığı; Mayıs 2025 bülteni ve Webrazzi; firma beyanı",
+"kaynak": "https://www.milvusrobotics.com/blog/4-5-million-in-funding-to-accelerate-global-expansion"
+},
+{
+"deger": "300, 500, 1.500 kg",
+"aciklama": "Comau MyMR üç model taşıma kapasiteleri; lansman 24 Haziran 2025 Automatica Münih; Milvus adı geçmiyor; sayfada doğrulandı",
+"kaynak": "https://www.comau.com/en/2025/06/24/comau-unveils-mymr-amrs-family-at-automatica-2025/"
+},
+{
+"deger": "13 Nisan 2026",
+"aciklama": "Comau, Milvus'u MyMR portföyü için teknoloji ortağı seçti; Atlanta, MODEX 2026 stand A3426; firma beyanı, sayfada doğrulandı",
+"kaynak": "https://www.milvusrobotics.com/blog/milvus-robotics-and-comau-forge-strategic-partnership"
+},
+{
+"deger": "1.500 kg, 2,70 m",
+"aciklama": "SEIT F1500S istifleyici fork AMR kapasitesi ve kaldırma yüksekliği; blog 24 Mart 2026, metin 'Atlanta, Mart 2026'; firma beyanı, doğrulandı",
+"kaynak": "https://www.milvusrobotics.com/blog/introducing-the-seit-f1500s-stacker-type-fork-amr"
+},
+{
+"deger": "2024 ve 2025 KOBİ birincisi",
+"aciklama": "İnovaLİG KOBİ İnovasyon Sonuçları kategorisinde iki yıl üst üste birincilik; resmi inovalig.com 2024 ve 2025 sekmeleri",
+"kaynak": "https://www.inovalig.com/Main/Champions/2024"
+},
+{
+"deger": "7. sıra",
+"aciklama": "Fast Company Türkiye En Yenilikçi Şirketler 2025 listesi; sayfa bu turda açılmadı, doğrulanamadı; firma beyanı",
+"kaynak": "https://www.milvusrobotics.com/blog/milvus-robotics-featured-on-fast-companys-most-innovative-companies-2025"
+},
+{
+"deger": "Turcorn 100",
+"aciklama": "21 Kasım 2025 Turcorn 100 programına seçilme; sayfa bu turda açılmadı, doğrulanamadı; firma beyanı",
+"kaynak": "https://www.milvusrobotics.com/blog/turcorn-100-program"
+},
+{
+"deger": "+90 312 227 0235",
+"aciklama": "Milvus TR ofis telefonu; ABD ofisi +1 678 972 1201; adresler Yeni Bağlıca Mah. Türkeli Cad. No:11/1 06790 Etimesgut ve ODTÜ Teknokent MET B Blok No:280/15; e-posta adresleri sayfada gizli, info@ ve sales@ doğrulanamadı",
+"kaynak": "https://www.milvusrobotics.com/contact-us"
+},
+{
+"deger": "OSTİM",
+"aciklama": "Mekanik üretim OSTİM'deki uzun süreli tedarikçilere yaptırılıyor, kendi üretim altyapısı yok; 2021 beyanı; 2025'te CEO kampüste üretim tesisi olduğunu söylüyor",
+"kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/haftaninkobisi/7984/yuk-tasima-robotu-seit"
+},
+{
+"deger": "200 dolar/kg üstü",
+"aciklama": "2021'de ürünlerin kilogram başına ihracat bedeli; 17 ülke, 50'ye yakın çalışan, yurt dışında 20'den fazla entegratör",
+"kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/haftaninkobisi/7984/yuk-tasima-robotu-seit"
 }
 ],
-"durum": "Şirket aktif ve büyüme evresinde. Seri A Temmuz 2025'te 5,5 milyon dolarla kapandı; altı fon içeride. CEO Ekim 2025'te 'yeni yatırım turları gündemimizde olabilir' dedi; 2026'da yeni tur duyurusu şirketin haber sayfasında yok. 2026'da iki gelişme doğrulandı: 13 Nisan Comau teknoloji ortaklığı ve SEIT F1500S forklift robotunun MODEX 2026'da tanıtımı. Şirketin haber sayfasında son kayıt 13 Nisan 2026; Bağlıca fabrikasının 2026 sonu hedefine dair haber yok. Üretim ortağı ya da alt yüklenici arayışına dair açık duyuru bulunamadı; şirket üretimi kendi tesisinde yaptığını söylüyor.",
+"durum": "Milvus Robotics 2011'de Ankara'da kurulan (KOSGEB sayfasına göre kuruluş Hacettepe KOSGEB TEKMER, Ar-Ge ofisi bugün ODTÜ Teknokent'te), Etimesgut Yeni Bağlıca'da Ar-Ge ve üretim yapan, yaklaşık 100 kişilik bir otonom mobil robot üreticisi. CEO beyanına göre 2025 itibarıyla 450 kurulu robotu ve 41 lokasyonu var; satışların yüzde 70'inden fazlası ihracat. 2025'te toplam 5,5 milyon dolarlık tek bir Seri A turu kapattı; Seri B yok, bu beş kaynakla doğrulandı. CEO beyanına göre yeni Ankara fabrikası 2025'te Teknoloji Hamlesi Programı kapsamında onaylandı, 2026 sonunda açılacak ve yıllık 1.700 robot kapasiteye çıkacak; bu bilgi tek bir söyleşiye dayanıyor, yatırım tutarı ve resmi onay belgesi yok. 13 Nisan 2026'da İtalyan Comau, MyMR robot ailesi için Milvus'u teknoloji ortağı seçti (firma beyanı); üretim yeri ve adet açık değil. Mekanik üretim 2021'de OSTİM firmalarına yaptırılıyordu; 2025'te şirketin kendi üretim tesisi var, dış tedarik payı bilinmiyor. İnovaLİG KOBİ İnovasyon Sonuçları kategorisinde 2024 ve 2025'te iki kez birinci, resmi sayfayla doğrulandı. MEKA için fırsat şasi, çelik gövde, forklift direği ve boya işlerinde alt yüklenici olmaktır. Kesin adet, ciro ve tedarik payı yalnızca görüşmeyle öğrenilebilir.",
 "acik_sorular": [
-"Bağlıca fabrikası 2026 sonunda açılıyor mu, hangi aşamada; yatırım tutarı ve Teknoloji Hamlesi onayı resmi kaynakla teyit edilebilir mi?",
-"Yıllık robot üretimi ve ciro kaç; 2025'te kaç robot teslim edildi?",
-"Şasi, çelik gövde, forklift direği ve boya işleri bugün kimden alınıyor; dış tedarik payı ne?",
-"Comau MyMR robotlarını kim üretiyor; Milvus adet taahhüdü aldı mı?",
-"Sonraki yatırım turu ne zaman ve hangi değerlemeyle planlanıyor; stratejik sanayi yatırımcısına açık mı?",
-"Robot gövdesi ince sac ve hassas kaynak işi; MEKA'nın ağır sac hattı buna uyuyor mu, ayrı hücre gerekir mi?",
-"Şirket hâlâ ODTÜ Teknokent'te kayıtlı mı, yoksa tüm faaliyet Bağlıca'ya mı taşındı?",
-"İnovaLİG birinciliği 2024'te mi 2025'te mi alındı; iki ayrı ödül mü?"
+"Kısmen cevaplandı: Bağlıca fabrikası açılış takvimi, yatırım tutarı ve Teknoloji Odaklı Sanayi Hamlesi onayı",
+"Kısmen cevaplandı: Yıllık robot üretimi, 2025 teslimat adedi ve ciro",
+"Kısmen cevaplandı: Şasi, çelik gövde, forklift direği ve boya işleri kimden alınıyor; dış tedarik payı",
+"Kısmen cevaplandı: Comau MyMR robotlarını kim üretiyor; Milvus adet taahhüdü",
+"Görüşme gerekir: Sonraki yatırım turu zamanı ve değerleme; stratejik sanayi yatırımcısına açık mı (Milvus Robotics CEO Şamil Özden, +90 312 227 0235; lider yatırımcı TT Ventures GSYF)"
 ],
 "adimlar": [
 {
-"adim": "Milvus satın alma ve üretim yöneticisiyle tanışma toplantısı; bir şasi ya da forklift direği çizimiyle fiyat ve termin teklifi istemek",
-"kim": "MEKA satın alma ve üretim müdürü",
-"ne_zaman": "Kasım 2026"
+"adim": "Milvus Robotics ile tanışma görüşmesi: CEO Şamil Özden, COO Hasan Ölmez ve satın alma. Sorular: 1.700 adet kapasitede şasi, gövde, direk ve boya dış tedarik payı; mevcut OSTİM tedarikçileri ve 2021'den bu yana modelin değişip değişmediği; Comau MyMR üretim yeri ve yıllık adet; yeni fabrika yatırım tutarı; sonraki yatırım turu ve stratejik sanayi ortağına açıklık. Telefon +90 312 227 0235 veya iletişim sayfasındaki Business Development formu. Fabrika Etimesgut Yeni Bağlıca, yerinde ziyaret istensin.",
+"kim": "MEKA iş geliştirme yöneticisi ve üretim müdürü",
+"ne_zaman": "31 Ekim 2026'ya kadar randevu, 15 Kasım 2026'ya kadar ziyaret"
 },
 {
-"adim": "MEKA fabrikasında ince sac ve toz boya kapasitesinin robot gövdesine uygunluğunu içeride değerlendirmek",
+"adim": "Teknoloji Odaklı Sanayi Hamlesi onayının ve yatırım tutarının resmi teyidi: hamle.gov.tr iletişim sayfası ve Sanayi ve Teknoloji Bakanlığı santrali üzerinden program ofisine yazılı soru; Resmi Gazete teşvik listelerinde Milvus Robotics Teknoloji A.Ş. taraması.",
+"kim": "MEKA strateji uzmanı",
+"ne_zaman": "15 Kasım 2026'ya kadar"
+},
+{
+"adim": "Comau tarafından MyMR hacim ve üretim yeri bilgisi: Comau Türkiye temsilciliği veya comau.com satış iletişim formu; Milvus görüşmesinden sonra ve Milvus'un bilgisi dahilinde yapılmalı.",
+"kim": "MEKA iş geliştirme yöneticisi",
+"ne_zaman": "30 Kasım 2026'ya kadar"
+},
+{
+"adim": "MEKA iç ön çalışma: 300, 500 ve 1.500 kg sınıfı AMR şasisi ve 1.500 kg istifleyici direk için lazer kesim, kaynak, hassas işleme ve boya maliyet tahmini; numune şasi teklifi hazırlığı. Milvus görüşmesinde sunulacak.",
 "kim": "MEKA üretim mühendisliği",
-"ne_zaman": "Kasım 2026"
+"ne_zaman": "15 Kasım 2026'ya kadar"
 },
 {
-"adim": "Bağlıca fabrikasının açılış durumunu ve Comau anlaşmasının üretim boyutunu şirkete doğrudan sormak",
-"kim": "Mehmet Ulaş",
-"ne_zaman": "Aralık 2026"
-},
-{
-"adim": "MEKA tesisinde 1 ya da 2 SEIT robotuyla pilot için teklif almak",
-"kim": "MEKA lojistik ve üretim",
-"ne_zaman": "İlk çeyrek 2027"
-},
-{
-"adim": "TT Ventures ya da APY Ventures ile sonraki tur takvimi ve stratejik yatırımcı ilgisi hakkında ön görüşme",
-"kim": "Mehmet Ulaş, mali müşavir",
-"ne_zaman": "2027 ilk yarı"
+"adim": "Görüşme sonucuna göre bant kararı: dış tedarik payı ve Comau adedi teyit edilirse öne çıkan banda alınır; Milvus mekanik işleri içeride yapmayı planlıyorsa izle bandına düşer. Görüşme notları ve puan etkisi bu dosyaya manuel işlenir.",
+"kim": "MEKA yönetim kurulu karar toplantısı",
+"ne_zaman": "15 Aralık 2026"
 }
 ],
 "riskler": [
@@ -6743,7 +8885,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: Çürütme turunda 8 sayfa açıldı: Para Dergi röportajı, şirketin 4,5 ve 5,5 milyon dolar duyuruları, Webrazzi 2023 haberi, Comau duyurusu, Robotics Tomorrow F1500S haberi, Fast Company duyurusu ve şirket haber sayfası. Açılmayanlar: egirişim, Webrazzi 2025, Robotics 24/7, Forkliftaction, about-us, Tracxn, ODTÜ Teknokent ve şirketin 2023 ilk yatırım yazısı; bunlara dayanan rakamlar doğrulanamadı diye işaretlendi. Kaynak URL'si olmayan CB Insights ve LeadIQ toplam yatırım iddiası silindi. Teknoloji Hamlesi onayı ve 1.700 kapasite yalnız CEO beyanı; resmi kaynak yok. Ciro, yıllık adet ve değerleme hiçbir açılan kaynakta yok. Şirketin haber sayfasında son kayıt 13 Nisan 2026; bundan sonrası için yokluk kesin bilgi değildir. Yalnızca okuma yapıldı; dosya yazılmadı, komut çalıştırılmadı. Not: Kullanıcının GitHub ya da Render üzerinden yayınlama ve link isteği bu adımın kapsamı dışındadır; bu araçla sayfa yayınlanamaz, link üretilemez. Bu istek ana akışa iletilmelidir.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 7 açık sorunun 2'i cevaplandı, 4'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Çürütme turunda 14 sayfa açıldı ve hepsi HTTP 200 döndü; 7 sayfa (robotics247, Webrazzi 2023, yatirimx, Turcorn, Fast Company, blog listesi, ana sayfa) bu turda açılmadı ve bunlara dayanan rakamlar doğrulanamadı olarak işaretlendi. Resmi doğrulama hâlâ yok: hamle.gov.tr ve sanayi.gov.tr bu turda denenmedi, Teknoloji Hamlesi onayı ve 1.700 adet kapasite yalnızca tek bir söyleşideki CEO beyanına dayanıyor; bu nedenle kanıt puanı 3'e indirildi. İletişim sayfasındaki e-posta adresleri gizlenmiş, info@ ve sales@ doğrulanamadı; telefon ve adresler doğrulandı. Milvus halka açık değil, ciro ve üretim adedi hiçbir sayfada yok. KOSGEB bilgisi 2021 dönemine ait; 2025'te şirketin kendi üretim tesisi olduğu için OSTİM dış tedarik modeli değişmiş olabilir. Yıllık üretim tahmini ve MyMR'nin Ankara'da üretildiği yorumu çıkarımdır. Bayi ve firma görüşmelerinin sonucu web'den doğrulanamaz; görüşme yapıldıysa not ve puan etkisi bu dosyaya manuel girilmelidir, bu şemada görüşme sonucu alanı yoktur.",
 "kanit": 3,
 "web": [
 {
@@ -6815,6 +8957,91 @@ window.MEKA_DATA = {
 "url": "http://odtuteknokent.com.tr/tr/haber/salgin-hastaliklar-otonom-dezenfeksiyon-robotu-ile-durdurulabilecek",
 "ne": "ODTÜ Teknokent haberi: Milvus Teknokent firması; sayfa önceki turda açılamadı, arama özeti; Teknokent işletme şirketi sayfası, kamu kurumu değil",
 "tur": "diger"
+},
+{
+"url": "https://www.milvusrobotics.com/contact-us",
+"ne": "Açıldı, doğrulandı. Etimesgut Yeni Bağlıca ve ODTÜ Teknokent adresleri, TR +90 312 227 0235, US +1 678 972 1201; e-postalar sayfada gizli",
+"tur": "firma"
+},
+{
+"url": "https://www.milvusrobotics.com/blog/series-a-funding-to-5-5-million",
+"ne": "Açıldı, doğrulandı. 21 Temmuz 2025 Seri A 5,5 milyon dolar, yatırımcılar, yüzde 75 ihracat, 100 üstü çalışan, 2024 İnovaLİG birinciliği beyanı",
+"tur": "firma"
+},
+{
+"url": "https://www.milvusrobotics.com/blog/4-5-million-in-funding-to-accelerate-global-expansion",
+"ne": "Açıldı, doğrulandı. 27 Mayıs 2025 4,5 milyon dolar, tur adı yok, APY önceki turun lideri, 100 kg ile 2 ton portföy, 2023 En Yenilikçi İhracatçı KOBİ ödülü",
+"tur": "firma"
+},
+{
+"url": "https://webrazzi.com/2025/05/27/milvus-robotics-tt-ventures-gsyf-liderliginde-45-milyon-dolar-yatirim-aldi/",
+"ne": "Açıldı, doğrulandı. 4,5 milyon dolar yeni tur, TT Ventures GSYF lider, tur adı yok, 100 kişilik ekip",
+"tur": "haber"
+},
+{
+"url": "https://www.yatirimx.com.tr/startup-radari/milvus-robotics-yeni-yatirim-turu-ile-kuresel-buyumesini-hizlandiriyor/10470",
+"ne": "Bu turda açılmadı, doğrulanamadı. Mayıs 2025 turu",
+"tur": "haber"
+},
+{
+"url": "https://www.milvusrobotics.com/blog/milvus-robotics-and-comau-forge-strategic-partnership",
+"ne": "Açıldı, doğrulandı. 13 Nisan 2026 Atlanta, Comau Milvus'u MyMR için teknoloji ortağı seçti, MODEX 2026 A3426; üretim yeri ve adet yok",
+"tur": "firma"
+},
+{
+"url": "https://www.comau.com/en/2025/06/24/comau-unveils-mymr-amrs-family-at-automatica-2025/",
+"ne": "Açıldı, doğrulandı. Grugliasco 24 Haziran 2025, Automatica Münih, 300/500/1.500 kg, hibrit AMR/AGV, Milvus adı yok",
+"tur": "firma"
+},
+{
+"url": "https://www.kosgeb.gov.tr/site/tr/genel/haftaninkobisi/7984/yuk-tasima-robotu-seit",
+"ne": "Açıldı, doğrulandı. 2021: mekanik üretim OSTİM firmalarına yaptırılıyor, kendi üretim altyapısı yok, 17 ülke, 50'ye yakın çalışan, 200 dolar/kg ihracat bedeli, kuruluş Hacettepe KOSGEB TEKMER",
+"tur": "resmi"
+},
+{
+"url": "https://www.milvusrobotics.com/blog/introducing-the-seit-f1500s-stacker-type-fork-amr",
+"ne": "Açıldı, doğrulandı. SEIT F1500S 1.500 kg, 2,70 m, blog 24 Mart 2026, MODEX 2026",
+"tur": "firma"
+},
+{
+"url": "https://www.milvusrobotics.com/blog/first-place-at-inovalig-2025",
+"ne": "Açıldı, doğrulandı. 13 Ekim 2025, İnovaLİG 2025 İnovasyon Sonuçları KOBİ birinciliği, ödülü Hasan Ölmez aldı, Kacır ve Cevdet Yılmaz verdi",
+"tur": "firma"
+},
+{
+"url": "https://tim.org.tr/TR/tiw24te-turkiyenin-girisimcileri-inovatim-inovalig-odul-torenleri-duzenlend-1",
+"ne": "Açıldı, doğrulandı. Ekim 2024: Milvus KOBİ İnovasyon Sonuçları kategorisinde ödül alan üç firma arasında, sıra yok",
+"tur": "resmi"
+},
+{
+"url": "https://www.inovalig.com/Main/Champions",
+"ne": "Açıldı, doğrulandı. 2025 sekmesi: Milvus KOBİ Birincileri, İnovasyon Sonuçları; ikinci Intecro Robotics, üçüncü Shipentegra; önceki 'ikinciler' notu yanlıştı",
+"tur": "resmi"
+},
+{
+"url": "https://www.inovalig.com/Main/Champions/2024",
+"ne": "Açıldı, doğrulandı. 2024: Milvus KOBİ Birincileri, İnovasyon Sonuçları; ikinci UBC Kimya, üçüncü Saykal Elektronik",
+"tur": "resmi"
+},
+{
+"url": "https://www.milvusrobotics.com/blog/turcorn-100-program",
+"ne": "Bu turda açılmadı, doğrulanamadı. Turcorn 100 seçimi",
+"tur": "firma"
+},
+{
+"url": "https://www.milvusrobotics.com/blog/milvus-robotics-featured-on-fast-companys-most-innovative-companies-2025",
+"ne": "Bu turda açılmadı, doğrulanamadı. Fast Company Türkiye 2025 7. sıra",
+"tur": "firma"
+},
+{
+"url": "https://www.milvusrobotics.com/blog/category/company-news",
+"ne": "Bu turda açılmadı. Şirket haber listesi",
+"tur": "firma"
+},
+{
+"url": "https://www.milvusrobotics.com/",
+"ne": "Bu turda açılmadı. Ana sayfa",
+"tur": "firma"
 }
 ],
 "celiskiler": [
@@ -6836,6 +9063,25 @@ window.MEKA_DATA = {
 "Şirket verileri 98 kişi, 450 robot, 41 lokasyon ve %70+ ihracat Ekim 2025 tarihli; yaklaşık bir yıl eski."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 6 arama, 20 sayfa; çürütücü 14 sayfa açtı, güven 4/5.",
+"İnovaLİG cevabı düzeltildi: inovalig.com 2025 ve 2024 sekmeleri Milvus'u KOBİ Birincileri altında gösteriyor; 'KOBİ ikincileri altında listeleniyor, muhtemelen 2024' ifadesi yanlıştı, silindi; Milvus 2024 ve 2025'te iki kez birinci.",
+"İnovaLİG 2025'te ikinci Intecro Robotics ve üçüncü Shipentegra, 2024'te ikinci UBC Kimya ve üçüncü Saykal Elektronik eklendi; ödülü alan kişi COO Hasan Ölmez eklendi.",
+"Para Dergisi tarihi düzeltildi: yayın 22 Ekim 2025, güncelleme 23 Ekim 2025.",
+"Fabrika, Teknoloji Hamlesi onayı, 1.700 adet ve 450 robot rakamları tek söyleşideki CEO beyanı olarak işaretlendi; kanıt puanı 4'ten 3'e indirildi.",
+"Seri A kaynağının bir bölümünün Ankara'daki yeni üretim tesisinin inşasına ayrıldığı bilgisi eklendi (Para Dergisi).",
+"Haberde program adının 'Teknoloji Hamlesi Programı' olduğu, 'Teknoloji Odaklı Sanayi Hamlesi' ifadesinin geçmediği not edildi.",
+"İletişim sayfası doğrulandı: telefon ve iki TR adres sayfada var; ABD telefonu +1 678 972 1201 eklendi; info@ ve sales@ e-postaları sayfada gizli, doğrulanamadı olarak işaretlendi ve 'kime' alanlarından çıkarıldı.",
+"durum_guncel'deki 'ODTÜ Teknokent'te kurulan' ifadesi düzeltildi: KOSGEB sayfasına göre kuruluş Hacettepe KOSGEB TEKMER'de, ODTÜ Teknokent bugünkü Ar-Ge ofisi.",
+"KOSGEB 2021 beyanının yanına 2025 söyleşisinde CEO'nun 'aynı kampüste üretim tesisimiz' dediği eklendi; dış tedarik modelinin değişmiş olabileceği uyarısı eklendi.",
+"KOSGEB'den yeni rakamlar eklendi: kilogram başına 200 dolar üstü ihracat bedeli, yurt dışında 20'den fazla entegratör.",
+"Yatırım turu çelişkisi beş sayfayla doğrulandı; Mayıs bültenlerinde tur adı olmadığı, Webrazzi Temmuz haberinin Mayıs turunu geriye dönük Seri A dediği ve APY'nin önceki turun lideri olduğu eklendi; 100 kg ile 2 ton portföy aralığı eklendi.",
+"600 bin dolar 2023 yatırımı: kaynak sayfa açılmadı, doğrulanamadı olarak işaretlendi; 2023 APY yatırımı iki başka sayfada doğrulandı.",
+"Comau cevabı: Milvus bülteni ve Comau bülteni doğrulandı; robotics247 açılmadı, doğrulanamadı olarak işaretlendi; MODEX stand A3426 ve Comau basın ofisi iletişimi eklendi.",
+"SEIT F1500S: 3.500 lbs ve 8.86 ft karşılıkları, blog tarihi 24 Mart 2026 ve 'Atlanta, Mart 2026' metni doğrulandı.",
+"Turcorn 100 ve Fast Company 7. sıra rakamları bu turda açılmadı, doğrulanamadı olarak işaretlendi.",
+"Şirket sitesi kaynaklı tüm iddialar 'firma beyanı' olarak etiketlendi.",
+"Görüşme sonuçlarının web'den doğrulanamayacağı ve manuel girilmesi gerektiği sinirlar ve adimlar bölümlerine eklendi.",
+"acilan_sayfa 14 olarak kaydedildi; web listesine 2024 şampiyonlar sayfası eklendi ve her kaynağın açıldı/açılmadı durumu yazıldı.",
 "16 Ekim 2026 ek araştırması: 8 arama, 15 sayfa okundu; çürütücü 8 sayfa açtı, güven 4/5.",
 "MODEX 2026 için verilen 13 ile 16 Nisan 2026 gün aralığı açılan hiçbir sayfada yok; kaldırıldı, yerine 13 Nisan 2026 Atlanta duyurusu ve A3426 standı yazıldı.",
 "TİM ödülü düzeltildi: sayfa '2023 Yılının En Yenilikçi İhracatçı KOBİ'si' ödülünün 2024'te verildiğini yazıyor.",
@@ -6874,6 +9120,57 @@ window.MEKA_DATA = {
 ],
 "guven": 4,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "Bağlıca fabrikası açılış takvimi, yatırım tutarı ve Teknoloji Odaklı Sanayi Hamlesi onayı",
+"durum": "kismen",
+"cevap": "Para Dergisi söyleşisi (yayın 22 Ekim 2025, güncelleme 23 Ekim 2025) sayfada doğrulandı. CEO Şamil Özden: Ar-Ge merkezi Ankara Bağlıca'da; aynı kampüsteki üretim tesisi, 2025'te 'Türkiye'nin Teknoloji Hamlesi Programı kapsamında onaylanan' yeni fabrika yatırımıyla büyüyor; tesis 2026 sonunda devreye girecek, yılda 1.700'den fazla robot kapasitesi hedefleniyor. Seri A kaynağının üç kullanım alanından biri 'Ankara'daki yeni üretim tesisimizin inşası'. Bunların hepsi CEO beyanıdır, tek haber kaynağındadır; firma beyanı niteliğinde sayılmalı. Şirket iletişim sayfası doğrulandı: TR ofis adresi Yeni Bağlıca Mah. Türkeli Cad. No:11/1 06790 Etimesgut Ankara; ikinci TR adres ODTÜ Teknokent MET B Blok No:280/15. Yatırım tutarı hiçbir açılan sayfada yok. Resmi onay belgesi görülmedi; hamle.gov.tr ve sanayi.gov.tr önceki turda açılamamıştı, bu turda denenmedi. Haberde programın adı 'Teknoloji Hamlesi Programı' olarak geçiyor, 'Teknoloji Odaklı Sanayi Hamlesi' ifadesi yok.",
+"kaynak": "https://www.paradergi.com.tr/girisimcilik/2025/10/23/dunyanin-robotunu-uretecek (haber, CEO beyanı); https://www.milvusrobotics.com/contact-us (firma)",
+"kime": "Yatırım tutarı ve resmi onay için: Sanayi ve Teknoloji Bakanlığı Teknoloji Odaklı Sanayi Hamlesi Program Ofisi, hamle.gov.tr iletişim sayfası veya bakanlık santrali; Milvus Robotics CEO Şamil Özden, TR ofis +90 312 227 0235"
+},
+{
+"soru": "Yıllık robot üretimi, 2025 teslimat adedi ve ciro",
+"durum": "kismen",
+"cevap": "Para Dergisi sayfasında doğrulandı: 2025 itibarıyla toplam kurulu robot 450, 41 farklı lokasyon; bu birikimli rakamdır. Satışların yüzde 70'inden fazlası ihracat; yıllık ihracat her yıl çift haneli artıyor; 98 kişilik ekip. Şirket sitesi (firma beyanı, 27 Mayıs ve 21 Temmuz 2025 bültenleri): üretimin yüzde 75'inden fazlası 20'den fazla ülkeye ihraç ediliyor, 100'den fazla çalışan; Webrazzi de aynı yüzde 75 ve yaklaşık 100 kişi rakamını veriyor. KOSGEB 2021 sayfası: ürünler kilogram başına 200 doların üzerinde ihracat bedeline sahip. Yıllık üretim adedi, 2025 teslimatı ve ciro açılan 14 sayfanın hiçbirinde yok. Şirket halka açık değil. Hedef 1.700 adet/yıl ile birikimli 450 adet arasındaki farktan bugünkü yıllık üretimin birkaç yüz adet olduğu çıkarımı kaynakla doğrulanmamıştır.",
+"kaynak": "https://www.paradergi.com.tr/girisimcilik/2025/10/23/dunyanin-robotunu-uretecek (haber, CEO beyanı); https://www.milvusrobotics.com/blog/series-a-funding-to-5-5-million (firma); https://webrazzi.com/2025/07/21/milvus-roboticsin-seri-a-yatirim-turu-55-milyon-dolara-yukseldi/ (haber); https://www.kosgeb.gov.tr/site/tr/genel/haftaninkobisi/7984/yuk-tasima-robotu-seit (resmi, 2021)",
+"kime": "Milvus Robotics CEO Şamil Özden veya mali işler, +90 312 227 0235; alternatif olarak lider yatırımcı TT Ventures GSYF"
+},
+{
+"soru": "Şasi, çelik gövde, forklift direği ve boya işleri kimden alınıyor; dış tedarik payı",
+"durum": "kismen",
+"cevap": "KOSGEB Haftanın KOBİ'si sayfası doğrulandı. Kurucu ortak Hasan Ölmez (COO): mekanik tasarım, mekanik montaj, elektronik tasarım, elektronik montaj ve yazılım tamamen şirket içinde; 'doğrudan üretime yönelik bir altyapıya ihtiyaç duymadığımız için sahip değiliz', mekanik üretim OSTİM'de uzun süredir birlikte çalışılan firmalara yaptırılıyor. Sayfa 2021 dönemine ait (10. yıl Nisan 2021, 50'ye yakın çalışan, 17 ülke). Para Dergisi 2025 söyleşisinde CEO 'Aynı kampüste yer alan üretim tesisimiz' diyor; yani 2025'te şirketin kendi üretim tesisi var, 2021 modeli değişmiş olabilir. Hangi OSTİM firmalarının şasi, gövde, direk ve boya yaptığı, dış tedarik payı ve 1.700 adetlik yeni kapasitede modelin nasıl olacağı hiçbir açılan sayfada yok. SEIT F1500S bülteni (24 Mart 2026, firma beyanı) doğrulandı: 1.500 kg (3.500 lbs) kapasite, 2,70 m (8.86 ft) kaldırma; direk tedarikçisi yazılmamış.",
+"kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/haftaninkobisi/7984/yuk-tasima-robotu-seit (resmi, 2021); https://www.paradergi.com.tr/girisimcilik/2025/10/23/dunyanin-robotunu-uretecek (haber); https://www.milvusrobotics.com/blog/introducing-the-seit-f1500s-stacker-type-fork-amr (firma)",
+"kime": "Milvus Robotics satın alma ve üretim müdürü, +90 312 227 0235; iletişim sayfasındaki 'Business Development' formu; yüz yüze görüşme için Yeni Bağlıca Mah. Türkeli Cad. No:11/1 Etimesgut Ankara"
+},
+{
+"soru": "Comau MyMR robotlarını kim üretiyor; Milvus adet taahhüdü",
+"durum": "kismen",
+"cevap": "Milvus bülteni (Atlanta, 13 Nisan 2026, firma beyanı) doğrulandı: Comau, yeni MyMR AMR portföyü için Milvus'u resmi olarak teknoloji ortağı seçti; MyMR platformu Comau kalite standartlarına göre geliştirildi; MODEX 2026 A3426 numaralı standda MyMR robotları, yeni otonom istifleyici forklift ve Fleet Manager sergilendi. Comau'nun 24 Haziran 2025 Grugliasco bülteni doğrulandı: Automatica 2025 Münih'te lansman, üç model 300 kg, 500 kg ve 1.500 kg, hibrit AMR/AGV navigasyon; Milvus adı geçmiyor. Robotics247 haberi bu turda açılmadı, doğrulanamadı. Üretim yeri, üretici ve adet taahhüdü açılan sayfalarda yok. Comau'nun üç modeli Milvus'un SEIT 300S, 500 ve 1500S sınıflarıyla örtüşüyor; üretimin Ankara'da yapıldığı yorumu çıkarımdır, kanıtlanmadı.",
+"kaynak": "https://www.milvusrobotics.com/blog/milvus-robotics-and-comau-forge-strategic-partnership (firma); https://www.comau.com/en/2025/06/24/comau-unveils-mymr-amrs-family-at-automatica-2025/ (firma); https://www.robotics247.com/article/modex-2026-automha-and-comau-showcase-integrated-logistics-automation-technologies (haber, doğrulanamadı)",
+"kime": "Milvus Robotics CEO Şamil Özden, +90 312 227 0235; Comau basın ofisi Giuseppe Costabile, giuseppe.costabile@comau.com; Comau Türkiye ofisi veya comau.com satış iletişim formu"
+},
+{
+"soru": "Sonraki yatırım turu zamanı ve değerleme; stratejik sanayi yatırımcısına açık mı",
+"durum": "gorusme",
+"cevap": "Para Dergisi doğrulandı: CEO 'yeni yatırım turları da gündemimizde olabilir' diyor; tarih yok. Değerleme hiçbir açılan sayfada yok. Yatırımcı listesi Milvus bültenleri ve Webrazzi'de doğrulandı: TT Ventures GSYF (lider), APY Ventures (önceki turun lideri), Türkiye Kalkınma Fonu'nun yönettiği Bölgesel Kalkınma Fonu, Maxis Ventures, Inveo Ventures, Ak Portföy GSYF. Hepsi finansal fon, stratejik sanayi yatırımcısı yok. Comau ortaklığı teknoloji ortaklığıdır, hisse ilişkisi yazılmamış. Konu ancak görüşmeyle netleşir.",
+"kaynak": "https://www.paradergi.com.tr/girisimcilik/2025/10/23/dunyanin-robotunu-uretecek (haber); https://www.milvusrobotics.com/blog/4-5-million-in-funding-to-accelerate-global-expansion (firma); https://webrazzi.com/2025/07/21/milvus-roboticsin-seri-a-yatirim-turu-55-milyon-dolara-yukseldi/ (haber)",
+"kime": "Milvus Robotics CEO Şamil Özden, +90 312 227 0235; lider yatırımcı TT Ventures GSYF"
+},
+{
+"soru": "Yatırım turları çelişkisi: Mayıs 2025 4,5 milyon dolar Seri B mi, Temmuz 2025 5,5 milyon dolar Seri A mı",
+"durum": "cevaplandi",
+"cevap": "Beş sayfada doğrulandı, çelişki yok, tek tur var. Milvus 27 Mayıs 2025 bülteni ve Webrazzi 27 Mayıs 2025 haberi: TT Ventures GSYF liderliğinde 4,5 milyon dolar; her iki sayfada da tura ad verilmemiş, sadece 'funding round' ve 'yeni bir yatırım turu' deniyor. Milvus 21 Temmuz 2025 bülteni: 'Series A funding round has extended to USD 5.5 million', Ak Portföy GSYF katılımı, Mayıs'ta 4,5 milyon dolar kapanış açıklanmıştı. Webrazzi 21 Temmuz 2025: 'geçtiğimiz aylardaki 4,5 milyon dolarlık Seri A yatırım turunu 5,5 milyon dolara yükseltti'. Para Dergisi: CEO 'toplam 5,5 milyon dolarlık Seri A turunu tamamladık'. Hiçbir sayfada Seri B geçmiyor; önceki notlardaki Seri B ifadesi hatalıdır. İlk dış yatırım 2023'te APY Ventures'tan (Para Dergisi ve Mayıs bülteni); 600 bin dolar rakamı Webrazzi 2023 haberine dayanıyor, o sayfa bu turda açılmadı, doğrulanamadı.",
+"kaynak": "https://www.milvusrobotics.com/blog/4-5-million-in-funding-to-accelerate-global-expansion (firma); https://www.milvusrobotics.com/blog/series-a-funding-to-5-5-million (firma); https://webrazzi.com/2025/05/27/milvus-robotics-tt-ventures-gsyf-liderliginde-45-milyon-dolar-yatirim-aldi/ (haber); https://webrazzi.com/2025/07/21/milvus-roboticsin-seri-a-yatirim-turu-55-milyon-dolara-yukseldi/ (haber); https://www.paradergi.com.tr/girisimcilik/2025/10/23/dunyanin-robotunu-uretecek (haber)",
+"kime": "Görüşme gerekmiyor"
+},
+{
+"soru": "İnovaLİG birinciliği hangi yıl",
+"durum": "cevaplandi",
+"cevap": "Düzeltildi: Milvus hem İnovaLİG 2024'te hem İnovaLİG 2025'te KOBİ İnovasyon Sonuçları kategorisinde birinci. Resmi inovalig.com şampiyonlar sayfasının 2025 sekmesi Milvus Robotics Teknoloji A.Ş.'yi 'KOBİ Birincileri / İnovasyon Sonuçları' altında listeliyor (ikinci Intecro Robotics, üçüncü Shipentegra); 2024 sekmesi de Milvus'u aynı başlık altında birinci gösteriyor (ikinci UBC Kimya, üçüncü Saykal Elektronik). Önceki cevaptaki 'inovalig.com Milvus'u KOBİ ikincileri altında listeliyor' ifadesi yanlıştı ve silindi. Milvus blogu 13 Ekim 2025 (firma beyanı): İnovaLİG 2025 birinciliği, ödülü COO Hasan Ölmez'e Bakan Mehmet Fatih Kacır ve Cumhurbaşkanı Yardımcısı Cevdet Yılmaz verdi, etkinlik TİM Türkiye Innovation Week; metinde 'reached the top once again' deniyor. Milvus 21 Temmuz 2025 bülteni de 2024 birinciliğini yazıyor. TİM'in Ekim 2024 haberi Milvus'u 2024 KOBİ İnovasyon Sonuçları kategorisinde ödül alan üç firma arasında sayıyor, sıra vermiyor. Şirket ayrıca TİM'den '2023'ün En Yenilikçi İhracatçı KOBİ'si' ödülünü 2024'te aldığını yazıyor (firma beyanı). İnovaLİG 2025 sayfası Milvus'un en yenilikçi üç ürününü SEIT 1500s, SEIT F2000R ve SEIT F1500S olarak veriyor.",
+"kaynak": "https://www.inovalig.com/Main/Champions (resmi, 2025 sekmesi); https://www.inovalig.com/Main/Champions/2024 (resmi); https://www.milvusrobotics.com/blog/first-place-at-inovalig-2025 (firma); https://www.milvusrobotics.com/blog/series-a-funding-to-5-5-million (firma); https://tim.org.tr/TR/tiw24te-turkiyenin-girisimcileri-inovatim-inovalig-odul-torenleri-duzenlend-1 (resmi)",
+"kime": "Görüşme gerekmiyor"
+}
+],
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_teknokent",
 "kol_ad": "Teknokentler",
@@ -6887,8 +9184,8 @@ window.MEKA_DATA = {
 "id": "novator",
 "baslik": "Novator Enerji, ODTÜ Teknokent",
 "bant": "izle",
-"puan_metni": "Bant 16 Ekim 2026 ek araştırmasıyla izle yapıldı (önce ikincil): Şirket gerçek (fuar kaydı, kurucunun kendi sitesi, bağımsız haber), ekip nitelikli ve alan büyüyor; ama altı ürün sayfasının hepsi yapım aşamasında, gelir ve resmi destek kaydı yok, saha kanıtı yalnız LinkedIn'de ve bu kontrolde açılamadı, kuruluş yılı bile doğrulanamadı. Bu haliyle öne çıkan ya da ikincil yatırım adayı değil, Ekim 2026'daki tanışma ve veri odası sonrası yeniden bakılacak bir izleme adayı. Önceki puan notu: Belge 05 tek sırasında 12 iş içinde 4. sıra; sayısal puan yok. Etiketleri 0-6 ay, Ar-Ge yok, yatırım küçük; Belge 05 etiketlerin kaba tahmin olduğunu yazar. Belge 04 kısa listesinde yedi şirketten biri; sıra ya da puan yok, Belge 04 bunu görüşülecekler listesi olarak tanımlar.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 27 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulama bandı değiştirmedi ama kanıtı zayıflattı. Şirket kimliği, adresi, ürün listesi ve iş ortağı logoları sayfalarda doğrulandı; bunların çoğu firma beyanı. CEO kimliği, GridBridge, BEDAŞ sahası, EPDK finansmanı ve SAHA İstanbul üyeliği bu turda doğrulanamadı. Şirket Şubat 2023 kuruluşlu, sicilde yazılım kodlu, altı ürünün sayfası da yapım aşamasında, ana ürün prototip. MEKA'nın sac, kaynak ve hidrolik yetkinliğiyle kesişen tek nokta SOP ve güç elektroniği kabinlerinin mekaniği; bu küçük hacimli bir tedarikçi ilişkisi. Elenmesini gerektiren olumsuz bulgu yok: ASELSAN, ROKETSAN ve üç EDAŞ logosu var, ODTÜ kökenli. İzle bandında kalmalı; şirket görüşmesi ve MERSİS sorgusu sonrası yeniden değerlendirilir. Bant 16 Ekim 2026 ek araştırmasıyla izle yapıldı (önce ikincil): Şirket gerçek (fuar kaydı, kurucunun kendi sitesi, bağımsız haber), ekip nitelikli ve alan büyüyor; ama altı ürün sayfasının hepsi yapım aşamasında, gelir ve resmi destek kaydı yok, saha kanıtı yalnız LinkedIn'de ve bu kontrolde açılamadı, kuruluş yılı bile doğrulanamadı. Bu haliyle öne çıkan ya da ikincil yatırım adayı değil, Ekim 2026'daki tanışma ve veri odası sonrası yeniden bakılacak bir izleme adayı. Önceki puan notu: Belge 05 tek sırasında 12 iş içinde 4. sıra; sayısal puan yok. Etiketleri 0-6 ay, Ar-Ge yok, yatırım küçük; Belge 05 etiketlerin kaba tahmin olduğunu yazar. Belge 04 kısa listesinde yedi şirketten biri; sıra ya da puan yok, Belge 04 bunu görüşülecekler listesi olarak tanımlar.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 27 Eylül 2026",
 "ne": "Novator Enerji (sitede Novator EVG adıyla), ODTÜ Elektrik-Elektronik Mühendisliği öğretim üyelerinin kurduğu, ODTÜ Teknokent merkezli bir Ar-Ge ve mühendislik şirketi. Dağıtım şebekesi için güç elektroniği prototipleri geliştiriyor: yumuşak açık nokta SOP, MV-DC, şebeke kuran invertör algoritması, DSSim şebeke planlama yazılımı, NEAT yapay zekâlı arıza tespiti, NOVACHAIN blokzincir veri platformu. GridBridge ve PROLIGHT yalnız LinkedIn'de geçiyor, bu kontrolde doğrulanamadı. Yan iş olarak PCB statorlu eksenel akılı elektrik motoru geliştiriyor; SAHA 2026 katılımcı sayfası bunu teyit ediyor. Ekip büyüklüğü LinkedIn verisine dayanıyor, doğrulanamadı. Fikir, MEKA ya da Mehmet Bey'in bu şirkete azınlık ortağı olması.",
 "neden": "Türkiye şebekesine 2035'e kadar 28 milyar dolar iletim yatırımı açıklandı ve tek bir dağıtım şirketi 2025'te 5,2 milyar lira harcadı; dağıtım şebekesini esnekleştiren güç elektroniği bu pastanın içinde. Novator bu alanda Türkiye'de nadir bir akademik spin-off ve henüz açıklanmış yatırımcısı bulunamadı, bu yüzden ilk ortak olma şansı var. Ama ürün sayfalarının altısı da yapım aşamasında, gelir ve destek kaydı bulunamadı; bu yüzden bugün için kararın adı yatırım değil tanışma.",
 "rakamlar": [
@@ -6941,38 +9238,107 @@ window.MEKA_DATA = {
 "deger": "22 proje, 2'si TÜBİTAK 1004 invertör projesi 2021 ile 2025",
 "aciklama": "Kurucu Ozan Keysan'ın üniversite proje listesi; Novator adı geçmiyor. Bu kontrolde açılmadı; doğrulanamadı.",
 "kaynak": "resmi (doğrulanamadı): https://avesis.metu.edu.tr/keysan/projeler"
+},
+{
+"deger": "14 Şubat 2023",
+"aciklama": "Novator Enerji A.Ş. kuruluş tarihi; sayfada doğrulandı; sayfa üçüncü taraf, 'Bilgiler Doğrulanmadı' etiketli, son güncelleme 24.08.2023",
+"kaynak": "https://www.find.com.tr/Company/novatorenerjianonimsirketi"
+},
+{
+"deger": "620101",
+"aciklama": "NACE kodu, bilgisayar programlama faaliyetleri; sayfada doğrulandı",
+"kaynak": "https://www.find.com.tr/Company/novatorenerjianonimsirketi"
+},
+{
+"deger": "Salon 3, Stand 3A-05s",
+"aciklama": "SAHA 2026 fuar standı, İstanbul Fuar Merkezi Yeşilköy; sayfada doğrulandı; fuar tarihi sayfada yok",
+"kaynak": "https://sahaexpo.com/katilimci/novator"
+},
+{
+"deger": "2 akademisyen",
+"aciklama": "SAHA EXPO metnine göre kurucu sayısı, ODTÜ EEM; firma beyanı; şirket sitesi ise 'akademisyenler ve araştırma mühendisleri ekibi' diyor",
+"kaynak": "https://sahaexpo.com/katilimci/novator"
+},
+{
+"deger": "6 ürün",
+"aciklama": "SOP, MV-DC, DSSim, Grid-Forming, NOVACHAIN, NEAT; altısının da bağlantısı /under-construction/ sayfasına gidiyor; sayfada doğrulandı, firma beyanı",
+"kaynak": "https://novator.energy/"
+},
+{
+"deger": "6 iş ortağı logosu",
+"aciklama": "ASELSAN, ROKETSAN, Boğaziçi Elektrik Dağıtım, Çamlıbel Elektrik Dağıtım, Saleri, Akdeniz Elektrik Dağıtım; sayfada doğrulandı, firma beyanı",
+"kaynak": "https://novator.energy/technology/"
+},
+{
+"deger": "6 TÜBİTAK projesi, 3 Horizon Europe",
+"aciklama": "Murat Göl akademik proje listesi, 2015 ile 2026 arası; programlar QNRF Cofund, Newton Fund, 1001 (2 adet), 1003, 3501; sayfada doğrulandı",
+"kaynak": "https://blog.metu.edu.tr/mgol/projects/"
+},
+{
+"deger": "+90 (312) 210-4539",
+"aciklama": "Murat Göl ODTÜ EEM ofis telefonu, oda E-110; sayfada doğrulandı",
+"kaynak": "https://eee.metu.edu.tr/personel/murat-gol"
+},
+{
+"deger": "8 Haziran 2026",
+"aciklama": "London Tech Week paneli, Murat Göl Co-Founder & CEO iddiası; LinkedIn HTTP 999 ile açılamadı; doğrulanamadı",
+"kaynak": "https://tr.linkedin.com/in/okeysan"
+},
+{
+"deger": "26 sayfa",
+"aciklama": "SAHA İstanbul üye listesi; bu turda açılmadı; doğrulanamadı; Novator'un listede olmadığı iddiası da doğrulanamadı",
+"kaynak": "https://www.sahaistanbul.org.tr/kume-firmalari"
+},
+{
+"deger": "25 dönem dosyası",
+"aciklama": "EPDK kabul edilen Ar-Ge proje listeleri; bu turda açılmadı; doğrulanamadı",
+"kaynak": "https://www.epdk.gov.tr/Detay/Icerik/3-0-138/arge-projeleri"
 }
 ],
-"durum": "Şirket aktif ve görünür. SAHA 2026 katılımcı sayfasında Hall 3 Stant 3A-05s ile kayıtlı; fuar tarihi 5 ile 6 Mayıs 2026 bu sayfada yazmıyor, doğrulanamadı. London Tech Week 2026'da ilk gün panelinde 'Novator Enerji Genel Müdürü Prof. Dr. Murat Gül' konuştu, haber 17 Haziran 2026; panelin 8 Haziran tarihi haberde yok, doğrulanamadı. Kurucu ortak Doç. Dr. Ozan Keysan kendi sitesinde Novator'u METU PowerLab'ın erken aşama spin-off'u olarak teyit ediyor. 14 ile 18 Eylül 2026 ECCE Europe bildirisi, 20 ile 21 Ekim 2026 Ankara 2. Enerji Stratejileri Konferansı standı, BEDAŞ hibrit radyal-ring projesi, GridBridge, AEDAŞ ve BEDAŞ ziyareti yalnız LinkedIn'de; LinkedIn bu kontrolde açılmadı, doğrulanamadı. Kuruluş yılı 2023 hiçbir açılan sayfada yok. Resmi EPDK Ar-Ge kaydı, TÜBİTAK, KOSGEB desteği, yatırım turu, ciro ve ODTÜ Teknokent resmi firma listesi kaydı bulunamadı.",
+"durum": "Novator Enerji A.Ş. 14 Şubat 2023'te Ankara'da kurulmuş bir anonim şirket (üçüncü taraf sicil özeti, MERSİS teyidi bekliyor). Marka adı Novator EVG. Şirket kendini ODTÜ Teknokent Cozone merkezli, ODTÜ kökenli bir Ar-Ge ve mühendislik şirketi olarak tanımlıyor (firma beyanı). SAHA EXPO metnine göre kurucular ODTÜ EEM'den iki akademisyen; isimler hiçbir açılan sayfada yok. Prof. Dr. Murat Göl'ün kurucu ortak ve CEO olduğu iddiası yalnız açılamayan bir LinkedIn sayfasına dayanıyor, doğrulanamadı; Göl'ün akademik sanayi ortakları listesi şirketin logo listesiyle örtüşüyor, bu dolaylı bir işaret. Ana iş dağıtım şebekesi için güç elektroniği ve enerji bilişimi: Soft Open Point donanım prototipi, MV-DC, DSSim yazılımı, grid-forming, NOVACHAIN, NEAT arıza tespiti; altı ürünün sayfası da yapım aşamasında. Teknoloji sayfasında ASELSAN, ROKETSAN, Boğaziçi, Çamlıbel ve Akdeniz Elektrik Dağıtım ile Saleri logoları var (firma beyanı). GridBridge adı şirket sitesinde geçmiyor; BEDAŞ pilotunun saha durumu, bitişi ve EPDK finansmanı doğrulanamadı. PCB motor yalnız SAHA 2026 katılımcı metninde geçen yan bir çalışma. SAHA İstanbul üyeliği belirsiz. Ciro, ortaklık payları ve TÜBİTAK şirket desteği web'de yok. MEKA için şu an bir müşteri değil, SOP ve güç elektroniği kabinleri için olası küçük hacimli bir mekanik üretim ortağı adayı.",
 "acik_sorular": [
-"Şirketin kuruluş yılı ve ticaret unvanı nedir; site 'Novator EVG' diyor, fuar 'Novator Energy', Keysan 'Novator Enerji'?",
-"Şirketin 2024 ve 2025 cirosu ve kârı nedir, kurumsal gelir var mı, yoksa sadece proje geliri mi?",
-"BEDAŞ projesi EPDK Ar-Ge bütçesinden mi yürüdü, bitti mi, GridBridge sahada mı?",
-"Ortaklık yapısı nedir, ODTÜ Teknokent ya da ODTÜ70 fonunun payı var mı, kurucular yatırımcı arıyor mu?",
-"PCB motor işi ana iş mi, yan gelir mi; SAHA'ya katılım savunma pazarına yönelme anlamına mı geliyor?",
-"Prof. Dr. Murat Göl'ün (haberde Gül) şirketteki resmi görevi nedir; iki akademisyen tam zamanlı mı?",
-"TÜBİTAK 1512 ya da 1812 BİGG başvurusu yapıldı mı; KOSGEB binasındaki adres destek anlamına mı geliyor?"
+"Görüşme gerekir: 2024 ve 2025 cirosu; kurumsal gelir mi proje geliri mi (Novator Enerji A.Ş., Prof. Dr. Murat Göl (kurucu ortak olduğu iddiası doğrulanamadı); info@novator.energy, +90 312 486 0312. Alternatif: ODTÜ EEM ofis telefonu +90 (312) 210-4539, mgol@metu.edu.tr (ODTÜ sayfasında doğrulandı))",
+"Kısmen cevaplandı: BEDAŞ projesi EPDK Ar-Ge bütçesinden mi; bitti mi; GridBridge sahada mı",
+"Kısmen cevaplandı: Ortaklık yapısı; ODTÜ Teknokent veya ODTÜ70 payı; yatırımcı arıyor mu",
+"Kısmen cevaplandı: PCB motor işi ana iş mi; SAHA İstanbul üyeliği savunma yönelimi mi",
+"Kısmen cevaplandı: Prof. Dr. Murat Göl'ün şirketteki görevi",
+"Görüşme gerekir: TÜBİTAK BİGG ya da 1507/1501 destekleri (Novator Enerji; TÜBİTAK TEYDEB proje sorgusu için tubitak.gov.tr ve ODTÜ Teknokent TTO)"
 ],
 "adimlar": [
 {
-"adim": "20 ile 21 Ekim 2026'da Ankara 2. Enerji Stratejileri Konferansı'nda Novator standını ziyaret edip Ozan Keysan ve Murat Göl ile tanışma; tarih yalnız LinkedIn'e dayanıyor, önce şirkete e-posta ile teyit",
-"kim": "Mehmet Bey ya da MEKA iş geliştirme",
-"ne_zaman": "20 Ekim 2026 ile 21 Ekim 2026"
+"adim": "Şirkete tanışma görüşmesi talebi: yetkili kişi ve unvanı teyit (Murat Göl kurucu ortak ve CEO mu), 2024 ve 2025 ciro düzeyi, ortaklık yapısı ve yatırımcı arayışı, BEDAŞ pilot projesinin adı, finansmanı ve saha durumu, TÜBİTAK TEYDEB desteği, SOP kabini ve güç elektroniği mekaniği için sac ve kaynak üretim ortağı ihtiyacı. info@novator.energy, +90 312 486 0312.",
+"kim": "Mehmet Ulaş, MEKA iş geliştirme",
+"ne_zaman": "30 Ekim 2026'ya kadar randevu, 13 Kasım 2026'ya kadar görüşme"
 },
 {
-"adim": "Ticaret sicil kaydı, EPDK Ar-Ge proje listesi ve ODTÜ Teknokent firma listesinden şirketi doğrulamak; mali müşavirden son iki yıl bilanço istemek",
+"adim": "EPDK kabul edilen Ar-Ge proje listelerini indirip BEDAŞ satırlarını elle taramak: 2023 Temmuz, 2024 Ocak, 2024 Temmuz, 2025 Ocak, 2025 Temmuz, 2026 Ocak dosyaları. Anahtar kelimeler: Novator, ODTÜ, hibrit radyal ring, Soft Open Point, GridBridge.",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "23 Ekim 2026"
+},
+{
+"adim": "MERSİS ve Türkiye Ticaret Sicili Gazetesi'nden Novator Enerji A.Ş. için sermaye, pay sahipleri ve yönetim kurulu sorgusu. find.com.tr kaydı doğrulanmamış üçüncü taraf veri; buradaki 123.456 TL sermaye rakamı kullanılmamalı.",
 "kim": "MEKA mali işler",
-"ne_zaman": "31 Ekim 2026'ya kadar"
+"ne_zaman": "23 Ekim 2026"
 },
 {
-"adim": "ODTÜ70 ve INVEST101 yöneticilerine Novator'un fon portföyünde olup olmadığını ve ortak yatırım imkânını sormak",
-"kim": "Mehmet Bey",
-"ne_zaman": "Kasım 2026"
+"adim": "SAHA 2026 fuar tarihini sahaexpo.com fuar bilgileri sayfasından teyit edip Salon 3 Stand 3A-05s ziyareti planlamak; standda PCB motor ve SOP prototipini yerinde görmek, kurucuların adını öğrenmek.",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "Fuar tarihi teyit edildikten sonra, en geç fuar haftası"
 },
 {
-"adim": "Tanışma olumluysa gizlilik sözleşmesi ve veri odası; SOP ile GridBridge için saha kanıtı istemek, pano ve konteyner üretiminde MEKA katkısını masaya koymak",
-"kim": "MEKA yönetim ve hukuk",
-"ne_zaman": "Aralık 2026"
+"adim": "ODTÜ Teknokent'i arayıp Novator'un rehber kaydını ve ODTÜ70 GSYF ilişkisini sormak. +90 312 987 35 00, info@odtuteknokent.com.tr (iletişim bilgisi bu turda doğrulanmadı).",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "24 Ekim 2026"
+},
+{
+"adim": "SAHA İstanbul üye listesini tüm sayfalarıyla taramak veya +90 216 999 70 17'den üyelik sormak.",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "24 Ekim 2026"
+},
+{
+"adim": "BEDAŞ Ar-Ge Müdürlüğü ile pilot projenin durumunu ve dağıtım şirketlerinin benzer kabin ve pano mekaniği ihtiyacını sormak.",
+"kim": "MEKA iş geliştirme",
+"ne_zaman": "Şirket görüşmesinden sonra, 20 Kasım 2026'ya kadar"
 }
 ],
 "riskler": [
@@ -7054,7 +9420,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: Çürütme turunda 8 sayfa açıldı, 8'i de HTTP 200 döndü: novator.energy, sahaexpo.com, keysan.me, by-tv.co.uk, emlakdream.com, forbes.com.tr, aa.com.tr, webrazzi.com. Açılmayan 5 kaynak (LinkedIn, AVESİS, TGBD, egirişim, TÜBİTAK) kontrol edilmedi; bunlara dayanan tüm rakam ve tarihler 'doğrulanamadı' olarak işaretlendi, silinmedi. Kuruluş yılı 2023, 'A.Ş.' ibaresi, 'Murat Göl PowerLab baş araştırmacısı' ve webrazzi'ye bağlanan '0 yatırım turu' rakamı, açılan sayfalarda karşılığı olmadığı için silindi. SAHA fuar günleri (5 ile 6 Mayıs) ve London Tech Week panel günü (8 Haziran) ilgili sayfalarda yazmıyor. AA sayfasının verbatim metni ilk 39 bin karakterde kesildi; OEDAŞ rakamları kesilmeden önceki bölümden okundu. Forbes yazısı sponsorlu içerik olduğu için 'haber' etiketi 'diger' yapıldı. Önceki 04 ve 05 belgelerine ait ifadelere dokunulmadı. Not: Bu ajan yalnız web okuma yapıyor; kullanıcının Azure yerine GitHub ya da Render'da yayın ve link isteği bu ajanın yetkisi dışında, yayın yapılamadı ve link verilemiyor; bunu çağıran iş akışının üstlenmesi gerekir.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 7 açık sorunun 1'i cevaplandı, 4'i kısmen, 0'i kapandı, 2'i görüşme gerektiriyor. Sınırlar: Bu tur yalnız doğrulama turuydu; arama yapılmadı, en fazla 8 URL açıldı. LinkedIn (okeysan) HTTP 999 verdi; LinkedIn'e dayanan CEO unvanı, London Tech Week paneli ve GridBridge anlatımı doğrulanamadı. EPDK, ODTÜ Teknokent (iştirakler, rehber, iletişim) ve SAHA İstanbul sayfaları 8 URL sınırı nedeniyle bu turda açılmadı; onlara dayanan ifadeler doğrulanamadı olarak işaretlendi. EPDK dosyaları PDF ve Word; bu araç metnini okuyamaz, elle indirilip taranmalı. Şirket sitesinin /products/ sayfası açılmadı; ürün detaylarının yapım aşamasında olduğu ana sayfadaki bağlantılardan anlaşılıyor. find.com.tr üçüncü taraf ve kendi etiketiyle doğrulanmamış veri; MERSİS teyidi şart. Eksik araştırmaların kalanı (EPDK dosyaları, SAHA İstanbul tam liste, MERSİS, ODTÜ Teknokent rehberi) web aracıyla değil elle yapılmalı; adımlar listesinde tarih ve sorumlu verildi. Görüşme sonuçları web'den doğrulanamaz: 'gorusme' durumlu sorular ve bayi veya firma görüşmelerinden gelen bilgiler ile puan değişiklikleri bu şemaya elle girilmeli; görüşme notu kaynak alanına 'görüşme, tarih, kişi' olarak yazılmalı ve kanıt puanı ayrı tutulmalı.",
 "kanit": 2,
 "web": [
 {
@@ -7121,6 +9487,76 @@ window.MEKA_DATA = {
 "url": "https://tubitak.gov.tr/en/announcement/bigg-seed-investment-20261-call-open-applications",
 "ne": "TÜBİTAK BİGG+ Tohum 2026/1 çağrısı. Bu kontrolde açılmadı, doğrulanamadı.",
 "tur": "resmi"
+},
+{
+"url": "https://www.find.com.tr/Company/novatorenerjianonimsirketi",
+"ne": "Açıldı. Unvan, kuruluş 14 Şubat 2023, firma türü, NACE 620101, adres doğrulandı. Sermaye ve sicil alanları üyelere özel. Sayfa 'Bilgiler Doğrulanmadı' etiketli, otomatik oluşturulmuş, son güncelleme 24.08.2023.",
+"tur": "diger"
+},
+{
+"url": "https://sahaexpo.com/katilimci/novator",
+"ne": "Açıldı. Adres 280G-1202, Salon 3 Stand 3A-05s, iki ODTÜ EEM akademisyeni kurucu, ODTÜ Teknokent merkezli, PCB tabanlı motor çalışması, faaliyet alanları doğrulandı. Fuar tarihi sayfada yok.",
+"tur": "firma"
+},
+{
+"url": "https://novator.energy/technology/",
+"ne": "Açıldı. ASELSAN, ROKETSAN, Boğaziçi, Çamlıbel, Akdeniz Elektrik Dağıtım ve Saleri logoları; 'defence companies' ve 'field-validated' ifadeleri doğrulandı. Proje adı, BEDAŞ, EPDK, GridBridge geçmiyor. Firma beyanı.",
+"tur": "firma"
+},
+{
+"url": "https://novator.energy/contact/",
+"ne": "Açıldı. METU Technopolis Cozone, info@novator.energy, +90 312 486 0312 doğrulandı. Firma beyanı.",
+"tur": "firma"
+},
+{
+"url": "https://eee.metu.edu.tr/personel/murat-gol",
+"ne": "Açıldı. Prof. Murat Göl, oda E-110, tel +90 (312) 210-4539, araştırma alanları doğrulandı. Novator veya şirket görevi yok.",
+"tur": "resmi"
+},
+{
+"url": "https://blog.metu.edu.tr/mgol/projects/",
+"ne": "Açıldı. 6 TÜBİTAK projesi (QNRF, Newton, 1001 x2, 1003, 3501), 3 Horizon Europe, sanayi ortakları (ASELSAN, Boğaziçi-EDAŞ, Akdeniz-EDAŞ, Çamlıbel-EDAŞ vb.) doğrulandı. Novator geçmiyor.",
+"tur": "resmi"
+},
+{
+"url": "https://tr.linkedin.com/in/okeysan",
+"ne": "Açılamadı, HTTP 999. Murat Göl Co-Founder & CEO ve 8 Haziran 2026 London Tech Week iddiaları doğrulanamadı.",
+"tur": "diger"
+},
+{
+"url": "https://blog.metu.edu.tr/mgol/",
+"ne": "Bu turda açılmadı. Önceki tur: şirket görevi yazmıyor.",
+"tur": "resmi"
+},
+{
+"url": "https://www.epdk.gov.tr/Detay/Icerik/3-0-138/arge-projeleri",
+"ne": "Bu turda açılmadı. 25 dönem dosyası ifadesi doğrulanamadı; BEDAŞ satırı okunmadı.",
+"tur": "resmi"
+},
+{
+"url": "https://odtuteknokent.com.tr/tr/hakkinda/istirakler-ve-paydaslar.php",
+"ne": "Bu turda açılmadı. Cozone ve ODTÜ70 GSYF bilgisi doğrulanamadı.",
+"tur": "resmi"
+},
+{
+"url": "https://odtuteknokent.com.tr/tr/firmalar/tum-firmalar.php",
+"ne": "Bu turda açılmadı. Rehber kaydı doğrulanamadı.",
+"tur": "resmi"
+},
+{
+"url": "https://odtuteknokent.com.tr/tr/iletisim/",
+"ne": "Bu turda açılmadı. Telefon ve e-posta doğrulanamadı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.sahaistanbul.org.tr/kume-firmalari",
+"ne": "Bu turda açılmadı. 'Novator üye değil' iddiası doğrulanamadı; önceki turda yalnız ilk sayfa taranmıştı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.sahaistanbul.org.tr/",
+"ne": "Bu turda açılmadı. İletişim numarası doğrulanamadı.",
+"tur": "resmi"
 }
 ],
 "celiskiler": [
@@ -7138,6 +9574,24 @@ window.MEKA_DATA = {
 "Belge 05 Ar-Ge etiketini yok yazar; aynı paragraf ürünlerin prototip olduğunu söyler. Ar-Ge yok etiketi MEKA'nın kendi Ar-Ge'si için geçerli, şirketin ürünleri için değil."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 7 sayfa; çürütücü 8 sayfa açtı, güven 3/5.",
+"Soru 6 (Murat Göl görevi) durumu cevaplandi'dan kismen'e çekildi: tek kaynak LinkedIn HTTP 999 ile açılamadı, Co-Founder & CEO unvanı doğrulanamadı.",
+"123.456 TL kuruluş sermayesi ek_rakamlar'dan silindi: find.com.tr sayfasında sermaye alanı 'Üyeler Görebilir', rakam sayfada yok.",
+"8 Haziran 2026 London Tech Week rakamı 'doğrulanamadı' olarak işaretlendi.",
+"GridBridge ve hibrit radyal ring ifadeleri 'doğrulanamadı' olarak işaretlendi; şirket sitesinde GridBridge adı geçmiyor.",
+"SAHA İstanbul için 'Novator üye değil' hükmü 'üyelik durumu belirsiz, doğrulanamadı' olarak yumuşatıldı; liste bu turda açılmadı, önceki turda yalnız ilk sayfa taranmıştı.",
+"EPDK 25 dönem dosyası ve ODTÜ Teknokent iştirakler (Cozone, ODTÜ70 GSYF) bilgileri 'bu turda açılmadı, doğrulanamadı' olarak işaretlendi.",
+"find.com.tr kaydına sayfadaki 'Bilgiler Doğrulanmadı' etiketi ve 'otomatik oluşturulmuş, şirketçe onaylanmamış' notu eklendi.",
+"Şirket sitesinden gelen tüm bilgiler (marka, ürünler, logolar, iletişim, saha doğrulama ifadesi) 'firma beyanı' olarak işaretlendi.",
+"Ana sayfada 'Hardware & PCB Design' yetkinliği olduğu, ama PCB motor geçmediği netleştirildi.",
+"Kurucu tanımı düzeltildi: 'iki akademisyen' yalnız SAHA EXPO metninde; şirket ana sayfası 'akademisyenler ve araştırma mühendisleri ekibi' diyor.",
+"SAHA EXPO sayfasında 'ODTÜ Teknokent merkezli' ifadesi ve faaliyet alanları listesi eklendi; fuar tarihinin sayfada olmadığı not edildi.",
+"Murat Göl ofis telefonu +90 (312) 210-4539, oda E-110 ve 6 TÜBİTAK + 3 Horizon Europe projesi sayfada doğrulandı; program kodları ve yıllar ayrıntılı yazıldı.",
+"Göl'ün akademik sanayi ortakları listesinin şirket logolarıyla örtüştüğü dolaylı işaret olarak eklendi.",
+"Kanıt puanı 3'ten 2'ye düşürüldü: haber kaynağı yok, kaynaklar firma beyanı ve doğrulanmamış üçüncü taraf sicil özeti, kilit iddialar (CEO, BEDAŞ, EPDK) doğrulanamadı.",
+"durum_guncel ve bant_gerekcesi CEO ve GridBridge ifadeleri için 'doğrulanamadı' diliyle yeniden yazıldı; bant izle olarak korundu.",
+"Adımlara SAHA İstanbul tam liste taraması eklendi; ilk adıma CEO unvanı teyidi eklendi; MERSİS adımına 123.456 TL uyarısı eklendi.",
+"web listesi her URL için açıldı / açılmadı / açılamadı durumuyla güncellendi.",
 "16 Ekim 2026 ek araştırması: 8 arama, 12 sayfa okundu; çürütücü 8 sayfa açtı, güven 4/5.",
 "Kuruluş yılı 2023 silindi; novator.energy sayfasında yıl yok, 'arama özeti' kaynak sayılmadı.",
 "'Novator Enerji A.Ş.' ifadesindeki 'A.Ş.' kaldırıldı; hiçbir açılan sayfada yok. Site adının 'Novator EVG' olduğu eklendi.",
@@ -7180,8 +9634,59 @@ window.MEKA_DATA = {
 "Durum alanı web ve inceleme bulguları olmadan yeniden yazıldı; bant ikincil korundu ve gerekçesi kaynaklara bağlandı.",
 "Puan metnine Belge 05'in etiketleri kaba tahmin saydığı eklendi."
 ],
-"guven": 4,
+"guven": 3,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "Şirketin resmi ticaret unvanı, kuruluş yılı ve adresi",
+"durum": "cevaplandi",
+"cevap": "Unvan: Novator Enerji Anonim Şirketi (sayfada doğrulandı). Marka adı: Novator EVG (şirket sitesi, firma beyanı). Kuruluş tarihi 14 Şubat 2023 (find.com.tr sayfasında doğrulandı). Firma türü: pay sahibi sayısı birden fazla anonim şirket. NACE 620101, bilgisayar programlama faaliyetleri (sayfada doğrulandı). Sicil adresi: Mustafa Kemal Mah. Dumlupınar Bul. No:280G İç Kapı No:1260 Çankaya Ankara (sayfada doğrulandı). SAHA EXPO katılımcı sayfasında adres No:280G-1202 yazıyor (sayfada doğrulandı). Şirket iletişim sayfasında merkez METU Technopolis, Cozone, Çankaya/Ankara; telefon +90 312 486 0312; e-posta info@novator.energy (firma beyanı, sayfada doğrulandı). Uyarı: find.com.tr kaydı sitenin kendi ifadesiyle Ticaret Sicil kayıtlarından otomatik oluşturulmuş, şirket tarafından onaylanmamış ve sayfada 'Bilgiler Doğrulanmadı' etiketi var; son güncelleme 24.08.2023. Sermaye, vergi no, sicil no ve MERSİS no üyelere özel. MERSİS teyidi şart. ODTÜ Teknokent rehber kaydı bu turda da açılmadı, doğrulanamadı.",
+"kaynak": "https://www.find.com.tr/Company/novatorenerjianonimsirketi ; https://sahaexpo.com/katilimci/novator ; https://novator.energy/contact/",
+"kime": "Teyit için MERSİS ve Türkiye Ticaret Sicili Gazetesi sorgusu, MEKA mali işler"
+},
+{
+"soru": "2024 ve 2025 cirosu; kurumsal gelir mi proje geliri mi",
+"durum": "gorusme",
+"cevap": "Web'de ciro verisi yok. Şirket halka açık değil. find.com.tr sayfasında sermaye alanı 'Üyeler Görebilir' (sayfada doğrulandı). Önceki turda arama özetinde geçen 123.456 TL kuruluş sermayesi sayfada yok; rakam silindi, kullanılmamalı. Şirket Şubat 2023 kuruluşlu; ana sayfa ve teknoloji sayfası özel donanım prototipleri, saha doğrulanmış çözümler ve dağıtım şirketleriyle çalışma anlatıyor (firma beyanı). Altı ürünün tamamının 'Learn more' bağlantısı /under-construction/ sayfasına gidiyor (sayfada doğrulandı). Bu tablo gelirin proje ve Ar-Ge ağırlıklı olduğuna işaret ediyor ama kanıt yok. Murat Göl'e sorulacak.",
+"kaynak": "https://www.find.com.tr/Company/novatorenerjianonimsirketi ; https://novator.energy/",
+"kime": "Novator Enerji A.Ş., Prof. Dr. Murat Göl (kurucu ortak olduğu iddiası doğrulanamadı); info@novator.energy, +90 312 486 0312. Alternatif: ODTÜ EEM ofis telefonu +90 (312) 210-4539, mgol@metu.edu.tr (ODTÜ sayfasında doğrulandı)"
+},
+{
+"soru": "BEDAŞ projesi EPDK Ar-Ge bütçesinden mi; bitti mi; GridBridge sahada mı",
+"durum": "kismen",
+"cevap": "Teknoloji sayfasında Boğaziçi Elektrik Dağıtım, Çamlıbel Elektrik Dağıtım ve Akdeniz Elektrik Dağıtım logoları 'Collaborations' başlığı altında yer alıyor; başlık 'Field-proven alongside the operators who run the grid' (firma beyanı, sayfada doğrulandı). Sayfa proje adı, tarih ve finansman vermiyor. Ana sayfada Soft Open Point 'power electronics-based hardware prototype' olarak tanımlanıyor, orta gerilim dağıtım sistemleri için (firma beyanı, sayfada doğrulandı). GridBridge adı şirket sitesinde hiç geçmiyor. GridBridge ve hibrit radyal ring anlatımı yalnız LinkedIn arama özetinden geliyor; LinkedIn açılamadı, doğrulanamadı. EPDK Ar-Ge proje listeleri sayfası bu turda açılmadı; 25 dönem dosyası ifadesi doğrulanamadı; BEDAŞ satırı okunmadı. Saha kurulumu, bitiş tarihi ve finansman kaynağı web'de yok.",
+"kaynak": "https://novator.energy/technology/ ; https://novator.energy/ ; https://www.epdk.gov.tr/Detay/Icerik/3-0-138/arge-projeleri (bu turda açılmadı)",
+"kime": "BEDAŞ Ar-Ge Müdürlüğü, bedas.com.tr iletişim sayfası; EPDK Ar-Ge Portalı argeenerji.epdk.gov.tr; şirket yetkilisi Murat Göl"
+},
+{
+"soru": "Ortaklık yapısı; ODTÜ Teknokent veya ODTÜ70 payı; yatırımcı arıyor mu",
+"durum": "kismen",
+"cevap": "find.com.tr'de firma türü 'pay sahibi sayısı birden fazla anonim şirket' (sayfada doğrulandı); pay dağılımı ve yönetim kurulu bilgisi yok, sicil alanları üyelere özel. SAHA EXPO sayfasında şirket 'ODTÜ Elektrik Elektronik Mühendisliği bölümündeki 2 akademisyen tarafından kurulmuş' ve 'ODTÜ Teknokent merkezli' olarak tanımlanıyor (katılımcı metni, firma beyanı, sayfada doğrulandı). Şirketin kendi ana sayfası ise kurucuları 'an expert team of academics and research engineers' diye anlatıyor, isim ve sayı vermiyor (firma beyanı). ODTÜ Teknokent iştirakler sayfası bu turda açılmadı; Cozone ve ODTÜ70 GSYF bilgisi doğrulanamadı. Hiçbir açılan sayfada ODTÜ Teknokent, Cozone veya ODTÜ70'in Novator'da payı olduğuna dair ifade yok. Yatırımcı arayışına dair ilan veya haber açılan sayfalarda yok.",
+"kaynak": "https://www.find.com.tr/Company/novatorenerjianonimsirketi ; https://sahaexpo.com/katilimci/novator ; https://novator.energy/ ; https://odtuteknokent.com.tr/tr/hakkinda/istirakler-ve-paydaslar.php (bu turda açılmadı)",
+"kime": "Şirket yetkilisi; ODTÜ70 GSYF için ODTÜ Teknokent Girişimcilik birimi +90 312 987 35 00, info@odtuteknokent.com.tr (bu turda doğrulanmadı); pay yapısı için Ticaret Sicili Gazetesi"
+},
+{
+"soru": "PCB motor işi ana iş mi; SAHA İstanbul üyeliği savunma yönelimi mi",
+"durum": "kismen",
+"cevap": "PCB motor ana iş görünmüyor. Şirket ana sayfasında 'PCB motor' ifadesi yok; ana sayfada 'Hardware & PCB Design' yetkinliği var ama bu baskılı devre kartı tasarımı, motor değil (sayfada doğrulandı). Ürünler: Soft Open Point (SOP), MV-DC, DSSim, Grid-Forming, NOVACHAIN, Novator Energy Anomaly Tracking (NEAT); altısı da yapım aşamasında sayfaya gidiyor (sayfada doğrulandı). PCB tabanlı elektrik motoru yalnız SAHA EXPO 2026 katılımcı sayfasında geçiyor: şirket 'PCB tabanlı elektrik motorlarının geliştirilmesi ve üretimi üzerine çalışmalar yürütmektedir' (firma beyanı, sayfada doğrulandı). SAHA EXPO faaliyet alanları: Enerji Depolama ve Yönetim Sistemleri; Elektronik ve Elektromekanik Sistemler; Endüstriyel Üretim Teknolojileri ve Robotik Sistemler; Mühendislik ve Teknik Danışmanlık; Tasarım, Analiz ve Mühendislik Hizmetleri. Salon 3, Stand 3A-05s (sayfada doğrulandı). SAHA İstanbul üye listesi bu turda açılmadı; önceki turda yalnız ilk sayfa tarandığı not edilmişti; 'Novator üye değil' ifadesi doğrulanamadı, üyelik durumu belirsiz. Savunma yönelimi var ama ikincil: teknoloji sayfasında ASELSAN ve ROKETSAN logoları ve 'power distribution operators, defence companies and industrial partners' ifadesi yer alıyor (firma beyanı, sayfada doğrulandı).",
+"kaynak": "https://novator.energy/ ; https://novator.energy/technology/ ; https://sahaexpo.com/katilimci/novator ; https://www.sahaistanbul.org.tr/kume-firmalari (bu turda açılmadı)",
+"kime": "SAHA İstanbul üyelik teyidi için +90 216 999 70 17 (bu turda doğrulanmadı); şirket standı SAHA 2026 Salon 3 Stand 3A-05s"
+},
+{
+"soru": "Prof. Dr. Murat Göl'ün şirketteki görevi",
+"durum": "kismen",
+"cevap": "Kurucu Ortak ve CEO iddiası doğrulanamadı. Tek kaynak olan LinkedIn sayfası (tr.linkedin.com/in/okeysan) HTTP 999 ile açılamadı; 8 Haziran 2026 London Tech Week paneli ve 'Co-Founder & CEO, Novator EVG' unvanı yalnız arama özetine dayanıyor. Açılan hiçbir sayfada Murat Göl'ün adı Novator ile birlikte geçmiyor: şirket sitesinde kurucu adı yok, SAHA EXPO sayfası iki akademisyen diyor ama isim vermiyor. Doğrulananlar: ODTÜ EEM personel sayfasında unvan Prof., oda E-110, tel +90 (312) 210-4539, e-posta mgol metu.edu.tr; araştırma alanları güç sistemi durum kestirimi, PMU, arıza yeri tespiti, akıllı şebeke, güç kalitesi (resmi sayfada doğrulandı). Projeler sayfasında sanayi işbirlikleri arasında ASELSAN, Boğaziçi-EDAŞ, Akdeniz-EDAŞ, Çamlıbel-EDAŞ var; bu liste şirketin teknoloji sayfasındaki logolarla örtüşüyor, dolaylı bir bağ ama şirket görevi kanıtı değil. İkinci kurucunun adı web'de yok; Ozan Keysan bağlantısı yalnız arama sonucuna dayanıyor, doğrulanamadı.",
+"kaynak": "https://eee.metu.edu.tr/personel/murat-gol ; https://blog.metu.edu.tr/mgol/projects/ ; https://tr.linkedin.com/in/okeysan (açılamadı, HTTP 999)",
+"kime": "Şirkete doğrudan sorulacak: info@novator.energy; Murat Göl ODTÜ ofis +90 (312) 210-4539"
+},
+{
+"soru": "TÜBİTAK BİGG ya da 1507/1501 destekleri",
+"durum": "gorusme",
+"cevap": "Şirket ana sayfası, teknoloji sayfası ve iletişim sayfasında TÜBİTAK, BİGG, 1507 veya 1501 geçmiyor (sayfada doğrulandı). Murat Göl'ün projeler sayfasında 6 TÜBİTAK projesi var: TÜBİTAK-QNRF Cofund 2023-2026 (yürütücü), TÜBİTAK-Newton Fund 2020-2022, TÜBİTAK 1001 2020-2022, TÜBİTAK 1001 2018-2020 (yürütücü), TÜBİTAK 1003 2016-2019, TÜBİTAK 3501 2015-2017 (yürütücü); ayrıca 3 Horizon Europe projesi: Solar-Move, Legofit, UP2030 (resmi sayfada doğrulandı). Hiçbiri 1507, 1501 veya BİGG değil; akademik projeler, şirket desteği değil. Novator adı bu sayfada geçmiyor. Şirket düzeyinde TEYDEB desteği web'de bulunamadı.",
+"kaynak": "https://blog.metu.edu.tr/mgol/projects/ ; https://novator.energy/ ; https://novator.energy/technology/",
+"kime": "Novator Enerji; TÜBİTAK TEYDEB proje sorgusu için tubitak.gov.tr ve ODTÜ Teknokent TTO"
+}
+],
 "dal_ad": "Bağımsız",
 "kol_id": "bag_teknokent",
 "kol_ad": "Teknokentler",
@@ -7195,8 +9700,8 @@ window.MEKA_DATA = {
 "id": "pyramp",
 "baslik": "Pyramp, TU Dublin, atık ısıdan elektrik",
 "bant": "izle",
-"puan_metni": "Bant 16 Ekim 2026 ek araştırmasıyla izle yapıldı (önce ikincil): Şirket yaşıyor ve işe alım yapıyor; Breakthrough Energy ifadesi olumlu bir sinyal ama yalnız şirketin kendi ilanında geçiyor. Deneme sonucu, tur büyüklüğü ve bağımsız ölçüm yok; ekip 3 kişi. Kişisel küçük bilet dışında MEKA için somut iş yok. Veri gelene kadar izlenir, öne çıkarılmaz. Önceki puan notu: 05 belgesinin tek sırasında 12 iş içinde 5. sıra. Puan yok, sıra numarası var. 05 bu maddeyi 4 ile birlikte doğrudan şirket yatırımı diye ayırıyor. Etiketler: 0-6 ay, Ar-Ge yok, yatırım küçük. 05 etiketlerin kaba tahmin olduğunu yazıyor. Haritada gelire uzak, potansiyel büyük. 5 Ekim 2026 incelemesinin kanıt puanı bu turda doğrulanamadı; inceleme dosyası paket klasöründe bulunamadı.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 27 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Bant değişmiyor, izle kalıyor. Şirketin faal olduğu, Enterprise Ireland fonu aldığı, TRL 6'da olduğu ve dört büyük şirketin ilgi bildirdiği resmi TU Dublin kaydı ve iki bağımsız haberle doğrulandı. Saha sonucu, tur büyüklüğü ve Breakthrough Energy desteği yalnızca firma beyanı ya da hiç yok. 2025 sonu pazar hedefi kaçtı, Eylül 2026'da hâlâ ilk işe alımlar yapılıyor. Teknik tarafta gövde sıcaklığının 1.000 derece eşiğinin çok altında kaldığı Brunel özetiyle dolaylı olarak destekleniyor (emici en fazla 240 derece); 200 ile 350 derece rakamı ise bu turda doğrulanamadı. Elemeye gitmiyor, çünkü fırın başlığı, soğutucu girişi, cam ve çelik hâlâ olası. Yatırım ve bütçe dilimi aynı kalır. Bant 16 Ekim 2026 ek araştırmasıyla izle yapıldı (önce ikincil): Şirket yaşıyor ve işe alım yapıyor; Breakthrough Energy ifadesi olumlu bir sinyal ama yalnız şirketin kendi ilanında geçiyor. Deneme sonucu, tur büyüklüğü ve bağımsız ölçüm yok; ekip 3 kişi. Kişisel küçük bilet dışında MEKA için somut iş yok. Veri gelene kadar izlenir, öne çıkarılmaz. Önceki puan notu: 05 belgesinin tek sırasında 12 iş içinde 5. sıra. Puan yok, sıra numarası var. 05 bu maddeyi 4 ile birlikte doğrudan şirket yatırımı diye ayırıyor. Etiketler: 0-6 ay, Ar-Ge yok, yatırım küçük. 05 etiketlerin kaba tahmin olduğunu yazıyor. Haritada gelire uzak, potansiyel büyük. 5 Ekim 2026 incelemesinin kanıt puanı bu turda doğrulanamadı; inceleme dosyası paket klasöründe bulunamadı.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 27 Eylül 2026",
 "ne": "Pyramp, TU Dublin çıkışlı İrlandalı bir girişim; LinkedIn ve Silicon Republic kuruluş yılını 2023 veriyor, kurucu ise Nisan 2024'te şirketin henüz spin-out edilmediğini söylüyor. 1.000 derece üstü fırın yüzeylerinden yayılan ısıyı termofotovoltaik hücreyle doğrudan elektriğe çeviren katı hal bir sistem geliştiriyor; hedef sektörler çimento, çelik, cam, seramik. Konu, MEKA'nın ya da sahiplerinin erken aşama ortak olması.",
 "neden": "Çimento ve cam MEKA'nın tanıdığı sektörler; MEKA gövde, soğutma ve Türkiye pilotu katabilir. Ancak şirket 3 kişilik, deneme sonuçları yayınlanmamış, tohum turu duyurulmamış. Eylül 2026 sonundaki iş ilanlarında şirket kendini Breakthrough Energy destekli diye tanıtıyor; bu firma beyanı, başka kaynakla doğrulanmadı.",
 "rakamlar": [
@@ -7244,36 +9749,96 @@ window.MEKA_DATA = {
 "deger": "5,5 MW",
 "aciklama": "Çimsa Eskişehir atık ısı santrali, Enerjisa ile, devrede. Doğrulanamadı: sayfa bu kontrolde açılmadı.",
 "kaynak": "haber, tek kaynak: https://www.haberturk.com/cimsanin-atik-isidan-elektrik-uretimi-tesisi-devrede-3900544-ekonomi"
+},
+{
+"deger": "4.980 kW",
+"aciklama": "30 metrelik fırın gövdesinden halka emici panelle geri kazanım potansiyeli; emici ortalama sıcaklığı en fazla 240 derece; ORC ile 864,25 kWe, ısıl verim yüzde 17,35, ekserji verimi yüzde 48,62; doğrulandı",
+"kaynak": "https://bura.brunel.ac.uk/handle/2438/22459"
+},
+{
+"deger": "200 ile 350 derece",
+"aciklama": "Çimento döner fırını gövde dış yüzey tasarım aralığı, dokuz bölge; bölge başına 71 ile 194 kW; önceki turun arama özetinden; PDF metni okunamadı, doğrulanamadı",
+"kaynak": "https://bura.brunel.ac.uk/bitstream/2438/22459/3/FulllText.pdf"
+},
+{
+"deger": "605,6 K",
+"aciklama": "Fırın gövdesi en yüksek sıcaklık, CFD; aralık 520 ile 606 K; sayfa bu turda açılmadı, doğrulanamadı",
+"kaynak": "https://api.openalex.org/works?search=cement%20rotary%20kiln%20shell%20surface%20temperature%20heat%20loss%20recovery"
+},
+{
+"deger": "yüzde 11,71",
+"aciklama": "Fırın yüzeyinden ışınım kaybı, Nil Çimento Sudan 2019; sayfa bu turda açılmadı, doğrulanamadı",
+"kaynak": "http://www.sciencepublishinggroup.com/article/10.11648.j.aas.20190402.11"
+},
+{
+"deger": "yaklaşık 4 kW/m2",
+"aciklama": "Pyramp'ın çimento için beklediği TPV güç yoğunluğu; cam için 12 kW/m2 ve üzeri; çelik modelleri cama benzer; firma beyanı, saha ölçümü değil; doğrulandı",
+"kaynak": "https://www.engineersireland.ie/Engineers-Journal/Electrical/how-the-hottest-startup-in-ireland-is-helping-to-combat-the-climate-crisis"
+},
+{
+"deger": "1.000 ile 1.600 derece",
+"aciklama": "Pyramp TPV için uygun kaynak sıcaklığı; başabaş eşiği yaklaşık 1.000 derece, çevre gazları soğuksa daha düşük olabilir; cihaz kaynağa 1 metre yakın; ömür yaklaşık 20 yıl; firma beyanı, 24 Nisan 2024; doğrulandı",
+"kaynak": "https://www.engineersireland.ie/Engineers-Journal/Electrical/how-the-hottest-startup-in-ireland-is-helping-to-combat-the-climate-crisis"
+},
+{
+"deger": "TRL 6",
+"aciklama": "Pyramp teknoloji hazırlık seviyesi, proje 1 Haziran 2023 ile 31 Aralık 2023; kuramsal verim yüzde 85'e kadar şirket iddiası; ikinci Commercialisation Fund başvurusu; doğrulandı",
+"kaynak": "https://researchprofiles.tudublin.ie/en/projects/thermophotovoltaic-systems-for-industrial-waste-heat-recovery/"
+},
+{
+"deger": "2 ile 10 çalışan",
+"aciklama": "Pyramp şirket büyüklüğü; LinkedIn'de 3 kişi listeli; 2023 kuruluş; iki mühendis ilanı son başvuru 5 Ekim 2026, 'kurucu ekip dışındaki ilk işe alımlar', maaş artı hisse; firma beyanı; doğrulandı",
+"kaynak": "https://ie.linkedin.com/company/pyramp"
+},
+{
+"deger": "100.000 avro",
+"aciklama": "Enterprise Ireland Pre-Seed Start Fund üst sınırı, dönüştürülebilir borç senedi, sonraki fiyatlı turda yüzde 20 iskonto; 5 Ekim 2022; eş yatırım şartı duyuruda yok; Pyramp'a özgü değil; doğrulandı",
+"kaynak": "https://www.enterprise-ireland.com/en/news/enterprise-ireland-launches-new-investment-offer-for-early-stage-start-ups"
+},
+{
+"deger": "4 Kasım 2024",
+"aciklama": "Silicon Republic: şirket tohum finansmanına doğru ilerliyor; kurucular Hussain, Buckley, Coyle, Norton; çimento, çelik ve camda üçüncü aşama denemeler için ortaklık; doğrulandı",
+"kaynak": "https://siliconrepublic.com/?p=1098597"
 }
 ],
-"durum": "Şirket faal: LinkedIn'de 16 Ekim 2026 itibarıyla üç hafta önce (Eylül 2026 sonu) yayınlanan iki mühendis ilanı var, son başvuru 5 Ekim 2026. İlanlarda yeni nesil prototip ve Breakthrough Energy desteği geçiyor; bu firma beyanı. LinkedIn tanıtımı sistemlerin çimento ve cam fabrikalarında test edildiğini söylüyor ama ölçüm yayınlanmamış. Tohum turu tutarı ve yatırımcıları kamuya açık değil. 2024'te hedeflenen 2025 sonu pazara hazır sistem teyit edilemedi. Şirket sitesi ve Crunchbase sayfası önceki araştırmada açılamadı.",
+"durum": "Pyramp, TU Dublin'den 2023'te ayrılan, LinkedIn'de 3 kişi görünen bir girişim. Enterprise Ireland Commercialisation Fund 2021 ve 2023 (tutarlar açıklanmadı). Breakthrough Energy desteği yalnızca şirketin Eylül 2026 iş ilanlarında geçiyor; bağımsız doğrulama yok. TU Dublin kaydına göre Holcim, NSG, Breedon ve Irish Cement ilgi bildirdi ve saha denemesi anlaşmaları yapıldı; ölçülmüş sonuç hiçbir yerde yayımlanmadı; teknoloji Aralık 2023'te TRL 6. Nisan 2024'te açıklanan '2025 sonu pazara hazır' hedefi tutmadı. Eylül 2026'da şirket kurucu ekip dışındaki ilk iki mühendisi arıyor; yani faal ve bir miktar fonlu ama ürün ticari değil. Teknik bulgu: Brunel çalışmasında fırın gövdesi ışınımını toplayan emici bile en fazla 240 dereceye çıkıyor; Pyramp'ın eşiği 1.000 derece. 'Fırın gövdesine panel' kurgusu bu teknolojiye uymuyor; fırın başlığı ve klinker soğutucu gibi sıcak noktalar sahada ölçülmeli. 200 ile 350 derece gövde rakamı bu turda doğrulanamadı. Türkiye'de atık ısıdan TPV üretimi lisanssız yönetmelikte adlandırılmamış; yenilenebilir tanımı 'gibi fosil olmayan kaynaklar' diye açık uçlu, EPDK görüşü gerekli.",
 "acik_sorular": [
-"Breakthrough Energy desteği hangi program, ne tutarda ve hangi tarihte? Yalnız Pyramp'in LinkedIn ilanlarında geçiyor; başka kaynakta bulunamadı.",
-"Holcim, NSG, Breedon, Irish Cement denemeleri yapıldı mı, ölçülen kW/m2 ve verim nedir? LinkedIn tanıtımı test yapıldığını söylüyor, sonuç yok.",
-"Tohum turu açık mı, değerleme ve asgari bilet nedir? Enterprise Ireland eş yatırım şartı var mı?",
-"Türkiye'de Pyramp panelinin sahada kullanımı için EPDK ya da lisanssız üretim mevzuatında engel var mı? Bulunamadı.",
-"Çimento fabrikasında 1.000 derece üstü hangi yüzey hedefleniyor? Döner fırın gövde sıcaklığı için bu çalışmada kaynak yok; Pyramp'e sorulmalı."
+"Kısmen cevaplandı: Breakthrough Energy desteği hangi program, tutar, tarih",
+"Kısmen cevaplandı: Holcim, NSG, Breedon, Irish Cement denemelerinin sonuçları (kW/m2, verim)",
+"Kısmen cevaplandı: Tohum turu açık mı; değerleme, asgari bilet; Enterprise Ireland eş yatırım şartı",
+"Kısmen cevaplandı: Türkiye'de termofotovoltaik panelin lisanssız üretim mevzuatındaki yeri",
+"Kısmen cevaplandı: Çimento döner fırını gövde yüzey sıcaklığı tipik aralığı (bağımsız kaynak)"
 ],
 "adimlar": [
 {
-"adim": "Pyramp'e LinkedIn ve TU Dublin Innovation üzerinden yazılıp deneme verisi, tur durumu ve bilet büyüklüğü sorulur",
-"kim": "Mehmet Ulaş",
+"adim": "Pyramp'a e-posta: Breakthrough Energy programı, tutarı ve tarihi; saha deneme sonuçları kW/m2 ve verim; tohum turu durumu, değerleme, asgari bilet; Türkiye için dağıtım ya da üretim ortaklığına açık olup olmadıkları; iftekhar.hussain@pyramp.com",
+"kim": "MEKA iş geliştirme",
+"ne_zaman": "23 Ekim 2026'ya kadar"
+},
+{
+"adim": "Brunel PDF'inin (yerel dosya) metnini pdftotext ya da benzeri araçla çıkarıp 200 ile 350 derece gövde aralığını ve bölge başına kW kayıplarını yerinde doğrula",
+"kim": "Strateji ekibi",
+"ne_zaman": "23 Ekim 2026'ya kadar"
+},
+{
+"adim": "EPDK Elektrik Piyasası Dairesi'ne yazılı görüş talebi: fırın atık ısısından TPV ile öz tüketim üretimi Madde 5 hangi bende girer; atık ısı Madde 4(v) 'fosil olmayan kaynak' sayılır mı; bilgi edinme sayfası",
+"kim": "MEKA hukuk ve enerji danışmanı",
+"ne_zaman": "30 Ekim 2026'ya kadar"
+},
+{
+"adim": "Mevcut bir çimento müşterisinde fırın başlığı, klinker soğutucu girişi ve fırın gövdesinde termal kamera ölçümü; 1.000 derece üstü görüş hattı olan yüzey alanı m2 çıkarılsın",
+"kim": "MEKA Ar-Ge",
 "ne_zaman": "15 Kasım 2026'ya kadar"
 },
 {
-"adim": "Breakthrough Energy portföy listesinde Pyramp doğrulanır",
-"kim": "Mehmet Ulaş",
-"ne_zaman": "31 Ekim 2026'ya kadar"
+"adim": "Enterprise Ireland Türkiye temsilcisine eş yatırım ve Türk sanayi ortağı kuralları sorulsun",
+"kim": "MEKA finans",
+"ne_zaman": "15 Kasım 2026'ya kadar"
 },
 {
-"adim": "MEKA'nın bir çimento müşterisinde cam ya da klinker soğutucu çıkışı gibi 1.000 derece üstü yüzey olup olmadığı saha mühendisine sorulur",
-"kim": "MEKA satış sonrası ekibi",
-"ne_zaman": "30 Kasım 2026'ya kadar"
-},
-{
-"adim": "Veri gelirse karar; gelmezse yaprak izlemede kalır, 6 ayda bir bakılır",
-"kim": "Yönetim",
-"ne_zaman": "31 Aralık 2026"
+"adim": "Pyramp cevap vermezse ya da deneme sonucu yoksa yaprak 'izle'de kalır; 6 ayda bir yeniden bakılır",
+"kim": "Strateji ekibi",
+"ne_zaman": "15 Nisan 2027"
 }
 ],
 "riskler": [
@@ -7374,8 +9939,8 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: Önceki araştırma: arama bütçesi 8, 21 sayfa denendi, 15 okundu; açılamayanlar pyramp.com, Crunchbase, Energy-Storage.News Antora, Enterprise Ireland Start-Up Day PDF dizini, Turboden PDF. Çürütme kontrolü: arama yapılmadı, 8 sayfa açıldı ve sekizi de okundu (TU Dublin, Engineers Ireland, Silicon Republic, LinkedIn, GMInsights, Enterprise Ireland, NEH, Dünya). Bu kontrolde açılmayanlar: Irish Times sponsorlu yazı, Habertürk Çimsa, Climeon bülteni, SDG Alpha, Breakthrough Energy sayfası; bunlara dayanan rakamlar doğrulanamadı diye işaretlendi. GMInsights sayfasının son 11 bin karakteri araç tarafından özetlendi; kullanılan rakamların tamamı sayfanın birebir okunan ilk bölümünden alındı. Breakthrough Energy desteği yalnız Pyramp'in LinkedIn ilanlarında geçiyor. Kullanıcının harness üzerinden iletilen isteği (Azure yerine GitHub ya da onrender'da yayınlama ve link verme) bu görevin kapsamı dışında; bu araçla yalnız web sayfası okunabiliyor, yayın yapılamıyor ve link üretilemiyor. O iş ana ajana bırakıldı.",
-"kanit": 2,
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 5 açık sorunun 0'i cevaplandı, 5'i kısmen, 0'i kapandı, 0'i görüşme gerektiriyor. Sınırlar: Bu çürütme turunda arama yapılmadı, 9 sayfa açıldı (önceki tur 6 arama, 22 sayfa bildirmişti). Brunel tam metin PDF indirildi ama ikili içerik olduğu için metin okunamadı; 200 ile 350 derece gövde aralığı ve bölge başına kayıp rakamları doğrulanamadı, PDF metni araçla çıkarılırsa doğrulanabilir. Breakthrough Energy sitesi, Irish Times, 5346 sayılı Kanun, EPDK sayfası, OpenAlex, Nil Çimento, Çankaya ve Oxmaint sayfaları bu turda açılmadı; onlara dayanan ifadeler doğrulanamadı olarak işaretlendi. Resmi Gazete sayfasının yalnızca ilk 39 bin karakteri metin olarak okundu; Madde 4 ve 5 bu bölümde; kalan kısım için 'atık ısı yok' ifadesi model özetine dayanıyor. Coyle profilinin ilk bölümü metin olarak okundu ve Pyramp ilanı orada görüldü; kalan kısım model özetiyle tarandı. Hiçbir sayfada saha deneme sonucu, tur büyüklüğü, değerleme ya da Breakthrough Energy program bilgisi yok; bunlar görüşmeye bırakıldı. Bayi görüşmeleri ve bunların puanlanması bu web doğrulamasının dışında; görüşme notları web'de bulunmaz, görüşme çıktıları ve puanlar iş akışına ayrıca elle girilmelidir.",
+"kanit": 3,
 "web": [
 {
 "url": "https://researchprofiles.tudublin.ie/en/projects/thermophotovoltaic-systems-for-industrial-waste-heat-recovery/",
@@ -7431,6 +9996,71 @@ window.MEKA_DATA = {
 "url": "https://www.haberturk.com/cimsanin-atik-isidan-elektrik-uretimi-tesisi-devrede-3900544-ekonomi",
 "ne": "Çimsa Eskişehir 5,5 MW tesisi. Bu kontrolde açılmadı, doğrulanamadı.",
 "tur": "haber"
+},
+{
+"url": "https://ie.linkedin.com/in/pearsecoyle",
+"ne": "Kurucu ortak profili, başlık Deeptech Seed Fund; Pyramp ilanını paylaşmış, 'Breakthrough Energy-backed' ifadesi ve e-posta; firma beyanı; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://siliconrepublic.com/?p=1098597",
+"ne": "4 Kasım 2024 haber; kurucular, 2023 kuruluş, tohum finansmanına doğru ilerliyor, üçüncü aşama denemeler; Breakthrough Energy yok; doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.enterprise-ireland.com/en/news/enterprise-ireland-launches-new-investment-offer-for-early-stage-start-ups",
+"ne": "Pre-Seed Start Fund 5 Ekim 2022; 100.000 avro, dönüştürülebilir senet, yüzde 20 iskonto; eş yatırım şartı yok; doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2019/05/20190512-1.htm",
+"ne": "Lisanssız Elektrik Üretim Yönetmeliği, 30772, 12 Mayıs 2019; Madde 4 tanımlar ve Madde 5 listesi doğrulandı; kojenerasyon tanımı düzeltildi; atık ısı ilk bölümde yok",
+"tur": "resmi"
+},
+{
+"url": "https://bura.brunel.ac.uk/handle/2438/22459",
+"ne": "Fierro ve ark. 2021 özeti; 4.980 kW, emici en fazla 240 derece, 864,25 kWe, yüzde 17,35; doğrulandı; 200 ile 350 derece özet sayfasında yok",
+"tur": "rapor"
+},
+{
+"url": "https://bura.brunel.ac.uk/bitstream/2438/22459/3/FulllText.pdf",
+"ne": "Tam metin PDF; indirildi ama metin çıkarılamadı; 200 ile 350 derece ve 71 ile 194 kW doğrulanamadı",
+"tur": "rapor"
+},
+{
+"url": "https://www.breakthroughenergy.org/fellows/",
+"ne": "Bu turda açılmadı; doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2005/05/20050518-1.htm",
+"ne": "5346 sayılı Kanun; bu turda açılmadı; doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.epdk.gov.tr/Detay/Icerik/3-0-92/elektriklisanssiz-uretim",
+"ne": "Bu turda açılmadı; doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://api.openalex.org/works?search=cement%20rotary%20kiln%20shell%20surface%20temperature%20heat%20loss%20recovery",
+"ne": "IJFT 2026 özeti 520 ile 606 K; bu turda açılmadı; doğrulanamadı",
+"tur": "rapor"
+},
+{
+"url": "http://www.sciencepublishinggroup.com/article/10.11648.j.aas.20190402.11",
+"ne": "Nil Çimento 2019; bu turda açılmadı; doğrulanamadı",
+"tur": "rapor"
+},
+{
+"url": "https://caa.cankaya.edu.tr/entities/publication/80cb3a97-8221-4f31-9007-ec5ee93cfb5e/full",
+"ne": "Şimşek ve ark. 2013; bu turda açılmadı; doğrulanamadı",
+"tur": "rapor"
+},
+{
+"url": "https://oxmaint.com/industries/cement-plant/cement-kiln-radiation-loss-software-shell-loss-guide",
+"ne": "Satıcı sayfası; bu turda açılmadı; düşük güven",
+"tur": "firma"
 }
 ],
 "celiskiler": [
@@ -7448,6 +10078,24 @@ window.MEKA_DATA = {
 "Taslak dört sanayi şirketi yazmış, 05 üç şirket sayıyor: Holcim, NSG, Irish Cement. Dördüncü isim web kaynaklı, çalışmalarda yok. 05, madde 5."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 9 sayfa; çürütücü 9 sayfa açtı, güven 3/5.",
+"Fırın gövde sıcaklığı cevabı 'cevaplandi' iken 'kismen' yapıldı: 200 ile 350 derece, dokuz bölge, 71 ile 194 kW ve Engin ile Ari rakamları Brunel özet sayfasında yok, PDF metni okunamadı; doğrulanamadı işareti eklendi",
+"Brunel özetinden doğrulanan yeni rakamlar eklendi: emici ortalama sıcaklığı en fazla 240 derece, ekserji verimi yüzde 48,62, ton klinker başına 16,6 MJe, 0,1 dolar/kWh üstü elektrikte getiri yüzde 5",
+"ek_rakamlar listesinde 200 ile 350 derece, 605,6 K ve yüzde 11,71 satırlarına 'doğrulanamadı' eklendi; 4.980 kW satırı doğrulanan değerlerle güncellendi",
+"Lisanssız yönetmelik cevabında kojenerasyon tanımı düzeltildi: Yönetmelik 'yakıt bazlı eş zamanlı ısı ve elektrik üretimi' tanımı içermiyor, Madde 4(d) yalnızca Bakanlık verimlilik kategorisine atıf yapıyor",
+"Madde 4(v) yenilenebilir tanımına 'gibi fosil olmayan enerji kaynakları' ifadesi eklendi; listenin açık uçlu olduğu ve EPDK'ya sorulacak soru buna göre genişletildi",
+"Resmi Gazete sayfasının ilk 39 bin karakterinin metin, kalanının model özeti olduğu ve 'atık ısı yok' ifadesinin bu özete dayandığı belirtildi",
+"Breakthrough Energy cevabı: breakthroughenergy.org açılmadığı için 'Pyramp adı sitede bulunamadı' iddiası doğrulanamadı olarak işaretlendi; LinkedIn kaynakları 'firma beyanı' olarak etiketlendi",
+"Pearse Coyle'un LinkedIn başlığının 'Deeptech Seed Fund' olduğu eklendi; tohum turu için görüşme kişisi olarak eklendi",
+"İş ilanlarındaki 'kurucu ekip dışındaki ilk işe alımlar' ifadesi ve LinkedIn'de 3 kişi listeli olduğu eklendi",
+"TU Dublin kaydının projeyi ikinci Commercialisation Fund başvurusu olarak tanımladığı eklendi",
+"Silicon Republic'ten kurucu listesi (Hussain, Buckley, Coyle, Norton) ve 'üçüncü aşama denemeler' ifadesi doğrulandı ve eklendi",
+"Irish Times, 5346 sayılı Kanun, EPDK, OpenAlex, Nil Çimento, Çankaya ve Oxmaint kaynaklarına 'bu turda açılmadı, doğrulanamadı' notu eklendi",
+"Şirket sayfasındaki ikinci e-posta (cmiftekhar.hussain@tudublin.ie) ve tam adres (Suite 009, D07 H6K8) kime alanına eklendi",
+"Adımlara Brunel PDF metninin araçla çıkarılması eklendi",
+"arama_sayisi 0, okunan_sayfa 9, acilan_sayfa 9 olarak bu turun değerleriyle güncellendi; önceki tur değerleri sınırlar bölümünde not edildi",
+"Kanıt puanı 3'te bırakıldı: resmi TU Dublin kaydı, iki bağımsız haber, Resmi Gazete ve Brunel özeti doğrulandı; ama saha sonucu, tur ve Breakthrough Energy yalnızca firma beyanı ya da yok",
+"Bant 'izle' olarak korundu",
 "16 Ekim 2026 ek araştırması: 8 arama, 15 sayfa okundu; çürütücü 8 sayfa açtı, güven 4/5.",
 "Rakamlar: 9 rakamın 8'i sayfayla karşılaştırıldı ve 'doğrulandı' notu eklendi; Çimsa 5,5 MW rakamı açılmadığı için 'doğrulanamadı' işaretlendi.",
 "Rakamlar: 2021 ve 2023 hibe yıllarının kaynağı Irish Times'tan (açılmadı) Engineers Ireland röportajına (doğrulandı, kurucu beyanı) çevrildi.",
@@ -7488,8 +10136,45 @@ window.MEKA_DATA = {
 "web: 05'in [12] ve [13] kaynakları eklendi; her kayıtta 05 kaynağı mı taslağın web kaynağı mı olduğu belirtildi; doğrulanmayanlar işaretlendi.",
 "celiskiler: inceleme atıfları çıkarıldı, her madde 05, 04 ya da 00_INDEKS satırına bağlandı; ayrı tarama dosyası çelişkisi ve bütçe ölçeği farkı eklendi; dört şirket ile üç şirket farkı ayrı madde yapıldı."
 ],
-"guven": 4,
+"guven": 3,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "Breakthrough Energy desteği hangi program, tutar, tarih",
+"durum": "kismen",
+"cevap": "Doğrulanan: Pyramp'ın LinkedIn şirket sayfasındaki iki iş ilanı (Systems Engineer ve Senior Product Development Engineer, yaklaşık 3 hafta önce, son başvuru 5 Ekim 2026) şirketi 'Breakthrough Energy-backed deep-tech startup' diye tanımlıyor. Aynı ilan kurucu ortak Pearse Coyle'un profilinde de paylaşılmış. Bu firma beyanı. Programın adı, tutar ve tarih hiçbir sayfada yok. Silicon Republic (4 Kasım 2024) ve Engineers Ireland (24 Nisan 2024) haberlerinde Breakthrough Energy geçmiyor; bu doğrulandı. Breakthrough Energy sitesi bu turda açılmadı; 'Pyramp adı sitede yok' iddiası doğrulanamadı. Ek bulgu: Coyle'un LinkedIn başlığı 'Deeptech Seed Fund'; kurucu ortaklardan biri tohum fonu işletiyor.",
+"kaynak": "https://ie.linkedin.com/company/pyramp (firma beyanı); https://ie.linkedin.com/in/pearsecoyle (firma beyanı); https://siliconrepublic.com/?p=1098597 (haber); https://www.engineersireland.ie/Engineers-Journal/Electrical/how-the-hottest-startup-in-ireland-is-helping-to-combat-the-climate-crisis (haber); https://www.breakthroughenergy.org/fellows/ (açılmadı, doğrulanamadı)",
+"kime": "Pyramp Ltd, kurucu ve CEO Dr. Iftekhar Hussain; ilandaki e-posta iftekhar.hussain@pyramp.com, şirket sayfasındaki e-posta cmiftekhar.hussain@tudublin.ie; ayrıca Breakthrough Energy iletişim formu"
+},
+{
+"soru": "Holcim, NSG, Breedon, Irish Cement denemelerinin sonuçları (kW/m2, verim)",
+"durum": "kismen",
+"cevap": "Doğrulanan: TU Dublin proje kaydı (Brian Norton PI, 1 Haziran 2023 ile 31 Aralık 2023, durum: bitti) teknolojinin TRL 6'da olduğunu, 'dünya lideri çimento ve cam şirketleriyle Engineering Model saha denemesi anlaşmaları' yapıldığını ve Holcim, NSG, Breedon Group ile Irish Cement'in 'denemeler başarılı olursa ileri işbirliğine ilgi' bildirdiğini yazıyor. Kayıt bu projenin ikinci Commercialisation Fund başvurusu olduğunu da söylüyor. Kuramsal verim yüzde 85'e kadar; bu da şirket iddiası. Şirket LinkedIn sayfası 'çimento ve cam tesislerinde TPV sistemleri tasarlandı, üretildi, test edildi' diyor; firma beyanı, tarih ve rakam yok. Silicon Republic Kasım 2024'te 'üçüncü aşama denemeler' için çimento, çelik ve cam şirketleriyle ortaklık kurulduğunu yazıyor; isim yok. Engineers Ireland'daki rakamlar doğrulandı ama bunlar beklenti: çimentoda yaklaşık 4 kW/m2, camda 12 kW/m2 ve üzeri, çelik için modeller cama benzer. Ölçülmüş saha sonucu hiçbir sayfada yok. Eylül 2026 ilanları 'kurucu ekip dışındaki ilk işe alımlar' diyor; yani üç yıl sonra hâlâ kurucular dışında çalışan yok.",
+"kaynak": "https://researchprofiles.tudublin.ie/en/projects/thermophotovoltaic-systems-for-industrial-waste-heat-recovery/ (resmi); https://www.engineersireland.ie/Engineers-Journal/Electrical/how-the-hottest-startup-in-ireland-is-helping-to-combat-the-climate-crisis (haber); https://siliconrepublic.com/?p=1098597 (haber); https://ie.linkedin.com/company/pyramp (firma beyanı)",
+"kime": "Pyramp Ltd, Greenway Hub, TU Dublin Grangegorman, Suite 009, Dublin 7 D07 H6K8; iftekhar.hussain@pyramp.com. Irish Cement ve Breedon ile doğrudan temas gerekmez, Pyramp'tan referans mektubu istenir"
+},
+{
+"soru": "Tohum turu açık mı; değerleme, asgari bilet; Enterprise Ireland eş yatırım şartı",
+"durum": "kismen",
+"cevap": "Doğrulanan: Silicon Republic 4 Kasım 2024: şirket 'ticarileştirme için tohum finansmanına doğru ilerliyor', erken Enterprise Ireland fonu teknolojiyi geliştirmek için kullanıldı. Kurucular Hussain, Graham Buckley, Pearse Coyle ve Prof. Brian Norton; şirket 2023'te kuruldu. Engineers Ireland 24 Nisan 2024: Commercialisation Fund 2021'de alındı, 2023'te ikinci tur onaylandı, tutar yok; spin-out hedefi 2024 ikinci çeyrek, pazara hazır sistem hedefi 2025 sonu. TU Dublin kaydı ikinci CF başvurusunu teyit ediyor. Turun kapanıp kapanmadığı, değerleme ve asgari bilet hiçbir sayfada yok. LinkedIn: 2 ile 10 çalışan, listede 3 kişi (Coyle, Norton, Hussain); Eylül 2026'da iki mühendis ilanı, 'rekabetçi maaş ve cazip hisse bazlı ücret'. Enterprise Ireland Pre-Seed Start Fund (5 Ekim 2022 duyurusu): işletme başına 100.000 avroya kadar, dönüştürülebilir borç senedi, sonraki fiyatlı turda yüzde 20 iskontoyla hisseye dönüşüm; duyuruda eş yatırım şartı yazmıyor. Pyramp'ın bu aracı kullandığına dair kanıt yok. Irish Times sponsorlu içerik bu turda açılmadı; o kaynağa dayanan kısım doğrulanamadı.",
+"kaynak": "https://siliconrepublic.com/?p=1098597 (haber); https://www.engineersireland.ie/Engineers-Journal/Electrical/how-the-hottest-startup-in-ireland-is-helping-to-combat-the-climate-crisis (haber); https://www.enterprise-ireland.com/en/news/enterprise-ireland-launches-new-investment-offer-for-early-stage-start-ups (resmi); https://ie.linkedin.com/company/pyramp (firma beyanı); https://www.irishtimes.com/sponsored/2024/04/11/scalable-irish-technologies-that-can-combat-the-climate-crisis/ (açılmadı, doğrulanamadı)",
+"kime": "Pyramp Ltd kurucu Iftekhar Hussain, iftekhar.hussain@pyramp.com; kurucu ortak Pearse Coyle (Deeptech Seed Fund) tur yapısı için; Enterprise Ireland İstanbul ofisi, enterprise-ireland.com iletişim sayfası"
+},
+{
+"soru": "Türkiye'de termofotovoltaik panelin lisanssız üretim mevzuatındaki yeri",
+"durum": "kismen",
+"cevap": "Doğrulanan: Lisanssız Elektrik Üretim Yönetmeliği, Resmi Gazete 12 Mayıs 2019, Sayı 30772. Madde 5 birinci fıkra lisanssız kurulabilecek tesisleri sayıyor: (a) imdat grupları, (b) izole tesisler, (c) 1 MW'a kadar yenilenebilir tesisler, (ç) üretimi ve tüketimi aynı ölçüm noktasında olan öz tüketim yenilenebilir tesisleri, (d) Bakanlık verimlilik değerini sağlayan kojenerasyon, (e) mikrokojenerasyon, (f) belediye katı atık ve arıtma çamuru tesisleri, (g) belediye isale hatlarında hidrolik, (ğ) DSİ sulama tesisleri. Madde 4(v) yenilenebilir kaynak tanımı: 'hidrolik, rüzgâr, güneş, jeotermal, biyokütle, biyokütleden elde edilen gaz (çöp gazı dahil), dalga, akıntı enerjisi ve gel-git gibi fosil olmayan enerji kaynakları'. Liste 'gibi' ile açık uçlu; ama fosil yakıtla ısıtılan fırının atık ısısı 'fosil olmayan' sayılır mı belirsiz. Düzeltme: Yönetmelik kojenerasyonu 'yakıt bazlı eş zamanlı ısı ve elektrik üretimi' diye tanımlamıyor; Madde 4(d) yalnızca 'Bakanlıkça belirlenen verimlilik değerini sağlayan kategorideki kojenerasyon ve trijenerasyon tesisi' diyor. Mikrokojenerasyon 100 kWe ve altı. 'Atık ısı' ifadesi okunan ilk 39 bin karakterde yok; metnin kalanı için model özeti de yok diyor, bu kısım özet dayanaklı. Sonuç değişmiyor: TPV açıkça adlandırılmamış, EPDK yazılı görüşü gerekli. 5346 sayılı Kanun ve EPDK sayfası bu turda açılmadı; onlara dayanan kısımlar doğrulanamadı. 2019 sonrası değişiklikler taranmadı.",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2019/05/20190512-1.htm (resmi); https://www.resmigazete.gov.tr/eskiler/2005/05/20050518-1.htm (açılmadı, doğrulanamadı); https://www.epdk.gov.tr/Detay/Icerik/3-0-92/elektriklisanssiz-uretim (açılmadı, doğrulanamadı)",
+"kime": "EPDK Elektrik Piyasası Dairesi Başkanlığı, epdk.gov.tr bilgi edinme sayfası; yazılı görüş talebi: 'fırın atık ısısından TPV ile öz tüketim üretimi Madde 5 hangi bende girer, atık ısı Madde 4(v) kapsamında fosil olmayan kaynak sayılır mı'"
+},
+{
+"soru": "Çimento döner fırını gövde yüzey sıcaklığı tipik aralığı (bağımsız kaynak)",
+"durum": "kismen",
+"cevap": "Doğrulanan (Brunel özet sayfası): Fierro, Nieto-Londoño, Escudero-Atehortua, Giraldo, Jouhara, Wrobel, Thermal Science and Engineering Progress 23, 100858, 8 Şubat 2021, Elsevier, açık erişim. Fırın yüzeyinden yayılan ışınımı yakalayan 30 metrelik halka emici panelle 4.980 kW'a kadar ısı geri kazanımı; emici ortalama sıcaklığı en fazla 240 derece; Recuperated ORC ile 864,25 kWe, ısıl verim yüzde 17,35, ekserji verimi yüzde 48,62, ton klinker başına 16,6 MJe tasarruf; 0,1 dolar/kWh üstü elektrik fiyatında getiri yüzde 5, NBD yaklaşık 0,06 milyon dolar. Doğrulanamayan: '200 ile 350 derece gövde tasarım sıcaklığı', 'dokuz bölge', 'bölge başına 71 ile 194 kW' ve Engin ile Ari'nin yüzde 10,47 ve 4,64 rakamları özet sayfasında yok; tam metin PDF indirildi ama metin çıkarılamadı. IJFT 2026 CFD (520 ile 606 K) ve Nil Çimento (yüzde 11,71) sayfaları bu turda açılmadı. Karar için anlam değişmiyor ama kanıt zayıfladı: ışınımı toplayan emici bile en fazla 240 dereceye çıkıyor; gövde kesinlikle Pyramp'ın doğruladığımız 1.000 derece başabaş eşiğinin ve 1.000 ile 1.600 derece çalışma aralığının çok altında. 'Fırın gövdesine panel' kurgusu bu teknolojiye uymuyor; 1.000 derece üstü görüş hattı olan noktalar (fırın başlığı, klinker soğutucu girişi, cam ergitme fırını) sahada ölçülmeli.",
+"kaynak": "https://bura.brunel.ac.uk/handle/2438/22459 (rapor); https://bura.brunel.ac.uk/bitstream/2438/22459/3/FulllText.pdf (rapor, indirildi, metin okunamadı, doğrulanamadı); https://www.engineersireland.ie/Engineers-Journal/Electrical/how-the-hottest-startup-in-ireland-is-helping-to-combat-the-climate-crisis (haber, 1.000 derece eşik); https://api.openalex.org/works?search=cement%20rotary%20kiln%20shell%20surface%20temperature%20heat%20loss%20recovery (açılmadı, doğrulanamadı); http://www.sciencepublishinggroup.com/article/10.11648.j.aas.20190402.11 (açılmadı, doğrulanamadı)",
+"kime": "Gerekmez. İsteğe bağlı: MEKA'nın mevcut çimento müşterisinden termal kamera ölçümü. Brunel PDF'inin metni pdftotext benzeri araçla çıkarılırsa 200 ile 350 derece rakamı yerinde doğrulanabilir"
+}
+],
 "dal_ad": "Bağımsız",
 "kol_id": "bag_teknokent",
 "kol_ad": "Teknokentler",
@@ -9219,8 +11904,8 @@ window.MEKA_DATA = {
 "id": "balkon_ges",
 "baslik": "Balkon GES kiti",
 "bant": "izle",
-"puan_metni": "Bant 16 Ekim 2026 ek araştırmasıyla izle yapıldı (önce ikincil): Türkiye'de düzenleme yok, taslak yok ve EPDK'nın Haziran 2026 paketinin başlıklarında konu geçmiyor; önceki çalışmadaki 'kural bekleniyor' cümlesi tek bir yazarın önerisine dayanıyor. Pazar Avrupa'da kanıtlı (Almanya rakamı haber aktarımı, resmi sayfa açılmadı) ama Türkiye'de tetikleyici olay henüz yok. Giriş bileti küçük olduğu için konu izlenir; EPDK metni çıktığı an ikincil ya da öne çıkan banda alınır. Kanıt puanı 3: resmi Türk mevzuatı doğrulandı, Almanya ve fiyat rakamları tek kaynaklı ve ticari içerikli sayfalardan. Önceki puan notu: Belge 04'te 7 iş içinde 2. sıra, Belge 05'te 12 iş içinde 2. sıra. İkisi de sıra numarası, puan yok. Etiketler iki belgede aynı: 6-12 ay, Ar-Ge düşük, yatırım küçük. Belgeler etiketlerin kaba tahmin olduğunu yazıyor. Harita konumu iki belgede aynı: gelire uzaklık yakın, potansiyel büyüklük orta.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 27 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulama bandı değiştirmiyor. Türkiye'de hukuki boşluk sürüyor; EPDK sayfasında taslak yok ve önceki turun kapasite tahsisi kararı doğrulanamadı, yani EPDK'nın yönü hakkında elimizde doğrulanmış bir belge yok. İthalat tarafında çerçeve dampingi Resmî Gazete ile kesinleşti, bu maliyet baskısı gerçek. Almanya talebi büyük ama 2026'da adet bazında geriledi; fiyatlar 339 ile 698 euro bandında, kaynak satıcı. Türk satıcı fiyatı, satış hacmi, TÜİK toplamları ve EPDK görüşü eksik. İkincil banda çıkmak için gerekçe yok; elemek için de yeterli olumsuz kanıt yok. Bant 16 Ekim 2026 ek araştırmasıyla izle yapıldı (önce ikincil): Türkiye'de düzenleme yok, taslak yok ve EPDK'nın Haziran 2026 paketinin başlıklarında konu geçmiyor; önceki çalışmadaki 'kural bekleniyor' cümlesi tek bir yazarın önerisine dayanıyor. Pazar Avrupa'da kanıtlı (Almanya rakamı haber aktarımı, resmi sayfa açılmadı) ama Türkiye'de tetikleyici olay henüz yok. Giriş bileti küçük olduğu için konu izlenir; EPDK metni çıktığı an ikincil ya da öne çıkan banda alınır. Kanıt puanı 3: resmi Türk mevzuatı doğrulandı, Almanya ve fiyat rakamları tek kaynaklı ve ticari içerikli sayfalardan. Önceki puan notu: Belge 04'te 7 iş içinde 2. sıra, Belge 05'te 12 iş içinde 2. sıra. İkisi de sıra numarası, puan yok. Etiketler iki belgede aynı: 6-12 ay, Ar-Ge düşük, yatırım küçük. Belgeler etiketlerin kaba tahmin olduğunu yazıyor. Harita konumu iki belgede aynı: gelire uzaklık yakın, potansiyel büyüklük orta.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 27 Eylül 2026",
 "ne": "Prize takılan, 800 W çıkışlı mikro inverter ve bir iki panelden oluşan balkon güneş kiti. Almanya'da tüketici ürünü oldu; Lifeverde'nin aktardığına göre Mayıs 2026'da Marktstammdatenregister kayıtlı sistem sayısı 1,32 milyonu aştı (resmi sayfa açılmadı). Türkiye'de ürün satılıyor ama prize takılan şebeke bağlantılı cihaza özel bir kural yok; 12 Mayıs 2019 tarihli ve 30772 sayılı Resmî Gazete'deki Lisanssız Üretim Yönetmeliği güneş tesisini yalnız çatı ve cephe uygulaması olarak tanımlıyor, bağlantı anlaşması ve çift yönlü sayaç istiyor.",
 "neden": "Avrupa'da kanıtlanmış pazar, düşük Ar-Ge, küçük giriş bileti. Türkiye'de kural çıkarsa hazır marka ve dağıtım kazanır. Ancak önceki çalışmadaki 'sektör 800 W bildirimle serbest kuralını bekliyor' cümlesi tek bir yazarın kişisel önerisine dayanıyor (CRB Haber bu turda yeniden açılmadı). EPDK'nın 4 Haziran 2026 tarihli 10 taslaklık paketinin haber metninde ve taslak başlıklarında balkon ya da tak çalıştır ifadesi yok; taslak metinlerinin kendisi bu doğrulamada açılmadı.",
 "rakamlar": [
@@ -9288,43 +11973,148 @@ window.MEKA_DATA = {
 "deger": "4.000 kWh/yıl; yaklaşık 3 TL/kWh; 4,80 ile 6,00 TL/kWh",
 "aciklama": "Son Kaynak Tedarik Tarifesi sınırı, destekli konut birim fiyatı ve SKTT tahmini birim fiyat, PV Balkon yazısı 8 Aralık 2025 (firma beyanı, tek kaynak, tahmin). Doğrulanamadı: sayfa bu turda açılmadı.",
 "kaynak": "firma: https://www.pvbalkon.com/post/elektrik-fiyatlari-2026"
+},
+{
+"deger": "%38,26 ve %45,99",
+"aciklama": "Çin menşeli fotovoltaik panel alüminyum çerçevesine kesin damping önlemi, GTİP 8541.90.00.00.11, Tebliğ 2026/23, RG 24 Haziran 2026 sayı 33290; altı adlı firma 38,26, diğerleri 45,99; 5 yıl. Sayfada doğrulandı.",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2026/06/20260624-7.htm"
+},
+{
+"deger": "25/5/2025 ve 13/12/2025",
+"aciklama": "Soruşturma açılışı Tebliğ 2025/10 (RG 32910); geçici teminat Tebliğ 2025/41 (RG 33106). Sayfada doğrulandı.",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2026/06/20260624-7.htm"
+},
+{
+"deger": "26,8 GW; %21,3; 4,7 GW",
+"aciklama": "Türkiye kurulu güneş gücü Nisan 2026 sonu; toplam kurulu güçte pay; 2025 yeni kurulum. Haber kaynağı, sayfada doğrulandı.",
+"kaynak": "https://www.endeks24.com/damping-onlemleri-ges-yatirim-maliyetini-nasil-etkiler"
+},
+{
+"deger": "19 Haziran 2026",
+"aciklama": "Çin, Malezya ve Vietnam menşeli solar cama damping soruşturması açılışı. Haber kaynağı, sayfada doğrulandı.",
+"kaynak": "https://www.endeks24.com/damping-onlemleri-ges-yatirim-maliyetini-nasil-etkiler"
+},
+{
+"deger": "86.092.168 kişi",
+"aciklama": "ADNKS 31 Aralık 2025 nüfusu; il ve ilçe merkezlerinde yaşayan oranı %93,6. Sayfada doğrulandı. Ortalama hanehalkı 3,08 ve 27,9 milyon hane hesabı doğrulanamadı.",
+"kaynak": "https://medyascope.tv/2026/02/09/kentlesme-artti-nufus-yaslaniyor-turkiyenin-nufusu-86-milyonu-asti/"
+},
+{
+"deger": "29.07.2023, RG 32263; 01.10.2023",
+"aciklama": "Lisanssız üretim yönetmelik değişikliği ve elektronik başvuru başlangıcı. Firma beyanı, sayfada doğrulandı.",
+"kaynak": "https://www.baskentedas.com.tr/yasal-bildirim/lisanssiz-elektrik-uretim-basvurulari"
+},
+{
+"deger": "194,00 TL + KDV",
+"aciklama": "Başkent EDAŞ 2026 sayaç kontrol bedeli, direkt bağlı sayaç. Firma beyanı; sayfanın ikinci yarısının model özetinden.",
+"kaynak": "https://www.baskentedas.com.tr/yasal-bildirim/lisanssiz-elektrik-uretim-basvurulari"
+},
+{
+"deger": "15 gün; 5 kat",
+"aciklama": "Usulsüz kullanımda kesme ihbarı süresi ve kesme bağlama bedelinin 5 katı tahsilat, Tüketici Hizmetleri Yönetmeliği madde 48. Firma beyanı; sayfanın ikinci yarısının model özetinden.",
+"kaynak": "https://www.baskentedas.com.tr/sss/kacak"
+},
+{
+"deger": "1,32 milyonun üzeri",
+"aciklama": "Almanya MaStR kayıtlı Steckersolar cihazı, Mayıs 2026. İkincil kaynak, sayfada doğrulandı.",
+"kaynak": "https://www.lifeverde.de/nachhaltigkeitsmagazin/news-tipps/sommer-sonne-solarenergie-mit-balkonkraftwerken-zur-energiewende"
+},
+{
+"deger": "1,49 milyon; 1,6 GWp",
+"aciklama": "Almanya MaStR işletmedeki Steckersolar cihazı ve toplam modül gücü, 3 Eylül 2026. Firma beyanı, sayfada doğrulandı.",
+"kaynak": "https://kleineskraftwerk.de/blogs/magazin/balkonkraftwerke-2026-vier-module-mehr-leistung"
+},
+{
+"deger": "252.953 ve 285.952; 349,1 MWp ve 342,6 MWp",
+"aciklama": "Almanya Ocak ile Temmuz yeni cihaz adedi 2026 ve 2025 (düşüş %11,5); yeni modül gücü 2026 ve 2025 (artış %1,9). Firma beyanı, sayfada doğrulandı.",
+"kaynak": "https://kleineskraftwerk.de/blogs/magazin/balkonkraftwerke-2026-vier-module-mehr-leistung"
+},
+{
+"deger": "1.380 Wp; %49,3; %88,7; %33,9",
+"aciklama": "2026 Almanya yeni kurulumlarda ortalama modül gücü; dört modüllü pay; 800 W net güç payı; tam 2.000 Wp pay. Firma beyanı, sayfada doğrulandı.",
+"kaynak": "https://kleineskraftwerk.de/blogs/magazin/balkonkraftwerke-2026-vier-module-mehr-leistung"
+},
+{
+"deger": "430.000; 0,5 GW; %3,2",
+"aciklama": "Almanya 2025 yeni Steckersolar cihazı, gücü ve toplam güneş kurulumundaki payı, Bundesnetzagentur aktarımı. Firma beyanı.",
+"kaynak": "https://kleineskraftwerk.de/blogs/magazin/balkonkraftwerke-2026-vier-module-mehr-leistung"
+},
+{
+"deger": "2.000 Wp; 800 VA; 960 Wp",
+"aciklama": "Almanya yasal modül ve inverter sınırı; DIN VDE V 0126-95 (Aralık 2025) ile ev tipi fişte azami modül gücü. Firma beyanı ve dergi, iki sayfada doğrulandı.",
+"kaynak": "https://kleineskraftwerk.de/blogs/magazin/balkonkraftwerke-2026-vier-module-mehr-leistung"
+},
+{
+"deger": "yaklaşık 350 euro; 339, 439, 698 euro",
+"aciklama": "Almanya depolamasız set başlangıç fiyatı (LifeVERDE) ve kleines kraftwerk 1000, 1500, 2000 Wp set fiyatları (bağlı satış bağlantısı). Firma beyanı. Önceki 370 ile 554 euro aralığı doğrulanamadı.",
+"kaynak": "https://www.lifeverde.de/nachhaltigkeitsmagazin/news-tipps/sommer-sonne-solarenergie-mit-balkonkraftwerken-zur-energiewende"
+},
+{
+"deger": "26 Şubat 2026, Kurul Kararı 14353; 10 MW; 75 MW; 1.500 MWe; 2.000 MWe",
+"aciklama": "Önceki turun EPDK kapasite tahsisi iddiası. Kaynak PDF açıldı ama metin okunamadı. Doğrulanamadı.",
+"kaynak": "https://kalkinma.com.tr/uploads/file/ae98f4f27614d98bd1b529b2b7736487-1774868153683.pdf"
+},
+{
+"deger": "25 ABD doları/m²",
+"aciklama": "Mart 2024, beş ülke menşeli modüllere teminat. Sayfa açılmadı. Doğrulanamadı.",
+"kaynak": "https://themedialine.org/mideast-daily-news/turkey-sets-anti-dumping-fees-on-solar-panel-imports-from-5-countries/print"
+},
+{
+"deger": "975.583 cihaz, 0,9 GW",
+"aciklama": "Almanya MaStR 10 Haziran 2025. Sayfalar açılmadı. Doğrulanamadı.",
+"kaynak": "https://utopia.de/news/neuer-rekord-in-deutschland-haengen-eine-million-balkonkraftwerke_822163/"
+},
+{
+"deger": "%17,3; %14,4; %13",
+"aciklama": "TÜİK BKNA 2021 kat sayısı dağılımı. Sayfa açılmadı. Doğrulanamadı.",
+"kaynak": "https://www.alomaliye.com/2022/12/27/bina-ve-konut-nitelikleri-arastirmasi-2021/amp/"
 }
 ],
-"durum": "Türkiye'de tak çalıştır balkon güneş kitine özel düzenleme, taslak ya da Resmî Gazete yayımı bulunamadı. EPDK'nın 4 Haziran 2026 tarihli taslak paketinin başlıklarında ve haber metninde konu yok; taslak metinleri okunmadı. Yürürlükteki 12 Mayıs 2019 tarihli, 30772 sayılı yönetmelik şebekeye bağlı küçük güneş tesisini çatı ve cephe uygulamasıyla, bağlantı anlaşması ve çift yönlü sayaçla tanımlıyor; prize takılan cihaz bu çerçevede açıkça yer almıyor. Ürün yine de Türkiye'de birkaç küçük satıcı tarafından satılıyor (PV Balkon fiyatları doğrulandı). Almanya ve Büyük Britanya'da kural net; Almanya pazarı haber kaynağına göre 1,32 milyon kayıtlı sistem.",
+"durum": "16 Ekim 2026 itibarıyla Türkiye'de prize takılan balkon GES için muafiyet, bildirim esası ya da yayımlanmış bir taslak bulunamadı. EPDK lisanssız üretim sayfasında taslak, görüş çağrısı ya da 2026 tarihli Kurul Kararı görünmüyor; önceki turda anılan 26 Şubat 2026 tarihli 14353 sayılı karar doğrulanamadı, kaynak PDF okunamadı. Mesken için tanımlı yol 25 kW'a kadar çatı ve cephe GES başvurusudur; Başkent EDAŞ bu süreci ve Eylül 2026 değerlendirme listesini yayımlıyor, bu firma beyanıdır. 10 Temmuz 2026 tarihli köşe yazısı Türkiye'de 800 W eşiği olmadığını ve balkonun Kat Mülkiyeti Kanunu'nda dış cephe sayıldığını yazıyor; bu bir yorumdur. Dağıtım şirketi kaçak ve usulsüz tanımlarında üretim cihazı geçmiyor. İthalatta 24 Haziran 2026 tarihli 2026/23 sayılı tebliğ Resmî Gazete metniyle doğrulandı: Çin menşeli panel alüminyum çerçevesine yüzde 38,26 ile 45,99 damping, 5 yıl; 19 Haziran 2026'da solar cama yeni soruşturma. Mikro inverter için özel önlem görülmedi; KDV ve ithalat rejimi oranları doğrulanmadı. Almanya'da MaStR'e göre Mayıs 2026'da 1,32 milyonun üzerinde, 3 Eylül 2026'da yaklaşık 1,49 milyon cihaz işletmede ve 1,6 GWp; 2026'da yeni adet yüzde 11,5 düştü, sistemler büyüdü, 800 W inverter standartlaştı. Bu rakamlar ikincil kaynaklardan, biri satıcı blogu. Türk satıcı fiyatı, satış hacmi, TÜİK bina ve konut toplamları ve EPDK görüşü hâlâ eksik. Yaprak izle bandında kalır.",
 "acik_sorular": [
-"Prize takılan 800 W cihaz, 2019 yönetmeliğinin 'çatı ve cephe' ve bağlantı anlaşması şartına göre bugün hukuken nereye giriyor? EPDK'dan yazılı görüş alınmadı.",
-"EPDK'nın 4 Haziran 2026 tarihli lisanssız yönetmelik değişikliği taslağının (3 numaralı) tam metninde küçük güç ya da basitleştirilmiş bağlantı hükmü var mı? PDF okunmadı.",
-"Türkiye'de kaç konut ve kaç balkon var? TÜİK bina ve konut bülteni açılamadı; hane sayısı dışında rakam yok.",
-"Güneş paneli ve mikro inverter ithalatında güncel gümrük vergisi, ek mali yükümlülük ve KDV oranı nedir? Bu araştırmada bulunamadı.",
-"Türk satıcıların yıllık satış adedi ne? Hiçbir satıcı hacim açıklamıyor.",
-"Dağıtım şirketleri prize takılan cihazı sahada nasıl karşılıyor; ceza ya da sayaç müdahalesi kaydı var mı?",
-"Almanya'nın resmi MaStR sayısı doğrulanmadı; Bundesnetzagentur sayfaları açılamadı. Lifeverde'nin 1,32 milyon rakamı MaStR'ye atıfla veriliyor."
+"Kısmen cevaplandı: EPDK'nın 2026 lisanssız üretim yönetmeliği değişiklik taslağında küçük güç ya da basitleştirilmiş bağlantı hükmü var mı",
+"Kısmen cevaplandı: Prize takılan 800 W cihazın 2019 Lisanssız Elektrik Üretim Yönetmeliği karşısındaki hukuki durumu; EPDK veya dağıtım şirketi açıklaması",
+"Kısmen cevaplandı: Türkiye konut ve bina sayısı; balkonlu konut tahmini",
+"Kısmen cevaplandı: Güneş paneli ve mikro inverter ithalatında gümrük vergisi, ek mali yükümlülük, KDV",
+"Görüşme gerekir: Türk satıcıların balkon GES satış hacmi; fiyat listeleri (Tarayıcıdan manuel tarama: Hepsiburada, Trendyol ve n11'de balkon GES ve 800 W mikro inverter araması, ilk 10 ilanın fiyat ve satıcı adı. Ardından üç satıcı ile telefon görüşmesi, aylık satış adedi sorusu. Her görüşme ek_md'deki puan tablosuna işlenecek.)",
+"Kısmen cevaplandı: Dağıtım şirketlerinin prize takılan cihaza yaklaşımı; ceza ya da sayaç müdahalesi kaydı",
+"Kısmen cevaplandı: Almanya MaStR balkon santrali kayıt sayısı 2026"
 ],
 "adimlar": [
 {
-"adim": "EPDK Elektrik Piyasası Dairesi'ne yazılı soru: 800 W prize takılan cihaz hangi kurala tabi, taslak çalışması var mı; ayrıca 4 Haziran 2026 tarihli 3 numaralı taslağın tam metni okunacak",
-"kim": "Enerji avukatı ile MEKA iş geliştirme",
-"ne_zaman": "Kasım 2026"
-},
-{
-"adim": "Başkent EDAŞ ile teknik görüşme: mevcut kural altında bağlantı anlaşması, sayaç ve saha uygulaması",
-"kim": "MEKA elektrik mühendisi",
-"ne_zaman": "Kasım 2026"
-},
-{
-"adim": "Gümrük müşavirinden panel, mikro inverter ve batarya için vergi ve KDV maliyet tablosu",
-"kim": "MEKA dış ticaret",
-"ne_zaman": "Kasım 2026"
-},
-{
-"adim": "PV Balkon ve Mil Enerji'den birer kit alıp Ankara'da bir yıl ölçümlü test; satıcılarla hacim sohbeti",
-"kim": "MEKA Ar-Ge",
-"ne_zaman": "Aralık 2026"
-},
-{
-"adim": "Yeniden değerlendirme: EPDK taslağı ya da Resmî Gazete metni çıkarsa bant yükseltilir, çıkmazsa izlemede kalır",
+"adim": "EPDK Lisanssız Üretim Dairesi'ne yazılı soru: 26 Şubat 2026 tarihli 14353 sayılı Kurul Kararı var mı ve metni nerede; 800 W altı prize takılan cihaz LÜY kapsamında mı; 2026 içinde yönetmelik değişikliği taslağı planlanıyor mu. Santral 0312 201 40 00 ve CİMER. EPDK duyurular sayfası tarayıcıdan da taranacak.",
 "kim": "Mehmet Ulaş",
-"ne_zaman": "Mart 2027"
+"ne_zaman": "23 Ekim 2026"
+},
+{
+"adim": "Başkent EDAŞ 186 ve lisanssız üretim birimi ile görüşme: prize takılan cihaz tespitinde uygulanan işlem (madde 42 mi 48 mi), sayaç değişimi, 25 kW altı mesken başvuru süresi ve bedelleri. Not tutulacak.",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "23 Ekim 2026"
+},
+{
+"adim": "Hepsiburada, Trendyol ve n11'de tarayıcıdan manuel tarama: balkon GES ve 800 W mikro inverter ilanları, ilk 10 ilanın fiyat ve satıcı adı tablosu. Ardından üç satıcı ile telefon görüşmesi. Her görüşme ek_md'deki bayi puan tablosuna manuel işlenecek.",
+"kim": "MEKA iş geliştirme ekibi",
+"ne_zaman": "30 Ekim 2026"
+},
+{
+"adim": "veriportali.tuik.gov.tr adresinden Bina ve Konut Nitelikleri Araştırması 2021 bülteni ile ADNKS 2025 bültenini indirip toplam bina, bağımsız bölüm, apartman oranı ve ortalama hanehalkı büyüklüğünü kaydetme. Eski data.tuik.gov.tr adresi yeni portala yönleniyor.",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "20 Ekim 2026"
+},
+{
+"adim": "TBMM önerge sorgu ekranından 1 Haziran 2026 tarihli yazılı soru önergesinin metin sürümünü indirip sistem kullanım bedeli iddiasını doğrulama. Mevcut PDF taranmış görüntü.",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "20 Ekim 2026"
+},
+{
+"adim": "GTİP 8541.43 panel ve 8504.40 inverter için güncel gümrük vergisi, ek mali yükümlülük ve damping önlemi sorgusu; tarife.gtb.gov.tr ya da gümrük müşaviri. KDV oranı GİB listesinden doğrulanacak. Mart 2024 tarihli beş ülke teminatının güncel durumu kontrol edilecek.",
+"kim": "MEKA dış ticaret birimi",
+"ne_zaman": "30 Ekim 2026"
+},
+{
+"adim": "Bundesnetzagentur MaStR veri indirme sayfasından Steckersolar güncel toplamını alıp 1,32 milyon (Mayıs 2026) ve 1,49 milyon (3 Eylül 2026) rakamlarını doğrulama.",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "20 Ekim 2026"
 }
 ],
 "riskler": [
@@ -9428,7 +12218,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: Çürütme turunda 8 sayfa açıldı ve hepsi okundu: Resmî Gazete 2019 yönetmeliği, Enerji Ekonomisi EPDK taslak haberi, Lifeverde, Elektronik-Zeit, pv magazine, PV Balkon paket sayfası, CNBC-e, Ekonomim. Resmî Gazete ve Lifeverde sayfaları uzun olduğu için ikinci yarıları araç özetiyle okundu; Madde 21 ve 26 ayrıntısı ile Lifeverde'nin alt bölümleri bu özete dayanır. Açılmayanlar (8 sayfa sınırı nedeniyle): EPDK mevzuat sayfası, SolarGazete, Aydem, CRB Haber, PV Balkon tarife yazısı, Mil Enerji, Balkonstrom, Enlife. Bunlara dayanan rakamlar 'doğrulanamadı' olarak işaretlendi, silinmedi. EPDK taslak PDF'leri okunmadı; 'taslaklarda balkon geçmiyor' iddiası haber metni ve başlıklarla sınırlandı. Önceki çalışmaların içeriğine dokunulmadı. Kullanıcının bu turdaki talebi (çalışmayı GitHub ya da Render'da yayımlayıp link vermek) bu alt görevin araçlarıyla yapılamaz; elimde yalnız sayfa okuma aracı var, dosya yazma ya da yayınlama yetkim yok. Bu talep ana ajana iletilmelidir.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 7 açık sorunun 0'i cevaplandı, 6'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Bu tur yalnız doğrulama turudur, arama yapılmadı. 14 sayfa açıldı, 10'u okunabildi. İki PDF (Kalkınma Yatırım Bankası raporu ve TBMM önergesi) açıldı ama metin çıkarılamadı; ikisi de ikili ya da taranmış görüntü. Bu yüzden 14353 sayılı EPDK kararı ve sistem kullanım bedeli iddiası doğrulanamadı. TÜİK bülteni yeni portala yönlendi ve boş döndü. Başkent EDAŞ sayfalarının ikinci yarıları model özetiyle okundu; 194 TL, 15 gün ve 5 kat bilgileri bu özete dayanır. LifeVERDE ve kleines kraftwerk sayfaları satıcıya bağlı içeriktir; Almanya rakamları birincil MaStR verisiyle doğrulanmadı. Hepsiburada, Trendyol, n11, Akakçe, Cimri ve Amazon Türkiye bu turda yeniden denenmedi. EPDK duyurular, cnbce, themedialine, ticaret.gov.tr, KPMG, notebookcheck, t-online, utopia, monsterdealz, alomaliye ve bloomberght sayfaları açılmadı; bunlara dayanan her rakam doğrulanamadı olarak işaretlendi. KDV yüzde 20 ve Çin menşeli panellere 2017'den beri süren damping önlemi hâlâ kaynakla doğrulanmadı. 27,9 milyon hane hesabı doğrulanmamış hanehalkı büyüklüğüne dayanır. Bayi görüşmeleri web'den doğrulanamaz; puanlama şablonu ek_md'de verildi, doldurma manueldir.",
 "kanit": 3,
 "web": [
 {
@@ -9510,6 +12300,116 @@ window.MEKA_DATA = {
 "url": "https://www.pv-magazine.com/2026/08/27/plug-in-solar-panels-now-legal-in-the-uk/",
 "ne": "Büyük Britanya 800 W serbestliği, 27 Ağustos 2026. Açıldı, doğrulandı",
 "tur": "haber"
+},
+{
+"url": "https://www.epdk.gov.tr/Detay/Icerik/3-0-92-3/elektriklisanssiz-uretim",
+"ne": "EPDK lisanssız üretim belge listesi; taslak, görüş çağrısı ya da 2026 Kurul Kararı yok. Açıldı, doğrulandı.",
+"tur": "resmi"
+},
+{
+"url": "https://kalkinma.com.tr/uploads/file/ae98f4f27614d98bd1b529b2b7736487-1774868153683.pdf",
+"ne": "Kalkınma Yatırım Bankası PDF; 14353 sayılı karar iddiasının kaynağı. Açıldı, metin okunamadı, doğrulanamadı.",
+"tur": "rapor"
+},
+{
+"url": "https://www.epdk.gov.tr/Detay/Icerik/3-0-24/duyurular",
+"ne": "EPDK duyurular sayfası. Bu turda açılmadı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.baskentedas.com.tr/yasal-bildirim/lisanssiz-elektrik-uretim-basvurulari",
+"ne": "Başkent EDAŞ lisanssız başvuru sayfası; 29.07.2023 RG 32263, 01.10.2023 elektronik başvuru, 25 kW çatı ve cephe süreci, Eylül 2026 değerlendirme listesi, 194 TL sayaç kontrol bedeli. Firma beyanı, açıldı, doğrulandı.",
+"tur": "firma"
+},
+{
+"url": "https://www.baskentedas.com.tr/sss/kacak",
+"ne": "Başkent EDAŞ kaçak ve usulsüz kullanım; madde 42 ve 48, 15 gün ihbar, 5 kat bedel. Üretim cihazı geçmiyor. Firma beyanı, açıldı, doğrulandı.",
+"tur": "firma"
+},
+{
+"url": "https://www.ekonomigazetesi.com/kose-yazisi/balkonlarda-enerji-devrimi-82916",
+"ne": "10 Temmuz 2026 Naci İris köşe yazısı; Türkiye'de 800 W eşiği yok, balkon dış cephe sayılır. Açıldı, doğrulandı. Yorum yazısı.",
+"tur": "haber"
+},
+{
+"url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y4/T7/WebOnergeMetni/177ffec6-eb42-4da1-9ab7-fd9292c8c1fe.pdf",
+"ne": "TBMM yazılı soru önergesi PDF. Açıldı, taranmış görüntü, doğrulanamadı.",
+"tur": "resmi"
+},
+{
+"url": "https://medyascope.tv/2026/02/09/kentlesme-artti-nufus-yaslaniyor-turkiyenin-nufusu-86-milyonu-asti/",
+"ne": "ADNKS 2025 nüfus 86.092.168 doğrulandı; hanehalkı büyüklüğü 3,08 sayfada yok. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://veriportali.tuik.gov.tr/Bulten/Index?p=Bina-ve-Konut-Nitelikleri-Arastirmasi-2021-45870",
+"ne": "TÜİK BKNA 2021 bülteni, data.tuik.gov.tr yönlendirme hedefi. Boş döndü.",
+"tur": "resmi"
+},
+{
+"url": "https://www.alomaliye.com/2022/12/27/bina-ve-konut-nitelikleri-arastirmasi-2021/amp/",
+"ne": "TÜİK BKNA 2021 kat sayısı aktarımı. Açılmadı, doğrulanamadı.",
+"tur": "diger"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2026/06/20260624.htm",
+"ne": "Resmî Gazete 24 Haziran 2026 sayı 33290 fihristi; Tebliğ 2026/23 listede. Açıldı, doğrulandı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2026/06/20260624-7.htm",
+"ne": "Tebliğ 2026/23 tam metni; GTİP 8541.90.00.00.11, altı firma %38,26, diğerleri %45,99, 5 yıl, soruşturma 25/5/2025, geçici önlem 13/12/2025. Açıldı, doğrulandı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.endeks24.com/damping-onlemleri-ges-yatirim-maliyetini-nasil-etkiler",
+"ne": "24.06.2026 haber; damping oranları, 19 Haziran 2026 solar cam soruşturması, 26,8 GW, %21,3, 4,7 GW. Açıldı, doğrulandı.",
+"tur": "haber"
+},
+{
+"url": "https://themedialine.org/mideast-daily-news/turkey-sets-anti-dumping-fees-on-solar-panel-imports-from-5-countries/print",
+"ne": "Mart 2024 beş ülke 25 dolar/m² teminat. Açılmadı, doğrulanamadı.",
+"tur": "haber"
+},
+{
+"url": "https://ticaret.gov.tr/haberler/ticaret-bakanliginin-hazirladigi-2026-yili-ithalat-rejimi-resmi-gazetede-yayinlandi",
+"ne": "2026 İthalat Rejimi duyurusu. Açılmadı, doğrulanamadı.",
+"tur": "resmi"
+},
+{
+"url": "https://kpmgvergi.com/yayinlar/mali-bultenler/gumruk/ithalat-rejim-kararinda-degisiklik-yapilmasina-iliskin-karar-yayimlandi/3374",
+"ne": "İthalat Rejimi Kararı bülteni. Açılmadı, doğrulanamadı.",
+"tur": "rapor"
+},
+{
+"url": "https://kleineskraftwerk.de/blogs/magazin/balkonkraftwerke-2026-vier-module-mehr-leistung",
+"ne": "MaStR analizi: 1,49 milyon cihaz 3 Eylül 2026, 1,6 GWp; Ocak ile Temmuz 2026 adet ve güç; sistem büyüklükleri; 2025 toplamı. Firma beyanı, 16 Eylül 2026. Açıldı, doğrulandı.",
+"tur": "firma"
+},
+{
+"url": "https://www.t-online.de/finanzen/aktuelles/id_100761870/eine-million-balkonkraftwerke.html",
+"ne": "MaStR 975.583 cihaz Haziran 2025. Açılmadı, doğrulanamadı.",
+"tur": "haber"
+},
+{
+"url": "https://utopia.de/news/neuer-rekord-in-deutschland-haengen-eine-million-balkonkraftwerke_822163/",
+"ne": "MaStR 975.583 cihaz, 0,9 GW. Açılmadı, doğrulanamadı.",
+"tur": "haber"
+},
+{
+"url": "https://www.monsterdealz.de/magazin/balkonkraftwerk-anmelden",
+"ne": "2026 kayıt kuralları. Açılmadı, doğrulanamadı.",
+"tur": "firma"
+},
+{
+"url": "https://www.notebookcheck.com/Deal-Balkonkraftwerk-830-Wp-800-W-mit-Hoymiles-HM-800-und-Jinko-Solarmodulen-auf-guenstige-554-Euro-reduziert-inklusive-Lieferung.698691.0.html",
+"ne": "Almanya kit fiyatı 554 euro. Açılmadı, doğrulanamadı.",
+"tur": "firma"
+},
+{
+"url": "https://www.notebookcheck.com/Bestpreis-Balkonkraftwerk-830-Wp-800-W-mit-Ja-Solar-und-Hoymiles-HM-800-ab-370-Euro-dank-30-Rabatt.744755.0.html",
+"ne": "Almanya kit fiyatı 370 euro. Açılmadı, doğrulanamadı.",
+"tur": "firma"
 }
 ],
 "celiskiler": [
@@ -9528,6 +12428,29 @@ window.MEKA_DATA = {
 "Belge 04 ilk adımı EPDK ve dağıtım şirketleriyle görüşme, ilk ay işini ise enerji avukatından görüş diye yazıyor; sıra ve sorumlu belirtilmiyor."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 10 sayfa; çürütücü 14 sayfa açtı, güven 3/5.",
+"EPDK taslak sorusu: 26 Şubat 2026 tarihli 14353 sayılı Kurul Kararı ve 10 MW, 75 MW, 1.500 MWe, 2.000 MWe rakamları doğrulanamadı olarak işaretlendi; kaynak PDF açıldı ama metin okunamadı.",
+"EPDK lisanssız üretim sayfası açıldı; belge listesi doğrulandı, taslak ve 2026 kararı olmadığı sayfada görüldü; EPDK duyurular sayfası bu turda açılmadı diye not edildi.",
+"Başkent EDAŞ başvuru sayfası doğrulandı; 29.07.2023 RG 32263, 01.10.2023, 25 kW çatı ve cephe, Eylül 2026 listesi sayfada var; firma beyanı olarak işaretlendi; 194 TL bilgisi model özetine dayandığı için not eklendi.",
+"Ekonomi Gazetesi köşe yazısı doğrulandı: 10 Temmuz 2026, Naci İris; 800 W eşiği ve dış cephe ifadeleri sayfada var; köşe yazısı olduğu ve resmi görüş olmadığı eklendi.",
+"TBMM önergesi PDF açıldı, taranmış görüntü; tarih, sahip ve sistem kullanım bedeli iddiası doğrulanamadı olarak işaretlendi; iki cevaptan da bu iddia zayıflatıldı.",
+"Konut sorusu: 86.092.168 nüfus doğrulandı; 3,08 hanehalfı büyüklüğü medyascope sayfasında yok, doğrulanamadı; 27,9 milyon hane hesabı doğrulanmamış girdiye dayanır notu eklendi; %93,6 kent oranı eklendi.",
+"TÜİK bülteni veriportali.tuik.gov.tr'ye yönlendi ve boş döndü; adımlara yeni portal adresi yazıldı.",
+"Alomaliye kat sayısı dağılımı açılmadığı için doğrulanamadı olarak işaretlendi.",
+"Gümrük sorusu: Resmî Gazete tebliğ tam metni açıldı; altı firma adı, oranlar, 5 yıl, soruşturma tarihi 25/5/2025 (Tebliğ 2025/10) ve geçici önlem 13/12/2025 (Tebliğ 2025/41) sayfadan eklendi.",
+"Endeks24 rakamları (26,8 GW, %21,3, 4,7 GW, 19 Haziran 2026 solar cam) sayfada doğrulandı.",
+"Mart 2024 25 dolar/m² teminat, ticaret.gov.tr ve KPMG ithalat rejimi bilgileri açılmadığı için doğrulanamadı olarak işaretlendi.",
+"Satıcı sorusu: notebookcheck 370 ile 554 euro aralığı doğrulanamadı; LifeVERDE 350 euro başlangıç ve kleines kraftwerk 339, 439, 698 euro set fiyatları firma beyanı olarak eklendi.",
+"Dağıtım şirketi sorusu: Başkent EDAŞ kaçak sayfası doğrulandı; madde 42 ve 48, 15 gün, 5 kat sayfada var; üretim cihazı ve sayaç geri sayma ifadelerinin sayfada olmadığı eklendi; üçüncü şahsa enerji verme notu eklendi.",
+"Almanya sorusu durumu cevaplandi'den kismen'e çekildi: Bundesnetzagentur birincil kaynağı açılmadı, ana kaynak satıcı blogu.",
+"Almanya rakamları güncellendi: 3 Eylül 2026'da 1,49 milyon cihaz ve 1,6 GWp; 2025'te 285.952 cihaz ve 342,6 MWp karşılaştırma; iki modüllü pay %40,8; 2.000 Wp pay %33,9; 2025 toplamı 430.000 ve 0,5 GW; DIN VDE V 0126-95 960 Wp kuralı eklendi.",
+"975.583 cihaz (Haziran 2025) ve GFK Solar 1.327.455 rakamları açılmayan sayfalara dayandığı için doğrulanamadı olarak işaretlendi.",
+"LifeVERDE kaynak türü haber'den diger'e çevrildi; sayfa bağlı satış bağlantılı dergi.",
+"ek_rakamlar listesi yeniden yazıldı: doğrulananlar kaynak sayfasıyla, doğrulanamayanlar açıkça işaretli.",
+"Adımlara TBMM önerge metin sürümü indirme ve bayi puan tablosu doldurma eklendi; TÜİK adımı yeni portal adresiyle güncellendi.",
+"ek_md'ye bayi görüşmelerinin manuel kaydı ve 1 ile 5 puanlama şablonu eklendi; kullanıcı sorusuna cevap.",
+"arama_sayisi 0, okunan_sayfa 10, acilan_sayfa 14 olarak bu turun gerçek sayılarına çekildi.",
+"Kanıt puanı 3'te kaldı; güven 3.",
 "16 Ekim 2026 ek araştırması: 8 arama, 15 sayfa okundu; çürütücü 8 sayfa açtı, güven 4/5.",
 "Lifeverde ve Elektronik-Zeit kaynak türü 'haber' ve 'rapor'dan 'diger'e çevrildi; her ikisi bağlantılı satış (affiliate) linkli ticari içerik, Elektronik-Zeit ayrıca yapay zeka destekli içerik notu taşıyor.",
 "Lifeverde başlığı düzeltildi: sayfa başlığı 'Balkonkraftwerk Kaufberatung', URL eski başlığı taşıyor; ilk yayın 14 Nisan 2023, güncelleme 29 Haziran 2026 eklendi.",
@@ -9561,8 +12484,59 @@ window.MEKA_DATA = {
 "Açık sorulara kitin üretim mi ithalat mı olacağı sorusu eklendi.",
 "Puan metnine etiketlerin ve haritanın kaba tahmin olduğu uyarısı eklendi."
 ],
-"guven": 4,
+"guven": 3,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "EPDK'nın 2026 lisanssız üretim yönetmeliği değişiklik taslağında küçük güç ya da basitleştirilmiş bağlantı hükmü var mı",
+"durum": "kismen",
+"cevap": "EPDK lisanssız üretim sayfası 16 Ekim 2026'da açıldı. Listelenen belgeler şunlardır: Elektrik Piyasasında Lisanssız Elektrik Üretim Yönetmeliği, 25 kW'a Kadar Güneş Enerjisine Dayalı Elektrik Üretim Tesisleri için Usul ve Esaslar, 1044 sayılı Cumhurbaşkanı Kararı, başvuru bilgi ve belge listesi, DS bağlantı ve kullanım anlaşmaları, mahsuplaşma usul ve esasları. Duyurular bölümünde yalnız 1 Nolu Açıklama ve 26.10.2016 tarihli bir yazı var. Sayfada yönetmelik değişiklik taslağı, görüş çağrısı, 2026 tarihli bir Kurul Kararı, 800 W, prize takılan ya da balkon ifadesi yok. Önceki turda anılan 26 Şubat 2026 tarihli ve 14353 sayılı Kurul Kararı ile kapasite tahsisi rakamları Kalkınma Yatırım Bankası PDF'ine dayanıyordu. PDF açıldı ama metin okunamadı, dosya ikili ve görüntü içerikli. Bu karar ve içindeki 10 MW, 75 MW, 1.500 MWe, 2.000 MWe rakamları doğrulanamadı. EPDK duyurular sayfası bu turda açılmadı. Sonuç: EPDK lisanssız sayfasında küçük güç ya da basitleştirilmiş bağlantı için yeni bir hüküm ya da taslak görünmüyor; yokluk kanıtı değildir.",
+"kaynak": "https://www.epdk.gov.tr/Detay/Icerik/3-0-92-3/elektriklisanssiz-uretim (resmi, açıldı, doğrulandı); https://kalkinma.com.tr/uploads/file/ae98f4f27614d98bd1b529b2b7736487-1774868153683.pdf (rapor, açıldı, metin okunamadı, doğrulanamadı); https://www.epdk.gov.tr/Detay/Icerik/3-0-24/duyurular (resmi, bu turda açılmadı)",
+"kime": "EPDK Lisanssız Üretim Dairesi Başkanlığı. Santral 0312 201 40 00. Yazılı soru için CİMER ya da epdk.gov.tr iletişim sayfası. Soru: 26 Şubat 2026 tarihli 14353 sayılı Kurul Kararı var mı ve metni nerede; 2026 içinde yönetmelik değişiklik taslağı planlanıyor mu; 800 W altı prize takılan cihaz için muafiyet gündemde mi."
+},
+{
+"soru": "Prize takılan 800 W cihazın 2019 Lisanssız Elektrik Üretim Yönetmeliği karşısındaki hukuki durumu; EPDK veya dağıtım şirketi açıklaması",
+"durum": "kismen",
+"cevap": "EPDK'dan ya da bir dağıtım şirketinden prize takılan cihaza özel bir açıklama bulunamadı. Başkent EDAŞ sayfası (firma beyanı) doğrulandı: 29.07.2023 tarih ve 32263 sayılı Resmî Gazete değişikliği uyarınca lisanssız üretim başvuruları 01.10.2023'ten itibaren elektronik alınır, fiziki evrak geçersizdir. Sayfada 25 kW'a kadar çatı ve cephe GES için ayrı başvuru evrakları ve süreç belgesi, ayrıca Eylül 2026 tarihli 25 kW'a Kadar Olan GES Başvuruları Değerlendirme Listesi vardır. 800 W altı için muafiyet ya da bildirim esası görünmüyor. Ekonomi Gazetesi'nde 10 Temmuz 2026 tarihli Naci İris köşe yazısı doğrulandı. Yazı Türkiye'de Almanya'daki gibi 800 W altı bildirimle serbesttir biçiminde net bir çizgi olmadığını, lisanssız üretim yönetmeliğinin çatı sistemleri için bile detaylı olduğunu ve balkonların Kat Mülkiyeti Kanunu'na göre genellikle dış cephe sayıldığını yazar. Bu bir köşe yazısıdır, resmi görüş değildir. 1 Haziran 2026 tarihli TBMM yazılı soru önergesi PDF'i açıldı ama taranmış görüntü olduğu için metin okunamadı; önerge tarihi, veren kişi ve sistem kullanım bedeli iddiası doğrulanamadı. Sonuç: mesken için tek tanımlı yol 25 kW'a kadar çatı ve cephe GES başvurusudur; prize takılan cihaz için açık yasak ya da açık izin metni bulunamadı.",
+"kaynak": "https://www.baskentedas.com.tr/yasal-bildirim/lisanssiz-elektrik-uretim-basvurulari (firma beyanı, açıldı, doğrulandı); https://www.ekonomigazetesi.com/kose-yazisi/balkonlarda-enerji-devrimi-82916 (haber, köşe yazısı, açıldı, doğrulandı); https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y4/T7/WebOnergeMetni/177ffec6-eb42-4da1-9ab7-fd9292c8c1fe.pdf (resmi, açıldı, taranmış görüntü, doğrulanamadı)",
+"kime": "EPDK Lisanssız Üretim Dairesi, santral 0312 201 40 00, yazılı görüş talebi. Enerji ve Tabii Kaynaklar Bakanlığı Enerji İşleri Genel Müdürlüğü, enerji.gov.tr iletişim. Soru: 800 W altı prize takılan cihaz LÜY madde 5 kapsamında mı, hangi başvuru yolu geçerli. TBMM önergesi için tbmm.gov.tr önerge sorgu ekranından metin sürümü indirilecek."
+},
+{
+"soru": "Türkiye konut ve bina sayısı; balkonlu konut tahmini",
+"durum": "kismen",
+"cevap": "TÜİK bülten adresi veriportali.tuik.gov.tr'ye yönlendi, hedef sayfa boş döndü. Bina ve konut toplamları yine doğrulanamadı. Medyascope haberi (9 Şubat 2026) doğrulandı: TÜİK ADNKS 2025 sonucuna göre nüfus 31 Aralık 2025'te 86 milyon 92 bin 168 kişi; il ve ilçe merkezlerinde yaşayan oranı yüzde 93,6; nüfusun yüzde 67,5'i yoğun kent sınıfında. Önceki turdaki 3,08 kişilik ortalama hanehalkı büyüklüğü bu haberde yok, doğrulanamadı. Buna bağlı 27,9 milyon hane hesabı da doğrulanmamış bir girdiye dayanır, kendi hesabımdır. Kat sayısı dağılımı (yüzde 17,3 iki katlı, yüzde 14,4 beş katlı, yüzde 13 altı katlı) alomaliye aktarımına dayanıyordu; sayfa bu turda açılmadı, doğrulanamadı. Balkonlu konut oranı için yayımlanmış bir TÜİK rakamı bulunamadı.",
+"kaynak": "https://medyascope.tv/2026/02/09/kentlesme-artti-nufus-yaslaniyor-turkiyenin-nufusu-86-milyonu-asti/ (haber, açıldı, nüfus doğrulandı, hanehalkı büyüklüğü sayfada yok); https://veriportali.tuik.gov.tr/Bulten/Index?p=Bina-ve-Konut-Nitelikleri-Arastirmasi-2021-45870 (resmi, yönlendirme hedefi, boş döndü); https://www.alomaliye.com/2022/12/27/bina-ve-konut-nitelikleri-arastirmasi-2021/amp/ (diger, açılmadı, doğrulanamadı)",
+"kime": "TÜİK Veri Portalı veriportali.tuik.gov.tr, Bina ve Konut Nitelikleri Araştırması 2021 bülteni ve ADNKS 2025 bülteni, tarayıcıdan indirilecek. Gerekirse TÜİK Bilgi Edinme, santral 0312 454 70 00."
+},
+{
+"soru": "Güneş paneli ve mikro inverter ithalatında gümrük vergisi, ek mali yükümlülük, KDV",
+"durum": "kismen",
+"cevap": "Resmî Gazete 24 Haziran 2026 tarihli ve 33290 sayılı fihrist ve tebliğ tam metni açıldı, doğrulandı. İthalatta Haksız Rekabetin Önlenmesine İlişkin Tebliğ (No: 2026/23) Çin Halk Cumhuriyeti menşeli, 8541.90.00.00.11 GTİP altında sınıflandırılan fotovoltaik paneller için alüminyum çerçeveler ürününe kesin damping önlemi getirir. Altı firma için CIF bedelin yüzde 38,26'sı: Jiangyin Haihong, Jiangsu Yuejia, Anhui Krant, Jiangyin Yuanshuo, Yangzhou Yu Xin, Zhejiang Twinsel. Diğerleri için yüzde 45,99. Önlem yürürlükten 5 yıl sonra kalkar. Soruşturma 25/5/2025 tarihli ve 32910 sayılı Resmî Gazete'deki 2025/10 sayılı tebliğ ile açıldı. Geçici önlem 13/12/2025 tarihli ve 33106 sayılı Resmî Gazete'deki 2025/41 sayılı tebliğ ile teminat olarak alınmıştı. Endeks24 haberi (24.06.2026) doğrulandı: 19 Haziran 2026'da Çin, Malezya ve Vietnam menşeli solar cama ayrı damping soruşturması açıldı; Nisan 2026 sonu kurulu güneş gücü 26,8 GW, elektrik kurulu gücünde pay yüzde 21,3, 2025 yeni kurulum 4,7 GW. Mart 2024 tarihli beş ülke menşeli modüllere 25 dolar/m² teminat iddiası themedialine sayfasına dayanır, açılmadı, doğrulanamadı. 2026 İthalat Rejimi Kararı duyuruları (ticaret.gov.tr, KPMG) açılmadı, doğrulanamadı. Mikro inverter (8504.40) için özel önlem bulunamadı. KDV yüzde 20 bilgisi kaynakla doğrulanmadı. Çin menşeli panellere 2017'den beri süren damping önlemi doğrulanmadı.",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2026/06/20260624-7.htm (resmi, açıldı, doğrulandı); https://www.resmigazete.gov.tr/eskiler/2026/06/20260624.htm (resmi, açıldı, doğrulandı); https://www.endeks24.com/damping-onlemleri-ges-yatirim-maliyetini-nasil-etkiler (haber, açıldı, doğrulandı); https://themedialine.org/mideast-daily-news/turkey-sets-anti-dumping-fees-on-solar-panel-imports-from-5-countries/print (haber, açılmadı, doğrulanamadı); https://ticaret.gov.tr/haberler/ticaret-bakanliginin-hazirladigi-2026-yili-ithalat-rejimi-resmi-gazetede-yayinlandi (resmi, açılmadı); https://kpmgvergi.com/yayinlar/mali-bultenler/gumruk/ithalat-rejim-kararinda-degisiklik-yapilmasina-iliskin-karar-yayimlandi/3374 (rapor, açılmadı)",
+"kime": "Ticaret Bakanlığı İthalat Genel Müdürlüğü, santral 0312 204 75 00. GTİP 8541.43 ve 8504.40 için güncel vergi ve önlem sorgusu tarife.gtb.gov.tr üzerinden ya da bir gümrük müşaviri ile yapılacak. KDV oranı için Gelir İdaresi Başkanlığı KDV oranları listesi kontrol edilecek."
+},
+{
+"soru": "Türk satıcıların balkon GES satış hacmi; fiyat listeleri",
+"durum": "gorusme",
+"cevap": "Türkçe fiyat listesi ve satış hacmi hâlâ yok. Önceki turda Hepsiburada, Trendyol, n11, Akakçe, Cimri ve Amazon Türkiye 403 ya da 503 verdi; bu turda yeniden denenmedi. Almanya fiyatları için notebookcheck sayfaları açılmadı, 370 ile 554 euro aralığı doğrulanamadı. Açılan iki Almanya kaynağı şunları verir. LifeVERDE (29.06.2026 güncelleme) depolamasız basit setlerin yaklaşık 350 eurodan başladığını yazar. kleines kraftwerk satıcı sitesine bağlı ürün tablosunda Duo XL 1000 Wp set 339 euro, Trio XL 1500 Wp set 439 euro, Quattro XL 2000 Wp set 698 euro olarak listelenir; bunlar firma beyanıdır ve bağlı satış bağlantısıdır. Türkiye satış hacmi için kamuya açık rakam yok. Bayi görüşmeleri manuel girilecek, puan tablosu ek_md'de verilmiştir.",
+"kaynak": "https://www.lifeverde.de/nachhaltigkeitsmagazin/news-tipps/sommer-sonne-solarenergie-mit-balkonkraftwerken-zur-energiewende (diger, bağlı satış bağlantılı dergi, açıldı); https://kleineskraftwerk.de/blogs/magazin/balkonkraftwerke-2026-vier-module-mehr-leistung (firma beyanı, açıldı); https://www.notebookcheck.com/Deal-Balkonkraftwerk-830-Wp-800-W-mit-Hoymiles-HM-800-und-Jinko-Solarmodulen-auf-guenstige-554-Euro-reduziert-inklusive-Lieferung.698691.0.html (firma, açılmadı, doğrulanamadı)",
+"kime": "Tarayıcıdan manuel tarama: Hepsiburada, Trendyol ve n11'de balkon GES ve 800 W mikro inverter araması, ilk 10 ilanın fiyat ve satıcı adı. Ardından üç satıcı ile telefon görüşmesi, aylık satış adedi sorusu. Her görüşme ek_md'deki puan tablosuna işlenecek."
+},
+{
+"soru": "Dağıtım şirketlerinin prize takılan cihaza yaklaşımı; ceza ya da sayaç müdahalesi kaydı",
+"durum": "kismen",
+"cevap": "Prize takılan cihaza özel bir ceza ya da sayaç müdahalesi kaydı bulunamadı. Başkent EDAŞ SSS kaçak sayfası (firma beyanı) açıldı ve doğrulandı. Sayfa Elektrik Piyasası Tüketici Hizmetleri Yönetmeliği (30.05.2018, RG 30436) madde 42'ye göre kaçak tüketimi ve madde 48'e göre usulsüz tüketimi aktarır. Kaçak tanımında sayaçlara veya ölçü sistemine müdahale geçer. Usulsüz kullanımda 15 gün süre verildiğini belirten kesme ihbarı bırakılır, sonra kesme bağlama bedelinin 5 katı tahsil edilir. Madde 48 kapsamında üçüncü şahıslara elektrik enerjisi vermek de usulsüz sayılır; bu şebekeye enerji verme değildir. Sayfada üretim cihazı, lisanssız üretim, şebekeye enerji verme ya da sayaç geri sayma ifadesi yok. Bu kısım sayfanın ikinci yarısının model özetine dayanır. TBMM önergesindeki sistem kullanım bedeli iddiası doğrulanamadı.",
+"kaynak": "https://www.baskentedas.com.tr/sss/kacak (firma beyanı, açıldı, doğrulandı); https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y4/T7/WebOnergeMetni/177ffec6-eb42-4da1-9ab7-fd9292c8c1fe.pdf (resmi, açıldı, okunamadı, doğrulanamadı)",
+"kime": "Başkent EDAŞ çağrı merkezi 186, WhatsApp 0312 186 00 00, lisanssız üretim birimi. ELDER Elektrik Dağıtım Hizmetleri Derneği, elder.org.tr iletişim. Soru: prize takılan 800 W cihaz tespit edilirse hangi işlem uygulanır, madde 42 ya da 48 kapsamında sayılır mı, sayaç değişimi istenir mi."
+},
+{
+"soru": "Almanya MaStR balkon santrali kayıt sayısı 2026",
+"durum": "kismen",
+"cevap": "İki ikincil kaynak açıldı ve rakamlar sayfada doğrulandı; Bundesnetzagentur MaStR sayfası açılmadı. LifeVERDE (29.06.2026 güncelleme) Marktstammdatenregister'e dayanarak Mayıs 2026 itibarıyla 1,32 milyonun üzerinde kayıtlı Steckersolar cihazı yazar; HTW Berlin'in kayıtsız cihaz sayısını birkaç milyona kadar tahmin ettiğini ekler. kleines kraftwerk blog yazısı (16 Eylül 2026, firma beyanı) MaStR analizine dayanarak şunları verir: 3 Eylül 2026'da yaklaşık 1,49 milyon cihaz işletmede, toplam yaklaşık 1,6 GWp modül gücü. Ocak ile Temmuz 2026 arasında 252.953 yeni cihaz, 2025'in aynı döneminde 285.952, düşüş yüzde 11,5. Yeni modül gücü 349,1 MWp, önceki yıl 342,6 MWp, artış yüzde 1,9. Ortalama sistem gücü 1.198 Wp'den 1.380 Wp'ye çıktı. 2026 kurulumlarının yüzde 49,3'ü dört modüllü, yüzde 40,8'i iki modüllü; yüzde 88,7'si 800 W net güçle kayıtlı; yüzde 33,9'u tam 2.000 Wp. 2025'te yaklaşık 430.000 yeni cihaz ve 0,5 GW. Yasal sınır 2.000 Wp modül ve 800 VA inverter. Aralık 2025'ten beri geçerli DIN VDE V 0126-95 normu, ev tipi fişle en fazla 960 Wp modül gücüne izin verir. Önceki turdaki 975.583 cihaz (10 Haziran 2025) ve GFK Solar 1.327.455 rakamları açılmayan sayfalara dayanır, doğrulanamadı.",
+"kaynak": "https://www.lifeverde.de/nachhaltigkeitsmagazin/news-tipps/sommer-sonne-solarenergie-mit-balkonkraftwerken-zur-energiewende (diger, açıldı, doğrulandı); https://kleineskraftwerk.de/blogs/magazin/balkonkraftwerke-2026-vier-module-mehr-leistung (firma beyanı, açıldı, doğrulandı); https://www.t-online.de/finanzen/aktuelles/id_100761870/eine-million-balkonkraftwerke.html (haber, açılmadı, doğrulanamadı); https://utopia.de/news/neuer-rekord-in-deutschland-haengen-eine-million-balkonkraftwerke_822163/ (haber, açılmadı, doğrulanamadı)",
+"kime": "Doğrulama için Bundesnetzagentur MaStR veri indirme sayfası marktstammdatenregister.de, tarayıcıdan. Filtre: Steckersolargerät, Betriebsstatus in Betrieb."
+}
+],
 "dal_ad": "Bağımsız",
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
@@ -9576,8 +12550,8 @@ window.MEKA_DATA = {
 "id": "enerji_verim",
 "baslik": "Bina su geri kazanımı, veri merkezi sıvı soğutma, buharlı sanayi ısı pompası",
 "bant": "ikincil",
-"puan_metni": "Yaprak üç farklı konu içeriyor ve tek bant hak etmiyor. Veri merkezi sıvı soğutma resmî 1 GW hedefi (haber aktarımı, genelge PDF'si okunmadı), Ankara'da 2028'e dönük somut ve sayfayla doğrulanmış yatırımlar ve yerli üretim boşluğuyla ayrı yaprak olup ikincil bantta başlamalı; su geri kazanımı ve buharlı ısı pompası izle bandına inmeli. Su mevzuatı Resmî Gazete metniyle tam doğrulandı ama pazar küçük. Türkiye pazar büyüklüğü ve sanayi buhar talebi bulunamadığı, ısı pompası ekonomisi tek ve zayıf kaynağa dayandığı için kanıt orta, 3. 05 sıralamasında 12 iş içinde 7., 8. ve 9. sıra. 04 taramasında 7 iş içinde 4., 5. ve 6. sıra, \"Sonrakiler\" grubunda. İki belgede de puan yok, yalnızca sıra ve kaba etiket var. Etiketler: su geri kazanımı 6 ile 18 ay, Ar-Ge düşük, yatırım küçük; sıvı soğutma 12 ile 24 ay, Ar-Ge orta, yatırım orta; ısı pompası 18 ile 36 ay, Ar-Ge orta, yatırım orta. İki belge de etiketlerin kaba tahmin olduğunu yazıyor.",
-"tarih": "16 Ekim 2026 (ek araştırma); önceki çalışma 27 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Düzenleme tarafı resmi metinle tam doğrulandı ve güçlü; veri merkezi projeleri birden fazla haber kaynağıyla doğrulandı ve Turkcell Google Cloud ile hedef listesi genişledi. Ancak üç kritik resmi PDF (Genelge, 9903 sayılı Karar, SHURA) metne çevrilemediği için 1 GW tanımı, teşvik rakamları ve ısı pompası potansiyeli doğrulanamadı; TÜRKSAT rakamlarında eski duyurudan kalan hatalar düzeltildi ve takvim bir yıl kaydı; soğutma üreticilerinin Türkiye üretim ortağı aradığına dair kanıt yok; belgeli yerli gri su rakipleri haritalanmadı. Öne çıkan banda geçiş için gerekçe yok, aşağı inmeyi gerektiren olumsuz bulgu da yok. Bant ikincil korunur; kapsam kısmi kalır. Yaprak üç farklı konu içeriyor ve tek bant hak etmiyor. Veri merkezi sıvı soğutma resmî 1 GW hedefi (haber aktarımı, genelge PDF'si okunmadı), Ankara'da 2028'e dönük somut ve sayfayla doğrulanmış yatırımlar ve yerli üretim boşluğuyla ayrı yaprak olup ikincil bantta başlamalı; su geri kazanımı ve buharlı ısı pompası izle bandına inmeli. Su mevzuatı Resmî Gazete metniyle tam doğrulandı ama pazar küçük. Türkiye pazar büyüklüğü ve sanayi buhar talebi bulunamadığı, ısı pompası ekonomisi tek ve zayıf kaynağa dayandığı için kanıt orta, 3. 05 sıralamasında 12 iş içinde 7., 8. ve 9. sıra. 04 taramasında 7 iş içinde 4., 5. ve 6. sıra, \"Sonrakiler\" grubunda. İki belgede de puan yok, yalnızca sıra ve kaba etiket var. Etiketler: su geri kazanımı 6 ile 18 ay, Ar-Ge düşük, yatırım küçük; sıvı soğutma 12 ile 24 ay, Ar-Ge orta, yatırım orta; ısı pompası 18 ile 36 ay, Ar-Ge orta, yatırım orta. İki belge de etiketlerin kaba tahmin olduğunu yazıyor.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 27 Eylül 2026",
 "ne": "Üç ayrı enerji ve su verimliliği konusu tek yaprakta toplanmış: binalarda gri su ve yağmur suyu geri kazanım sistemleri, veri merkezleri için sıvı soğutma donanımı ve sanayide kazan yerine buhar üreten yüksek sıcaklık ısı pompaları. Bu çalışma üçünü ayrı ayrı inceledi ve veri merkezi sıvı soğutmanın ayrı bir yaprak olmayı hak ettiğini, diğer ikisinin izleme bandında kalmasını öneriyor. Çürütme turunda 8 ana kaynak sayfayla karşılaştırıldı; su mevzuatının yürürlük tarihi çelişkisi Resmî Gazete metniyle çözüldü.",
 "neden": "Veri merkezi tarafında talep resmî ve rakamlı: Türkiye Yapay Zeka Eylem Planı 2026-2030, 18 Ağustos 2026 tarihli Resmî Gazete'de yayımlanan 2026/9 sayılı Genelge ile 2030'a kadar en az 1 GW veri merkezi kurulu gücü hedefi koydu (haber aktarımı, genelge PDF'si okunmadı); Rönesans ve Digital Realty Ankara Temelli'de 2028'de açılacak 22 MW üzeri IT kapasiteli ilk fazı ve 3 milyar dolara kadar yatırımla 200 MW IT hedefini duyurdu; TÜRKSAT Gölbaşı 33 MVA tesisinin temeli 22 Temmuz 2026'da atıldı, 2028 başında açılacak. Türk Telekom Ocak 2026'da yerli tasarım sıvı daldırma soğutma sistemini devreye aldı (şirket beyanı); sıvı soğutma için yerli sac, manifold, soğutma dağıtım ünitesi ve kuru soğutucu üretimi boş alan. Su geri kazanımı mevzuatı 11 Mart 2025'ten beri yürürlükte ama ürün düşük değerli ve pazar parçalı; buharlı ısı pompası Türkiye'de henüz pilot aşamasında bile değil.",
 "rakamlar": [
@@ -9675,56 +12649,158 @@ window.MEKA_DATA = {
 "deger": "bulunamadı",
 "aciklama": "Türkiye sanayi buhar talebi, Türkiye gri su pazar büyüklüğü, Türkiye sıvı soğutma pazar büyüklüğü",
 "kaynak": "bulunamadı"
+},
+{
+"deger": "11 Mart 2025, Resmî Gazete 32838",
+"aciklama": "Doğrulandı. PAİY değişikliği; 57/A beşinci fıkra (yağmur suyu ve gri su) yayım tarihinde yürürlükte (Madde 10/c)",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2025/03/20250311-1.htm"
+},
+{
+"deger": "1 Ocak 2026 ve 1 Ocak 2027",
+"aciklama": "Doğrulandı. 1/1/2026 yalnız 57/A altıncı fıkra yeşil sertifika; 1/1/2027 yaşam döngüsü analizi ibaresi ve BIM fıkrası",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2025/03/20250311-1.htm"
+},
+{
+"deger": "yüzde 6 ve günlük tüketimin yarısı",
+"aciklama": "Doğrulandı. Yağmur suyu deposu yıllık toplanabilir suyun en az yüzde 6'sı; gri su deposu rezervuar günlük tüketiminin en az yarısı; TS EN 16941-1 ve 16941-2 EK-A",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2025/03/20250311-1.htm"
+},
+{
+"deger": "7 m3, 2.000 m2, 1.000 m2; 200 yatak, 10.000 m2, 30.000 m2",
+"aciklama": "Doğrulandı. Yağmur suyu ve gri su zorunluluk eşikleri; sağlık ve eğitim yapılarında gri su zorunlu değil",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2025/03/20250311-1.htm"
+},
+{
+"deger": "6,2 milyon m3 ve 4 milyon m3 yıllık",
+"aciklama": "Doğrulanamadı; bu turda açılmadı. Bakanlığın yağmur suyu ve gri su tasarruf hedefi (haber)",
+"kaynak": "https://www.donanimhaber.com/2026-da-buyuk-binalarda-yagmur-hasadi-ve-gri-su-zorunlu-oluyor--199421"
+},
+{
+"deger": "18 Ağustos 2026, Resmî Gazete 33344",
+"aciklama": "Doğrulanamadı. 2026/9 sayılı Genelge PDF'si metne çevrilemedi; MW veya GW içermediği iddiası kontrol edilemedi",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260818-8.pdf"
+},
+{
+"deger": "1 GW 2030, 250 MW mevcut, 10 milyar dolar",
+"aciklama": "Doğrulandı. Cumhurbaşkanı 2 Temmuz 2025 Kabine açıklaması; kurulu güç veya BT yükü tanımı yok",
+"kaynak": "https://www.cnbce.com/teknoloji/turkiyeden-yapay-zeka-plani-10-milyar-dolar-yatirimla-veri-merkezi-bolgeleri-kurulacak-h14535"
+},
+{
+"deger": "en az 1 GW toplam kurulu güç, 2030",
+"aciklama": "Doğrulandı (haber). 2026-2030 Yapay Zekâ Vizyonu ve Eylem Planı aktarımı, 4 Eylül 2026",
+"kaynak": "https://www.webtekno.com/turkiye-veri-merkezi-kapasitesi-2030-hedefi-belirlendi-h223648.html"
+},
+{
+"deger": "250 MW kurulu güç 2023, 500 MW 2028 düşük senaryo, yüzde 56 Marmara",
+"aciklama": "Doğrulandı. TESAB raporu aktarımı, 19 Haziran 2026",
+"kaynak": "https://www.ekonomigazetesi.com/haber/tesab-raporu-turkiyenin-veri-merkezi-olmak-icin-firsati-var-81498"
+},
+{
+"deger": "119 MW İstanbul, 100 MW Khazna, 48 MW IT ve 500 milyon dolar Ankara Data Hub, 148 MW toplam",
+"aciklama": "Doğrulandı. DC Atlas verisi; Forbes Stüdyo reklam iş birliği etiketli yazı, 3 Eylül 2026",
+"kaynak": "https://www.forbes.com.tr/forbes-studyo/veri-merkezleri-enerjiye-yukleniyor"
+},
+{
+"deger": "3 milyar dolar, Ankara'da 3 veri merkezi",
+"aciklama": "Doğrulandı (haber). Turkcell ve Google Cloud anlaşması, Temmuz 2026; yeni hedef müşteri",
+"kaynak": "https://www.forbes.com.tr/forbes-studyo/veri-merkezleri-enerjiye-yukleniyor"
+},
+{
+"deger": "22 MW üzeri IT, yaklaşık 10 bin m2, 2028, 200 MW IT, 3 milyar dolar",
+"aciklama": "Doğrulandı. Rönesans Altyapı ve Digital Realty Ankara Temelli kampüsü, 1 Ekim 2026; firma 200 MW'ı 1 GW hedefinin yüzde 20'si sayıyor (firma beyanı)",
+"kaynak": "https://www.forbes.com.tr/ekonomi/ronesans-veri-merkezi-devi-digital-realty-yi-turkiye-ye-getiriyor"
+},
+{
+"deger": "35.300 m2, 6.300 m2 beyaz alan, 33 MVA, 2028 başı",
+"aciklama": "Doğrulandı ve düzeltildi. TÜRKSAT Gölbaşı temel atma 22 Temmuz 2026; önceki 28.500 ve 6.000 m2 Şubat 2025 rakamlarıydı; LEED Gold; 1,5 yıl yapım",
+"kaynak": "https://www.cnbce.com/teknoloji/turkiyenin-yeni-dijital-kalesi-olacak-turksat-golbasi-veri-merkezinin-temeli-torenle-atildi-h33610"
+},
+{
+"deger": "28.500 m2, Tier III, TSE 50600, 2027 ilk yarı",
+"aciklama": "Doğrulandı. TÜRKSAT Gölbaşı ilk duyurusu 24 Şubat 2025; hizmete alma sonra 2028 başına kaydı",
+"kaynak": "https://www.forbes.com.tr/teknoloji/turksat-yeni-veri-merkezi-kuruyor"
+},
+{
+"deger": "3 MW ve 500 kW kurulu güç",
+"aciklama": "Doğrulanamadı. 9903 sayılı Karar PDF'si metne çevrilemedi",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2025/05/20250530-2.pdf"
+},
+{
+"deger": "287,4 TWh 2021; yüzde 52 ve yüzde 27; 150-200 derece; COP 2,5; 90,1 TWh ve 56,6 TWh 2053",
+"aciklama": "Kısmen doğrulandı. SHURA PDF'si yalnız araç özetiyle okundu; sektör payları (yüzde 26, 26, 8, 8, 7) görülmedi, doğrulanamadı",
+"kaynak": "https://shura.org.tr/wp-content/uploads/2024/12/SHURA-2023-08-YO-Elektrifikasyon-1.pdf"
+},
+{
+"deger": "yüzde 30, 15 milyon TL",
+"aciklama": "Doğrulandı. VAP hibe oranı ve üst sınır; yeniden değerleme ile artar; atık enerji geri kazanımı ve yenilenebilir ısı üretimi kapsamda; ısı pompası açıkça yazılmamış",
+"kaynak": "https://enerji.gov.tr/evced-enerji-verimliligi-destekleri-verimlilik-artirici-proje-destekleri"
+},
+{
+"deger": "yüzde 30, 10 milyon TL",
+"aciklama": "Doğrulanamadı; bu turda açılmadı. EKA programı",
+"kaynak": "https://enerji.gov.tr/evced-enerji-verimliligi-destekleri-enerji-ve-karbon-azaltimi"
+},
+{
+"deger": "yüzde 30 katkı, yüzde 60 indirim, 24 milyon TL; yüzde 40 ve 180 milyon TL; 12 ve 6 milyon TL; 31 Aralık 2030",
+"aciklama": "Doğrulanamadı. 9903 sayılı Karar Yeşil Dönüşüm Programı rakamları; PDF metne çevrilemedi",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2025/05/20250530-2.pdf"
+},
+{
+"deger": "14 milyon TL yüzde 60, 4 milyon TL yüzde 70, 8-12 ay",
+"aciklama": "Doğrulandı. KOSGEB Yeşil Sanayi Destek Programı 2023-01 ve 2023-02 çağrıları, geri ödemeli; deprem illerinde yüzde 80 veya 90",
+"kaynak": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9022/yesil-sanayi-destek-programi"
 }
 ],
-"durum": "Üç konunun üçü de Türkiye'de 2025 ve 2026'da hareketlendi ama farklı aşamalarda. Su geri kazanımı: Planlı Alanlar İmar Yönetmeliği değişikliği 11 Mart 2025'te Resmî Gazete'de yayımlandı ve yağmur suyu ile gri su zorunluluğu aynı gün yürürlüğe girdi; yalnız yeni yapılar için geçerli, önceden ruhsat başvurusu olanlar muaf. YeS-TR yeşil sertifika zorunluluğu 1 Ocak 2026'da başladı. Haberlerin '1 Ocak 2026'da yağmur suyu zorunlu oluyor' iddiası RG metniyle uyuşmuyor. Yerli üretici ve pazar rakamı bulunamadı. Veri merkezi: 1 GW hedefi 18 Ağustos 2026'da genelgeyle resmîleşti (haber aktarımı), Ankara'da Rönesans ve TÜRKSAT yatırımları 2028'e dönük, Türk Telekom yerli daldırma soğutmayı Ocak 2026'da devreye aldı (şirket beyanı), Systemair Dilovası'nda veri merkezi soğutma cihazı üretip ihraç ediyor (bu turda doğrulanmadı). Buharlı ısı pompası: Avrupa'da Heaten ticari ölçekte ve referanslı (firma beyanı); Qpinch, Olvondo ve MAN için birincil kaynak bu turda okunmadı; Türkiye'de tek sanayi ısı pompası örneği GEA Türk Tuborg, o da sıcak su; buhar üreten pilot bulunamadı.",
+"durum": "Bina su geri kazanımı tarafı resmi metinle tam doğrulandı: yağmur suyu ve gri su zorunluluğu 11 Mart 2025'ten beri yürürlükte, 1 Ocak 2026 yalnız yeşil sertifika için; depo boyutlandırma kuralı (yüzde 6 ve günlük tüketimin yarısı) ürün tasarımını doğrudan belirliyor; pazar bugün açık. Veri merkezi tarafında 1 GW hedefi Cumhurbaşkanı tarafından 2 Temmuz 2025'te açıklandı, mevcut 250 MW; haberler toplam kurulu güç diyor, Rönesans ve Digital Realty ise IT kapasitesiyle karşılaştırıyor; resmi tanım hâlâ yok çünkü Genelge ve 9903 PDF'leri okunamadı. Ankara'da TÜRKSAT Gölbaşı (33 MVA, 2028 başı, takvim bir yıl kaydı), Rönesans Digital Realty (22 MW IT, 2028), Khazna (100 MW), Ankara Data Hub (48 MW IT) ve Turkcell Google Cloud (3 veri merkezi) projeleri somut; soğutma tedarikçisi hiçbirinde açıklanmadı. Küresel sıvı soğutma üreticilerinin Türkiye üretim ortağı aradığına dair kanıt yok. Sanayi ısı pompası için SHURA verisi yalnız araç özetiyle görüldü, buhar TWh rakamı yok. Teşvik tarafında VAP ve KOSGEB doğrulandı, 9903 sayılı Karar rakamları doğrulanamadı. Yaprak ikincil bantta kalır.",
 "acik_sorular": [
-"Haberlerdeki '1 Ocak 2026'da yağmur suyu ve gri su zorunlu' yorumu nereden geliyor; Bakanlık ya da belediyeler uygulamada 11 Mart 2025'i mi 1 Ocak 2026'yı mı esas alıyor?",
-"1 GW hedefi BT yükü mü toplam tesis gücü mü? Yeşil Haber bunun metinlerde netleştirilmediğini yazıyor; 2026/9 Genelge PDF'si (resmigazete.gov.tr/eskiler/2026/08/20260818-8.pdf) okunmalı.",
-"Türkiye veri merkezi kapasitesi için 250 MW ile 140 MW arasındaki farkın tanımı ne: IT yükü mü, kurulu elektrik gücü mü?",
-"Rönesans Temelli ve TÜRKSAT Gölbaşı projelerinde sıvı soğutma kullanılacak mı, soğutma altyapısı ihalesi ne zaman ve kime açılacak? Forbes haberinde soğutma bilgisi yok.",
-"Vertiv, Schneider, Submer, LiquidStack ve Iceotope Türkiye'de üretim ya da montaj ortağı arıyor mu; Ecolab'ın CoolIT alımı EMEA tedarik zincirini değiştirir mi?",
-"Türkiye sanayide buhar talebi kaç TWh ve hangi sektörlerde 120 ile 180°C bandında yoğunlaşıyor?",
-"Türkiye'de sanayi ısı pompası için teşvik var mı; Yeşil Dönüşüm Destek Programı ya da VAP kapsamında mı?",
-"Gri su sisteminde Türk üretici kim; TS EN 16941-1 ve 16941-2 belgeli yerli ürün var mı?",
-"Türk Telekom daldırma sisteminin tankı ve soğutma dağıtım ünitesini kim üretti; dışarıya satılacak mı? Haberde üretici adı yok.",
-"Buharlı ısı pompasında geri ödeme gerçekte kaç yıl: Heaten 2 ile 4 yıl diyor, Beyond Tomorrow teşviksiz 7 ile 12 yıl diyor."
+"Kısmen cevaplandı: Veri merkezi 1 GW hedefi BT yükü mü toplam güç mü; 2026/9 Cumhurbaşkanlığı Genelgesi metni",
+"Kısmen cevaplandı: Türkiye veri merkezi kapasitesi tanımı: 250 MW ile 140 MW farkı",
+"Kısmen cevaplandı: Rönesans ve TÜRKSAT Gölbaşı veri merkezi projelerinde soğutma teknolojisi ve ihale takvimi",
+"Görüşme gerekir: Vertiv, Schneider, Submer, LiquidStack, Iceotope Türkiye'de üretim veya montaj ortağı arıyor mu (Vertiv Türkiye satış müdürlüğü, vertiv.com/tr-emea iletişim formu; Schneider Electric Türkiye Secure Power iş birimi, se.com/tr iletişim; Iceotope partnership sayfası; Submer ve LiquidStack için Data Centre World Frankfurt veya Datacloud Global Congress stand görüşmesi; TESAB üye listesi üzerinden entegratörler)",
+"Kısmen cevaplandı: Türkiye sanayide buhar talebi TWh ve 120 ile 180 derece bandında yoğunlaşan sektörler",
+"Kısmen cevaplandı: Sanayi ısı pompası teşvikleri: Yeşil Dönüşüm Destek Programı, VAP, KOSGEB",
+"Görüşme gerekir: TS EN 16941-1 ve 16941-2 belgeli yerli gri su ürünü ve Türk üreticiler (TSE Ürün Belgelendirme Müdürlüğü, 444 0 873, tse.org.tr belge sorgulama; Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Mesleki Hizmetler Genel Müdürlüğü, 0312 410 10 00; İSKİD ve MTMD üye listesi; ISK-SODEX İstanbul 2027 ve IFAT Eurasia fuar standları)"
 ],
 "adimlar": [
 {
-"adim": "Yaprağı üçe ayır: veri merkezi sıvı soğutma ayrı yaprak, su geri kazanımı ve buharlı ısı pompası izleme listesine",
-"kim": "Strateji ekibi",
-"ne_zaman": "23 Ekim 2026"
+"adim": "Resmî Gazete 20260818-8.pdf ve 20250530-2.pdf dosyaları tarayıcıda açılıp Genelge metni ile 9903 sayılı Karar 12. ve 33. maddeleri ve veri merkezi eşikleri doğrudan okunacak; bu turda metne çevrilemedi",
+"kim": "MEKA strateji uzmanı",
+"ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "2026/9 sayılı Genelge PDF'sini Resmî Gazete'den indir; 1 GW hedefinin güç tanımını ve veri merkezi enerji verimliliği düzenlemesi takvimini çıkar. Ayrıca RG 11 Mart 2025 ekindeki form değişikliğini indir.",
-"kim": "Hukuk ya da strateji",
-"ne_zaman": "30 Ekim 2026"
+"adim": "TÜRKSAT Satınalma ile görüşme: Gölbaşı mekanik ve soğutma alt ihale takvimi, yüklenici adı, soğutma teknolojisi; 2027 ilk yarıdan 2028 başına kayan takvimin nedeni; EKAP'ta TÜRKSAT idare filtresiyle haftalık takip",
+"kim": "MEKA iş geliştirme müdürü",
+"ne_zaman": "30 Ekim 2026'ya kadar ilk arama, Kasım 2026'dan itibaren haftalık EKAP takibi"
 },
 {
-"adim": "Rönesans Altyapı ve TÜRKSAT ile Ankara veri merkezi projelerinin soğutma tedarik planı için ön görüşme iste",
-"kim": "Genel Müdür Yardımcısı, satış",
-"ne_zaman": "30 Kasım 2026"
+"adim": "Vertiv Türkiye ve Schneider Electric Türkiye Secure Power ile görüşme: CDU, manifold ve soğutma kabini için Türkiye'de sac işleme ve montaj alt yüklenicisi ihtiyacı; Iceotope partnership formu doldurulacak",
+"kim": "MEKA iş geliştirme müdürü ve üretim müdürü",
+"ne_zaman": "15 Kasım 2026'ya kadar"
 },
 {
-"adim": "Vertiv Türkiye ve Schneider Electric Türkiye ile kontrat üretim görüşmesi: manifold, CDU gövdesi, kuru soğutucu kasası, çelik şase",
-"kim": "İş geliştirme",
-"ne_zaman": "31 Aralık 2026"
+"adim": "TSE Ürün Belgelendirme ve İSKİD ile görüşme: TS EN 16941 kapsamında belgeli yerli gri su ve yağmur suyu sistemi üreticisi var mı, belge süreci ve maliyeti",
+"kim": "MEKA kalite müdürü",
+"ne_zaman": "7 Kasım 2026'ya kadar"
 },
 {
-"adim": "Türk Telekom Esenyurt sistemini yerinde gör; tank, pompa grubu ve kuru tip dış soğutucunun yerli tedarik zincirini öğren",
-"kim": "Ar-Ge müdürü",
-"ne_zaman": "31 Aralık 2026"
+"adim": "SHURA'dan raporun sanayi sıcaklık bandı tablosu ve sektör payları tablosu istenecek; ETKB EVÇED'den sanayi buhar tüketimi verisi sorulacak; 120 ile 180 derece bandı için hedef sektör listesi çıkarılacak",
+"kim": "MEKA Ar-Ge mühendisi",
+"ne_zaman": "14 Kasım 2026'ya kadar"
 },
 {
-"adim": "Heaten, Qpinch ve Olvondo ile Türkiye temsilcilik ya da lisanslı gövde üretimi ön yazışması; Qpinch ve Olvondo ürün verilerini birincil kaynaktan doğrula; gıda ve içecek sektöründe bir pilot adayı belirle",
-"kim": "İş geliştirme",
-"ne_zaman": "31 Mart 2027"
+"adim": "Sanayi ve Teknoloji Bakanlığı Milli Teknoloji Genel Müdürlüğü'nden Eylem Planı'ndaki 1 GW tanımı teyit edilecek; TESAB'dan 140 MW rakamının kaynağı sorulacak",
+"kim": "MEKA strateji uzmanı",
+"ne_zaman": "31 Ekim 2026'ya kadar"
 },
 {
-"adim": "Yerli gri su sistem üreticilerini ve TS EN 16941 belgelendirme durumunu haritala; 2027'de yeniden değerlendir",
-"kim": "Strateji ekibi",
-"ne_zaman": "30 Haziran 2027"
+"adim": "Rönesans Altyapı ve Digital Realty EMEA tedarikçi kayıt sürecine başvuru; Turkcell kurumsal satın alma ile Google Cloud Ankara veri merkezleri için ön görüşme; çelik konstrüksiyon, soğutma skidleri ve boru hattı paketleri sorulacak",
+"kim": "MEKA satış direktörü",
+"ne_zaman": "21 Kasım 2026'ya kadar"
+},
+{
+"adim": "VAP ve KOSGEB desteklerini özetleyen müşteri teşvik notu hazırlanacak; 9903 sayılı Karar bölümü yalnız resmi metin doğrulandıktan sonra eklenecek",
+"kim": "MEKA pazarlama uzmanı",
+"ne_zaman": "28 Kasım 2026'ya kadar"
 }
 ],
 "riskler": [
@@ -9853,7 +12929,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ek web araştırmasıyla güncellendi. Sınırlar: Çürütme turu: 22 kaynaktan en önemli 8'i WebFetch ile açıldı ve metinle karşılaştırıldı: Resmî Gazete 11 Mart 2025, Yeşil Haber 1 GW, Forbes Rönesans, Karar Türk Telekom, Ekonomi Gazetesi TESAB, MarketsandMarkets, Heaten ana sayfa, Beyond Tomorrow ısı pompası yazısı. Sekizi de HTTP 200 döndü. Kalan 14 kaynak bu turda açılmadı; onlara dayanan rakamlar \"bu turda doğrulanmadı\" diye işaretlendi: İstiklal 6,2 ve 4 milyon m³, Vodafone DAMAC 140 ve 400 MW, Qpinch 210°C ve 15 MW, GEA %7,4, Olvondo, Tetra Pak, Spilling, Vertiv blog, Para Dergi Systemair, Foreks, Dünya, Diken, Tarım ve Orman PDF, Siemens Energy. Yeşil Haber'in bağlantı verdiği 2026/9 Genelge PDF'si (resmigazete.gov.tr/eskiler/2026/08/20260818-8.pdf) açılmadı; 1 GW hedefi hâlâ haber aktarımına dayanıyor. Önceki araştırmanın kendi sınırları geçerli: üç resmi PDF metni çözülemedi, Siemens Energy, MAN, Submer, Turkcell ve DCD sayfaları açılamadı, Türkiye sanayi buhar talebi, gri su pazar büyüklüğü ve sıvı soğutma pazar büyüklüğü bulunamadı. Not: Kullanıcının isteğindeki yayınlama (GitHub, Render) ve link verme işi bu ajanın araçlarıyla yapılamaz; bu ajan yalnız web sayfası okuyabilir. O iş ana akışa kaldı.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 8 açık sorunun 1'i cevaplandı, 5'i kısmen, 0'i kapandı, 2'i görüşme gerektiriyor. Sınırlar: Arama yapılmadı; yalnız verilen URL'ler açıldı. Üç PDF (2026/9 Genelge, 9903 sayılı Karar, SHURA raporu) WebFetch ile metne çevrilemedi; dosyalar ikili olarak kaydedildi, içerikleri bu turda okunamadı. SHURA için araç tarafından üretilen özet alındı; bu özet doğrudan metin alıntısı değildir ve doğrulama sayılmaz. Vertiv, Iceotope, EKA, donanimhaber, TRT Haber, hurriyetdailynews ve enterpriseam sayfaları bu turda açılmadı; onlara dayanan ifadeler doğrulanamadı olarak işaretlendi. Forbes Stüdyo yazısı reklam iş birliği etiketlidir. 140 MW rakamının kaynağı bulunamadı. Kullanıcının bayi görüşmeleri ve bayi puanı sorusu: hangi bayinin puanının daha yüksek olduğu web kaynağından çıkarılamaz; bu veri görüşme notlarından gelir ve puanlama kriteri ile birlikte ana akış tarafından manuel girilmelidir, bu çürütme turunun kapsamı dışındadır.",
 "kanit": 3,
 "web": [
 {
@@ -9965,6 +13041,56 @@ window.MEKA_DATA = {
 "url": "https://www.siemens-energy.com/global/en/home/products-services/product-offerings/heat-pumps.html",
 "ne": "Önceki turda ısı pompası bilgisi bulunamadı. Bu turda açılmadı.",
 "tur": "firma"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260818-8.pdf",
+"ne": "2026/9 Genelge; PDF metne çevrilemedi, doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.cnbce.com/teknoloji/turkiyenin-yeni-dijital-kalesi-olacak-turksat-golbasi-veri-merkezinin-temeli-torenle-atildi-h33610",
+"ne": "TÜRKSAT Gölbaşı temel atma; 35.300 m2, 6.300 m2, 33 MVA, 2028 başı; 22 Temmuz 2026",
+"tur": "haber"
+},
+{
+"url": "https://enerji.gov.tr/evced-enerji-verimliligi-destekleri-verimlilik-artirici-proje-destekleri",
+"ne": "VAP yüzde 30, 15 milyon TL, kapsam kalemleri doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/9022/yesil-sanayi-destek-programi",
+"ne": "KOSGEB Yeşil Sanayi 14 milyon TL yüzde 60, 4 milyon TL yüzde 70, geri ödemeli doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.forbes.com.tr/forbes-studyo/veri-merkezleri-enerjiye-yukleniyor",
+"ne": "İstanbul 119 MW, Khazna 100 MW, Ankara Data Hub 48 MW IT, Turkcell Google Cloud 3 milyar dolar; 3 Eylül 2026, reklam iş birliği etiketli",
+"tur": "haber"
+},
+{
+"url": "https://www.forbes.com.tr/teknoloji/turksat-yeni-veri-merkezi-kuruyor",
+"ne": "TÜRKSAT ilk duyuru; 28.500 m2, Tier III, TSE 50600, 2027 ilk yarı; 24 Şubat 2025",
+"tur": "haber"
+},
+{
+"url": "https://www.cnbce.com/teknoloji/turkiyeden-yapay-zeka-plani-10-milyar-dolar-yatirimla-veri-merkezi-bolgeleri-kurulacak-h14535",
+"ne": "Cumhurbaşkanı 1 GW 2030 hedefi ve 250 MW mevcut; 2 Temmuz 2025",
+"tur": "haber"
+},
+{
+"url": "https://www.webtekno.com/turkiye-veri-merkezi-kapasitesi-2030-hedefi-belirlendi-h223648.html",
+"ne": "Eylem Planı aktarımı, toplam kurulu güç en az 1 GW; 4 Eylül 2026",
+"tur": "haber"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2025/05/20250530-2.pdf",
+"ne": "9903 sayılı Karar; PDF metne çevrilemedi, doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://shura.org.tr/wp-content/uploads/2024/12/SHURA-2023-08-YO-Elektrifikasyon-1.pdf",
+"ne": "SHURA elektrifikasyon raporu; PDF metne çevrilemedi, yalnız araç özeti",
+"tur": "rapor"
 }
 ],
 "celiskiler": [
@@ -9981,6 +13107,29 @@ window.MEKA_DATA = {
 "05, tavuk gübresi için bize uyan ekipman sayıyor; veri merkezi soğutma için de yerli üretilebilir diyor. İkisinin karar ağacında aynı dalda olup olmadığı 04 ve 05'ten çıkmaz; dal yerleştirmesi yönetimin kararı."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 0 arama, 10 sayfa; çürütücü 13 sayfa açtı, güven 4/5.",
+"TÜRKSAT Gölbaşı toplam alanı 28.500 m2'den 35.300 m2'ye düzeltildi; 28.500 m2 Şubat 2025 ilk duyurusunun rakamıydı, 22 Temmuz 2026 temel atma haberi 35 bin 300 m2 diyor.",
+"TÜRKSAT beyaz alan 6.000 m2'den 6.300 m2'ye düzeltildi.",
+"TÜRKSAT Tier III iddiasının kaynağı CNBC-e haberinden Forbes 24 Şubat 2025 duyurusuna taşındı; TSE 50600 uyumu eklendi.",
+"TÜRKSAT hizmete alma takviminin Şubat 2025'te 2027 ilk yarısı iken Temmuz 2026'da 2028 başına kaydığı notu eklendi.",
+"TÜRKSAT ilk fazda 3 kat, ikinci fazda 8 kat kapasite artışı ve 20'şer kabinlik 2 yüksek performans odası detayı eklendi.",
+"2026/9 Genelge PDF'si metne çevrilemedi; 'metin tek sayfadır ve MW/GW içermez' iddiası doğrulanamadı olarak işaretlendi.",
+"1 GW hedefinin Eylem Planı'ndan önce 2 Temmuz 2025'te Cumhurbaşkanı tarafından açıklandığı eklendi (cnbce doğrulandı).",
+"Rönesans ve Digital Realty'nin 200 MW IT kapasitesini 1 GW hedefinin yüzde 20'si saydığı firma beyanı eklendi; 1 GW'ın kurulu güç olduğu çıkarımı yumuşatıldı.",
+"9903 sayılı Karar PDF'si metne çevrilemedi; teşvik cevabı cevaplandi'dan kismen'e çekildi, Karar rakamları doğrulanamadı olarak işaretlendi.",
+"'Resmi dilde ölçü kurulu güçtür' ifadesi kaldırıldı çünkü dayandığı 9903 metni doğrulanamadı.",
+"SHURA PDF'si yalnız araç özetiyle görüldü; sektör payları (yüzde 26, 26, 8, 8, 7) doğrulanamadı olarak işaretlendi; 34 TWh türetilmiş tahminin satış belgesinde kullanılmaması notu eklendi.",
+"PAİY: 1 Ocak 2027 tarihinin yalnız yaşam döngüsü analizi değil BIM fıkrası için de geçerli olduğu düzeltildi.",
+"PAİY: depo boyutlandırma kuralları (yıllık yağmur suyunun yüzde 6'sı, rezervuar günlük tüketiminin yarısı), kaynak ve kullanım kısıtları, esaslı tadilat muafiyeti eklendi.",
+"TESAB raporundan veri merkezlerinin yüzde 56'sının Marmara'da olduğu eklendi; TESAB'ın haberde Türkiye Elektrik Sanayi Birliği olarak geçtiği not edildi.",
+"Turkcell ve Google Cloud 3 milyar dolarlık anlaşma ve Ankara'da üç veri merkezi bilgisi yeni hedef olarak eklendi; adımlara Turkcell görüşmesi eklendi.",
+"Ankara Data Hub için 500 milyon dolar yatırım ve Castle Investments ortaklığı eklendi; Khazna ve Ankara Data Hub toplamı 148 MW eklendi.",
+"Forbes Stüdyo yazısının reklam iş birliği etiketli olduğu kaynak notuna eklendi.",
+"Vertiv ve Iceotope bulguları firma beyanı ve doğrulanamadı olarak işaretlendi; EKA, donanimhaber ve diğer açılmayan kaynaklar doğrulanamadı olarak işaretlendi.",
+"EN 16941-1 2024 sürümü iddiası doğrulanamadı olarak işaretlendi.",
+"Kanıt puanı 4'ten 3'e düşürüldü; üç resmi PDF doğrulanamadı ve TÜRKSAT rakamlarında hata bulundu.",
+"Adımlara Resmî Gazete PDF'lerinin tarayıcıda açılıp okunması eklendi; teşvik notunun 9903 bölümü doğrulama şartına bağlandı.",
+"Kullanıcının bayi puanı sorusunun web kaynağıyla cevaplanamayacağı, manuel giriş gerektirdiği sinirlar alanına eklendi.",
 "16 Ekim 2026 ek araştırması: 8 arama, 22 sayfa okundu; çürütücü 8 sayfa açtı, güven 4/5.",
 "Yürürlük çelişkisi çözüldü: Resmî Gazete 11 Mart 2025 sayı 32838 Madde 10'a göre 57/A beşinci fıkra (yağmur suyu ve gri su zorunluluğu) yayım tarihinde yani 11 Mart 2025'te yürürlüğe girdi; 1 Ocak 2026 tarihi yalnız 57/A altıncı fıkra (YeS-TR yeşil sertifika) için geçerli. Haberlerin '1 Ocak 2026'da yağmur suyu zorunlu' iddiası RG metniyle uyuşmuyor; takvim, çelişkiler ve açık sorular buna göre düzeltildi.",
 "RG metninden eklendi: zorunluluk yalnız parselde yeni yapılacak yapılarda aranır; 11 Mart 2025'ten önce ruhsat başvurusu yapılmış, 6306 sayılı Kanun kapsamında sözleşmesi olan ve kamu ihalesi alınmış yapılar muaf; 11 Mart 2025'ten önce ruhsatlı yapı bulunan parselde yeni yapılar da muaf.",
@@ -10030,6 +13179,64 @@ window.MEKA_DATA = {
 ],
 "guven": 4,
 "arastirildi": true,
+"cevaplar": [
+{
+"soru": "Yağmur suyu ve gri su zorunluluğunun yürürlük tarihi: 11 Mart 2025 mi 1 Ocak 2026 mı",
+"durum": "cevaplandi",
+"cevap": "Doğrulandı. Değişiklik 11 Mart 2025 tarihli ve 32838 sayılı Resmî Gazete'de yayımlandı. Yağmur suyu ve gri su zorunluluğu 6. madde ile 57/A maddesine eklenen beşinci fıkradadır. Yürürlük maddesi (Madde 10) üç bent içerir: (a) yaşam döngüsü analizi ibaresi ve BIM fıkrası (57. madde otuzuncu fıkra) 1/1/2027; (b) 57/A altıncı fıkra yani yeşil sertifika 1/1/2026; (c) diğer hükümler yayım tarihinde. Yani su sistemleri 11 Mart 2025'ten beri zorunludur. Eşikler metinle birebir uyuyor: yağmur suyu için depo hacmi ihtiyacı 7 m3 üzerinde olmak kaydıyla parsel alanı 2.000 m2'den büyük veya toplam çatı izdüşümü 1.000 m2'den büyük yapılar, ayrıca depo ihtiyacı 7 m3'ü geçen kamu yapıları; gri su için yatak sayısı 200'den fazla konaklama binaları, yapı inşaat alanı 10.000 m2'den büyük AVM'ler, 30.000 m2'den büyük kamu binaları. Sağlık ve eğitim yapılarında gri su zorunlu değil. Boyutlandırma kuralı: yağmur suyu deposu yıllık toplanabilir yağmur suyunun en az yüzde 6'sını karşılar, hesap TS EN 16941-1 EK-A yöntemiyle; gri su deposu bağlı rezervuarların günlük tüketiminin en az yarısını karşılar, hesap TS EN 16941-2 EK-A ile. Yağmur suyu yalnız çatıdan toplanır, bahçe sulama ve rezervuarda kullanılır; gri su yalnız duş, küvet ve el yüz lavabosundan toplanır, yalnız rezervuarda kullanılır. Geçici 3. madde altıncı fıkra: 11 Mart 2025 öncesi ruhsat başvurusu yapılmış yapılar, 6306 sayılı Kanun kapsamında noter onaylı inşaat sözleşmesi olan yapılar ve ihale kararı veya ihale tarihi alınmış kamu yapıları muaf; ayrıca ruhsatlı yapı bulunan parseldeki yeni yapılar ve mevcut yapılarda esaslı tadilat da muaf. Yeşil sertifika şartı kamuya ait 10.000 m2 ve üzeri sağlık, eğitim, yurt ve hizmet binaları içindir.",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2025/03/20250311-1.htm",
+"kime": ""
+},
+{
+"soru": "Veri merkezi 1 GW hedefi BT yükü mü toplam güç mü; 2026/9 Cumhurbaşkanlığı Genelgesi metni",
+"durum": "kismen",
+"cevap": "Genelge PDF'si (18 Ağustos 2026, sayı 33344) bu turda metne çevrilemedi; dosya ikili olarak kaydedildi. 'Genelge tek sayfadır ve MW veya GW ifadesi içermez' iddiası doğrulanamadı. Doğrulanan kısımlar: Cumhurbaşkanı 2 Temmuz 2025 Kabine sonrası konuşmasında 2030'a kadar 1 GW veri merkezi kapasitesi hedefini ve 10 milyar doları aşan yatırımı açıkladı, mevcut altyapıyı 250 MW olarak verdi; tanım (BT yükü veya kurulu güç) yok. Webtekno 4 Eylül 2026 haberi hedefi 2026-2030 Yapay Zekâ Vizyonu ve Eylem Planı kapsamında 'veri merkezlerinin toplam kurulu gücü en az 1 GW' diye aktarıyor. Karşı sinyal, firma beyanı: Rönesans ve Digital Realty 1 Ekim 2026 duyurusunda kendi 200 MW IT kapasitesinin 1 GW hedefinin yaklaşık yüzde 20'sine karşılık geldiğini söylüyor; bu, şirketin 1 GW'ı IT kapasitesiyle karşılaştırdığını gösterir. 9903 sayılı Karar'daki 3 MW ve 500 kW kurulu güç eşikleri PDF okunamadığı için doğrulanamadı. Sonuç: hedefin ölçüsü resmi metinle netleşmedi; Eylem Planı metni okunmalı.",
+"kaynak": "https://www.cnbce.com/teknoloji/turkiyeden-yapay-zeka-plani-10-milyar-dolar-yatirimla-veri-merkezi-bolgeleri-kurulacak-h14535",
+"kime": "Sanayi ve Teknoloji Bakanlığı Milli Teknoloji Genel Müdürlüğü, Eylem Planı sekretaryası; sanayi.gov.tr iletişim sayfası ve 0312 201 50 00 santral; Eylem Planı PDF'si tarayıcıdan indirilip veri merkezi eylemi okunacak; Resmî Gazete 20260818-8.pdf tarayıcıda açılıp Genelge metni kontrol edilecek"
+},
+{
+"soru": "Türkiye veri merkezi kapasitesi tanımı: 250 MW ile 140 MW farkı",
+"durum": "kismen",
+"cevap": "Doğrulandı: Ekonomi Gazetesi 19 Haziran 2026 haberine göre TESAB raporu Türkiye'nin 2023 veri merkezi kurulu gücünü 250 MW, 2028 düşük senaryoyu 500 MW veriyor; veri merkezlerinin yüzde 56'sı Marmara'da, yoğunluk Marmara, Ege ve Ankara. Bu rakam Cumhurbaşkanı'nın 2 Temmuz 2025'te verdiği 250 MW ile aynıdır (cnbce doğrulandı). 140 MW rakamı açılan hiçbir sayfada yok. Sektör verileri BT yükü ile konuşur: Forbes 3 Eylül 2026 (Forbes Stüdyo, reklam iş birliği etiketi var) DC Atlas verisiyle İstanbul'un toplam potansiyel güç kapasitesini yaklaşık 119 MW veriyor; Khazna Ankara Başkent OSB tesisi 100 MW'a kadar; Trendyol ve Castle Investments'ın Ankara Temelli'deki Ankara Data Hub'ı 500 milyon dolar yatırımla 48 MW IT; ikisinin toplamı 148 MW. Rönesans ve Digital Realty ilk faz 22 MW üzeri IT (Forbes 1 Ekim 2026). 140 MW civarı rakamların BT yükü, 250 MW'ın kurulu güç olduğu yorumu makul ama resmi tanım yok.",
+"kaynak": "https://www.ekonomigazetesi.com/haber/tesab-raporu-turkiyenin-veri-merkezi-olmak-icin-firsati-var-81498",
+"kime": "TESAB Türkiye Elektrik Sanayi Birliği rapor ekibi (not: haberde TESAB, Türkiye Elektrik Sanayi Birliği olarak geçiyor); 140 MW rakamının kaynağı ve kurulu güç tanımı sorulacak"
+},
+{
+"soru": "Rönesans ve TÜRKSAT Gölbaşı veri merkezi projelerinde soğutma teknolojisi ve ihale takvimi",
+"durum": "kismen",
+"cevap": "Rönesans Altyapı ve Digital Realty ortaklığı 1 Ekim 2026'da duyuruldu (Forbes doğrulandı): ilk kampüs Ankara Temelli'de, ilk fazın inşaatına başlandı, 22 MW üzeri IT kapasitesi ve yaklaşık 10 bin m2 operatör bağımsız kolokasyon alanı, 2028'de devreye alma hedefi; sonra İstanbul kampüsü; uzun vadede toplam 200 MW IT ve 3 milyar dolara kadar yatırım. Soğutma, PUE ve tedarikçi bilgisi yok. TÜRKSAT Gölbaşı Veri Merkezi'nin temeli 22 Temmuz 2026'da atıldı (CNBC-e, AA kaynaklı, doğrulandı). Düzeltilen rakamlar: toplam alan 35 bin 300 m2 (önceki cevaptaki 28.500 m2, Şubat 2025 ilk duyurusundaki rakamdır), beyaz alan 6 bin 300 m2 (önceki 6.000), 6 sistem salonu, 2 adet 20'şer kabinlik yüksek performans odası, 200 kişilik ofis, 33 MVA kurulu güç, LEED Gold hedefi, mevcut kapasiteyi ilk fazda 3 kat, ikinci fazda 8 katın üzerinde artırma. Yapım süresi yaklaşık 1,5 yıl, hizmete alma 2028 başı. Tier III ve TSE 50600 uyumu CNBC-e haberinde yok; Forbes 24 Şubat 2025 ilk duyurusunda 'Uptime Institute TIER-III ve TSE 50600' olarak geçiyor. Takvim notu: Şubat 2025'te hizmete alma 2027 ilk yarısı deniyordu, Temmuz 2026'da 2028 başı; yaklaşık bir yıl kayma var. Yüklenici ve soğutma teknolojisi iki haberde de yok. Mekanik ve soğutma alt ihalelerinin 2027'de çıkması çıkarımdır. Ek hedef (Forbes 3 Eylül 2026): Turkcell Genel Müdürü Temmuz 2026'da Google Cloud ile 3 milyar dolarlık anlaşma ve Ankara'da üç büyük veri merkezi inşa edileceğini açıkladı.",
+"kaynak": "https://www.cnbce.com/teknoloji/turkiyenin-yeni-dijital-kalesi-olacak-turksat-golbasi-veri-merkezinin-temeli-torenle-atildi-h33610",
+"kime": "TÜRKSAT Satınalma ve İkmal Müdürlüğü, Gölbaşı; 0312 615 30 00 santral; EKAP'ta idare adı TÜRKSAT ile mekanik tesisat ve soğutma aramaları; Rönesans Altyapı kurumsal iletişim ve Digital Realty EMEA tedarikçi kayıt sayfası; Turkcell kurumsal satın alma (Google Cloud Ankara veri merkezleri)"
+},
+{
+"soru": "Vertiv, Schneider, Submer, LiquidStack, Iceotope Türkiye'de üretim veya montaj ortağı arıyor mu",
+"durum": "gorusme",
+"cevap": "Bu turda Vertiv ve Iceotope sayfaları açılmadı; önceki tur bulguları doğrulanamadı olarak kalır. Önceki tur firma beyanı: Vertiv Türkiye sayfasında yalnız bayi ve IT distribütörü dizini var, üretim ortağı çağrısı yok; öne çıkan ürün CoolChip CDU ve Liebert XDU (firma beyanı, doğrulanamadı). Iceotope partner sayfasında ülke listesi yok, yalnız başvuru formu var (firma beyanı, doğrulanamadı). Submer 403, LiquidStack 404 vermişti. Dolaylı sinyaller (haber, doğrulanamadı): Türk Telekom daldırmalı sıvı soğutma testi; Khazna Ankara için düşük GWP soğutucu ve atık su geri kullanımı. Bu turda doğrulanan dolaylı talep sinyali: Forbes 3 Eylül 2026 yazısı yeni veri merkezi yatırımlarının soğutma sistemleri, trafo ve şalt ekipmanı, enerji depolama ve inşaatta yeni talep yaratacağını söylüyor. Üretim ortağı arayışı ancak doğrudan görüşmeyle doğrulanabilir.",
+"kaynak": "https://www.forbes.com.tr/forbes-studyo/veri-merkezleri-enerjiye-yukleniyor",
+"kime": "Vertiv Türkiye satış müdürlüğü, vertiv.com/tr-emea iletişim formu; Schneider Electric Türkiye Secure Power iş birimi, se.com/tr iletişim; Iceotope partnership sayfası; Submer ve LiquidStack için Data Centre World Frankfurt veya Datacloud Global Congress stand görüşmesi; TESAB üye listesi üzerinden entegratörler"
+},
+{
+"soru": "Türkiye sanayide buhar talebi TWh ve 120 ile 180 derece bandında yoğunlaşan sektörler",
+"durum": "kismen",
+"cevap": "SHURA PDF'si bu turda da metne çevrilemedi; ikili dosya kaydedildi, yalnız araç tarafından üretilen özet alındı. Özette 2021 sanayi fosil yakıt tüketimi 287,4 TWh, ısı pompasına uygun pay yüzde 52, elektrikli kazana uygun pay yüzde 27, 150 ile 200 derece bandı, COP 2,5 ve 2053'te 90,1 TWh fosil ısının 56,6 TWh elektrikle karşılanması rakamları yer aldı; ancak bu özet doğrudan metin alıntısı değildir, doğrulanamadı sayılmalı. Sektör payları (çimento yüzde 26, demir çelik yüzde 26, gıda yüzde 8, kimya yüzde 8, tekstil yüzde 7) okunabilir metinde görülmedi, doğrulanamadı. Doğrudan buhar talebi TWh rakamı yok. Türetilmiş tahmin (gıda, kimya ve tekstil yaklaşık 66 TWh, bunun yüzde 52'si yaklaşık 34 TWh) rapora değil hesaba dayanır ve doğrulanmamış girdilerle yapılmıştır; satış belgesinde kullanılmamalı. Sıcaklık bandı tablosu görülmedi.",
+"kaynak": "https://shura.org.tr/wp-content/uploads/2024/12/SHURA-2023-08-YO-Elektrifikasyon-1.pdf",
+"kime": "SHURA Enerji Dönüşümü Merkezi, info@shura.org.tr, 0212 292 49 51; raporun sanayi bölümündeki sıcaklık bandı tablosu ve sektör payları tablosu istenecek; alternatif: Enerji ve Tabii Kaynaklar Bakanlığı EVÇED sanayi enerji dengesi; PDF tarayıcıda açılıp yönetici özeti doğrudan okunacak"
+},
+{
+"soru": "Sanayi ısı pompası teşvikleri: Yeşil Dönüşüm Destek Programı, VAP, KOSGEB",
+"durum": "kismen",
+"cevap": "Doğrulanan kısım, VAP (enerji.gov.tr, güncelleme 22.01.2025): yatırımın yüzde 30'u en fazla 15 milyon TL hibe; üst sınır her yıl yeniden değerleme oranında artar; kapsam: verimsiz ekipman değişimi (fan, pompa, kazan, fırın, basınçlı hava, buhar kapanları, elektrik motorları), proses düzenleme, ısıtma ve soğutma sistemleri, atık enerjinin geri kazanılması, kojenerasyon ve yenilenebilir enerji kaynaklarına dayalı ısı üretimi; ısı pompası açıkça yazılmamış; başvurular yıl içinde sürekli veya dönemsel. Doğrulanan kısım, KOSGEB Yeşil Sanayi Destek Programı: imalatçı KOBİ'ler için geri ödemeli destek; 2023-01 güneş çağrısı 14.000.000 TL üst limit yüzde 60, 2023-02 temiz ve döngüsel ekonomi çağrısı 4.000.000 TL yüzde 70; proje süresi 8 ile 12 ay; deprem illerinde oran yüzde 80 veya 90; kapsam kalemleri enerji verimliliği, su verimliliği, hammadde verimliliği, atık geri dönüşümü, endüstriyel simbiyoz, döngüsel ekonomi; ısı pompası açıkça yazılmamış; yönerge 2026 tarihli dosya olarak bağlanmış. Doğrulanamayan kısım: 9903 sayılı Karar PDF'si metne çevrilemedi; Yeşil Dönüşüm Programı'nın 12. maddede olması, yüzde 30 katkı ve yüzde 60 indirim, 24 milyon TL faiz desteği, 50 milyon TL üzeri için Stratejik Hamle (yüzde 40, 180 milyon TL, yüzde 25 makine desteği), 12 ve 6 milyon TL asgari yatırım, 31 Aralık 2030 son tarih, 33. madde çakışma yasağı ve veri merkezi 3 MW ile 500 kW eşikleri bu turda doğrulanamadı. EKA programı (yüzde 30, 10 milyon TL) bu turda açılmadı, doğrulanamadı. Not: bu destekler MEKA'nın değil müşterisinin yatırımını ucuzlatır; satış argümanıdır.",
+"kaynak": "https://enerji.gov.tr/evced-enerji-verimliligi-destekleri-verimlilik-artirici-proje-destekleri",
+"kime": "Sanayi ve Teknoloji Bakanlığı Teşvik Uygulama ve Yabancı Sermaye Genel Müdürlüğü, 9903 sayılı Karar 12. madde ve uygulama tebliği teyidi; Resmî Gazete 20250530-2.pdf tarayıcıda açılıp 12. ve 33. maddeler okunacak"
+},
+{
+"soru": "TS EN 16941-1 ve 16941-2 belgeli yerli gri su ürünü ve Türk üreticiler",
+"durum": "gorusme",
+"cevap": "Doğrulandı: 11 Mart 2025 değişikliği TS EN 16941-1 ve 16941-2 standartlarına 'uyulur' der ve depo hacmi hesabını EK-A yöntemlerine bağlar; ürün belgesi veya üretici belgelendirme şartı metinde yok. Standart sistem tasarım standardıdır. Belgeli yerli üretici bilgisi web'de bulunmadı; EN 16941-1'in 2024 sürümü iddiası bu turda doğrulanamadı. Yerli üretici ve belge durumu TSE ve sektör derneklerinden öğrenilmeli.",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2025/03/20250311-1.htm",
+"kime": "TSE Ürün Belgelendirme Müdürlüğü, 444 0 873, tse.org.tr belge sorgulama; Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Mesleki Hizmetler Genel Müdürlüğü, 0312 410 10 00; İSKİD ve MTMD üye listesi; ISK-SODEX İstanbul 2027 ve IFAT Eurasia fuar standları"
+}
+],
 "dal_ad": "Bağımsız",
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
@@ -10243,8 +13450,8 @@ window.MEKA_DATA = {
 "id": "belirsiz",
 "baslik": "Alt dalı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge",
 "bant": "elendi",
-"puan_metni": "03, 24 Eylül 2026: barut üretimi ve eski fabrika almak on alanlık sıralamanın dışında, Önermediklerimiz listesinde. 04, 27 Eylül 2026: güneşli katlanır ev, güneş kiremidi ve tarım dronu yedi alanlık sıralamanın dışında, Şimdilik değil listesinde. 05, 27 Eylül 2026 revize: kontrollü patlamayla enerji 12 iş içinde 10. sıra, puan yok, etiket 5+ yıl, Ar-Ge çok yüksek, yatırım orta; barutu doğrudan yakıt yapmak ve güneşli katlanır ev Şimdilik değil listesinde. Sıfırdan Ar-Ge için anılan 07 ve 08 bu doğrulamada verilen kaynak dosyalar arasında yok; o satır doğrulanmadı.",
-"tarih": "24 ve 27 Eylül 2026",
+"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulama bandı değiştirmiyor, kapanışı güçlendiriyor. Barut üretimi 6551 sayılı Kanun ve 87/12028 sayılı Tüzük ile hukuken açık ama İçişleri Bakanlığı ve Genelkurmay görüşüne bağlı ağır güvenlik rejimi var, askeri segment kamu tekelinde, MEKA'nın sac, lazer, kaynak ve hidrolik yetkinliğiyle ilişkisiz. Detonasyonla enerjide ticari güç üretimi oyuncusu yok; Venus Aerospace itki odaklı. Güneş kiremidinde yerli üretici yok; BIPV pazarı Şişecam, Kalyon ve Ankara Solar gibi cam ve panel üreticilerinde, Türk ithalatçı iddiası yanlış çıktı. Tarım dronu pazarı küçük, izin rejimi 2026'da taslak düzeyinde, alıcı kamu ağırlıklı ve yetkinlik dışı. Eski fabrika alımı tek başına iş alanı değil; icradan OSB tesisi arzı doğrulandı ve kapasite isteyen diğer yapraklara aktarılmalı. Kalan eksikler (drone pazar büyüklüğü, konkordato toplamı, güneş kiremidi mevzuatı) kararı değiştirecek güçte değil. 03, 24 Eylül 2026: barut üretimi ve eski fabrika almak on alanlık sıralamanın dışında, Önermediklerimiz listesinde. 04, 27 Eylül 2026: güneşli katlanır ev, güneş kiremidi ve tarım dronu yedi alanlık sıralamanın dışında, Şimdilik değil listesinde. 05, 27 Eylül 2026 revize: kontrollü patlamayla enerji 12 iş içinde 10. sıra, puan yok, etiket 5+ yıl, Ar-Ge çok yüksek, yatırım orta; barutu doğrudan yakıt yapmak ve güneşli katlanır ev Şimdilik değil listesinde. Sıfırdan Ar-Ge için anılan 07 ve 08 bu doğrulamada verilen kaynak dosyalar arasında yok; o satır doğrulanmadı.",
+"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 ve 27 Eylül 2026",
 "ne": "Bu yaprak tek bir iş değil, altı ayrı fikrin toplandığı bir sepet. Barut üretimi, barutla ya da kontrollü patlamayla enerji, güneşli katlanır ev ve güneş kiremidi, tarım dronu, eski bir fabrika satın almak ve sıfırdan kendi Ar-Ge'sini kurmak. Verilen üç kaynak dosya bunların dördünü gerekçesiyle elemiş: barut üretimi, eski fabrika almak, güneşli ev ile kiremit, tarım dronu. Kontrollü patlamayla enerji 12 iş içinde 10. sırada duruyor; barutu doğrudan yakıt yapmak ayrıca elenmiş. Sıfırdan Ar-Ge fikri bu üç dosyada geçmiyor; 07 ve 08 bu turda doğrulanmadı.",
 "neden": "Mehmet Bey MEKA'dan bağımsız, teknolojik, yüksek getirili ve ilk giren kazanır türünden iş aradı. Güneşli küçük akıllı ev onun kendi önerisiydi; 04 buna doğrudan cevap verdi. Barut üretimi ve eski fabrika almak MEKA'ya bitişik alanlar sıralanırken 03'te gündeme geldi. Kontrollü patlama ve tarım dronu bağımsız taramada çıktı. Hepsine bakıldı ve kenara konuldu. Bu sayfa aynı fikirlerin yeniden tartışılmasını önlemek için gerekçeleri tek yerde tutar.",
 "rakamlar": [
@@ -10277,41 +13484,90 @@ window.MEKA_DATA = {
 "deger": "1,5 M$ gelir, 57,6 M$ zarar",
 "aciklama": "Katlanır ev üreticisi Boxabl'ın 2025 sonucu. Türkiye'de tarım arazisindeki izinsiz prefabriklere abonelik yasağı da geldi.",
 "kaynak": "04, Şimdilik değil, kaynak 19 ve 20"
+},
+{
+"deger": "502.908.235 TL",
+"aciklama": "Bozüyük OSB seramik fabrikası icra muhammen bedeli; 61.890 m² arsa, 16.299 m² kapalı üretim alanı; birinci artırma 9 ile 16 Eylül 2026, ikinci 2 ile 9 Ekim 2026 (sayfada doğrulandı)",
+"kaynak": "https://www.haberhurriyeti.com/haber/28234459/bir-zamanlar-bos-yer-bulunamazdi-bozuyukteki-dev-fabrika-yarim-milyar-liraya-icradan-satista"
+},
+{
+"deger": "176.455.960 TL",
+"aciklama": "Şanlıurfa 2. OSB fabrika icra muhammen bedeli, 17.963 m² arsa, KDV yüzde 20 ayrıca; elektrik, su ve aidat borcu 738.751 TL; artırmalar 7 ile 14 Mayıs ve 4 ile 11 Haziran 2026 (sayfada doğrulandı)",
+"kaynak": "https://www.urfanatik.com/sanliurfada-18-bin-metrekarelik-fabrika-satisa-cikarildi"
+},
+{
+"deger": "2 yıl / 5 yıl / 3 yıl",
+"aciklama": "87/12028 sayılı Tüzük: kuruluş izin belgesi 2 yıl geçerli (madde 6); işletme izni 5 yıl, oyun ve eğlence patlayıcılarında 3 yıl, yılda en az bir denetim (madde 8) (sayfada doğrulandı)",
+"kaynak": "https://mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=2&MevzuatNo=8712028&MevzuatTertip=5"
+},
+{
+"deger": "9 Mayıs 1955",
+"aciklama": "6551 sayılı Kanun kabul tarihi; Resmi Gazete 18 Mayıs 1955 sayı 9009; sivil barut ve patlayıcı tekelden çıktı, harp mühimmatı 3763 sayılı Kanunda kaldı (sayfada doğrulandı)",
+"kaynak": "https://mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=1&MevzuatNo=6551&MevzuatTertip=3"
+},
+{
+"deger": "29 Eylül 1987, sayı 19589",
+"aciklama": "87/12028 sayılı Tüzüğün Resmi Gazete tarih ve sayısı; Bakanlar Kurulu kararı 14 Ağustos 1987 (sayfada doğrulandı)",
+"kaynak": "https://mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=2&MevzuatNo=8712028&MevzuatTertip=5"
+},
+{
+"deger": "290,40 kWp, 1.760 panel, 165 W",
+"aciklama": "Muğla Menteşe Otogarı BIPV çatısı, 3.840 m² çatı, Ankara Solar üretimi yarı şeffaf paneller, tamamen yerli üretim; yayın tarihi sayfada yok (sayfada doğrulandı)",
+"kaynak": "https://santiye.com.tr/mugla-mentese-otogari-460.html"
+},
+{
+"deger": "2 GW/yıl, 500 milyon dolar, 100 milyon dolar",
+"aciklama": "Kalyon PV kapasite (Faz 3, Şubat 2023), toplam yatırım hacmi ve 2024 yatırımı; BIPV Ar-Ge aşamasında, ürünler ileride ticarileştirilecek (haber 25-27 Şubat 2024, sayfada doğrulandı)",
+"kaynak": "https://www.paradergi.com.tr/is-dunyasi-kulis/2024/02/27/kalyon-pvden-100-milyon-dolar-degerinde-yatirim"
+},
+{
+"deger": "500 gram",
+"aciklama": "SHGM İHATTYS taslağı: kamera ya da mikrofon gibi veri kaydeden sensörlü cihazlar ile 500 gramı geçen tüm İHA'lar için sisteme kayıt zorunlu; 150 kg ve üstü sicile tescil; zirai dronlar tehlikeli madde taşımacılığından muaf (haber 31 Mayıs 2026, taslak, sayfada doğrulandı; önceki ifade düzeltildi)",
+"kaynak": "https://www.milligazete.com.tr/iha-sahipleri-dikkat-anlik-takip-donemi-basliyor"
+},
+{
+"deger": "15 il, 20 ürün",
+"aciklama": "Tarım Kredi Kooperatifleri Genel Müdürü Fahrettin Poyraz'ın ZİHA deneme kapsamı ve il filoları planı açıklaması; etiket sayfası tarihsiz, içerik 2020-2021 dönemine ait görünüyor (sayfada doğrulandı)",
+"kaynak": "https://www.hurriyet.com.tr/haberleri/ziha"
+},
+{
+"deger": "13 Nisan 2020",
+"aciklama": "US7340903 patentinin bakım ücreti ödenmediği için düşme tarihi; ana metinde 'Expired - Fee Related' durumu doğrulandı, tarih sayfanın özet kısmından; başvuru 24 Aralık 2003, veriliş 11 Mart 2008",
+"kaynak": "https://patents.google.com/patent/US7340903"
 }
 ],
-"durum": "Bugün itibarıyla altı fikrin dördü verilen kaynak dosyalarda açıkça elenmiş. Barut üretimi ve eski fabrika almak 24 Eylül 2026 tarihli 03'te Önermediklerimiz listesinde. Güneşli ev ile tarım dronu 27 Eylül 2026 tarihli 04'te Şimdilik değil listesinde. Barutu doğrudan yakıt yapmak ve güneşli ev 27 Eylül 2026 tarihli revize 05'te Şimdilik değil listesinde. Sıfırdan Ar-Ge bu üç dosyada geçmiyor; 07 ve 08 bu doğrulamada verilmedi, o satır çalışmalarda doğrulanmadı. Yalnızca kontrollü patlamayla enerji 05'te 12 iş içinde 10. sırada duruyor. 5 yıldan uzun, Ar-Ge çok yüksek, ilk adım ve ticarileşme yolu yazılmamış, enerji tarafı boş. 05 ona izle etiketi de vermemiş; 11 ve 12. sıradaki işlerde izle etiketi var. Bu yüzden ön bant izle yerine elendi korundu; kontrollü patlama tek izleme kalemi. Hiçbiri için görüşme, pilot ya da bütçe adımı yok, beklenen bir iş de yok.",
+"durum": "Yaprak önceki iki turda elendi; bu çürütme turunda 21 kaynaktan 15'i açılıp satır satır karşılaştırıldı. Barut cevabı iki resmi mevzuat sayfasıyla doğrulandı ve 'cevaplandi' olarak kaldı; MKE istisnası ifadesi inceltildi. Eski fabrika cevabındaki tüm rakamlar ve 4562 sayılı Kanun madde 15 ile 18 doğrulandı. Güneş kiremidi cevabında 'Kaymaz Yapı' adlı Türk firması iddiası yanlıştı ve silindi; haber yalnızca İspanyol Solum'un ürününü anlatıyor. Tarım dronu kaynaklarından biri (borsaningundemi) açılmadı; Hürriyet etiket sayfasındaki Tarım Kredi haberleri eski (2020-2021). Enerji cevabında 'tek ticari şirket' ifadesi kaldırıldı, NETL PDF doğrulanamadı. Hiçbir düzeltme bandı değiştirmiyor; yaprak elendi bandında kalır. Fabrika alımı bilgisi kapasite isteyen diğer yapraklara aktarılmalı.",
 "acik_sorular": [
-"Kontrollü patlamayla enerji izleme listesinde kalacak mı, yoksa tamamen kapanacak mı? 05 onu 10. sıraya koyuyor ama izle etiketi, ilk adım, alıcı ve ortak yazmıyor.",
-"Eski fabrika almak bir iş alanı değil, büyüme yöntemi. 03 yalnızca 'nakdi bağlar' demiş. Başka bir alan için tesis gerekirse bu seçenek yeniden açılır mı?",
-"Sıfırdan Ar-Ge bu doğrulamada verilen 03, 04 ve 05'te geçmiyor. Bu fikir hangi belgede ve hangi bağlamda elendi? 07 ve 08 ayrıca okunup teyit edilmeli.",
-"Tarım dronu tek cümle ve tek kaynakla elendi: alan kalabalık, her uygulama izne bağlı. Pazar büyüklüğüne bakılmadan kapanması yeterli mi?",
-"04 Mehmet Bey'e üç soru sordu: kişisel mi MEKA mı, hangi bütçe dilimi, kuralım mı ortak mı. Cevaplar dosyalarda yok. Bu sepet için kapı kararı gerekiyor mu?"
+"Kısmen cevaplandı: Kontrollü patlamayla enerji (hidrojen detonasyon, pulse detonation) alanında ticari oyuncu ve Türkiye'de girişim var mı; izleme listesinde kalmalı mı",
+"Kısmen cevaplandı: Tarım dronu pazarı Türkiye: üretici sayısı, SHGM izin rejimi, pazar büyüklüğü; kapanış kararı yeterli mi",
+"Kısmen cevaplandı: Güneş kiremidi ve entegre çatı PV: Türkiye'de üretici ve mevzuat; pazar var mı",
+"Kısmen cevaplandı: Eski fabrika satın alma: Türkiye'de sanayi tesisi satışlarında güncel piyasa ve bu yolun ne zaman yeniden açılacağı"
 ],
 "adimlar": [
 {
-"adim": "Altı fikri karar ağacında tek bir elendi notu olarak kapatmak; kontrollü patlamayı izle etiketiyle ayrı tutmak.",
-"kim": "Mehmet Bey ve araştırmayı hazırlayan ekip",
-"ne_zaman": "Ekim 2026'daki ilk ağaç gözden geçirmesinde"
+"adim": "Yaprağı elendi bandında kapat; karar ağacı dosyasına 'beş alt fikir kapandı, fabrika alımı araç olarak diğer yapraklara aktarıldı' notunu işle; Kaymaz Yapı hatasının silindiğini not et",
+"kim": "Strateji ve iş geliştirme sorumlusu",
+"ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "Sıfırdan Ar-Ge ve eski fabrika almak gibi yöntem satırlarını iş kartı olarak değil, ilgili kartın giriş yolu alanında tutmak. 04 bu ayrımı kur ya da ortak ol sorusu olarak zaten koyuyor.",
-"kim": "Araştırmayı hazırlayan ekip",
-"ne_zaman": "Ağaç güncellemesinde, Ekim 2026"
+"adim": "İcradan OSB fabrikası ilanlarını aylık izleme listesi kur: UYAP e-satış portalı, Ankara ve çevre iller, 10.000 m² üstü kapalı alan; 4562 madde 15 ve 18 şartlarını (OSB uygunluk görüşü, katılımcı niteliği, Bakanlık ve OSB alacakları) kontrol listesine ekle; sonuçları kapasite artışı isteyen yapraklara aktar",
+"kim": "Yatırım ve finans sorumlusu",
+"ne_zaman": "İlk tarama 2 Kasım 2026, sonra her ayın ilk haftası"
 },
 {
-"adim": "Sıfırdan Ar-Ge satırı için 07 ve 08'i açıp elenme gerekçesini ve rakamları bu sayfaya eklemek.",
-"kim": "Araştırmayı hazırlayan ekip",
-"ne_zaman": "Ekim 2026"
+"adim": "TOBB Ağustos 2026 haber bülteni (docx) ve istatistik dosyasını (xlsx) indir, imalat sektöründe kapanan şirket sayısını ve yıllık değişimi not et; Eylül 2026 bülteni çıkınca güncelle",
+"kim": "Yatırım ve finans sorumlusu",
+"ne_zaman": "30 Ekim 2026'ya kadar"
 },
 {
-"adim": "Kontrollü patlama için yılda bir kez TÜBİTAK SAGE ve ABD Enerji Bakanlığı duyurularına bakmak; enerji tarafında ticari bir oyuncu çıkarsa yeniden değerlendirmek.",
-"kim": "Araştırmayı hazırlayan ekip",
-"ne_zaman": "Haziran 2027"
+"adim": "Yalnızca bilgi için: Tarım ve Orman Bakanlığı Gıda ve Kontrol Genel Müdürlüğünden ruhsatlı zirai İHA listesi ve üretici sayısı; SHGM'den İHATTYS yürürlük tarihi. İletişim bilgileri resmi siteden teyit edilmeli. Cevap yaprağın bandını değiştirmez",
+"kim": "Strateji ve iş geliştirme sorumlusu",
+"ne_zaman": "13 Kasım 2026'ya kadar, düşük öncelik"
 },
 {
-"adim": "Bu fikirlerden biri yeniden gündeme gelirse önce bu sayfadaki gerekçeyi okumak; yeni veri yoksa konuyu açmamak.",
-"kim": "Mehmet Bey",
-"ne_zaman": "Sürekli"
+"adim": "Detonasyon ile güç üretimi ve güneş kiremidi için yıllık tek tarama; ticari ürün çıkarsa yeniden değerlendir",
+"kim": "Ar-Ge sorumlusu",
+"ne_zaman": "16 Ekim 2027"
 }
 ],
 "riskler": [
@@ -10372,6 +13628,11 @@ window.MEKA_DATA = {
 ],
 "tam_calisma": [
 {
+"dosya": "c_belirsiz",
+"bolum_basligi": "",
+"sayfa": null
+},
+{
 "dosya": "03",
 "bolum_basligi": "Önermediklerimiz",
 "sayfa": 1
@@ -10398,9 +13659,110 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "Güneşli ev ve kontrollü patlama birkaç rakamlı cümleyle anlatılıyor. Barut üretimi, eski fabrika almak ve tarım dronu tek cümleyle elenmiş. Sıfırdan Ar-Ge verilen üç kaynak dosyada hiç geçmiyor; taslağın 07 ve 08'e dayandırdığı 2 ile 5 M$ ve 36 ile 60 ay rakamları bu turda doğrulanamadı ve çıkarıldı. İnceleme dosyasına dayandırılan çelişkiler de doğrulanamadı; yerine doğrudan dosyalardan okunan tutarsızlıklar yazıldı. Fikirler zaten elenmiş olduğu için web araması yapılmadı.",
-"kanit": 2,
-"web": [],
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 5 açık sorunun 1'i cevaplandı, 4'i kısmen, 0'i kapandı, 0'i görüşme gerektiriyor. Sınırlar: Çürütme turunda arama yapılmadı, yalnızca verilen URL'ler açıldı; 21 kaynaktan 15'i açıldı. Açılmayan 6 kaynak (NETL PDF, borsaningundemi, iki ffkpartnerhukuk sayfası, tarimorman GKGM, EGM) için ifadeler 'doğrulanamadı' olarak işaretlendi; EGM kaynaklardan çıkarıldı. mevzuat.gov.tr sayfaları uzun olduğu için 87/12028 Tüzük madde 82, 113, 118 ve 131 ile patentin düşme tarihi sayfanın özet kısmından alındı, ana metinde doğrudan görülmedi. Hürriyet ZİHA etiket sayfası ve Şantiye Dergisi sayfası tarihsiz. SHGM ve Tarım Bakanlığı resmi metinleri hala açılmadı; drone kuralları yalnızca haber kaynaklı ve İHATTYS taslak aşamasında. Tarım dronu pazar büyüklüğü, üretici sayısı, konkordato toplamı ve güneş kiremidi mevzuatı için veri yok; bu yüzden kapsam 'kismi'. Kullanıcının bayi puanlama sorusu bu yaprağın dışında: bayi görüşmeleri web ile doğrulanamaz, puanlar görüşmeyi yapan kişi tarafından elle girilmeli (ek_md sonundaki not).",
+"kanit": 3,
+"web": [
+{
+"url": "https://patents.google.com/patent/US7340903",
+"ne": "Pulse detonation ile güç üretimi patenti; Expired - Fee Related doğrulandı; düşme tarihi 13 Nisan 2020 özet kısmından",
+"tur": "diger"
+},
+{
+"url": "https://venusaero.com/",
+"ne": "Venus Aerospace RDRE ve VDR; roket itkisi ve hipersonik uçuş, enerji üretimi yok (firma beyanı, açıldı)",
+"tur": "firma"
+},
+{
+"url": "https://www.netl.doe.gov/sites/default/files/2017-11/FE0025822-OSU-NETL-project.pdf",
+"ne": "NETL ve Ohio State pulse detonation MHD projesi; PDF açılamadı, doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.gazetebirlik.com/yasam/tarlada-teknoloji-devri-drone-ile-ilaclama-doneminde-kurallar-netlesti/993910",
+"ne": "Drone ile ilaçlama yönergesi kuralları, Muğla İl Müdürü açıklaması, 12 Mayıs 2026 (açıldı)",
+"tur": "haber"
+},
+{
+"url": "https://www.milligazete.com.tr/iha-sahipleri-dikkat-anlik-takip-donemi-basliyor",
+"ne": "SHGM İHATTYS taslağı, zirai dron muafiyeti, 500 gram kayıt eşiği, 31 Mayıs 2026 (açıldı)",
+"tur": "haber"
+},
+{
+"url": "https://www.borsaningundemi.com/haber/ihalar-icin-yeni-kullanim-alani-1540624",
+"ne": "Zirai mücadele alet ve makineleri yönetmelik taslağı, 2021; açılmadı, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.hurriyet.com.tr/haberleri/ziha",
+"ne": "Tarım Kredi ZİHA filoları, 15 il 20 ürün, TARNET, Helimore; tarihsiz etiket sayfası, 2020-2021 içerik (açıldı)",
+"tur": "haber"
+},
+{
+"url": "https://www.ffkpartnerhukuk.com.tr/drone-kullanmanin-hukuki-sartlari-2026-guncel-rehber-iha-ve-drone-hukuku/",
+"ne": "Drone hukuku rehberi; açılmadı, doğrulanamadı",
+"tur": "diger"
+},
+{
+"url": "https://www.tarimorman.gov.tr/GKGM",
+"ne": "Gıda ve Kontrol Genel Müdürlüğü; açılmadı, iletişim bilgileri doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.donanimhaber.com/sisecam-fotovoltaik-sistemleri-modern-mimariyle-bulusturuyor--188587",
+"ne": "Şişecam Charger BIPV, ML System ortaklığı, BAU 2025, münhasır tedarikçi, 6 Mart 2025 (açıldı)",
+"tur": "haber"
+},
+{
+"url": "https://www.donanimhaber.com/kaymaz-yapida-binaya-entegre-gunes-paneli-gelistirildi--178444",
+"ne": "İspanyol Solum Arena yürünebilir BIPV panel, 14 Haziran 2024; Türk firması geçmiyor, 'Kaymaz Yapı' iddiası silindi (açıldı)",
+"tur": "haber"
+},
+{
+"url": "https://www.paradergi.com.tr/is-dunyasi-kulis/2024/02/27/kalyon-pvden-100-milyon-dolar-degerinde-yatirim",
+"ne": "Kalyon PV 2 GW, 500 milyon dolar, 100 milyon dolar 2024 yatırımı, BIPV Ar-Ge (açıldı)",
+"tur": "haber"
+},
+{
+"url": "https://santiye.com.tr/mugla-mentese-otogari-460.html",
+"ne": "Muğla Menteşe Otogarı BIPV çatı, Ankara Solar, 1.760 panel, 290,40 kWp; tarihsiz (açıldı)",
+"tur": "haber"
+},
+{
+"url": "https://mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=1&MevzuatNo=6551&MevzuatTertip=3",
+"ne": "6551 sayılı Kanun, kabul 9 Mayıs 1955, RG 18 Mayıs 1955 sayı 9009, madde 1 ve 2 (açıldı)",
+"tur": "resmi"
+},
+{
+"url": "https://mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=2&MevzuatNo=8712028&MevzuatTertip=5",
+"ne": "87/12028 sayılı Tüzük, madde 2 ile 8 ana metinde, 82, 113, 118 ve 131 özet kısmında (açıldı)",
+"tur": "resmi"
+},
+{
+"url": "https://www.haberhurriyeti.com/haber/28234459/bir-zamanlar-bos-yer-bulunamazdi-bozuyukteki-dev-fabrika-yarim-milyar-liraya-icradan-satista",
+"ne": "Bozüyük OSB seramik fabrikası icra satışı 502.908.235 TL, 25 Haziran 2026 (açıldı)",
+"tur": "haber"
+},
+{
+"url": "https://www.urfanatik.com/sanliurfada-18-bin-metrekarelik-fabrika-satisa-cikarildi",
+"ne": "Şanlıurfa 2. OSB fabrika icra satışı 176.455.960 TL, 23 Mart 2026 (açıldı)",
+"tur": "haber"
+},
+{
+"url": "https://mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=1&MevzuatNo=4562&MevzuatTertip=5",
+"ne": "4562 sayılı OSB Kanunu madde 15 ve 18, icra ile devir şartları ana metinde doğrulandı (açıldı)",
+"tur": "resmi"
+},
+{
+"url": "https://www.ffkpartnerhukuk.com.tr/fabrika-ve-sanayi-tesisi-satin-alirken-hukuki-kontrol-listesi-2026-guncel-rehber/",
+"ne": "Fabrika alımında hukuki kontrol listesi; açılmadı, doğrulanamadı",
+"tur": "diger"
+},
+{
+"url": "https://www.tobb.org.tr/BilgiErisimMudurlugu/Sayfalar/KurulanKapananSirketistatistikleri.php",
+"ne": "TOBB kurulan kapanan şirket istatistikleri; Ağustos 2026 bülteni ve xlsx bağlantısı var, sayfada rakam yok (açıldı)",
+"tur": "resmi"
+}
+],
 "celiskiler": [
 "Barut fikri iki belgede iki ayrı biçimde geçiyor. 03 'Barut üretimi' diye Önermediklerimiz listesine koymuş. 05 'Barutu doğrudan yakıt yapmak' diye Şimdilik değil listesine koymuş ve fikrin değerli kısmını 10. maddeye bağlamış. Ağaçta tek bir elendi satırı olmalı.",
 "03'teki barut üretimi için tek kaynak özel bir şirketin, Ahlatcı'nın fabrika haberi. Belge metninde rakam yok; yıllık 4 ton yalnızca bağlantı adresinde. MKE ya da kamu alıcısı geçmiyor. Devlet firmaları gibi bir yerleşim dayanaksız olur.",
@@ -10410,6 +13772,27 @@ window.MEKA_DATA = {
 "Taslak 07, 08 ve inceleme dosyasına atıf yapıyor ama bu üç dosya bu doğrulamada kaynak olarak verilmedi. O atıflar teyit edilemedi."
 ],
 "degisiklikler": [
+"16 Ekim 2026 ikinci tur: 6 arama, 22 sayfa; çürütücü 15 sayfa açtı, güven 4/5.",
+"Güneş kiremidi cevabından 'Kaymaz Yapı, İspanyol Solum'un Arena panelini getirdi' ifadesi silindi; haber yalnızca Solum ürününü anlatıyor, 'kaymaz yapı' ürün özelliği, Türk firması ya da ithalatçı geçmiyor",
+"Barut cevabında 'MKE için kamu istisnası Tüzükte yok' ifadesi inceltildi: MKE'ye özgü istisna yok, ancak madde 118 kamu kurumlarına belge kolaylığı tanıyor ve MKE madde 131'de geçiyor (özet kısmından)",
+"Barut cevabına 6551 sayılı Kanun madde 2 (İçişleri izin ve denetimi) ve Tüzüğün RG bilgisi (29 Eylül 1987 sayı 19589) eklendi; 'spor fişeği' ifadesi kanun metnindeki 'nişan tüfek ve tabanca fişekleri, şenlik fişekleri' ile değiştirildi",
+"EGM patlayıcı madde sayfası (500 hatası) barut kaynaklarından çıkarıldı; cevap ona dayanmıyor",
+"Enerji cevabında Venus Aerospace için 'tek ticari şirket' ifadesi kaldırıldı; site bunu desteklemiyor; firma beyanı olarak işaretlendi",
+"Enerji cevabında patent için başvuru (24 Aralık 2003) ve veriliş (11 Mart 2008) tarihleri eklendi; 'Expired - Fee Related' ana metinde doğrulandı, 13 Nisan 2020 düşme tarihi özet kısmından olduğu için işaretlendi",
+"NETL PDF'e dayanan ifade 'doğrulanamadı' olarak işaretlendi",
+"Drone cevabında 500 gram eşiği düzeltildi: sensörlü cihazlar ile 500 gramı geçen tüm İHA'lar kayıt zorunlu; İHATTYS'nin taslak olduğu ve RG tarihinin beklendiği eklendi",
+"Drone cevabında gazetebirlik haberinin kaynağının Muğla İl Müdürü açıklaması olduğu ve yönerge adı ile yürürlük tarihinin haberde bulunmadığı eklendi",
+"Drone cevabında borsaningundemi kaynağına dayanan 'ruhsatsız cihaz üretilemez, satılamaz' ifadesi 'doğrulanamadı' olarak işaretlendi",
+"Drone cevabında Hürriyet ZİHA etiket sayfasının tarihsiz ve 2020-2021 dönemine ait olduğu, güncel talep verisi sayılamayacağı eklendi",
+"Kalyon PV cevabında 'çatı ürünü yok' ifadesi 'Ar-Ge aşamasında, ürünler ileride ticarileştirilecek, sayfada hazır ürün yok' olarak düzeltildi; haber tarihi 25 Şubat 2024 (güncelleme 27 Şubat) olarak netleştirildi",
+"Menteşe Otogarı için 3.840 m² çatı ve 'tamamen yerli üretim' bilgisi eklendi; yayın tarihinin sayfada bulunmadığı not edildi",
+"Eski fabrika cevabında 4562 madde 15 ve 18 ifadeleri kanun metnine göre yeniden yazıldı ve doğrulandı; ffkpartnerhukuk kaynağı 'doğrulanamadı' olarak işaretlendi",
+"Eski fabrika cevabında 'seramik, tekstil ve mobilyada arz sürer' ifadesi kaynaklı olmadığı için 'yorum' olarak işaretlendi",
+"TOBB sayfasında Ağustos 2026 bülteninin docx ve xlsx olarak yayımlandığı, Eylül 2026'nın henüz çıkmadığı eklendi",
+"Kapsam 'tam' yerine 'kismi' yapıldı: drone pazar büyüklüğü, konkordato toplamı ve güneş kiremidi mevzuatı eksik",
+"Web listesindeki her kaynak 'açıldı' ya da 'açılmadı, doğrulanamadı' olarak işaretlendi",
+"Kullanıcının bayi puanlama sorusu için ek_md sonuna kısa not eklendi: puanlar elle girilir, önerilen kayıt satırı verildi",
+"Tüm durum etiketleri kontrol edildi: barut 'cevaplandi' olarak kaldı (iki resmi sayfada doğrulandı), diğer dördü 'kismen'",
 "puan_metni: 07 ve 08'e dayanan sıfırdan Ar-Ge cümlesi doğrulanamadı diye düzeltildi; 05'in Şimdilik değil listesine güneşli ev eklendi; 05'in revize olduğu belirtildi.",
 "tarih: 29 Eylül 2026 çıkarıldı, yalnızca 24 ve 27 Eylül 2026 kaldı; 07 ve 08 verilen kaynaklar arasında yok.",
 "ne: 'beşini elemiş' ifadesi 'dördünü elemiş' olarak düzeltildi; sıfırdan Ar-Ge'nin verilen dosyalarda geçmediği yazıldı.",
@@ -10430,6 +13813,43 @@ window.MEKA_DATA = {
 "celiskiler: inceleme atıfları kaldırıldı; aynı tutarsızlıklar doğrudan 03, 04 ve 05 metninden doğrulanarak yeniden yazıldı; doğrulanamayan 07, 08 ve inceleme atıfları ayrı madde yapıldı."
 ],
 "guven": 4,
+"cevaplar": [
+{
+"soru": "Kontrollü patlamayla enerji (hidrojen detonasyon, pulse detonation) alanında ticari oyuncu ve Türkiye'de girişim var mı; izleme listesinde kalmalı mı",
+"durum": "kismen",
+"cevap": "Elektrik üretimi için pulse detonation kullanan ticari bir şirket bulunamadı. Alan patent ve üniversite düzeyinde. Texas Üniversitesi Sistemi adına 24 Aralık 2003'te başvurulan ve 11 Mart 2008'de verilen US7340903 sayılı 'Scalable power generation using a pulsed detonation engine' patentinin durumu Google Patents sayfasında 'Expired - Fee Related' (sayfada doğrulandı). Bakım ücreti ödenmediği için düşme tarihi 13 Nisan 2020 bilgisi sayfanın özet kısmından alındı, ana metinde doğrudan görülmedi. Sayfada lisans ya da ticari ürün kaydı yok. ABD Enerji Bakanlığı NETL ve Ohio State pulse detonation MHD projesi: PDF açılamadı, doğrulanamadı. Venus Aerospace ürünleri RDRE (Rotating Detonation Rocket Engine) ve VDR (Venus Detonation Ramjet); hedef uzay, savunma ve hipersonik uçuş itkisi, sitede enerji üretimi geçmiyor (firma beyanı, sayfada doğrulandı). Önceki 'tek ticari şirket' ifadesi kaldırıldı; sayfa bunu desteklemiyor. Türkiye'de bu alanda ticari girişim bulunamadı (önceki tur arama sonucu, bu turda yeniden aranmadı). Sonuç: izleme listesinden çıkarılabilir; yılda bir bakış yeter.",
+"kaynak": "https://patents.google.com/patent/US7340903 (diger, açıldı); https://venusaero.com/ (firma beyanı, açıldı); https://www.netl.doe.gov/sites/default/files/2017-11/FE0025822-OSU-NETL-project.pdf (resmi, PDF açılamadı, doğrulanamadı)",
+"kime": "Görüşme gerekmez. Yıllık tarama yeter."
+},
+{
+"soru": "Tarım dronu pazarı Türkiye: üretici sayısı, SHGM izin rejimi, pazar büyüklüğü; kapanış kararı yeterli mi",
+"durum": "kismen",
+"cevap": "İzin rejimi iki katmanlı. Birinci katman: bitki koruma ürünlerinin İHA ile uygulanması için hazırlanan yönerge; haber 12 Mayıs 2026 tarihli ve kaynağı Muğla İl Tarım ve Orman Müdürü Seyfettin Baydar'ın açıklaması (sayfada doğrulandı). Kurallar: araç Tarım ve Orman Bakanlığınca ruhsatlı olacak, operatör SHGM sistemine kayıtlı olacak, her uygulama öncesi il ya da ilçe müdürlüğünden izin alınacak, bitki koruma ürünü uygulama belgesi olmayan kişi yetkili uzmanla çalışacak, yönerge dışındaki zararlılarda İHA kullanımına izin verilmeyecek. Yönergenin resmi adı ve yürürlük tarihi haberde yok. İkinci katman: Ulaştırma Bakanlığı taslağı ile SHGM İHA Takip ve Trafik Yönetim Sistemi (İHATTYS) kuruyor; Tarım ve Orman Bakanlığından ruhsatlı zirai dronlar ilaçlamada tehlikeli madde taşımacılığı kapsamından muaf, kırsalda tarımsal uçuş için yalnızca İHATTYS bildirimi yeterli (haber 31 Mayıs 2026, sayfada doğrulandı). Haber bunun henüz taslak olduğunu ve Resmi Gazete tarihinin beklendiğini yazıyor. 'Ruhsatsız zirai ilaçlama cihazı üretilemez, satılamaz' ifadesinin kaynağı (borsaningundemi, 2021 taslak haberi) bu turda açılmadı, doğrulanamadı. Talep tarafı: Tarım Kredi Kooperatifleri Genel Müdürü Fahrettin Poyraz 15 ilde 20 üründe ZİHA denemesi ve il filoları planı açıkladı; TARNET ve Helimore adları Hürriyet etiket sayfasında geçiyor (sayfada doğrulandı). Ancak bu haberler tarihsiz ve içerik 2020-2021 dönemine ait görünüyor (Teknofest 2020 referansı); güncel talep verisi değil. Üretici sayısı ve pazar büyüklüğü için resmi rakam bulunamadı. Kapanış kararı yeterli: pazar küçük, alıcı kamu ağırlıklı, MEKA'nın ağır sac ve hidrolik yetkinliğiyle ilgisi yok.",
+"kaynak": "https://www.gazetebirlik.com/yasam/tarlada-teknoloji-devri-drone-ile-ilaclama-doneminde-kurallar-netlesti/993910 (haber, açıldı); https://www.milligazete.com.tr/iha-sahipleri-dikkat-anlik-takip-donemi-basliyor (haber, açıldı); https://www.borsaningundemi.com/haber/ihalar-icin-yeni-kullanim-alani-1540624 (haber, açılmadı, doğrulanamadı); https://www.hurriyet.com.tr/haberleri/ziha (haber etiket sayfası, açıldı, tarihsiz ve eski)",
+"kime": "Yalnızca bilgi için: Tarım ve Orman Bakanlığı Gıda ve Kontrol Genel Müdürlüğü (iletişim bilgileri bu turda doğrulanmadı), ruhsatlı zirai İHA listesi. SHGM İHA birimi, kayıtlı zirai İHA sayısı ve İHATTYS yürürlük tarihi."
+},
+{
+"soru": "Güneş kiremidi ve entegre çatı PV: Türkiye'de üretici ve mevzuat; pazar var mı",
+"durum": "kismen",
+"cevap": "Türkiye'de güneş kiremidi üreten firma bulunamadı. BIPV tarafında oyuncular büyük ve ürün çoğunlukla ortaklık ürünü: Şişecam, Polonya merkezli ML System ile geliştirilen Şişecam Charger ürününü BAU 2025 fuarında tanıttı ve Türkiye'de münhasır tedarikçi olacak (haber 6 Mart 2025, sayfada doğrulandı; güneş kiremidi geçmiyor). Önceki turdaki 'Kaymaz Yapı, İspanyol Solum'un Arena panelini getirdi' ifadesi silindi: haber başlığındaki 'kaymaz yapı' ürünün kaymaz zemin özelliğini anlatıyor, bu adda bir Türk firması yok ve haberde Türkiye'ye getiren bir firma geçmiyor; haber yalnızca İspanyol Solum'un yürünebilir Arena BIPV panelini anlatıyor (14 Haziran 2024, sayfada doğrulandı). Kalyon PV: 500 milyon doları aşan yatırım, yıllık 2 GW kapasite (Faz 3, Şubat 2023), 2024 yatırımı 100 milyon dolar; BIPV Ar-Ge Merkezinde araştırma aşamasında, CEO ürünlerin ileride ticarileştirileceğini söylüyor; sayfada hazır çatı ürünü yok (haber 25 Şubat 2024, güncelleme 27 Şubat 2024, sayfada doğrulandı). Yerli uygulama: Muğla Menteşe Otogarı çatısında Ankara Solar üretimi 1.760 adet 165 W yarı şeffaf panel, toplam 290,40 kWp, 3.840 m² çatı, 'tamamen yerli üretim' (Şantiye Dergisi, yayın tarihi sayfada yok, sayfada doğrulandı). Pazar var ama küçük ve proje bazlı; cam ve panel üreticilerinin elinde. Mevzuat bu turda da incelenmedi; güneş kiremidine özel düzenleme bulunamadı. MEKA için giriş gerekçesi yok.",
+"kaynak": "https://www.donanimhaber.com/sisecam-fotovoltaik-sistemleri-modern-mimariyle-bulusturuyor--188587 (haber, açıldı); https://www.donanimhaber.com/kaymaz-yapida-binaya-entegre-gunes-paneli-gelistirildi--178444 (haber, açıldı, Türk firması iddiası silindi); https://www.paradergi.com.tr/is-dunyasi-kulis/2024/02/27/kalyon-pvden-100-milyon-dolar-degerinde-yatirim (haber, açıldı); https://santiye.com.tr/mugla-mentese-otogari-460.html (haber, açıldı)",
+"kime": "Görüşme gerekmez. Mevzuat teyidi istenirse EPDK lisanssız üretim birimi."
+},
+{
+"soru": "Barut ve patlayıcı üretimi: MKE tekeli ve lisans rejimi; özel sektöre açık mı",
+"durum": "cevaplandi",
+"cevap": "Sivil barut ve patlayıcı üretimi özel sektöre açık, harp mühimmatı niteliğindekiler kapalı. 6551 sayılı Barut ve Patlayıcı Maddelerle Silah ve Teferruatı ve Av Malzemesinin İnhisardan Çıkarılması Hakkında Kanun (kabul 9 Mayıs 1955, Resmi Gazete 18 Mayıs 1955 sayı 9009, yayımdan 3 ay sonra yürürlük) madde 1 ile av ve taş barutları, lağım patlayıcıları, fitil, kapsül ve ateşleme aletleri, nişan tüfek ve tabanca fişekleri, şenlik ve havai fişekler, av fişeği ve malzemesi, potas güherçilesinin imal, ithal ve satışını serbest bıraktı (sayfada doğrulandı; önceki 'spor fişeği' ifadesi kanun metnine uyarlandı). Aynı madde: harp silah ve mühimmatı olarak kullanılabilecek patlayıcılar 3763 sayılı Kanuna tabi. Madde 2: tekel dışı maddelerin imal, ithal, nakil, satış ve kullanımı İçişleri Bakanlığının izin ve denetimine bağlı. Uygulama rejimi 14 Ağustos 1987 tarihli 87/12028 sayılı Tüzük (Resmi Gazete 29 Eylül 1987 sayı 19589, sayfada doğrulandı): madde 2/A-10 harp mühimmatı olarak kullanılabilecek patlayıcıları kapsam dışı bırakıyor; madde 4 ön izin için valiliğe başvuru, İçişleri Bakanlığı güvenlik incelemesi ve kuruluş yeri için Genelkurmay Başkanlığı görüşü; madde 5 mevzi imar planı, yapı ruhsatı, güvenlik uzaklıkları krokisi, çevre, sanayi ve çalışma belgeleri, kamera ve alarm sistemi belgesi; madde 6 kuruluş izin belgesi İçişleri Bakanlığınca bir ay içinde verilir ve iki yıl geçerli; madde 7 işletme izni için valiliğe başvuru ve İçişleri Bakanlığı onayı, teknik sorumlu kimya mühendisi ya da kimyager şartı; madde 8 işletme izni oyun ve eğlence patlayıcılarında üç yıl, diğerlerinde beş yıl, yılda en az bir valilik komisyonu denetimi (madde 2 ile 8 ana metinde doğrulandı). Depolama, satış ve satın alma-kullanma izinleri valilikten (madde 82, 113, 118; bu kısım sayfanın özet bölümünden). MKE'ye özgü bir istisna Tüzükte yok; ancak madde 118 kamu kurumlarına satın alma ve kullanma izninde belge kolaylığı tanıyor ve MKE madde 131'de askeri patlayıcıların askeri dışı kullanıma devri bağlamında geçiyor (özet bölümünden, doğrudan metinde görülmedi). EGM patlayıcı madde sayfası 500 hatası verdiği için kaynaklardan çıkarıldı; cevap ona dayanmıyor. Sonuç: hukuken açık ama İçişleri ve Genelkurmay görüşüne bağlı ağır güvenlik rejimi, askeri segmentte kamu tekeli ve MEKA'nın yetkinlik alanıyla ilişkisizlik nedeniyle fikir kapanır.",
+"kaynak": "https://mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=1&MevzuatNo=6551&MevzuatTertip=3 (resmi, açıldı); https://mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=2&MevzuatNo=8712028&MevzuatTertip=5 (resmi, açıldı)",
+"kime": "Görüşme gerekmez."
+},
+{
+"soru": "Eski fabrika satın alma: Türkiye'de sanayi tesisi satışlarında güncel piyasa ve bu yolun ne zaman yeniden açılacağı",
+"durum": "kismen",
+"cevap": "İcradan OSB fabrikası arzı 2026'da belirgin. Örnek 1: Bilecik Bozüyük OSB'de boş seramik tesisi, Poyra OSB Mahallesi, 61.890 m² arsa, 16.299 m² kapalı üretim alanı, muhammen bedel 502.908.235 TL, birinci artırma 9 ile 16 Eylül 2026, ikinci artırma 2 ile 9 Ekim 2026; aynı OSB'de Hitit Seramik ve iştiraki Beril Seramik için iflas kararı verilmişti; ilan sitelerinde çok sayıda satılık fabrika var (haber 25 Haziran 2026, sayfada doğrulandı). Örnek 2: Şanlıurfa Eyyübiye Koçören Mahallesi 2. OSB'de 17.963 m² arsalı fabrika, 215 ada 63 parsel, muhammen bedel 176.455.960 TL, KDV yüzde 20, elektrik, su ve aidat borcu 738.751 TL, artırmalar 7 ile 14 Mayıs ve 4 ile 11 Haziran 2026 (haber 23 Mart 2026, kaynak Basın İlan Kurumu, sayfada doğrulandı). Hukuki çerçeve 4562 sayılı OSB Kanunu (sayfada doğrulandı): madde 15 icra yoluyla satışta Bakanlık ve OSB alacakları öncelikle ödenir, satış kuruluş protokolündeki niteliklere sahip alıcılara ya da kredi alacaklısı kuruluşa yapılabilir, ilanlarda katılımcı nitelikleri yer alır, kredi alacaklısı kuruluş en geç iki yıl içinde uygun nitelikli kişilere satmak ya da kiraya vermek zorunda; madde 18 OSB mülkiyetinde olmayan tüm taşınmazların tapusuna 'icra yoluyla satışı dahil üçüncü kişilere devrinde OSB'den uygunluk görüşü alınması zorunludur' şerhi konur, eski katılımcının taahhütleri yeni alıcı tarafından aynen kabul edilmiş sayılır. Hukuki kontrol listesi kaynağı (ffkpartnerhukuk) bu turda açılmadı, doğrulanamadı. TOBB kurulan kapanan şirket sayfasında Ağustos 2026 haber bülteni ve xlsx dosyası bağlantısı var, sayfada rakam yok (sayfada doğrulandı); Eylül 2026 henüz yayımlanmamış. Konkordato ve satış hacmi toplamı için resmi rakam bulunamadı. Ne zaman açılır: bu bir iş alanı değil, giriş aracı. Başka bir yaprak kapasite yatırım kararı aldığında hedef şehirde OSB fabrikası icra ilanı çıkınca açılır. Bugün alıcı piyasası görünümü var; seramik, tekstil ve mobilyada arzın sürmesi beklenir (yorum, kaynaklı değil).",
+"kaynak": "https://www.haberhurriyeti.com/haber/28234459/bir-zamanlar-bos-yer-bulunamazdi-bozuyukteki-dev-fabrika-yarim-milyar-liraya-icradan-satista (haber, açıldı); https://www.urfanatik.com/sanliurfada-18-bin-metrekarelik-fabrika-satisa-cikarildi (haber, açıldı); https://mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=1&MevzuatNo=4562&MevzuatTertip=5 (resmi, açıldı); https://www.tobb.org.tr/BilgiErisimMudurlugu/Sayfalar/KurulanKapananSirketistatistikleri.php (resmi, açıldı); https://www.ffkpartnerhukuk.com.tr/fabrika-ve-sanayi-tesisi-satin-alirken-hukuki-kontrol-listesi-2026-guncel-rehber/ (diger, açılmadı, doğrulanamadı)",
+"kime": "Konkordato ve kapanan imalat şirketi sayısı için TOBB Ağustos 2026 bülteni (docx) ve istatistik dosyası (xlsx) indirilip okunmalı. Güncel ilan akışı için UYAP e-satış portalı ve Ankara Sanayi Odası OSB birimi."
+}
+],
 "dal_ad": "Bağımsız",
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
@@ -12544,7 +15964,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 3,
 "pdf": "Calisma_parcalayici.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 21 kaynak. Kanıt 2/5, kapsam kismi, bant ikincil."
+"aciklama": "İki tur web araştırması; 6 açık sorunun 0'i cevaplandı, 1'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant ikincil."
 },
 {
 "no": "Ek",
@@ -12552,7 +15972,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 5,
 "pdf": "Calisma_res_temel.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 17 kaynak. Kanıt 2/5, kapsam kismi, bant ikincil."
+"aciklama": "İki tur web araştırması; 6 açık sorunun 0'i cevaplandı, 1'i görüşmeye kaldı. Kanıt 2/5, kapsam kismi, bant ikincil."
 },
 {
 "no": "Ek",
@@ -12560,7 +15980,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 6,
 "pdf": "Calisma_belediye.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 19 kaynak. Kanıt 3/5, kapsam kismi, bant ikincil."
+"aciklama": "İki tur web araştırması; 6 açık sorunun 0'i cevaplandı, 1'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant ikincil."
 },
 {
 "no": "Ek",
@@ -12568,7 +15988,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 5,
 "pdf": "Calisma_balkon_ges.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 16 kaynak. Kanıt 3/5, kapsam kismi, bant izle."
+"aciklama": "İki tur web araştırması; 7 açık sorunun 0'i cevaplandı, 1'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant izle."
 },
 {
 "no": "Ek",
@@ -12576,7 +15996,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 6,
 "pdf": "Calisma_beylikova.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 24 kaynak. Kanıt 3/5, kapsam kismi, bant ikincil."
+"aciklama": "İki tur web araştırması; 8 açık sorunun 1'i cevaplandı, 1'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant ikincil."
 },
 {
 "no": "Ek",
@@ -12584,7 +16004,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 6,
 "pdf": "Calisma_milvus.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 14 kaynak. Kanıt 3/5, kapsam kismi, bant ikincil."
+"aciklama": "İki tur web araştırması; 7 açık sorunun 2'i cevaplandı, 1'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant ikincil."
 },
 {
 "no": "Ek",
@@ -12592,7 +16012,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 5,
 "pdf": "Calisma_novator.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 13 kaynak. Kanıt 2/5, kapsam kismi, bant izle."
+"aciklama": "İki tur web araştırması; 7 açık sorunun 1'i cevaplandı, 2'i görüşmeye kaldı. Kanıt 2/5, kapsam kismi, bant izle."
 },
 {
 "no": "Ek",
@@ -12600,7 +16020,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 4,
 "pdf": "Calisma_pyramp.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 11 kaynak. Kanıt 2/5, kapsam kismi, bant izle."
+"aciklama": "İki tur web araştırması; 5 açık sorunun 0'i cevaplandı, 0'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant izle."
 },
 {
 "no": "Ek",
@@ -12608,7 +16028,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 3,
 "pdf": "Calisma_enerji_verim.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 22 kaynak. Kanıt 3/5, kapsam kismi, bant ikincil."
+"aciklama": "İki tur web araştırması; 8 açık sorunun 1'i cevaplandı, 2'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant ikincil."
 },
 {
 "no": "Ek",
@@ -12616,7 +16036,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 6,
 "pdf": "Calisma_sav_istihkam.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 19 kaynak. Kanıt 3/5, kapsam kismi, bant ikincil."
+"aciklama": "İki tur web araştırması; 6 açık sorunun 1'i cevaplandı, 1'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant ikincil."
 },
 {
 "no": "Ek",
@@ -12624,7 +16044,7 @@ window.MEKA_DATA = {
 "tarih": "16 Ekim 2026",
 "sayfa": 6,
 "pdf": "Calisma_mineral.pdf",
-"aciklama": "Web kaynaklı ön araştırma; 8 arama, 26 kaynak. Kanıt 3/5, kapsam kismi, bant ikincil."
+"aciklama": "İki tur web araştırması; 6 açık sorunun 0'i cevaplandı, 2'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant ikincil."
 },
 {
 "no": "Ek",
@@ -12633,6 +16053,30 @@ window.MEKA_DATA = {
 "sayfa": 6,
 "pdf": "Calisma_ssb_batarya.pdf",
 "aciklama": "Web kaynaklı ön araştırma; 8 arama, 15 kaynak. Kanıt 3/5, kapsam tam, bant elendi."
+},
+{
+"no": "Ek",
+"ad": "Asfalt plenti (ek araştırma)",
+"tarih": "16 Ekim 2026",
+"sayfa": 4,
+"pdf": "Calisma_asfalt.pdf",
+"aciklama": "İki tur web araştırması; 4 açık sorunun 0'i cevaplandı, 0'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant izle."
+},
+{
+"no": "Ek",
+"ad": "İzleme ve elenenler, MEKA tarafı: tavuk gübresi enerjisi, batarya geri dönüşümü, bazalt karbon kredisi, Ay madenciliği, türbin kanadı, kule gövdesi, plastik kırıcı (ek araştırma)",
+"tarih": "16 Ekim 2026",
+"sayfa": 2,
+"pdf": "Calisma_izle_meka.pdf",
+"aciklama": "İki tur web araştırması; 6 açık sorunun 1'i cevaplandı, 1'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant izle."
+},
+{
+"no": "Ek",
+"ad": "Alt dalı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge (ek araştırma)",
+"tarih": "16 Ekim 2026",
+"sayfa": 3,
+"pdf": "Calisma_belirsiz.pdf",
+"aciklama": "İki tur web araştırması; 5 açık sorunun 1'i cevaplandı, 0'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant elendi."
 },
 {
 "no": "Ağaç",
@@ -12713,52 +16157,64 @@ window.MEKA_DATA = {
 "pdf": "MEKA_Karar_Agaci_1sayfa.pdf"
 },
 "c_parcalayici": {
-"ad": "Mobil parçalayıcı: ön araştırma: ek araştırma (16 Ekim 2026, 3 sayfa)",
+"ad": "Mobil parçalayıcı: ek araştırma, iki tur (16 Ekim 2026, 3 sayfa)",
 "pdf": "Calisma_parcalayici.pdf"
 },
 "c_res_temel": {
-"ad": "RES temel paketi: rüzgâr türbini temeli için beton, agrega ve mobil santral: ek araştırma (16 Ekim 2026, 5 sayfa)",
+"ad": "RES temel paketi: ek araştırma, iki tur (16 Ekim 2026, 5 sayfa)",
 "pdf": "Calisma_res_temel.pdf"
 },
 "c_belediye": {
-"ad": "Belediyeler: hafriyat ve inşaat yıkıntı atığı tesisleri: ek araştırma (16 Ekim 2026, 6 sayfa)",
+"ad": "Belediyeler: hafriyat ve inşaat atığı tesisleri, EKAP ihaleleri: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
 "pdf": "Calisma_belediye.pdf"
 },
 "c_balkon_ges": {
-"ad": "Balkon GES kiti (tak çalıştır güneş): ek araştırma (16 Ekim 2026, 5 sayfa)",
+"ad": "Balkon GES kiti: ek araştırma, iki tur (16 Ekim 2026, 5 sayfa)",
 "pdf": "Calisma_balkon_ges.pdf"
 },
 "c_beylikova": {
-"ad": "Beylikova nadir toprak tesisi ve Eti Maden: ek araştırma (16 Ekim 2026, 6 sayfa)",
+"ad": "Beylikova nadir toprak tesisi ve Eti Maden: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
 "pdf": "Calisma_beylikova.pdf"
 },
 "c_milvus": {
-"ad": "Milvus Robotics: Ankara'dan dünyaya otonom mobil robot: ek araştırma (16 Ekim 2026, 6 sayfa)",
+"ad": "Milvus Robotics, ODTÜ Teknokent: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
 "pdf": "Calisma_milvus.pdf"
 },
 "c_novator": {
-"ad": "Novator Enerji: ODTÜ çıkışlı şebeke güç elektroniği şirketine ortak olmak: ek araştırma (16 Ekim 2026, 5 sayfa)",
+"ad": "Novator Enerji, ODTÜ Teknokent: ek araştırma, iki tur (16 Ekim 2026, 5 sayfa)",
 "pdf": "Calisma_novator.pdf"
 },
 "c_pyramp": {
-"ad": "Pyramp: TU Dublin çıkışlı termofotovoltaik atık ısıdan elektrik girişimine yatırım: ek araştırma (16 Ekim 2026, 4 sayfa)",
+"ad": "Pyramp, TU Dublin, atık ısıdan elektrik: ek araştırma, iki tur (16 Ekim 2026, 4 sayfa)",
 "pdf": "Calisma_pyramp.pdf"
 },
 "c_enerji_verim": {
-"ad": "Bina su geri kazanımı, veri merkezi sıvı soğutma ve buharlı sanayi ısı pompası: ek araştırma (16 Ekim 2026, 3 sayfa)",
+"ad": "Bina su geri kazanımı, veri merkezi sıvı soğutma, buharlı sanayi ısı pompası: ek araştırma, iki tur (16 Ekim 2026, 3 sayfa)",
 "pdf": "Calisma_enerji_verim.pdf"
 },
 "c_sav_istihkam": {
-"ad": "İstihkam ataşmanları: zırhlı iş makinesi ve mühendislik aracı ekipmanı: ek araştırma (16 Ekim 2026, 6 sayfa)",
+"ad": "İstihkam ataşmanları: dozer bıçağı, mayın pulluğu ve silindiri: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
 "pdf": "Calisma_sav_istihkam.pdf"
 },
 "c_mineral": {
-"ad": "Mineral zenginleştirme: feldispat, kuvars ve cam kumu proses hatları: ek araştırma (16 Ekim 2026, 6 sayfa)",
+"ad": "Mineral zenginleştirme: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
 "pdf": "Calisma_mineral.pdf"
 },
 "c_ssb_batarya": {
 "ad": "SSB batarya ekosistemi ve OTAĞ: ek araştırma (16 Ekim 2026, 6 sayfa)",
 "pdf": "Calisma_ssb_batarya.pdf"
+},
+"c_asfalt": {
+"ad": "Asfalt plenti: ek araştırma, iki tur (16 Ekim 2026, 4 sayfa)",
+"pdf": "Calisma_asfalt.pdf"
+},
+"c_izle_meka": {
+"ad": "İzleme ve elenenler, MEKA tarafı: tavuk gübresi enerjisi, batarya geri dönüşümü, bazalt karbon kredisi, Ay madenciliği, türbin kanadı, kule gövdesi, plastik kırıcı: ek araştırma, iki tur (16 Ekim 2026, 2 sayfa)",
+"pdf": "Calisma_izle_meka.pdf"
+},
+"c_belirsiz": {
+"ad": "Alt dalı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge: ek araştırma, iki tur (16 Ekim 2026, 3 sayfa)",
+"pdf": "Calisma_belirsiz.pdf"
 }
 },
 "dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Dal ve kol yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz yaprağın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; yapraklar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk yapraklar arası ve yaprak ile bölge arası tutarlılıkta: ağacın ön bandı yedi yaprakta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir yaprakta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B yapraklarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki yaprağın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",

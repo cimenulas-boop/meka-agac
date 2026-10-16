@@ -1,6 +1,20 @@
-# MEKA Karar Ağacı: yayına alma (GitHub Pages, Render ya da Azure)
+# MEKA Karar Ağacı: yayın ve güncelleme
 
-Uygulama tamamen statik: `index.html`, `data.js`, `pdf/` klasörü ve isteğe bağlı `durum.json`. Sunucu tarafı kod yok, veritabanı yok. Herhangi bir statik barındırma çalışır. Bilgisayarda `gh` kurulu ve GitHub oturumu olmadığı için yayını Claude yapamadı; aşağıdaki yollardan biri 10 dakika sürer.
+**Yayında:** https://cimenulas-boop.github.io/meka-agac/ (GitHub Pages, depo: https://github.com/cimenulas-boop/meka-agac, public, 16 Ekim 2026). Sayfa `noindex` etiketli; arama motorları listelemez ama linki bilen herkes açar.
+
+Uygulama tamamen statik: `index.html`, `data.js`, `pdf/` klasörü ve isteğe bağlı `durum.json`. Sunucu tarafı kod yok, veritabanı yok.
+
+## Günlük kullanım: işaretleri herkese göstermek
+
+1. Sitede **Düzenle** düğmesine bas, yaprağı aç, Durum kartında ilerleme, görevler ve saha kararını (bant, saha puanı, görüşme notu) gir, **Kaydet**. Bu adım yalnız o cihazda kalır.
+2. Sayfanın altındaki **Durumu dışa aktar** ile `durum.json` indir.
+3. GitHub deposunda **Add file > Upload files**, `durum.json` dosyasını köke (index.html'in yanına) bırak, **Commit changes**. Aynı adla yüklemek eskisinin üzerine yazar. 1-2 dakika sonra herkes aynı işaretleri görür.
+
+## İçerik güncellemesi
+
+`data.js` ya da `pdf/` klasöründeki dosyalar değişince aynı yoldan (Upload files, aynı klasöre) yükle; üzerine yazar. Claude yeni çalışma eklediğinde sana güncellenmiş dosyaları verir ya da Chrome üzerinden kendisi yükler.
+
+## Başka bir yere taşımak gerekirse
 
 ## En kısa yol: GitHub Pages, tarayıcıdan (kurulum gerekmez)
 

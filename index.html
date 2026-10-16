@@ -181,19 +181,23 @@ body.editing .edit { display: flex; }
   function regionTopics(rid) {
     var r = region(rid); var ids = (r && r.konu_ids) || []; return ids.map(topic).filter(Boolean);
   }
+  // Saha kararı: yönetici görüşme sonrası bandı ve saha puanını elle değiştirebilir; sıralama bunu kullanır
+  function saha(id) { return durum[id] || {}; }
+  function bantOf(t) { var s = saha(t.id); return s.saha_bant ? s.saha_bant : t.bant; }
   function sirala(list, rid) {
     var r = rid ? region(rid) : null; var order = {};
     if (r && r.siralama) r.siralama.forEach(function (x, i) { order[x.id] = i; });
     return list.slice().sort(function (a, b) {
       var ua = uyum(a).ok ? 0 : 1, ub = uyum(b).ok ? 0 : 1; if (ua !== ub) return ua - ub;
-      var ba = BANT_SIRA[a.bant], bb = BANT_SIRA[b.bant]; if (ba !== bb) return ba - bb;
+      var ba = BANT_SIRA[bantOf(a)], bb = BANT_SIRA[bantOf(b)]; if (ba !== bb) return ba - bb;
+      var pa = Number(saha(a.id).saha_puan || 0), pb = Number(saha(b.id).saha_puan || 0); if (pa !== pb) return pb - pa;
       var oa = order[a.id] == null ? 99 : order[a.id], ob = order[b.id] == null ? 99 : order[b.id]; if (oa !== ob) return oa - ob;
       return (b.kanit || 0) - (a.kanit || 0);
     });
   }
   function leafHtml(t) {
-    var u = uyum(t);
-    return '<a class="leaf' + (u.ok ? '' : ' off') + '" href="#/konu/' + t.id + '"><span class="sym ' + t.bant + '">' + BANT_SYM[t.bant] + '</span><span class="t">' + e(t.kisa || t.baslik) + '</span><span class="s">' + e(t.puan_kisa || '') + '</span></a>';
+    var u = uyum(t); var b = bantOf(t); var s = saha(t.id);
+    return '<a class="leaf' + (u.ok ? '' : ' off') + '" href="#/konu/' + t.id + '"><span class="sym ' + b + '">' + BANT_SYM[b] + '</span><span class="t">' + e(t.kisa || t.baslik) + (s.saha_bant || s.saha_puan ? ' <span class="tiny">· saha' + (s.saha_puan ? ' ' + e(s.saha_puan) + '/5' : '') + '</span>' : '') + '</span><span class="s">' + e(t.puan_kisa || '') + '</span></a>';
   }
   function pdfLink(tc) {
     var f = D.dosyalar[tc.dosya]; if (!f) return '';
@@ -203,7 +207,7 @@ body.editing .edit { display: flex; }
   function ilerleme(id) {
     var d = durum[id] || {}; var g = d.gorevler || []; var bitti = g.filter(function (x) { return x.bitti; }).length;
     var yuzde = d.ilerleme != null ? Number(d.ilerleme) : (g.length ? Math.round(100 * bitti / g.length) : 0);
-    return { yuzde: yuzde, toplam: g.length, bitti: bitti, durum: d.durum || 'başlanmadı', gorevler: g, not: d.not || '' };
+    return { yuzde: yuzde, toplam: g.length, bitti: bitti, durum: d.durum || 'başlanmadı', gorevler: g, not: d.not || '', saha_bant: d.saha_bant || '', saha_puan: d.saha_puan || '', saha_not: d.saha_not || '', saha_tarih: d.saha_tarih || '' };
   }
 
   // ---- kapı paneli ----
@@ -223,6 +227,7 @@ body.editing .edit { display: flex; }
     var h = '';
     h += '<div><div class="eyebrow">MEKA Global · yeni iş alanı araştırmaları</div><h1>' + e(D.baslik) + '</h1><p class="muted">' + e(D.alt_baslik) + '</p></div>';
     h += gatesHtml();
+    h += '<div class="card soft edit"><div class="eyebrow">Düzenleme modu nasıl işler</div><ul class="plain"><li>Bir yaprağı aç, en alttaki Durum kartında ilerleme, görevler ve saha kararını (bant, saha puanı, görüşme notu) gir, Kaydet.</li><li>Saha bandı çalışmanın bandının önüne geçer; saha puanı aynı banttaki yaprakları sıralar. Bölge sıralamaları ve "Ne yapmalıyız" anında değişir.</li><li>Herkes görsün istersen sayfanın altındaki "Durumu dışa aktar" ile durum.json indir, siteye (GitHub deposunun köküne) yükle. İşaretler o zaman bütün cihazlarda görünür.</li><li>Görüşme notlarını bana da gönderirsen özeti ve tam çalışmayı yeniden yazarım; o zaman veri dosyası güncellenir.</li></ul></div>';
     h += '<div class="tree">';
     h += '<div class="root"><div class="eyebrow" style="color:#F2B28B">Kök</div><h2>MEKA</h2><p class="muted" style="color:#ddd">' + e(D.kok_notu) + '</p></div>';
     D.agac.forEach(function (br) {
@@ -249,7 +254,8 @@ body.editing .edit { display: flex; }
     h += '<div class="card"><div class="eyebrow">Özet</div><p>' + e(r.ozet) + '</p></div>';
     h += '<div class="card"><div class="eyebrow">Sıralama</div><div class="rank">' + ts.map(function (t, i) {
       var u = uyum(t);
-      return '<a href="#/konu/' + t.id + '" class="' + (u.ok ? '' : 'off') + '"><span class="n">' + (i + 1) + '</span><span class="sym ' + t.bant + '">' + BANT_SYM[t.bant] + '</span><span><b>' + e(t.kisa || t.baslik) + '</b> <span class="tiny">' + e(t.puan_kisa || '') + ' · ' + BANT_AD[t.bant] + ' · kanıt ' + e(t.kanit) + '/5' + (u.ok ? '' : ' · seçime uymaz') + '</span><div class="why">' + e(why[t.id] || '') + '</div></span></a>';
+      var b = bantOf(t); var s = saha(t.id);
+      return '<a href="#/konu/' + t.id + '" class="' + (u.ok ? '' : 'off') + '"><span class="n">' + (i + 1) + '</span><span class="sym ' + b + '">' + BANT_SYM[b] + '</span><span><b>' + e(t.kisa || t.baslik) + '</b> <span class="tiny">' + e(t.puan_kisa || '') + ' · ' + BANT_AD[b] + (s.saha_bant ? ' (saha kararı)' : '') + ' · kanıt ' + e(t.kanit) + '/5' + (s.saha_puan ? ' · saha puanı ' + e(s.saha_puan) + '/5' : '') + (u.ok ? '' : ' · seçime uymaz') + '</span><div class="why">' + e(s.saha_not ? 'Saha: ' + s.saha_not : (why[t.id] || '')) + '</div></span></a>';
     }).join('') + '</div></div>';
     var ke = r.kapi_etkisi || {};
     var etk = [];
@@ -272,7 +278,7 @@ body.editing .edit { display: flex; }
     var u = uyum(t); var k = t.kapilar || {}; var il = ilerleme(id);
     var h = '<a class="back" href="#/bolge/' + t.kol_id + '">‹ ' + e(t.kol_ad) + '</a>';
     h += '<div><div class="eyebrow">' + e(t.dal_ad) + ' · ' + e(t.kol_ad) + '</div><h1>' + e(t.baslik) + '</h1>' +
-      '<div class="row" style="margin-top:8px"><span class="pill ' + (t.bant === 'one_cikan' ? 'acc' : '') + '"><span class="sym ' + t.bant + '">' + BANT_SYM[t.bant] + '</span>' + BANT_AD[t.bant] + '</span><span class="pill steel">' + e(t.puan_kisa || '') + '</span><span class="pill">kaynak tarihi ' + e(t.tarih) + '</span><span class="pill">kanıt ' + e(t.kanit) + '/5</span><span class="pill ' + (t.kapsam === 'tam' ? 'ok' : 'warn') + '">kapsam: ' + e(t.kapsam === 'tam' ? 'tam çalışma var' : (t.kapsam === 'kismi' ? 'kısmen çalışıldı' : 'çalışılmadı')) + '</span>' + (u.ok ? '' : '<span class="pill warn">seçime uymaz</span>') + '</div></div>';
+      '<div class="row" style="margin-top:8px"><span class="pill ' + (bantOf(t) === 'one_cikan' ? 'acc' : '') + '"><span class="sym ' + bantOf(t) + '">' + BANT_SYM[bantOf(t)] + '</span>' + BANT_AD[bantOf(t)] + (saha(t.id).saha_bant ? ' (saha kararı)' : '') + '</span><span class="pill steel">' + e(t.puan_kisa || '') + '</span><span class="pill">kaynak tarihi ' + e(t.tarih) + '</span><span class="pill">kanıt ' + e(t.kanit) + '/5</span><span class="pill ' + (t.kapsam === 'tam' ? 'ok' : 'warn') + '">kapsam: ' + e(t.kapsam === 'tam' ? 'tam çalışma var' : (t.kapsam === 'kismi' ? 'kısmen çalışıldı' : 'çalışılmadı')) + '</span>' + (u.ok ? '' : '<span class="pill warn">seçime uymaz</span>') + '</div></div>';
     if (t.kapsam !== 'tam' && t.kapsam_notu) h += '<div class="card soft"><p>' + e(t.kapsam_notu) + '</p></div>';
     if (t.puan_metni) h += '<div class="card"><div class="eyebrow">Puan ve sıra</div><p class="muted">' + e(t.puan_metni) + '</p></div>';
     h += '<div class="grid2">';
@@ -286,7 +292,15 @@ body.editing .edit { display: flex; }
       '<div class="edit"><label>Durum<select data-ed="durum"><option' + (il.durum === 'başlanmadı' ? ' selected' : '') + '>başlanmadı</option><option' + (il.durum === 'sürüyor' ? ' selected' : '') + '>sürüyor</option><option' + (il.durum === 'bekliyor' ? ' selected' : '') + '>bekliyor</option><option' + (il.durum === 'bitti' ? ' selected' : '') + '>bitti</option><option' + (il.durum === 'vazgeçildi' ? ' selected' : '') + '>vazgeçildi</option></select></label>' +
       '<label>İlerleme yüzdesi<input type="number" min="0" max="100" data-ed="ilerleme" value="' + il.yuzde + '"></label>' +
       '<label>Görevler (her satır bir görev; başına x koyarsan bitti sayılır)<textarea data-ed="gorevler" rows="4" style="font:inherit;font-size:15px;padding:6px 8px;border:1px solid var(--rule);border-radius:6px">' + e(il.gorevler.map(function (g) { return (g.bitti ? 'x ' : '') + g.ad; }).join('\n')) + '</textarea></label>' +
-      '<label>Not<input type="text" data-ed="not" value="' + e(il.not) + '"></label><div class="row"><button type="button" class="btn primary" data-act="kaydet" data-id="' + id + '">Kaydet</button></div></div></div>';
+      '<label>Not<input type="text" data-ed="not" value="' + e(il.not) + '"></label>' +
+      '<div class="eyebrow" style="margin-top:6px">Saha kararı (bayi, müşteri, kurum görüşmesinden sonra)</div>' +
+      '<label>Bant: çalışmanın bandını değiştir<select data-ed="saha_bant"><option value=""' + (il.saha_bant ? '' : ' selected') + '>değiştirme, çalışma bandı kalsın</option>' + ['one_cikan', 'ikincil', 'izle', 'elendi'].map(function (b) { return '<option value="' + b + '"' + (il.saha_bant === b ? ' selected' : '') + '>' + BANT_AD[b] + '</option>'; }).join('') + '</select></label>' +
+      '<label>Saha puanı, 1 ile 5 (aynı banttaki yaprakları bu puan sıralar)<input type="number" min="1" max="5" data-ed="saha_puan" value="' + e(il.saha_puan) + '"></label>' +
+      '<label>Saha notu: kimle konuşuldu, ne öğrenildi<textarea data-ed="saha_not" rows="3" style="font:inherit;font-size:15px;padding:6px 8px;border:1px solid var(--rule);border-radius:6px">' + e(il.saha_not) + '</textarea></label>' +
+      '<label>Görüşme tarihi<input type="text" data-ed="saha_tarih" placeholder="örnek: 20 Ekim 2026" value="' + e(il.saha_tarih) + '"></label>' +
+      '<div class="row"><button type="button" class="btn primary" data-act="kaydet" data-id="' + id + '">Kaydet</button><span class="tiny">Kaydet bu cihazda tutar. Herkes görsün istersen sayfanın altındaki "Durumu dışa aktar" ile durum.json indir ve siteye yükle.</span></div></div></div>';
+    if (il.saha_bant || il.saha_puan || il.saha_not) h += '<div class="card" style="border-left:4px solid var(--ok)"><div class="eyebrow">Saha bilgisi' + (il.saha_tarih ? ' · ' + e(il.saha_tarih) : '') + '</div>' +
+      '<div class="row">' + (il.saha_bant ? '<span class="pill ok">bant saha kararıyla: ' + BANT_AD[il.saha_bant] + ' (çalışma: ' + BANT_AD[t.bant] + ')</span>' : '') + (il.saha_puan ? '<span class="pill ok">saha puanı ' + e(il.saha_puan) + '/5</span>' : '') + '</div>' + (il.saha_not ? '<p>' + e(il.saha_not) + '</p>' : '') + '</div>';
     h += '<div class="grid2">';
     if (t.adimlar && t.adimlar.length) h += '<div class="card"><div class="eyebrow">İlk adımlar</div><div class="steps">' + t.adimlar.map(function (s, i) { return '<div class="step"><div class="n">' + (i + 1) + '</div><div>' + e(s.adim) + '<div class="meta">' + e(s.kim) + ' · ' + e(s.ne_zaman) + '</div></div></div>'; }).join('') + '</div></div>';
     h += '<div class="card"><div class="eyebrow">Kararlarla uyum</div><div class="match">' +
@@ -295,7 +309,14 @@ body.editing .edit { display: flex; }
       '<div class="m"><span>Yol: <b>' + e(YOL_AD[k.yol] || '') + '</b></span><span class="pill ' + (u.yol ? 'ok' : 'warn') + '">' + (u.yol ? 'uyar' : 'uymaz') + '</span></div></div>' +
       '<p class="tiny">' + e(k.butce_not || '') + ' ' + e(k.yol_not || '') + '</p></div>';
     h += '</div>';
-    if (t.acik_sorular && t.acik_sorular.length) h += '<div class="card"><div class="eyebrow">Açık sorular</div><ul class="plain">' + t.acik_sorular.map(function (q) { return '<li>' + e(q) + '</li>'; }).join('') + '</ul></div>';
+    if (t.cevaplar && t.cevaplar.length) {
+      var CD = { cevaplandi: ['ok', 'cevaplandı'], kismen: ['warn', 'kısmen'], gorusme: ['steel', 'görüşme gerekir'], kapandi: ['', 'kapandı'] };
+      h += '<div class="card"><div class="eyebrow">Açık soruların cevapları (ikinci tur, ' + e(D.derleme_tarihi) + ')</div><div class="steps">' + t.cevaplar.map(function (c, i) {
+        var cd = CD[c.durum] || ['', c.durum];
+        return '<div class="step"><div class="n">' + (i + 1) + '</div><div><b>' + e(c.soru) + '</b> <span class="pill ' + cd[0] + '" style="font-size:12.5px">' + cd[1] + '</span><div style="margin-top:3px">' + e(c.cevap) + '</div>' + (c.kime && c.durum === 'gorusme' ? '<div class="meta">Kime: ' + e(c.kime) + '</div>' : '') + (c.kaynak ? '<div class="meta">' + e(c.kaynak) + '</div>' : '') + '</div></div>';
+      }).join('') + '</div></div>';
+    }
+    if (t.acik_sorular && t.acik_sorular.length) h += '<div class="card"><div class="eyebrow">' + (t.cevaplar && t.cevaplar.length ? 'Kalan sorular (görüşme gerektirir)' : 'Açık sorular') + '</div><ul class="plain">' + t.acik_sorular.map(function (q) { return '<li>' + e(q) + '</li>'; }).join('') + '</ul></div>';
     if (t.riskler && t.riskler.length) h += '<div class="card"><div class="eyebrow">Riskler</div><ul class="plain">' + t.riskler.map(function (q) { return '<li>' + e(q) + '</li>'; }).join('') + '</ul></div>';
     if (t.takvim && t.takvim.length) h += '<div class="card"><div class="eyebrow">Bu konunun takvimi</div>' + tlHtml(t.takvim.map(function (x) { return { tarih: x.tarih, iso: x.iso, olay: x.olay, kaynak: x.kaynak }; })) + '</div>';
     if (t.celiskiler && t.celiskiler.length) h += '<div class="card soft"><div class="eyebrow">Çalışmalar arası çelişki</div><ul class="plain">' + t.celiskiler.map(function (q) { return '<li>' + e(q) + '</li>'; }).join('') + '</ul></div>';
@@ -378,7 +399,10 @@ body.editing .edit { display: flex; }
       var id = b.dataset.id; var box = b.closest('.card'); var d = durum[id] || {};
       d.durum = box.querySelector('[data-ed=durum]').value; d.ilerleme = Number(box.querySelector('[data-ed=ilerleme]').value);
       d.gorevler = box.querySelector('[data-ed=gorevler]').value.split('\n').map(function (l) { return l.trim(); }).filter(Boolean).map(function (l) { var done = /^x\s+/i.test(l); return { ad: l.replace(/^x\s+/i, ''), bitti: done }; });
-      d.not = box.querySelector('[data-ed=not]').value; durum[id] = d; saveDurum(); render(); return;
+      d.not = box.querySelector('[data-ed=not]').value;
+      d.saha_bant = box.querySelector('[data-ed=saha_bant]').value; d.saha_puan = box.querySelector('[data-ed=saha_puan]').value;
+      d.saha_not = box.querySelector('[data-ed=saha_not]').value; d.saha_tarih = box.querySelector('[data-ed=saha_tarih]').value;
+      durum[id] = d; saveDurum(); render(); return;
     }
   });
   window.addEventListener('hashchange', render);
