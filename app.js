@@ -52,7 +52,9 @@
   function saveSel() { lsSet('meka_sel', sel); }
   function uyum(t) {
     var k = t.kapilar || {}; var r = { yatirim: true, butce: true, yol: true };
-    if (sel.yatirim !== 'hepsi') r.yatirim = (k.yatirim === sel.yatirim || k.yatirim === 'ikisi');
+    // Karar 1 dal seçer: kişisel yatırımda yalnız Bağımsız dal sayılır; şirkette MEKA dalı tamamen, Bağımsız daldan şirketin girebileceği yapraklar
+    if (sel.yatirim === 'kisisel') r.yatirim = (t.dal === 'bagimsiz' && k.yatirim !== 'sirket');
+    if (sel.yatirim === 'sirket') r.yatirim = (k.yatirim === 'sirket' || k.yatirim === 'ikisi');
     if (sel.butce !== 'hepsi') r.butce = ((k.butce || 1) <= Number(sel.butce));
     if (sel.yol !== 'hepsi') r.yol = (k.yol === sel.yol || k.yol === 'ikisi');
     r.ok = r.yatirim && r.butce && r.yol; return r;
@@ -89,8 +91,11 @@
   function secimEtkisi() {
     var all = tumYapraklar(); var soluk = all.filter(function (t) { return !uyum(t).ok; }).length;
     var p = [];
-    if (sel.yatirim === 'kisisel') p.push('Kişisel yatırım: MEKA\'nın kendi üretmesi ya da kurması gereken yapraklar soluk; MEKA uyumu ölçütü puana katılmıyor. Kalanlar hisse, ortaklık, ruhsat ya da varlık alımıyla girilebilen işler.');
-    if (sel.yatirim === 'sirket') p.push('Şirket üzerinden: yalnız kişiye açık yapraklar soluk; MEKA uyumu ölçütü puanda.');
+    if (sel.yatirim === 'kisisel') {
+      var hisse = all.filter(function (t) { return t.dal === 'meka' && (t.kapilar || {}).yatirim === 'ikisi'; }).map(function (t) { return t.kisa || t.baslik; });
+      p.push('Kişisel yatırım: yalnız Bağımsız dal sayılıyor, MEKA ile ilgili dal kapalı; MEKA uyumu ölçütü puana katılmıyor.' + (hisse.length ? ' Not: MEKA dalında hisse ya da ortaklıkla kişi olarak da girilebilen ' + hisse.length + ' yaprak var (' + hisse.join(', ') + '); onları görmek için Karar yok seç.' : ''));
+    }
+    if (sel.yatirim === 'sirket') p.push('Şirket üzerinden: MEKA ile ilgili dal tamamen sayılıyor; Bağımsız daldan şirketin girebileceği yapraklar sayılıyor, yalnız kişiye açık olanlar soluk. MEKA uyumu ölçütü puanda.');
     if (sel.butce !== 'hepsi') p.push('Bütçe: giriş bileti ' + BUTCE_AD[sel.butce] + ' dilimini aşan yapraklar soluk.');
     if (sel.yol === 'kur') p.push('Kuralım: yalnız ortaklıkla girilebilen yapraklar soluk.');
     if (sel.yol === 'ortak') p.push('Ortak olalım: yalnız kendi kurmayı gerektiren yapraklar soluk.');
@@ -228,7 +233,7 @@
     h += '<div class="root"><div class="eyebrow" style="color:#F2B28B">Kök</div><h2>MEKA</h2><p class="muted" style="color:#ddd">' + e(D.kok_notu) + '</p></div>';
     D.agac.forEach(function (br) {
       var dp = dugumPuani(dalYapraklari(br));
-      h += '<div class="branch ' + br.id + '"><a class="head" href="#/bolge/' + br.id + '"><h2>' + e(br.ad) + '</h2><span class="tiny">dal puanı ' + dugumRozet(dalYapraklari(br)) + ' · ' + e(br.id === 'meka' && sel.yatirim === 'kisisel' ? 'kişisel yatırımda yalnız hisse, ortaklık ya da ruhsatla girilebilen yapraklar sayılıyor' : br.aciklama) + ' ›</span></a><div class="kols">';
+      h += '<div class="branch ' + br.id + '"><a class="head" href="#/bolge/' + br.id + '"><h2>' + e(br.ad) + '</h2><span class="tiny">dal puanı ' + dugumRozet(dalYapraklari(br)) + ' · ' + e(br.id === 'meka' && sel.yatirim === 'kisisel' ? 'kişisel yatırım seçildi: bu dal sayılmıyor' : br.aciklama) + ' ›</span></a><div class="kols">';
       br.kollar.forEach(function (k) {
         var ts = sirala(kolYapraklari(k));
         var kp = dugumPuani(ts);
