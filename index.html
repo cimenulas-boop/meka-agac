@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="tr">
+<html lang="tr" data-tema="synth">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -7,7 +7,8 @@
 <title>MEKA Karar Ağacı</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;600&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+
 <style>
 /* Yerleşim: telefon öncelikli tek sütun; üstte yapışkan çubuk, altında üç karar kapısı, sonra içerik. Masaüstünde içerik 980px ile sınırlı. */
 :root {
@@ -29,13 +30,17 @@ p { margin: 0; }
 button { font: inherit; cursor: pointer; }
 .wrap { max-width: 980px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 14px 48px; display: flex; flex-direction: column; gap: 16px; }
 #bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--ink); color: #fff; }
-#bar .in { max-width: 980px; margin: 0 auto; padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+#bar .in { max-width: 980px; flex-wrap: nowrap; margin: 0 auto; padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 #bar .brand { font-family: var(--disp); font-weight: 700; font-size: 22px; letter-spacing: 0.03em; color: #fff; text-decoration: none; }
 #bar .brand small { font-family: var(--body); font-weight: 400; font-size: 13px; opacity: 0.8; margin-left: 8px; }
 #bar nav { display: flex; gap: 4px; flex-wrap: wrap; }
 #bar nav a { color: #fff; text-decoration: none; font-size: 15px; padding: 6px 10px; border-radius: 6px; }
 #bar nav a.on, #bar nav a:hover { background: rgba(255,255,255,0.14); }
-#bar nav { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; gap: 2px; }
+#bar nav { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; gap: 2px; flex: 1 1 auto; min-width: 0; }
+#bar .in { flex-wrap: nowrap; gap: 8px; }
+#bar .sw-tema-btn { flex: none; }
+#bar .brand { white-space: nowrap; flex: none; }
+@media (max-width: 640px) { #bar .brand small, #bar .brand .brand-long { display: none; } #bar .brand { font-size: 20px; } }
 #bar nav a { white-space: nowrap; padding: 6px 6px; font-size: 14px; }
 .eyebrow { font-family: var(--disp); font-weight: 600; font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--acc); }
 .card { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
@@ -171,10 +176,13 @@ a.docbtn { display: inline-flex; align-items: center; text-decoration: none; pad
 a.docbtn.main { background: var(--acc); border-color: var(--acc); color: #fff; }
 .docrow { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; padding: 6px 0; border-top: 1px solid var(--rule); flex: 1 1 100%; }
 </style>
+<link rel="stylesheet" href="synthwave.css?v=r7">
+<link rel="stylesheet" href="synth-uyum.css?v=r7">
+<script src="synthwave.js?v=r7"></script>
 </head>
 <body>
 <div id="bar"><div class="in">
-  <a class="brand" href="#/">MEKA · Karar ağacı<small id="brandDate"></small></a>
+  <a class="brand" href="#/">MEKA<span class="brand-long"> · Karar ağacı</span><small id="brandDate"></small></a>
   <nav>
     <a href="#/" data-nav="/">Ağaç</a>
     <a href="#/siralama" data-nav="/siralama">Sıralama</a>
@@ -182,9 +190,10 @@ a.docbtn.main { background: var(--acc); border-color: var(--acc); color: #fff; }
     <a href="#/calismalar" data-nav="/calismalar">Çalışmalar</a>
     <a href="#/ne-yapmali" data-nav="/ne-yapmali">Yapılacak</a>
   </nav>
+  <button id="temaBtn" class="sw-tema-btn sw-plain" type="button" aria-label="Tema değiştir"></button>
 </div></div>
 <main class="wrap" id="app"></main>
-<script src="data.js?v=r6"></script>
-<script src="app.js?v=r6"></script>
+<script src="data.js?v=r7"></script>
+<script src="app.js?v=r7"></script>
 </body>
 </html>

@@ -1,0 +1,122 @@
+/* =====================================================================
+   SYNTHWAVE GALAKSİ — taşınabilir tema (MEKA, 16 Eki 2026)
+   Kullanım: <html data-tema="synth"> + bu dosya. Ayrıntı: OKU.md
+   - Tüm kurallar html[data-tema="synth"] altında: tema kapalıyken projenin kendi görünümü aynen kalır.
+   - Düz HTML öğeleri (body, h1-h4, a, button, input, select, textarea, table) kendiliğinden boyanır.
+   - Ek olarak hazır sınıflar: .sw-card .sw-btn .sw-btn-ghost .sw-grad-text .sw-tabs/.sw-tab
+     .sw-bar .sw-chip .sw-stat .sw-hero .sw-toast  (tema açıkken çalışır)
+   ===================================================================== */
+html[data-tema="synth"]{
+  color-scheme:dark;
+  /* renkler */
+  --sw-bg:#12021f; --sw-card:rgba(38,6,50,.62); --sw-solid:#1d0530; --sw-glass:rgba(255,255,255,.05);
+  --sw-line:rgba(255,110,170,.2); --sw-ink:#fbe9f5; --sw-muted:#d9a8c8; --sw-soft:#ffc2e0;
+  --sw-pink:#ff2e88; --sw-orange:#ff6b3d; --sw-yellow:#ffd23f; --sw-violet:#7c3aed;
+  --sw-ok:#34d399; --sw-warn:#ffb13d; --sw-danger:#ff4d6d;
+  /* geçişler ve ışık */
+  --sw-grad:linear-gradient(90deg,#ff2e88,#ff6b3d,#ffd23f,#ff2e88);
+  --sw-grad-v:linear-gradient(180deg,#ffd23f,#ff6b3d 45%,#ff2e88);
+  --sw-grad-btn:linear-gradient(90deg,#ff2e88,#ff6b3d);
+  --sw-glow:rgba(255,62,130,.5);
+  /* yazı tipleri (Orbitron yüklenemezse Segoe UI) */
+  --sw-font:"Segoe UI",Roboto,Arial,sans-serif;
+  --sw-hfont:Orbitron,"Segoe UI",sans-serif;
+  --sw-radius:14px;
+}
+
+/* ---------- sahne: yıldızlar + bulutsu + hareketli neon ızgara zemin ---------- */
+html[data-tema="synth"] body{background:var(--sw-bg);color:var(--sw-ink);font-family:var(--sw-font)}
+html[data-tema="synth"] body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
+  background:
+    radial-gradient(1.4px 1.4px at 30px 40px,#fff,transparent),radial-gradient(1px 1px at 120px 150px,#fff,transparent),
+    radial-gradient(1.2px 1.2px at 210px 70px,#fff,transparent),radial-gradient(1px 1px at 300px 190px,#ffd9ef,transparent),
+    radial-gradient(1.5px 1.5px at 380px 30px,#fff,transparent),
+    radial-gradient(45% 32% at 50% 100%,rgba(255,107,61,.42),transparent 70%),
+    radial-gradient(38% 34% at 12% 12%,rgba(255,46,136,.32),transparent 70%),
+    radial-gradient(34% 30% at 90% 22%,rgba(124,58,237,.34),transparent 70%);
+  background-size:420px 220px,420px 220px,420px 220px,420px 220px,420px 220px,auto,auto,auto;
+  animation:sw-twinkle 6s ease-in-out infinite alternate}
+html[data-tema="synth"] body::after{content:"";position:fixed;left:-25%;right:-25%;bottom:0;height:34vh;z-index:-1;pointer-events:none;opacity:.32;
+  background-image:linear-gradient(rgba(255,46,180,.75) 1px,transparent 1px),linear-gradient(90deg,rgba(255,46,180,.75) 1px,transparent 1px);
+  background-size:48px 30px;transform:perspective(300px) rotateX(60deg);transform-origin:bottom;animation:sw-floor 3s linear infinite;
+  -webkit-mask-image:linear-gradient(transparent,#000 65%);mask-image:linear-gradient(transparent,#000 65%)}
+/* ızgarayı istemeyen sayfa: <html data-tema="synth" data-sw-izgara="yok"> */
+html[data-tema="synth"][data-sw-izgara="yok"] body::after{display:none}
+@keyframes sw-floor{to{background-position:0 30px}}
+@keyframes sw-twinkle{from{opacity:.55}to{opacity:1}}
+@keyframes sw-shift{0%{background-position:0% 50%}100%{background-position:200% 50%}}
+@media(prefers-reduced-motion:reduce){html[data-tema="synth"] *,html[data-tema="synth"] body::before,html[data-tema="synth"] body::after{animation:none!important}}
+
+/* ---------- düz öğeler ---------- */
+html[data-tema="synth"] :is(h1,h2,h3,h4){color:var(--sw-ink);font-family:var(--sw-hfont);letter-spacing:.5px}
+html[data-tema="synth"] a{color:#ff8cc0}
+html[data-tema="synth"] a:hover{color:#fff}
+html[data-tema="synth"] hr{border:none;height:1px;background:linear-gradient(90deg,transparent,var(--sw-pink),var(--sw-orange),transparent)}
+html[data-tema="synth"] ::selection{background:rgba(255,46,136,.45);color:#fff}
+html[data-tema="synth"] *{scrollbar-color:var(--sw-pink) rgba(255,255,255,.05)}
+
+html[data-tema="synth"] :is(input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=color]),select,textarea){
+  background:rgba(255,255,255,.06);color:var(--sw-ink);border:1px solid var(--sw-line);border-radius:10px}
+html[data-tema="synth"] :is(input,select,textarea):focus{outline:none;border-color:var(--sw-pink);box-shadow:0 0 0 2px rgba(255,46,136,.28)}
+html[data-tema="synth"] :is(input,textarea)::placeholder{color:#a97c9a}
+html[data-tema="synth"] option{background:var(--sw-solid);color:var(--sw-ink)}
+html[data-tema="synth"] :is(input[type=checkbox],input[type=radio],input[type=range]){accent-color:var(--sw-pink)}
+
+html[data-tema="synth"] button:not(.sw-plain):not(.sw-tab):not(.sw-btn-ghost):not(.sw-tema-btn){background:var(--sw-grad-btn);color:#fff;border:1px solid transparent;border-radius:10px;
+  box-shadow:0 0 14px -2px var(--sw-glow);cursor:pointer}
+html[data-tema="synth"] button:not(.sw-plain):not(.sw-tab):not(.sw-btn-ghost):not(.sw-tema-btn):hover{filter:brightness(1.12)}
+html[data-tema="synth"] button:disabled{opacity:.5;cursor:default;filter:none}
+
+html[data-tema="synth"] table{border-collapse:collapse;color:var(--sw-ink)}
+html[data-tema="synth"] th{background:#2a0838;color:var(--sw-soft);text-align:left;font-size:11.5px;letter-spacing:.6px;text-transform:uppercase}
+html[data-tema="synth"] :is(th,td){border-bottom:1px solid rgba(255,110,170,.12);padding:8px 10px}
+html[data-tema="synth"] tbody tr:hover td{background:rgba(255,46,136,.08)}
+
+/* ---------- hazır sınıflar ---------- */
+html[data-tema="synth"] .sw-card{background:var(--sw-card);border:1px solid var(--sw-line);border-radius:var(--sw-radius);padding:16px;
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 10px 30px -18px var(--sw-glow)}
+html[data-tema="synth"] .sw-card.sw-hover:hover{border-color:var(--sw-pink);box-shadow:0 0 24px -6px var(--sw-glow)}
+html[data-tema="synth"] .sw-card h3{text-transform:uppercase;font-size:13px;letter-spacing:1.4px;color:var(--sw-soft);margin:0 0 12px}
+
+html[data-tema="synth"] .sw-hero{background:linear-gradient(120deg,#ff2e88,#ff6b3d,#ffb13d,#ff2e88);background-size:250% 250%;
+  animation:sw-shift 9s ease infinite;color:#fff;border-radius:18px;padding:18px;box-shadow:0 0 34px -8px var(--sw-glow)}
+html[data-tema="synth"] .sw-hero :is(h1,h2,h3){color:#fff}
+
+html[data-tema="synth"] .sw-grad-text{background:var(--sw-grad);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sw-shift 6s linear infinite}
+
+html[data-tema="synth"] .sw-btn{display:inline-block;background:var(--sw-grad-btn);color:#fff;border:none;border-radius:12px;padding:9px 16px;font-weight:700;
+  text-decoration:none;cursor:pointer;box-shadow:0 0 18px -2px var(--sw-glow)}
+html[data-tema="synth"] .sw-btn:hover{filter:brightness(1.12);color:#fff}
+html[data-tema="synth"] .sw-btn-ghost{display:inline-block;background:var(--sw-glass);color:var(--sw-soft);border:1px solid var(--sw-line);border-radius:12px;padding:8px 15px;cursor:pointer;box-shadow:none}
+html[data-tema="synth"] .sw-btn-ghost:hover{background:rgba(255,46,136,.14);color:#fff}
+
+html[data-tema="synth"] .sw-tabs{display:flex;gap:6px;flex-wrap:wrap}
+html[data-tema="synth"] .sw-tab{padding:7px 13px;border-radius:10px;color:var(--sw-muted);background:transparent;border:none;box-shadow:none;cursor:pointer;font-weight:600}
+html[data-tema="synth"] .sw-tab:hover{background:rgba(255,46,136,.12);color:var(--sw-ink)}
+html[data-tema="synth"] .sw-tab.on{background:var(--sw-grad);background-size:200% 100%;color:#fff;box-shadow:0 0 18px var(--sw-glow);animation:sw-shift 5s linear infinite}
+
+/* çubuk: <div class="sw-bar"><i style="width:60%"></i></div> */
+html[data-tema="synth"] .sw-bar{height:8px;border-radius:6px;background:rgba(255,255,255,.08);overflow:hidden}
+html[data-tema="synth"] .sw-bar>i{display:block;height:100%;border-radius:6px;background:var(--sw-grad);background-size:200% 100%;
+  box-shadow:0 0 10px var(--sw-glow);animation:sw-shift 4s linear infinite}
+
+html[data-tema="synth"] .sw-chip{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12px;background:rgba(255,46,136,.16);color:var(--sw-soft);border:1px solid rgba(255,46,136,.35)}
+html[data-tema="synth"] .sw-chip.ok{background:rgba(52,211,153,.16);color:#6ee7b7;border-color:rgba(52,211,153,.35)}
+html[data-tema="synth"] .sw-chip.warn{background:rgba(255,177,61,.16);color:#ffcf7a;border-color:rgba(255,177,61,.35)}
+html[data-tema="synth"] .sw-chip.bad{background:rgba(255,77,109,.16);color:#ff8fa3;border-color:rgba(255,77,109,.35)}
+
+/* istatistik: <div class="sw-stat"><b>2794</b><span>toplam saat</span></div> */
+html[data-tema="synth"] .sw-stat b{display:block;font-family:var(--sw-hfont);font-size:24px;background:var(--sw-grad);background-size:200% 100%;
+  -webkit-background-clip:text;background-clip:text;color:transparent;animation:sw-shift 6s linear infinite}
+html[data-tema="synth"] .sw-stat span{font-size:12px;color:var(--sw-muted)}
+
+html[data-tema="synth"] .sw-toast{background:var(--sw-grad-btn);color:#fff;border-radius:10px;padding:9px 16px;box-shadow:0 0 24px -4px var(--sw-glow)}
+
+/* üst bar örneği: <header class="sw-topbar"> */
+html[data-tema="synth"] .sw-topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:14px;padding:10px 20px;
+  background:rgba(18,2,31,.72);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid transparent;
+  border-image:linear-gradient(90deg,transparent,#ff2e88,#ff6b3d,#ffd23f,transparent) 1;box-shadow:0 6px 30px -12px var(--sw-glow)}
+
+/* tema düğmesi (iki temada da görünür) */
+.sw-tema-btn{border:1px solid rgba(127,127,127,.35);background:transparent;color:inherit;border-radius:999px;padding:6px 11px;cursor:pointer;font-size:13px;box-shadow:none}
+html[data-tema="synth"] .sw-tema-btn{background:rgba(255,46,136,.14);border-color:rgba(255,46,136,.45);color:#fff;box-shadow:0 0 12px -4px var(--sw-glow);filter:none}

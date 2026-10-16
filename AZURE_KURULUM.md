@@ -2,7 +2,7 @@
 
 **Yayında:** https://cimenulas-boop.github.io/meka-agac/ (GitHub Pages, depo: https://github.com/cimenulas-boop/meka-agac, public, 16 Ekim 2026). Sayfa `noindex` etiketli; arama motorları listelemez ama linki bilen herkes açar.
 
-Uygulama tamamen statik: `index.html`, `app.js`, `data.js`, `pdf/` klasörü ve isteğe bağlı `durum.json`. Sunucu tarafı kod yok, veritabanı yok.
+Uygulama tamamen statik: `index.html`, `app.js`, `data.js`, tema dosyaları (`synthwave.css`, `synthwave.js`, `synth-uyum.css`), `pdf/` klasörü ve isteğe bağlı `durum.json`. Üst bardaki ☀️/🌌 düğmesi koyu Synthwave teması ile açık tema arasında geçiş yapar; seçim cihazda kalır. Sunucu tarafı kod yok, veritabanı yok.
 
 ## Günlük kullanım: notlar, işaretler ve saha puanı
 

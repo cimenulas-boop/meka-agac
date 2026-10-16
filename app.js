@@ -191,7 +191,7 @@
   // ---------------- kapı ve profil paneli ----------------
   function gatesHtml() {
     function seg(name, opts, cur, attr) {
-      return '<div class="seg">' + opts.map(function (o) { return '<button type="button" data-' + attr + '="' + name + '" data-val="' + o[0] + '" class="' + (String(cur) === String(o[0]) ? 'on' : '') + '">' + e(o[1]) + '</button>'; }).join('') + '</div>';
+      return '<div class="seg">' + opts.map(function (o) { return '<button type="button" data-' + attr + '="' + name + '" data-val="' + o[0] + '" class="sw-plain ' + (String(cur) === String(o[0]) ? 'on' : '') + '">' + e(o[1]) + '</button>'; }).join('') + '</div>';
     }
     var prof = (P.profiller || []).map(function (p) { return [p.id, p.ad]; });
     return '<div class="card"><div class="eyebrow">Yönetimin üç kararı</div><p class="muted">Seçim yapınca uymayan yapraklar soluklaşır; sıralama, yol önerisi ve yapılacaklar değişir. Seçim bu cihazda kalır.</p><div id="gates">' +
@@ -245,6 +245,7 @@
     });
     h += '</div>';
     h += '<div class="card"><div class="eyebrow">İşaretler ve puan</div><p class="muted">Her yaprak aynı sekiz ölçütle 0 ile 100 arasında puanlandı; bir çalışmanın 7 puanı başka çalışmanın 6 puanıyla artık aynı ölçekte kıyaslanır. <b class="sym one_cikan">★</b> ' + P.esikler.yildiz + ' ve üzeri · <b class="sym ikincil">○</b> ' + P.esikler.orta + ' ile ' + (P.esikler.yildiz - 1) + ' · <b class="sym izle">▽</b> ' + P.esikler.orta + ' altı ya da çalışma elemiş. <a href="#/siralama">Yöntem ve sıralama ›</a></p></div>';
+    h += okumaRehberi();
     h += '<div class="card"><div class="eyebrow">Görüş</div>' + D.gorus.map(function (g) { return '<p style="padding-left:10px;border-left:3px solid var(--acc)">' + e(g) + '</p>'; }).join('') + '</div>';
     h += '<div class="foot">' + e(D.dipnot) + '</div>';
     return h;
@@ -263,6 +264,11 @@
     return h + '</div>';
   }
 
+  function okumaRehberi() {
+    var all = tumYapraklar().filter(function (t) { return genelPuan(t) != null; }); var top = Math.max.apply(null, all.map(genelPuan));
+    return '<div class="card"><div class="eyebrow">Puan nasıl okunur</div><p class="muted">100 kuramsal tavan: her ölçütte 5. Bugün en yüksek yaprak ' + Math.round(top) + '. Puan düşük görünür, çünkü puanlayıcılar yalnız kanıtlanmış rakamla puan verdi ve çoğu yaprakta kanıt orta. Düşük puan iş yok demek değil, kanıt ve kapı yok demek.</p><div class="kv">' +
+      [['65+', 'Başla: teklif ver, pilot kur, müşteri temasını bu ay yap.'], [P.esikler.yildiz + ' ile 64', 'İlk adımları at: belge, numune, iki üç görüşme; üç ayda tekrar puanla.'], [P.esikler.orta + ' ile ' + (P.esikler.yildiz - 1), 'İzle ve bilgi topla: saha görüşmesiyle kanıt gelirse yükselir, para bağlama.'], [P.esikler.orta + ' altı', 'Şimdilik bırak; yalnız dış tetik (mevzuat, ihale, satılık varlık) çıkarsa aç.']].map(function (r) { return '<div class="r"><div class="k">' + r[0] + '</div><div>' + r[1] + '</div></div>'; }).join('') + '</div></div>';
+  }
   function siralamaHtml() {
     var rm = rankMap(); var all = sirala(tumYapraklar());
     var h = '<a class="back" href="#/">‹ Ağaca dön</a><div><div class="eyebrow">Genel sıralama</div><h1>' + Object.keys(rm).length + ' yaprak, tek ölçek</h1><p class="muted">Her yaprak aynı sekiz ölçütle ve aynı ağırlıklarla puanlandı. Çalışmaların kendi puanları (5 üzerinden, 10 üzerinden, sıra numarası) karşılaştırmada kullanılmadı. ' + e(secimMetni()) + ' · profil: ' + e(profil().ad) + '</p></div>';
@@ -272,6 +278,7 @@
       var b = bantOf(t);
       return '<a href="#/konu/' + t.id + '" class="' + (aktif(t) ? '' : 'off') + '"><span class="n">' + (i + 1) + '</span><span class="sym ' + b + '">' + BANT_SYM[b] + '</span><span><b>' + e(t.kisa || t.baslik) + '</b> <span class="tiny">' + e(t.dal_ad) + ' › ' + e(t.kol_ad) + ' · kanıt ' + e(t.kanit) + '/5' + (t.sepet ? ' · sepet: puanlanmadı' : '') + (aktif(t) ? '' : ' · seçime uymaz') + '</span><div class="why">' + e(gucluZayif(t)) + '</div></span>' + puanRozet(genelPuan(t)) + '</a>';
     }).join('') + '</div></div>';
+    h += okumaRehberi();
     h += '<div class="card"><div class="eyebrow">Puan nasıl hesaplanıyor</div><ul class="plain">' + (P.yontem || []).map(function (s) { return '<li>' + e(s) + '</li>'; }).join('') + '<li>Yönetim kararı 1 formülü değiştirir: kişisel yatırım seçilince MEKA uyumu ölçütü kapanır ve ağırlığı kalan ölçütlere dağılır. Böylece bağımsız dal MEKA tesisine uymadığı için puan kaybetmez.</li></ul>' +
       '<div class="kv" style="margin-top:8px">' + KR.map(function (k) {
         return '<div class="r"><div class="k">' + e(k.id) + ' · %' + agirlik(k.id) + '</div><div><b>' + e(k.ad) + '</b> <span class="tiny">' + (k.kaynak === 'sistem' ? 'sistemden: ' : 'puanlayıcılar: ') + '</span>' + e(k.aciklama) + '<div class="src">' + e(k.capa || '') + '</div></div></div>';
@@ -331,10 +338,10 @@
 
   function notlarHtml(t) {
     var d = dur(t.id);
-    var h = '<div class="card"><div class="eyebrow">Notlar</div><div class="notebox"><textarea id="not-' + t.id + '" rows="2" placeholder="Not yaz: kiminle konuşuldu, ne öğrenildi, ne yapılacak"></textarea><button type="button" class="btn primary" data-act="nota-ekle" data-id="' + t.id + '">Notu ekle</button></div>';
+    var h = '<div class="card"><div class="eyebrow">Notlar</div><div class="notebox"><textarea id="not-' + t.id + '" rows="2" placeholder="Not yaz: kiminle konuşuldu, ne öğrenildi, ne yapılacak"></textarea><button type="button" class="btn sw-plain primary" data-act="nota-ekle" data-id="' + t.id + '">Notu ekle</button></div>';
     if (d.notlar.length) {
       h += '<div class="notes">' + d.notlar.map(function (n) {
-        return '<div class="note"><div class="meta">' + e(tsFmt(n.t)) + ' · ' + (n.kaynak === 'ekip' ? 'ekip notu' : 'bu cihazda') + (n.kaynak === 'yerel' ? ' · <button type="button" class="lnk" data-act="nota-sil" data-id="' + t.id + '" data-i="' + n.i + '">sil</button>' : '') + '</div><div>' + e(n.m).replace(/\n/g, '<br>') + '</div></div>';
+        return '<div class="note"><div class="meta">' + e(tsFmt(n.t)) + ' · ' + (n.kaynak === 'ekip' ? 'ekip notu' : 'bu cihazda') + (n.kaynak === 'yerel' ? ' · <button type="button" class="lnk sw-plain" data-act="nota-sil" data-id="' + t.id + '" data-i="' + n.i + '">sil</button>' : '') + '</div><div>' + e(n.m).replace(/\n/g, '<br>') + '</div></div>';
       }).join('') + '</div>';
     } else h += '<p class="tiny">Henüz not yok. Notlar bu cihazda saklanır. Herkes görsün istersen sayfanın altından durumu dışa aktar ve siteye yükle.</p>';
     return h + '</div>';
@@ -368,7 +375,7 @@
     var h = '<a class="back" href="#/bolge/' + t.kol_id + '">‹ ' + e(t.kol_ad) + '</a>';
     h += '<div><div class="eyebrow">' + e(t.dal_ad) + ' · ' + e(t.kol_ad) + '</div><h1>' + e(t.baslik) + '</h1>' + butonlarHtml(t) +
       '<div class="row" style="margin-top:12px"><span class="pill ' + (b === 'one_cikan' ? 'acc' : '') + '"><span class="sym ' + b + '">' + BANT_SYM[b] + '</span>' + BANT_AD[b] + '</span><span class="pill steel">genel puan ' + (g == null ? '–' : Math.round(g)) + '</span><span class="pill">kaynak tarihi ' + e(t.tarih) + '</span><span class="pill">kanıt ' + e(t.kanit) + '/5</span>' +
-      '<span class="pill ' + (t.kapsam === 'tam' ? 'ok' : 'warn') + '">kapsam: ' + e(t.kapsam === 'tam' ? 'tam çalışma var' : (t.kapsam === 'kismi' ? 'kısmen çalışıldı' : 'çalışılmadı')) + '</span>' + (u.ok ? '' : '<span class="pill warn">seçime uymaz</span>') + '</div></div>';
+      '<span class="pill ' + (t.kapsam === 'tam' ? 'ok' : 'warn') + '">' + e(t.kapsam === 'tam' ? 'çalışma tam' : (t.kapsam === 'kismi' ? 'web araştırması tamam, saha teyidi bekliyor' : 'çalışılmadı')) + '</span>' + (u.ok ? '' : '<span class="pill warn">seçime uymaz</span>') + '</div></div>';
     h += puanKartiHtml(t);
     h += notlarHtml(t);
     if (t.kapsam !== 'tam' && t.kapsam_notu) h += '<div class="card soft"><p>' + e(t.kapsam_notu) + '</p></div>';
@@ -389,7 +396,7 @@
       '<label>Saha puanı, 1 ile 5 (3 nötr; 5 genel puana +10, 1 ise −10 ekler)<input type="number" min="1" max="5" data-ed="saha_puan" value="' + e(il.saha_puan) + '"></label>' +
       '<label>Saha notu: kimle konuşuldu, ne öğrenildi<textarea data-ed="saha_not" rows="3">' + e(il.saha_not) + '</textarea></label>' +
       '<label>Görüşme tarihi<input type="text" data-ed="saha_tarih" placeholder="örnek: 20 Ekim 2026" value="' + e(il.saha_tarih) + '"></label>' +
-      '<div class="row"><button type="button" class="btn primary" data-act="kaydet" data-id="' + id + '">Kaydet</button><span class="tiny">Kaydet bu cihazda tutar. Herkes görsün istersen sayfanın altından durumu dışa aktar.</span></div></div></div>';
+      '<div class="row"><button type="button" class="btn sw-plain primary" data-act="kaydet" data-id="' + id + '">Kaydet</button><span class="tiny">Kaydet bu cihazda tutar. Herkes görsün istersen sayfanın altından durumu dışa aktar.</span></div></div></div>';
     if (il.saha_puan || il.saha_not) h += '<div class="card" style="border-left:4px solid var(--ok)"><div class="eyebrow">Saha bilgisi' + (il.saha_tarih ? ' · ' + e(il.saha_tarih) : '') + '</div><div class="row">' + (il.saha_puan ? '<span class="pill ok">saha puanı ' + e(il.saha_puan) + '/5</span>' : '') + '</div>' + (il.saha_not ? '<p>' + e(il.saha_not) + '</p>' : '') + '</div>';
     h += '<div class="grid2">';
     if (t.adimlar && t.adimlar.length) h += '<div class="card"><div class="eyebrow">İlk adımlar</div><div class="steps">' + t.adimlar.map(function (s, i) { return '<div class="step"><div class="n">' + (i + 1) + '</div><div>' + e(s.adim) + '<div class="meta">' + e(s.kim) + ' · ' + e(s.ne_zaman) + '</div></div></div>'; }).join('') + '</div></div>';
@@ -491,7 +498,7 @@
       else if (hash.indexOf('/ne-yapmali') === 0) html = neYapmaliHtml();
       else html = homeHtml();
     } catch (err) { html = '<div class="card"><b>Sayfa çizilemedi.</b><p class="muted">' + e(err && err.message) + '</p></div>'; }
-    html += '<div class="row tiny" style="justify-content:space-between"><span>' + e(D.surum) + '</span><span><button type="button" class="btn" data-act="edit">' + (document.body.classList.contains('editing') ? 'Düzenlemeyi kapat' : 'Düzenle') + '</button> <button type="button" class="btn" data-act="export">Durumu dışa aktar</button> <label class="btn">Dosyadan yükle<input type="file" id="imp" accept="application/json,.json" hidden></label></span></div>';
+    html += '<div class="row tiny" style="justify-content:space-between"><span>' + e(D.surum) + '</span><span><button type="button" class="btn sw-plain" data-act="edit">' + (document.body.classList.contains('editing') ? 'Düzenlemeyi kapat' : 'Düzenle') + '</button> <button type="button" class="btn sw-plain" data-act="export">Durumu dışa aktar</button> <label class="btn sw-plain">Dosyadan yükle<input type="file" id="imp" accept="application/json,.json" hidden></label></span></div>';
     APP.innerHTML = html;
     document.querySelectorAll('#bar nav a').forEach(function (a) { var nv = a.getAttribute('data-nav'); a.classList.toggle('on', hash === nv || (nv !== '/' && hash.indexOf(nv) === 0)); });
     window.scrollTo(0, 0);

@@ -1,0 +1,75 @@
+/* Synthwave Galaksi temasının karar ağacı uygulamasına uyarlanması.
+   synthwave.css'ten SONRA yüklenir. Yalnız <html data-tema="synth"> iken etkilidir; açık tema uygulamanın kendi görünümüdür. */
+html[data-tema="synth"] {
+  --bg: var(--sw-bg); --card: var(--sw-card); --ink: var(--sw-ink); --sub: var(--sw-muted); --grey: #b58fa9;
+  --rule: var(--sw-line); --track: rgba(255,255,255,0.07);
+  --acc: var(--sw-pink); --acc-soft: rgba(255,46,136,0.18);
+  --steel: var(--sw-orange); --steel-soft: rgba(255,107,61,0.18);
+  --gold: var(--sw-yellow); --ok: #6ee7b7; --ok-soft: rgba(52,211,153,0.16);
+}
+html[data-tema="synth"] body { background: var(--sw-bg); font-family: var(--body); }
+/* başlıklar Türkçe karakter için kendi yazı tipinde kalır; sayılar Orbitron */
+html[data-tema="synth"] :is(h1, h2, h3, h4) { font-family: var(--disp); letter-spacing: 0; color: var(--sw-ink); }
+html[data-tema="synth"] h1 { background: var(--sw-grad); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: sw-shift 8s linear infinite; }
+html[data-tema="synth"] .scr, html[data-tema="synth"] .bigscore, html[data-tema="synth"] .rank .n, html[data-tema="synth"] .step .n, html[data-tema="synth"] .leaf .n { font-family: var(--sw-hfont); }
+html[data-tema="synth"] .bigscore { background: var(--sw-grad); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: sw-shift 6s linear infinite; }
+html[data-tema="synth"] .eyebrow { color: var(--sw-soft); letter-spacing: 0.14em; }
+/* üst bar */
+html[data-tema="synth"] #bar { background: rgba(18,2,31,0.72); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid transparent; border-image: linear-gradient(90deg, transparent, #ff2e88, #ff6b3d, #ffd23f, transparent) 1; box-shadow: 0 6px 30px -12px var(--sw-glow); }
+html[data-tema="synth"] #bar .brand { font-family: var(--sw-hfont); font-size: 17px; letter-spacing: 0.06em; background: var(--sw-grad); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: sw-shift 6s linear infinite; }
+html[data-tema="synth"] #bar .brand small { -webkit-text-fill-color: var(--sw-muted); color: var(--sw-muted); font-family: var(--body); }
+html[data-tema="synth"] #bar nav a { color: var(--sw-muted); font-weight: 600; }
+html[data-tema="synth"] #bar nav a.on { background: var(--sw-grad); background-size: 200% 100%; color: #fff; box-shadow: 0 0 18px var(--sw-glow); animation: sw-shift 5s linear infinite; }
+html[data-tema="synth"] #bar nav a:hover { background: rgba(255,46,136,0.14); color: #fff; }
+/* kartlar: buzlu cam */
+html[data-tema="synth"] .card, html[data-tema="synth"] .branch, html[data-tema="synth"] .pnode { background: var(--sw-card); border-color: var(--sw-line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); box-shadow: 0 10px 30px -18px var(--sw-glow); }
+html[data-tema="synth"] .card.soft { background: rgba(255,255,255,0.05); }
+html[data-tema="synth"] .kol { background: rgba(0,0,0,0.22); border-color: var(--sw-line); }
+html[data-tema="synth"] .root { background: linear-gradient(120deg, #ff2e88, #ff6b3d, #ffb13d, #ff2e88); background-size: 250% 250%; animation: sw-shift 9s ease infinite; box-shadow: 0 0 34px -8px var(--sw-glow); }
+html[data-tema="synth"] .root .eyebrow, html[data-tema="synth"] .root p { color: #fff !important; }
+html[data-tema="synth"] .branch > a.head h2, html[data-tema="synth"] .branch.bagimsiz > a.head h2 { color: var(--sw-ink); }
+html[data-tema="synth"] .branch { border-left-color: var(--sw-pink); }
+html[data-tema="synth"] .branch.bagimsiz { border-left-color: var(--sw-orange); }
+/* düğmeler: tema bütün düğmeleri boyar; uygulamanın kendi düğmeleri sw-plain ile korunur, burada dark halleri verilir */
+html[data-tema="synth"] .seg button { background: rgba(255,255,255,0.06); color: var(--sw-ink); border: 1px solid var(--sw-line); box-shadow: none; }
+html[data-tema="synth"] .seg button.on { background: var(--sw-grad-btn); color: #fff; border-color: transparent; box-shadow: 0 0 14px -2px var(--sw-glow); }
+html[data-tema="synth"] .btn { background: rgba(255,255,255,0.06); color: var(--sw-soft); border: 1px solid var(--sw-line); }
+html[data-tema="synth"] .btn.primary { background: var(--sw-grad-btn); color: #fff; border-color: transparent; box-shadow: 0 0 14px -2px var(--sw-glow); }
+html[data-tema="synth"] .lnk { background: none; border: 0; color: #ff8cc0; }
+/* rozetler ve işaretler */
+html[data-tema="synth"] .scr { color: #fff; box-shadow: 0 0 12px -2px var(--sw-glow); }
+html[data-tema="synth"] .scr.hi { background: var(--sw-grad-btn); }
+html[data-tema="synth"] .scr.mid { background: linear-gradient(90deg, #ff6b3d, #ffb13d); color: #2a0838; }
+html[data-tema="synth"] .scr.lo { background: rgba(255,255,255,0.14); color: var(--sw-ink); box-shadow: none; }
+html[data-tema="synth"] .pill { background: rgba(255,255,255,0.07); color: var(--sw-muted); border: 1px solid rgba(255,110,170,0.14); }
+html[data-tema="synth"] .pill.acc { background: rgba(255,46,136,0.18); color: #ffb3d4; border-color: rgba(255,46,136,0.4); }
+html[data-tema="synth"] .pill.steel { background: rgba(255,107,61,0.18); color: #ffc29f; border-color: rgba(255,107,61,0.4); }
+html[data-tema="synth"] .pill.ok { background: rgba(52,211,153,0.16); color: #6ee7b7; border-color: rgba(52,211,153,0.35); }
+html[data-tema="synth"] .pill.warn { background: rgba(255,177,61,0.16); color: #ffcf7a; border-color: rgba(255,177,61,0.35); }
+html[data-tema="synth"] .sym.one_cikan { color: var(--sw-pink); }
+html[data-tema="synth"] .sym.ikincil { color: var(--sw-soft); }
+html[data-tema="synth"] .sym.izle, html[data-tema="synth"] .sym.elendi { color: var(--grey); }
+html[data-tema="synth"] .leaf, html[data-tema="synth"] .rank a, html[data-tema="synth"] .kv .r, html[data-tema="synth"] .crit, html[data-tema="synth"] .firm, html[data-tema="synth"] .tl .e, html[data-tema="synth"] .match .m, html[data-tema="synth"] .docrow { border-color: rgba(255,110,170,0.14); }
+html[data-tema="synth"] .leaf:hover, html[data-tema="synth"] .rank a:hover { background: rgba(255,46,136,0.08); }
+html[data-tema="synth"] .kv .k { color: var(--sw-soft); }
+html[data-tema="synth"] .rank .n, html[data-tema="synth"] .step .n, html[data-tema="synth"] .leaf .n { color: var(--sw-yellow); }
+/* çubuklar */
+html[data-tema="synth"] .cbar, html[data-tema="synth"] .prog { background: rgba(255,255,255,0.08); }
+html[data-tema="synth"] .cbar i, html[data-tema="synth"] .prog i { background: var(--sw-grad); background-size: 200% 100%; box-shadow: 0 0 10px var(--sw-glow); animation: sw-shift 4s linear infinite; }
+/* tam çalışma düğmeleri */
+html[data-tema="synth"] a.fullbtn { background: var(--sw-grad-btn); border-color: transparent; color: #fff; box-shadow: 0 0 18px -2px var(--sw-glow); }
+html[data-tema="synth"] a.fullbtn.alt { background: rgba(255,255,255,0.06); color: var(--sw-soft); border: 1px solid var(--sw-line); box-shadow: none; }
+html[data-tema="synth"] a.docbtn { background: rgba(255,255,255,0.06); color: var(--sw-soft); border-color: var(--sw-line); }
+html[data-tema="synth"] a.docbtn.main { background: var(--sw-grad-btn); color: #fff; border-color: transparent; box-shadow: 0 0 14px -2px var(--sw-glow); }
+/* zaman çizelgesi ve notlar */
+html[data-tema="synth"] .tl .gecti .d, html[data-tema="synth"] .tl .gecti .t { color: var(--grey); }
+html[data-tema="synth"] .tl .yakin .d { color: var(--sw-yellow); } html[data-tema="synth"] .tl .yakin .dot { background: var(--sw-yellow); box-shadow: 0 0 10px var(--sw-yellow); }
+html[data-tema="synth"] .tl .ileri .d { color: var(--sw-soft); } html[data-tema="synth"] .tl .ileri .dot { background: var(--sw-orange); }
+html[data-tema="synth"] .tl .bugun .dot { background: var(--sw-pink); box-shadow: 0 0 12px var(--sw-glow); }
+html[data-tema="synth"] .note { border-left-color: var(--sw-orange); }
+html[data-tema="synth"] .notebox textarea, html[data-tema="synth"] .edit textarea, html[data-tema="synth"] .search { background: rgba(255,255,255,0.06); color: var(--sw-ink); border-color: var(--sw-line); }
+html[data-tema="synth"] .foot { border-color: var(--sw-line); color: var(--grey); }
+html[data-tema="synth"] .parrow { color: var(--sw-soft); }
+html[data-tema="synth"] .pnode small { color: var(--grey); }
+/* tema düğmesi */
+.sw-tema-btn { margin-left: 6px; }
