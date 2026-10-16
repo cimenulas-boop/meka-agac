@@ -19,7 +19,7 @@
   function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (x) {} }
   var yerel = lsGet('meka_durum', {});
   var uzak = {};
-  var PROFIL = lsGet('meka_profil', 'dengeli');
+  var PROFIL = lsGet('meka_profil', 'esit');
   var sel = lsGet('meka_sel', { yatirim: 'hepsi', butce: 'hepsi', yol: 'hepsi' });
   function saveYerel() { lsSet('meka_durum', yerel); }
   function yer(id) { if (!yerel[id]) yerel[id] = {}; return yerel[id]; }
@@ -99,7 +99,8 @@
     if (sel.butce !== 'hepsi') p.push('Bütçe: giriş bileti ' + BUTCE_AD[sel.butce] + ' dilimini aşan yapraklar soluk.');
     if (sel.yol === 'kur') p.push('Kuralım: yalnız ortaklıkla girilebilen yapraklar soluk.');
     if (sel.yol === 'ortak') p.push('Ortak olalım: yalnız kendi kurmayı gerektiren yapraklar soluk.');
-    if (!p.length) return '<p class="tiny">Henüz karar seçilmedi; bütün yapraklar sayılıyor ve profil ağırlıkları olduğu gibi.</p>';
+    p.push(PROFIL === 'esit' ? 'Puan profili seçilmedi: sekiz ölçüt eşit ağırlıkta.' : 'Puan profili: ' + profil().ad + ', ağırlıklar Sıralama sayfasında.');
+    if (p.length === 1 && sel.yatirim === 'hepsi' && sel.butce === 'hepsi' && sel.yol === 'hepsi') return '<p class="tiny">Henüz karar seçilmedi; bütün yapraklar sayılıyor. ' + p[0] + '</p>';
     return '<p class="muted" style="border-left:3px solid var(--acc);padding-left:10px"><b>Seçimin etkisi:</b> ' + p.join(' ') + ' Şu an ' + soluk + ' yaprak soluk, ' + (all.length - soluk) + ' yaprak sayılıyor.</p>';
   }
   function altPuan(t) { return t.puan || null; }
@@ -229,6 +230,7 @@
     h += gatesHtml();
     h += yolHtml();
     h += '<div class="card soft edit"><div class="eyebrow">Düzenleme modu nasıl işler</div><ul class="plain"><li>Bir yaprağı aç, en alttaki Durum kartında ilerleme, görevler ve saha puanını gir, Kaydet.</li><li>Saha puanı 1 ile 5: 3 nötr, 5 genel puana 10 puan ekler, 1 on puan düşürür. Görüşme notunu da yaz.</li><li>Notlar her yaprakta ayrı kartta; düzenleme moduna gerek yok.</li><li>Herkes görsün istersen sayfanın altından durumu dışa aktar, durum.json dosyasını GitHub deposunun köküne yükle.</li></ul></div>';
+    h += '<div class="card"><div class="eyebrow">Yaprak ara</div><input class="search" id="ara" type="search" placeholder="Yaprak, çalışma ya da şirket adı: lityum, Pomega, PFAS, Milvus..." autocomplete="off"><div id="ara-sonuc"></div></div>';
     h += '<div class="tree">';
     h += '<div class="root"><div class="eyebrow" style="color:#F2B28B">Kök</div><h2>MEKA</h2><p class="muted" style="color:#ddd">' + e(D.kok_notu) + '</p></div>';
     D.agac.forEach(function (br) {
@@ -548,6 +550,22 @@
       saveYerel(); var y3 = window.scrollY; render(); window.scrollTo(0, y3); return;
     }
   });
+  function aramaYap(q) {
+    var box = document.getElementById('ara-sonuc'); if (!box) return;
+    q = (q || '').trim().toLocaleLowerCase('tr'); if (q.length < 2) { box.innerHTML = ''; return; }
+    var hits = [];
+    tumYapraklar().forEach(function (t) {
+      var alan = [t.baslik, t.kisa, t.dal_ad, t.kol_ad].join(' ').toLocaleLowerCase('tr');
+      var firma = (t.firmalar || []).filter(function (f) { return (f.ad || '').toLocaleLowerCase('tr').indexOf(q) >= 0; }).map(function (f) { return f.ad; });
+      if (alan.indexOf(q) >= 0 || firma.length) hits.push({ t: t, firma: firma });
+    });
+    var docs = (D.calisma_gruplari || []).filter(function (g) { return (g.ad + ' ' + g.aciklama).toLocaleLowerCase('tr').indexOf(q) >= 0; });
+    if (!hits.length && !docs.length) { box.innerHTML = '<p class="tiny">Eşleşme yok.</p>'; return; }
+    box.innerHTML = hits.slice(0, 12).map(function (x) {
+      return '<a class="leaf" href="#/konu/' + x.t.id + '"><span class="sym ' + bantOf(x.t) + '">' + BANT_SYM[bantOf(x.t)] + '</span><span class="t">' + e(x.t.kisa || x.t.baslik) + ' <span class="tiny">· ' + e(x.t.dal_ad) + ' › ' + e(x.t.kol_ad) + (x.firma.length ? ' · şirket: ' + e(x.firma.slice(0, 3).join(', ')) : '') + '</span></span>' + puanRozet(genelPuan(x.t), true) + '</a>';
+    }).join('') + docs.map(function (g) { return '<a class="leaf" href="#/calismalar"><span class="sym">📄</span><span class="t">' + e(g.ad) + ' <span class="tiny">· Çalışmalar sayfasında</span></span></a>'; }).join('');
+  }
+  document.addEventListener('input', function (ev) { if (ev.target && ev.target.id === 'ara') aramaYap(ev.target.value); });
   document.addEventListener('change', function (ev) {
     if (ev.target && ev.target.id === 'imp' && ev.target.files && ev.target.files[0]) {
       var rd = new FileReader(); rd.onload = function () { iceAktar(String(rd.result)); }; rd.readAsText(ev.target.files[0]);

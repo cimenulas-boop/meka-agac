@@ -20298,7 +20298,7 @@ window.MEKA_DATA = {
 "kol": "ozel",
 "on_bant": "ikincil",
 "id": "lityum",
-"baslik": "Fabrika bataryası ve lityum depolama",
+"baslik": "Lityum batarya: fabrika depolaması, hücre ve montaj halkaları",
 "bant": "izle",
 "puan_metni": "Üçüncü tur araştırma (16 Ekim 2026), bant önerisi izle: İzle. Hücre halkasında kapı yok. Modül ve entegrasyon halkaları kalabalık: Maxxen yılda 5 GWh kapasiteli tesis açtı, Solinved demo üretimde, işletmedeki depolama yalnız 405,61 MWh. Fluence GAAP brüt marjı yüzde 4,9. Eylül 2026 fiyat farkıyla fabrika modeli 8 ile 21 yılda geri ödüyor, tahmin, fiyat farkı doğrulanamadı. Elenmedi, çünkü fabrika tarifesiyle hesap yapılmadı, MEKA'nın kendi müşterilerinde pilot denenmedi ve KAP bildirimi Pomega ile Kontrolmatik için varlık satışını gerekçe gösteriyor. Kapsam kısmi, çünkü fabrika tarifesi kararı değiştirebilir. Önceki not: 05 tek sırasında 12 iş içinde 3., 27 Eylül 2026, sıra numarası, puan yok. 04 taramasında 7 iş içinde 3., 27 Eylül 2026, sıra numarası. 10 Ek-5 giren kazanır testinde lityum entegrasyonu Türkiye 2/10, 30 Eylül 2026, 10 üzerinden, çıkarım işaretli; çalışmadaki en düşük puan, termal batarya 3/10, ana liste en düşük 6/10.",
 "tarih": "16 Ekim 2026 (derin araştırma); önceki çalışma 30 Eylül 2026; fabrika ölçeği fikri 27 Eylül 2026",
@@ -21200,7 +21200,7 @@ window.MEKA_DATA = {
 "dal_ad": "Bağımsız",
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
-"kisa": "Fabrika bataryası ve lityum",
+"kisa": "Lityum batarya (fabrika depolaması)",
 "puan_kisa": "05: 3. · 2/10",
 "butonlar": [
 {
@@ -27234,6 +27234,20 @@ window.MEKA_DATA = {
 ],
 "profiller": [
 {
+"id": "esit",
+"ad": "Karar yok",
+"agirliklar": {
+"G": 12.5,
+"H": 12.5,
+"B": 12.5,
+"R": 12.5,
+"E": 12.5,
+"M": 12.5,
+"S": 12.5,
+"K": 12.5
+}
+},
+{
 "id": "dengeli",
 "ad": "Dengeli",
 "agirliklar": {
@@ -27398,6 +27412,23 @@ window.MEKA_DATA = {
 "dosya": "lityum_ek",
 "rol": "ozet",
 "etiket": "Ek bölümler: lityum ve batarya şirketleri"
+}
+]
+},
+{
+"ad": "Lityum batarya çalışması",
+"tarih": "30 Eylül ve 16 Ekim 2026",
+"aciklama": "Fabrika bataryası, hücre, montaj ve entegrasyon halkaları; Pomega, Solinved, ASPİLSAN, Maxxen gibi şirketler. 30 Eylül çalışmasının ek bölümleri ve 16 Ekim web araştırması.",
+"belgeler": [
+{
+"dosya": "lityum_ek",
+"rol": "tam",
+"etiket": "Lityum ve batarya ek bölümleri (30 Eylül)"
+},
+{
+"dosya": "c_lityum",
+"rol": "ozet",
+"etiket": "Ek araştırma (16 Ekim)"
 }
 ]
 },
