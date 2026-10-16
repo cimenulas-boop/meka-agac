@@ -6295,11 +6295,11 @@ window.MEKA_DATA = {
 "Yabancı alıcı riski: sivil nükleer Birleşik Krallık NSIA kapsamında zorunlu bildirim alanında, bu bilgi arama özetinden ve doğrulanamadı. ABD Donanması işi yapan atölyeler yabancı alıcıya fiilen kapalı olabilir, bu çıkarımdır."
 ],
 "kapilar": {
-"yatirim": "ikisi",
+"yatirim": "sirket",
 "butce": 2,
 "butce_not": "Tahmin. Kendi atölyede kalite programı, EN 1090 ve ISO 3834 belgeleri, demo parça ve ASME ücretleri için ilk 12 ile 24 ayda 100 bin ile 1 milyon dolar. ASME ücretleri küçük: iki sertifika için yaklaşık 20.800 dolar, resmi listeden hesap. Asıl pay personel, eğitim ve denetim. Atölye alımı ya da büyük ortaklık seçilirse dilim 3 ya da 4. PCG'nin 2025 geliri yaklaşık 125 milyon dolardı, bedel açıklanmadı.",
 "yol": "ikisi",
-"yol_not": "Önce kur, sonra ortak ol. Kalite sistemi MEKA içinde kurulmak zorunda, bunu başkası yerine yapamaz. Sinop için Koreli ya da Avrupalı ikinci kademe imalatçıyla tedarik anlaşması ya da ortaklık ayrı bir ayak. Atölye alımı olursa yatırım kanalı şirket ya da kişisel olabilir. Kaynakta açık ifade yok, tahmin."
+"yol_not": "Kalite sistemi ve imalat MEKA içinde kurulmak zorunda; kişi olarak girilemez (16 Ekim düzeltmesi). Önce kur, sonra ortak ol. Kalite sistemi MEKA içinde kurulmak zorunda, bunu başkası yerine yapamaz. Sinop için Koreli ya da Avrupalı ikinci kademe imalatçıyla tedarik anlaşması ya da ortaklık ayrı bir ayak. Atölye alımı olursa yatırım kanalı şirket ya da kişisel olabilir. Kaynakta açık ifade yok, tahmin."
 },
 "takvim": [
 {

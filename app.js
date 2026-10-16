@@ -84,7 +84,19 @@
     for (var i = 0; i < ps.length; i++) if (ps[i].id === PROFIL) return ps[i];
     return ps[0] || { id: 'dengeli', ad: 'Dengeli', agirliklar: {} };
   }
-  function agirlik(kid) { return Number(profil().agirliklar[kid] || 0); }
+  // Yönetim kararı 1 puan formülünü değiştirir: kişisel yatırımda MEKA uyumu ölçütü kapanır, ağırlığı diğerlerine dağılır
+  function agirlik(kid) { if (kid === 'M' && sel.yatirim === 'kisisel') return 0; return Number(profil().agirliklar[kid] || 0); }
+  function secimEtkisi() {
+    var all = tumYapraklar(); var soluk = all.filter(function (t) { return !uyum(t).ok; }).length;
+    var p = [];
+    if (sel.yatirim === 'kisisel') p.push('Kişisel yatırım: MEKA\'nın kendi üretmesi ya da kurması gereken yapraklar soluk; MEKA uyumu ölçütü puana katılmıyor. Kalanlar hisse, ortaklık, ruhsat ya da varlık alımıyla girilebilen işler.');
+    if (sel.yatirim === 'sirket') p.push('Şirket üzerinden: yalnız kişiye açık yapraklar soluk; MEKA uyumu ölçütü puanda.');
+    if (sel.butce !== 'hepsi') p.push('Bütçe: giriş bileti ' + BUTCE_AD[sel.butce] + ' dilimini aşan yapraklar soluk.');
+    if (sel.yol === 'kur') p.push('Kuralım: yalnız ortaklıkla girilebilen yapraklar soluk.');
+    if (sel.yol === 'ortak') p.push('Ortak olalım: yalnız kendi kurmayı gerektiren yapraklar soluk.');
+    if (!p.length) return '<p class="tiny">Henüz karar seçilmedi; bütün yapraklar sayılıyor ve profil ağırlıkları olduğu gibi.</p>';
+    return '<p class="muted" style="border-left:3px solid var(--acc);padding-left:10px"><b>Seçimin etkisi:</b> ' + p.join(' ') + ' Şu an ' + soluk + ' yaprak soluk, ' + (all.length - soluk) + ' yaprak sayılıyor.</p>';
+  }
   function altPuan(t) { return t.puan || null; }
   function genelTemel(t) {
     var a = altPuan(t); if (!a || t.sepet) return null;
@@ -127,6 +139,11 @@
   }
   function dalYapraklari(br) { return br.kollar.reduce(function (a, k) { return a.concat(k.konular.map(topic).filter(Boolean)); }, []); }
   function kolYapraklari(k) { return k.konular.map(topic).filter(Boolean); }
+  function dugumRozet(list) {
+    var p = dugumPuani(list);
+    if (p == null) return list.length ? '<span class="pill warn">seçime uyan yok</span>' : '<span class="scr sm">–</span>';
+    return puanRozet(p, true);
+  }
   function puanRozet(g, kucuk) {
     if (g == null) return '<span class="scr">–</span>';
     var c = g >= P.esikler.yildiz ? 'hi' : (g >= P.esikler.orta ? 'mid' : 'lo');
@@ -134,7 +151,7 @@
   }
   function gucluZayif(t) {
     var a = altPuan(t); if (!a) return '';
-    var items = KR.map(function (k) { return { k: k, s: a[k.id] }; }).filter(function (x) { return x.s != null; });
+    var items = KR.map(function (k) { return { k: k, s: a[k.id] }; }).filter(function (x) { return x.s != null && agirlik(x.k.id) > 0; });
     var up = items.slice().sort(function (p, q) { return q.s - p.s; }).filter(function (x) { return x.s >= 4; }).slice(0, 2).map(function (x) { return x.k.poz; });
     var dn = items.slice().sort(function (p, q) { return p.s - q.s; }).filter(function (x) { return x.s <= 2; }).slice(0, 2).map(function (x) { return x.k.neg; });
     return (up.length ? '+ ' + up.join(', ') : '') + (up.length && dn.length ? ' · ' : '') + (dn.length ? '− ' + dn.join(', ') : '');
@@ -176,7 +193,7 @@
       '<div class="gate"><div class="q">2. İlk bütçe dilimi?</div>' + seg('butce', [['1', '< 100 bin $'], ['2', '100 bin ile 1 M$'], ['3', '1 ile 10 M$'], ['4', '> 10 M$'], ['hepsi', 'Karar yok']], sel.butce, 'gate') + '</div>' +
       '<div class="gate"><div class="q">3. Kuralım mı, ortak mı olalım?</div>' + seg('yol', [['kur', 'Kuralım'], ['ortak', 'Ortak olalım'], ['hepsi', 'Karar yok']], sel.yol, 'gate') + '</div>' +
       '</div>' + (prof.length ? '<div class="gate" style="margin-top:10px"><div class="q">Puan profili: ölçüt ağırlıkları</div>' + seg('profil', prof, PROFIL, 'gate') + '</div>' : '') +
-      '<details><summary class="tiny">Dilim, kapı ve profil kuralı</summary><p class="tiny" style="margin-top:4px">' + e(D.dilim_kurali || '') + '</p></details></div>';
+      secimEtkisi() + '<details><summary class="tiny">Dilim, kapı ve profil kuralı</summary><p class="tiny" style="margin-top:4px">' + e(D.dilim_kurali || '') + '</p></details></div>';
   }
 
   // ---------------- önerilen yol ----------------
@@ -211,11 +228,11 @@
     h += '<div class="root"><div class="eyebrow" style="color:#F2B28B">Kök</div><h2>MEKA</h2><p class="muted" style="color:#ddd">' + e(D.kok_notu) + '</p></div>';
     D.agac.forEach(function (br) {
       var dp = dugumPuani(dalYapraklari(br));
-      h += '<div class="branch ' + br.id + '"><a class="head" href="#/bolge/' + br.id + '"><h2>' + e(br.ad) + '</h2><span class="tiny">dal puanı ' + puanRozet(dp, true) + ' · ' + e(br.aciklama) + ' ›</span></a><div class="kols">';
+      h += '<div class="branch ' + br.id + '"><a class="head" href="#/bolge/' + br.id + '"><h2>' + e(br.ad) + '</h2><span class="tiny">dal puanı ' + dugumRozet(dalYapraklari(br)) + ' · ' + e(br.id === 'meka' && sel.yatirim === 'kisisel' ? 'kişisel yatırımda yalnız hisse, ortaklık ya da ruhsatla girilebilen yapraklar sayılıyor' : br.aciklama) + ' ›</span></a><div class="kols">';
       br.kollar.forEach(function (k) {
         var ts = sirala(kolYapraklari(k));
         var kp = dugumPuani(ts);
-        h += '<div class="kol"><a class="head" href="#/bolge/' + k.id + '"><h3>' + e(k.ad) + '</h3><span class="tiny">' + puanRozet(kp, true) + ' · ' + ts.length + ' yaprak ›</span></a><div>' + ts.map(leafHtml).join('') + '</div></div>';
+        h += '<div class="kol"><a class="head" href="#/bolge/' + k.id + '"><h3>' + e(k.ad) + '</h3><span class="tiny">' + dugumRozet(ts) + ' · ' + ts.length + ' yaprak ›</span></a><div>' + ts.map(leafHtml).join('') + '</div></div>';
       });
       h += '</div></div>';
     });
@@ -229,10 +246,10 @@
   function dugumlerHtml() {
     var h = '<div class="grid2">';
     D.agac.forEach(function (br) {
-      h += '<div class="card"><a class="head" href="#/bolge/' + br.id + '" style="text-decoration:none;color:inherit"><div class="eyebrow">Dal</div><h3>' + e(br.ad) + ' ' + puanRozet(dugumPuani(dalYapraklari(br)), true) + '</h3></a>';
+      h += '<div class="card"><a class="head" href="#/bolge/' + br.id + '" style="text-decoration:none;color:inherit"><div class="eyebrow">Dal</div><h3>' + e(br.ad) + ' ' + dugumRozet(dalYapraklari(br)) + '</h3></a>';
       br.kollar.forEach(function (k) {
         var ts = kolYapraklari(k); var best = sirala(ts).filter(aktif)[0];
-        h += '<a class="leaf" href="#/bolge/' + k.id + '"><span class="sym">›</span><span class="t">' + e(k.ad) + ' <span class="tiny">· ' + ts.length + ' yaprak' + (best ? ' · en iyi: ' + e(best.kisa || best.baslik) : '') + '</span></span>' + puanRozet(dugumPuani(ts), true) + '</a>';
+        h += '<a class="leaf" href="#/bolge/' + k.id + '"><span class="sym">›</span><span class="t">' + e(k.ad) + ' <span class="tiny">· ' + ts.length + ' yaprak' + (best ? ' · en iyi: ' + e(best.kisa || best.baslik) : '') + '</span></span>' + dugumRozet(ts) + '</a>';
       });
       h += '</div>';
     });
@@ -248,7 +265,7 @@
       var b = bantOf(t);
       return '<a href="#/konu/' + t.id + '" class="' + (aktif(t) ? '' : 'off') + '"><span class="n">' + (i + 1) + '</span><span class="sym ' + b + '">' + BANT_SYM[b] + '</span><span><b>' + e(t.kisa || t.baslik) + '</b> <span class="tiny">' + e(t.dal_ad) + ' › ' + e(t.kol_ad) + ' · kanıt ' + e(t.kanit) + '/5' + (t.sepet ? ' · sepet: puanlanmadı' : '') + (aktif(t) ? '' : ' · seçime uymaz') + '</span><div class="why">' + e(gucluZayif(t)) + '</div></span>' + puanRozet(genelPuan(t)) + '</a>';
     }).join('') + '</div></div>';
-    h += '<div class="card"><div class="eyebrow">Puan nasıl hesaplanıyor</div><ul class="plain">' + (P.yontem || []).map(function (s) { return '<li>' + e(s) + '</li>'; }).join('') + '</ul>' +
+    h += '<div class="card"><div class="eyebrow">Puan nasıl hesaplanıyor</div><ul class="plain">' + (P.yontem || []).map(function (s) { return '<li>' + e(s) + '</li>'; }).join('') + '<li>Yönetim kararı 1 formülü değiştirir: kişisel yatırım seçilince MEKA uyumu ölçütü kapanır ve ağırlığı kalan ölçütlere dağılır. Böylece bağımsız dal MEKA tesisine uymadığı için puan kaybetmez.</li></ul>' +
       '<div class="kv" style="margin-top:8px">' + KR.map(function (k) {
         return '<div class="r"><div class="k">' + e(k.id) + ' · %' + agirlik(k.id) + '</div><div><b>' + e(k.ad) + '</b> <span class="tiny">' + (k.kaynak === 'sistem' ? 'sistemden: ' : 'puanlayıcılar: ') + '</span>' + e(k.aciklama) + '<div class="src">' + e(k.capa || '') + '</div></div></div>';
       }).join('') + '</div></div>';
@@ -262,10 +279,10 @@
     var np = dugumPuani(ts);
     var h = '<a class="back" href="#/">‹ Ağaca dön</a>';
     h += '<div><div class="eyebrow">' + (isDal ? 'Dal' : 'Kol') + '</div><h1>' + e(r.baslik) + '</h1><p class="muted">' + ts.length + ' yaprak · ' + e(secimMetni()) + '</p></div>';
-    h += '<div class="card"><div class="eyebrow">' + (isDal ? 'Dal' : 'Kol') + ' puanı</div><div class="row"><span class="bigscore">' + (np == null ? '–' : Math.round(np)) + '</span><span class="muted">en iyi üç yaprağın ortalaması, seçime uyanlar arasında. ' + (ts.filter(aktif)[0] ? 'En iyi yaprak: <a href="#/konu/' + ts.filter(aktif)[0].id + '">' + e(ts.filter(aktif)[0].kisa || ts.filter(aktif)[0].baslik) + '</a>.' : '') + '</span></div>';
+    h += '<div class="card"><div class="eyebrow">' + (isDal ? 'Dal' : 'Kol') + ' puanı</div><div class="row"><span class="bigscore">' + (np == null ? '–' : Math.round(np)) + '</span><span class="muted">' + (np == null && ts.length ? 'Bu bölgede seçime uyan yaprak yok; kararlardan birini gevşet. ' : 'en iyi üç yaprağın ortalaması, seçime uyanlar arasında. ') + (ts.filter(aktif)[0] ? 'En iyi yaprak: <a href="#/konu/' + ts.filter(aktif)[0].id + '">' + e(ts.filter(aktif)[0].kisa || ts.filter(aktif)[0].baslik) + '</a>.' : '') + '</span></div>';
     if (isDal) {
       var br = D.agac.filter(function (b) { return b.id === rid; })[0];
-      if (br) h += '<div style="margin-top:6px">' + br.kollar.map(function (k) { return '<a class="leaf" href="#/bolge/' + k.id + '"><span class="sym">›</span><span class="t">' + e(k.ad) + '</span>' + puanRozet(dugumPuani(kolYapraklari(k)), true) + '</a>'; }).join('') + '</div>';
+      if (br) h += '<div style="margin-top:6px">' + br.kollar.map(function (k) { return '<a class="leaf" href="#/bolge/' + k.id + '"><span class="sym">›</span><span class="t">' + e(k.ad) + '</span>' + dugumRozet(kolYapraklari(k)) + '</a>'; }).join('') + '</div>';
     }
     h += '</div>';
     h += '<div class="card"><div class="eyebrow">Özet</div><p>' + e(r.ozet) + '</p></div>';
@@ -298,7 +315,7 @@
     h += '<div class="crits">' + KR.map(function (k) {
       var s = a[k.id]; var pct = s == null ? 0 : Math.round((s - 1) / 4 * 100);
       var not = (t.puan_not && t.puan_not[k.id]) || (k.id === 'B' ? ((BUTCE_AD[(t.kapilar || {}).butce] || '') + ' dilimi. ' + ((t.kapilar || {}).butce_not || '')) : '') || (k.id === 'K' ? ('Kanıt ' + (t.kanit || '–') + '/5, ' + (t.kapsam === 'tam' ? 'tam çalışma var' : 'kısmen çalışıldı')) : '');
-      return '<div class="crit"><div class="cl"><span class="cn">' + e(k.ad) + '</span><span class="cw">%' + agirlik(k.id) + '</span><b>' + (s == null ? '–' : fmt1(s)) + '/5</b></div><div class="cbar"><i style="width:' + pct + '%"></i></div>' + (not ? '<div class="cnote">' + e(not) + '</div>' : '') + '</div>';
+      return '<div class="crit"' + (agirlik(k.id) ? '' : ' style="opacity:0.45"') + '><div class="cl"><span class="cn">' + e(k.ad) + '</span><span class="cw">' + (agirlik(k.id) ? '%' + agirlik(k.id) : 'kişisel seçiminde kapalı') + '</span><b>' + (s == null ? '–' : fmt1(s)) + '/5</b></div><div class="cbar"><i style="width:' + pct + '%"></i></div>' + (not ? '<div class="cnote">' + e(not) + '</div>' : '') + '</div>';
     }).join('') + '</div>';
     if (t.puan_yayilim && t.puan_yayilim.length) h += '<p class="tiny">Puanlayıcılar şu ölçütlerde ayrıştı: ' + t.puan_yayilim.map(function (x) { return e(x); }).join(', ') + '. Bu ölçütlerdeki puan daha belirsiz.</p>';
     h += '<details><summary class="tiny">Çalışmanın kendi hükmü ve puanı (karşılaştırmada kullanılmaz)</summary><p class="tiny" style="margin-top:4px">Çalışmanın bandı: ' + e(BANT_AD[t.bant] || t.bant) + '. ' + e(t.puan_metni || '') + '</p></details></div>';
