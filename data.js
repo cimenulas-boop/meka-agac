@@ -1,10 +1,10 @@
 window.MEKA_DATA = {
 "baslik": "İki dal, altı kol, 39 yaprak",
 "alt_baslik": "Her yaprakta bir sayfalık özet, altında tam çalışma. Üst dal kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
-"kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 12 yaprak 16 Ekim 2026'da web araştırmasıyla güncellendi.",
+"kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 yaprak 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
 "derleme_tarihi": "16 Ekim 2026",
 "bugun_iso": "2026-10-16",
-"surum": "Sürüm 16 Ekim 2026 (2. tur) · 14 yaprağın açık soruları web'le kapatıldı · 30 Eylül sonrası çalışmalar pakette yok",
+"surum": "Sürüm 16 Ekim 2026 · 14 yaprağın açık soruları web araştırmasıyla ele alındı · 30 Eylül sonrası çalışmalar pakette yok",
 "agac": [
 {
 "id": "meka",
@@ -303,7 +303,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.1 Tahkimat ve koruyucu altyapı üretim sistemleri",
-"sayfa": 3
+"sayfa": 24
 },
 {
 "dosya": "01_rapor",
@@ -361,7 +361,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Tahkimat prekast hattı",
-"puan_kisa": "4,35"
+"puan_kisa": "4,35",
+"butonlar": [
+{
+"dosya": "01_rapor",
+"bolum_basligi": "8.1 Tahkimat ve koruyucu altyapı üretim sistemleri",
+"sayfa": 24,
+"rol": "tam"
+}
+]
 },
 "sav_kalip": {
 "dal": "meka",
@@ -545,7 +553,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.1 Tahkimat ve koruyucu altyapı üretim sistemleri",
-"sayfa": 3
+"sayfa": 24
 },
 {
 "dosya": "01_rapor",
@@ -560,7 +568,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "9.2 İlk 90 gün",
-"sayfa": 3
+"sayfa": 37
 },
 {
 "dosya": "01_kart",
@@ -603,7 +611,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Tahkimat kalıbı, gabion, çelik engel",
-"puan_kisa": "4,25"
+"puan_kisa": "4,25",
+"butonlar": [
+{
+"dosya": "01_rapor",
+"bolum_basligi": "8.1 Tahkimat ve koruyucu altyapı üretim sistemleri",
+"sayfa": 24,
+"rol": "tam"
+}
+]
 },
 "sav_flatrack": {
 "dal": "meka",
@@ -818,7 +834,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.2 Askerî lojistik üst yapılar: flat rack, kanca yükleyici gövdesi ve konteyner platformları",
-"sayfa": 3
+"sayfa": 26
 },
 {
 "dosya": "01_rapor",
@@ -900,7 +916,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Flat rack ve kanca yükleyici gövdesi",
-"puan_kisa": "4,00"
+"puan_kisa": "4,00",
+"butonlar": [
+{
+"dosya": "01_rapor",
+"bolum_basligi": "8.2 Askerî lojistik üst yapılar: flat rack, kanca yükleyici gövdesi ve konteyner platformları",
+"sayfa": 26,
+"rol": "tam"
+}
+]
 },
 "sav_muhimmat": {
 "dal": "meka",
@@ -1090,7 +1114,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.3 Mühimmat gövdeleri, mühimmat üretim hattı ekipmanı ve mühimmat ambalajı",
-"sayfa": 3
+"sayfa": 26
 },
 {
 "dosya": "01_rapor",
@@ -1110,7 +1134,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "9.2 İlk 90 gün",
-"sayfa": 3
+"sayfa": 37
 },
 {
 "dosya": "01_kart",
@@ -1163,7 +1187,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Mühimmat hattı ekipmanı",
-"puan_kisa": "3,95"
+"puan_kisa": "3,95",
+"butonlar": [
+{
+"dosya": "01_rapor",
+"bolum_basligi": "8.3 Mühimmat gövdeleri, mühimmat üretim hattı ekipmanı ve mühimmat ambalajı",
+"sayfa": 26,
+"rol": "tam"
+}
+]
 },
 "sav_konteyner": {
 "dal": "meka",
@@ -1353,7 +1385,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.4 Konteynerize sistemler ve taktik şelterler",
-"sayfa": 3
+"sayfa": 28
 },
 {
 "dosya": "01_rapor",
@@ -1363,7 +1395,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "7. Aday Nişlerin Çok Kriterli Değerlendirmesi",
-"sayfa": 2
+"sayfa": 21
 },
 {
 "dosya": "01_rapor",
@@ -1408,7 +1440,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Konteyner ve şelter gövdesi",
-"puan_kisa": "3,70"
+"puan_kisa": "3,70",
+"butonlar": [
+{
+"dosya": "01_rapor",
+"bolum_basligi": "8.4 Konteynerize sistemler ve taktik şelterler",
+"sayfa": 28,
+"rol": "tam"
+}
+]
 },
 "sav_istihkam": {
 "dal": "meka",
@@ -1757,7 +1797,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.9 Diğer yapısal nişler: istihkam ataşmanları, köprü, römork, hedef, patlama kapısı, zırh",
-"sayfa": 3
+"sayfa": 35
 },
 {
 "dosya": "01_rapor",
@@ -2167,7 +2207,21 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "İstihkam ataşmanları: dozer bıçağı, mayın pulluğu ve silindiri",
-"puan_kisa": "3,55"
+"puan_kisa": "3,55",
+"butonlar": [
+{
+"dosya": "c_sav_istihkam",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+},
+{
+"dosya": "01_rapor",
+"bolum_basligi": "8.9 Diğer yapısal nişler: istihkam ataşmanları, köprü, römork, hedef, patlama kapısı, zırh",
+"sayfa": 35,
+"rol": "ana"
+}
+]
 },
 "sav_vinc": {
 "dal": "meka",
@@ -2351,7 +2405,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.6 Askerî vinç, kurtarma ve malzeme elleçleme sistemleri",
-"sayfa": 3
+"sayfa": 31
 },
 {
 "dosya": "01_rapor",
@@ -2361,7 +2415,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "7.1 Sıralamanın okunuşu",
-"sayfa": 3
+"sayfa": 21
 },
 {
 "dosya": "01_ozet",
@@ -2410,7 +2464,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Vinç üreticilerine alt yüklenicilik",
-"puan_kisa": "3,35"
+"puan_kisa": "3,35",
+"butonlar": [
+{
+"dosya": "01_rapor",
+"bolum_basligi": "8.6 Askerî vinç, kurtarma ve malzeme elleçleme sistemleri",
+"sayfa": 31,
+"rol": "tam"
+}
+]
 },
 "sav_mro": {
 "dal": "meka",
@@ -2600,7 +2662,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.8 Yedek parça ve MRO işleme, yer destek ekipmanı, gemi inşa alt yükleniciliği",
-"sayfa": 3
+"sayfa": 34
 },
 {
 "dosya": "01_rapor",
@@ -2610,7 +2672,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "7.1 Sıralamanın okunuşu",
-"sayfa": 3
+"sayfa": 21
 },
 {
 "dosya": "01_kart",
@@ -2649,7 +2711,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Uçak bakım platformu, gemi donatım",
-"puan_kisa": "3,30 · 3,20"
+"puan_kisa": "3,30 · 3,20",
+"butonlar": [
+{
+"dosya": "01_rapor",
+"bolum_basligi": "8.8 Yedek parça ve MRO işleme, yer destek ekipmanı, gemi inşa alt yükleniciliği",
+"sayfa": 34,
+"rol": "tam"
+}
+]
 },
 "sav_elenen": {
 "dal": "meka",
@@ -2796,12 +2866,12 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "7. Aday Nişlerin Çok Kriterli Değerlendirmesi",
-"sayfa": 2
+"sayfa": 21
 },
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.6 Askerî vinç, kurtarma ve malzeme elleçleme sistemleri",
-"sayfa": 3
+"sayfa": 31
 },
 {
 "dosya": "01_rapor",
@@ -2816,7 +2886,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.9 Diğer yapısal nişler: istihkam ataşmanları, köprü, römork, hedef, patlama kapısı, zırh",
-"sayfa": 3
+"sayfa": 35
 },
 {
 "dosya": "01_kart",
@@ -2858,7 +2928,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Elenenler: vinç, havacılık, 155 mm, zırh",
-"puan_kisa": "1,55 · 1,60"
+"puan_kisa": "1,55 · 1,60",
+"butonlar": [
+{
+"dosya": "01_rapor",
+"bolum_basligi": "7. Aday Nişlerin Çok Kriterli Değerlendirmesi",
+"sayfa": 21,
+"rol": "tam"
+}
+]
 },
 "mineral": {
 "dal": "meka",
@@ -3155,7 +3233,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Ağır nadir toprak (Dy/Tb) orta halkası, Çin dışı",
-"sayfa": 4
+"sayfa": 11
 }
 ],
 "kapsam": "kismi",
@@ -3470,7 +3548,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Mineral zenginleştirme",
-"puan_kisa": "03: 1."
+"puan_kisa": "03: 1.",
+"butonlar": [
+{
+"dosya": "c_mineral",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "termal": {
 "dal": "meka",
@@ -3713,7 +3799,21 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Termal batarya",
-"puan_kisa": "opsiyon · 3/10"
+"puan_kisa": "opsiyon · 3/10",
+"butonlar": [
+{
+"dosya": "08",
+"bolum_basligi": "Termal batarya: pazar, oyuncular, ekonomi ve strateji",
+"sayfa": 1,
+"rol": "tam"
+},
+{
+"dosya": "10",
+"bolum_basligi": "Ek-5. \"Giren kazanır\" testi: termal ve lityum",
+"sayfa": 17,
+"rol": "ana"
+}
+]
 },
 "cimento": {
 "dal": "meka",
@@ -3871,7 +3971,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Çimento katkısı (SCM): puzolan, kil, kül",
-"sayfa": 3
+"sayfa": 4
 },
 {
 "dosya": "09",
@@ -3912,7 +4012,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Çimento katkısı: puzolan, kalsine kil, kül",
-"puan_kisa": "7/10"
+"puan_kisa": "7/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Çimento katkısı (SCM): puzolan, kil, kül",
+"sayfa": 4,
+"rol": "tam"
+}
+]
 },
 "nukleer": {
 "dal": "meka",
@@ -4085,7 +4193,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Nükleer kalite imalat (ASME III / NQA-1)",
-"sayfa": 3
+"sayfa": 5
 },
 {
 "dosya": "09",
@@ -4125,7 +4233,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Nükleer kalite imalat",
-"puan_kisa": "7/10"
+"puan_kisa": "7/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Nükleer kalite imalat (ASME III / NQA-1)",
+"sayfa": 5,
+"rol": "tam"
+}
+]
 },
 "tungsten": {
 "dal": "meka",
@@ -4273,7 +4389,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Tungsten, Çin dışı zincir",
-"sayfa": 3
+"sayfa": 6
 },
 {
 "dosya": "09",
@@ -4322,7 +4438,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Tungsten, Çin dışı zincir",
-"puan_kisa": "7/10"
+"puan_kisa": "7/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Tungsten, Çin dışı zincir",
+"sayfa": 6,
+"rol": "tam"
+}
+]
 },
 "trafo": {
 "dal": "meka",
@@ -4452,7 +4576,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Trafo ve orta gerilim şalt [zayıf halka]",
-"sayfa": 3
+"sayfa": 7
 },
 {
 "dosya": "09",
@@ -4498,7 +4622,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Trafo onarım ve üretim",
-"puan_kisa": "6/10"
+"puan_kisa": "6/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Trafo ve orta gerilim şalt [zayıf halka]",
+"sayfa": 7,
+"rol": "tam"
+}
+]
 },
 "kum": {
 "dal": "meka",
@@ -4632,7 +4764,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Üretilmiş kum (M-sand) [zayıf halka]",
-"sayfa": 3
+"sayfa": 7
 },
 {
 "dosya": "09",
@@ -4672,7 +4804,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Üretilmiş kum, M-sand",
-"puan_kisa": "6/10"
+"puan_kisa": "6/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Üretilmiş kum (M-sand) [zayıf halka]",
+"sayfa": 7,
+"rol": "tam"
+}
+]
 },
 "enkaz": {
 "dal": "meka",
@@ -4856,7 +4996,21 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Yıkıntı atığından agrega",
-"puan_kisa": "03: 3."
+"puan_kisa": "03: 3.",
+"butonlar": [
+{
+"dosya": "gpt",
+"bolum_basligi": "İnşaat ve yıkıntı atığından satılabilir agrega",
+"sayfa": 1,
+"rol": "kaynak"
+},
+{
+"dosya": "03",
+"bolum_basligi": "Suriye Enkazdan agrega",
+"sayfa": 1,
+"rol": "kaynak"
+}
+]
 },
 "res_temel": {
 "dal": "meka",
@@ -5453,7 +5607,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "RES temel paketi",
-"puan_kisa": "03: 4."
+"puan_kisa": "03: 4.",
+"butonlar": [
+{
+"dosya": "c_res_temel",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "parcalayici": {
 "dal": "meka",
@@ -6090,7 +6252,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Mobil parçalayıcı",
-"puan_kisa": "03: 5."
+"puan_kisa": "03: 5.",
+"butonlar": [
+{
+"dosya": "c_parcalayici",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "asfalt": {
 "dal": "meka",
@@ -6477,7 +6647,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Asfalt plenti",
-"puan_kisa": "03: 9."
+"puan_kisa": "03: 9.",
+"butonlar": [
+{
+"dosya": "c_asfalt",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "izle_meka": {
 "dal": "meka",
@@ -7012,7 +7190,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "İzleme listesi (MEKA tarafı)",
-"puan_kisa": "izle"
+"puan_kisa": "izle",
+"butonlar": [
+{
+"dosya": "c_izle_meka",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "beylikova": {
 "dal": "meka",
@@ -7334,7 +7520,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Ağır nadir toprak (Dy/Tb) orta halkası, Çin dışı",
-"sayfa": 4
+"sayfa": 11
 }
 ],
 "kapsam": "kismi",
@@ -7710,7 +7896,21 @@ window.MEKA_DATA = {
 "kol_id": "meka_devlet",
 "kol_ad": "Devlet firmaları",
 "kisa": "Beylikova ve Eti Maden",
-"puan_kisa": "03: 1. dayanağı"
+"puan_kisa": "03: 1. dayanağı",
+"butonlar": [
+{
+"dosya": "c_beylikova",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+},
+{
+"dosya": "10",
+"bolum_basligi": "Ağır nadir toprak (Dy/Tb) orta halkası, Çin dışı",
+"sayfa": 11,
+"rol": "ana"
+}
+]
 },
 "belediye": {
 "dal": "meka",
@@ -8290,7 +8490,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_devlet",
 "kol_ad": "Devlet firmaları",
 "kisa": "Belediyeler: hafriyat tesisleri",
-"puan_kisa": "03: 2."
+"puan_kisa": "03: 2.",
+"butonlar": [
+{
+"dosya": "c_belediye",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "lancer": {
 "dal": "meka",
@@ -8499,7 +8707,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.5 Füze ve roket lançerleri, fırlatma rampaları ve büyük mekanik yapılar",
-"sayfa": 3
+"sayfa": 30
 },
 {
 "dosya": "01_rapor",
@@ -8514,7 +8722,7 @@ window.MEKA_DATA = {
 {
 "dosya": "01_rapor",
 "bolum_basligi": "7.1 Sıralamanın okunuşu",
-"sayfa": 3
+"sayfa": 21
 },
 {
 "dosya": "01_ozet",
@@ -8575,7 +8783,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_devlet",
 "kol_ad": "Devlet firmaları",
 "kisa": "Lançer ve fırlatma altyapısı",
-"puan_kisa": "3,70 · 3,40 · 3,10"
+"puan_kisa": "3,70 · 3,40 · 3,10",
+"butonlar": [
+{
+"dosya": "01_rapor",
+"bolum_basligi": "8.5 Füze ve roket lançerleri, fırlatma rampaları ve büyük mekanik yapılar",
+"sayfa": 30,
+"rol": "tam"
+}
+]
 },
 "milvus": {
 "dal": "meka",
@@ -9175,7 +9391,15 @@ window.MEKA_DATA = {
 "kol_id": "meka_teknokent",
 "kol_ad": "Teknokentler",
 "kisa": "Milvus Robotics",
-"puan_kisa": "06"
+"puan_kisa": "06",
+"butonlar": [
+{
+"dosya": "c_milvus",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "novator": {
 "dal": "bagimsiz",
@@ -9691,7 +9915,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_teknokent",
 "kol_ad": "Teknokentler",
 "kisa": "Novator Enerji",
-"puan_kisa": "05: 4."
+"puan_kisa": "05: 4.",
+"butonlar": [
+{
+"dosya": "c_novator",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "pyramp": {
 "dal": "bagimsiz",
@@ -10179,7 +10411,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_teknokent",
 "kol_ad": "Teknokentler",
 "kisa": "Pyramp (TU Dublin)",
-"puan_kisa": "05: 5."
+"puan_kisa": "05: 5.",
+"butonlar": [
+{
+"dosya": "c_pyramp",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "odtu": {
 "dal": "bagimsiz",
@@ -10369,7 +10609,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_teknokent",
 "kol_ad": "Teknokentler",
 "kisa": "ODTÜ kısa listesi ve giriş yolları",
-"puan_kisa": "04"
+"puan_kisa": "04",
+"butonlar": [
+{
+"dosya": "04",
+"bolum_basligi": "Kendimiz kurmadan: ODTÜ Teknokent'e ortak olmak",
+"sayfa": 2,
+"rol": "tam"
+}
+]
 },
 "jeotermal": {
 "dal": "bagimsiz",
@@ -10504,7 +10752,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Türkiye jeotermal ruhsat ihaleleri",
-"sayfa": 1
+"sayfa": 9
 },
 {
 "dosya": "09",
@@ -10542,7 +10790,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_devlet",
 "kol_ad": "Devlet firmaları",
 "kisa": "Jeotermal ruhsat ihaleleri",
-"puan_kisa": "8/10"
+"puan_kisa": "8/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Türkiye jeotermal ruhsat ihaleleri",
+"sayfa": 9,
+"rol": "tam"
+}
+]
 },
 "depolama_hak": {
 "dal": "bagimsiz",
@@ -10706,7 +10962,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Avrupa depolama hakları",
-"sayfa": 1
+"sayfa": 10
 },
 {
 "dosya": "09",
@@ -10752,7 +11008,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_devlet",
 "kol_ad": "Devlet firmaları",
 "kisa": "Avrupa depolama hakları",
-"puan_kisa": "7/10"
+"puan_kisa": "7/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Avrupa depolama hakları",
+"sayfa": 10,
+"rol": "tam"
+}
+]
 },
 "biyo_ilac": {
 "dal": "bagimsiz",
@@ -10910,7 +11174,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Türkiye biyolojik ilaç ikamesi [zayıf halka]",
-"sayfa": 4
+"sayfa": 12
 },
 {
 "dosya": "09",
@@ -10950,7 +11214,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_devlet",
 "kol_ad": "Devlet firmaları",
 "kisa": "Biyolojik ilaç ikamesi",
-"puan_kisa": "6/10"
+"puan_kisa": "6/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Türkiye biyolojik ilaç ikamesi [zayıf halka]",
+"sayfa": 12,
+"rol": "tam"
+}
+]
 },
 "ssb_batarya": {
 "dal": "bagimsiz",
@@ -11278,7 +11550,21 @@ window.MEKA_DATA = {
 "kol_id": "bag_devlet",
 "kol_ad": "Devlet firmaları",
 "kisa": "SSB batarya ekosistemi, OTAĞ",
-"puan_kisa": "izle"
+"puan_kisa": "izle",
+"butonlar": [
+{
+"dosya": "c_ssb_batarya",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+},
+{
+"dosya": "10",
+"bolum_basligi": "Ek-2. Savunma: SSB'nin batarya ekosistemi",
+"sayfa": 15,
+"rol": "ana"
+}
+]
 },
 "pfas": {
 "dal": "bagimsiz",
@@ -11421,7 +11707,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "PFAS imha ve arıtma kapasitesi",
-"sayfa": 3
+"sayfa": 8
 },
 {
 "dosya": "09",
@@ -11461,7 +11747,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "PFAS imha kapasitesi",
-"puan_kisa": "8/10"
+"puan_kisa": "8/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "PFAS imha ve arıtma kapasitesi",
+"sayfa": 8,
+"rol": "tam"
+}
+]
 },
 "nadir_toprak": {
 "dal": "bagimsiz",
@@ -11603,7 +11897,7 @@ window.MEKA_DATA = {
 {
 "dosya": "10",
 "bolum_basligi": "Ağır nadir toprak (Dy/Tb) orta halkası, Çin dışı",
-"sayfa": 4
+"sayfa": 11
 },
 {
 "dosya": "09",
@@ -11648,7 +11942,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Ağır nadir toprak",
-"puan_kisa": "6/10"
+"puan_kisa": "6/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Ağır nadir toprak (Dy/Tb) orta halkası, Çin dışı",
+"sayfa": 11,
+"rol": "tam"
+}
+]
 },
 "lityum": {
 "dal": "bagimsiz",
@@ -11895,7 +12197,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Fabrika bataryası ve lityum",
-"puan_kisa": "05: 3. · 2/10"
+"puan_kisa": "05: 3. · 2/10",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Ek-1. Lityum (batarya depolama), Türkiye",
+"sayfa": 14,
+"rol": "tam"
+}
+]
 },
 "balkon_ges": {
 "dal": "bagimsiz",
@@ -12541,7 +12851,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Balkon GES kiti",
-"puan_kisa": "05: 2."
+"puan_kisa": "05: 2.",
+"butonlar": [
+{
+"dosya": "c_balkon_ges",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "enerji_verim": {
 "dal": "bagimsiz",
@@ -13241,7 +13559,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Su geri kazanımı, veri merkezi soğutma, ısı pompası",
-"puan_kisa": "05: 7.-9."
+"puan_kisa": "05: 7.-9.",
+"butonlar": [
+{
+"dosya": "c_enerji_verim",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 },
 "izle_bagimsiz": {
 "dal": "bagimsiz",
@@ -13441,7 +13767,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Araç powerbank, uzun yaşam ilacı",
-"puan_kisa": "05: 12."
+"puan_kisa": "05: 12.",
+"butonlar": [
+{
+"dosya": "10",
+"bolum_basligi": "Ek-3. Araç powerbank'i: mobil şarj",
+"sayfa": 16,
+"rol": "tam"
+}
+]
 },
 "belirsiz": {
 "dal": "bagimsiz",
@@ -13854,7 +14188,15 @@ window.MEKA_DATA = {
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
 "kisa": "Alt dalı belirsiz fikirler",
-"puan_kisa": "izle"
+"puan_kisa": "izle",
+"butonlar": [
+{
+"dosya": "c_belirsiz",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+]
 }
 },
 "bolgeler": {
@@ -16087,7 +16429,7 @@ window.MEKA_DATA = {
 "aciklama": "A3 tek sayfa poster. Bu uygulamanın basılabilir hali; karar kapıları posterde yok."
 }
 ],
-"calismalar_notu": "Kaynak çalışmalar 22-30 Eylül 2026 arasında hazırlandı; 16 Ekim 2026'da 12 yaprak için web kaynaklı ek araştırma eklendi. PDF'ler bu siteye ekli.",
+"calismalar_notu": "Kaynak çalışmalar 22-30 Eylül 2026 arasında hazırlandı; 16 Ekim 2026'da 14 yaprak için iki turda web kaynaklı ek araştırma eklendi. PDF'ler bu siteye ekli.",
 "gorus": [
 "En olgun ve gelire en yakın iş savunmanın dört kolu. Tek engel belge sırası ve tesis verisi.",
 "Mineral zenginleştirme mevcut müşterinin doğal uzantısı, ama Metso sorusu çözülmeden ilerlemez.",
@@ -16095,126 +16437,212 @@ window.MEKA_DATA = {
 "Bağımsız dalda ilerleme yönetimin üç cevabına bağlı. Cevap gelmedikçe o dal bekler."
 ],
 "sabit_adimlar": [
-"Yönetimden üç karar: yatırım kişisel mi, şirket üzerinden mi; bütçe dilimi; kuralım mı, ortak mı olalım (27 Eylül 2026'dan beri açık).",
 "Tesis veri formu: kapalı alan, vinç kapasiteleri, sac kalınlığı, makine listesi. Savunma puanları bu veriyle güncellenecek.",
 "30 Eylül sonrası yapılan çalışmalar bu pakette yok; klasöre eklenince ağaca işlenir."
 ],
 "dosyalar": {
 "01_rapor": {
 "ad": "Savunma nişi araştırması, tam rapor (54 sayfa, 22 Eylül 2026)",
-"pdf": "MEKA_Savunma_Nis_Arastirmasi_Rapor.pdf"
+"pdf": "MEKA_Savunma_Nis_Arastirmasi_Rapor.pdf",
+"tur": "rapor",
+"kisa": "Savunma nişi raporu",
+"sayfa_sayisi": 54
 },
 "01_ozet": {
 "ad": "Savunma: yönetici özeti ve özet (7 sayfa)",
-"pdf": "MEKA_Savunma_Yonetici_Ozeti_ve_Ozet.pdf"
+"pdf": "MEKA_Savunma_Yonetici_Ozeti_ve_Ozet.pdf",
+"tur": "ozet",
+"kisa": "Savunma yönetici özeti",
+"sayfa_sayisi": 7
 },
 "01_kart": {
 "ad": "Savunma nişi özet kartı (1 sayfa)",
-"pdf": "MEKA_Savunma_Ozet_Karti_1sayfa.pdf"
+"pdf": "MEKA_Savunma_Ozet_Karti_1sayfa.pdf",
+"tur": "ozet",
+"kisa": "Savunma özet kartı",
+"sayfa_sayisi": 1
 },
 "02": {
 "ad": "Mineral zenginleştirme kartı (23 Eylül 2026)",
-"pdf": "02_Kart_Mineral_Zenginlestirme.pdf"
+"pdf": "02_Kart_Mineral_Zenginlestirme.pdf",
+"tur": "ozet",
+"kisa": "Mineral zenginleştirme kartı",
+"sayfa_sayisi": 4
 },
 "03": {
 "ad": "On alanın sıralaması (24 Eylül 2026)",
-"pdf": "MEKA_Yeni_Alanlar_Siralamasi.pdf"
+"pdf": "MEKA_Yeni_Alanlar_Siralamasi.pdf",
+"tur": "ozet",
+"kisa": "On alanın sıralaması",
+"sayfa_sayisi": 1
 },
 "04": {
 "ad": "Bağımsız teknoloji taraması (27 Eylül 2026)",
-"pdf": "Bagimsiz_Teknoloji_Taramasi.pdf"
+"pdf": "Bagimsiz_Teknoloji_Taramasi.pdf",
+"tur": "tarama",
+"kisa": "Bağımsız teknoloji taraması",
+"sayfa_sayisi": 2
 },
 "05": {
 "ad": "On iki iş, tek sıra (27 Eylül 2026)",
-"pdf": "On_Fikir_Tek_Sira.pdf"
+"pdf": "On_Fikir_Tek_Sira.pdf",
+"tur": "ozet",
+"kisa": "On iki iş, tek sıra",
+"sayfa_sayisi": 1
 },
 "06": {
 "ad": "Milvus Robotics yönetici özeti (27 Eylül 2026)",
-"pdf": "Milvus_Yonetici_Ozeti.pdf"
+"pdf": "Milvus_Yonetici_Ozeti.pdf",
+"tur": "ozet",
+"kisa": "Milvus yönetici özeti",
+"sayfa_sayisi": 1
 },
 "07": {
 "ad": "Termal batarya özet (29 Eylül 2026)",
-"pdf": "Termal_Batarya_Ozet.pdf"
+"pdf": "Termal_Batarya_Ozet.pdf",
+"tur": "ozet",
+"kisa": "Termal batarya özeti",
+"sayfa_sayisi": 1
 },
 "08": {
 "ad": "Termal batarya araştırma (6 sayfa, 29 Eylül 2026)",
-"pdf": "Termal_Batarya_Arastirma.pdf"
+"pdf": "Termal_Batarya_Arastirma.pdf",
+"tur": "rapor",
+"kisa": "Termal batarya araştırması",
+"sayfa_sayisi": 6
 },
 "09": {
 "ad": "Giren kazanır 5+5 özet (30 Eylül 2026)",
-"pdf": "Giren_Kazanir_5_5_Ozet.pdf"
+"pdf": "Giren_Kazanir_5_5_Ozet.pdf",
+"tur": "ozet",
+"kisa": "Giren kazanır 5+5 özeti",
+"sayfa_sayisi": 1
 },
 "10": {
 "ad": "Giren kazanır 5+5 araştırma (20 sayfa, 30 Eylül 2026)",
-"pdf": "Giren_Kazanir_5_5_Arastirma.pdf"
+"pdf": "Giren_Kazanir_5_5_Arastirma.pdf",
+"tur": "rapor",
+"kisa": "Giren kazanır 5+5 araştırması",
+"sayfa_sayisi": 20
 },
 "gpt": {
 "ad": "GPT Astra 6 değerlendirme kartı (25 Eylül 2026)",
-"pdf": "MEKA_Yeni_Alanlar_GPT_Astra_6_Claude_Opus_5_5.pdf"
+"pdf": "MEKA_Yeni_Alanlar_GPT_Astra_6_Claude_Opus_5_5.pdf",
+"tur": "ozet",
+"kisa": "GPT Astra 6 değerlendirme kartı",
+"sayfa_sayisi": 2
 },
 "agac": {
 "ad": "Karar ağacı posteri (15 Ekim 2026)",
-"pdf": "MEKA_Karar_Agaci_1sayfa.pdf"
+"pdf": "MEKA_Karar_Agaci_1sayfa.pdf",
+"tur": "ozet",
+"kisa": "Karar ağacı posteri",
+"sayfa_sayisi": 1
 },
 "c_parcalayici": {
 "ad": "Mobil parçalayıcı: ek araştırma, iki tur (16 Ekim 2026, 3 sayfa)",
-"pdf": "Calisma_parcalayici.pdf"
+"pdf": "Calisma_parcalayici.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 3
 },
 "c_res_temel": {
 "ad": "RES temel paketi: ek araştırma, iki tur (16 Ekim 2026, 5 sayfa)",
-"pdf": "Calisma_res_temel.pdf"
+"pdf": "Calisma_res_temel.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 4
 },
 "c_belediye": {
 "ad": "Belediyeler: hafriyat ve inşaat atığı tesisleri, EKAP ihaleleri: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
-"pdf": "Calisma_belediye.pdf"
+"pdf": "Calisma_belediye.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 9
 },
 "c_balkon_ges": {
 "ad": "Balkon GES kiti: ek araştırma, iki tur (16 Ekim 2026, 5 sayfa)",
-"pdf": "Calisma_balkon_ges.pdf"
+"pdf": "Calisma_balkon_ges.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 9
 },
 "c_beylikova": {
 "ad": "Beylikova nadir toprak tesisi ve Eti Maden: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
-"pdf": "Calisma_beylikova.pdf"
+"pdf": "Calisma_beylikova.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 9
 },
 "c_milvus": {
 "ad": "Milvus Robotics, ODTÜ Teknokent: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
-"pdf": "Calisma_milvus.pdf"
+"pdf": "Calisma_milvus.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 6
 },
 "c_novator": {
 "ad": "Novator Enerji, ODTÜ Teknokent: ek araştırma, iki tur (16 Ekim 2026, 5 sayfa)",
-"pdf": "Calisma_novator.pdf"
+"pdf": "Calisma_novator.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 7
 },
 "c_pyramp": {
 "ad": "Pyramp, TU Dublin, atık ısıdan elektrik: ek araştırma, iki tur (16 Ekim 2026, 4 sayfa)",
-"pdf": "Calisma_pyramp.pdf"
+"pdf": "Calisma_pyramp.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 5
 },
 "c_enerji_verim": {
 "ad": "Bina su geri kazanımı, veri merkezi sıvı soğutma, buharlı sanayi ısı pompası: ek araştırma, iki tur (16 Ekim 2026, 3 sayfa)",
-"pdf": "Calisma_enerji_verim.pdf"
+"pdf": "Calisma_enerji_verim.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 3
 },
 "c_sav_istihkam": {
 "ad": "İstihkam ataşmanları: dozer bıçağı, mayın pulluğu ve silindiri: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
-"pdf": "Calisma_sav_istihkam.pdf"
+"pdf": "Calisma_sav_istihkam.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 9
 },
 "c_mineral": {
 "ad": "Mineral zenginleştirme: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
-"pdf": "Calisma_mineral.pdf"
+"pdf": "Calisma_mineral.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 9
 },
 "c_ssb_batarya": {
 "ad": "SSB batarya ekosistemi ve OTAĞ: ek araştırma (16 Ekim 2026, 6 sayfa)",
-"pdf": "Calisma_ssb_batarya.pdf"
+"pdf": "Calisma_ssb_batarya.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 6
 },
 "c_asfalt": {
 "ad": "Asfalt plenti: ek araştırma, iki tur (16 Ekim 2026, 4 sayfa)",
-"pdf": "Calisma_asfalt.pdf"
+"pdf": "Calisma_asfalt.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 4
 },
 "c_izle_meka": {
 "ad": "İzleme ve elenenler, MEKA tarafı: tavuk gübresi enerjisi, batarya geri dönüşümü, bazalt karbon kredisi, Ay madenciliği, türbin kanadı, kule gövdesi, plastik kırıcı: ek araştırma, iki tur (16 Ekim 2026, 2 sayfa)",
-"pdf": "Calisma_izle_meka.pdf"
+"pdf": "Calisma_izle_meka.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 2
 },
 "c_belirsiz": {
 "ad": "Alt dalı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge: ek araştırma, iki tur (16 Ekim 2026, 3 sayfa)",
-"pdf": "Calisma_belirsiz.pdf"
+"pdf": "Calisma_belirsiz.pdf",
+"tur": "ek",
+"kisa": "Ek araştırma, 16 Ekim 2026",
+"sayfa_sayisi": 3
 }
 },
 "dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Dal ve kol yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz yaprağın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; yapraklar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk yapraklar arası ve yaprak ile bölge arası tutarlılıkta: ağacın ön bandı yedi yaprakta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir yaprakta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B yapraklarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki yaprağın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
@@ -16559,21 +16987,7 @@ window.MEKA_DATA = {
 ],
 "genel": "Otuz dokuz yaprağın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; yapraklar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk yapraklar arası ve yaprak ile bölge arası tutarlılıkta: ağacın ön bandı yedi yaprakta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir yaprakta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B yapraklarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki yaprağın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı."
 },
-"arastirma_gerekenler": [
-"parcalayici: kanıt 1, kapsam kısmi. Tek paragraf ve iki kaynak. Gerçek araştırma gerekir: pazar büyüklüğü, yerli ve yabancı rakipler, Komptech dışı emsal, lastik tesis listesi. Ağaçta ikincil kalacaksa bu araştırma şart; yoksa izle bandına indirilmeli.",
-"res_temel: kanıt 2, kapsam kısmi. Tek dayanak YEKA duyurusu; yerlilik kapsamı, 36 ay kurulum ve 7 saha bilgisi web kaynaklı ve doğrulanmamış. Gerçek araştırma gerekir: YEKA şartnamesi, mevcut temel tedarikçileri, MEKA'nın farkı.",
-"beylikova: kanıt 2, güven 3, kapsam kısmi. Çalışmalarda tek cümle; kilit rakamlar webden. Araştırmadan çok görüşme gerekir: Eti Maden ihale takvimi ve kapsam. Masa başı araştırma yalnız web rakamlarının doğrulanması için.",
-"belediye: kanıt 2, kapsam kısmi. Tek belediye, tek ihale. Gerçek araştırma gerekir: EKAP geçmiş ihale taraması, yıllık ihale sayısı, kazananlar ve fiyatlar. Bu tarama ucuz ve yaprağın bandını belirler.",
-"milvus: kanıt 2, kapsam tam. Tek taslak özet. Araştırma değil teyit gerekir: yatırım turu adı ve tutarı, ODTÜ Teknokent bağı, Ekim 2025 verilerinin güncellenmesi.",
-"novator: kanıt 2, kapsam kısmi. Kaynak fuar sayfası ve şirket sitesi. Araştırma değil görüşme ve kayıt teyidi gerekir.",
-"pyramp: kanıt 2, kapsam kısmi. Tek şirket iddiası şirketin ifadesi, dayanak sponsorlu içerik. Gerçek araştırma gerekir: rakip taraması, tur durumu, İrlanda izin ve teşvik kuralları. 05'in andığı ayrıntılı tarama pakette yok.",
-"balkon_ges: kanıt 2, kapsam kısmi. 800 W kuralı tek haber kaynağına dayanıyor. Gerçek araştırma gerekir: EPDK mevzuat taraması, pazar büyüklüğü, ithal kit fiyatları.",
-"enerji_verim: kanıt 2, kapsam kısmi. Üç iş tek başlıkta ve hepsi iki cümle. Gerçek araştırma gerekir: gri su mevzuat metni, güncel veri merkezi kapasitesi, veri merkezi soğutma tedarikçileri. Önce üç konu ayrılmalı.",
-"asfalt: kanıt 2, kapsam kısmi. İzle bandında ve çalışma eylem önermiyor. Şimdilik araştırma gerekmez; yalnız satılık üretici çıkarsa bakılır.",
-"izle_meka: kanıt 2, kapsam kısmi. Yedi küçük kalem. Araştırma gerekmez; yalnız bazalt müşteri tipi ve 419 kr/kWh koşulu için kısa teyit yeter.",
-"belirsiz: kanıt 2, kapsam kısmi. Elendi bandında. Araştırma gerekmez; yalnız sıfırdan Ar-Ge satırı için 07 ve 08 açılıp gerekçe eklenmeli.",
-"Kanıt 3 ama kapsam kısmi üç yaprak: sav_istihkam (pazar rakamı ve muhatap yok), mineral (ürün ve proses bilgisi yok, Metso kapsamı okunmamış), ssb_batarya (OTAĞ sonucu yok). Bunlar için araştırmadan çok iç görev kapanışı gerekir."
-],
+"arastirma_gerekenler": [],
 "dilim_kurali": "Bütçe dilimi, işe gerçekten girmek için ilk 12-24 ayda gereken para (giriş bileti); ilk temas ve belge maliyeti değil. 1: 100 bin $ altı, 2: 100 bin ile 1 M$, 3: 1 ile 10 M$, 4: 10 M$ üstü. Yatırım kapısı: sahada MEKA makinesi gerekiyorsa şirket; gerekmiyorsa ikisi de olur.",
 "durum": {}
 };

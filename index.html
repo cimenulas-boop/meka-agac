@@ -25,6 +25,7 @@ h1 { font-size: 34px; font-weight: 700; }
 h2 { font-size: 26px; font-weight: 700; }
 h3 { font-size: 21px; font-weight: 700; }
 p { margin: 0; }
+#app { overflow-wrap: break-word; }
 button { font: inherit; cursor: pointer; }
 .wrap { max-width: 980px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 14px 48px; display: flex; flex-direction: column; gap: 16px; }
 #bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--ink); color: #fff; }
@@ -40,7 +41,7 @@ button { font: inherit; cursor: pointer; }
 .muted { color: var(--sub); font-size: 15px; }
 .tiny { color: var(--grey); font-size: 13px; }
 .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-.pill { display: inline-flex; align-items: center; gap: 5px; font-size: 13.5px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: var(--track); color: var(--sub); white-space: nowrap; }
+.pill { display: inline-flex; align-items: center; gap: 5px; font-size: 13.5px; font-weight: 600; padding: 3px 9px; border-radius: 14px; background: var(--track); color: var(--sub); white-space: normal; max-width: 100%; }
 .pill.acc { background: var(--acc-soft); color: var(--acc); }
 .pill.steel { background: var(--steel-soft); color: var(--steel); }
 .pill.ok { background: var(--ok-soft); color: var(--ok); }
@@ -96,7 +97,7 @@ ul.plain { margin: 0; padding-left: 20px; display: flex; flex-direction: column;
 .tl { display: flex; flex-direction: column; }
 .tl .e { display: grid; grid-template-columns: 96px 14px minmax(0, 1fr); gap: 8px; align-items: start; padding: 7px 0; border-top: 1px solid var(--rule); }
 .tl .e:first-child { border-top: 0; }
-.tl .d { font-weight: 600; font-size: 14.5px; text-align: right; white-space: nowrap; }
+.tl .d { font-weight: 600; font-size: 14.5px; text-align: right; white-space: normal; }
 .tl .dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 7px; }
 .tl .gecti .d, .tl .gecti .t { color: var(--grey); } .tl .gecti .dot { background: var(--grey); }
 .tl .yakin .d { color: var(--acc); } .tl .yakin .dot { background: var(--acc); }
@@ -118,6 +119,15 @@ body.editing .edit { display: flex; }
 .edit label { font-size: 14px; color: var(--sub); display: flex; flex-direction: column; gap: 3px; }
 .btn { border: 1px solid var(--rule); background: var(--card); padding: 7px 12px; border-radius: 8px; font-size: 15px; }
 .btn.primary { background: var(--acc); border-color: var(--acc); color: #fff; }
+.fullrow { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+a.fullbtn { display: flex; align-items: center; gap: 12px; flex: 1 1 260px; min-width: 0; padding: 12px 16px; border-radius: 10px; border: 1px solid var(--acc); background: var(--acc); color: #fff; text-decoration: none; }
+a.fullbtn.alt { background: var(--card); color: var(--acc); }
+a.fullbtn svg { flex: none; }
+a.fullbtn .fb { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+a.fullbtn .l1 { font-family: var(--disp); font-weight: 700; font-size: 23px; line-height: 1.05; }
+a.fullbtn .l2 { font-size: 14px; line-height: 1.25; opacity: 0.92; overflow-wrap: anywhere; }
+a.fullbtn:hover { filter: brightness(1.07); }
+a.fullbtn:focus-visible { outline: 3px solid var(--steel); outline-offset: 2px; }
 .task { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 8px; align-items: start; font-size: 15px; }
 .task.done { color: var(--grey); text-decoration: line-through; }
 .foot { color: var(--grey); font-size: 13px; border-top: 1px solid var(--rule); padding-top: 10px; }
@@ -199,10 +209,19 @@ body.editing .edit { display: flex; }
     var u = uyum(t); var b = bantOf(t); var s = saha(t.id);
     return '<a class="leaf' + (u.ok ? '' : ' off') + '" href="#/konu/' + t.id + '"><span class="sym ' + b + '">' + BANT_SYM[b] + '</span><span class="t">' + e(t.kisa || t.baslik) + (s.saha_bant || s.saha_puan ? ' <span class="tiny">· saha' + (s.saha_puan ? ' ' + e(s.saha_puan) + '/5' : '') + '</span>' : '') + '</span><span class="s">' + e(t.puan_kisa || '') + '</span></a>';
   }
-  function pdfLink(tc) {
-    var f = D.dosyalar[tc.dosya]; if (!f) return '';
-    var href = 'pdf/' + f.pdf + (tc.sayfa ? '#page=' + tc.sayfa : '');
-    return '<a href="' + href + '" target="_blank" rel="noopener">' + e(f.ad) + (tc.sayfa ? ', s. ' + tc.sayfa : '') + '</a>' + (tc.bolum_basligi ? ' <span class="tiny">' + e(tc.bolum_basligi) + '</span>' : '');
+  var DOC_ICON = '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/></svg>';
+  function butonlarHtml(t) {
+    var bs = t.butonlar || [];
+    if (!bs.length) return '';
+    var ETIKET = { tam: 'Tam çalışmayı aç', ana: 'Ana raporda ilgili bölüm', kaynak: 'Kaynak belgeyi aç' };
+    var html = '<div class="fullrow">' + bs.map(function (b, i) {
+      var f = D.dosyalar[b.dosya]; if (!f) return '';
+      var href = 'pdf/' + f.pdf + (b.sayfa && b.sayfa > 1 ? '#page=' + b.sayfa : '');
+      var l2 = (f.kisa || f.ad) + ' · ' + (f.sayfa_sayisi ? f.sayfa_sayisi + ' sayfa' : 'PDF') + (b.sayfa && b.sayfa > 1 ? ' · s. ' + b.sayfa : '');
+      return '<a class="fullbtn' + (i ? ' alt' : '') + '" href="' + e(href) + '" target="_blank" rel="noopener">' + DOC_ICON + '<span class="fb"><span class="l1">' + ETIKET[b.rol] + '</span><span class="l2">' + e(l2) + '</span></span></a>';
+    }).join('') + '</div>';
+    if (bs[0].rol === 'kaynak') html += '<p class="tiny" style="margin-top:6px">Bu yaprak için ayrı bir tam çalışma yok; özet bu kaynak belgelere dayanıyor.</p>';
+    return html;
   }
   function ilerleme(id) {
     var d = durum[id] || {}; var g = d.gorevler || []; var bitti = g.filter(function (x) { return x.bitti; }).length;
@@ -277,7 +296,7 @@ body.editing .edit { display: flex; }
     var t = topic(id); if (!t) return '<div class="card">Yaprak bulunamadı.</div>';
     var u = uyum(t); var k = t.kapilar || {}; var il = ilerleme(id);
     var h = '<a class="back" href="#/bolge/' + t.kol_id + '">‹ ' + e(t.kol_ad) + '</a>';
-    h += '<div><div class="eyebrow">' + e(t.dal_ad) + ' · ' + e(t.kol_ad) + '</div><h1>' + e(t.baslik) + '</h1>' +
+    h += '<div><div class="eyebrow">' + e(t.dal_ad) + ' · ' + e(t.kol_ad) + '</div><h1>' + e(t.baslik) + '</h1>' + butonlarHtml(t) +
       '<div class="row" style="margin-top:8px"><span class="pill ' + (bantOf(t) === 'one_cikan' ? 'acc' : '') + '"><span class="sym ' + bantOf(t) + '">' + BANT_SYM[bantOf(t)] + '</span>' + BANT_AD[bantOf(t)] + (saha(t.id).saha_bant ? ' (saha kararı)' : '') + '</span><span class="pill steel">' + e(t.puan_kisa || '') + '</span><span class="pill">kaynak tarihi ' + e(t.tarih) + '</span><span class="pill">kanıt ' + e(t.kanit) + '/5</span><span class="pill ' + (t.kapsam === 'tam' ? 'ok' : 'warn') + '">kapsam: ' + e(t.kapsam === 'tam' ? 'tam çalışma var' : (t.kapsam === 'kismi' ? 'kısmen çalışıldı' : 'çalışılmadı')) + '</span>' + (u.ok ? '' : '<span class="pill warn">seçime uymaz</span>') + '</div></div>';
     if (t.kapsam !== 'tam' && t.kapsam_notu) h += '<div class="card soft"><p>' + e(t.kapsam_notu) + '</p></div>';
     if (t.puan_metni) h += '<div class="card"><div class="eyebrow">Puan ve sıra</div><p class="muted">' + e(t.puan_metni) + '</p></div>';
@@ -320,8 +339,7 @@ body.editing .edit { display: flex; }
     if (t.riskler && t.riskler.length) h += '<div class="card"><div class="eyebrow">Riskler</div><ul class="plain">' + t.riskler.map(function (q) { return '<li>' + e(q) + '</li>'; }).join('') + '</ul></div>';
     if (t.takvim && t.takvim.length) h += '<div class="card"><div class="eyebrow">Bu konunun takvimi</div>' + tlHtml(t.takvim.map(function (x) { return { tarih: x.tarih, iso: x.iso, olay: x.olay, kaynak: x.kaynak }; })) + '</div>';
     if (t.celiskiler && t.celiskiler.length) h += '<div class="card soft"><div class="eyebrow">Çalışmalar arası çelişki</div><ul class="plain">' + t.celiskiler.map(function (q) { return '<li>' + e(q) + '</li>'; }).join('') + '</ul></div>';
-    h += '<div class="card"><div class="eyebrow">Tam çalışma ve kaynaklar</div>' +
-      (t.tam_calisma && t.tam_calisma.length ? '<ul class="plain">' + t.tam_calisma.map(function (tc) { return '<li>' + pdfLink(tc) + '</li>'; }).join('') + '</ul>' : '<p class="muted">Bu yaprak için ayrı tam çalışma yok.</p>') +
+    h += '<div class="card"><div class="eyebrow">Kaynaklar ve doğrulama</div>' +
       (t.kaynaklar && t.kaynaklar.length ? '<p class="tiny">Dayandığı bölümler: ' + t.kaynaklar.map(function (s) { return e(s.dosya) + ' (' + e(s.bolum) + (s.tarih ? ', ' + e(s.tarih) : '') + ')'; }).join(' · ') + '</p>' : '') +
       (t.web && t.web.length ? '<p class="tiny">Web kaynakları (' + e(D.derleme_tarihi) + '): ' + t.web.map(function (w) { return '<a href="' + e(w.url) + '" target="_blank" rel="noopener">' + e(w.ne) + '</a>'; }).join(' · ') + '</p>' : '') +
       (t.degisiklikler && t.degisiklikler.length ? '<details><summary>Doğrulama notları (' + t.degisiklikler.length + ')</summary><ul class="plain" style="margin-top:6px">' + t.degisiklikler.map(function (q) { return '<li class="tiny">' + e(q) + '</li>'; }).join('') + '</ul></details>' : '') + '</div>';
@@ -353,11 +371,6 @@ body.editing .edit { display: flex; }
   function neYapmaliHtml() {
     var h = '<a class="back" href="#/">‹ Ağaca dön</a><div><div class="eyebrow">Ne yapmalıyız</div><h1>Seçime göre ilk adımlar</h1><p class="muted">' + e(secimMetni()) + '</p></div>';
     h += gatesHtml();
-    var undecided = [];
-    if (sel.yatirim === 'hepsi') undecided.push('Yatırım kişisel mi, şirket üzerinden mi?');
-    if (sel.butce === 'hepsi') undecided.push('İlk bütçe dilimi ne?');
-    if (sel.yol === 'hepsi') undecided.push('Kuralım mı, ortak mı olalım?');
-    if (undecided.length) h += '<div class="card soft"><div class="eyebrow">Önce karar</div><p>Yönetimden cevap bekleyen sorular (27 Eylül 2026\'dan beri açık):</p><ul class="plain">' + undecided.map(function (q) { return '<li>' + e(q) + '</li>'; }).join('') + '</ul></div>';
     D.agac.forEach(function (br) {
       var r = region(br.id); if (!r) return;
       var steps = (r.ne_yapmali || []).filter(function (s) { var t = topic(s.konu_id); return !t || uyum(t).ok; });
@@ -367,7 +380,6 @@ body.editing .edit { display: flex; }
       }).join('') + (steps.length ? '' : '<p class="muted">Seçime uyan adım yok.</p>') + '</div></div>';
     });
     h += '<div class="card"><div class="eyebrow">Her zaman</div><ul class="plain">' + D.sabit_adimlar.map(function (s) { return '<li>' + e(s) + '</li>'; }).join('') + '</ul></div>';
-    if (D.arastirma_gerekenler && D.arastirma_gerekenler.length) h += '<div class="card soft"><div class="eyebrow">Gerçek araştırma gereken yapraklar</div><p class="muted">Eleştirmen notu: kanıtı 2 ve altı olan yapraklar. Bunlar özet değil, yeni çalışma ister.</p><ul class="plain">' + D.arastirma_gerekenler.map(function (s) { var m = s.match(/^([a-z_]+):/); var t = m && topic(m[1]); return '<li>' + (t ? '<a href="#/konu/' + t.id + '">' + e(t.kisa) + '</a>' + e(s.slice(m[0].length)) : e(s)) + '</li>'; }).join('') + '</ul></div>';
     return h;
   }
 
