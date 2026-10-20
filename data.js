@@ -1,10 +1,10 @@
 window.MEKA_DATA = {
-"baslik": "İki dal, altı kol, 51 yaprak",
+"baslik": "İki dal, altı kol, 53 yaprak",
 "alt_baslik": "Her yaprakta bir sayfalık özet, altında tam çalışma. Üst dal kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 yaprak 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
 "derleme_tarihi": "20 Ekim 2026",
 "bugun_iso": "2026-10-20",
-"surum": "Sürüm 20 Ekim 2026, 6. tur · Bağımsız dalın 13 yaprağı derin çalışmayla yenilendi; ODTÜ yaprağı altıya ayrıldı; keşif turuyla 7 yeni yaprak; 48 yaprak üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
+"surum": "Sürüm 20 Ekim 2026, 7. tur · MEKA dalının en yüksek puanlı 8 yaprağı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık yaprakları eklendi; 50 yaprak üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
 "agac": [
 {
 "id": "meka",
@@ -37,6 +37,8 @@ window.MEKA_DATA = {
 "asfalt",
 "dc_ehouse",
 "turbin_yan",
+"elektrikli_oto",
+"cin_otobus_ort",
 "izle_meka"
 ]
 },
@@ -116,166 +118,201 @@ window.MEKA_DATA = {
 "id": "sav_prekast",
 "baslik": "Tahkimat prekast hattı",
 "bant": "one_cikan",
-"puan_metni": "4,35 / 5, yedi kriterli ağırlıklı puan, 24 savunma nişi içinde 1. sıra, sınıf Birincil. Kriter puanları: teknik uyum 5, ihracat pazarı 4, giriş engeli 5, rekabet 3, gelire ulaşma süresi 4, yatırım ihtiyacı 4, öz iş sinerjisi 5. Baz, pazar odaklı ve eşit ağırlık senaryolarında 1. sırada; hızlı nakit senaryosunda tahkimat kalıp ve gabion paketinin ardında 2. sırada. Kaynak: 01 rapor, s_score, Tablo 7.1 ve Tablo 7.2. Teknik uyum puanı kamuya açık bilgiye dayanır, tesis verisi gelince güncellenecek.",
-"tarih": "22 Eylül 2026",
-"ne": "NATO'nun doğu kanadındaki tahkimat programlarına bitmiş beton ürün değil, üretim sistemi satmak. Paket prekast beton santrali, agrega hattı, ejder dişi, beton kirpi, T-duvar ve bunker segmenti için çelik batarya kalıpları, kür sistemi ve otomasyondan oluşuyor. Alıcı Polonya, Baltık, Finlandiya ve Ukrayna'daki prekast üreticileri ile müteahhitler; satış kanalı mevcut bayi ağı. Ürün ihracat kontrolü dışında, ticari B2B satış. Kaynak: 01 rapor, s_fort, Rol 1; s_road, Tablo 9.1.",
-"neden": "Prekast santral, kalıp ve otomasyon MEKA'nın çekirdek işi. Esenboğa üçüncü pistte kurulan 140 m³/saat kapasiteli K145 santrali hazır referans. Ürün kontrol dışı, ihracat izni gerektirmiyor ve mevcut bayi ağıyla satılabiliyor. Bu yüzden rapor 24 niş içinde en yüksek puanı buraya veriyor ve 0 ile 12 ay arasında hızlı kazanım sayıyor; 7.1 bölümü en hızlı gelirin buradan geleceğini yazıyor. Talep 2025 ve 2026 bütçe ve sözleşmeleriyle belgeli. Alıcılar AB ve NATO ülkelerindeki prekast firmaları, ödeme riski puanı 4; Ukrayna için bağışçı finansmanı şart. Eksik olan kalıp ve kür sistemleri ile tahkimat tasarım bilgisi. Kaynak: 01 rapor, s_fort, Rol 1 ve Tablo 8.1.2; s_score 7.1; s_exec Sonuç kutusu.",
+"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi öne çıkan: Beş savunma kolunun en düşük bileti (0,47 ile 0,88 milyon avro), en kısa ilk gelir süresi (9 ile 15 ay) ve tam MEKA uyumu; talep ve alıcılar resmî ihale kayıtlarıyla isimli; iki açık soru resmî kaynakla kapandı. Mutlak kâr küçük (yıl 5 brüt kârı 0,2 ile 1,0 milyon avro) ve Polonya'da fiyat düşüşü kapasite argümanını zayıflattı; bu yüzden öne çıkan bant, Eylül 2027'de ilk sipariş yoksa izle bandına inme şartıyla. Önceki çalışmanın kendi puanı: 4,35 / 5, yedi kriterli ağırlıklı puan, 24 savunma nişi içinde 1. sıra, sınıf Birincil. Kriter puanları: teknik uyum 5, ihracat pazarı 4, giriş engeli 5, rekabet 3, gelire ulaşma süresi 4, yatırım ihtiyacı 4, öz iş sinerjisi 5. Baz, pazar o…",
+"tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 22 Eylül 2026",
+"ne": "NATO doğu kanadındaki tahkimat programlarına bitmiş beton ürün değil, üretim sistemi satmak. Paket: MEKA prekast beton santrali (0,33 ile 2,0 m³ karıştırıcı, kış paketi), isteğe bağlı mobil kırma eleme hattı, ejder dişi, beton kirpi, T-duvar ve bunker segmenti için çelik batarya kalıpları, kür ve otomasyon. Alıcı Polonya ve Baltık'taki prekast üreticileri; Polonya'da Ekim 2025 ile Ekim 2026 arasında TED'de yayımlanan kirpi ve mevzi elemanı sözleşmelerini kazanan Małro, Transbet, Gralbet, VECO-BET, Kruszbet, Elbud Gdańsk ve Drogi i Mosty gibi firmalar isimli hedef. Satış kanalı mevcut bayi ağı ve Esenboğa K145 referansı. Kaynak: TED 10621-2026, 496566-2026, 625610-2026, 662217-2026; MEKA ürün sayfası; 01 rapor Rol 1.",
+"neden": "Paket MEKA'nın çekirdek ürünüdür ve bilet beş savunma kolunun en düşüğüdür: ilk 24 ayda 0,47 ile 0,88 milyon avro, bunun 80 ile 160 bin avrosu beşe bölünmüş ortak belge ve test payı. Talep belgeli: Polonya'da son on iki ayda yalnızca TED'de görülen kirpi ve mevzi elemanı sözleşmeleri 293,5 milyon PLN, yaklaşık 70 milyon avro; Estonya 600 bunker için 60 milyon avro ayırdı ve ihale Şubat 2026'da açıldı; Litvanya 27 karşı hareketlilik parkını 50'ye çıkarmayı öneriyor. MEKA'nın KAP'a bildirdiği santral siparişleri birim fiyat mertebesini veriyor: 2025 ve 2026'da adet başına 165 ile 490 bin avro. Konsolide brüt marj 2025'te yüzde 21,5 ve 2026 ilk yarıda yüzde 24,3. Bu verilerle yıl 3 brüt kârı 0,45 ile 1,25 milyon avro, geri ödeme 24 ile 42 ay. Kârın mutlak büyüklüğü küçük ama risk ve bilet de küçük. Kaynak: TED kayıtları; KAP bildirimleri (Borsagündem, Rotaborsa, Midas); İş Yatırım MEKAG finansal tablosu; ECDI.",
 "rakamlar": [
 {
-"deger": "10 milyar PLN, yaklaşık 2,5 milyar $",
-"aciklama": "Polonya Doğu Kalkanı bütçesi 2024-2028. 2025'te 870 milyon PLN'nin üzerinde taahhüt; Mayıs 2026'ya kadar 1,4 milyar PLN sözleşme. Yaklaşık 700 km hat; 2026 hedefi yaklaşık 260 km ve 37 depo. Ekim 2026'ya kadar yaklaşık 300.000 beton kirpi, günde yaklaşık 1.000 teslimat.",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1"
+"deger": "42.839.186 PLN",
+"aciklama": "Polonya 16. Askerî Ekonomik Birim (16 WOG, Oleszno) Doğu Kalkanı tahkimat malzemesi ihalesinin gerçek sözleşme toplamı; 18 lot, sözleşmeler 8 Eylül 2026, TED yayını 10 Eylül 2026. Kazananlar Stropy Małro (Radzionków), Transbet Betoniarnie Grochowicz (Przemyśl), Drogi i Mosty Jan Kaczmarczyk (Pułtusk). İlan değeri 63,03 milyar PLN veri hatasıydı; kirpi lotları 6.817.200 PLN. Lot adetleri ilanda yok. On sekiz lot bedelinin toplamı 39.839.186 PLN, ilanın toplam alanı 42.839.186 PLN; 3 milyon PLN fark ilanda açıklanmıyor.",
+"kaynak": "resmi, TED 625610-2026 ve 497991-2026, https://ted.europa.eu/en/notice/-/detail/625610-2026"
 },
 {
-"deger": "600 bunker, 60 milyon €",
-"aciklama": "Estonya Baltic Defence Line manga bunkeri programı; 2026 ödeneği yaklaşık 30 milyon €; kurulum yaklaşık bir yıl gecikti; Haziran 2026'da 28 pilot bunker; 20.000'den fazla ejder dişi ve 10 km'den uzun hendek. 600 bunker için Estonya ile Letonya ortak rekabetçi müzakereli ihalesi Şubat 2026'da başladı, sonucu Eylül 2026 itibarıyla açıklanmadı.",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1"
+"deger": "1.282 ile 1.747 PLN adet başı, yaklaşık 300 ile 410 avro",
+"aciklama": "12 WOG beton kirpi (gwiazdoblok) sözleşmeleri, 27 ve 28 Ekim 2025; 6 lot, her lot 1.800 temel artı 6.500 opsiyon, toplam 49.800 adet için 69.992.904 PLN. Kazananlar Marło, Stropy Małro, F.U.H. Marcin Czarnowski, Gralbet. Kur 4,25 PLN/avro varsayımı.",
+"kaynak": "resmi, TED 10621-2026, https://ted.europa.eu/en/notice/-/detail/10621-2026"
 },
 {
-"deger": "303 milyon € ve 1,1 milyar €",
-"aciklama": "Letonya 2024-2028 beş yıllık bütçesi 303 milyon €; 1.000'den fazla bunker planı; 1,5 tonluk ejder dişi ve tank hendeği inşaatı Mayıs 2026'da başladı, 2028'de tamamlanma. Litvanya 10 yıllık karşı hareketlilik bütçesi 1,1 milyar €, Ağustos 2025 açıklaması; 27 park, 50'ye çıkarma önerisi.",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1"
+"deger": "847 PLN adet başı, yaklaşık 200 avro",
+"aciklama": "6 WOG Ustka, 34.800 beton kirpi (24.000 temel artı 10.800 opsiyon) için 29.475.600 PLN, sözleşme 7 Eylül 2026, kazanan Małro Sp. z o.o.; en yüksek teklif 48.024.000 PLN yani 1.380 PLN/adet. Mevzi plakası 85x85x5 cm 103 PLN, trapez eleman 218 PLN. Bir yılda kirpi fiyatı yaklaşık yüzde 40 düştü.",
+"kaynak": "resmi, TED 662217-2026, https://ted.europa.eu/en/notice/-/detail/662217-2026"
 },
 {
-"deger": "4,5 ile 5,5 milyar €",
-"aciklama": "Doğu kanadı tahkimat programlarının toplam kanıtlanmış bütçesi; raporda tahmini birleştirme olarak işaretli.",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1 notu"
+"deger": "133.118.441 PLN",
+"aciklama": "13 WOG Doğu Kalkanı tahkimat malzemesi (kirpi, trapez plaka, mevzi plakası, istinat duvarı prekastı) 7 sözleşme, 13 Temmuz 2026; temel adetler sekiz depoya 56.200 kirpi, 13.240 trapez plaka, 5.220 mevzi plakası, 153 istinat duvarı elemanı; tahmini bedel 167,0 milyon PLN, sonuç yüzde 20 altında. İlan, karşılıklılık anlaşması olmayan üçüncü ülke alt yüklenicilerini yasaklıyor; ekipman tedarikçisi bu kapsamda değil. Kazananlar VECO-BET, Kruszbet, WPŻ Elbud Gdańsk, Transbet, Drogi i Mosty, Elementy Budowlane Radymno, Gralbet.",
+"kaynak": "resmi, TED 496566-2026, https://ted.europa.eu/en/notice/-/detail/496566-2026"
 },
 {
-"deger": "155 ile 220 € adet başı",
-"aciklama": "1,5 tonluk Letonya tipi ejder dişinin Ankara'dan Baltık'a kara yolu nakliyesi; raporda tahmin olarak işaretli. Ürünün malzeme ve işçilik maliyeti mertebesinde; bu yüzden bitmiş ürün değil üretim sistemi satılacak. Bir kompakt santral, mobil kırıcı ve kalıp seti 8 ile 15 tırla gidiyor.",
-"kaynak": "01 rapor, s_fort, Ürün ihracatı değil, üretim sistemi ihracatı"
+"deger": "293,5 milyon PLN, yaklaşık 70 milyon avro",
+"aciklama": "Ekim 2025 ile Ekim 2026 arasında TED'de yayımlanan Polonya prekast tahkimat sözleşmelerinin toplamı (12, 13, 16, 6 WOG ve 12 WOG D/29 serisi); hesap bu çalışmanın toplaması, opsiyonlar dahil: 69,99 artı 133,12 artı 42,84 artı 31,03 artı 16,55 milyon PLN. 2026'da lojistik birimleri en az 900 milyon PLN harcayacak.",
+"kaynak": "resmi, TED kayıtları; haber, Defence24, https://defence24.pl/sily-zbrojne/900-milionow-na-wsparcie-tarczy-wschod-logistycy-z-nowa-technologia"
 },
 {
-"deger": "15.000 ile 40.000 €",
-"aciklama": "8 ile 12 gözlü seri ejder dişi kalıbı fiyat mertebesi; tahmin. Tekli kalıp 1.500 ile 4.000 €, modüler bunker segment kalıbı 30.000 ile 80.000 €. Türkiye'de ejder dişi kalıbı nişi boş görünüyor; tahmin.",
-"kaynak": "01 rapor, s_fort, Rol 3"
+"deger": "60 milyon avro, 600 bunker, en çok 100 bin avro bunker başı",
+"aciklama": "Estonya ECDI rekabetçi müzakereli ihalesi 19 Şubat 2026'da açıldı, Letonya Savunma Bakanlığı'nın katılımı ECDI duyurusunda görüşme aşamasında, ERR'de ortak; 2026 ödeneği yaklaşık 30 milyon avro; ilk aşama 5,6 milyon avro (2024'te 1,2, 2025'te 4,4). Haziran 2026'da 28 pilot bunker; hedef 2027 sonunda 600 bunker. Bunker modülü en çok 10 ton, 35 m², on askerlik birim için; endirekt ateşe karşı koruma. Kazanan 20 Ekim 2026 itibarıyla açıklanmadı. Bunker başı rakam bütçe bölü adet, bu çalışmanın hesabı.",
+"kaynak": "resmi, ECDI, https://www.kaitseinvesteeringud.ee/en/baltic-defence-line/ ve https://www.kaitseinvesteeringud.ee/en/estonia-procures-hundreds-of-bunkers-for-the-baltic-defence-line/"
 },
 {
-"deger": "400 ile 800 bin €",
-"aciklama": "36 aylık belgelendirme, test ve altyapı bütçesi, dört kolun toplamı; tahmin. Bunun içinde flat rack, konteyner gövdesi ve kalıp seti prototipleri 50 ile 150 bin €. Kayıtlar ücretsiz. Desteklerle net maliyet yaklaşık yarıya iniyor.",
-"kaynak": "01 rapor, s_road, Tablo 9.2"
+"deger": "165 ile 490 bin avro santral başı",
+"aciklama": "MEKA'nın KAP'a bildirdiği beton santrali siparişleri: 26 Şubat 2025 3 adet 1.044.000 avro KDV dahil; 11 Temmuz 2025 2 adet 554.000 avro KDV hariç; 11 Eylül 2025 yurt dışı 4 adet 1.949.600 avro; 22 Nisan 2026 yurt dışı 6 adet 983.000 avro; 7 Mayıs 2026 4 adet 1.178.000 dolar; 31 Temmuz 2026 2 adet 879.000 avro KDV dahil; 2 Eylül 2026 yurt dışı 3 adet 715.000 avro; 29 Temmuz 2026 kırma eleme tesisi 651.700 avro.",
+"kaynak": "borsa bildirimi, KAP üzerinden Borsagündem, Rotaborsa ve Midas özetleri, https://www.borsagundem.com.tr/meka-globalin-bagli-ortakligi-yurt-disindan-beton-santrali-siparisi-aldi"
+},
+{
+"deger": "yüzde 21,5 ve yüzde 24,3",
+"aciklama": "MEKA Global konsolide brüt kâr marjı: 2025 yılı satış 3.386,3 milyon TL, brüt kâr 728,9 milyon TL; 2026 ilk altı ay satış 1.504,4 milyon TL, brüt kâr 366,3 milyon TL. 2026 ilk altı ay net zarar 60,4 milyon TL. Tek kaynak, İş Yatırım şirket kartı; sayfa çürütme turunda açılamadı (boş yanıt), marj rakamları doğrulanamadı. Midas KAP özeti yalnız 6 aylık net satış 1,50 milyar TL ve net zarar 60,37 milyon TL rakamlarını veriyor.",
+"kaynak": "borsa verisi, https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=MEKAG"
+},
+{
+"deger": "914 ile 1.026 PLN adet başı, yaklaşık 215 ile 240 avro",
+"aciklama": "12 WOG D/29/12WOG/2026 kirpi lotları, her lot 1.600 temel artı 1.600 opsiyon, 2,92 ile 3,28 milyon PLN, sözleşme 25 Eylül 2026, kazanan Transbet Betoniarnie Grochowiec; trapez eleman 274 PLN (sözleşme 26 Ağustos 2026), plaka 128 PLN. Seri 9 lot: 6 kirpi, 1 plaka, 2 trapez; 705410 yalnız 5. lotu veriyor (3.084.800 PLN, 964 PLN/adet, 11 teklif, en yüksek 4.256.000 PLN), öteki kirpi lotları kardeş kayıtlardan.",
+"kaynak": "resmi, TED 705410-2026 ve 615629-2026, https://ted.europa.eu/en/notice/-/detail/705410-2026"
+},
+{
+"deger": "1.080 ile 1.725 UAH adet başı, yaklaşık 24 ile 38 avro",
+"aciklama": "Ukrayna ejder dişi (PZ-1 piramit) fiyatları: Kramatorsk belediye işletmesi 11.000 adet 17,49 milyon UAH, 1.590 UAH/adet, 22 Nisan 2024; Bud-Tekhprom 50.000 adet 64,7 milyon UAH KDV dahil, 1.294 UAH/adet; Harkiv teklifleri 950 ile 1.400 UAH; Zaporijya 45.000 adetlik 70,2 milyon UAH'lık ihale finansman yokluğundan iptal. Kur 45 UAH/avro varsayımı.",
+"kaynak": "haber, https://freeradio.com.ua/u-kramatorsku-hromadu-kupyly-11-tysiach-zubiv-drakona-na-ponad-17-mln-hrn-detali/ ve https://ngl.media/en/2025/09/10/fragile-dragon-s-teeth/"
+},
+{
+"deger": "4 milyon avrodan fazla",
+"aciklama": "Litvanya Silahlı Kuvvetleri Lojistik Komutanlığı'nın Haziran 2024 karşı hareketlilik alımı: ejder dişi, Çek kirpisi, cheval de frise ve beton yol bariyeri, 2024 sonuna teslim; 27 park 2026'da tam donanımlı, 50'ye çıkarma önerisi.",
+"kaynak": "sektör haberi, https://defence-industry.eu/lithuania-acquires-engineering-countermobility-means-for-baltic-defence-line-project/ ; Wikipedia LRT atfı"
+},
+{
+"deger": "45 milyon avro (2025) ve 303 milyon avro (5 yıl)",
+"aciklama": "Letonya doğu sınırı askerî güçlendirme 2025 ödeneği 45 milyon avro; Ağustos 2025 ihalesi 4.800'den fazla çit kazığı ve 1.000'den fazla tanksavar yapı; bunker inşaatı kademeli, VNI (Valsts Nekustamie Īpašumi) organizasyonda; Estonya şartnameleri kullanılıyor.",
+"kaynak": "haber, https://www.baltictimes.com/construction_of_bunkers_and_other_fortifications_along_baltic_defense_line_to_be_gradual_-_defense_ministry/ ve https://www.eurointegration.com.ua/news/2025/08/5/7217335/"
+},
+{
+"deger": "260 km ve 37 depo, 2026 sonu",
+"aciklama": "Polonya Doğu Kalkanı 2026 hedefi; 2025'te 60 km, 13 depo, 870 milyon PLN'den fazla sözleşme; UBM iki set 2. İstihkam Alayı (Inowrocław) ve 16. Pist Onarım Taburu'nda (Jarocin), iki set daha isteniyor.",
+"kaynak": "haber, Defence24, https://defence24.pl/polityka-obronna/co-z-tarcza-wschod-w-2026-wojsko-przedstawia-plan"
+},
+{
+"deger": "ML13.b Not 1 ve ML18.a",
+"aciklama": "Wassenaar Mühimmat Listesi 2025: ML13.b askerî sığınak inşası için özel tasarlanmış malzemeleri kapsıyor; ML18.a listedeki ürünlerin üretimi için özel tasarlanmış ekipmanı kapsıyor. Bunker segment kalıbı bu gri alana girebilir; ejder dişi, kirpi ve T-duvar kalıbı için böyle bir madde yok.",
+"kaynak": "resmi, https://www.wassenaar.org/wp-content/uploads/2026/07/Stand-alone-Munitions-List-2025-Corr.pdf"
 }
 ],
-"durum": "Çalışma 22 Eylül 2026'da bitti. Niş 24 aday içinde 1. sırada, dört kolun birincisi ve 0 ile 12 ay arası hızlı kazanım. Rapor doğrulama aşamasının yaklaşık yarısını kullanım limiti nedeniyle tamamlayamadı; kontrol edilen 38 iddianın 13'ü düzeltildi. Verilen dosyalarda kalıp kataloğu, prekastçı temasları, MSB sınıflandırma görüşü ve Ek A tesis veri formu için tamamlandı kaydı yok; 30 Eylül 2026 tarihli YETEN kaydı ve SSB 2027 fuar desteği başvurusunun yapıldığına dair kayıt da yok, bu tarih geçti. Ön bant one_cikan korunuyor; rapor 7.1 bölümünde en hızlı gelirin bu nişten geleceğini açıkça yazıyor ve Tablo 7.1 sınıfı Birincil. İlk 90 gün penceresi hesapla 21 Aralık 2026'da kapanıyor; bu tarih raporda yazılı değil, 22 Eylül 2026 artı 90 gün hesabı.",
+"durum": "Çalışma 20 Ekim 2026'da derin turla yenilendi. Önceki iki açık soru resmî kaynakla kapandı: 16 WOG ihalesinin gerçek değeri 42,8 milyon PLN ve kazananlar TED'de yayımlandı; Polonya'da son on iki ayın prekast tahkimat sözleşmeleri yaklaşık 70 milyon avro ve kazanan on firma isimli. Estonya ile Letonya'nın 600 bunker ihalesi 19 Şubat 2026'da açıldı, kazanan 20 Ekim 2026 itibarıyla hiçbir resmî ya da haber kaynağında yok. Ekonomi modeli ilk kez kuruldu: bilet 0,47 ile 0,88 milyon avro, yıl 3 brüt kârı 0,45 ile 1,25 milyon avro, geri ödeme 24 ile 42 ay. Polonya kirpi birim fiyatının bir yılda yüzde 40 düşmesi ve en düşük tekliflerin tahmini bedelin çok altında kalması yerli üreticilerde kapasite baskısı iddiasını zayıflatıyor; satış argümanı kapasite değil, yeni ürün (bunker segmenti, T-duvar) ve mobil fabrika olmalı. MSB sınıflandırma yazısı için hesaplanan 22 Ekim 2026 tarihi geçmek üzere; Wassenaar ML13.b Not 1 bunker kalıbı için bu yazıyı zorunlu kılıyor.",
 "acik_sorular": [
-"Estonya ile Letonya'nın 600 bunkerlik ortak ihalesini kim kazandı? Rapor kazananları ilk muhatap sayıyor; sonuç Eylül 2026 itibarıyla açıklanmamıştı. Kaynak: s_fort Tablo 8.1.1; s_road 9.2 ve 10.3.",
-"Polonya 16. Askerî Ekonomik Birim ihalesinin gerçek değeri ne? 63 milyar PLN ilan değeri veri girişi hatası sayılıp rapora alınmadı. Kaynak: s_fort Tablo 8.1.1; s_road Tablo 10.2 ve 10.3.",
-"MEKA'nın tesis verisi, boş kapasite ve kalıp üretim imkânı teknik uyum puanını değiştirir mi? Ek A formu doldurulmadı; boş kapasite gelire ulaşma süresi ve yatırım puanlarını doğrudan belirliyor. Kaynak: s_score 7.3 Tablo 7.4; s_road 10.3.",
-"Tahkimat kalıbı MSB'ye göre gerçekten kontrol dışı mı? 5201 kapsamında yazılı sınıflandırma görüşü henüz alınmadı. Kaynak: s_road 9.2 ve 10.3.",
-"Ukrayna'da 100.000'den fazla ejder dişi ve 3.000 savunma noktası rakamı teyit gerekli; finansman bağışçıya bağlı. Kaynak: s_fort Tablo 8.1.1."
+"Kısmen cevaplandı: Estonya ile Letonya'nın 600 bunkerlik ortak ihalesini kim kazandı?",
+"Görüşme gerekir: MEKA'nın tesis verisi, boş kapasite ve kalıp üretim imkânı teknik uyum puanını değiştirir mi? (Fabrika müdürlüğü ve tasarım ekibi: Ek A formu, kalıp atölyesi saat kapasitesi, 2026 doluluk oranı)",
+"Kısmen cevaplandı: Tahkimat kalıbı MSB'ye göre gerçekten kontrol dışı mı?",
+"Kısmen cevaplandı: Ukrayna'da 100.000'den fazla ejder dişi ve 3.000 savunma noktası rakamı teyit gerekli; finansman bağışçıya bağlı mı?"
 ],
 "adimlar": [
 {
-"adim": "Tahkimat kalıp kataloğunu ve prekast hat paketini hazırlamak: ejder dişi, kirpi, T-duvar ve bunker segmenti kalıpları, prekast santral, kür ve otomasyon.",
-"kim": "Savunma iş birimi ve tasarım ekibi; rapor sorumlu bir yönetici ve 3 ile 5 kişilik çekirdek ekip öneriyor, kişi atamıyor",
-"ne_zaman": "İlk çeyrek; hesapla 21 Aralık 2026'ya kadar"
+"adim": "Üç konfigürasyonlu paket fiyat listesi ve kalıp kataloğu hazırlamak: temel (santral artı kalıp artı otomasyon, 0,45 ile 0,9, orta 0,65 milyon avro), tam (artı kırma eleme hattı, yaklaşık 1,2 milyon avro), bunker (artı 10 tonluk segment kalıbı). Ejder dişi 8 ile 12 gözlü batarya, kirpi, T-duvar ve 85x85 mevzi plakası kalıpları Polonya şartnamesine göre.",
+"kim": "Savunma iş birimi ve tasarım ekibi; sorumlu yönetici ataması bu adımın ön şartı",
+"ne_zaman": "21 Aralık 2026'ya kadar (ilk 90 gün penceresi)"
 },
 {
-"adim": "Polonya ve Baltık prekast üreticileriyle ve Estonya-Letonya bunker ihalesinin kazanan firmalarıyla temas kurmak; mevcut bayi ağını devreye almak.",
-"kim": "Savunma iş birimi, iş geliştirme",
-"ne_zaman": "İlk çeyrek; hesapla 21 Aralık 2026'ya kadar"
+"adim": "TED'de kazanan on Polonyalı prekastçıya (Małro ve Stropy Małro, Transbet, Gralbet, VECO-BET, Kruszbet, WPŻ Elbud Gdańsk, Drogi i Mosty Kaczmarczyk, Elementy Budowlane Radymno, F.U.H. Czarnowski) ve Estonya'da Warren Concrete'e doğrudan teklif; Polonya bayisiyle ortak ziyaret.",
+"kim": "İş geliştirme ve Polonya bayisi",
+"ne_zaman": "Ocak 2027 sonuna kadar"
 },
 {
-"adim": "MSB'den tahkimat kalıbı için 5201 kapsamında yazılı sınıflandırma görüşü istemek; aynı yazıda flat rack, konteyner ve mühimmat hattı ekipmanı da soruluyor.",
+"adim": "MSB'den 5201 kapsamında ürün bazlı yazılı sınıflandırma görüşü: bunker segment kalıbı ayrı kalem, ejder dişi ve kirpi kalıbı ile prekast santral genel amaçlı olarak; Wassenaar ML13.b Not 1 ve ML18 gerekçesi dilekçede.",
 "kim": "Kalite ve belgelendirme sorumlusu",
-"ne_zaman": "Bir ay içinde; hesapla 22 Ekim 2026'ya kadar"
+"ne_zaman": "30 Kasım 2026'ya kadar; hesaplanan 22 Ekim 2026 tarihi geçmek üzere"
 },
 {
-"adim": "Ek A tesis veri formunu doldurmak ve Bölüm 7 puanlarını bu verilerle güncellemek.",
-"kim": "Fabrika müdürlüğü; rapor kişi atamıyor",
-"ne_zaman": "Bir ay içinde; hesapla 22 Ekim 2026'ya kadar"
+"adim": "Ortak belge ve test bütçesinin beşte bir payı (80 ile 160 bin avro) ve yaprağa özgü kalıp prototip bütçesi (60 ile 120 bin avro) için yönetim onayı; Ticaret Bakanlığı pazara giriş belgesi desteği başvurusu.",
+"kim": "Genel müdür ve mali işler",
+"ne_zaman": "Kasım 2026"
 },
 {
-"adim": "6. ayda tahkimat paketiyle en az üç ülkede teklif vermiş olmak; 12. ayda ilk tahkimat ekipmanı siparişleri.",
+"adim": "Estonya bunker ihalesi sonucunu izlemek, kazananla kalıp ve santral teklifi; Letonya'da VNI ve VALIC ile temas; Litvanya 50 park genişlemesi için Savunma Malzeme Ajansı'na kalıp teklifi.",
+"kim": "İş geliştirme",
+"ne_zaman": "Aralık 2026 ile Mart 2027"
+},
+{
+"adim": "IDEF 2027 (3 ile 9 Mayıs 2027) ve MSPO 2027 (Eylül 2027, Kielce) stantlarında paket ve mobil tahkimat fabrikası konsepti; karar noktası: Eylül 2027'ye kadar ilk paket siparişi yoksa yaprağı genel prekast satışına katlayıp mobil fabrikaya geçmek.",
 "kim": "Savunma iş birimi ve satış",
-"ne_zaman": "Mart 2027 ve Eylül 2027 civarı; 22 Eylül 2026'dan sayılarak"
-},
-{
-"adim": "Mobil tahkimat prekast fabrikası konseptini bir savunma bakanlığına sunmak; bu nişin sonraki aşaması.",
-"kim": "Savunma iş birimi",
-"ne_zaman": "24 ile 36. ay; Eylül 2028 ile Eylül 2029 arası, 22 Eylül 2026'dan sayılarak"
+"ne_zaman": "Mayıs ve Eylül 2027"
 }
 ],
 "riskler": [
-"Tahkimat talebi 2027 ile 2028'de programlar tamamlanınca düşebilir; olasılık orta, etki yüksek. Azaltma: ekipmanı genel prekast pazarına da uygun tasarlamak, sonra mobil fabrika ve sefer tipi platforma geçmek. Kaynak: s_road Tablo 10.1.",
-"Polonya ve Baltık'ta yerli tedarikçi tercihi var; olasılık yüksek, etki orta. Polonya resmî sayfasındaki ifade bağlayıcı şart değil, tercih beyanı. Azaltma: bitmiş ürün değil üretim sistemi satmak, yerel prekastçı ve ortakla çalışmak. Kaynak: s_road Tablo 10.1; s_fort Ürün ihracatı değil, üretim sistemi ihracatı.",
-"Avrupa'da yeni prekast hatları 2027 ile 2028'de devreye girince dış tedarikçi penceresi daralır; giriş zamanlaması kritik. Kaynak: s_glob 4.7.",
-"AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi; değerlendirme Aralık 2026 ve Haziran 2027; olasılık düşük ile orta, etki orta. Azaltma: fasıl 84 makine sınıflandırmasını korumak. Kaynak: s_road Tablo 10.1.",
-"Savunmanın yarı zamanlı yürütülmesi; olasılık orta, etki yüksek. Azaltma: ayrı iş birimi, bütçe ve sorumlu yönetici. Kaynak: s_road Tablo 10.1."
+"Polonya'da yerli prekastçıların kapasitesi yeterli görünüyor: kirpi birim fiyatı Ekim 2025'te 1.282 ile 1.747 PLN iken Eylül 2026'da 847 ile 1.026 PLN'ye düştü ve 6 WOG'da en düşük teklif tahmini bedelin yüzde 42 altında kaldı; yeni hat yatırımı iştahı düşük. Olasılık yüksek, etki yüksek. Azaltma: satış argümanını kapasiteden yeni ürüne (bunker segmenti, T-duvar, 10 tonluk modül) ve Estonya, Letonya, Litvanya gibi prekast kapasitesi dar pazarlara kaydırmak. Ayrıca 13 WOG ilanı karşılıklılık anlaşması olmayan üçüncü ülke alt yüklenicilerini yasaklıyor; ekipman satışı bu kapsamda değil, ortak üretim modeli olur. Kaynak: TED 10621-2026, 496566-2026 ve 662217-2026.",
+"Talep penceresi: Polonya 2028, Estonya 2027 sonu, Letonya 2028'de biter; yalnız Litvanya (10 yıl) ve Ukrayna sürer. Olasılık orta, etki yüksek. Azaltma: paketi genel prekast pazarına uygun tasarlamak, mobil fabrika konsepti. Kaynak: ECDI; Defence24; 01 rapor Tablo 10.1.",
+"Bunker segment kalıbının Wassenaar ML13.b Not 1 ve ML18.a yüzünden kontrollü sayılması; MSB yazısı alınmadan ihracatta ceza riski. Olasılık orta, etki yüksek. Azaltma: ürün bazlı yazılı görüş, bunker kalıbını ayrı kalem yapmak. Kaynak: Wassenaar ML 2025.",
+"Estonya'da RKIK'in Datasel mühimmat sözleşmelerine ilişkin Avrupa Komisyonu incelemesi (Eylül 2026) ihale süreçlerini yavaşlatabilir; 600 bunker ihalesinin sonucu gecikebilir. Olasılık orta, etki orta. Azaltma: Warren Concrete ve diğer Estonyalı prekastçılarla ihale sonucundan bağımsız teklif. Kaynak: ERR 70 milyon avro haberi.",
+"AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi (değerlendirme Aralık 2026 ve Haziran 2027); kalıplar HS 8480 ile fasıl 84'te kalmalı. Olasılık düşük ile orta, etki orta. Kaynak: 01 rapor Tablo 10.1.",
+"Organizasyon: 2026 ilk yarıda 60,4 milyon TL net zarar veren şirkette savunma işinin yarı zamanlı yürütülmesi; sorumlu yönetici hâlâ atanmadı. Olasılık orta, etki yüksek. Azaltma: ayrı iş birimi ve bu yaprağa özgü bütçe. Kaynak: Midas KAP özeti; 01 rapor 9.2 madde 16."
 ],
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 20 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Kayıtlar ücretsiz. Rapor kalıp seti prototipini flat rack ve konteyner gövdesiyle birlikte 50 ile 150 bin € sayıyor; tahkimat payı ayrı verilmemiş. Rol 3 seri kalıbın satış fiyatı mertebesini 15 ile 40 bin € veriyor, bu bir maliyet rakamı değil. Santral referansı zaten var. Varsayım: ilk dilim 100 bin dolar altı; seri kalıp üretimi ve mobil fabrika sonraki dilim. Kaynak: s_road Tablo 9.2; s_fort Rol 3.",
+"butce_not": "Tam giriş bileti ilk 24 ayda 0,47 ile 0,88 milyon avro: ortak belge ve test bütçesinin beşte bir payı 80 ile 160 bin avro (Tablo 9.2'deki 400 ile 800 bin avro bölü beş; destekle 40 ile 80 bin avro), kalıp prototip seti 60 ile 120 bin avro (tahmin), kür ve otomasyon entegrasyonu 30 ile 60 bin avro (tahmin), numune üretim ve test 20 ile 40 bin avro (tahmin), iş geliştirme ve fuar 60 ile 100 bin avro (tahmin, SSB 2027 fuar desteği kaçtı), ekip payı 70 ile 100 bin avro (tahmin); harcama toplamı 320 ile 580 bin avro; artı ilk paketin üretim finansmanı 150 ile 300 bin avro, yüzde 20 ile 30 avansla kısmen karşılanır. İlk 12 ayın harcaması 200 ile 350 bin avro (belge payının yarısı, kalıp prototipi, pazarlama ve ekip). Önceki turdaki dilim 1 yalnız kayıt ve prototip payını sayıyordu; bu turda ekip, pazarlama ve işletme sermayesi eklendi, dilim 2 oldu.",
 "yol": "kur",
-"yol_not": "Rapor MEKA'nın kendi santral, kalıp ve otomasyon paketini üretip prekast firmalarına satmasını öneriyor. Yerel prekastçı ve ortakla çalışmak yalnızca yerli tercih riskine karşı azaltma önlemi, ana yol değil. Yatırım kapısı için rapor yalnızca MEKA şirketini ele alıyor; kişisel yatırım seçeneği çalışmalarda yok, sirket seçimi varsayım. Kaynak: s_fort Rol 1; s_road Tablo 10.1."
+"yol_not": "MEKA kendi santral, kalıp ve otomasyon paketini üretip prekast firmalarına satar; MEKA uyumu tam: Ankara tesisinde ağır sac, lazer ve kaynakla çelik batarya kalıpları, mevcut prekast santral ailesi (0,33 ile 2,0 m³ karıştırıcı), K145 kompakt santral referansı ve bayi ağı kullanılır. Polonya'da yerli tercih riskine karşı bayi ve yerel prekastçı ortaklığı yalnız azaltma önlemi. Mobil tahkimat fabrikası aşamasında (24 ile 36. ay) savunma bakanlığı müşterisi için yerel entegratörle ortaklık gerekebilir. Kaynak: MEKA ürün sayfaları; 01 rapor Rol 1 ve Rol 2."
 },
 "takvim": [
 {
-"tarih": "30 Eylül 2026",
-"olay": "SSB YETEN kaydı ve 2027 yurt dışı savunma fuarları millî katılım desteğine fiziki başvuru için son gün. Yapıldığına dair kayıt dosyalarda yok; tarih geçti.",
-"kaynak": "01 kart, İlk 90 gün; 01 rapor, s_road 9.2",
-"iso": "2026-09-30"
-},
-{
 "tarih": "10 Ekim ile 20 Kasım 2026",
-"olay": "Polonya 16. Askerî Ekonomik Birim ihalesinde 6 lot beton kirpi ve 12 lot prekast atış mevzii elemanı teslim dönemi; ilan 20 Temmuz, teklif 6 Ağustos 2026. İlan ile teslim arası yaklaşık üç ay; bitmiş ürün ihracatını eleyen örnek.",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1",
+"olay": "16 WOG Doğu Kalkanı malzemesi teslimleri (18 lot, 42,8 milyon PLN); 12 WOG D/29 ve 6 WOG 2026 sözleşmeleri de yıl sonuna kadar teslim.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/625610-2026",
 "iso": "2026-11-20"
 },
 {
-"tarih": "Ekim 2026",
-"olay": "Polonya Doğu Kalkanı'nda yaklaşık 300.000 beton kirpi teslim hedefi. Ayrıca AB çelik önleminde eritme ve döküm menşe beyanı Ekim 2026'dan itibaren isteniyor.",
-"kaynak": "01 rapor, s_fort Tablo 8.1.1; s_glob 4.7",
-"iso": "2026-10-15"
+"tarih": "30 Kasım 2026",
+"olay": "MSB 5201 sınıflandırma başvurusu için bu çalışmanın önerdiği son tarih; hesaplanan 22 Ekim 2026 tarihi geçmek üzere.",
+"kaynak": "01 rapor s_road 9.2; Wassenaar ML 2025",
+"iso": "2026-11-30"
 },
 {
-"tarih": "Eylül 2026 itibarıyla açık",
-"olay": "Estonya ile Letonya'nın 600 bunker için ortak rekabetçi müzakereli ihalesi, Şubat 2026'da başladı; kazanan açıklanmadı. Kazananlar ilk muhatap.",
-"kaynak": "01 rapor, s_fort Tablo 8.1.1; s_road 9.2 ve 10.3",
-"iso": "2026-09-15"
-},
-{
-"tarih": "21 Aralık 2026, hesap",
-"olay": "İlk 90 gün penceresinin sonu; kalıp kataloğu, prekast hat paketi ve Polonya ile Baltık prekastçılarıyla temas bu pencerede. Tarih raporda yazılı değil, 22 Eylül 2026 artı 90 gün.",
-"kaynak": "01 rapor, s_road 9.2",
-"iso": "2026-12-21"
-},
-{
-"tarih": "Aralık 2026 ve Haziran 2027",
-"olay": "AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi değerlendirmesi.",
-"kaynak": "01 rapor, s_road, Tablo 10.1",
+"tarih": "Aralık 2026",
+"olay": "AB çelik koruma önlemi değerlendirmesi (ikincisi Haziran 2027); fasıl 84 makine sınıflandırması korunmalı.",
+"kaynak": "01 rapor Tablo 10.1",
 "iso": "2026-12-15"
 },
 {
-"tarih": "Mart 2027 civarı, 6. ay",
-"olay": "Karar noktası: tahkimat paketiyle en az üç ülkede teklif verilmiş olmalı; MSB sınıflandırma görüşü alınmış olmalı.",
-"kaynak": "01 rapor, s_road, Tablo 9.3",
+"tarih": "21 Aralık 2026",
+"olay": "İlk 90 gün penceresi: paket fiyat listesi, kalıp kataloğu, Polonya prekastçılarıyla temas. Hesap, 22 Eylül 2026 artı 90 gün.",
+"kaynak": "01 rapor s_road 9.2",
+"iso": "2026-12-21"
+},
+{
+"tarih": "31 Aralık 2026",
+"olay": "Estonya 2026 hedefi: 23 ek bunker kurulumu ve 3,4 km ek tank hendeği; 600 bunker ihalesi sonucu bekleniyor.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/baltic-defence-line/",
+"iso": "2026-12-31"
+},
+{
+"tarih": "Mart 2027",
+"olay": "6. ay karar noktası: tahkimat paketiyle en az üç ülkede teklif, MSB görüşü alınmış.",
+"kaynak": "01 rapor Tablo 9.3",
 "iso": "2027-03-15"
 },
 {
 "tarih": "3 ile 9 Mayıs 2027",
-"olay": "IDEF 2027 İstanbul; ayrıca MSPO 2027 Polonya, DSEI 2027 Londra, Eurosatory 2028. SSB ve Ticaret Bakanlığı fuar destekleriyle.",
-"kaynak": "01 rapor, s_road 9.4",
+"olay": "IDEF 2027 İstanbul; Eylül 2027 MSPO Kielce. SSB 2027 fuar desteği başvurusu 30 Eylül 2026'da kapandı, destek yok.",
+"kaynak": "01 rapor s_road 9.4; SSB duyurusu",
 "iso": "2027-05-09"
 },
 {
-"tarih": "Eylül 2027 civarı, 12. ay",
-"olay": "Karar noktası: ilk tahkimat ekipmanı siparişleri alınmış olmalı.",
-"kaynak": "01 rapor, s_road, Tablo 9.3",
+"tarih": "Eylül 2027",
+"olay": "12. ay karar noktası: ilk tahkimat ekipmanı siparişi; yoksa yaprağı genel prekast satışına katlamak.",
+"kaynak": "01 rapor Tablo 9.3",
 "iso": "2027-09-15"
 },
 {
-"tarih": "2027 ile 2028",
-"olay": "Tahkimat programları tamamlanınca talep düşebilir; Avrupa'da yeni prekast hatları devreye girince dış tedarikçi penceresi daralır. Letonya programı 2028'de bitiyor; Polonya Doğu Kalkanı 2024-2028.",
-"kaynak": "01 rapor, s_road Tablo 10.1; s_glob 4.7; s_fort Tablo 8.1.1",
-"iso": "2027-06-30"
+"tarih": "31 Aralık 2027",
+"olay": "Estonya hedefi: 600 bunker yerde, 40 km ek hendek; Baltic Defence Line onaylı kapsam tamam.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/estonia-procures-hundreds-of-bunkers-for-the-baltic-defence-line/",
+"iso": "2027-12-31"
 },
 {
-"tarih": "Eylül 2028 ile Eylül 2029, 24 ile 36. ay",
-"olay": "Mobil tahkimat fabrikası konseptinin bir savunma bakanlığına sunulması.",
-"kaynak": "01 rapor, s_road, Tablo 9.3",
+"tarih": "2028",
+"olay": "Polonya Doğu Kalkanı (10 milyar PLN, 2024-2028) ve Letonya 303 milyon avroluk program biter; talep penceresi daralır. AB askerî hareketlilik CEF 2028-2034 teklifi 17,6 milyar avro.",
+"kaynak": "https://defence24.pl/polityka-obronna/co-z-tarcza-wschod-w-2026-wojsko-przedstawia-plan ; 01 rapor Tablo 8.1.1",
+"iso": "2028-06-30"
+},
+{
+"tarih": "Eylül 2028 ile Eylül 2029",
+"olay": "Mobil tahkimat prekast fabrikası konseptinin bir savunma bakanlığına sunulması (24 ile 36. ay); Litvanya programı 2035'e kadar sürer.",
+"kaynak": "01 rapor Tablo 9.3; Defence Industry Europe",
 "iso": "2028-09-15"
 }
 ],
@@ -313,6 +350,11 @@ window.MEKA_DATA = {
 ],
 "tam_calisma": [
 {
+"dosya": "c_sav_prekast",
+"bolum_basligi": "",
+"sayfa": null
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.1 Tahkimat ve koruyucu altyapı üretim sistemleri",
 "sayfa": 24
@@ -344,10 +386,258 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "tam",
-"kapsam_notu": "Raporun 8.1 bölümü ülke bazında bütçe, adet, takvim ve kaynaklı tablo veriyor; puan yedi kriterle gerekçeli; yol haritası, bütçe ve riskler ayrı bölümlerde. Web araması yapılmadı. Bazı rakamlar raporda tahmin ya da teyit gerekli diye işaretli; doğrulama aşamasının yaklaşık yarısı kullanım limiti nedeniyle tamamlanamamış, 38 iddianın 13'ü düzeltilmiş. Bu çürütme turunda yalnızca 01 kartı ve raporun altı bölüm dosyası verildi; inceleme dosyası ve 03 dosyası verilmedi, onlara dayanan iddialar çıkarıldı.",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 14 arama, 41 sayfa; 5 açık sorunun 1'i cevaplandı, 1'i görüşme gerektiriyor. Çürütücü 18 sayfa açtı, güven 4/5. WebFetch aracı tüm alan adlarında DNS hatası verdi; sayfalar curl ile indirilip metne çevrilerek okundu, TED kayıtları TED API v3 üzerinden alındı. Açılamayanlar: TED HTML ve PDF sayfaları (202), eur-lex AB Ortak Askerî Listesi (202, yerine Wassenaar listesi), altair.com.pl PDF (boş), raja.fi (403), caliber.az (403), euronews (406), globalsecurity (402), LRT (404), lsm.lv (403), fintables (403), tarczawschod.wp.mil.pl ve wojsko-polskie.pl (JavaScript, metin yok), EUobserver yalnız giriş paragrafları. Estonya ihale kayıt sistemi (riigihanked.riik.ee) sorgulanamadı; Estonya bunker ihalesinin sonucu bu yüzden yalnız haber ve ECDI listesiyle kontrol edildi. 13 WOG lot bedelleri API'de lot açıklamalarıyla aynı sırada gelmedi, birim fiyat çıkarılmadı; 16 WOG lot adetleri ilanda yok. Kurlar varsayım: 4,25 PLN/avro, 45 UAH/avro, 1,1 dolar/avro. MEKA brüt marjı tek kaynaklı (İş Yatırım tablosu); sayfa çürütme turunda açılamadı, marj doğrulanamadı; Midas özeti yalnız 6 aylık satış ve zararı veriyor. Kalıp fiyatları, paket marjının üst bandı, yıllık paket sayısı, kirpi başına beton hacmi ve ekip maliyeti tahmindir ve metinde böyle işaretlidir. Firma listesi önceki adlar korunduğu için 32 kayıt, talimattaki 25 üst sınırının üstünde; WOG birimleri tek kayıtta birleştirildi. Litvanya 1,1 milyar avro ve Finlandiya 356 milyon avro rakamları bu turda yeniden açılamadı, önceki tur verisi olarak tek kaynak sayılmalı. Çürütme turu (20 Ekim 2026): 18 sayfa açıldı; TED API ile 6 WOG tahmini bedeli 53.596.400 PLN, en yüksek kirpi teklifi 48.024.000 PLN ve 13 WOG tahmini bedeli 167.027.704 PLN teyit edildi; 13 WOG lot adetleri ilan toplamına göre düzeltildi; 16 WOG lot bedelleri toplamı ile ilan toplamı arasında 3 milyon PLN fark var; İş Yatırım sayfası açılamadı, brüt marj doğrulanamadı; Wikipedia, Milmag, Baltic Times, Ukrayna haberleri ve ERR Aralık 2025 sayfaları bu turda açılmadı.",
 "kanit": 4,
-"web": [],
+"web": [
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/10621-2026",
+"ne": "12 WOG kirpi sözleşmesi sonucu, 6 lot, 69,99 milyon PLN, kazananlar; TED API ile okundu",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/496566-2026",
+"ne": "13 WOG tahkimat malzemesi sonucu, 133,1 milyon PLN, lot adetleri ve kazananlar; TED API",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/625610-2026",
+"ne": "16 WOG sonucu, 42,8 milyon PLN, 18 lot bedelleri ve kazananlar; TED API",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/497991-2026",
+"ne": "16 WOG ilanı, 63,03 milyar PLN tahmini bedel ve lot yapısı; düzeltme 534038-2026; TED API",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/662217-2026",
+"ne": "6 WOG Ustka sonucu, 34.800 kirpi 29,5 milyon PLN, plaka ve trapez fiyatları, en yüksek teklif; TED API",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/705410-2026",
+"ne": "12 WOG D/29 kirpi lotu sonucu (ve 704917, 705592, 705963, 572322, 615629, 616152 kardeş kayıtlar); TED API",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/38684-2026",
+"ne": "17 WOG 1.150 kirpi sonucu, Gralbet; bedel API çıktısında yok",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/13350-2026",
+"ne": "Braniewo ve Bartoszyce beton ürünleri sözleşmesi 2,16 milyon PLN, VECO-BET",
+"tur": "resmi"
+},
+{
+"url": "https://www.kaitseinvesteeringud.ee/en/baltic-defence-line/",
+"ne": "ECDI program sayfası: 600 bunker, 60 milyon avro, 5,6 milyon avro ilk aşama, Warren Concrete prototip, 10 ton modül, zaman çizelgesi",
+"tur": "resmi"
+},
+{
+"url": "https://www.kaitseinvesteeringud.ee/en/estonia-procures-hundreds-of-bunkers-for-the-baltic-defence-line/",
+"ne": "ECDI 19 Şubat 2026 ihale duyurusu",
+"tur": "resmi"
+},
+{
+"url": "https://www.kaitseinvesteeringud.ee/uudised/",
+"ne": "ECDI haber listesi, 16 Eylül 2026'ya kadar bunker sonucu yok",
+"tur": "resmi"
+},
+{
+"url": "https://www.wassenaar.org/wp-content/uploads/2026/07/Stand-alone-Munitions-List-2025-Corr.pdf",
+"ne": "Mühimmat Listesi 2025: ML13.b Not 1 askerî sığınak, ML18.a üretim ekipmanı",
+"tur": "resmi"
+},
+{
+"url": "https://news.err.ee/1609946612/estonia-plans-600-eastern-border-bunkers-as-baltic-defense-line-advances",
+"ne": "ERR 19 Şubat 2026: 60 milyon avro, 30 milyon 2026, 28 bunker elemanı teslim",
+"tur": "haber"
+},
+{
+"url": "https://news.err.ee/1609877326/installation-of-baltic-defense-line-bunkers-delayed-for-a-year-in-estonia",
+"ne": "ERR 4 Aralık 2025: bir yıl gecikme, panel tipi tasarım, 2027 sonu",
+"tur": "haber"
+},
+{
+"url": "https://www.err.ee/1609946600/rkik-kuulutas-valja-hanke-kaitsevoondi-punkrite-soetamiseks",
+"ne": "ERR Estonca ihale haberi",
+"tur": "haber"
+},
+{
+"url": "https://www.err.ee/1610130706/rkik-ei-suuda-naidata-kuidas-jouti-70-miljoni-euro-suuruse-lepinguni",
+"ne": "ERR: RKIK Datasel 70 milyon avroluk sözleşme incelemesi, Avrupa Komisyonu ekibi Eylül 2026",
+"tur": "haber"
+},
+{
+"url": "https://www.defensenews.com/global/europe/2026/02/20/estonia-begins-buying-hundreds-of-pop-up-bunkers-to-fortify-border-with-russia",
+"ne": "Defense News: ihale ayrıntısı, üretim maliyeti sorunları, 9 bunker kuruldu",
+"tur": "haber"
+},
+{
+"url": "https://www.baltictimes.com/estonia_and_latvia_to_procure_hundreds_of_bunkers_for_baltic_defense_line/",
+"ne": "Baltic Times 19 Şubat 2026 ortak ihale",
+"tur": "haber"
+},
+{
+"url": "https://www.baltictimes.com/construction_of_bunkers_and_other_fortifications_along_baltic_defense_line_to_be_gradual_-_defense_ministry/",
+"ne": "Baltic Times 9 Ocak 2026: Letonya bunkerleri kademeli, VNI, 45 milyon avro 2025",
+"tur": "haber"
+},
+{
+"url": "https://estonianworld.com/security/estonia-to-buy-up-to-600-bunkers-for-baltic-defence-line/",
+"ne": "Estonian World ihale haberi",
+"tur": "haber"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Baltic_Defence_Line",
+"ne": "Özet: Estonya 28 pilot bunker, 20.000 ejder dişi, Letonya 1.000 bunker planı, Litvanya 27 park ve 50 önerisi (LRT atfı)",
+"tur": "diger"
+},
+{
+"url": "https://defence24.pl/sily-zbrojne/900-milionow-na-wsparcie-tarczy-wschod-logistycy-z-nowa-technologia",
+"ne": "Defence24: 2026'da en az 900 milyon PLN, UBM lojistik birliklerine",
+"tur": "haber"
+},
+{
+"url": "https://defence24.pl/polityka-obronna/co-z-tarcza-wschod-w-2026-wojsko-przedstawia-plan",
+"ne": "Defence24: 2025 60 km ve 13 depo, 2026 260 km ve 37 depo, 870 milyon PLN, UBM iki set daha",
+"tur": "haber"
+},
+{
+"url": "https://jorpex.com/ledger/editions/2026-08-07.html",
+"ne": "Jorpex: 16 WOG ilanı 63,03 milyar PLN analizi, 300.000 kirpi, günde 1.000 teslim",
+"tur": "rapor"
+},
+{
+"url": "https://milmag.pl/en/poland-begins-stocking-material-depots-for-the-east-shield-program/",
+"ne": "Milmag: 108 depo sözleşmesi 300 milyon PLN, HESCO kitleri",
+"tur": "haber"
+},
+{
+"url": "https://milmag.pl/en/east-shield-ubm-rapid-facility-construction-system-for-the-polish-armed-forces/",
+"ne": "Milmag: M.I.C. Industries UBM sözleşmesi 12 Ocak 2025, birkaç yüz milyon PLN",
+"tur": "haber"
+},
+{
+"url": "https://euobserver.com/229079/dragons-teeth-and-ditches-inside-the-baltics-new-950km-defence-barrier-against-russia/",
+"ne": "EUobserver: VAS Temmuz 2026 öncelikli iş sözleşmeleri; makale ödeme duvarlı, yalnız giriş okundu",
+"tur": "haber"
+},
+{
+"url": "https://defence-industry.eu/lithuania-acquires-engineering-countermobility-means-for-baltic-defence-line-project/",
+"ne": "Litvanya 4 milyon avrodan fazla alım, 27 park",
+"tur": "haber"
+},
+{
+"url": "https://www.eurointegration.com.ua/news/2025/08/5/7217335/",
+"ne": "Letonya Ağustos 2025 ihalesi, 45 milyon avro 2025",
+"tur": "haber"
+},
+{
+"url": "https://balticsecurity.eu/baltic_defense_line/",
+"ne": "Letonya 303 milyon avro, 1.116 bunker ihtiyacı (FPRI), 20 depo",
+"tur": "rapor"
+},
+{
+"url": "https://freeradio.com.ua/u-kramatorsku-hromadu-kupyly-11-tysiach-zubiv-drakona-na-ponad-17-mln-hrn-detali/",
+"ne": "Kramatorsk 11.000 piramit 1.590 UAH/adet",
+"tur": "haber"
+},
+{
+"url": "https://ngl.media/en/2025/09/10/fragile-dragon-s-teeth/",
+"ne": "NGL.media: Bud-Tekhprom 50.000 piramit 64,7 milyon UAH, kalite testi",
+"tur": "haber"
+},
+{
+"url": "https://glavcom.ua/country/politics/pidriv-oboronozdatnosti-zaporizkoji-oblasti-kabmin-ne-dav-hroshej-na-zubi-drakona-985542.html",
+"ne": "Zaporijya 45.000 piramit ihalesi 70,2 milyon UAH teklif, iptal",
+"tur": "haber"
+},
+{
+"url": "https://www.borsagundem.com.tr/meka-globalin-bagli-ortakligi-yurt-disindan-beton-santrali-siparisi-aldi",
+"ne": "KAP 11 Eylül 2025: 4 santral 1.949.600 avro",
+"tur": "firma"
+},
+{
+"url": "https://www.borsagundem.com.tr/meka-global-yurt-icinden-554-bin-euroluk-beton-santrali-siparisi-aldi",
+"ne": "KAP 11 Temmuz 2025: 2 santral 554.000 avro",
+"tur": "firma"
+},
+{
+"url": "https://rotaborsa.com/?p=287678",
+"ne": "KAP 26 Şubat 2025: 3 santral 1.044.000 avro KDV dahil",
+"tur": "firma"
+},
+{
+"url": "https://www.getmidas.com/canli-borsa/mekag-hisse/haber/",
+"ne": "KAP özetleri 2026: 6 santral 983.000 avro, 4 santral 1.178.000 dolar, 2 santral 879.000 avro, 3 santral 715.000 avro, kırma eleme 651.700 avro, 6 aylık net satış 1,50 milyar TL ve zarar 60,4 milyon TL, Misurata şubesi",
+"tur": "firma"
+},
+{
+"url": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=MEKAG",
+"ne": "MEKAG gelir tablosu: 2025 satış 3.386,3 milyon TL ve brüt kâr 728,9 milyon TL; 2026 ilk yarı 1.504,4 ve 366,3 milyon TL; çürütme turunda açılamadı (boş yanıt)",
+"tur": "firma"
+},
+{
+"url": "https://www.mekaglobal.com/en/products/concrete-batching-plants/ready-mix-concrete-plants/precast-concrete-batching-plant",
+"ne": "MEKA prekast santral ürün sayfası, 0,33 ile 2,0 m³ karıştırıcı, kış paketi",
+"tur": "firma"
+},
+{
+"url": "https://www.mekaglobal.com/en/casestudies/meka-k145-signature-in-the-esenboga-3rd-runway-project",
+"ne": "K145 140 m³/saat, konteyner taşımaya uygun, TRIO Çelik, Esenboğa 19 Ocak 2026",
+"tur": "firma"
+},
+{
+"url": "https://www.mekaglobal.com/en/casestudies/meka-commissions-new-high-capacity-concrete-batching-plant-for-bastas-in-akyurt-ankara",
+"ne": "K200 175 m³/saat Baştaş referansı",
+"tur": "firma"
+},
+{
+"url": "https://ted.europa.eu/en/notice/318021-2026/pdf",
+"ne": "13 WOG ilanı; TED HTML ve PDF açılamadı (202), API ile okundu",
+"tur": "resmi"
+},
+{
+"url": "https://www.altair.com.pl/wiadomosci/pdf/49531",
+"ne": "açılamadı (boş PDF)",
+"tur": "haber"
+},
+{
+"url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:C_202501512",
+"ne": "AB Ortak Askerî Listesi; açılamadı (202), yerine Wassenaar listesi kullanıldı",
+"tur": "resmi"
+},
+{
+"url": "https://raja.fi/en/eastern-border-barrier-fence",
+"ne": "Finlandiya sınır çiti; açılamadı (403)",
+"tur": "resmi"
+},
+{
+"url": "https://caliber.az/en/post/latvia-announces-tender-for-anti-tank-defences-along-russian-border",
+"ne": "Letonya ihalesi; açılamadı (403)",
+"tur": "haber"
+},
+{
+"url": "https://www.globalsecurity.org/military/library/news/2025/08/mil-250801-lithuania-mnd02.htm",
+"ne": "Litvanya 1,1 milyar avro; açılamadı (402), önceki tur verisi tek kaynak",
+"tur": "diger"
+},
+{
+"url": "https://www.euronews.com/my-europe/2026/09/09/finland-completes-work-on-200km-fence-along-russia-border",
+"ne": "Finlandiya 356 milyon avro; açılamadı (406), önceki tur verisi",
+"tur": "haber"
+}
+],
 "celiskiler": [
+"16 WOG ihalesi: önceki tur ilan değerini veri hatası sayıp rakam vermiyordu; TED 625610-2026 gerçek toplamı 42.839.186 PLN olarak veriyor, önceki yorum doğrulandı ve rakam eklendi.",
+"Kontrol dışı iddiası: önceki tur ürünü tümüyle ihracat kontrolü dışında sayıyordu. Wassenaar ML13.b Not 1 askerî sığınak inşası malzemelerini, ML18.a bunların üretim ekipmanını kapsıyor; bunker segment kalıbı gri alanda, yalnız ejder dişi, kirpi, T-duvar kalıbı ve santral açıkça dışarıda.",
+"Kapasite baskısı iddiası: rapor Rol 1 Polonya prekastçılarında kapasite baskısı yazıyor. TED verisi tersini gösteriyor: kirpi birim fiyatı Ekim 2025'te 1.282 ile 1.747 PLN'den Eylül 2026'da 847 ile 1.026 PLN'ye düştü, 6 WOG'da sonuç tahmini bedelin yüzde 42 altında, 13 WOG'da yüzde 20 altında; arz talebi karşılıyor.",
+"Bütçe dilimi: önceki tur 1 (100 bin dolar altı) vermişti; tam bilet hesabıyla ortak belge payı, kalıp prototipi, ekip, pazarlama ve işletme sermayesi dahil 0,47 ile 0,88 milyon avro, dilim 2.",
+"Letonya kurumu: önceki listedeki VAS, Letonca devlet anonim şirketi ön ekidir; şirket Valsts Nekustamie Īpašumi (VNI). Ayrıca askerî alımları VALIC yapıyor; iki kurum ayrıldı.",
+"Kirpi fiyatı ile nakliye tahmini: önceki tur 1,5 tonluk ejder dişinin Ankara'dan Baltık'a nakliyesini 155 ile 220 avro sayıyordu; Polonya kirpi satış fiyatı 200 ile 410 avro, Ukrayna ejder dişi 24 ile 38 avro. Bitmiş ürün ihracatının elenmesi doğrulandı, Ukrayna için daha da kesin.",
+"Estonya bunker sayısı: 600 Estonya, 1.000'den fazla Letonya planı; FPRI Letonya için 1.116 bunker hesaplıyor; raporun 1.600 toplamı bu iki sayının toplamıdır, çelişki değil kapsam farkı.",
 "Bunker sayısı iki biçimde geçiyor. 01 kartı ve Tablo Ö.1 Baltık için 600'den fazla bunker diyor; özetin Talep bölümü ve rapor 8.1 Rol 1 Estonya ve Letonya için 1.600'den fazla yazıyor. Tablo 8.1.1'e göre 600 Estonya'nın ortak ihale adedi, Letonya ayrıca 1.000'den fazla bunker planlıyor; iki sayı farklı kapsamı anlatıyor.",
 "Kartın üst kutusu tahkimat kalıbı ve prekast hattını 4,35 ile tek kol gösteriyor; puan listesinde prekast hattı 4,35 ve kalıp, gabion, çelik engel 4,25 iki ayrı satır; Tablo Ö.1 ikisini 4,35 / 4,25 diye tek kolda yazıyor. Bu yaprak 4,35'lik prekast hattı satırıdır.",
 "Duyarlılık notu iki yerde farklı. Tablo 7.2 notu ilk dört nişin tüm senaryolarda ilk altıda kaldığını, Tablo Ö.1 notu ilk beşte kaldığını yazıyor. Bu niş için fark yok: üç senaryoda 1., hızlı nakit senaryosunda 2.",
@@ -355,6 +645,19 @@ window.MEKA_DATA = {
 "Raporun kendi doğrulamasında iki iddia düzeltildi: Estonya'da Aralık 2025'e kadar 30 milyon € harcandı iddiası yanlış, 30 milyon € 2026 ödeneği ve kurulum bir yıl gecikti; Polonya'da yerel ortak fiilen şart iddiası yanlış, resmî sayfadaki ifade bağlayıcı olmayan tercih beyanı. Kaynak: s_road Tablo 10.2."
 ],
 "degisiklikler": [
+"20 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
+"Polonya TED sözleşme toplamı: beş serinin toplamı 69,99 + 133,12 + 42,84 + 31,03 + 16,55 = 293,5 milyon PLN; 295 milyon PLN yazan her yer 293,5 yapıldı, avro karşılığı (yaklaşık 70 milyon) korundu.",
+"13 WOG (TED 496566-2026) adetleri: ilan toplamı 56.200 kirpi, 13.240 trapez plaka, 5.220 mevzi plakası, 153 istinat duvarı elemanı; yaklaşık 50.000, 12.000, 4.500 ve 120 yazan yerler düzeltildi. Tahmini bedel 167,0 milyon PLN ve yüzde 20 altında sonuç API ile teyit edildi.",
+"13 WOG ilanındaki üçüncü ülke alt yüklenici yasağı (karşılıklılık anlaşması olmayan ülkeler) risk ve rakam notlarına eklendi; ekipman satışını değil ortak üretimi etkiler.",
+"Estonya bunkeri için 152 mm topçuya dayanım iddiası ECDI sayfalarında yok; sayfadaki on askerlik birim ve endirekt ateşe karşı koruma ifadesiyle değiştirildi.",
+"16 WOG (TED 625610-2026): on sekiz lot bedelinin toplamı 39.839.186 PLN, ilan toplamı 42.839.186 PLN; 3 milyon PLN fark rakam, emsal ve metne not edildi, ilan toplamı korundu.",
+"İş Yatırım şirket kartı çürütme turunda açılamadı (boş yanıt): brüt marj yüzde 21,5 ve 24,3 tek kaynaklı ve doğrulanamadı diye işaretlendi; Midas sayfası 6 aylık satış 1,50 milyar TL ve zarar 60,37 milyon TL rakamlarını veriyor.",
+"12 WOG D/29 serisi: trapez lotu (TED 615629-2026) sözleşmesi 26 Ağustos 2026, yayını 7 Eylül 2026; emsal tarihi düzeltildi. Seri 9 lot (6 kirpi, 1 plaka, 2 trapez); 705410 yalnız 5. lotu veriyor (3.084.800 PLN, 964 PLN/adet, 11 teklif), bu not eklendi.",
+"Ekonomi modeli paket toplamı satırı: kalemlerin toplamı temel pakette 0,45 ile 0,9 milyon avro (orta 0,65), kırma elemeli pakette 0,85 ile 1,55 milyon avro (orta 1,2); 0,6 ile 1,2 aralığının model varsayımı olduğu yazıldı. Adım 1 temel paket fiyatı 0,65 milyon avro yapıldı.",
+"Çıkış batık maliyeti: belge payı 80 ile 160 artı pazarlama 60 ile 100 = 140 ile 260 bin avro; 150 yazan 140 yapıldı.",
+"Firmalar: RBLog kaydındaki 108 depo ve 300 milyon PLN rakamı Defence24 sayfasında yok, kaynak Milmag olarak ayrıldı; Defence24 yalnız 900 milyon PLN ve on binlerce nakliyeyi veriyor.",
+"Estonya ihalesi: ECDI 19 Şubat 2026 duyurusu Letonya katılımını görüşme aşamasında yazıyor, ERR ortak açıldı diyor; cevap ve rakam notu buna göre yumuşatıldı, soru kismen durumunda kaldı.",
+"Diğer kontroller değişiklik gerektirmedi: 12 WOG 69.992.904 PLN, 6 lot, 49.800 adet, lot başına 1.282 ile 1.747 PLN, ortalama 1.405; 6 WOG 31.031.464 PLN, kirpi 847, plaka 103, trapez 218 PLN, tahmini 53,6 milyon, en yüksek teklif 48.024.000 PLN; 16 WOG tahmini 63,03 milyar PLN; KAP siparişleri 24 santral, 165 ile 490 bin avro; bilet 320 ile 580 artı 150 ile 300 = 470 ile 880 bin avro; geri ödeme 24, 42 ve 18 ay hesapları; Wassenaar ML13.b Not 1 ve ML18.a metni.",
 "puan_metni: senaryo ifadesi netleştirildi; s_score verisinden hesapla niş baz, pazar odaklı ve eşit ağırlıkta 1., hızlı nakit senaryosunda kalıp paketinin ardında 2. Sınıf Birincil eklendi.",
 "ne ve neden: kaynak atıfları eklendi; 'savunma belgesi istemiyor' ifadesi kaynaktaki 'ihracat izni gerektirmeden' ifadesiyle değiştirildi; Ukrayna için bağışçı finansmanı şartı ve eksik kalıp, kür, tasarım bilgisi uyarısı eklendi.",
 "rakamlar: Polonya satırına 870 milyon PLN taahhüt, 700 km ve 2026 hedefi eklendi; Estonya satırına gecikme, 20.000 ejder dişi ve 10 km hendek eklendi; Litvanya'ya Ağustos 2025 ve 50 park önerisi eklendi; 8 ile 15 tır sevkiyat bilgisi eklendi; Tablo 9.2'den 400 ile 800 bin € bütçe satırı eklendi.",
@@ -373,68 +676,194 @@ window.MEKA_DATA = {
 {
 "ad": "Betonblock",
 "rol": "rakip",
-"not": "Hollandalı çelik kalıp üreticisi, 90'dan fazla ülkeye kalıp satıyor ama sitesinde açık askerî ürün yok; paketteki batarya kalıp kalemine rakip.",
+"not": "Hollandalı çelik kalıp üreticisi, 90'dan fazla ülkeye kalıp satıyor, sitesinde açık askerî ürün yok; paketteki batarya kalıp kalemine rakip.",
 "kaynak": "https://www.betonblock.com/en/"
 },
 {
 "ad": "HESCO",
 "rol": "rakip",
-"not": "Beton gerektirmeyen tel kafes bariyer üreticisi, tahkimatta rakip ürün kategorisi olarak anılıyor; Polonya depo sözleşmelerinde HESCO BASTION yükseltme kitleri de geçiyor.",
-"kaynak": "final_S4 3.2"
+"not": "Beton gerektirmeyen tel kafes bariyer üreticisi; Polonya depo stoklarında HESCO BASTION yükseltme kitleri geçiyor.",
+"kaynak": "https://milmag.pl/en/poland-begins-stocking-material-depots-for-the-east-shield-program/"
 },
 {
 "ad": "Warren Concrete OÜ",
 "rol": "musteri",
-"not": "Estonyalı prekast firması; ECDI ile Temmuz 2024'te bunker prototipi üretimi için sözleşme imzaladı, araştırma notu onu paketin örnek alıcısı olarak veriyor.",
-"kaynak": "final_S4 3.3 Rol 1"
+"not": "Estonyalı prekast firması; ECDI ile Temmuz 2024'te bunker prototip sözleşmesi; panel tipi tasarım seçildi, 600 bunker ihalesinin doğal adayı; bedel açıklanmadı.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/baltic-defence-line/"
 },
 {
 "ad": "Pekabex",
 "rol": "musteri",
-"not": "Araştırma notu Polonya'daki doğrudan alıcı prekast üreticilerine örnek olarak veriyor, isim saha doğrulaması bekliyor.",
-"kaynak": "final_S12 2.1"
+"not": "Polonya'nın büyük prekast üreticisi; bu turda incelenen TED tahkimat sözleşmelerinde adı geçmiyor, saha doğrulaması bekliyor.",
+"kaynak": "TED sorguları, FT jeży żelbetowych 2025-2026"
 },
 {
 "ad": "Consolis Polska",
 "rol": "musteri",
-"not": "Araştırma notu Polonya'daki doğrudan alıcı prekast üreticilerine örnek olarak veriyor, isim saha doğrulaması bekliyor.",
-"kaynak": "final_S12 2.1"
+"not": "Polonya prekast üreticisi; incelenen TED tahkimat sözleşmelerinde adı yok, saha doğrulaması bekliyor.",
+"kaynak": "TED sorguları, FT jeży żelbetowych 2025-2026"
 },
 {
 "ad": "E-Betoonelement",
 "rol": "musteri",
-"not": "Araştırma notu Baltık'taki doğrudan alıcı prekast üreticilerine örnek olarak veriyor, isim saha doğrulaması bekliyor.",
-"kaynak": "final_S12 2.1"
+"not": "Estonyalı prekast üreticisi; bunker ihalesinde adı kamuya açık kaynakta yok, saha doğrulaması bekliyor.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/uudised/"
 },
 {
 "ad": "TMB Element",
 "rol": "musteri",
-"not": "Araştırma notu Baltık'taki doğrudan alıcı prekast üreticilerine örnek olarak veriyor, isim saha doğrulaması bekliyor.",
-"kaynak": "final_S12 2.1"
+"not": "Baltık prekast üreticisi; bunker ihalesinde adı kamuya açık kaynakta yok, saha doğrulaması bekliyor.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/uudised/"
+},
+{
+"ad": "Małro Sp. z o.o. ve Stropy Małro Sp. z o.o. Sp. k.",
+"rol": "musteri",
+"not": "Uzdowo ve Radzionków merkezli Polonyalı prekastçılar; 12 WOG (Ekim 2025, iki lot 10,7 ve 11,7 milyon PLN), 6 WOG (34.800 kirpi, 29,5 milyon PLN, Eylül 2026) ve 16 WOG (Eylül 2026) kirpi sözleşmelerinin kazananı; paketin birinci hedef alıcısı.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/662217-2026"
+},
+{
+"ad": "Transbet Betoniarnie Grochowicz Sp. k.",
+"rol": "musteri",
+"not": "Przemyśl merkezli; 12 WOG D/29/12WOG/2026 serisinde beş kirpi lotu (914 ile 1.026 PLN/adet), trapez ve plaka lotları, 16 WOG ve 13 WOG sözleşmeleri; en sık kazanan firma.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/705410-2026"
+},
+{
+"ad": "Gralbet Sp. z o.o.",
+"rol": "musteri",
+"not": "Dziemiany ve Łubiana; 12 WOG (10,6 milyon PLN lot), 17 WOG (1.150 kirpi, Ekim 2025) ve 13 WOG sözleşmeleri.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/38684-2026"
+},
+{
+"ad": "VECO-BET Sp. z o.o.",
+"rol": "musteri",
+"not": "Mińsk Mazowiecki; 13 WOG'da plaka ve prekast lotlarının çoğunu (Giżycko, Antonowo, Suwałki, Kopytów) ve Braniewo beton ürünleri sözleşmesini (2,16 milyon PLN, Kasım 2025) kazandı.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/496566-2026"
+},
+{
+"ad": "Kruszbet S.A.",
+"rol": "musteri",
+"not": "Suwałki; 13 WOG Temmuz 2026 sözleşmelerinde kazananlardan, doğu sınırına en yakın üretici.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/496566-2026"
+},
+{
+"ad": "Drogi i Mosty Jan Kaczmarczyk",
+"rol": "musteri",
+"not": "Pułtusk; 6 WOG trapez eleman lotu (5.760 adet, 1,26 milyon PLN), 13 WOG ve 16 WOG sözleşmeleri.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/625610-2026"
 },
 {
 "ad": "Polonya 2. İstihkam Alayı",
 "rol": "musteri",
-"not": "UBM tekerlekli fabrika setlerinden birinin kullanıcısı (Inowrocław); araştırma notu mobil tahkimat fabrikası için ilk sunum hedefi olarak öneriyor.",
-"kaynak": "final_S4 5. bölüm madde 3"
+"not": "UBM setlerinden birinin kullanıcısı (Inowrocław); 2026'da UBM eğitim tesisleri; mobil tahkimat fabrikası için ilk sunum hedefi.",
+"kaynak": "https://defence24.pl/polityka-obronna/co-z-tarcza-wschod-w-2026-wojsko-przedstawia-plan"
 },
 {
 "ad": "Ukrayna Müteahhitler Birliği",
 "rol": "ortak_adayi",
-"not": "Ocak 2026'da 12 mevziyi bağlayan 2 km yeraltı altyapı işiyle anıldı; araştırma notu Ukrayna'da doğrudan satış yerine bu kanalı öneriyor.",
+"not": "Ukrayna'da doğrudan satış yerine bu kanal; ejder dişi 24 ile 38 avro ile ucuz, iş kalıp ve santral satışı.",
 "kaynak": "https://thedefensepost.com/2026/01/29/ukraine-underground-fortifications-frontline/"
+},
+{
+"ad": "Bud-Tekhprom LLC",
+"rol": "emsal",
+"not": "Harkiv; Savunma Bakanlığı istihkam birliğine 50.000 piramit 64,7 milyon UAH (1.294 UAH/adet); NGL.media bağımsız testinde ürün şartnameyi karşılamadı; kalite boşluğu MEKA kalıp ve otomasyon argümanını destekliyor.",
+"kaynak": "https://ngl.media/en/2025/09/10/fragile-dragon-s-teeth/"
 },
 {
 "ad": "Polonya Millî Savunma Bakanlığı",
 "rol": "kurum",
-"not": "Doğu Kalkanı programının sahibi, bütçe 10 milyar PLN (2024-2028); resmî sayfa yerli tercihi bağlayıcı şart yapmıyor, NATO ve AEA üreticilerini İnovasyon Dairesi üzerinden başvuruya davet ediyor.",
-"kaynak": "https://tarczawschod.wp.mil.pl/en/about-the-programme/"
+"not": "Doğu Kalkanı sahibi; 2025'te 870 milyon PLN sözleşme, 2026 hedefi 260 km ve 37 depo; UBM iki set daha isteniyor; yerli tercih bağlayıcı şart değil.",
+"kaynak": "https://defence24.pl/polityka-obronna/co-z-tarcza-wschod-w-2026-wojsko-przedstawia-plan"
 },
 {
 "ad": "Silahlı Kuvvetler Destek Müfettişliği ve Bölgesel Lojistik Üsleri (RBLog)",
 "rol": "kurum",
-"not": "Polonya'da tahkimat malzemesinin büyük kısmını alıyor; Kasım 2025'e kadar 108 depo stoklama sözleşmesi (yaklaşık 300 ile 308 milyon PLN), hedef 100'den fazla depo.",
-"kaynak": "https://milmag.pl/en/poland-begins-stocking-material-depots-for-the-east-shield-program/"
+"not": "2026'da en az 900 milyon PLN'lik malzeme alımı; 108 depo stoklama sözleşmesi yaklaşık 300 milyon PLN; 16 depo bitti, 7 depo planda (depo sayıları Milmag, bu turda açılmadı).",
+"kaynak": "https://defence24.pl/sily-zbrojne/900-milionow-na-wsparcie-tarczy-wschod-logistycy-z-nowa-technologia (900 milyon PLN) ; https://milmag.pl/en/poland-begins-stocking-material-depots-for-the-east-shield-program/ (108 depo, 300 milyon PLN)"
+},
+{
+"ad": "Askerî Ekonomik Birimler (6, 12, 13, 16, 17 WOG)",
+"rol": "kurum",
+"not": "Prekast tahkimat malzemesini ihale eden alt birimler; Ekim 2025 ile Ekim 2026 arasında TED'de 293,5 milyon PLN sözleşme; 16 WOG'un 63 milyar PLN'lik ilanı 42,8 milyon PLN ile sonuçlandı.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/625610-2026"
+},
+{
+"ad": "Estonya Savunma Yatırımları Merkezi (RKIK / ECDI)",
+"rol": "kurum",
+"not": "600 bunker için 60 milyon avro, ihale 19 Şubat 2026'da Letonya ile ortak açıldı, sonuç 20 Ekim 2026 itibarıyla yok; Datasel mühimmat sözleşmeleri için Avrupa Komisyonu incelemesi Eylül 2026'da.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/estonia-procures-hundreds-of-bunkers-for-the-baltic-defence-line/"
+},
+{
+"ad": "VAS Valsts Nekustamie Īpašumi (VNI)",
+"rol": "kurum",
+"not": "Letonya devlet gayrimenkul şirketi; bariyer hattı ve depo inşaatını organize ediyor, Temmuz 2026'da ilk öncelikli işler için sözleşmeler; bunker inşaatı kademeli, bedeller açıklanmadı.",
+"kaynak": "https://www.baltictimes.com/construction_of_bunkers_and_other_fortifications_along_baltic_defense_line_to_be_gradual_-_defense_ministry/"
+},
+{
+"ad": "Letonya Devlet Savunma Lojistik ve Tedarik Merkezi (VALIC)",
+"rol": "kurum",
+"not": "Ağustos 2025 ihalesi: 4.800'den fazla çit kazığı, 1.000'den fazla tanksavar yapı; 2025 ödeneği 45 milyon avro; Estonya ile ortak bunker ihalesinin Letonya tarafı.",
+"kaynak": "https://www.eurointegration.com.ua/news/2025/08/5/7217335/"
+},
+{
+"ad": "Litvanya Millî Savunma Bakanlığı",
+"rol": "kurum",
+"not": "Haziran 2024'te 4 milyon avrodan fazla karşı hareketlilik alımı; 27 park 2026'da tam donanımlı, 50'ye çıkarma önerisi; 10 yıllık 1,1 milyar avro bütçe önceki turdan, bu turda yeniden doğrulanamadı.",
+"kaynak": "https://defence-industry.eu/lithuania-acquires-engineering-countermobility-means-for-baltic-defence-line-project/"
+},
+{
+"ad": "Finlandiya Sınır Muhafızları",
+"rol": "kurum",
+"not": "200 km doğu sınır çiti 356 milyon avro, Eylül 2026'da tamamlandı; yüklenici adı bulunamadı; çit işi bitti, prekast talebi yok. Kaynak sayfası bu turda açılamadı, önceki tur verisi.",
+"kaynak": "https://www.euronews.com/my-europe/2026/09/09/finland-completes-work-on-200km-fence-along-russia-border"
+},
+{
+"ad": "NSPA",
+"rol": "kurum",
+"not": "NATO fonlu altyapı işlerinin kapısı; ücretsiz Source File ve NCAGE kaydı; bu yaprak için doğrudan sözleşme bulunamadı.",
+"kaynak": "https://www.nspa.nato.int/business/procurement"
+},
+{
+"ad": "MSB",
+"rol": "kurum",
+"not": "5201 kapsamında yazılı sınıflandırma görüşü; Wassenaar ML13.b Not 1 ve ML18.a nedeniyle bunker segment kalıbı için zorunlu; başvuru kaydı yok.",
+"kaynak": "https://www.wassenaar.org/wp-content/uploads/2026/07/Stand-alone-Munitions-List-2025-Corr.pdf"
+},
+{
+"ad": "SSB",
+"rol": "kurum",
+"not": "YETEN kaydı ve 2027 fuar desteği son günü 30 Eylül 2026 geçti; 2028 fuarları için başvuru Eylül 2027.",
+"kaynak": "https://www.ssb.gov.tr/duyuru/2027-yili-yurtdisi-savunma-fuarlari-katilim-destegi-basvurulari-basladi-FUQ21Y"
+},
+{
+"ad": "Ticaret Bakanlığı",
+"rol": "kurum",
+"not": "Pazara giriş belgesi ve Küresel Tedarik Zinciri desteği yüzde 50; ortak belge bütçesinin bu yaprağa düşen 80 ile 160 bin avroluk payı 40 ile 80 bin avroya iner.",
+"kaynak": "https://ticaret.gov.tr/destekler/ihracat-destekleri"
+},
+{
+"ad": "M.I.C. Industries",
+"rol": "emsal",
+"not": "ABD'li UBM üreticisi; Polonya'ya iki set, 12 Ocak 2025, birkaç yüz milyon PLN; Genelkurmay iki set daha için onay istedi; mobil fabrika fiyat emsali.",
+"kaynak": "https://milmag.pl/en/east-shield-ubm-rapid-facility-construction-system-for-the-polish-armed-forces/"
+},
+{
+"ad": "Karanfil Grubu",
+"rol": "emsal",
+"not": "Libya'da 90 m³/saat beton tesisi (Şubat 2021); Türk müteahhitlerin yurt dışı ekipmanını Türkiye'den aldığının örneği.",
+"kaynak": "https://www.aa.com.tr/en/economy/turkish-firm-sets-up-libyas-largest-concrete-factory/2152941"
+},
+{
+"ad": "TOKİ",
+"rol": "emsal",
+"not": "Suriye sınır duvarı, 7 tonluk taşınabilir prekast blok; yurt içi referans.",
+"kaynak": "01 rapor Tablo 8.1.1"
+},
+{
+"ad": "ELKON",
+"rol": "rakip",
+"not": "Türk beton santrali üreticisi, 130'dan fazla ülke; Polonya ve Baltık prekastçılarına santral satışında doğrudan rakip; askerî referansı bulunamadı.",
+"kaynak": "01 rapor final_S4 2.5"
 },
 {
 "ad": "16. Askerî Ekonomik Birim",
@@ -443,78 +872,131 @@ window.MEKA_DATA = {
 "kaynak": "https://jorpex.com/ledger/editions/2026-08-07.html"
 },
 {
-"ad": "Estonya Savunma Yatırımları Merkezi (RKIK / ECDI)",
-"rol": "kurum",
-"not": "600 manga bunkeri için 60 milyon € ayırdı, modül en çok 10 ton; Estonya-Letonya ortak ihalesi Şubat 2026'da başladı, sonuç Eylül 2026'da açıklanmadı.",
-"kaynak": "https://www.kaitseinvesteeringud.ee/en/baltic-defence-line/"
-},
-{
 "ad": "VAS",
 "rol": "kurum",
 "not": "Letonya devlet gayrimenkul şirketi; 303 milyon €'luk sınır tahkimatında Temmuz 2026'da tank hendeği ve konuşlanma altyapısı gibi ilk öncelikli işler için sözleşme imzaladı.",
 "kaynak": "https://euobserver.com/229079/dragons-teeth-and-ditches-inside-the-baltics-new-950km-defence-barrier-against-russia/"
-},
-{
-"ad": "Litvanya Millî Savunma Bakanlığı",
-"rol": "kurum",
-"not": "10 yılda 1,1 milyar € karşı-hareketlilik programı yürütüyor; 27 depo parkı kurdu, 50'ye çıkarma önerisi var.",
-"kaynak": "https://www.globalsecurity.org/military/library/news/2025/08/mil-250801-lithuania-mnd02.htm"
-},
-{
-"ad": "Finlandiya Sınır Muhafızları",
-"rol": "kurum",
-"not": "200 km doğu sınır çitini 356 milyon € ile yürüttü, Eylül 2026'da tamamlandı; kaynakta yüklenici adı yok.",
-"kaynak": "https://www.euronews.com/my-europe/2026/09/09/finland-completes-work-on-200km-fence-along-russia-border"
-},
-{
-"ad": "NSPA",
-"rol": "kurum",
-"not": "NATO fonlu altyapı işlerinin ana kapısı: Altyapı ve Mühendislik Programı 131 proje ve 3,0 milyar €; ücretsiz Source File ve NCAGE kaydı gerekiyor.",
-"kaynak": "https://www.nspa.nato.int/business/procurement"
-},
-{
-"ad": "MSB",
-"rol": "kurum",
-"not": "Tahkimat kalıbı için 5201 kapsamında yazılı sınıflandırma görüşü bir ay içinde isteniyor, hesapla 22 Ekim 2026.",
-"kaynak": "sec_roadmap 9.2"
-},
-{
-"ad": "SSB",
-"rol": "kurum",
-"not": "YETEN kaydı ve 2027 yurt dışı fuar katılım desteği başvurusunun son günü 30 Eylül 2026'ydı, tarih geçti.",
-"kaynak": "https://www.ssb.gov.tr/duyuru/2027-yili-yurtdisi-savunma-fuarlari-katilim-destegi-basvurulari-basladi-FUQ21Y"
-},
-{
-"ad": "Ticaret Bakanlığı",
-"rol": "kurum",
-"not": "Küresel Tedarik Zinciri Yetkinlik Projesi ve pazara giriş belgesi desteği giderlerin yüzde 50'sini karşılıyor, 400 ile 800 bin €'luk 36 aylık bütçe yaklaşık yarıya iner.",
-"kaynak": "https://ticaret.gov.tr/destekler/ihracat-destekleri"
-},
-{
-"ad": "M.I.C. Industries",
-"rol": "emsal",
-"not": "ABD'li UBM üreticisi; Polonya'ya tekerlekli çelik yapı fabrikasından 2 set sattı (12 Ocak 2025), değeri birkaç yüz milyon PLN, 2026'da ek set istendi.",
-"kaynak": "https://milmag.pl/en/east-shield-ubm-rapid-facility-construction-system-for-the-polish-armed-forces/"
-},
-{
-"ad": "Karanfil Grubu",
-"rol": "emsal",
-"not": "Libya'da 90 m³/saatlik beton tesisi kurdu (Şubat 2021); Türk müteahhitlerin yurt dışı projelerinin beton ve agrega ekipmanını Türkiye'den aldığını gösteren örnek.",
-"kaynak": "https://www.aa.com.tr/en/economy/turkish-firm-sets-up-libyas-largest-concrete-factory/2152941"
-},
-{
-"ad": "TOKİ",
-"rol": "emsal",
-"not": "Suriye sınır duvarının 564 km'sini yaptırdı, 7 ton taşınabilir prekast blok kullanıldı; yurt içi tahkimat referansı.",
-"kaynak": "final_S4 3.1"
-},
-{
-"ad": "ELKON",
-"rol": "emsal",
-"not": "Türk beton santrali üreticisi, 4.000'den fazla santral ve 130'dan fazla ülke; haber sayfasında askerî ya da tahkimat referansı bulunamadı.",
-"kaynak": "final_S4 2.5"
 }
 ],
+"ekonomi": {
+"bilet": "0,47 ile 0,88 milyon avro (ilk 24 ay); harcama 320 ile 580 bin avro artı 150 ile 300 bin avro işletme sermayesi; ortak belge payı beşte bir ile 80 ile 160 bin avro dahil",
+"sure_ilk_gelir": "9 ile 15 ay: ilk teklifler Ocak 2027, santral teslim süresi 3 ile 5 ay, ilk avans faturası Mart ile Eylül 2027 arası (MEKA KAP sipariş ve teslim ritmi; 01 rapor Tablo 9.3 12. ay hedefi)",
+"yil3": "2029: gelir 2,0 ile 4,5 milyon avro (2 ile 4 paket, paket 0,6 ile 1,2 milyon avro, artı 0,2 ile 0,5 milyon avro kalıp ve yedek parça); brüt kâr 0,45 ile 1,25 milyon avro (marj yüzde 22 ile 28)",
+"yil5": "2031: gelir 1,0 ile 3,5 milyon avro (1 ile 3 paket; Polonya ve Baltık programları bitmiş, Litvanya, Ukrayna ve genel prekast pazarı); brüt kâr 0,2 ile 1,0 milyon avro; mobil fabrika satışı sayılmadı",
+"geri_odeme": "Baz senaryo 24 ay: 2027'de 1, 2028'de 2 paket, paket 0,9 milyon avro ve yüzde 25 marjla brüt kâr 225 ve 450 bin avro, birikimli 675 bin avro ile 650 bin avroluk bilet karşılanır. Yavaş senaryo 42 ay: 2027'de 0, 2028'de 1, 2029'da 2 paket, paket 0,7 milyon avro ve yüzde 22 marj. Hızlı senaryo 18 ay: 2027'de 2 paket.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kârı 0,2 ile 1,0 milyon avro; dayanak MEKA'nın KAP'a bildirdiği santral birim fiyatları (165 ile 490 bin avro), konsolide brüt marj yüzde 21,5 ile 24,3 ve yılda 1 ile 3 paket varsayımı.",
+"varsayimlar": "Paket fiyatı: santral 250 ile 450 bin avro (KAP sipariş bildirimleri 2025 ve 2026, kaynaklı), kalıp seti 150 ile 300 bin avro (01 rapor Rol 3 fiyat mertebesi, tahmin), kür ve otomasyon 50 ile 150 bin avro (tahmin), isteğe bağlı kırma eleme hattı 400 ile 650 bin avro (KAP 29 Temmuz 2026 siparişi 651.700 avro, kaynaklı). Marj: konsolide yüzde 21,5 ile 24,3 (İş Yatırım tablosu, tek kaynak, sayfa çürütme turunda açılamadı, doğrulanamadı); kalıp ve otomasyon payı yüksek olduğu için paket marjı yüzde 22 ile 28 (tahmin). Hacim: Polonya'da son on iki ayda 293,5 milyon PLN sözleşme ve 2026'da 900 milyon PLN harcama (kaynaklı) mevcut üreticilerce karşılanıyor; MEKA payı yılda 1 ile 4 paket (tahmin). Kurlar: 4,25 PLN/avro, 45 UAH/avro, 20 Ekim 2026 (varsayım). Bütçe dilimi için 1 avro 1,1 dolar (varsayım)."
+},
+"emsaller": [
+{
+"tarih": "27 ve 28 Ekim 2025 (TED yayını 8 Ocak 2026)",
+"taraflar": "12 WOG (Polonya) ile Marło, Stropy Małro, F.U.H. Marcin Czarnowski, Gralbet",
+"bedel": "69.992.904 PLN, yaklaşık 16,5 milyon avro; 6 lot, 49.800 beton kirpi (opsiyon dahil)",
+"birim": "1.282 ile 1.747 PLN/adet, ortalama 1.405 PLN, yaklaşık 330 avro",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/10621-2026"
+},
+{
+"tarih": "13 Temmuz 2026 (TED yayını 17 Temmuz 2026)",
+"taraflar": "13 WOG (Polonya) ile VECO-BET, Kruszbet, WPŻ Elbud Gdańsk, Transbet, Drogi i Mosty Kaczmarczyk, Elementy Budowlane Radymno, Gralbet",
+"bedel": "133.118.441 PLN, yaklaşık 31,3 milyon avro; 7 sözleşme, 28 lot; tahmini bedel 167,0 milyon PLN",
+"birim": "Lot adetleri ilanda var, lot bedelleri karışık sırada; temel adet 56.200 kirpi, 13.240 trapez, 5.220 plaka, 153 istinat duvarı elemanı",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/496566-2026"
+},
+{
+"tarih": "8 Eylül 2026 (TED yayını 10 Eylül 2026)",
+"taraflar": "16 WOG Oleszno (Polonya) ile Stropy Małro, Transbet Betoniarnie Grochowicz, Drogi i Mosty Jan Kaczmarczyk",
+"bedel": "42.839.186 PLN ilan toplamı (lot bedelleri toplamı 39.839.186 PLN), yaklaşık 10,1 milyon avro; 18 lot; ilan değeri 63,03 milyar PLN veri hatası",
+"birim": "Kirpi lotu 6.817.200 PLN, trapez lotu 238.260 PLN, plaka lotu 48.906 ile 127.224 PLN; adet yayımlanmadı",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/625610-2026"
+},
+{
+"tarih": "7 Eylül 2026 (TED yayını 25 Eylül 2026)",
+"taraflar": "6 WOG Ustka (Polonya) ile Małro Sp. z o.o., Transbet, Drogi i Mosty",
+"bedel": "31.031.464 PLN; kirpi lotu 29.475.600 PLN (34.800 adet), plaka 300.760 PLN (2.920 adet), trapez 1.255.104 PLN (5.760 adet); tahmini bedel 53,6 milyon PLN",
+"birim": "Kirpi 847 PLN (yaklaşık 200 avro), plaka 103 PLN, trapez 218 PLN; en yüksek kirpi teklifi 1.380 PLN",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/662217-2026"
+},
+{
+"tarih": "25 Eylül 2026 kirpi lotu (TED yayını 13 Ekim 2026); trapez lotu 26 Ağustos 2026 (TED yayını 7 Eylül 2026)",
+"taraflar": "12 WOG (Polonya) ile Transbet Betoniarnie Grochowiec",
+"bedel": "D/29/12WOG/2026: beş kirpi lotu 2.924.736 ile 3.282.112 PLN (3.200 adet/lot), trapez 466.879 PLN (1.704 adet), plaka 196.470 PLN (1.536 adet)",
+"birim": "Kirpi 914 ile 1.026 PLN (215 ile 240 avro), trapez 274 PLN, plaka 128 PLN",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/705410-2026 ve https://ted.europa.eu/en/notice/-/detail/615629-2026"
+},
+{
+"tarih": "26 Şubat 2025, 11 Temmuz 2025, 11 Eylül 2025, 22 Nisan 2026, 7 Mayıs 2026, 31 Temmuz 2026, 2 Eylül 2026",
+"taraflar": "MEKA Global ve bağlı ortaklığı Meka İthalat İhracat ile yurt içi ve yurt dışı müşteriler (KAP bildirimleri)",
+"bedel": "3 santral 1.044.000 avro KDV dahil; 2 santral 554.000 avro; 4 santral 1.949.600 avro; 6 santral 983.000 avro; 4 santral 1.178.000 dolar; 2 santral 879.000 avro KDV dahil; 3 santral 715.000 avro; kırma eleme tesisi 651.700 avro (29 Temmuz 2026)",
+"birim": "Santral başına 165 ile 490 bin avro; paketin santral kalemi için fiyat tabanı",
+"kaynak": "https://www.borsagundem.com.tr/meka-globalin-bagli-ortakligi-yurt-disindan-beton-santrali-siparisi-aldi ; https://www.getmidas.com/canli-borsa/mekag-hisse/haber/ ; https://rotaborsa.com/?p=287678"
+},
+{
+"tarih": "Temmuz 2024 ve 19 Şubat 2026",
+"taraflar": "ECDI (Estonya) ile Warren Concrete OÜ (prototip); ECDI ve Letonya Savunma Bakanlığı 600 bunker ihalesi",
+"bedel": "Prototip bedeli açıklanmadı; program bütçesi 60 milyon avro, ilk aşama 5,6 milyon avro; ihale sonucu yok",
+"birim": "En çok 100 bin avro/bunker (bütçe bölü adet, hesap); modül en çok 10 ton, 35 m²",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/baltic-defence-line/"
+},
+{
+"tarih": "22 Nisan 2024 ve 2024-2025",
+"taraflar": "Kramatorsk belediye işletmesi ile ASKB LLC; Ukrayna Savunma Bakanlığı istihkam birliği ile Bud-Tekhprom",
+"bedel": "11.000 piramit 17,49 milyon UAH; 50.000 piramit 64,7 milyon UAH KDV dahil",
+"birim": "1.590 UAH ve 1.294 UAH/adet, yaklaşık 29 ile 35 avro; Lyman 1.725 UAH",
+"kaynak": "https://freeradio.com.ua/u-kramatorsku-hromadu-kupyly-11-tysiach-zubiv-drakona-na-ponad-17-mln-hrn-detali/ ; https://ngl.media/en/2025/09/10/fragile-dragon-s-teeth/"
+},
+{
+"tarih": "30 Haziran 2024",
+"taraflar": "Litvanya Silahlı Kuvvetleri Lojistik Komutanlığı ile yerli tedarikçiler (isim yok)",
+"bedel": "4 milyon avrodan fazla; ejder dişi, Çek kirpisi, cheval de frise, beton yol bariyeri",
+"birim": "Adet açıklanmadı",
+"kaynak": "https://defence-industry.eu/lithuania-acquires-engineering-countermobility-means-for-baltic-defence-line-project/"
+},
+{
+"tarih": "12 Ocak 2025",
+"taraflar": "Polonya 2. Bölgesel Lojistik Üssü ile M.I.C. Industries (ABD)",
+"bedel": "İki UBM seti, birkaç yüz milyon PLN (resmî açıklama, kesin rakam yok)",
+"birim": "Set başına 100 milyon PLN mertebesi, hesap; mobil fabrika fiyat tavanı",
+"kaynak": "https://milmag.pl/en/east-shield-ubm-rapid-facility-construction-system-for-the-polish-armed-forces/"
+}
+],
+"cevaplar": [
+{
+"soru": "Estonya ile Letonya'nın 600 bunkerlik ortak ihalesini kim kazandı?",
+"durum": "kismen",
+"cevap": "İhale 19 Şubat 2026'da ECDI tarafından rekabetçi müzakereli usulle Estonya kamu ihale kayıt sisteminde açıldı; ECDI duyurusu Letonya Savunma Bakanlığı'nın ilgi gösterdiğini ve katılımın görüşüldüğünü yazıyor, ERR ise ihaleyi iki kurumun birlikte açtığını yazıyor; toplam bütçe 60 milyon avro, 2026 payı yaklaşık 30 milyon avro. ECDI haber listesinde 16 Eylül 2026'ya kadar sonuç duyurusu yok; TED'de Estonya alıcılı bunker sonucu yok; ERR, Defense News, Baltic Times ve Estonian World'de kazanan haberi yok. Müzakereli usul olduğu için sonuç 2026 sonuna sarkabilir. Prototip üreticisi Warren Concrete OÜ (Temmuz 2024 sözleşmesi) ve panel tipi tasarım seçildiği için panel prekastçıları ilk muhatap.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/estonia-procures-hundreds-of-bunkers-for-the-baltic-defence-line/ ; https://www.kaitseinvesteeringud.ee/uudised/ ; https://news.err.ee/1609877326/installation-of-baltic-defense-line-bunkers-delayed-for-a-year-in-estonia ; TED API sorgusu buyer-country=EST",
+"kime": "ECDI basın sözcüsü Krismar Rosin ve ihaleler genel müdür yardımcısı Asko Kivinuk; Estonya kamu ihale kayıt sistemi (riigihanked.riik.ee) ihale sonuç bildirimi"
+},
+{
+"soru": "Polonya 16. Askerî Ekonomik Birim ihalesinin gerçek değeri ne?",
+"durum": "cevaplandi",
+"cevap": "Sözleşmeler 8 Eylül 2026'da imzalandı, TED'de 10 Eylül 2026'da yayımlandı: 18 lotun toplamı 42.839.186 PLN, yaklaşık 10 milyon avro. Altı kirpi lotundan dördü 6.817.200 PLN, biri 6.748.800 PLN; trapez mevzi lotları 238.260 PLN; plaka lotları 48.906 ile 127.224 PLN; bir lot 3.748.800 PLN. Kazananlar Stropy Małro sp. z o.o. sp. k. (Radzionków), Transbet Betoniarnie Grochowicz Sp. k. (Przemyśl) ve Drogi i Mosty Jan Kaczmarczyk (Pułtusk). 63,03 milyar PLN'lik ilan değeri veri hatası olarak teyit edildi. Lot başına adet ilanda yayımlanmadı; 12 WOG ve 6 WOG birim fiyatlarıyla kirpi lotu başına 4.000 ile 8.000 adet çıkar, bu hesap tahmindir.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/625610-2026 ; https://ted.europa.eu/en/notice/-/detail/497991-2026 ; https://jorpex.com/ledger/editions/2026-08-07.html",
+"kime": "gerekmiyor"
+},
+{
+"soru": "MEKA'nın tesis verisi, boş kapasite ve kalıp üretim imkânı teknik uyum puanını değiştirir mi?",
+"durum": "gorusme",
+"cevap": "Ek A formu bu turda da doldurulmadı. Kamuya açık veriyle kısmi cevap: MEKA 2025 ve 2026'da KAP'a bildirdiği siparişlerde santral başına 165 ile 490 bin avro fiyatla 24 santral sattı, konsolide brüt marj yüzde 21,5 ile 24,3, 2026 ilk yarı net zarar 60,4 milyon TL yani boş kapasite var. Prekast santral ürün sayfası 0,33 ile 2,0 m³ karıştırıcı, kış paketi ve otomasyon sunuyor. Çelik batarya kalıbı üretim deneyimi ve 10 tonluk bunker modülü için kalıp tasarım kapasitesi kamuya açık değil.",
+"kaynak": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=MEKAG ; https://www.getmidas.com/canli-borsa/mekag-hisse/haber/ ; https://www.mekaglobal.com/en/products/concrete-batching-plants/ready-mix-concrete-plants/precast-concrete-batching-plant",
+"kime": "Fabrika müdürlüğü ve tasarım ekibi: Ek A formu, kalıp atölyesi saat kapasitesi, 2026 doluluk oranı"
+},
+{
+"soru": "Tahkimat kalıbı MSB'ye göre gerçekten kontrol dışı mı?",
+"durum": "kismen",
+"cevap": "Wassenaar Mühimmat Listesi 2025 ML13.b, askerî sistemler için balistik koruma sağlamak üzere özel tasarlanmış yapıları kapsıyor ve Not 1 bunu askerî sığınak inşası için özel tasarlanmış malzemelere genişletiyor; ML18.a listedeki ürünlerin üretimi için özel tasarlanmış ekipmanı kapsıyor. Türkiye'nin 5201 sayılı Kanun listesi Wassenaar ile paraleldir. Sonuç: bunker segment kalıbı için yazılı MSB görüşü şart, çünkü sığınak üretim ekipmanı sayılabilir; ejder dişi, kirpi, T-duvar kalıbı ve prekast santral için listede karşılık yok, genel amaçlı tasarım belgelenirse kontrol dışı. Hesaplanan 22 Ekim 2026 tarihli başvuru kaydı dosyalarda yok.",
+"kaynak": "https://www.wassenaar.org/wp-content/uploads/2026/07/Stand-alone-Munitions-List-2025-Corr.pdf ; 01 rapor s_road 9.2",
+"kime": "MSB İhracat Kontrol dairesi, 5201 kapsamında ürün bazlı yazılı sınıflandırma başvurusu; MEKA kalite ve belgelendirme sorumlusu"
+},
+{
+"soru": "Ukrayna'da 100.000'den fazla ejder dişi ve 3.000 savunma noktası rakamı teyit gerekli; finansman bağışçıya bağlı mı?",
+"durum": "kismen",
+"cevap": "Tek bir sözleşmede 50.000 piramit (Bud-Tekhprom, 64,7 milyon UAH, Savunma Bakanlığı istihkam birliği), Kramatorsk'ta 11.000, Çernihiv askerî biriminde 54.000 ve 125.000 adetlik iki ihale (274 milyon UAH, haber kaynağı, tek kaynak) ve Zaporijya'da iptal edilen 45.000 adet: 100.000'den fazla ejder dişi rakamı doğrulanıyor, fazlasıyla. 3.000 savunma noktası rakamı bu turda bulunamadı. Finansman: Zaporijya ihalesi merkezi bütçe aktarılmadığı için iptal edildi; alımlar yerel bütçe, oblast askerî idareleri ve askerî birimlerden; birim fiyat 24 ile 38 avro, yani Ukrayna'da ürün ucuz, iş üretim sistemi ve kalıpla yapılır. NGL.media kalite sorunları bildirdi.",
+"kaynak": "https://ngl.media/en/2025/09/10/fragile-dragon-s-teeth/ ; https://freeradio.com.ua/u-kramatorsku-hromadu-kupyly-11-tysiach-zubiv-drakona-na-ponad-17-mln-hrn-detali/ ; https://glavcom.ua/country/politics/pidriv-oboronozdatnosti-zaporizkoji-oblasti-kabmin-ne-dav-hroshej-na-zubi-drakona-985542.html",
+"kime": "Ukrayna Müteahhitler Birliği ve Dozorro analiz ekibi: 2025 ve 2026 toplam adet ve finansman kaynağı"
+}
+],
+"arastirildi": true,
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -522,29 +1004,35 @@ window.MEKA_DATA = {
 "puan_kisa": "4,35",
 "butonlar": [
 {
+"dosya": "c_sav_prekast",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.1 Tahkimat ve koruyucu altyapı üretim sistemleri",
 "sayfa": 24,
-"rol": "tam"
+"rol": "ana"
 }
 ],
 "puan": {
-"G": 3.0,
+"G": 1.67,
 "H": 4.0,
-"R": 3.0,
-"E": 5.0,
+"R": 2.0,
+"E": 3.0,
 "M": 5.0,
-"S": 2.67,
+"S": 2.0,
 "B": 4,
 "K": 4
 },
 "puan_not": {
-"G": "Model yok; Doğu Kalkanı 10 milyar PLN; santral paketiyle 2-5 M$ brüt tahminim.",
-"H": "K145 Esenboğa referansı hazır, bayi ağı var; rapor 0 ile 12 ay hızlı kazanım. [Eleştirmen düzeltti, ortalama 4.7 iken 4: Rubrikte 5, altı ay içinde mevcut ürünle satış demek. Paket yeni kalıp ve katalog istiyor, ilk temas bile yıl sonunda. Raporun 0 ile 12 ay penceresi r]",
-"R": "Talep bütçeli, Estonya 60 M euro; ürün kontrol dışı; yerli tercih, 2027-28 düşüş riski. [Eleştirmen düzeltti, ortalama 4 iken 3: Rubrikte 4 düşük ile orta risk demek. Burada iki yüksek etkili ve bir yüksek olasılıklı risk birlikte var, pencere de 2027 ile 2028'de kapanıyor. Bu e]",
-"E": "Kayıtlar ücretsiz, B2B sivil kanal, ihracat izni gerekmez, mevcut bayi ağı.",
-"M": "Prekast santral, kalıp ve otomasyon çekirdek iş; teknik uyum 5, sinerji 5.",
-"S": "Pencere 2027-28'e kadar güçlü; beton santrali mevcut işin uzantısı, teknoloji orta."
+"G": "Yıl 5 brüt kâr 0,2 ile 1,0 milyon avro; paket adedi tahmin, pencere 2028.",
+"H": "İlk avans faturası Mart ile Eylül 2027, 9 ile 15 ay; santral mevcut ürün.",
+"R": "Talep TED kayıtlı; kirpi fiyatı 1.747'den 1.026 PLN'ye düştü; ML13 kontrol riski. [Eleştirmen düzeltti, ortalama 3 iken 2: Pencere, yerli tercih ve sınıflandırma birden çok kritik belirsizlik; rubrik R2. Aynı ihale kayıtları ve aynı pencereye dayanan kalıp yaprağı 2,3 alır]",
+"E": "On Polonyalı prekastçı isimli, MEKA kendi satar; bunker kalıbı MSB görüşü ister. [Eleştirmen düzeltti, ortalama 4 iken 3: Rubrik E3: izin ya da belge gerekir, yol belli. Sınıflandırma görüşü alınmadan kalıp ihracı yapılamıyor ve Polonyalı alıcılarla mevcut ilişki yok. Ayn]",
+"M": "Beton santrali çekirdek ürün; kalıp Ankara ağır sac hattında, ek yatırım yok.",
+"S": "Teknoloji yok, mevcut ürünün yeni müşterisi; Polonya ve Baltık penceresi 2028'de kapanıyor."
 },
 "puan_yayilim": []
 },
@@ -555,148 +1043,195 @@ window.MEKA_DATA = {
 "id": "sav_kalip",
 "baslik": "Tahkimat kalıbı, gabion ve çelik engel",
 "bant": "one_cikan",
-"puan_metni": "4,25 / 5. Savunma raporunun yedi kriterli ağırlıklı baz puanı; 24 niş içinde 2. sıra, sınıf birincil. Kriter puanları: teknik uyum 5, pazar çekiciliği 3, giriş engeli 5, rekabet 3, gelire ulaşma süresi 5, yatırım ihtiyacı 5, sinerji 4. Hızlı nakit senaryosunda 4,45 ile 1. sıraya çıkar, pazar odaklı senaryoda 4,05 ile 2. sırada kalır. Tablo 7.2 yalnız sırayı verir; bu iki değer s_score verisi ve senaryo ağırlıklarından hesaplandı. Rapor teknik uyum puanlarının tesis verisi gelene kadar varsayım olduğunu yazar.",
-"tarih": "22 Eylül 2026",
-"ne": "Ejder dişi, kirpi, T-duvar ve bunker segmenti dökmek için çelik batarya kalıpları üretmek. Buna tel kafes gabion ve Litvanya'nın aldığı Çek kirpisi tipi çelik profil engeller eklenir. Bitmiş beton ürün değil, kalıp ve çelik engel ihraç edilir. Bunlar hafif ve yassı sevk edildiği için Türkiye'den ihracata uygundur.",
-"neden": "MEKA'nın ağır sac, lazer kesim ve kaynak yetkinliğini doğrudan kullanır. Rapor ürünleri kontrolsüz sayar; kalıp HS 8480, gabion HS 7314. Alıcılar prekast üreticileri ve savunma bakanlıklarıdır; rapor 1. ve 2. sıradaki tahkimat nişlerinin sivil B2B kanalla ve ihracat izni gerektirmeden satıldığını yazar. Yatırım ihtiyacı ve gelire ulaşma süresi puanları 5. Rapor bu nişi prekast hattıyla aynı pakette 0-12 aylık hızlı kazanım sayar. Türkiye'de ejder dişi kalıbı nişi boş görünür; bu tahmin işaretlidir.",
+"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi öne çıkan: Talep artık resmî ihale sonuçlarıyla kanıtlı ve birim fiyatlar belli; bilet 290 ile 485 bin avro ile MEKA ölçeğinde küçük; ilk gelir 9 ile 12 ay; geri ödeme 20 ile 36 ay; ürünler mevcut tezgâh parkına doğrudan oturuyor. Çekinceler: yıl 5 brüt kârı 0,35 ile 1,0 milyon avro ile mutlak değer küçük, talep 2028'den sonra daralıyor, kazananların tamamı yerli. Bu yaprak tek başına büyük değil; prekast hattı yaprağıyla aynı pakette ve hızlı nakit kalemi olarak öne çıkan sınıfta kalmalı. Önceki çalışmanın kendi puanı: 4,25 / 5. Savunma raporunun yedi kriterli ağırlıklı baz puanı; 24 niş içinde 2. sıra, sınıf birincil. Kriter puanları: teknik uyum 5, pazar çekiciliği 3, giriş engeli 5, rekabet 3, gelire ulaşma süresi 5, yatırım ihtiyacı 5, sinerji 4. Hızl…",
+"tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 22 Eylül 2026",
+"ne": "MEKA'nın Ankara tesisinde ağır sac, lazer kesim, CNC ve kaynak hattıyla ejder dişi, beton kirpi, T-duvar ve bunker paneli için çelik batarya kalıpları, Çek kirpisi tipi çelik profil engeller ve tel kafes gabion üretmek. Bitmiş beton ürün değil, kalıp ve çelik engel ihraç edilir. Alıcılar Polonya ve Baltık prekast üreticileri ile savunma bakanlıklarının lojistik birimleridir. Kalıp HS 8480, gabion HS 7314; rapor bu ürünleri kontrol dışı sayar, MSB görüşü henüz yok.",
+"neden": "Talep resmî ihale kayıtlarıyla kanıtlı: Polonya askerî birimleri 2025 ve 2026'da TED'de yüz binlerce beton kirpi aldı; tek bir 13. WOG ihalesi 56.200 kirpi ve 133,1 milyon PLN. Litvanya 7.300 ejder dişini adet başına 213 avroya aldı; Letonya 4,87 milyon avroluk ejder dişi çerçevesi ve 410.640 avroluk metal kirpi sözleşmesi imzaladı. Bu ürünler MEKA'nın mevcut tezgâh parkına doğrudan oturur, bilet küçüktür ve ilk gelir 9 ile 12 ayda gelir. Pazar 2028'de daralır; o yüzden kalıp hattı genel prekast kalıbına da dönebilecek biçimde kurulmalı.",
 "rakamlar": [
 {
-"deger": "4,25 / 5",
-"aciklama": "Yedi kriterli ağırlıklı baz puan; 24 niş içinde 2. sıra; sınıf birincil. Teknik uyum, giriş engeli, gelire ulaşma süresi ve yatırım ihtiyacı puanları 5.",
-"kaynak": "01 rapor, s_score, Tablo 7.1, niş 2"
+"deger": "213 € / adet",
+"aciklama": "Litvanya Ordusu Lojistik Komutanlığı 7.300 ejder dişi aldı; 1.558.331 € / 7.300 = 213,5 €. Kazanan UAB Vilduja, karar 4 Aralık 2024.",
+"kaynak": "resmi, TED 201459-2025, https://ted.europa.eu/en/notice/201459-2025"
 },
 {
-"deger": "1.500-4.000 € / 15.000-40.000 € / 30.000-80.000 €",
-"aciklama": "Tekli ejder dişi kalıbı; 8-12 gözlü seri kalıp; modüler bunker segment kalıbı. Tahmin işaretli.",
-"kaynak": "01 rapor, s_fort, 8.1 Rol 3"
+"deger": "1.282 ile 1.747 PLN / adet (293 ile 400 €)",
+"aciklama": "12. WOG beton kirpi ihalesi, 6 lot, her lot 1.800 temel + 6.500 opsiyon = 8.300 adet; lot değerleri 10.637.778 ile 14.496.780 PLN. Toplam 69.992.904 PLN. Kur 4,3702 PLN/€.",
+"kaynak": "resmi, TED 10621-2026 ve NBP, https://ted.europa.eu/en/notice/10621-2026"
 },
 {
-"deger": "155-220 € / adet",
-"aciklama": "Letonya tipi 1,5 tonluk ejder dişinin Ankara'dan Baltık'a kara yolu nakliyesi; ürünün malzeme ve işçilik maliyeti mertebesinde. Bitmiş ürün yerine kalıp satmanın gerekçesi. Tahmin işaretli.",
-"kaynak": "01 rapor, s_fort, 8.1 Ürün ihracatı değil, üretim sistemi ihracatı"
+"deger": "133.118.441 PLN, 56.200 kirpi",
+"aciklama": "13. WOG, Tarcza Wschód tahkimat malzemesi: 56.200 beton kirpi, trapez plaka, siper plakası, istinat duvarı; yedi kazanan: VECO-BET, Gralbet, Transbet, Drogi i Mosty Kaczmarczyk, Kruszbet, WPŻ Elbud Gdańsk ve Elementy Budowlane Radymno; karar 29 Haziran 2026. Krywlany lotu 15.000 adet için 31.254.300 PLN, adet başına 2.084 PLN (477 €); lot ve değer eşleşmesi varsayım.",
+"kaynak": "resmi, TED 496566-2026 ve 318021-2026"
 },
 {
-"deger": "~300.000 beton kirpi, günde ~1.000 teslimat",
-"aciklama": "Polonya Tarcza Wschód programı, Ekim 2026'ya kadar. Program bütçesi 10 milyar PLN, yaklaşık 2,5 milyar $, 2024-2028.",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1"
+"deger": "42.839.186 PLN",
+"aciklama": "16. WOG ihalesinin gerçek sözleşme toplamı; ilan değeri 63 milyar PLN veri hatasıydı. Kazananlar Stropy Małro, Transbet ve Drogi i Mosty Kaczmarczyk; altı kirpi lotunun dördü 6.817.200 PLN, lot ve firma eşleşmesi kayıtta yok; teslimler 10 Ekim ile 20 Kasım 2026.",
+"kaynak": "resmi, TED 625610-2026"
 },
 {
-"deger": "600 bunker ve 20.000'den fazla ejder dişi; 1.000'den fazla bunker",
-"aciklama": "Estonya Baltic Defence Line ve Letonya planı. Letonya 303 milyon € / 5 yıl, ejder dişi 1,5 t/adet. Litvanya 1,1 milyar € / 10 yıl, Çek kirpisi ve beton bariyer stokları.",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1"
+"deger": "847 ile 1.228 PLN / adet (194 ile 281 €)",
+"aciklama": "6. WOG 2026: 24.000 kirpi temel + 10.800 opsiyon, 29.475.600 PLN, kazanan Małro; alt değer opsiyon dahil, üst değer yalnız temel adet.",
+"kaynak": "resmi, TED 662217-2026"
 },
 {
-"deger": "4,5-5,5 milyar €",
-"aciklama": "Doğu kanadı tahkimat programlarının toplam kanıtlanmış bütçesi; tahmini birleştirme işaretli.",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1 notu"
+"deger": "4.867.768,60 €",
+"aciklama": "Letonya VALIC ejder dişi (Pūķa zobi) çerçeve sözleşmesi; kazananlar SIA Salenieku Bloks, UAB Gelmesta (Litvanya), SIA PREfabrica; karar 7 Kasım 2025. Adet açıklanmadı.",
+"kaynak": "resmi, TED 72577-2026"
 },
 {
-"deger": "50-150 bin €",
-"aciklama": "Prototip bütçesi; flat rack, konteyner gövdesi ve kalıp seti birlikte, 36 aylık tahmin tablosunda. Küresel Tedarik Zinciri projesinden yüzde 50 destek imkânı.",
-"kaynak": "01 rapor, s_road, Tablo 9.2"
+"deger": "410.640 €",
+"aciklama": "Letonya VALIC metal Çek kirpisi (prettanku metāla ežu) sözleşmesi, kazanan SIA Kontmet, karar 21 Ekim 2025; adet açıklanmadı, tek kaynak.",
+"kaynak": "resmi, TED 7994-2026"
+},
+{
+"deger": "3.657.376,80 €",
+"aciklama": "Litvanya 2024 paketi: 3.240 ejder dişi, 1.620 yol bloku, 1.620 kirpi, 1.620 İspanyol atı; kazananlar UAB Taiklu ve UAB Gelmesta; ortalama 452 € / kalem.",
+"kaynak": "resmi, TED 419812-2024"
+},
+{
+"deger": "3.436.860 € ve 2.714.600 PLN",
+"aciklama": "Letonya HESCO sepeti alımı (WATEX, Mayıs 2024) ve Polonya 3. RBLog tahkimat kitleri (Megmar, Ocak 2024). Gabion birim fiyatı bulunamadı.",
+"kaynak": "resmi, TED 326618-2024 ve 130948-2024"
+},
+{
+"deger": "1.385 / 2.214 / 2.489 €",
+"aciklama": "Ukrayna 4BİLD liste fiyatı: 4 gözlü PZ-1 ejder dişi kalıbı 70.000 UAH, 6 gözlü PZ-2 111.900 UAH, 6 gözlü PZ-3 125.800 UAH; kur 50,53 UAH/€. Tek kaynak.",
+"kaynak": "firma, prom.ua arama sayfası ve NBU kuru"
+},
+{
+"deger": "25 milyon € ve 60 milyon €",
+"aciklama": "RKIK beton ve beton ürün (ejder dişi, T-duvar, kilitli blok) çerçeve ihalesi Temmuz 2025, 5 + 20 milyon €; Estonya hattı toplam bütçesi 60 milyon €, 2026'da 30 milyon €.",
+"kaynak": "resmi, TED 448091-2025; RKIK ve ERR sayfaları"
+},
+{
+"deger": "12 ile 15 t çelik / gün; vardiyada 60 ejder dişi",
+"aciklama": "Gelmesta (Litvanya) kapasitesi; büyük siparişle günde 150 ile 180 adet hedefi; metal profiller için Avrupa'da alt yüklenici aramak zorunda kaldı. Haber, Kasım 2024.",
+"kaynak": "haber, https://mil.in.ua/en/news/lithuania-to-stockpile-anti-tank-barriers-for-the-baltic-defense-line"
+},
+{
+"deger": "1.363 $/t ve 3.076 CNY/t",
+"aciklama": "Sıcak haddelenmiş rulo: ABD 20 Ekim 2026, yıllık artış yüzde 68; Çin aynı gün. Türkiye iç piyasa levha fiyatı bulunamadı; modelde 700 ile 800 €/t varsayıldı.",
+"kaynak": "rapor, Trading Economics HRC ve Steel sayfaları"
+},
+{
+"deger": "198 ile 240 kg",
+"aciklama": "Sanayi tipi Çek kirpisi: üç L 140x140x13 mm profil, 1,8 ile 2,1 m; maliyet modelinin çelik girdisi.",
+"kaynak": "diger, Wikipedia Czech hedgehog"
 }
 ],
-"durum": "Savunma raporu 22 Eylül 2026 tarihli; bu niş 4,25 puanla 24 niş içinde 2. sırada ve birincil sınıfta. MSB sınıflandırma görüşü rapor takvimine göre bir ay içinde istenecekti; 22 Ekim 2026 civarı dolar, henüz geçmedi. Kalıp kataloğu ve Polonya ile Baltık prekastçılarıyla temas ilk çeyrek görevi, 21 Aralık 2026 civarı. Bunların yapıldığına dair kayıt çalışmalarda yok. 30 Eylül 2026 YETEN ve fuar desteği son günü geçti; yapıldığı bilinmiyor. Bant one_cikan kalıyor: birincil sınıf, 0-12 ay hızlı kazanım dilimi ve kontrol dışı ürün bunu destekliyor. İki çekince: Tablo 8.1.2 tahkimat sistemleri için MEKA teknik uyumunu 4 verir ve kalıp ile kür sistemi bilgisinin eksik olduğunu yazar; Tablo 7.1 bu nişe 5 verir. Teknik uyum puanı tesis verisi gelince güncellenecek.",
+"durum": "Yaprak 20 Ekim 2026'da derin çalışmayla güncellendi; önceki veri 22 Eylül 2026 tarihli rapordan geliyordu ve web araması yapılmamıştı. Bu tur TED API'den 2024 ile 2026 arasındaki Polonya, Litvanya, Letonya ve Estonya ihale sonuçları çekildi; birim fiyatlar ve kazananlar artık kaynaklı. Ekonomi modeli kuruldu: tam giriş bileti 290 ile 485 bin avro, destek sonrası 225 ile 365 bin avro; yıl 3 brüt kârı 0,33 ile 0,77 milyon avro, yıl 5 brüt kârı 0,35 ile 1,0 milyon avro; geri ödeme 20 ile 36 ay. Çürütücü 20 Ekim 2026 tarihinde on dört sayfayı açtı; on bir TED kaydı, mil.in.ua, prom.ua ve focus.ua doğrulandı; bilet toplamı ve hacim tablosu aritmetiği düzeltildi, 13. ve 16. WOG kazanan listeleri tamamlandı. MSB sınıflandırma görüşü için rapor takvimi 22 Ekim 2026'da doluyor ve alındığına dair kayıt yok. Polonya 16. WOG teslimleri 10 Ekim ile 20 Kasım 2026 arasında sürüyor; Estonya ve Letonya ortak bunker ihalesinin sonucu TED'de henüz yok. Bant one_cikan kalıyor ama gerekçe değişti: küçük bilet, hızlı nakit ve resmî talep kanıtı güçlü; mutlak kâr MEKA ölçeğinde küçük ve talep 2028'den sonra daralıyor.",
 "acik_sorular": [
-"Gabion ve çelik engel doğrudan savunma bakanlıklarına mı satılacak, yalnız prekastçılara mı? Tablo 7.1 iki alıcı yazıyor. Tablo 8.1.2 savunma bakanlıkları kanalını mobil fabrikaya bağlıyor. 7.1 okunuşu 1. ve 2. sıranın sivil B2B kanalla satıldığını yazıyor. Gabion ve çelik engelin kamuya doğrudan satış yolu raporda ayrıca anlatılmıyor.",
-"MEKA'da kalıp ve kür sistemi ile tahkimat tasarım bilgisi eksik; Tablo 8.1.2 bunu yazıyor. Bu açık kendi geliştirmeyle mi, ortaklıkla mı kapanacak? Çalışmalarda yok.",
-"MSB'den yazılı sınıflandırma görüşü alındı mı? Rapor bu görüşü tahkimat kalıbı için istiyor; gabion ve çelik engel o maddede sayılmıyor. Kontrol dışı iddiası henüz teyitsiz; rapor sınıflandırma hatasını orta olasılık, yüksek etki risk sayıyor.",
-"Estonya ve Letonya ortak bunker ihalesini kim kazandı; Polonya 16. Askerî Ekonomik Birim ihalesinin gerçek değeri ne? Rapor ikisini teyit edilmesi gerekenler listesine koyuyor."
+"Kısmen cevaplandı: MEKA'da kalıp, kür sistemi ve tahkimat tasarım bilgisi eksik; kendi geliştirmeyle mi, ortaklıkla mı kapanacak?",
+"Görüşme gerekir: MSB'den yazılı sınıflandırma görüşü alındı mı? (MSB İhracat ve Kontrol dairesi; MEKA savunma iş birimi)",
+"Kısmen cevaplandı: Estonya ve Letonya ortak bunker ihalesini kim kazandı; Polonya 16. Askerî Ekonomik Birim ihalesinin gerçek değeri ne?"
 ],
 "adimlar": [
 {
-"adim": "MSB'den flat rack, konteyner, mühimmat hattı ekipmanı ve tahkimat kalıbı için 5201 kapsamında yazılı sınıflandırma görüşü istemek. Gabion ve çelik engeli de eklemek bu özetin önerisi; raporda yok.",
-"kim": "Savunma iş birimi çekirdek ekibi, kalite ve belgelendirme; raporun 9.2 ekip tanımına göre",
-"ne_zaman": "Rapor tarihinden bir ay içinde, 22 Ekim 2026 civarı; hesap, henüz geçmedi"
+"adim": "MSB'den 5201 kapsamında yazılı sınıflandırma görüşü istemek; listeye tahkimat kalıbı, Çek kirpisi tipi çelik engel ve gabion eklemek.",
+"kim": "Savunma iş birimi, kalite ve belgelendirme",
+"ne_zaman": "30 Kasım 2026'ya kadar; rapor takvimi 22 Ekim 2026'da doluyor"
 },
 {
-"adim": "Tahkimat kalıp kataloğunu ve prekast hat paketini hazırlamak: ejder dişi, kirpi, T-duvar ve bunker segmenti kalıpları, gabion paketi.",
-"kim": "Tasarım ve iş geliştirme; raporun 9.2 ekip tanımına göre",
-"ne_zaman": "İlk çeyrek, 21 Aralık 2026'ya kadar; hesap"
+"adim": "Gelmesta ve Kontmet'e çelik profil ve kirpi alt yüklenici teklifi vermek; Litvanya Lojistik Komutanlığı ve Letonya VALIC'in 2027 ihalelerini TED'de izlemek.",
+"kim": "İş geliştirme ve satın alma",
+"ne_zaman": "31 Aralık 2026"
 },
 {
-"adim": "Polonya ve Baltık prekast üreticileriyle ve Estonya ile Letonya bunker ihalesini kazanan firmalarla temas kurmak; mevcut bayi ağını kullanmak.",
+"adim": "Polonyalı kazanan prekastçılara (Małro, Gralbet, Transbet, Drogi i Mosty Kaczmarczyk, VECO-BET, Budokop, Fabet, Czarnowski) kalıp kataloğu ve teklif göndermek; 12. ve 13. WOG'un 2027 ihale takvimini izlemek.",
 "kim": "İş geliştirme ve mevcut bayi ağı",
-"ne_zaman": "İlk çeyrek, 21 Aralık 2026'ya kadar; hesap"
+"ne_zaman": "31 Ocak 2027"
 },
 {
-"adim": "Ticaret Bakanlığı Küresel Tedarik Zinciri Yetkinlik Projesi başvurusunu hazırlamak; prototip kalıp seti bu projeden yüzde 50 destek alabilir.",
-"kim": "Mali işler ve üretim",
-"ne_zaman": "Başvuru ilk çeyrek, 21 Aralık 2026'ya kadar; kalıp prototipinin ayrı tarihi çalışmalarda yok"
+"adim": "Prototip üretmek: 6 gözlü ejder dişi batarya kalıbı, 2 gözlü kirpi kalıbı, 20 adet galvanizli Çek kirpisi; statik yük testi; Küresel Tedarik Zinciri Yetkinlik Projesi başvurusu.",
+"kim": "Üretim, tasarım ve mali işler",
+"ne_zaman": "31 Mart 2027"
 },
 {
-"adim": "Tahkimat paketiyle en az üç ülkede teklif vermiş olmak; ardından ilk tahkimat ekipmanı siparişi.",
-"kim": "Savunma iş birimi ve yönetim",
-"ne_zaman": "6. ay Mart 2027 ve 12. ay Eylül 2027; hesap"
+"adim": "Ortak belge havuzunu tamamlamak: ISO 3834-2 ve EN 1090-2 (çelik engel için CE işareti); bu yaprağın payı beşte bir.",
+"kim": "Kalite ve belgelendirme",
+"ne_zaman": "30 Haziran 2027"
+},
+{
+"adim": "IDEF 2027 ve MSPO 2027'de tahkimat paketini sergilemek; Eylül 2027'de ilk sipariş yoksa kalıp hattını genel prekast kalıbına (blok, bariyer, L duvar) çevirme kararı.",
+"kim": "Yönetim ve savunma iş birimi",
+"ne_zaman": "3 ile 9 Mayıs 2027 ve Eylül 2027"
 }
 ],
 "riskler": [
-"Tahkimat talebi 2027-2028'de programlar tamamlanınca düşebilir; olasılık orta, etki yüksek. Ekipmanı genel prekast pazarına da uygun tasarlamak gerekir.",
-"Polonya ve Baltık'ta yerli tedarikçi tercihi; olasılık yüksek, etki orta. Bitmiş ürün değil üretim sistemi satmak, yerel prekastçı ve ortakla çalışmak öneriliyor. Polonya resmî sayfası yerli tercihini bağlayıcı şart değil tercih beyanı olarak yazıyor.",
-"İhracat kontrol sınıflandırma hatası; olasılık orta, etki yüksek. MSB'den ürün bazında yazılı görüş ve genel amaçlı tasarım disiplini öneriliyor.",
-"Rekabet: Betonblock 90'dan fazla ülkeye kalıp satıyor ama askerî ürün sunmuyor; HESCO gabionda marka ve NSN kayıtlarıyla güçlü. Avrupa'da fiyat avantajı lojistik sonrası yüzde 10-25 ile sınırlı, tahmin. MEKA'da kalıp ve kür sistemi ile tahkimat tasarım bilgisi eksik."
+"Talep zirvesi 2026 ile 2028 arasında; Polonya ve Letonya programları 2028'de, Estonya hattı 2027 sonunda bitiyor. Yıl 3 ve 5 gelirleri Litvanya'nın 2035'e uzanan programına, Ukrayna'ya ve genel prekast kalıbına bağlı. Olasılık yüksek, etki yüksek. Azaltma: kalıpları genel amaçlı tasarlamak, Finlandiya ve Ukrayna kanallarını açmak.",
+"Yerli tedarikçi tercihi: 2024 ile 2026 TED sonuçlarında bütün kazananlar yerli; tek istisna Litvanyalı Gelmesta'nın Letonya çerçevesini alması. Olasılık yüksek, etki orta. Azaltma: önce alt yüklenicilik ve kalıp satışı, doğrudan teklif sonra.",
+"Ukrayna fiyat baskısı: 6 gözlü ejder dişi kalıbı 2.214 ile 2.489 € liste fiyatıyla satılıyor; MEKA kalıbı 2 ile 3 kat pahalı olur. Olasılık orta, etki orta. Azaltma: ağır S355 gövde, hidrolik açma ve vibratör rafıyla yüksek çevrim sayısı argümanı.",
+"Nakliye: 240 kg'lık Çek kirpisinin Ankara'dan Riga'ya kara yolu maliyeti 40 ile 55 € / adet, brüt marjın yaklaşık yarısı; tahmin. Olasılık yüksek, etki orta. Azaltma: yassı sevk edilen cıvatalı tasarım, yerinde montaj ortağı.",
+"İhracat kontrol sınıflandırma hatası; olasılık orta, etki yüksek. MSB'den ürün bazında yazılı görüş ve genel amaçlı tasarım dosyası.",
+"Çelik fiyatı: ABD sıcak rulo bir yılda yüzde 68 arttı; sabit fiyatlı ihale sözleşmelerinde marj erir. Olasılık orta, etki orta. Azaltma: çelik fiyat endeksli sözleşme maddesi ve kısa teklif geçerliliği."
 ],
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 20 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Kalıp için ayrı bütçe kaynakta yok. Prototip kalıp seti, flat rack ve konteyner gövdesiyle birlikte 50-150 bin € kaleminde; tekli kalıp 1.500-4.000 €, seri kalıp 15.000-40.000 €, bunker segment kalıbı 30.000-80.000 €, hepsi tahmin. ISO 3834-2 ve EN 1090-2 belgeleri 25-55 bin € ve tüm portföyle ortak. Kayıtlar ücretsiz.",
-"yol": "kur",
-"yol_not": "Rapor Rol 3'ü MEKA'nın kendi üretimi ve ihracatı olarak anlatıyor; yatırım kaynakta şirket üzerinden okunuyor, bu varsayım. Yerli tedarikçi tercihi riskine karşı yerel prekastçı ve ortakla çalışma öneriliyor. Eksik tahkimat tasarım bilgisi için ortaklık gerekebilir; bu kısım varsayım."
+"butce_not": "Tam giriş bileti (ilk 24 ay) 290 ile 485 bin €, destek sonrası 225 ile 365 bin €; yaklaşık 325 ile 545 bin $. Kalemler: ortak belge ve test havuzunun beşte biri 80 ile 160 bin € (rapor Tablo 9.2'nin 400 ile 800 bin € toplamı bölü 5; desteklerle yarıya iner); prototip kalıp seti ve 20 Çek kirpisi 50 ile 85 bin €; tasarım mühendisi ve dış danışman 60 ile 90 bin €; satış, katalog ve iki fuar 40 ile 60 bin €; ilk siparişler için çelik stoku ve işletme sermayesi 60 ile 90 bin €; hepsi tahmin. İlk 12 ayın harcaması 160 ile 270 bin €: ortak pay 40 ile 80, prototip 40 ile 70, tasarım 30 ile 45, satış 20 ile 30, işletme sermayesi 30 ile 45 bin €. Robotik kaynak hücresi (150 ile 250 bin €) bilete dahil değil; yılda 2.000 kirpiyi aşınca gündeme gelir. Önceki tur dilim 1 yazmıştı; o rakam yalnız prototip kalemine bakıyordu.",
+"yol": "ikisi",
+"yol_not": "Kalıp ve çelik engel MEKA'nın Ankara tesisinde kendi üretimi (kur). Satış tarafında ortak şart: Polonya ve Baltık ihalelerinde kazananlar yerli; ilk iki yılda Gelmesta, Kontmet ve Polonyalı prekastçılara alt yüklenici ya da kalıp tedarikçisi olmak, doğrudan teklif üçüncü yıldan itibaren. Tahkimat tasarım bilgisi için yerel ortak gerekir; bu tahmin."
 },
 "takvim": [
 {
-"tarih": "30 Eylül 2026",
-"olay": "YETEN kaydı ve SSB 2027 yurt dışı fuar desteği başvurusu son günü; geçti, yapıldığı bilinmiyor",
-"kaynak": "01 kart, İlk 90 gün; 01 rapor, s_road, 9.2; inceleme, 01 tutarsızlıklar",
-"iso": "2026-09-30"
-},
-{
-"tarih": "10 Ekim - 20 Kasım 2026",
-"olay": "Polonya 16. Askerî Ekonomik Birim ihalesinin teslimleri: 6 lot betonarme tank kirpisi, 12 lot prekast atış mevzii elemanı; doğu sınırı depoları",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1",
+"tarih": "10 Ekim ile 20 Kasım 2026",
+"olay": "Polonya 16. WOG beton kirpi ve siper prefabrik teslimleri (Stropy Małro, Transbet, Drogi i Mosty; 42,84 milyon PLN)",
+"kaynak": "TED 625610-2026",
 "iso": "2026-11-20"
 },
 {
-"tarih": "22 Ekim 2026 civarı",
-"olay": "MSB'den tahkimat kalıbı için yazılı sınıflandırma görüşü istenmiş olmalı; rapor tarihinden bir ay, hesap",
-"kaynak": "01 rapor, s_road, 9.2",
+"tarih": "22 Ekim 2026",
+"olay": "MSB sınıflandırma görüşü için rapor takviminin dolduğu gün; alındığına dair kayıt yok",
+"kaynak": "01 rapor 9.2",
 "iso": "2026-10-22"
 },
 {
-"tarih": "21 Aralık 2026 civarı",
-"olay": "İlk 90 gün ve ilk çeyrek biter: kalıp kataloğu, prekastçı temasları, ISO 3834-2 ve EN 1090-2 belgelendirmesi, Küresel Tedarik Zinciri başvurusu başlatılmış olmalı",
-"kaynak": "01 rapor, s_road, 9.2; inceleme, 01 tutarsızlıklar, hesap",
+"tarih": "7 Kasım 2025 ile 2027",
+"olay": "Letonya VALIC ejder dişi çerçeve sözleşmesi yürürlükte (4,87 milyon €, üç tedarikçi); süre ilanında yok",
+"kaynak": "TED 72577-2026",
+"iso": "2025-11-07"
+},
+{
+"tarih": "21 Aralık 2026",
+"olay": "İlk çeyrek sonu: kalıp kataloğu, prekastçı temasları, Küresel Tedarik Zinciri başvurusu",
+"kaynak": "01 rapor 9.2; bu çalışma adımları",
 "iso": "2026-12-21"
 },
 {
 "tarih": "Aralık 2026 ve Haziran 2027",
-"olay": "AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi değerlendirmesi; fasıl 84 makine sınıflandırmasını korumak",
-"kaynak": "01 rapor, s_road, Tablo 10.1",
+"olay": "AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi değerlendirmesi",
+"kaynak": "01 rapor Tablo 10.1",
 "iso": "2026-12-15"
 },
 {
-"tarih": "Mart 2027",
-"olay": "6. ay kontrol noktası: tahkimat paketiyle en az üç ülkede teklif; MSB görüşü ve belgeler tamam",
-"kaynak": "01 rapor, s_road, Tablo 9.3, hesap",
-"iso": "2027-03-15"
-},
-{
-"tarih": "3-9 Mayıs 2027",
-"olay": "IDEF 2027 İstanbul; aynı yıl MSPO 2027 Polonya ve DSEI 2027 Londra",
-"kaynak": "01 rapor, s_road, 9.4",
-"iso": "2027-05-03"
+"tarih": "3 ile 9 Mayıs 2027",
+"olay": "IDEF 2027 İstanbul; MSPO 2027 Kielce Eylül 2027",
+"kaynak": "01 rapor 9.4",
+"iso": "2027-05-09"
 },
 {
 "tarih": "Eylül 2027",
-"olay": "12. ay kontrol noktası: ilk tahkimat ekipmanı siparişleri",
-"kaynak": "01 rapor, s_road, Tablo 9.3, hesap",
+"olay": "12. ay kontrol noktası: ilk tahkimat kalıbı ya da çelik engel siparişi; yoksa genel prekast kalıbına dönüş kararı",
+"kaynak": "01 rapor Tablo 9.3; bu çalışma",
 "iso": "2027-09-15"
 },
 {
-"tarih": "2027-2028",
-"olay": "Polonya programı 2028'de, Letonya ejder dişi ve hendek inşaatı 2028'de tamamlanıyor; talep düşüş riski",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1; s_road, Tablo 10.1",
-"iso": "2027-06-30"
+"tarih": "Aralık 2027",
+"olay": "Estonya Baltic Defence Line'ın onaylı kapsamının bitişi; 600 bunker ihalesinin sonucu henüz yok",
+"kaynak": "RKIK; ERR",
+"iso": "2027-12-15"
+},
+{
+"tarih": "2028",
+"olay": "Polonya Tarcza Wschód ve Letonya programlarının tamamlanması; talep düşüşü",
+"kaynak": "muratordom; 01 rapor Tablo 8.1.1",
+"iso": "2028-06-30"
+},
+{
+"tarih": "2035",
+"olay": "Litvanya 1,1 milyar €'luk on yıllık karşı hareketlilik programının bitişi",
+"kaynak": "01 rapor Tablo 8.1.1",
+"iso": "2035-06-30"
 }
 ],
 "kaynaklar": [
@@ -728,6 +1263,11 @@ window.MEKA_DATA = {
 ],
 "tam_calisma": [
 {
+"dosya": "c_sav_kalip",
+"bolum_basligi": "",
+"sayfa": null
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.1 Tahkimat ve koruyucu altyapı üretim sistemleri",
 "sayfa": 24
@@ -754,10 +1294,187 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "tam",
-"kapsam_notu": "Raporun 8.1 bölümü bu nişi fiyat aralığı, HS kodu, rakip ve talep programı rakamlarıyla anlatıyor; s_score yedi kriter puanını, s_road adım, bütçe ve riskleri veriyor. Fiyat aralıkları, nakliye maliyeti, toplam bütçe ve fiyat avantajı tahmin işaretli. Web araması yapılmadı.",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 12 arama, 31 sayfa; 4 açık sorunun 1'i cevaplandı, 1'i görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. WebFetch bu oturumda DNS çözümleyemedi; sayfalar proxy üzerinden curl ile indirilip metne çevrilerek okundu. TED'in HTML ve PDF sayfaları açılmadı, resmî TED arama API'si kullanıldı; lot değerleriyle lot başlıklarının sırası bazı bildirimlerde eşleşmiyor, 13. WOG Krywlany birim fiyatı bu yüzden varsayım; 13. ve 16. WOG'da hangi firmanın hangi lotu aldığı API kaydında yok. Letonya metal kirpi ve ejder dişi çerçevesinin adetleri, HESCO birim fiyatı, Türkiye levha fiyatı bulunamadı. Prozorro arama API'si adet vermiyor, Ukrayna birim fiyatları yalnız Zaporijya planı ve 4BİLD liste fiyatından geliyor; kalıp fiyatı tek kaynak. kam.lt, Polonya program sayfası, ticaret.gov.tr ve globalsecurity açılamadı; bu kaynaklardaki önceki tur rakamları tek kaynak sayıldı. Maliyet ve adet tahminleri MEKA tesis verisi olmadan yapıldı; işçilik saati ve çelik fiyatı varsayım.",
 "kanit": 4,
-"web": [],
+"web": [
+{
+"url": "https://api.ted.europa.eu/v3/notices/search",
+"ne": "TED arama API'si; 10621-2026, 496566-2026, 318021-2026, 625610-2026, 662217-2026, 201459-2025, 419812-2024, 72577-2026, 7994-2026, 326618-2024, 130948-2024, 448091-2025, 119662-2026, 447458-2024, 446770-2024, 640402-2024 ve diğer bildirimler okundu; ted.europa.eu HTML ve PDF sayfaları açılamadı",
+"tur": "resmi"
+},
+{
+"url": "https://prozorro.gov.ua/api/search/tenders",
+"ne": "Ukrayna PZ-1 piramit, protitank kirpi ve gabion ihale listeleri; adet alanı yok",
+"tur": "resmi"
+},
+{
+"url": "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=EUR&json",
+"ne": "NBU kuru 50,5311 UAH/€ ve 45,0013 UAH/$, 20 Ekim 2026",
+"tur": "resmi"
+},
+{
+"url": "https://api.nbp.pl/api/exchangerates/rates/a/eur/?format=json",
+"ne": "NBP kuru 4,3702 PLN/€, 19 Ekim 2026",
+"tur": "resmi"
+},
+{
+"url": "https://www.kaitseinvesteeringud.ee/en/baltic-defence-line/",
+"ne": "Estonya hattı: 60 milyon €, Warren Concrete prototip, ejder dişi ve T-duvar alımları, depolar",
+"tur": "resmi"
+},
+{
+"url": "https://www.kaitseinvesteeringud.ee/en/estonia-procures-hundreds-of-bunkers-for-the-baltic-defence-line/",
+"ne": "600 bunker ihalesi, Letonya katılımı, 2027 sonu hedefi",
+"tur": "resmi"
+},
+{
+"url": "https://www.kaitseinvesteeringud.ee/en/",
+"ne": "RKIK haber listesi; bunker sonucu haberi yok",
+"tur": "resmi"
+},
+{
+"url": "https://platformazakupowa.pl/file/get_new/48247e37c014f65920243dad42776b4b.pdf",
+"ne": "2. RBLog siper plakası ihalesi ilanı 271880-2025, Nisan 2025",
+"tur": "resmi"
+},
+{
+"url": "https://api.sejm.gov.pl/sejm/term10/interpellations/2948/body",
+"ne": "Polonya meclis sorusu, 10 milyar PLN bütçe",
+"tur": "resmi"
+},
+{
+"url": "https://milmag.pl/en/poland-begins-stocking-material-depots-for-the-east-shield-program/",
+"ne": "108 sözleşme, 300 milyon PLN, depolar, Çek kirpisi ve HESCO kitleri",
+"tur": "haber"
+},
+{
+"url": "https://defence24.pl/polityka-obronna/setki-milionow-na-tarcze-wschod-znamy-szczegoly",
+"ne": "2026 bütçesi 652 milyon PLN, 61 km tamamlandı, 207 km hedef",
+"tur": "haber"
+},
+{
+"url": "https://defence24.pl/sily-zbrojne/900-milionow-na-wsparcie-tarczy-wschod-logistycy-z-nowa-technologia",
+"ne": "IWsp SZ 2026'da en az 900 milyon PLN",
+"tur": "haber"
+},
+{
+"url": "https://defence24.pl/polityka-obronna/tarcza-wschod-nabiera-ksztaltow",
+"ne": "Ejder dişi ve kirpi kullanımı, finansman kaynakları",
+"tur": "haber"
+},
+{
+"url": "https://news.err.ee/1609877326/installation-of-baltic-defense-line-bunkers-delayed-for-a-year-in-estonia",
+"ne": "Bunker gecikmesi, panel tipi tasarım, engeller depoda",
+"tur": "haber"
+},
+{
+"url": "https://news.err.ee/1609946612/estonia-plans-600-eastern-border-bunkers-as-baltic-defense-line-advances",
+"ne": "600 bunker, 60 milyon €, 2026'da 30 milyon €",
+"tur": "haber"
+},
+{
+"url": "https://www.defensenews.com/global/europe/2026/02/20/estonia-begins-buying-hundreds-of-pop-up-bunkers-to-fortify-border-with-russia",
+"ne": "19 Şubat 2026 ihale duyurusu, dokuz bunker kuruldu",
+"tur": "haber"
+},
+{
+"url": "https://mil.in.ua/en/news/lithuania-to-stockpile-anti-tank-barriers-for-the-baltic-defense-line",
+"ne": "Gelmesta kapasitesi ve alt yüklenici ihtiyacı, Kasım 2024",
+"tur": "haber"
+},
+{
+"url": "https://defence-industry.eu/lithuania-acquires-engineering-countermobility-means-for-baltic-defence-line-project/",
+"ne": "Litvanya 4 milyon €'nun üzerinde alım, Haziran 2024",
+"tur": "haber"
+},
+{
+"url": "https://thepublic.info/en/news/latvia-is-installing-dragons-teeth-and-anti-tank-trenches-along-its-border-with-russia",
+"ne": "Letonya ejder dişi 1,5 t, üç sıra",
+"tur": "haber"
+},
+{
+"url": "https://muratordom.pl/ludzie-i-firmy/czy-wystarczy-nam-betonu-na-tarcze-wschod-i-elektrownie-jadrowa-branza-skarzy-sie-na-konkurencje-z-ukrainy-aa-NPy4-X89Q-VsuT.html",
+"ne": "2,3 km'de 3.500 eleman, kirpi 1.700 kg, 1,5 milyon m3 beton",
+"tur": "haber"
+},
+{
+"url": "https://geekweek.interia.pl/militaria/news-tarcza-wschod-bez-tajemnic-znamy-szczegoly,nId,7536617",
+"ne": "Program tanımı, kirpi yapısı",
+"tur": "haber"
+},
+{
+"url": "https://focus.ua/uk/ukraine/626435-kabmin-ne-vydelil-dengi-na-zuby-drakona-dlya-oborony-zaporozhskoy-oblasti-foto",
+"ne": "Zaporijya 45.000 ejder dişi, 88,5 milyon UAH planı; en düşük teklif 70,2 milyon UAH",
+"tur": "haber"
+},
+{
+"url": "https://prom.ua/ua/search?search_term=форма зуби дракона",
+"ne": "4BİLD kalıp liste fiyatları",
+"tur": "firma"
+},
+{
+"url": "https://www.hesco.com/products/mil-units/",
+"ne": "MIL serisi özellikleri; fiyat yok",
+"tur": "firma"
+},
+{
+"url": "https://www.betonblock.com/en/",
+"ne": "Ürün aileleri ve müşteri sayısı; fiyat yok",
+"tur": "firma"
+},
+{
+"url": "https://www.maccaferri.com/",
+"ne": "Gabion üreticisi ana sayfa; fiyat yok",
+"tur": "firma"
+},
+{
+"url": "https://tradingeconomics.com/commodity/hrc-steel",
+"ne": "ABD HRC 1.363 $/t, 20 Ekim 2026",
+"tur": "rapor"
+},
+{
+"url": "https://tradingeconomics.com/commodity/steel",
+"ne": "Çin çelik 3.076 CNY/t, 20 Ekim 2026",
+"tur": "rapor"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Czech_hedgehog",
+"ne": "Çek kirpisi profil ve ağırlık",
+"tur": "diger"
+},
+{
+"url": "https://kam.lt/en/?p=85055",
+"ne": "Litvanya MSB basın bülteni; açılamadı (403)",
+"tur": "resmi"
+},
+{
+"url": "https://tarczawschod.wp.mil.pl/en/about-the-programme/",
+"ne": "Polonya program sayfası; açılamadı (Incapsula)",
+"tur": "resmi"
+},
+{
+"url": "https://ticaret.gov.tr/destekler/ihracat-destekleri",
+"ne": "Ticaret Bakanlığı destekleri; açılamadı (502), önceki tur bilgisi tek kaynak",
+"tur": "resmi"
+},
+{
+"url": "https://www.globalsecurity.org/military/library/news/2024/06/mil-240627-lithuania-mnd01.htm",
+"ne": "Litvanya haberi; açılamadı (402)",
+"tur": "haber"
+},
+{
+"url": "https://ted.europa.eu/en/notice/318021-2026/pdf",
+"ne": "TED HTML ve PDF; açılamadı (202 boş), API kullanıldı",
+"tur": "resmi"
+}
+],
 "celiskiler": [
+"Kalıp fiyatı: rapor 8 ile 12 gözlü seri kalıbı 15 ile 40 bin € tahmin ediyor; Ukrayna'da 6 gözlü PZ-2 ve PZ-3 kalıpları 111.900 ve 125.800 UAH (2.214 ve 2.489 €) liste fiyatıyla satılıyor (prom.ua, 4BİLD, tek kaynak). Rapor aralığı ağır ve hidrolik batarya kalıbı için geçerli olabilir; bu çalışma 5.000 ile 8.000 € satış fiyatı aldı.",
+"Bütçe dilimi: önceki tur kapilar.butce 1 (100 bin $ altı) yazmıştı; bu tur ortak belge payı ve 24 aylık tam bilet hesabıyla dilim 2 (290 ile 485 bin €).",
+"Litvanya alımı: önceki özet miktar ve tedarikçinin açıklanmadığını yazıyordu; TED 419812-2024 kazananları (Taiklu, Gelmesta), 3.657.376,80 € toplamı ve 3.240 ejder dişi dahil adetleri veriyor. Ayrıca 2025'te Vilduja'dan 7.300 ejder dişi 1.558.331 €.",
+"Polonya 16. Askerî Ekonomik Birim: rapor ilan değerini teyit gerekli saymıştı; TED 625610-2026 gerçek sözleşme toplamını 42.839.186 PLN olarak veriyor, kazananlar Stropy Małro, Transbet ve Drogi i Mosty Kaczmarczyk.",
+"Alıcı adayları: önceki liste Pekabex, Consolis Polska, E-Betoonelement ve TMB Element'i alıcı örneği sayıyordu; 2025 ile 2026 TED sonuçlarında kazananlar Małro, Gralbet, Transbet, Drogi i Mosty Kaczmarczyk, VECO-BET, Budokop, Fabet, Czarnowski gibi yerel prekastçılar. Hedef listesi değişmeli.",
+"Çek kirpisi tanımı: rapor Litvanya'nın Çek kirpisi tipi çelik engel aldığını yazıyor; TED'de Litvanya ve Letonya hem beton hem metal kirpi alıyor, Polonya'da jeż beton gwiazdobloktur (1.700 kg). Çelik engel pazarı Baltık'ta, beton kirpi pazarı Polonya'da.",
 "01 kartı dört kol diyor ama puan listesinde tahkimat iki satır: prekast hattı 4,35 ve kalıp, gabion, çelik engel 4,25. Üst kutuda ikisi tek kol olarak 4,35 ile gösterilmiş. Kaynak: 01 kart; inceleme, 01 tutarsızlıklar.",
 "01 kartı tahkimatı 0-12 ay hızlı kazanım sayıyor. 03 belgesi, 24 Eylül 2026, savunmayı on alanda 6. sıraya koyuyor, süreyi 6-24 ay ve yatırımı orta yazıyor, gerekçe vermiyor. Ölçekler farklı, sayısal çelişki değil; inceleme 01 özetini daha iyi kanıtlı sayıyor. Kaynak: inceleme, Savunmanın yeri.",
 "Bunker sayısı: kart Baltık için 600'den fazla yazıyor; inceleme özetin bir yerde 600'den fazla, bir yerde 1.600'den fazla yazdığını saptıyor. Raporun 8.1 bölümü ikisini açıklıyor: Rol 1 paragrafı Estonya ve Letonya için 1.600'den fazla bunker yazar; Tablo 8.1.1 Estonya 600 bunker, Letonya 1.000'den fazla bunker planı verir.",
@@ -765,6 +1482,20 @@ window.MEKA_DATA = {
 "Ağaç yeri: inceleme, savunma kollarını Özel firmalar altına koymayı tartışmalı sayıyor; ilk 90 günün kapıları kamu, talep örnekleri devlet alımı. Bu niş için Tablo 7.1 alıcıyı prekast üreticileri ve savunma bakanlıkları diye iki kanal yazıyor; Tablo 8.1.2 savunma bakanlıkları kanalını mobil fabrikaya bağlıyor. Gabion ve çelik engelin doğrudan kamuya satış yolu kartta ve raporda ayrıca anlatılmıyor."
 ],
 "degisiklikler": [
+"20 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
+"Bilet toplamı: tablo kalemleri 80+50+60+40+60 = 290 bin € ediyor, 310 değil; tam bilet her yerde 290 ile 485 bin € yapıldı, dolar karşılığı 325 ile 545 bin $.",
+"Destek sonrası bilet: yüzde 50 destek belge payı ve prototip kalemlerine uygulanınca 225 ile 365 bin € çıkıyor; 230 ile 380 yerine bu yazıldı.",
+"Hacim tablosu yıl 1: 8 ile 14 kalıp, 400 ile 800 kirpi ve 50 ile 150 gabion birim fiyatlarla 0,37 ile 0,76 milyon € gelir ediyordu, tabloda 0,15 ile 0,50 yazıyordu; adetler ilk gelirin 9 ile 12. ayda gelmesine uygun düşürüldü (3 ile 8 kalıp, 0 ile 1 set, 150 ile 500 kirpi, 30 ile 100 gabion), gelir 0,14 ile 0,49 ve brüt kâr 0,04 ile 0,15 milyon €.",
+"Hacim tablosu yıl 2: adetler birim fiyatla 0,70 ile 1,79 milyon € ediyordu; adetler 12 ile 26 kalıp, 1 ile 2 set, 700 ile 1.900 kirpi, 80 ile 260 gabion olarak düzeltildi; gelir 0,60 ile 1,61, brüt kâr 0,18 ile 0,49 milyon €.",
+"Yıl 5 gelir üst sınırı birim fiyatlarla 3,33 milyon € ediyor; 3,20 yerine 3,30 yazıldı. Yıl 3 satırı (1,09 ile 2,56 gelir, 0,33 ile 0,77 brüt kâr) satır satır doğru çıktı, değiştirilmedi.",
+"Geri ödeme: 2027 brüt kârı 40 ile 150, 2028 brüt kârı 180 ile 490 bin € oldu; kümülatif 2028 sonu 220 ile 640 bin €; başlık 24 ile 36 ay yerine metindeki hesapla tutarlı 20 ile 36 ay, destekle 18 ile 30 ay.",
+"13. WOG (TED 496566-2026): kazanan yalnız VECO-BET değil; kayıtta yedi firma var (VECO-BET, Gralbet, Transbet, Drogi i Mosty Kaczmarczyk, Kruszbet, WPŻ Elbud Gdańsk, Elementy Budowlane Radymno), 28 lot. Rakamlar, emsaller, firmalar ve çalışma metni düzeltildi; VECO-BET tek başına aldı cümlesi silindi. 56.200 kirpi toplamı ve Krywlany 15.000 adet lot açıklamalarıyla doğrulandı.",
+"16. WOG (TED 625610-2026): kazananlar Stropy Małro, Transbet ve Drogi i Mosty Kaczmarczyk (üç firma); kayıtta altı kirpi lotu var, dördünün bedeli 6.817.200 PLN, lot ve firma eşleşmesi yok. Tek kazanan Stropy Małro ifadesi düzeltildi; Małro satırındaki en büyük kazanan iddiası yumuşatıldı.",
+"Litvanya 2024 paketi (TED 419812-2024): kayıt Taiklu ve Gelmesta adlarını veriyor ama hangi lotu kimin aldığı yok; Gelmesta kirpi lotunu aldı cümlesi lot eşleşmesi kayıtta yok diye yumuşatıldı.",
+"Megmar sözleşmesi (TED 130948-2024): kayıt kitlerin HESCO BASTION tipi olduğunu yazıyor, emsal satırına eklendi.",
+"Zaporijya haberi (focus.ua): sayfada en düşük teklifin 70,2 milyon UAH (1.560 UAH / adet) olduğu da yazıyor; emsal satırına eklendi.",
+"Doğrulanıp değiştirilmeyenler: Vilduja 7.300 adet ve 1.558.331 €; 12. WOG 6 lot x 8.300 ve 69.992.904 PLN, lot değerleri 10.637.778 ile 14.496.780; 6. WOG 24.000 + 10.800 ve 29.475.600 PLN; Letonya 4.867.768,60 € (7 Kasım 2025) ve 410.640 € (Kontmet, 21 Ekim 2025); WATEX 3.436.860 €; Megmar 2.714.600 PLN; Gelmesta 12 ile 15 t/gün, vardiyada 60 ve günde 150 ile 180 adet; 4BİLD 70.000, 111.900 ve 125.800 UAH liste fiyatları; 16. WOG ilan değeri 63 milyar PLN hatası ve 10 Ekim ile 20 Kasım 2026 teslim takvimi.",
+"Kur sayfaları (NBP, NBU), Estonya, defence24 ve diğer haber sayfaları bu turda açılmadı; bu sayfalara dayanan rakamlar değiştirilmedi, zaten açılmış kaynak olarak kaldı.",
 "puan_metni: Tablo 7.2'nin yalnız sıra verdiği, 4,45 ve 4,05 değerlerinin s_score verisinden hesaplandığı açıkça yazıldı; pazar odaklı senaryoda 2. sıra eklendi; teknik uyum puanlarının varsayım olduğu notu eklendi.",
 "adimlar 1: MSB görüşü maddesi raporun yazdığı gibi düzeltildi; rapor yalnız tahkimat kalıbını sayıyor, gabion ve çelik engel yok. 'gecikmiş' ifadesi silindi; 22 Ekim 2026 henüz geçmedi.",
 "adimlar 2: 'fiyat aralıklarıyla' ve 'Çek kirpisi' silindi, kaynakta yok; katalog maddesi raporun 'kalıp kataloğu ve prekast hat paketi' ifadesine çekildi.",
@@ -788,14 +1519,152 @@ window.MEKA_DATA = {
 {
 "ad": "Betonblock",
 "rol": "rakip",
-"not": "Hollandalı çelik kalıp üreticisi: S355 çelik kalıp, 90'dan fazla ülke, 9.500 müşteri; sitesinde açık askerî ürün yok.",
+"not": "Hollandalı çelik kalıp üreticisi; sitesinde blok, plaka, bariyer, L duvar ve tetrapod kalıpları, 9.500'den fazla müşteri; fiyat ve askerî ürün yok, ürün sayfası 404 verdi.",
 "kaynak": "https://www.betonblock.com/en/"
 },
 {
 "ad": "HESCO",
 "rol": "rakip",
-"not": "Tel kafes bariyerde marka ve NSN kayıtlarıyla güçlü; Polonya depo sözleşmelerinde HESCO BASTION yükseltme kitleri de alınıyor.",
-"kaynak": "https://www.hesco.com/products/mil-units/"
+"not": "MIL serisi tel kafes bariyer, ISO konteynerle sevk, geotekstil 5 yıl saha ömrü; Letonya 2024'te 3,44 milyon €'luk HESCO sepeti aldı (WATEX üzerinden). Birim fiyat bulunamadı.",
+"kaynak": "https://www.hesco.com/products/mil-units/; TED 326618-2024"
+},
+{
+"ad": "Legioblock ve Alfabloc",
+"rol": "rakip",
+"not": "Önceki turda teyit gerekli diye işaretlenen Hollandalı ve İngiliz blok kalıp firmaları; bu turda TED kayıtlarında ve okunan sayfalarda geçmiyor, teyit edilemedi.",
+"kaynak": "final_S12 2.1"
+},
+{
+"ad": "Maccaferri",
+"rol": "rakip",
+"not": "Tel kafes gabion üreticisi; ana sayfası açıldı, askerî fiyat listesi yok. Bu turda doğrulandı, fiyat bulunamadı.",
+"kaynak": "https://www.maccaferri.com/"
+},
+{
+"ad": "4BİLD (TOV 4BILD, Ukrayna)",
+"rol": "rakip",
+"not": "PZ-1, PZ-2 ve PZ-3 ejder dişi metal kalıplarını 70.000, 111.900 ve 125.800 UAH liste fiyatıyla satıyor (1.385 ile 2.489 €); fiyat tabanını belirleyen rakip. Tek kaynak.",
+"kaynak": "https://prom.ua/ua/search?search_term=форма зуби дракона"
+},
+{
+"ad": "UAB Gelmesta",
+"rol": "ortak_adayi",
+"not": "Litvanya'da çelik kirpi ve ejder dişi üreticisi; 2024 Lojistik Komutanlığı paketinin iki kazananından biri (lot eşleşmesi kayıtta yok), 2025 Letonya ejder dişi çerçevesini kazandı; günde 12 ile 15 t çelik işliyor ve metal profil için Avrupa'da alt yüklenici aradı. MEKA için alt yüklenicilik kapısı.",
+"kaynak": "TED 419812-2024 ve 72577-2026; mil.in.ua"
+},
+{
+"ad": "SIA Kontmet",
+"rol": "rakip",
+"not": "Letonya VALIC'in 410.640 €'luk metal Çek kirpisi sözleşmesini kazandı, karar 21 Ekim 2025.",
+"kaynak": "TED 7994-2026"
+},
+{
+"ad": "UAB Vilduja",
+"rol": "emsal",
+"not": "Litvanya Ordusu'na 7.300 ejder dişini 1.558.331 €'ya sattı; adet başına 213 €.",
+"kaynak": "TED 201459-2025"
+},
+{
+"ad": "SIA Salenieku Bloks ve SIA PREfabrica",
+"rol": "musteri",
+"not": "Letonyalı prekastçılar; ejder dişi çerçevesi (4,87 milyon €) ve beton blok lotlarını kazandı. Kalıp alıcısı adayı.",
+"kaynak": "TED 72577-2026 ve 7994-2026"
+},
+{
+"ad": "Małro ve Stropy Małro",
+"rol": "musteri",
+"not": "Polonya'da en çok kirpi lotu kazanan grup: 12. WOG 2025, 16. WOG 2026 (42,84 milyon PLN, Transbet ve Kaczmarczyk ile birlikte) ve 6. WOG 2026 (29,48 milyon PLN, 24.000 adet). Kalıp alıcısı adayı.",
+"kaynak": "TED 10621-2026, 625610-2026, 662217-2026"
+},
+{
+"ad": "Gralbet ve Transbet Betoniarnie Grochowicz",
+"rol": "musteri",
+"not": "Polonyalı prekastçılar; 12. WOG 2025 ve 2026 lotları, 17. WOG lotları. Transbet 2026'da 12. WOG'un altı lotunu aldı (toplam yaklaşık 18,95 milyon PLN).",
+"kaynak": "TED 704917-2026 ile 709469-2026; 35881-2026; 36110-2026"
+},
+{
+"ad": "Drogi i Mosty Jan Kaczmarczyk ve FUH Marcin Czarnowski",
+"rol": "musteri",
+"not": "2. RBLog 2025 (15,57 ve 36,81 milyon PLN), 6. WOG 2025 (32,98 milyon PLN) ve 1. RBLog 2026 (45,35 milyon PLN) kirpi lotlarının kazananları.",
+"kaynak": "TED 447056-2025, 530292-2025, 785301-2025, 673071-2026"
+},
+{
+"ad": "VECO-BET",
+"rol": "musteri",
+"not": "13. WOG'un 133,1 milyon PLN'lik, 56.200 kirpilik 2026 ihalesinin yedi kazananından biri (ilk sırada); lot dağılımı API kaydında yok. En büyük kalıp kapasitesi ihtiyacı bu ihalede.",
+"kaynak": "TED 496566-2026"
+},
+{
+"ad": "Warren Concrete OÜ",
+"rol": "musteri",
+"not": "RKIK ile Temmuz 2024'te bunker prototip sözleşmesi; prototipler Eylül 2024'te test edildi, iki standart tasarım çıktı. Bu turda RKIK sayfasıyla doğrulandı.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/baltic-defence-line/"
+},
+{
+"ad": "Pekabex ve Consolis Polska",
+"rol": "musteri",
+"not": "Önceki turun alıcı adayları; 2025 ve 2026 TED kirpi sonuçlarında geçmiyorlar, kazananlar küçük ve orta boy yerel prekastçılar. Öncelik düşürülmeli.",
+"kaynak": "TED kayıtları; final_S12 2.1"
+},
+{
+"ad": "E-Betoonelement ve TMB Element",
+"rol": "musteri",
+"not": "Baltık prekastçıları; bu turda TED'de ejder dişi ya da bunker kazananı olarak görülmedi; bunker ihalesi sonuçlanınca yeniden bakılmalı.",
+"kaynak": "TED kayıtları; final_S12 2.1"
+},
+{
+"ad": "IWsp SZ, RBLog 1-2-3 ve 6., 12., 13., 16., 17. WOG",
+"rol": "kurum",
+"not": "Polonya'nın alıcı birimleri; Kasım 2025'e kadar 108 sözleşme ve 300 milyon PLN; 2026'da en az 900 milyon PLN; TED'de 2025 ile 2026 arasında on beşten fazla kirpi ihalesi.",
+"kaynak": "milmag; defence24; TED"
+},
+{
+"ad": "Litvanya Ordusu Lojistik Komutanlığı",
+"rol": "kurum",
+"not": "2024'te 3,66 milyon €'luk dört lotlu paket, 2025'te 1,56 milyon €'luk 7.300 ejder dişi; bütün ihaleler TED'de açık.",
+"kaynak": "TED 419812-2024 ve 201459-2025"
+},
+{
+"ad": "RKIK / ECDI (Estonya)",
+"rol": "kurum",
+"not": "Temmuz 2025'te 25 milyon €'luk beton ve beton ürün çerçevesi; 19 Şubat 2026'da Letonya ile 600 bunker ihalesi; sonuç 20 Ekim 2026 itibarıyla TED'de yok. Bütün engeller depolara yerleştirildi.",
+"kaynak": "TED 448091-2025 ve 119662-2026; RKIK haber sayfası"
+},
+{
+"ad": "VALIC (Valsts aizsardzības loģistikas un iepirkumu centrs, Letonya)",
+"rol": "kurum",
+"not": "Temmuz 2025 altı lotlu engel ihalesi; ejder dişi çerçevesi 4,87 milyon €, metal kirpi 410.640 €, beton blok ve yol bloku lotları.",
+"kaynak": "TED 494218-2025, 7994-2026, 72577-2026"
+},
+{
+"ad": "Polonya Millî Savunma Bakanlığı",
+"rol": "kurum",
+"not": "Tarcza Wschód için 2026'da 652 milyon PLN kayıtlı, artabilir; program sayfası bu turda açılamadı (Incapsula engeli).",
+"kaynak": "defence24; https://tarczawschod.wp.mil.pl/en/about-the-programme/ açılamadı"
+},
+{
+"ad": "MSB",
+"rol": "kurum",
+"not": "5201 kapsamında yazılı sınıflandırma görüşü hâlâ bekleniyor; bu tur gabion ve çelik engelin listeye eklenmesi öneriliyor.",
+"kaynak": "01 rapor 9.2"
+},
+{
+"ad": "Ticaret Bakanlığı",
+"rol": "kurum",
+"not": "Küresel Tedarik Zinciri Yetkinlik Projesi yüzde 50 destek; sayfa bu turda açılamadı, önceki tur bilgisi tek kaynak.",
+"kaynak": "https://ticaret.gov.tr/destekler/ihracat-destekleri açılamadı"
+},
+{
+"ad": "SSB",
+"rol": "kurum",
+"not": "YETEN ve 2027 fuar desteği son günü 30 Eylül 2026 geçti; MSPO 2027 için destek penceresi kaçmış olabilir.",
+"kaynak": "https://www.ssb.gov.tr/duyuru/2027-yili-yurtdisi-savunma-fuarlari-katilim-destegi-basvurulari-basladi-FUQ21Y"
+},
+{
+"ad": "Mesa İmalat, Doka ve Peri Türkiye bayileri",
+"rol": "emsal",
+"not": "Türkiye'de beton kalıp satıcıları; tahkimat kalıbı yapmıyorlar, niş boş görünüyor; bu tur yeni kanıt yok, tahmin.",
+"kaynak": "final_S12 2.1"
 },
 {
 "ad": "Legioblock",
@@ -808,18 +1677,6 @@ window.MEKA_DATA = {
 "rol": "rakip",
 "not": "İngiliz blok kalıp firması olarak anılıyor, araştırma notu bunu teyit gerekli diye işaretliyor.",
 "kaynak": "final_S12 2.1"
-},
-{
-"ad": "Maccaferri",
-"rol": "rakip",
-"not": "Tel kafes gabion üreticilerine örnek olarak veriliyor, araştırma notu bunu teyit gerekli diye işaretliyor.",
-"kaynak": "final_S12 2.1"
-},
-{
-"ad": "Warren Concrete OÜ",
-"rol": "musteri",
-"not": "Estonya'da bunker prototipi üreten prekast firması (Temmuz 2024); araştırma notu onu prekast üreticisi alıcı örneği olarak veriyor.",
-"kaynak": "final_S4 3.3 Rol 1"
 },
 {
 "ad": "Pekabex",
@@ -864,30 +1721,6 @@ window.MEKA_DATA = {
 "kaynak": "https://www.kaitseinvesteeringud.ee/en/baltic-defence-line/"
 },
 {
-"ad": "Polonya Millî Savunma Bakanlığı",
-"rol": "kurum",
-"not": "Doğu Kalkanı programının sahibi; resmî sayfa elemanların mümkün olduğunca Polonyalı firmalardan alınacağını yazıyor, bu bağlayıcı şart değil tercih beyanı.",
-"kaynak": "https://tarczawschod.wp.mil.pl/en/about-the-programme/"
-},
-{
-"ad": "MSB",
-"rol": "kurum",
-"not": "Tahkimat kalıbı için 5201 kapsamında yazılı sınıflandırma görüşü isteniyor; rapor kalıbı HS 8480, gabionu HS 7314 olarak kontrolsüz sayıyor.",
-"kaynak": "sec_roadmap 9.2"
-},
-{
-"ad": "Ticaret Bakanlığı",
-"rol": "kurum",
-"not": "Küresel Tedarik Zinciri Yetkinlik Projesi prototip kalıp setine yüzde 50 destek verebilir, 2026 üst limiti 73,99 milyon TL.",
-"kaynak": "https://ticaret.gov.tr/destekler/ihracat-destekleri"
-},
-{
-"ad": "SSB",
-"rol": "kurum",
-"not": "YETEN kaydı ve 2027 yurt dışı fuar katılım desteği başvurusunun son günü 30 Eylül 2026'ydı, tarih geçti.",
-"kaynak": "https://www.ssb.gov.tr/duyuru/2027-yili-yurtdisi-savunma-fuarlari-katilim-destegi-basvurulari-basladi-FUQ21Y"
-},
-{
 "ad": "Mesa İmalat",
 "rol": "emsal",
 "not": "Türk beton kalıp üreticisi; araştırma notuna göre tahkimat kalıbı yapmıyor, bu yüzden Türkiye'de ejder dişi kalıbı nişi boş görünüyor (tahmin).",
@@ -900,6 +1733,125 @@ window.MEKA_DATA = {
 "kaynak": "final_S12 2.1"
 }
 ],
+"ekonomi": {
+"bilet": "290 ile 485 bin € tam giriş (ilk 24 ay); yüzde 50 destekler alınırsa 225 ile 365 bin €. Ortak belge havuzu payı 80 ile 160 bin € dahil. Tahmin, kalemler calisma_md tablosunda.",
+"sure_ilk_gelir": "9 ile 12 ay: ilk kalıp siparişi ya da Gelmesta alt yüklenicilik 2027 ortası; rapor 12. ay Eylül 2027 diyor. Tahmin.",
+"yil3": "2029: gelir 1,1 ile 2,6 milyon €; brüt kâr 0,33 ile 0,77 milyon € (yüzde 30 ile 34). Dayanak: 25 ile 40 batarya kalıbı, 2 ile 4 bunker ve T-duvar kalıp seti, 1.200 ile 3.000 Çek kirpisi, 150 ile 400 gabion; birim fiyatlar TED ve liste emsallerinden, adetler tahmin.",
+"yil5": "2031: gelir 1,1 ile 3,3 milyon €; brüt kâr 0,35 ile 1,0 milyon €. Polonya ve Letonya programları bitmiş; Litvanya 2035 programı, Ukrayna ve genel prekast kalıbı taşıyor. Tahmin.",
+"geri_odeme": "20 ile 36 ay brüt kârla; destekler alınırsa 18 ile 30 ay. Hesap: 2027 brüt kârı 40 ile 150 bin €, 2028 brüt kârı 180 ile 490 bin €; kümülatif 2028 sonunda 220 ile 640 bin €, bilet 290 ile 485 bin €. Tahmin.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kârı 0,35 ile 1,0 milyon €; dayanak Litvanya 213 €/ejder dişi, Polonya 194 ile 477 €/kirpi ve Letonya 410.640 € metal kirpi sözleşmesinden türetilen birim fiyatlarla tahmini adetler.",
+"varsayimlar": "Kur: 4,3702 PLN/€ (NBP 19 Ekim 2026), 50,53 UAH/€ ve 45,00 UAH/$ (NBU 20 Ekim 2026). Çelik levha ve profil 700 ile 800 €/t (tahmin; ABD HRC 1.363 $/t ve Çin 3.076 CNY/t uçları). İşçilik 18 ile 22 €/saat Ankara (tahmin). Ejder dişi batarya kalıbı 6 ile 8 göz: satış 5.000 ile 8.000 €, maliyet 3.200 ile 5.000 €. Kirpi kalıbı 2 göz: 3.500 ile 5.500 €. Bunker ve T-duvar kalıp seti: 25 ile 60 bin €. Çek kirpisi 240 kg galvanizli: satış 480 ile 650 € teslim Baltık, maliyet 320 ile 340 € artı nakliye 40 ile 55 €. Gabion HESCO tipi hücre: 1.000 ile 1.600 €, maliyet yüzde 65; HESCO fiyatı bulunamadı. Satış ve genel giderler brüt kâra dahil değil."
+},
+"emsaller": [
+{
+"tarih": "4 Aralık 2024 (ilan 28 Mart 2025)",
+"taraflar": "Litvanya Ordusu Lojistik Komutanlığı ve UAB Vilduja",
+"bedel": "1.558.331 €",
+"birim": "7.300 ejder dişi; 213,5 € / adet",
+"kaynak": "https://ted.europa.eu/en/notice/201459-2025"
+},
+{
+"tarih": "15 Ekim 2025 (ilan 8 Ocak 2026)",
+"taraflar": "12. WOG ve Marło, Stropy Małro, FUH Marcin Czarnowski, Gralbet",
+"bedel": "69.992.904 PLN (16,0 milyon €)",
+"birim": "6 lot x 8.300 beton kirpi; 1.282 ile 1.747 PLN / adet (293 ile 400 €)",
+"kaynak": "https://ted.europa.eu/en/notice/10621-2026"
+},
+{
+"tarih": "29 Haziran 2026 (ilan 17 Temmuz 2026)",
+"taraflar": "13. WOG ve VECO-BET, Gralbet, Transbet, Drogi i Mosty Kaczmarczyk, Kruszbet, WPŻ Elbud, Radymno (yedi firma, 28 lot)",
+"bedel": "133.118.441 PLN (30,5 milyon €)",
+"birim": "56.200 kirpi artı plakalar; Krywlany lotu 15.000 adet için 2.084 PLN / adet (477 €), eşleşme varsayım",
+"kaynak": "https://ted.europa.eu/en/notice/496566-2026"
+},
+{
+"tarih": "28 Ağustos 2026 (ilan 10 Eylül 2026)",
+"taraflar": "16. WOG ve Stropy Małro, Transbet, Drogi i Mosty Kaczmarczyk",
+"bedel": "42.839.186 PLN (9,8 milyon €)",
+"birim": "6 kirpi lotu, dördü 6.817.200 PLN; adet ve lot eşleşmesi kayıtta yok; ilan değeri 63 milyar PLN hatalıydı",
+"kaynak": "https://ted.europa.eu/en/notice/625610-2026"
+},
+{
+"tarih": "25 Ağustos 2026 (ilan 25 Eylül 2026)",
+"taraflar": "6. WOG ve Małro",
+"bedel": "29.475.600 PLN (6,7 milyon €)",
+"birim": "24.000 kirpi artı 10.800 opsiyon; 847 ile 1.228 PLN / adet (194 ile 281 €)",
+"kaynak": "https://ted.europa.eu/en/notice/662217-2026"
+},
+{
+"tarih": "7 Kasım 2025 (ilan 2 Şubat 2026)",
+"taraflar": "VALIC Letonya ve Salenieku Bloks, Gelmesta, PREfabrica",
+"bedel": "4.867.768,60 €",
+"birim": "Ejder dişi çerçeve sözleşmesi; adet açıklanmadı",
+"kaynak": "https://ted.europa.eu/en/notice/72577-2026"
+},
+{
+"tarih": "21 Ekim 2025 (ilan 8 Ocak 2026)",
+"taraflar": "VALIC Letonya ve SIA Kontmet",
+"bedel": "410.640 €",
+"birim": "Metal Çek kirpisi lotu; adet açıklanmadı, tek kaynak",
+"kaynak": "https://ted.europa.eu/en/notice/7994-2026"
+},
+{
+"tarih": "6 ve 7 Haziran 2024 (ilan 12 Temmuz 2024)",
+"taraflar": "Litvanya Ordusu Lojistik Komutanlığı ve UAB Taiklu, UAB Gelmesta",
+"bedel": "3.657.376,80 €",
+"birim": "3.240 ejder dişi, 1.620 yol bloku, 1.620 kirpi, 1.620 İspanyol atı; ortalama 452 € / kalem",
+"kaynak": "https://ted.europa.eu/en/notice/419812-2024"
+},
+{
+"tarih": "16 Mayıs 2024 (ilan 3 Haziran 2024)",
+"taraflar": "Letonya Nodrošinājuma pavēlniecība ve SIA WATEX",
+"bedel": "3.436.860 €",
+"birim": "HESCO sepetleri, sınır güçlendirme; adet yok",
+"kaynak": "https://ted.europa.eu/en/notice/326618-2024"
+},
+{
+"tarih": "11 Ocak 2024 (ilan 4 Mart 2024)",
+"taraflar": "Polonya 3. RBLog ve Megmar Logistics & Consulting",
+"bedel": "2.714.600 PLN",
+"birim": "HESCO BASTION tipi tahkimat genişletme kitleri; adet yok",
+"kaynak": "https://ted.europa.eu/en/notice/130948-2024"
+},
+{
+"tarih": "Ocak 2024 (planlanan, finanse edilmedi)",
+"taraflar": "Zaporijya Bölge Askerî İdaresi",
+"bedel": "88,5 milyon UAH",
+"birim": "45.000 beton ejder dişi; 1.967 UAH / adet (yaklaşık 39 €); en düşük teklif 70,2 milyon UAH (1.560 UAH / adet); ihale finansman yokluğundan yürümedi",
+"kaynak": "https://focus.ua/uk/ukraine/626435-kabmin-ne-vydelil-dengi-na-zuby-drakona-dlya-oborony-zaporozhskoy-oblasti-foto"
+}
+],
+"cevaplar": [
+{
+"soru": "Gabion ve çelik engel doğrudan savunma bakanlıklarına mı satılacak, yalnız prekastçılara mı?",
+"durum": "cevaplandi",
+"cevap": "İki kanal ayrı ürünlere ayrılıyor. Beton ürünleri bakanlık lojistik birimleri yerli prekastçılardan bitmiş ürün olarak alıyor; bu yüzden kalıp prekastçıya satılır (B2B). Çelik engel ve gabion doğrudan bakanlık ihalesiyle alınıyor: Letonya VALIC metal kirpi için 410.640 € ile SIA Kontmet'i, HESCO sepeti için 3,44 milyon € ile WATEX'i seçti; Litvanya Lojistik Komutanlığı 2024 paketinde Taiklu ve Gelmesta kazandı; lot eşleşmesi kayıtta yok, Gelmesta çelik kirpi üretiyor. Bu ihaleler TED'de açık ve Litvanyalı Gelmesta Letonya çerçevesini kazanabildi; yabancı teklif mümkün. Pratik yol: ilk yıllarda Gelmesta ve Kontmet gibi yerli kazananlara alt yüklenici olmak, sonra doğrudan teklif.",
+"kaynak": "TED 7994-2026, 326618-2024, 419812-2024, 72577-2026",
+"kime": ""
+},
+{
+"soru": "MEKA'da kalıp, kür sistemi ve tahkimat tasarım bilgisi eksik; kendi geliştirmeyle mi, ortaklıkla mı kapanacak?",
+"durum": "kismen",
+"cevap": "Ürün standartları kamuya açık: Ukrayna PZ-1 piramidi (0,9 m tetraeder), Polonya ihaleleri C30/37 beton ve yaklaşık 1.700 kg kirpi, Letonya 1,5 tonluk ejder dişi, Çek kirpisi L140x13 profil 198 ile 240 kg. Kalıp geometrisi bu şartnamelerden çıkarılabilir; kür ve vibrasyon bilgisi MEKA'nın prekast santral deneyimine yakın. Tahkimat tasarımı (yerleşim, yük testi) için ortak gerekir. Öneri: Gelmesta ile alt yüklenicilik üzerinden öğrenmek ve bir Polonyalı prekastçıyla pilot kalıp. Görüşme gerekli.",
+"kaynak": "Prozorro arama API; TED 10621-2026; thepublic.info; Wikipedia; mil.in.ua",
+"kime": "Gelmesta (Donatas Jankauskas) ve Małro ya da Gralbet satın alma yöneticileri"
+},
+{
+"soru": "MSB'den yazılı sınıflandırma görüşü alındı mı?",
+"durum": "gorusme",
+"cevap": "Web'de ve çalışmalarda alındığına dair kayıt yok; rapor takvimi 22 Ekim 2026'da doluyor. Dolaylı destek: AB ihalelerinde bu ürünler beton ürünleri ve metal yapı CPV kodlarıyla sivil tedarik olarak alınıyor, askerî malzeme sınıfında değil. Yine de 5201 kapsamında yazılı görüş şart; gabion ve Çek kirpisi de listeye eklenmeli.",
+"kaynak": "TED ilan kayıtları (CPV); 01 rapor 9.2",
+"kime": "MSB İhracat ve Kontrol dairesi; MEKA savunma iş birimi"
+},
+{
+"soru": "Estonya ve Letonya ortak bunker ihalesini kim kazandı; Polonya 16. Askerî Ekonomik Birim ihalesinin gerçek değeri ne?",
+"durum": "kismen",
+"cevap": "Polonya: gerçek sözleşme toplamı 42.839.186 PLN, kazananlar Stropy Małro, Transbet ve Drogi i Mosty Kaczmarczyk, karar 28 Ağustos 2026, sonuç ilanı 10 Eylül 2026; ilan değeri 63 milyar PLN veri hatasıydı. Estonya ve Letonya: ihale 19 Şubat 2026'da iki varyantla (hacimsel eleman ve düz panel) ilan edildi; 20 Ekim 2026 itibarıyla TED'de sonuç bildirimi yok. İlk 28 bunkerin elemanları teslim edildi, dokuzu kuruldu.",
+"kaynak": "TED 625610-2026 ve 119662-2026; ERR; RKIK",
+"kime": "RKIK basın ofisi (Krismar Rosin) sonuç tarihi için"
+}
+],
+"arastirildi": true,
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -907,29 +1859,35 @@ window.MEKA_DATA = {
 "puan_kisa": "4,25",
 "butonlar": [
 {
+"dosya": "c_sav_kalip",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.1 Tahkimat ve koruyucu altyapı üretim sistemleri",
 "sayfa": 24,
-"rol": "tam"
+"rol": "ana"
 }
 ],
 "puan": {
 "G": 2.0,
 "H": 4.0,
-"R": 4.0,
-"E": 4.67,
-"M": 5.0,
-"S": 3.0,
+"R": 2.33,
+"E": 3.0,
+"M": 4.0,
+"S": 2.0,
 "B": 4,
 "K": 4
 },
 "puan_not": {
-"G": "Seri kalıp 15-40 bin euro, bunker kalıbı 30-80 bin; brüt 2 M$ altı, tahmin.",
-"H": "Rapor gelire ulaşma 5; 0-12 ay hızlı kazanım, HS 8480 kontrol dışı. [Eleştirmen düzeltti, ortalama 4.7 iken 4: Rapor süre kriterine 5 veriyor ama rubriğin 5'i mevcut ürünle altı ayda satış ister. Kalıp yeni ürün hattı, prototip ve katalog gerekiyor. İlk gelir g]",
-"R": "Talep bütçeli, Letonya 303 M euro, 20.000 ejder dişi; yerli tercih, 2027-28 düşüş riski.",
-"E": "Kayıtlar ücretsiz, HS 8480 ve 7314 kontrolsüz, prekastçılara doğrudan ihracat.",
-"M": "Ağır sac, lazer kesim, kaynak doğrudan; teknik uyum 5, yatırım ihtiyacı 5.",
-"S": "Tahkimat penceresi 2027-28 güçlü; çelik kalıp düşük teknoloji; Betonblock 90 ülkede."
+"G": "Yıl 5 brüt kâr 0,35 ile 1,0 milyon avro; Ukrayna kalıbı 2.214 avroya satılıyor.",
+"H": "İlk kalıp siparişi ya da Gelmesta alt yükleniciliği 2027 ortası, 9 ile 12 ay.",
+"R": "TED 2024 ile 2026 kazananlarının hepsi yerli; nakliye 40 ile 55 avro, marjın yarısı.",
+"E": "Satış için Gelmesta ya da Kontmet gibi ortak şart; MSB 5201 görüşü gerekli.",
+"M": "Ankara lazer ve kaynak hattı kullanılır ama kalıp ve gabion yeni ürün hattı.",
+"S": "Beton kirpi kalıbı sıradan çelik işi; talep zirvesi 2026 ile 2028, ilk giren değil."
 },
 "puan_yayilim": []
 },
@@ -940,149 +1898,203 @@ window.MEKA_DATA = {
 "id": "sav_flatrack",
 "baslik": "Flat rack ve kanca yükleyici gövdesi",
 "bant": "one_cikan",
-"puan_metni": "4,00 / 5, yedi kriterli ağırlıklı puan, baz senaryo; 24 niş içinde 3. sıra; sınıf birincil. Kriter puanları: teknik uyum 5, ihracat pazarı 4, giriş engeli 4, rekabet 2, gelire ulaşma süresi 4, yatırım ihtiyacı 4, öz iş sinerjisi 3. Tablo 8.2.1 alt kalem ön puanları: STANAG 2413 flat rack ve konteyner rafları 4, kanca yükleyici ve DIN 30722 gövdeleri 4. Tablo 8.4.2 konteyner bölümünde flat rack satırı uyum 5. Tablo 8.6.2 vinç bölümünde kanca yükleyici gövdesi ve flat rack 4. Tablo 7.2 notu ilk dört nişin dört ağırlık senaryosunda da ilk altıda kaldığını söylüyor. Teknik uyum puanı tesis verisi gelince güncellenecek.",
-"tarih": "22 Eylül 2026",
-"ne": "Flat rack, NATO ordularının kanca yükleyicili kamyonlarla taşıdığı STANAG 2413 standardında çelik yük platformudur. Rapor ISO konteynerle aynı lojistik zincirde anıyor ve katlanır uçlu ISO uyumlu bir versiyondan söz ediyor. Kanca yükleyici gövdesi ve DIN 30722 gövdeleri bu sistemin çelik gövde parçalarıdır; rapor daha ayrıntılı bir tanım vermiyor. İş saf ağır sac, lazer kesim ve kaynaktır. Silahsız ve zırhsız hâliyle büyük ölçüde ihracat kontrolü dışındadır; askerî araç için özel tadilat ML6 gri alanıdır.",
-"neden": "Rapor ürünün MEKA'nın mevcut tezgâh parkına doğrudan oturduğunu yazıyor. Kırma-eleme şasileri ve konteyner tipi tesisler aynı ağır kaynaklı çelik, hidrolik ve mobil şasi yapısını taşır. MCC 70 kırma tesisi zaten kanca yükleyiciyle taşınan konteyner tipindedir, form faktörü tanıdıktır. Eskişehir tesisinin tek parça 10 ton ve 7 metre işleme sınırı flat rack için yeterlidir. Teknik uyum puanı 5 üzerinden 5. Rapor bu kalemi kontrolsüz ürün, yüksek adet ve Avrupa kamyon programları ile gerekçelendiriyor.",
+"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi öne çıkan: Talep resmi ve firma kaynaklı rakamla doğrulandı: Hollanda 100 milyon avroluk ihale sonucu, Bundeswehr'in iki çağrısında 2.330 flat rack, Saxas çerçevesi, Polonya, İsveç ve Çekya alımları. Emsaller flat rackin ana yüklenici tarafından KOBİ atölyelere yaptırıldığını gösteriyor; bu MEKA'nın giriş yoludur. Bilet 0,7 ile 1,3 milyon avro, MEKA ölçeğinde; yıl 5 brüt kârı 0,7 ile 3,7 milyon avro; geri ödeme 3 ile 5 yıl. Zayıf yanlar: açık birim fiyat yok, Bundeswehr mevcut çerçevesi büyük ölçüde doldu, Doğu Avrupa fiyat rekabeti sert. Bu yüzden bant korunuyor ama getiri beklentisi düşürüldü; Mart 2027 kararı yeniden değerlendirme noktası. Önceki çalışmanın kendi puanı: 4,00 / 5, yedi kriterli ağırlıklı puan, baz senaryo; 24 niş içinde 3. sıra; sınıf birincil. Kriter puanları: teknik uyum 5, ihracat pazarı 4, giriş engeli 4, rekabet 2, gelire ulaşma süresi 4, yatırım ihtiyacı 4, öz iş sinerjisi 3. Tablo 8.…",
+"tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 22 Eylül 2026",
+"ne": "Flat rack, NATO ordularının kanca yükleyicili kamyonlarla taşıdığı STANAG 2413 standardında çelik yük platformudur; Bundeswehr'de adı Wechselladerpritsche, 15 ton yük sınıfı ve 20 ft ISO köşe arayüzü vardır. Kanca yükleyici gövdesi ve DIN 30722 gövdeleri, Hiab MULTILIFT, Palfinger, Hyva ve Marrel gibi üreticilerin kanca sistemlerine takılan kaynaklı çelik alt yapı ve platform parçalarıdır. İş ağır sac, lazer kesim, kaynak ve boyadır. MEKA bu ürünü Eskişehir tesisindeki mevcut lazer, abkant, kaynak ve montaj hatlarında üretir; seri üretim için bir robotik kaynak hücresi ekler. Silahsız ve zırhsız hâliyle ürün büyük ölçüde ihracat kontrolü dışındadır; askerî araç için özel tadilat ML6 gri alanıdır.",
+"neden": "Avrupa'da tek programda bile hacim büyük: Bundeswehr 2020'de 4.000 kamyonluk çerçeve imzaladı, 2023 ve 2024 çağrılarında 2.330 flat rack aldı, 2024'te ayrıca 5.100 adede kadar değişken platform çerçevesi kurdu. Hollanda 2025'te 418 flat rack ve 270 konteyner için 100 milyon avroluk sözleşme verdi; flat rackleri Polonyalı bir atölye yapıyor. Polonya 200 kanca yükleyici set, İsveç 100 artı 100, Çekya 80 kamyon aldı. Ürün MEKA'nın kırma eleme şasisi ve MCC 70 kanca yükleyicili konteyner tesisiyle aynı çelik yapı ve form faktöründedir; raporda teknik uyum 5 üzerinden 5. Bilet 0,7 ile 1,3 milyon avro, yıl 5 brüt kârı 0,7 ile 3,7 milyon avro; ana yüklenici ve kanca üreticileri flat racki alt yükleniciye yaptırdığı için giriş kapısı somut.",
 "rakamlar": [
 {
-"deger": "4,00 / 5",
-"aciklama": "Yedi kriterli ağırlıklı puan, baz senaryo; 24 niş içinde 3. sıra; sınıf birincil",
-"kaynak": "01 rapor, s_score, Tablo 7.1"
+"deger": "4.000 adede kadar; 180 milyon avronun üzerinde; ilk 540 adet",
+"aciklama": "Hiab'ın RMMV'ye 2021 ile 2027 arasında teslim edeceği MULTILIFT MSH-165-CL kanca yükleyici sayısı ve sözleşme değeri; adet başı hesapla yaklaşık 45 bin avro",
+"kaynak": "resmi firma bülteni, https://www.hiabgroup.com/en/newsroom/press-releases/hiab-to-supply-rmmv-with-up-to-4000-multilift-hooklifts/"
 },
 {
-"deger": "4.000'e kadar kanca yükleyici, 180 milyon avronun üzerinde",
-"aciklama": "Hiab'ın Bundeswehr RMMV HX kamyonları için 2021 ile 2027 arasında teslim ettiği MULTILIFT kanca yükleyici sayısı ve sözleşme değeri; Hiab basın bülteni 4 Şubat 2021",
-"kaynak": "01 rapor, s_other 8.2 ve s_crane Tablo 8.6.1"
+"deger": "4.000 WLS kamyon; 2 milyar avroya kadar; ilk 540 adet",
+"aciklama": "BAAINBw ile Rheinmetall arasındaki 18 Haziran 2020 tarihli çerçeve sözleşme; kamyon başı hesapla yaklaşık 500 bin avro",
+"kaynak": "haber, https://esut.de/2020/06/meldungen/21168/bundeswehr-erhaelt-lkws-im-wert-von-bis-zu-zwei-milliarden-euro/"
 },
 {
-"deger": "8.000-16.000 flat rack",
-"aciklama": "Yalnız Bundeswehr programının flat rack ihtiyacı; kamyon başına 2 ile 4 flat rack varsayımı; raporda tahmin işaretli",
-"kaynak": "01 rapor, s_other 8.2"
+"deger": "367 WLS ve 1.830 flat rack; 285 milyon avronun üzerinde, brüt",
+"aciklama": "Bundeswehr'in 29 Haziran 2023 çağrısı; flat rackler ayrı kalem olarak kamyonla birlikte sipariş edildi",
+"kaynak": "firma bülteni, https://www.rheinmetall.com/de/media/news-watch/news/2023/juni/2023-06-29-rheinmetall-wechsellader-fuer-die-bundeswehr"
 },
 {
-"deger": "4-9 bin avro; 8-14 bin avro",
-"aciklama": "STANAG 2413 flat rack birim fiyatı; katlanır uçlu ISO uyumlu versiyon birim fiyatı; raporda tahmin işaretli",
-"kaynak": "01 rapor, s_other 8.2"
+"deger": "1.515 WLS, 500 flat rack, 500 branda üst yapı; 920 milyon avronun üzerinde, brüt; 1.008 kamyon daha önce teslim",
+"aciklama": "Bundeswehr'in 12 Haziran 2024 çağrısı; çerçevenin kalan hacmi hesapla en çok 1.277 kamyon",
+"kaynak": "firma bülteni, https://www.rheinmetall.com/de/media/news-watch/news/2024/06/2024-06-12-bundeswehr-bestellt-weitere-1515-militaer-lkw"
 },
 {
-"deger": "70 araç; 400'den fazla; 15.000'den fazla römork ve 6.300'den fazla konteyner elleçleme ünitesi",
-"aciklama": "Koluman DERMAN 8x8 kanca yükleyicili araç TSK'da; MULTILIFT Talon Çek ve Slovak ordularında; ABD Ordusu PLS filosu",
-"kaynak": "01 rapor, s_other 8.2; s_crane Tablo 8.6.1"
+"deger": "5.100 adede kadar değişken platform; 1.750 adet çağrıldı; 42 milyon avro bütçe; teslim 2025 ile 2027",
+"aciklama": "BAAINBw'nin 7 Kasım 2024'te duyurduğu çerçeve; ESUT 5.100, Eurotransport 4.000 adet yazıyor; çağrılan adede göre birim hesapla 24 bin avro, tam çerçeveye göre 8 ile 10,5 bin avro; adet iki kaynakta farklı",
+"kaynak": "haber, https://esut.de/2024/11/meldungen/54664/beschaffungsvertraege-fuer-gelaendegaengige-anhaenger-und-wechselpritschen-abgeschlossen/"
 },
 {
-"deger": "Haziran 2026",
-"aciklama": "Hiab'ın ayrı Hiab Defence Logistics birimini kurduğu tarih; raporun görüşme listesindeki muhatap",
-"kaynak": "01 rapor, s_other 8.2"
+"deger": "100 milyon avro; yaklaşık 418 flat rack ve 270 özel konteyner; 30 ay teslim, 15 yıl destek",
+"aciklama": "Hollanda Savunma Bakanlığı'nın G3 Systems'a verdiği WTB sözleşmesi, sözleşme tarihi 27 Mayıs 2025; flat rackleri Polonyalı Zamet-Glowno üretiyor; 418 adet EDR 12 Haziran 2026, 270 konteyner ve 30 ay ADS 4 Eylül 2025 kaynaklı, ihale sonucunda yalnız 100 milyon avro ve tarih var",
+"kaynak": "resmi ihale sonucu, https://tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/386113/pdf"
 },
 {
-"deger": "50-150 bin avro; 20-80 bin avro; 25-55 bin avro",
-"aciklama": "Prototipler, flat rack, konteyner gövdesi ve kalıp seti için üç kalem birlikte; MIL-STD-810 ve AECTP ilk prototip testleri; ISO 3834-2 ve EN 1090-2 EXC3 belgeleri; hepsi tahmin işaretli, destekle yarıya inebilir",
-"kaynak": "01 rapor, s_road Tablo 9.2"
+"deger": "200 set; 847 milyon zloti; set başına 4,235 milyon zloti",
+"aciklama": "Polonya Silahlanma Ajansı ile Jelcz arasındaki 22 Mayıs 2024 sözleşmesi: Jelcz P862D.43 kamyon, Multilift Mk IV kanca sistemi, PK-2-24t römork; 105 kesin, 95 opsiyon; teslim 2024 ile 2027; Silahlanma Ajansı bülteni yaklaşık 837 milyon zloti yazıyor",
+"kaynak": "haber, https://defence24.pl/przemysl/duzy-kontrakt-na-ciezarowki-dla-wojska-polskiego"
 },
 {
-"deger": "10 ton; 7 metre",
-"aciklama": "Eskişehir tesisinin tek parça işleme sınırı; rapor bu sınırın flat rack için yeterli olduğunu yazıyor",
-"kaynak": "01 rapor, s_crane 8.6 MEKA için değerlendirme"
+"deger": "80 kamyon; 1,2 milyar Çek kronunun üzerinde, KDV hariç",
+"aciklama": "Çek Savunma Bakanlığı ile Tatra Trucks arasındaki 2 Eylül 2022 sözleşmesi: Tatra Force 8x8 tek kollu kanca yükleyici; kamyon başı hesapla yaklaşık 15 milyon kron",
+"kaynak": "haber, https://ct24.ceskatelevize.cz/domaci/3526577-tatra-vyrobi-pro-armadu-osmdesat-nakladnich-aut-prijdou-na-vic-nez-miliardu"
+},
+{
+"deger": "100 kanca yükleyici artı 100 opsiyon",
+"aciklama": "İsveç FMV'nin JOAB ve Scania'ya verdiği sipariş, 28 Şubat 2025; FMV üç ayrı ürün tipi aldı; bedel açıklanmadı",
+"kaynak": "firma bülteni, https://www.joab.se/en/wp-json/wp/v2/posts/31892"
+},
+{
+"deger": "11.030 M1077 flat rack; 860 milyon dolar",
+"aciklama": "ABD Ordusu'nun Oshkosh'a verdiği ilk PLS sözleşmesi, 1990; 2.626 kamyon ve 1.050 römorkla birlikte; M3 CROP üreticileri AAR ve Hyundai Precision America",
+"kaynak": "ansiklopedi, https://en.wikipedia.org/wiki/Palletized_Load_System"
+},
+{
+"deger": "70 DERMAN DROPS; 20 adet 31 Ekim 2023'e kadar teslim",
+"aciklama": "Koluman'ın TSK için ürettiği 8x8 konteyner taşıyıcı; 70 adedin tamamı 2024 ilk çeyrekte; bedel açıklanmadı",
+"kaynak": "haber, https://www.ekonomigazetesi.com/sirket-haberleri/koluman-13-dropsu-daha-tskya-teslim-etti-22959"
+},
+{
+"deger": "75 ile 250 bin dolar; 150 ile 250 bin dolar ve üstü; pozisyoner 5 ile 60 bin dolar",
+"aciklama": "Anahtar teslim 6 eksenli robotik kaynak hücresi fiyat aralığı; üst segment turnkey; pozisyoner kalemi; yönlendirici satıcı rehberi, tek kaynak",
+"kaynak": "firma rehberi, https://seller.alibaba.com/blogs/2026/southeast-asia/manufacturing/robotic-welding-cell-configuration-guide-alibaba-b2b"
+},
+{
+"deger": "400 ile 800 bin avro; beşte bir pay 80 ile 160 bin avro",
+"aciklama": "Beş savunma kolunun ortak belge, test, prototip ve TGB bütçesi 36 ay; desteklerle yarıya iner; bu yaprağın payı beşe bölme kuralıyla",
+"kaynak": "01 rapor Tablo 9.2, s. 38"
+},
+{
+"deger": "0,7 ile 1,3 milyon avro",
+"aciklama": "Bu çalışmanın hesapladığı tam giriş bileti, ilk 24 ay; robotik kaynak hücresi ve işletme sermayesi dahil; tahmin",
+"kaynak": "bu çalışma, Ekonomi modeli bölümü"
 }
 ],
-"durum": "Bugün 15 Ekim 2026. Rapor 22 Eylül 2026'da bu nişi 24 niş içinde 3. sıraya, birincil sınıfa ve 6 ile 24 ay arası ana bahis ufkuna koydu. Kartın 30 Eylül 2026 son günlü YETEN kaydı ve SSB 2027 fuar desteği başvurusu geçti; yapıldığına dair kayıt dosyalarda yok. MSB sınıflandırma görüşü, tesis veri formu, OEM görüşmeleri ve prototip tasarımı için de dosyalarda ilerleme kaydı yok. Ön bant one_cikan korunuyor. Gerekçe: rapor birincil sınıf veriyor, gelire ulaşma süresi puanı 4 ve ürün büyük ölçüde kontrol dışı. Zayıf nokta rekabet puanı 2. Teknik uyum puanı tesis verisi gelince güncellenecek; rapor bunu açıkça yazıyor.",
+"durum": "Bugün 20 Ekim 2026. Rapor 22 Eylül 2026'da bu nişi 24 niş içinde 3. sıraya koydu; bu tur ekonomi modelini ve emsal işlemleri kaynaklı rakamla kurdu. Bundeswehr çerçevesinin kamyon tarafı büyük ölçüde çağrıldı, kalan en çok 1.277 kamyon 2027'ye kadar; flat rack tarafında 2.330 adet RMMV üzerinden alındı ve Saxas ile 5.100 adede kadar yeni platform çerçevesi var. Hollanda 418 flat racki Polonyalı Zamet-Glowno'ya yaptırıyor; ilk numune 12 Haziran 2026'da devlet doğrulama testine girdi, seri üretim 2026 sonunda başlıyor. Polonya, İsveç, Çekya, Estonya ve Slovakya kanca yükleyici alımları sürüyor. Askerî flat rackin kamuya açık birim fiyatı bulunamadı; türetilmiş göstergeler raporun 4 ile 9 bin avro tahmininin üstünde. Hiab Defence Logistics yalnız bir ad değişikliği; alt yüklenici politikası hakkında açıklama yok. MSB görüşü, tesis veri formu ve OEM görüşmelerinde dosyalarda ilerleme kaydı yok; 22 Ekim 2026 hedefi bu hafta doluyor.",
 "acik_sorular": [
-"Tesis seri flat rack üretimine uygun mu: hol kanca yüksekliği 8 metre ve üstü, montaj hattı 12 ile 15 metre, en az bir robotik kaynak hücresi var mı? Rapor Tablo 7.4'te bu eşikleri veriyor; Ek A tesis veri formu bekleniyor.",
-"MSB yazılı görüşü ne diyecek: silahsız flat rack kontrol dışı mı kalıyor, askerî araç için özel tadilat ML6'ya giriyor mu? Rapor Tablo 6.3'te gri alan diyor.",
-"Hiab, Multilift, Palfinger, Hyva ve Marrel flat rack'i bugün hangi atölyelere yaptırıyor ve hangi fiyattan alıyor? Rapor bu üreticilerin flat rack'i çoğu zaman alt yükleniciye yaptırdığını yazıyor; rakip adı ve fiyat kıyası çalışmalarda yok.",
-"Bundeswehr programı 2021'de başladı ve 2027'de bitiyor; flat rack hacminin ne kadarı zaten sipariş edildi, kalan ne? Çalışmalarda yok.",
-"Hiab Defence Logistics'in Haziran 2026'da kurulması alt yüklenici politikasını değiştiriyor mu? Çalışmalarda yok."
+"Görüşme gerekir: Tesis seri flat rack üretimine uygun mu: hol kanca yüksekliği 8 metre ve üstü, montaj hattı 12 ile 15 metre, en az bir robotik kaynak hücresi var mı? (MEKA üretim müdürü ve Eskişehir tesis sorumlusu; Ek A formu)",
+"Görüşme gerekir: MSB yazılı görüşü ne diyecek: silahsız flat rack kontrol dışı mı kalıyor, askerî araç için özel tadilat ML6'ya giriyor mu? (MSB İhracat Kontrol birimi; başvuru 5201 sayılı Kanun kapsamında ürün bazında)",
+"Kısmen cevaplandı: Hiab, Multilift, Palfinger, Hyva ve Marrel flat racki bugün hangi atölyelere yaptırıyor ve hangi fiyattan alıyor?",
+"Kısmen cevaplandı: Bundeswehr programı 2021'de başladı ve 2027'de bitiyor; flat rack hacminin ne kadarı zaten sipariş edildi, kalan ne?",
+"Kısmen cevaplandı: Hiab Defence Logistics'in Haziran 2026'da kurulması alt yüklenici politikasını değiştiriyor mu?"
 ],
 "adimlar": [
 {
-"adim": "MSB'den flat rack ve kanca yükleyici gövdesi için 5201 sayılı Kanun kapsamında yazılı sınıflandırma görüşü istemek",
-"kim": "Savunma iş birimi sorumlusu ve kalite, belgelendirme ekibi; rapor sorumlu yönetici ve 3 ile 5 kişilik çekirdek ekip öneriyor",
-"ne_zaman": "Rapor 22 Eylül 2026'dan itibaren bir ay içinde diyor; yaklaşık 22 Ekim 2026"
+"adim": "MSB'ye flat rack ve kanca yükleyici gövdesi için 5201 sayılı Kanun kapsamında yazılı sınıflandırma görüşü başvurusu; aynı hafta Ek A tesis veri formunu doldurmak ve NCAGE başvurusu",
+"kim": "Savunma iş birimi sorumlusu, kalite ve belgelendirme ekibi; üretim müdürü",
+"ne_zaman": "22 Ekim 2026 hedefi bu hafta; en geç 31 Ekim 2026"
 },
 {
-"adim": "Ek A tesis veri formunu doldurmak: hol yüksekliği, montaj hattı uzunluğu, robotik kaynak, boş kapasite; sonra Bölüm 7 puanlarını güncellemek",
-"kim": "Şirket; rapor kişi atamıyor",
-"ne_zaman": "Rapor bir ay içinde diyor; yaklaşık 22 Ekim 2026"
+"adim": "Zamet-Glowno, Saxas ve Variel Defence'in ürün ve fiyat düzeyini kıyaslamak; G3 Systems ve Hiab Defence Logistics'e alt yüklenici tanıtım dosyası göndermek; Koluman tedarikçi portalına kayıt",
+"kim": "İş geliştirme; dış ticaret",
+"ne_zaman": "21 Aralık 2026'ya kadar"
 },
 {
-"adim": "Hiab Defence Logistics, Palfinger, Contsystem, Koluman ve BMC ile tedarikçi görüşmeleri; Koluman tedarikçi portalına kayıt",
-"kim": "İş geliştirme; raporun çekirdek ekip tanımına göre",
-"ne_zaman": "Raporun ilk çeyreği; ilk 90 gün inceleme hesabıyla 21 Aralık 2026'da bitiyor"
+"adim": "STANAG 2413 ve DIN 30722 tasarım paketi: 15 ton flat rack, ISO köşeli ve katlanır uçlu versiyon, kanca gövdesi; iki prototip imalatı; test planı",
+"kim": "Tasarım ekibi; Eskişehir prototip atölyesi",
+"ne_zaman": "Tasarım Aralık 2026; prototipler Mart 2027"
 },
 {
-"adim": "STANAG 2413 flat rack prototip tasarımı ve test planı; ardından prototip imalatı",
-"kim": "Tasarım ekibi; raporun çekirdek ekip tanımına göre",
-"ne_zaman": "Tasarım raporun ilk çeyreğinde; prototip raporun 6. ayında, hesapla Mart 2027"
+"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesi; ortak paketin beşte bir payı için Ticaret Bakanlığı pazara giriş belgesi desteği başvurusu",
+"kim": "Kalite ve belgelendirme; mali işler",
+"ne_zaman": "Başlangıç Kasım 2026; belgeler Mart 2027"
 },
 {
-"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak; NCAGE başvurusu, ardından NSPA Source File kaydı",
-"kim": "Kalite ve belgelendirme; raporun çekirdek ekip tanımına göre",
-"ne_zaman": "Kayıtlar bir ay içinde; belgelendirme ilk çeyrekte başlar; belgeler raporun 6. ayında, hesapla Mart 2027"
+"adim": "Robotik kaynak hücresi için üç teklif almak; pozisyonerli, 7 metre parça, 250 ile 450 bin avro bütçe; sipariş kararı Mart 2027 seri üretim kararıyla birlikte",
+"kim": "Üretim müdürü; yatırım komitesi",
+"ne_zaman": "Teklifler Şubat 2027; karar Mart 2027; devreye alma Eylül 2027"
+},
+{
+"adim": "IDEF 2027 ve MSPO 2027'de flat rack prototipini sergilemek; Hollanda WTB ek siparişi, Bundeswehr 2027 sonrası dilimi ve Tatra Force ortak programı için teklif listesine girmek",
+"kim": "İş geliştirme; genel müdür",
+"ne_zaman": "IDEF 3 ile 9 Mayıs 2027; MSPO Eylül 2027"
 }
 ],
 "riskler": [
-"Doğu Avrupa atölyeleriyle fiyat rekabeti; olasılık yüksek, etki orta. Marj düşük, rekabet kriteri 5 üzerinden 2. Robotik kaynak hücresi yoksa fiyat rekabeti puanı daha da düşer. Azaltma: robotik kaynak, seri üretim, teslim süresi argümanı. Kaynak: 01 rapor, s_road Tablo 10.1; s_score Tablo 7.4; s_cont Tablo 8.4.2.",
-"STANAG 2413 yük ve deformasyon testi; rapor bunu başlıca risk sayıyor. Test geçilmezse 12. aydaki test ve tedarikçi onayı hedefi kayar; bu bağ yorumdur. Raporun ilk prototip test bütçesi 20-80 bin avro MIL-STD-810 ve AECTP testleri için; STANAG 2413 testinin ayrı bütçesi çalışmalarda yok. Kaynak: 01 rapor, s_other 8.2; s_road Tablo 9.2 ve Tablo 9.3.",
-"İhracat kontrol sınıflandırma hatası; olasılık orta, etki yüksek. Askerî araç için özel tadilat ML6'ya girebilir; MSB görüşü alınmadan kontrol dışı varsayımı teyitsiz. Azaltma: ürün bazında yazılı görüş, genel amaçlı tasarım disiplini. Kaynak: 01 rapor, s_reg Tablo 6.3; s_road Tablo 10.1 ve 9.4.",
-"Ödeme vadesi: kartın 30 günlük vade avantajı NSPA, BM ve AB kamusuna doğrudan satışta geçerli. Flat rack'in muhatapları Hiab, Palfinger, Koluman gibi özel OEM'ler; kartta özel ana yüklenicilerde vade 50 ile 109 gün. Yerli ana yüklenicilerde vade ve kur riski raporda yüksek olasılık, orta etki. Kaynak: 01 kart ödeme vadesi; inceleme 5 Ekim 2026 zayıf yanlar; s_road Tablo 10.1.",
-"AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi; olasılık düşük ile orta, etki orta; değerlendirme Aralık 2026 ve Haziran 2027. Kaynak: 01 rapor, s_road Tablo 10.1."
+"Fiyat rekabeti: Hollanda flat racklerini Polonyalı Zamet-Glowno, Alman platformlarını Saxas yapıyor; Doğu Avrupa atölyesi fiyatı MEKA'nın lojistik sonrası avantajını yüzde 10 ile 25'e sıkıştırır. Olasılık yüksek, etki orta. Azaltma: robotik kaynak, teslim süresi, kapasite argümanı. Kaynak: adsgroup G3 tedarik zinciri; esut 7 Kasım 2024; 01 rapor Tablo 10.1 ve 9.4.",
+"Hacim zamanlaması: Bundeswehr çerçevesinin flat rack tarafı büyük ölçüde sipariş edildi ve 2027'de bitiyor; yeni dilim onayının tarihi belirsiz. İlk gelir 2028'e kayarsa geri ödeme 5 yıla uzar. Olasılık orta, etki yüksek. Azaltma: Hollanda ek siparişi, Polonya, İsveç ve Tatra programlarına paralel teklif. Kaynak: Rheinmetall 12 Haziran 2024; esut Nisan 2026 sayfasındaki tarihsiz başlık.",
+"Birim fiyat belirsizliği: askerî flat rackin açık fiyatı bulunamadı; raporun 4 ile 9 bin avro tahmini, Saxas çerçevesinden türetilen 8 ile 24 bin avro göstergesinin altında. Model yanlış fiyatla kurulursa marj hesabı bozulur. Olasılık orta, etki orta. Azaltma: Zamet-Glowno ve Saxas fiyat kıyası, G3 ile doğrudan teklif. Kaynak: esut 7 Kasım 2024; 01 rapor 8.2.",
+"STANAG 2413 yük ve deformasyon testi başarısızlığı; Hollanda programı bile ilk numuneyi devlet doğrulama testinden geçiriyor. Test geçilmezse 12. ay tedarikçi onayı kayar. Olasılık orta, etki orta. Azaltma: test bütçesi 30 ile 60 bin avro ayrı kalem, sonlu eleman analizi, iki prototip. Kaynak: EDR 12 Haziran 2026; 01 rapor Tablo 9.3.",
+"İhracat kontrol sınıflandırma hatası; askerî araç için özel tadilat ML6'ya girebilir, MSB görüşü alınmadan teyitsiz. Olasılık orta, etki yüksek. Azaltma: ürün bazında yazılı görüş, genel amaçlı tasarım disiplini. Kaynak: 01 rapor Tablo 6.3 ve 10.1.",
+"Ödeme vadesi ve kur: muhataplar RMMV, G3, Jelcz, Tatra gibi özel ana yükleniciler; vade 50 ile 109 gün; işletme sermayesi modelde 150 ile 300 bin avro. Olasılık yüksek, etki orta. Azaltma: avro sözleşme, yüzde 20 ile 30 avans, kilometre taşı ödemesi. Kaynak: 01 rapor 9.4; inceleme 5 Ekim 2026."
 ],
 "kapilar": {
 "yatirim": "sirket",
-"butce": 2,
-"butce_not": "Varsayım. Rapor MEKA şirketi için yazılmış; kişisel yatırım seçeneği çalışmalarda yok. İlk dilim belge, test ve prototip: ISO 3834-2 ve EN 1090-2 EXC3 için 25-55 bin avro, MIL-STD-810 ve AECTP ilk prototip testleri 20-80 bin avro, prototipler 50-150 bin avro. Üçünün toplamı hesapla 95-285 bin avro; portföyün diğer kollarıyla paylaşılır ve desteklerle yaklaşık yarıya iner. Hepsi tahmin işaretli. Seri üretim için robotik kaynak hücresi gerekir; tutarı çalışmalarda yok. Seri üretim kararı raporun 6. ayında, hesapla Mart 2027. Kaynak: 01 rapor, s_road Tablo 9.2 ve Tablo 9.3; s_score Tablo 7.4.",
+"butce": 3,
+"butce_not": "Tam giriş bileti, ilk 24 ay: 0,7 ile 1,3 milyon avro, yaklaşık 0,8 ile 1,5 milyon dolar; dilim 3'ün alt ucu. Kalemler: ortak belge, test, prototip ve TGB paketinin beşte bir payı 80 ile 160 bin avro, rapor toplamı 400 ile 800 bin avro beşe bölündü, desteklerle 40 ile 80 bin avroya iner; STANAG 2413 testi 30 ile 60 bin avro, tahmin; fikstür ve prototip ek malzeme 40 ile 80 bin avro, tahmin; robotik kaynak hücresi 250 ile 450 bin avro, satıcı rehberi 150 ile 250 bin dolar üst segment artı ağır pozisyoner primi, tahmin; iş geliştirme ve fuar 120 ile 200 bin avro, tahmin; ilk seri işletme sermayesi 150 ile 300 bin avro, tahmin. İlk 12 ayın harcaması 210 ile 400 bin avro: ortak pay, STANAG testi, fikstür ve bir yıllık iş geliştirme; robot hücresi ve işletme sermayesi 13 ile 24. aya düşer. Robot hücresi alınmazsa bilet 0,4 ile 0,85 milyon avroya iner ve dilim 2'ye girer; ama rapor hücre yoksa fiyat rekabeti puanının düştüğünü yazıyor. Bilet MEKA şirketinin harcamasıdır; kişisel yatırım seçeneği yok.",
 "yol": "ikisi",
-"yol_not": "Varsayım. Rapor üretimi MEKA'nın kendi tesisinde öngörüyor; tesis eşiklerini ve tezgâh parkını buna göre değerlendiriyor. Satış kanalı ise kanca yükleyici üreticilerine ve kamyon OEM'lerine alt yüklenicilik ile NSPA çerçeve sözleşmeleri. Üretim kur, kanal ortak. Kaynak: 01 rapor, s_other 8.2; s_road Tablo 9.1; s_score Tablo 7.4."
+"yol_not": "Üretim kur: MEKA Eskişehir'de kendi lazer, abkant, kaynak ve montaj hatlarında üretir, robot hücresi ekler. Kanal ortak: satış ana yükleniciye ve kanca üreticisine alt yüklenicilik yoluyla gider; emsaller bunu gösteriyor, G3 Systems flat racki Zamet-Glowno'ya, Rheinmetall platformu Saxas'a yaptırıyor. NSPA çerçevesi ikinci kanal. Kaynak: adsgroup 4 Eylül 2025; esut 7 Kasım 2024; 01 rapor Tablo 9.1."
 },
 "takvim": [
 {
-"tarih": "30 Eylül 2026",
-"olay": "YETEN kaydı ve SSB 2027 yurt dışı fuar desteği başvurusu son günü; geçti, yapıldığı dosyada yok",
-"kaynak": "01 kart, İlk 90 gün; 01 rapor, s_road 9.2; inceleme 5 Ekim 2026",
-"iso": "2026-09-30"
-},
-{
-"tarih": "22 Ekim 2026 dolayı",
-"olay": "MSB'den flat rack için 5201 kapsamında yazılı sınıflandırma görüşü istemek; tesis veri formu; NCAGE başvurusu. Rapor 22 Eylül 2026'dan itibaren bir ay içinde diyor; tarih hesaptır",
-"kaynak": "01 rapor, s_road 9.2",
+"tarih": "22 Ekim 2026 dolayı, en geç 31 Ekim 2026",
+"olay": "MSB sınıflandırma görüşü başvurusu, Ek A tesis veri formu, NCAGE başvurusu; rapor 22 Eylül 2026'dan itibaren bir ay diyor",
+"kaynak": "01 rapor 9.2",
 "iso": "2026-10-22"
 },
 {
-"tarih": "21 Aralık 2026'ya kadar",
-"olay": "İlk çeyrek: STANAG 2413 flat rack prototip tasarımı ve test planı; Hiab Defence Logistics, Palfinger, Contsystem, Koluman, BMC görüşmeleri; ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesine başlamak",
-"kaynak": "01 rapor, s_road 9.2; ilk 90 gün bitişi inceleme hesabı",
+"tarih": "Kasım 2026 ile Kasım 2027",
+"olay": "Hollanda WTB programı: G3 Systems ilk sistemleri 2026 sonundan önce üretime alıyor; 30 aylık teslim fazı Mayıs 2025'ten hesapla Kasım 2027'de bitiyor; açılan kaynaklarda opsiyon kaydı yok, ihale sonucu çerçeve sözleşme değil diyor",
+"kaynak": "https://www.adsgroup.org.uk/knowledge/industry-member-news/g3-systems-establishes-european-supply-chain-partnerships/; https://tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/386113/pdf",
+"iso": "2026-11-15"
+},
+{
+"tarih": "2025 ile 2027",
+"olay": "Saxas değişken platform teslimleri; ilk yaklaşık 800 adet Kasım 2025 ortasına kadar; çerçeve 2031'e kadar",
+"kaynak": "https://www.eurotransport.de/fahrzeuge/trailer/ein-und-zweiachsige-wechselfahrgestelle-schmitz-liefert-neue-anhaenger-fuer-bundeswehr/; https://esut.de/2024/11/meldungen/54664/beschaffungsvertraege-fuer-gelaendegaengige-anhaenger-und-wechselpritschen-abgeschlossen/",
+"iso": "2025-06-30"
+},
+{
+"tarih": "2024 ile 2027",
+"olay": "Polonya Jelcz Multilift setlerinin 105 kesin adedinin teslimi; 95 adet opsiyon; Cargotec Poland'ın alt yüklenici olması bekleniyor",
+"kaynak": "https://defence24.pl/przemysl/duzy-kontrakt-na-ciezarowki-dla-wojska-polskiego",
+"iso": "2024-06-30"
+},
+{
+"tarih": "21 Aralık 2026",
+"olay": "İlk çeyrek sonu: tasarım paketi, rakip fiyat kıyası, G3 ve Hiab Defence Logistics tanıtım dosyası, belgelendirme başlangıcı",
+"kaynak": "01 rapor 9.2; bu çalışma",
 "iso": "2026-12-21"
 },
 {
 "tarih": "Aralık 2026 ve Haziran 2027",
-"olay": "AB çelik koruma önleminin makine ve çelik yapılara genişletilmesine ilişkin değerlendirme tarihleri",
-"kaynak": "01 rapor, s_road Tablo 10.1",
+"olay": "AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi değerlendirme tarihleri",
+"kaynak": "01 rapor Tablo 10.1",
 "iso": "2026-12-15"
 },
 {
 "tarih": "Mart 2027",
-"olay": "Raporun 6. ayı, hesapla: ISO 3834-2 ve EN 1090-2 belgeleri; MSB görüşü; flat rack prototipi hazır. Karar: lojistik üst yapıya seri üretim yatırımı yapılsın mı",
-"kaynak": "01 rapor, s_road Tablo 9.3",
+"olay": "Raporun 6. ayı: ISO 3834-2 ve EN 1090-2 belgeleri, MSB görüşü, iki prototip; seri üretim ve robot hücresi kararı",
+"kaynak": "01 rapor Tablo 9.3",
 "iso": "2027-03-15"
 },
 {
-"tarih": "3-9 Mayıs 2027",
-"olay": "IDEF 2027 İstanbul; rapor SSB ve Ticaret Bakanlığı fuar destekleriyle katılım öneriyor; SSB 2027 destek başvurusunun son günü 30 Eylül 2026 idi",
-"kaynak": "01 rapor, s_road 9.4",
-"iso": "2027-05-03"
+"tarih": "3 ile 9 Mayıs 2027",
+"olay": "IDEF 2027 İstanbul; prototip sergisi; SSB 2027 fuar desteği başvurusu 30 Eylül 2026'da kapandı",
+"kaynak": "01 rapor 9.4",
+"iso": "2027-05-09"
 },
 {
 "tarih": "Eylül 2027",
-"olay": "Raporun 12. ayı, hesapla: flat rack STANAG 2413 testi; en az bir yabancı ana yüklenicide tedarikçi onayı",
-"kaynak": "01 rapor, s_road Tablo 9.3",
+"olay": "Raporun 12. ayı: STANAG 2413 testi, en az bir yabancı ana yüklenicide tedarikçi onayı; MSPO 2027 Kielce",
+"kaynak": "01 rapor Tablo 9.3 ve 9.4",
 "iso": "2027-09-15"
 },
 {
-"tarih": "2021-2027",
-"olay": "Hiab'ın Bundeswehr RMMV HX kamyonları için 4.000'e kadar kanca yükleyici teslim dönemi; program 2027'de bitiyor",
-"kaynak": "01 rapor, s_other 8.2; s_crane Tablo 8.6.1",
-"iso": "2021-06-30"
+"tarih": "2027 sonu",
+"olay": "Bundeswehr WLS çerçevesi ve Hiab ile RMMV kanca sözleşmesi bitiyor; kalan en çok 1.277 kamyon; yeni dilim onayı tarihi belirsiz",
+"kaynak": "https://www.rheinmetall.com/de/media/news-watch/news/2024/06/2024-06-12-bundeswehr-bestellt-weitere-1515-militaer-lkw",
+"iso": "2027-11-15"
+},
+{
+"tarih": "2028 ilk yarı",
+"olay": "Hesapla ilk seri sipariş ve ilk gelir; Eurosatory 2028 Paris",
+"kaynak": "bu çalışma Ekonomi modeli; 01 rapor 9.4",
+"iso": "2028-06-30"
 }
 ],
 "kaynaklar": [
@@ -1144,6 +2156,11 @@ window.MEKA_DATA = {
 ],
 "tam_calisma": [
 {
+"dosya": "c_sav_flatrack",
+"bolum_basligi": "",
+"sayfa": null
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.2 Askerî lojistik üst yapılar: flat rack, kanca yükleyici gövdesi ve konteyner platformları",
 "sayfa": 26
@@ -1195,10 +2212,145 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "tam",
-"kapsam_notu": "Raporun 8.2 bölümü konuyu rakamla ve gerekçeyle anlatıyor: program büyüklüğü, birim fiyat tahmini, kanal, standart, risk. Web kullanılmadı. Not: 8.2 bölümü görev listesindeki s_cont dosyasında değil, aynı raporun sec_other_niches.js dosyasında. Doğrulama için sec_other_niches.js, sec_cranes_launchers.js, sec_regulatory.js, sec_exec.js ve sec_company.js de okundu; bunlar görev listesinde yoktu ama aynı raporun bölümleri. s_mro dosyasında konuya ait satır yok. Birim fiyat, flat rack sayısı ve bütçe rakamlarının tamamı raporda tahmin işaretli.",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 14 arama, 20 sayfa; 5 açık sorunun 0'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. WebFetch bu oturumda her adreste DNS hatası verdi; sayfalar komut satırından indirilip metne çevrilerek okundu, içerik aynı. Açılamayanlar: TED 200044-2025, bundeswehr.de UTF sayfası, defensie.nl WLS sayfası, militaeraktuell.at, find-tender.service.gov.uk; bunlara dayanan rakamlar arama özetinden ve tek kaynak işaretli. Askerî flat rackin kamuya açık birim fiyatı bulunamadı; model türetilmiş göstergeler ve raporun tahminiyle kuruldu, tahmin işaretli. Bundeswehr ilk 540'lık dilimle alınan flat rack sayısı ve ESUT başlığındaki 1,5 milyar avroluk WLS ve SatComBw onayının tarihi ve WLS payı bulunamadı. Palfinger, Hyva ve Marrel için 2025 ve 2026 tarihli açık sözleşme bulunamadı. Hollanda 100 milyon avroluk paketten flat rack birim fiyatı ayrıştırılamadı. Kur çevrimleri yaklaşık. Tesis verisi ve MSB görüşü web dışında; görüşme gerektirir. Arama bütçesi 14 ile sınırlıydı; UNGM, SAM.gov ve EKAP'ta ayrı tarama yapılamadı.",
 "kanit": 4,
-"web": [],
+"web": [
+{
+"url": "https://www.hiabgroup.com/en/newsroom/press-releases/hiab-to-supply-rmmv-with-up-to-4000-multilift-hooklifts/",
+"ne": "Hiab ve RMMV 4.000 kanca sözleşmesi, 4 Şubat 2021",
+"tur": "firma"
+},
+{
+"url": "https://khl.com/news/hooklift-army-orders/8010138.article",
+"ne": "Aynı sözleşme ve İsviçre 110 kanca siparişi",
+"tur": "haber"
+},
+{
+"url": "https://esut.de/2020/06/meldungen/21168/bundeswehr-erhaelt-lkws-im-wert-von-bis-zu-zwei-milliarden-euro/",
+"ne": "Bundeswehr 4.000 WLS çerçevesi, 2 milyar avro, 540 ilk dilim",
+"tur": "haber"
+},
+{
+"url": "https://www.rheinmetall.com/de/media/news-watch/news/2023/juni/2023-06-29-rheinmetall-wechsellader-fuer-die-bundeswehr",
+"ne": "367 WLS ve 1.830 flat rack çağrısı, 285 milyon avro",
+"tur": "firma"
+},
+{
+"url": "https://www.rheinmetall.com/de/media/news-watch/news/2024/06/2024-06-12-bundeswehr-bestellt-weitere-1515-militaer-lkw",
+"ne": "1.515 WLS ve 500 flat rack çağrısı, 920 milyon avro, 1.008 teslim",
+"tur": "firma"
+},
+{
+"url": "https://esut.de/2024/11/meldungen/54664/beschaffungsvertraege-fuer-gelaendegaengige-anhaenger-und-wechselpritschen-abgeschlossen/",
+"ne": "Saxas platform çerçevesi 5.100, 1.750 çağrı, 42 milyon avro",
+"tur": "haber"
+},
+{
+"url": "https://www.eurotransport.de/fahrzeuge/trailer/ein-und-zweiachsige-wechselfahrgestelle-schmitz-liefert-neue-anhaenger-fuer-bundeswehr/",
+"ne": "Saxas 4.000 adet 20 ft platform, ilk 800 adet Kasım 2025",
+"tur": "haber"
+},
+{
+"url": "https://esut.de/2026/04/meldungen/69806/naechste-beschaffungsrunde-eingelaeutet/",
+"ne": "Nisan 2026 Bundestag bütçe turu; 1,5 milyar avro WLS ve SatComBw onayı yalnız ilgili bağlantı başlığında, tarihsiz",
+"tur": "haber"
+},
+{
+"url": "https://tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/386113/pdf",
+"ne": "Hollanda WTB flat rack ihale sonucu, G3 Systems, 100 milyon avro, 27 Mayıs 2025",
+"tur": "resmi"
+},
+{
+"url": "https://www.adsgroup.org.uk/knowledge/industry-member-news/g3-systems-establishes-european-supply-chain-partnerships/",
+"ne": "G3 tedarik zinciri: Zamet-Glowno, Variel, Nordic Shelter; yaklaşık 400 flat rack, 270 konteyner",
+"tur": "firma"
+},
+{
+"url": "https://www.edrmagazine.eu/g3-systems-delivers-first-wtb-flatrack-to-the-netherlands-mod-for-state-verification-testing",
+"ne": "İlk WTB flat rack devlet testine teslim, 418 flat rack, 12 Haziran 2026",
+"tur": "haber"
+},
+{
+"url": "https://defence24.pl/przemysl/duzy-kontrakt-na-ciezarowki-dla-wojska-polskiego",
+"ne": "Jelcz 200 Multilift seti, 847 milyon zloti, 22 Mayıs 2024",
+"tur": "haber"
+},
+{
+"url": "https://ct24.ceskatelevize.cz/domaci/3526577-tatra-vyrobi-pro-armadu-osmdesat-nakladnich-aut-prijdou-na-vic-nez-miliardu",
+"ne": "Çek ordusu 80 Tatra Force kanca kamyonu, 1,2 milyar kron, 2 Eylül 2022",
+"tur": "haber"
+},
+{
+"url": "https://www.joab.se/en/wp-json/wp/v2/posts/31892",
+"ne": "JOAB FMV 100 artı 100 kanca, 28 Şubat 2025",
+"tur": "firma"
+},
+{
+"url": "https://www.kaitseinvesteeringud.ee/en/kaitsevae-autoparki-lisanduvad-uued-konkslift-soidukid/",
+"ne": "Estonya Scania kanca kamyonları, çerçeve 693 milyon avro, 11 Aralık 2024",
+"tur": "resmi"
+},
+{
+"url": "https://www.hiab.com/en/media/newsroom/hiab-redefines-military-logistics-and-force-protection-with-next-gen-innovations-at-eurosatory-2026",
+"ne": "Hiab Defence Logistics adı ve Talon, 11 Haziran 2026",
+"tur": "firma"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Palletized_Load_System",
+"ne": "PLS 1990 sözleşmesi, 11.030 M1077, CROP üreticileri, GT Machining",
+"tur": "diger"
+},
+{
+"url": "https://www.ekonomigazetesi.com/sirket-haberleri/koluman-13-dropsu-daha-tskya-teslim-etti-22959",
+"ne": "Koluman 70 DERMAN DROPS teslim durumu, 31 Ekim 2023",
+"tur": "haber"
+},
+{
+"url": "https://seller.alibaba.com/blogs/2026/southeast-asia/manufacturing/robotic-welding-cell-configuration-guide-alibaba-b2b",
+"ne": "Robotik kaynak hücresi fiyat aralıkları, pozisyoner",
+"tur": "firma"
+},
+{
+"url": "https://defence24.pl/przemysl/tysiace-ciezarowek-dla-rumunii-i-niemiec",
+"ne": "Romanya 942 kamyon ilk parti, Iveco; Bundeswehr HX tarihçesi",
+"tur": "haber"
+},
+{
+"url": "https://www.bundeswehr.de/de/organisation/ausruestung-baainbw/aktuelles/beschaffung-geschuetzte-fahrzeuge-utf-5889408",
+"ne": "Kasım 2024'te 200 ek WLS onayı; sayfa açılamadı, arama özetinden, tek kaynak",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/200044-2025/pdf",
+"ne": "TED bildirimi; açılamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.defensie.nl/onderwerpen/materieel/voertuigen/scania-wissellaadsysteem",
+"ne": "Hollanda 555 WLS filosu; sayfa bulunamadı, arama özetinden, tek kaynak",
+"tur": "resmi"
+},
+{
+"url": "https://militaeraktuell.at/bundeswehr-erhaelt-anhaenger-wechselpritschen/",
+"ne": "Saxas 4.000 platform; açılamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.find-tender.service.gov.uk/Notice/039822-2024",
+"ne": "İngiltere römork ve flat rack destek ihalesi; açılamadı",
+"tur": "resmi"
+}
+],
 "celiskiler": [
+"Birim fiyat: rapor STANAG 2413 flat rack için 4 ile 9 bin avro tahmin ediyor; Saxas çerçevesinden türetilen gösterge 8 ile 24 bin avro, Rheinmetall 2023 çağrısından kaba hesap yaklaşık 34 bin avro brüt. Raporun tahmini alt sınırda; model 7 ile 12 bin avro alt yüklenici fiyatıyla kuruldu. Kaynak: esut 7 Kasım 2024; Rheinmetall 29 Haziran 2023; 01 rapor 8.2.",
+"Bundeswehr flat rack ihtiyacı: rapor 8.000 ile 16.000 flat rack tahmin ediyor; kaynaklı sipariş 2023 ve 2024 çağrılarında 2.330 adet artı Saxas 1.750 platform. Raporun hacmi kamyon başına 2 ile 4 varsayımıyla kuruldu; gerçek sipariş kamyon başına 1'in altında görünüyor. Kaynak: Rheinmetall 2023 ve 2024 bültenleri.",
+"Saxas çerçeve adedi: ESUT 5.100, Eurotransport 4.000 yazıyor; ikisi de 7 Kasım 2024 tarihli. Hangisinin doğru olduğu BAAINBw bülteniyle teyit edilmeli.",
+"Jelcz sözleşme bedeli: Defence24 847 milyon zloti, Silahlanma Ajansı bülteni yaklaşık 837 milyon zloti yazıyor.",
+"Önceki yaprak bütçe dilimini 2 vermişti; tam bilet robot hücresi ve işletme sermayesiyle 0,7 ile 1,3 milyon avro olunca dilim 3'e çıktı. Robot hücresi olmadan dilim 2'de kalır.",
+"Hiab Defence Logistics: önceki yaprak Haziran 2026'da kurulan yeni birim diyordu; Hiab bülteni yalnız Government Business Operations biriminin yeniden adlandırılması olduğunu yazıyor, aynı ekip.",
+"Koluman: önceki liste 195 konteyner ve 40 platform sözleşmesi yazıyordu; bu turda açılan kaynakta yalnız 70 araç ve teslim takvimi var, konteyner ve platform adedi doğrulanamadı.",
+"Hollanda WTB için önceki metinde yüzde 100 opsiyon yazıyordu; ihale sonucu, ADS ve EDR sayfalarında opsiyon kaydı yok, ihale sonucu çerçeve sözleşme değil diyor; iddia silindi.",
+"Jelcz için gecikme cezası iddiası Defence24 sayfasında yok; silindi. ESUT Nisan 2026 sayfasındaki 1,5 milyar avro başlığı WLS ve SatComBw'yi birlikte kapsıyor ve tarihsiz.",
 "Kart ve özet kesin 4.000 kanca yükleyici yazıyor; Hiab kaynağı 4.000'e kadar diyor ve 2021 tarihli. Raporun kendi içinde de iki kullanım var: 8.2 metni ve Tablo 8.6.1 4.000 adede kadar, Tablo 8.2.1, Tablo 8.4.2 ve Tablo Ö.1 kesin 4.000. Kaynak: inceleme 5 Ekim 2026, kart01_sadakat; 01 rapor s_other, s_crane, s_cont, s_exec.",
 "Kartta rakip analizi yok: flat rack'te mevcut tedarikçiler ve fiyat düzeyi yazmıyor. Rapor 8.2 yalnız birim fiyat tahmini veriyor, rakip adı vermiyor. Kaynak: inceleme zayıf yanlar; 01 rapor s_other 8.2.",
 "Kartın 30 günlük ödeme vadesi avantajı NSPA, BM ve AB kamusuna doğrudan satışta geçerli; flat rack'in muhatapları Hiab, Palfinger, Koluman gibi özel OEM'ler ve onlarda vade 50 ile 109 gün. Kart bu çelişkiyi ele almıyor. Kaynak: inceleme zayıf yanlar.",
@@ -1209,6 +2361,17 @@ window.MEKA_DATA = {
 "Prototip ve test bütçesi konteyner gövdesi ve kalıp setiyle ortak kalem; flat rack'e düşen pay çalışmalarda yok. 20-80 bin avro MIL-STD-810 ve AECTP testleri için; STANAG 2413 testinin bütçesi ayrı verilmemiş. Kaynak: 01 rapor s_road Tablo 9.2."
 ],
 "degisiklikler": [
+"20 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
+"Hollanda WTB için yüzde 100 opsiyon iddiası silindi: TenderNed ihale sonucu, ADS ve EDR sayfalarında opsiyon yok; ihale sonucu çerçeve sözleşme değil diyor. Emsal, firma, takvim, varsayım ve calisma_md satırları düzeltildi.",
+"Jelcz için gecikme cezası iddiası silindi: Defence24 sayfasında ceza yok; yerine sayfada olan 105 kesin, 95 opsiyon ve Cargotec Poland alt yüklenici beklentisi yazıldı.",
+"ESUT Nisan 2026 sayfasındaki 1,5 milyar avro başlığı düzeltildi: başlık WLS ve SatComBw modernizasyonunu birlikte kapsıyor, yasama döneminin son kararı ifadesiyle Nisan 2026'dan önceki tarihe ait; yeni dilim diye sunulması cevaplar, duyarlılık, açık sorular ve kaynak satırında düzeltildi.",
+"Rheinmetall 2023 çağrısından türetilen kaba flat rack fiyatı yeniden hesaplandı: 285 eksi 367 çarpı 0,607 eşittir 62 milyon avro, 1.830'a bölününce 34 bin avro; metinde 61 milyon ve 30 bin yazıyordu.",
+"Saxas çerçevesi: 7 Kasım 2024 sözleşme tarihi değil BAAINBw duyuru tarihi; Saxas adı ESUT'ta başka kaynaktan, Eurotransport'ta doğrudan geçtiği için tek kaynak ibaresi kaldırıldı, adet farkı (5.100 ve 4.000) iki kaynaklı olarak işaretlendi; çerçevenin 2031'e kadar sürdüğü bilgisi ESUT kaynağına bağlandı.",
+"Hollanda 418 flat rack ve 270 konteyner rakamlarının kaynağı ayrıştırıldı: ihale sonucu PDF'de yalnız 100 milyon avro, Direktif 2009/81/EC, fiyat kriteri ve 27 Mayıs 2025 tarihi var; 418 EDR, 270 ve 30 ay ADS kaynaklı.",
+"Jelcz sözleşmesine Silahlanma Ajansı'nın yaklaşık 837 milyon zloti rakamı rakamlar satırına eklendi.",
+"İşletme sermayesi kalemi: 300 adet, 6 bin avro ve 90 gün vade ile tam hesap 450 bin avro; 150 ile 300 bin avro değeri tahmin olarak korundu, dayanak sütununa fark yazıldı.",
+"Ekonomi modelinin diğer aritmetiği doğrulandı: yıl 3 gelir 2,4 ile 8,4 ve brüt kâr 0,3 ile 1,7 milyon avro; yıl 5 gelir 4,8 ile 16,8 ve brüt kâr 0,7 ile 3,7 milyon avro; bilet toplamı 670 ile 1.250 bin avro; geri ödeme düşük senaryoda 2031, yüksek senaryoda 2029; değişiklik yok.",
+"Doğrulanan emsal rakamlar değiştirilmedi: Hiab 4.000 ve 180 milyon avro; Bundeswehr 4.000 WLS ve 2 milyar avro, 540 ilk dilim; Rheinmetall 367 artı 1.830 ve 285 milyon; 1.515 artı 500 artı 500 ve 920 milyon, 1.008 teslim; Saxas 5.100, 1.750, 42 milyon; Tatra 80 ve 1,2 milyar kron; JOAB 100 artı 100; Hiab Defence Logistics adı ve Talon.",
 "puan_metni: Tablo 8.2.1 kalem adları dosyadaki gibi düzeltildi; Tablo 8.6.2 puanı 4 eklendi; teknik uyumun tesis verisiyle güncelleneceği notu eklendi.",
 "ne: kanca yükleyici gövdesinin kaynakta olmayan ayrıntılı tanımı çıkarıldı; ISO konteyner ölçüsü ifadesi kaynaktaki hâline yaklaştırıldı; ML6 gri alan eklendi.",
 "neden: Eskişehir 10 ton ve 7 metre sınırının flat rack için yeterli olduğu bilgisi eklendi; yüksek adet gerekçesi Tablo 8.6.2'ye bağlandı.",
@@ -1225,6 +2388,156 @@ window.MEKA_DATA = {
 ],
 "guven": 4,
 "firmalar": [
+{
+"ad": "AAR ve Hyundai Precision America",
+"rol": "rakip",
+"not": "ABD PLS filosunun M3 ve M3A1 CROP flat racklerini yapan iki üretici; ABD pazarı Buy American nedeniyle MEKA için kapalı, Avrupa'da rakip değiller.",
+"kaynak": "https://en.wikipedia.org/wiki/Palletized_Load_System"
+},
+{
+"ad": "Hidrokon ve Katmerciler",
+"rol": "rakip",
+"not": "Konya ve İzmir'de araç üstü ekipman üreticileri; Türkiye'de üst yapı rakipleri; bu turda yeni savunma flat rack sözleşmesi bulunamadı.",
+"kaynak": "final_S12 2.6; bu tur web taraması"
+},
+{
+"ad": "Saxas Nutzfahrzeuge Werdau",
+"rol": "rakip",
+"not": "Bundeswehr'in değişken platform tedarikçisi; 7 Kasım 2024'te duyurulan çerçeve ESUT'a göre 5.100, Eurotransport'a göre 4.000 adede kadar, 1.750 çağrı, 42 milyon avro bütçe, teslim 2025 ile 2027; Nisan 2024'te 10 ft platform siparişi de aldı.",
+"kaynak": "https://esut.de/2024/11/meldungen/54664/beschaffungsvertraege-fuer-gelaendegaengige-anhaenger-und-wechselpritschen-abgeschlossen/; https://www.eurotransport.de/fahrzeuge/trailer/ein-und-zweiachsige-wechselfahrgestelle-schmitz-liefert-neue-anhaenger-fuer-bundeswehr/"
+},
+{
+"ad": "Zamet-Glowno",
+"rol": "rakip",
+"not": "Polonyalı atölye; Hollanda WTB programının 418 flat rackini G3 Systems için üretiyor ve Jelcz setlerinin PK-2-24t römorkunu yapıyor; MEKA'nın doğrudan fiyat kıyas noktası.",
+"kaynak": "https://www.adsgroup.org.uk/knowledge/industry-member-news/g3-systems-establishes-european-supply-chain-partnerships/"
+},
+{
+"ad": "Variel Defence ve Nordic Shelter",
+"rol": "rakip",
+"not": "Çek Variel WTB konteyner sistemlerinin çoğunu, Norveçli Nordic Shelter Estonya'da POL konteynerlerini üretiyor; G3'ün AB odaklı tedarik zinciri 4 Eylül 2025'te açıklandı.",
+"kaynak": "https://www.adsgroup.org.uk/knowledge/industry-member-news/g3-systems-establishes-european-supply-chain-partnerships/"
+},
+{
+"ad": "Hiab (Hiab Defence Logistics)",
+"rol": "musteri",
+"not": "RMMV'ye 2021 ile 2027 arasında 4.000 adede kadar MULTILIFT MSH-165-CL, 180 milyon avronun üzerinde; İsviçre'ye Notterkran üzerinden 110 ULT21Z kanca; HDL 11 Haziran 2026'da Government Business Operations'ın yeni adı olarak duyuruldu, Talon Tatra Force üzerinde sergilendi.",
+"kaynak": "https://www.hiab.com/en/media/newsroom/hiab-redefines-military-logistics-and-force-protection-with-next-gen-innovations-at-eurosatory-2026"
+},
+{
+"ad": "Palfinger",
+"rol": "musteri",
+"not": "Avusturyalı yükleyici vinç ve kanca üreticisi; 60'tan fazla silahlı kuvvete sattığını yazıyor; bu turda 2025 ve 2026 tarihli açık sözleşme bulunamadı.",
+"kaynak": "https://www.palfinger.com/gb/en/your-business/governmental-and-defense-solutions.html"
+},
+{
+"ad": "Hyva ve Marrel",
+"rol": "musteri",
+"not": "Hollandalı ve Fransız kanca yükleyici üreticileri; rapor flat racki alt yükleniciye yaptırdıklarını yazıyor; bu turda askerî sözleşme kaydı bulunamadı.",
+"kaynak": "01 rapor 8.2; bu tur web taraması"
+},
+{
+"ad": "Contsystem",
+"rol": "musteri",
+"not": "Çek entegratör; MULTILIFT Talon STANAG 2413 flat rack ve DIN 30722 gövdelerle uyumlu, Çek ve Slovak ordularında 400'den fazla; 2025 tarihli yeni kayıt bulunamadı.",
+"kaynak": "https://www.contsystemgroup.com/en/novinky2/34-multilift-talon-an-innovative-and-smart-hooklift-for-the-new-generation-of-defense-logistics.html"
+},
+{
+"ad": "Tatra Trucks",
+"rol": "musteri",
+"not": "Çek ordusuna 80 Tatra Force 8x8 kanca yükleyici, 1,2 milyar kronun üzerinde, 2 Eylül 2022; Slovakya ile 1.289 araçlık, 1,032 milyar avroya kadar çerçeve; Eurosatory 2026'da Talon'u Force şasisinde sergiledi.",
+"kaynak": "https://ct24.ceskatelevize.cz/domaci/3526577-tatra-vyrobi-pro-armadu-osmdesat-nakladnich-aut-prijdou-na-vic-nez-miliardu"
+},
+{
+"ad": "Rheinmetall MAN Military Vehicles (RMMV)",
+"rol": "musteri",
+"not": "Bundeswehr WLS çerçevesinin ana yüklenicisi; 2023 çağrısında 1.830, 2024 çağrısında 500 flat rack kamyonla birlikte sipariş edildi; 2018'den beri 4.000'den fazla HX teslim etti.",
+"kaynak": "https://www.rheinmetall.com/de/media/news-watch/news/2024/06/2024-06-12-bundeswehr-bestellt-weitere-1515-militaer-lkw"
+},
+{
+"ad": "Koluman Otomotiv Endüstri",
+"rol": "musteri",
+"not": "Tarsus'ta DERMAN 8x8 DROPS üreticisi; 70 araçlık projede 20 adet 31 Ekim 2023'e kadar, kalanı 2024 ilk çeyrekte teslim; 2026 tarihli yeni DROPS sözleşmesi bulunamadı.",
+"kaynak": "https://www.ekonomigazetesi.com/sirket-haberleri/koluman-13-dropsu-daha-tskya-teslim-etti-22959"
+},
+{
+"ad": "BMC",
+"rol": "musteri",
+"not": "İzmir'li araç üreticisi; 8x8 çekici ve TTA varyantları SSB kataloğunda; raporun görüşme listesinde; bu turda flat rack alımı bulunamadı.",
+"kaynak": "01 rapor Tablo 9.1"
+},
+{
+"ad": "Roketsan ve ASELSAN",
+"rol": "musteri",
+"not": "Hava savunma ve füze sistemlerinin ikmal ve taşıma araçları yerli talep kaynağı; römork ve üst yapı fırsatı tahmin işaretli.",
+"kaynak": "final_S12 2.6; 01 rapor 8.2"
+},
+{
+"ad": "G3 Systems",
+"rol": "ortak_adayi",
+"not": "İngiliz ana yüklenici; Hollanda WTB sözleşmesi 100 milyon avro, 27 Mayıs 2025; 418 flat rack ve 270 konteyner, 15 yıl destek; ilk flat rack 12 Haziran 2026'da devlet testine teslim edildi; açılan kaynaklarda opsiyon kaydı yok.",
+"kaynak": "https://www.edrmagazine.eu/g3-systems-delivers-first-wtb-flatrack-to-the-netherlands-mod-for-state-verification-testing"
+},
+{
+"ad": "JOAB",
+"rol": "musteri",
+"not": "İsveçli kanca üreticisi; Scania ile FMV ihalesini kazandı, 100 kanca artı 100 opsiyon, teslim 2025 ikinci yarıdan itibaren, 28 Şubat 2025; Göteborg Stora Holm'da son montaj.",
+"kaynak": "https://www.joab.se/en/wp-json/wp/v2/posts/31892"
+},
+{
+"ad": "Jelcz",
+"rol": "musteri",
+"not": "Polonyalı kamyon üreticisi; Silahlanma Ajansı ile 22 Mayıs 2024'te 200 Multilift Mk IV setli P862D.43 sözleşmesi, 847 milyon zloti; 105 kesin, 95 opsiyon; Cargotec Poland'ın alt yüklenici olması bekleniyor.",
+"kaynak": "https://defence24.pl/przemysl/duzy-kontrakt-na-ciezarowki-dla-wojska-polskiego"
+},
+{
+"ad": "NSPA",
+"rol": "kurum",
+"not": "Lojistik ekipman çerçeve sözleşmeleri; flat rack ayrı kalem olarak alınabilir, teyit gerekli; Source File ve NCAGE kaydı şart.",
+"kaynak": "final_S12 2.6"
+},
+{
+"ad": "Bundeswehr (BAAINBw)",
+"rol": "kurum",
+"not": "18 Haziran 2020 çerçevesi 4.000 WLS ve 2 milyar avroya kadar; Haziran 2024'e kadar 1.008 teslim, 1.515 ve 200 ek çağrı; kalan en çok 1.277; Saxas ile ayrı platform çerçevesi.",
+"kaynak": "https://esut.de/2020/06/meldungen/21168/bundeswehr-erhaelt-lkws-im-wert-von-bis-zu-zwei-milliarden-euro/"
+},
+{
+"ad": "Hollanda Savunma Bakanlığı",
+"rol": "kurum",
+"not": "WTB programı için 100 milyon avroluk flat rack ve konteyner sözleşmesini Direktif 2009/81/EC altında, fiyat kriteriyle G3 Systems'a verdi; 555 adetlik mevcut WLS filosu 2027 ile 2029 arasında yenileniyor.",
+"kaynak": "https://tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/386113/pdf"
+},
+{
+"ad": "Agencja Uzbrojenia, FMV ve ECDI",
+"rol": "kurum",
+"not": "Polonya, İsveç ve Estonya tedarik ajansları; 200 Jelcz seti, 100 artı 100 JOAB kancası, Scania G360 ve G410 kanca kamyonları 11 Aralık 2024; Estonya araç çerçevesi toplam 693 milyon avro.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/kaitsevae-autoparki-lisanduvad-uued-konkslift-soidukid/"
+},
+{
+"ad": "MSB ve Türk Millî Kodlandırma Bürosu",
+"rol": "kurum",
+"not": "5201 kapsamında ürün bazında sınıflandırma görüşü; NCAGE başvurusu e-Devlet üzerinden 2 ile 6 hafta; NSPA ve SAM.gov kaydının ön şartı.",
+"kaynak": "https://www.turkiye.gov.tr/msb-ncage-tahsisi"
+},
+{
+"ad": "SSB ve Ticaret Bakanlığı",
+"rol": "kurum",
+"not": "SSB 2027 fuar desteği başvurusu 30 Eylül 2026'da kapandı; Ticaret Bakanlığı pazara giriş belgesi ve Küresel Tedarik Zinciri destekleri yüzde 50, ortak paketi yarıya indirir.",
+"kaynak": "01 rapor Tablo 9.2; https://www.ssb.gov.tr/duyuru/2027-yili-yurtdisi-savunma-fuarlari-katilim-destegi-basvurulari-basladi-FUQ21Y"
+},
+{
+"ad": "Oshkosh Defense ve GT Machining & Fabricating",
+"rol": "emsal",
+"not": "Oshkosh 1990'da 860 milyon dolarlık PLS sözleşmesiyle 11.030 M1077 flat rack aldı; Kanadalı KOBİ GT Machining 6.300'den fazla E-CHU üretti; KOBİ'nin büyük programa alt sistem satması örneği.",
+"kaynak": "https://en.wikipedia.org/wiki/Palletized_Load_System"
+},
+{
+"ad": "Szczęśniak Special Vehicles",
+"rol": "emsal",
+"not": "Polonyalı aile şirketi; İsveç FMV'ye Scania şasi üstü ağır kurtarma aracı üst yapısı, 45 araç, 2025 ile 2026.",
+"kaynak": "https://milmag.pl/en/szczesniak-special-vehicles-will-deliver-10-heavy-tow-trucks-for-the-swedish-army/"
+},
 {
 "ad": "AAR",
 "rol": "rakip",
@@ -1248,42 +2561,6 @@ window.MEKA_DATA = {
 "rol": "rakip",
 "not": "İzmir'de araç üstü ekipman ve lojistik destek aracı üreticisi; araştırma notu üst yapıda Türkiye'deki rakipler arasında sayıyor.",
 "kaynak": "final_S12 2.6"
-},
-{
-"ad": "Hiab (Hiab Defence Logistics)",
-"rol": "musteri",
-"not": "Bundeswehr HX kamyonları için 2021-2027 arasında 4.000'e kadar MULTILIFT kanca yükleyici veriyor (180 milyon €'nun üzerinde); Hiab Defence Logistics birimi Haziran 2026'da kuruldu.",
-"kaynak": "https://www.hiabgroup.com/en/newsroom/press-releases/hiab-to-supply-rmmv-with-up-to-4000-multilift-hooklifts/"
-},
-{
-"ad": "Palfinger",
-"rol": "musteri",
-"not": "Avusturyalı yükleyici vinç üreticisi, 60'tan fazla silahlı kuvvete satıyor, Türkiye'de üretim tesisi yok; raporun ilk çeyrek görüşme listesinde.",
-"kaynak": "https://defenceturkey.com/news/palfinger-logistic-solutions-for-military-users"
-},
-{
-"ad": "Contsystem",
-"rol": "musteri",
-"not": "Çek entegratör; MULTILIFT Talon sistemi STANAG 2413 flat rack ve DIN 30722 gövdelerle uyumlu, Çek ve Slovak ordularında 400'den fazla kullanılıyor.",
-"kaynak": "https://www.contsystemgroup.com/en/novinky2/34-multilift-talon-an-innovative-and-smart-hooklift-for-the-new-generation-of-defense-logistics.html"
-},
-{
-"ad": "Koluman Otomotiv Endüstri",
-"rol": "musteri",
-"not": "Tarsus'taki üretici; 70 DERMAN 8x8 DROPS aracı ile 195 konteyner ve 40 platform sözleşmesi var, 800 tedarikçili ağına kayıt ilk adım.",
-"kaynak": "https://www.savunmasanayist.com/derman-8x8-dropsun-kabul-testleri-gerceklestirildi/"
-},
-{
-"ad": "BMC",
-"rol": "musteri",
-"not": "İzmir'li araç üreticisi; 8x8 tank taşıyıcı çekici ve TTA varyantları SSB kataloğunda, raporun ilk çeyrek tedarikçi görüşmesi listesinde.",
-"kaynak": "sec_roadmap Tablo 9.1"
-},
-{
-"ad": "Rheinmetall MAN Military Vehicles (RMMV)",
-"rol": "musteri",
-"not": "Bundeswehr HX 8x8 kamyonlarının üreticisi; Hiab'ın 4.000 adede kadar MULTILIFT kanca yükleyicisi bu kamyonlara takılıyor.",
-"kaynak": "https://www.hiabgroup.com/en/newsroom/press-releases/hiab-to-supply-rmmv-with-up-to-4000-multilift-hooklifts/"
 },
 {
 "ad": "Tatra",
@@ -1316,18 +2593,6 @@ window.MEKA_DATA = {
 "kaynak": "final_S12 2.6"
 },
 {
-"ad": "NSPA",
-"rol": "kurum",
-"not": "Kamyon ve lojistik ekipman çerçeve sözleşmeleri yapıyor, flat rack ayrı kalem olarak alınabilir (teyit gerekli); Source File ve NCAGE kaydı şart.",
-"kaynak": "final_S12 2.6"
-},
-{
-"ad": "Bundeswehr (BAAINBw)",
-"rol": "kurum",
-"not": "RMMV HX programının son kullanıcısı; kamyon başına 2 ile 4 flat rack varsayımıyla 8.000 ile 16.000 flat rack ihtiyacı çıkıyor (tahmin).",
-"kaynak": "sec_other_niches 8.2"
-},
-{
 "ad": "MSB",
 "rol": "kurum",
 "not": "Flat rack ve kanca yükleyici gövdesi için 5201 kapsamında yazılı sınıflandırma görüşü isteniyor; askerî araç için özel tadilat ML6 gri alan.",
@@ -1356,14 +2621,134 @@ window.MEKA_DATA = {
 "rol": "emsal",
 "not": "Kanadalı KOBİ; ABD PLS filosu için 6.300'den fazla konteyner elleçleme ünitesi üretti, KOBİ'nin büyük programa alt sistem satması örneği.",
 "kaynak": "https://en.wikipedia.org/wiki/Palletized_Load_System"
-},
-{
-"ad": "Szczęśniak Special Vehicles",
-"rol": "emsal",
-"not": "Polonyalı aile şirketi; İsveç FMV'ye Scania şasi üstü ağır kurtarma aracı üst yapısından 45 araç sattı (2025-2026).",
-"kaynak": "https://milmag.pl/en/szczesniak-special-vehicles-will-deliver-10-heavy-tow-trucks-for-the-swedish-army/"
 }
 ],
+"ekonomi": {
+"bilet": "0,7 ile 1,3 milyon avro, ilk 24 ay; ilk 12 ay 210 ile 400 bin avro; ortak paket payı 80 ile 160 bin avro dahil; robotik kaynak hücresi 250 ile 450 bin avro dahil",
+"sure_ilk_gelir": "18 ile 24 ay; prototip Mart 2027, STANAG testi ve tedarikçi onayı Eylül 2027, ilk seri sipariş 2028 ilk yarı",
+"yil3": "2029: gelir 2,4 ile 8,4 milyon avro; brüt kâr 0,3 ile 1,7 milyon avro; 300 ile 600 flat rack ve 100 ile 200 gövde seti, brüt marj yüzde 12 ile 20",
+"yil5": "2031: gelir 4,8 ile 16,8 milyon avro; brüt kâr 0,7 ile 3,7 milyon avro; 600 ile 1.200 flat rack ve 200 ile 400 gövde seti, brüt marj yüzde 15 ile 22",
+"geri_odeme": "3 ile 5 yıl; yüksek senaryoda 2029 içinde, düşük senaryoda 2031; kümülatif brüt kârla, genel giderler hariç",
+"yillik_kar_potansiyeli": "Yıl 5'te 0,7 ile 3,7 milyon avro brüt kâr; dayanak Avrupa'da yılda 3.000 ile 6.000 flat rack talebi tahmini, MEKA payı yüzde 10 ile 20, birim fiyat 7 ile 12 bin avro ve yüzde 15 ile 22 brüt marj.",
+"varsayimlar": "Birim fiyat flat rack 7 ile 12 bin avro: raporun 4 ile 9 ve 8 ile 14 bin avro tahminleri ile Saxas çerçevesinden türetilen 8 ile 24 bin avro göstergesinin kesişimi, alt yüklenici fiyatı, tahmin. Gövde seti 3 ile 6 bin avro, tahmin. Avrupa yıllık hacim 3.000 ile 6.000 flat rack: Bundeswehr 2023 ve 2024 çağrılarında 2.330 flat rack ve 1.750 platform, Hollanda 418, opsiyon kaydı yok, Polonya 200 set, İsveç 200 kanca, Slovakya 1.289 araçlık Tatra çerçevesi; kamyon başına 2 ile 4 flat rack, tahmin. MEKA payı yıl 3'te yüzde 5 ile 15, yıl 5'te yüzde 10 ile 20, tahmin. Brüt marj yüzde 12 ile 22: rapor Avrupa'da fiyat avantajını lojistik sonrası yüzde 10 ile 25 veriyor, Doğu Avrupa rekabeti marjı sıkıştırır, tahmin. Kur: 1 avro = 4,32 zloti, 25 kron; 1 avro = 1,15 dolar, yaklaşık. Bilet MEKA harcamasıdır, destekler düşülmemiştir."
+},
+"emsaller": [
+{
+"tarih": "27 Mayıs 2025",
+"taraflar": "Hollanda Savunma Bakanlığı ve G3 Systems; flat rack üretimi Zamet-Glowno",
+"bedel": "100 milyon avro, KDV hariç",
+"birim": "Yaklaşık 418 flat rack, 270 özel konteyner ve 15 yıl destek; paket fiyatı, flat rack birim fiyatı ayrıştırılamıyor; ihale sonucu çerçeve sözleşme değil diyor, opsiyon kaydı bulunamadı",
+"kaynak": "https://tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/386113/pdf; https://www.adsgroup.org.uk/knowledge/industry-member-news/g3-systems-establishes-european-supply-chain-partnerships/; https://www.edrmagazine.eu/g3-systems-delivers-first-wtb-flatrack-to-the-netherlands-mod-for-state-verification-testing"
+},
+{
+"tarih": "7 Kasım 2024",
+"taraflar": "BAAINBw ve Saxas Nutzfahrzeuge Werdau",
+"bedel": "42 milyon avro bütçe; çerçeve 5.100 adede kadar, Eurotransport 4.000 yazıyor; 1.750 çağrı",
+"birim": "Çağrılan adede göre hesapla 24 bin avro; tam çerçeveye göre 8 ile 10,5 bin avro; belirsiz; adet ESUT ve Eurotransport'ta farklı",
+"kaynak": "https://esut.de/2024/11/meldungen/54664/beschaffungsvertraege-fuer-gelaendegaengige-anhaenger-und-wechselpritschen-abgeschlossen/; https://www.eurotransport.de/fahrzeuge/trailer/ein-und-zweiachsige-wechselfahrgestelle-schmitz-liefert-neue-anhaenger-fuer-bundeswehr/"
+},
+{
+"tarih": "12 Haziran 2024",
+"taraflar": "BAAINBw ve Rheinmetall MAN Military Vehicles",
+"bedel": "920 milyon avronun üzerinde, brüt",
+"birim": "1.515 WLS, 500 flat rack, 500 branda üst yapı; kamyon seti başına hesapla yaklaşık 607 bin avro",
+"kaynak": "https://www.rheinmetall.com/de/media/news-watch/news/2024/06/2024-06-12-bundeswehr-bestellt-weitere-1515-militaer-lkw"
+},
+{
+"tarih": "29 Haziran 2023",
+"taraflar": "BAAINBw ve Rheinmetall MAN Military Vehicles",
+"bedel": "285 milyon avronun üzerinde, brüt",
+"birim": "367 WLS ve 1.830 flat rack; kamyona 607 bin avro düşülürse flat rack için kabaca 34 bin avro brüt kalır, kaba hesap",
+"kaynak": "https://www.rheinmetall.com/de/media/news-watch/news/2023/juni/2023-06-29-rheinmetall-wechsellader-fuer-die-bundeswehr"
+},
+{
+"tarih": "4 Şubat 2021",
+"taraflar": "Hiab (Cargotec) ve RMMV, son kullanıcı BAAINBw",
+"bedel": "180 milyon avronun üzerinde",
+"birim": "4.000 adede kadar MULTILIFT MSH-165-CL kanca; adet başı hesapla yaklaşık 45 bin avro; ilk sipariş 540",
+"kaynak": "https://www.hiabgroup.com/en/newsroom/press-releases/hiab-to-supply-rmmv-with-up-to-4000-multilift-hooklifts/"
+},
+{
+"tarih": "18 Haziran 2020",
+"taraflar": "BAAINBw ve Rheinmetall",
+"bedel": "2 milyar avroya kadar",
+"birim": "4.000 WLS kamyon; kamyon başı hesapla 500 bin avro; ilk dilim 540, 230'u zırhlı kabinli",
+"kaynak": "https://esut.de/2020/06/meldungen/21168/bundeswehr-erhaelt-lkws-im-wert-von-bis-zu-zwei-milliarden-euro/"
+},
+{
+"tarih": "22 Mayıs 2024",
+"taraflar": "Polonya Silahlanma Ajansı ve Jelcz; Multilift Mk IV Hiab, römork Zamet-Glowno",
+"bedel": "847 milyon zloti; ajans bülteni yaklaşık 837 milyon",
+"birim": "200 set, set başına 4,235 milyon zloti, yaklaşık 980 bin avro; 105 kesin, 95 opsiyon",
+"kaynak": "https://defence24.pl/przemysl/duzy-kontrakt-na-ciezarowki-dla-wojska-polskiego"
+},
+{
+"tarih": "2 Eylül 2022",
+"taraflar": "Çek Savunma Bakanlığı ve Tatra Trucks",
+"bedel": "1,2 milyar Çek kronunun üzerinde, KDV hariç",
+"birim": "80 Tatra Force 8x8 kanca yükleyici; kamyon başı hesapla 15 milyon kron, yaklaşık 600 bin avro",
+"kaynak": "https://ct24.ceskatelevize.cz/domaci/3526577-tatra-vyrobi-pro-armadu-osmdesat-nakladnich-aut-prijdou-na-vic-nez-miliardu"
+},
+{
+"tarih": "28 Şubat 2025",
+"taraflar": "İsveç FMV ve JOAB ile Scania",
+"bedel": "Açıklanmadı",
+"birim": "100 kanca yükleyici artı 100 opsiyon; FMV üç ürün tipi aldı",
+"kaynak": "https://www.joab.se/en/wp-json/wp/v2/posts/31892"
+},
+{
+"tarih": "31 Ekim 2023",
+"taraflar": "SSB ve Kara Kuvvetleri ile Koluman Otomotiv Endüstri",
+"bedel": "Açıklanmadı",
+"birim": "70 DERMAN 8x8 DROPS; 20 adet teslim, kalanı 2024 ilk çeyrek",
+"kaynak": "https://www.ekonomigazetesi.com/sirket-haberleri/koluman-13-dropsu-daha-tskya-teslim-etti-22959"
+},
+{
+"tarih": "1990",
+"taraflar": "ABD Ordusu TACOM ve Oshkosh",
+"bedel": "860 milyon dolar",
+"birim": "2.626 PLS kamyon, 1.050 römork, 11.030 M1077 flat rack; tarihsel referans",
+"kaynak": "https://en.wikipedia.org/wiki/Palletized_Load_System"
+}
+],
+"cevaplar": [
+{
+"soru": "Tesis seri flat rack üretimine uygun mu: hol kanca yüksekliği 8 metre ve üstü, montaj hattı 12 ile 15 metre, en az bir robotik kaynak hücresi var mı?",
+"durum": "gorusme",
+"cevap": "Web'de cevabı yok; MEKA'nın iç verisi. Rapor Eskişehir'in tek parça 10 ton ve 7 metre sınırını flat rack için yeterli sayıyor. Robotik kaynak hücresi bu çalışmada bilet kalemi olarak 250 ile 450 bin avro ile modele alındı. Tesis veri formu Ek A hâlâ doldurulmamış.",
+"kaynak": "01 rapor Tablo 7.4 ve 8.6; bu çalışma Ekonomi modeli",
+"kime": "MEKA üretim müdürü ve Eskişehir tesis sorumlusu; Ek A formu"
+},
+{
+"soru": "MSB yazılı görüşü ne diyecek: silahsız flat rack kontrol dışı mı kalıyor, askerî araç için özel tadilat ML6'ya giriyor mu?",
+"durum": "gorusme",
+"cevap": "Yeni web kanıtı yok. Rapor Tablo 6.3 büyük ölçüde kontrol dışı, özel tadilat ML6 gri alan diyor. Hollanda ve Almanya alımlarında flat rack sivil firmalardan ve Direktif 2009/81/EC altında alınıyor; bu, ürünün Avrupa'da savunma alımı ama silah sınıfı olmadığını gösterir. Yazılı görüş olmadan kontrol dışı varsayımı teyitsiz.",
+"kaynak": "01 rapor Tablo 6.3; https://tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/386113/pdf",
+"kime": "MSB İhracat Kontrol birimi; başvuru 5201 sayılı Kanun kapsamında ürün bazında"
+},
+{
+"soru": "Hiab, Multilift, Palfinger, Hyva ve Marrel flat racki bugün hangi atölyelere yaptırıyor ve hangi fiyattan alıyor?",
+"durum": "kismen",
+"cevap": "Flat rack çoğu programda kanca üreticisinden değil ana yükleniciden ya da ayrı ihaleden alınıyor. Almanya: flat rackler Rheinmetall çağrılarında ayrı kalem, 2023'te 1.830 ve 2024'te 500 adet; değişken platformları Saxas Nutzfahrzeuge Werdau yapıyor, 5.100 adede kadar çerçeve, 1.750 çağrı, 42 milyon avro bütçe. Hollanda: G3 Systems ana yüklenici, flat rackleri Polonyalı Zamet-Glowno, konteynerleri Çek Variel Defence üretiyor. Polonya: Jelcz setinin römorkunu Zamet-Glowno yapıyor. Hiab'ın kendi kanca sistemi adet başı hesapla yaklaşık 45 bin avro. Askerî flat rackin açık birim fiyatı bulunamadı; Saxas çerçevesinden türetilen gösterge 8 ile 24 bin avro arası, belirsiz. Palfinger, Hyva ve Marrel için 2025 ve 2026 sözleşmesi bulunamadı.",
+"kaynak": "https://esut.de/2024/11/meldungen/54664/...; https://www.adsgroup.org.uk/knowledge/industry-member-news/g3-systems-establishes-european-supply-chain-partnerships/; https://defence24.pl/przemysl/duzy-kontrakt-na-ciezarowki-dla-wojska-polskiego",
+"kime": "Hiab Defence Logistics satın alma; G3 Systems tedarik zinciri; Zamet-Glowno kapasite ve fiyat kıyası için"
+},
+{
+"soru": "Bundeswehr programı 2021'de başladı ve 2027'de bitiyor; flat rack hacminin ne kadarı zaten sipariş edildi, kalan ne?",
+"durum": "kismen",
+"cevap": "Kamyon tarafı: çerçeve 4.000 adet; Haziran 2024'e kadar 1.008 teslim, aynı ay 1.515 çağrı, Kasım 2024'te 200 daha; hesapla en az 2.723 sipariş, kalan en çok 1.277, çerçeve 2027'de bitiyor. Flat rack tarafı: 2023'te 1.830 ve 2024'te 500 adet RMMV çağrılarında; ilk 540'lık dilimle alınan flat rack sayısı bulunamadı. Ek olarak Saxas ile 5.100 adede kadar değişken platform çerçevesi, 1.750 çağrı, teslim 2025 ile 2027. ESUT'un Nisan 2026 sayfasında ilgili bağlantı başlığı Wechselladersysteme ve SatComBw modernizasyonu için birlikte 1,5 milyar avro onayı diyor; başlık yasama döneminin son kararı ifadesini taşıyor, yani Nisan 2026'dan önceki bir tarihe ait; tarih ve WLS payı bulunamadı, tek kaynak. Sonuç: mevcut çerçevenin flat rack hacminin büyük kısmı sipariş edildi; fırsat 2027 sonrası yeni dilimde ve Saxas çerçevesinin alt yükleniciliğinde.",
+"kaynak": "https://www.rheinmetall.com/de/media/news-watch/news/2024/06/2024-06-12-bundeswehr-bestellt-weitere-1515-militaer-lkw; https://www.rheinmetall.com/de/media/news-watch/news/2023/juni/2023-06-29-rheinmetall-wechsellader-fuer-die-bundeswehr; https://esut.de/2026/04/meldungen/69806/naechste-beschaffungsrunde-eingelaeutet/",
+"kime": "RMMV satın alma ve BAAINBw için Türk Savunma Sanayii Müşavirliği Berlin"
+},
+{
+"soru": "Hiab Defence Logistics'in Haziran 2026'da kurulması alt yüklenici politikasını değiştiriyor mu?",
+"durum": "kismen",
+"cevap": "Hiab'ın 11 Haziran 2026 bülteni HDL'yi Government Business Operations biriminin yeni adı olarak tanımlıyor; aynı ekip, aynı kadro. Bültende tedarikçi ya da alt yüklenici politikasına dair cümle yok. Eurosatory 2026'da MULTILIFT Talon, Tatra Force şasi üzerinde sergilendi; Talon ISO konteyner ve STANAG flat rack yükler. Politika değişikliği kanıtı yok; görüşmeyle netleşir.",
+"kaynak": "https://www.hiab.com/en/media/newsroom/hiab-redefines-military-logistics-and-force-protection-with-next-gen-innovations-at-eurosatory-2026",
+"kime": "Hiab Defence Logistics, Frank van Dongen'in ekibi; görüşme talebi"
+}
+],
+"arastirildi": true,
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -1371,29 +2756,35 @@ window.MEKA_DATA = {
 "puan_kisa": "4,00",
 "butonlar": [
 {
+"dosya": "c_sav_flatrack",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.2 Askerî lojistik üst yapılar: flat rack, kanca yükleyici gövdesi ve konteyner platformları",
 "sayfa": 26,
-"rol": "tam"
+"rol": "ana"
 }
 ],
 "puan": {
-"G": 2.0,
-"H": 3.33,
-"R": 3.33,
-"E": 3.33,
-"M": 4.67,
-"S": 2.33,
-"B": 4,
+"G": 2.33,
+"H": 3.0,
+"R": 2.0,
+"E": 3.0,
+"M": 3.67,
+"S": 2.0,
+"B": 2,
 "K": 4
 },
 "puan_not": {
-"G": "Bundeswehr 8-16 bin flat rack, 4-9 bin euro, tahmin; marj ince, brüt 2-5 M$. [Eleştirmen düzeltti, ortalama 3 iken 2: İnce marjla yılda 2 ile 5 M$ brüt kâr için 20 ile 50 M$ ciro gerekir; bu, tüm programın yıllık hacmine yakın ve tek tedarikçiye düşmez. Model olmayan]",
-"H": "Rapor süre puanı 4; STANAG 2413 testi 12. ayda, ISO 3834-2 belgesi önce.",
-"R": "Hiab 4.000 kanca yükleyici belgeli; Doğu Avrupa fiyat rekabeti yüksek, ML6 gri alan.",
-"E": "Hiab Defence Logistics Haziran 2026 kuruldu; Koluman portalı; MSB 5201 görüşü gerekir.",
-"M": "MCC 70 kanca yükleyici tipinde; teknik uyum 5, tek parça 10 ton yeterli.",
-"S": "Çelik platform sıradan ürün, rekabet puanı 2; savunma geliri bağımsız"
+"G": "Yıl 5 brüt kâr 0,7 ile 3,7 M avro; flat rack birim fiyatı belirsiz",
+"H": "Prototip Mart 2027, STANAG testi Eylül 2027, ilk seri sipariş 2028 ilk yarı.",
+"R": "Hollanda 418 flat racki Zamet-Glowno'ya, Almanya platformu Saxas'a; çerçeve 2027'de bitiyor.",
+"E": "Hiab, Palfinger ve G3 Systems kanalı belli; STANAG 2413 testi ve MSB görüşü gerekir.",
+"M": "Eskişehir lazer, abkant ve kaynak hattı kullanılır; 250 ile 450 bin avro robot hücresi.",
+"S": "Çelik platform sıradan ürün; Doğu Avrupa atölyeleriyle fiyat rekabeti; savunma geliri bağımsız."
 },
 "puan_yayilim": []
 },
@@ -1404,149 +2795,209 @@ window.MEKA_DATA = {
 "id": "sav_muhimmat",
 "baslik": "Mühimmat hattı ekipmanı",
 "bant": "one_cikan",
-"puan_metni": "3,95 / 5, savunma raporu, yedi kriterli ağırlıklı puan, baz senaryo. 24 niş içinde 4. sıra, sınıf birincil, eşik 3,90. Alt puanlar: teknik uyum 5, ihracat pazarı 4, giriş engeli 3, rekabet 3, gelire ulaşma süresi 3, yatırım ihtiyacı 4, öz iş sinerjisi 5. Ölçekte 5 en iyi; giriş engeli, rekabet ve yatırım kriterlerinde 5 düşük engel, az rakip ve düşük yatırım demek. Teknik uyum puanı tesis verisi gelene kadar varsayım. 5+5 çalışması, belge 10, bu nişi 10 üzerinden puanlamamış.",
-"tarih": "22 Eylül 2026",
-"ne": "Avrupa ve Kuzey Amerika'da kurulan yeni mühimmat üretim hatlarına genel amaçlı ekipman satmak. Kalemler taşıma ve konveyör sistemleri, çelik yapılar, silolar, konteynerize modüller ve proses tesisi entegrasyonu. Mühimmatın kendisi ya da 155 mm gövde satılmaz; hattın çelik ve taşıma kısmı satılır. Rapor tam 155 mm gövde üretimini önermiyor.",
-"neden": "Bu kalemler MEKA'nın proses tesisi ve konteyner tipi tesis üretimindeki asıl işiyle birebir örtüşür. Rapor bu nişe teknik uyum ve öz iş sinerjisinde 5 üzerinden 5 veriyor ve onu MEKA'nın asıl işine en yakın niş sayıyor. Rapora göre genel amaçlı çelik yapı ve konveyör ML18.a kapsamı dışında kalır. Ancak rapor teklif kalemlerinin sınıflandırmasının sözleşme öncesi hukuki görüşle netleştirilmesini şart koşuyor. Üretim İzin Belgesi gerekip gerekmediği bu niş için çalışmalarda açık yazılmamış.",
+"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi öne çıkan: MEKA uyumu en yüksek nişlerden biri: konveyör, silo, çelik yapı ve konteyner tipi modül bugünkü üretim hattında yapılıyor, yeni makine gerekmez. Bilet orta değerde 1,2 milyon avro ve çoğu işletme sermayesi; yıl 5 brüt kârı 0,9 ile 3,0 milyon avro, geri ödeme orta senaryoda 2,6 yıl; paket ve marj tahmin. Talep resmi kaynaklarla kanıtlı ve iki Türk bağlantılı somut proje var: ARCA Estonya 300 milyon avro, MKE Kırıkkale 818 milyon dolar. Ancak havuzun en büyük kalemi olan Nammo Danimarka fonu doğrulanamadı; kanal zayıf: Unterlüß bitti, Repkon'un ABD kapısı kapandı, Avrupa'da para anahtar teslim ve yerel yükleniciye gidiyor ve alt yüklenici bedeli hiçbir kaynakta yok. Öneri: one_cikan korunur, şartı şu: Haziran 2027'ye kadar ARCA, MKE ya da bir entegratörden teklif çağrısı gelmezse izle bandına inmeli. Önceki çalışmanın kendi puanı: 3,95 / 5, savunma raporu, yedi kriterli ağırlıklı puan, baz senaryo. 24 niş içinde 4. sıra, sınıf birincil, eşik 3,90. Alt puanlar: teknik uyum 5, ihracat pazarı 4, giriş engeli 3, rekabet 3, gelire ulaşma süresi 3, yatırım ihtiyacı 4, öz i…",
+"tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 22 Eylül 2026",
+"ne": "Avrupa, Kuzey Amerika ve Türkiye'de kurulan yeni mühimmat ve barut tesislerine genel amaçlı fabrika ekipmanı satmak: bant konveyör, çelik platform ve yapı, silo ve hammadde depolama, konteyner tipi proses modülü, montaj. Üretim MEKA'nın Başkent OSB'deki dört fabrikasında ve Eskişehir OSB fabrikasında yapılır. Mühimmatın kendisi, gövde ya da özel tasarım üretim makinesi satılmaz.",
+"neden": "Bu kalemler MEKA'nın kırma eleme ve beton santrali işinde her gün ürettiği konveyör, silo, çelik şase ve konteyner tipi tesisle aynıdır; yeni makine yatırımı gerekmez. 2025 ile 2029 arasında bedeli açıklanmış 13 yeni tesisin toplamı yaklaşık 6,2 milyar avrodur; Nammo Danimarka fonu doğrulanamadı, onsuz yaklaşık 5,0 milyar. İki somut Türk bağlantılı proje var: ARCA'nın Estonya'daki 300 milyon avroluk tesisi ve MKE'nin Kırıkkale'deki 818 milyon dolarlık yatırımı. Bilet 0,8 ile 1,65 milyon avro, yıl 5 brüt kârı 0,9 ile 3,0 milyon avro, geri ödeme orta senaryoda 2,6 yıl; paket ve marj tahmin.",
 "rakamlar": [
 {
-"deger": "1,3 milyondan 1,5 ile 1,8 milyon adede",
-"aciklama": "Avrupa 155 mm mermi kapasitesi: 2021'de yaklaşık 300.000, 2025'te yaklaşık 1,3 milyon, 2026 hedefi 1,5 ile 1,8 milyon adet. Rheinmetall grubunun 2027 hedefi 1,5 milyon. Raporun uyarısı: Avrupa'da darboğaz gövdeden çok barut ve dolgu maddesinde; büyük oyuncular gövde üretimini kendi içine alıyor.",
-"kaynak": "01 rapor, s_mro, 8.3 155 mm kapasite darboğazı: talep kanıtı; 01 kart, puan listesi"
+"deger": "469 milyon dolar, sıfır uygun parça",
+"aciklama": "ABD Ordusu Aralık 2022 ile Aralık 2025 arasında Mesquite tesisine 469 milyon dolar harcadı; hedef ayda 30.000 gövde. Mart 2026 itibarıyla sözleşmeye uygun tek parça yok; iki hatta 1 Ağustos 2025'te iş durdurma verildi. Rapor yüklenici adını vermiyor.",
+"kaynak": "resmi, DoD Genel Müfettişliği DOWIG-2026-095, 9 Temmuz 2026, https://www.oversight.gov/sites/default/files/documents/reports/2026-07/DOWIG-2026-095%20155-mm_Redacted_Secure.pdf"
 },
 {
-"deger": "5 milyar CZK, 2,4 milyar PLN, 500 milyon €, 1,4 milyar C$",
-"aciklama": "2025 ile 2028 arasında kurulan yeni hat yatırımları: STV Group Çekya programı, Polonya PGZ sübvansiyonu, Rheinmetall Unterlüß, Kanada paketi. Rapor bu hatların konveyör, çelik yapı, silo, konteynerize modül ve proses entegrasyonu istediğini yazıyor.",
-"kaynak": "01 rapor, s_mro, 8.3 Mühimmat üretim hattı ekipmanı: MEKA'nın asıl işine en yakın niş"
+"deger": "200 milyon dolar",
+"aciklama": "General Dynamics Mesquite'i yeniden başlatmak için kendi parasından 200 milyon dolar koyacak ve Repkon ortaklığını çözecek. Tek kaynak, haberin yalnız girişi açık; haber tarihi açılan giriş metninde görünmüyor, 2026.",
+"kaynak": "haber, Bloomberg Government, https://news.bgov.com/federal-contracting/general-dynamics-will-spend-200-million-to-reboot-ammo-plant"
 },
 {
-"deger": "Aylık 36.000'e karşı 100.000 hedef",
-"aciklama": "ABD'de 155 mm metal parça üretimi Mart 2026'da aylık 36.000'de kaldı; hedef 100.000. Darboğaz metal parçada. Teksas Mesquite tesisinin ekipmanını İstanbul merkezli Repkon sağladı; ancak hat spesifikasyonu karşılayan parça üretemedi.",
-"kaynak": "01 rapor, s_mro, 8.3 155 mm kapasite darboğazı: talep kanıtı"
+"deger": "635,2 milyon dolar tavan",
+"aciklama": "15 Ağustos 2025'te ACC Rock Island, MSM Group North America'ya Iowa'da 155 mm dolum tesisi için tasarım, inşa ve devreye alma sözleşmesi verdi; tek kaynaklı ihale, bitiş Ağustos 2029. Yeni tesisin kapasitesi açılan kaynaklarda yok; Iowa'daki mevcut dolum hattı Mart 2026'da ayda 30.000 üretiyor, Aralık 2027 hedefi 78.000. Birim bedel bulunamadı.",
+"kaynak": "resmi kayıt aynası, SAM.gov W519TC-25-C-0032, https://govcontractfinder.com/contracts/design-build-and-commission-a-modern-155mm-lap-facility-at-i-W519TC-25-C-0032; haber, Stripes; DoD Genel Müfettişliği Şekil 2"
 },
 {
-"deger": "384 yeni makine, hat ve tesis",
-"aciklama": "MKE 2025'te 990.000'den fazla roket, patlayıcı ve ağır silah mühimmatı teslim etti ve 384 yeni makine, hat ve tesis yatırımı yaptı. Türkiye'de 155 mm'de fiilen tekel.",
-"kaynak": "01 rapor, s_mro, 8.3, Türkiye paragrafı"
+"deger": "yaklaşık 500 milyon avro, yılda 350.000 mermi",
+"aciklama": "Rheinmetall Unterlüß tesisi 15 ayda kuruldu, 30.000 metrekare, tam kapasite 2027. Yıllık mermi kapasitesi başına yaklaşık 1.430 avro. Tesis açıldı; satış hedefi değil, fiyat göstergesi.",
+"kaynak": "firma, Rheinmetall 5 Eylül 2025, https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-05-factory-opening-in-unterluess"
 },
 {
-"deger": "120.000 gövde/yıl",
-"aciklama": "Repkon'un Pakistan için kurduğu anahtar teslim 155 mm hattının kapasitesi. Çorum'daki Arca Savunma ABD'den 116.000 adetlik 155 mm siparişi aldı.",
-"kaynak": "01 rapor, s_mro, 8.3, Türkiye paragrafı"
+"deger": "141 milyon avro, doğrudan yatırımın yüzde 78'i",
+"aciklama": "PST Group, Rheinmetall Defence Lietuva'nın Baisogala tesisi inşaatını 30 Ekim 2025'te 141 milyon avroya aldı; inşaat 2026 sonunda bitecek, açılış 2027 başı; 340 hektar, yılda yaklaşık 10.000 mermi. Doğrudan yatırım 180 milyon avro rakamı yalnız AIN'den, bu turda açılmadı.",
+"kaynak": "haber, LRT, https://lrt.lt/en/news-in-english/19/2730325/lithuania-s-pst-group-to-build-rheinmetall-munitions-factory-in-baisogala-for-eur141-m; AIN, tek kaynak"
 },
 {
-"deger": "3,95 / 5, 4. sıra",
-"aciklama": "Baz senaryoda ağırlıklı puan ve sıra. Ağırlıklar: teknik uyum yüzde 25, pazar yüzde 25, giriş engeli yüzde 15, rekabet yüzde 10, süre yüzde 10, yatırım yüzde 10, sinerji yüzde 5. İlk dört niş dört ağırlık senaryosunun hepsinde ilk altıda kalıyor. Yatırım ihtiyacı puanı 4; ölçekte 5 en düşük ihtiyaç.",
-"kaynak": "01 rapor, s_score, Tablo 7.1 ve Tablo 7.2"
+"deger": "300 milyon avro, üretim 2028",
+"aciklama": "ARCA Baltics Operations Estonya Kiviõli'de 141 hektarda 155 mm, havan ve 122 mm roket tesisi kuruyor; devlet altyapıya en çok 10 milyon avro koyuyor; 1.000 iş. Resmi imza SAHA Expo 2026'da Mayıs başında.",
+"kaynak": "resmi, Estonya Savunma Yatırımları Merkezi 21 Nisan 2026, https://www.kaitseinvesteeringud.ee/en/arca-baltics-operations-to-build-e300-million-ammunition-factory-in-north-kivioli/"
 },
 {
-"deger": "400 ile 800 bin €",
-"aciklama": "Dört kollu portföyün tamamı için 36 aylık belgelendirme, test ve altyapı bütçesi; tahmin. Desteklerle net maliyet yaklaşık yarıya iner. Niş bazında bütçe rapor vermiyor.",
-"kaynak": "01 rapor, s_road, Tablo 9.2; 01 kart, yol haritası"
+"deger": "818 milyon dolar",
+"aciklama": "MKE'nin Kırıkkale'de silindirik barut ve muhtelif mühimmat yatırımı; Sanayi ve Teknoloji Bakanlığı proje bazlı teşvik listesinde savunmada birinci, tüm sektörlerde üçüncü. Sayfada tarih yok.",
+"kaynak": "resmi, MKE, https://www.mke.gov.tr/Haberler/Turk-Savunma-Sanayisinin-En-Buyuk-Olcekli-Yatirimi-MKEden/52"
+},
+{
+"deger": "990.000'den fazla mühimmat, 384 tezgâh, hat ve tesis",
+"aciklama": "MKE 2025 teslimatı, roket, patlayıcı ve ağır silah mühimmatı; 384 yeni tezgâh, hat ve tesis için yatırım planı hayata geçirildi; ciro 1,2 milyar dolar.",
+"kaynak": "resmi, MKE, https://www.mke.gov.tr/Haberler/MILL%C3%8E-GUC-MKE-2026YA-HAZIR/114"
+},
+{
+"deger": "2,4 milyar zloti",
+"aciklama": "Polonya devlet desteği dağılımı: Dezamet 1.358, Mesko 887,2, Nitro-Chem 113,3, Gamrat 66,17 milyon zloti. Nitro-Chem parayı dolum hatlarına harcıyor; yeni bina ayrıntısı Defence24'ten, bu turda açılmadı. PGZ 2028 hedefi yılda 180.000 mermi.",
+"kaynak": "haber, Spidersweb Temmuz 2025, https://spidersweb.pl/2025/07/gigantyczne-pieniadze-dla-polskiej-zbrojeniowki.html; Defence24"
+},
+{
+"deger": "8,6 milyar DKK, doğrulanamadı",
+"aciklama": "Danimarka'nın Nammo Elling projesi için ayırdığı fon diye yazılmıştı; açılan Nammo ve Defence Industry Europe sayfalarında bu rakam yok, tahmin sayılmalı. Sayfalarda olan: bina ve arazi devletin, üretim donanımı Nammo'nun; Danimarka devleti Nammo Denmark'ta yüzde 15 ortak; dolum hattını Repkon kuruyor, bedel açıklanmadı; üretim 2027 ikinci yarı.",
+"kaynak": "firma, Nammo, https://www.nammo.com/nammo-to-re-establish-ammunition-production-in-denmark/; haber, Defence Industry Europe 5 Temmuz 2025"
+},
+{
+"deger": "yaklaşık 6,2 milyar avro, 13 proje",
+"aciklama": "Unterlüß hariç 2025 ile 2029 arasında bedeli açıklanmış yeni tesislerin toplamı; yaklaşık kurla avroya çevrildi. Nammo fonu doğrulanamadı; onsuz yaklaşık 5,0 milyar avro. Yılda 2,6 proje ve 1,0 ile 1,2 milyar avro.",
+"kaynak": "hesap, bu çalışmadaki pazar tablosu; kurlar tahmin"
+},
+{
+"deger": "yüzde 15 ile 40, yüzde 2 ile 18",
+"aciklama": "Sabit yatırım içinde satın alınan ekipman ve bina payları; ekipman montajı yüzde 6 ile 14. MEKA'nın genel amaçlı kalem payı bunlardan yüzde 3 ile 6 diye türetildi; tahmin.",
+"kaynak": "rapor, Peters, Timmerhaus ve West tablosu, Politecnico di Milano ders notu, https://pselab.chem.polimi.it/wp-content/uploads/2015/01/L8-Plant-Economics.pdf"
+},
+{
+"deger": "400 ile 800 bin avro, bu yaprağın payı 80 ile 160 bin",
+"aciklama": "Beş savunma kolunun ortak 36 aylık belge, test ve altyapı bütçesi; beşte biri bu yaprağa yazıldı, desteklerle 40 ile 80 bin avroya iner. Tahmin.",
+"kaynak": "01 rapor, Tablo 9.2"
 }
 ],
-"durum": "Dayanak 22 Eylül 2026 tarihli savunma raporu. Niş 24 niş içinde 4. sırada, birincil sınıfta ve yol haritasında 6 ile 24. ay arası ana bahis diliminde. Raporun kendi doğrulama notu: 38 iddia kontrol edildi, 13'ü düzeltildi, doğrulamanın yaklaşık yarısı kullanım limiti yüzünden tamamlanamadı. Bu nişe özgü atılmış bir adım dosyalarda yok: MSB sınıflandırma görüşünün alındığı, Repkon ve Arca görüşmesinin yapıldığı, tesis veri formunun doldurulduğu kayıtlı değil. 30 Eylül 2026 YETEN ve SSB fuar desteği son günü geçti; başvurunun yapıldığı dosyada yok. Ön bant one_cikan korundu: raporun sınıfı birincil, teknik uyum ve sinerji puanı en yüksek. Bu nişe özgü gelir, marj ya da MEKA payı hesabı çalışmalarda yok.",
+"durum": "Niş savunma raporunda 3,95 puanla 4. sıradaydı ve bu tur ilk kez kaynaklı bir ekonomi modeli ve dokuz emsal işlem kazandı. Talep gerçek: 2025 ile 2029 arasında 13 yeni tesis ve yaklaşık 6,2 milyar avro yatırım var; en büyük kalem olan Nammo Danimarka fonu açılan sayfalarda doğrulanamadı, onsuz havuz yaklaşık 5,0 milyar avro. Unterlüß tamamlandı ve ABD'de Repkon kapısı Mesquite başarısızlığıyla kapandı. Para büyük ölçüde anahtar teslim yükleniciye ve yerel inşaat firmasına gidiyor; Litvanya'da inşaat sözleşmesi 141 milyon avro, Iowa'da tek kaynaklı ihale. En somut kapılar Türk bağlantılı projeler: ARCA Estonya ve MKE Kırıkkale. Dosyalarda MSB görüşü, tesis veri formu, Repkon ya da ARCA görüşmesi yapıldığına dair kayıt yok; 22 Ekim 2026 bir aylık adım tarihi yaklaştı.",
 "acik_sorular": [
-"Teklif edilecek konveyör, çelik yapı ve silo kalemleri ML18.a kapsamına girer mi? MSB'den 5201 kapsamında yazılı görüş alındığı dosyada yok.",
-"Tesiste Ø300 mm üstü salınımlı en az 3 ile 4 adet büyük CNC torna var mı? Rapor bunu mühimmat hattı ekipmanında mil ve makaralar için önemli sayıyor; tesis verisi bekleniyor.",
-"Repkon, STV Machinery ve Macrodyne gibi hat entegratörleri hangi kalemleri dış alt yükleniciden alıyor? Çalışmalarda yok.",
-"ATEX onaylı tedarikçi şartı hattın hangi bölümlerinde aranıyor ve MEKA bu onayı ne sürede alır? Çalışmalarda ayrıntı yok.",
-"Repkon'un Mesquite hattının spesifikasyonu karşılayamaması MEKA'nın Repkon ile alt yüklenicilik planını etkiler mi? Çalışmalarda değerlendirilmemiş."
+"Kısmen cevaplandı: Teklif edilecek konveyör, çelik yapı ve silo kalemleri ML18.a kapsamına girer mi?",
+"Görüşme gerekir: Tesiste Ø300 mm üstü salınımlı en az 3 ile 4 büyük CNC torna var mı? (MEKA üretim müdürlüğü, Ek A tesis veri formu)",
+"Kısmen cevaplandı: Repkon, STV Machinery ve Macrodyne gibi entegratörler hangi kalemleri dış alt yükleniciden alıyor?",
+"Kısmen cevaplandı: ATEX onaylı tedarikçi şartı hattın hangi bölümlerinde aranıyor ve MEKA bu onayı ne sürede alır?"
 ],
 "adimlar": [
 {
-"adim": "MSB'den mühimmat hattı ekipmanı için 5201 kapsamında yazılı sınıflandırma görüşü istemek; teklif kalemlerinde mühimmata özgü arayüz bulunmadığını teknik dosyada belgelemek.",
-"kim": "Rapor sorumlu adı vermiyor; raporun önerdiği ayrı savunma iş birimi ve sorumlu yönetici. Varsayım.",
-"ne_zaman": "Raporda bir ay içinde; 22 Eylül 2026'dan hesapla 22 Ekim 2026'ya kadar"
+"adim": "MSB'ye ürün bazında ML18.a ve 5201 görüş başvurusu: bant konveyör, çelik platform ve yapı, silo; teknik dosyada mühimmata özgü arayüz olmadığını belgelemek.",
+"kim": "Savunma iş birimi sorumlusu ve dış hukuk danışmanı; atama varsayım",
+"ne_zaman": "15 Kasım 2026'ya kadar"
 },
 {
-"adim": "Ek A tesis veri formunu doldurmak: büyük CNC torna sayısı, boş kapasite saati, hol yüksekliği. Bölüm 7 puanları bu veriyle güncellenecek.",
-"kim": "Rapor sorumlu adı vermiyor; üretim ve fabrika yönetimi. Varsayım.",
-"ne_zaman": "Raporda bir ay içinde; 22 Ekim 2026'ya kadar hesaplandı"
+"adim": "Ek A tesis veri formunu doldurmak: Ø300 mm üstü torna sayısı, hol yüksekliği, boş saat ve metrekare, Başkent OSB ve Eskişehir OSB ayrı ayrı.",
+"kim": "MEKA üretim müdürlüğü",
+"ne_zaman": "30 Kasım 2026'ya kadar"
 },
 {
-"adim": "NCAGE başvurusu, ardından NSPA Source File, UNGM ve SAM.gov tedarikçi kayıtları. Hepsi ücretsiz.",
-"kim": "Rapor sorumlu adı vermiyor; raporun önerdiği çekirdek ekipte kalite ve belgelendirme. Varsayım.",
-"ne_zaman": "Raporda bir ay içinde; 22 Ekim 2026'ya kadar hesaplandı"
+"adim": "ARCA ile Kiviõli tesisi için tedarikçi görüşmesi; genel amaçlı kalem listesi ve teklif takvimi istemek.",
+"kim": "Mehmet Ulaş ve iş geliştirme",
+"ne_zaman": "15 Aralık 2026'ya kadar"
 },
 {
-"adim": "Repkon ve Arca ile mühimmat hattı ekipmanı görüşmeleri. STV Machinery ve Macrodyne'a temas raporun giriş yolu tarifinden çıkarım.",
-"kim": "Rapor sorumlu adı vermiyor; raporun önerdiği çekirdek ekipte iş geliştirme. Varsayım.",
-"ne_zaman": "Raporda ilk çeyrek; 22 Eylül 2026'dan hesapla 21 Aralık 2026 civarı"
+"adim": "MKE satınalma birimi ile Kırıkkale barut ve mühimmat yatırımı için tedarikçi kaydı ve ön görüşme; yurt içi ilk referans hedefi.",
+"kim": "İş geliştirme",
+"ne_zaman": "31 Ocak 2027'ye kadar"
 },
 {
-"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak; ISO 45001 açığını kapatmak; EYDEP başvurusunu yapmak, hedef B seviyesi.",
-"kim": "Rapor sorumlu adı vermiyor; kalite ve belgelendirme. Varsayım.",
-"ne_zaman": "Raporda ilk çeyrek; 21 Aralık 2026 civarı"
+"adim": "Repkon, MSM Group North America ve PST Group ile alt yüklenici görüşmesi; Repkon'un Mesquite sonrası Avrupa projelerini sormak.",
+"kim": "İş geliştirme",
+"ne_zaman": "28 Şubat 2027'ye kadar"
 },
 {
-"adim": "Savunma işlerini ayrı iş birimi olarak örgütlemek; sorumlu yönetici ve 3 ile 5 kişilik çekirdek ekip atamak.",
-"kim": "MEKA yönetimi",
-"ne_zaman": "Raporda sürekli; başlangıç tarihi verilmemiş"
+"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak, ATEX kategori 2 ve 3 mekanik teknik dosya şablonunu hazırlamak, onaylanmış kuruluş seçmek.",
+"kim": "Kalite ve belgelendirme",
+"ne_zaman": "31 Mart 2027'ye kadar, 6. ay karar noktası"
 }
 ],
 "riskler": [
-"İhracat kontrol sınıflandırma hatası. Rapor olasılığı orta, etkiyi yüksek sayıyor. ML18.a askerî liste kalemlerinin üretimi için özel tasarlanmış ya da değiştirilmiş ekipmanı kontrole alır; mühimmata özgü bir arayüz eklenirse ürün kontrole girer. Azaltma: MSB'den ürün bazında yazılı görüş ve genel amaçlı tasarım disiplini.",
-"Yerel tedarikçi tercihi. Rapor bunu tahkimat için Polonya ve Baltık'ta, ambalaj için ana yüklenicilerde yazıyor; hat ekipmanı için aynı riskin geçerli olması çıkarım. Avrupa'da fiyat avantajı lojistik sonrası yüzde 10 ile 25 arasında ve bu bir tahmin; raporun asıl argümanı teslim süresi, kapasite ve 110 ülkelik kurulum ve servis deneyimi.",
-"Zamanlama ve nakit. Yeni hatlar 2025 ile 2028 arasında kuruluyor; belge ve görüşme süreci uzarsa pencere kaçar, bu çıkarım. Özel ana yüklenicilerde ödeme vadesi uzun; kart Rheinmetall için yaklaşık 92 gün, Leonardo için yaklaşık 109 gün veriyor. Rapor döviz cinsinden sözleşme, yüzde 20 ile 30 avans ve kilometre taşı ödemesini standart sayıyor.",
-"Organizasyon riski. Rapor savunmanın yarı zamanlı yürütülmesini orta olasılık, yüksek etki sayıyor. Azaltma: ayrı iş birimi, bütçe ve sorumlu yönetici. Ana iş toparlanırsa kapasite çakışması ayrı bir risk; azaltma ayrı hat ve vardiya.",
-"Kanıt sınırı. Raporun 38 yük taşıyan iddiasından 13'ü doğrulamada düzeltildi ve doğrulamanın yaklaşık yarısı tamamlanamadı. Teknik uyum puanı tesis verisi olmadan verildi; sıralama tesis verisiyle değişebilir."
+"Anahtar teslim ve yerel yüklenici tercihi. Olasılık yüksek, etki yüksek. Iowa'da MSM tek kaynaklı ihaleyle tüm tesisi aldı, Litvanya'da inşaat 141 milyon avroyla yerel PST Group'a gitti. Azaltma: Türk bağlantılı projelerle başlamak, yerel yükleniciye alt yüklenici olmak.",
+"Repkon itibarı ve ABD kapısının kapanması. Olasılık orta, etki orta. Mesquite'te 469 milyon dolar harcandı, uygun parça çıkmadı; GD ortaklığı çözüyor. Azaltma: tek entegratöre bağlı kalmamak, ABD'de Repkon adıyla teklif vermemek.",
+"İhracat kontrol sınıflandırma hatası. Olasılık orta, etki yüksek. Mühimmata özgü tutucu ya da fikstür eklenirse kalem ML18.a kapsamına girer. Azaltma: ürün bazında yazılı MSB görüşü ve genel amaçlı tasarım disiplini.",
+"Vade ve işletme sermayesi. Olasılık orta, etki orta. Rapor Rheinmetall için yaklaşık 92, Leonardo için 109 gün vade veriyor; ilk paket 0,4 ile 0,9 milyon avro işletme sermayesi bağlar. Azaltma: döviz sözleşme, yüzde 20 ile 30 avans, kilometre taşı ödemesi.",
+"Havuz büyüklüğü. Olasılık orta, etki orta. En büyük kalem olan Nammo Danimarka fonu, 8,6 milyar DKK, açılan sayfalarda doğrulanamadı; onsuz havuz yüzde 19 küçülür. Azaltma: paket sayısı tahminlerini ARCA ve MKE görüşmelerinden sonra güncellemek.",
+"Talep penceresinin 2029 sonrası kapanması. Olasılık orta, etki orta. Açılışlar 2027 ile 2029 arasında toplanıyor. Azaltma ve çıkış: aynı kalemler madencilik ve çimento işine döner; batık maliyet 0,3 ile 0,5 milyon avro, tahmin."
 ],
 "kapilar": {
 "yatirim": "sirket",
-"butce": 2,
-"butce_not": "Dilim 20 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Rapor niş bazında bütçe vermiyor. Dört kollu portföyün 36 aylık belge, test ve altyapı bütçesi 400 ile 800 bin € ve desteklerle yaklaşık yarıya iniyor; tahmin. Bu niş için ilk dilim MSB görüşü, ücretsiz kayıtlar ve ISO 3834-2 ile EN 1090-2 belgesi, 25 ile 55 bin €. Yatırım ihtiyacı puanı 5 üzerinden 4; ölçekte 5 en düşük ihtiyaç. Rapor yeni kapasite değil mevcut tesisin boş kapasitesini kullanmayı öneriyor. Yatırım sirket: rapor MEKA şirketi için yazılmış, kişisel yatırım seçeneği çalışmalarda yok.",
+"butce": 3,
+"butce_not": "Tam giriş bileti, Ocak 2027 ile Aralık 2028 arası: 0,8 ile 1,65 milyon avro, yaklaşık 0,93 ile 1,9 milyon dolar; orta değer 1,2 milyon avro, yaklaşık 1,4 milyon dolar, dilim 3. Kalemler: beş savunma kolunun ortak belge ve test paketinin beşte biri 80 ile 160 bin avro, rapor Tablo 9.2 toplamı 400 ile 800 bin avronun beşte biri, desteklerle 40 ile 80 bin; ML18.a hukuki görüş 10 ile 25 bin avro; ATEX teknik dosyası ve onaylanmış kuruluş 20 ile 50 bin avro, yaprağa özgü; 3 kişilik proje ve teklif mühendisliği ekibi 24 ay 180 ile 300 bin avro; iş geliştirme ve fuar 80 ile 150 bin avro; bedelsiz ön tasarım 30 ile 60 bin avro; ilk paket işletme sermayesi 400 ile 900 bin avro. Ortak pay dışındakiler tahmin. İlk 12 ayın harcaması 260 ile 490 bin avro. İşletme sermayesi hariç tutulursa bilet 0,4 ile 0,75 milyon avro ile dilim 2'ye iner. Yeni makine gerekmez. Yatırım MEKA şirketi üzerinden; kişisel yatırım seçeneği yok.",
 "yol": "ikisi",
-"yol_not": "Rapor giriş yolunu hat entegratörlerine, Repkon, STV Machinery ve Macrodyne, alt yüklenici olmak diye veriyor; bu ortak yoluna girer. Aynı raporun Tablo 9.1'i alıcı olarak Repkon, STV, Arca, MKE ile Kanada ve Avrupa'daki yeni hat yatırımcılarını sayıyor; bu doğrudan satış, üretim MEKA'nın kendi tesisinde. İki yol da raporda var; önce alt yüklenicilik, sonra doğrudan satış sırası varsayım."
+"yol_not": "Üretim kur: konveyör ve şaseler Başkent OSB fabrikalarında, silo ve çelik yapılar beton santrali hattında, 10 tona ve 7 metreye kadar ağır parçalar Eskişehir OSB'de; 2025'te devreye alınan kaynak robotu, CNC borverk, boya ünitesi ve MEKASoft Siemens S7 otomasyon panoları kullanılır. Kanal ortak: ARCA ve MKE'ye doğrudan tedarikçi, Repkon, MSM Group ve PST Group gibi entegratör ve yüklenicilere alt yüklenici. Önce Türk bağlantılı projeler, sonra Avrupa yüklenicileri sırası varsayım."
 },
 "takvim": [
 {
-"tarih": "30 Eylül 2026",
-"olay": "YETEN kaydı ve SSB 2027 yurt dışı fuar desteği başvurusu için son gün. Geçti; yapıldığı dosyada yok.",
-"kaynak": "01 kart, İlk 90 gün; 01 rapor, s_road, 9.2; inceleme, gorevler ve tutarsizlik_ve_eskiyenler",
-"iso": "2026-09-30"
-},
-{
-"tarih": "22 Ekim 2026'ya kadar",
-"olay": "Raporun bir ay içinde dediği adımlar: tesis veri formu, NCAGE ve NSPA kayıtları, MSB 5201 sınıflandırma görüşü. Tarih 22 Eylül 2026'dan hesaplandı.",
-"kaynak": "01 rapor, s_road, 9.2 İlk 90 gün",
+"tarih": "22 Ekim 2026",
+"olay": "Raporun bir ay içinde dediği adımlar: tesis veri formu, NCAGE ve NSPA kayıtları, MSB 5201 görüşü. 22 Eylül 2026'dan hesaplandı.",
+"kaynak": "01 rapor, 9.2 İlk 90 gün",
 "iso": "2026-10-22"
 },
 {
-"tarih": "21 Aralık 2026 civarı",
-"olay": "İlk 90 gün penceresinin sonu: Repkon ve Arca görüşmeleri, ISO 3834-2 ve EN 1090-2 belgelendirme başlangıcı, EYDEP başvurusu. İnceleme hesabı.",
-"kaynak": "01 rapor, s_road, 9.2; inceleme, gorevler ve tutarsizlik_ve_eskiyenler",
+"tarih": "21 Aralık 2026",
+"olay": "İlk 90 gün sonu: Repkon ve Arca görüşmeleri, ISO 3834-2 ve EN 1090-2 başlangıcı, EYDEP başvurusu.",
+"kaynak": "01 rapor, 9.2",
 "iso": "2026-12-21"
 },
 {
 "tarih": "Aralık 2026 ve Haziran 2027",
-"olay": "AB çelik koruma önleminin makine ve çelik yapılara genişletilme değerlendirmesi; fasıl 84 makine sınıflandırması korunmalı. Rapor olasılığı düşük-orta sayıyor.",
-"kaynak": "01 rapor, s_road, Tablo 10.1",
+"olay": "AB çelik koruma önleminin makine ve çelik yapılara genişletilme değerlendirmesi; fasıl 84 sınıflandırması korunmalı.",
+"kaynak": "01 rapor, Tablo 10.1",
 "iso": "2026-12-15"
 },
 {
-"tarih": "Mart 2027 civarı",
-"olay": "6. ay karar noktası: kayıtlar tamam, ISO 3834-2 ve EN 1090-2 belgeleri, MSB sınıflandırma görüşü. Tarih 22 Eylül 2026'dan hesaplandı.",
-"kaynak": "01 rapor, s_road, Tablo 9.3",
+"tarih": "2026 sonu ve 2027 başı",
+"olay": "Rheinmetall Baisogala, Litvanya tesisinin inşaatı 2026 sonunda bitecek, faaliyete 2027 başında geçmesi bekleniyor; inşaat PST Group'ta.",
+"kaynak": "https://lrt.lt/en/news-in-english/19/2730325/lithuania-s-pst-group-to-build-rheinmetall-munitions-factory-in-baisogala-for-eur141-m",
+"iso": "2026-11-15"
+},
+{
+"tarih": "Mart 2027",
+"olay": "6. ay karar noktası: kayıtlar, ISO 3834-2 ve EN 1090-2 belgeleri, MSB görüşü.",
+"kaynak": "01 rapor, Tablo 9.3",
 "iso": "2027-03-15"
 },
 {
-"tarih": "Mart 2027 ile Eylül 2028",
-"olay": "Ana bahis dilimi, 6 ile 24. ay; tarihler 22 Eylül 2026'dan hesaplandı. 18. ayda, Mart 2028 civarı, konteyner ve şelter ya da mühimmat hattı ekipmanında ilk seri sipariş bekleniyor; karar lançer iş paketlerine teklif.",
-"kaynak": "01 rapor, s_road, Tablo 9.1 ve Tablo 9.3",
-"iso": "2027-03-15"
+"tarih": "3 ile 9 Mayıs 2027",
+"olay": "IDEF 2027, İstanbul.",
+"kaynak": "01 rapor, 9.4",
+"iso": "2027-05-09"
 },
 {
-"tarih": "3-9 Mayıs 2027",
-"olay": "IDEF 2027, İstanbul; SSB ve Ticaret Bakanlığı fuar destekleriyle katılım. Rapor MSPO 2027, DSEI 2027 ve Eurosatory 2028'i de sayıyor.",
-"kaynak": "01 rapor, s_road, 9.4 Ticari ilkeler",
-"iso": "2027-05-03"
+"tarih": "2027",
+"olay": "Unterlüß tam kapasite; Letonya Rheinmetall tesisi, inşaat 2026 baharında başladıysa yaklaşık bir yıl sonra açılış, AIN tek kaynak, bu turda açılmadı.",
+"kaynak": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-05-factory-opening-in-unterluess; https://en.ain.ua/2025/10/15/rheinmetall-in-eastern-europe/",
+"iso": "2027-06-30"
 },
 {
-"tarih": "2025 ile 2028",
-"olay": "Avrupa ve Kuzey Amerika'da düzinelerce yeni mühimmat hattının kurulduğu talep penceresi.",
-"kaynak": "01 rapor, s_mro, 8.3 Mühimmat üretim hattı ekipmanı",
-"iso": "2025-06-30"
+"tarih": "2027 ikinci yarısı",
+"olay": "Nammo Elling, Danimarka tesisinde üretim başlangıcı; dolum hattı Repkon'da.",
+"kaynak": "https://www.nammo.com/nammo-to-re-establish-ammunition-production-in-denmark/",
+"iso": "2027-11-15"
+},
+{
+"tarih": "Aralık 2027",
+"olay": "ABD Ordusu dolum kapasitesi hedefi ayda 140.000; Iowa mevcut hattı 78.000.",
+"kaynak": "https://www.oversight.gov/sites/default/files/documents/reports/2026-07/DOWIG-2026-095%20155-mm_Redacted_Secure.pdf",
+"iso": "2027-12-15"
+},
+{
+"tarih": "Mart 2028",
+"olay": "18. ay: konteyner ve şelter ya da mühimmat hattı ekipmanında ilk seri sipariş beklentisi.",
+"kaynak": "01 rapor, Tablo 9.3",
+"iso": "2028-03-15"
+},
+{
+"tarih": "2028",
+"olay": "ARCA Baltics Kiviõli tesisinde üretim başlangıcı.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/arca-baltics-operations-to-build-e300-million-ammunition-factory-in-north-kivioli/",
+"iso": "2028-06-30"
+},
+{
+"tarih": "Aralık 2028",
+"olay": "ABD'de eksik 9.000 aylık gövde için yeni sanayi kaynaklarının hazır olması planı; Mesquite için ayda 20.000 hedefi.",
+"kaynak": "https://www.oversight.gov/sites/default/files/documents/reports/2026-07/DOWIG-2026-095%20155-mm_Redacted_Secure.pdf",
+"iso": "2028-12-15"
+},
+{
+"tarih": "Ağustos 2029",
+"olay": "Iowa Future Artillery Complex tamamlanma tarihi; üretim Eylül 2029 bilgisi FW Magazine'den, bu turda açılmadı.",
+"kaynak": "https://www.stripes.com/branches/army/2025-08-21/iowa-artillery-facility-expands-capacity-18833994.html; https://fw-mag.com/shownews/672/czechoslovak-group-to-build-a-155-mm-production-plant-for-the-us-dod",
+"iso": "2029-08-15"
 }
 ],
 "kaynaklar": [
@@ -1583,6 +3034,11 @@ window.MEKA_DATA = {
 ],
 "tam_calisma": [
 {
+"dosya": "c_sav_muhimmat",
+"bolum_basligi": "",
+"sayfa": null
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.3 Mühimmat gövdeleri, mühimmat üretim hattı ekipmanı ve mühimmat ambalajı",
 "sayfa": 26
@@ -1614,10 +3070,177 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "tam",
-"kapsam_notu": "Savunma raporunun 8.3 bölümü nişi rakamlı ve kaynaklı anlatıyor; puan tablosu, yol haritası, bütçe ve risk matrisi ayrı ayrı ele alıyor. Web kullanılmadı. 5+5 çalışması, belge 10, bu nişi kapsamıyor. İnceleme 54 sayfalık raporu görmedi; kartı ve 7 sayfalık özeti okudu. Raporun doğrulama aşaması yarım kaldı; bu nişe özgü MEKA payı ya da gelir hesabı yok.",
-"kanit": 4,
-"web": [],
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 14 arama, 24 sayfa; 5 açık sorunun 1'i cevaplandı, 1'i görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. Genel amaçlı konveyör, çelik yapı ve silo için hiçbir kaynakta ayrı alt yüklenici bedeli bulunamadı; MEKA'nın yüzde 3 ile 6 payı, paket büyüklüğü ve brüt marjı tahmindir. Paylar Peters ve Timmerhaus kimya tesisi oranlarından türetildi; mühimmat tesisine özgü dağılım bulunamadı. MEKA'nın kendi brüt marjı ve tesis verisi bulunamadı. Çürütücü 14 sayfayı sayfa_oku.py ile açtı: DoD IG raporu, govcontractfinder, Rheinmetall, LRT, Estonya SYM, Nammo, Defence Industry Europe, Spidersweb, iki MKE sayfası, Stripes, Politecnico di Milano, Bloomberg girişi, legislation.gov.uk. Nammo Danimarka 8,6 milyar DKK fonu açılan iki sayfada da yok, doğrulanamadı; havuz onsuz yaklaşık 5,0 milyar avro. Iowa yeni tesisinin kapasitesi hiçbir açılan kaynakta yok, birim bedel silindi. Bloomberg haberinin tarihi girişte görünmüyor. Baisogala 180 milyon avro, Letonya ve Bulgaristan rakamları yalnız AIN'den, açılmadı. Açılamayan sayfalar: FDD, SOFREP, army.mil, canada.ca, EUR-Lex, Altair, TÜV SÜD; Kanada rakamları önceki turdan, doğrulanamadı. Bu turda açılmayan diğer kaynaklar: Wassenaar, Wikipedia, AIN, Defence24, TurDef, FW Magazine, Dallas Innovates, Bursa Hakimiyet. MKE Kırıkkale sayfasında tarih ve açılış takvimi yok. Kurlar yaklaşık ve tahmindir. Web araması yapılmadı.",
+"kanit": 3,
+"web": [
+{
+"url": "https://www.oversight.gov/sites/default/files/documents/reports/2026-07/DOWIG-2026-095%20155-mm_Redacted_Secure.pdf",
+"ne": "DoD Genel Müfettişliği 155 mm raporu, 9 Temmuz 2026, Mesquite 469 milyon dolar, uygun parça yok, Nisan 2026 Pennsylvania kararı, dolum kapasitesi tablosu",
+"tur": "resmi"
+},
+{
+"url": "https://news.bgov.com/federal-contracting/general-dynamics-will-spend-200-million-to-reboot-ammo-plant",
+"ne": "GD 200 milyon dolar ve Repkon ortaklığının çözülmesi; yalnız giriş açık, tarih görünmüyor",
+"tur": "haber"
+},
+{
+"url": "https://www.fdd.org/analysis/2026/08/28/zero-shells-for-533-million/",
+"ne": "Mesquite analizi; açılamadı, 403",
+"tur": "diger"
+},
+{
+"url": "https://sofrep.com/news/the-army-spent-469-million-on-a-155mm-plant-that-hasnt-produced-a-single-usable-shell-body/",
+"ne": "Mesquite haberi; açılamadı, 403",
+"tur": "haber"
+},
+{
+"url": "https://govcontractfinder.com/contracts/design-build-and-commission-a-modern-155mm-lap-facility-at-i-W519TC-25-C-0032",
+"ne": "SAM.gov W519TC-25-C-0032 ödül kaydı aynası, 635,2 milyon dolar tavan, tek kaynaklı",
+"tur": "resmi"
+},
+{
+"url": "https://www.army.mil/article/287950/army_invests_635m_in_cutting_edge_artillery_ammunition_production_facility",
+"ne": "Ordu Iowa duyurusu; açılamadı, 403",
+"tur": "resmi"
+},
+{
+"url": "https://www.stripes.com/branches/army/2025-08-21/iowa-artillery-facility-expands-capacity-18833994.html",
+"ne": "Iowa 635 milyon dolar, tek teklif, bitiş Ağustos 2029; Kentucky TNT 435 milyon dolar, alıcı adı yok",
+"tur": "haber"
+},
+{
+"url": "https://fw-mag.com/shownews/672/czechoslovak-group-to-build-a-155-mm-production-plant-for-the-us-dod",
+"ne": "CSG ve MSM Iowa tesisi, 40 ay, üretim Eylül 2029; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-05-factory-opening-in-unterluess",
+"ne": "Unterlüß açılışı, yaklaşık 500 milyon avro, 350.000 mermi, Romanya 550 milyon avro",
+"tur": "firma"
+},
+{
+"url": "https://lrt.lt/en/news-in-english/19/2730325/lithuania-s-pst-group-to-build-rheinmetall-munitions-factory-in-baisogala-for-eur141-m",
+"ne": "PST Group 141 milyon avro Baisogala inşaatı, 340 hektar, yılda 10.000 mermi, açılış 2027 başı",
+"tur": "haber"
+},
+{
+"url": "https://en.ain.ua/2025/10/15/rheinmetall-in-eastern-europe/",
+"ne": "Rheinmetall Litvanya 180, Letonya 275 milyon avro, Bulgaristan; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.kaitseinvesteeringud.ee/en/arca-baltics-operations-to-build-e300-million-ammunition-factory-in-north-kivioli/",
+"ne": "ARCA Baltics 300 milyon avro, üretim 2028, 141 hektar, 10 milyon avro altyapı",
+"tur": "resmi"
+},
+{
+"url": "https://www.nammo.com/nammo-to-re-establish-ammunition-production-in-denmark/",
+"ne": "Nammo Elling, üretim 2027 ikinci yarı, bina devletin; 8,6 milyar DKK sayfada yok",
+"tur": "firma"
+},
+{
+"url": "https://defence-industry.eu/nammo-signs-deal-with-repkon-to-supply-ammunition-filling-line-for-new-facility-in-denmark/",
+"ne": "Nammo ile Repkon dolum hattı, 5 Temmuz 2025, Bowas satın alması",
+"tur": "haber"
+},
+{
+"url": "https://turdef.com/article/repkon-to-establish-155-mm-shell-production-line-in-pakistan",
+"ne": "Repkon Pakistan 120.000 gövde, ABD TNT hattı; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://spidersweb.pl/2025/07/gigantyczne-pieniadze-dla-polskiej-zbrojeniowki.html",
+"ne": "Polonya 2,4 milyar zloti dağılımı, 2028'de 180.000 mermi hedefi",
+"tur": "haber"
+},
+{
+"url": "https://defence24.pl/przemysl/polski-zaklad-otrzyma-ponad-100-mln-zl-na-produkcje-amunicji",
+"ne": "Nitro-Chem 113 milyon zloti, bina ve dolum hattı; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.altair.com.pl/wiadomosci/pdf/48412",
+"ne": "Nitro-Chem ayrıntısı; açılamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.mke.gov.tr/Haberler/MILL%C3%8E-GUC-MKE-2026YA-HAZIR/114",
+"ne": "MKE 2025 teslimatı, 384 tezgâh, hat ve tesis, 1,2 milyar dolar ciro",
+"tur": "resmi"
+},
+{
+"url": "https://www.mke.gov.tr/Haberler/Turk-Savunma-Sanayisinin-En-Buyuk-Olcekli-Yatirimi-MKEden/52",
+"ne": "MKE Kırıkkale 818 milyon dolar, savunmada birinci, tüm sektörlerde üçüncü",
+"tur": "resmi"
+},
+{
+"url": "https://www.mke.gov.tr/Haberler/Savunma-Sanayiinde-1inci--Turkiye-genelinde-3uncu-en-buyuk-olcekli-YATIRIMA-imza-atiyor/55",
+"ne": "MKE Kırıkkale yatırımının teşvik listesindeki yeri; bu turda açılmadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.bursahakimiyet.com.tr/savunma-sanayi/mke-den-cankiri-silah-fabrikasi-na-iliskin-aciklama-1559271",
+"ne": "MKE Çankırı 2026 yatırımı yaklaşık 1 milyar TL; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.wassenaar.org/control-lists/",
+"ne": "Wassenaar güncel liste sayfası, Aralık 2025 genel kurulu; bu turda açılmadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.wassenaar.org/wp-content/uploads/2026/07/Stand-alone-Munitions-List-2025-Corr.pdf",
+"ne": "ML18.a metni; bu turda açılmadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.legislation.gov.uk/eudr/2014/34/article/1",
+"ne": "ATEX 2014/34/EU Madde 1 kapsam dışı maddeler, (b) ve (g)",
+"tur": "resmi"
+},
+{
+"url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0034",
+"ne": "ATEX yönetmeliği EUR-Lex; açılamadı, boş yanıt",
+"tur": "resmi"
+},
+{
+"url": "https://en.wikipedia.org/wiki/ATEX_directives",
+"ne": "ATEX kategori 2 mekanik ve kategori 3 öz beyan; bu turda açılmadı",
+"tur": "diger"
+},
+{
+"url": "https://www.tuvsud.com/en-us/resource-centre/infographics/understanding-atex-directive-2014-34-eu",
+"ne": "ATEX bilgi sayfası; açılamadı, 403",
+"tur": "firma"
+},
+{
+"url": "https://pselab.chem.polimi.it/wp-content/uploads/2015/01/L8-Plant-Economics.pdf",
+"ne": "Peters, Timmerhaus ve West sabit yatırım dağılımı: ekipman yüzde 15 ile 40, montaj 6 ile 14, bina 2 ile 18",
+"tur": "rapor"
+},
+{
+"url": "https://dallasinnovates.com/the-last-word-the-u-s-armys-douglas-bush-on-a-major-new-artillery-shell-casings-plant-in-mesquite",
+"ne": "Mesquite, GD-OTS ile Repkon, üç hat; bu turda açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.canada.ca/en/department-national-defence/news/2026/03/minister-mcguinty-announces-investment-of-1-4-billion-into-domestic-ammunition-production.html",
+"ne": "Kanada 1,4 milyar C$; açılamadı, bağlantı kesildi",
+"tur": "resmi"
+}
+],
 "celiskiler": [
+"Unterlüß. Önceki rakamlar ve firma listesi Rheinmetall'in Unterlüß hattına 500 milyon avro yatırdığını, yani hâlâ hedef olduğunu ima ediyordu. Rheinmetall'in 5 Eylül 2025 bülteni tesisin 15 ayda tamamlanıp açıldığını yazıyor; artık satış hedefi değil, fiyat göstergesidir.",
+"Talep penceresi. Rapor yeni hatların 2025 ile 2028 arasında kurulduğunu yazıyor. Yeni kaynaklarda açılışlar 2027 ile 2029 arasına kaydı: Baisogala 2027 başı, Elling 2027 ikinci yarı, Kiviõli 2028, Romanya 2028 ile 2029, Iowa Ağustos 2029.",
+"Repkon. Rapor Repkon'u ana giriş kapısı sayıyordu. DoD Genel Müfettişi Mesquite'te 469 milyon dolar harcandığını ve Mart 2026 itibarıyla uygun parça çıkmadığını yazdı; General Dynamics 2026'da Repkon ortaklığını çözme kararı aldı. ABD kapısı Repkon üzerinden kapanmış sayılmalı.",
+"Mesquite bedeli kaynaklara göre değişiyor: DoD Genel Müfettişi 469 milyon dolar, FDD başlığı 533 milyon dolar, başka haberler 500 milyon doların üstü diyor. Bu çalışma resmi rakamı, 469 milyon doları kullandı. FDD'nin Repkon'a 435 milyon dolarlık ihalesiz sözleşme ifadesi Kasım 2024 Kentucky TNT tesisiyle uyumlu görünüyor ama FDD sayfası açılamadı.",
+"Iowa kapasitesi. Önceki metin yeni Iowa tesisine ayda 36.000 mermi kapasitesi ve yıllık kapasite başına 1.470 dolar yazıyordu. 36.000, DoD Genel Müfettişi raporunda ordunun Mart 2026 toplam aylık dolum üretimidir; yeni tesisin kapasitesi açılan hiçbir kaynakta yok. Birim bedel silindi.",
+"Nammo fonu. Önceki metin Danimarka'nın 8,6 milyar DKK ayırdığını Nammo ve Defence Industry Europe'a dayandırıyordu. İki sayfa da açıldı, bu rakam ikisinde de yok. Rakam doğrulanamadı diye işaretlendi; havuz onsuz yaklaşık 5,0 milyar avro.",
+"Arca'nın yeri. Önceki çalışma Çorum ile Estonya arasında çelişki görüyordu. Estonya resmi kaynağına göre ana grup ARCA Defense Türkiye'de, yeni şirket ARCA Baltics Operations Estonya'da; iki bilgi de doğru, çelişki kapandı.",
+"ATEX. Rapor Tablo 9.1 ATEX gereken yerlerde onaylı tedarikçi diyor. 2014/34/EU Madde 1, patlama tehlikesi yalnız patlayıcı maddeden doğan ekipmanı ve AB İşleyiş Antlaşması 346(1)(b) kapsamındaki ekipmanı kapsam dışı tutuyor. Dolum salonunda ATEX yasal zorunluluk değil, müşteri şartnamesidir.",
+"Litvanya tesisi rakamları kaynaklar arasında farklı: LRT 141 milyon avroluk inşaat, 340 hektar ve yılda yaklaşık 10.000 mermi veriyor, doğrudan yatırımı yazmıyor; 180 milyon avro ve Rheinmetall'in on binlerce mermi ifadesi AIN'den. Açılış 2026 ortasından 2027 başına kaydı.",
+"MKE ifadesi. Önceki metin MKE'nin 2025'te 384 yeni makine, hat ve tesis yatırımı yaptığını yazıyordu; MKE'nin kendi sayfası 384 yeni tezgâh, hat ve tesis için yatırım planını hayata geçirdik diyor. Anlam yakın, ifade düzeltildi.",
+"Bütçe dilimi. Önceki kapilar.butce 1 idi ve yalnız ilk belge dilimini sayıyordu. Tam giriş bileti ilk 24 ayda 0,8 ile 1,65 milyon avro, yaklaşık 0,93 ile 1,9 milyon dolar; dilim 3.",
 "Ağaçtaki kol. İnceleme, savunma dört kolunun Özel firmalar altında durmasını sorguluyor: fatura kesilen taraf özel, Repkon ve STV, ama ilk 90 günün kapıları kamu, YETEN, SSB, NCAGE, NSPA, UNGM, SAM.gov, MSB, ve talep örnekleri devlet alımı. Önerisi şemsiye Savunma kartını Devlet altına almak, dört kolda kanal etiketi özel ana yüklenici yazmak.",
 "Alıcı listesi. İnceleme kart için MKE gibi devlet alıcıları dosyada geçmiyor diyor; raporun Tablo 9.1'i ise MKE'yi ve Arca'yı alıcı sayıyor. Kartın görüşme listesinden Contsystem, Arca, Rheinmetall Mobile Systeme ve SSB Sanayileşme Dairesi düşmüş, Liebherr eklenmiş. İnceleme 54 sayfalık raporu görmedi; kartı ve özeti okudu.",
 "Arca'nın yeri. Raporun 8.3 bölümü Arca Savunma'yı Çorum'da gösteriyor; aynı raporun Tablo 9.1'i Arca'nın yanına Estonya yazıyor. Hangisinin doğru olduğu çalışmalardan anlaşılmıyor.",
@@ -1628,6 +3251,23 @@ window.MEKA_DATA = {
 "30 Eylül 2026 son günü geçti; YETEN kaydı ve SSB fuar desteği başvurusunun yapıldığı hiçbir dosyada yok. Belge 03'ün barut üretimi önerilmez hükmü bu nişle çelişmiyor; hat ekipmanı barut değil."
 ],
 "degisiklikler": [
+"20 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
+"Iowa FAC: ayda 36.000 ve yılda 432.000 mermi kapasitesi ile yıllık kapasite başına 1.470 dolar birim bedeli silindi; 36.000 DoD IG raporunda ordunun Mart 2026 toplam aylık dolum üretimidir, yeni tesisin kapasitesi açılan kaynaklarda yok. Yerine Iowa mevcut hattı ayda 30.000, Aralık 2027 hedefi 78.000 yazıldı; kapasite karşılaştırması üç kaynaktan iki kaynağa indirildi.",
+"Nammo Elling 8,6 milyar DKK fonu: açılan Nammo ve Defence Industry Europe sayfalarında bu rakam yok; doğrulanamadı diye işaretlendi, havuz onsuz yaklaşık 5,0 milyar avro ve yıllık 30 ile 60 milyon avro diye eklendi; riskler ve açık sorulara girildi.",
+"Pazar tablosunda Romanya avro karşılığı 540 yerine 550 milyon yapıldı; toplam 6.175'ten 6.185 milyona düzeltildi, yuvarlama 6,2 değişmedi.",
+"Bloomberg Government haberinin Haziran 2026 tarihi açılan giriş metninde görünmüyor; emsal, rakam, firma ve metinde 2026 diye bırakıldı ve not düşüldü.",
+"Baisogala 180 milyon avro doğrudan yatırım LRT sayfasında yok, yalnız açılmayan AIN'den; emsal ve tabloya tek kaynak notu eklendi. LRT'nin verdiği 340 hektar, yılda yaklaşık 10.000 mermi ve 2026 sonu inşaat bitişi eklendi.",
+"DoD IG raporu yüklenici adını vermiyor; Repkon ve GD adlarının Dallas Innovates ve Bloomberg'den geldiği emsal ve firma kayıtlarına yazıldı; Repkon firma kaynağı DoD IG'den Bloomberg ve Defence Industry Europe'a çevrildi. Rapor tarihi 9 Temmuz 2026 eklendi.",
+"Özetteki Mesquite atıfı [2][3][9] yanlıştı, [9] LRT; [2][3][24] yapıldı. Takvim satırındaki Iowa kaynağı [5]'ten Stripes [6]'ya çevrildi, tamamlanma tarihi Stripes'ta.",
+"ATEX sorusu cevaplandi'dan kismen'e indirildi: Madde 1(2)(b) ve (g) kapsam dışı maddeleri legislation.gov.uk'da doğrulandı, kategori 2 ve 3 öz beyan kısmı Wikipedia'dan ve bu turda açılmadı; madde numaraları netleştirildi.",
+"ML18.a cevabına Wassenaar metninin bu turda açılmadığı notu eklendi; etiket kismen kaldı.",
+"Kentucky TNT emsali: Stripes 435 milyon doları veriyor ama alıcı adını vermiyor; Repkon adı yalnız açılmayan TurDef'ten, not güncellendi.",
+"MKE 2025 teslimatı 990.000'den fazla rakamı MKE sayfasındaki tanıma göre roket, patlayıcı ve ağır silah mühimmatı diye netleştirildi; Kırıkkale yatırımı için tüm sektörlerde üçüncü bilgisi eklendi.",
+"Nitro-Chem için yeni bina ayrıntısının açılmayan Defence24'ten geldiği, Spidersweb'in yalnız dolum hatlarını yazdığı belirtildi; PGZ 2028 hedefi yılda 180.000 mermi eklendi.",
+"ARCA Defense grup bilgileri, 3 milyar avro üstü ihracat, dokuz fabrika ve yaklaşık 5.000 çalışan, Estonya resmi sayfasından eklendi.",
+"Takvime DoD IG'den Aralık 2027 ordu dolum kapasitesi hedefi ayda 140.000 ve Iowa 78.000 satırı eklendi.",
+"Ekonomi aritmetiği satır satır kontrol edildi: bilet toplamları 0,80 ve 1,645, ilk 12 ay 0,255 ile 0,49, yıl 3 ve yıl 5 çarpım ve marjlar, geri ödeme üç senaryosu, 200 bölü 469 yüzde 43, 10 bölü 300 yüzde 3,3, 141 bölü 180 yüzde 78; hata bulunmadı, değiştirilmedi.",
+"Risklere havuzun en büyük kaleminin doğrulanamaması eklendi. Açılan ve açılmayan sayfalar web listesinde ve sınırlarda tek tek işaretlendi. Kanıt puanı 3'te bırakıldı: resmi kaynaklar çok ama havuzun yaklaşık beşte biri doğrulanamadı ve paylar tahmin.",
 "puan_metni: ölçek açıklaması eklendi; giriş engeli, rekabet ve yatırımda 5'in düşük engel, az rakip ve düşük yatırım demek olduğu yazıldı; teknik uyum puanının tesis verisi gelene kadar varsayım olduğu uyarısı eklendi.",
 "neden: Üretim İzin Belgesi beklenmeden başlanabilir iddiası kaynakta yok, çıkarıldı; yerine raporun sözleşme öncesi hukuki görüş şartı yazıldı.",
 "rakamlar 1: raporun Avrupa'da darboğazın barut ve dolgu maddesinde olduğu uyarısı eklendi.",
@@ -1658,112 +3298,260 @@ window.MEKA_DATA = {
 {
 "ad": "Arca Savunma",
 "rol": "musteri",
-"not": "Çorum'daki üretici ABD'den 116.000 adetlik 155 mm siparişi aldı, Estonya Kiviõli'de 300 milyon €'luk mermi ve havan tesisi kuruyor (üretim 2028).",
-"kaynak": "https://www.janes.com/osint-insights/defence-news/weapons/turkish-ammunition-producers-plan-production-boost-as-europe-tries-to-increase-supply"
+"not": "Türk grup ARCA Defense; geçen yıl 3 milyar avronun üstünde ihracat, dokuz fabrika, yaklaşık 5.000 çalışan. Estonya şirketi ARCA Baltics Operations Kiviõli'de 300 milyon avroluk tesis kuruyor, üretim 2028; Çorum ve Estonya çelişkisi yok.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/arca-baltics-operations-to-build-e300-million-ammunition-factory-in-north-kivioli/"
 },
 {
 "ad": "MKE",
 "rol": "musteri",
-"not": "Türkiye'de 155 mm'de fiilen tekel; 2025'te 990.000'den fazla mühimmat teslim etti ve 384 yeni makine, hat ve tesis yatırımı yaptı.",
-"kaynak": "https://www.mke.gov.tr/Haberler/MILL%C3%8E-GUC-MKE-2026YA-HAZIR/114"
+"not": "Kırıkkale'de 818 milyon dolarlık barut ve mühimmat yatırımı; 2025'te 990.000'den fazla roket, patlayıcı ve ağır silah mühimmatı teslim etti. Çankırı'ya 2026'da yaklaşık 1 milyar TL bilgisi Bursa Hakimiyet'ten, bu turda açılmadı.",
+"kaynak": "https://www.mke.gov.tr/Haberler/Turk-Savunma-Sanayisinin-En-Buyuk-Olcekli-Yatirimi-MKEden/52"
 },
 {
 "ad": "Rheinmetall",
 "rol": "musteri",
-"not": "Unterlüß hattına 500 milyon € yatırıyor, grup hedefi 2027'de 1,5 milyon mermi; araştırma notu Türkiye ile yeni ortaklık bulamadı ve Alman lisans riskini işaretliyor.",
-"kaynak": "sec_mro_gse_ammo 8.3; final_S11 2"
+"not": "Unterlüß yaklaşık 500 milyon avroyla açıldı; Romanya için yaklaşık 550 milyon avro niyet mektubu aynı gün imzalandı. Litvanya 180 ve Letonya 275 milyon avro ile Bulgaristan rakamları AIN'den, bu turda açılmadı.",
+"kaynak": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-05-factory-opening-in-unterluess"
 },
 {
 "ad": "PGZ",
 "rol": "musteri",
-"not": "Polonyalı savunma grubu; 155 mm kapasite için 2,4 milyar PLN sübvansiyon aldı ama gövde dahil tüm süreci Polonya'da tutmayı hedefliyor.",
-"kaynak": "final_S9 3.1"
+"not": "2,4 milyar zloti devlet desteği: Dezamet 1.358, Mesko 887,2, Nitro-Chem 113,3, Gamrat 66,17 milyon zloti; 2028'de yılda 180.000 mermi hedefi; yabancı teknoloji ortağıyla üç yeni fabrika planı.",
+"kaynak": "https://spidersweb.pl/2025/07/gigantyczne-pieniadze-dla-polskiej-zbrojeniowki.html"
+},
+{
+"ad": "Nitro-Chem",
+"rol": "musteri",
+"not": "PGZ şirketi; 113,3 milyon zlotiyi dolum hatlarına harcıyor; yeni bina ayrıntısı Defence24'ten, bu turda açılmadı.",
+"kaynak": "https://defence24.pl/przemysl/polski-zaklad-otrzyma-ponad-100-mln-zl-na-produkcje-amunicji"
 },
 {
 "ad": "STV Group",
 "rol": "musteri",
-"not": "Çekya'da 5 milyar CZK'lık program yürütüyor; 2026 hedefi 300.000 mermi ve 100.000'den fazla dövülmüş gövde.",
-"kaynak": "https://www.stvgroup.cz/"
+"not": "Çekya'da 5 milyar CZK'lık program; bu turda yeni kaynak açılmadı, rapor rakamı korunuyor.",
+"kaynak": "01 rapor 8.3"
 },
 {
 "ad": "IMT Defense",
 "rol": "musteri",
-"not": "Kanadalı gövde üreticisi; Kanada hükümeti Mart 2026'da yeni gövde tesisi için 305,4 milyon C$ verdi.",
+"not": "Kanada Mart 2026'da yeni gövde tesisi için 305,4 milyon C$ verdi; resmi sayfa bu oturumda açılamadı, doğrulanamadı.",
 "kaynak": "https://www.canada.ca/en/department-national-defence/news/2026/03/minister-mcguinty-announces-investment-of-1-4-billion-into-domestic-ammunition-production.html"
 },
 {
 "ad": "GD-OTS Canada",
 "rol": "musteri",
-"not": "Kanada paketinde 155 mm dolum-montaj-paketleme tesisi için 642 milyon C$ alıyor; araştırma notu yeni tesis yatırımcısı olarak anıyor.",
-"kaynak": "final_S9 3.1"
+"not": "Kanada paketinde 155 mm dolum tesisi için 642 milyon C$; sayfa açılamadı, önceki tur rakamı, doğrulanamadı.",
+"kaynak": "01 rapor; önceki tur"
+},
+{
+"ad": "General Dynamics OTS",
+"rol": "musteri",
+"not": "Mesquite'i yeniden başlatmak için 200 milyon dolar koyuyor ve Repkon ortaklığını çözüyor, Bloomberg 2026, ay girişte yok; Nisan 2026'da üretim kuzeydoğu Pennsylvania'ya kaydırıldı.",
+"kaynak": "https://news.bgov.com/federal-contracting/general-dynamics-will-spend-200-million-to-reboot-ammo-plant"
 },
 {
 "ad": "Nammo",
 "rol": "musteri",
-"not": "Danimarka Elling'deki 155 mm dolum tesisini Repkon'a yaptırıyor (Temmuz 2025); Avrupa'da yeni hat yatırımcısı örneği.",
-"kaynak": "https://www.defenceturk.net/repkondan-iskandinavyaya-muhimmat-dolum-tesisi"
+"not": "Danimarka Elling tesisi, üretim 2027 ikinci yarı; arazi ve binalar devletin, devlet Nammo Denmark'ta yüzde 15 ortak. 8,6 milyar DKK fon rakamı açılan sayfalarda yok, doğrulanamadı.",
+"kaynak": "https://www.nammo.com/nammo-to-re-establish-ammunition-production-in-denmark/"
 },
 {
 "ad": "Wah Industries",
 "rol": "musteri",
-"not": "Pakistan'da Repkon'un yılda 120.000 gövde kapasiteli anahtar teslim 155 mm hattının sahibi; araştırma notu muhtemel alıcılar arasında sayıyor.",
+"not": "Pakistan'da Repkon'un yılda 120.000 gövdelik anahtar teslim gövde ve dolum hattının sahibi; bedel açıklanmadı; TurDef bu turda açılmadı.",
 "kaynak": "https://turdef.com/article/repkon-to-establish-155-mm-shell-production-line-in-pakistan"
 },
 {
 "ad": "Repkon",
 "rol": "ortak_adayi",
-"not": "İstanbul merkezli hat kurucu, raporun alt yüklenicilik giriş yolu: Pakistan için yılda 120.000 gövdelik hat kuruyor, Nammo'nun Danimarka dolum tesisini yapıyor, Teksas Mesquite hattı ise spesifikasyonu karşılayan parça üretemedi.",
-"kaynak": "sec_mro_gse_ammo 8.3"
+"not": "Nammo Elling dolum hattı ve Pakistan hattı sürüyor; ABD Mesquite ortaklığı GD tarafından çözülüyor; önceki projeleri ABD, Almanya, İspanya, Ukrayna, Pakistan ve Azerbaycan. Kasım 2024 Kentucky TNT tesisi 435 milyon dolar, Stripes alıcı adını vermiyor, Repkon adı TurDef'ten.",
+"kaynak": "https://news.bgov.com/federal-contracting/general-dynamics-will-spend-200-million-to-reboot-ammo-plant; https://defence-industry.eu/nammo-signs-deal-with-repkon-to-supply-ammunition-filling-line-for-new-facility-in-denmark/"
+},
+{
+"ad": "Bowas",
+"rol": "rakip",
+"not": "Avusturya, İtalya ve İsviçre'de patlayıcı ve hammadde ekipmanı yapan firma; Repkon tarafından satın alındı, entegratör bu kalemleri içeride yapıyor.",
+"kaynak": "https://defence-industry.eu/nammo-signs-deal-with-repkon-to-supply-ammunition-filling-line-for-new-facility-in-denmark/"
+},
+{
+"ad": "MSM Group North America",
+"rol": "rakip",
+"not": "CSG şirketi, St. Petersburg Florida; Iowa'da 635,2 milyon dolar tavanlı 155 mm dolum tesisini tek kaynaklı sözleşmeyle tasarlayıp kuruyor, bitiş Ağustos 2029; alt yüklenici adayı da olabilir.",
+"kaynak": "https://govcontractfinder.com/contracts/design-build-and-commission-a-modern-155mm-lap-facility-at-i-W519TC-25-C-0032"
+},
+{
+"ad": "PST Group",
+"rol": "ortak_adayi",
+"not": "Litvanyalı inşaat firması; Rheinmetall Baisogala tesisini 141 milyon avroya kuruyor, inşaat 2026 sonunda bitecek; çelik yapı alt yükleniciliği için kapı.",
+"kaynak": "https://lrt.lt/en/news-in-english/19/2730325/lithuania-s-pst-group-to-build-rheinmetall-munitions-factory-in-baisogala-for-eur141-m"
 },
 {
 "ad": "STV Machinery",
 "rol": "ortak_adayi",
-"not": "Raporun hat entegratörleri arasında saydığı firma (Çekya ve Slovakya); temas raporun giriş yolu tarifinden çıkarım.",
-"kaynak": "sec_mro_gse_ammo 8.3"
+"not": "Raporun saydığı hat entegratörü; bu turda kamuya açık bir sözleşme bulunamadı.",
+"kaynak": "01 rapor 8.3"
 },
 {
 "ad": "Macrodyne",
 "rol": "ortak_adayi",
-"not": "Raporun hat entegratörleri arasında saydığı Kanadalı firma; temas raporun giriş yolu tarifinden çıkarım.",
-"kaynak": "sec_mro_gse_ammo 8.3"
+"not": "Raporun saydığı Kanadalı entegratör; bu turda kamuya açık bir sözleşme bulunamadı.",
+"kaynak": "01 rapor 8.3"
 },
 {
 "ad": "MSB",
 "rol": "kurum",
-"not": "Mühimmat hattı ekipmanı için 5201 kapsamında yazılı sınıflandırma görüşü isteniyor; ML18.a özel tasarım üretim ekipmanını kontrole alır, genel amaçlı konveyör ve çelik yapı dışında kalır.",
-"kaynak": "sec_mro_gse_ammo 8.3"
+"not": "Ürün bazında 5201 ve ML18.a görüşü verecek kurum; başvuru dosyalarda yok.",
+"kaynak": "https://www.wassenaar.org/wp-content/uploads/2026/07/Stand-alone-Munitions-List-2025-Corr.pdf"
 },
 {
 "ad": "MSB Türk Millî Kodlandırma Bürosu",
 "rol": "kurum",
-"not": "NCAGE başvurusu e-Devlet üzerinden buraya yapılıyor, 2 ile 6 hafta sürer; NSPA Source File ve SAM.gov kaydının ön şartı.",
+"not": "NCAGE başvurusu e-Devlet üzerinden, 2 ile 6 hafta; NSPA ve SAM.gov kaydının ön şartı.",
 "kaynak": "https://www.turkiye.gov.tr/msb-ncage-tahsisi"
 },
 {
 "ad": "NSPA",
 "rol": "kurum",
-"not": "Ücretsiz Source File kaydı isteniyor; Ankara Zirvesi'nde dokuz müttefikin ortak 155 mm mermi alımı NSPA üzerinden duyuruldu.",
-"kaynak": "sec_global_demand 4.2"
+"not": "Ücretsiz Source File kaydı; bu yaprakta doğrudan alıcı değil, tedarikçi görünürlüğü için.",
+"kaynak": "01 rapor 9.2"
 },
 {
 "ad": "Kanada Millî Savunma Bakanlığı",
 "rol": "kurum",
-"not": "Mart 2026'da yerli mühimmat üretimine 1,4 milyar C$ yatırım açıkladı.",
+"not": "Mart 2026'da yerli mühimmat üretimine 1,4 milyar C$ açıkladı; sayfa bu oturumda açılamadı, doğrulanamadı.",
 "kaynak": "https://www.canada.ca/en/department-national-defence/news/2026/03/minister-mcguinty-announces-investment-of-1-4-billion-into-domestic-ammunition-production.html"
+},
+{
+"ad": "Estonya Savunma Yatırımları Merkezi",
+"rol": "kurum",
+"not": "ARCA'ya 141 hektar arazi verdi ve 10 milyon avroya kadar yol, çit, elektrik, gaz ve su bağlantısı yapacak; savunma sanayi parklarına üretici seçiyor, Ermistu parkına dört firma seçildi.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/arca-baltics-operations-to-build-e300-million-ammunition-factory-in-north-kivioli/"
 },
 {
 "ad": "Avrupa Komisyonu (SAFE ve EDIP)",
 "rol": "kurum",
-"not": "SAFE ve EDIP fonlu projelerde AB dışı bileşen payı yüzde 35 ile sınırlı, Türk payı bu tavanın altında tutulmalı.",
-"kaynak": "sec_roadmap 9.4"
+"not": "Fonlu projelerde AB dışı bileşen payı yüzde 35 ile sınırlı; Türk payı tavanın altında tutulmalı.",
+"kaynak": "01 rapor 9.4"
 },
 {
 "ad": "SSB",
 "rol": "kurum",
-"not": "YETEN kaydı ve 2027 yurt dışı fuar katılım desteği başvurusunun son günü 30 Eylül 2026'ydı, tarih geçti.",
+"not": "YETEN kaydı ve 2027 fuar desteği son günü 30 Eylül 2026 geçti; başvurunun yapıldığı dosyada yok.",
 "kaynak": "https://www.ssb.gov.tr/duyuru/2027-yili-yurtdisi-savunma-fuarlari-katilim-destegi-basvurulari-basladi-FUQ21Y"
 }
 ],
+"ekonomi": {
+"bilet": "0,8 ile 1,65 milyon avro, ilk 24 ay, Ocak 2027 ile Aralık 2028; orta 1,2. İçinde ortak paket payı 80 ile 160 bin avro, rapor Tablo 9.2'nin beşte biri; ATEX dosyası 20 ile 50 bin, hukuk 10 ile 25 bin, ekip 180 ile 300 bin, iş geliştirme 80 ile 150 bin, ön tasarım 30 ile 60 bin, işletme sermayesi 400 ile 900 bin; ortak pay dışındakiler tahmin. Toplamlar kontrol edildi: 0,80 ve 1,645. İlk 12 ay 260 ile 490 bin avro.",
+"sure_ilk_gelir": "15 ile 20 ay: ilk paket 2028 içinde, MKE ya da ARCA kanalından; tahmin. ARCA üretimi 2028, Elling 2027 ikinci yarı, Baisogala 2027 başı açılıyor. 2028 geliri 1,0 ile 3,0 milyon avro, brüt kâr 0,18 ile 0,75.",
+"yil3": "2029: gelir 3,0 ile 9,0 milyon avro, 2 ile 3 paket çarpı 1,5 ile 3,0 milyon avro; brüt kâr 0,54 ile 2,25 milyon avro, brüt marj yüzde 18 ile 25. Paket büyüklüğü ve marj tahmin.",
+"yil5": "2031: gelir 4,5 ile 12,0 milyon avro, 3 ile 4 paket çarpı 1,5 ile 3,0 milyon avro; brüt kâr 0,9 ile 3,0 milyon avro, brüt marj yüzde 20 ile 25. Gelir yıllık 37 ile 74 milyon avroluk havuzun yüzde 6 ile 32'si; Nammo fonu düşülürse havuz 30 ile 60 milyon ve pay yüzde 8 ile 40.",
+"geri_odeme": "Orta senaryo yaklaşık 2,6 yıl: bilet 1,2; 2028 brüt kâr 2,0 çarpı 0,21 eşittir 0,42; 2029 brüt kâr 6,0 çarpı 0,215 eşittir 1,29, kümülatif 1,71; eksik 0,78 bölü 1,29 eşittir 0,6 yıl, Ağustos 2029. İyi senaryo yaklaşık 2,0 yıl, Ocak 2029. Kötü senaryo yaklaşık 4,3 yıl: bilet 1,65, kümülatif 2030 sonu 1,42, Nisan 2031. Aritmetik kontrol edildi, hata yok. Brüt kârla; 24. aydan sonraki ekip gideri, yılda 90 ile 150 bin avro, düşülürse 3 ile 6 ay uzar.",
+"yillik_kar_potansiyeli": "Yıl 5'te, 2031'de, 0,9 ile 3,0 milyon avro brüt kâr; dayanak yılda 3 ile 4 paket, paket başına 1,5 ile 3 milyon avro ve yüzde 20 ile 25 brüt marj, havuz kaynaklı tesis yatırımlarından, paket ve marj tahmin.",
+"varsayimlar": "Havuz: Unterlüß hariç 13 proje yaklaşık 6,2 milyar avro; Nammo Danimarka 8,6 milyar DKK, yaklaşık 1,15 milyar avro, açılan sayfalarda doğrulanamadı, onsuz havuz yaklaşık 5,0 milyar avro. Kurlar 1 dolar 0,86, 1 C$ 0,62, 1 zloti 0,235, 1 CZK 0,040, 1 DKK 0,134 avro, tahmin. MEKA'nın satabileceği genel amaçlı kalem payı yatırımın yüzde 3 ile 6'sı, Peters ve Timmerhaus oranlarından türetildi: ekipman yüzde 15 ile 40, bina yüzde 2 ile 18; konveyör, silo ve platform ekipmanın yüzde 10 ile 20'si ve bina çelik iskeleti bina payının dörtte biri, tahmin. Havuz yılda 37 ile 74 milyon avro, Nammo hariç 30 ile 60. Paket 1,5 ile 3 milyon avro, 300 milyon avroluk tesiste 9 ile 18 milyonluk genel amaçlı kalemin birkaç pakete bölündüğü varsayımıyla. Brüt marj yüzde 18 ile 25, MEKA'nın kendi brüt marjı bulunamadı. Model Ocak 2027 başlar; yıl 3 2029, yıl 5 2031. Genel amaçlı ekipman alt yüklenici bedeli hiçbir kaynakta açıklanmadı."
+},
+"emsaller": [
+{
+"tarih": "15 Ağustos 2025",
+"taraflar": "ABD Ordusu ACC Rock Island ile MSM Group North America, Iowa Army Ammunition Plant 155 mm dolum tesisi",
+"bedel": "635,2 milyon dolar tavan, tek kaynaklı tanımsız sözleşme",
+"birim": "Yeni tesisin kapasitesi açılan kaynaklarda yok; Iowa mevcut dolum hattı Mart 2026'da ayda 30.000, Aralık 2027 hedefi 78.000; birim bedel bulunamadı",
+"kaynak": "https://govcontractfinder.com/contracts/design-build-and-commission-a-modern-155mm-lap-facility-at-i-W519TC-25-C-0032; https://www.stripes.com/branches/army/2025-08-21/iowa-artillery-facility-expands-capacity-18833994.html"
+},
+{
+"tarih": "Kasım 2022 ile Aralık 2025",
+"taraflar": "ABD Ordusu, Scranton sözleşmesi altında GD-OTS, ekipman Repkon; Mesquite gövde tesisi. Yüklenici adları Dallas Innovates ve Bloomberg'den, DoD raporunda ad yok",
+"bedel": "469 milyon dolar harcandı",
+"birim": "Ayda 30.000, yılda 360.000 gövde hedefi; kapasite başına yaklaşık 1.300 dolar; Mart 2026 itibarıyla uygun parça sıfır",
+"kaynak": "https://www.oversight.gov/sites/default/files/documents/reports/2026-07/DOWIG-2026-095%20155-mm_Redacted_Secure.pdf"
+},
+{
+"tarih": "2026, haber tarihi açılan giriş metninde yok",
+"taraflar": "General Dynamics, Mesquite yeniden başlatma ve Repkon ortaklığından çıkış",
+"bedel": "200 milyon dolar",
+"birim": "Harcanan 469 milyon doların yüzde 43'ü kadar ek yatırım; tek kaynak",
+"kaynak": "https://news.bgov.com/federal-contracting/general-dynamics-will-spend-200-million-to-reboot-ammo-plant"
+},
+{
+"tarih": "30 Ekim 2025",
+"taraflar": "Rheinmetall Defence Lietuva ile PST Group, Baisogala tesis inşaatı",
+"bedel": "141 milyon avro",
+"birim": "180 milyon avroluk doğrudan yatırımın yüzde 78'i; 180 milyon yalnız AIN'den, tek kaynak, bu turda açılmadı. LRT: 340 hektar, yılda yaklaşık 10.000 mermi",
+"kaynak": "https://lrt.lt/en/news-in-english/19/2730325/lithuania-s-pst-group-to-build-rheinmetall-munitions-factory-in-baisogala-for-eur141-m; https://en.ain.ua/2025/10/15/rheinmetall-in-eastern-europe/"
+},
+{
+"tarih": "21 Nisan 2026",
+"taraflar": "Estonya Savunma Yatırımları Merkezi ile ARCA Baltics Operations",
+"bedel": "300 milyon avro yatırım, devletten 10 milyon avroya kadar altyapı",
+"birim": "Devlet altyapısı yatırımın yüzde 3,3'ü; 141 hektar; 1.000 iş",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/arca-baltics-operations-to-build-e300-million-ammunition-factory-in-north-kivioli/"
+},
+{
+"tarih": "5 Eylül 2025",
+"taraflar": "Rheinmetall, Unterlüß Werk Niedersachsen açılışı",
+"bedel": "yaklaşık 500 milyon avro",
+"birim": "Yılda 350.000'e kadar mermi, kapasite başına yaklaşık 1.430 avro; 30.000 metrekare; 15 ayda inşa; 500 iş",
+"kaynak": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-05-factory-opening-in-unterluess"
+},
+{
+"tarih": "Temmuz 2025",
+"taraflar": "Polonya devleti ile Dezamet, Mesko, Nitro-Chem ve Gamrat",
+"bedel": "2,4 milyar zloti",
+"birim": "Dezamet 1.358, Mesko 887,2, Nitro-Chem 113,3, Gamrat 66,17 milyon zloti; hedef 2028'de yılda 180.000 mermi",
+"kaynak": "https://spidersweb.pl/2025/07/gigantyczne-pieniadze-dla-polskiej-zbrojeniowki.html"
+},
+{
+"tarih": "Kasım 2024",
+"taraflar": "ABD Ordusu ile Repkon, Kentucky TNT üretim tesisi",
+"bedel": "435 milyon dolar",
+"birim": "Bulunamadı; bedel Stripes'ta var, alıcı adı Stripes'ta yok, TurDef'ten, TurDef bu turda açılmadı; birleşim tek kaynak sayılmalı",
+"kaynak": "https://www.stripes.com/branches/army/2025-08-21/iowa-artillery-facility-expands-capacity-18833994.html; https://turdef.com/article/repkon-to-establish-155-mm-shell-production-line-in-pakistan"
+},
+{
+"tarih": "5 Temmuz 2025",
+"taraflar": "Nammo ile Repkon, Elling 155 mm dolum hattı, TNT, IMX-101 ve IMX-104 dolumu",
+"bedel": "açıklanmadı",
+"birim": "Bulunamadı; Danimarka fonu 8,6 milyar DKK açılan sayfalarda yok, doğrulanamadı",
+"kaynak": "https://defence-industry.eu/nammo-signs-deal-with-repkon-to-supply-ammunition-filling-line-for-new-facility-in-denmark/"
+}
+],
+"cevaplar": [
+{
+"soru": "Teklif edilecek konveyör, çelik yapı ve silo kalemleri ML18.a kapsamına girer mi?",
+"durum": "kismen",
+"cevap": "Wassenaar 2025 listesinde ML18.a yalnız askerî liste kalemlerinin üretimi için özel tasarlanmış ya da değiştirilmiş ekipmanı ve özel tasarlanmış parçalarını kapsar; üretim tanımı tasarım, muayene, imalat, test ve kontrolü içerir. Genel amaçlı konveyör, çelik yapı ve silo bu tanıma girmez; mermi gövdesine özel tutucu ya da fikstür eklenirse girer. Hukuki kesinlik için ürün bazında MSB yazılı görüşü hâlâ gerekli; alındığı dosyalarda yok. Wassenaar metni bu turda açılmadı.",
+"kaynak": "https://www.wassenaar.org/wp-content/uploads/2026/07/Stand-alone-Munitions-List-2025-Corr.pdf; 01 rapor 8.3",
+"kime": "MSB, ihracat kontrol ve 5201 birimi; dış hukuk danışmanı"
+},
+{
+"soru": "Tesiste Ø300 mm üstü salınımlı en az 3 ile 4 büyük CNC torna var mı?",
+"durum": "gorusme",
+"cevap": "Web'de yok. Kamuya açık bilgi MEKA-2 ve MEKA-4'te CNC borverk, Eskişehir'de 10 ton ve 7 metreye kadar parça işleme, 2025'te kaynak robotu gösteriyor. Konveyör makaraları ve milleri için büyük torna yoksa bu parça dışarıdan alınabilir; ana paket etkilenmez.",
+"kaynak": "01 rapor, bölüm 3.1 ve Tablo 7.4",
+"kime": "MEKA üretim müdürlüğü, Ek A tesis veri formu"
+},
+{
+"soru": "Repkon, STV Machinery ve Macrodyne gibi entegratörler hangi kalemleri dış alt yükleniciden alıyor?",
+"durum": "kismen",
+"cevap": "Kalem bazında bilgi yayımlanmamış. Emsaller şunu gösteriyor: Litvanya'da bina ve inşaat yerel yükleniciye, PST Group'a 141 milyon avroyla gitti; Iowa'da MSM tasarım, inşa ve devreye almayı tek başına üstlendi; Nitro-Chem dolum hatlarını ayrı alıyor; Repkon patlayıcı ve hammadde ekipmanı yapan Bowas'ı satın alarak bazı kalemleri içeri aldı. Genel amaçlı konveyör ve çelik yapı alt yüklenici bedeli hiçbir kaynakta bulunamadı.",
+"kaynak": "https://lrt.lt/en/news-in-english/19/2730325/lithuania-s-pst-group-to-build-rheinmetall-munitions-factory-in-baisogala-for-eur141-m; https://govcontractfinder.com/contracts/design-build-and-commission-a-modern-155mm-lap-facility-at-i-W519TC-25-C-0032; https://defence-industry.eu/nammo-signs-deal-with-repkon-to-supply-ammunition-filling-line-for-new-facility-in-denmark/",
+"kime": "Repkon, MSM Group North America ve PST Group satınalma birimleri"
+},
+{
+"soru": "ATEX onaylı tedarikçi şartı hattın hangi bölümlerinde aranıyor ve MEKA bu onayı ne sürede alır?",
+"durum": "kismen",
+"cevap": "2014/34/EU Madde 1(2), patlama tehlikesi yalnız patlayıcı ya da kararsız kimyasal maddeden doğan ekipmanı ve AB İşleyiş Antlaşması 346(1)(b) kapsamındaki ekipmanı kapsam dışı tutar. Dolum salonunda ATEX yasal zorunluluk değil, müşteri şartnamesidir; yanıcı toz, solvent ya da boya bulunan bölümlerde geçerlidir. Kategori 3 ve elektriksiz kategori 2 ekipmanda üretici kendi uygunluk beyanını verir; kategori 2'de teknik dosya onaylanmış kuruluşa bırakılır; bu kısım Wikipedia'dan, bu turda açılmadı. Motor ve sensör sertifikalı alınır. Süre 3 ile 6 ay, maliyet 20 ile 50 bin avro; ikisi de tahmin.",
+"kaynak": "https://www.legislation.gov.uk/eudr/2014/34/article/1; https://en.wikipedia.org/wiki/ATEX_directives",
+"kime": "Onaylanmış kuruluş, örneğin TÜV ya da Intertek, teklif için"
+},
+{
+"soru": "Repkon'un Mesquite hattının spesifikasyonu karşılayamaması MEKA'nın Repkon ile alt yüklenicilik planını etkiler mi?",
+"durum": "cevaplandi",
+"cevap": "Etkiler. DoD Genel Müfettişi 9 Temmuz 2026 tarihli raporda 469 milyon dolar harcanan tesisin Mart 2026 itibarıyla uygun parça üretmediğini, Nisan 2026'da üretimin kuzeydoğu Pennsylvania'ya kaydırılması için anlaşma yapıldığını yazdı; rapor yüklenici adını vermiyor. Bloomberg Government'a göre General Dynamics 2026'da Repkon ortaklığını çözme kararı aldı. ABD kapısı Repkon üzerinden kapanmış sayılmalı. Repkon'un Avrupa ve Pakistan işleri sürüyor; MEKA Repkon'u kanallardan biri olarak tutmalı, tek kanal yapmamalı.",
+"kaynak": "https://www.oversight.gov/sites/default/files/documents/reports/2026-07/DOWIG-2026-095%20155-mm_Redacted_Secure.pdf; https://news.bgov.com/federal-contracting/general-dynamics-will-spend-200-million-to-reboot-ammo-plant",
+"kime": "Repkon iş geliştirme, Avrupa projelerindeki alt yüklenici ihtiyacı için"
+}
+],
+"arastirildi": true,
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -1771,29 +3559,35 @@ window.MEKA_DATA = {
 "puan_kisa": "3,95",
 "butonlar": [
 {
+"dosya": "c_sav_muhimmat",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.3 Mühimmat gövdeleri, mühimmat üretim hattı ekipmanı ve mühimmat ambalajı",
 "sayfa": 26,
-"rol": "tam"
+"rol": "ana"
 }
 ],
 "puan": {
-"G": 3.0,
+"G": 2.67,
 "H": 3.0,
-"R": 3.0,
+"R": 2.67,
 "E": 3.0,
 "M": 5.0,
-"S": 3.67,
-"B": 4,
-"K": 4
+"S": 3.0,
+"B": 2,
+"K": 3
 },
 "puan_not": {
-"G": "Model yok; hatlar 5 milyar CZK, 2,4 milyar PLN; konveyör brüt 2-5 M$ tahminim.",
-"H": "Rapor süre puanı 3; 6-24 ay ana bahis; MSB sınıflandırma görüşü alınmadı.",
-"R": "Hatlar 2025-2028 kuruluyor, talep belgeli; ML18.a sınıflandırma hatası orta olasılık, yüksek etki.",
-"E": "Repkon, STV Machinery alt yükleniciliği; NCAGE, NSPA kayıtları ücretsiz; MSB görüşü gerekir.",
-"M": "Konveyör, çelik yapı, silo, konteynerize modül; teknik uyum 5, sinerji 5.",
-"S": "Pencere 2025-2028 tarihli, savunma geliri taştan bağımsız; konveyör ve silo sıradan teknoloji."
+"G": "Yıl 5 brüt kâr 0,9 ile 3,0 M avro; paket bedeli ve adet tahmin",
+"H": "İlk paket 2028 içinde, 15 ile 20 ay; ARCA üretimi 2028, Baisogala 2027.",
+"R": "Anahtar teslim tercihi, Iowa 635 milyon dolar MSM'ye; makine yatırımı yok, dönüş kolay.",
+"E": "ARCA ve MKE kanalı belli; ML18 sınıflandırma görüşü ve tedarikçi kaydı gerekir.",
+"M": "Konveyör, silo ve çelik yapı Başkent OSB'de her gün üretiliyor; yeni makine gerekmez.",
+"S": "Taş toz dışı savunma geliri güçlü; teknoloji yok; 13 tesis 2029'a kadar pencere."
 },
 "puan_yayilim": []
 },
@@ -1804,159 +3598,208 @@ window.MEKA_DATA = {
 "id": "sav_konteyner",
 "baslik": "Konteyner ve şelter gövdesi",
 "bant": "ikincil",
-"puan_metni": "3,70 / 5, savunma raporu, yedi kriterli ağırlıklı puan, baz senaryo, Tablo 7.1. 24 niş içinde 5. sıra. Raporun sınıf eşiğine göre ikincil sınıf; eşik 3,40 ile 3,89. Kriter puanları: teknik uyum 4, ihracat pazarı 4, giriş engeli 4, rekabet 2, gelire ulaşma süresi 3, yatırım ihtiyacı 4, öz iş sinerjisi 4. Tablo 7.2 senaryolarda yalnız sıra verir; dosyanın verisinden hesapla pazar odaklı ve hızlı nakit senaryolarında da 3,70, eşit ağırlıkta 3,57. Kart aynı puanı veriyor. Teknik uyum puanı tesis verisi gelince güncellenecek.",
-"tarih": "22 Eylül 2026",
-"ne": "Askerî konteyner ve şelter gövdesi alt yükleniciliği. Atölye, depo, sağlık ve kamp konteynerlerinin çelik çerçevesi, hidrolik genişleme mekanizması ve kaba montajı MEKA'da yapılır. Sağlık konteynerinde tıbbi iç donanımı ortak tamamlar. Çekirdek standartlar ISO 668 boyutları, ISO 1496-1 yapısal testi, ISO 1161 köşe dökümü ve CSC onay plakasıdır. Çevresel dayanım MIL-STD-810H ile, komuta ve radar şelterinde EMC MIL-STD-461G ile, zırhlı konteynerde koruma STANAG 4569 ile kanıtlanır.",
-"neden": "MEKA tek 40 ft konteynere sığan C 120-B santraliyle konteyner tipi tesis zaten üretiyor. Rapor bu deneyimi askerî şelter standartlarına kısa teknik mesafede sayıyor. Kritik eksik sertifika, kalifikasyon ve referans. Genişleme mekanizması, çelik ve hidrolik MEKA'nın özü. Ana yükleniciler kapasite için dış üretim ortağı alıyor. Marshall Land Systems 22 Eylül 2026'da İspanyol Tecnove ile konteynerize sistem üretim ortaklığı ilan etti. SSB 2026 kataloğunda genişleyebilir ağır çelik konteyner ve hidrolik genişleme mekanizması üreten bir oyuncu görünmüyor; rapor bunu tahmin olarak işaretliyor.",
+"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi ikincil: Talep somut ve tarihli, MEKA uyumu yüksek, bilet 1,1 ile 2,0 milyon avro ile MEKA ölçeğinde ve yıl 5 brüt kâr 1,4 ile 5 milyon avro. Ancak hiçbir ana yüklenici Türk tedarikçi aradığını yazmıyor, Marshall Hollanda'da ofset gereği yerli alt yüklenici seçti, Rheinmetall gövdeyi kendi şirketinde yapıyor ve askerî konteyner ML17 ile izne tabi. Geri ödeme 4 yıl ve brüt marj yüzde 20 civarı. Raporun 3,70 puanı ve ikincil sınıf eşiği korunuyor. Eylül 2027'ye kadar bir yabancı ana yüklenicide tedarikçi onayı alınırsa öne çıkan banda yükselmeli. Önceki çalışmanın kendi puanı: 3,70 / 5, savunma raporu, yedi kriterli ağırlıklı puan, baz senaryo, Tablo 7.1. 24 niş içinde 5. sıra. Raporun sınıf eşiğine göre ikincil sınıf; eşik 3,40 ile 3,89. Kriter puanları: teknik uyum 4, ihracat pazarı 4, giriş engeli 4, rekabet 2…",
+"tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 22 Eylül 2026",
+"ne": "Askerî konteyner ve şelter gövdesi alt yükleniciliği. Atölye, depo, mühimmat deposu ve genişleyebilir sağlık konteynerlerinin ISO 668 ölçülü çelik çerçevesi, ISO 1161 köşe dökümleri, yalıtımlı panel kabuğu, kapılar ve hidrolik genişleme mekanizması MEKA'nın Ankara tesisinde ağır sac, lazer kesim, CNC ve kaynak hatlarında üretilir. Ürün ana yükleniciye kaba montajlı gövde olarak satılır; tıbbi, elektrik ve iklimlendirme iç donanımı ana yüklenici ya da ortak tamamlar. Doğrulama ISO 1496-1 yapısal testi ve CSC plakası, çevresel dayanım MIL-STD-810H, komuta şelterinde EMC MIL-STD-461G, zırhlı varyantta STANAG 4569 ile yapılır. Birinci ürün standart 20 ft atölye ve depo gövdesi, ikinci ürün 2028 sonrası genişleyebilir sağlık gövdesidir.",
+"neden": "Talep somut ve tarihli: Rheinmetall 149 mobil sağlık istasyonu için (298 konteyner, 500 milyon avro üstü) üretime Ocak ile Mart 2027 arasında başlıyor; Marshall kapasite için İspanyol Tecnove'ye üretim verdi ve üretim Eylül 2026'da başladı; Bundeswehr 9 m3 tank konteyneri için Haziran 2026'da yeni ihale şartı kondu ve 2027'den itibaren yılda 300 adet teslim planlanıyor. Kaynaklı birim fiyatlar bir askerî özel konteynerin 145 ile 290 bin avro arasında satıldığını gösteriyor; gövde bunun dörtte biri ile üçte biri. MEKA tek 40 ft konteynere sığan C 120-B santraliyle konteyner tipi ağır çelik yapıyı zaten yapıyor; eksik olan sertifika, kalifikasyon ve referans. Bilet 1,1 ile 2,0 milyon avro, yıl 5 brüt kâr 1,4 ile 5 milyon avro, geri ödeme yaklaşık 4 yıl. MEKA ölçeğine uyan, şirket üzerinden yapılacak ve mevcut tesisi kullanan bir iş.",
 "rakamlar": [
 {
-"deger": ">600 milyon €",
-"aciklama": "Bundeswehr mobil sağlık istasyonu konteynerleri toplamı. Aralık 2024 çerçevesi 10 zırhlı ve 6 zırhsız istasyon ile 104 opsiyon; Ağustos 2026'da 149 ek istasyon; üretim 2027. Yüklenici Rheinmetall Project Solutions / Mobile Systeme.",
-"kaynak": "01 rapor, s_cont, Tablo 8.4.1"
+"deger": "500 milyon avro üstü, 149 adet, 3,36 milyon avro/istasyon",
+"aciklama": "Bundeswehr'in 17 Ağustos 2026'da duyurulan ek mobil kurtarma istasyonu siparişi; her istasyon iki konteyner, jeneratör ve klima; üretim 2027 ilk çeyrek; Rheinmetall Project Solutions ana yüklenici, 3:1 genişleyebilir konteyneri Rheinmetall Mobile Systeme yapıyor. Birim fiyat hesap: 500 / 149.",
+"kaynak": "Rheinmetall basın bülteni 17 Ağustos 2026 ve Janes; resmi firma beyanı, ikinci kaynakla teyitli"
 },
 {
-"deger": "149 adet, >500 milyon €",
-"aciklama": "Yalnız 17 Ağustos 2026 Rheinmetall siparişi; iki bağlantılı ISO konteyner, jeneratör ve klima. Kart ve rapor metni bu kalemi >600 milyon € ile veriyor.",
-"kaynak": "01 rapor, s_cont, kaynak rheinmetallMedical, 17 Ağustos 2026"
+"deger": "165 adet, 600 milyon avro üstü",
+"aciklama": "Aralık 2024 çerçevesi en çok 137 istasyon; o tarihte 10 korumalı ve 6 korumasız sipariş edildi; Temmuz 2026'da deftere giren 149 ile toplam 165 adet.",
+"kaynak": "Rheinmetall basın bülteni 17 Ağustos 2026 ve Janes"
 },
 {
-"deger": "432,6 milyon $",
-"aciklama": "ABD Ordusu sert duvarlı şelter ailesi, 60 varyant, HDT Global, 15 Nisan 2024. HDT çift genişleyebilir şelter için CSC sertifikasını 3 Haziran 2025'te kilit kilometre taşı olarak duyurdu.",
-"kaynak": "01 rapor, s_cont, Tablo 8.4.1 ve Standartlar ve kalifikasyon"
+"deger": "31 milyon sterlin, 201 adet, 154 bin sterlin/konteyner",
+"aciklama": "Hollanda MatLogCo için ADR uyumlu, iklim kontrollü mühimmat ve tıbbi malzeme depo konteyneri, beş varyant, 20 ft ISO; üretim 2023 ile Ocak 2025 arası; alt yükleniciler Contour ve Visser Leeuwarden. Birim hesap: 31.000 / 201.",
+"kaynak": "Marshall Land Systems NLSC vaka çalışması; firma beyanı"
 },
 {
-"deger": ">100 milyon £ ve 31 milyon £",
-"aciklama": "Hollanda DMO: 1.400'den fazla konteyner sistemi ve 14 yıl destek, 2018; 201 özel konteyner, 5 varyant, 2025. Yüklenici Marshall, Hollandalı alt yükleniciler Contour ve Visser.",
-"kaynak": "01 rapor, s_cont, Tablo 8.4.1"
+"deger": "100 ile 250 milyon avro, 1.433 konteyner ve 3.269 alt sistem",
+"aciklama": "Hollanda DVOW konteyner alt projesi: altı tip (iklimli ve iklimsiz depo, atölye, ofis, komuta, muhabere) ve 10 yıl bakım birlikte ihale edildi; Marshall ile sözleşme 2018 sonu; teslimat 2019 ile 2023. Konteyner başına alt sistemler dahil, bakım hariç 70 ile 175 bin avro (yatırım 2019 ile 2023; bakım gideri gizli ekte). Marshall aynı işi 100 milyon sterlin üstü diye duyurdu.",
+"kaynak": "Hollanda Savunma Bakanlığı Meclis mektubu Kamerstuk 26 396 nr. 112, 12 Ekim 2018; resmi"
 },
 {
-"deger": "168 milyon C$",
-"aciklama": "Kanada, 1.435 taktik şelter sistemi ve 338 opsiyon, Weatherhaven, 9 Şubat 2017.",
-"kaynak": "01 rapor, s_cont, Tablo 8.4.1"
+"deger": "290 bin avro/adet (2026), 145 bin avro/adet (2021)",
+"aciklama": "Bundeswehr 20 ft 9 m3 tank konteyneri TCK 9: 2021 çerçevesi 200 adet 29 milyon avro; 2026 önerisi 902 adet 263 milyon avro; Bütçe Komisyonu 10 Haziran 2026'da sabit siparişi 300 adetle sınırladı ve yeni ihale istedi; 2027'den yılda 300 adet teslim; yüzde 30 avans. Konsorsiyum: Alfons Haar, WEW, Schrader, Polonyalı Acoustics.",
+"kaynak": "esut.de 10 Haziran 2026 ve Grosswald 28 Nisan 2026; iki sektör haberi"
 },
 {
-"deger": "1,0 ile 1,9 milyar $",
-"aciklama": "Küresel konuşlanabilir askerî şelter pazarı, 2024 ve 2025, düşük büyüme, sektör tahmini. Tek sözleşmeler bu tanımın ötesinde; fonksiyonel konteynerler sağlık, C4I ve mühimmat bütçelerinden fonlanıyor.",
-"kaynak": "01 rapor, s_cont, 8.4 Pazar: tanımı küçük, sözleşmeleri büyük"
+"deger": "432,605 milyon dolar, 2034'e kadar",
+"aciklama": "ABD Ordusu sert duvarlı şelter ailesi, HDT Expeditionary Systems, karma sabit fiyatlı IDIQ W911QY-24-D-0004, beş teklif, bitiş 21 Mart 2034; HDT 60 varyant diyor; çift genişleyebilir şelter CSC onayı 3 Haziran 2025. Adet açıklanmadı.",
+"kaynak": "ABD Savunma Bakanlığı sözleşme listesi (clearancejobs kopyası) ve HDT bültenleri 15 Nisan 2024, 3 Haziran 2025"
 },
 {
-"deger": "78 aday, 10 Türk",
-"aciklama": "NCIA konteynerize veri merkezi modülleri IDIQ ihalesi, 7 Mayıs 2026, 32 ülke delegasyonu, tavan yok. Türk adaylar Dorçe, Nurol İnşaat, Limak, Doğuş, Serban, Canfen, STM, TÜBİTAK BİLGEM, ULAK, Orbitel. Bazı görev emirleri NATO SECRET.",
-"kaynak": "01 rapor, s_cont, Tablo 8.4.1"
+"deger": "168 milyon C$, 1.435 adet, 117 bin C$/sistem",
+"aciklama": "Kanada HQSS: çadır esaslı taktik şelter sistemi, aydınlatma, zemin ve HVAC dahil; 338 opsiyon; destekle 350 milyon C$'a kadar. Konteyner değil, yumuşak duvarlı sistem; MEKA gövde işine uzak.",
+"kaynak": "Weatherhaven bülteni 9 Şubat 2017; firma beyanı"
 },
 {
-"deger": "13 konteyner",
-"aciklama": "TSK 7. Ana Bakım Fabrikası seyyar sahra hastanesi; hidrolik iki yana açılma, AQAP 2120, 30 dakikada kurulum. Değer verilmedi.",
-"kaynak": "01 rapor, s_cont, Tablo 8.4.1"
+"deger": "78 aday, 10 Türk, kapanış 11 Haziran 2026",
+"aciklama": "NCIA konteynerize veri merkezi modülleri IDIQ, IFB-CO-424239, 32 ülke; bazı görev emirleri NATO SECRET. Türk adaylar Canfen, Doğuş, Dorçe, Limak, Nurol İnşaat, Orbitel, Serban, STM, TÜBİTAK BİLGEM, ULAK.",
+"kaynak": "NCIA davet mektubu 7 Mayıs 2026, Yunanistan Kalkınma Bakanlığı sitesi; resmi"
+},
+{
+"deger": "300 milyon avro üstü, 2040'a kadar",
+"aciklama": "Rheinmetall Role 2B zırhlı mobil sağlık tesisi çerçevesi, Eylül 2025; her tesis konteynerli 11 HX araç; ilk teslim 2029. Tek haber kaynağı.",
+"kaynak": "Defence Industry Europe 14 Ekim 2025; tek kaynak"
+},
+{
+"deger": "Eylül 2026 ile 2027",
+"aciklama": "Tecnove'nin Marshall konteynerize sistemlerini üretme dönemi; mutabakat Mart 2026, ortaklık ilanı 22 Eylül 2026.",
+"kaynak": "Marshall Land Systems haberi 22 Eylül 2026; firma beyanı"
+},
+{
+"deger": "1,0 ile 1,9 milyar dolar",
+"aciklama": "Küresel konuşlanabilir askerî şelter pazarı 2024 ve 2025, düşük büyüme, sektör tahmini.",
+"kaynak": "01 rapor 8.4, kaynak 176 ve 177"
+},
+{
+"deger": "60 bin avro",
+"aciklama": "Sivil piyasada benzer dizel konteynerin fiyatı; askerî TCK 9'un 290 bin avrosuyla kıyas. Blog yazısı, tek kaynak.",
+"kaynak": "Kettner Edelmetalle blogu 28 Nisan 2026; tek kaynak"
+},
+{
+"deger": "1,1 ile 2,0 milyon avro",
+"aciklama": "Bu çalışmanın bilet hesabı: ortak belge ve test paketinin beşte biri 80 ile 160 bin avro artı yaprağa özgü CSC testi, genişleyebilir prototip, robotik kaynak hücresi, ekip, iş geliştirme ve ilk sipariş işletme sermayesi.",
+"kaynak": "01 rapor Tablo 9.2 ve bu çalışmanın tahmini"
+},
+{
+"deger": "1,4 ile 5 milyon avro",
+"aciklama": "Yıl 5 (2031) brüt kâr aralığı: 150 ile 300 standart gövde ve 20 ile 50 genişleyebilir gövde, yüzde 20 ile 25 brüt marj.",
+"kaynak": "Bu çalışmanın ekonomi modeli; birim fiyatlar Marshall, Kamerstuk ve TCK 9 emsallerinden türetildi"
 }
 ],
-"durum": "Rapor bu nişi dört kollu portföyün dördüncü kolu ve 6 ile 24 ay arası ana bahis sayıyor; Tablo 9.1 ve kart. Ön koşul ISO 1496-1 ve CSC onayı ile MIL-STD-810 test planı. Tablo 9.3'te 18. ayda konteyner ve şelter ya da mühimmat hattı ekipmanında ilk seri sipariş bekleniyor; 22 Eylül 2026'dan hesapla Mart 2028. Rapor tarihinde kayıtlar, ana yüklenici görüşmeleri, tesis verisi ve MSB görüşü yoktu; bunlar ilk 90 gün adımı olarak yazılmış. Sonrasında ne yapıldığı çalışmalarda yok. Ön bant one_cikan idi. Tablo 7.1 eşiğine göre 3,70 ikincil sınıf ve Bölüm 7.1 nişi ikinci halka diye yazıyor; rekabet puanı 2 ve kalifikasyon süresi puanı 3 aşağı çekiyor. Bu yüzden bant ikincil.",
+"durum": "Rapor bu nişi dört kollu portföyün dördüncü kolu ve 6 ile 24 ay arası ana bahis sayıyor; Tablo 7.1 puanı 3,70 ve sınıf eşiğine göre ikincil. Bu turda talep kanıtı tarihli programlara bağlandı: Rheinmetall'in 149 istasyonluk üretimi 2027 ilk çeyrekte başlıyor, Marshall kapasite için Tecnove'ye üretim verdi ve Bundeswehr tank konteyneri için yeni ihale şartı kondu. Kaynaklı birim fiyatlar bulundu: Marshall 154 bin sterlin, Hollanda programı alt sistemler dahil, bakım hariç 70 ile 175 bin avro, TCK 9 145 ile 290 bin avro. Bunlardan gövde payı yüzde 25 ile 35 varsayımıyla standart gövde için 30 ile 45 bin avro, genişleyebilir gövde için 90 ile 140 bin avro fiyat kuruldu. Ekonomi modeli bilet 1,1 ile 2,0 milyon avro, yıl 3 brüt kâr 0,3 ile 1,6 milyon avro, yıl 5 brüt kâr 1,4 ile 5 milyon avro, geri ödeme yaklaşık 4 yıl veriyor. Hiçbir ana yüklenici Türk tedarikçi aradığını açıkça yazmıyor; Marshall'ın Hollanda işinde ofset gereği yerli alt yüklenici seçtiği görülüyor, bu yüzden bant ikincil kalıyor.",
 "acik_sorular": [
-"Hangi alt segmentle girilecek? Atölye ve depo konteyneri uyum 5 ve en düşük bariyer. Genişleyebilir sağlık konteyneri uyum 4, tıbbi iç donanım için ortak gerekir. Tablo 8.4.2.",
-"Askerî konteyner ihracat kontrolüne giriyor mu? Kart ürünlerin çoğu ihracat izni gerektirmiyor diyor. Rapor 9.2 konteyner için MSB'den 5201 kapsamında yazılı sınıflandırma görüşü istenmesini yazıyor; Tablo 10.1 ML6, ML17, ML18 gri alanlarını risk sayıyor. Yönetici özetine yapılan atıf verilen kaynaklarda doğrulanamadı.",
-"Tesis verisi: 40 ft konteyner hattı için 8 m kanca yüksekliği, 12 ile 15 m montaj hattı ve en az bir robotik kaynak hücresi var mı? Tablo 7.4 bu eşikleri veriyor; Ek A formu doldurulmasını istiyor. Sonucu çalışmalarda yok.",
-"Rheinmetall Mobile Systeme, Marshall, Kärcher/CSI, Losberger ve Dorçe'den hangisi gerçekten dış tedarikçi arıyor? Görüşme kaydı çalışmalarda yok. Marshall'ın Tecnove ortaklığı talebi gösterir; aynı kapının kapanma ihtimali de var, bu yorum raporda yok."
+"Kısmen cevaplandı: Hangi alt segmentle girilecek? Atölye ve depo konteyneri uyum 5 ve en düşük bariyer. Genişleyebilir sağlık konteyneri uyum 4, tıbbi iç donanım için ortak gerekir. Tablo 8.4.2.",
+"Kısmen cevaplandı: Askerî konteyner ihracat kontrolüne giriyor mu? Kart ürünlerin çoğu ihracat izni gerektirmiyor diyor. Rapor 9.2 konteyner için MSB'den 5201 kapsamında yazılı sınıflandırma görüşü istenmesini yazıyor; Tablo 10.1 ML6, ML17, ML18 gri alanlarını risk sayıyor.",
+"Görüşme gerekir: Tesis verisi: 40 ft konteyner hattı için 8 m kanca yüksekliği, 12 ile 15 m montaj hattı ve en az bir robotik kaynak hücresi var mı? Tablo 7.4 bu eşikleri veriyor; Ek A formu doldurulmasını istiyor. (MEKA üretim müdürü ve savunma iş birimi sorumlusu)",
+"Kısmen cevaplandı: Rheinmetall Mobile Systeme, Marshall, Kärcher/CSI, Losberger ve Dorçe'den hangisi gerçekten dış tedarikçi arıyor? Marshall'ın Tecnove ortaklığı talebi gösterir; aynı kapının kapanma ihtimali de var."
 ],
 "adimlar": [
 {
-"adim": "Ek A tesis veri formunu doldurmak: hol yüksekliği, montaj hattı uzunluğu, robotik kaynak, boş saat ve alan. Bölüm 7 puanlarını bu veriyle güncellemek.",
-"kim": "Savunma iş birimi sorumlusu; rapor ayrı iş birimi ve sorumlu yönetici önerir. Üretim müdürü ataması varsayım.",
-"ne_zaman": "Rapor bir ay içinde diyor; 22 Eylül 2026'dan hesapla 22 Ekim 2026"
+"adim": "Ek A tesis formunu doldurmak: kanca yüksekliği, montaj hattı uzunluğu, robotik kaynak hücresi, boş saat ve alan. Robot hücresi yoksa 250 ile 500 bin avroluk yatırım kararını yönetime sunmak.",
+"kim": "MEKA üretim müdürü ve savunma iş birimi sorumlusu (atama varsayım)",
+"ne_zaman": "15 Kasım 2026"
 },
 {
-"adim": "MSB'den konteyner ve şelter gövdesi için 5201 kapsamında yazılı sınıflandırma görüşü istemek.",
-"kim": "Savunma iş birimi sorumlusu; varsayım",
-"ne_zaman": "Rapor bir ay içinde diyor; hesapla 22 Ekim 2026. Tablo 9.3 görüşü 6. ayda tamam sayar."
+"adim": "MSB'den 5201 kapsamında yazılı sınıflandırma görüşü istemek: askerî ISO konteyner gövdesi ML17 mi, genel amaçlı ISO gövde kontrol dışı mı; teknik dosyayı iki ürün olarak ayırmak.",
+"kim": "Savunma iş birimi sorumlusu ve hukuk",
+"ne_zaman": "30 Kasım 2026 başvuru; Mart 2027 görüş (Tablo 9.3 6. ay)"
 },
 {
-"adim": "NCAGE başvurusu, ardından NSPA Source File, UNGM ve SAM.gov kayıtları; tamamı ücretsiz.",
-"kim": "Savunma iş birimi; varsayım",
-"ne_zaman": "Rapor bir ay içinde diyor; hesapla 22 Ekim 2026"
+"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak; ISO 1496-1 testi ve CSC onayı için Bureau Veritas, DNV ya da Türk Loydu'ndan teklif almak; NCAGE, NSPA Source File, UNGM ve SAM.gov kayıtlarını tamamlamak.",
+"kim": "Kalite ve belgelendirme sorumlusu",
+"ne_zaman": "31 Aralık 2026"
 },
 {
-"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak. ISO 1496-1 testi ve CSC onayı ile MIL-STD-810 test planı Tablo 9.1'de ön koşul; rapor bunlara ayrı takvim vermiyor, Tablo 9.2 notu teklif alınmasını ister.",
-"kim": "Kalite ve belgelendirme sorumlusu; raporun çekirdek ekip tanımı",
-"ne_zaman": "Rapor ilk çeyrek diyor; hesapla 21 Aralık 2026"
+"adim": "Marshall Land Systems ve Alfons Haar Maschinenbau'ya standart 20 ft atölye ve depo gövdesi için tedarikçi dosyası ve bütçe fiyatı sunmak; Tecnove ile ikinci kaynak olma görüşmesi.",
+"kim": "İş geliştirme; savunma iş birimi",
+"ne_zaman": "31 Ocak 2027"
 },
 {
-"adim": "Marshall ve Dorçe ile görüşme kartın ilk 90 gün listesinde. Rheinmetall Mobile Systeme, Kärcher/CSI ve Losberger Tablo 9.1 hedef listesinde. Konteyner gövdesi prototipi Tablo 9.2'de flat rack ve kalıp setiyle birlikte 50 ile 150 bin € kalemi.",
-"kim": "İş geliştirme; raporun çekirdek ekip tanımı",
-"ne_zaman": "Kart ilk 90 gün diyor; hesapla 21 Aralık 2026"
+"adim": "Standart 20 ft atölye gövdesi prototipini üretmek, ISO 1496-1 testi ve CSC plakası almak; IDEF 2027'de (3 ile 9 Mayıs 2027) sergilemek; Ticaret Bakanlığı Küresel Tedarik Zinciri desteğine başvurmak.",
+"kim": "Tasarım ekibi ve kalite",
+"ne_zaman": "30 Haziran 2027"
+},
+{
+"adim": "Genişleyebilir sağlık gövdesi için Rheinmetall Mobile Systeme ve Dorçe ile görüşme; tıbbi iç donanım ortağı belirleme; hidrolik genişleme prototipi kararı.",
+"kim": "İş geliştirme ve tasarım",
+"ne_zaman": "30 Eylül 2027 (Tablo 9.3 12. ay tedarikçi onayı hedefi)"
 }
 ],
 "riskler": [
-"Doğu Avrupa atölyeleriyle fiyat rekabeti; olasılık yüksek, etki orta; Tablo 10.1. Kamp konteynerinde CSI Çin'de üretiyor; Tablo 8.4.2. Azaltma: robotik kaynak, seri üretim ve teslim süresi argümanı.",
-"Yerleşik rakipler: Pagetel ve Dorçe yurt içinde; Marshall, HDT, Weatherhaven, Kärcher/CSI ve Losberger yurt dışında. Rekabet puanı 2 / 5. Komuta ve radar şelterinde EMC tasarımı ve MIL-STD-461G testi MEKA için yeni yetkinlik; Tablo 8.4.2.",
-"İhracat kontrol sınıflandırma hatası, ML6, ML17, ML18 gri alanları; olasılık orta, etki yüksek; Tablo 10.1. NATO SECRET görev emirleri için Tesis Güvenlik Belgesi ön koşul; fiziki güvenlik yatırımı 1 ile 3 milyon TL, Tablo 9.2.",
-"KBRN ve zırhlı konteynerde zırh çeliği kaynak kalifikasyonu gerekir; uyum 2 ile 3; Tablo 8.4.2."
+"Doğu Avrupa ve Polonya atölyeleriyle fiyat rekabeti; TCK 9 konsorsiyumunda Polonyalı Acoustics var; olasılık yüksek, etki orta. Azaltma: robotik kaynak, seri üretim, teslim süresi ve 110 ülke servis deneyimi argümanı.",
+"Ofset ve yerli tedarikçi tercihi: Marshall Hollanda işinde ofset yükümlülüğü için Hollandalı Contour'u seçti; Türk tedarikçi ofset sayılmaz; olasılık yüksek, etki yüksek. Azaltma: Marshall'ın İngiltere, Kanada ve NATO işlerine odaklanmak, Tecnove gibi ikinci kaynak konumu.",
+"İhracat kontrolü: ML17 konteynerleri kapsıyor, askerî gövde izne tabi; sınıflandırma hatası sevkiyatı durdurur; olasılık orta, etki yüksek. Azaltma: MSB yazılı görüşü, genel amaçlı ve özel tasarım dosyalarını ayırmak.",
+"Ana yüklenicinin gövdeyi kendi yapması: Rheinmetall Mobile Systeme 3:1 konteyneri kendi üretiyor, Tecnove Marshall'ın üretimini aldı; kapı kapanabilir; olasılık orta, etki yüksek. Azaltma: birden fazla ana yüklenici, Alfons Haar tipi entegratörler, NATO Türk adayları.",
+"Bütçe denetimi ve program gecikmesi: Alman Bütçe Komisyonu TCK 9'u 902'den 300 adede indirdi ve yeni ihale istedi; hacim tahminleri yarıya inebilir; olasılık orta, etki orta. Azaltma: sabit sipariş üzerinden kapasite planı, yüzde 20 ile 30 avans.",
+"Zırhlı ve KBRN varyantlarında zırh çeliği kaynak kalifikasyonu ve EMC testi yeni yetkinlik; olasılık orta, etki orta. Azaltma: bu varyantları 2029 sonrasına bırakmak."
 ],
 "kapilar": {
 "yatirim": "sirket",
-"butce": 2,
-"butce_not": "Rapor Tablo 9.2: prototipler 50 ile 150 bin €, ISO 3834-2 ve EN 1090-2 belgeleri 25 ile 55 bin €, MIL-STD-810 testleri 20 ile 80 bin €, Tesis Güvenlik Belgesi 1 ile 3 milyon TL; tüm portföy için 36 ayda yaklaşık 400 ile 800 bin €, desteklerle yarıya iner. Tutarlar raporda tahmin olarak işaretli. Bu niş için ayrı pay yazılmamış; 100 bin ile 1 milyon dolar dilimi varsayım. Yatırım MEKA şirketi üzerinden; rapor MEKA için yazılmış, kişisel yatırım seçeneği çalışmalarda yok.",
+"butce": 3,
+"butce_not": "Tam giriş bileti (Ocak 2027 ile Aralık 2028 arası toplam harcama) 1,1 ile 2,0 milyon avro, yaklaşık 1,2 ile 2,2 milyon dolar; bu 1 ile 10 milyon dolar dilimine girer. Kalemler: beş savunma kolunun ortak belge ve test paketinin beşte biri 80 ile 160 bin avro (rapor Tablo 9.2 toplamı 400 ile 800 bin avronun beşte biri; desteklerle 40 ile 80 bin); ISO 1496-1 ve CSC onayı 20 ile 50 bin avro (tahmin); genişleyebilir gövde ve hidrolik mekanizma prototipi 150 ile 300 bin avro (tahmin); robotik kaynak hücresi ve pozisyoner 250 ile 500 bin avro (tahmin, varsa sıfır); tasarım ve kalite ekibi 3 kişi 24 ay 180 ile 300 bin avro (tahmin); iş geliştirme ve fuar 60 ile 100 bin avro (tahmin); ilk seri sipariş işletme sermayesi 400 ile 600 bin avro (tahmin, avans düşülmüş). İlk 12 ayın harcaması 290 ile 550 bin avro; robot hücresi ilk yılda alınırsa 540 ile 1.050 bin avro. Robot hücresi ve işletme sermayesi hariç tutulursa bilet 0,5 ile 0,9 milyon avro ile 2. dilime iner. Yatırım MEKA şirketi üzerinden; kişisel yatırım seçeneği yok, çünkü üretim MEKA tesisinde.",
 "yol": "ortak",
-"yol_not": "Rapor giriş yolunu alt yüklenicilik olarak tanımlıyor: Avrupa ana yüklenicilerine çelik çerçeve, genişleme mekanizması ve kaba montaj; NATO ve BM kanalında SSB ve MSB üzerinden ulusal aday listesine girmek ya da Dorçe, Nurol İnşaat ve STM gibi aday Türk firmalarına alt yüklenicilik. Kendi markalı şelter seçeneği çalışmalarda yok. Üretim MEKA'da, satış kanalı ortağın."
+"yol_not": "Alt yüklenicilik: üretim MEKA'da, satış kanalı ana yüklenicinin. Hedef ana yükleniciler Marshall Land Systems (Tecnove modelinde ikinci üretim kaynağı), Alfons Haar tipi konteyner entegratörleri (TCK 9 yeni ihalesi 2027), Rheinmetall Mobile Systeme (genişleyebilir sağlık gövdesi, görüşme gerek) ve NCIA ile NSPA kanalında Türk adaylar Dorçe, Nurol İnşaat, STM. Kendi markalı şelter yolu önerilmiyor: pazarlama, sertifika ve referans yükü bilete 2 ile 3 milyon avro ekler (tahmin) ve rakipler yerleşik."
 },
 "takvim": [
 {
-"tarih": "22 Eylül 2026",
-"olay": "Marshall Land Systems ile Tecnove konteynerize sistem üretim ortaklığını ilan etti; ana yüklenicilerin dış üretim ortağı aldığının işareti",
-"kaynak": "01 rapor, s_cont, Tablo 8.4.1 notu",
-"iso": "2026-09-22"
+"tarih": "11 Haziran 2026",
+"olay": "NCIA IFB-CO-424239 konteynerize veri merkezi modülleri IDIQ teklif kapanışı; sonuç henüz açıklanmadı, Türk adaylar Dorçe, Nurol İnşaat, STM",
+"kaynak": "NCIA davet mektubu 7 Mayıs 2026, mindev.gov.gr",
+"iso": "2026-06-11"
 },
 {
-"tarih": "30 Eylül 2026",
-"olay": "YETEN kaydı ve SSB 2027 yurt dışı fuar desteği başvurusu son günü; yapıldı mı çalışmalarda yok",
-"kaynak": "01 kart, İlk 90 gün; 01 rapor, s_road, 9.2",
-"iso": "2026-09-30"
+"tarih": "10 Haziran 2026",
+"olay": "Alman Bütçe Komisyonu TCK 9 tank konteyneri sabit siparişini 300 adetle sınırladı ve yeni ihale istedi; 2027'den yılda 300 adet teslim; yeni ihale penceresi 2027",
+"kaynak": "esut.de 10 Haziran 2026",
+"iso": "2026-06-10"
 },
 {
-"tarih": "22 Ekim 2026",
-"olay": "Raporun bir ay içinde dediği adımlar: tesis veri formu, NCAGE ve NSPA kayıtları, MSB sınıflandırma görüşü",
-"kaynak": "01 rapor, s_road, 9.2 İlk 90 gün; 22 Eylül 2026'dan hesap",
-"iso": "2026-10-22"
+"tarih": "Eylül 2026",
+"olay": "Tecnove, Marshall konteynerize sistemlerinin üretimine başladı; 2027 boyunca sürecek; mutabakat Mart 2026, ilan 22 Eylül 2026",
+"kaynak": "Marshall Land Systems haberi 22 Eylül 2026",
+"iso": "2026-09-15"
+},
+{
+"tarih": "15 Kasım 2026",
+"olay": "Ek A tesis veri formu ve robot hücresi kararı (bu çalışmanın önerisi; rapor 22 Ekim 2026 demişti)",
+"kaynak": "01 rapor 9.2; bu çalışma",
+"iso": "2026-11-15"
 },
 {
 "tarih": "21 Aralık 2026",
-"olay": "Raporun ilk çeyreği biter: ISO 3834-2 ve EN 1090-2 EXC3 başlatılmış, kartın görüşme listesi yapılmış olmalı",
-"kaynak": "01 rapor, s_road, 9.2; 01 kart, İlk 90 gün; 22 Eylül 2026'dan hesap",
+"olay": "Raporun ilk çeyreği biter: ISO 3834-2 ve EN 1090-2 EXC3 başlatılmış, CSC test teklifi alınmış, kayıtlar tamam",
+"kaynak": "01 rapor 9.2; 22 Eylül 2026'dan hesap",
 "iso": "2026-12-21"
 },
 {
-"tarih": "Aralık 2026 ve Haziran 2027",
-"olay": "AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi değerlendirmesi; rapor fasıl 84 makine sınıflandırmasını korumayı önerir",
-"kaynak": "01 rapor, s_road, Tablo 10.1",
-"iso": "2026-12-15"
-},
-{
-"tarih": "Mart 2027",
-"olay": "6. ay kilometre taşı: kayıtlar tamam, ISO 3834-2 ve EN 1090-2 belgeleri, MSB sınıflandırma görüşü",
-"kaynak": "01 rapor, s_road, Tablo 9.3; 22 Eylül 2026'dan hesap",
+"tarih": "Ocak ile Mart 2027",
+"olay": "Rheinmetall 149 mobil kurtarma istasyonunun (298 konteyner) üretimine başlıyor; alt tedarikçi penceresi",
+"kaynak": "Rheinmetall basın bülteni 17 Ağustos 2026",
 "iso": "2027-03-15"
 },
 {
-"tarih": "3-9 Mayıs 2027",
-"olay": "IDEF 2027, İstanbul Fuar Merkezi; SSB ve Ticaret Bakanlığı fuar destekleriyle",
-"kaynak": "01 rapor, s_road, 9.4 Ticari ilkeler",
-"iso": "2027-05-03"
+"tarih": "Mart 2027",
+"olay": "6. ay kilometre taşı: MSB sınıflandırma görüşü, belgeler, kayıtlar",
+"kaynak": "01 rapor Tablo 9.3",
+"iso": "2027-03-15"
+},
+{
+"tarih": "3 ile 9 Mayıs 2027",
+"olay": "IDEF 2027, İstanbul; standart gövde prototipinin sergilenmesi",
+"kaynak": "01 rapor 9.4",
+"iso": "2027-05-09"
 },
 {
 "tarih": "Eylül 2027",
-"olay": "12. ay kilometre taşı: en az bir yabancı ana yüklenicide tedarikçi onayı",
-"kaynak": "01 rapor, s_road, Tablo 9.3; 22 Eylül 2026'dan hesap",
+"olay": "12. ay kilometre taşı: en az bir yabancı ana yüklenicide tedarikçi onayı; TGB ve Üretim İzin Belgesi kararı",
+"kaynak": "01 rapor Tablo 9.3",
 "iso": "2027-09-15"
 },
 {
-"tarih": "2027",
-"olay": "Rheinmetall'in 149 Bundeswehr sağlık istasyonunun üretim yılı; alt tedarikçi penceresi",
-"kaynak": "01 rapor, s_cont, Tablo 8.4.1",
-"iso": "2027-06-30"
+"tarih": "Mart 2028",
+"olay": "18. ay kilometre taşı: konteyner ve şelter gövdesinde ilk seri sipariş; modelde ilk gelir",
+"kaynak": "01 rapor Tablo 9.3; bu çalışmanın modeli",
+"iso": "2028-03-15"
 },
 {
-"tarih": "Mart 2028",
-"olay": "18. ay kilometre taşı: konteyner ve şelter ya da mühimmat hattı ekipmanında ilk seri sipariş; TGB başvurusu sonuçlanmış olmalı",
-"kaynak": "01 rapor, s_road, Tablo 9.3; 22 Eylül 2026'dan hesap",
-"iso": "2028-03-15"
+"tarih": "2029",
+"olay": "Rheinmetall Role 2B zırhlı mobil sağlık tesislerinin ilk seri teslimleri; çerçeve 2040'a kadar",
+"kaynak": "Defence Industry Europe 14 Ekim 2025; tek kaynak",
+"iso": "2029-06-30"
+},
+{
+"tarih": "21 Mart 2034",
+"olay": "HDT ASF-RWS IDIQ sözleşmesinin tahmini bitişi",
+"kaynak": "ABD Savunma Bakanlığı sözleşme listesi, clearancejobs kopyası 26 Mart 2024",
+"iso": "2034-03-21"
 }
 ],
 "kaynaklar": [
@@ -1982,6 +3825,11 @@ window.MEKA_DATA = {
 }
 ],
 "tam_calisma": [
+{
+"dosya": "c_sav_konteyner",
+"bolum_basligi": "",
+"sayfa": null
+},
 {
 "dosya": "01_rapor",
 "bolum_basligi": "8.4 Konteynerize sistemler ve taktik şelterler",
@@ -2009,10 +3857,147 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "tam",
-"kapsam_notu": "Raporun 8.4 bölümü dokuz referans sözleşme, sekiz alt segment, standart listesi ve 23 kaynakla konuyu rakamlı anlatıyor. Puan tablosu ve yol haritası nişi ayrıca ele alıyor. Web kullanılmadı. Yönetici özeti ve 5 Ekim 2026 inceleme dosyası bu doğrulamada verilen kaynaklar arasında değildi.",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 14 arama, 22 sayfa; 4 açık sorunun 0'i cevaplandı, 1'i görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. WebFetch aracı DNS hatası verdi; sayfalar curl ile indirilip metne çevrildi, 22 sayfa okundu, 4 sayfa açılamadı (TED Werkstattcontainer ihalesi, MSB ihracat izin formu, EUR-Lex askerî liste, globalsecurity Nurol). Atölye ya da depo konteyneri için tek başına bir ihale sonucu birim fiyatı bulunamadı; birim fiyatlar mühimmat deposu, tank ve sağlık konteynerlerinden türetildi. Gövde payı, maliyet, marj ve MEKA'nın program payı tahmindir. Kurlar tahminidir. Hiçbir ana yüklenici ya da kurumla görüşme yapılmadı; tesis verisi yok. Role 2B çerçevesi ve sivil konteyner fiyatı tek kaynaklıdır. Arama bütçesi 14 ile sınırlıydı; Dorçe, Kärcher ve Nurol için 2026 sözleşme verisi bulunamadı. Çürütücü 14 kaynak sayfasını açıp karşılaştırdı; HDT CSC bülteni, Kamerstuk 105, UK Defence Journal, Kettner blogu, Losberger, bundeswehr-journal, Liverpool listesi ve AA sayfası bu kontrolde açılmadı.",
 "kanit": 4,
-"web": [],
+"web": [
+{
+"url": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-17-rheinmetall-is-supplying-mobile-medical-stations-to-the-bundeswehr",
+"ne": "149 istasyon, 500 milyon avro üstü, toplam 165 adet, üretim 2027 ilk çeyrek, 3:1 konteyner RMS",
+"tur": "firma"
+},
+{
+"url": "https://www.janes.com/defence-intelligence-insights/defence-news/industry/bundeswehr-orders-more-mobile-rescue-stations-from-rheinmetall",
+"ne": "Rheinmetall siparişinin teyidi; Aralık 2024 çerçevesi en çok 137",
+"tur": "haber"
+},
+{
+"url": "https://marshalllandsystems.com/success-stories/nlsc-specialised-containers-for-the-royal-netherlands-army",
+"ne": "201 konteyner 31 milyon sterlin, Contour ve Visser, teslim 17 Ocak 2025, 12 yıl destek",
+"tur": "firma"
+},
+{
+"url": "https://marshall-landsystems.com/insights-news/marshall-land-systems-wins-contract-to-supply-specialised-containers-for-dutch-army",
+"ne": "201 mühimmat deposu konteyneri sözleşmesi, ofset ve Contour",
+"tur": "firma"
+},
+{
+"url": "https://marshalllandsystems.com/insights-news/marshall-wins-contract-in-excess-of-100-million-for-supply-of-military-containers-to-dutch-armed-forces",
+"ne": "1.400 üstü konteyner, 100 milyon sterlin üstü, 14 yıl destek, komuta, atölye ve depo tipleri",
+"tur": "firma"
+},
+{
+"url": "https://zoek.officielebekendmakingen.nl/kst-26396-112.pdf",
+"ne": "Hollanda Meclis mektubu 12 Ekim 2018: 1.433 konteyner, 3.269 alt sistem, 100 ile 250 milyon avro, Marshall",
+"tur": "resmi"
+},
+{
+"url": "https://zoek.officielebekendmakingen.nl/kst-26396-105.pdf",
+"ne": "DVOW 2015 mektubu: konteyner sayıları 1.691'den 1.432'ye, ayrı ihale, sanayi katılımı",
+"tur": "resmi"
+},
+{
+"url": "https://ukdefencejournal.org.uk/marshall-sends-100th-deployable-container-to-the-netherlands/",
+"ne": "Sözleşme Aralık 2018, ilk teslim Temmuz 2019, 100. konteyner",
+"tur": "haber"
+},
+{
+"url": "https://marshalllandsystems.com/news/marshall-land-systems-and-tecnove-business-group-strengthen-manufacturing-partnership-to-increase-defence-production-capacity",
+"ne": "Tecnove ortaklığı, üretim Eylül 2026 ile 2027, mutabakat Mart 2026",
+"tur": "firma"
+},
+{
+"url": "https://esut.de/2026/06/meldungen/71783/nur-300-tankcontainer-tck-9-gebilligt/",
+"ne": "TCK 9: 902 adet 263 milyon avro, 300 adet onay, 145 ve 290 bin avro, konsorsiyum, yılda 300",
+"tur": "haber"
+},
+{
+"url": "https://www.grosswald.org/bundestag-budget-committee-pauses-262-67-million-tankcontainer-procurement-price-increase/",
+"ne": "TCK 9 durdurma 27 ile 28 Nisan 2026, 291 bin avro, 4.200 opsiyon",
+"tur": "haber"
+},
+{
+"url": "https://www.kettner-edelmetalle.de/news/container-wahnsinn-bei-der-bundeswehr-wie-pistorius-millionen-verbrennt-28-04-2026",
+"ne": "2021'de 153 adet 21,8 milyon avro; sivil dizel konteyner 60 bin avro; blog, tek kaynak",
+"tur": "diger"
+},
+{
+"url": "https://news.clearancejobs.com/2024/03/26/general-dynamics-wins-311-million-navy-contract-to-modernize-and-repair-the-uss-bataan/",
+"ne": "ABD Savunma Bakanlığı sözleşme listesi kopyası: HDT 432,605 milyon dolar, W911QY-24-D-0004, beş teklif, 21 Mart 2034",
+"tur": "resmi"
+},
+{
+"url": "https://www.hdtglobal.com/2024/04/15/hdt-awarded-432-million-contract-for-army-standard-family-of-rigid-wall-shelters/",
+"ne": "HDT bülteni, 60 varyant, genişleyebilir ve sabit şelter",
+"tur": "firma"
+},
+{
+"url": "https://www.hdtglobal.com/?p=10798",
+"ne": "Çift genişleyebilir şelter CSC onayı 3 Haziran 2025, özel çelik çerçeve, ortak çerçeve mimarisi",
+"tur": "firma"
+},
+{
+"url": "https://www.weatherhaven.com/Article?name=government-canada-acquires-new-portable-shelter-systems-weatherhaven-global-resources-ltd-wins-contracts",
+"ne": "HQSS 168 milyon C$, 1.435 çadır esaslı sistem, 350 milyon C$ potansiyel",
+"tur": "firma"
+},
+{
+"url": "https://www.mindev.gov.gr/wp-content/uploads/2026/05/Book-I-IFB-CO-424239-Data-Center-Modules-Solicitation-Cover-Letter.pdf",
+"ne": "NCIA davet mektubu 7 Mayıs 2026, kapanış 11 Haziran 2026, 78 aday, 10 Türk, SECRET görev emirleri",
+"tur": "resmi"
+},
+{
+"url": "https://defence-industry.eu/rheinmetall-secures-e300-million-deal-to-supply-mobile-armoured-medical-units-for-bundeswehr/",
+"ne": "Role 2B çerçevesi Eylül 2025, 300 milyon avro üstü, 2040, teslim 2029",
+"tur": "haber"
+},
+{
+"url": "https://www.losbergerdeboer.com/global/cases/rapid-deployment-space/Deployable-camp-facilities-for-NATO/",
+"ne": "NSPA Baltık kampı: çadır ağırlıklı, konteyner yan kalem, beş ay, eksi 32 derece, 1.800 kişilik yeni proje",
+"tur": "firma"
+},
+{
+"url": "https://www.bundeswehr-journal.de/2024/kaercher-erwirbt-mehrheit-bei-norwegischem-hersteller-csi/",
+"ne": "Kärcher CSI çoğunluk, Changzhou Çin üretim, saha kampı konteyner siparişi",
+"tur": "haber"
+},
+{
+"url": "https://www.liverpool.ac.uk/media/livacuk/legal/documents/Military,List.pdf",
+"ne": "Askerî liste özeti: ML17 dalış ekipmanı, feribot ve konteynerleri kapsar",
+"tur": "diger"
+},
+{
+"url": "https://www.aa.com.tr/en/economy/dorce-prefabrik-continues-to-meet-turkish-defense-industrys-needs/2600141",
+"ne": "Dorçe ürün yelpazesi, NATO, BM ve TSK projeleri",
+"tur": "haber"
+},
+{
+"url": "https://ted.europa.eu/en/notice/473855-2026/pdf",
+"ne": "BAAINBw Werkstattcontainer ihalesi, Trier; açılamadı, değer alınamadı",
+"tur": "resmi"
+},
+{
+"url": "https://msb.gov.tr/Content/Upload/Docs/ihracaat_izin_belgesi.pdf",
+"ne": "MSB ihracat izin belgesi formu; açılamadı (yönlendirme döngüsü), arama özetine dayanıldı",
+"tur": "resmi"
+},
+{
+"url": "https://www.globalsecurity.org/military/world/europe/nurol.htm",
+"ne": "Nurol Makina şelter profili; açılamadı (402), arama özetine dayanıldı",
+"tur": "diger"
+}
+],
 "celiskiler": [
+"Aralık 2024 çerçevesi: önceki veri 10 zırhlı, 6 zırhsız ve 104 opsiyon diyor; Rheinmetall bülteni ve Janes çerçeveyi en çok 137 istasyon olarak veriyor, 16 sipariş düşülünce 121 kalır; 104 rakamı kaynakta yok.",
+"Tablo 8.4.2 KBRN satırındaki 112 zırhlı sağlık istasyonu rakamı Rheinmetall bülteninde ve Janes'te yok; bülten yalnız korumalı ve korumasız sürüm diyor, adet ayrımı vermiyor.",
+"Weatherhaven HQSS sistemleri çadır esaslı (yumuşak duvarlı); önceki veri bunu taktik şelter sistemi diye konteyner emsalleri arasında sayıyor. Potansiyel değer destekle 350 milyon C$, önceki veride yok.",
+"HDT sözleşme tarihi: ABD Savunma Bakanlığı listesi 26 Mart 2024 tarihli, HDT bülteni 15 Nisan 2024; önceki veri yalnız 15 Nisan tarihini ve 60 varyantı veriyor.",
+"Hollanda 2018 programı: Marshall 1.400 üstü konteyner ve 14 yıl destek diyor; Meclis mektubu 1.433 konteyner, 3.269 alt sistem ve 100 ile 250 milyon avro yatırım yazıyor, 10 yıl bakım birlikte ihale edilmiş ama bakım gideri yatırımın dışında; 2015 mektubu konteyner sayısını 1.691'den 1.432'ye indirdiğini gösteriyor. Avro ve sterlin rakamları farklı kapsamlara ait.",
+"Marshall 201 konteyner: önceki veri 2025 yılını sözleşme yılı gibi veriyor; vaka çalışmasına göre 2025 son teslim yılı, üretim 2023'te başladı; içerik mühimmat ve tıbbi malzeme deposu, beş varyant doğru.",
+"Losberger NSPA Baltık işi: önceki not konteyner kampı izlenimi veriyor; vaka sayfasına göre ürün ağırlıkla Prostock hangar ve TAM çadır, konteyner yan ekipman.",
+"Kartın ürünlerin çoğu ihracat izni gerektirmiyor ibaresi bu yaprak için yanlış: ML17 konteynerleri açıkça kapsar, askerî gövde izne tabidir; yalnız genel amaçlı ISO gövde kontrol dışı kalabilir.",
+"Fiyat avantajı: rapor Avrupa'da lojistik sonrası yüzde 10 ile 25 avantaj diyor; TCK 9 örneğinde askerî konteyner 290 bin avro, sivil benzer ürün 60 bin avro (blog, tek kaynak); askerî fiyatın belirleyicisi gövde maliyeti değil şartname ve sertifika, bu yüzden avantaj gövde kaleminde sınırlı.",
+"TCK 9 2021 birim fiyatı: esut.de 29 milyon avro ve 200 adetten yaklaşık 145 bin avro diyor; Grosswald 142 bin avro ve 2026 için 291 bin avro yazıyor; fark yuvarlamadan, model esut rakamını kullanıyor.",
+"Hollanda 100 ile 250 milyon avro: önceki metin bu tutarı bakım dahil saydı; Meclis mektubu tutarı 2019 ile 2023 yatırım bütçesi diye veriyor, bakım gideri gizli ekte ayrı; birim fiyat 70 ile 175 bin avro alt sistemler dahil, bakım hariç.",
 "Sağlık konteyneri rakamı: kart ve rapor metni >600 milyon € diyor ve Ağustos 2026 tarihli tek kaynağa bağlıyor; o kaynak 149 adet ve >500 milyon € yazıyor. Tablo 8.4.1 satırı 600 rakamını Aralık 2024 çerçevesiyle Ağustos 2026 siparişinin toplamı olarak sunuyor. Ana rapor metninin atfı tek kaynaklı; teyit gerekir.",
 "Aynı puanlı iki niş: fırlatma üssü altyapısı da 3,70 ama dört kola alınmamış. Kartta gerekçe yok. Rapor 7.1 bunu niş değil, zamana bağlı proje fırsatı sayar ve Tablo 9.1'de hızlı kazanım satırına koyar.",
 "Sınıf ve kol uyumsuzluğu: Tablo 7.1 eşiğine göre 3,70 ikincil sınıf ve Bölüm 7.1 nişi ikinci halka diyor; aynı rapor nişi önerilen dört kol ve ana bahis sayıyor. Bu özet bandı ikincil aldı.",
@@ -2020,6 +4005,17 @@ window.MEKA_DATA = {
 "Tablo 8.4.2'de sağlık satırı Bundeswehr 165 istasyon, KBRN satırı Bundeswehr 112 zırhlı sağlık istasyonu yazıyor. 165 rakamı 16 ile 149'un toplamı olabilir; 112 rakamının dayanağı bölüm metninde ve Tablo 8.4.1'de yok."
 ],
 "degisiklikler": [
+"20 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
+"Hollanda Meclis mektubu (Kamerstuk 26 396 nr. 112) 100 ile 250 milyon avroyu 2019 ile 2023 yatırım bütçesi olarak veriyor, bakım gideri gizli ekte ayrı; rakamlar, durum, emsaller, firmalar, çelişkiler ve calisma_md'deki bakım dahil ibaresi bakım hariç, alt sistemler dahil olarak düzeltildi.",
+"Yıl 3 brüt kâr alt ucu: 1,8 milyon avro x yüzde 18 eşittir 0,32; 0,35 yerine 0,3 yazıldı; kümülatif brüt kâr 2029 sonu 0,4, 2030 sonu 1,2, 2031 sonu 2,6 milyon avro olarak güncellendi (durum, ekonomi ve calisma_md); geri ödeme sonucu değişmedi.",
+"HDT emsalindeki 36 varyant (ExecutiveBiz) iddiasının kaynağı web listesinde ve kaynaklarda yok; silindi, çelişki maddesi tarih farkına indirgendi.",
+"HDT emsal tarihi 21 ile 26 Mart 2024 yerine 26 Mart 2024 sözleşme listesi yapıldı; listede HDT satırı için ayrı sözleşme tarihi yok.",
+"NCIA davet mektubunda tavan yok ifadesi geçmiyor; rakamlar ve firmalar notlarından silindi.",
+"Marshall 100 milyon sterlin bülteni altı tip demiyor (komuta, atölye, iklimli ve temel depo sayıyor); web listesindeki ne alanı düzeltildi, altı tip Kamerstuk kaynağında kaldı.",
+"Kaynaksız rakamlar tahmin diye işaretlendi: çıkış harcaması 0,5 ile 1,0 milyon avro; ana yüklenici fiyatı 120 ile 180 bin avro türetilmiş; standart gövde satış fiyatı 30 ile 45 bin avronun hesaptan (30 ile 63 bin) düşük alt uç olduğu belirtildi.",
+"Çelişkilere iki madde eklendi: Grosswald 2021 birim fiyatını 142 bin, esut 145 bin veriyor; Hollanda tutarının bakım kapsamı.",
+"Bilet toplamı (1.140 ile 2.010 bin avro), yıl 2, yıl 4 ve yıl 5 gelir ve kâr hesapları, kur çevrimleri (154 bin sterlin 180 bin avro, 117 bin C$ 76 bin avro) ve 500/149 birim hesabı doğru çıktı, değiştirilmedi.",
+"Rheinmetall, Janes, Marshall (dört sayfa), Kamerstuk 112, esut, Grosswald, ABD sözleşme listesi, HDT 15 Nisan 2024, Weatherhaven, NCIA ve Defence Industry Europe sayfalarındaki adet, bedel ve tarihler çalışmayla uyuştu.",
 "puan_metni: senaryo puanlarının Tablo 7.2'de değil dosya verisinden hesaplandığı eklendi; Tablo 7.1 atfı ve kart teyidi eklendi.",
 "ne: elektronik iç donanım ibaresi çıkarıldı, kaynakta yalnız tıbbi iç donanım için ortak var; MIL-STD-810H, MIL-STD-461G ve STANAG 4569 cümlesi eklendi.",
 "neden: SSB kataloğunda genişleyebilir ağır çelik konteyner üreticisi görünmediği bulgusu eklendi, raporun tahmin işaretiyle.",
@@ -2044,28 +4040,154 @@ window.MEKA_DATA = {
 "kaynak": "https://www.ssb.gov.tr/storage/img/turkish-defence-industry-product-catalogue1788522671.pdf"
 },
 {
-"ad": "HDT Global",
+"ad": "HDT Global (BLADE)",
 "rol": "rakip",
-"not": "ABD Ordusu sert duvarlı şelter ailesini 432,6 milyon dolara aldı (60 varyant, 15 Nisan 2024); çift genişleyebilir şelter için CSC sertifikasını 3 Haziran 2025'te duyurdu.",
-"kaynak": "https://www.hdtglobal.com/2024/04/15/hdt-awarded-432-million-contract-for-army-standard-family-of-rigid-wall-shelters/"
+"not": "ABD Ordusu sert duvarlı şelter ailesini 432,605 milyon dolarlık IDIQ ile aldı (sözleşme listesi 26 Mart 2024, bülten 15 Nisan 2024, bitiş 21 Mart 2034, beş teklif); çift genişleyebilir şelter CSC onayını 3 Haziran 2025'te aldı; şirket 2026'da BLADE adını kullanıyor.",
+"kaynak": "https://www.hdtglobal.com/?p=10798"
 },
 {
 "ad": "Weatherhaven",
 "rol": "rakip",
-"not": "Kanada için 1.435 taktik şelter sistemi ve 338 opsiyon aldı, 168 milyon C dolar (9 Şubat 2017).",
+"not": "Kanada HQSS için 1.435 çadır esaslı taktik şelter sistemi ve 338 opsiyon, 168 milyon C$ (9 Şubat 2017), destekle 350 milyon C$'a kadar; yumuşak duvarlı sistem, konteyner gövdesi değil.",
 "kaynak": "https://www.weatherhaven.com/Article?name=government-canada-acquires-new-portable-shelter-systems-weatherhaven-global-resources-ltd-wins-contracts"
 },
 {
 "ad": "Nurol Makina",
 "rol": "rakip",
-"not": "Ankara'da NATO I, II, III şelter, ISO 20 ft, EMI, EMP ve KBRN şelter hattı var, 20'den fazla ülkeye ihracat yapıyor; MEKA'nın konteyner tesis deneyimine en yakın segment diye geçiyor.",
-"kaynak": "final_S3 4 ve 5"
+"not": "Ankara Sincan'da NATO 6516/SHCPE/86 şartnamesine uygun zırhlı ve zırhsız şelter üretiyor, kendi panel hattı var; 2026 ihracat verisi bu turda bulunamadı, globalsecurity sayfası açılamadı.",
+"kaynak": "https://www.globalsecurity.org/military/world/europe/nurol.htm (açılamadı, arama özeti)"
 },
 {
 "ad": "Karmod",
 "rol": "rakip",
-"not": "İstanbul'da askerî konteyner ve kamp yapıları üreticisi, 45.000 m² üretim alanı, Bağdat'ta 500 kişilik kamp referansı var.",
+"not": "İstanbul'da askerî konteyner ve kamp yapıları üreticisi, 45.000 m² üretim alanı, Bağdat'ta 500 kişilik kamp referansı var; bu turda yeni veri bulunamadı.",
 "kaynak": "final_S3 5"
+},
+{
+"ad": "Rheinmetall Mobile Systeme ve Rheinmetall Project Solutions",
+"rol": "musteri",
+"not": "BAAINBw'den 149 ek mobil kurtarma istasyonu (500 milyon avro üstü, 17 Ağustos 2026, toplam 165 adet 600 milyon avro üstü), üretim 2027 ilk çeyrek; 3:1 genişleyebilir konteyneri RMS kendi yapıyor; Eylül 2025 Role 2B çerçevesi 300 milyon avro üstü, 2040'a kadar. Açık tedarikçi çağrısı yok.",
+"kaynak": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-17-rheinmetall-is-supplying-mobile-medical-stations-to-the-bundeswehr"
+},
+{
+"ad": "Marshall Land Systems",
+"rol": "musteri",
+"not": "Kapasite için İspanyol Tecnove'ye üretim verdi, üretim Eylül 2026'da başladı ve 2027 boyunca sürecek; Hollanda'ya 201 konteyneri 31 milyon sterline teslim etti (son adet 17 Ocak 2025); en somut dış üretici arayan ana yüklenici.",
+"kaynak": "https://marshalllandsystems.com/news/marshall-land-systems-and-tecnove-business-group-strengthen-manufacturing-partnership-to-increase-defence-production-capacity"
+},
+{
+"ad": "Kärcher Futuretech / CSI",
+"rol": "musteri",
+"not": "Kärcher 2024'te Norveçli CSI'da çoğunluk aldı; CSI'nin Changzhou'da (Çin) üretim tesisi var; birlikte Bundeswehr saha kampı için sıhhi, çamaşır, atık su ve gözaltı konteynerleri işini aldı; fiyat odaklı alıcı.",
+"kaynak": "https://www.bundeswehr-journal.de/2024/kaercher-erwirbt-mehrheit-bei-norwegischem-hersteller-csi/"
+},
+{
+"ad": "Losberger De Boer",
+"rol": "musteri",
+"not": "NSPA için Litvanya ve Letonya'da beş ayda kamp kurdu; ürün ağırlıkla Prostock hangar ve TAM çadır, konteyner yan kalem; NATO için 1.800 kişilik ofis ve konaklama projesi sürüyor.",
+"kaynak": "https://www.losbergerdeboer.com/global/cases/rapid-deployment-space/Deployable-camp-facilities-for-NATO/"
+},
+{
+"ad": "ASELSAN",
+"rol": "musteri",
+"not": "Radar, hava savunma ve elektronik harp sistemleri şelter, kabin ve römork gerektirir; alt yükleniciden ISO 9001, AQAP-2110 veya AS9100 ve ISO 9606-1 kaynakçı belgesi ister.",
+"kaynak": "https://aselsankonya.com/uploads/docs/tedarik/1650368675_yan-sanayi-firmalari-alt-yuklenici-gerekleri.docx.pdf"
+},
+{
+"ad": "Dorçe Prefabrik",
+"rol": "ortak_adayi",
+"not": "Ankara'da askerî konteyner, modüler kamp, sahra hastanesi ve helikopterle taşınabilir konteyner üretiyor; NCIA IFB-CO-424239 aday listesinde (kapanış 11 Haziran 2026); 2026'da yeni sözleşme haberi bulunamadı; SAHA 2026 katılımcısı.",
+"kaynak": "https://www.aa.com.tr/en/economy/dorce-prefabrik-continues-to-meet-turkish-defense-industrys-needs/2600141"
+},
+{
+"ad": "Nurol İnşaat",
+"rol": "ortak_adayi",
+"not": "NCIA veri merkezi modülleri IDIQ aday listesinde 61. sırada; sonuç açıklanmadı; aday olursa konteyner gövdesi alt yükleniciliği yolu.",
+"kaynak": "https://www.mindev.gov.gr/wp-content/uploads/2026/05/Book-I-IFB-CO-424239-Data-Center-Modules-Solicitation-Cover-Letter.pdf"
+},
+{
+"ad": "STM",
+"rol": "ortak_adayi",
+"not": "NCIA veri merkezi modülleri IDIQ aday listesinde 64. sırada; sonuç açıklanmadı.",
+"kaynak": "https://www.mindev.gov.gr/wp-content/uploads/2026/05/Book-I-IFB-CO-424239-Data-Center-Modules-Solicitation-Cover-Letter.pdf"
+},
+{
+"ad": "NCIA",
+"rol": "kurum",
+"not": "IFB-CO-424239 konteynerize veri merkezi modülleri IDIQ: 7 Mayıs 2026 davet, 11 Haziran 2026 kapanış, 78 aday, 10 Türk, bazı görev emirleri SECRET; sonuç açıklanmadı.",
+"kaynak": "https://www.mindev.gov.gr/wp-content/uploads/2026/05/Book-I-IFB-CO-424239-Data-Center-Modules-Solicitation-Cover-Letter.pdf"
+},
+{
+"ad": "NSPA",
+"rol": "kurum",
+"not": "Konuşlanabilir kamp altyapısını tedarik edip işletiyor; Baltık kampını Losberger'e verdi; 1.800 kişilik ofis ve konaklama projesi; ücretsiz Source File kaydı ve NCAGE gerekiyor.",
+"kaynak": "https://www.losbergerdeboer.com/global/cases/rapid-deployment-space/Deployable-camp-facilities-for-NATO/"
+},
+{
+"ad": "Bundeswehr (BAAINBw)",
+"rol": "kurum",
+"not": "Mobil kurtarma istasyonlarının alıcısı: Aralık 2024'te en çok 137 istasyon çerçevesi, 16 sipariş; Temmuz 2026'da 149 ek; ayrıca TCK 9 tank konteyneri (300 adet onaylı, yeni ihale şart) ve Trier için Werkstattcontainer ihalesi (TED 473855-2026, açılamadı).",
+"kaynak": "https://www.janes.com/defence-intelligence-insights/defence-news/industry/bundeswehr-orders-more-mobile-rescue-stations-from-rheinmetall"
+},
+{
+"ad": "Hollanda DMO ve MatLogCo",
+"rol": "kurum",
+"not": "DVOW konteyner alt projesi 1.433 konteyner ve 3.269 alt sistem, 100 ile 250 milyon avro yatırım, 10 yıl bakım ayrı (Meclis mektubu 12 Ekim 2018); MatLogCo 201 mühimmat deposu konteynerini 31 milyon sterline aldı, 12 yıl destek.",
+"kaynak": "https://zoek.officielebekendmakingen.nl/kst-26396-112.pdf"
+},
+{
+"ad": "MSB",
+"rol": "kurum",
+"not": "5201 kapsamında KTL sınıflandırma ve ihracat izin belgesi makamı; ihracat izin formu KTL, WD ML ve FTKR listelerine atıf yapıyor; KTL sayfası bu turda açılamadı; Tesis Güvenlik Belgesi makamı.",
+"kaynak": "https://msb.gov.tr/Content/Upload/Docs/ihracaat_izin_belgesi.pdf (açılamadı)"
+},
+{
+"ad": "SSB",
+"rol": "kurum",
+"not": "NATO ve BM kanalında ulusal aday listesine SSB ve MSB üzerinden girilir; YETEN ve 2027 fuar desteği son günü 30 Eylül 2026 geçti; yapıldı mı çalışmalarda yok.",
+"kaynak": "01 rapor 8.4 ve 9.2"
+},
+{
+"ad": "Ticaret Bakanlığı",
+"rol": "kurum",
+"not": "Konteyner gövdesi prototipi Küresel Tedarik Zinciri projesinde yüzde 50, ISO 3834-2 ve MIL-STD-810 testleri pazara giriş belgesi desteğinde yüzde 50 destek alabilir; ticaret.gov.tr bu oturumda açılamadı.",
+"kaynak": "01 rapor Tablo 9.2"
+},
+{
+"ad": "Tecnove Business Group",
+"rol": "emsal",
+"not": "Marshall'ın İspanyol üretim ortağı; Marshall konteynerize sistemlerini Marshall şartnamesiyle üretiyor, üretim Eylül 2026'da başladı; MEKA'nın örnek alacağı ikinci kaynak modeli ve aynı zamanda rakibi.",
+"kaynak": "https://marshalllandsystems.com/news/marshall-land-systems-and-tecnove-business-group-strengthen-manufacturing-partnership-to-increase-defence-production-capacity"
+},
+{
+"ad": "Contour Advanced Systems ve Visser Leeuwarden",
+"rol": "emsal",
+"not": "Marshall'ın Hollanda işlerinde tasarım ve entegrasyon alt yüklenicileri; Marshall bu seçimi Hollanda ofset yükümlülüğüne bağlıyor; Türk tedarikçi için ofset engelinin örneği.",
+"kaynak": "https://marshalllandsystems.com/success-stories/nlsc-specialised-containers-for-the-royal-netherlands-army"
+},
+{
+"ad": "Alfons Haar Maschinenbau",
+"rol": "emsal",
+"not": "Bundeswehr TCK 9 tank konteynerinin ana yüklenicisi; WEW Westerwälder Eisenwerk, Schrader T&A Fahrzeugbau ve Polonyalı Acoustics ile konsorsiyum; 2027'den yılda 300 adet; birim fiyat 145 binden 290 bin avroya çıktı, yeni ihale şart; MEKA için hem emsal hem olası müşteri.",
+"kaynak": "https://esut.de/2026/06/meldungen/71783/nur-300-tankcontainer-tck-9-gebilligt/"
+},
+{
+"ad": "Baykar",
+"rol": "emsal",
+"not": "Yer kontrol istasyonu şelterlerini kendi bünyesinde üretiyor; alt yüklenici alıcısı görünmüyor.",
+"kaynak": "https://www.army-technology.com/projects/bayraktar-tb2-tactical-uav/"
+},
+{
+"ad": "Roketsan",
+"rol": "emsal",
+"not": "Standart konteyner görünümlü lançer yapıyor (konteyner başına altı ÇAKIR füzesi); fonksiyonel konteyner eğiliminin Türkiye'deki en görünür örneği.",
+"kaynak": "https://www.trthaber.com/haber/gundem/turkiyenin-surpriz-yikici-gucu-konteynerden-fuze-atimi-922074.html"
+},
+{
+"ad": "HDT Global",
+"rol": "rakip",
+"not": "ABD Ordusu sert duvarlı şelter ailesini 432,6 milyon dolara aldı (60 varyant, 15 Nisan 2024); çift genişleyebilir şelter için CSC sertifikasını 3 Haziran 2025'te duyurdu.",
+"kaynak": "https://www.hdtglobal.com/2024/04/15/hdt-awarded-432-million-contract-for-army-standard-family-of-rigid-wall-shelters/"
 },
 {
 "ad": "Rheinmetall Mobile Systeme",
@@ -2074,64 +4196,10 @@ window.MEKA_DATA = {
 "kaynak": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-17-rheinmetall-is-supplying-mobile-medical-stations-to-the-bundeswehr"
 },
 {
-"ad": "Marshall Land Systems",
-"rol": "musteri",
-"not": "22 Eylül 2026'da İspanyol Tecnove ile üretim ortaklığı ilan etti, yani dış üretim ortağı arıyor; rapor onu hem alt yüklenicilik kapısı hem yurt dışı rakip sayıyor.",
-"kaynak": "https://marshalllandsystems.com/news/marshall-land-systems-and-tecnove-business-group-strengthen-manufacturing-partnership-to-increase-defence-production-capacity"
-},
-{
 "ad": "Kärcher/CSI",
 "rol": "musteri",
 "not": "Bundeswehr saha kampı için sıhhi, çamaşır, atık su ve gözaltı konteynerleri yapıyor; CSI Çin'de de üretim yaptığı için fiyat baskısı yaratıyor.",
 "kaynak": "https://www.bundeswehr-journal.de/2024/kaercher-erwirbt-mehrheit-bei-norwegischem-hersteller-csi/"
-},
-{
-"ad": "Losberger De Boer",
-"rol": "musteri",
-"not": "NSPA için Litvanya ve Letonya'da konuşlanabilir kamp kurdu: hangar, çadır, HVAC ve konteyner, eksi 32 dereceye dayanıklı, beş ayda teslim.",
-"kaynak": "https://www.losbergerdeboer.com/global/cases/rapid-deployment-space/Deployable-camp-facilities-for-NATO/"
-},
-{
-"ad": "ASELSAN",
-"rol": "musteri",
-"not": "Radar, hava savunma ve elektronik harp sistemleri şelter, kabin ve römork gerektirir; alt yükleniciden ISO 9001, AQAP-2110 veya AS9100 uyumlu kalite sistemi ve ISO 9606-1 kaynakçı belgesi ister.",
-"kaynak": "https://aselsankonya.com/uploads/docs/tedarik/1650368675_yan-sanayi-firmalari-alt-yuklenici-gerekleri.docx.pdf"
-},
-{
-"ad": "Dorçe Prefabrik",
-"rol": "ortak_adayi",
-"not": "Ankara'da askerî konteyner, modüler kamp ve sahra hastanesi üretiyor; NCIA ihalesinde Türkiye'den aday gösterilen tek prefabrik firma, kartın ilk 90 gün görüşme listesinde.",
-"kaynak": "https://www.aa.com.tr/en/economy/dorce-prefabrik-continues-to-meet-turkish-defense-industrys-needs/2600141"
-},
-{
-"ad": "Nurol İnşaat",
-"rol": "ortak_adayi",
-"not": "NCIA veri merkezi ihalesinde Türkiye'den aday gösterilen 10 firmadan biri; rapor bu adaylara alt yüklenici olmayı giriş yollarından biri sayıyor.",
-"kaynak": "sec_containers 8.4"
-},
-{
-"ad": "STM",
-"rol": "ortak_adayi",
-"not": "NCIA veri merkezi ihalesinde Türkiye'den aday gösterilen 10 firmadan biri; rapor bu adaylara alt yüklenici olmayı giriş yollarından biri sayıyor.",
-"kaynak": "sec_containers 8.4"
-},
-{
-"ad": "NCIA",
-"rol": "kurum",
-"not": "Konteynerize veri merkezi modülleri IDIQ ihalesi (7 Mayıs 2026) 78 aday firmaya gitti, 10'u Türk; bazı görev emirleri NATO SECRET olduğu için Tesis Güvenlik Belgesi ön koşul.",
-"kaynak": "https://www.mindev.gov.gr/wp-content/uploads/2026/05/Book-I-IFB-CO-424239-Data-Center-Modules-Solicitation-Cover-Letter.pdf"
-},
-{
-"ad": "NSPA",
-"rol": "kurum",
-"not": "Konuşlanabilir kamp altyapısını tedarik edip işletiyor, 80.000 € üzeri sözleşmeleri yayımlıyor; ücretsiz Source File kaydı ve NCAGE gerekiyor.",
-"kaynak": "sec_global_demand Tablo 4.2"
-},
-{
-"ad": "Bundeswehr (BAAINBw)",
-"rol": "kurum",
-"not": "Rheinmetall'in mobil sağlık istasyonu siparişlerinin sahibi: Aralık 2024 çerçevesi 10 zırhlı ve 6 zırhsız istasyon ile 104 opsiyon, Ağustos 2026'da 149 ek istasyon.",
-"kaynak": "final_S5 1.2"
 },
 {
 "ad": "Hollanda DMO",
@@ -2140,48 +4208,103 @@ window.MEKA_DATA = {
 "kaynak": "https://marshalllandsystems.com/insights-news/marshall-wins-contract-in-excess-of-100-million-for-supply-of-military-containers-to-dutch-armed-forces"
 },
 {
-"ad": "MSB",
-"rol": "kurum",
-"not": "Konteyner ve şelter gövdesi için 5201 kapsamında yazılı sınıflandırma görüşü isteniyor; askerî konteyner ve şelter ML17 ya da ML7 sınıfına girebilir, Tesis Güvenlik Belgesinin makamı da MSB.",
-"kaynak": "sec_regulatory Tablo 6.3"
-},
-{
-"ad": "SSB",
-"rol": "kurum",
-"not": "NATO ve BM kanalında ulusal aday listesine SSB ve MSB üzerinden girilir; YETEN ve 2027 fuar desteği başvurusunun son günü 30 Eylül 2026'ydı, geçti.",
-"kaynak": "sec_containers 8.4"
-},
-{
-"ad": "Ticaret Bakanlığı",
-"rol": "kurum",
-"not": "Konteyner gövdesi prototipi Küresel Tedarik Zinciri projesinde yüzde 50 destek alabilir; ISO 3834-2 belgeleri ve MIL-STD-810 testleri pazara giriş belgesi desteğine girer.",
-"kaynak": "sec_roadmap Tablo 9.2"
-},
-{
-"ad": "Tecnove Business Group",
-"rol": "emsal",
-"not": "Marshall'ın 22 Eylül 2026'da ilan edilen İspanyol üretim ortağı; ambulans, konteyner, sahra hastanesi ve kamp üretiyor, MEKA'nın Avrupa'da karşılaşacağı alt üretici profili.",
-"kaynak": "final_S5 1.3"
-},
-{
 "ad": "Contour",
 "rol": "emsal",
 "not": "Marshall'ın Hollanda siparişlerinde alt yüklenici olan Hollandalı firma (Visser ile birlikte); alt yüklenici modelinin örneği.",
 "kaynak": "https://marshalllandsystems.com/success-stories/nlsc-specialised-containers-for-the-royal-netherlands-army"
-},
-{
-"ad": "Baykar",
-"rol": "emsal",
-"not": "Yer kontrol istasyonu şelterlerini kendi bünyesinde üretiyor, bu yüzden alt yüklenici alıcısı görünmüyor.",
-"kaynak": "https://www.army-technology.com/projects/bayraktar-tb2-tactical-uav/"
-},
-{
-"ad": "Roketsan",
-"rol": "emsal",
-"not": "Standart konteyner görünümlü lançer yapıyor (konteyner başına altı ÇAKIR füzesi); fonksiyonel konteyner eğiliminin Türkiye'deki en görünür örneği.",
-"kaynak": "https://www.trthaber.com/haber/gundem/turkiyenin-surpriz-yikici-gucu-konteynerden-fuze-atimi-922074.html"
 }
 ],
+"ekonomi": {
+"bilet": "1,1 ile 2,0 milyon avro (ilk 24 ay, Ocak 2027 ile Aralık 2028): ortak paket payı 80 ile 160 bin avro (rapor Tablo 9.2'nin beşte biri), CSC ve ISO 1496-1 testi 20 ile 50 bin, genişleyebilir prototip 150 ile 300 bin, robotik kaynak hücresi 250 ile 500 bin, ekip 180 ile 300 bin, iş geliştirme 60 ile 100 bin, işletme sermayesi 400 ile 600 bin; son altı kalem tahmin. İlk 12 ay 290 ile 550 bin avro, robot hücresi dahilse 540 ile 1.050 bin.",
+"sure_ilk_gelir": "15 ile 18 ay: prototip ve CSC onayı Haziran 2027, ilk seri sipariş Mart 2028 (rapor Tablo 9.3 18. ay); 2028'de 20 ile 40 standart gövde teslimi, gelir 0,6 ile 1,8 milyon avro.",
+"yil3": "2029: gelir 1,8 ile 7,5 milyon avro (60 ile 120 standart gövde x 30 ile 45 bin avro, 0 ile 15 genişleyebilir gövde x 90 ile 140 bin avro); brüt kâr 0,3 ile 1,6 milyon avro (brüt marj yüzde 18 ile 22).",
+"yil5": "2031: gelir 7 ile 20 milyon avro (150 ile 300 standart gövde x 32 ile 45 bin avro, 20 ile 50 genişleyebilir gövde x 100 ile 140 bin avro); brüt kâr 1,4 ile 5 milyon avro (brüt marj yüzde 20 ile 25). Üst uç iki ana yüklenicide tedarikçi konumu gerektirir.",
+"geri_odeme": "Yaklaşık 4 yıl (Ocak 2027 başlangıçla 2030 sonu). Kümülatif brüt kâr: 2028 sonu 0,1 ile 0,35, 2029 sonu 0,4 ile 1,95, 2030 sonu 1,2 ile 4,95, 2031 sonu 2,6 ile 10 milyon avro. İyi senaryoda 3 yıl (2029 sonu), kötü senaryoda 5 yıl (2031 içinde). Brüt kâr genel giderleri içermez, nakit geri ödeme 6 ile 12 ay daha uzundur.",
+"yillik_kar_potansiyeli": "Yıl 5'te 1,4 ile 5 milyon avro brüt kâr; dayanak Marshall 154 bin sterlin ve TCK 9 145 ile 290 bin avro birim fiyatlarından yüzde 25 ile 35 gövde payı, Hollanda programı ve TCK 9'un yılda 290 ile 300 adetlik program hacmi ve raporun yüzde 10 ile 25 fiyat avantajı notu.",
+"varsayimlar": "Gövde payı ana yüklenici satış fiyatının yüzde 25 ile 35'i (tahmin; Marshall 154 bin sterlin, Kamerstuk 70 ile 175 bin avro, TCK 9 145 ile 290 bin avro emsallerinden). Standart gövde maliyeti 24 ile 36 bin avro: 2,5 ile 3 ton çelik, panel, kapı, köşe dökümü, 120 ile 180 saat işçilik (tahmin). Genişleyebilir gövde maliyeti 72 ile 110 bin avro (tahmin). Brüt marj yüzde 18 ile 25, raporun lojistik sonrası yüzde 10 ile 25 fiyat avantajı notuyla uyumlu. Hacim: Hollanda 1.433 adet 5 yılda, TCK 9 yılda 300, Rheinmetall 298 konteyner 2027 ile 2029; MEKA bu programların birinde yüzde 30 ile 50 pay, ikincisinde yüzde 20 ile 30 pay alır (tahmin). Kurlar: 1 sterlin 1,17 avro, 1 Kanada doları 0,65 avro, 1 dolar 0,92 avro, 1 avro 50 TL (Ekim 2026, tahmin). Ticaret Bakanlığı destekleri bilete katılmadı, gerçekleşirse bilet 40 ile 80 bin avro düşer."
+},
+"emsaller": [
+{
+"tarih": "17 Ağustos 2026 (sipariş Temmuz 2026)",
+"taraflar": "BAAINBw (Bundeswehr) ile Rheinmetall Project Solutions; konteyner üreticisi Rheinmetall Mobile Systeme",
+"bedel": "500 milyon avro üstü, 149 mobil kurtarma istasyonu; toplam 165 adet 600 milyon avro üstü",
+"birim": "3,36 milyon avro/istasyon (iki konteyner, jeneratör, klima, tıbbi donanım, eğitim dahil); konteyner başına 1,68 milyon avro sistem fiyatı",
+"kaynak": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-17-rheinmetall-is-supplying-mobile-medical-stations-to-the-bundeswehr ; teyit https://www.janes.com/defence-intelligence-insights/defence-news/industry/bundeswehr-orders-more-mobile-rescue-stations-from-rheinmetall"
+},
+{
+"tarih": "10 Haziran 2026 (çerçeve 2021, değişiklik önerisi Nisan 2026)",
+"taraflar": "Alman Bütçe Komisyonu ve BMVg ile Alfons Haar Maschinenbau konsorsiyumu (WEW, Schrader, Acoustics)",
+"bedel": "Öneri 902 adet 263 milyon avro; onay 300 adet; 2021 çerçevesi 200 adet 29 milyon avro",
+"birim": "290 bin avro/adet (2026), 145 bin avro/adet (2021); 20 ft 9 m3 çift cidarlı paslanmaz tank, jeneratör ve pompa dahil",
+"kaynak": "https://esut.de/2026/06/meldungen/71783/nur-300-tankcontainer-tck-9-gebilligt/ ; teyit https://www.grosswald.org/bundestag-budget-committee-pauses-262-67-million-tankcontainer-procurement-price-increase/"
+},
+{
+"tarih": "17 Ocak 2025 son teslim (sözleşme 2021 civarı, tarih sayfada yok)",
+"taraflar": "MatLogCo (Hollanda Kara Kuvvetleri) ile Marshall Land Systems; alt yükleniciler Contour Advanced Systems ve Visser Leeuwarden",
+"bedel": "31 milyon sterlin, 201 konteyner, en az 12 yıl destek",
+"birim": "154 bin sterlin/konteyner (yaklaşık 180 bin avro); 20 ft ISO, ADR, sıcaklık ve nem kontrolü, yangın sistemi",
+"kaynak": "https://marshalllandsystems.com/success-stories/nlsc-specialised-containers-for-the-royal-netherlands-army ; https://marshall-landsystems.com/insights-news/marshall-land-systems-wins-contract-to-supply-specialised-containers-for-dutch-army"
+},
+{
+"tarih": "Aralık 2018 (Meclis mektubu 12 Ekim 2018)",
+"taraflar": "Hollanda DMO ile Marshall Aerospace and Defence Group (Marshall Land Systems)",
+"bedel": "100 ile 250 milyon avro yatırım (1.433 konteyner, 3.269 alt sistem; 10 yıl bakım birlikte ihale edildi, bakım gideri yatırımın dışında); Marshall 100 milyon sterlin üstü diyor",
+"birim": "Konteyner başına alt sistemler dahil, bakım hariç 70 ile 175 bin avro; konteyner payı yüzde 60 ile 70 varsayımıyla 45 ile 120 bin avro (tahmin); altı tip: iklimli ve iklimsiz depo, atölye, ofis, komuta, muhabere",
+"kaynak": "https://zoek.officielebekendmakingen.nl/kst-26396-112.pdf ; https://marshalllandsystems.com/insights-news/marshall-wins-contract-in-excess-of-100-million-for-supply-of-military-containers-to-dutch-armed-forces"
+},
+{
+"tarih": "26 Mart 2024 sözleşme listesi (HDT bülteni 15 Nisan 2024)",
+"taraflar": "ABD Ordusu Sözleşme Komutanlığı Aberdeen ile HDT Expeditionary Systems",
+"bedel": "432,605 milyon dolar, karma sabit fiyatlı IDIQ W911QY-24-D-0004, bitiş 21 Mart 2034, beş teklif",
+"birim": "Adet açıklanmadı; 60 varyant (HDT bülteni); çift genişleyebilir şelter CSC onayı 3 Haziran 2025",
+"kaynak": "https://news.clearancejobs.com/2024/03/26/general-dynamics-wins-311-million-navy-contract-to-modernize-and-repair-the-uss-bataan/ ; https://www.hdtglobal.com/2024/04/15/hdt-awarded-432-million-contract-for-army-standard-family-of-rigid-wall-shelters/"
+},
+{
+"tarih": "9 Şubat 2017",
+"taraflar": "Kanada Ulusal Savunma Bakanlığı ile Weatherhaven Global Resources",
+"bedel": "168 milyon C$, 1.435 sistem ve 338 opsiyon; destekle 350 milyon C$'a kadar",
+"birim": "117 bin C$/sistem (yaklaşık 76 bin avro); çadır esaslı, aydınlatma, zemin ve HVAC dahil; konteyner değil",
+"kaynak": "https://www.weatherhaven.com/Article?name=government-canada-acquires-new-portable-shelter-systems-weatherhaven-global-resources-ltd-wins-contracts"
+},
+{
+"tarih": "Eylül 2025 (haber 14 Ekim 2025)",
+"taraflar": "BAAINBw ile Rheinmetall Project Solutions",
+"bedel": "300 milyon avro üstü ilk çağrı, çerçeve 2040'a kadar; Role 2B zırhlı mobil sağlık tesisi, her tesis konteynerli 11 HX araç; ilk teslim 2029",
+"birim": "Adet açıklanmadı; tek haber kaynağı",
+"kaynak": "https://defence-industry.eu/rheinmetall-secures-e300-million-deal-to-supply-mobile-armoured-medical-units-for-bundeswehr/ (tek kaynak)"
+}
+],
+"cevaplar": [
+{
+"soru": "Hangi alt segmentle girilecek? Atölye ve depo konteyneri uyum 5 ve en düşük bariyer. Genişleyebilir sağlık konteyneri uyum 4, tıbbi iç donanım için ortak gerekir. Tablo 8.4.2.",
+"durum": "kismen",
+"cevap": "Web verisi standart 20 ft atölye, depo ve mühimmat deposu gövdesiyle girişi destekliyor. Hollanda programının 1.433 konteyneri altı tipte ve çoğu depo, atölye, ofis; Marshall'ın 201 adedi mühimmat deposu; TCK 9 yılda 300 adet 20 ft tank konteyneri. Bu ürünlerde gövde standart ISO çerçeve ve paneldir, tıbbi ortak gerekmez, uyum 5. Genişleyebilir sağlık gövdesi ikinci ürün olarak 2028 sonrası mantıklı: Rheinmetall üretimi 2027'de başlıyor, Role 2B teslimleri 2029'da. Kesin seçim tesis verisine (hol yüksekliği, robot hücresi) bağlı, o yüzden kısmen.",
+"kaynak": "Kamerstuk 26 396 nr. 112; Marshall NLSC vaka çalışması; esut.de 10 Haziran 2026; Rheinmetall 17 Ağustos 2026",
+"kime": "MEKA üretim müdürü, Ek A formu"
+},
+{
+"soru": "Askerî konteyner ihracat kontrolüne giriyor mu? Kart ürünlerin çoğu ihracat izni gerektirmiyor diyor. Rapor 9.2 konteyner için MSB'den 5201 kapsamında yazılı sınıflandırma görüşü istenmesini yazıyor; Tablo 10.1 ML6, ML17, ML18 gri alanlarını risk sayıyor.",
+"durum": "kismen",
+"cevap": "Wassenaar ve AB ortak askerî listesinin ML17 maddesi konteynerleri açıkça kapsar; Liverpool Üniversitesi özeti ML17'yi dalış ekipmanı, feribot ve konteyner olarak tanımlıyor. Türk Kontrole Tabi Liste WD ML'yi izliyor; MSB ihracat izin belgesi formu KTL maddesini soruyor. Dolayısıyla askerî kullanım için özel tasarlanmış konteyner izne tabidir; kartın ibaresi bu ürün için yanlıştır. Genel amaçlı ISO gövdenin kontrol dışı kalması tasarım dosyasına bağlı ve yalnız MSB yazılı görüşüyle kesinleşir. MSB KTL sayfası bu turda açılamadı.",
+"kaynak": "Liverpool Üniversitesi Military List özeti; MSB ihracat izin belgesi formu (arama sonucu, sayfa açılamadı); 01 rapor Tablo 6.3",
+"kime": "MSB Teknik Hizmetler, Savunma Sanayi Güvenliği"
+},
+{
+"soru": "Tesis verisi: 40 ft konteyner hattı için 8 m kanca yüksekliği, 12 ile 15 m montaj hattı ve en az bir robotik kaynak hücresi var mı? Tablo 7.4 bu eşikleri veriyor; Ek A formu doldurulmasını istiyor.",
+"durum": "gorusme",
+"cevap": "Web'de yok. HDT'nin CSC bülteni ortak çerçeve mimarisi ve özel çelik çerçeveyi seri üretimin anahtarı sayıyor; bu robot hücresi gereğini doğruluyor. Model robot hücresini 250 ile 500 bin avro ile bilete kattı; varsa bilet 0,9 ile 1,5 milyon avroya iner.",
+"kaynak": "HDT bülteni 3 Haziran 2025; 01 rapor Tablo 7.4",
+"kime": "MEKA üretim müdürü ve savunma iş birimi sorumlusu"
+},
+{
+"soru": "Rheinmetall Mobile Systeme, Marshall, Kärcher/CSI, Losberger ve Dorçe'den hangisi gerçekten dış tedarikçi arıyor? Marshall'ın Tecnove ortaklığı talebi gösterir; aynı kapının kapanma ihtimali de var.",
+"durum": "kismen",
+"cevap": "Marshall: evet, kapasite için dış üretici alıyor; Tecnove Eylül 2026'da üretime başladı ve 2027 boyunca sürecek; Hollanda işinde Contour ve Visser alt yüklenici, ancak ofset gereği yerli seçildi. Alfons Haar: TCK 9'u WEW, Schrader ve Polonyalı Acoustics ile konsorsiyumda yapıyor, yani yabancı alt yüklenici kullanıyor; yeni ihale 2027 penceresi. Rheinmetall: 3:1 konteyneri kendi şirketi RMS yapıyor, açık tedarikçi çağrısı yok, görüşme gerek. Kärcher/CSI: üretim Norveç ve Çin'de, fiyat odaklı. Losberger: NSPA Baltık işi ağırlıkla çadır, konteyner yan kalem. Dorçe: NCIA aday listesinde, sonuç açıklanmadı.",
+"kaynak": "Marshall Tecnove haberi 22 Eylül 2026; Marshall NLSC ve 201 konteyner haberleri; esut.de 10 Haziran 2026; Rheinmetall 17 Ağustos 2026; bundeswehr-journal 2024; Losberger vaka sayfası; NCIA 7 Mayıs 2026",
+"kime": "Marshall Industrial Operations Director Iain Gillespie; Alfons Haar satın alma; Rheinmetall Mobile Systeme"
+}
+],
+"arastirildi": true,
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_ozel",
 "kol_ad": "Özel firmalar",
@@ -2189,29 +4312,35 @@ window.MEKA_DATA = {
 "puan_kisa": "3,70",
 "butonlar": [
 {
+"dosya": "c_sav_konteyner",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.4 Konteynerize sistemler ve taktik şelterler",
 "sayfa": 28,
-"rol": "tam"
+"rol": "ana"
 }
 ],
 "puan": {
 "G": 3.0,
 "H": 3.0,
-"R": 3.0,
-"E": 3.0,
-"M": 4.0,
-"S": 3.33,
-"B": 4,
+"R": 2.33,
+"E": 2.33,
+"M": 3.67,
+"S": 3.0,
+"B": 2,
 "K": 4
 },
 "puan_not": {
-"G": "Rheinmetall 149 istasyon 500 M euro üstü; alt yüklenici brüt 2-5 M$ tahminim.",
-"H": "Tablo 9.3 ilk seri sipariş 18. ay, Mart 2028; CSC onayı ön koşul.",
-"R": "Talep belgeli, HDT 432,6 M$; Pagetel, Dorçe, Marshall yerleşik, rekabet puanı 2.",
-"E": "Rheinmetall, Marshall alt yükleniciliği; ISO 1496-1, CSC, MIL-STD-810 belgeleri gerekir.",
-"M": "C 120-B tek 40 ft konteyner santrali var; genişleme mekanizması ve hidrolik öz iş.",
-"S": "Üretim 2027'de, pencere orta; EMC ve MIL-STD-810 teknik; yurt içinde Pagetel var."
+"G": "Yıl 5 brüt kâr 1,4 ile 5 milyon avro; Marshall 154 bin sterlin kaynaklı.",
+"H": "Prototip ve CSC onayı Haziran 2027, ilk seri sipariş Mart 2028; 15 ile 18 ay.",
+"R": "Rheinmetall gövdeyi kendi yapıyor, Marshall ofset için Contour'u seçti; ML17 izin riski.",
+"E": "Hiçbir ana yüklenici Türk tedarikçi aramıyor; yabancı ana yüklenici ve ofset şart.",
+"M": "ISO 668 çerçeve ve panel Ankara sac hattında; CSC testi ve robotik kaynak eklenir.",
+"S": "Savunma geliri bağımsız; genişleyebilir şelter orta teknoloji; Rheinmetall 2027 programı tarihli."
 },
 "puan_yayilim": []
 },
@@ -8775,152 +10904,197 @@ window.MEKA_DATA = {
 "id": "enkaz",
 "baslik": "İnşaat ve yıkıntı atığından agrega, Suriye enkazı dahil",
 "bant": "ikincil",
-"puan_metni": "Üçüncü tur araştırma (16 Ekim 2026), bant önerisi ikincil: İki bulgu birbirini dengeliyor. Olumlu olan: SANA'ya göre Deir ez-Zor projesi başladı ve sahada kırıcı kullanılıyor, Sezar Yasası kalktı. Olumsuz olan: Hatay talebi açık değil, Suriye'de ödeme yapısı ve finansman belirsiz, yeni yönetmelik taslak durumunda, ürün kalitesi test edilmedi. Bir Suriye alıcısından ödeme teminatı ve bir yurt içi alıcıdan test sonucu gelirse öne çıkan banda geçebilir. Önceki not: 03 sıralaması: 10 alanda 3. sıra, sayısal puan yok. Etiketler 6-12 ay, Ar-Ge yok, yatırım düşük; 03 etiketlerin kaba tahmin olduğunu söylüyor. 03'ün haritasında gelire yakın ve potansiyeli büyük konumda. GPT kartı: kısa vadede satış önceliğinde 1., ufuk 12-24 ay; kart vadelerin hedef ufku olduğunu, satış garantisi olmadığını söylüyor. Suriye GPT kartında ayrıca \"pazar\" etiketiyle anılıyor. Belediyeler ayağı 03'te ayrı bir alan olarak 2. sırada, 0-6 ay.",
-"tarih": "16 Ekim 2026 (derin araştırma); önceki çalışma 24 Eylül 2026 ve 25 Eylül 2026",
-"ne": "Yıkımdan ve inşaattan çıkan beton, tuğla ve molozu kırıp eleyerek yol dolgusu, kaldırım taşı ve uygun olursa beton agregası üretmek. MEKA ekipmanı ve tesis paketini satar, hazır ürünler yarı mobil MCC 70 ile tekerlekli MJ 90 ve MJ 110C, sayfada ikisi MP 90 ve MP 110C diye de geçiyor. Suriye'de enkaz sahada kırıcıyla işleniyor ve Deir ez-Zor'da SANA'ya göre bunun için proje 10 Eylül 2026'da başladı, kırıcı markası belli değil.",
-"neden": "MEKA'da kırma, eleme ve metal ayırma ekipmanı hazır, yeni ürün geliştirmek gerekmiyor. Türkiye'de deprem enkazı 200 milyon tondan fazla ve Dünya Bankası Suriye'nin yeniden inşa maliyetini 216 milyar dolar görüyor. Bu çalışma Hatay'ın 500 ton/saat tesisinin açık talep değil, tamamlanmış bir bağış projesi olduğunu buldu, bu yüzden satış yolu özel işletmeciler, belediye iştirakleri ve Suriye'deki işletmeciler üzerinden kurulmalı.",
+"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi ikincil: Ekonomi modeli artık kaynaklı: KAP sipariş bedelleri 0,65 ile 2,19 milyon euro, konsolide brüt marj yüzde 21 ile 24, bilet 0,1 ile 0,8 milyon dolar, yıl 5 brüt kâr 0,9 ile 3,1 milyon dolar, geri ödeme 12 ile 36 ay. MEKA uyumu tam, ürün ve tesis hazır. Buna rağmen öne çıkan banda geçmiyor çünkü talep kanıtı eksik: Suriye'de ödeme yapısı tek yayıncılı ve belirsiz, BM ihaleleri yerel yüklenicilere iş ihalesi olarak çıkıyor ve makine alımı ihalesi bulunamadı, Hatay bitmiş proje, yurt içinde ürün testi yok. Bir avanslı sipariş ya da akredite test sonucu gelirse öne çıkan banda geçer. Önceki çalışmanın kendi puanı: Üçüncü tur araştırma (16 Ekim 2026), bant önerisi ikincil: İki bulgu birbirini dengeliyor. Olumlu olan: SANA'ya göre Deir ez-Zor projesi başladı ve sahada kırıcı kullanılıyor, Sezar Yasası kalktı. Olumsuz olan: Hatay talebi açık değil, Suri…",
+"tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 24 Eylül 2026 ve 25 Eylül 2026",
+"ne": "Yıkımdan ve inşaattan çıkan beton, tuğla ve molozu kırıp eleyerek yol dolgusu, kaldırım taşı ve uygun olursa beton agregası üretmek. MEKA bu işte kendi Sincan tesisinde ürettiği MCC 70 yarı mobil kırma tesisini, tekerlekli MP 90 ve MP 110C tesislerini, hat üstü mıknatıslı ayırıcıyı ve isteğe bağlı üç katlı eleği satar; ürün hazırdır, yeni ürün geliştirme gerekmez. Alıcılar yurt içinde belediye iştirakleri ve özel saha işletmecileri, Suriye'de Deir ez-Zor'daki gibi işletmeciler, Gazze ve Ukrayna'da BM ya da bağışçı finansmanlı yükleniciler. Bu turda ilk kez kaynaklı birim fiyat bulundu: MEKA'nın KAP'a bildirdiği kırma eleme tesisi siparişleri 651.700 euro ile 2.190.000 euro arasında.",
+"neden": "MEKA'nın konsolide brüt kâr marjı 2025 yılında yüzde 21,5 ve 2026 ilk yarısında yüzde 24,3; kırma eleme tesisi siparişleri 0,65 ile 2,19 milyon euro. Bu iki kaynaklı rakamla ünite başına 0,16 ile 0,60 milyon dolar brüt kâr çıkıyor. Talep tarafında Türkiye'de 200 milyon tondan fazla deprem enkazına karşılık yıllık geri dönüşüm kapasitesi yaklaşık 1 milyon ton, Suriye'de Deir ez-Zor projesi 8 milyon metreküp hedefliyor, Gazze'de 57,5 milyon ton enkaz için UNDP 2025'te 5 kırıcı çalıştırdı ve AB 15 milyon euro verdi. Bilet küçüktür çünkü ürün ve tesis hazır; ilk 24 ay harcaması 0,1 ile 0,8 milyon dolar. Geri ödeme bir ile üç yıl. Zayıf nokta: Suriye'de ödeme yapısı hâlâ belirsiz ve kırıcı alımı için açık bir BM ihalesi bulunamadı, BM ihaleleri yerel yüklenicilere iş ihalesi olarak çıkıyor.",
 "rakamlar": [
 {
-"deger": "216 milyar dolar",
-"aciklama": "Dünya Bankası merkez tahmini ile Suriye'nin yeniden inşa maliyeti. Aralık 140 ile 345 milyar dolar. Konut 75, konut dışı yapılar 59, altyapı 82 milyar dolar. Doğrudan hasar 108 milyar dolar.",
-"kaynak": "resmi https://www.worldbank.org/en/news/press-release/2025/10/21/syria-s-post-conflict-reconstruction-costs-estimated-at-216-billion sayfa doğrulama turunda açıldı, rakamlar doğrulandı"
+"deger": "651.700 euro",
+"aciklama": "Meka İthalat İhracat'ın yurt dışı yerleşik bir şirketten 29 Temmuz 2026'da aldığı kırma eleme tesisi siparişi. KAP bildirimi PDF olarak açıldı. Bu çalışmada birim fiyat alt sınırı.",
+"kaynak": "resmi https://kap.org.tr/tr/api/BildirimPdf/1638385 sayfa açıldı"
 },
 {
-"deger": "570 bin ton",
-"aciklama": "UNDP REVIVE projesi Halep, Deir ez-Zor, Humus ve Şam Kırsalı'nda 570 bin ton enkaz kaldırıyor. Sayfa işi sürüyor diye anlatıyor. 1.300'den fazla kişi nakit karşılığı çalıştı, 6.000'den fazla aile bireyi destek aldı. Sayfada bağışçı adı yok. Bir arama özeti UNDP blogunda Kore Cumhuriyeti ortaklığının anıldığını yazıyor. 03'teki rakam doğrulandı.",
-"kaynak": "resmi https://news.un.org/en/story/2026/08/1168136 sayfa açıldı"
+"deger": "1.670.000 euro",
+"aciklama": "Meka İthalat İhracat'ın yurt dışı yerleşik şirketten 7 Nisan 2026'da aldığı kırma eleme tesisi siparişi, KAP metni haberde aynen aktarılmış.",
+"kaynak": "haber https://www.hisse.net/haber/meka-global-mekag-16-milyon-euroluk-siparisi-acikladi-73006 sayfa açıldı, KAP aktarımı"
 },
 {
-"deger": "15 bin m³ enkaz ve 123 bin yapı ürünü",
-"aciklama": "UNDP Suriye blogu, 22 Temmuz 2026. İki ayrı arama özeti 15 bin m³'ten fazla enkazın geri dönüştürüldüğünü ve 123 binden fazla inşaat ürünü çıktığını yazıyor. Aynı özet onlarca milyon ton enkazın kaldığını da yazıyor. Ürün türü ve kalite bilgisi yok. Sayfa 403 verdi, rakamlar doğrudan doğrulanamadı.",
-"kaynak": "resmi https://www.undp.org/syria/blog/clearing-way-syrias-recovery arama özeti, sayfa 403 verdi"
+"deger": "2.190.000 euro KDV hariç, yüzde 50 avans",
+"aciklama": "Meka Global'in yurt içi yerleşik şirketten 28 Temmuz 2025'te aldığı kırma eleme tesisi siparişi. Avans oranı ödeme modeli için emsal.",
+"kaynak": "haber https://paratic.com/mekaga-dev-siparis-yuzde-50-avansla-basladi/ sayfa açıldı, KAP aktarımı"
+},
+{
+"deger": "758.600 euro",
+"aciklama": "Meka İthalat İhracat'ın yurt dışı firmadan 19 Şubat 2026'da aldığı kırma eleme tesisi siparişi.",
+"kaynak": "haber https://paratic.com/meka-globalden-758-bin-euroluk-yeni-siparis/ sayfa açıldı, KAP aktarımı"
+},
+{
+"deger": "Yüzde 21,5 ve yüzde 24,3",
+"aciklama": "MEKA konsolide brüt kâr marjı. 2025 yılı: satış 3.386,3 milyon TL, brüt kâr 728,9 milyon TL. 2026 ilk altı ay: satış 1.504,4 milyon TL, brüt kâr 366,3 milyon TL. Enflasyon düzeltmeli TFRS. Sütun eşlemesi çıkarım, tek kaynak. Dönem net zararı 2026 ilk yarıda 60,4 milyon TL.",
+"kaynak": "rapor https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=MEKAG sayfa açıldı, tek kaynak, KAP verisinin aktarımı"
+},
+{
+"deger": "768.790 dolar",
+"aciklama": "UNDP Filistin, Han Yunus ve Refah'ta saha hazırlığı ve enkaz kırma, Lot 3. Sözleşme tarihi 26 Şubat 2025, referans UNDP-PAL-00311, yüklenici Farid Baroud & Partners Co. Enkaz kırma için bulunan tek kaynaklı BM sözleşme bedeli.",
+"kaynak": "resmi https://www.ungm.org/Public/ContractAward/146335 sayfa açıldı"
+},
+{
+"deger": "664.878,60 dolar ve 554.400 dolar",
+"aciklama": "UNDP Filistin, Vadi Gazze kuzeyinde yollardan ve binalardan enkaz kaldırma, Paket 3 ve Paket 4. Sözleşme tarihleri 2 Haziran 2026 ve 26 Mayıs 2026, referans UNDP-PAL-00453. Yükleniciler Skills and Quality Construction (Paket 3) ve Handala Company for Engineering (Paket 4).",
+"kaynak": "resmi https://www.ungm.org/Public/ContractAward/156745 ve https://www.ungm.org/Public/ContractAward/156572 sayfalar açıldı"
+},
+{
+"deger": "57,5 milyon ton, 225 bin ton, 5 kırıcı",
+"aciklama": "UNDP Gazze enkaz durum raporu, Aralık 2025. Toplam enkaz metinde 57,5, grafikte 57,6 milyon ton. 2025'te 225 bin ton toplandı, 91 km yol açıldı, 77 ağır makine seferber edildi, bunun 5'i kırıcı, 30'u yükleyici, 28'i kamyon.",
+"kaynak": "resmi https://www.undp.org/sites/g/files/zskgke326/files/2025-12/dm_situation_report-december_2025.pdf dosya açıldı"
+},
+{
+"deger": "15 milyon euro, 18 ay",
+"aciklama": "UNDP ve AB'nin Gazze'de enkaz kaldırma, işleme ve yeniden kullanım projesi, Temmuz 2026. UNDP sayfası 403 verdi, haber sitesinden alındı.",
+"kaynak": "haber https://news.fundsforngos.org/2026/07/13/undp-and-european-union-launch-e15-million-project-to-support-debris-management-and-recovery-efforts-in-gaza/ sayfa açıldı ; resmi https://www.undp.org/arab-states/press-releases/undp-and-european-union-launch-new-project-support-debris-management-and-nationally-led-forensics-capacities-gaza-strip açılamadı"
+},
+{
+"deger": "10 milyon dolar, 570 bin ton",
+"aciklama": "Kore Cumhuriyeti'nin UNDP REVIVE projesine ayırdığı pay ve kaldırılan enkaz, 15 Haziran 2026 tarihli ortak açıklama. Toplam Kore katkısı 38 milyon dolar. Ton başına 17,5 dolar, hesapla bulundu; kırma payı ayrılmamış. Eylül 2025 başlangıç hedefi 550 bin ton.",
+"kaynak": "resmi https://www.unicef.org/syria/press-releases/republic-korea-and-united-nations-mark-culmination-phase-one-reviving-hope-restoring sayfa açıldı ; resmi https://syria.un.org/sites/default/files/2025-09/PRESS%20RELEASE_ROK%20Joint%20Launch%20Event_30092025_Final.pdf dosya açıldı"
 },
 {
 "deger": "8 milyon m³, günde 15.000 m³, 18 ay",
-"aciklama": "Deir ez-Zor kentinde tahmini 10 milyon m³ enkazın 8 milyonu hedefleniyor. Günlük kaldırma kapasitesi hedefi 15.000 m³ ve süre 18 ay. Şu an günde 1.800 ile 3.000 m³ kaldırılıyor, haber bunu pilot aşama diye veriyor. Sahada kırıcı kullanılıyor, marka yok. Yürütücünün başkanı ürünün farklı boyutlarda agrega olduğunu söylüyor. Haberde sözleşme, finansman, bağışçı ve Türk ya da yabancı firma yok. Bu bir hedef, imzalı sözleşme değil.",
-"kaynak": "haber https://sana.sy/en/syria/2344891/ tek yayıncı, sayfa açıldı"
+"aciklama": "Deir ez-Zor Fecr el-Fırat projesi. Kent enkazı tahmini 10 milyon m³. Pilot aşamada günde 1.800 ile 3.000 m³. Kırıcı sahada, marka yok. Zoom Investment Holding Group enkazı ücretsiz kaldırıyor; Ocak 2026 UNDP kampanyası 75 bin ton kaldırdı. Tek yayıncı.",
+"kaynak": "haber https://sana.sy/en/syria/2344891/ ve https://sana.sy/en/syria/2341843/ sayfalar açıldı, tek yayıncı"
 },
 {
-"deger": "550 bin m³",
-"aciklama": "Suriye Sivil Savunması ve Acil Durum Yönetimi Bakanlığı ortak işinde ülke çapında 550 bin m³'ten fazla enkaz işlendi ya da kaldırıldı, haber ikisini de yazıyor. Dönem belli değil. Daraya ve Douma için 75 bin m³ kaldırma hedefi var, 35 bini geri dönüşümde. Haber 8 Ocak 2026 tarihli.",
-"kaynak": "haber https://syrianobserver.com/?p=99080 Al-Modon aktarımı, sayfa açıldı, yayıncı içeriği doğrulamadı"
+"deger": "4,8 milyon dolar, 16 Ağustos 2023, Şubat 2025",
+"aciklama": "Japonya'nın Hatay ve Kahramanmaraş enkaz projesine desteği, protokol tarihi ve Altınözü tesisinin işletmeye alınması. Tesis endüstriyel kırıcılar, manyetik ayırıcılar ve bantlı taşıyıcılarla donatılmış, Japon teknolojisi kullanılmış. Türkiye'nin yıllık geri dönüşüm kapasitesi yaklaşık 1 milyon ton, enkaz 200 milyon tondan fazla. UNDP sayfaları 403 verdi, 700 milyon yen arama özetinden.",
+"kaynak": "haber https://www.ekonomigazetesi.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik-56661 sayfa açıldı ; resmi https://www.undp.org/turkiye/news/undp-launches-model-facility-recycle-earthquake-debris-hatay açılamadı"
 },
 {
-"deger": "500 ton/saat",
-"aciklama": "Hatay Altınözü model tesisi, Şubat 2025. Yıllık kapasite 1 milyon tondan biraz fazla. Ürün asfalt yol dolgusu ve kaldırım taşı. Yazı çimentoda kullanım için araştırma yapıldığını da yazıyor.",
-"kaynak": "haber https://www.ekonomim.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik/836865 sayfa açıldı"
+"deger": "389.942 sterlin",
+"aciklama": "Aberdeenshire Council'ın Balmedie ocağı için mobil konik kırıcı alımı, sözleşme 16 Şubat 2024'te Molson Scotland Ltd ile imzalandı, ilan 12 Mart 2024, 3 teklif. Avrupa'da kamu alımı için kaynaklı tek ünite fiyatı.",
+"kaynak": "resmi https://www.find-tender.service.gov.uk/Notice/007814-2024 sayfa açıldı"
 },
 {
-"deger": "700 milyon yen, yaklaşık 4,83 milyon dolar",
-"aciklama": "Japonya'nın Hatay ve Kahramanmaraş projesine verdiği bütçe. Ekonomim yazısı 4,8 milyon dolar yazıyor. İki tesis ve üç mobil kırıcı arama özetinde var. İki asbest dedektörü ve 20 bin koruyucu ekipman doğrulanamadı. Kalem bazında bütçe dağılımı bulunamadı.",
-"kaynak": "resmi https://www.undp.org/tr/node/506161 sayfa 403 verdi, arama özeti ; haber https://www.ekonomim.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik/836865 4,8 milyon dolar için"
+"deger": "570.000 euro ve 5.950.413 Çek korunası",
+"aciklama": "Sassari Belediyesi mobil kırıcı alımı ve bakımı ihalesi, 17 Haziran 2025, tahmini bedel. Litoměřice teknik hizmetleri mobil kırma ünitesi, 29 Nisan 2025 ve 5 Ağustos 2025'te iki kez ilan, tahmini bedel. İkisi de sonuç bekliyor. TED aktarımı.",
+"kaynak": "diger https://bidsonar.com/contracts/392297-2025 ve https://bidsonar.com/contracts/514679-2025 sayfalar açıldı, TED aktarımı"
 },
 {
-"deger": "200 milyon tondan ve 100 milyon m³'ten fazla",
-"aciklama": "Deprem enkazının UNDP araştırmasına atfedilen büyüklüğü, yazıda fazla diye geçiyor. Ekonomim yazısı aktarıyor.",
-"kaynak": "haber https://www.ekonomim.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik/836865 sayfa açıldı"
+"deger": "50 bin ton, 800 bin euroya kadar",
+"aciklama": "Neo-Eco'nun Hostomel'de geri dönüştürdüğü enkaz ve değeri, Kyiv Independent, Aralık 2023. Ton başına 16 euro, hesapla. Ürün kullanılmadan bekliyor. Rubryka Mart 2023'te dört haftada 15 bin ton yazıyor. Toplam proje bütçesi Interfax'a göre 45 milyon euro, Kyiv Independent'a göre bağışçılardan 30 milyon euro toplandı.",
+"kaynak": "haber https://kyivindependent.com/reconstruction-in-kyiv-suburb-sabotaged-by-local-officials-discouraging-foreign-investors/ ; haber https://rubryka.com/en/2023/03/28/pererobka-budsmittya-u-gostomeli/ ; haber https://en.interfax.com.ua/news/general/875067-amp.html sayfalar açıldı"
 },
 {
-"deger": "498 bin ton/yıl",
-"aciklama": "Eskişehir Büyükşehir Tepebaşı tesisinin kurulu kapasitesi. Aralık 2017 ile Ekim 2023 arasında yaklaşık 1 milyon ton kabul, yaklaşık 340 bin ton agrega.",
-"kaynak": "resmi https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24 belediye yaprağı çalışmasında doğrulandı"
-},
-{
-"deger": "110, 200 ve 340 ton/saat",
-"aciklama": "MEKA MJ 70, MJ 90 ve MJ 110C çeneli kırıcı üst sınırları, 1,6 ton/m³ malzeme için. Sayfa MCC 70 tesisi için ayrı kapasite vermiyor ve MJ 70'in MCC 70 içinde olduğunu yazmıyor. Sayfa MJ 90 ve MJ 110C tesislerini MP 90 ve MP 110C diye de adlandırıyor.",
-"kaynak": "firma https://www.mekaglobal.com/en/products/crushing-screening-plants/recycling-technologies/construction-and-demolition-waste-recycling sayfa açıldı"
-},
-{
-"deger": "6 tesis ve 8 saha",
-"aciklama": "İzmir Büyükşehir listesinde inşaat ve yıkıntı atığı geri kazanım tesisi 6, hafriyat toprağı depolama sahası 8. Tesislerden 5'i özel işletmeci.",
-"kaynak": "resmi https://www.izmir.bel.tr/tr/AcrdIcerik/93/1 belediye yaprağı çalışmasında doğrulandı"
+"deger": "216 milyar dolar",
+"aciklama": "Dünya Bankası, Suriye yeniden inşa maliyeti merkez tahmini, 21 Ekim 2025. Sayfa yeniden açıldı.",
+"kaynak": "resmi https://www.worldbank.org/en/news/press-release/2025/10/21/syria-s-post-conflict-reconstruction-costs-estimated-at-216-billion sayfa açıldı"
 }
 ],
-"durum": "Hatay'daki 500 ton/saat tesis açık talep değil, UNDP ile Çevre Bakanlığı'nın Japonya parasıyla kurup 4 Şubat 2025'te tanıttığı bitmiş bir proje. Deir ez-Zor'daki 8 milyon m³ hedefli proje yalnız SANA haberlerine dayanıyor ve haberde yürütücü olarak Zoom Investment Holding Group geçiyor, uyruğu ve finansmanı belli değil. Sezar Yasası Aralık 2025'te kalktı ama Türkiye Müteahhitler Birliği Başkanı, ödeme güvenliği ve yaptırım netliği gibi eşikler aşılmadan büyük ölçekli finansmanlı projelerden söz etmenin gerçekçi olmayacağını söylüyor. Yurt içinde yürürlükteki metin 2004 tarihli ve bakanlığın dosya sunucusunda Mart 2026 tarihli bir taslak dosyası görünüyor, taslağın durumu doğrulanamadı. Bant ikincil kalıyor, çünkü ne Suriye'de ödeme yapısı ne yurt içinde ürün testi henüz kanıtlandı.",
+"durum": "Bu turda ekonomi modeli ilk kez kaynaklı rakamla kuruldu. MEKA'nın KAP bildirimlerine göre kırma eleme tesisi siparişleri 651.700 ile 2.190.000 euro arasında ve konsolide brüt marj yüzde 21 ile 24 arasında; buradan ünite başı 0,16 ile 0,60 milyon dolar brüt kâr çıkıyor. Talep tarafında üç program var: Deir ez-Zor'da 8 milyon metreküp hedef ama finansman ve ödeme yapısı yalnız SANA'dan ve belirsiz; Gazze'de UNDP 2025'te 5 kırıcıyla 225 bin ton topladı, enkaz kırma için 768.790 dolarlık bir sözleşme imzaladı ve AB 15 milyon euro verdi, ama ihaleler yerel yüklenicilere iş ihalesi olarak çıkıyor, makine alımı ihalesi bulunamadı; Türkiye'de kapasite yılda 1 milyon ton ve enkaz 200 milyon tondan fazla, Hatay tesisi bitmiş bağış projesi. Emsal işlemler listesi artık dolu: UNGM'de üç UNDP sözleşmesi, İskoçya'da bir kamu kırıcı alımı, İtalya ve Çekya'da iki ihale ve Üsküp'te AB finansmanlı bir inşaat atığı kırıcı ihalesi. Bant ikincil kalıyor; öne çıkan banda geçiş için Zoom ya da bir UNDP yüklenicisinden avanslı sipariş ve yurt içinde akredite test sonucu gerekiyor.",
 "acik_sorular": [
 "Kısmen cevaplandı: Suriye'de işveren kim: BM, Suriye kamu kurumları ya da Türk müteahhitler? Ödeme ve yaptırım uyumu nasıl sağlanacak?",
 "Kısmen cevaplandı: Hatay'daki 500 ton/saat tesis talebinin alıcısı, bütçesi ve takvimi nedir?",
-"Görüşme gerekir: Karma molozdan çıkan ürün hazır beton agregası şartnamesini karşılıyor mu? Hangi test gerekli? (Akredite agrega laboratuvarı ve hedef beton santrali alıcısı. İsim bulunamadı, MEKA kalite ekibi seçmeli.)",
-"Görüşme gerekir: MEKA'nın mevcut inşaat atığı tesisi referanslarının işletme sonuçları ve marjı ne? (MEKA satış, proje ve finans ekipleri, iç görüşme.)",
-"Görüşme gerekir: Belediyelere daha önce satış oldu mu? (MEKA iç satış kayıtları. Giresun Belediyesi Fen İşleri Müdürlüğü, belediye yaprağı çalışmasındaki numara 444 40 28.)",
+"Görüşme gerekir: Karma molozdan çıkan ürün hazır beton agregası şartnamesini karşılıyor mu? Hangi test gerekli? (Akredite agrega laboratuvarı ve hedef beton santrali alıcısı; MEKA kalite ekibi seçmeli. Hedef önce yol ve yapısal olmayan beton olmalı.)",
+"Kısmen cevaplandı: MEKA'nın mevcut inşaat atığı tesisi referanslarının işletme sonuçları ve marjı ne?",
+"Görüşme gerekir: Belediyelere daha önce satış oldu mu? (MEKA iç satış kayıtları. Giresun Belediyesi Fen İşleri Müdürlüğü, 444 40 28.)",
+"Kısmen cevaplandı: Hafriyat ve inşaat atığı için yeni yönetmelik yürürlükte mi?",
 "Kısmen cevaplandı: Suriye'de enkaz miktarı ve yeniden inşa maliyeti ne kadar?"
 ],
 "adimlar": [
 {
-"adim": "Zoom Investment Holding Group ve Deir ez-Zor Şehir Meclisi ile tanışmak. Pilot aşamanın makine ihtiyacını ve ödeme yapısını sormak. Akreditif ya da peşin ödeme olmadan teklif vermemek.",
+"adim": "KAP sipariş bedelleri ve konsolide marjla kurulan ekonomi modelini MEKA'nın iç ürün marjıyla doğrulamak. MCC 70, MP 90 ve MP 110C için fiyat listesi, maliyet ve geri dönüşüm referans listesi çıkarmak.",
+"kim": "MEKA finans ve satış, Mehmet Bey onayı, öneri",
+"ne_zaman": "31 Ekim 2026'ya kadar"
+},
+{
+"adim": "Zoom Investment Holding Group, Deir ez-Zor Şehir Meclisi ve UNDP Suriye REVIVE ofisiyle tanışmak. Pilot aşamanın günde 1.800 ile 3.000 m³ kapasitesi için 1 ile 2 ünite teklifi hazırlamak. Yüzde 50 avans ve akreditif olmadan teklif vermemek.",
 "kim": "MEKA ihracat satışı ve Mehmet Bey, öneri",
-"ne_zaman": "Tanışma talebi Ekim 2026 sonunda, görüşme Kasım 2026"
+"ne_zaman": "Tanışma Kasım 2026, teklif Aralık 2026"
 },
 {
-"adim": "Yurt içinde beşer görüşme yapmak: Egeşehir, Haydar Madencilik, Saka Beton, Eskişehir Büyükşehir, İSTAÇ ve Hatay'da UNDP ile Bakanlık. Besleme, alıcı, saha ve ton başına maliyeti doğrulamak.",
-"kim": "MEKA satış ekibi, öneri",
-"ne_zaman": "25 Ekim 2026'ya kadar, GPT kartının 30 günlük penceresi"
+"adim": "UNGM'de tedarikçi kaydını tamamlamak ve UNDP Filistin, UNDP Suriye ve UNDP Türkiye'nin enkaz ihalelerini izlemek. Gazze'de kırma ihalesi alan yerel yüklenicilere ekipman tedarikçisi olarak ulaşmak.",
+"kim": "MEKA proje ve satış, öneri",
+"ne_zaman": "Kayıt Kasım 2026, sürekli izleme"
 },
 {
-"adim": "Gerçek moloz numunesiyle MCC 70 ve MP 90 deneyi yapmak. Çıktının granülometri, su emme ve kirlilik değerlerini akredite laboratuvarda ölçtürmek. Hedefi seçmek: yol dolgusu mu, beton agregası mı.",
+"adim": "Gerçek moloz numunesiyle MCC 70 ve MP 90 deneyi yapmak; granülometri, su emme ve kirlilik değerlerini akredite laboratuvarda ölçtürmek. İlk hedef yol dolgusu ve yapısal olmayan beton, beton agregası ikinci aşama.",
 "kim": "MEKA proses ve kalite ekibi, öneri",
 "ne_zaman": "Kasım ve Aralık 2026"
 },
 {
-"adim": "UNDP Türkiye ve Çevre Yönetimi Genel Müdürlüğü ile görüşmek. Hatay modelinin tekrarlanıp tekrarlanmayacağını, tedarik kayıtlarını ve BM tedarikçi kaydı şartlarını öğrenmek.",
-"kim": "MEKA proje ve satış, öneri",
-"ne_zaman": "Kasım 2026"
+"adim": "Yurt içinde beşer görüşme: Egeşehir, Haydar Madencilik, Saka Beton, Eskişehir Büyükşehir, İSTAÇ ve Hatay'da Bakanlık. Üsküp ihalesinin TED sonucunu ve Avrupa belediye ihalelerini izlemek.",
+"kim": "MEKA satış ekibi, öneri",
+"ne_zaman": "Aralık 2026 sonuna kadar"
 },
 {
-"adim": "Resmî Gazete ve bakanlık taslak sayfasını izlemek. 12 Ağustos 2027'de yürürlüğe girecek yıkım hükümlerine göre belediye ve müteahhit teklif paketini hazırlamak.",
-"kim": "MEKA mevzuat ve satış, öneri",
-"ne_zaman": "Sürekli, kritik tarih 12 Ağustos 2027"
-},
-{
-"adim": "30 günlük doğrulama sonunda geri ödeme, net proje marjı ve tekrar satılabilirliği karşılaştırıp bant kararını yeniden vermek.",
-"kim": "Mehmet Bey ve yönetim, GPT kartının önerisi",
-"ne_zaman": "Ekim 2026 sonu"
+"adim": "Yurt içi ve Suriye ödeme yapısı, test sonucu ve ilk avanslı sipariş bir arada değerlendirilip bant kararını yenilemek. Demo ünite yatırımına ancak avanslı sipariş görünürse karar vermek.",
+"kim": "Mehmet Bey ve yönetim, öneri",
+"ne_zaman": "Ocak 2027"
 }
 ],
 "riskler": [
-"Suriye'de ödeme ve yaptırım riski sürüyor. Sezar Yasası kalktı ama Suriye devlet medyasının aktardığına göre Esad ve yakın çevresi, insan hakları ihlalcileri ve Captagon kaçakçıları yaptırım altında kalıyor. Arama özetlerine göre ABD Suriye'yi terör destekçisi devletler listesinden 24 Ağustos 2026'da çıkardı, sayfa açılmadı. Türkiye Müteahhitler Birliği Başkanı, bu eşikler aşılmadan büyük ölçekli finansmanlı projelerden söz etmenin gerçekçi olmayacağını söylüyor.",
-"Suriye talebi tek kaynaklı. 8 milyon m³ hedefi yalnız SANA haberlerinde. Finansman, makine markası ve sözleşme şartları yok. Alıcı olabilecek holdingin uyruğu ve ödeme gücü bilinmiyor.",
-"Hatay talebi sanıldığı gibi açık değil. Tesis hazır ve yeni ihale bulunamadı. Belediyeler çoğunlukla sahayı kiralıyor, alıcı özel işletmeci olunca fiyat baskısı yüksek.",
-"Ürün kalitesi ve mevzuat belirsiz. Hatay çıktıları yol dolgusu ve kaldırım taşı. Beton agregası için ek ayırma ve test gerekeceği bir çıkarım. Mart 2026 tarihli bir yönetmelik taslağı dosyası var, durumu ve atık statüsü kuralı bilinmiyor.",
-"Rakip ve fiyat verisi yok. Mobil kırıcıda uluslararası ve yerli üreticiler var. Bu turda isimli rakip, fiyat ve pazar payı bulunamadı."
+"Suriye'de ödeme ve finansman riski sürüyor. Zoom enkazı ücretsiz kaldırıyor, gelir modeli ve bağışçı belli değil; SANA tek yayıncı. Sezar Yasası kalktı ama akreditif kanalı bulunamadı. Olasılık yüksek, etki yüksek; azaltma: yüzde 50 avans ve akreditif şartı, MEKA'nın yurt içi emsali.",
+"BM ihaleleri makine değil iş ihalesi. UNDP Filistin'in enkaz kırma sözleşmeleri 554 bin ile 769 bin dolar arasında yerel yüklenicilere gidiyor; MEKA ancak yüklenicinin tedarikçisi olabilir. Olasılık yüksek, etki orta; azaltma: UNGM kaydı ve yüklenici listesi.",
+"Birim fiyat ve marj verisi konsolide. KAP siparişleri ürün karışımını vermiyor, marj tüm şirketin; inşaat atığı ünitesinin marjı daha düşük olabilir. 2026 ilk yarıda net zarar var. Olasılık orta, etki orta; azaltma: iç marj doğrulaması.",
+"Türkiye'de talep belediyenin değil işletmecinin. Hatay tesisi bitti, kapasite yılda 1 milyon ton, yeni ihale yok; belediyeler sahayı kiralıyor. Olasılık yüksek, etki orta; azaltma: işletmeci odaklı satış ve kiralama seçeneği.",
+"Ürün kalitesi ve mevzuat. MEKA'nın kendi sayfası karma yıkıntı ürününün agrega kalitesinin düşük olduğunu ve ek ayırma gerektiğini yazıyor; yönetmelik taslağı belirsiz. Olasılık orta, etki orta; azaltma: önce yol ve yapısal olmayan beton hedefi, akredite test.",
+"Yerel yönetim ve saha riski. Hostomel'de Neo-Eco 50 bin ton ürünü kullanamadan projeyi bıraktı, askeri idareyle anlaşmazlık yüzünden. Benzer risk Suriye'de geçerli. Olasılık orta, etki orta; azaltma: makine satışı ve servisle sınırlı kalmak, işletmeciliğe girmemek."
 ],
 "kapilar": {
 "yatirim": "sirket",
-"butce": 1,
-"butce_not": "Doğrudan satışta yeni yatırım yok. İlk 12 ile 24 ayda test, laboratuvar, ziyaret ve temsilci için yaklaşık 50 ile 150 bin dolar, tahmin. Demo ya da kiralık makine veya satıcı finansmanı gerekirse 2. dilime çıkar, tahmin. UNDP Hatay projesinin tamamı yaklaşık 4,8 milyon dolar, kaynaklı, ama ekipman payı bilinmiyor.",
+"butce": 2,
+"butce_not": "Tam giriş bileti, ilk 24 ay toplam 0,1 ile 0,8 milyon dolar. Kalemler: test, laboratuvar, ziyaret, UNGM kaydı ve temsilci 100 ile 200 bin dolar, tahmin; isteğe bağlı bir MCC 70 sınıfı demo ya da kiralık ünite üretim maliyeti 0,55 ile 0,58 milyon dolar, kaynaklı 651.700 euroluk sipariş bedelinden yüzde 76 ile 79 maliyet oranıyla hesaplandı, oran MEKA konsolide marjından. İlk 12 ay harcaması 0,1 ile 0,7 milyon dolar: demo ünite ilk yıl yapılırsa üst sınır, yapılmazsa 100 bin dolar civarı. Önceki dilim 1'di; demo ünite ve kaynaklı maliyetle dilim 2'ye çıktı. Demo yapılmazsa dilim 1'de kalır.",
 "yol": "ikisi",
-"yol_not": "Yurt içinde MEKA doğrudan satar ve tesis paketini kurar. Alıcı belediye iştiraki ya da özel işletmeci. Suriye'de Zoom gibi bir işletmeci, temsilci ve Türk müteahhit kanalı gerekir. Ürün MEKA'nın olduğu için yatırım kapısı şirket, sahada MEKA makinesi şart."
+"yol_not": "Yurt içinde MEKA doğrudan satar ve tesisi Sincan'da üretir; alıcı belediye iştiraki ya da özel saha işletmecisi. Suriye ve Gazze'de ortak gerekir: Zoom gibi işletmeci, UNDP yüklenicisi ya da Türk müteahhit kanalı; MEKA makine ve servis verir, işletmeciliğe girmez. Yatırım kapısı şirket, çünkü ürün ve tesis MEKA'nın; kişisel yatırımın yeri yok."
 },
 "takvim": [
 {
+"tarih": "26 Şubat 2025",
+"olay": "UNDP Filistin, Han Yunus ve Refah enkaz kırma sözleşmesi, 768.790 dolar.",
+"kaynak": "resmi https://www.ungm.org/Public/ContractAward/146335",
+"iso": "2025-02-26"
+},
+{
+"tarih": "26 Mayıs 2026 ve 2 Haziran 2026",
+"olay": "UNDP Filistin, Vadi Gazze kuzeyi enkaz kaldırma paketleri, 554.400 ve 664.878,60 dolar.",
+"kaynak": "resmi https://www.ungm.org/Public/ContractAward/156572 ve https://www.ungm.org/Public/ContractAward/156745",
+"iso": "2026-05-26"
+},
+{
+"tarih": "17 Ağustos 2026",
+"olay": "UNDP Filistin enkaz yönetimi ihalesi UNDP-PAL-00524 teklif süresi doldu; sonuç UNGM'de bekleniyor.",
+"kaynak": "resmi https://www.ungm.org/Public/Notice/309210",
+"iso": "2026-08-17"
+},
+{
 "tarih": "10 Eylül 2026",
-"olay": "Deir ez-Zor Valiliği Fecr el-Fırat enkaz projesini Şehir Meclisi ve Zoom ile işbirliği içinde başlattı. Pilot aşama günde 1.800 ile 3.000 m³.",
-"kaynak": "haber https://sana.sy/en/syria/2344891/",
+"olay": "Deir ez-Zor Fecr el-Fırat projesi başladı, 18 ay.",
+"kaynak": "haber https://sana.sy/en/syria/2341843/",
 "iso": "2026-09-10"
 },
 {
-"tarih": "25 Ekim 2026",
-"olay": "GPT kartının 30 günlük doğrulama penceresinin sonu. Beşer görüşme, test ve maliyet, yatırım kararı.",
-"kaynak": "iç belge, GPT kartı 25 Eylül 2026, tarih hesapla bulundu",
-"iso": "2026-10-25"
+"tarih": "30 Eylül 2026",
+"olay": "Üsküp Belediyesi AB IPA finansmanlı inşaat atığı mobil çeneli kırıcı ihalesi teklif süresi doldu; TED sonucu izlenmeli.",
+"kaynak": "resmi https://skopje.gov.mk/media/12141/td1-rc-c3_summarycn_en-f.pdf",
+"iso": "2026-09-30"
+},
+{
+"tarih": "Ocak 2028",
+"olay": "UNDP ve AB Gazze enkaz projesinin 18 aylık süresi dolar; Temmuz 2026 başlangıcından hesapla.",
+"kaynak": "haber https://news.fundsforngos.org/2026/07/13/undp-and-european-union-launch-e15-million-project-to-support-debris-management-and-recovery-efforts-in-gaza/",
+"iso": "2028-01-15"
 },
 {
 "tarih": "12 Ağustos 2027",
-"olay": "Binaların Yıkılması Hakkında Yönetmelik değişikliğinin diğer hükümleri, bina yıkıntı atığı ve seçici yıkım tanımları dahil, yürürlüğe girer.",
-"kaynak": "resmi https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm sayı 33338, doğrulama turunda açıldı",
+"olay": "Binaların Yıkılması Hakkında Yönetmelik değişikliğinin diğer hükümleri yürürlüğe girer.",
+"kaynak": "resmi https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm önceki turda açıldı",
 "iso": "2027-08-12"
 },
 {
 "tarih": "10 Mart 2028",
-"olay": "Deir ez-Zor projesinin 18 aylık hedef süresi dolar. 10 Eylül 2026 başlangıcından hesapla bulundu.",
+"olay": "Deir ez-Zor projesinin 18 aylık hedef süresi dolar, hesapla.",
 "kaynak": "haber https://sana.sy/en/syria/2344891/",
 "iso": "2028-03-10"
-},
-{
-"tarih": "Mart 2026",
-"olay": "Bakanlığın dosya sunucusunda hafriyat toprağı ve inşaat yıkıntı atıkları yönetimi yönetmeliği taslağı dosyası görünüyor. Dosya adında 13 ve 17 Mart 2026 var. Görüşe açılma tarihi ve yürürlük tarihi doğrulanamadı.",
-"kaynak": "resmi https://webdosya.csb.gov.tr/v2/cygm/2026/03/HTIYAYYonTslk20260313-20260317140904.docx arama özeti, dosya açılamadı",
-"iso": "2026-03-15"
 }
 ],
 "kaynaklar": [
@@ -8962,102 +11136,225 @@ window.MEKA_DATA = {
 "sayfa": 1
 }
 ],
-"kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 üçüncü tur: 7 açık sorunun 1'i cevaplandı, 3'i kısmen, 0'i kapandı, 3'i görüşme gerektiriyor. Arama hakkı 12 aramada bitti. 15 sayfa denemesinin 7'si okundu. UNDP iki sayfası ve ENR 403 verdi. Bakanlık taslak dosyası ve Turkish Minute sertifika hatası verdi. rpra.ca 404 verdi. Crown Agents bağlantı hatası verdi. Doğrulama turunda Dünya Bankası, SANA, BM Haber, Ekonomim, Syrian Observer, Para Dergi, MEKA, bakanlık yönetmelikler sayfası ve Resmî Gazete sayfaları açıldı ve düzeltmeler bunlara göre yapıldı. UNDP sayfası yine 403 verdi. UNDP Hatay tarihleri ve bütçesi, UNDP Suriye blogu rakamları, Sezar Yasası sonrası yaptırımlar, ABD terör destekçisi listesi durumu, Şam Havalimanı anlaşmasının niteliği ve taslak dosyasının içeriği arama özetinden alındı, sayfaları açılmadı. Doğrulama turunda arama hakkı bitti. Bulunamadı: Suriye için resmi toplam enkaz tonajı, Türkiye yıllık inşaat yıkıntı atığı, agrega ve geri dönüşüm agregası fiyatı, isimli rakipler ve fiyatları, Hatay tesisinin tedarikçisi, yeni yönetmelik metni, TS EN 12620 metni, Suriye ödeme mekanizması, Zoom'un uyruğu ve finansmanı.",
-"kanit": 3,
+"kapsam": "tam",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 12 arama, 35 sayfa; 7 açık sorunun 0'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 15 sayfa açtı, güven 4/5. WebFetch aracı bu oturumda DNS hatası verdi; sayfalar curl ile proxy üzerinden indirilip metne çevrildi, içerik aynı şekilde okundu. UNDP'nin kendi sayfaları 403 verdi; Hatay 700 milyon yen, REVIVE faz 2 18,95 milyon dolar ve Gazze 61 milyon ton rakamları arama özetinden ya da ikincil sitelerden. MEKA brüt marjı İş Yatırım şirket kartından tek kaynak; sütun dönem eşlemesi çıkarım, enflasyon düzeltmeli ve konsolide, ürün bazında değil. KAP sipariş bedelleri ürün konfigürasyonunu vermiyor; MCC 70 fiyatı doğrudan bulunamadı. BM sözleşmelerinde tonaj yok; yüklenici adları UNGM'de var. Sassari, Litoměřice ve Üsküp ihaleleri sonuçlanmamış, bedeller tahmini; Üsküp bedeli bulunamadı. Deir ez-Zor rakamları tek yayıncı SANA. Türkiye'de agrega ve geri dönüştürülmüş agrega fiyatı, Giresun ihale sonucu ve yönetmelik taslağı metni bulunamadı. Ünite sayıları, kur ve demo ünite maliyeti tahmindir. Dosya yazılmadı, başka yaprağa dokunulmadı.",
+"kanit": 4,
 "web": [
 {
-"url": "https://www.worldbank.org/en/news/press-release/2025/10/21/syria-s-post-conflict-reconstruction-costs-estimated-at-216-billion",
-"ne": "Dünya Bankası, Suriye yeniden inşa maliyeti 216 milyar dolar. Sayfa doğrulama turunda açıldı, rakamlar doğrulandı.",
+"url": "https://www.ungm.org/Public/ContractAward/146335",
+"ne": "UNDP Filistin, Lot 3 enkaz kırma sözleşmesi, 768.790 dolar, 26 Şubat 2025, yüklenici Farid Baroud & Partners Co. Açıldı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.ungm.org/Public/ContractAward/156745",
+"ne": "UNDP Filistin, Paket 3, 664.878,60 dolar, 2 Haziran 2026, yüklenici Skills and Quality Construction. Açıldı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.ungm.org/Public/ContractAward/156572",
+"ne": "UNDP Filistin, Paket 4, 554.400 dolar, 26 Mayıs 2026, yüklenici Handala Company for Engineering. Açıldı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.ungm.org/Public/ContractAward/134698",
+"ne": "BM Sekretaryası, Deir ez-Zor katı atık taşıma, 131.200 dolar, 8 Şubat 2023. Açıldı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.ungm.org/Public/Notice/299950",
+"ne": "UNDP Filistin enkaz yönetimi ihalesi UNDP-PAL-00476, 5 Mayıs 2026, son gün 14 Mayıs 2026. Açıldı, bedel yok.",
+"tur": "resmi"
+},
+{
+"url": "https://www.ungm.org/Public/Notice/309210",
+"ne": "UNDP Filistin enkaz yönetimi ihalesi UNDP-PAL-00524, 30 Temmuz 2026, son gün 17 Ağustos 2026. Açıldı, bedel yok.",
+"tur": "resmi"
+},
+{
+"url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-12/dm_situation_report-december_2025.pdf",
+"ne": "UNDP Gazze enkaz durum raporu Aralık 2025: 57,5 milyon ton, 225 bin ton toplandı, 5 kırıcı. Dosya açıldı.",
+"tur": "resmi"
+},
+{
+"url": "https://kap.org.tr/tr/api/BildirimPdf/1638385",
+"ne": "KAP, Meka 651.700 euroluk kırma eleme siparişi, 29 Temmuz 2026. PDF açıldı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.hisse.net/haber/meka-global-mekag-16-milyon-euroluk-siparisi-acikladi-73006",
+"ne": "Meka 1.670.000 euroluk sipariş, 7 Nisan 2026, KAP metni aktarılmış. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://paratic.com/mekaga-dev-siparis-yuzde-50-avansla-basladi/",
+"ne": "Meka yurt içi 2.190.000 euro KDV hariç, yüzde 50 avans, 28 Temmuz 2025. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://paratic.com/meka-globalden-758-bin-euroluk-yeni-siparis/",
+"ne": "Meka 758.600 euroluk sipariş, 19 Şubat 2026. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://www.borsagundem.com.tr/meka-globalden-6517-bin-euroluk-siparis",
+"ne": "Aynı 651.700 euroluk siparişin haberi. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://www.yatirimx.com.tr/sirket-haberleri/mekag-imzayi-atti-11-milyon-dolarlik-beton-santrali-anlasmasi/20228",
+"ne": "Meka 4 beton santrali 1.178.000 dolar, 7 Mayıs 2026; karşılaştırma için. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://borsacoo.com/firma/MEKAG/bildirimler",
+"ne": "MEKAG KAP bildirim listesi: 715 bin euro 3 beton santrali 2 Eylül 2026, Libya Misurata şube, 2026 ilk yarı faaliyet raporu. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=MEKAG",
+"ne": "MEKAG gelir tablosu: 2025 satış 3.386,3 milyon TL ve brüt kâr 728,9 milyon TL; 2026 ilk yarı 1.504,4 ve 366,3 milyon TL. Açıldı, sayfa kısmen yüklendi, tek kaynak.",
+"tur": "rapor"
+},
+{
+"url": "https://www.find-tender.service.gov.uk/Notice/007814-2024",
+"ne": "Aberdeenshire mobil konik kırıcı sözleşme ilanı, 389.942 sterlin, 12 Mart 2024, yüklenici Molson Scotland Ltd. Açıldı.",
+"tur": "resmi"
+},
+{
+"url": "https://bidsonar.com/contracts/392297-2025",
+"ne": "Sassari mobil kırıcı ihalesi 570 bin euro, TED aktarımı. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://bidsonar.com/contracts/514679-2025",
+"ne": "Litoměřice mobil kırma ünitesi 5.950.413 Çek korunası, TED aktarımı. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://bidsonar.com/contracts/280237-2025",
+"ne": "Litoměřice ilk ilan, 29 Nisan 2025. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://skopje.gov.mk/media/12141/td1-rc-c3_summarycn_en-f.pdf",
+"ne": "Üsküp AB IPA inşaat atığı mobil çeneli kırıcı ihale özeti, son gün 30 Eylül 2026. Dosya açıldı.",
+"tur": "resmi"
+},
+{
+"url": "https://syria.un.org/sites/default/files/2025-09/PRESS%20RELEASE_ROK%20Joint%20Launch%20Event_30092025_Final.pdf",
+"ne": "Kore ve BM 38 milyon dolar, REVIVE 550 bin ton hedefi, 30 Eylül 2025. Dosya açıldı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.unicef.org/syria/press-releases/republic-korea-and-united-nations-mark-culmination-phase-one-reviving-hope-restoring",
+"ne": "Faz 1 tamamlandı, REVIVE 10 milyon dolar, 570 bin ton, 15 Haziran 2026. Açıldı.",
 "tur": "resmi"
 },
 {
 "url": "https://news.un.org/en/story/2026/08/1168136",
-"ne": "BM Haber, 16 Ağustos 2026. UNDP REVIVE, 570 bin ton enkaz, Halep geri dönüşüm tesisi.",
+"ne": "BM Haber, REVIVE 570 bin ton, Halep geri dönüşüm tesisi. Yeniden açıldı.",
 "tur": "resmi"
-},
-{
-"url": "https://www.undp.org/syria/blog/clearing-way-syrias-recovery",
-"ne": "UNDP Suriye blogu, 22 Temmuz 2026. Sayfa 403 verdi, rakamlar arama özetinden.",
-"tur": "resmi"
-},
-{
-"url": "https://sana.sy/en/syria/2344891/",
-"ne": "SANA, 22 Eylül 2026. Deir ez-Zor Fecr el-Fırat projesi, 8 milyon m³ hedef, Zoom Investment Holding Group. Sayfa açıldı.",
-"tur": "haber"
 },
 {
 "url": "https://sana.sy/en/syria/2341843/",
-"ne": "SANA, 10 Eylül 2026. Projenin başlangıç haberi. Arama özeti, sayfa açılmadı.",
+"ne": "SANA 10 Eylül 2026, Deir ez-Zor projesi başladı, Zoom ücretsiz kaldırıyor, ürün türleri, UNDP 75 bin ton. Bu turda açıldı.",
 "tur": "haber"
 },
 {
-"url": "https://syrianobserver.com/?p=99080",
-"ne": "Syrian Observer, 8 Ocak 2026. Sivil Savunma ve Acil Durum Yönetimi Bakanlığı enkaz geri dönüşümü. Sayfa açıldı.",
+"url": "https://sana.sy/en/syria/2344891/",
+"ne": "SANA 22 Eylül 2026, 8 milyon m³, günde 15.000 m³, pilot 1.800 ile 3.000 m³. Yeniden açıldı.",
 "tur": "haber"
 },
 {
-"url": "https://english.enabbaladi.net/archives/2025/12/trump-signs-repeal-of-caesar-sanctions-law/",
-"ne": "Enab Baladi, Aralık 2025. Sezar Yasası kaldırıldı. Arama özetinden alındı, sayfa açılmadı.",
-"tur": "haber"
-},
-{
-"url": "https://sanctionsnews.bakermckenzie.com/us-rescinds-syrias-state-sponsor-of-terrorism-designation-and-delists-hayat-tahrir-al-sham/",
-"ne": "Baker McKenzie, ABD'nin Suriye'yi terör destekçisi devletler listesinden çıkarması. Arama özeti, sayfa açılmadı.",
-"tur": "rapor"
-},
-{
-"url": "https://www.paradergi.com.tr/is-dunyasi-kulis/2026/02/16/suriyeyi-korfez-sermayesiyle-biz-insa-edelim",
-"ne": "Para Dergi, 16 Şubat 2026. TMB Başkanı Erdal Eren, Suriye için koşullar. Sayfa açıldı.",
-"tur": "haber"
-},
-{
-"url": "https://www.undp.org/turkiye/news/undp-launches-model-facility-recycle-earthquake-debris-hatay",
-"ne": "UNDP Türkiye, Hatay model tesisi duyurusu. Sayfa 403 verdi, bilgi arama özetinden.",
+"url": "https://www.worldbank.org/en/news/press-release/2025/10/21/syria-s-post-conflict-reconstruction-costs-estimated-at-216-billion",
+"ne": "Dünya Bankası 216 milyar dolar. Yeniden açıldı.",
 "tur": "resmi"
 },
 {
-"url": "https://www.ekonomim.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik/836865",
-"ne": "Ekonomim, 14 Ağustos 2025. Altınözü tesisi 500 ton/saat, 200 milyon tondan fazla enkaz, teşvik notu. Sayfa açıldı.",
+"url": "https://www.ekonomigazetesi.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik-56661",
+"ne": "Hatay projesi: 16 Ağustos 2023 protokol, 4,8 milyon dolar, Altınözü Şubat 2025, Japon teknolojisi, kapasite yılda 1 milyon ton, enkaz 200 milyon ton. Açıldı.",
 "tur": "haber"
 },
 {
-"url": "https://cygm.csb.gov.tr/yonetmelikler-i-440",
-"ne": "Çevre Yönetimi Genel Müdürlüğü yönetmelikler sayfası. Yalnız 2004 tarihli Kontrolü Yönetmeliği görünüyor. Sayfa açıldı.",
-"tur": "resmi"
+"url": "https://www.ekonomigazetesi.com/sektor-haberleri/agrega-ihtiyaci-icin-geri-donusturulmus-urun-tesvik-edilmeli-23570",
+"ne": "Agrega kıtlığı ve geri dönüşüm teşviki, MEKA Beton kurucusu Mehmet Kaybal'ın 250 milyon ton açıklaması. Açıldı.",
+"tur": "haber"
 },
 {
-"url": "https://webdosya.csb.gov.tr/v2/cygm/2026/03/HTIYAYYonTslk20260313-20260317140904.docx",
-"ne": "Yönetim yönetmeliği taslağı dosyası, Mart 2026. Sertifika hatası nedeniyle metin açılamadı.",
-"tur": "resmi"
+"url": "https://www.dunya.com/gundem/6-subat-depreminden-kalan-200-milyon-ton-yikintiya-ne-olacak-haberi-748191",
+"ne": "SKD Türkiye, 200 milyon ton yıkıntı, İstanbul senaryosu 25 milyon ton. Açıldı.",
+"tur": "haber"
 },
 {
-"url": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm",
-"ne": "Resmî Gazete, 12 Ağustos 2026, sayı 33338. Binaların Yıkılması Hakkında Yönetmelikte Değişiklik. Sayfa doğrulama turunda açıldı.",
-"tur": "resmi"
+"url": "https://www.capital.com.tr/haberler/tum-haberler/deprem-bolgesindeki-100-milyon-ton-enkaza-geri-donusumculer-talip-oldu",
+"ne": "GEKADER, 100 milyon ton kütle, Mart 2023. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://kyivindependent.com/reconstruction-in-kyiv-suburb-sabotaged-by-local-officials-discouraging-foreign-investors/",
+"ne": "Neo-Eco Hostomel: 50 bin ton, 800 bin euro, 30 milyon euro bağış, proje durdu. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://en.interfax.com.ua/news/general/875067-amp.html",
+"ne": "Neo-Eco Hostomel 45 milyon euro bütçe, 310 aile, numune testi, 28 Kasım 2022. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://rubryka.com/en/2023/03/28/pererobka-budsmittya-u-gostomeli/",
+"ne": "Hostomel'de dört haftada 15 bin ton, yüzde 90 sahada işlendi. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://news.fundsforngos.org/2026/07/13/undp-and-european-union-launch-e15-million-project-to-support-debris-management-and-recovery-efforts-in-gaza/",
+"ne": "AB ve UNDP Gazze 15 milyon euro, 18 ay. Açıldı.",
+"tur": "haber"
 },
 {
 "url": "https://www.mekaglobal.com/en/products/crushing-screening-plants/recycling-technologies/construction-and-demolition-waste-recycling",
-"ne": "MEKA inşaat atığı tesisleri sayfası. Kapasiteler, mıknatıs, elek seçeneği, kullanım alanları. Standart ya da müşteri referansı yok, iki proje referansı yalnız ülke adıyla.",
+"ne": "MEKA MCC 70, MP 90, MP 110C; 110, 200 ve 340 ton/saat; karma yıkıntı ürün kalitesi notu. Yeniden açıldı.",
 "tur": "firma"
 },
 {
-"url": "https://www.enr.com/articles/62264-qatar-led-consortium-signs-on-for-4b-rebuild-and-expansion-of-damascus-airport",
-"ne": "ENR, Şam Havalimanı konsorsiyumu. Sayfa 403 verdi, bilgi arama özetinden.",
-"tur": "haber"
+"url": "https://www.undp.org/turkiye/news/undp-launches-model-facility-recycle-earthquake-debris-hatay",
+"ne": "UNDP Hatay duyurusu. Açılamadı, 403.",
+"tur": "resmi"
 },
 {
-"url": "https://guest.meed.com/ucc-led-consortium-wins-4bn-syria-airport-redevelopment/",
-"ne": "MEED, Şam Havalimanı anlaşması. Arama özeti, sayfa açılmadı.",
-"tur": "haber"
+"url": "https://www.undp.org/arab-states/press-releases/republic-korea-and-united-nations-launch-phase-ii-humanitarian-and-early-recovery-initiatives-syria",
+"ne": "REVIVE faz 2, 18,95 milyon dolar, Ağustos 2026. Açılamadı, 403, arama özeti.",
+"tur": "resmi"
 },
 {
-"url": "https://acikerisim.bartin.edu.tr/handle/11772/6377",
-"ne": "Bartın Üniversitesi çalışması. Geri dönüştürülmüş agrega oranı arttıkça harç dayanımı düşüyor. Arama özetinden alındı, doğrulanamadı.",
+"url": "https://www.undp.org/arab-states/press-releases/undp-and-european-union-launch-new-project-support-debris-management-and-nationally-led-forensics-capacities-gaza-strip",
+"ne": "UNDP AB Gazze duyurusu, 61 milyon ton. Açılamadı, 403.",
+"tur": "resmi"
+},
+{
+"url": "https://www.jobs.ps/en/tenders/safe-undp-6-2026-15851.html",
+"ne": "Norveç finansmanlı Gazze enkaz kırma ve yol ihalesi, Ağustos 2026. Açılamadı, 403, arama özeti.",
 "tur": "diger"
+},
+{
+"url": "https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi",
+"ne": "Giresun konkasör ilanı. Bu turda açılamadı, 403.",
+"tur": "haber"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm",
+"ne": "Resmî Gazete 33338, yıkım yönetmeliği. Önceki turda açıldı, bu turda açılmadı.",
+"tur": "resmi"
 }
 ],
 "celiskiler": [
+"Önceki çalışma ünite fiyatını 0,6 ile 1,2 milyon dolar ve marjı yüzde 15 ile 25 diye tahmin etmişti. KAP siparişleri 0,65 ile 2,19 milyon euro, yani 0,73 ile 2,45 milyon dolar; konsolide marj yüzde 21,5 ile 24,3. Alt sınır tutuyor, üst sınır ve marj tahminden yüksek çıktı.",
+"Önceki bütçe dilimi 1'di. Demo ünite maliyeti kaynaklı sipariş bedelinden hesaplanınca ilk 24 ay harcaması 0,8 milyon dolara çıkabiliyor; dilim 2 oldu. Demo yapılmazsa dilim 1 geçerli.",
+"Önceki çalışma Zoom'u müşteri sayıyordu. SANA 10 Eylül 2026 haberine göre Zoom enkazı ücretsiz kaldırıyor; gelir kaynağı belli değil, bu ödeme gücü sorusunu büyütüyor.",
+"Önceki çalışma Hatay tesisinin tedarikçisini bulamamıştı. Ekonomi Gazetesi yazısı tesiste Japon teknolojisi kullanıldığını yazıyor; marka yine yok ama Japon tedarikçi olasılığı MEKA'nın bu projede olmadığını güçlendiriyor.",
+"UNDP REVIVE hedefi Eylül 2025 belgesinde 550 bin ton, Haziran 2026 ve Ağustos 2026 belgelerinde 570 bin ton; fark raporlama tarihinden, iki rakam da resmi.",
+"Hostomel tonajı kaynaklara göre değişiyor: Rubryka Mart 2023'te 15 bin ton, Kyiv Independent Aralık 2023'te 50 bin ton; ikincisi beş bloğun tamamını kapsıyor olabilir, çıkarım.",
+"UNDP Gazze sayfaları toplam enkazı Temmuz 2026'da 61 milyon ton yazıyor, Aralık 2025 raporu 57,5 milyon ton; fark zaman farkından.",
+"UNDP Aralık 2025 durum raporu toplam enkazı metinde 57,5, grafikte 57,6 milyon ton yazıyor; aradaki fark yuvarlama.",
 "GPT kartı Hatay'daki 500 ton/saat tesisi somut talep diye veriyor. Ekonomim yazısı ve UNDP kaynakları bunun Şubat 2025'te tanıtılmış, bitmiş bir bağış projesi olduğunu gösteriyor. Açık talep ya da ihale bulunamadı.",
 "03 Suriye için ilk adım olarak Türk müteahhitleri öneriyor. Deir ez-Zor projesinde yürütücü Zoom Investment Holding Group ve haberde isimli Türk firma yok. Türkiye Müteahhitler Birliği Başkanı ise bu eşikler aşılmadan büyük ölçekli finansmanlı projelerden söz etmenin gerçekçi olmayacağını söylüyor.",
 "Süre etiketleri ayrışıyor. 03 Suriye için 6 ile 12 ay, GPT kartı 12 ile 24 ay diyor. Müteahhit birliği açıklaması ve ödeme belirsizliği daha uzun süreyi destekliyor.",
@@ -9072,6 +11369,18 @@ window.MEKA_DATA = {
 "03'ün ilk adımı Türk müteahhitler. Ama 03'ün Suriye talep örnekleri resmî ajans haberi ve BM temizliği; GPT kartı da Suriye'yi ülke olarak sektör sıralamasından ayrı ele alın diyor. İşveren kim sorusu açık."
 ],
 "degisiklikler": [
+"20 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
+"Ünite başı brüt kâr aralığı düzeltildi: KAP aralığı 0,73 ile 2,45 milyon dolar çarpı yüzde 21,5 ile 24,3 marj 0,16 ile 0,60 milyon dolar eder, 0,15 ile 0,45 değil (neden ve durum).",
+"Demo ünite maliyeti düzeltildi: 651.700 euro çarpı 1,12 çarpı 0,76 ile 0,79 eşittir 0,55 ile 0,58 milyon dolar, 0,5 ile 0,55 değil (kapilar, ekonomi, calisma_md).",
+"Bilet ilk 24 ay 0,1 ile 0,8 milyon dolar yapıldı: alt sınır 100 bin dolarlık geliştirme kalemi, üst sınır 200 bin dolar artı düzeltilmiş demo maliyeti; ilk 12 ay 0,1 ile 0,7 milyon dolar (neden, kapilar, ekonomi, bant_gerekcesi, celiskiler, calisma_md).",
+"Yıl 2 brüt kârı üst sınırı 3 çarpı 1,2 çarpı 0,243 eşittir 0,87 milyon dolar, 0,86 değil; birikimli yıl 2 kârı 0,17 ile 1,17 milyon dolar, 1,15 değil; üst senaryo geri ödeme 18 yerine 20 ay civarı (ekonomi, calisma_md).",
+"UNGM sözleşmelerinde yüklenici adları sayfada var: Farid Baroud & Partners Co. (Lot 3), Skills and Quality Construction (Paket 3), Handala Company for Engineering (Paket 4). 'Yüklenici adı sayfada yok' ifadeleri düzeltildi (rakamlar, emsaller, firmalar, web, sinirlar, calisma_md).",
+"Aberdeenshire kaydına sayfadaki sözleşme tarihi 16 Şubat 2024 ve yüklenici Molson Scotland Ltd eklendi; 12 Mart 2024 ilan tarihi olarak kaldı (rakamlar, emsaller, firmalar, web, calisma_md).",
+"Avrupa belediye kırıcı bandı 0,4 ile 0,6 milyon euro yanlıştı: Litoměřice 5,95 milyon Çek korunası yaklaşık 0,25 milyon euro; bant yaklaşık 0,25 ile 0,6 milyon euro, kur tahmini diye işaretlendi (calisma_md).",
+"UNDP Aralık 2025 raporunda toplam enkaz metinde 57,5, grafikte 57,6 milyon ton; iki rakam da not edildi, 57,5 korundu (rakamlar, celiskiler, calisma_md).",
+"Yönetmelik sorusunun etiketi 'cevaplandi' yerine 'kismen' yapıldı: kaynak sayfalar bu turda açılmadı ve taslak metni bulunamadı.",
+"Sezar Yasası cümlesine kaynak olarak önceki tur notu [36] eklendi; kaynaksız kalmıştı.",
+"Doğrulanan ve değişmeyen rakamlar: KAP 651.700 euro (PDF), 1.670.000 euro (hisse.net), 2.190.000 euro KDV hariç yüzde 50 avans ve 758.600 euro (paratic), İş Yatırım 2025 satış 3.386,3 ve brüt kâr 728,9 milyon TL, 2026 ilk yarı 1.504,4 ve 366,3 milyon TL ve 60,4 milyon TL net zarar, UNGM 768.790, 664.878,60 ve 554.400 dolar ve tarihleri, Aberdeenshire 389.942 sterlin ve 3 teklif, Sassari 570 bin euro ve Litoměřice 5.950.413 Çek korunası ile tarihleri, UNDP Gazze 225 bin ton, 91 km, 77 makine ve 5 kırıcı, UNICEF REVIVE 10 milyon dolar, 570 bin ton, 10 km, 4.300 iş, 15 Haziran 2026, SANA 8 ve 10 milyon m³, günde 15.000 m³, 18 ay, pilot 1.800 ile 3.000 m³, ücretsiz kaldırma, 75 bin ton, ürün türleri, kişi adları. Kur 1,12 dolar/euro paratic sayfasındaki 20 Ekim 2026 göstergesiyle uyumlu.",
 "16 Ekim 2026 üçüncü tur: 12 arama, 7 sayfa okundu. Doğrulayıcı güven 4/5.",
 "Zoom Investment Holding Group için yerel sıfatı kaldırıldı, SANA uyruğunu belirtmiyor. Durum, neden, riskler, yol notu ve çelişkiler alanlarında düzeltildi.",
 "Deir ez-Zor projesi için gerçek bir proje ifadesi yumuşatıldı. Bilgi yalnız SANA haberlerinden geliyor, bağımsız teyit yok.",
@@ -9119,60 +11428,165 @@ window.MEKA_DATA = {
 ],
 "guven": 4,
 "ekonomi": {
-"bilet": "Doğrudan satışta 50 ile 150 bin dolar, tahmin. Demo makine eklenirse 300 ile 800 bin dolar daha, tahmin. MEKA fiyat listesi bu çalışmada yok. Kaynaklı ölçek: UNDP Hatay projesinin tamamı yaklaşık 4,8 milyon dolar.",
-"sure_ilk_gelir": "Yurt içinde teklif ile sipariş arası 3 ile 9 ay, ilk gelir 6 ile 12 ay, tahmin. Suriye'de işletmeciye pilot satış 3 ile 9 ay, finanse büyük proje 12 ile 24 ay, tahmin. Teslim süresi için tek kaynaklı veri var: Giresun ilanında en geç 60 gün.",
-"yillik_kar_potansiyeli": "Yılda 3 ile 6 ünite, ünite başı 0,6 ile 1,2 milyon dolar satış ve yüzde 15 ile 25 brüt marj varsayımıyla 0,3 ile 1,8 milyon dolar brüt kâr, tahmin. Yedek parça ve servis geliri hesaba katılmadı.",
-"varsayimlar": "Fiyat ve marj tahmin, MEKA verisi yok. Deir ez-Zor hedefi günde 15.000 m³. Yoğunluk 1,6 ton/m³ alınırsa günde 24.000 ton, 10 saatlik vardiyada 2.400 ton/saat. MEKA sayfasındaki 340 ton/saat üst sınırdır. Gerçek verim üst sınırın yüzde 60 ile 70'i, yani 204 ile 238 ton/saat varsayılırsa tek vardiyada pilot aşama yaklaşık 1 ile 2 büyük ünite, tam hedef yaklaşık 10 ile 12 ünite eşdeğeri eder, iki vardiyada yarısı, tahmin. Hesap tek kaynaklı hedefe dayanır."
+"bilet": "İlk 24 ay 0,1 ile 0,8 milyon dolar. Geliştirme, test, ziyaret ve temsilci 100 ile 200 bin dolar, tahmin. İsteğe bağlı demo ünite 0,55 ile 0,58 milyon dolar maliyet; dayanak KAP'taki 651.700 euroluk sipariş bedeli ve yüzde 21 ile 24 konsolide marj, kur 1,12 dolar/euro. Alt sınır demo yapılmayan senaryo.",
+"sure_ilk_gelir": "Yurt içinde 6 ile 12 ay; dayanak MEKA'nın yurt içi siparişinde yüzde 50 avans uygulaması, teslim süresi tahmin. Suriye'de işletmeciye pilot satış 9 ile 15 ay, tahmin; Deir ez-Zor 18 aylık takvimi 10 Mart 2028'de bitiyor. BM yüklenicisi üzerinden Gazze 12 ile 24 ay, tahmin; AB projesi 18 ay sürecek.",
+"yil3": "Gelir 2,4 ile 7,2 milyon dolar: yılda 3 ile 6 ünite, ünite başı 0,8 ile 1,2 milyon dolar. Ünite fiyatı KAP sipariş aralığının 0,73 ile 2,45 milyon dolarlık içinde seçildi, tek mobil geri dönüşüm ünitesi için alt yarı, tahmin. Brüt kâr 0,5 ile 1,7 milyon dolar, marj yüzde 21 ile 24, MEKA konsolide, kaynaklı.",
+"yil5": "Gelir 4,3 ile 12,8 milyon dolar: yılda 5 ile 10 ünite, ünite başı 0,8 ile 1,2 milyon dolar, artı kurulu parkın yedek parça ve servisi 0,3 ile 0,8 milyon dolar, tahmin. Brüt kâr 0,9 ile 3,1 milyon dolar, marj yüzde 21 ile 24, kaynaklı.",
+"geri_odeme": "12 ile 36 ay. Yıl 1'de 0 ile 1 ünite, yıl 2'de 1 ile 3 ünite; birikimli brüt kâr yıl 2 sonunda 0,17 ile 1,17 milyon dolar, bilet 0,1 ile 0,8 milyon dolar. Demo ünite satılırsa maliyeti geri döner ve geri ödeme 12 aya iner; hiç Suriye satışı olmazsa 36 ayı aşar.",
+"yillik_kar_potansiyeli": "Yıl 5'te 0,9 ile 3,1 milyon dolar brüt kâr; dayanak KAP'taki 651.700 ile 2.190.000 euroluk kırma eleme tesisi siparişleri ve MEKA'nın yüzde 21,5 ile 24,3 konsolide brüt marjı, ünite sayısı tahmin.",
+"varsayimlar": "Kaynaklı: ünite fiyat aralığı KAP siparişleri 651.700, 758.600, 1.670.000 ve 2.190.000 euro; marj İş Yatırım şirket kartı 2025 yüzde 21,5 ve 2026 ilk yarı yüzde 24,3, tek kaynak; Deir ez-Zor günde 15.000 m³ hedef ve pilot 1.800 ile 3.000 m³, SANA tek yayıncı; Gazze 5 kırıcı ile 225 bin ton, UNDP; Türkiye kapasitesi yılda 1 milyon ton, Ekonomi Gazetesi. Tahmin: kur 1,12 dolar/euro, 20 Ekim 2026 piyasa göstergesi; yoğunluk 1,6 ton/m³ MEKA sayfasından; verim üst sınırın yüzde 60 ile 70'i; ünite sayıları; yedek parça payı; demo ünite maliyeti. Ölçek: pilot aşama 1 ile 2 ünite, tam hedef 10 ile 12 MP 110C eşdeğeri tek vardiyada. Gazze'de UNDP'nin kırma sözleşmesi 768.790 dolar, yüklenici alımı için tavan sayıldı."
 },
 "arastirildi": true,
 "firmalar": [
 {
 "ad": "UNDP Türkiye",
 "rol": "kurum",
-"not": "Hatay Altınözü ve Kahramanmaraş model tesislerini kurdu. Hatay tesisi 500 ton/saat ve 4 Şubat 2025'te tanıtıldı. Ekonomim yazısı projenin Çevre Bakanlığı ve UNDP iş birliğinde başladığını yazıyor. MEKA için açık talep değil, referans.",
-"kaynak": "resmi https://www.undp.org/turkiye/news/undp-launches-model-facility-recycle-earthquake-debris-hatay arama özeti, sayfa 403 verdi"
+"not": "Hatay Altınözü ve Kahramanmaraş model tesislerini Japonya finansmanıyla kurdu; Altınözü Şubat 2025'te işletmeye alındı, Japon teknolojisi kullanıldı. Açık talep değil, referans. UNDP sayfaları bu turda da 403 verdi.",
+"kaynak": "haber https://www.ekonomigazetesi.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik-56661 sayfa açıldı"
 },
 {
 "ad": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, Çevre Yönetimi Genel Müdürlüğü",
 "rol": "kurum",
-"not": "Hatay projesinin ortağı ve yönetmelik sahibi. Yönetmelikler sayfasında yalnız 2004 tarihli metin var. Mart 2026 tarihli taslak dosyası bakanlığın dosya sunucusunda görünüyor, metni açılamadı.",
-"kaynak": "resmi https://cygm.csb.gov.tr/yonetmelikler-i-440 sayfa doğrulama turunda açıldı"
+"not": "Hatay projesinin ortağı ve yönetmelik sahibi. Hatay'da yıkıntı atığı geri kazanım tesisi yerel teşvik konusu yapıldı. Yönetmelik taslağı durumu önceki turdan beri doğrulanamadı.",
+"kaynak": "haber https://www.ekonomigazetesi.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik-56661 ; resmi https://cygm.csb.gov.tr/yonetmelikler-i-440 önceki turda açıldı"
 },
 {
 "ad": "Japonya Hükümeti",
 "rol": "yatirimci",
-"not": "Hatay ve Kahramanmaraş projesini 700 milyon yenle, yaklaşık 4,83 milyon dolarla finanse etti. Ekonomim yazısı 4,8 milyon dolar yazıyor.",
-"kaynak": "resmi https://www.undp.org/tr/node/506161 sayfa 403 verdi, arama özeti ; haber https://www.ekonomim.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik/836865"
+"not": "Hatay ve Kahramanmaraş projesine 4,8 milyon dolar verdi, protokol 16 Ağustos 2023. 700 milyon yen rakamı arama özetinden.",
+"kaynak": "haber https://www.ekonomigazetesi.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik-56661 sayfa açıldı"
 },
 {
 "ad": "UNDP Suriye, REVIVE projesi",
 "rol": "kurum",
-"not": "Dört ilde 570 bin ton enkaz kaldırıyor ve Halep'te geri dönüşüm tesisi var. BM Haber sayfasında bağışçı adı yok, bir arama özeti UNDP blogunda Kore Cumhuriyeti ortaklığının anıldığını yazıyor. Tedarik kayıtları bulunamadı.",
-"kaynak": "resmi https://news.un.org/en/story/2026/08/1168136 sayfa açıldı"
+"not": "Kore'nin 10 milyon dolarlık payıyla 570 bin ton enkaz kaldırdı, Halep'te geri dönüşüm tesisi var, 4.300 iş yarattı. Faz 2 Ağustos 2026'da 18,95 milyon dolarla duyuruldu, sayfa 403 verdi. Makine alımı ihalesi bulunamadı.",
+"kaynak": "resmi https://www.unicef.org/syria/press-releases/republic-korea-and-united-nations-mark-culmination-phase-one-reviving-hope-restoring sayfa açıldı ; resmi https://news.un.org/en/story/2026/08/1168136 sayfa açıldı"
+},
+{
+"ad": "Kore Cumhuriyeti",
+"rol": "yatirimci",
+"not": "Suriye'de BM ajanslarına 38 milyon dolar verdi, REVIVE payı 10 milyon dolar; faz 1 15 Haziran 2026'da Halep'te tamamlandı. Enkaz programının bağışçısı.",
+"kaynak": "resmi https://syria.un.org/sites/default/files/2025-09/PRESS%20RELEASE_ROK%20Joint%20Launch%20Event_30092025_Final.pdf dosya açıldı"
 },
 {
 "ad": "Zoom Investment Holding Group",
 "rol": "musteri",
-"not": "Deir ez-Zor Fecr el-Fırat projesinde geri dönüşümü Şehir Meclisi gözetiminde yapıyor. Başkanı Hussein al-Mousa diye geçiyor. Uyruğu ve finansmanı belirtilmemiş. Sahada kırıcı kullanıyor, marka yok. Bağımsız teyit yok, bilgi SANA haberlerinden.",
-"kaynak": "haber https://sana.sy/en/syria/2344891/ tek yayıncı"
+"not": "Deir ez-Zor'da enkazı Şehir Meclisi gözetiminde ücretsiz kaldırıp kırıyor; başkanı Hussein al-Mousa, proje yürütücüsü Rashed al-Saeed. Ürün hedefi yol, asfalt, yapısal olmayan beton, kaldırım taşı ve blok. Uyruk, finansman ve kırıcı markası belli değil. Tek yayıncı.",
+"kaynak": "haber https://sana.sy/en/syria/2341843/ ve https://sana.sy/en/syria/2344891/ sayfalar açıldı"
 },
 {
 "ad": "Deir ez-Zor Valiliği ve Şehir Meclisi",
 "rol": "kurum",
-"not": "Valilik projeyi 10 Eylül 2026'da Şehir Meclisi ve Zoom ile işbirliği içinde başlattı. Hedef 8 milyon m³ ve günde 15.000 m³.",
-"kaynak": "haber https://sana.sy/en/syria/2344891/"
+"not": "Projeyi 10 Eylül 2026'da başlattı; Vali Ziad al-Ayash işin El Bukemal ve Meyadin'e genişleyeceğini söyledi. Ocak 2026'da UNDP ile 75 bin ton kaldırıldı.",
+"kaynak": "haber https://sana.sy/en/syria/2341843/ sayfa açıldı"
 },
 {
 "ad": "Suriye Sivil Savunması ve Acil Durum Yönetimi Bakanlığı",
 "rol": "musteri",
-"not": "Haber, ülke çapındaki enkaz işini Sivil Savunmanın ve Acil Durum Yönetimi Bakanlığı'nın birlikte yürüttüğünü yazıyor. Özel yüklenicilerden destek alıyor. Sivil Savunma Direktörü Munir Mustafa yeni bir geri dönüşüm makinesi almayı planladığını söylüyor. Ocak 2026 haberi, Al-Modon aktarımı, doğrulanmadı.",
-"kaynak": "haber https://syrianobserver.com/?p=99080 sayfa açıldı"
+"not": "Ülke çapında enkaz işini yürütüyor, yeni geri dönüşüm makinesi almayı planladığı Ocak 2026'da yazıldı. Bu turda yeni bilgi yok.",
+"kaynak": "haber https://syrianobserver.com/?p=99080 önceki turda açıldı"
+},
+{
+"ad": "UNDP Filistin, PAPP",
+"rol": "musteri",
+"not": "Gazze'de 57,5 milyon ton enkaz için 2025'te 5 kırıcıyla 225 bin ton topladı; 768.790 dolarlık kırma sözleşmesi ve 554 bin ile 665 bin dolarlık kaldırma paketleri imzaladı; AB ile 15 milyon euroluk 18 aylık proje başlattı. İhaleler yerel yüklenicilere iş olarak çıkıyor; UNGM'de kazananlar Farid Baroud & Partners, Skills and Quality Construction ve Handala Company for Engineering.",
+"kaynak": "resmi https://www.ungm.org/Public/ContractAward/146335 ; resmi https://www.undp.org/sites/g/files/zskgke326/files/2025-12/dm_situation_report-december_2025.pdf"
+},
+{
+"ad": "Avrupa Birliği, Dış Politika Araçları Servisi",
+"rol": "yatirimci",
+"not": "Gazze enkaz kaldırma, işleme ve yeniden kullanım projesine 15 milyon euro verdi, Temmuz 2026, 18 ay. UNDP sayfası 403 verdi.",
+"kaynak": "haber https://news.fundsforngos.org/2026/07/13/undp-and-european-union-launch-e15-million-project-to-support-debris-management-and-recovery-efforts-in-gaza/ sayfa açıldı"
 },
 {
 "ad": "Türkiye Müteahhitler Birliği",
 "rol": "kurum",
-"not": "Başkanı Erdal Eren, Şubat 2026'da Suriye için kalıcı güvenlik, tek ve meşru idari yapı, ödeme ve sözleşme güvenliği, finansman ve sigorta mekanizmaları ve yaptırım netliği koşullarını saydı. Birlik adına en doğru ilk muhatap.",
-"kaynak": "haber https://www.paradergi.com.tr/is-dunyasi-kulis/2026/02/16/suriyeyi-korfez-sermayesiyle-biz-insa-edelim sayfa açıldı"
+"not": "Başkanı Şubat 2026'da Suriye için ödeme güvenliği ve yaptırım netliği koşullarını saydı. Bu turda yeni açıklama aranmadı.",
+"kaynak": "haber https://www.paradergi.com.tr/is-dunyasi-kulis/2026/02/16/suriyeyi-korfez-sermayesiyle-biz-insa-edelim önceki turda açıldı"
+},
+{
+"ad": "Kalyon ve Cengiz",
+"rol": "ortak_adayi",
+"not": "UCC Holding konsorsiyumunda Şam Havalimanı ve enerji anlaşmalarında. Enkaz işiyle bağ bulunamadı; Suriye'de Türk müteahhit kanalı için aday.",
+"kaynak": "haber https://www.enr.com/articles/62264-qatar-led-consortium-signs-on-for-4b-rebuild-and-expansion-of-damascus-airport önceki turda arama özeti, açılamadı"
+},
+{
+"ad": "UCC Holding",
+"rol": "yatirimci",
+"not": "Katar merkezli, Şam Havalimanı konsorsiyumuna öncülük ediyor; Körfez finansmanı emsali.",
+"kaynak": "haber https://www.enr.com/articles/62264-qatar-led-consortium-signs-on-for-4b-rebuild-and-expansion-of-damascus-airport önceki turda arama özeti"
+},
+{
+"ad": "Neo-Eco",
+"rol": "emsal",
+"not": "Fransız şirket, Hostomel'de 50 bin ton enkazı geri dönüştürdü, değeri 800 bin euroya kadar; 45 milyon euroluk konut projesi yerel idareyle anlaşmazlık yüzünden durdu, şirket Çernihiv ve Mikolayiv'e yöneldi. Ton başına ürün değeri ve saha riski için emsal.",
+"kaynak": "haber https://kyivindependent.com/reconstruction-in-kyiv-suburb-sabotaged-by-local-officials-discouraging-foreign-investors/ sayfa açıldı"
+},
+{
+"ad": "Üsküp Belediyesi",
+"rol": "musteri",
+"not": "AB IPA finansmanıyla inşaat atığı için ayıklama istasyonlu bir mobil çeneli kırıcı alıyor, ihale referansı RE-CONSTRUCT/IPA/2026/SUP/T01, teklif süresi 30 Eylül 2026'da doldu. Bedel özet belgede yok. MEKA için Balkan emsali.",
+"kaynak": "resmi https://skopje.gov.mk/media/12141/td1-rc-c3_summarycn_en-f.pdf dosya açıldı"
+},
+{
+"ad": "Aberdeenshire Council",
+"rol": "emsal",
+"not": "Balmedie ocağı için mobil konik kırıcıyı 389.942 sterline Molson Scotland Ltd'den aldı, 3 teklif, sözleşme 16 Şubat 2024, ilan 12 Mart 2024. Kamu alımı birim fiyat emsali.",
+"kaynak": "resmi https://www.find-tender.service.gov.uk/Notice/007814-2024 sayfa açıldı"
+},
+{
+"ad": "Sassari Belediyesi ve Litoměřice Teknik Hizmetleri",
+"rol": "emsal",
+"not": "Sassari mobil kırıcı alımı ve bakımı için 570 bin euro tahmini bedelle ihaleye çıktı, 21 Temmuz 2025'te kapandı. Litoměřice mobil kırma ünitesi için 5.950.413 Çek korunası tahminle iki kez ilan verdi. İkisi de sonuç bekliyor.",
+"kaynak": "diger https://bidsonar.com/contracts/392297-2025 ve https://bidsonar.com/contracts/514679-2025 TED aktarımı, sayfalar açıldı"
+},
+{
+"ad": "Eskişehir Büyükşehir Belediyesi",
+"rol": "musteri",
+"not": "Tepebaşı tesisi yılda 498 bin ton kapasiteli, belediye kendisi işletiyor. Bu turda yeni bilgi yok.",
+"kaynak": "resmi https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24 önceki turda doğrulandı"
+},
+{
+"ad": "İzmir Büyükşehir Belediyesi ve Egeşehir A.Ş.",
+"rol": "musteri",
+"not": "6 geri kazanım tesisinin 5'i özel işletmeci; Egeşehir 4 depolama sahası işletiyor. Bu turda yeni bilgi yok.",
+"kaynak": "resmi https://www.izmir.bel.tr/tr/AcrdIcerik/93/1 önceki turda doğrulandı"
+},
+{
+"ad": "İSTAÇ A.Ş.",
+"rol": "musteri",
+"not": "İstanbul belediye şirketi, aylık 3 milyon ton hafriyat; yıkıntı atığı kapasitesi bulunamadı.",
+"kaynak": "firma https://istac.istanbul/faaliyet-alanlarimiz/atik-yonetimi/hafriyat-topragi-yonetimi önceki turda doğrulandı"
+},
+{
+"ad": "Haydar Madencilik",
+"rol": "musteri",
+"not": "İzmir'de izinli özel geri kazanım tesisi ve saha işletmecisi. Ekipman planı bilinmiyor.",
+"kaynak": "resmi https://www.izmir.bel.tr/tr/AcrdIcerik/93/1 önceki turda doğrulandı"
+},
+{
+"ad": "Saka Beton",
+"rol": "musteri",
+"not": "İzmir listesinde hafriyat sahası işletmecisi, beton üreticisi olarak agrega alıcısı olabilir, tahmin.",
+"kaynak": "resmi https://www.izmir.bel.tr/tr/AcrdIcerik/93/1 önceki turda doğrulandı"
+},
+{
+"ad": "Giresun Belediyesi",
+"rol": "musteri",
+"not": "2026 konkasör ihalesi, yerli malı avantajı yüzde 15. Sayfa bu turda 403 verdi, kazanan ve bedel bulunamadı.",
+"kaynak": "haber https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi bu turda açılamadı"
+},
+{
+"ad": "Kepez Belediyesi",
+"rol": "musteri",
+"not": "03'e göre mobil konkasör kullanıyor; marka bilinmiyor.",
+"kaynak": "iç belge 03, 24 Eylül 2026"
+},
+{
+"ad": "Metso",
+"rol": "rakip",
+"not": "03'e göre MEKA'ya hidrosiklon ve pompa veriyor, aynı zamanda mobil kırıcıda rakip. Fiyat ve pay verisi bu turda da bulunamadı; Hatay tesisinin tedarikçisi Japon teknolojisi diye anılıyor, marka yok.",
+"kaynak": "iç belge 03 ; haber https://www.ekonomigazetesi.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik-56661"
 },
 {
 "ad": "Kalyon",
@@ -9185,111 +11599,164 @@ window.MEKA_DATA = {
 "rol": "ortak_adayi",
 "not": "Aynı konsorsiyumda. Havalimanı için bir haber 4 milyar dolar, enerji için 7 milyar dolar yazıyor. Enkaz işiyle bağı bulunamadı.",
 "kaynak": "haber https://turkishminute.com/2025/12/10/turkey-secures-dominant-role-in-syrias-reconstruction-with-11-billion-in-energy-airport-deals/ arama özeti, sayfa sertifika hatası verdi"
-},
-{
-"ad": "UCC Holding",
-"rol": "yatirimci",
-"not": "Katar merkezli, Şam Havalimanı konsorsiyumuna öncülük ediyor. Altyapı finansmanının Körfez ayağı için emsal.",
-"kaynak": "haber https://www.enr.com/articles/62264-qatar-led-consortium-signs-on-for-4b-rebuild-and-expansion-of-damascus-airport arama özeti, sayfa 403 verdi"
-},
-{
-"ad": "Eskişehir Büyükşehir Belediyesi",
-"rol": "musteri",
-"not": "Tepebaşı Keskin tesisi yılda 498 bin ton kapasiteli. Belediye kendi tesisini işletiyor. MEKA satışı bilinmiyor.",
-"kaynak": "resmi https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24 belediye yaprağı çalışmasında doğrulandı"
-},
-{
-"ad": "İzmir Büyükşehir Belediyesi ve Egeşehir A.Ş.",
-"rol": "musteri",
-"not": "Listede 6 geri kazanım tesisi var. Belediye şirketi Egeşehir 8 depolama sahasından 4'ünü işletiyor.",
-"kaynak": "resmi https://www.izmir.bel.tr/tr/AcrdIcerik/93/1 belediye yaprağı çalışmasında doğrulandı"
-},
-{
-"ad": "İSTAÇ A.Ş.",
-"rol": "musteri",
-"not": "İstanbul belediye şirketi. Firma sayfası aylık 3 milyon ton hafriyat atığı yazıyor. İnşaat yıkıntı atığı kapasitesi bulunamadı.",
-"kaynak": "firma https://istac.istanbul/faaliyet-alanlarimiz/atik-yonetimi/hafriyat-topragi-yonetimi belediye yaprağı çalışmasında doğrulandı"
-},
-{
-"ad": "Haydar Madencilik",
-"rol": "musteri",
-"not": "İzmir'de izinli özel geri kazanım tesisi ve saha işletmecisi. Belediye iznine bağlı alıcı tipi. Ekipman alım planı bilinmiyor.",
-"kaynak": "resmi https://www.izmir.bel.tr/tr/AcrdIcerik/93/1 belediye yaprağı çalışmasında doğrulandı"
-},
-{
-"ad": "Saka Beton",
-"rol": "musteri",
-"not": "İzmir listesinde hafriyat sahası işletmecisi olarak geçiyor. Beton üreticisi olduğu için agrega alıcısı da olabilir, tahmin.",
-"kaynak": "resmi https://www.izmir.bel.tr/tr/AcrdIcerik/93/1 belediye yaprağı çalışmasında doğrulandı"
-},
-{
-"ad": "Giresun Belediyesi",
-"rol": "musteri",
-"not": "2026 konkasör ihalesi, yalnız yerli istekliler, yüzde 15 yerli malı avantajı. Kazanan ve marka bulunamadı.",
-"kaynak": "haber https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi belediye yaprağı çalışmasında doğrulandı"
-},
-{
-"ad": "Kepez Belediyesi",
-"rol": "musteri",
-"not": "03'e göre mobil konkasör kullanıyor. Marka ve tedarikçi bilinmiyor.",
-"kaynak": "iç belge 03, 24 Eylül 2026, kaynak sayfası bu turda açılmadı"
-},
-{
-"ad": "Metso",
-"rol": "rakip",
-"not": "03'e göre MEKA hidrosiklon ve pompayı Metso'dan alıyor, şirket içi bilgi. Aynı zamanda kırma eleme rakibi olabilir. Türkiye payı ve fiyatı bu turda doğrulanamadı.",
-"kaynak": "iç belge 03, 24 Eylül 2026, şirket içi bilgi"
 }
 ],
 "cevaplar": [
 {
 "soru": "Suriye'de işveren kim: BM, Suriye kamu kurumları ya da Türk müteahhitler? Ödeme ve yaptırım uyumu nasıl sağlanacak?",
 "durum": "kismen",
-"cevap": "Deir ez-Zor'da SANA'ya göre projeyi Valilik, Şehir Meclisi ve Zoom Investment Holding Group ile işbirliği içinde başlattı. Geri dönüşümü Zoom, Şehir Meclisi gözetiminde yapıyor. Haberde finansman, bağışçı ve Türk ya da yabancı firma yok. Ülke çapında Suriye Sivil Savunması ve Acil Durum Yönetimi Bakanlığı birlikte çalışıyor, özel yüklenicilerden destek alıyor ve Sivil Savunma Direktörü yeni bir geri dönüşüm makinesi almayı planladığını söylüyor. BM tarafında UNDP REVIVE dört ilde 570 bin ton enkaz kaldırıyor. BM Haber sayfasında bağışçı adı yok, bir arama özeti UNDP blogunda Kore Cumhuriyeti ortaklığının anıldığını yazıyor. Enkaz işinde isimli bir Türk müteahhit bulunamadı. Sezar Yasası Aralık 2025'te kalktı. Suriye devlet medyasının aktardığına göre Esad ve yakın çevresi, insan hakları ihlalcileri ve Captagon kaçakçıları yaptırım altında kalıyor. Arama özetlerine göre ABD Suriye'yi terör destekçisi devletler listesinden 24 Ağustos 2026'da çıkardı, sayfa açılmadı. Ödeme kanalı ve banka mekanizması bulunamadı.",
-"kaynak": "haber https://sana.sy/en/syria/2344891/ ; haber https://syrianobserver.com/?p=99080 ; resmi https://news.un.org/en/story/2026/08/1168136 ; haber https://english.enabbaladi.net/archives/2025/12/trump-signs-repeal-of-caesar-sanctions-law/ arama özeti ; rapor https://sanctionsnews.bakermckenzie.com/us-rescinds-syrias-state-sponsor-of-terrorism-designation-and-delists-hayat-tahrir-al-sham/ arama özeti, sayfa açılmadı",
-"kime": "Zoom Investment Holding Group, SANA'da başkanı Hussein al-Mousa diye geçiyor, Deir ez-Zor Şehir Meclisi gözetiminde çalışıyor. Ulaşma yolu önerisi: Türkiye Müteahhitler Birliği ve Ticaret Bakanlığı kanalı. Doğrudan iletişim bilgisi bulunamadı."
+"cevap": "Üç işveren tipi netleşti. Birincisi, UNDP REVIVE: Kore Cumhuriyeti 10 milyon dolar ayırdı, 570 bin ton enkaz kaldırıldı, faz 2 için Ağustos 2026'da 18,95 milyon dolarlık yeni paket duyuruldu; sayfa 403 verdi, rakam arama özetinden. UNDP'nin Suriye'de enkaz için yayımladığı ihaleler iş ihalesi, makine alımı ihalesi bulunamadı. İkincisi, Deir ez-Zor'da Valilik ve Şehir Meclisi gözetiminde Zoom Investment Holding Group; SANA'ya göre enkazı ücretsiz kaldırıyor, yani geliri ürün satışından ya da kamu ödemesinden gelmeli, haberde bu yok. Üçüncüsü, Sivil Savunma ve Acil Durum Yönetimi Bakanlığı. İsimli Türk müteahhit bulunamadı. Ödeme için MEKA'nın kendi emsali yüzde 50 avanslı yurt içi sipariş; Suriye'de akreditif kanalı hâlâ bulunamadı.",
+"kaynak": "resmi https://www.unicef.org/syria/press-releases/republic-korea-and-united-nations-mark-culmination-phase-one-reviving-hope-restoring ; haber https://sana.sy/en/syria/2341843/ ; haber https://paratic.com/mekaga-dev-siparis-yuzde-50-avansla-basladi/ ; resmi https://www.undp.org/arab-states/press-releases/republic-korea-and-united-nations-launch-phase-ii-humanitarian-and-early-recovery-initiatives-syria açılamadı",
+"kime": "Zoom Investment Holding Group başkanı Hussein al-Mousa ve proje yürütücüsü Rashed al-Saeed, SANA'da geçiyor; UNDP Suriye REVIVE proje ofisi; Türkiye Müteahhitler Birliği kanalı."
 },
 {
 "soru": "Hatay'daki 500 ton/saat tesis talebinin alıcısı, bütçesi ve takvimi nedir?",
 "durum": "kismen",
-"cevap": "Bu açık bir talep değil, tamamlanmış bir proje. UNDP ile Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Altınözü tesisini Japonya finansmanıyla kurdu. Ekonomim yazısı bütçeyi 4,8 milyon dolar yazıyor. UNDP sayfasının arama özetine göre bütçe 700 milyon yen, yaklaşık 4,83 milyon dolar, sözleşme 16 Ağustos 2023'te imzalandı, tamamlanma Ağustos 2024'te duyuruldu, tanıtım 4 Şubat 2025'te yapıldı. UNDP sayfası 403 verdi, bu tarihler doğrudan doğrulanamadı. Tedarikçi, marka ve yeni tesis ihalesi bulunamadı.",
-"kaynak": "resmi https://www.undp.org/tr/node/506161 sayfa 403 verdi, arama özeti ; haber https://www.ekonomim.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik/836865",
-"kime": "UNDP Türkiye ofisi ve Çevre Yönetimi Genel Müdürlüğü Döngüsel Ekonomi ve Atık Yönetimi Dairesi. Genel müdürlük telefonu 0312 586 30 00, belediye yaprağı çalışmasından. Tedarik kaydı ve yeni tesis planı için sorulmalı."
+"cevap": "Açık talep değil, bitmiş proje. Protokol 16 Ağustos 2023, Japonya desteği 4,8 milyon dolar, Altınözü tesisi Şubat 2025'te işletmeye alındı; tesis endüstriyel kırıcılar, manyetik ayırıcı ve bantlı taşıyıcılarla donatılmış ve Japon teknolojisi kullanılmış. Bu, tedarikçinin Japon olabileceğine işaret ediyor ama marka yazılmıyor. Ekipman kalemi bütçesi bulunamadı. UNDP sayfaları bu turda da 403 verdi. Yeni Hatay ihalesi bulunamadı; Hatay'da yıkıntı atığı geri kazanım tesisi yerel teşvik konusu yapıldı.",
+"kaynak": "haber https://www.ekonomigazetesi.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik-56661 sayfa açıldı ; resmi https://www.undp.org/turkiye/news/undp-launches-model-facility-recycle-earthquake-debris-hatay açılamadı",
+"kime": "UNDP Türkiye ofisi ve Çevre Yönetimi Genel Müdürlüğü, 0312 586 30 00; tedarikçi markası ve işletmeci sorulmalı."
 },
 {
 "soru": "Karma molozdan çıkan ürün hazır beton agregası şartnamesini karşılıyor mu? Hangi test gerekli?",
 "durum": "gorusme",
-"cevap": "Kaynaklı yanıt bulunamadı. Hatay ürünü yol dolgusu ve kaldırım taşı, çimento için araştırma sürüyor. UNDP Suriye'de geri dönüşümden yapı ürünü çıktığını yazıyor. MEKA sayfası tesisleri geri dönüştürülmüş beton agregası üretimi için sunuyor ve yeni beton üretimini kullanım alanları arasında sayıyor, ama çıktı boyutu, standart ve test sonucu vermiyor ve TS EN 12620'yi anmıyor. Bu bir firma beyanı. Bir akademik çalışma geri dönüştürülmüş agrega oranı arttıkça harç dayanımının düştüğünü bildiriyor, bu bilgi arama özetinden ve doğrulanamadı. Standart metinleri bu turda açılamadı, bu yüzden test listesi doğrulanamadı.",
-"kaynak": "haber https://www.ekonomim.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik/836865 ; firma https://www.mekaglobal.com/en/products/crushing-screening-plants/recycling-technologies/construction-and-demolition-waste-recycling ; diger https://acikerisim.bartin.edu.tr/handle/11772/6377 arama özeti, doğrulanamadı",
-"kime": "Akredite agrega laboratuvarı ve hedef beton santrali alıcısı. İsim bulunamadı, MEKA kalite ekibi seçmeli."
+"cevap": "Kaynaklı test sonucu yine bulunamadı. MEKA sayfası karma yıkıntıdan çıkan ürünün agrega için istenen kaliteden düşük olduğunu ve kaliteyi yükseltmek için hava ayırıcı, optik ayırma ve el ayıklama istasyonu eklenebileceğini yazıyor; bu firma beyanı ama ek ayırma gereğini doğruluyor. Gazze'de UNDP ürünü yol kaplaması, barınak alt tabanı ve su bariyeri için kullanıyor, yani yapısal beton değil. Zoom ürünü yol, asfalt karışımı, yapısal olmayan beton, kaldırım taşı ve blok için tanımlıyor. Neo-Eco Hostomel'de numuneleri Fransa'da iki aşamalı test etti.",
+"kaynak": "firma https://www.mekaglobal.com/en/products/crushing-screening-plants/recycling-technologies/construction-and-demolition-waste-recycling ; resmi https://www.undp.org/sites/g/files/zskgke326/files/2025-12/dm_situation_report-december_2025.pdf ; haber https://sana.sy/en/syria/2341843/ ; haber https://en.interfax.com.ua/news/general/875067-amp.html",
+"kime": "Akredite agrega laboratuvarı ve hedef beton santrali alıcısı; MEKA kalite ekibi seçmeli. Hedef önce yol ve yapısal olmayan beton olmalı."
 },
 {
 "soru": "MEKA'nın mevcut inşaat atığı tesisi referanslarının işletme sonuçları ve marjı ne?",
-"durum": "gorusme",
-"cevap": "MEKA'nın kamuya açık sayfası inşaat atığı için müşteri ya da referans adı vermiyor. Proje listesinde Rusya'da agrega üretim tesisi ve Belçika'da sabit beton santrali var, ikisi de inşaat atığı değil. İşletme sonucu ve marj web'de bulunamadı.",
-"kaynak": "firma https://www.mekaglobal.com/en/products/crushing-screening-plants/recycling-technologies/construction-and-demolition-waste-recycling",
-"kime": "MEKA satış, proje ve finans ekipleri, iç görüşme."
+"durum": "kismen",
+"cevap": "Ürün bazında marj web'de yok. Konsolide brüt marj İş Yatırım şirket kartında KAP verisiyle görünüyor: 2025 yılı yüzde 21,5, 2026 ilk yarı yüzde 24,3, enflasyon düzeltmeli. Dönem net zararı 2026 ilk yarıda 60,4 milyon TL. Kırma eleme tesisi sipariş bedelleri KAP'ta 651.700 ile 2.190.000 euro arasında. İnşaat atığı tesisine özel referans ve işletme sonucu bulunamadı.",
+"kaynak": "rapor https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=MEKAG tek kaynak ; resmi https://kap.org.tr/tr/api/BildirimPdf/1638385",
+"kime": "MEKA finans ve satış ekipleri, iç görüşme: MCC 70 ve MP 90 için ürün marjı ve geri dönüşüm referans listesi."
 },
 {
 "soru": "Belediyelere daha önce satış oldu mu?",
 "durum": "gorusme",
-"cevap": "Kamuya açık kaynakta MEKA'nın belediyeye inşaat atığı satışı bulunamadı. Kepez'in mobil konkasörünün ve Giresun ihalesi kazananının markası bilinmiyor. Belediyelerin çoğu tesis kurmak yerine sahayı özel işletmeciye kiralıyor, yani alıcı çoğu kez işletmeci.",
-"kaynak": "resmi https://www.izmir.bel.tr/tr/AcrdIcerik/93/1 belediye yaprağı çalışmasında doğrulandı ; haber https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi",
-"kime": "MEKA iç satış kayıtları. Giresun Belediyesi Fen İşleri Müdürlüğü, belediye yaprağı çalışmasındaki numara 444 40 28."
+"cevap": "Kamuya açık kaynakta MEKA'nın belediyeye inşaat atığı tesisi satışı bulunamadı. KAP bildirimleri müşteri adını vermiyor, yalnız yurt içi ya da yurt dışı yazıyor. Giresun ilanı bu turda 403 verdi. Avrupa'da belediye kırıcı alımları emsal olarak bulundu: Aberdeenshire 389.942 sterlin, Sassari 570 bin euro tahmini, Litoměřice 5,95 milyon Çek korunası tahmini, Üsküp AB finansmanlı inşaat atığı kırıcısı.",
+"kaynak": "resmi https://www.find-tender.service.gov.uk/Notice/007814-2024 ; resmi https://skopje.gov.mk/media/12141/td1-rc-c3_summarycn_en-f.pdf ; diger https://bidsonar.com/contracts/392297-2025",
+"kime": "MEKA iç satış kayıtları. Giresun Belediyesi Fen İşleri Müdürlüğü, 444 40 28."
 },
 {
 "soru": "Hafriyat ve inşaat atığı için yeni yönetmelik yürürlükte mi?",
-"durum": "cevaplandi",
-"cevap": "Hayır. Bakanlığın yönetmelikler sayfasında yalnız 18 Mart 2004 tarihli ve 25406 sayılı Kontrolü Yönetmeliği görünüyor. Bakanlığın dosya sunucusunda 13 Mart 2026 tarihli, 17 Mart 2026'da yüklenmiş görünen bir yönetim yönetmeliği taslağı dosyası var. Dosya açılamadı, görüşe açılış tarihi ve bugünkü durumu doğrulanamadı. Binaların Yıkılması Hakkında Yönetmelik 12 Ağustos 2026'da değişti, Resmî Gazete sayısı 33338. Yürürlük maddesine göre yayım tarihinde yalnız bazı maddeler girdi. Bina yıkıntı atığı ve seçici yıkım tanımları dahil diğer hükümler 12 Ağustos 2027'de yürürlüğe giriyor.",
-"kaynak": "resmi https://cygm.csb.gov.tr/yonetmelikler-i-440 sayfa doğrulama turunda açıldı ; resmi https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm sayfa doğrulama turunda açıldı ; resmi https://webdosya.csb.gov.tr/v2/cygm/2026/03/HTIYAYYonTslk20260313-20260317140904.docx arama özeti, dosya açılamadı",
-"kime": "Çevre Yönetimi Genel Müdürlüğü, 0312 586 30 00. Taslağın görüş süresi ve atık statüsü hükmü sorulmalı."
+"durum": "kismen",
+"cevap": "Önceki turda cevaplandı, bu turda yeniden açılmadı. Yürürlükteki metin 18 Mart 2004 tarihli Kontrolü Yönetmeliği; Mart 2026 tarihli taslak dosyası bakanlık sunucusunda görünüyor, metni açılamadı. Binaların Yıkılması Hakkında Yönetmelik değişikliği 12 Ağustos 2026'da yayımlandı, tanımlar dahil diğer hükümler 12 Ağustos 2027'de yürürlüğe giriyor.",
+"kaynak": "resmi https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm önceki turda açıldı ; resmi https://cygm.csb.gov.tr/yonetmelikler-i-440 önceki turda açıldı",
+"kime": "Çevre Yönetimi Genel Müdürlüğü, 0312 586 30 00: taslağın durumu ve atık statüsü hükmü."
 },
 {
 "soru": "Suriye'de enkaz miktarı ve yeniden inşa maliyeti ne kadar?",
 "durum": "kismen",
-"cevap": "Dünya Bankası merkez tahmini 216 milyar dolar. Ülke toplamı için resmi enkaz tonajı bulunamadı. Bir arama özeti UNDP blogunun onlarca milyon ton enkaz kaldığını yazdığını bildiriyor, sayfa 403 verdi ve doğrulanamadı. SANA'ya göre Deir ez-Zor kentinde tahmini enkaz 10 milyon m³.",
-"kaynak": "resmi https://www.worldbank.org/en/news/press-release/2025/10/21/syria-s-post-conflict-reconstruction-costs-estimated-at-216-billion ; haber https://sana.sy/en/syria/2344891/ ; resmi https://www.undp.org/syria/blog/clearing-way-syrias-recovery arama özeti, sayfa 403 verdi",
-"kime": "UNDP Suriye ofisi, REVIVE projesi. İletişim bilgisi bulunamadı."
+"cevap": "Dünya Bankası merkez tahmini 216 milyar dolar, sayfa yeniden açıldı. Ülke toplamı için resmi enkaz tonajı bulunamadı. Deir ez-Zor kenti için 10 milyon m³ tahmin, SANA. UNDP REVIVE 570 bin ton kaldırdı; Ocak 2026'da Deir ez-Zor'da UNDP kampanyası 75 bin ton kaldırdı.",
+"kaynak": "resmi https://www.worldbank.org/en/news/press-release/2025/10/21/syria-s-post-conflict-reconstruction-costs-estimated-at-216-billion ; haber https://sana.sy/en/syria/2344891/ ; resmi https://www.unicef.org/syria/press-releases/republic-korea-and-united-nations-mark-culmination-phase-one-reviving-hope-restoring",
+"kime": "UNDP Suriye ofisi, REVIVE projesi."
+}
+],
+"emsaller": [
+{
+"tarih": "26 Şubat 2025",
+"taraflar": "UNDP Filistin ve Farid Baroud & Partners Co.",
+"bedel": "768.790 dolar",
+"birim": "Lot 3, Han Yunus ve Refah'ta saha hazırlığı ve enkaz kırma; tonaj verilmedi",
+"kaynak": "resmi https://www.ungm.org/Public/ContractAward/146335"
+},
+{
+"tarih": "26 Mayıs 2026 ve 2 Haziran 2026",
+"taraflar": "UNDP Filistin ile Handala Company for Engineering (Paket 4) ve Skills and Quality Construction (Paket 3)",
+"bedel": "554.400 dolar ve 664.878,60 dolar",
+"birim": "Vadi Gazze kuzeyinde yol ve bina enkazı kaldırma, Paket 4 ve Paket 3",
+"kaynak": "resmi https://www.ungm.org/Public/ContractAward/156572 ve https://www.ungm.org/Public/ContractAward/156745"
+},
+{
+"tarih": "7 Nisan 2026",
+"taraflar": "Meka İthalat İhracat ve yurt dışı yerleşik şirket",
+"bedel": "1.670.000 euro",
+"birim": "Kırma eleme tesisi siparişi, tek sipariş",
+"kaynak": "haber https://www.hisse.net/haber/meka-global-mekag-16-milyon-euroluk-siparisi-acikladi-73006 KAP aktarımı"
+},
+{
+"tarih": "29 Temmuz 2026",
+"taraflar": "Meka İthalat İhracat ve yurt dışı yerleşik şirket",
+"bedel": "651.700 euro",
+"birim": "Kırma eleme tesisi siparişi",
+"kaynak": "resmi https://kap.org.tr/tr/api/BildirimPdf/1638385"
+},
+{
+"tarih": "28 Temmuz 2025",
+"taraflar": "Meka Global ve yurt içi yerleşik şirket",
+"bedel": "2.190.000 euro KDV hariç",
+"birim": "Kırma eleme tesisi, yüzde 50 avans",
+"kaynak": "haber https://paratic.com/mekaga-dev-siparis-yuzde-50-avansla-basladi/ KAP aktarımı"
+},
+{
+"tarih": "19 Şubat 2026",
+"taraflar": "Meka İthalat İhracat ve yurt dışı firma",
+"bedel": "758.600 euro",
+"birim": "Kırma eleme tesisi siparişi",
+"kaynak": "haber https://paratic.com/meka-globalden-758-bin-euroluk-yeni-siparis/ KAP aktarımı"
+},
+{
+"tarih": "12 Mart 2024",
+"taraflar": "Aberdeenshire Council ve Molson Scotland Ltd, 3 teklif; sözleşme 16 Şubat 2024",
+"bedel": "389.942 sterlin KDV hariç",
+"birim": "Bir adet mobil konik kırıcı",
+"kaynak": "resmi https://www.find-tender.service.gov.uk/Notice/007814-2024"
+},
+{
+"tarih": "17 Haziran 2025, kapanış 21 Temmuz 2025",
+"taraflar": "Sassari Belediyesi, İtalya; sonuç bekliyor",
+"bedel": "570.000 euro tahmini",
+"birim": "Bir mobil kırıcı alımı ve bakımı",
+"kaynak": "diger https://bidsonar.com/contracts/392297-2025 TED aktarımı"
+},
+{
+"tarih": "29 Nisan 2025 ve 5 Ağustos 2025",
+"taraflar": "Litoměřice Teknik Hizmetleri, Çekya; sonuç bekliyor",
+"bedel": "5.950.413 Çek korunası tahmini",
+"birim": "Bir yeni mobil kırma ünitesi",
+"kaynak": "diger https://bidsonar.com/contracts/514679-2025 TED aktarımı"
+},
+{
+"tarih": "Teklif son günü 30 Eylül 2026",
+"taraflar": "Üsküp Belediyesi ve AB IPA II",
+"bedel": "Bedel özet belgede yok",
+"birim": "Bir mobil çeneli kırıcı, entegre ayıklama istasyonu, inşaat atığı için; CPV 43410000",
+"kaynak": "resmi https://skopje.gov.mk/media/12141/td1-rc-c3_summarycn_en-f.pdf"
+},
+{
+"tarih": "16 Ağustos 2023",
+"taraflar": "Japonya Hükümeti, UNDP ve Çevre Bakanlığı",
+"bedel": "4,8 milyon dolar; arama özetinde 700 milyon yen",
+"birim": "İki tesis ve üç mobil kırıcı; Altınözü tesisi 500 ton/saat; ekipman payı bilinmiyor",
+"kaynak": "haber https://www.ekonomigazetesi.com/kose-yazisi/deprem-molozu-geri-donusume-tesvik-56661"
+},
+{
+"tarih": "30 Eylül 2025 başlangıç, 15 Haziran 2026 tamamlanma",
+"taraflar": "Kore Cumhuriyeti ve UNDP Suriye",
+"bedel": "10 milyon dolar",
+"birim": "570 bin ton enkaz, ton başına 17,5 dolar hesapla; kırma payı ayrılmamış",
+"kaynak": "resmi https://www.unicef.org/syria/press-releases/republic-korea-and-united-nations-mark-culmination-phase-one-reviving-hope-restoring"
+},
+{
+"tarih": "9 Temmuz 2026",
+"taraflar": "Avrupa Birliği ve UNDP Filistin",
+"bedel": "15 milyon euro",
+"birim": "18 ay, Gazze enkaz kaldırma, işleme ve yeniden kullanım artı adli tıp merkezi",
+"kaynak": "haber https://news.fundsforngos.org/2026/07/13/undp-and-european-union-launch-e15-million-project-to-support-debris-management-and-recovery-efforts-in-gaza/"
+},
+{
+"tarih": "Aralık 2023 haberi",
+"taraflar": "Neo-Eco ve Hostomel idaresi",
+"bedel": "50 bin ton ürün, 800 bin euroya kadar değer",
+"birim": "Ton başına 16 euro geri kazanılmış malzeme değeri, hesapla",
+"kaynak": "haber https://kyivindependent.com/reconstruction-in-kyiv-suburb-sabotaged-by-local-officials-discouraging-foreign-investors/"
+},
+{
+"tarih": "8 Şubat 2023",
+"taraflar": "BM Sekretaryası ve yüklenici, Deir ez-Zor",
+"bedel": "131.200 dolar",
+"birim": "Geçici depolardan ana depoya katı atık taşıma; enkaz değil, bölgedeki BM alım ölçeği için",
+"kaynak": "resmi https://www.ungm.org/Public/ContractAward/134698"
 }
 ],
 "dal_ad": "MEKA ile ilgili",
@@ -9308,20 +11775,20 @@ window.MEKA_DATA = {
 "puan": {
 "G": 2.0,
 "H": 4.0,
-"R": 2.33,
+"R": 3.0,
 "E": 4.0,
 "M": 5.0,
 "S": 1.33,
-"B": 5,
-"K": 3
+"B": 4,
+"K": 4
 },
 "puan_not": {
-"G": "Yılda 3-6 ünite, yüzde 15-25 marjla brüt 0,3-1,8 M$, tahmin.",
-"H": "Yurt içi teklif ile sipariş 3-9 ay, ilk gelir 6-12 ay, mevcut ürün.",
-"R": "Hatay tesisi bitmiş bağış projesi, Deir ez-Zor 8 M m3 yalnız SANA kaynaklı",
-"E": "Yurt içi doğrudan satış, Egeşehir, İSTAÇ; Suriye'de Zoom Investment uyruğu, finansmanı belirsiz.",
-"M": "MCC 70, MJ 90, MJ 110C hazır; yeni ürün gerekmez.",
-"S": "Mevcut kırıcı satışı; Suriye 216 milyar dolar penceresi belirsiz; taş işinin uzantısı."
+"G": "Yıl 5 brüt kâr 0,9 ile 3,1 milyon dolar; KAP fiyatı kaynaklı, adet tahmin. [Eleştirmen düzeltti, ortalama 3 iken 2: Aralığın alt yarısı rubrik 2 bandında, orta noktası tam 2 milyon dolar sınırında; adet tamamen tahmin ve talep kanıtı zayıf. Daha geniş ve yüksek aral]",
+"H": "Yurt içinde 6 ile 12 ay; KAP'ta yüzde 50 avans emsali; Suriye daha uzun.",
+"R": "Suriye ödemesi belirsiz; UNDP işi yerel yükleniciye gidiyor; Hatay'da yeni ihale yok.",
+"E": "Yurt içinde MEKA doğrudan satar; Suriye ve Gazze için UNGM kaydı ve ortak gerekir.",
+"M": "MCC 70 ve MP 110C Sincan'da hazır; ürün geliştirme gerekmez, demo 0,55 milyon dolar.",
+"S": "Kırıcının enkaz sahasına satışı mevcut işin uzantısı; teknoloji ve ilk giren avantajı yok."
 },
 "puan_yayilim": []
 },
@@ -11279,6 +13746,1558 @@ window.MEKA_DATA = {
 },
 "puan_yayilim": []
 },
+"elektrikli_oto": {
+"id": "elektrikli_oto",
+"dal": "meka",
+"kol": "ozel",
+"baslik": "Elektrikli otobüs: Türkiye'de montaj ve gövde üretimi",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "Yönetici isteği",
+"bolum": "20 Ekim 2026: yönetici elektrikli otobüs ve Çinli üreticiyle ortaklık konularını getirdi; derin çalışma ve çürütücü ile yazıldı",
+"tarih": "20 Ekim 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_elektrikli_oto",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "Karsan",
+"rol": "rakip",
+"not": "Bursa'lı üretici; 2025'te 330 milyon avro ciro, 220 milyon avro elektrikli, 555 elektrikli ihracat ve 69 yurt içi satış, Türkiye'deki 69 elektrikli toplu ulaşım satışının hepsi; global markalar adına üretimi strateji sayıyor, bu yüzden fason ortak adayı da olabilir.",
+"kaynak": "https://www.ekonomist.com.tr/otomotiv/karsan-dan-2025-yili-bilanco-degerlendirmesi-var-72513"
+},
+{
+"ad": "Otokar",
+"rol": "rakip",
+"not": "Sakarya'lı üretici; Romanya Mogoşoaia'ya 12 e-Kent sattı, 2023 teslim; Bükreş 100 elektrikli otobüs ihalesinde teklifi uygun bulunmadı.",
+"kaynak": "https://www.ekonomist.com.tr/haberler/otokardan-romanyaya-elektrikli-otobus-ihracati-36317"
+},
+{
+"ad": "TEMSA",
+"rol": "rakip",
+"not": "Adana'lı üretici; Sabancı ExSA ve PPF yüzde 50 ve yüzde 50 ortaklığında, 2020'de devralındı; Litvanya Druskininkai'ye 9 adet MD9 electriCITY, Aralık 2021.",
+"kaynak": "https://cbwmagazine.com/?p=89393"
+},
+{
+"ad": "BMC",
+"rol": "rakip",
+"not": "İzmir'li üretici; Bükreş Belediyesi 12 Nisan 2023'te 100 adet 12 metre elektrikli otobüs ihalesinde kazanan ilan etti.",
+"kaynak": "https://economedia.ro/rasturnare-de-situatie-la-a-patra-licitatie-pentru-100-de-autobuze-electrice-in-bucuresti-pmb-a-descalificat-oferta-turcilor-de-la-karsan-desi-in-decembrie-2022-ii-declarase-castigatori.html"
+},
+{
+"ad": "Bozankaya",
+"rol": "ortak_adayi",
+"not": "Ankara'lı elektrikli toplu ulaşım üreticisi; 2017'de Karsan ile 900 otobüslük fason üretim anlaşması yaptı; elektrikli otobüs fikri haklarını Karsan'a devrettiği haber tek kaynak ve açılamadı; Prag'a 30 troleybüs üretiyor.",
+"kaynak": "https://www.borsaningundemi.com/haber/karsan-ve-bozankayaa-yerli-elektrikli-otobus-icin-birarada-1179897 ; https://bigpara.hurriyet.com.tr/haberleri/bozankaya"
+},
+{
+"ad": "MAN Türkiye",
+"rol": "ortak_adayi",
+"not": "Ankara'da otobüs fabrikası olan üretici; elektrikli otobüs üretimi ve dış tedarik politikası bu turda bulunamadı, görüşme gerekir.",
+"kaynak": "bulunamadı"
+},
+{
+"ad": "Yutong",
+"rol": "ortak_adayi",
+"not": "Bari 42 araçlık ihalesine İtalyan bayisi Powerbus ile konsorsiyum olarak girdi; Avrupa 2024 teslimatı 1.092 ve yüzde 14 pay iddiası tek kaynak, sayfa açılamadı.",
+"kaynak": "https://www.sustainable-bus.com/electric-bus/bari-karsan-contract-electric-buses-brt"
+},
+{
+"ad": "BYD",
+"rol": "ortak_adayi",
+"not": "Bari ihalesinde BYD Europe teklif verdi; Türkiye'de Manisa'da yaklaşık 1 milyar dolarlık otomobil fabrikası 2026 hedefi tek kaynak, sayfa açılmadı.",
+"kaynak": "https://www.sustainable-bus.com/electric-bus/bari-karsan-contract-electric-buses-brt ; https://www.diken.com.tr/?p=1447840"
+},
+{
+"ad": "CRRC",
+"rol": "ortak_adayi",
+"not": "Bayisi YES-EU üzerinden Bari ihalesine girdi; Bari'de daha önce 99 araç kazanmıştı.",
+"kaynak": "https://www.sustainable-bus.com/electric-bus/bari-karsan-contract-electric-buses-brt"
+},
+{
+"ad": "Zonson",
+"rol": "ortak_adayi",
+"not": "İtalya'da Pagliani Service üzerinden satılıyor, Bari ihalesine teklif verdi.",
+"kaynak": "https://www.sustainable-bus.com/electric-bus/bari-karsan-contract-electric-buses-brt"
+},
+{
+"ad": "Higer",
+"rol": "ortak_adayi",
+"not": "Çinli üretici, FIAA 2026 Madrid fuarında 9 metrelik Azure elektrikli şehir otobüsünü sergiledi; Avrupa'ya açılıyor.",
+"kaynak": "https://www.sustainable-bus.com/news/acea-electric-bus-market-europe-2025"
+},
+{
+"ad": "Ankara Büyükşehir Belediyesi ve EGO",
+"rol": "musteri",
+"not": "19 Ocak 2026'da 1.000 elektrikli otobüs planı açıkladı, teknik heyet Çin'de inceleme yaptı; ihale ilanı bulunamadı.",
+"kaynak": "https://www.hisse.net/haber/ankara-buyuksehir-belediyesi-bin-adet-elektrikli-otobus-alacak-50533"
+},
+{
+"ad": "İETT",
+"rol": "musteri",
+"not": "21 Temmuz 2026'da 150 adet 8 ile 9 metre dizel otobüs ihalesi; Karsan teklifi 1.796,25 milyon TL, 2 yıl bakım dahil.",
+"kaynak": "https://www.bursahakimiyet.com.tr/haberleri/dizel-otobus"
+},
+{
+"ad": "T.C. Ulaştırma Bakanlığı",
+"rol": "musteri",
+"not": "AB fonlu EC-NEAR/ANK/2024/EA-OP/0046 ihalesiyle Karsan'dan 25 adet 18 metre e-ATA aldı, KAP 16 Aralık 2024.",
+"kaynak": "https://borsacoo.com/bildirim/11615"
+},
+{
+"ad": "ASPİLSAN Enerji",
+"rol": "tedarikci",
+"not": "Yerli batarya kaynağı olarak MEKA'nın SSB batarya yaprağında anılıyor; otobüs bataryası fiyatı ve kapasitesi bu turda bulunamadı.",
+"kaynak": "sonuc9.json, ssb_batarya yaprağı"
+},
+{
+"ad": "Bari Belediyesi",
+"rol": "emsal",
+"not": "42 adet 18 metre elektrikli otobüsü 31,88 milyon avroya Karsan ve KMobility'ye verdi, beş teklif arasında.",
+"kaynak": "https://www.sustainable-bus.com/electric-bus/bari-karsan-contract-electric-buses-brt"
+},
+{
+"ad": "Timişoara Belediyesi",
+"rol": "emsal",
+"not": "Karsan ile 30 adet 10 metre e-ATA ve 45 şarj için yaklaşık 17 milyon avroluk sözleşme, 14 Kasım 2025.",
+"kaynak": "https://www.yatirimx.com.tr/ekonomi/karsn-avrupada-buyuyor-30-adet-e-ata-sozlesmesi-imzalandi/14837"
+},
+{
+"ad": "Sabancı Holding ve ExSA",
+"rol": "emsal",
+"not": "TEMSA'yı 2019'da 825 milyon TL şirket değeriyle sattı, 2020'de PPF ile yüzde 50 ve yüzde 50 geri aldı.",
+"kaynak": "https://yatirimciiliskileri.sabanci.com/en/images/pdf/announcement-regarding-the-purchase-of-50-shares-of-temsa-by-our-subsidiary-exsa.pdf"
+},
+{
+"ad": "PPF Group",
+"rol": "yatirimci",
+"not": "Škoda Transportation'ın kontrol hissedarı; PPF IndustryCo ile TEMSA'nın yüzde 50'sine sahip.",
+"kaynak": "https://cbwmagazine.com/?p=89393"
+},
+{
+"ad": "True Value Capital Partners",
+"rol": "emsal",
+"not": "TEMSA'yı 30 Mayıs 2019'da 375 milyon TL hisse değeriyle aldı, 2020'de ExSA ve PPF'ye devretti.",
+"kaynak": "https://www.ntv.com.tr/ekonomi/temsa-satildi-sabancidan-aciklama,46f_j-zx10yYLtETogHsRQ"
+},
+{
+"ad": "ACEA",
+"rol": "kurum",
+"not": "AB otobüs tescil verisini yayımlıyor; 2025'te 38.238 otobüs, yüzde 23,8 şarj edilebilir.",
+"kaynak": "https://www.acea.auto/cv-registrations/new-commercial-vehicle-registrations-vans-8-8-trucks-6-2-buses-7-5-in-2025/"
+},
+{
+"ad": "Avrupa Komisyonu",
+"rol": "kurum",
+"not": "Temiz Araçlar Direktifi hedefleri ve 1 Ocak 2026'da kesin döneme geçen SKDM'nin sahibi.",
+"kaynak": "https://transport.ec.europa.eu/transport-themes/clean-transport/clean-and-energy-efficient-vehicles/clean-vehicles-directive_en"
+}
+],
+"celiskiler": [
+"Bükreş 100 elektrikli otobüs: SeeNews başlığı Karsan'ın 293 milyon ley, yaklaşık 59 milyon avroluk ihaleyi kazandığını yazıyor, sayfa açılamadı; Economedia 12 Nisan 2023'te Bükreş Belediyesi'nin Karsan ve Otokar tekliflerini uygun bulmayıp BMC'yi kazanan ilan ettiğini yazıyor. Nihai sözleşme bulunamadı.",
+"Bologna: açılan sayfada yalnız 49,6 milyon avro ihale tabanı var; arama özetlerinde 18,2 milyon avro sözleşme bedeli geçiyor, doğrulanamadı.",
+"Karsan'ın Avrupa'daki her iki otobüsten birinin Türkiye'de üretildiği beyanı toplam otobüs için; elektrikli segmentte Karsan'ın Avrupa payı yüzde 5 ve Çinli üreticiler güçlü. Türkiye toplam otobüste güçlü, elektrikli otobüste değil.",
+"Kapasite kullanımı: OSD Ocak ile Mayıs 2025 otobüs ve midibüs grubu yüzde 62; aynı açıklamadaki yüzde 68 otomotiv sektörünün genelidir, otobüs grubunun yıl geneli değil; OSD yıllık sayfası okunamadı.",
+"ACEA'nın yüzde 23,8 şarj edilebilir payı şarjlı hibriti de içeriyor; tam elektrikli 2025 payı bulunamadı. Ocak ile Eylül 2025 için 6.444 tam elektrikli iddiası yalnız bir LinkedIn sayfasında, açılmadı.",
+"Karsan'ın 624 elektrikli satış rakamı firma sayfasında doğrudan geçmiyor; 555 ihracat ile 69 yurt içi satışın toplamı olarak hesaplandı.",
+"sonuc9 bağı, savunma flat rack yaprağı: Eskişehir tesisinin tek parça 10 ton ve 7 metre sınırı flat rack için yeterli deniyor; 12 ile 18 metrelik otobüs gövdesi için yetmez, yeni hol ve fikstür gerekir.",
+"sonuc9 bağı, Milvus yaprağı: MEKA'nın boya hattından söz ediyor; MEKA yapraklarının hiçbirinde kataforez hattı geçmiyor. Otobüs gövdesi korozyon koruması için kataforez yatırımı ya da fason gerekir.",
+"sonuc9 bağı, SSB batarya yaprağı: ASPİLSAN yerli batarya kaynağı olarak anılıyor; otobüs bataryası için fiyat ve kapasite bu turda bulunamadı."
+],
+"degisiklikler": [
+"20 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"Karsan 2025: sayfada 624 elektrikli satış rakamı yok; 555 ihracat ve 69 yurt içi satışın toplamı olduğu belirtildi, rakamlar, durum, firmalar, oyuncular tablosu ve çelişkiler listesine işlendi.",
+"OSD kapasite: açılan sayfada yüzde 68 otomotiv sektörünün Ocak ile Mayıs 2025 geneli, otobüs grubunun yıl geneli değil; rakamlar, riskler, özet, pazar tablosu, Türkiye bölümü ve çelişkiler buna göre düzeltildi, yüzde 62 ile 68 aralığı kaldırıldı.",
+"ACEA 2025 girişi: Almanya 6.890 adet rakamı ACEA basın sayfasında değil, sustainable-bus aktarımında; kaynak eklendi ve yüzde 28 artış yazıldı.",
+"Şarj edilebilir otobüs girişine sayfadaki yüzde 38,9 yıllık artış eklendi.",
+"TEMSA emsalinde 182,69 milyon TL'nin Sabancı Holding'in kendi payı olduğu netleştirildi.",
+"Ekonomi tablosunda MEKA gövde payı için beşte bir ifadesi sekizde bir ile beşte bir olarak düzeltildi; 25 ile 40 bin avro, 205 bin avroluk gövde ve şasi payının yüzde 12 ile 20'si.",
+"Ekonomi aritmetiği satır satır kontrol edildi: birim gelir, marj, yıl 3 ve yıl 5 brüt kâr, birikimli geri ödeme 5,4 yıl, iyi senaryo 6,04 ve kötü senaryo 3,15 doğru; değişiklik yok.",
+"Timişoara 17 milyon avro, Bari 31,88 ve 33,89 milyon avro ve yüzde 5,94, İETT 1.796,25 milyon TL, PwC 580 ve 310 bin avro, CPT yüzde 41, Direktif yüzde 45 ve 65, ABB 19 Ocak 2026, Bükreş 304,67 milyon ley, TEMSA 825 ve 375 milyon TL, Karsan ve Bozankaya 900 adet sayfalarla eşleşti; değiştirilmedi.",
+"Sınırlar metni güncellendi: çürütücü 14 sayfayı açtı, kanıt 3 gerekçesi tek kaynaklı tetik ve tahmin ağırlığı olarak yazıldı."
+],
+"ne": "MEKA, lazer, CNC abkant, kaynak, boya ve montaj kapasitesiyle elektrikli otobüs gövde iskeleti üretir, boyar ve CKD kitlerin son montajını yapar. İş fason modeldir: tip onayı, batarya ve tasarım ortak üreticiden, gövde ve montaj MEKA'dan gelir. Hedef alıcı Ankara Büyükşehir ve EGO'nun 1.000 elektrikli otobüs programı, ikinci hedef ortağın AB ihracatıdır. En gerçekçi ortak, Türkiye'de yerli malı avantajı arayan bir Çinli üretici ya da kapasite fazlası arayan bir Türk üreticidir.",
+"neden": "AB'de 2025'te 38.238 otobüs tescil edildi, yüzde 23,8'i şarj edilebilir elektrikli ve Temiz Araçlar Direktifi 2026 ile 2030 arasında Almanya ve İtalya'da kamu alımında yüzde 65 temiz araç istiyor. Ankara Büyükşehir 19 Ocak 2026'da 1.000 elektrikli otobüs planını açıkladı ve heyeti Çin'e gönderdi; bu, Türkiye'nin 2025'teki 69 adetlik elektrikli toplu ulaşım satışının 14 katı. Çinli bir üretici yerli malı yüzde 15 avantajını ancak Türkiye'de yerli katkılı üretimle alabilir; Ankara'daki borsaya kote bir sac ve kaynak şirketi bu boşluğu doldurabilir. Ancak Türk otobüs üreticileri gövdeyi kendileri yapıyor ve kapasiteleri boş, bu yüzden iş tek bir tetiğe bağlı.",
+"rakamlar": [
+{
+"deger": "38.238 adet, yüzde 7,5 artış",
+"aciklama": "AB yeni otobüs tescili, 2025; Almanya 6.890 adet ve yüzde 28 artış ile en büyük pazar",
+"kaynak": "resmi sektör, ACEA 29 Ocak 2026, https://www.acea.auto/cv-registrations/new-commercial-vehicle-registrations-vans-8-8-trucks-6-2-buses-7-5-in-2025/ ; ülke adedi https://www.sustainable-bus.com/news/acea-electric-bus-market-europe-2025"
+},
+{
+"deger": "9.089 adet, yüzde 23,8",
+"aciklama": "AB şarj edilebilir otobüs tescili 2025, yüzde 38,9 artış; 2024'te yüzde 18,5. Tam elektrikli ve şarjlı hibrit birlikte",
+"kaynak": "ACEA [8] ve haber https://www.sustainable-bus.com/news/acea-electric-bus-market-europe-2025"
+},
+{
+"deger": "580 bin avro ve 310 bin avro",
+"aciklama": "Almanya 2025: 12 metre tek bataryalı elektrikli otobüs ortalama fiyatı ve eşdeğer dizel otobüs; yeni şehir otobüslerinin yaklaşık yarısı elektrikli",
+"kaynak": "haber, PwC raporu, tek kaynak, https://www.cleanenergywire.org/news/almost-half-new-city-buses-germany-were-electric-2025-report"
+},
+{
+"deger": "69 adet",
+"aciklama": "Türkiye'de 2025'te satılan elektrikli toplu ulaşım aracı; Karsan'a göre hepsi Karsan; Türkiye'de toplam 139 Karsan elektrikli aracı",
+"kaynak": "firma beyanı, tek kaynak, https://www.ekonomist.com.tr/otomotiv/karsan-dan-2025-yili-bilanco-degerlendirmesi-var-72513"
+},
+{
+"deger": "330 milyon avro; 220 milyon avro; 54 milyon avro",
+"aciklama": "Karsan 2025 cirosu, elektrikli araç cirosu ve FAVÖK; 555 elektrikli ihracat ve 69 yurt içi satış, toplam 624 hesap; Avrupa elektrikli payı yüzde 5; 2026 hedefi yaklaşık 700",
+"kaynak": "firma beyanı, https://www.ekonomist.com.tr/otomotiv/karsan-dan-2025-yili-bilanco-degerlendirmesi-var-72513"
+},
+{
+"deger": "31,88 milyon avro; araç başına yaklaşık 759 bin avro",
+"aciklama": "Bari Belediyesi 42 adet 18 metre e-ATA, Karsan ve KMobility; taban 33,89 milyon avro, indirim yüzde 5,94; rakipler BYD, CRRC, Zonson, Yutong",
+"kaynak": "haber, belediye kararı aktarımı, https://www.sustainable-bus.com/electric-bus/bari-karsan-contract-electric-buses-brt"
+},
+{
+"deger": "yaklaşık 17 milyon avro; araç başına yaklaşık 567 bin avro",
+"aciklama": "Timişoara Belediyesi 30 adet 10 metre e-ATA, 30 yavaş ve 15 pantograf şarj dahil, KDV hariç; teslim 2026",
+"kaynak": "haber, KAP aktarımı, https://www.yatirimx.com.tr/ekonomi/karsn-avrupada-buyuyor-30-adet-e-ata-sozlesmesi-imzalandi/14837"
+},
+{
+"deger": "1.796,25 milyon TL; araç başına 11,98 milyon TL, yaklaşık 241.700 dolar",
+"aciklama": "İETT 150 adet 8 ile 9 metre dizel otobüs ihalesi, 21 Temmuz 2026, Karsan teklifi; ÖTV ve KDV hariç, 2 yıl bakım, onarım ve temizlik dahil",
+"kaynak": "haber, KAP aktarımı, https://www.bursahakimiyet.com.tr/haberleri/dizel-otobus"
+},
+{
+"deger": "1.000 elektrikli otobüs",
+"aciklama": "Ankara Büyükşehir Belediyesi planı, 19 Ocak 2026; ABB ve EGO teknik heyeti Çin'de üretici ve işletmecileri inceledi; ihale ilanı bulunamadı",
+"kaynak": "haber, belediye açıklaması, tek kaynak, https://www.hisse.net/haber/ankara-buyuksehir-belediyesi-bin-adet-elektrikli-otobus-alacak-50533"
+},
+{
+"deger": "yüzde 41",
+"aciklama": "Batarya elektrikli otobüs maliyetinde gövde ve şasi payı; elektrikli aktarma yüzde 16, entegrasyon yüzde 7, güç sistemi yüzde 36",
+"kaynak": "sektör derneği raporu, CPT, https://www.cpt-uk.org/media/l0ehjdb5/paper-4-1-annex-b.pdf"
+},
+{
+"deger": "yüzde 45 ve yüzde 65",
+"aciklama": "Temiz Araçlar Direktifi, Almanya ve İtalya kamu otobüs alımında temiz araç hedefi: 2 Ağustos 2021 ile 31 Aralık 2025 ve 1 Ocak 2026 ile 31 Aralık 2030; yarısı sıfır emisyon",
+"kaynak": "resmi, https://transport.ec.europa.eu/transport-themes/clean-transport/clean-and-energy-efficient-vehicles/clean-vehicles-directive_en"
+},
+{
+"deger": "yüzde 62",
+"aciklama": "Türkiye otobüs ve midibüs grubunda kapasite kullanımı, Ocak ile Mayıs 2025; aynı dönemde otomotiv sektörü geneli yüzde 68; otobüs grubu yıl geneli bulunamadı",
+"kaynak": "sektör derneği OSD açıklaması, haber, https://www.log.com.tr/?p=957504"
+},
+{
+"deger": "304,67 milyon ley",
+"aciklama": "Bükreş 100 adet 12 metre elektrikli otobüs ve şarj altyapısı tahmini değeri; araç başına yaklaşık 615 bin avro, kur tahmini 4,95 ley; BMC kazanan ilan edildi, 12 Nisan 2023",
+"kaynak": "haber, https://economedia.ro/rasturnare-de-situatie-la-a-patra-licitatie-pentru-100-de-autobuze-electrice-in-bucuresti-pmb-a-descalificat-oferta-turcilor-de-la-karsan-desi-in-decembrie-2022-ii-declarase-castigatori.html"
+},
+{
+"deger": "825 milyon TL şirket değeri; 375 milyon TL hisse değeri",
+"aciklama": "TEMSA'nın Sabancı'dan True Value Capital Partners'a satışı, 30 Mayıs 2019; Sabancı Holding payı 182,69 milyon TL",
+"kaynak": "haber, KAP aktarımı, https://www.ntv.com.tr/ekonomi/temsa-satildi-sabancidan-aciklama,46f_j-zx10yYLtETogHsRQ"
+}
+],
+"durum": "Bugün 20 Ekim 2026. Avrupa'da elektrikli otobüs talebi yapısal olarak büyüyor ve Türk üreticiler bunu kendi fabrikalarında karşılıyor; Karsan 2025'te 555 elektrikli araç ihraç etti ve yurt içinde 69 sattı, Bari ve Timişoara gibi ihaleleri kazanıyor. Türkiye iç pazarı 2025'te yalnız 69 elektrikli toplu ulaşım aracıydı. Tek somut yerli tetik, Ankara Büyükşehir'in 19 Ocak 2026'da açıkladığı 1.000 elektrikli otobüs planı ve EGO heyetinin Çin ziyareti; ihale ilanı henüz bulunamadı. MEKA'nın lazer, abkant, kaynak, boya ve montaj gücü gövde iskeleti ve CKD montajında doğrudan kullanılır, ama 12 ile 18 metrelik gövde için yeni hol ve fikstür, kataforez için ise yatırım ya da fason gerekir. Ekonomi zayıf ama sıfır değil: yıl 5 brüt kârı 1,3 ile 4,4 milyon dolar, baz geri ödeme 5,4 yıl.",
+"adimlar": [
+{
+"adim": "EGO Genel Müdürlüğü ile görüşme: 1.000 elektrikli otobüs programının ihale biçimi, takvimi, finansmanı ve yerli üretim şartı",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "Çinli üreticilere ortaklık mektubu: Yutong, BYD, Zhongtong, King Long ve Higer; Ankara'da CKD montaj, gövde iskeleti ve yerli katkı önerisi",
+"kim": "Mehmet Ulaş ve MEKA dış ticaret",
+"ne_zaman": "Aralık 2026"
+},
+{
+"adim": "Karsan, Bozankaya ve MAN Türkiye satın alma ile fason gövde, alt parça ve montaj görüşmesi",
+"kim": "MEKA iş geliştirme",
+"ne_zaman": "Aralık 2026"
+},
+{
+"adim": "İç fizibilite: 12 metrelik gövde fikstürü, hol yerleşimi, fason kataforez teklifleri ve otobüs başına birim maliyet",
+"kim": "MEKA üretim mühendisliği",
+"ne_zaman": "Ocak 2027"
+},
+{
+"adim": "Tip onayı ve IATF 16949 yol haritası için Sanayi ve Teknoloji Bakanlığı, TSE ve bir belgelendirme kuruluşuyla ön görüşme",
+"kim": "MEKA kalite müdürü",
+"ne_zaman": "Ocak 2027"
+},
+{
+"adim": "Karar kapısı: niyet mektubu ve ihale takvimi varsa 10 ile 20 araçlık pilot; yoksa yaprak izlemede kalır",
+"kim": "MEKA yönetim kurulu",
+"ne_zaman": "31 Mart 2027"
+}
+],
+"riskler": [
+"İç pazar çok küçük: 2025'te 69 elektrikli toplu ulaşım aracı, hepsi Karsan; olasılık yüksek, etki yüksek. Azaltma: ABB programına ve bir ihracat ortağına bağlanmadan yatırım yapılmaz.",
+"Türk üreticiler gövdeyi kendileri yapıyor ve otobüs hatları Ocak ile Mayıs 2025'te yüzde 62 dolulukla çalışıyor; dış alt yükleniciye ihtiyaç düşük. Olasılık yüksek, etki yüksek. Azaltma: Çinli ortak hedeflenir, Türk üreticiye yalnız alt parça.",
+"ABB ihalesi ertelenir ya da hazır ithal araçla yapılır; olasılık orta, etki yüksek. Azaltma: pilot öncesi 31 Mart 2027 karar kapısı, fikstür yatırımı aşamalı.",
+"Tip onayı ve IATF 16949 gecikir; olasılık orta, etki orta. Azaltma: ortağın tip onayı altında onaylı üretim yeri modeli.",
+"İnce marj, kur ve belediye ödeme vadesi; brüt marj tahmini yüzde 15 ile 20. Olasılık orta, etki orta. Azaltma: kit ortağın malı kalır, avans ve avro fiyat.",
+"Batarya yangını ve garanti sorumluluğu; olasılık düşük, etki yüksek. Azaltma: yüksek gerilim işi ortakta, MEKA gövde ve mekanik montajda kalır."
+],
+"takvim": [
+{
+"tarih": "30 Mayıs 2019",
+"olay": "TEMSA'nın Sabancı'dan True Value'ya satışı; şirket değeri 825 milyon TL",
+"kaynak": "https://www.ntv.com.tr/ekonomi/temsa-satildi-sabancidan-aciklama,46f_j-zx10yYLtETogHsRQ",
+"iso": "2019-05-30"
+},
+{
+"tarih": "16 Aralık 2024",
+"olay": "Karsan KAP: Ulaştırma Bakanlığı ihalesinde 25 adet 18 metre e-ATA siparişi, teslim 2025 ikinci yarısı",
+"kaynak": "https://borsacoo.com/bildirim/11615",
+"iso": "2024-12-16"
+},
+{
+"tarih": "25 Ekim 2025",
+"olay": "Karsan Bari'de 42 adet 18 metre e-ATA ihalesini kazandığını duyurdu, teslim Haziran 2026",
+"kaynak": "https://www.karsan.com/en/press/current-news/karsan-makes-its-mark-on-electric-public-transportation-in-bari",
+"iso": "2025-10-25"
+},
+{
+"tarih": "14 Kasım 2025",
+"olay": "Karsan ve Timişoara Belediyesi 17 milyon avroluk 30 elektrikli otobüs sözleşmesi, teslim 2026",
+"kaynak": "https://www.yatirimx.com.tr/ekonomi/karsn-avrupada-buyuyor-30-adet-e-ata-sozlesmesi-imzalandi/14837",
+"iso": "2025-11-14"
+},
+{
+"tarih": "1 Ocak 2026",
+"olay": "AB SKDM kesin dönemi başladı; kapsam çimento, demir çelik, alüminyum, gübre, elektrik ve hidrojen; otobüs kapsam dışı",
+"kaynak": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+"iso": "2026-01-01"
+},
+{
+"tarih": "1 Ocak 2026 ile 31 Aralık 2030",
+"olay": "Temiz Araçlar Direktifi ikinci dönem; Almanya ve İtalya'da kamu otobüs alımında yüzde 65 temiz araç, yarısı sıfır emisyon",
+"kaynak": "https://transport.ec.europa.eu/transport-themes/clean-transport/clean-and-energy-efficient-vehicles/clean-vehicles-directive_en",
+"iso": "2026-01-01"
+},
+{
+"tarih": "19 Ocak 2026",
+"olay": "Ankara Büyükşehir 1.000 elektrikli otobüs planını açıkladı, ABB ve EGO heyeti Çin'de",
+"kaynak": "https://www.hisse.net/haber/ankara-buyuksehir-belediyesi-bin-adet-elektrikli-otobus-alacak-50533",
+"iso": "2026-01-19"
+},
+{
+"tarih": "29 Ocak 2026",
+"olay": "ACEA 2025 ticari araç tescilleri: otobüs 38.238 adet, şarj edilebilir pay yüzde 23,8",
+"kaynak": "https://www.acea.auto/cv-registrations/new-commercial-vehicle-registrations-vans-8-8-trucks-6-2-buses-7-5-in-2025/",
+"iso": "2026-01-29"
+},
+{
+"tarih": "22 Mayıs 2026",
+"olay": "Karsan bayisi Marin Ayala ile Transports Urbans de Sabadell arasında 9 adet 12 metre e-ATA sözleşmesi",
+"kaynak": "https://www.yatirimx.com.tr/sirket-haberleri/karsndan-ispanyaya-buyuk-satis-9-elektrikli-e-ata-gidiyor/20723",
+"iso": "2026-05-22"
+},
+{
+"tarih": "21 ve 22 Temmuz 2026",
+"olay": "İETT 150 dizel otobüs ihalesi, Karsan teklifi 1.796,25 milyon TL; karar 22 Temmuz'da tebliğ",
+"kaynak": "https://www.bursahakimiyet.com.tr/haberleri/dizel-otobus",
+"iso": "2026-07-22"
+},
+{
+"tarih": "31 Mart 2027",
+"olay": "Önerilen MEKA karar kapısı: niyet mektubu ve ihale takvimi varsa pilot, tahmin",
+"kaynak": "bu çalışma, tahmin",
+"iso": "2027-03-31"
+},
+{
+"tarih": "16 ile 21 Ekim 2027",
+"olay": "Busworld Europe, Brüksel; Çinli ve Avrupalı otobüs üreticileriyle görüşme fırsatı",
+"kaynak": "https://www.sustainable-bus.com/news/acea-electric-bus-market-europe-2025",
+"iso": "2027-10-21"
+}
+],
+"web": [
+{
+"url": "https://www.yatirimx.com.tr/ekonomi/karsn-avrupada-buyuyor-30-adet-e-ata-sozlesmesi-imzalandi/14837",
+"ne": "Karsan Timişoara 30 e-ATA, 17 milyon avro, 14 Kasım 2025; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.yatirimx.com.tr/sirket-haberleri/karsndan-ispanyaya-buyuk-satis-9-elektrikli-e-ata-gidiyor/20723",
+"ne": "Karsan Sabadell 9 e-ATA, 22 Mayıs 2026; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://borsacoo.com/bildirim/11615",
+"ne": "Karsan KAP metni, Ulaştırma Bakanlığı 25 e-ATA 18 metre; açıldı",
+"tur": "resmi"
+},
+{
+"url": "https://www.bursahakimiyet.com.tr/haberleri/dizel-otobus",
+"ne": "İETT 150 dizel otobüs, 1.796,25 milyon TL, Karsan KAP; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://yatirimciiliskileri.sabanci.com/en/images/pdf/announcement-regarding-the-purchase-of-50-shares-of-temsa-by-our-subsidiary-exsa.pdf",
+"ne": "Sabancı KAP, ExSA ve PPF TEMSA alımı; açıldı",
+"tur": "resmi"
+},
+{
+"url": "https://www.ntv.com.tr/ekonomi/temsa-satildi-sabancidan-aciklama,46f_j-zx10yYLtETogHsRQ",
+"ne": "TEMSA 2019 satışı, 825 milyon TL şirket değeri; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://cbwmagazine.com/?p=89393",
+"ne": "TEMSA devrinin tamamlanması, Sabancı ve PPF; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.acea.auto/cv-registrations/new-commercial-vehicle-registrations-vans-8-8-trucks-6-2-buses-7-5-in-2025/",
+"ne": "ACEA 2025 otobüs tescilleri; açıldı",
+"tur": "rapor"
+},
+{
+"url": "https://www.sustainable-bus.com/news/acea-electric-bus-market-europe-2025",
+"ne": "ACEA verisi, 9.089 şarj edilebilir otobüs, ülke kırılımı, Busworld 2027 tarihi; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.karsan.com/en/press/current-news/karsan-makes-its-mark-on-electric-public-transportation-in-bari",
+"ne": "Karsan Bari 42 e-ATA duyurusu, 25 Ekim 2025; açıldı",
+"tur": "firma"
+},
+{
+"url": "https://www.sustainable-bus.com/electric-bus/bari-karsan-contract-electric-buses-brt",
+"ne": "Bari ihale kararı, 31,88 milyon avro, rakipler; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.cleanenergywire.org/news/almost-half-new-city-buses-germany-were-electric-2025-report",
+"ne": "PwC raporu, Almanya 12 metre e-otobüs 580 bin avro; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://economedia.ro/rasturnare-de-situatie-la-a-patra-licitatie-pentru-100-de-autobuze-electrice-in-bucuresti-pmb-a-descalificat-oferta-turcilor-de-la-karsan-desi-in-decembrie-2022-ii-declarase-castigatori.html",
+"ne": "Bükreş 100 e-otobüs ihalesi, BMC kazanan, 304,67 milyon ley; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.cpt-uk.org/media/l0ehjdb5/paper-4-1-annex-b.pdf",
+"ne": "Sıfır emisyonlu otobüs maliyet kırılımı, gövde ve şasi yüzde 41; açıldı",
+"tur": "rapor"
+},
+{
+"url": "https://transport.ec.europa.eu/transport-themes/clean-transport/clean-and-energy-efficient-vehicles/clean-vehicles-directive_en",
+"ne": "Temiz Araçlar Direktifi ülke hedefleri; açıldı",
+"tur": "resmi"
+},
+{
+"url": "https://www.ekonomist.com.tr/otomotiv/karsan-dan-2025-yili-bilanco-degerlendirmesi-var-72513",
+"ne": "Karsan 2025 sonuçları, 69 adet Türkiye satışı; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.hisse.net/haber/ankara-buyuksehir-belediyesi-bin-adet-elektrikli-otobus-alacak-50533",
+"ne": "ABB 1.000 elektrikli otobüs planı, 19 Ocak 2026; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.borsaningundemi.com/haber/karsan-ve-bozankayaa-yerli-elektrikli-otobus-icin-birarada-1179897",
+"ne": "Karsan ve Bozankaya 900 otobüs fason üretim anlaşması, 27 Mart 2017; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://sustainable-bus.com/electric-bus/karsan-bologna-tender-electric-buses",
+"ne": "Bologna 24 artı 7 e-ATA 18, taban 49,6 milyon avro; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.ekonomist.com.tr/haberler/otokardan-romanyaya-elektrikli-otobus-ihracati-36317",
+"ne": "Otokar Mogoşoaia 12 e-Kent, 1 Aralık 2022; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.donanimhaber.com/temsa-litvanya-daki-elektrikli-otobus-ihalesini-kazandi--143132",
+"ne": "TEMSA Druskininkai 9 MD9 electriCITY, 27 Aralık 2021; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.log.com.tr/?p=957504",
+"ne": "OSD Ocak ile Mayıs 2025, otobüs ve midibüs kapasite kullanımı yüzde 62, sektör geneli yüzde 68; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+"ne": "SKDM kesin dönem 1 Ocak 2026 ve sektör kapsamı; açıldı",
+"tur": "resmi"
+},
+{
+"url": "https://www.getmidas.com/midasin-kulaklari/karsan-mersin-otobus-ihalesini-kazandi-p-5503",
+"ne": "Karsan Mersin 100 CNG otobüs, 262,35 milyon TL, Aralık 2021; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://bigpara.hurriyet.com.tr/haberleri/bozankaya",
+"ne": "Bozankaya Prag 30 troleybüs ve Timişoara tramvay başlıkları; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.ekonomigazetesi.com/sirket-haberleri/karsan-yerli-batarya-uretimini-gundeme-aldi-45726",
+"ne": "Karsan yerli batarya çalışması ve kur göstergesi; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.steelradar.com/bozankaya-nin-elektrikli-otobus-projelerinin-karsan-a-devrine-izin-81768/",
+"ne": "Bozankaya elektrikli otobüs fikri haklarının Karsan'a devri, Rekabet izni; açılamadı, tek kaynak",
+"tur": "haber"
+},
+{
+"url": "https://seenews.com/news/turkeys-karsan-wins-293-mln-lei-59-mln-euro-electric-buses-tender-in-romania-808646",
+"ne": "Karsan Bükreş 293 milyon ley başlığı; açılamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.electrive.com/es/2025/10/16/yutong-expands-rapidly-in-europe-with-local-strategy/",
+"ne": "Yutong Avrupa yerel strateji, 1.092 teslimat iddiası; açılamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.diken.com.tr/?p=1447840",
+"ne": "BYD Türkiye yatırımı; açılmadı, arama özeti",
+"tur": "haber"
+},
+{
+"url": "https://unece.org/transport/vehicle-regulations-wp29/standards/addenda-1958-agreement-regulations-101-120",
+"ne": "UN R107 ve R100 metinleri; açılamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.bursahakimiyet.com.tr/haberleri/yerli-mali",
+"ne": "Belediye ihalelerinde yerli malı yüzde 15 fiyat avantajı ilanları; açılmadı, arama özeti",
+"tur": "haber"
+},
+{
+"url": "https://tr.motor1.com/news/784762/osd-2025-verileri-resmi/",
+"ne": "OSD 2025 yıllık verileri; sıkıştırılmış içerik nedeniyle okunamadı",
+"tur": "haber"
+},
+{
+"url": "https://kap.org.tr/tr/api/BildirimPdf/1649058",
+"ne": "Karsan KAP bildirimi; 429 hatası, açılamadı",
+"tur": "resmi"
+}
+],
+"ekonomi": {
+"bilet": "6 ile 10 milyon dolar, baz 8, ilk 24 ay; ilk 12 ay 2 ile 4 milyon dolar. Kırılım tahmin: hol 2,0 ile 3,5; fikstür ve robot 1,2 ile 2,0; boya kabini 0,8 ile 1,2; montaj hattı 0,8 ile 1,3; belge ve prototip 0,5 ile 0,9; işletme sermayesi 0,7 ile 1,1. Kendi kataforez hattı ek 6 ile 10 milyon dolar, tahmin.",
+"sure_ilk_gelir": "18 ile 24 ay, tahmin: ortak niyet mektubu 31 Mart 2027, pilot seri 2028 ikinci yarısı; ortağın tip onayı altında üretim yeri modeliyle 12 ile 15 aya inebilir.",
+"yil3": "2029: 100 ile 150 otobüs, otobüs başına 40 ile 65 bin avro; gelir 4,0 ile 9,75 milyon avro yani 4,5 ile 10,9 milyon dolar; brüt kâr yüzde 15 ile 20 marjla 0,60 ile 1,95 milyon avro yani 0,67 ile 2,18 milyon dolar. Adet ve birim gelir tahmin.",
+"yil5": "2031: 200 ile 300 otobüs; gelir 8,0 ile 19,5 milyon avro yani 9,0 ile 21,8 milyon dolar; brüt kâr 1,20 ile 3,90 milyon avro yani 1,34 ile 4,37 milyon dolar. Tahmin.",
+"geri_odeme": "Baz 5,4 yıl, 2032 ortası: bilet 8 milyon dolar; birikimli orta brüt kâr yıl 2 sonu 0,36, yıl 3 sonu 1,79, yıl 4 sonu 3,94, yıl 5 sonu 6,80; kalan 1,20 bölü yıl 6'nın 2,86'sı eşittir 0,42 yıl. İyi senaryo yaklaşık 4 yıl, kötü senaryo 10 yılın üstü. Brüt kâr üzerinden, genel gider ve vergi öncesi; kendi kataforez hattıyla baz 8 yılı geçer.",
+"yillik_kar_potansiyeli": "Yıl 5 yani 2031 brüt kârı 1,3 ile 4,4 milyon dolar; dayanak yılda 200 ile 300 otobüs, otobüs başına 40 ile 65 bin avro MEKA payı ve yüzde 15 ile 20 brüt marj, hepsi tahmin; birim fiyat çerçevesi Bari 759 bin avro, Timişoara 567 bin avro, Almanya ortalaması 580 bin avro ve CPT'nin yüzde 41 gövde ve şasi payı kaynaklı.",
+"varsayimlar": "Kur 1 avro 1,12 dolar, 1 dolar 49,55 TL, 20 Ekim 2026 piyasa göstergesi. 12 metre elektrikli otobüs fiyatı 500 bin avro, tahmin; dayanak Almanya 580 bin avro ve Timişoara 567 bin avro. Gövde ve şasi payı yüzde 41, CPT kaynaklı. MEKA payı: gövde iskeleti, kataforez ve boya 25 ile 40 bin avro, CKD son montaj işçiliği 15 ile 25 bin avro; toplam otobüs fiyatının yüzde 8 ile 13'ü, tahmin. Brüt marj yüzde 15 ile 20, tahmin; kıyas Karsan 2025 FAVÖK marjı yaklaşık yüzde 16,4. Adet: yıl 2 yani 2028 20 ile 40 pilot, yıl 3 100 ile 150, yıl 5 200 ile 300, tahmin; yıl 3 adedi ABB 1.000 otobüs planının yüzde 10 ile 15'i. Kitler ve batarya ortağın malı; MEKA işçilik ve gövde bedeli alır. Yıl 1 2027 kurulum yılı, gelir yok."
+},
+"emsaller": [
+{
+"tarih": "21 Temmuz 2026",
+"taraflar": "İETT, Karsan",
+"bedel": "1.796,25 milyon TL, ÖTV ve KDV hariç",
+"birim": "150 dizel 8 ile 9 metre otobüs; araç başına 11,98 milyon TL, yaklaşık 241.700 dolar; 2 yıl bakım, onarım ve temizlik dahil",
+"kaynak": "haber, KAP aktarımı, https://www.bursahakimiyet.com.tr/haberleri/dizel-otobus"
+},
+{
+"tarih": "14 Kasım 2025",
+"taraflar": "Timişoara Belediyesi, Karsan",
+"bedel": "yaklaşık 17 milyon avro, KDV hariç",
+"birim": "30 adet 10 metre e-ATA, 30 yavaş ve 15 pantograf şarj dahil; araç başına yaklaşık 567 bin avro",
+"kaynak": "haber, KAP aktarımı, https://www.yatirimx.com.tr/ekonomi/karsn-avrupada-buyuyor-30-adet-e-ata-sozlesmesi-imzalandi/14837"
+},
+{
+"tarih": "25 Ekim 2025",
+"taraflar": "Bari Belediyesi, Karsan ve İtalyan bayisi KMobility",
+"bedel": "31,88 milyon avro, KDV hariç; taban 33,89 milyon avro",
+"birim": "42 adet 18 metre e-ATA; araç başına yaklaşık 759 bin avro; indirim yüzde 5,94; PNRR fonlu",
+"kaynak": "haber, belediye kararı aktarımı, https://www.sustainable-bus.com/electric-bus/bari-karsan-contract-electric-buses-brt"
+},
+{
+"tarih": "22 Mayıs 2026",
+"taraflar": "Transports Urbans de Sabadell, Karsan bayisi Marin Ayala",
+"bedel": "açıklanmadı",
+"birim": "9 adet 12 metre e-ATA",
+"kaynak": "haber, KAP aktarımı, https://www.yatirimx.com.tr/sirket-haberleri/karsndan-ispanyaya-buyuk-satis-9-elektrikli-e-ata-gidiyor/20723"
+},
+{
+"tarih": "16 Aralık 2024",
+"taraflar": "T.C. Ulaştırma Bakanlığı, Karsan",
+"bedel": "açıklanmadı",
+"birim": "25 adet 18 metre körüklü e-ATA, AB fonlu ihale",
+"kaynak": "KAP bildirimi metni, https://borsacoo.com/bildirim/11615"
+},
+{
+"tarih": "12 Nisan 2023",
+"taraflar": "Bükreş Belediyesi, BMC",
+"bedel": "tahmini değer 304,67 milyon ley, KDV hariç",
+"birim": "100 adet 12 metre elektrikli otobüs ve şarj; araç başına yaklaşık 615 bin avro, kur tahmini 4,95 ley; nihai sözleşme bedeli bulunamadı",
+"kaynak": "haber, https://economedia.ro/rasturnare-de-situatie-la-a-patra-licitatie-pentru-100-de-autobuze-electrice-in-bucuresti-pmb-a-descalificat-oferta-turcilor-de-la-karsan-desi-in-decembrie-2022-ii-declarase-castigatori.html"
+},
+{
+"tarih": "2022",
+"taraflar": "TPER Bologna, Karsan",
+"bedel": "ihale tabanı 49,6 milyon avro",
+"birim": "24 artı 7 opsiyon 18 metre e-ATA ve 18 yıl bakım; taban üzerinden araç başına yaklaşık 1,6 milyon avro, bakım dahil; sözleşme bedeli doğrulanamadı",
+"kaynak": "haber, https://sustainable-bus.com/electric-bus/karsan-bologna-tender-electric-buses"
+},
+{
+"tarih": "30 Mayıs 2019",
+"taraflar": "Sabancı Holding, True Value Capital Partners",
+"bedel": "şirket değeri 825 milyon TL, hisse değeri 375 milyon TL; Sabancı Holding payı 182,69 milyon TL",
+"birim": "TEMSA yüzde 100",
+"kaynak": "haber, KAP aktarımı, https://www.ntv.com.tr/ekonomi/temsa-satildi-sabancidan-aciklama,46f_j-zx10yYLtETogHsRQ"
+},
+{
+"tarih": "2020",
+"taraflar": "True Value Capital Partners, Sabancı ExSA ve PPF",
+"bedel": "açıklanmadı",
+"birim": "TEMSA 210 milyon TL nominal sermayenin tamamı, yüzde 50 ve yüzde 50",
+"kaynak": "KAP bildirimi, https://yatirimciiliskileri.sabanci.com/en/images/pdf/announcement-regarding-the-purchase-of-50-shares-of-temsa-by-our-subsidiary-exsa.pdf"
+},
+{
+"tarih": "27 Mart 2017",
+"taraflar": "Karsan, Bozankaya",
+"bedel": "açıklanmadı",
+"birim": "Bozankaya tasarımı E-Karat elektrikli otobüsün Karsan Bursa'da fason üretimi; 3 yılda 900 adet hedefi",
+"kaynak": "haber, https://www.borsaningundemi.com/haber/karsan-ve-bozankayaa-yerli-elektrikli-otobus-icin-birarada-1179897"
+}
+],
+"cevaplar": [
+{
+"soru": "MEKA'nın araç tip onayı ve otomotiv kalite sistemi IATF 16949 alması ne sürer",
+"durum": "gorusme",
+"cevap": "Web'de süre ve maliyet bulunamadı; UNECE R107, R66 ve R100 sayfaları açılamadı. Tahmin: IATF 16949 için 12 ile 18 ay. Pratik yol, tip onayını ortak üreticinin taşıması ve MEKA'nın onaylı üretim yeri olarak denetime girmesi; bu durumda MEKA kendi adına tip onayı almaz.",
+"kaynak": "bulunamadı; https://unece.org/transport/vehicle-regulations-wp29/standards/addenda-1958-agreement-regulations-101-120 açılamadı",
+"kime": "Sanayi ve Teknoloji Bakanlığı Sanayi Genel Müdürlüğü araç tip onayı birimi; TSE; bir IATF 16949 belgelendirme kuruluşu"
+},
+{
+"soru": "Hangi mevcut üretici gövde ya da montaj alt yüklenicisi arıyor",
+"durum": "kismen",
+"cevap": "Doğrudan alt yüklenici arayan bir üretici bulunamadı. Karsan 2017'de Bozankaya'nın tasarladığı E-Karat otobüsünü Bursa'da fason üretmeyi üstlendi, 3 yılda 900 araç hedefiyle; Karsan bugün de global markalar adına üretimi strateji olarak sayıyor. Yani fason model var ama fason yapan bir otobüs fabrikası. Türk üreticilerin otobüs ve midibüs kapasite kullanımı Ocak ile Mayıs 2025'te yüzde 62; dışarıya gövde verme ihtiyacı düşük görünüyor.",
+"kaynak": "https://www.borsaningundemi.com/haber/karsan-ve-bozankayaa-yerli-elektrikli-otobus-icin-birarada-1179897 ; https://www.ekonomist.com.tr/otomotiv/karsan-dan-2025-yili-bilanco-degerlendirmesi-var-72513 ; https://www.log.com.tr/?p=957504",
+"kime": "Karsan satın alma ve iş geliştirme; Bozankaya Ankara Sincan; MAN Türkiye Ankara satın alma"
+},
+{
+"soru": "Ankara Büyükşehir 1.000 elektrikli otobüs programı ne zaman, hangi biçimde ve hangi yerli üretim şartıyla ihaleye çıkacak",
+"durum": "gorusme",
+"cevap": "Plan 19 Ocak 2026'da açıklandı, heyet Çin'de üretici ve işletmecilerle görüştü. İhale ilanı, takvim, finansman ve yerli şart web'de bulunamadı.",
+"kaynak": "https://www.hisse.net/haber/ankara-buyuksehir-belediyesi-bin-adet-elektrikli-otobus-alacak-50533",
+"kime": "EGO Genel Müdürlüğü Otobüs İşletme Dairesi; Ankara Büyükşehir Belediyesi Ulaşım Dairesi"
+},
+{
+"soru": "Çinli üreticiler Türkiye'de CKD montaj ortağı arıyor mu, kit fiyatı ve yerli katkı payı ne olur",
+"durum": "gorusme",
+"cevap": "Yutong, BYD, CRRC ve Zonson Bari ihalesinde bayi ya da konsorsiyumla AB'ye doğrudan satıyor. Yutong'un yerel ortaklık stratejisi ve BYD'nin Avrupa'da yerel ortaklarla otobüs fabrikası arayışı arama özetlerinde geçiyor ama sayfalar açılamadı. Türkiye'de otobüs montaj planı bulunamadı.",
+"kaynak": "https://www.sustainable-bus.com/electric-bus/bari-karsan-contract-electric-buses-brt ; https://www.electrive.com/es/2025/10/16/yutong-expands-rapidly-in-europe-with-local-strategy/ açılamadı",
+"kime": "Yutong, BYD, Zhongtong, King Long ve Higer Türkiye distribütörleri ya da Avrupa satış ofisleri; Busworld Europe, Brüksel, 16 ile 21 Ekim 2027"
+},
+{
+"soru": "Çin menşeli otobüs ve CKD kitine Türkiye'de ek gümrük vergisi var mı",
+"durum": "gorusme",
+"cevap": "Bu turda doğrulanamadı.",
+"kaynak": "bulunamadı",
+"kime": "Ticaret Bakanlığı İthalat Genel Müdürlüğü ya da MEKA'nın gümrük müşaviri"
+},
+{
+"soru": "İETT, ESHOT, Bursa, Konya ve Antalya'nın 2024 ile 2026 elektrikli otobüs ihale sonuçları, adet ve birim fiyat",
+"durum": "gorusme",
+"cevap": "Web'de bulunamadı. Bulunan yurt içi sonuçlar: İETT 150 dizel otobüs, 21 Temmuz 2026, 1.796,25 milyon TL; Ulaştırma Bakanlığı 25 adet 18 metre e-ATA, KAP 16 Aralık 2024, bedel açıklanmadı.",
+"kaynak": "https://www.bursahakimiyet.com.tr/haberleri/dizel-otobus ; https://borsacoo.com/bildirim/11615",
+"kime": "EKAP üzerinden ihale sonuç ilanları; MEKA ihale birimi"
+},
+{
+"soru": "ASPİLSAN, Siro ve Pomega'nın otobüs bataryası fiyatı ve kapasitesi",
+"durum": "gorusme",
+"cevap": "Bu turda açılan kaynaklarda yok. Karsan yerli batarya üretimini gündeme aldığını söylüyor.",
+"kaynak": "https://www.ekonomigazetesi.com/sirket-haberleri/karsan-yerli-batarya-uretimini-gundeme-aldi-45726",
+"kime": "ASPİLSAN Kayseri satış; Siro; Pomega satış birimleri"
+}
+],
+"kapilar": {
+"yatirim": "sirket",
+"butce": 3,
+"butce_not": "İlk 24 ay toplam 6 ile 10 milyon dolar, baz 8, hepsi tahmin: hol uyarlaması ya da yeni hol 6.000 ile 8.000 metrekare 2,0 ile 3,5; gövde kaynak fikstürleri ve iki robotlu kaynak hücresi 1,2 ile 2,0; 15 metrelik boya kabini ve fırın 0,8 ile 1,2; montaj hattı, su sızdırmazlık, rot ve son kontrol 0,8 ile 1,3; IATF 16949, tip onayı testleri ve iki prototip 0,5 ile 0,9; işletme sermayesi ve eğitim 0,7 ile 1,1. İlk 12 ayın harcaması 2 ile 4 milyon dolar. Kendi kataforez hattı ek 6 ile 10 milyon dolar getirir ve dilimi 4'e taşır; ilk fazda fason kataforez önerilir.",
+"yol": "ortak",
+"yol_not": "Tip onayı, batarya, yüksek gerilim ve tasarım ortak üreticiden; gövde iskeleti, boya ve CKD montaj MEKA'dan. Birinci aday ABB programına girmek isteyen bir Çinli üretici, ikinci aday kapasite fazlası arayan Karsan ya da Bozankaya. Emsal: Karsan 2017'de Bozankaya için 3 yılda 900 otobüs fason üretim hedefi koydu. Tek başına marka kurmak önerilmez; Türkiye'de yedi büyük üretici ve atıl kapasite var."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "kismi",
+"acik_sorular": [
+"Görüşme gerekir: MEKA'nın araç tip onayı ve otomotiv kalite sistemi IATF 16949 alması ne sürer (Sanayi ve Teknoloji Bakanlığı Sanayi Genel Müdürlüğü araç tip onayı birimi; TSE; bir IATF 16949 belgelendirme kuruluşu)",
+"Kısmen cevaplandı: Hangi mevcut üretici gövde ya da montaj alt yüklenicisi arıyor",
+"Görüşme gerekir: Ankara Büyükşehir 1.000 elektrikli otobüs programı ne zaman, hangi biçimde ve hangi yerli üretim şartıyla ihaleye çıkacak (EGO Genel Müdürlüğü Otobüs İşletme Dairesi; Ankara Büyükşehir Belediyesi Ulaşım Dairesi)",
+"Görüşme gerekir: Çinli üreticiler Türkiye'de CKD montaj ortağı arıyor mu, kit fiyatı ve yerli katkı payı ne olur (Yutong, BYD, Zhongtong, King Long ve Higer Türkiye distribütörleri ya da Avrupa satış ofisleri; Busworld Europe, Brüksel, 16 ile 21 Ekim 2027)",
+"Görüşme gerekir: Çin menşeli otobüs ve CKD kitine Türkiye'de ek gümrük vergisi var mı (Ticaret Bakanlığı İthalat Genel Müdürlüğü ya da MEKA'nın gümrük müşaviri)",
+"Görüşme gerekir: İETT, ESHOT, Bursa, Konya ve Antalya'nın 2024 ile 2026 elektrikli otobüs ihale sonuçları, adet ve birim fiyat (EKAP üzerinden ihale sonuç ilanları; MEKA ihale birimi)",
+"Görüşme gerekir: ASPİLSAN, Siro ve Pomega'nın otobüs bataryası fiyatı ve kapasitesi (ASPİLSAN Kayseri satış; Siro; Pomega satış birimleri)"
+],
+"bant": "izle",
+"puan_metni": "Yönetici isteğiyle derin çalışma (20 Ekim 2026), bant önerisi izle: Pazar gerçek ve büyüyor, emsal fiyatlar kaynaklı, MEKA'nın lazer, abkant, kaynak ve boya gücü doğrudan kullanılır. Ama Türkiye iç pazarı 2025'te 69 adet, Türk üreticiler gövdeyi kendileri yapıyor ve kapasiteleri boş; MEKA'nın girişi tek bir tetiğe, ABB'nin 1.000 otobüslük programına ve bir Çinli ortağa bağlı. Ekonomi orta: 6 ile 10 milyon dolar bilete karşı yıl 5 brüt kârı 1,3 ile 4,4 milyon dolar, baz geri ödeme 5,4 yıl. ABB ihalesi yerli üretim şartıyla çıkar ve bir üretici niyet mektubu imzalarsa ikincil banda yükselir.",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 14 arama, 26 sayfa; 7 açık sorunun 0 tanesi cevaplandı, 6 tanesi görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. Araştırmacı tek ajanla çalıştı; çürütücü ikinci turda 14 sayfayı yeniden açtı ve emsal bedelleri, ACEA, CPT, PwC, Temiz Araçlar Direktifi, TEMSA satışı, Karsan 2025 sonuçları, ABB planı, Bükreş ihalesi, Karsan ve Bozankaya anlaşması ile OSD kapasite verisini sayfayla karşılaştırdı; hepsi tuttu, iki rakam düzeltildi. Kanıt 3 kaldı, çünkü tek yerli tetik olan ABB planı tek haber kaynağı, MEKA'nın otobüs başına payı, brüt marj, adet ve bilet kırılımı tahmindir ve yurt içi elektrikli ihale sonucu bulunamadı. EKAP ve belediye sonuç ilanları açılamadı; İETT, ESHOT, Bursa, Konya ve Antalya'nın 2024 ile 2026 elektrikli otobüs ihale sonuçları bulunamadı, yurt içi emsaller dizel İETT ihalesi ve bedeli açıklanmayan Bakanlık siparişiyle sınırlı. KAP API 429 hatası verdi; KAP bildirimleri haber ve aracı site aktarımıyla okundu. UNECE, SteelRadar, SeeNews ve electrive sayfaları açılamadı; tip onayı ve IATF 16949 süre ve maliyeti bulunamadı. OSD 2025 yıllık verisi okunamadı; otobüs grubu için yıl geneli kapasite rakamı yok. Brüt kâr genel gider ve vergi öncesidir. Anadolu Isuzu, Mercedes-Benz Türk ve MAN Türkiye'nin elektrikli kapasitesi, Çinli üreticilerin Türkiye montaj planı ve Çin menşeli otobüse ek gümrük vergisi bulunamadı. Yöneticinin ikinci konusu olan Çinli ortak listesi bu yaprakta yalnız ortak adayı olarak ele alındı; ayrıntılı firma taraması ayrı yaprak gerektirir.",
+"guven": 4,
+"tarih": "20 Ekim 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "MEKA ile ilgili",
+"kol_id": "meka_ozel",
+"kol_ad": "Özel firmalar",
+"kisa": "Elektrikli otobüs gövdesi ve CKD montajı",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_elektrikli_oto",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 2.33,
+"H": 2.0,
+"R": 1.33,
+"E": 2.0,
+"M": 2.67,
+"S": 3.33,
+"B": 2,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 1,3 ile 4,4 milyon dolar tahmin; iç pazar 69 adet.",
+"H": "Niyet mektubu Mart 2027, pilot seri 2028 ikinci yarı; ABB ihalesi henüz ilan edilmedi.",
+"R": "İç pazar 69 adet, hepsi Karsan; Türk üreticiler gövdeyi kendi yapıyor, doluluk yüzde 62.",
+"E": "Çinli ya da yerli OEM ortak şart; tip onayı ve IATF 16949; EGO ihalesi yok.",
+"M": "Lazer, abkant, kaynak kullanılır; 6 ile 10 milyon dolar hol ve boya kabini gerekir.",
+"S": "Elektrikli araç teknolojik ve taştan bağımsız; Karsan 555 ihracatla önde, ilk giren değil"
+},
+"puan_yayilim": []
+},
+"cin_otobus_ort": {
+"id": "cin_otobus_ort",
+"dal": "meka",
+"kol": "ozel",
+"baslik": "Çinli elektrikli otobüs üreticisiyle Türkiye ortaklığı",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "Yönetici isteği",
+"bolum": "20 Ekim 2026: yönetici elektrikli otobüs ve Çinli üreticiyle ortaklık konularını getirdi; derin çalışma ve çürütücü ile yazıldı",
+"tarih": "20 Ekim 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_cin_otobus_ort",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "Yutong",
+"rol": "ortak_adayi",
+"not": "Kazakistan'da QazTehna ile ortak tesis, Katar'da Mowasalat ile ortaklık; Avrupa'da Yutong France ile ihale kazanıyor; Türkiye temsilcisi bulunamadı, Yutong ülke sitelerinde Türkiye yok.",
+"kaynak": "https://yutong.qa/pressmedia/yutong-news/2010/1670016910336593920.shtml"
+},
+{
+"ad": "BYD",
+"rol": "ortak_adayi",
+"not": "Manisa otomobil fabrikası 10 Haziran 2026'da askıya alındı; Türkiye'de otobüs planı bulunamadı; Malezya'da Bus Cap ile otobüs montajı MOU'su.",
+"kaynak": "https://medyascope.tv/2026/06/10/byd-turkiye-fabrikasini-askiya-aldi/"
+},
+{
+"ad": "Xiamen King Long",
+"rol": "ortak_adayi",
+"not": "Dubrovnik 2026 e-otobüs ihalesinde kazananlar arasında; Türkiye bağı bulunamadı.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/86930-2026"
+},
+{
+"ad": "Higer",
+"rol": "ortak_adayi",
+"not": "Avrupa fuarlarında elektrikli modellerle aktif; Türkiye ve Kazakistan ortaklığı bu turda bulunamadı.",
+"kaynak": "https://www.sustainable-bus.com/events-public-transport/busworld-turkey-2026/"
+},
+{
+"ad": "Skywell",
+"rol": "ortak_adayi",
+"not": "Temmuz 2024'te Türkiye'de üretim hattı ve parça üretimi planından söz etti; somut adım bulunamadı.",
+"kaynak": "https://www.aa.com.tr/tr/ekonomi/cin-otomobil-markalari-turkiyede-yatirim-atagina-kalkti/3270007"
+},
+{
+"ad": "Golden Dragon, Zhongtong, Ankai, Foton, Sunwin, CRRC",
+"rol": "ortak_adayi",
+"not": "Bu turda Türkiye ile ilgili kayıt bulunamadı; iletişim için Busworld Europe 2027.",
+"kaynak": "bulunamadı"
+},
+{
+"ad": "CATL",
+"rol": "tedarikci",
+"not": "Türk otobüs üreticilerine batarya tedariki bu turda bulunamadı.",
+"kaynak": "bulunamadı"
+},
+{
+"ad": "Karsan",
+"rol": "rakip",
+"not": "Türkiye e-otobüs ihracatının yüzde 82'si kendi beyanı; Mersin, Ulaştırma Bakanlığı ve İETT ihalelerini aldı; Bozankaya e-otobüslerini fason üretiyor.",
+"kaynak": "https://www.capital.com.tr/haberler/tum-haberler/karsanin-2024-degerlendirmesi-ve-2025-hedefleri"
+},
+{
+"ad": "Otokar",
+"rol": "rakip",
+"not": "2025'te 1.600 otobüs ihracatı; Busworld Europe 2025'te e-Centro ve e-Kent ile.",
+"kaynak": "https://www.osd.org.tr/saved-files/PDF/2026/01/19/12-2025-OSD_Aylik_Degerlendirme_Raporu.pdf"
+},
+{
+"ad": "Temsa",
+"rol": "rakip",
+"not": "2025'te 1.060 otobüs ihracatı; Busworld Türkiye 2026'ya döndü.",
+"kaynak": "https://www.osd.org.tr/saved-files/PDF/2026/01/19/12-2025-OSD_Aylik_Degerlendirme_Raporu.pdf"
+},
+{
+"ad": "Mercedes-Benz Türk ve MAN Türkiye",
+"rol": "rakip",
+"not": "2025'te 3.855 ve 3.752 otobüs ihracatı; Türkiye otobüs üretiminin çoğu.",
+"kaynak": "https://www.osd.org.tr/saved-files/PDF/2026/01/19/12-2025-OSD_Aylik_Degerlendirme_Raporu.pdf"
+},
+{
+"ad": "Bozankaya",
+"rol": "rakip",
+"not": "E-otobüsleri Karsan fabrikasında üretiliyor; Çin tedariki bu turda bulunamadı.",
+"kaynak": "https://www.memurlar.net/haber/1013454/turkiye-elektrikli-otobus-uretiminde-vites-yukseltti.html"
+},
+{
+"ad": "İETT",
+"rol": "musteri",
+"not": "Temmuz 2026'da 150 dizel otobüs ihalesi, araç başı 11.975.000 TL, ÖTV ve KDV hariç, Karsan.",
+"kaynak": "https://www.bursahakimiyet.com.tr/amp/bursa/kap-a-bildirildi-bursa-nin-otomotiv-devi-karsan-dan-1-8-milyarlik-hamle-1675109"
+},
+{
+"ad": "Mersin Büyükşehir Belediyesi",
+"rol": "musteri",
+"not": "AB IPA II fonlu 17 adet 12 m e-ATA aldı.",
+"kaynak": "https://cdn.karsan.com/Delivery/Public/File/mersin-tr_e0l1ntpyv2.pdf"
+},
+{
+"ad": "Ulaştırma ve Altyapı Bakanlığı",
+"rol": "musteri",
+"not": "AB fonlu ihaleyle 25 adet 18 m e-ATA, KAP 16 Aralık 2024.",
+"kaynak": "https://www.bloomberght.com/karsan-dan-sozlesme-aciklama-3737149"
+},
+{
+"ad": "Sanayi ve Teknoloji Bakanlığı",
+"rol": "kurum",
+"not": "BYD'nin proje bazlı teşvik yararlanmasını askıya aldı; tip onayı ve yerli malı belgesi süreçleri.",
+"kaynak": "https://www.cumhuriyet.com.tr/ekonomi/byd-nin-fabrika-projesini-askiya-almasi-verilen-tesvikleri-yeniden-gundeme-getirdi-yaptirim-ne-olacak-2511141"
+},
+{
+"ad": "Ticaret Bakanlığı",
+"rol": "kurum",
+"not": "İGV ve EMY kararlarının uygulayıcısı; otobüs oranı sorulacak.",
+"kaynak": "https://www.ey.com/tr_tr/insights/tax/abd-cin-otomobillerinde-vergi-indirimi"
+},
+{
+"ad": "QazTehna",
+"rol": "emsal",
+"not": "Yutong ile Kazakistan ortak tesisi; yılda yaklaşık 1.000 otobüs, kaynak, boya, montaj yerelde; Kazak devlet şirketleri ve özel yatırımcılar ortak.",
+"kaynak": "https://informburo.kz/stati/iz-kitaia-cerez-saran-kakie-avtobusy-sobiraiut-dlia-kazaxstana-na-zavode-yutong"
+},
+{
+"ad": "Mowasalat",
+"rol": "emsal",
+"not": "Katar kamu taşımacılık şirketi; Yutong Holdco Hongkong ile ortaklıkla Katar'da e-otobüs montajı.",
+"kaynak": "https://yutong.qa/pressmedia/yutong-news/2010/1670016910336593920.shtml"
+},
+{
+"ad": "Bus Cap",
+"rol": "emsal",
+"not": "Malezyalı otobüs üreticisi; 18 Ağustos 2026'da BYD ile münhasır montaj MOU'su.",
+"kaynak": "https://www.prototypingchina.com/2026/08/19/byds-perak-bus-assembly-plan-may-already-be-on-us-budgets/"
+},
+{
+"ad": "Busnex Poland",
+"rol": "emsal",
+"not": "Polonya'da Katowice ve Białystok'ta 30'ar e-otobüs ihalesi kazandı; açılan TED kayıtlarında Yutong adı geçmiyor, Yutong bağı çıkarım.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/489602-2025"
+},
+{
+"ad": "HKF Fuarcılık ve Busworld International",
+"rol": "kurum",
+"not": "Busworld Türkiye 17 ile 19 Haziran 2026 yapıldı; Busworld Europe 16 ile 21 Ekim 2027 Brüksel.",
+"kaynak": "https://www.sustainable-bus.com/events-public-transport/busworld-turkey-2026/"
+},
+{
+"ad": "SANY (SANY Trucks, Çin)",
+"rol": "emsal",
+"not": "Çinli iş makinesi ve kamyon üreticisi. Türk FMT ile Ankara ASO 2. OSB'de elektrikli çekici ve damperli kamyon montajına başladı; lansman 9 Eylül 2026, Çırağan Palace İstanbul. Yönetim Kurulu Başkanı Liang Linhe: 'Artık Türkiye'de ihracatçı değil üreticiyiz'; tesis SANY elektrikli kamyonlarının ilk yurt dışı üretim noktası. Avrupa için Romanya, Almanya ve Macaristan yerine Türkiye seçildi. SANY'nin Almanya'da kendi şirketi ve servis ağı var, ilk ihracat görüşmesi Almanya ile. Otobüs değil kamyon, ama 'Çinli üretici artı Türk ortak artı Türkiye'de montaj artı Avrupa'ya ihracat' modelinin birebir emsali.",
+"kaynak": "https://www.tasimadunyasi.com/sany-fmtden-turkiyeye-500-milyon-dolarlik-yatirim-hedefi ; https://www.dha.com.tr/gundem/sany-ve-fmt-turkiyede-elektrikli-kamyon-uretecek-5-yilda-500-milyon-dolarlik-yatirim-hedefi-video-2942455"
+},
+{
+"ad": "FMT (FMT Elektrikli Kamyon Otomotiv San. ve Tic. Ltd. Şti., Ankara)",
+"rol": "emsal",
+"not": "SANY'nin Türk ortağı; Yönetim Kurulu Başkanı Mustafa Tokgöz, COO İbrahim Batuhan Tokgöz, Genel Müdür Fatih Bilgen. Adres Alcı OSB Mahallesi 2019 Cadde No 3 Sincan, Ankara (ASO 2. OSB). Tek kaynak (İşin Olsa, 5 Eylül 2026) FMT'yi 'Tokgöz Grup iştiraki Future Motion Trucks' diye tanımlıyor; başka kaynakta doğrulanamadı. Ortaklık yapısı: FMT, SANY'nin Türkiye için üretim, servis ve yedek parça bayilik haklarını aldı; araçlar parça halinde gelip Ankara'da monte ediliyor, yani lisanslı CKD montaj ve distribütörlük. Ortak sermayeli şirket kurulduğuna dair kayıt bulunamadı. Bilgen: 'SANY ile 1 yıl önce ortaklık yaptık.' Ertaş Ağır Vasıta lansmanda ortak taraf olarak anıldı. MEKA için aynı şehirde, aynı modelle çalışan bir muhatap: görüşme ve tedarik ya da gövde parçası işbirliği yolu olabilir.",
+"kaynak": "https://www.dha.com.tr/gundem/sany-ve-fmt-turkiyede-elektrikli-kamyon-uretecek-5-yilda-500-milyon-dolarlik-yatirim-hedefi-video-2942455 ; https://madenturkiyefuari.com/en/brand/fmt-elektrikli-kamyon-otomotiv-san-ve-tic-ltd-sti ; https://www.isinolsa.com/elektrikli-tir-devi-turkiyede-uretime-basladi-tek-sarjla-500-kilometre-gidiyor/"
+}
+],
+"celiskiler": [
+"Hürriyet 3 Mart 2023: Çin menşeli elektrikli otomobillerde ilave gümrük vergisi yüzde 20'den yüzde 50'ye çıktı. EY ve Cumhuriyet ise Çin elektrikli araçlara özel ek İGV'yi yüzde 40 diye anıyor; EY sayfası açıldı ve yüzde 40 ifadesi doğrulandı. Fark muhtemelen toplam oran ile ek oran ayrımından; resmi tabloyla doğrulanmadı.",
+"QazTehna kapasitesi: Informburo yılda 1.000 otobüs ve 200 iş makinesi, yaklaşık 800 çalışan diyor; arama özetindeki başka bir kaynak 1.200 otobüs ve 500 iş makinesi, Orda.kz 1.000'den fazla çalışan diyor.",
+"Medyascope 10 Haziran 2026 haberi BYD Macaristan montajı için 2023'ün dördüncü çeyreğini yazıyor; aynı haberin gövdesi bu yılın dördüncü çeyreği diyor. 2023 ifadesi hata. Aynı haber Manisa anlaşmasını geçen yıl diye yazıyor, oysa anlaşma Temmuz 2024; haberin içindeki Stella Li alıntısı iki yıl geçti diyor.",
+"Busnex Poland ihalelerinde Yutong adı açılan TED kayıtlarında geçmiyor; Busnex'in Yutong satıcısı olduğu araştırmacının tam metin aramasından çıkarım, resmi kayıtla doğrulanmadı.",
+"Bağ, lityum yaprağı: orada BYD'nin Türkiye araç fabrikasının 10 Haziran 2026'da askıya alındığı yazıyor; bu çalışma aynı bilgiyi doğruladı, çelişki yok. Lityum yaprağı BYD'yi Solinved'in hücre tedarikçisi sayıyor.",
+"Bağ, TEKSİS yaprağı: İmmaks'ın Tip 4 hidrojen tankında hedef pazarlardan biri otobüs; hidrojenli otobüs bu yaprağa alternatif bir yol.",
+"Bağ, SSB batarya yaprağı: ASPİLSAN gibi yerli hücre ve paket üreticileri, kitten montajlı otobüste yerli katkı payını artırmak için tedarikçi olabilir.",
+"Bağ, sonuc9.json: otobüs ve araç montajı üzerine yaprak yok; kataforez kelimesi hiç geçmiyor, yani MEKA'nın kataforez hattı kaydı yok. Şasi kelimesi parçalayıcı, flat rack ve vinç yapraklarında ağır şasi anlamında geçiyor; otobüs iskeleti ince cidarlı profil olduğu için bu yetkinlik sınırlı aktarılır."
+],
+"degisiklikler": [
+"20 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"Kapasite kullanımı yüzde 68 rakamının kaynağı düzeltildi: OSD Aralık 2025 PDF'inde bu oran yok; AA aktarımlı OSD açıklaması (İşçi Haber, 19 Ocak 2026) kaynak gösterildi ve calisma_md'ye 30. kaynak olarak eklendi; ilgili atıflar [1] yerine [30] yapıldı.",
+"Otobüs üretimi 12.400 ve 9.900 yerine OSD tablosundaki 12.425 (2025) ve 9.908 (2024) yazıldı.",
+"Busnex Poland ihalelerinde 'kayıtlarda Yutong geçiyor' ifadesi düzeltildi: açılan TED 489602-2025 ve 120302-2025 kayıtlarında Yutong adı yok, Yutong bağı çıkarım; rakamlar, firmalar, çelişkiler ve calisma_md güncellendi.",
+"Dubrovnik emsalinde 'parti dağılımı okunmadı' notu kaldırıldı; TED 86930-2026'dan parti bedelleri eklendi: 12 adet 7.656.000 € (638.000 €/araç), 2 adet 868.888 € (434.444 €/araç); King Long'un hangi partiyi aldığı kayıttan çıkmıyor.",
+"İETT ihalesine Bursa Hakimiyet sayfasındaki ayrıntılar eklendi: bedel ÖTV ve KDV hariç, bakım yanında onarım ve temizlik dahil, 22 Temmuz 2026 ihale kararı tebliği, sözleşme daveti bekleniyordu.",
+"EY sayfasından elektrikli araçlarda kaldırılan ek İGV'nin yüzde 40 olduğu ve yüzde 10 gümrük vergisinin sürdüğü eklendi; cevaplar ve calisma_md güncellendi.",
+"Guimarães emsaline TED kaydındaki 17 Şubat 2025 karar tarihi, Lleida emsaline 12 m alçak taban ve 1.749.000 € tahmini bedel, Białystok emsaline 25 sabit ve 3 mobil şarj eklendi.",
+"Kur varsayımına Sözcü sayfasındaki dolar 49,58 ve avro 55,66 TL değerleri yazıldı; 1 € = 1,122 $ hesabı doğru.",
+"Ekonomi modeli satır satır kontrol edildi: yıl 3 (19,8 ve 45,6 M€; 22,2 ve 51,2 M$; brüt kâr 1,8 ve 6,1 M$), yıl 5 (49,5 ve 114 M€; 55,5 ve 127,9 M$; brüt kâr 4,4 ve 15,3 M$), geri ödeme tablosu (birikmiş 2,37 ve 6,75 M$, yıl 5'in yüzde 70'i, 4,1 yıl brüt kâra göre), 30 kit için 8,4 M$ ve zloti çevrimleri (528 bin ve 741 bin €) aritmetik olarak doğru; değişiklik yapılmadı.",
+"Doğrulanan ve değiştirilmeyen rakamlar: 6 TED birim fiyatı (405.890, 323.000, 382.000, 520.000 €; 2.242.667 ve 3.147.600 zloti), OSD 1.843 otobüs, 2.830 midibüs, 1.726 ortalama, 10.760 ihracat, 2,57 milyar $, yüzde 33,5, firma ihracat adetleri; Yutong 49.518 ve 18.356; QazTehna 12 hektar, 1.000 otobüs, 800 çalışan, 2021; BYD 10 Haziran 2026 askıya alma, 1 milyar $, 150 bin kapasite.",
+"Medyascope haberindeki 'geçen yıl' ifadesi ile Temmuz 2024 anlaşma tarihi arasındaki tutarsızlık çelişkilere eklendi.",
+"sinirlar bölümü güncellendi: çürütücü 14 sayfa açtı, hangi sayfaların yeniden açılmadığı yazıldı.",
+"Kanıt puanı 3'te bırakıldı: resmi TED ve OSD kaynakları sağlam, ama kit fiyatı, otobüs vergisi ve Çinli tarafın niyeti doğrulanamadı; cevaplarda 'cevaplandi' etiketi yok, hepsi 'gorusme' olarak kaldı.",
+"20 Ekim 2026 yönetici ipucu: SANY-FMT Ankara emsali eklendi, 4 sayfa açıldı (DHA, Taşıma Dünyası, Lojiport, Devir Saati); ek olarak İşin Olsa ve Maden Türkiye fuarı kaydı FMT kimliği için açıldı. Çelişki: kapalı alan 26 bin ile 25 bin m2, hedef kapasite 25-30 bin ile 30 bin araç."
+],
+"ne": "Çinli bir elektrikli otobüs üreticisinin aracını MEKA'nın Ankara tesisinde yarı demonte ya da tam demonte kitten monte etmek ve Türkiye ile çevre pazarlara satmak. MEKA iskelet parçalarının lazer kesim, CNC büküm ve kaynağını, boya ve son montajı yapar; batarya, elektrik tahrik, elektronik ve kaplı iskelet modülleri Çin'den kit olarak gelir. Ortaklık biçimi fason montaj, lisanslı montaj, yarı yarıya ortak girişim ya da distribütörlük olabilir. Model Yutong'un Kazakistan'daki QazTehna tesisine benzer.",
+"neden": "Elektrikli otobüs teknolojisinin sahibi Çinli üreticiler; Karsan CEO'su da bunu açıkça söylüyor. Türkiye Gümrük Birliği sayesinde Avrupa'ya kapı ve yerli üretim avantajı sunabilir. Avrupa ihalelerinde Çin markalı 12 metre e-otobüs 323 bin ile 520 bin avro arasında satılıyor, yani araç başı değer yüksek. MEKA için bu, mevcut kesim, kaynak ve boya kabiliyetini yüksek katma değerli bir ürüne bağlama fırsatı. Ancak Türkiye otobüs pazarı yılda yaklaşık 1.843 araçla küçük ve yerli üreticilerin elinde.",
+"rakamlar": [
+{
+"deger": "1.843 otobüs, 2.830 midibüs",
+"aciklama": "Türkiye iç pazarı 2025; otobüste 10 yıllık ortalama 1.726",
+"kaynak": "OSD Aralık 2025 raporu https://www.osd.org.tr/saved-files/PDF/2026/01/19/12-2025-OSD_Aylik_Degerlendirme_Raporu.pdf"
+},
+{
+"deger": "12.425 otobüs üretimi; 10.760 otobüs ihracatı; 2,57 milyar $",
+"aciklama": "2025 Türkiye otobüs üretimi ve ihracatı, ihracat değeri yüzde 33,5 arttı; ortalama yaklaşık 239 bin $/otobüs",
+"kaynak": "OSD Aralık 2025 raporu, UİB verisi"
+},
+{
+"deger": "yüzde 68",
+"aciklama": "Otobüs ve midibüs grubunda 2025 kapasite kullanımı; yerli üreticilerde yaklaşık yüzde 32 boş kapasite. OSD Aralık 2025 PDF'inde bu oran yok, OSD'nin AA'ya verdiği açıklamada var",
+"kaynak": "haber, AA aktarımlı OSD açıklaması, https://www.iscihaber.net/gundem/otomotivde-2025-karnesi-ihracat-41-milyar-dolari-satislar-1-milyon-barajini-asti/200188"
+},
+{
+"deger": "405.890 € ve 323.000 €",
+"aciklama": "Guimarães, Yutong France: 38 adet 12 m ve 12 adet 9 m e-otobüs birim fiyatı, karar 17 Şubat 2025, sözleşme 3 Nisan 2025",
+"kaynak": "resmi, TED 265643-2025"
+},
+{
+"deger": "520.000 €",
+"aciklama": "Lleida, BYD Europe: 3 adet 12 m e-otobüs, 1.560.000 €, 2 Aralık 2024",
+"kaynak": "resmi, TED 783404-2024"
+},
+{
+"deger": "2.242.667 zloti ve 3.147.600 zloti",
+"aciklama": "Białystok 30 adet 12 m, şarj dahil; Katowice 30 adet körüklü; yüklenici Busnex Poland. Açılan TED kayıtlarında Yutong adı geçmiyor; Yutong bağı çıkarım",
+"kaynak": "resmi, TED 489602-2025 ve 120302-2025"
+},
+{
+"deger": "11.975.000 TL",
+"aciklama": "İETT 150 dizel 8 ile 9 m otobüs ihalesi araç başı, 2 yıl bakım dahil, ÖTV ve KDV hariç, toplam 1.796.250.000 TL, karar tebliği 22 Temmuz 2026, sözleşme daveti bekleniyordu; 49,58 TL/$ ile yaklaşık 241.500 $",
+"kaynak": "haber, KAP açıklaması aktarımı, https://www.bursahakimiyet.com.tr/amp/bursa/kap-a-bildirildi-bursa-nin-otomotiv-devi-karsan-dan-1-8-milyarlik-hamle-1675109"
+},
+{
+"deger": "yüzde 30 ya da en az 8.500 $",
+"aciklama": "22 Eylül 2025 10436 sayılı kararla elektrikli binek araçlarda yüzde 40 ek İGV kaldırıldı, yerine EMY kondu; yüzde 10 gümrük vergisi ayrıca sürüyor; yalnız 87.03 binek için, otobüs 87.02 için oran bulunamadı",
+"kaynak": "rapor, EY Türkiye https://www.ey.com/tr_tr/insights/tax/abd-cin-otomobillerinde-vergi-indirimi"
+},
+{
+"deger": "yüzde 15'e kadar",
+"aciklama": "Kamu İhale Kanunu 63. madde yerli mala fiyat avantajı; yerli malı belgesi 13 Eylül 2014 tebliğine dayanıyor",
+"kaynak": "tek kaynak, arama özeti, kompozit.org.tr taslak gerekçe, açılmadı"
+},
+{
+"deger": "yaklaşık 1.000 otobüs/yıl, 12 hektar, yaklaşık 800 çalışan",
+"aciklama": "Yutong ile QazTehna Kazakistan tesisi, 2021 açılış; kaynak, boya, montaj ve kalite kontrol yerelde; motor, boya, parça ve montaj ekipmanı Çin'den",
+"kaynak": "haber, https://informburo.kz/stati/iz-kitaia-cerez-saran-kakie-avtobusy-sobiraiut-dlia-kazaxstana-na-zavode-yutong"
+},
+{
+"deger": "4.000'den fazla otobüs; 2025 hedefi 1.500",
+"aciklama": "QazTehna 2021'den Nisan 2025'e kadar üretim; 10.000 m² yeni kaynak ve gövde alanı",
+"kaynak": "haber, https://en.orda.kz/kazakhstan-and-yutong-discuss-expanding-bus-manufacturing-partnership-at-qaztehna-plant-6113/"
+},
+{
+"deger": "49.518 araç; 18.356 yeni enerjili",
+"aciklama": "Yutong 2025 satışı",
+"kaynak": "firma beyanı, tek kaynak, https://yutong.qa/pressmedia/yutong-news/2010/1670016910336593920.shtml"
+},
+{
+"deger": "yüzde 82; yüzde 4,5",
+"aciklama": "Karsan'ın Türkiye e-otobüs ihracatındaki payı ve Avrupa e-otobüs pazar payı",
+"kaynak": "firma beyanı, tek kaynak, https://www.capital.com.tr/haberler/tum-haberler/karsanin-2024-degerlendirmesi-ve-2025-hedefleri"
+},
+{
+"deger": "bulunamadı",
+"aciklama": "Çinli üreticilerin CKD kit fiyatı, lisans bedeli ve Türkiye'de elektrikli otobüs yıllık satış adedi",
+"kaynak": "bulunamadı"
+},
+{
+"deger": "50 milyon dolar gerçekleşen, 500 milyon dolar 5 yıl hedefi; yılda 2.000 araç şimdi, 25 ile 30 bin araç hedef; 26 bin m2",
+"aciklama": "SANY ile FMT Ankara ASO 2. OSB elektrikli çekici ve damperli kamyon montajı, lansman 9 Eylül 2026; ilk 20 araç montajdan indi; çekici satış fiyatı 366 bin dolar; Avrupa, Orta Doğu ve Orta Asya'ya ihracat üssü planı. Çelişki: kapalı alan DHA, Lojiport ve Devir Saati'nde 26 bin m2, Taşıma Dünyası'nda 25 bin m2; hedef kapasite DHA'da Bilgen'in sözüyle 25-30 bin ve başlıkta 30 bin, Lojiport'ta 30 bin. Rakamların tümü şirket beyanı, bağımsız kaynak yok.",
+"kaynak": "haber, DHA 10 Eylül 2026 https://www.dha.com.tr/gundem/sany-ve-fmt-turkiyede-elektrikli-kamyon-uretecek-5-yilda-500-milyon-dolarlik-yatirim-hedefi-video-2942455 ; Taşıma Dünyası 10 Eylül 2026 https://www.tasimadunyasi.com/sany-fmtden-turkiyeye-500-milyon-dolarlik-yatirim-hedefi ; Lojiport 14 Eylül 2026 https://www.lojiport.com/sany-ankarada-elektrikli-cekici-uretmeye-basladi-120112h.htm"
+}
+],
+"durum": "Türkiye'de Çinli bir otobüs üreticisinin montaj ortaklığı ya da fabrikası bu turda bulunamadı. BYD'nin Temmuz 2024'teki 1 milyar dolarlık Manisa otomobil fabrikası anlaşması 10 Haziran 2026'da askıya alındı ve teşvikleri durduruldu. Belediye elektrikli otobüs alımları yerli üreticilere, özellikle AB fonlu ihalelerle Karsan'a gidiyor. Yutong Kazakistan'da QazTehna ile yılda yaklaşık 1.000 otobüslük kitten montaj tesisi işletiyor, BYD 18 Ağustos 2026'da Malezya'da Bus Cap ile otobüs montajı MOU'su imzaladı; yani Çinli üreticiler yurt dışı montaj ortaklığına açık. Otobüs için Çin menşeli ek vergi oranı ve yerli malı şartı resmi kaynaktan doğrulanamadı; ekonomi modeli büyük ölçüde tahmine dayanıyor.",
+"adimlar": [
+{
+"adim": "Yutong, King Long, Higer, Skywell ve BYD uluslararası birimlerine tek sayfalık ortaklık mektubu: Türkiye planı, kit fiyatı, lisans şartı",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "FMT (Sincan, ASO 2. OSB) ve SANY Türkiye ile görüşme: kit montaj modeli nasıl kuruldu, tip onayı ve ithalat süresi, teşvik alındı mı, gövde parçası ya da fason iş imkanı",
+"kim": "MEKA genel müdürü",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "87.02 için güncel vergi yükünü ve yerli malı belgesi şartını yazılı olarak çıkarmak",
+"kim": "MEKA finans ve gümrük müşaviri",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "Tesis taraması: hol alanı, vinç, boya kabini boyu, hat sonu test yeri, kataforez ihtiyacı",
+"kim": "MEKA üretim müdürü",
+"ne_zaman": "Aralık 2026"
+},
+{
+"adim": "Olumlu dönen iki üreticiyle Çin'de fabrika ziyareti; QazTehna modelinin sorulması",
+"kim": "Mehmet Ulaş ve MEKA iş geliştirme",
+"ne_zaman": "Ocak 2027"
+},
+{
+"adim": "EGO, İETT ve iki büyükşehirle ön görüşme: Çin markalı yerli montaja bakış ve şartname menşe kuralları",
+"kim": "MEKA iş geliştirme",
+"ne_zaman": "Şubat 2027"
+},
+{
+"adim": "Yönetim kurulu kararı: fason montajla pilot, lisanslı montaj ya da vazgeçme",
+"kim": "MEKA yönetim kurulu",
+"ne_zaman": "Mart 2027"
+}
+],
+"riskler": [
+"Çinli üretici otomotiv deneyimi olan ve yaklaşık yüzde 32 boş kapasitesi bulunan Karsan, Otokar, Temsa gibi yerli fabrikaları seçer; olasılık yüksek, etki yüksek. Azaltma: önce mektup, yalnız MEKA'yı isteyen ortakla ilerleme. Kaynak: OSD 2025 açıklaması, AA aktarımı.",
+"Belediye ihalelerinde yerli marka tercihi ve yüzde 15'e kadar yerli malı avantajı sürer; olasılık yüksek, etki yüksek. Azaltma: yerli malı belgesi, yerel katkıyı artırma, AB fonlu ihaleler.",
+"Kit fiyatı montajcı marjını yer, yüzde 8 ile 12 varsayımı tutmaz; olasılık orta, etki yüksek. Azaltma: sözleşmede fiyat formülü ve asgari marj.",
+"Çinli firma BYD örneğindeki gibi Türkiye planından vazgeçer; olasılık orta, etki yüksek. Azaltma: satıcı kredisi, münhasırlık bedeli, kademeli yatırım.",
+"Tip onayı, homologasyon ve kataforez ihtiyacı gecikme ve ek 8 ile 15 M$ yatırım getirir; olasılık orta, etki orta. Azaltma: fason montajla başlama, tip onayını marka sahibinin alması.",
+"Kur ve işletme sermayesi baskısı: 30 kitlik stok yaklaşık 8,4 M$; olasılık orta, etki orta. Azaltma: avro gelir ve avro kit, avanslı sipariş."
+],
+"takvim": [
+{
+"tarih": "3 Mart 2023",
+"olay": "Çin menşeli elektrikli otomobillerde ilave gümrük vergisi artırıldı",
+"kaynak": "https://www.hurriyet.com.tr/ekonomi/elektrikli-araclarda-ilave-gumruk-vergisi-degisti-42228214",
+"iso": "2023-03-03"
+},
+{
+"tarih": "16 Şubat 2024",
+"olay": "AB Yabancı Sübvansiyonlar Tüzüğü kapsamında ilk derin inceleme: CRRC, Bulgaristan 20 tren, 610 M€",
+"kaynak": "https://euobserver.com/68695/chinese-train-firm-subject-to-first-eu-probe-for-foreign-subsidies/",
+"iso": "2024-02-16"
+},
+{
+"tarih": "7 Temmuz 2024",
+"olay": "8639 sayılı kararla Çin menşeli benzinli ve hibrit binek araçlara ek vergi yürürlükte",
+"kaynak": "haber, arama özeti, https://www.gazetevatan.com/ekonomi/cinden-gelen-araclara-ek-gumruk-vergisi-karari-2150811 açılmadı",
+"iso": "2024-07-07"
+},
+{
+"tarih": "9 Temmuz 2024",
+"olay": "BYD ile Türkiye 1 milyar $ ve 150 bin araç kapasiteli Manisa fabrikası anlaşması haberi",
+"kaynak": "https://www.aa.com.tr/tr/ekonomi/cin-otomobil-markalari-turkiyede-yatirim-atagina-kalkti/3270007",
+"iso": "2024-07-09"
+},
+{
+"tarih": "16 Aralık 2024",
+"olay": "Karsan, Ulaştırma Bakanlığı AB fonlu ihalesinde 25 adet 18 m e-ATA sözleşmesini KAP'a bildirdi",
+"kaynak": "https://www.bloomberght.com/karsan-dan-sozlesme-aciklama-3737149",
+"iso": "2024-12-16"
+},
+{
+"tarih": "26 Haziran 2025",
+"olay": "Yutong, QazTehna tesisinde monte edilecek 1.000 araçlık Kazakistan siparişini duyurdu",
+"kaynak": "https://bus-news.com/yutong-celebrates-production-of-10000th-vehicle-for-central-asian-markets/",
+"iso": "2025-06-26"
+},
+{
+"tarih": "22 Eylül 2025",
+"olay": "10435 ve 10436 sayılı kararlar: elektrikli binekte İGV kalktı, yüzde 30 ya da en az 8.500 $ EMY",
+"kaynak": "https://www.ey.com/tr_tr/insights/tax/abd-cin-otomobillerinde-vergi-indirimi",
+"iso": "2025-09-22"
+},
+{
+"tarih": "10 Haziran 2026",
+"olay": "BYD Türkiye fabrika projesini askıya aldı",
+"kaynak": "https://medyascope.tv/2026/06/10/byd-turkiye-fabrikasini-askiya-aldi/",
+"iso": "2026-06-10"
+},
+{
+"tarih": "17 ile 19 Haziran 2026",
+"olay": "Busworld Türkiye, İstanbul Expo Center, 161 katılımcı, yeni Çinli katılımcılar",
+"kaynak": "https://www.sustainable-bus.com/events-public-transport/busworld-turkey-2026/",
+"iso": "2026-06-19"
+},
+{
+"tarih": "22 Temmuz 2026",
+"olay": "İETT 150 dizel otobüs ihalesi kararı Karsan'a tebliğ edildi, 1.796.250.000 TL, ÖTV ve KDV hariç",
+"kaynak": "https://www.bursahakimiyet.com.tr/amp/bursa/kap-a-bildirildi-bursa-nin-otomotiv-devi-karsan-dan-1-8-milyarlik-hamle-1675109",
+"iso": "2026-07-22"
+},
+{
+"tarih": "18 Ağustos 2026",
+"olay": "BYD Malaysia ile Bus Cap münhasır elektrikli otobüs montajı MOU'su",
+"kaynak": "https://www.prototypingchina.com/2026/08/19/byds-perak-bus-assembly-plan-may-already-be-on-us-budgets/",
+"iso": "2026-08-18"
+},
+{
+"tarih": "16 ile 21 Ekim 2027",
+"olay": "Busworld Europe, Brüksel; Çinli üreticilerle görüşme için ana pencere",
+"kaynak": "https://www.sustainable-bus.com/events-public-transport/busworld-turkey-2026/",
+"iso": "2027-10-21"
+},
+{
+"tarih": "Haziran 2028",
+"olay": "Bir sonraki Busworld Türkiye bekleniyor; iki yıllık döngüye göre tahmin",
+"kaynak": "tahmin",
+"iso": "2028-06-15"
+}
+],
+"web": [
+{
+"url": "https://www.osd.org.tr/saved-files/PDF/2026/01/19/12-2025-OSD_Aylik_Degerlendirme_Raporu.pdf",
+"ne": "OSD Aralık 2025: otobüs pazarı, üretim, ihracat",
+"tur": "rapor"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/265643-2025",
+"ne": "Guimarães Yutong ihale sonucu",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/262534-2025",
+"ne": "Ötztal Yutong ihale sonucu",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/783404-2024",
+"ne": "Lleida BYD ihale sonucu",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/489602-2025",
+"ne": "Białystok Busnex ihale sonucu",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/120302-2025",
+"ne": "Katowice Busnex ihale sonucu",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/86930-2026",
+"ne": "Dubrovnik King Long ihale sonucu",
+"tur": "resmi"
+},
+{
+"url": "https://www.ey.com/tr_tr/insights/tax/abd-cin-otomobillerinde-vergi-indirimi",
+"ne": "10435 ve 10436 sayılı kararlar, EMY ve İGV",
+"tur": "rapor"
+},
+{
+"url": "https://www.hurriyet.com.tr/ekonomi/elektrikli-araclarda-ilave-gumruk-vergisi-degisti-42228214",
+"ne": "3 Mart 2023 İGV değişikliği",
+"tur": "haber"
+},
+{
+"url": "https://medyascope.tv/2026/06/10/byd-turkiye-fabrikasini-askiya-aldi/",
+"ne": "BYD Türkiye fabrikası askıda",
+"tur": "haber"
+},
+{
+"url": "https://www.cumhuriyet.com.tr/ekonomi/byd-nin-fabrika-projesini-askiya-almasi-verilen-tesvikleri-yeniden-gundeme-getirdi-yaptirim-ne-olacak-2511141",
+"ne": "BYD teşvik ve ek vergi muafiyeti",
+"tur": "haber"
+},
+{
+"url": "https://www.aa.com.tr/tr/ekonomi/cin-otomobil-markalari-turkiyede-yatirim-atagina-kalkti/3270007",
+"ne": "BYD anlaşması, Skywell ve diğer Çin markaları",
+"tur": "haber"
+},
+{
+"url": "https://www.sozcu.com.tr/cinliler-vazgecmisti-kore-devi-turkiye-ye-fabrika-kuruyor-p328424",
+"ne": "Döviz kurları 20 Ekim 2026, BYD sonrası Hyundai",
+"tur": "haber"
+},
+{
+"url": "https://www.bursahakimiyet.com.tr/amp/bursa/kap-a-bildirildi-bursa-nin-otomotiv-devi-karsan-dan-1-8-milyarlik-hamle-1675109",
+"ne": "Karsan İETT ihalesi KAP aktarımı",
+"tur": "haber"
+},
+{
+"url": "https://www.getmidas.com/midasin-kulaklari/karsan-karsndan-italyaya-20-milyon-avroluk-dev-siparis-p-26691",
+"ne": "Karsan Consip sözleşmesi KAP özeti",
+"tur": "haber"
+},
+{
+"url": "https://www.bloomberght.com/karsan-dan-sozlesme-aciklama-3737149",
+"ne": "Karsan Ulaştırma Bakanlığı 25 e-ATA",
+"tur": "haber"
+},
+{
+"url": "https://cdn.karsan.com/Delivery/Public/File/mersin-tr_e0l1ntpyv2.pdf",
+"ne": "Karsan Mersin 17 e-ATA teslimatı",
+"tur": "firma"
+},
+{
+"url": "https://www.capital.com.tr/haberler/tum-haberler/karsanin-2024-degerlendirmesi-ve-2025-hedefleri",
+"ne": "Karsan 2024 sonuçları ve hedefleri",
+"tur": "haber"
+},
+{
+"url": "https://www.ekonomigazetesi.com/sektor-haberleri/turkiye-kuresel-otobus-pazarinda-voltaj-yukseltiyor-61038",
+"ne": "Busworld Europe 2025 Türk markaları, Karsan CEO görüşü",
+"tur": "haber"
+},
+{
+"url": "https://www.memurlar.net/haber/1013454/turkiye-elektrikli-otobus-uretiminde-vites-yukseltti.html",
+"ne": "TEHAD açıklaması, Bozankaya Karsan fason üretimi",
+"tur": "haber"
+},
+{
+"url": "https://yutong.qa/pressmedia/yutong-news/2010/1670016910336593920.shtml",
+"ne": "Yutong Katar, Mowasalat ortaklığı, 2025 satışları",
+"tur": "firma"
+},
+{
+"url": "https://bus-news.com/yutong-celebrates-production-of-10000th-vehicle-for-central-asian-markets/",
+"ne": "Yutong QazTehna 1.000 araç CKD siparişi",
+"tur": "haber"
+},
+{
+"url": "https://bus-news.com/yutong-delivers-202-e12-pro-buses-to-uzbekistan-capital/",
+"ne": "Yutong Taşkent 202 e-otobüs teslimi",
+"tur": "haber"
+},
+{
+"url": "https://en.orda.kz/kazakhstan-and-yutong-discuss-expanding-bus-manufacturing-partnership-at-qaztehna-plant-6113/",
+"ne": "QazTehna üretim ve genişleme",
+"tur": "haber"
+},
+{
+"url": "https://informburo.kz/stati/iz-kitaia-cerez-saran-kakie-avtobusy-sobiraiut-dlia-kazaxstana-na-zavode-yutong",
+"ne": "QazTehna kapasite, yerel işlemler, ithal parçalar",
+"tur": "haber"
+},
+{
+"url": "https://www.prototypingchina.com/2026/08/19/byds-perak-bus-assembly-plan-may-already-be-on-us-budgets/",
+"ne": "BYD ve Bus Cap MOU",
+"tur": "haber"
+},
+{
+"url": "https://chinaglobalsouth.com/analysis/weekly-digest-china-africa-ev-assembly-ckd-skd-local-manufacturing/",
+"ne": "Afrika'da Çin CKD ve SKD montaj modeli",
+"tur": "rapor"
+},
+{
+"url": "https://www.sustainable-bus.com/events-public-transport/busworld-turkey-2026/",
+"ne": "Busworld Türkiye 2026 ve Busworld Europe 2027 tarihleri",
+"tur": "haber"
+},
+{
+"url": "https://euobserver.com/68695/chinese-train-firm-subject-to-first-eu-probe-for-foreign-subsidies/",
+"ne": "FSR eşiği ve CRRC incelemesi",
+"tur": "haber"
+},
+{
+"url": "https://www.iscihaber.net/gundem/otomotivde-2025-karnesi-ihracat-41-milyar-dolari-satislar-1-milyon-barajini-asti/200188",
+"ne": "OSD 2025 açıklaması, AA aktarımı: otobüs ve midibüs grubunda yüzde 68 kapasite kullanımı",
+"tur": "haber"
+},
+{
+"url": "https://en.yutong.com/af/pressmedia/news/2010/1788014764786585600.shtml",
+"ne": "Yutong Makedonya 2010 sözleşmesi; açılamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.steelradar.com/haber/izmir-in-elektrikli-otobus-ihalesini-yerli-firma-kazandi-44033/",
+"ne": "ESHOT e-otobüs ihalesi; açılamadı, 403",
+"tur": "haber"
+},
+{
+"url": "https://www.electrive.com/2025/10/16/yutong-expands-rapidly-in-europe-with-local-strategy/",
+"ne": "Yutong ve Higer yurt dışı satış sıralaması; açılamadı, 403",
+"tur": "haber"
+},
+{
+"url": "https://ticaret.gov.tr/data/5b87000813b8761450e18d7b/Otomotiv%20Sekt%C3%B6r%20Raporu%202026.pdf",
+"ne": "Ticaret Bakanlığı Otomotiv Sektör Raporu 2026; açılamadı",
+"tur": "resmi"
+},
+{
+"url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2754",
+"ne": "AB Çin BEV telafi vergisi tüzüğü; açılamadı, kapsam doğrulanamadı",
+"tur": "resmi"
+},
+{
+"url": "https://kompozit.org.tr/wp-content/uploads/2021/12/YerliMaliTebligindeDegisiklikYapilmasinaDairTebligTaslagiveGenelGerekce-1.docx",
+"ne": "Yerli Malı Tebliği taslak gerekçe; açılmadı, arama özeti",
+"tur": "resmi"
+},
+{
+"url": "https://www.gazetevatan.com/ekonomi/cinden-gelen-araclara-ek-gumruk-vergisi-karari-2150811",
+"ne": "8639 sayılı karar haberi; açılmadı, arama özeti",
+"tur": "haber"
+},
+{
+"url": "https://www.dha.com.tr/gundem/sany-ve-fmt-turkiyede-elektrikli-kamyon-uretecek-5-yilda-500-milyon-dolarlik-yatirim-hedefi-video-2942455",
+"ne": "DHA 10 Eylül 2026: SANY ve FMT lansmanı; 2.000 araç kapasite, 50 M$ ilk yatırım, 500 M$ ve 30 bin araç 5 yıl hedefi, 26 bin m2, ilk 20 araç, üretim ve servis hakları FMT'de; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.tasimadunyasi.com/sany-fmtden-turkiyeye-500-milyon-dolarlik-yatirim-hedefi",
+"ne": "Taşıma Dünyası 10 Eylül 2026: lansman 9 Eylül 2026, 25 bin m2, 2.000 araç/yıl, 400 M$ yıllık üretim değeri, 200 istihdam, 366 bin $ çekici fiyatı, Romanya, Almanya, Macaristan yerine Türkiye; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.lojiport.com/sany-ankarada-elektrikli-cekici-uretmeye-basladi-120112h.htm",
+"ne": "Lojiport 14 Eylül 2026: 26 bin m2, ilk 20 araç, 50 M$ ile 2.000 araç, 5 yılda 500 M$ ve 30 bin araç, 1 milyon m2, Avrupa ihracat üssü; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.devirsaati.com/sany-turkiye-pazarina-fmt-isbirligiyle-girdi/",
+"ne": "Devir Saati, tarih sayfada yok: ASO 2. OSB, 26.000 m2, çekici, 6x4 ve 8x4 damper, hafif ticari planı; Avrupa, Orta Doğu, Orta Asya merkezi; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://www.isinolsa.com/elektrikli-tir-devi-turkiyede-uretime-basladi-tek-sarjla-500-kilometre-gidiyor/",
+"ne": "İşin Olsa 5 Eylül 2026: FMT 'Tokgöz Grup iştiraki Future Motion Trucks', tesis Sincan; tek kaynak; açıldı",
+"tur": "haber"
+},
+{
+"url": "https://madenturkiyefuari.com/en/brand/fmt-elektrikli-kamyon-otomotiv-san-ve-tic-ltd-sti",
+"ne": "Maden Türkiye fuarı katılımcı kaydı: FMT Elektrikli Kamyon Otomotiv San. ve Tic. Ltd. Şti., marka 'Sany Trucks Türkiye - FMT Otomotiv', adres Alcı OSB 2019 Cad. No 3 Sincan; açıldı",
+"tur": "firma"
+}
+],
+"ekonomi": {
+"bilet": "Yaklaşık 11,5 M$ ilk 24 ayda; ilk 12 ayda 2,5 M$. Kalemler: hat, boya ve test 5 M$, tip onayı ve eğitim 0,8 M$, kadro 0,7 M$, işletme sermayesi 5 M$. Hepsi tahmin; kataforez hattı ek 8 ile 15 M$.",
+"sure_ilk_gelir": "18 ile 24 ay: Kasım 2026 temas, 2027 anlaşma ve tip onayı, ilk teslim 2028 ikinci çeyrek. Tahmin; dayanak QazTehna 2021 açılışı ve BYD Manisa'nın 2 yılda başlayamaması.",
+"yil3": "2029: 60 ile 120 araç; gelir 19,8 ile 45,6 M€, yani 22,2 ile 51,2 M$; brüt kâr yüzde 8 ile 12 marjla 1,8 ile 6,1 M$. Adet ve marj tahmin, fiyat TED Avrupa birim fiyatlarından iskontolu.",
+"yil5": "2031: 150 ile 300 araç; gelir 49,5 ile 114 M€, yani 55,5 ile 127,9 M$; brüt kâr 4,4 ile 15,3 M$. Tahmin.",
+"geri_odeme": "Baz senaryo 200 araç/yıla çıkışla 4,5 ile 5 yıl, Eylül 2031 civarı; yalnız brüt kâra göre 4,1 yıl. Yıllık satış 50 aracın altında kalırsa 8 yıldan uzun ya da hiç.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kârı 4,4 ile 15,3 M$; dayanak 150 ile 300 araç, TED Avrupa 12 m e-otobüs birim fiyatları 323 ile 520 bin € ve yüzde 8 ile 12 montajcı marjı varsayımı.",
+"varsayimlar": "Satış fiyatı 330 ile 380 bin €, orta 355 bin € (TED fiyatlarına göre Türkiye iskontosu, tahmin). Kit bedeli fiyatın yüzde 68 ile 74'ü, yerel malzeme yüzde 8 ile 10, montaj işçiliği araç başı 12 bin €, garanti yüzde 2; hepsi tahmin, kit fiyatı bulunamadı. MEKA brüt marjı yüzde 8 ile 12, marka ve dağıtım marjı Çinli ortakta. Adet: yıl 2 20 ile 40, yıl 3 60 ile 120, yıl 5 150 ile 300; Türkiye pazarı 1.843 otobüs (OSD 2025). Sabit gider yılda 1,2 M$. Kur 1 € = 1,122 $, 20 Ekim 2026 Sözcü kur şeridinden (dolar 49,58, avro 55,66 TL). İskelet Çin'den kaplı gelir, kataforez yatırımı yok."
+},
+"emsaller": [
+{
+"tarih": "26 Haziran 2025",
+"taraflar": "Yutong ile QazTehna, Kazakistan",
+"bedel": "açıklanmadı; 1.000 araçlık sipariş",
+"birim": "CKD kitten montaj; tesis yılda yaklaşık 1.000 otobüs, 2021'den Nisan 2025'e 4.000'den fazla araç",
+"kaynak": "https://bus-news.com/yutong-celebrates-production-of-10000th-vehicle-for-central-asian-markets/"
+},
+{
+"tarih": "3 Nisan 2025",
+"taraflar": "Guimabus ile Yutong France, Portekiz",
+"bedel": "19.799.820 €",
+"birim": "38 adet 12 m 405.890 €/araç; 12 adet 9 m 323.000 €/araç; 25 çift şarj 500.000 €; karar 17 Şubat 2025",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/265643-2025"
+},
+{
+"tarih": "15 Temmuz 2025",
+"taraflar": "Białystok Belediyesi ile Busnex Poland",
+"bedel": "67.280.000 zloti",
+"birim": "30 adet 12 m e-otobüs, 25 sabit ve 3 mobil şarj; 2.242.667 zloti/araç, yaklaşık 528 bin €",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/489602-2025"
+},
+{
+"tarih": "4 Şubat 2025",
+"taraflar": "PKM Katowice ile Busnex Poland",
+"bedel": "94.428.000 zloti",
+"birim": "30 körüklü e-otobüs; 3.147.600 zloti/araç, yaklaşık 741 bin €",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/120302-2025"
+},
+{
+"tarih": "2 Aralık 2024",
+"taraflar": "Lleida Belediyesi ile BYD Europe",
+"bedel": "1.560.000 €",
+"birim": "3 adet 12 m alçak tabanlı e-otobüs; 520.000 €/araç; tahmini bedel 1.749.000 €",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/783404-2024"
+},
+{
+"tarih": "22 Nisan 2025",
+"taraflar": "Ötztaler Verkehrsgesellschaft ile Yutong France",
+"bedel": "764.000 €",
+"birim": "9 m e-otobüs; 382.000 €/araç",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/262534-2025"
+},
+{
+"tarih": "3 Aralık 2025 ve 19 Ocak 2026",
+"taraflar": "Libertas Dubrovnik ile MAN Importer Hrvatska, Vincek ve Xiamen King Long",
+"bedel": "8.524.888 €",
+"birim": "12 adet şehir içi parti 7.656.000 €, 638.000 €/araç; 2 adet şehir içi ve banliyö parti 868.888 €, 434.444 €/araç; hangi partiyi King Long'un aldığı kayıttan çıkmıyor",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/86930-2026"
+},
+{
+"tarih": "5 Eylül 2023",
+"taraflar": "Karsan ile Consip, İtalya",
+"bedel": "yaklaşık 20 milyon €",
+"birim": "52 adet 6 ve 8 m e-araç; yaklaşık 385 bin €/araç",
+"kaynak": "https://www.getmidas.com/midasin-kulaklari/karsan-karsndan-italyaya-20-milyon-avroluk-dev-siparis-p-26691"
+},
+{
+"tarih": "22 Temmuz 2026",
+"taraflar": "İETT ile Karsan",
+"bedel": "1.796.250.000 TL, ÖTV ve KDV hariç",
+"birim": "150 dizel 8 ile 9 m otobüs, 2 yıl bakım, onarım ve temizlik dahil; 11.975.000 TL/araç; ihale kararı tebliği, sözleşme daveti bekleniyordu",
+"kaynak": "https://www.bursahakimiyet.com.tr/amp/bursa/kap-a-bildirildi-bursa-nin-otomotiv-devi-karsan-dan-1-8-milyarlik-hamle-1675109"
+},
+{
+"tarih": "Temmuz 2024",
+"taraflar": "BYD ile Türkiye Cumhuriyeti, Sanayi ve Teknoloji Bakanlığı",
+"bedel": "yaklaşık 1 milyar $",
+"birim": "150.000 araç/yıl kapasite, yaklaşık 6.700 $ kapasite başına; 10 Haziran 2026'da askıya alındı",
+"kaynak": "https://www.aa.com.tr/tr/ekonomi/cin-otomobil-markalari-turkiyede-yatirim-atagina-kalkti/3270007"
+},
+{
+"tarih": "14 Nisan 2010",
+"taraflar": "Yutong ile Makedonya hükümeti",
+"bedel": "35,5 milyon €",
+"birim": "202 çift katlı otobüs; yaklaşık 175.700 €/araç; satış, montaj değil; tek kaynak, sayfa açılamadı",
+"kaynak": "https://en.yutong.com/af/pressmedia/news/2010/1788014764786585600.shtml"
+},
+{
+"tarih": "18 Ağustos 2026",
+"taraflar": "BYD Malaysia ile Bus Cap Berhad",
+"bedel": "açıklanmadı",
+"birim": "münhasır e-otobüs montajı MOU'su, Perak",
+"kaynak": "https://www.prototypingchina.com/2026/08/19/byds-perak-bus-assembly-plan-may-already-be-on-us-budgets/"
+},
+{
+"tarih": "9 Eylül 2026",
+"taraflar": "SANY (Çin) ile FMT (Ankara), elektrikli ağır ticari araç",
+"bedel": "İlk etap yatırım 50 milyon dolar (gerçekleşen, şirket beyanı); 5 yılda toplam 500 milyon dolar hedefi",
+"birim": "Ankara ASO 2. OSB, 26 bin m2 kapalı alan (Taşıma Dünyası 25 bin m2); ilk etap yılda 2.000 araç, ilk 20 araç montajdan indi; 5 yıl hedefi yılda 25 ile 30 bin araç ve 1 milyon m2 tesis; 2027 sonuna kadar 8 şasi tipi; Linhe: yıllık üretim değeri yaklaşık 400 milyon dolar, 200 kişi istihdam; çekici fiyatı 366 bin dolar; lisanslı CKD montaj, üretim ve servis hakları FMT'de",
+"kaynak": "haber, https://www.dha.com.tr/gundem/sany-ve-fmt-turkiyede-elektrikli-kamyon-uretecek-5-yilda-500-milyon-dolarlik-yatirim-hedefi-video-2942455 ; https://www.tasimadunyasi.com/sany-fmtden-turkiyeye-500-milyon-dolarlik-yatirim-hedefi ; https://www.lojiport.com/sany-ankarada-elektrikli-cekici-uretmeye-basladi-120112h.htm"
+}
+],
+"cevaplar": [
+{
+"soru": "87.02 pozisyonunda Çin menşeli elektrikli otobüs için bugün gümrük vergisi, İGV ve ek mali yükümlülük ne kadar?",
+"durum": "gorusme",
+"cevap": "Kısmen biliniyor: 2023, 2024 ve 22 Eylül 2025 kararları 87.03 binek araç içindir; elektrikli binekte yüzde 40 ek İGV kaldırıldı, yüzde 30 ya da en az 8.500 $ EMY kondu, yüzde 10 gümrük vergisi sürüyor. Otobüs için Çin menşeine özel oran bulunamadı.",
+"kaynak": "https://www.ey.com/tr_tr/insights/tax/abd-cin-otomobillerinde-vergi-indirimi",
+"kime": "Gümrük müşaviri ve Ticaret Bakanlığı Gümrükler Genel Müdürlüğü"
+},
+{
+"soru": "Otobüs zorunlu yerli malı listesinde mi; kitten montajlı otobüs yerli malı belgesi alabilir mi, eşik ne?",
+"durum": "gorusme",
+"cevap": "Yerli mala yüzde 15'e kadar fiyat avantajı var; otobüsün zorunlu listede olup olmadığı ve yerli katkı eşiği bulunamadı.",
+"kaynak": "https://kompozit.org.tr/wp-content/uploads/2021/12/YerliMaliTebligindeDegisiklikYapilmasinaDairTebligTaslagiveGenelGerekce-1.docx açılmadı",
+"kime": "Sanayi ve Teknoloji Bakanlığı Sanayi Genel Müdürlüğü ve Ankara Sanayi Odası yerli malı belgesi birimi"
+},
+{
+"soru": "Çinli üreticiler Türkiye'de montaj ortağı arıyor mu; CKD kit fiyatı ve lisans bedeli ne?",
+"durum": "gorusme",
+"cevap": "Web'de yok. Yutong Kazakistan ve Katar'da, BYD Malezya'da yerel ortakla montaj yapıyor; Skywell 2024'te Türkiye'de üretim hattı planından söz etti. Kit fiyatı hiçbir kaynakta yok.",
+"kaynak": "https://bus-news.com/yutong-celebrates-production-of-10000th-vehicle-for-central-asian-markets/",
+"kime": "Yutong, King Long, Higer ve Skywell uluslararası iş geliştirme birimleri; BYD Europe ticari araç birimi"
+},
+{
+"soru": "Araç üreticisi tip onayı için MEKA'nın neye ihtiyacı var, süre ve maliyet ne?",
+"durum": "gorusme",
+"cevap": "Bu turda resmi kaynak açılamadı.",
+"kaynak": "bulunamadı",
+"kime": "Sanayi ve Teknoloji Bakanlığı tip onay birimi ve TSE"
+},
+{
+"soru": "Kit iskeleti kataforez kaplı mı geliyor, yoksa yerel kaplama mı gerekiyor?",
+"durum": "gorusme",
+"cevap": "QazTehna'da kaynak ve boya yerelde yapılıyor, boya Çin'den geliyor; kataforez bilgisi yok. MEKA'nın kataforez hattı kaydı yok.",
+"kaynak": "https://informburo.kz/stati/iz-kitaia-cerez-saran-kakie-avtobusy-sobiraiut-dlia-kazaxstana-na-zavode-yutong",
+"kime": "Aday üreticinin teknik ekibi"
+},
+{
+"soru": "Belediyeler Çin markalı yerli montaj otobüse nasıl bakıyor, şartnamelerde menşe kuralı var mı?",
+"durum": "gorusme",
+"cevap": "Son ihaleler yerli üreticilere gitti; Çin markalı ihale kazanımı Türkiye'de bulunamadı.",
+"kaynak": "https://cdn.karsan.com/Delivery/Public/File/mersin-tr_e0l1ntpyv2.pdf",
+"kime": "EGO Genel Müdürlüğü ve İETT satın alma birimleri"
+},
+{
+"soru": "Otobüs montajı için proje bazlı teşvik ya da yatırım teşvik belgesi alınabilir mi?",
+"durum": "gorusme",
+"cevap": "BYD proje bazlı teşvikten yararlandı ve askıya alındı; otobüs montajı için şart bulunamadı.",
+"kaynak": "https://www.cumhuriyet.com.tr/ekonomi/byd-nin-fabrika-projesini-askiya-almasi-verilen-tesvikleri-yeniden-gundeme-getirdi-yaptirim-ne-olacak-2511141",
+"kime": "Sanayi ve Teknoloji Bakanlığı Teşvik Uygulama Genel Müdürlüğü"
+}
+],
+"kapilar": {
+"yatirim": "sirket",
+"butce": 4,
+"butce_not": "Tam giriş, ilk 24 ay toplamı yaklaşık 11,5 M$ (tahmin): son montaj hattı, boya kabini ve fırın, gövde fikstürleri ve hat sonu test 5 M$; tip onayı, test ve Çin'de eğitim 0,8 M$; kadro ve devreye alma 0,7 M$; kit stoku için işletme sermayesi 5 M$. İlk 12 ayın harcaması yaklaşık 2,5 M$: fizibilite, tip onayı başlangıcı, mühendislik ve ekipman avansları. Kataforez hattı eklenirse 8 ile 15 M$ daha. Satıcı kredisi ve ortak sermayesiyle 3. dilime inebilir; fason montajla başlanırsa 2 ile 4 M$.",
+"yol": "ortak",
+"yol_not": "Tek başına marka kurmak gerçekçi değil. Yol, Çinli üreticiyle fason montaj ya da lisanslı montajla başlayıp ortak girişime geçmek. MEKA payı: fason montajda araç başı 10 ile 20 bin €, lisanslı montajda fiyatın yüzde 8 ile 12'si, yarı yarıya ortak girişimde yüzde 7,5 ile 10, distribütörlükte yüzde 8 ile 12 ama yerli malı avantajı yok; hepsi tahmin."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "kismi",
+"acik_sorular": [
+"Görüşme gerekir: 87.02 pozisyonunda Çin menşeli elektrikli otobüs için bugün gümrük vergisi, İGV ve ek mali yükümlülük ne kadar? (Gümrük müşaviri ve Ticaret Bakanlığı Gümrükler Genel Müdürlüğü)",
+"Görüşme gerekir: Otobüs zorunlu yerli malı listesinde mi; kitten montajlı otobüs yerli malı belgesi alabilir mi, eşik ne? (Sanayi ve Teknoloji Bakanlığı Sanayi Genel Müdürlüğü ve Ankara Sanayi Odası yerli malı belgesi birimi)",
+"Görüşme gerekir: Çinli üreticiler Türkiye'de montaj ortağı arıyor mu; CKD kit fiyatı ve lisans bedeli ne? (Yutong, King Long, Higer ve Skywell uluslararası iş geliştirme birimleri; BYD Europe ticari araç birimi)",
+"Görüşme gerekir: Araç üreticisi tip onayı için MEKA'nın neye ihtiyacı var, süre ve maliyet ne? (Sanayi ve Teknoloji Bakanlığı tip onay birimi ve TSE)",
+"Görüşme gerekir: Kit iskeleti kataforez kaplı mı geliyor, yoksa yerel kaplama mı gerekiyor? (Aday üreticinin teknik ekibi)",
+"Görüşme gerekir: Belediyeler Çin markalı yerli montaj otobüse nasıl bakıyor, şartnamelerde menşe kuralı var mı? (EGO Genel Müdürlüğü ve İETT satın alma birimleri)",
+"Görüşme gerekir: Otobüs montajı için proje bazlı teşvik ya da yatırım teşvik belgesi alınabilir mi? (Sanayi ve Teknoloji Bakanlığı Teşvik Uygulama Genel Müdürlüğü)"
+],
+"bant": "izle",
+"puan_metni": "Yönetici isteğiyle derin çalışma (20 Ekim 2026), bant önerisi izle: Pazar ve fiyat tarafı resmi kaynakla sağlam: OSD pazar verisi ve 7 TED ihale sonucu, çürütücü turunda altısı resmi API'den yeniden açılıp birim fiyatlar doğrulandı. Ama yaprağı belirleyen üç şey doğrulanamadı: Çinli üreticinin Türkiye'de ortak arayıp aramadığı, kit fiyatı ve otobüse uygulanan ek vergi ile yerli malı şartı. Türkiye pazarı yılda yaklaşık 1.843 otobüsle küçük, yerli fabrikalarda yüzde 32 boş kapasite var ve Çinli taraf otomotiv deneyimli bir ortağı seçmeye yatkın. BYD'nin Manisa'dan çekilmesi Türkiye'nin Çin yatırım önceliğinde geri düştüğünü gösteriyor. MEKA uyumu kısmi: kesim, büküm, kaynak ve boya uyar; kataforez, tip onayı ve otomotiv montaj deneyimi yok. Bilet 11,5 M$ ile 4. dilimde, ekonomi büyük ölçüde tahmin. Bu yüzden izle: Kasım 2026'daki mektuplara olumlu ve somut dönüş gelirse ikincil ya da öne çıkana yükselebilir.",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 17 arama, 36 sayfa; 7 açık sorunun 0 tanesi cevaplandı, 7 tanesi görüşme gerektiriyor. Çürütücü 20 sayfa açtı, güven 4/5. Bu turda çürütücü ajan 14 sayfayı sayfa_oku.py ile açtı: 6 TED kaydı (resmi API), OSD Aralık 2025 PDF'i, EY, Bursa Hakimiyet, Informburo, Sözcü, Yutong Katar, Medyascope ve İşçi Haber. TED birim fiyatları, OSD pazar ve ihracat rakamları, İETT bedeli, EY karar içerikleri, QazTehna kapasitesi, Yutong 2025 satışları, BYD askıya alma haberi ve 20 Ekim 2026 kurları sayfayla uyuştu. Orda.kz, Bus-News, Prototyping China, Capital, Cumhuriyet, AA, Sustainable Bus, Karsan Mersin PDF'i ve Bloomberg HT bu turda yeniden açılmadı. Çinli üreticilerin CKD kit fiyatı, lisans bedeli ve Türkiye niyeti web'de yok; ekonomi modelindeki kit oranı, montajcı marjı, adetler ve yatırım kalemleri tahmindir. Otobüs 87.02 için Çin menşeine uygulanan gümrük vergisi, İGV ve EMY oranı resmi tablodan doğrulanamadı; Ticaret Bakanlığı Otomotiv Sektör Raporu 2026 ve EUR-Lex AB telafi vergisi metni açılamadı. Yerli malı tebliğinin otobüs kapsamı ve tip onayı süreci resmi kaynaktan çıkarılamadı. Türkiye'de elektrikli otobüs yıllık satış adedi bulunamadı; TEHAD rakamı eski tarihli. Busnex Poland'ın Yutong satıcısı olduğu açılan TED kayıtlarında yazmıyor, araştırmacının tam metin aramasından çıkarım. Zloti avro kuru 4,25 varsayımdır; TL kurları 20 Ekim 2026 Sözcü sayfasından. Yutong Makedonya 2010 rakamı tek kaynak, sayfa açılamadı. Electrive, Steelradar, Automotive World ve ChinaEVHome sayfaları engellendi. Golden Dragon, Zhongtong, Ankai, Foton, Sunwin ve CRRC için Türkiye ya da yurt dışı montaj bilgisi aranmadı, bütçe yetmedi.",
+"guven": 4,
+"tarih": "20 Ekim 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "MEKA ile ilgili",
+"kol_id": "meka_ozel",
+"kol_ad": "Özel firmalar",
+"kisa": "Çinli e-otobüs üreticisiyle Türkiye ortaklığı",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_cin_otobus_ort",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 3.0,
+"H": 2.0,
+"R": 1.0,
+"E": 1.67,
+"M": 2.0,
+"S": 4.0,
+"B": 1,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 4,4 ile 15,3 milyon dolar tahmin; marj varsayım, ortak yok. [Eleştirmen düzeltti, ortalama 3.3 iken 3: Bir puanlayıcı 4 vermiş. Rubrik kural 8: tahmin diye işaretli rakamı kaynaklı rakamla aynı güçte sayma. Ortak yokken ve marj varsayımken 5 milyon dola]",
+"H": "İlk teslim 2028 ikinci çeyrek, 18 ile 24 ay; Çinli üreticinin ilgisi doğrulanamadı.",
+"R": "BYD Manisa fabrikası 10 Haziran 2026'da askıya alındı; yerli fabrikalarda yüzde 32 boş kapasite.",
+"E": "Yabancı ortak şart, Türkiye'de Çinli otobüs montajı bulunamadı; belediyeler yerli markayı seçiyor.",
+"M": "Kaplı iskelet ve batarya kitten gelir; MEKA payı kesim, boya, montaj; 11,5 milyon dolar.",
+"S": "Çinli e-otobüs teknolojisi ve Gümrük Birliği kapısı; Türkiye'de ilk olur; taş tozdan bağımsız."
+},
+"puan_yayilim": []
+},
 "izle_meka": {
 "dal": "meka",
 "kol": "ozel",
@@ -12853,116 +16872,86 @@ window.MEKA_DATA = {
 "id": "belediye",
 "baslik": "Belediyeler: hafriyat ve inşaat atığı tesisleri, EKAP ihaleleri",
 "bant": "ikincil",
-"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulanan kanıt talebin gerçek olduğunu gösteriyor: Giresun 2026'da iki kez konkasör ihalesine çıktı ve yerli malına yüzde 15 avantaj MEKA lehine; Samsun bir konkasör tesisine trafo ihalesi yaptı; Bornova 36 milyon TL'lik arsa kirasıyla özel işletmeci modeline geçti; yıkım yönetmeliği seçici yıkımı zorunlu kılıyor; Bakanlık yeni hafriyat yönetmeliği taslağını görüşe açtı. Ancak Giresun alımı mevcut tesisin revizyonu artı ek ekipman, bedel küçük ve kazanan belli değil; Samsun tesisinin yeni olduğu doğrulanmadı; Bornova'da müşteri belediye değil henüz bilinmeyen kiracı; taslak yönetmelik okunmadı; Keçiören, İSTAÇ kapasitesi ve EKAP sayısı açık. Birçok destekleyici ifade bu turda doğrulanamadı. Öne çıkan banda yükseltmek için gerekçe yetersiz; ikincil bant korunmalı, EKAP taraması ve taslak yönetmelik okunduktan sonra yeniden değerlendirilmeli. Talep gerçek ve büyüyor; mevzuat ve belediye örnekleri resmi kaynaklarla doğrulandı. Ürün hazır ve giriş maliyeti düşük. Ancak doğrudan belediye ekipman ihalesi son 24 ayda yalnız bir tane bulundu ve o da genel konkasör alımı; belediyeler çoğunlukla sahayı özel firmaya kiralıyor. Ekonomik rakamlar belediyenin kendi açıklamasına dayanıyor. Bu yüzden ana kol değil, düşük maliyetli yan kol olarak izlenip satış kanalı kurulmalı. 03 sıralamasında on alan içinde 2. sıra; sayısal puan yok. Etiketler: 0 ile 6 ay, Ar-Ge yok, yatırım düşük. 03 haritasında gelire uzaklık yakın, potansiyel büyüklük orta. GPT kartında inşaat ve yıkıntı atığından agrega kısa vadeli birinci öncelik, 12 ile 24 ay; belediye orada ayrı bir alan değil, müşteri grubu.",
-"tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 Eylül 2026",
-"ne": "Belediyelerin inşaat ve yıkıntı atığı geri kazanım tesisleri ve hafriyat sahaları için kırma eleme ekipmanı. MEKA'nın üstbant mıknatıslı MCC 70, MP 90 ve MP 110C ürünleri bu işe hazır (firma beyanı). Satış yolu EKAP mal alımı ihaleleri ve belediye adına saha işleten özel firmalar.",
-"neden": "Yönetmelik tesis izin yetkisini belediyelere veriyor. Eskişehir modeli yılda 498 bin ton kapasiteyle son 4 ayda yaklaşık 24 ile 25 milyon TL tasarruf açıkladı; tesis 6 büyükşehir ve Bilecik Belediyesi'ne bilgi aktardığını söylüyor (belediye açıklaması, iki yerel haber). Giresun 2026 konkasör ihalesi yerli malına yüzde 15 fiyat avantajı tanıyor (resmi ilan metni). 12 Ağustos 2026 tarihli yıkım yönetmeliği değişikliği seçici yıkım ve bina yıkıntı atığı tanımlarını getirdi; yıkım planı atık yönetimi bilgisini içerecek; ana hükümler 12 Ağustos 2027'de yürürlüğe giriyor. Bu, tesis talebini artırabilir.",
+"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi ikincil: Talep ve fiyat artık kaynaklı: 2026'da iki belediye konkasör aldı (14,6 ve 23,3 milyon TL), iki il özel idaresi 69 ile 93 milyon TL'lik tesis aldı, rakip sayısı 2 ile 7 arasında. MEKA'nın ürünü hazır, bilet 5 ile 12,5 milyon TL, geri ödeme 2 yılın altında. Ancak yıl 5 brüt kârı 17,5 ile 33,6 milyon TL (0,35 ile 0,68 milyon dolar) ile MEKA ölçeğinde küçük kalıyor; belediye alımı yılda 1 ile 2 adet görünüyor ve ihale sonuçları tek bir üçüncü taraf siteden alındı. Bu yüzden ikincil bant korunmalı; EKAP tam sayımı yılda 6 ve üstü kamu alımı gösterirse ve il özel idareleri kanalı doğrulanırsa öne çıkan banda alınmalı. Önceki çalışmanın kendi puanı: İkinci tur (16 Ekim 2026): Doğrulanan kanıt talebin gerçek olduğunu gösteriyor: Giresun 2026'da iki kez konkasör ihalesine çıktı ve yerli malına yüzde 15 avantaj MEKA lehine; Samsun bir konkasör tesisine trafo ihalesi yaptı; Bornova 36 mily…",
+"tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 24 Eylül 2026",
+"ne": "Belediyelerin, belediye şirketlerinin ve il özel idarelerinin kendi kırma eleme tesisleri için MEKA ürünü satmak: kanca yüklemeli MCC 70 (en çok 110 ton/saat), lastik tekerlekli MP 90 (200 ton/saat) ve MP 110C (340 ton/saat); üçünde de üstbant mıknatıs var ve Ankara fabrikasındaki mevcut sac, lazer, kaynak ve hidrolik hatlarıyla üretiliyor (firma beyanı). Satış yolu EKAP mal alımı ihaleleri (yerli malına yüzde 15 avantaj), belediye adına saha işleten özel firmalar ve il özel idareleri. Bilet MEKA şirketinin harcamasıdır; getiri makine satışından brüt kârdır.",
+"neden": "Talep artık rakamla görülüyor. EKAP sonuç ilanlarına göre 2026'da iki belediye konkasör aldı: Safranbolu 14,6 milyon TL (6 Mayıs 2026, 7 istekli) ve Giresun 23,3 milyon TL (13 Ekim 2026, 2 istekli); il özel idareleri daha büyük paketler aldı: Siirt 69,4 milyon TL (2024) ve Niğde 93 milyon TL (2025), ikisini de Fabo kazandı. Alıcının ekonomisi güçlü: Kocaeli Büyükşehir kendi tesisiyle 6 ayda 97.048 ton mıcır üretip 17,5 milyon TL tasarruf açıkladı, tona yaklaşık 180 TL; Eskişehir 4 ayda 24 ile 25 milyon TL. Rekabet dar: Giresun'da 2, Siirt'te 2, Niğde'de 3 istekli. MEKA'nın ürünü hazır, bilet küçük, geri ödeme 2 yılın altında; ama yıl 5 brüt kârı 0,35 ile 0,68 milyon dolar bandında kaldığı için ana kol değil, düşük maliyetli yan kol.",
 "rakamlar": [
 {
-"deger": "498.000 ton/yıl",
-"aciklama": "Eskişehir Büyükşehir inşaat ve yıkıntı atığı geri kazanım tesisi kapasitesi, 2021'de bu düzeye çıkarıldı; bugüne dek 1.449.535 ton kabul, yüzde 75 geri kazanım, 1.078.000 ton üstü geri kazanılan malzeme. Doğrulandı.",
-"kaynak": "haber, iki yerel gazete, aynı belediye açıklaması (Haber Merkezi), 14 Mayıs 2026: https://www.istikbalgazetesi.com/eskisehir-buyuksehir-belediyesinden-25-milyon-tl-tasarruf ve https://www.gzt26.com/ayse-unluce-acikladi-geri-donusum-tesisi-4-ayda-milyonlarca-lira-kazandirdi"
+"deger": "23.296.000 TL",
+"aciklama": "Giresun Belediye Başkanlığı Konkasör Mal Alımı İşi (İKN 2026/1539482) sözleşme bedeli; kazanan Taşsan Kırma Eleme İnşaat Maden Makinaları San. ve Tic. Ltd. Şti.; yaklaşık maliyet 25.558.667 TL, yüzde 9 tenzilat; 2 istekli, 2 geçerli teklif, 4 doküman indiren; pazarlık 21/a; ihale 22 Eylül 2026, sonuç 13 Ekim 2026. EKAP kaynaklı üçüncü taraf veri, EKAP ekranı açılmadı, tek kaynak.",
+"kaynak": "diger, EKAP verisi: https://kamuihaleler.com/sonuc/konkasor-mal-alimi-isi-2026-1539482"
 },
 {
-"deger": "yaklaşık 24 ile 25 milyon TL",
-"aciklama": "Eskişehir tesisinin son 4 ayda yalnız yol işlerinde sağladığı tasarruf; ayrıca özel firmalardan atık kabulü ve ürün satışından yaklaşık 5 milyon TL üstü gelir. Belediye başkanı açıklaması, 14 Mayıs 2026. Doğrulandı.",
+"deger": "14.600.000 TL",
+"aciklama": "Safranbolu Belediyesi Fen İşleri Müdürlüğü, 1 adet Mobil Kırma Eleme Tesisi (Konkasör) Alım ve Montajı İşi (İKN 2026/403199); kazanan Taşsan; yaklaşık maliyet 17.060.000 TL; 7 istekli, 7 geçerli teklif, 11 doküman indiren; açık ihale 6 Nisan 2026, sonuç 6 Mayıs 2026. Tek mobil tesis için en temiz birim fiyat emsali. Tek kaynak.",
+"kaynak": "diger, EKAP verisi: https://kamuihaleler.com/sonuc/mobil-kirma-eleme-tesisi-konkasor-alim-ve-montaji-isi-2026-403199"
+},
+{
+"deger": "93.000.000 TL",
+"aciklama": "Niğde İl Özel İdaresi, 400 ile 450 ton/saat kapasiteli kırma eleme tesisi ve ekipmanları alımı (İKN 2025/595903); kazanan Fabo Makina; yaklaşık maliyet 112.435.200 TL, yüzde 17 tenzilat; 3 istekli; ihale 28 Mayıs 2025, sonuç 19 Haziran 2025. Ton/saat başına yaklaşık 210 ile 230 bin TL. Tek kaynak.",
+"kaynak": "diger, EKAP verisi: https://kamuihaleler.com/sonuc/idaremiz-hizmetlerinde-kullanilmak-uzere-satin-alinacak-olan-2025-595903"
+},
+{
+"deger": "69.421.000 TL",
+"aciklama": "Siirt İl Özel İdaresi, 1 adet sabit konkasör tesisi ve 1 adet sabit mekanik stabilizasyon plenti alımı ve kurulumu (İKN 2024/313418); kazanan Fabo Makina; yaklaşık maliyet 71.992.000 TL; 2 istekli, 1 geçerli teklif; ihale 18 Nisan 2024, sonuç 14 Mayıs 2024. Tek kaynak.",
+"kaynak": "diger, EKAP verisi: https://kamuihaleler.com/sonuc/konkasor-sabit-kirma-eleme-tesisi-ve-sabit-mekanik-stabiliza-2024-313418"
+},
+{
+"deger": "23.750.000 TL",
+"aciklama": "İzmit Belediyesi Fen İşleri Müdürlüğü, 1 adet 120 ton/saat mobil asfalt plenti alımı (İKN 2026/654722); kazanan Okur Makina; yaklaşık maliyet 28.225.000 TL; 3 istekli, 1 geçerli; sonuç 21 Mayıs 2026. Belediyelerin benzer büyüklükte tek makine alımına kıyas. Tek kaynak.",
+"kaynak": "diger, EKAP verisi: https://kamuihaleler.com/sonuc/120-ton-saat-kapasiteli-mobil-asfalt-plenti-alim-isi-2026-654722"
+},
+{
+"deger": "17.468.000 TL ve 97.048 ton",
+"aciklama": "Kocaeli Büyükşehir Belediyesi Körfez Kıyırlı taş kırma ve eleme tesisi: 6 ayda 97.048 ton mıcır, 17.468.000 TL tasarruf, maliyet yüzde 50 düşük, saatte 400 ton kapasite, yüzde 100 yerli üretim; haber 10 Nisan 2025. Tona yaklaşık 180 TL tasarruf çıkarımdır. Belediye açıklaması, tek haber kaynağı.",
+"kaynak": "haber, belediye açıklaması: https://www.ekonomigazetesi.com/sehirler/kocaeli-buyuksehir-belediyesi-tas-kirma-tesisiyle-17-milyon-tasarruf-etti-47331"
+},
+{
+"deger": "24 ile 25 milyon TL",
+"aciklama": "Eskişehir Büyükşehir Keskin tesisi son 4 ayda yol işlerinde tasarruf ve yaklaşık 5 milyon TL üstü atık kabul ve ürün satış geliri; kurulu kapasite 498.000 ton/yıl; 14 Mayıs 2026 belediye açıklaması. Önceki turda doğrulandı, bu turda yeniden açılmadı.",
 "kaynak": "haber, belediye açıklaması: https://www.gzt26.com/ayse-unluce-acikladi-geri-donusum-tesisi-4-ayda-milyonlarca-lira-kazandirdi"
 },
 {
-"deger": "yüzde 15",
-"aciklama": "Giresun Belediye Başkanlığı konkasör mal alımı ihalesinde yerli malı teklif eden yerli istekliye fiyat avantajı; yalnız yerli istekliler katılabilir. İKN 2026/1539482, pazarlık usulü 21(a), yeterlik değerlendirmesi 22 Eylül 2026 saat 10:30, teslim sözleşmeden itibaren en geç 60 takvim günü fabrika/atölye teslimi, ilan 21 Ağustos 2026. İş: Ülper Mevkii'nde yeni şantiye sahasına kırma eleme tesisi için makine, ekipman, mevcut ekipmanların revizyon parçaları, montaj, nakliye. İlan yıkıntı atığı demiyor; genel konkasör tesisi. Kapasite ve yaklaşık maliyet ilanda yok. Doğrulandı.",
-"kaynak": "resmi ilan metni (Basın İlan Kurumu, ILN02533242), gazete sitesinde: https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi"
+"deger": "11.900.000 TL",
+"aciklama": "Fabo PRO-90 2024 model düşük saatli ikinci el mobil konkasör ilan fiyatı, Karaman, ilan 00257839; makinaturkiye; sayfada para birimi ve ilan tarihi yazmıyor, TL varsayıldı. MEKA MCC 70 ve MP 90 fiyat mertebesi için pazar kıyası; satıcı ilanı, tek kaynak.",
+"kaynak": "firma ilanı: https://www.makinaturkiye.com/en/fabo-mobile-crusher-c-125738-177702"
 },
 {
-"deger": "10.785.492 ile 43.142.132 TL arası",
-"aciklama": "Keçiören Belediyesi hafriyat ve yıkıntı atığı sahalarından geri dönüştürülebilir malzeme geri kazanımı için saha kiralama ihalesi yaklaşık maliyet bandı; ilan 10 Nisan 2026, teklif 21 Nisan 2026. Arama özetinden alındı, ilan sayfası açılamadı. Doğrulanamadı.",
-"kaynak": "diger, tek kaynak, doğrulanamadı: https://ihalebul.com/tenders/search?cpvtree_in=45252120&sort=-province"
+"deger": "3.664.000 ve 5.129.600 TL",
+"aciklama": "Constmach V-70 100 ile 150 ton/saat mobil dik milli kırıcı 3.664.000 ve 200 ile 250 ton/saat mobil dik milli darbeli kırıcı 5.129.600; Kemalpaşa İzmir; sayfada para birimi yazmıyor, TL ve KDV hariç olduğu arama özetinden; tek makine fiyatı, komple tesis değil. Satıcı ilanı.",
+"kaynak": "firma ilanı: https://www.makinaturkiye.com/mobil-dik-milli-kirici-t-49750"
 },
 {
-"deger": "25.000 m²",
-"aciklama": "Bornova Belediyesi'nin Karaçam'da hafriyat toprağı, inşaat ve yıkıntı atığı geri kazanım tesisi için kiraya verdiği belediye arsası; Haziran 2025 olağan meclis toplantısı, haber tarihi 3 Haziran 2025. Kurucu, kapasite, ekipman yok. Doğrulandı.",
-"kaynak": "resmi: https://bornova.bel.tr/recycling-facility-approved-in-bornova?lang=en"
+"deger": "49,58 TL",
+"aciklama": "Dolar kuru, 20 Ekim 2026, Ekonomi Gazetesi piyasa şeridi (euro 55,71 TL; şerit canlı, saatle değişir). Bu çalışmadaki dolar çevrimleri bu kurla yapıldı.",
+"kaynak": "haber sitesi piyasa verisi: https://www.ekonomigazetesi.com/sehirler/kocaeli-buyuksehir-belediyesi-tas-kirma-tesisiyle-17-milyon-tasarruf-etti-47331"
 },
 {
-"deger": "6 tesis, 8 saha",
-"aciklama": "İzmir Büyükşehir listesinde 6 inşaat/yıkıntı atığı geri kazanım tesisi ve 8 hafriyat toprağı depolama sahası; 6 tesisten 5'i özel (ikisi gerçek kişi), 1'i belediye şirketi Aliağa Belediyesi Petrol A.Ş. 8 sahanın 4'ünü İzmir BB şirketi Egeşehir işletiyor. Kapasite verilmiyor. Doğrulandı.",
-"kaynak": "resmi: https://www.izmir.bel.tr/tr/AcrdIcerik/93/1"
+"deger": "562 sonuç, 300 gösterim",
+"aciklama": "EKAP kaynaklı sektör verisinde Sulama ve İş Makineleri sektöründe 562 sonuçlanmış ihale var, site en yeni 300'ünü gösteriyor; bu 300 içinde konkasör ve kırma eleme alımı 4 (Giresun, Safranbolu, Niğde, Siirt). Tam sayım için EKAP üyeliği gerekir.",
+"kaynak": "diger, EKAP verisi: https://kamuihaleler.com/sektor/sulama-is-makineleri-43"
 },
 {
-"deger": "18 ile 32 TL/ton",
-"aciklama": "İstanbul lisanslı döküm sahası kabul tarifesi bandı 2026; bir yıkım ve hafriyat firmasının blog yazısı, 17 Mayıs 2026. Firma beyanı, tek kaynak. Doğrulandı (sayfada aynen var).",
-"kaynak": "firma beyanı, tek kaynak: https://www.ardasanayi.com.tr/blog/istanbul-hafriyat-hizmetleri-rehberi/"
+"deger": "100.000 kilit parke, 20.000 bordür, 15.000 oluk / ay",
+"aciklama": "Giresun Belediyesi Organize Sanayi Bölgesi'ndeki konkasör tesislerinin aylık üretimi; belediye haberleri 27 Haziran 2024 ve 8 Eylül 2025; Başkan Fuat Köse 8 Haziran 2026'da tesisi ziyaret etti. Ülper'e taşınacak ve yenilenecek tesis budur (çıkarım; ilan Küçükköy diyor).",
+"kaynak": "resmi: https://giresun.bel.tr/2025/09/08/belediye-konkasor-tesisleri-tam-kapasite-calisiyor/"
 },
 {
-"deger": "185.877.621 ton",
-"aciklama": "İstanbul'da izinsiz hafriyat dökümü iddiası, iddianame; 80 milyar TL kamu zararı iddiası. Yalnız iddia, mahkeme sonucu yok. Bu turda sayfa açılmadı, doğrulanamadı.",
-"kaynak": "haber, tek kaynak, doğrulanamadı: https://www.sabah.com.tr/galeri/yasam/son-dakika-ibbde-80-milyarlik-hafriyat-talani-cevre-katliami-gozler-onune-serildi"
+"deger": "3.800 TL/tır",
+"aciklama": "İSTAÇ hafriyat döküm bedeli 2025; 2023'te 600 TL, 2024'te 1.300 TL. Üçüncü taraf ihale sitesi, İSTAÇ tarifesi doğrudan açılmadı; tek kaynak.",
+"kaynak": "diger, tek kaynak: https://www.ihalekik.com/istanbul-hafriyat-dokum-ucretleri"
 },
 {
-"deger": "en çok 110, 200 ve 340 ton/saat",
-"aciklama": "MEKA MCC 70, MP 90 ve MP 110C kapasiteleri; sayfa 'up to' diyor ve 1,6 ton/m³ malzeme için geçerli. Üstbant mıknatıs üç modelin de teknik tablosunda var; MCC 70 kanca yüklemeli; MP 90 ve MP 110C lastik tekerlekli; MCC sonrası opsiyonel 3 katlı elek. Firma beyanı. Doğrulandı.",
-"kaynak": "firma beyanı: https://www.mekaglobal.com/en/products/crushing-screening-plants/recycling-technologies/construction-and-demolition-waste-recycling"
-},
-{
-"deger": "12 Ağustos 2027",
-"aciklama": "Binaların Yıkılması Hakkında Yönetmelikte Değişiklik; Resmî Gazete 12 Ağustos 2026 sayı 33338. Madde 14: 7. maddeye eklenen 8. fıkra ile 14 ve 15. maddeler yayım tarihinde, diğer hükümler yayımdan bir yıl sonra yürürlükte. Bina yıkıntı atıkları, seçici yıkım ve tehlikeli atık tanımları eklendi; yıkım planı tanımı atık yönetimi bilgisini içeriyor; yüksek yapı yıkımı için Beşinci Bölüm eklendi. Doğrulandı.",
-"kaynak": "resmi: https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm"
-},
-{
-"deger": "800 ton/gün",
-"aciklama": "Bursa Büyükşehir şirketi Burkent'in Erdoğanköy hafriyat sahası geri kazanım tesisi kapasitesi; tarih belirsiz, sayfa açılamadı, arama özetinden. Doğrulanamadı.",
-"kaynak": "haber, tek kaynak, doğrulanamadı: https://www.steelradar.com/erdogankoy-e-hafriyat-sahasi-53670/"
-},
-{
-"deger": "2026/1539482",
-"aciklama": "Giresun Belediye Başkanlığı Konkasör Mal Alımı İşi, pazarlık usulü 21/a, yeterlik 22.09.2026 saat 10.30, teslim 60 takvim günü, Ülper Mevkii, yerli malına yüzde 15 avantaj; doğrulandı",
-"kaynak": "https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi"
-},
-{
-"deger": "2026/1100761",
-"aciklama": "Giresun Belediyesi Fen İşleri Müdürlüğü 11 kalem konkasör alımı, açık ihale 16.07.2026 saat 10.30, yalnızca yerli istekli, yerli malına yüzde 15 avantaj; Küçükköy'deki mevcut tesis revize edilip Ülper'e taşınacak; doğrulandı",
-"kaynak": "https://www.yildizhaber.com.tr/haber-konkasor-satin-alinacaktir-170162.html"
-},
-{
-"deger": "36.000.000 TL",
-"aciklama": "Bornova Karaçam geri kazanım tesisi arsası 10 yıllık kira muhammen bedeli; yıllık 3.600.000 TL KDV hariç; geçici teminat 1.080.000 TL; ihale 23.12.2025 saat 10.00; doğrulandı",
-"kaynak": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan"
-},
-{
-"deger": "34.363,13 m2",
-"aciklama": "Bornova Karaçam Köyü 107 ada 63 parsel tesis arsası; doğrulandı",
-"kaynak": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan"
-},
-{
-"deger": "498.000 ton/yıl",
-"aciklama": "Eskişehir Büyükşehir Tepebaşı Keskin inşaat ve yıkıntı atığı geri kazanım tesisi kurulu kapasitesi; Aralık 2017'den Ekim 2023'e yaklaşık 1.000.000 ton kabul, yaklaşık 340.000 ton agrega, yaklaşık 1.000 ton metal ve plastik; doğrulandı",
-"kaynak": "https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24"
-},
-{
-"deger": "40.000.000 ton/yıl",
-"aciklama": "İSTAÇ hafriyat depolama sahalarında yılda ortalama depolanan hafriyat toprağı; İstanbul'da aylık 3.000.000 ton hafriyat atığı; firma beyanı, doğrulandı",
-"kaynak": "https://istac.istanbul/faaliyet-alanlarimiz/atik-yonetimi/hafriyat-topragi-yonetimi"
-},
-{
-"deger": "2026/1117468",
-"aciklama": "Samsun Büyükşehir Fen İşleri Daire Başkanlığı, İlkadım Güzeldere Konkasör Tesisi Enerji Besleme İşleri, 1600 kVA trafo, yapım işi, ihale 13.07.2026 saat 10.30, süre 75 takvim günü; doğrulandı",
-"kaynak": "https://www.gazetegercek.com.tr/resmi-ilan/konkasor-tesisi-enerji-besleme-isleri-yaptirilacaktir/228221"
-},
-{
-"deger": "1 Temmuz 2022",
-"aciklama": "Binaların Yıkılması Hakkında Yönetmelik yürürlük tarihi, Madde 20; Resmi Gazete 13 Ekim 2021 sayı 31627; Madde 15 seçici yıkım; doğrulandı",
-"kaynak": "https://www.resmigazete.gov.tr/eskiler/2021/10/20211013-1.htm"
-},
-{
-"deger": "Mart 2026",
-"aciklama": "Hafriyat Toprağı ile İnşaat ve Yıkıntı Atıklarının Yönetimine İlişkin Yönetmelik Taslağı Bakanlık taslaklar sayfasında yayında; 13 ve 17 Mart tarihleri dosya adından çıkarıldı, sayfada tarih yok; görüş süresi yazmıyor",
-"kaynak": "https://cygm.csb.gov.tr/taslaklar-i-443"
+"deger": "4.121.000 TL",
+"aciklama": "Niğde İl Özel İdaresi Bor Pınarbaşı konkasör tesisi için 2000 kVA trafo merkezi yapım işi (İKN 2025/2003439); yaklaşık maliyet 5.654.263,98 TL; 27 teklif; sözleşme 25 Aralık 2025, yüklenici Kenan Çimen; iş süresi 30 Aralık 2025 ile 28 Şubat 2026. Niğde'nin 93 milyon TL'lik tesis alımının devamı. Tek kaynak.",
+"kaynak": "diger, EKAP sonuç ilanı aktarımı: https://www.ihaledanismani.com/kesinlesen-ihale-sonucu-nigde-bor-pinarbasi-konkasor-tesisi-icin-2000-kva-beton-kosk-tipi-trafo-merkezi-kurulumu-yapim-isi/"
 }
 ],
-"durum": "Belediye talebi iki doğrulanmış ihaleyle somut. Giresun Belediyesi 2026'da iki kez konkasör alımına çıktı: 16 Temmuz 2026 açık ihale ve 22 Eylül 2026 pazarlık; iki ilanda da yalnız yerli istekli ve yerli malına yüzde 15 avantaj var. Alım, Küçükköy'deki mevcut tesisin revizyonu ve Ülper'e taşınması; tamamen yeni tesis değil. Sonuç yayınlanmadı. Samsun Büyükşehir Güzeldere konkasör tesisi için 1600 kVA trafo ihalesi yaptı; tesisin yeni mi mevcut mu olduğu ilanda yok. Bornova Belediyesi Karaçam'da 34.363 m2 arsayı 10 yıl, 36 milyon TL muhammen bedelle kiralıyor; tesisi kiracı kuracak, bu nedenle MEKA'nın muhatabı belediye değil kiracı firma. Yıkım yönetmeliği 1 Temmuz 2022'den beri seçici yıkımı ve kaynakta ayırmayı zorunlu kılıyor; Resmi Gazete metniyle doğrulandı. Bakanlık Mart 2026'da hafriyat ve yıkıntı atığı yönetmelik taslağını görüşe açtı; metin okunmadı. İSTAÇ 40 milyon ton/yıl hafriyat rakamını veriyor ama yıkıntı atığı geri kazanım kapasitesi yok. Keçiören, Bornova ilk ihale, Işıklar kararı ve İSTAÇ raporlarına dair ifadeler bu turda doğrulanamadı.",
+"durum": "Giresun ihalesi sonuçlandı: 13 Ekim 2026'da Taşsan Kırma Eleme 23.296.000 TL ile kazandı, yaklaşık maliyet 25.558.667 TL, yalnız 2 istekli vardı; Temmuz 2026'daki ilk açık ihale (2026/1100761) sonuç listesinde yok, pazarlığa geçilmesi sonuçsuz kaldığını düşündürüyor (çıkarım). Aynı firma 6 Mayıs 2026'da Safranbolu Belediyesi'nin 14.600.000 TL'lik tek mobil kırma eleme tesisi ihalesini de aldı; orada 7 istekli vardı. İl özel idareleri daha büyük alıcı çıktı: Siirt 69,4 milyon TL (2024) ve Niğde 93 milyon TL (2025), ikisi de Fabo; Niğde ardından 4,1 milyon TL'lik trafo ihalesi yaptı. Bornova'da ilk ihale 9 Eylül 2025, ikincisi 23 Aralık 2025; kiracı hâlâ web'de yok; İzmir Büyükşehir meclisi Işıklar'daki 11.600 m2'lik ikinci tesisi oy çokluğuyla geçirdi. Keçiören için bulunan tek kayıt 2026/1128301 Atık Getirme Merkezi bina yapımıdır, hafriyat sahasıyla ilgisi yok; saha kiralama ihalesi hiçbir kaynakta görülmedi. İSTAÇ 2024 faaliyet raporu okundu: hafriyat depolama ana faaliyet, yıkıntı atığı geri kazanım kapasitesi ve tonajı yazmıyor. Bakanlığın taslak yönetmelik sayfası üç denemede açılamadı.",
 "acik_sorular": [
 "Kısmen cevaplandı: Giresun 2026/1539482 ihalesini kim kazandı, bedel, seçilen marka",
-"Görüşme gerekir: Keçiören hafriyat sahası kiralama ihalesini hangi firma aldı (Keçiören Belediyesi Emlak ve İstimlak Müdürlüğü ve Fen İşleri Müdürlüğü; Ankara Büyükşehir Belediyesi Çevre Koruma ve Kontrol Dairesi Başkanlığı hafriyat birimi; EKAP'ta idare adıyla sonuç ilanı sorgusu.)",
+"Görüşme gerekir: Keçiören hafriyat sahası kiralama ihalesini hangi firma aldı (Keçiören Belediyesi Emlak ve İstimlak Müdürlüğü 0312 361 10 31 santral; Ankara Büyükşehir Belediyesi Çevre Koruma ve Kontrol Dairesi hafriyat birimi; 2886 sayılı Kanun ihaleleri EKAP'ta olmadığı için belediye ilan panosu ve Basın İlan Kurumu arşivi.)",
 "Kısmen cevaplandı: Son 24 ayda EKAP'ta belediye konkasör, mobil kırma eleme ve inşaat yıkıntı atığı tesisi ihalesi sayısı; örnekler",
 "Kısmen cevaplandı: İSTAÇ'ın inşaat yıkıntı atığı geri kazanım kapasitesi ve 2025 ile 2026 tesis planı",
 "Kısmen cevaplandı: İzmir Bornova Karaçam tesisini kim kuracak, teknoloji ve takvim",
@@ -12970,121 +16959,151 @@ window.MEKA_DATA = {
 ],
 "adimlar": [
 {
-"adim": "EKAP'ta 2026/1539482 ve 2026/1100761 sonuç ilanlarını sorgula; yoksa Giresun Belediyesi Fen İşleri Müdürlüğü'nü 444 40 28'den ara; kazanan firma, bedel, marka, pazarlığa davet edilen firmalar ve Küçükköy'deki mevcut tesisin markası öğrenilsin",
+"adim": "Taşsan Kırma Eleme'yi tanı: Ticaret Sicil Gazetesi kaydı, imalatçı mı bayi mi, Safranbolu ve Giresun'a hangi marka ve modeli teslim ettiği; MEKA için rakip mi, bayi ya da ortak adayı mı karar ver; Giresun Fen İşleri 444 40 28'den makine listesini iste",
 "kim": "Kamu ihale ve satış sorumlusu",
-"ne_zaman": "23 Ekim 2026"
-},
-{
-"adim": "CSB taslak yönetmeliği docx dosyasını indir ve oku; seçici yıkım, geri kazanım oranı ve geri kazanılmış agrega kullanım hükümlerini çıkar; görüş süresini Çevre Yönetimi Genel Müdürlüğü'nden 0312 586 30 00 ile sor; görüş formunu doldur",
-"kim": "Ürün yöneticisi ve hukuk",
-"ne_zaman": "31 Ekim 2026"
-},
-{
-"adim": "Bornova Belediyesi İklim Değişikliği ve Sıfır Atık Müdürlüğü'nü ara; 23 Aralık 2025 Karaçam ihalesinin sonucunu ve kiracı firmayı öğren; 9 Eylül 2025 ilk ihalesinin akıbetini ve Işıklar ikinci tesis kararını teyit et; kiracıya tesis teklifi için temas kur",
-"kim": "Ege bölge satış",
 "ne_zaman": "30 Ekim 2026"
 },
 {
-"adim": "Keçiören Belediyesi Emlak ve İstimlak Müdürlüğü ile Ankara Büyükşehir Çevre Koruma ve Kontrol Dairesi'ni ara; hafriyat sahası kiralama ihalesinin hangi idarede olduğunu ve kazananı netleştir",
-"kim": "Ankara satış",
-"ne_zaman": "30 Ekim 2026"
-},
-{
-"adim": "İSTAÇ 2024 Faaliyet Raporu ve 2025 Sürdürülebilirlik Raporu PDF'lerini indirip yıkıntı atığı tonajı ve tesis planını çıkar; döküm bedeli rakamlarını İSTAÇ'tan teyit et; ardından 444 85 00 ve İBB Atık Yönetimi Müdürlüğü ile görüş",
-"kim": "Pazarlama analisti ve Marmara satış",
-"ne_zaman": "6 Kasım 2026"
-},
-{
-"adim": "EKAP üyeliğiyle konkasör, kırma eleme ve yıkıntı atığı anahtar kelimeleriyle 1 Ekim 2024 ile 16 Ekim 2026 arası belediye ilanlarını ve sonuç ilanlarını tara; sayıyı, idareleri ve kazanan markaları tabloya yaz",
+"adim": "EKAP üyeliğiyle 1 Ocak 2024'ten bugüne konkasör, kırma eleme, mobil kırıcı ve yıkıntı atığı sonuç ilanlarını tam say (mal alımı ve yapım işi); idare, bedel, istekli sayısı ve kazananı tabloya yaz; kamuihaleler verisindeki 562 sonucun görünmeyen 262'sini kapat",
 "kim": "Pazarlama analisti",
-"ne_zaman": "31 Ekim 2026"
+"ne_zaman": "6 Kasım 2026"
 },
 {
-"adim": "Samsun Büyükşehir Fen İşleri Daire Başkanlığı'nı 0362 431 60 90'dan ara; Güzeldere konkasör tesisinin yeni mi mevcut mu olduğunu, makine tedarikçisini ve ek ekipman ihtiyacını öğren",
-"kim": "Karadeniz bölge satış",
-"ne_zaman": "6 Kasım 2026"
+"adim": "MCC 70, MP 90 ve MP 110C için kamu ihalelerine özel TL fiyat listesi, yerli malı belgesi, TSE ve CE dosyası hazırla; brüt marj varsayımını (yüzde 25 ile 30) KAP'taki MEKA finansal tablolarıyla doğrula; Safranbolu 14,6 ve Giresun 23,3 milyon TL emsallerine göre konumlandır",
+"kim": "Satış müdürü ve mali işler",
+"ne_zaman": "13 Kasım 2026"
+},
+{
+"adim": "İl özel idarelerini müşteri grubu olarak aç: Niğde (93 milyon TL) ve Siirt (69,4 milyon TL) alımlarını yapan birimlerle görüş, 81 il özel idaresinin asfalt şantiyesi ve konkasör ihtiyacını listele; 2027 bütçe takvimine göre ziyaret planı çıkar",
+"kim": "Yurt içi satış müdürü",
+"ne_zaman": "20 Kasım 2026"
+},
+{
+"adim": "Kayapınar Belediyesi (5 Şubat 2025 meclis kararı), Samsun Büyükşehir Güzeldere (0362 431 60 90) ve Kocaeli Büyükşehir Körfez Kıyırlı tesisini ara; alım takvimi, mevcut marka ve ek ekipman ihtiyacını öğren",
+"kim": "Güneydoğu, Karadeniz ve Marmara bölge satış",
+"ne_zaman": "30 Ekim 2026"
+},
+{
+"adim": "Bornova İklim Değişikliği ve Sıfır Atık Müdürlüğü'nden 23 Aralık 2025 ihalesinin kiracısını öğren ve tesis teklifi için temas kur; Keçiören Emlak ve İstimlak Müdürlüğü'nden hafriyat sahası kiralama ihalesinin olup olmadığını teyit et; CSB taslak yönetmeliğini elle indirip oku ve görüş formunu doldur",
+"kim": "Ege satış, Ankara satış ve hukuk",
+"ne_zaman": "31 Ekim 2026"
 }
 ],
 "riskler": [
-"Belediyeler çoğunlukla tesisi kurmuyor, sahayı özel firmaya kiralıyor; alıcı özel firma oluyor ve fiyat baskısı yüksek",
-"Belediye ödeme gecikmeleri ve bütçe daralması",
-"İhale sayısı düşük ve dağınık; yılda birkaç makine ile sınırlı kalabilir",
-"Tesis yer seçimi siyasi tartışma yaratıyor; İzmir Işıklar örneği (bu turda doğrulanmadı)",
-"İstanbul'da hafriyat yönetimi yargı sürecinde; büyük pazar belirsiz (iddianame haberi bu turda doğrulanmadı)",
-"Pazarlık usulü ve yerli malı şartı rakip yerli üreticilere de açık; fiyat rekabeti",
-"Eskişehir tasarruf rakamları belediyenin kendi açıklaması; bağımsız doğrulama yok"
+"Rekabet yerli ve fiyat odaklı: Safranbolu'da 7 istekli vardı, Giresun ve Niğde yaklaşık maliyetin yüzde 83 ile 91'inde kapandı; Fabo il özel idarelerinde, Taşsan belediyelerde yerleşik; MEKA'nın belediye referansı yok",
+"İhale sayısı düşük ve dağınık: EKAP sonuç verisinde belediye konkasör alımı yılda 1 ile 2, il özel idaresi yılda 1; yıl 5 için 5 ile 8 makine hedefi tahmindir ve tutmayabilir",
+"Belediyeler çoğu yerde tesisi kurmuyor, sahayı özel firmaya kiralıyor (Bornova, İzmir'de 6 tesisin 5'i özel); alıcı özel firma oluyor, fiyat baskısı ve tahsilat riski artıyor",
+"Belediye ödeme gecikmesi ve 2027 bütçe daralması; sözleşme bedeli sabit TL iken 60 günlük teslimde kur ve girdi maliyeti riski MEKA'da",
+"Ekonomik rakamların çoğu tek kaynaklı: ihale sonuçları EKAP'ın kendisinden değil üçüncü taraf siteden alındı; Kocaeli ve Eskişehir tasarruf rakamları belediye beyanı",
+"Yer seçimi siyasi tartışma yaratıyor (Bornova Işıklar okul mesafesi); belediye tesisleri meclis ve ÇED süreçlerinde gecikebilir, satış takvimi kayar"
 ],
 "kapilar": {
 "yatirim": "sirket",
-"butce": 1,
-"butce_not": "Giriş bileti EKAP izleme, ihale dosyası, yerli malı belgesi ve satış ziyaretleri; 100 bin dolar altı. Demo ya da kiralık bir MCC 70 filosu kurulursa kapı 2'ye çıkar. Tahmin.",
+"butce": 2,
+"butce_not": "Tam giriş bileti ilk 24 ayda yaklaşık 12,5 milyon TL (250 bin dolar, kur 49,58): kamu ihale ve satış personeli 2 yıl 3,6 milyon TL (tahmin), EKAP üyeliği, yerli malı, TSE ve CE belgeleri 0,3 milyon TL (tahmin), geçici ve kesin teminat mektubu komisyonları 0,3 milyon TL (tahmin), demo günleri, fuar ve belediye ziyaretleri 0,8 milyon TL (tahmin), bir adet stok MCC 70 demo makinesi üretim maliyeti 7,5 milyon TL (tahmin; satılınca geri döner). İlk 12 ay harcaması demo makine dahil yaklaşık 10 milyon TL (200 bin dolar), demo makinesiz 2,5 milyon TL (50 bin dolar). Demo makinesiz toplam bilet 5 milyon TL (100 bin dolar) ile kapı 1'e iner.",
 "yol": "ikisi",
-"yol_not": "Belediye ihalelerine doğrudan teklif; buna ek olarak belediye adına saha işleten özel firmalar ve belediye şirketleri ile çalışma. Egeşehir, Haydar Madencilik, Burkent, Aliağa Belediyesi Petrol A.Ş. aday."
+"yol_not": "Üç kanal birlikte: EKAP mal alımı ihalelerine doğrudan teklif (belediyeler ve il özel idareleri; yerli malına yüzde 15 avantaj), belediye şirketleri ve saha işleten özel firmalara doğrudan satış (Egeşehir, Aliağa Belediyesi Petrol A.Ş., Haydar Madencilik, Bornova kiracısı), ve Taşsan gibi ihale kazanan yerel firmalarla bayi ya da tedarik ortaklığı. Ortaklık kurma yok; mevcut tesis ve satış ağı yeter."
 },
 "takvim": [
 {
+"tarih": "14 Mayıs 2024",
+"olay": "Siirt İl Özel İdaresi sabit konkasör ve stabilizasyon plenti ihalesi sonuçlandı, Fabo 69.421.000 TL (doğrulandı, tek kaynak)",
+"kaynak": "https://kamuihaleler.com/sonuc/konkasor-sabit-kirma-eleme-tesisi-ve-sabit-mekanik-stabiliza-2024-313418",
+"iso": "2024-05-14"
+},
+{
+"tarih": "6 Aralık 2024",
+"olay": "Kepez Belediyesi mobil konkasörle mıcır üretimini duyurdu (bu turda açıldı, doğrulandı)",
+"kaynak": "https://www.kepez-bld.gov.tr/news_10977_kepez-den-ornek-belediyecilik",
+"iso": "2024-12-06"
+},
+{
+"tarih": "5 Şubat 2025",
+"olay": "Diyarbakır Kayapınar Belediye Meclisi Fen İşleri için konkasör tesisi kurulmasını oy birliğiyle kabul etti, karar no 50 (doğrulandı)",
+"kaynak": "https://kayapinar.bel.tr/uploads/files/25-mk-subat/50%20No-lu%20Meclis%20Karar%C4%B1.pdf",
+"iso": "2025-02-05"
+},
+{
+"tarih": "10 Nisan 2025",
+"olay": "Kocaeli Büyükşehir Körfez Kıyırlı tesisinde 6 ayda 97.048 ton ve 17.468.000 TL tasarruf açıklaması (doğrulandı, belediye beyanı)",
+"kaynak": "https://www.ekonomigazetesi.com/sehirler/kocaeli-buyuksehir-belediyesi-tas-kirma-tesisiyle-17-milyon-tasarruf-etti-47331",
+"iso": "2025-04-10"
+},
+{
 "tarih": "3 Haziran 2025",
-"olay": "Bornova meclisi Karaçam'da 25.000 m² arsayı geri kazanım tesisi için kiraya verme kararı aldı (doğrulandı)",
-"kaynak": "https://bornova.bel.tr/recycling-facility-approved-in-bornova?lang=en",
+"olay": "Bornova meclisi Karaçam arsasını geri kazanım tesisi için kiraya verme kararı aldı (doğrulandı)",
+"kaynak": "https://www.karar.com/sehir-haberleri/bornovada-geri-donusum-tesisine-onay-1965171",
 "iso": "2025-06-03"
 },
 {
-"tarih": "10 Nisan 2026 ve 21 Nisan 2026",
-"olay": "Keçiören hafriyat sahası geri kazanım kiralama ihalesi ilan ve teklif tarihi (doğrulanamadı)",
-"kaynak": "https://ihalebul.com/tenders/search?cpvtree_in=45252120&sort=-province",
-"iso": "2026-04-10"
+"tarih": "19 Haziran 2025",
+"olay": "Niğde İl Özel İdaresi 400 ile 450 ton/saat kırma eleme tesisi ihalesi sonuçlandı, Fabo 93.000.000 TL (doğrulandı, tek kaynak)",
+"kaynak": "https://kamuihaleler.com/sonuc/idaremiz-hizmetlerinde-kullanilmak-uzere-satin-alinacak-olan-2025-595903",
+"iso": "2025-06-19"
 },
 {
-"tarih": "17 Nisan 2026",
-"olay": "İzmir Büyükşehir meclisinde Bornova Işıklar geri kazanım tesisi tartışması (bu turda açılmadı)",
-"kaynak": "https://demokratgundem.com/mecliste-atik-geri-kazanim-tartismasi/",
-"iso": "2026-04-17"
+"tarih": "9 Eylül 2025",
+"olay": "Bornova Karaçam arsa kiralama ilk ihalesi, muhammen 36.000.000 TL (doğrulandı)",
+"kaynak": "https://www.egedesonsoz.com/bornovada-geri-donusum-hamlesi-36-milyonluk-ihale",
+"iso": "2025-09-09"
 },
 {
-"tarih": "14 Mayıs 2026",
-"olay": "Eskişehir tesisi son 4 ayda yaklaşık 24 ile 25 milyon TL tasarruf açıklaması (doğrulandı)",
-"kaynak": "https://www.gzt26.com/ayse-unluce-acikladi-geri-donusum-tesisi-4-ayda-milyonlarca-lira-kazandirdi",
-"iso": "2026-05-14"
+"tarih": "23 Aralık 2025",
+"olay": "Bornova Karaçam ikinci kiralama ihalesi (önceki turda doğrulandı); sonuç web'de yok",
+"kaynak": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan",
+"iso": "2025-12-23"
 },
 {
-"tarih": "17 Haziran 2026",
-"olay": "Altıeylül Belediyesi konkasörle kırılmış kırma taş alımı ihalesi, İKN 2026/909808 (bu turda açılmadı)",
-"kaynak": "https://www.habersbalikesir.com/resmi-ilan/altieylul-de-tas-ve-insaat-malzemesi-ihalesi/99216",
-"iso": "2026-06-17"
+"tarih": "25 Aralık 2025",
+"olay": "Niğde İl Özel İdaresi Bor Pınarbaşı konkasör tesisi trafo sözleşmesi 4.121.000 TL, iş bitişi 28 Şubat 2026 (doğrulandı, tek kaynak)",
+"kaynak": "https://www.ihaledanismani.com/kesinlesen-ihale-sonucu-nigde-bor-pinarbasi-konkasor-tesisi-icin-2000-kva-beton-kosk-tipi-trafo-merkezi-kurulumu-yapim-isi/",
+"iso": "2025-12-25"
 },
 {
-"tarih": "2 Temmuz 2026",
-"olay": "Manisa Büyükşehir hafriyat ve yıkıntı atığı nakliyesi hizmet alımı, İKN 2026/1001610 (bu turda açılmadı)",
-"kaynak": "https://bidsfactory.com/en/tenders/hafriyat-ve-insaat-yknt-atklarnn-nakliyesi-hizmet-ekap_tr-fb812c4bf91264e3",
-"iso": "2026-07-02"
+"tarih": "6 Nisan 2026 ve 6 Mayıs 2026",
+"olay": "Safranbolu Belediyesi mobil kırma eleme tesisi ihalesi ve sonucu, Taşsan 14.600.000 TL (doğrulandı, tek kaynak)",
+"kaynak": "https://kamuihaleler.com/sonuc/mobil-kirma-eleme-tesisi-konkasor-alim-ve-montaji-isi-2026-403199",
+"iso": "2026-04-06"
+},
+{
+"tarih": "21 Mayıs 2026",
+"olay": "İzmit Belediyesi 120 ton/saat mobil asfalt plenti alımı sonuçlandı, Okur Makina 23.750.000 TL (doğrulandı, tek kaynak)",
+"kaynak": "https://kamuihaleler.com/sonuc/120-ton-saat-kapasiteli-mobil-asfalt-plenti-alim-isi-2026-654722",
+"iso": "2026-05-21"
+},
+{
+"tarih": "8 Haziran 2026",
+"olay": "Giresun Belediye Başkanı Fuat Köse konkasör tesislerini ziyaret etti; parke, bordür ve oluk üretimi sürüyor (doğrulandı)",
+"kaynak": "https://giresun.bel.tr/2026/06/08/baskan-kose-uretiyor-tasarruf-sagliyor-hizmete-donusturuyoruz/",
+"iso": "2026-06-08"
+},
+{
+"tarih": "20 Temmuz 2026",
+"olay": "Keçiören Belediyesi Atık Getirme Merkezi bina yapım ihalesi, 2026/1128301; hafriyat sahasıyla ilgisi yok (doğrulandı)",
+"kaynak": "https://www.gucluanadolugazetesi.com/kecioren-belediyesinden-ilan-iln02497376",
+"iso": "2026-07-20"
 },
 {
 "tarih": "12 Ağustos 2026",
-"olay": "Binaların Yıkılması Hakkında Yönetmelikte Değişiklik Resmî Gazete'de yayımlandı, sayı 33338 (doğrulandı)",
+"olay": "Binaların Yıkılması Hakkında Yönetmelikte Değişiklik yayımlandı (yeniden açıldı, doğrulandı)",
 "kaynak": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm",
 "iso": "2026-08-12"
 },
 {
-"tarih": "21 Ağustos 2026",
-"olay": "Giresun Belediyesi konkasör mal alımı ilanı yayımlandı, İKN 2026/1539482 (doğrulandı)",
-"kaynak": "https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi",
-"iso": "2026-08-21"
-},
-{
-"tarih": "22 Eylül 2026",
-"olay": "Giresun Belediyesi konkasör mal alımı yeterlik değerlendirmesi, saat 10:30 (doğrulandı)",
-"kaynak": "https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi",
+"tarih": "22 Eylül 2026 ve 13 Ekim 2026",
+"olay": "Giresun konkasör pazarlık ihalesi ve sonucu, Taşsan 23.296.000 TL; teslim sözleşmeden 60 gün, yani Aralık 2026 civarı (sonuç doğrulandı, teslim tarihi çıkarım)",
+"kaynak": "https://kamuihaleler.com/sonuc/konkasor-mal-alimi-isi-2026-1539482",
 "iso": "2026-09-22"
 },
 {
 "tarih": "13 Ekim 2026",
-"olay": "Muğla Büyükşehir döngüsel yıkıntı atığı projesi Avrupa ikinciliği, Brüksel (bu turda açılmadı)",
+"olay": "Muğla Büyükşehir döngüsel yıkıntı atığı projesi Brüksel'de Avrupa ikinciliği aldı; haber 14 Ekim 2026 (bu turda açıldı, doğrulandı)",
 "kaynak": "https://www.hamlegazetesi.com.tr/muglanin-insaat-atigi-projesine-avrupa-ikinciligi",
 "iso": "2026-10-13"
 },
 {
 "tarih": "12 Ağustos 2027",
-"olay": "Yıkım yönetmeliği değişikliğinin diğer hükümleri yürürlüğe giriyor, yayımdan bir yıl sonra (doğrulandı)",
+"olay": "Yıkım yönetmeliği değişikliğinin diğer hükümleri yürürlüğe giriyor (doğrulandı)",
 "kaynak": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm",
 "iso": "2027-08-12"
 }
@@ -13118,197 +17137,246 @@ window.MEKA_DATA = {
 "sayfa": 1
 }
 ],
-"kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ikinci tur: 6 açık sorunun 0'i cevaplandı, 5'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Bu turda yalnız 8 sayfa açıldı; önceki turun 24 kaynağından 16'sı açılmadı ve onlara dayanan ifadeler \"doğrulanamadı\" olarak işaretlendi, silinmedi. EKAP arama ve sonuç ilanı ekranları araçla açılamıyor; ihale sayısı ve kazanan firma EKAP üyeliğiyle elle sorgulanmalı. Bakanlık taslak yönetmelik docx dosyası ve Resmi Gazete ek PDF'i okunmadı. CSB taslak sayfasında tarih ve görüş süresi yok; 13 ve 17 Mart 2026 tarihleri dosya adlarından çıkarıldı. İSTAÇ rakamları firma beyanıdır, bağımsız kaynakla teyit edilmedi. Giresun 2026/1539482 sonucu ve Bornova 23 Aralık 2025 ihale sonucu web'de yok. Keçiören hafriyat sahası ihalesi hiçbir kaynakta doğrulanmadı. Bayi görüşmeleri ve bayi puanlaması bu araştırmanın kapsamı dışında; web kaynağı yok, o bilgiler saha ekibince elle girilmeli.",
-"kanit": 3,
+"kapsam": "tam",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 12 arama, 41 sayfa; 6 açık sorunun 0'i cevaplandı, 1'i görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. WebFetch aracı bu oturumda DNS hatası verdi; sayfalar curl ile indirilip metne çevrilerek okundu. EKAP'ın kendi ekranı açılamadı; dört ihale sonucu ve yaklaşık maliyetler EKAP kaynaklı tek bir üçüncü taraf siteden (kamuihaleler.com) alındı, tek kaynak olarak işaretlendi; Niğde trafo sonucu başka bir üçüncü taraf siteden. Sektör verisi 562 sonucun 300'ünü gösteriyor, tam sayım değil. Açılamayan sayfalar: Yeşil Giresun (403, iki sayfa), Steelradar (403), Yeni İzmir (404), asfaltplent.com.tr (bağlantı sıfırlandı), CSB taslaklar sayfası (üç denemede sıfırlandı), ilan.gov.tr (sertifika), Sayıştay 2023 raporu (zaman aşımı). MEKA satış fiyatları ve brüt marjı firma verisi olmadan tahmindir; emsal fiyatlar rakip ve ihale paketlerinden türetildi. Taşsan'ın kimliği, sattığı marka ve Safranbolu'daki makine bulunamadı. Kocaeli ve Eskişehir tasarruf rakamları belediye beyanıdır. Firma listesi 35 kayıt; önceki 25 isim korunup 10 yeni isim eklendiği için talimattaki 25 sınırı aşıldı. Bayi görüşmeleri kapsam dışı.",
+"kanit": 4,
 "web": [
 {
-"url": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm",
-"ne": "Binaların Yıkılması Hakkında Yönetmelikte Değişiklik, 12 Ağustos 2026, sayı 33338. Doğrulandı.",
+"url": "https://kamuihaleler.com/sonuc/konkasor-mal-alimi-isi-2026-1539482",
+"ne": "Giresun 2026/1539482 sonucu: Taşsan, 23.296.000 TL, yaklaşık maliyet 25.558.667 TL, 2 istekli, 13 Ekim 2026. Açıldı, EKAP kaynaklı üçüncü taraf.",
+"tur": "diger"
+},
+{
+"url": "https://kamuihaleler.com/sonuc/mobil-kirma-eleme-tesisi-konkasor-alim-ve-montaji-isi-2026-403199",
+"ne": "Safranbolu 2026/403199 sonucu: Taşsan, 14.600.000 TL, 7 istekli. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://kamuihaleler.com/firma/tassan-kirma-eleme-insaat-maden-makinalari-sanayi-ve-ticaret-limited-sirketi/kazandigi-ihaleler",
+"ne": "Taşsan'ın kazandığı 2 kamu ihalesi, toplam 37.896.000 TL. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://kamuihaleler.com/sonuc/idaremiz-hizmetlerinde-kullanilmak-uzere-satin-alinacak-olan-2025-595903",
+"ne": "Niğde İÖİ 2025/595903: Fabo 93.000.000 TL, yaklaşık maliyet 112.435.200 TL. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://kamuihaleler.com/sonuc/konkasor-sabit-kirma-eleme-tesisi-ve-sabit-mekanik-stabiliza-2024-313418",
+"ne": "Siirt İÖİ 2024/313418: Fabo 69.421.000 TL. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://kamuihaleler.com/sonuc/120-ton-saat-kapasiteli-mobil-asfalt-plenti-alim-isi-2026-654722",
+"ne": "İzmit 2026/654722: Okur Makina 23.750.000 TL mobil asfalt plenti. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://kamuihaleler.com/sektor/sulama-is-makineleri-43",
+"ne": "Sektör sonuç listesi, 562 sonuç, 300 gösterim; konkasör alımı 4 adet. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://kamuihaleler.com/idare/giresun-belediye-baskanligi-giresun",
+"ne": "Giresun idaresinin 12 sonucu; 2026/1100761 listede yok. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://www.ihaledanismani.com/kesinlesen-ihale-sonucu-nigde-bor-pinarbasi-konkasor-tesisi-icin-2000-kva-beton-kosk-tipi-trafo-merkezi-kurulumu-yapim-isi/",
+"ne": "Niğde Bor konkasör tesisi trafo sonucu 4.121.000 TL, Kenan Çimen. Açıldı.",
+"tur": "diger"
+},
+{
+"url": "https://giresun.bel.tr/2025/09/08/belediye-konkasor-tesisleri-tam-kapasite-calisiyor/",
+"ne": "Giresun OSB konkasör tesisi aylık 100.000 parke, 20.000 bordür, 15.000 oluk. Açıldı.",
 "tur": "resmi"
 },
 {
-"url": "https://www.izmir.bel.tr/tr/AcrdIcerik/93/1",
-"ne": "İzmir Büyükşehir hafriyat sahaları (8) ve geri kazanım tesisleri (6) listesi. Doğrulandı.",
+"url": "https://giresun.bel.tr/2024/06/27/belediye-konkasor-tesisleri-uretim-kapasitesini-artirdi/",
+"ne": "Giresun konkasör tesisleri yeniden üretime geçti, 27 Haziran 2024. Açıldı.",
 "tur": "resmi"
 },
 {
-"url": "https://bornova.bel.tr/recycling-facility-approved-in-bornova?lang=en",
-"ne": "Bornova Karaçam 25.000 m² tesis arsası meclis kararı, 3 Haziran 2025. Doğrulandı.",
+"url": "https://giresun.bel.tr/2026/06/08/baskan-kose-uretiyor-tasarruf-sagliyor-hizmete-donusturuyoruz/",
+"ne": "Başkan Köse tesis ziyareti, 8 Haziran 2026. Açıldı.",
 "tur": "resmi"
 },
 {
-"url": "https://cevre.ibb.istanbul/cevre-koruma-sube-mudurlugu/hafriyat-topragi-insaat-ve-yikinti-atiklarinin-denetimi/",
-"ne": "İBB hafriyat denetim yetkisi ve mevzuat dayanağı. Bu turda açılmadı.",
+"url": "https://giresun.bel.tr/2024/07/23/giresun-belediyesinin-konkasor-uretiminde-hedef-10-bin-kilit-parke/",
+"ne": "Giresun günlük 10.000 kilit parke hedefi, 23 Temmuz 2024. Açıldı.",
 "tur": "resmi"
 },
 {
-"url": "https://www.istac.istanbul/",
-"ne": "İSTAÇ hizmet alanları, 60 üstü tesis. Bu turda açılmadı.",
+"url": "https://www.ekonomigazetesi.com/sehirler/kocaeli-buyuksehir-belediyesi-tas-kirma-tesisiyle-17-milyon-tasarruf-etti-47331",
+"ne": "Kocaeli Körfez Kıyırlı tesisi 97.048 ton, 17.468.000 TL tasarruf, 400 ton/saat; sayfa şeridinde dolar 49,58 TL, 20 Ekim 2026. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24",
+"ne": "Eskişehir Keskin tesisi 498.000 ton/yıl, 1.000.000 ton kabul, 340.000 ton agrega. Açıldı.",
 "tur": "resmi"
 },
 {
 "url": "https://www.gzt26.com/ayse-unluce-acikladi-geri-donusum-tesisi-4-ayda-milyonlarca-lira-kazandirdi",
-"ne": "Eskişehir tesisi kapasite, tonaj, tasarruf; 14 Mayıs 2026; belediye açıklaması. Doğrulandı.",
+"ne": "Eskişehir 4 ayda 24 ile 25 milyon TL tasarruf, 14 Mayıs 2026. Önceki turda doğrulandı, bu turda açılmadı.",
 "tur": "haber"
 },
 {
-"url": "https://www.istikbalgazetesi.com/eskisehir-buyuksehir-belediyesinden-25-milyon-tl-tasarruf",
-"ne": "Eskişehir tesisi 25 milyon TL tasarruf; 14 Mayıs 2026; aynı açıklama, Haber Merkezi. Doğrulandı.",
-"tur": "haber"
-},
-{
-"url": "https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi",
-"ne": "Giresun konkasör mal alımı; Basın İlan Kurumu resmi ilan metni, gazete sitesinde; 21 Ağustos 2026. Doğrulandı.",
-"tur": "haber"
-},
-{
-"url": "https://ihalebul.com/tenders/search?cpvtree_in=45252120&sort=-province",
-"ne": "Keçiören saha kiralama ihalesi özeti. Açılamadı, doğrulanamadı.",
-"tur": "diger"
-},
-{
-"url": "https://bidsfactory.com/en/tenders/hafriyat-ve-insaat-yknt-atklarnn-nakliyesi-hizmet-ekap_tr-fb812c4bf91264e3",
-"ne": "Manisa hafriyat nakliye hizmet alımı. Bu turda açılmadı.",
-"tur": "diger"
-},
-{
-"url": "https://www.habersbalikesir.com/resmi-ilan/altieylul-de-tas-ve-insaat-malzemesi-ihalesi/99216",
-"ne": "Altıeylül kırma taş alımı ihalesi. Bu turda açılmadı.",
-"tur": "haber"
-},
-{
-"url": "https://demokratgundem.com/mecliste-atik-geri-kazanim-tartismasi/",
-"ne": "İzmir meclisi Işıklar tesisi tartışması. Bu turda açılmadı.",
-"tur": "haber"
-},
-{
-"url": "https://www.hamlegazetesi.com.tr/muglanin-insaat-atigi-projesine-avrupa-ikinciligi",
-"ne": "Muğla projesi Avrupa ödülü. Bu turda açılmadı.",
-"tur": "haber"
+"url": "https://kayapinar.bel.tr/uploads/files/25-mk-subat/50%20No-lu%20Meclis%20Karar%C4%B1.pdf",
+"ne": "Kayapınar meclis kararı 50, 5 Şubat 2025, konkasör tesisi kurulması kabul. Açıldı.",
+"tur": "resmi"
 },
 {
 "url": "https://www.kepez-bld.gov.tr/news_10977_kepez-den-ornek-belediyecilik",
-"ne": "Kepez mobil konkasör kullanımı, 6 Aralık 2024. Bu turda açılmadı.",
+"ne": "Kepez mobil taş kırma makinesi, 6 Aralık 2024. Açıldı.",
 "tur": "resmi"
-},
-{
-"url": "https://www.sabah.com.tr/galeri/yasam/son-dakika-ibbde-80-milyarlik-hafriyat-talani-cevre-katliami-gozler-onune-serildi",
-"ne": "İstanbul hafriyat iddianamesi rakamları. Bu turda açılmadı, doğrulanamadı.",
-"tur": "haber"
-},
-{
-"url": "https://www.ardasanayi.com.tr/blog/istanbul-hafriyat-hizmetleri-rehberi/",
-"ne": "İstanbul 2026 döküm tarifesi 18 ile 32 TL/ton; firma blogu, 17 Mayıs 2026; firma beyanı. Doğrulandı.",
-"tur": "firma"
-},
-{
-"url": "https://www.mekaglobal.com/en/products/crushing-screening-plants/recycling-technologies/construction-and-demolition-waste-recycling",
-"ne": "MEKA inşaat atığı ürünleri MCC 70, MP 90, MP 110C; firma beyanı. Doğrulandı.",
-"tur": "firma"
-},
-{
-"url": "https://www.steelradar.com/erdogankoy-e-hafriyat-sahasi-53670/",
-"ne": "Bursa Burkent 800 ton/gün tesisi. Açılamadı, doğrulanamadı.",
-"tur": "haber"
-},
-{
-"url": "https://www.hurriyet.com.tr/gundem/mamak-coplugunde-eletrik-uretilecek-4697895",
-"ne": "Ankara Mamak tesisi 1.000 ton/gün planı, 2006. Bu turda açılmadı.",
-"tur": "haber"
-},
-{
-"url": "https://www.yildizhaber.com.tr/haber-konkasor-satin-alinacaktir-170162.html",
-"ne": "Giresun 2026/1100761 açık ihale, 16.07.2026, 11 kalem, Küçükköy tesisi revize edilip Ülper'e taşınacak; açıldı, doğrulandı",
-"tur": "haber"
-},
-{
-"url": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan",
-"ne": "Bornova Karaçam arsa kiralama ilanı, 23.12.2025, 36 milyon TL muhammen bedel, ÇED ve lisans şartı; açıldı, doğrulandı",
-"tur": "haber"
-},
-{
-"url": "https://www.gazetegercek.com.tr/resmi-ilan/konkasor-tesisi-enerji-besleme-isleri-yaptirilacaktir/228221",
-"ne": "Samsun Büyükşehir Güzeldere konkasör tesisi 1600 kVA trafo ihalesi 2026/1117468, 13.07.2026; açıldı, doğrulandı",
-"tur": "haber"
-},
-{
-"url": "https://istac.istanbul/faaliyet-alanlarimiz/atik-yonetimi/hafriyat-topragi-yonetimi",
-"ne": "İSTAÇ hafriyat yönetimi, aylık 3 milyon ton, yılda 40 milyon ton; firma beyanı; açıldı, doğrulandı",
-"tur": "firma"
-},
-{
-"url": "https://cygm.csb.gov.tr/taslaklar-i-443",
-"ne": "Bakanlık taslaklar sayfası, Hafriyat ve Yıkıntı Atıkları Yönetmelik Taslağı docx ve görüş formu; tarih sayfada yok; açıldı, doğrulandı",
-"tur": "resmi"
-},
-{
-"url": "https://www.resmigazete.gov.tr/eskiler/2021/10/20211013-1.htm",
-"ne": "Binaların Yıkılması Hakkında Yönetmelik tam metni, Madde 5/7, 14, 15, 20; açıldı, doğrulandı",
-"tur": "resmi"
-},
-{
-"url": "https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24",
-"ne": "Eskişehir Keskin tesisi 498.000 ton/yıl, 1.000.000 ton kabul, 340.000 ton agrega, haber 12.10.2023; açıldı, doğrulandı",
-"tur": "resmi"
-},
-{
-"url": "https://www.yesilgiresun.com.tr/haber/28558764/giresun-belediyesi-konkasor-tesisi-kuruyor",
-"ne": "Giresun Ülper konkasör tesisi haberi; açılmadı, doğrulanamadı",
-"tur": "haber"
-},
-{
-"url": "https://www.kecioren.bel.tr/ihaleler.php",
-"ne": "Keçiören ihale listesi; açılmadı, doğrulanamadı",
-"tur": "resmi"
-},
-{
-"url": "https://www.gucluanadolugazetesi.com/kecioren-belediyesinden-ilan-iln02497376",
-"ne": "Keçiören 2026/1128301 Atık Getirme Merkezi ilanı; açılmadı, doğrulanamadı",
-"tur": "haber"
 },
 {
 "url": "https://www.egedesonsoz.com/bornovada-geri-donusum-hamlesi-36-milyonluk-ihale",
-"ne": "Bornova 9 Eylül 2025 ilk ihale haberi; açılmadı, doğrulanamadı",
+"ne": "Bornova ilk ihale 9 Eylül 2025, 36.000.000 TL muhammen, haber 25 Ağustos 2025. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://www.karar.com/sehir-haberleri/bornovada-geri-donusum-tesisine-onay-1965171",
+"ne": "Bornova meclis kararı 3 Haziran 2025, Başkan Eşki açıklaması. Açıldı.",
 "tur": "haber"
 },
 {
 "url": "https://ilkses.com.tr/izmir/bornova-daki-geri-kazanim-tesisi-plani-istifali-tartismalara-sahne-oldu-444588",
-"ne": "Bornova Işıklar ikinci tesis kararı 17 Nisan 2026; açılmadı, doğrulanamadı",
+"ne": "İzmir meclisi Işıklar 11.600 m2 tesis tartışması, oy çokluğuyla kabul. Açıldı.",
 "tur": "haber"
 },
 {
-"url": "https://www.yeniizmir.com/bornova-ya-insaat-atiklarini-donusturma-tesisi-geliyor",
-"ne": "Doa Hafriyat Madencilik ÇED başvurusu; açılmadı, doğrulanamadı",
+"url": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan",
+"ne": "Bornova 23 Aralık 2025 ikinci ihale ilanı. Önceki turda doğrulandı.",
 "tur": "haber"
+},
+{
+"url": "https://www.izmir.bel.tr/tr/AcrdIcerik/93/1",
+"ne": "İzmir 6 tesis ve 8 saha listesi. Önceki turda doğrulandı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.gucluanadolugazetesi.com/kecioren-belediyesinden-ilan-iln02497376",
+"ne": "Keçiören 2026/1128301 Atık Getirme Merkezi bina yapımı; hafriyat sahası değil. Açıldı.",
+"tur": "haber"
+},
+{
+"url": "https://www.kecioren.bel.tr/ihaleler.php",
+"ne": "Keçiören ihale sayfası; açıldı, içerik boş döndü.",
+"tur": "resmi"
+},
+{
+"url": "https://ihalebul.com/tenders/search?cpvtree_in=45252120&sort=-province",
+"ne": "ihalebul arama; açıldı, Keçiören satırı görünmedi.",
+"tur": "diger"
+},
+{
+"url": "https://istac.istanbul/assets/belgeler_ve_raporlar/2024-faaliyet-raporu-web.pdf",
+"ne": "İSTAÇ 2024 faaliyet raporu; hafriyat depolama ana faaliyet, yıkıntı atığı kapasitesi yok. Açıldı.",
+"tur": "firma"
 },
 {
 "url": "https://istac.istanbul/tesislerimiz/geri-kazanim-tesisleri",
-"ne": "İSTAÇ geri kazanım tesisleri; açılmadı, doğrulanamadı",
+"ne": "İSTAÇ geri kazanım tesisleri: ATY ve kompost; yıkıntı atığı tesisi yok. Açıldı.",
 "tur": "firma"
 },
 {
 "url": "https://istac.istanbul/hakkimizda/belgeler-ve-raporlar",
-"ne": "İSTAÇ raporlar listesi; açılmadı, doğrulanamadı",
+"ne": "İSTAÇ rapor listesi, 2025 sürdürülebilirlik raporu dahil. Açıldı.",
 "tur": "firma"
 },
 {
 "url": "https://www.ihalekik.com/istanbul-hafriyat-dokum-ucretleri",
-"ne": "İSTAÇ döküm bedeli 2023 ile 2025; açılmadı, doğrulanamadı",
+"ne": "İSTAÇ döküm bedeli 600, 1.300, 3.800 TL/tır (2023 ile 2025). Açıldı, tek kaynak.",
 "tur": "diger"
 },
 {
-"url": "https://www.lexpera.com.tr/mevzuat/yonetmelikler/hafriyat-topragi-insaat-ve-yikinti-atiklarinin-kontrolu-yonetmeligi",
-"ne": "Hafriyat yönetmeliği konsolide metin; açılmadı, doğrulanamadı",
-"tur": "diger"
+"url": "https://www.hamlegazetesi.com.tr/muglanin-insaat-atigi-projesine-avrupa-ikinciligi",
+"ne": "Muğla Avrupa ikinciliği, 13 Ekim 2026 Brüksel. Açıldı.",
+"tur": "haber"
 },
 {
-"url": "https://cygm.csb.gov.tr/yonetmelikler-i-440",
-"ne": "Bakanlık yönetmelik listesi; açılmadı, doğrulanamadı",
+"url": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm",
+"ne": "Yıkım yönetmeliği değişikliği 12 Ağustos 2026. Yeniden açıldı.",
 "tur": "resmi"
+},
+{
+"url": "https://cygm.csb.gov.tr/taslaklar-i-443",
+"ne": "Bakanlık taslak yönetmelik sayfası. Bu turda üç denemede açılamadı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.mekaglobal.com/en/products/crushing-screening-plants/recycling-technologies/construction-and-demolition-waste-recycling",
+"ne": "MEKA MCC 70, MP 90, MP 110C teknik tablosu; 110, 200, 340 ton/saat; 13.260, 33.000, 52.000 kg. Açıldı.",
+"tur": "firma"
+},
+{
+"url": "https://www.makinaturkiye.com/en/fabo-mobile-crusher-c-125738-177702",
+"ne": "Fabo PRO-90 2024 ikinci el ilanı 11.900.000 TL. Açıldı.",
+"tur": "firma"
+},
+{
+"url": "https://www.makinaturkiye.com/mobil-dik-milli-kirici-t-49750",
+"ne": "Constmach V-70 3.664.000 ve 200 ile 250 ton/saat 5.129.600 ilan fiyatları. Açıldı.",
+"tur": "firma"
+},
+{
+"url": "https://www.makinaturkiye.com/en/mobile-crusher-c-125738",
+"ne": "49 mobil konkasör ilanı, 45'i General Makina, fiyatlar sor. Açıldı.",
+"tur": "firma"
+},
+{
+"url": "https://makinecim.com/mobil-konkasor",
+"ne": "96 mobil konkasör ilanı, fiyat yok. Açıldı.",
+"tur": "firma"
+},
+{
+"url": "https://sayistay.gov.tr/reports/download/l1QZGL1Yep-giresun-belediyesi",
+"ne": "Sayıştay Giresun Belediyesi raporu; konkasör geçmiyor. Açıldı.",
+"tur": "resmi"
+},
+{
+"url": "https://www.yesilgiresun.com.tr/haber/28558764/giresun-belediyesi-konkasor-tesisi-kuruyor",
+"ne": "Giresun tesis haberi. Açılamadı (403).",
+"tur": "haber"
+},
+{
+"url": "https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi",
+"ne": "Giresun 2026/1539482 ilan metni. Önceki turda doğrulandı, bu turda açılamadı (403).",
+"tur": "haber"
+},
+{
+"url": "https://www.yildizhaber.com.tr/haber-konkasor-satin-alinacaktir-170162.html",
+"ne": "Giresun 2026/1100761 ilan metni. Önceki turda doğrulandı, bu turda açılmadı.",
+"tur": "haber"
+},
+{
+"url": "https://www.steelradar.com/erdogankoy-e-hafriyat-sahasi-53670/",
+"ne": "Bursa Burkent 800 ton/gün. Açılamadı (403).",
+"tur": "haber"
+},
+{
+"url": "https://www.gazetegercek.com.tr/resmi-ilan/konkasor-tesisi-enerji-besleme-isleri-yaptirilacaktir/228221",
+"ne": "Samsun Güzeldere trafo ihalesi. Önceki turda doğrulandı, bu turda açılmadı.",
+"tur": "haber"
+},
+{
+"url": "https://www.ardasanayi.com.tr/blog/istanbul-hafriyat-hizmetleri-rehberi/",
+"ne": "İstanbul döküm tarifesi 18 ile 32 TL/ton. Önceki turda doğrulandı, bu turda açılmadı.",
+"tur": "firma"
 }
 ],
 "celiskiler": [
+"Önceki tur son 24 ayda doğrudan belediye ekipman ihalesi olarak yalnız Giresun'u bulmuştu; bu turda Safranbolu 2026/403199 (14,6 milyon TL) ve il özel idarelerinin Niğde 93 ve Siirt 69,4 milyon TL'lik alımları bulundu; talep önceki değerlendirmeden geniş.",
+"Önceki tur Giresun alımını 'bedel küçük' saymıştı; sonuç 23.296.000 TL ve yaklaşık maliyet 25.558.667 TL çıktı; belediye ölçeğinde büyük bir paket.",
+"Giresun ilk açık ihalesi 2026/1100761 idare sonuç listesinde yok; 21/a pazarlığa geçilmesi ilk ihalenin sonuçsuz kaldığını düşündürür; bu çıkarımdır, EKAP'ta iptal kaydı görülmedi.",
+"Giresun ilanı mevcut tesisi Küçükköy'de gösteriyor; belediye haberleri konkasör tesislerini Organize Sanayi Bölgesi'nde anlatıyor; aynı yer olup olmadığı doğrulanmadı.",
+"Önceki kayıt Keçiören 2026/1128301 ilanını saha ihalesi bağlamında anmıştı; ilan Atık Getirme Merkezi bina yapım işi, hafriyat sahasıyla ilgisi yok; Keçiören 10,8 ile 43,1 milyon TL bandı hâlâ kaynaksız.",
+"Önceki tur Bornova ilk ihalesini (9 Eylül 2025) ve 3 Haziran 2025 meclis kararını doğrulayamamıştı; bu turda ikisi de haber kaynağıyla doğrulandı; Işıklar meclis tartışması da doğrulandı ama haber tarihi sayfada görünmüyor, 17 Nisan 2026 önceki turdan.",
+"İSTAÇ sitesinde geri kazanım tesisleri sayfası yalnız ATY ve kompost tesisi gösteriyor; önceki turun 'inşaat ve yıkıntı atıklarının işlendiği' ifadesi hafriyat sayfasına dayanıyor; 2024 raporunda da tesis ve kapasite yok.",
+"Kocaeli tesisi 400 ton/saat ve taş ocağı besliyor; Eskişehir tesisi yıkıntı atığı işliyor; iki tasarruf rakamı farklı işleri anlatıyor, tona 180 TL tasarruf çıkarımı yalnız Kocaeli'ye ait.",
+"03 sıralaması 0 ile 6 ay diyordu; Giresun örneğinde ilan ile sonuç arası 53 gün, teslim 60 gün; ilk ihaleyi bulma süresiyle ilk gelir 6 ile 12 ay, GPT kartının 12 ile 24 ay'ına yakın.",
 "Önceki çalışma yaprağı 'hızlı ve orta büyüklükte' saymıştı; bu araştırmada doğrudan ekipman ihalesi sayısı çok düşük çıktı, hız iddiası zayıfladı",
 "Eskişehir tesisi kendisini kamuya ait ilk lisanslı tesis diye sunuyor; İzmir listesinde Aliağa Belediyesi Petrol A.Ş. de belediye şirketi olarak tesis işletiyor, hangisinin önce lisans aldığı belli değil",
 "Bursa Burkent 800 ton/gün rakamı için haber tarihi doğrulanamadı; sayfa tarihi 6 Ağustos 2026 görünüyor ama tarama tarihi olabilir",
@@ -13323,6 +17391,15 @@ window.MEKA_DATA = {
 "03'teki Bu ay, içeride görevi belediye satışlarını sormak Eylül 2026'yı kastediyor; ay bitti, yapılıp yapılmadığı dosyada yok."
 ],
 "degisiklikler": [
+"20 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
+"Dolar kuru satırındaki euro değeri 55,67 TL'den 55,71 TL'ye düzeltildi; Ekonomi Gazetesi şeridi canlıdır, dolar 49,5768 TL okundu, 49,58 yuvarlaması doğru.",
+"Fabo PRO-90 emsalinde 20 Ekim 2026 ilan tarihi değil erişim tarihidir; ilan sayfasında tarih ve para birimi yok, TL varsayım olarak işaretlendi (emsaller, rakamlar ve çalışma tablosu).",
+"Geri ödeme hesabı 5. adımda alt senaryo için aylık 1,28 milyon TL yazıyordu; yıl 3 alt ucu 3 makinedir, aylık brüt kâr 11,55 bölü 12 eşittir 0,96 milyon TL; sonuç 25 ay değişmedi.",
+"Kapı bölümünde Niğde için yerli avantajı uygulanmadı cümlesi 4.121.000 TL'lik trafo yapım işine aittir; 93 milyon TL'lik tesis alımı için sayfada bilgi yok, cümle buna göre düzeltildi.",
+"Fabo'nun İzmir Torbalı adresi Niğde sonuç sayfasında yok; makinaturkiye ilan listesindeki Torbalı / İzmir kaydı kaynak olarak eklendi.",
+"Açılan 14 sayfada Giresun 23.296.000, Safranbolu 14.600.000, Niğde 93.000.000, Siirt 69.421.000, İzmit 23.750.000 ve Niğde trafo 4.121.000 TL bedelleri, yaklaşık maliyetler, istekli sayıları, tarihler, Taşsan toplamı 37.896.000 TL, Fabo toplamı 250.421.000 TL, Kocaeli 97.048 ton ve 17.468.000 TL, Bornova 34.363 m2 ve 36.000.000 TL, Constmach 3.664.000 ve 5.129.600, sektör 562 ve 300, Giresun aylık üretim ve MEKA kapasite ve ağırlık değerleri sayfayla birebir uyuştu; değiştirilmedi.",
+"Ekonomi modeli aritmetiği satır satır kontrol edildi: bilet kalemleri 12,5 milyon TL, yıl 3 ve yıl 5 gelir ve brüt kâr, dolar çevrimleri, yüzde oranları ve geri ödeme ayları doğru; yalnız yukarıdaki aylık rakam düzeltildi.",
+"Yeşil Giresun ilan sayfalarına dayanan 60 gün teslim ve yerli malına yüzde 15 avantaj bilgileri bu turda da açılmadı; önceki tur doğrulaması korundu, sayfa sınırı nedeniyle yeniden denenmedi.",
 "16 Ekim 2026 ikinci tur: 0 arama, 8 sayfa; çürütücü 8 sayfa açtı, güven 4/5.",
 "Giresun 2026/1539482 ilanında idare adı Giresun Belediye Başkanlığı olarak düzeltildi; Fen İşleri Müdürlüğü adı yalnız 2026/1100761 ilanında geçiyor.",
 "Giresun pazarlık ilanında da yalnız yerli istekli şartı ve yerli malına yüzde 15 avantaj olduğu eklendi; önceki tur bunu yalnız açık ihaleye bağlamıştı.",
@@ -13380,52 +17457,76 @@ window.MEKA_DATA = {
 {
 "soru": "Giresun 2026/1539482 ihalesini kim kazandı, bedel, seçilen marka",
 "durum": "kismen",
-"cevap": "İhale kimliği ilan metniyle doğrulandı. 2026/1539482, Giresun Belediye Başkanlığı'nın Konkasör Mal Alımı İşi. İlanda idare adı Giresun Belediye Başkanlığı; Fen İşleri Müdürlüğü adı bu ilanda yok, 2026/1100761 ilanında var. Usul: 4734 sayılı Kanun 21/a pazarlık. Yeterlik değerlendirmesi 22.09.2026 saat 10.30, Hacımiktat Mah. Tabaklar Sok. No:1 Kat 6 İhale Salonu. Kapsam: Ülper Mevkii'nde yeni kurulacak şantiyede kırma eleme tesisi için makine, ekipman, mevcut ekipmanların revizyon parçaları, montaj, nakliye ve yardımcı tesisat. Teslim: sözleşmeden sonra fabrika veya atölye teslimi en geç 60 takvim günü. Alt yüklenici yasak. Bu pazarlık ilanında da yalnızca yerli istekli şartı ve yerli malına yüzde 15 fiyat avantajı var; önceki tur bunu yalnız açık ihaleye bağlamıştı, düzeltildi. İlan 21 Ağustos 2026'da yayımlandı, Basın No ILN02533242. Önceki açık ihale 2026/1100761: idare Giresun Belediye Başkanlığı Fen İşleri Müdürlüğü, 19. madde açık ihale, 16.07.2026 saat 10.30, 11 kalem, yalnız yerli istekli, yerli malına yüzde 15 avantaj, teklif geçerlilik 120 gün, ilan 24 Haziran 2026. Önemli ayrıntı: açık ihale ilanına göre Küçükköy Mahallesi'ndeki mevcut konkasör tesisi revize edilip yeni ekipmanla Ülper Köyü'ndeki belediye arsasına taşınacak; yani alım tamamen yeni tesis değil, revizyon artı ek ekipman. Kazanan, bedel ve marka iki ilanda da yok. 21 Ağustos 2026 tarihli yerel haber bu turda açılamadı, doğrulanamadı. Sonuç ilanı web'de bulunamadı.",
-"kaynak": "https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi (haber sitesinde resmi ilan metni, doğrulandı); https://www.yildizhaber.com.tr/haber-konkasor-satin-alinacaktir-170162.html (haber sitesinde resmi ilan metni, doğrulandı); https://www.yesilgiresun.com.tr/haber/28558764/giresun-belediyesi-konkasor-tesisi-kuruyor (haber, bu turda açılmadı, doğrulanamadı)",
-"kime": "Giresun Belediyesi Fen İşleri Müdürlüğü, santral 444 40 28, Hacımiktat Mah. Tabaklar Sok. No:1 Kat 6 İhale Salonu. EKAP sonuç ilanı: ekap.kik.gov.tr üzerinde İKN 2026/1539482 ve 2026/1100761 sorgusu. Pazarlığa davet edilen firmalar ve Küçükköy'deki mevcut tesisin markası sorulmalı."
+"cevap": "Kazanan ve bedel bulundu. Taşsan Kırma Eleme İnşaat Maden Makinaları Sanayi ve Ticaret Limited Şirketi, sözleşme bedeli 23.296.000 TL, yaklaşık maliyet 25.558.667 TL (yüzde 9 tenzilat), 2 istekli, 2 geçerli teklif, 4 doküman indiren, pazarlık usulü 21/a, ihale tarihi 22 Eylül 2026, sonuç tarihi 13 Ekim 2026. İhale konusu: Ülper Mevkii'nde yeni şantiye sahasına kurulacak kırma eleme tesisi için makine, ekipman, mevcut ekipmanların revizyon parçaları, montaj, nakliye ve yardımcı tesisat. Taşsan'ın kayıtlı tek diğer kamu işi Safranbolu Belediyesi'nin 14.600.000 TL'lik mobil kırma eleme tesisi alımı (6 Mayıs 2026). Marka ve makine listesi bulunamadı; Taşsan'ın kendi imalatçı mı yoksa bayi mi olduğu web'de yok. İlk açık ihale 2026/1100761 Giresun idare sayfasındaki 12 sonuç arasında yok; sonuçsuz kaldığı çıkarımdır. Veri EKAP kaynaklı üçüncü taraf siteden, EKAP ekranı açılamadı; tek kaynak.",
+"kaynak": "https://kamuihaleler.com/sonuc/konkasor-mal-alimi-isi-2026-1539482 (diğer, EKAP verisi, doğrulandı); https://kamuihaleler.com/firma/tassan-kirma-eleme-insaat-maden-makinalari-sanayi-ve-ticaret-limited-sirketi/kazandigi-ihaleler (diğer, doğrulandı); https://kamuihaleler.com/idare/giresun-belediye-baskanligi-giresun (diğer, doğrulandı)",
+"kime": "Marka ve makine listesi için Giresun Belediyesi Fen İşleri Müdürlüğü 444 40 28; EKAP'ta 2026/1539482 sonuç ilanı ve 2026/1100761 iptal kaydı sorgusu; Taşsan'ın ticaret sicili ve ürün kaynağı için Ticaret Sicil Gazetesi sorgusu ve firma ile doğrudan görüşme."
 },
 {
 "soru": "Keçiören hafriyat sahası kiralama ihalesini hangi firma aldı",
 "durum": "gorusme",
-"cevap": "Web'de bulunamadı. Önceki turun dayandığı Keçiören Belediyesi ihale sayfası ve 2026/1128301 Atık Getirme Merkezi ilanı bu turda açılmadı; bu ifadeler doğrulanamadı. Ankara'da hafriyat sahası yetkisinin büyük ölçüde Ankara Büyükşehir Belediyesi'nde olduğu bilgisi de kaynakla doğrulanmadı, varsayım olarak kalıyor.",
-"kaynak": "https://www.kecioren.bel.tr/ihaleler.php (resmi, bu turda açılmadı, doğrulanamadı); https://www.gucluanadolugazetesi.com/kecioren-belediyesinden-ilan-iln02497376 (haber, bu turda açılmadı, doğrulanamadı)",
-"kime": "Keçiören Belediyesi Emlak ve İstimlak Müdürlüğü ve Fen İşleri Müdürlüğü; Ankara Büyükşehir Belediyesi Çevre Koruma ve Kontrol Dairesi Başkanlığı hafriyat birimi; EKAP'ta idare adıyla sonuç ilanı sorgusu."
+"cevap": "Web'de bulunamadı. Bu turda Keçiören Belediyesi ihale sayfası açıldı ama içerik boş döndü; ihalebul arama sayfası açıldı, Keçiören satırı görünmedi (sayfa betikle doluyor). Önceki turun andığı 2026/1128301 ilanı açıldı: Keçiören Belediyesi Fen İşleri Müdürlüğü Birinci Sınıf Atık Getirme Merkezi Yapım İşi, 210,70 m2 tek katlı betonarme bina, Yükseltepe Mahallesi 92285 ada 1 parsel, ihale 20 Temmuz 2026; hafriyat sahasıyla ilgisi yok. Önceki 10.785.492 ile 43.142.132 TL bandı doğrulanamadı ve şüpheli kalıyor.",
+"kaynak": "https://www.gucluanadolugazetesi.com/kecioren-belediyesinden-ilan-iln02497376 (haber sitesinde resmi ilan, doğrulandı); https://www.kecioren.bel.tr/ihaleler.php (resmi, açıldı, içerik boş); https://ihalebul.com/tenders/search?cpvtree_in=45252120&sort=-province (diğer, açıldı, Keçiören kaydı görünmedi)",
+"kime": "Keçiören Belediyesi Emlak ve İstimlak Müdürlüğü 0312 361 10 31 santral; Ankara Büyükşehir Belediyesi Çevre Koruma ve Kontrol Dairesi hafriyat birimi; 2886 sayılı Kanun ihaleleri EKAP'ta olmadığı için belediye ilan panosu ve Basın İlan Kurumu arşivi."
 },
 {
 "soru": "Son 24 ayda EKAP'ta belediye konkasör, mobil kırma eleme ve inşaat yıkıntı atığı tesisi ihalesi sayısı; örnekler",
 "durum": "kismen",
-"cevap": "EKAP arama ekranı açılamadığı için sayı verilemiyor. Doğrulanan örnekler: Giresun Belediyesi konkasör mal alımı, açık ihale 16.07.2026, 2026/1100761; aynı iş pazarlık usulü, yeterlik 22.09.2026, 2026/1539482. Samsun Büyükşehir Belediye Başkanlığı Fen İşleri Daire Başkanlığı, İlkadım İlçesi Güzeldere Konkasör Tesisi Enerji Besleme İşleri, 1600 kVA trafo tesisi, yapım işi, 2026/1117468, ihale 13.07.2026 saat 10.30, süre 75 takvim günü, ilan 22.06.2026. İlanda tesisin yeni olduğu yazmıyor; mevcut bir tesise enerji beslemesi de olabilir, önceki turdaki 'yeni tesis' yorumu kaldırıldı. Bornova Belediyesi Karaçam 107 ada 63 parsel arsa kiralama, 2886 sayılı Kanun 35/a kapalı teklif, ihale 23.12.2025 saat 10.00, doğrulandı. 9 Eylül 2025 tarihli ilk ihale ve 17 Nisan 2026 Işıklar meclis kararı bu turda açılmayan kaynaklara dayanıyor, doğrulanamadı. Kıyas: Eskişehir Büyükşehir Tepebaşı Keskin tesisi 498.000 ton/yıl kurulu kapasite, resmi sayfa doğrulandı. Van konkasör malzemesi ilanı kaynaksız, silindi.",
-"kaynak": "https://www.gazetegercek.com.tr/resmi-ilan/konkasor-tesisi-enerji-besleme-isleri-yaptirilacaktir/228221 (haber sitesinde resmi ilan metni, doğrulandı); https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan (haber sitesinde resmi ilan metni, doğrulandı); https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24 (resmi, doğrulandı); https://ilkses.com.tr/izmir/bornova-daki-geri-kazanim-tesisi-plani-istifali-tartismalara-sahne-oldu-444588 (haber, açılmadı, doğrulanamadı)",
-"kime": "EKAP ihale arama ekranı, ekap.kik.gov.tr, anahtar kelimeler konkasör, kırma eleme, yıkıntı atığı, 1 Ekim 2024 ile 16 Ekim 2026 arası; MEKA'da EKAP üyeliği olan satış personeli tarasın. Samsun Fen İşleri Daire Başkanlığı 0362 431 60 90."
+"cevap": "EKAP kaynaklı sonuç verisinde Sulama ve İş Makineleri sektörünün en yeni 300 sonucu tarandı (toplam 562). Konkasör ve kırma eleme mal alımı sonucu 4: Safranbolu Belediyesi 14.600.000 TL (6 Mayıs 2026, 7 istekli), Giresun Belediyesi 23.296.000 TL (13 Ekim 2026, 2 istekli), Niğde İl Özel İdaresi 400 ile 450 ton/saat tesis 93.000.000 TL (19 Haziran 2025, 3 istekli, Fabo), Siirt İl Özel İdaresi sabit konkasör ve stabilizasyon plenti 69.421.000 TL (14 Mayıs 2024, 2 istekli, Fabo). Yani belediye alımı yılda 1 ile 2, il özel idaresi alımı yılda 1 görünüyor; ancak veri seti eksik ve yapım ya da hizmet alımı sınıfına girenler sayılmadı. Kıyas: İzmit Belediyesi mobil asfalt plenti 23.750.000 TL (21 Mayıs 2026). Kendi tesisini kuran ya da kuracak belediyeler: Kocaeli Büyükşehir (Körfez Kıyırlı, 400 ton/saat), Eskişehir, Giresun, Kepez, Samsun (Güzeldere trafo ihalesi), Kayapınar (5 Şubat 2025 meclis kararı).",
+"kaynak": "https://kamuihaleler.com/sektor/sulama-is-makineleri-43 (diğer, EKAP verisi, doğrulandı); https://kamuihaleler.com/sonuc/mobil-kirma-eleme-tesisi-konkasor-alim-ve-montaji-isi-2026-403199 (doğrulandı); https://kamuihaleler.com/sonuc/idaremiz-hizmetlerinde-kullanilmak-uzere-satin-alinacak-olan-2025-595903 (doğrulandı); https://kamuihaleler.com/sonuc/konkasor-sabit-kirma-eleme-tesisi-ve-sabit-mekanik-stabiliza-2024-313418 (doğrulandı); https://kayapinar.bel.tr/uploads/files/25-mk-subat/50%20No-lu%20Meclis%20Karar%C4%B1.pdf (resmi, doğrulandı)",
+"kime": "EKAP üyeliğiyle 1 Ocak 2024'ten bu yana konkasör, kırma eleme, mobil kırıcı ve yıkıntı atığı anahtar kelimeleriyle mal alımı ve yapım işi sonuç ilanlarının tam sayımı; MEKA kamu ihale sorumlusu."
 },
 {
 "soru": "İSTAÇ'ın inşaat yıkıntı atığı geri kazanım kapasitesi ve 2025 ile 2026 tesis planı",
 "durum": "kismen",
-"cevap": "Firma beyanı: İSTAÇ sitesine göre İstanbul'da aylık 3 milyon ton hafriyat atığı oluşuyor ve hafriyat depolama sahalarında yılda ortalama 40 milyon ton hafriyat toprağı depolanıyor. Sayfa inşaat ve yıkıntı atıklarının işlendiğini yazıyor ama kapasite, tesis sayısı veya tonaj vermiyor. Geri kazanım tesisleri sayfası, raporlar sayfası ve haber duyuruları bu turda açılmadı; o sayfalara dayanan ifadeler doğrulanamadı. Döküm bedeli rakamları (600, 1.300, 3.800 TL/tır) üçüncü taraf bir siteden alınmıştı, bu turda açılmadı, doğrulanamadı.",
-"kaynak": "https://istac.istanbul/faaliyet-alanlarimiz/atik-yonetimi/hafriyat-topragi-yonetimi (firma beyanı, doğrulandı); https://istac.istanbul/tesislerimiz/geri-kazanim-tesisleri (firma, açılmadı, doğrulanamadı); https://istac.istanbul/hakkimizda/belgeler-ve-raporlar (firma, açılmadı, doğrulanamadı); https://www.ihalekik.com/istanbul-hafriyat-dokum-ucretleri (diğer, açılmadı, doğrulanamadı)",
-"kime": "İSTAÇ çağrı merkezi 444 85 00 ve Hafriyat Toprağı Yönetimi birimi; İBB Atık Yönetimi Müdürlüğü; önce 2024 Faaliyet Raporu PDF'i elle indirilip okunmalı."
+"cevap": "İSTAÇ 2024 Faaliyet Raporu indirilip okundu. Hafriyat Atıkları Yönetimi bölümü hafriyat depolama tesislerinin işletilmesini ana faaliyet sayıyor; 2024'te dolgu sahalarına 24.459 fidan dikildiği yazıyor; inşaat ve yıkıntı atığı geri kazanımı için kapasite, tonaj ya da tesis adı yok. Tarihçe tablosunda İnşaat ve Yıkıntı Atıkları Geri Kazanımı bir dönem faaliyeti olarak geçiyor. Sitedeki Geri Kazanım Tesisleri sayfasında yalnız Kemerburgaz atıktan türetilmiş yakıt tesisi ve kompost tesisi var. Döküm bedeli üçüncü taraf siteye göre 2023'te 600, 2024'te 1.300, 2025'te 3.800 TL/tır; İSTAÇ tarifesi doğrudan açılmadı.",
+"kaynak": "https://istac.istanbul/assets/belgeler_ve_raporlar/2024-faaliyet-raporu-web.pdf (firma raporu, doğrulandı); https://istac.istanbul/tesislerimiz/geri-kazanim-tesisleri (firma, doğrulandı); https://www.ihalekik.com/istanbul-hafriyat-dokum-ucretleri (diğer, tek kaynak)",
+"kime": "İSTAÇ Hafriyat Atıkları Müdürü, 444 85 00; 2025 Sürdürülebilirlik Raporu PDF'i elle okunmalı; İBB Atık Yönetimi Müdürlüğü."
 },
 {
 "soru": "İzmir Bornova Karaçam tesisini kim kuracak, teknoloji ve takvim",
 "durum": "kismen",
-"cevap": "İlan metni doğrulandı: Bornova Karaçam Köyü 107 ada 63 parsel, 34.363,13 m2 belediye arsası üzerinde hafriyat toprağı, inşaat ve yıkıntı atıkları geri kazanım tesisi kurulması ve 10 yıl işletilmesi için kiralama ihalesi. 2886 sayılı Kanun 35/a kapalı teklif, 23.12.2025 saat 10.00, Nevzat Kavalar Kültür Merkezi Meclis Salonu. Yıllık kira KDV hariç 3.600.000 TL, muhammen bedel 36.000.000 TL, geçici teminat 1.080.000 TL, doküman bedeli 1.000 TL, dokümanı veren birim İklim Değişikliği ve Sıfır Atık Müdürlüğü. İstekliden ÇED kararı belgesi (kapsam dışı, gerekli değildir veya olumlu) ve GSM ruhsatı, geçici faaliyet belgesi veya çevre izin ve lisans belgesi isteniyor. İlan 11.12.2025'te girildi. Tesisi belediye değil, kiracı kuracak; bu ilan metninden çıkıyor. 9 Eylül 2025 tarihli ilk ihale, 3 Haziran 2025 meclis kararı, Başkan Ömer Eşki'nin teknoloji açıklaması, Karaçam halkının itirazı, 17 Nisan 2026 Işıklar kararı ve Doa Hafriyat Madencilik ÇED başvurusu bu turda açılmayan kaynaklara dayanıyor, doğrulanamadı. 'Yeniden ilan ilk ihalenin sonuçsuz kaldığını gösteriyor' ifadesi çıkarımdır, ilanda yazmıyor. Teknoloji ilanda yok. Kazanan firma web'de yok.",
-"kaynak": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan (haber sitesinde resmi ilan metni, doğrulandı); https://www.egedesonsoz.com/bornovada-geri-donusum-hamlesi-36-milyonluk-ihale (haber, açılmadı, doğrulanamadı); https://bornova.bel.tr/recycling-facility-approved-in-bornova?lang=en (resmi, açılmadı, doğrulanamadı); https://ilkses.com.tr/izmir/bornova-daki-geri-kazanim-tesisi-plani-istifali-tartismalara-sahne-oldu-444588 (haber, açılmadı, doğrulanamadı); https://www.yeniizmir.com/bornova-ya-insaat-atiklarini-donusturma-tesisi-geliyor (haber, açılmadı, doğrulanamadı)",
-"kime": "Bornova Belediyesi İklim Değişikliği ve Sıfır Atık Müdürlüğü, Ergene Mah. 2. Sok. No:7 Prof. Dr. Kamil Okyay Sındır Hizmet Binası; 23 Aralık 2025 ihalesinin sonucu ve kiracı firma sorulacak."
+"cevap": "Takvim netleşti, kiracı hâlâ yok. Bornova meclisi 3 Haziran 2025'te Karaçam'daki yaklaşık 25.000 m2 arsanın tesis için kiraya verilmesine karar verdi; Başkan Ömer Eşki Türkiye'de bazı teknolojilerin ilk kez kullanılacağını söyledi (doğrulandı). İlk ihale 9 Eylül 2025 saat 10.00, 34.363 m2, yıllık 3.600.000 TL artı KDV, muhammen 36.000.000 TL, teminat 1.080.000 TL (25 Ağustos 2025 haberi, doğrulandı). İkinci ihale 23 Aralık 2025 (önceki tur). İkinci ilan çıkması ilk ihalenin sonuçsuz kaldığını düşündürür, çıkarımdır. Kazanan firma hiçbir kaynakta yok; bornova.bel.tr araması boş döndü. İzmir Büyükşehir meclisinde Bornova Işıklar 11128 ada 13 parselde 11.600 m2 ikinci tesis oy çokluğuyla geçti; okula 15 ya da 141 metre mesafe tartışıldı, ÇED alınacak (doğrulandı).",
+"kaynak": "https://www.karar.com/sehir-haberleri/bornovada-geri-donusum-tesisine-onay-1965171 (haber, doğrulandı); https://www.egedesonsoz.com/bornovada-geri-donusum-hamlesi-36-milyonluk-ihale (haber, doğrulandı); https://ilkses.com.tr/izmir/bornova-daki-geri-kazanim-tesisi-plani-istifali-tartismalara-sahne-oldu-444588 (haber, doğrulandı); https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan (önceki tur)",
+"kime": "Bornova Belediyesi İklim Değişikliği ve Sıfır Atık Müdürlüğü; 23 Aralık 2025 ihalesinin sonucu ve kiracı; İzmir Büyükşehir Çevre Koruma Dairesi Işıklar tesisi için."
 },
 {
 "soru": "Hafriyat Toprağı, İnşaat ve Yıkıntı Atıkları yönetmeliğinin güncel değişiklikleri; Yıkım yönetmeliği eklerinde seçici yıkım zorunluluğu",
 "durum": "kismen",
-"cevap": "Yıkım yönetmeliği kısmı Resmi Gazete metniyle doğrulandı. Binaların Yıkılması Hakkında Yönetmelik 13 Ekim 2021 tarih 31627 sayılı Resmi Gazete; Madde 20 ile yürürlük 1 Temmuz 2022. Madde 5/7: asbest ve benzeri tehlikeli kimyasal içeren imalatlar sökülüp uzaklaştırılmadan ve seçici yıkım yapılmadan ana yıkıma geçilemez. Madde 14: müteahhit atığı geri kazanılabilir malzemeden başlayarak kaynağında ayırır, öncelikle yeniden kullanır, çevre lisanslı geri kazanım veya bertaraf tesisine gönderir. Madde 15: yıkıntı atıklarının yüksek oranda geri dönüşümü için kontrollü ve aşamalı seçici yıkım uygulanır; metal, ahşap, alçı, tuğla, cam, yalıtım gibi malzemeler ayrılır. Madde 7/9: bodrum dışı en çok bir katlı, 6 m ve 250 m2'yi geçmeyen yapılar ile küçük kısmi yıkımlarda yıkım planı düzenlenmez. Kapsam Madde 2: yapı ruhsatına tabi bina türü yapılar; afet yıkımları, 6306 sayılı Kanun 6/A resen yıkımlar, 3194/32 kısmi yıkımlar ve tescilli yapılar kapsam dışı. Ekler metinde geçiyor: Ek 1 Form 1 yıkım ruhsatı, Ek 2 yıkım planı, Ek 3 atık yönetim planı formatı, Ek 4 taahhütnameler. Ek metinleri ayrı PDF, açılmadı. Hafriyat yönetmeliği değişiklik geçmişi (2004 tarih 25406 sayı, 9 Ekim 2021 tarih 31623 sayı ile kaldırılan maddeler, Madde 8 ve 27 içeriği) bu turda açılmayan konsolide metne dayanıyor, doğrulanamadı. Bakanlık taslak sayfası doğrulandı: Hafriyat Toprağı ile İnşaat ve Yıkıntı Atıklarının Yönetimine İlişkin Yönetmelik Taslağı docx ve Görüş Formu listede var. Sayfada tarih yazmıyor; 13 Mart ve 17 Mart 2026 tarihleri dosya adlarındaki damgalardan çıkarıldı. Görüş son tarihi sayfada yok. Taslağın mevcut yönetmeliği bütünüyle yenilediği iddiası metin okunmadan doğrulanamaz.",
-"kaynak": "https://www.resmigazete.gov.tr/eskiler/2021/10/20211013-1.htm (resmi, doğrulandı); https://cygm.csb.gov.tr/taslaklar-i-443 (resmi, doğrulandı); https://www.lexpera.com.tr/mevzuat/yonetmelikler/hafriyat-topragi-insaat-ve-yikinti-atiklarinin-kontrolu-yonetmeligi (diğer, açılmadı, doğrulanamadı); https://cygm.csb.gov.tr/yonetmelikler-i-440 (resmi, açılmadı, doğrulanamadı)",
-"kime": "Taslak metin: cygm.csb.gov.tr taslaklar sayfasındaki docx elle indirilip okunacak; görüş için Çevre Yönetimi Genel Müdürlüğü Döngüsel Ekonomi ve Atık Yönetimi Dairesi, 0312 586 30 00; görüş formu aynı sayfada."
+"cevap": "Bakanlık taslaklar sayfası bu turda üç denemede açılamadı (bağlantı sıfırlandı); taslak metin yine okunmadı. Resmi Gazete 12 Ağustos 2026 sayılı değişiklik yeniden açıldı; önceki turun bulguları geçerli: bina yıkıntı atıkları, seçici yıkım ve tehlikeli atık tanımları eklendi, 7. maddeye eklenen 8. fıkra ile 14 ve 15. maddeler yayımda, diğer hükümler 12 Ağustos 2027'de yürürlükte. Ekler okunmadı. Hafriyat yönetmeliğinde 2025 ve 2026'da yayımlanmış bir değişiklik bulunmadı.",
+"kaynak": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm (resmi, doğrulandı); https://cygm.csb.gov.tr/taslaklar-i-443 (resmi, açılamadı)",
+"kime": "Çevre Yönetimi Genel Müdürlüğü Döngüsel Ekonomi ve Atık Yönetimi Dairesi 0312 586 30 00; taslak docx elle indirilip okunacak; görüş formu aynı sayfada."
 }
 ],
 "firmalar": [
 {
+"ad": "Taşsan Kırma Eleme İnşaat Maden Makinaları San. ve Tic. Ltd. Şti.",
+"rol": "rakip",
+"not": "2026'da iki belediye konkasör ihalesini kazandı: Safranbolu 14.600.000 TL (6 Mayıs) ve Giresun 23.296.000 TL (13 Ekim); imalatçı mı bayi mi web'de yok; bayi ya da ortak adayı da olabilir.",
+"kaynak": "https://kamuihaleler.com/firma/tassan-kirma-eleme-insaat-maden-makinalari-sanayi-ve-ticaret-limited-sirketi/kazandigi-ihaleler"
+},
+{
+"ad": "Fabo Makina İmalat Pazarlama San. ve Tic. Ltd. Şti.",
+"rol": "rakip",
+"not": "Niğde İl Özel İdaresi 93.000.000 TL (2025) ve Siirt İl Özel İdaresi 69.421.000 TL (2024) kırma eleme tesisi ihalelerini kazandı; kayıtlı 4 kamu ihalesi toplam 250.421.000 TL; İzmir Torbalı merkezli.",
+"kaynak": "https://kamuihaleler.com/sonuc/idaremiz-hizmetlerinde-kullanilmak-uzere-satin-alinacak-olan-2025-595903 (4 ihale, 250.421.000 TL); Torbalı adresi: https://www.makinaturkiye.com/mobil-dik-milli-kirici-t-49750"
+},
+{
+"ad": "General Makina (General Taş Kırma Makinaları San. ve Tic. A.Ş.)",
+"rol": "rakip",
+"not": "İzmir Torbalı; ilan sitelerinde 45 mobil konkasör ilanıyla en görünür yerli üretici; fiyatlar ilanlarda yazmıyor.",
+"kaynak": "https://www.makinaturkiye.com/en/mobile-crusher-c-125738"
+},
+{
 "ad": "Constmach",
 "rol": "rakip",
-"not": "Yerli üretici; sitede 4 mobil kırıcı ve 7 mobil santral görünüyor, 110 üzeri ülkeye satış yazıyor.",
-"kaynak": "https://www.constmach.com/en"
+"not": "Yerli üretici, İzmir Kemalpaşa; 100 ile 150 ton/saat mobil dik milli kırıcı 3.664.000 ve 200 ile 250 ton/saat model 5.129.600 ilan fiyatı (para birimi sayfada yok); 110 üzeri ülkeye satış yazıyor.",
+"kaynak": "https://www.makinaturkiye.com/mobil-dik-milli-kirici-t-49750"
+},
+{
+"ad": "Okur Makina İmalat ve İnşaat San. Tic. A.Ş.",
+"rol": "emsal",
+"not": "İzmit Belediyesi'nin 120 ton/saat mobil asfalt plenti ihalesini 23.750.000 TL ile kazandı, 21 Mayıs 2026; belediyelerin tek makine alım ölçeği için kıyas.",
+"kaynak": "https://kamuihaleler.com/sonuc/120-ton-saat-kapasiteli-mobil-asfalt-plenti-alim-isi-2026-654722"
 },
 {
 "ad": "E-MAK",
@@ -13436,19 +17537,55 @@ window.MEKA_DATA = {
 {
 "ad": "Giresun Belediyesi",
 "rol": "musteri",
-"not": "2026'da iki kez konkasör alımına çıktı, 16 Temmuz ve 22 Eylül; yalnız yerli istekli ve yüzde 15 avantaj var, sonuç yok.",
-"kaynak": "https://www.yesilgiresun.com.tr/haber/28553957/konkasor-mal-alimi-isi"
+"not": "Konkasör alımı 13 Ekim 2026'da Taşsan'a 23.296.000 TL ile verildi; OSB'deki tesis ayda 100.000 kilit parke, 20.000 bordür ve 15.000 oluk üretiyor; teslim 60 gün.",
+"kaynak": "https://kamuihaleler.com/sonuc/konkasor-mal-alimi-isi-2026-1539482"
+},
+{
+"ad": "Safranbolu Belediyesi",
+"rol": "musteri",
+"not": "Fen İşleri Müdürlüğü 1 adet mobil kırma eleme tesisi aldı, 14.600.000 TL, yaklaşık maliyet 17.060.000 TL, 7 istekli, 6 Mayıs 2026; marka bilinmiyor.",
+"kaynak": "https://kamuihaleler.com/sonuc/mobil-kirma-eleme-tesisi-konkasor-alim-ve-montaji-isi-2026-403199"
+},
+{
+"ad": "Niğde İl Özel İdaresi",
+"rol": "musteri",
+"not": "400 ile 450 ton/saat kırma eleme tesisini 93.000.000 TL ile Fabo'dan aldı (19 Haziran 2025); Bor Pınarbaşı asfalt şantiyesine 4.121.000 TL'lik trafo yaptırdı (25 Aralık 2025); il özel idareleri yeni müşteri grubu.",
+"kaynak": "https://www.ihaledanismani.com/kesinlesen-ihale-sonucu-nigde-bor-pinarbasi-konkasor-tesisi-icin-2000-kva-beton-kosk-tipi-trafo-merkezi-kurulumu-yapim-isi/"
+},
+{
+"ad": "Siirt İl Özel İdaresi",
+"rol": "musteri",
+"not": "Sabit konkasör ve mekanik stabilizasyon plenti alımını 69.421.000 TL ile Fabo'ya verdi, 14 Mayıs 2024, 2 istekli.",
+"kaynak": "https://kamuihaleler.com/sonuc/konkasor-sabit-kirma-eleme-tesisi-ve-sabit-mekanik-stabiliza-2024-313418"
+},
+{
+"ad": "Kocaeli Büyükşehir Belediyesi",
+"rol": "emsal",
+"not": "Körfez Kıyırlı'da 400 ton/saat yerli taş kırma ve eleme tesisi; 6 ayda 97.048 ton mıcır ve 17.468.000 TL tasarruf açıkladı (10 Nisan 2025); 63 milyon ton rezervli kalker ocağı.",
+"kaynak": "https://www.ekonomigazetesi.com/sehirler/kocaeli-buyuksehir-belediyesi-tas-kirma-tesisiyle-17-milyon-tasarruf-etti-47331"
+},
+{
+"ad": "Kayapınar Belediyesi (Diyarbakır)",
+"rol": "musteri",
+"not": "Meclis 5 Şubat 2025'te Fen İşleri için mıcır kırma eleme ve parke tesisi kurulmasını oy birliğiyle kabul etti; alım ihalesi henüz görülmedi.",
+"kaynak": "https://kayapinar.bel.tr/uploads/files/25-mk-subat/50%20No-lu%20Meclis%20Karar%C4%B1.pdf"
+},
+{
+"ad": "İzmit Belediyesi",
+"rol": "musteri",
+"not": "Fen İşleri Müdürlüğü 2026'da 23.750.000 TL'ye mobil asfalt plenti aldı; kendi malzeme üretimine yatırım yapan belediye, konkasör adayı.",
+"kaynak": "https://kamuihaleler.com/sonuc/120-ton-saat-kapasiteli-mobil-asfalt-plenti-alim-isi-2026-654722"
 },
 {
 "ad": "Samsun Büyükşehir Belediyesi",
 "rol": "musteri",
-"not": "Güzeldere Konkasör Tesisi için 1600 kVA trafo ihalesi yaptı, 13 Temmuz 2026; tesisin yeni olup olmadığı belli değil.",
+"not": "Güzeldere Konkasör Tesisi için 1600 kVA trafo ihalesi yaptı, 13 Temmuz 2026; tesisin yeni olup olmadığı belli değil; samsun.bel.tr araması bu turda boş döndü.",
 "kaynak": "https://www.gazetegercek.com.tr/resmi-ilan/konkasor-tesisi-enerji-besleme-isleri-yaptirilacaktir/228221"
 },
 {
 "ad": "Kepez Belediyesi",
 "rol": "musteri",
-"not": "Taş kırmak için mobil konkasör kullanıyor; haber 6 Aralık 2024 tarihli ve bu turda açılmadı.",
+"not": "Fen İşleri makine parkındaki mobil taş kırma makinesiyle yol kazısı kayasını, asfaltı ve parkeyi mıcıra çeviriyor; haber 6 Aralık 2024, bu turda açıldı ve doğrulandı; marka yok.",
 "kaynak": "https://www.kepez-bld.gov.tr/news_10977_kepez-den-ornek-belediyecilik"
 },
 {
@@ -13460,7 +17597,7 @@ window.MEKA_DATA = {
 {
 "ad": "Burkent",
 "rol": "musteri",
-"not": "Bursa Büyükşehir şirketi; Erdoğanköy geri kazanım tesisi için günde 800 ton geçiyor, tek kaynak ve doğrulanamadı.",
+"not": "Bursa Büyükşehir şirketi; Erdoğanköy tesisi için günde 800 ton geçiyor; sayfa bu turda da açılamadı (403), doğrulanamadı.",
 "kaynak": "https://www.steelradar.com/erdogankoy-e-hafriyat-sahasi-53670/"
 },
 {
@@ -13478,8 +17615,8 @@ window.MEKA_DATA = {
 {
 "ad": "İSTAÇ",
 "rol": "musteri",
-"not": "İstanbul'da yılda ortalama 40 milyon ton hafriyat toprağı depoladığını söylüyor; yıkıntı atığı kapasitesi bulunamadı.",
-"kaynak": "https://istac.istanbul/faaliyet-alanlarimiz/atik-yonetimi/hafriyat-topragi-yonetimi"
+"not": "2024 faaliyet raporunda hafriyat depolama ana faaliyet; yıkıntı atığı geri kazanım kapasitesi yazmıyor; 2025 döküm bedeli 3.800 TL/tır (üçüncü taraf, tek kaynak).",
+"kaynak": "https://istac.istanbul/assets/belgeler_ve_raporlar/2024-faaliyet-raporu-web.pdf"
 },
 {
 "ad": "Saka Beton",
@@ -13496,7 +17633,7 @@ window.MEKA_DATA = {
 {
 "ad": "Muğla Büyükşehir Belediyesi",
 "rol": "musteri",
-"not": "Eskişehir tesisinin bilgi verdiği belediyelerden; yıkıntı atığı projesi 13 Ekim 2026'da Avrupa ikinciliği aldı, doğrulanmadı.",
+"not": "Döngüsel inşaat ve yıkıntı atıkları projesi 13 Ekim 2026'da Brüksel'de Avrupa ikinciliği aldı; geri kazanılan malzeme yol ve altyapıda kullanılacak; bu turda doğrulandı.",
 "kaynak": "https://www.hamlegazetesi.com.tr/muglanin-insaat-atigi-projesine-avrupa-ikinciligi"
 },
 {
@@ -13532,44 +17669,111 @@ window.MEKA_DATA = {
 {
 "ad": "Bornova Belediyesi",
 "rol": "kurum",
-"not": "Karaçam'da 34.363,13 m2 arsayı 10 yıllığına kiraya çıkardı, bedel 36 milyon TL, ihale 23 Aralık 2025; tesisi kiracı kuracak.",
-"kaynak": "https://www.sabah.com.tr/resmi-ilan/2025/12/10/bornova-belediye-baskanligindan"
+"not": "Karaçam arsasını 9 Eylül 2025 ve 23 Aralık 2025'te iki kez 36.000.000 TL muhammen bedelle 10 yıllığına kiraya çıkardı; kiracı web'de yok; tesisi kiracı kuracak.",
+"kaynak": "https://www.egedesonsoz.com/bornovada-geri-donusum-hamlesi-36-milyonluk-ihale"
 },
 {
 "ad": "Keçiören Belediyesi",
 "rol": "kurum",
-"not": "Hafriyat sahalarında geri kazanım için kiralama ihalesi yaptı; maliyet 10.785.492 ile 43.142.132 TL, doğrulanamadı.",
-"kaynak": "https://ihalebul.com/tenders/search?cpvtree_in=45252120&sort=-province"
+"not": "Bulunan tek 2026 kaydı Atık Getirme Merkezi bina yapımı (2026/1128301, 20 Temmuz 2026); hafriyat sahası kiralama ihalesi ve 10,8 ile 43,1 milyon TL bandı hiçbir kaynakta doğrulanmadı.",
+"kaynak": "https://www.gucluanadolugazetesi.com/kecioren-belediyesinden-ilan-iln02497376"
 },
 {
 "ad": "İzmir Büyükşehir Belediyesi",
 "rol": "kurum",
-"not": "6 geri kazanım tesisi ve 8 hafriyat sahası listesini yayımlıyor; 6 tesisten 5'i özel.",
-"kaynak": "https://www.izmir.bel.tr/tr/AcrdIcerik/93/1"
+"not": "6 geri kazanım tesisi ve 8 hafriyat sahası listesini yayımlıyor; meclis Bornova Işıklar'da 11.600 m2 ikinci tesisi oy çokluğuyla geçirdi, ÇED alınacak.",
+"kaynak": "https://ilkses.com.tr/izmir/bornova-daki-geri-kazanim-tesisi-plani-istifali-tartismalara-sahne-oldu-444588"
 },
 {
 "ad": "Çevre Yönetimi Genel Müdürlüğü",
 "rol": "kurum",
-"not": "Hafriyat ve inşaat yıkıntı atıkları yönetmelik taslağı Mart 2026'da sayfasında yayında; görüş süresi yazmıyor.",
+"not": "Hafriyat ve yıkıntı atıkları yönetmelik taslağı Mart 2026'dan beri sayfasında; sayfa bu turda üç denemede açılamadı, görüş süresi bilinmiyor.",
 "kaynak": "https://cygm.csb.gov.tr/taslaklar-i-443"
 },
 {
 "ad": "Ankara Büyükşehir Belediyesi",
 "rol": "kurum",
-"not": "Keçiören hafriyat sahası ihalesinin idaresi ve kazananı Çevre Koruma ve Kontrol Dairesi'ne sorulacak.",
-"kaynak": "yaprak adımları, 4. adım"
+"not": "Keçiören hafriyat sahası sorusu için Çevre Koruma ve Kontrol Dairesi'ne sorulacak; web'de kayıt yok.",
+"kaynak": "yaprak adımları, 6. adım"
 },
 {
 "ad": "İBB",
 "rol": "kurum",
-"not": "İSTAÇ kapasitesi ve döküm bedeli için Atık Yönetimi Müdürlüğü ile görüşülecek.",
-"kaynak": "yaprak adımları, 5. adım"
+"not": "İSTAÇ'ın ortağı; döküm bedeli 2023'ten 2025'e 600 TL'den 3.800 TL/tır'a çıktı (üçüncü taraf, tek kaynak); Atık Yönetimi Müdürlüğü ile görüşülecek.",
+"kaynak": "https://www.ihalekik.com/istanbul-hafriyat-dokum-ucretleri"
 },
 {
 "ad": "Eskişehir Büyükşehir Belediyesi",
 "rol": "emsal",
-"not": "Keskin tesisi yılda 498.000 ton kapasiteli, 1.449.535 ton atık kabul etti ve son 4 ayda 24 ile 25 milyon TL tasarruf açıkladı.",
-"kaynak": "https://www.gzt26.com/ayse-unluce-acikladi-geri-donusum-tesisi-4-ayda-milyonlarca-lira-kazandirdi"
+"not": "Keskin tesisi 498.000 ton/yıl; Aralık 2017'den Ekim 2023'e yaklaşık 1.000.000 ton kabul ve 340.000 ton agrega; 14 Mayıs 2026'da 4 ayda 24 ile 25 milyon TL tasarruf açıkladı.",
+"kaynak": "https://www.eskisehir.bel.tr/icerik-detay.php?icerik_id=9195&cat_icerik=1&menu_id=24"
+}
+],
+"ekonomi": {
+"bilet": "İlk 24 ay yaklaşık 12,5 milyon TL (250 bin dolar) demo makine dahil; demo makinesiz 5 milyon TL (100 bin dolar). Kalemler tahmin; kur 49,58 TL kaynaklı.",
+"sure_ilk_gelir": "6 ile 12 ay. Dayanak: Giresun takvimi ilan 21 Ağustos 2026, ihale 22 Eylül, sonuç 13 Ekim, teslim sözleşmeden 60 gün; Safranbolu ihale 6 Nisan, sonuç 6 Mayıs 2026. İlan ile tahsilat arası 4 ile 6 ay; ilk ihaleyi bulmak 2 ile 6 ay (tahmin).",
+"yil3": "Gelir 42 ile 70 milyon TL (0,85 ile 1,4 milyon dolar); brüt kâr 10,5 ile 21 milyon TL (0,21 ile 0,42 milyon dolar). Dayanak: 3 ile 5 makine (tahmin) çarpı ortalama 14 milyon TL sipariş (Safranbolu 14,6 ve Giresun 23,3 milyon TL emsalleri ile MCC 70 ağırlıklı karma, tahmin) çarpı yüzde 25 ile 30 brüt marj (tahmin).",
+"yil5": "Gelir 70 ile 112 milyon TL (1,4 ile 2,3 milyon dolar); brüt kâr 17,5 ile 33,6 milyon TL (0,35 ile 0,68 milyon dolar). Dayanak: 5 ile 8 makine (tahmin; il özel idareleri eklenirse), aynı birim fiyat ve marj. Kurulu park yedek parça ve servisi yılda 3 ile 4,5 milyon TL ek brüt kâr getirebilir (tahmin, aralığa dahil değil).",
+"geri_odeme": "17 ile 25 ay demo makine dahil bilet için; 8 ile 14 ay demo makinesiz. Hesap: makine başına brüt kâr 14 milyon TL çarpı yüzde 27,5 eşittir 3,85 milyon TL; yıl 1'de 1 ile 2 makine 3,85 ile 7,7 milyon TL; yıl 2'de 2 ile 3 makine 7,7 ile 11,55 milyon TL; 24 ay birikimli 11,55 ile 19,25 milyon TL, bilet 12,5 milyon TL.",
+"yillik_kar_potansiyeli": "Yıl 5'te 17,5 ile 33,6 milyon TL (0,35 ile 0,68 milyon dolar) brüt kâr; 5 ile 8 makine, 14 milyon TL ortalama sipariş (Safranbolu 14,6 ve Giresun 23,3 milyon TL emsalleri) ve yüzde 25 ile 30 brüt marj varsayımıyla.",
+"varsayimlar": "Kur 1 dolar 49,58 TL (20 Ekim 2026, kaynaklı). Birim fiyatlar: MCC 70 9 ile 12 milyon TL, MP 90 14 ile 18 milyon TL, MP 110C 20 ile 26 milyon TL (tahmin; emsaller Safranbolu 14,6 milyon TL tek mobil tesis artı montaj, Giresun 23,3 milyon TL paket, Fabo PRO-90 2024 ikinci el ilanı 11,9 milyon TL, Constmach tek kırıcı 3,7 ile 5,1 milyon TL). Hacim: 2026'da EKAP verisinde 2 belediye alımı ve 2024 ile 2025'te 2 il özel idaresi alımı görüldü; MEKA'nın bunların yarısını alması ve özel saha işletmecilerinin eklenmesi varsayıldı (tahmin). Brüt marj yüzde 25 ile 30 (tahmin; KAP finansallarıyla doğrulanacak). Fiyatlar sabit TL, enflasyon ve kur artışı dışarıda. Belediye ödemelerinin sözleşmeye göre geldiği varsayıldı. Müşteri tarafı: Kocaeli tona 180 TL tasarruf (çıkarım) ile 10 milyon TL'lik MCC 70 yılda 80.000 tonda kendini öder; bu satış argümanıdır, MEKA gelirine girmez."
+},
+"emsaller": [
+{
+"tarih": "13 Ekim 2026",
+"taraflar": "Giresun Belediye Başkanlığı ve Taşsan Kırma Eleme İnşaat Maden Makinaları San. ve Tic. Ltd. Şti.",
+"bedel": "23.296.000 TL sözleşme; yaklaşık maliyet 25.558.667 TL; 2 istekli; pazarlık 21/a; İKN 2026/1539482",
+"birim": "Kırma eleme tesisi makine, ekipman, revizyon parçaları, montaj, nakliye ve tesisat paketi; yaklaşık maliyetin yüzde 91'i; yaklaşık 470 bin dolar",
+"kaynak": "https://kamuihaleler.com/sonuc/konkasor-mal-alimi-isi-2026-1539482 (EKAP verisi, üçüncü taraf, tek kaynak)"
+},
+{
+"tarih": "6 Mayıs 2026",
+"taraflar": "Safranbolu Belediyesi Fen İşleri Müdürlüğü ve Taşsan Kırma Eleme",
+"bedel": "14.600.000 TL sözleşme; yaklaşık maliyet 17.060.000 TL; 7 istekli; açık ihale; İKN 2026/403199",
+"birim": "1 adet mobil kırma eleme tesisi alım ve montajı; yaklaşık maliyetin yüzde 86'sı; yaklaşık 295 bin dolar",
+"kaynak": "https://kamuihaleler.com/sonuc/mobil-kirma-eleme-tesisi-konkasor-alim-ve-montaji-isi-2026-403199 (EKAP verisi, üçüncü taraf, tek kaynak)"
+},
+{
+"tarih": "19 Haziran 2025",
+"taraflar": "Niğde İl Özel İdaresi ve Fabo Makina İmalat Pazarlama San. ve Tic. Ltd. Şti.",
+"bedel": "93.000.000 TL sözleşme; yaklaşık maliyet 112.435.200 TL; 3 istekli; açık ihale; İKN 2025/595903",
+"birim": "400 ile 450 ton/saat kırma eleme tesisi ve ekipmanları; ton/saat başına yaklaşık 210 ile 230 bin TL; yaklaşık 1,9 milyon dolar",
+"kaynak": "https://kamuihaleler.com/sonuc/idaremiz-hizmetlerinde-kullanilmak-uzere-satin-alinacak-olan-2025-595903 (EKAP verisi, üçüncü taraf, tek kaynak)"
+},
+{
+"tarih": "14 Mayıs 2024",
+"taraflar": "Siirt İl Özel İdaresi ve Fabo Makina",
+"bedel": "69.421.000 TL sözleşme; yaklaşık maliyet 71.992.000 TL; 2 istekli, 1 geçerli; İKN 2024/313418",
+"birim": "1 adet sabit konkasör tesisi artı 1 adet sabit mekanik stabilizasyon plenti, kurulum dahil; yaklaşık maliyetin yüzde 96'sı",
+"kaynak": "https://kamuihaleler.com/sonuc/konkasor-sabit-kirma-eleme-tesisi-ve-sabit-mekanik-stabiliza-2024-313418 (EKAP verisi, üçüncü taraf, tek kaynak)"
+},
+{
+"tarih": "21 Mayıs 2026",
+"taraflar": "İzmit Belediyesi Fen İşleri Müdürlüğü ve Okur Makina İmalat ve İnşaat San. Tic. A.Ş.",
+"bedel": "23.750.000 TL sözleşme; yaklaşık maliyet 28.225.000 TL; 3 istekli, 1 geçerli; İKN 2026/654722",
+"birim": "1 adet 120 ton/saat mobil asfalt plenti, tüm ünitelerle; belediye tek makine alım ölçeği kıyası; yaklaşık 480 bin dolar",
+"kaynak": "https://kamuihaleler.com/sonuc/120-ton-saat-kapasiteli-mobil-asfalt-plenti-alim-isi-2026-654722 (EKAP verisi, üçüncü taraf, tek kaynak)"
+},
+{
+"tarih": "25 Aralık 2025",
+"taraflar": "Niğde İl Özel İdaresi ve Kenan Çimen (gerçek kişi yüklenici)",
+"bedel": "4.121.000 TL sözleşme; yaklaşık maliyet 5.654.263,98 TL; 27 teklif, 18 geçerli; İKN 2025/2003439",
+"birim": "Bor Pınarbaşı konkasör tesisi için 2000 kVA beton köşk trafo merkezi; iş süresi 30 Aralık 2025 ile 28 Şubat 2026; tesis yatırımının yan maliyeti",
+"kaynak": "https://www.ihaledanismani.com/kesinlesen-ihale-sonucu-nigde-bor-pinarbasi-konkasor-tesisi-icin-2000-kva-beton-kosk-tipi-trafo-merkezi-kurulumu-yapim-isi/ (EKAP sonuç ilanı aktarımı, tek kaynak)"
+},
+{
+"tarih": "9 Eylül 2025 ve 23 Aralık 2025",
+"taraflar": "Bornova Belediyesi ve henüz bilinmeyen kiracı",
+"bedel": "Muhammen 36.000.000 TL, 10 yıl; yıllık 3.600.000 TL artı KDV; geçici teminat 1.080.000 TL; sonuç yok",
+"birim": "34.363 m2 arsa üzerinde hafriyat ve yıkıntı atığı geri kazanım tesisi kurma ve işletme hakkı; yılda yaklaşık 105 TL/m2",
+"kaynak": "https://www.egedesonsoz.com/bornovada-geri-donusum-hamlesi-36-milyonluk-ihale (haber, doğrulandı)"
+},
+{
+"tarih": "20 Ekim 2026 (erişim tarihi; ilan tarihi sayfada yok)",
+"taraflar": "Şaban Özoğul İnşaat (satıcı), Karaman",
+"bedel": "11.900.000 ilan fiyatı (para birimi sayfada yazmıyor, TL varsayıldı)",
+"birim": "Fabo PRO-90 2024 model düşük saatli ikinci el mobil konkasör; MCC 70 ve MP 90 fiyat mertebesi kıyası; satıcı ilanı",
+"kaynak": "https://www.makinaturkiye.com/en/fabo-mobile-crusher-c-125738-177702 (firma ilanı, tek kaynak)"
 }
 ],
 "dal_ad": "MEKA ile ilgili",
@@ -13586,22 +17790,22 @@ window.MEKA_DATA = {
 }
 ],
 "puan": {
-"G": 1.33,
-"H": 5.0,
-"R": 4.33,
+"G": 1.0,
+"H": 4.0,
+"R": 4.0,
 "E": 5.0,
 "M": 5.0,
 "S": 1.0,
-"B": 5,
-"K": 3
+"B": 4,
+"K": 4
 },
 "puan_not": {
-"G": "Doğrudan ekipman ihalesi sayısı çok düşük; yılda birkaç makine, brüt 0,5 M$ altı.",
-"H": "MCC 70 hazır ürün; Giresun 2026/1539482 ihalesi 22 Eylül 2026, 6 ay içinde satış.",
-"R": "Giresun iki ihale doğrulandı, yerli malına yüzde 15 avantaj; belediye ödeme gecikmesi riski.",
-"E": "EKAP yalnız yerli istekli, yüzde 15 yerli malı avantajı; Egeşehir, İSTAÇ işletmeciler erişilir.",
-"M": "MCC 70, MP 90, MP 110C mevcut ürün, ek yatırım yok.",
-"S": "Mevcut kırıcının belediyeye satışı; teknoloji ve ilk giren avantajı yok; taş işi."
+"G": "Yıl 5 brüt kâr 0,35 ile 0,68 milyon dolar; yılda 5 ile 8 makine.",
+"H": "Giresun ilan 21 Ağustos, sonuç 13 Ekim 2026, teslim 60 gün; MCC 70 hazır. [Eleştirmen düzeltti, ortalama 5 iken 4: Rubrik H5 için 6 ay içinde satış ister. Modelin kendi süresi 6 ile 12 ay, bu rubrikte 4. Puanlayıcıların dayandığı Giresun ihalesi kapandı ve MEKA ist]",
+"R": "Talep EKAP sonuçlarıyla belgeli; Safranbolu'da 7 istekli, yaklaşık maliyetin yüzde 83'ünde kapanış.",
+"E": "EKAP açık, yerli malına yüzde 15 avantaj; Giresun ve Safranbolu alıcı isimli, izin yok.",
+"M": "MCC 70, MP 90, MP 110C mevcut ürün; bilet 5 ile 12,5 milyon TL.",
+"S": "Konkasörün belediyeye satışı mevcut işin uzantısı; Taşsan ve Fabo ile fiyat rekabeti."
 },
 "puan_yayilim": []
 },
@@ -13612,148 +17816,268 @@ window.MEKA_DATA = {
 "id": "lancer",
 "baslik": "Lançer ve fırlatma altyapısı: konteyner tipi lançer gövdesi, fırlatma üssü, Roketsan üst yapısı",
 "bant": "ikincil",
-"puan_metni": "Savunma raporu, 5 üzerinden, baz senaryo. Fırlatma üssü altyapısı 3,70 ve ikincil sınıf; rapor 7.1 metnine göre 24 niş içinde 6. sıra. Konteyner tipi lançer gövdesi 3,40 ve ikincil sınıfın alt sınırı, 9. sıra. Lançer üst yapısı 3,10 ve fırsatçı sınıf, 16. sıra. Sıra numaraları Tablo 7.1'den değil 7.1 metninden alındı; tabloda eşit puanlı nişler var, sıra bir basamak kayabilir. Kart aynı üç puanı 5 üzerinden veriyor. Bölüm 8.5 Tablo 8.5.2 ön puanlamasında ilk ikisi 4, üçüncüsü 3; bu tablonun ölçeği başlıkta yazmıyor, komşu Tablo 8.6.2 1 zayıf 5 güçlü ölçeğini kullanıyor. 5+5 çalışması bu konuyu puanlamamış.",
-"tarih": "22 Eylül 2026",
-"ne": "Bu yaprakta üç iş var. Birincisi konteyner tipi lançer gövdesi ve batarya kabinleri; raporun örneği KARA ATMACA konteyner lançeri, standart yük konteyneri görünümlü, altı füze, kamyon, tren ve sivil gemiyle taşınabilir. İkincisi Somali üssü ve Roketsan mikro uydu fırlatma sistemi için beton santrali ile çelik hizmet yapıları. Üçüncüsü HİSAR, SİPER ve ÇNRA lançer araçlarının erektör çerçevesi, pod rafı, hidrolik ayak ve kanister kızağı gibi üst yapıları. Hepsi ağır sac, kaynak ve hidrolik işidir. Alıcı Roketsan, ASELSAN, Koluman, Türkiye Uzay Ajansı ya da üs yüklenicisidir.",
-"neden": "MEKA'nın konteyner tipi beton santrali deneyimi konteyner lançer gövdesiyle doğrudan benzeşiyor. Rapor bunu yönetimin füze rampası fikri içindeki en güçlü eşleşme sayıyor. Fırlatma üssü işi yeni ürün istemiyor; mevcut beton santrali ve RCC ile çelik hizmet yapıları birlikte satılabiliyor. Roketsan'ın tedarik harcaması 2025'te yaklaşık 1 milyar dolara çıkmış, Çelik Kubbe genişletmesi 6,5 milyar dolar. Rapor talebin sayısal olarak doğrulandığını yazıyor.",
+"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi ikincil: Talep kaynaklı ve büyük (KAP 1,23 milyar avro, Çelik Kubbe 6,5 milyar dolar, NATO KARA ATMACA taahhüdü) ve MEKA uyumu güçlü: konteyner tipi santral hattı, ağır sac ve hidrolik doğrudan kullanılır. Ama bilet 0,5 ile 1,3 milyon dolara karşılık yıl 5 brüt kârı 0,3 ile 2,2 milyon dolar, baz geri ödeme 36 ile 40 ay; Somali üssünün yüklenicisi 10 aydır bilinmiyor; TGB ve ÜİB 12 ile 20 ay; birim fiyatlar tahmin. Öne çıkan için alıcı ve fiyat teyidi gerek; izleye düşürmek için talebin kaybolması gerek, o da yok. İkincil kalır; 12. ay kapısı (Ekim 2027) yukarı ya da aşağı taşır. Önceki çalışmanın kendi puanı: Savunma raporu, 5 üzerinden, baz senaryo. Fırlatma üssü altyapısı 3,70 ve ikincil sınıf; rapor 7.1 metnine göre 24 niş içinde 6. sıra. Konteyner tipi lançer gövdesi 3,40 ve ikincil sınıfın alt sınırı, 9. sıra. Lançer üst yapısı 3,10 ve fırs…",
+"tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 22 Eylül 2026",
+"ne": "Bu yaprakta üç iş var ve üçü de MEKA'nın Ankara'daki dört fabrikası ile Eskişehir tesisindeki ağır sac, lazer ve plazma kesim, kaynak ve hidrolik montaj hatlarıyla yapılır. Birincisi fırlatma üssüne satış: Somali Warsheikh'teki Türk uzay limanına ve Roketsan'ın Mikro Uydu Fırlatma Sistemi üssüne MEKA'nın mevcut mobil beton santrali ile ağır çelik hizmet yapıları. İkincisi konteyner tipi lançer gövdesi ve batarya kabinleri: KARA ATMACA konteyner lançerinin çelik gövdesi, hidrolik ayakları ve komuta, bakım, mühimmat kabinleri; MEKA'nın konteyner tipi beton santrali hattıyla doğrudan benzeşir. Üçüncüsü lançer aracı üst yapısı: HİSAR, SİPER, TAYFUN ve ÇNRA fırlatma ve taşıma-yükleme araçlarının erektör çerçevesi, pod rafı, hidrolik denge ayağı kutusu ve kanister kızağı; her araçta 5 ile 15 ton kaynaklı çelik. Alıcılar Roketsan, ASELSAN, Koluman, BMC ve üs yüklenicisidir; MEKA ya kendi ürününü doğrudan satar ya da ikinci kademe alt yüklenici olur.",
+"neden": "Talep kaynaklı ve büyük: Çelik Kubbe genişletmesi 6,5 milyar dolar (26 Kasım 2025), tek teslimatta 47 sistem 460 milyon dolar (27 Ağustos 2025), ASELSAN ile Roketsan arasında 1,23 milyar avroluk hava savunma alt bileşen sözleşmesi (23 Eylül 2026, KAP). SİPER ve HİSAR seri üretimi 2025 ile 2029 arasında yüzlerce araç üst yapısı demek. NATO 7 Temmuz 2026'da Türkiye'nin önemli sayıda KARA ATMACA alacağını duyurdu. Fırlatma üssü işi yeni ürün istemez: Somali üssünde inşaat Ekim 2025'ten beri sürüyor, bütçe 350 milyon dolar yazılıyor. MEKA'nın 2025 brüt kâr marjı yüzde 21,5 ve faaliyet zararı 40 milyon TL; savunma alt yükleniciliği döviz bazlı, uzun vadeli bir ikinci gelir kolu açabilir. Bilet 0,5 ile 1,3 milyon dolar ile MEKA ölçeğinde kalıyor.",
 "rakamlar": [
 {
-"deger": "2 milyar doların üstü",
-"aciklama": "Roketsan 2025 cirosu; sipariş yükü yaklaşık 10,4 milyar dolar, büyüme yüzde 50, tedarikçi sayısı 2.300'ün üstü, ihracat payı yüzde 38'in üstü, yerlilik yüzde 90 ile 92",
-"kaynak": "01 rapor, s_crane, 8.5 Talep yapısı"
+"deger": "1.234.210.000 avro",
+"aciklama": "ASELSAN ile Roketsan arasında hava savunma sistemlerine yönelik alt bileşen tedarik sözleşmesi; Roketsan'ın ASELSAN net satışlarındaki payı yüzde 4,03; teslim takvimi bildirimde yok",
+"kaynak": "resmi, KAP ÖDA 23 Eylül 2026, https://kap.org.tr/tr/Bildirim/1666885"
 },
 {
 "deger": "6,5 milyar dolar",
-"aciklama": "Çelik Kubbe genişletme sözleşmesi, Kasım 2025; SİPER bataryası 14 araç, HİSAR-O bataryası 7 araç; fırlatma ve taşıma-yükleme araçlarının üst yapısını kimin ürettiği açık kaynakta yok",
-"kaynak": "01 rapor, s_eco, 5.2 Ana yüklenicilerin talebi: ağır imalat nerede?"
+"aciklama": "SSB ile ASELSAN, Havelsan ve Roketsan arasında Çelik Kubbe için yeni hava savunma sistemleri sözleşmesi, 26 Kasım 2025; Reuters, Army Recognition ve Times of Israel atıflı; Reuters sayfası açılamadı",
+"kaynak": "diğer, Wikipedia Steel Dome (Reuters 26.11.2025 atıfı), https://en.wikipedia.org/wiki/Steel_Dome"
 },
 {
-"deger": "47 araç",
-"aciklama": "Ağustos 2025 tek teslimat: bir SİPER için 10, üç HİSAR-O için 21 araç; SİPER ve HİSAR seri üretim sözleşmesi 1,5 milyar doların üstü; 2025-2029 döneminde yüzlerce araç üst yapısı Not: 10 artı 21 eşittir 31 teyitli; kalan 16 aracın dağılımı kaynakta açıklanmıyor.",
-"kaynak": "01 rapor, s_crane, 8.6 Türkiye'deki değer zinciri ve 8.5 Talep yapısı; s_eco, 5.2"
+"deger": "460 milyon dolar, 47 sistem",
+"aciklama": "27 Ağustos 2025 Çelik Kubbe ilk teslimatı; bir SİPER bataryası 10 araç, üç HİSAR bataryası 21 araç, 7 PUHU, 2 REDET ve radarlar; hesapla sistem başına ortalama 9,8 milyon dolar, radar ve füze dahil, kendi aritmetiğimiz Not: 10 artı 21 eşittir 31 teyitli; kalan 16 aracın dağılımı kaynakta açıklanmıyor.",
+"kaynak": "diğer, Wikipedia Steel Dome (PBS ve AA 27.08.2025 atıfı)"
 },
 {
-"deger": "5-15 ton",
-"aciklama": "Her lançer aracındaki çelik yapı, hidrolik ve otomasyon; lançer sayısı füze adedinin altıda biri ile yirmide biri arasında",
-"kaynak": "01 rapor, s_crane, 8.5 Talep yapısı"
+"deger": "861.333.188 dolar, 96 lançer",
+"aciklama": "ABD Ordusu ile Lockheed Martin HIMARS üretim sözleşmesi, 8 Mayıs 2024; hesapla lançer başına yaklaşık 9,0 milyon dolar, destek hizmetleri dahil, kendi aritmetiğimiz; Nisan 2026'da 1,1 milyar dolarlık yeni sipariş",
+"kaynak": "haber, AFCEA 13.05.2024 ve InsideDefense 10.05.2024; firma, Lockheed Martin 06.05.2026"
 },
 {
-"deger": "10 ton ve 7 metre",
-"aciklama": "Eskişehir tesisinin tek parça işleme sınırı; rapor bunu bom kutuları için yetersiz, kanister yatağı ve denge ayağı kutusu için yeterli sayıyor. Tablo 7.4 büyük lançer platformu için 20-30 ton ve 8 metre kanca yüksekliği eşiği veriyor",
-"kaynak": "01 rapor, s_crane, 8.6 MEKA için değerlendirme; s_score, Tablo 7.4 Kritik tesis eşikleri"
+"deger": "1,6 milyar dolar, 72 lançer modülü",
+"aciklama": "Polonya ile Hanwha Homar-K sözleşmesi, 25 Nisan 2024; 60 modül Polonya'da HSW üretecek; teslimat 2026 ile 2029; toplam program 290 lançer (218 modül 3,55 milyar dolar, Kasım 2022)",
+"kaynak": "haber, Army Recognition 25.04.2024 ve Notes from Poland 26.04.2024"
 },
 {
-"deger": "12-20 ay",
-"aciklama": "Tesis Güvenlik Belgesi, Üretim İzin Belgesi ve AQAP zincirinin gerçekçi toplam süresi, rapor tahmin diyor; lançer ve rampa çelik yapısı ML4 sınıfında, fason iş dahi tam kontrole tabi",
-"kaynak": "01 rapor, s_reg, 6.4 Türk ihracat kontrol zinciri ve Tablo 6.3"
+"deger": "345 milyon dolar, 198 şasi",
+"aciklama": "Polonya Silahlanma Ajansı ile PGZ-WWR konsorsiyumu, Homar-K için Jelcz 8x8 şasi, Aralık 2023, 1,5 milyar PLN brüt; hesapla şasi başına 1,74 milyon dolar; teslimat 2024 ile 2027",
+"kaynak": "haber, Defence24 ve Army Recognition"
 },
 {
-"deger": "1-3 milyon TL",
-"aciklama": "Tesis Güvenlik Belgesi fiziki güvenlik yatırımı; AQAP-2110 ve EYDEP danışmanlığı 10-25 bin avro, MIL-STD-810 testleri 20-80 bin avro; tüm savunma programı için 36 aylık toplam yaklaşık 400-800 bin avro, destekle yarıya iner",
-"kaynak": "01 rapor, s_road, Tablo 9.2 36 aylık belgelendirme, test ve altyapı bütçesi"
+"deger": "350 milyon dolar",
+"aciklama": "Somali uzay limanı bütçesi; Türkiye Uzay Ajansı gözetiminde; TAYFUN testleri için de kullanılacak; tek kaynak",
+"kaynak": "rapor, NTU CAS 2025 (tarih sayfada yok), https://www.ntu.edu.sg/cas/news-events/news/detail/somalia-to-launch-satellite-launch-in-partnership-with-turkey"
+},
+{
+"deger": "Warsheikh, Mogadişu'nun 70 km kuzeyi",
+"aciklama": "Somali üssünün konumu; Le Monde'a göre inşaat Ekim 2025 ortasında başladı; Bakan Kacır Aralık 2025'te fizibilite ve tasarımın bittiğini, birinci faz inşaatın başladığını söyledi",
+"kaynak": "haber, Jerusalem Post 04.07.2026 (Le Monde aktarımı) ve TRT World"
+},
+{
+"deger": "2.875.634.546 TL hasılat, 618.986.335 TL brüt kâr",
+"aciklama": "MEKA Global 2025 konsolide; brüt kâr marjı yüzde 21,5 (hesap); faaliyet zararı 40.483.342 TL; hasılatın yüzde 78'i yurt dışı; Ankara'da dört fabrika ve Eskişehir tesisi",
+"kaynak": "resmi, KAP 2025 TSRS raporu, https://kap.org.tr/en/Bildirim/1652844"
+},
+{
+"deger": "79,5 milyon avro, 24 ATMACA",
+"aciklama": "Malezya Savunma Bakanlığı ile Roketsan, DSA 2026, Nisan 2026; hesapla füze başına 3,3 milyon avro; gemisavar sürümü, kara lançeri değil; tek kaynak",
+"kaynak": "haber, Sözcü, https://www.sozcu.com.tr/avrupa-vazgecti-rota-turkiye-ye-dondu-atmaca-icin-ankara-nin-kapisini-calacaklar-p339109"
+},
+{
+"deger": "428.538.878,16 avro ve 4.884.244.675,07 TL",
+"aciklama": "SİPER Ürün-1 ve HİSAR seri üretim sözleşmesinde ASELSAN payı; füzeler Roketsan; teslimat 2025 ile 2029; SİPER seri teslimatının Ocak 2026'da başlaması planlandı; fırlatma araçları hem 8x8 kamyon hem çekili römork",
+"kaynak": "haber, Benguturk, https://www.benguturk.com/bilim-teknoloji/siper-ve-hisar-hava-savunma-sistemlerinde-seri-uretim-donemi-137722h"
+},
+{
+"deger": "5 ile 15 ton",
+"aciklama": "Her lançer aracındaki çelik yapı, hidrolik ve otomasyon; lançer sayısı füze adedinin altıda biri ile yirmide biri; HİSAR-O bataryasında 3 atıcı araç, 18 füze",
+"kaynak": "01 rapor 8.5 Talep yapısı; Benguturk"
+},
+{
+"deger": "400 ile 800 bin avro",
+"aciklama": "Beş savunma kolunun ortak 36 aylık belge, test ve altyapı bütçesi; bu yaprağın payı beşte bir, 80 ile 160 bin avro; desteklerle yarıya iner",
+"kaynak": "01 rapor Tablo 9.2 (tahmin)"
+},
+{
+"deger": "49,58 TL ve 55,69 TL",
+"aciklama": "20 Ekim 2026 dolar ve avro kuru, canlı bant; hesaplarda 1 avro 1,12 dolar alındı",
+"kaynak": "haber, Sözcü sayfa üstü kur bandı, 20 Ekim 2026"
 }
 ],
-"durum": "Rapor 22 Eylül 2026 tarihli ve bu yaprağı iki ufka bölüyor. Fırlatma üssüne santral ve çelik yapı satışı 0-12 ay hızlı kazanım. Lançer gövdesi ve üst yapıları 18-36 ay opsiyon. Yönetimin hatırladığı eski füze rampası işi kamuya açık hiçbir kaynakta bulunamadı. Arşiv taraması ve tesis veri formu hâlâ bekliyor; teknik uyum puanları bu veriyle güncellenecek. Somali üssünün ana yüklenicisi ve HİSAR, SİPER lançer üst yapılarını kimin ürettiği bilinmiyor. Rapor kendi doğrulamasının yaklaşık yarısını tamamlayamadığını yazıyor. Bant ikincil kalıyor: talep güçlü ama izinler, dolaylı ihracat ve alıcı belirsizliği koşul oluşturuyor. Kart da bu nişleri yönetimin fikirleri ve ikincil grubunda gösteriyor, dört kola almıyor.",
+"durum": "20 Ekim 2026 itibarıyla talep tarafı önceki çalışmadan daha sağlam: KAP'ta 1,23 milyar avroluk ASELSAN ve Roketsan sözleşmesi, NATO'nun KARA ATMACA tedarik duyurusu ve TAYFUN Blok-2 teslimatları kayıtlı. Somali üssünün yeri Warsheikh, inşaat Ekim 2025'te başladı, bütçe 350 milyon dolar; ana yüklenici hâlâ hiçbir kaynakta yok. Üst yapı tarafında Koluman HİSAR araçlarının platform ve üst yapı prototipini yaptığını, üst kısmın ASELSAN ve Roketsan sözleşmesinde olduğunu söylüyor; TAYFUN BMC 525-44 8x8 aracından atılıyor; SİPER ve ÇNRA üst yapısını kimin kaynakladığı bulunamadı. Ekonomi modeli ilk kez kuruldu: bilet 0,5 ile 1,3 milyon dolar, yıl 5 brüt kârı 0,3 ile 2,2 milyon dolar, baz geri ödeme 36 ile 40 ay. Bu model MEKA'nın yüzde 21,5'lik 2025 marjına ve tahmini birim fiyatlara dayanır; birim fiyatlar Roketsan ya da Koluman teklif talebi gelene kadar tahmindir. Bant ikincil kalıyor: pazar büyük, uyum güçlü, ama alıcı ve belge kapısı 12 ile 20 ay sürüyor.",
 "acik_sorular": [
-"Somali fırlatma üssünün ana yüklenicisi kim, konum ve inşaat takvimi ne? Rapor ana yükleniciyi hiçbir kaynakta bulamadı; konum ve maliyet kaynaklar arasında çelişkili; saha durumu için yalnız Eylül 2026 tarihli tek kaynaklı uydu haberi var.",
-"HİSAR, SİPER ve TAYFUN fırlatma ve taşıma-yükleme araçlarının üst yapısını bugün hangi firmalar üretiyor? Rapor Koluman'ı HİSAR araçlarının üreticisi olarak anıyor; Hidrokon'un Roketsan işi yalnız kendi 2016 duyurusuna dayanıyor; başka ad yok.",
-"MEKA'nın eski füze rampası işinin müşterisi, yılı, kapsamı, çizimi ve faturası var mı? Belgelenirse lançer nişlerinin giriş engeli puanı bir kademe iyileşir.",
-"MEKA tesislerinde tavan vinci 20-30 ton tek parça kaldırıyor mu, kanca yüksekliği 8 metreyi aşıyor mu? Altındaysa büyük lançer platformu bir puan düşer. Rapor Eskişehir için 10 ton ve 7 metre sınırı yazıyor; Başkent OSB tesisleri için veri yok."
+"Kısmen cevaplandı: Somali fırlatma üssünün ana yüklenicisi kim, konum ve inşaat takvimi ne?",
+"Kısmen cevaplandı: HİSAR, SİPER ve TAYFUN fırlatma ve taşıma-yükleme araçlarının üst yapısını bugün hangi firmalar üretiyor?",
+"Görüşme gerekir: MEKA'nın eski füze rampası işinin müşterisi, yılı, kapsamı, çizimi ve faturası var mı? (MEKA yönetimi, muhasebe arşivi (fatura ve iş emri) ve teknik ofis (çizim))",
+"Görüşme gerekir: MEKA tesislerinde tavan vinci 20-30 ton tek parça kaldırıyor mu, kanca yüksekliği 8 metreyi aşıyor mu? (MEKA üretim müdürü, tesis veri formu Ek A)"
 ],
 "adimlar": [
 {
-"adim": "Eski füze rampası işinin arşivini taramak: müşteri, yıl, kapsam, çizim, fatura, fotoğraf. Belge varsa Roketsan tedarikçi başvurusunda savunma referansı alanına yazılır.",
-"kim": "MEKA yönetimi ve arşiv sorumlusu",
-"ne_zaman": "Rapor iki hafta diyordu; 22 Eylül 2026'dan sayılırsa süre geçti; hemen"
+"adim": "Eski füze rampası işinin arşivini taramak: iş emri, çizim, fatura, fotoğraf. Aynı hafta tesis veri formunu doldurmak: dört Ankara fabrikası ve Eskişehir için vinç kapasitesi, kanca yüksekliği, boş saat.",
+"kim": "MEKA yönetimi, arşiv sorumlusu ve üretim müdürü",
+"ne_zaman": "20 Ekim 2026 ile 15 Kasım 2026"
 },
 {
-"adim": "Somali üssü yüklenicisini ve Türkiye Uzay Ajansı muhatabını tespit etmek; beton santrali, RCC ve çelik hizmet yapısı teklifi hazırlamak.",
+"adim": "Somali üssü için Türkiye Uzay Ajansı ve Sanayi ve Teknoloji Bakanlığı ile görüşme; Mogadişu'da çalışan Türk müteahhitlere mobil beton santrali, RCC ve çelik hizmet yapısı teklif dosyası göndermek; MUFS üssü için Roketsan altyapı birimine aynı dosya.",
 "kim": "MEKA satış ve iş geliştirme",
-"ne_zaman": "0-12 ay; pencere 2026-2027"
+"ne_zaman": "Kasım 2026 ile Mart 2027; pencere 2027 sonuna kadar"
 },
 {
-"adim": "Roketsan, ASELSAN ve Koluman tedarikçi portallarına kayıt; Roketsan portalında yeni, aday ve onaylı aşamalarını başlatmak.",
+"adim": "Roketsan tedarikçi portalına yeni tedarikçi kaydı; ASELSAN, Koluman ve BMC satın alma birimlerine kanister kızağı, denge ayağı kutusu ve konteyner gövdesi için yetkinlik dosyası ve numune teklifi.",
 "kim": "Savunma iş birimi sorumlusu",
-"ne_zaman": "Raporun ilk çeyreği; 22 Eylül 2026'dan hesapla 21 Aralık 2026 dolayı"
+"ne_zaman": "Aralık 2026'ya kadar kayıt; Mart 2027'ye kadar ilk teklif"
 },
 {
-"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak; EYDEP başvurusu yapmak.",
+"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak; EYDEP başvurusu; ortak bütçenin beşte bir payı bu yaprağa yazılır.",
 "kim": "Kalite ve belgelendirme ekibi",
-"ne_zaman": "Başlatma ilk çeyrek; belgeler Tablo 9.3'e göre 6. ayda hazır olmalı, rapor tarihinden hesapla Mart 2027 dolayı"
+"ne_zaman": "Başlangıç Kasım 2026; belgeler Haziran 2027"
 },
 {
-"adim": "Tesis Güvenlik Belgesi ve Üretim İzin Belgesi sürecine girilsin mi kararı; ardından lançer ve batarya kabini iş paketlerine teklif kararı.",
+"adim": "Bir konteyner lançer gövdesi ve bir kanister kızağı plus denge ayağı seti prototipini üretmek; MIL-STD-810 titreşim ve şok testine sokmak; IDEF 2027'de sergilemek.",
+"kim": "Teknik ofis ve üretim",
+"ne_zaman": "Prototip Nisan 2027; test Haziran 2027; fuar 3 ile 9 Mayıs 2027 (prototip erken biterse)"
+},
+{
+"adim": "12. ay kapısı: üs satışı gerçekleşti mi, ana yüklenicilerden en az bir numune siparişi var mı; evetse Tesis Güvenlik Belgesi ve Üretim İzin Belgesi sürecine girmek, hayırsa yaprağı yalnız üs altyapısı satışıyla sınırlamak.",
 "kim": "Yönetim kurulu",
-"ne_zaman": "Raporun 12. ayı, hesapla Eylül 2027 dolayı; teklif kararı 18. ay, hesapla Mart 2028 dolayı"
+"ne_zaman": "Ekim 2027; teklif kararı Nisan 2028"
 }
 ],
 "riskler": [
-"Yerli ana yüklenicilerde ödeme vadesi ve kur riski. Rapor bunu yüksek olasılık, orta etki sayıyor. ASELSAN 95-113 gün rakamı bilançodan hesaplanmış; alt yükleniciye fiilî vade için kamuya açık sayısal veri yok.",
-"Lançer ve rampa çelik yapısı ML4 sınıfında; fason iş dahi tam ihracat kontrolüne tabi. İhracat yalnız Roketsan ve ASELSAN paketleri üzerinden dolaylı; tasarım ana yüklenicide ve fiyat baskısı var.",
-"Fırlatma üssü penceresi dar, 2026-2027; yüklenici bulunamazsa fırsat kaçar. Polonya'daki lançer üretiminde Türk tedarikçi arayışı yok; giriş ancak Polonyalı ortak üzerinden ikinci kademede. Yabancı ana yüklenici lançer alt yapıları için ITAR ve siyasi risk, 18-36 ay kalifikasyon.",
-"Raporun kendi doğrulama notu: 38 iddianın 13'ü düzeltildi, doğrulamanın yaklaşık yarısı kullanım limiti nedeniyle tamamlanamadı; teyit gerekli işaretli iddialar var."
+"Alıcı belirsizliği: Somali üssünün ana yüklenicisi 10 ayda hiçbir kaynakta çıkmadı; üs satışı gerçekleşmezse yıl 1 ve 2 geliri sıfır olur ve baz geri ödeme 36 ile 40 aydan 5 yılın ötesine kayar. Olasılık orta, etki yüksek.",
+"Belge kapısı: lançer ve rampa çelik yapısı ML4; Tesis Güvenlik Belgesi, Üretim İzin Belgesi ve AQAP zinciri 12 ile 20 ay; fason iş dahi kontrole tabi. Belge gecikirse konteyner gövdesi ve üst yapı gelirleri yıl 3'ten yıl 4'e kayar. Olasılık yüksek, etki orta.",
+"Fiyat baskısı ve ödeme vadesi: tasarım ana yüklenicide, ikinci kademe marjı düşük; ASELSAN alt yüklenicilerinin bağımlılığı ve yatırım geri dönüş sorunu ASELSAN'ın kendi 2020 çalışmasında yazılı; bilanço bazında 95 ile 113 gün vade. Model yüzde 18 ile 28 brüt marj varsayıyor; yüzde 12'ye inerse yıl 5 brüt kârı 0,2 ile 0,95 milyon dolara düşer.",
+"Birim fiyat ve adet tahmini: konteyner gövdesi 80 ile 150 bin dolar ve üst yapı seti 25 ile 60 bin dolar rakamları tahmindir, web'de emsal yok; adetler Çelik Kubbe teslimat ritminden türetildi. İlk teklif talebi bu rakamları yüzde 30 aşağı ya da yukarı oynatabilir.",
+"Jeopolitik ve itibar: Le Monde ve Jerusalem Post üssü balistik füze test sahası olarak yazıyor; Somali tarafında sözleşme şeffaflığı tartışılıyor; MEKA'nın yüzde 78 ihracatlı sivil müşteri tabanında bazı pazarlarda soru doğurabilir. Olasılık düşük, etki orta.",
+"Yurt dışı lançer dalgası kapalı: HIMARS ITAR altında ve dış KOBİ çağrısı yok; Homar-K üretimi Polonya'da HSW ve Jelcz'de; Kongsberg ve Diehl sayfaları açılamadı. İhracat yalnız Roketsan ve ASELSAN paketleri üzerinden dolaylı."
 ],
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Rapor MEKA şirketi için yazılmış; kişisel yatırım seçeneği çalışmada yok. Fırlatma üssü satışı yeni yatırım istemez, mevcut ürün. Lançer tarafı için TGB fiziki güvenlik 1-3 milyon TL, AQAP ve EYDEP danışmanlığı 10-25 bin avro, MIL-STD testleri 20-80 bin avro. Raporun tüm savunma programı için 36 aylık toplamı 400-800 bin avro. Bu yaprağa düşen pay varsayım; yalnız lançer kalemleri sayılırsa 1. dilime de düşebilir.",
+"butce_not": "Bilet, girişin ilk 24 ayındaki MEKA harcaması: 420 ile 1.130 bin avro, yani 0,47 ile 1,27 milyon dolar; baz 750 bin avro (0,84 milyon dolar). Kalemler: beş kolun ortak belge ve test bütçesinin beşte biri 80 ile 160 bin avro (destek öncesi); konteyner lançer gövdesi prototipi 80 ile 150 bin avro (tahmin); kanister kızağı ve denge ayağı prototip seti 60 ile 120 bin avro (tahmin); yaprağa özgü ek MIL-STD-810 ve hidrolik test 20 ile 40 bin avro (tahmin); savunma iş birimi 2 ile 4 kişi 24 ay 150 ile 300 bin avro (tahmin); teklif, seyahat, IDEF 2027 30 ile 60 bin avro (tahmin); koşullu 25 tonluk iki köprü vinç 0 ile 300 bin avro (tahmin, tesis verisi gelince kesinleşir). İlk 12 ay harcaması 270 ile 530 bin avro (0,30 ile 0,59 milyon dolar): ortak kalemin yarısı, iki prototip, personelin ilk yılı, seyahatin yarısı. Vinç yatırımı yapılırsa üst sınır 1 milyon doları geçer ve 3. dilime yaklaşır; vinçsiz 2. dilimde kalır.",
 "yol": "ikisi",
-"yol_not": "Lançer gövdesi ve üst yapıları Roketsan, ASELSAN ve Koluman'a alt yüklenicilik. Fırlatma üssünde MEKA kendi beton santralini ve çelik yapısını doğrudan satar. Rapor Tablo 9.1 ve Tablo 7.1 alıcıları böyle ayırıyor. Kur ve ortak etiketleri raporun kendi terimi değil, varsayım."
+"yol_not": "Fırlatma üssünde MEKA kendi beton santralini ve çelik hizmet yapısını doğrudan satar (kur). Konteyner lançer gövdesi ve araç üst yapısında Roketsan, ASELSAN, Koluman ve BMC'ye ikinci kademe alt yüklenici olur (ortak). Yurt dışı lançer programlarına giriş ancak Polonyalı ya da Alman bir ortak üzerinden; bu turda açık çağrı bulunmadı."
 },
 "takvim": [
 {
-"tarih": "30 Aralık 2025",
-"olay": "Türkiye ve Somali uzay ve fırlatma üssü iki cumhurbaşkanınca açıklandı; fizibilite ve tasarım tamam, birinci faz inşaat başladı",
-"kaynak": "01 rapor, s_crane, Fırlatma üssü altyapısı",
-"iso": "2025-12-30"
+"tarih": "21 Kasım 2016",
+"olay": "Hidrokon, Roketsan ile Kasırga Artı füze taşıma sistemi anlaşmasını duyurdu; Roketsan teyidi yok",
+"kaynak": "https://www.hidrokon.com/haberdetay/8/roketsan-fuze-tasima-sistemi",
+"iso": "2016-11-21"
+},
+{
+"tarih": "Ağustos 2021",
+"olay": "SSB ile Roketsan KARA ATMACA sözleşmesi IDEF 2021'de imzalandı; ilk teslimat hedefi Ağustos 2025, menzil 280 km",
+"kaynak": "https://gbp.com.sg/stories/roketsan-expects-to-deliver-kara-atmaca-lrcm-in-2025/",
+"iso": "2021-08-15"
+},
+{
+"tarih": "20 Ekim 2022",
+"olay": "TAYFUN ilk test atışı, BMC 525-44 8x8 araçtan, 561 km",
+"kaynak": "https://shiftdelete.net/?p=862025",
+"iso": "2022-10-20"
+},
+{
+"tarih": "Aralık 2023",
+"olay": "Polonya 198 Jelcz şasi sözleşmesi, 1,5 milyar PLN, teslimat 2024 ile 2027",
+"kaynak": "https://defence24.com/armed-forces/poland-to-procure-15-bn-zlotys-worth-of-jelcz-truck-platforms-for-homar-k",
+"iso": "2023-12-15"
+},
+{
+"tarih": "25 Nisan 2024",
+"olay": "Polonya ile Hanwha 72 Homar-K modülü, 1,6 milyar dolar, teslimat 2026 ile 2029",
+"kaynak": "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/poland-secures-deal-for-homar-k-mlrs-from-south-korea",
+"iso": "2024-04-25"
+},
+{
+"tarih": "8 Mayıs 2024",
+"olay": "ABD Ordusu ile Lockheed Martin 96 HIMARS, 861,3 milyon dolar, tamamlanma 31 Mayıs 2026",
+"kaynak": "https://www.afcea.org/signal-media/army-purchases-himars-rocket-launchers",
+"iso": "2024-05-08"
+},
+{
+"tarih": "8 Temmuz 2024",
+"olay": "ASELSAN ile Roketsan hava savunma füze alt sistemleri sözleşme değişikliği 59,1 milyon avro, teslimat 2024 ile 2028",
+"kaynak": "https://www.borsagundem.com.tr/aselsan-ile-roketsan-arasinda-591-milyon-avro-tutarinda-sozlesme-degisikligi-imzalandi",
+"iso": "2024-07-08"
+},
+{
+"tarih": "11 Haziran 2025",
+"olay": "Roketsan ile PT Republik Defence Indonesia ikinci ATMACA sözleşmesi ve ortak girişim anlaşması, INDO Defence",
+"kaynak": "https://www.donanimhaber.com/roketsan-dan-endonezya-ya-ikinci-kez-atmaca-ihracati--192471",
+"iso": "2025-06-11"
+},
+{
+"tarih": "27 Ağustos 2025",
+"olay": "Çelik Kubbe ilk teslimat: 47 sistem, 460 milyon dolar",
+"kaynak": "https://en.wikipedia.org/wiki/Steel_Dome",
+"iso": "2025-08-27"
+},
+{
+"tarih": "Ekim 2025 ortası",
+"olay": "Somali Warsheikh üssünde inşaat başladı (Le Monde); resmi açıklama 30 Aralık 2025",
+"kaynak": "https://jpost.com/middle-east/article-901355",
+"iso": "2025-10-15"
+},
+{
+"tarih": "26 Kasım 2025",
+"olay": "SSB ile ASELSAN, Havelsan ve Roketsan 6,5 milyar dolarlık Çelik Kubbe sözleşmesi",
+"kaynak": "https://en.wikipedia.org/wiki/Steel_Dome",
+"iso": "2025-11-26"
+},
+{
+"tarih": "Ocak 2026",
+"olay": "SİPER seri üretim teslimatlarının başlaması planlandı; HİSAR ilk seri üretim üyesi 2025 sonu (plan, sözleşme haberi)",
+"kaynak": "https://www.benguturk.com/bilim-teknoloji/siper-ve-hisar-hava-savunma-sistemlerinde-seri-uretim-donemi-137722h",
+"iso": "2026-01-15"
 },
 {
 "tarih": "Nisan 2026",
-"olay": "Roketsan yeni tesisleri açtı ve temel attı, füze entegrasyon kapasitesi beş kat artıyor; KARA ATMACA konteyner lançeri ilk teslimat",
-"kaynak": "01 rapor, s_crane, 8.5 Talep yapısı",
+"olay": "ABD Ordusu HIMARS Lot 17 için 1,1 milyar dolar; Malezya ile Roketsan 24 ATMACA 79,5 milyon avro (DSA 2026)",
+"kaynak": "https://www.lockheedmartin.com/en-us/news/features/2026/Meeting-HIMARS-Demand-with-Unwavering-Dedication.html ; Sözcü",
 "iso": "2026-04-15"
 },
 {
-"tarih": "Mayıs 2026",
-"olay": "TAYFUN Blok-2 envantere girdi; rapor metni ay veriyor, kaynak künyesi 20 Mayıs 2026 tarihli",
-"kaynak": "01 rapor, s_crane, 8.6 Türkiye'deki değer zinciri",
-"iso": "2026-05-15"
+"tarih": "29 Haziran 2026",
+"olay": "Özel Kuvvetler Komutanlığı TAYFUN Blok-2 füzeleri ve silah taşıyıcı araçları kabul etti",
+"kaynak": "https://thedefensepost.com/2026/06/29/turkey-roketsan-tayfun-delivery/",
+"iso": "2026-06-29"
 },
 {
-"tarih": "2026-2027",
-"olay": "Fırlatma üssü altyapısı için satış penceresi; Somali üssü ve MUFS yerli üs",
-"kaynak": "01 rapor, s_crane, Tablo 8.5.2",
-"iso": "2026-06-30"
+"tarih": "7 Temmuz 2026",
+"olay": "NATO: Türkiye önemli sayıda kara konuşlu uzun menzilli ATMACA alacak; Roketsan NATO Savunma Sanayii Forumu'nda yüklenici",
+"kaynak": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/nato-summit-2026-turkiye-furthers-atmaca-procurement-munitions-provision",
+"iso": "2026-07-07"
 },
 {
-"tarih": "2025-2029",
-"olay": "SİPER ve HİSAR seri üretim dönemi, yüzlerce araç üst yapısı",
-"kaynak": "01 rapor, s_crane, 8.5 Talep yapısı",
-"iso": "2025-06-30"
+"tarih": "23 Eylül 2026",
+"olay": "ASELSAN ile Roketsan 1.234.210.000 avro hava savunma alt bileşen sözleşmesi",
+"kaynak": "https://kap.org.tr/tr/Bildirim/1666885",
+"iso": "2026-09-23"
 },
 {
-"tarih": "2026 sonu ya da 2027 başı",
-"olay": "Almanya yaklaşık 500 PULS lançeri çerçeve imzası bekleniyor, Bundeswehr payı yaklaşık 200; teyit gerekli",
-"kaynak": "01 rapor, s_crane, Tablo 8.5.1 ve s_road, Tablo 10.2",
-"iso": "2026-11-15"
+"tarih": "5 ile 9 Ekim 2026",
+"olay": "IAC 2026 Antalya; Somali üssünün inşaatının sürdüğü açıklandı",
+"kaynak": "https://www.gzt.com/teknoloji/bakan-kacir-duyurdu-milli-uzay-programinda-geri-sayim-basladi-turkiye-uzay-aracini-ne-zaman-firlatacak-4250873",
+"iso": "2026-10-09"
 },
 {
-"tarih": "3-9 Mayıs 2027",
-"olay": "IDEF 2027, İstanbul; SSB fuar desteğiyle",
-"kaynak": "01 rapor, s_road, 9.4 Ticari ilkeler",
-"iso": "2027-05-03"
+"tarih": "2027 ilk ayları",
+"olay": "Türkiye'nin hibrit itkili Ay aracı fırlatılacak (Kacır); MUFS test fırlatması 2026 ile 2027 (tek kaynak)",
+"kaynak": "https://www.gzt.com/... ; https://shiftdelete.net/?p=727204",
+"iso": "2027-06-30"
+},
+{
+"tarih": "3 ile 9 Mayıs 2027",
+"olay": "IDEF 2027 İstanbul",
+"kaynak": "01 rapor 9.4",
+"iso": "2027-05-09"
 },
 {
 "tarih": "1 Haziran 2027",
-"olay": "Kontrole Tabi Liste'ye yeni giren ürünlerin üreticileri için belge süreçlerinin tamamlanma tarihi; liste 30 Haziran 2026'da yayımlandı",
-"kaynak": "01 rapor, s_reg, 6.4 Türk ihracat kontrol zinciri",
+"olay": "Kontrole Tabi Liste'ye yeni giren ürünler için belge süreçlerinin tamamlanma tarihi",
+"kaynak": "01 rapor 6.4",
 "iso": "2027-06-01"
 },
 {
-"tarih": "Eylül 2027 dolayı ve Mart 2028 dolayı",
-"olay": "Raporun 12. ay karar noktası: TGB ve Üretim İzin Belgesi sürecine girilsin mi; 18. ay: lançer ve batarya kabini iş paketlerine teklif verilsin mi. Aylar rapordan, takvim tarihleri 22 Eylül 2026'dan hesaplandı",
-"kaynak": "01 rapor, s_road, Tablo 9.3 Kilometre taşları",
-"iso": "2027-09-15"
+"tarih": "Ekim 2027 ve Nisan 2028",
+"olay": "12. ay kapısı: TGB ve ÜİB'ye giriş kararı; 18. ay: lançer iş paketlerine teklif kararı (bu çalışmanın takvimi, 20 Ekim 2026'dan sayıldı)",
+"kaynak": "01 rapor Tablo 9.3; bu çalışma",
+"iso": "2027-10-15"
+},
+{
+"tarih": "2028",
+"olay": "Somali üssünden ilk fırlatma hedefi (Yeni Şafak, arama özeti, sayfa açılmadı)",
+"kaynak": "https://www.yenisafak.com/hayat/somalide-turk-uzay-ussu-4667277 (açılamadı)",
+"iso": "2028-06-30"
 }
 ],
 "kaynaklar": [
@@ -13810,6 +18134,11 @@ window.MEKA_DATA = {
 ],
 "tam_calisma": [
 {
+"dosya": "c_lancer",
+"bolum_basligi": "",
+"sayfa": null
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.5 Füze ve roket lançerleri, fırlatma rampaları ve büyük mekanik yapılar",
 "sayfa": 30
@@ -13841,10 +18170,219 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "tam",
-"kapsam_notu": "Savunma raporu bölüm 8.5 konuyu rakam, kaynak ve alt niş puanıyla anlatıyor; bölüm 5.2, 6.4, 7, 8.6, 9, 10 ve Tablo Ö.2 tamamlıyor. Web araması yapılmadı. 5+5 çalışması bu konuyu kapsamıyor. Puanlar tesis verisi gelmeden kamuya açık bilgiye dayalı varsayım.",
-"kanit": 4,
-"web": [],
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 12 arama, 32 sayfa; 4 açık sorunun 0'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. WebFetch DNS hatası verdi; sayfalar curl ile indirilip metne çevrilerek okundu. Reuters, Euronews, Satnews, Executivebiz, Kongsberg, Roketsan, MSB ve SSB sayfaları açılamadı; bu kaynaklara dayanan rakamlar ikincil aktarım ya da tek kaynak. Yaprağa özgü birim fiyatlar (beton santrali, çelik yapı ton fiyatı, konteyner gövdesi, üst yapı seti) web'de bulunamadı ve tahmin olarak işaretlendi; adetler program ritminden türetildi. KARA ATMACA adedi ve konteyner lançer teslimatı doğrulanamadı. Somali üssünün yüklenicisi, SİPER ve ÇNRA üst yapı üreticisi bulunamadı. MEKA'nın vinç kapasitesi ve eski rampa işi yalnız şirket içinden doğrulanabilir. Kanıt puanı 3: emsal sözleşmeler resmi ve borsa kaynaklı, ama ekonomi modelinin çekirdek birim fiyatları tahmindir ve alıcı belirsiz. Çürütme 20 Ekim 2026: 14 kaynak sayfası açıldı (KAP 1666885, KAP 1652844 ve TSRS PDF'i, Wikipedia Steel Dome, AFCEA, Army Recognition, Defence24, Benguturk, Habertürk, NTU, Jerusalem Post, Janes, Sözcü, Borsa Gündem, defence-industries.com); hepsi HTTP 200 döndü. InsideDefense, Notes from Poland, Lockheed Martin, Hidrokon, Yol Bak, TRT World, Horn Review, GZT, Shiftdelete, Defense Post, GBP, Defence Turkey, DonanımHaber ve SAHA sayfaları çürütmede açılmadı; bunlara dayanan satırlar araştırmacının okumasına dayanır.",
+"kanit": 3,
+"web": [
+{
+"url": "https://kap.org.tr/tr/Bildirim/1666885",
+"ne": "ASELSAN ÖDA 23.09.2026, Roketsan ile 1.234.210.000 avro sözleşme",
+"tur": "resmi"
+},
+{
+"url": "https://kap.org.tr/en/Bildirim/1652844",
+"ne": "MEKA Global 2025 TSRS raporu bildirimi; PDF: hasılat, brüt kâr, tesisler",
+"tur": "resmi"
+},
+{
+"url": "https://www.borsagundem.com.tr/aselsan-ile-roketsan-arasinda-591-milyon-avro-tutarinda-sozlesme-degisikligi-imzalandi",
+"ne": "08.07.2024, 59,1 milyon avro sözleşme değişikliği, KAP aktarımı",
+"tur": "haber"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Steel_Dome",
+"ne": "Çelik Kubbe 47 sistem 460 M$ ve 6,5 milyar $ sözleşme, Reuters ve PBS atıflı",
+"tur": "diger"
+},
+{
+"url": "https://www.afcea.org/signal-media/army-purchases-himars-rocket-launchers",
+"ne": "HIMARS 861,3 M$ sözleşme ilanı metni",
+"tur": "haber"
+},
+{
+"url": "https://insidedefense.com/node/221083",
+"ne": "HIMARS sözleşmesi 96 lançer",
+"tur": "haber"
+},
+{
+"url": "https://www.lockheedmartin.com/en-us/news/features/2026/Meeting-HIMARS-Demand-with-Unwavering-Dedication.html",
+"ne": "Nisan 2026 1,1 milyar $ HIMARS",
+"tur": "firma"
+},
+{
+"url": "https://www.defence-industries.com/projects/lockheed-martin-receives-contract-for-high-mobility-artillery-rocket-system",
+"ne": "HIMARS 289 M$ 24 lançer; 218 M$ 18 lançer",
+"tur": "diger"
+},
+{
+"url": "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/poland-secures-deal-for-homar-k-mlrs-from-south-korea",
+"ne": "Homar-K 72 modül 1,6 milyar $, Jelcz 198 şasi 345 M$",
+"tur": "haber"
+},
+{
+"url": "https://notesfrompoland.com/2024/04/26/poland-signs-1-6-billion-deal-with-south-korea-for-rocket-artillery-launchers/",
+"ne": "Homar-K 72 modül, 60'ı Polonya'da",
+"tur": "haber"
+},
+{
+"url": "https://defence24.com/armed-forces/poland-to-procure-15-bn-zlotys-worth-of-jelcz-truck-platforms-for-homar-k",
+"ne": "Jelcz 198 şasi 1,5 milyar PLN; 218 lançer 3,55 milyar $",
+"tur": "haber"
+},
+{
+"url": "https://www.haberturk.com/mehmetcik-in-yukune-derman-olacak-2283340-ekonomi",
+"ne": "Koluman HİSAR araç ve üst yapı prototipi, AA haberi, 6 Ocak 2019",
+"tur": "haber"
+},
+{
+"url": "https://www.sahaexpo.com/katilimci/koluman",
+"ne": "Koluman tesis ve faaliyet alanı",
+"tur": "firma"
+},
+{
+"url": "https://www.benguturk.com/bilim-teknoloji/siper-ve-hisar-hava-savunma-sistemlerinde-seri-uretim-donemi-137722h",
+"ne": "SİPER HİSAR seri üretim sözleşmesi, araç ve batarya yapısı",
+"tur": "haber"
+},
+{
+"url": "https://www.hidrokon.com/haberdetay/8/roketsan-fuze-tasima-sistemi",
+"ne": "Hidrokon 21.11.2016 duyurusu",
+"tur": "firma"
+},
+{
+"url": "https://www.yolbak.com.tr/alcak-orta-irtifa-fuze-rampasi395.html",
+"ne": "Yol Bak 2013 füze rampası",
+"tur": "firma"
+},
+{
+"url": "https://www.trtworld.com/article/e8e867fd877f",
+"ne": "Somali üssü, Kacır ve TUA açıklamaları",
+"tur": "haber"
+},
+{
+"url": "https://jpost.com/middle-east/article-901355",
+"ne": "Le Monde aktarımı: Warsheikh, Ekim 2025 inşaat başlangıcı",
+"tur": "haber"
+},
+{
+"url": "https://www.ntu.edu.sg/cas/news-events/news/detail/somalia-to-launch-satellite-launch-in-partnership-with-turkey",
+"ne": "Üs bütçesi 350 M$, TUA gözetimi, TAYFUN testi; sayfada tarih yok",
+"tur": "rapor"
+},
+{
+"url": "https://hornreview.org/2026/08/17/the-warsheikh-facility-and-somalias-pattern-of-asymmetric-agreements-with-turkey/",
+"ne": "Sözleşme şeffaflığı, kira ve gelir paylaşımı yayımlanmadı",
+"tur": "rapor"
+},
+{
+"url": "https://www.gzt.com/teknoloji/bakan-kacir-duyurdu-milli-uzay-programinda-geri-sayim-basladi-turkiye-uzay-aracini-ne-zaman-firlatacak-4250873",
+"ne": "Kacır: Somali uzay limanı, Ay aracı 2027, IAC 2026",
+"tur": "haber"
+},
+{
+"url": "https://www.istiklal.com.tr/dunya/israil-basini-turkiyenin-somalideki-uzay-ussunu-mercek-altina-aldi-1098339h",
+"ne": "Jerusalem Post haberinin Türkçe aktarımı",
+"tur": "haber"
+},
+{
+"url": "https://allafrica.com/stories/202607060081.html",
+"ne": "Le Monde aktarımı, Ekim 2025 başlangıç",
+"tur": "haber"
+},
+{
+"url": "https://shiftdelete.net/?p=727204",
+"ne": "MUFS test fırlatması 2026 ile 2027, 400 kg kapasite (tek kaynak)",
+"tur": "haber"
+},
+{
+"url": "https://shiftdelete.net/?p=862025",
+"ne": "TAYFUN BMC 525-44 8x8 fırlatıcı aracı",
+"tur": "haber"
+},
+{
+"url": "https://thedefensepost.com/2026/06/29/turkey-roketsan-tayfun-delivery/",
+"ne": "TAYFUN Blok-2 teslimatı 29.06.2026",
+"tur": "haber"
+},
+{
+"url": "https://www.janes.com/defence-intelligence-insights/defence-news/defence/nato-summit-2026-turkiye-furthers-atmaca-procurement-munitions-provision",
+"ne": "NATO 07.07.2026 KARA ATMACA tedarik taahhüdü",
+"tur": "haber"
+},
+{
+"url": "https://gbp.com.sg/stories/roketsan-expects-to-deliver-kara-atmaca-lrcm-in-2025/",
+"ne": "KARA ATMACA sözleşmesi IDEF 2021",
+"tur": "haber"
+},
+{
+"url": "https://www.defenceturkey.com/en/content/national-turbojet-engine-and-kara-atmaca-projects-signed-4803",
+"ne": "KARA ATMACA 280 km, Kale ARGE motoru",
+"tur": "haber"
+},
+{
+"url": "https://www.sozcu.com.tr/avrupa-vazgecti-rota-turkiye-ye-dondu-atmaca-icin-ankara-nin-kapisini-calacaklar-p339109",
+"ne": "Malezya 24 ATMACA 79,5 M€; 20 Ekim 2026 canlı kur bandı",
+"tur": "haber"
+},
+{
+"url": "https://www.donanimhaber.com/roketsan-dan-endonezya-ya-ikinci-kez-atmaca-ihracati--192471",
+"ne": "Endonezya ikinci ATMACA sözleşmesi ve ortak girişim 11.06.2025",
+"tur": "haber"
+},
+{
+"url": "https://www.reuters.com/business/aerospace-defense/turkish-firms-sign-65-billion-contracts-reinforce-steel-dome-defence-system-2025-11-26/",
+"ne": "Çelik Kubbe 6,5 milyar $ birincil haber; açılamadı (401)",
+"tur": "haber"
+},
+{
+"url": "https://tr.euronews.com/2026/01/04/turkiye-somalide-uzay-limani-kuruyor-neden-somali",
+"ne": "Somali üssü; açılamadı (406), yalnız arama özeti",
+"tur": "haber"
+},
+{
+"url": "https://satnews.com/2026/01/02/turkiye-initiates-construction-of-equatorial-spaceport-in-somalia",
+"ne": "Somali üssü; açılamadı (301 döngü)",
+"tur": "haber"
+},
+{
+"url": "https://www.executivebiz.com/articles/lockheed-martin-army-himars-launcher",
+"ne": "HIMARS 1,13 milyar $ Nisan 2026; açılamadı (403), arama özeti",
+"tur": "haber"
+},
+{
+"url": "https://www.kongsberg.com/kda/suppliers/",
+"ne": "Kongsberg tedarikçi portalı; açılamadı (403)",
+"tur": "firma"
+},
+{
+"url": "https://www.roketsan.com.tr/tr/tedarik-zinciri",
+"ne": "Roketsan tedarik zinciri; açılamadı (404)",
+"tur": "firma"
+},
+{
+"url": "https://www.msb.gov.tr/TeknikHizmetler/icerik/tesis-guvenlik-belgesi",
+"ne": "MSB TGB sayfası; açılamadı",
+"tur": "resmi"
+},
+{
+"url": "https://savunmahatti.com/kara-atmaca-konteyner-firlatma-sistemi/",
+"ne": "Raporun KARA ATMACA konteyner lançer kaynağı; açılamadı (404)",
+"tur": "haber"
+},
+{
+"url": "https://www.yenisafak.com/hayat/somalide-turk-uzay-ussu-4667277",
+"ne": "İlk fırlatma 2028; açılamadı, arama özeti",
+"tur": "haber"
+}
+],
 "celiskiler": [
+"Somali üssü inşaat başlangıcı: Le Monde (Jerusalem Post ve AllAfrica aktarımı) Ekim 2025 ortası diyor; Bakan Kacır ve önceki yaprak 30 Aralık 2025 açıklamasıyla birinci faz başladı diyor; Jerusalem Post resmi duyuruyu Aralık 2025 yazıyor. NTU inşaatın Aralık'ta başladığını yazıyor ama yıl vermiyor; metin 2025 içinde yazıldığından Aralık 2024 anlaşılıyor. Fiilî başlangıç Ekim 2025 olabilir, resmi duyuru Aralık 2025.",
+"Üs maliyeti: NTU 350 milyon dolar yazıyor, tek kaynak; önceki rapor maliyetin kaynaklar arasında çelişkili olduğunu yazmıştı. Rakam modelde kullanılmadı, yalnız ölçek için anıldı.",
+"KARA ATMACA ilk teslimatı: rapor Nisan 2026 diyor (Savunma Hattı, sayfa bu turda 404); Janes 7 Temmuz 2026 NATO duyurusunu tedarik taahhüdü olarak okuyor, teslimat tarihi doğrulanamadı. Savunma Bakanı Güler Nisan 2026'da teslimatlar arasında ATMACA saydı (Janes).",
+"Koluman'ın rolü: önceki listede 2019 beyanı yazıyordu; Habertürk sayfası 6 Ocak 2019 tarihli, önceki tarih doğru. Koluman platformu ve üst yapı prototipini yaptığını, üst kısmın ASELSAN ve Roketsan kapsamında olduğunu söylüyor; atış kontrol merkezi aracı ve üst yapısı da Koluman'da. Raporun 5.2 ile 8.6 arasındaki araç ve üst yapı ayrımı böylece netleşiyor: araç ve kaba üst yapı Koluman, lançer mekaniği ana yüklenici.",
+"Çelik Kubbe ilk teslimatı: Wikipedia 47 sistem yazıyor, araç değil; Erdoğan'ın saydığı 10 SİPER ve 21 HİSAR aracı 31 eder, kalanı PUHU, REDET ve radarlar. Araç başına fiyat bu yüzden sistem başına diye okunmalı.",
+"Önceki butce_not yalnız lançer kalemleri sayılırsa 1. dilime düşebilir diyordu; bu turun modeli personel, iki prototip ve ortak payla 2. dilimi veriyor; vinç yatırımı eklenirse 3. dilime yaklaşır.",
+"Önceki yaprak kanıt puanını 4 vermişti; bu tur 3 veriyor çünkü yaprağa özgü birim fiyatların hiçbiri kaynaklı değil ve Somali yüklenicisi hâlâ yok; emsal sözleşmeler ise resmi ve borsa kaynaklı.",
+"Kongsberg 2,7 milyar NOK ve Diehl 1,5 milyar avro rakamları bu turda doğrulanamadı; sayfalar açılamadı. Önceki listede duruyor, yeni kaynak yok.",
 "İnceleme, 5 Ekim 2026: fırlatma üssü altyapısı ile konteyner ve şelter gövdesi kartta aynı puanda, 3,70; biri dört kolda, diğeri değil ve kartta gerekçe yok. Raporun 7.1 bölümü cevabı veriyor: fırlatma üssü bir niş değil, mevcut ürünle yakalanacak zamana bağlı proje fırsatı.",
 "İnceleme: kart fırlatma üssü için alıcı yazmıyor, ağaçtaki devlet etiketi varsayım sayılmış. Rapor Tablo 7.1 alıcıyı Türkiye Uzay Ajansı, Somali üs yüklenicisi ve Roketsan olarak veriyor; devlet etiketi raporla uyumlu ama üs yüklenicisi henüz bilinmiyor.",
 "Kart ve rapor Tablo 9.1 lançer gövdesini 18-36 ay opsiyon sayıyor; aynı tablo fırlatma üssü satışını 0-12 ay hızlı kazanım sayıyor. Bu yaprağın iki parçası farklı ufukta; tek bant altında toplanması yönetimi yanıltabilir.",
@@ -13853,6 +18391,20 @@ window.MEKA_DATA = {
 "İnceleme: eski füze rampası işi kartta referans olarak anılıyor ama belgesi toplanmamış; rapor da işi kamuya açık hiçbir kaynakta bulamadığını yazıyor. Referans bugün itibarıyla yalnız yönetimin hatırasına dayanıyor."
 ],
 "degisiklikler": [
+"20 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
+"Çelik Kubbe ilk teslimatı: Wikipedia 47 araç değil 47 sistem yazıyor (10 SİPER aracı, 21 HİSAR aracı, 7 PUHU, 2 REDET, radarlar); rakamlar, emsaller, takvim, firmalar, neden ve çalışma metninde 47 araç ifadesi 47 sistem olarak düzeltildi, araç başına 9,8 milyon dolar sistem başına diye yazıldı.",
+"Benguturk kaynağı SİPER seri teslimatının Ocak 2026'da başlayacağını yazıyor, başladığını değil; rakamlar, takvim ve çalışma metnindeki başladı ifadesi plan olarak düzeltildi.",
+"Habertürk Koluman haberi tarihsiz değil, 6 Ocak 2019 tarihli; cevaplar, firmalar, kaynak 11 ve çelişkiler listesindeki 2018 dolayı tahmini silindi, önceki listenin 2019 tarihi doğru çıktı.",
+"KAP 1666885 bildiriminde müşteri Roketsan, satıcı ASELSAN; firmalar listesinde Roketsan notu sözleşme aldı yerine ASELSAN'a sipariş verdi diye düzeltildi.",
+"Sözcü kur bandı canlı; çürütme sırasında avro 55,69 TL gösterdi, 55,63 değil; kur satırları 55,69 olarak güncellendi, 1 avro 1,12 dolar oranı değişmedi.",
+"NTU CAS sayfasında 26 Eylül 2025 tarihi yok; kaynak tarihi 2025, tarih sayfada yok diye yazıldı. NTU inşaatın Aralık'ta başladığını yıl vermeden yazıyor; çelişkiler listesine eklendi.",
+"defence-industries.com sayfası sözleşme tarihi vermiyor ama teslim sürelerini veriyor: 24 HIMARS Temmuz 2022'ye, 18 HIMARS Aralık 2020'ye kadar; emsal satırı 2020 dolayı yerine 2018 ile 2020 dolayı, teslim tarihleriyle yazıldı.",
+"Wikipedia 6,5 milyar dolarlık sözleşmeyi Reuters, Army Recognition ve Times of Israel ile üç kaynağa bağlıyor; rakam açıklamasına eklendi.",
+"Ekonomi modeli aritmetiği: ilk 12 ay harcaması 220 ile 550 bin avro, sayılan kalemlerin toplamıyla (ortak payın yarısı 40 ile 80, iki prototip 140 ile 270, personel ilk yıl 75 ile 150, seyahatin yarısı 15 ile 30) uyuşmuyordu; 270 ile 530 bin avro (0,30 ile 0,59 milyon dolar) olarak düzeltildi, çalışma metni ve bütçe notu güncellendi.",
+"Ekonomi modeli aritmetiği: İş C'de yıllık 60 ile 120 aracın yüzde 10 ile 15'i 6 ile 18 set eder, model 10 ile 20 set alıyor; yüzde 20 ile 30'u 12 ile 36 set eder, model 20 ile 40 set alıyor. Gelir ve kâr satırları set adetlerine dayandığından adetler korundu, pay yüzdeleri yaklaşık yüzde 15 ve yüzde 33 olarak düzeltildi.",
+"Diğer aritmetik doğrulandı: bilet 420 ile 1.130 bin avro toplamı, 0,47 ile 1,27 milyon dolar, baz 0,84; İş B ve C yıl 3 ve yıl 5 gelirleri; yıl 3 brüt kâr 0,12 ile 0,9; yıl 5 1,7 ile 7,9 gelir ve 0,3 ile 2,2 kâr; baz birikimli 0,70 ve 1,50; geri ödeme 38 ay; HIMARS 9,0, Jelcz 1,74, Malezya 3,3 ve MEKA marjı yüzde 21,5 hesapları.",
+"Kaynak 10 Defence24 URL'si doğru yolla (/armed-forces/) yazıldı; sınırlar bölümündeki yanlış URL notu kaldırıldı.",
+"Çelişkiler listesine 47 sistem ile araç ayrımı eklendi; kanıt puanı 3 korundu, bant önerisi ikincil değişmedi.",
 "puan_metni: sıra numaralarının Tablo 7.1'den değil 7.1 metninden alındığı ve eşit puanlı nişler yüzünden bir basamak kayabileceği notu eklendi; Tablo 8.5.2'nin ölçeğinin başlıkta yazmadığı eklendi.",
 "rakamlar, 6,5 milyar dolar: s_eco bölüm başlığı gerçek başlıkla düzeltildi: 5.2 Ana yüklenicilerin talebi: ağır imalat nerede?",
 "rakamlar, 47 araç: s_eco 5.2 kaynak olarak eklendi.",
@@ -13883,109 +18435,151 @@ window.MEKA_DATA = {
 "kapsam_notu: 8.6 ve Tablo Ö.2 eklendi; puanların tesis verisi öncesi varsayım olduğu eklendi.",
 "celiskiler: Koluman ile 5.2 arasındaki araç ve üst yapı ayrımı çelişkisi eklendi."
 ],
-"guven": 5,
+"guven": 4,
 "firmalar": [
 {
 "ad": "Hidrokon",
 "rol": "rakip",
-"not": "Füze taşıma-yükleme vincinde yerleşik rakip; Roketsan ile 2016 Kasırga Artı füze taşıma sistemi anlaşmasını kendi sitesinde duyurdu.",
+"not": "Konya'da füze taşıma-yükleme vincinde yerleşik; Roketsan ile Kasırga Artı füze taşıma sistemi anlaşmasını 21 Kasım 2016'da kendi sitesinde duyurdu, Roketsan teyidi bu turda da bulunamadı.",
 "kaynak": "https://www.hidrokon.com/haberdetay/8/roketsan-fuze-tasima-sistemi"
 },
 {
 "ad": "YOL BAK",
 "rol": "rakip",
-"not": "Ankara Akyurt'ta; 2013'te mobil alçak ve orta irtifa füze fırlatma rampası yaptı, SSB 2026 kataloğunda bu başlıktaki tek bağımsız firma.",
+"not": "Ankara Akyurt; 2013'te 6x6 kamyon üzerinde MIL-STD-810G alçak ve orta irtifa mobil füze fırlatma rampası yaptı, sitesinde ürün olarak listeliyor.",
 "kaynak": "https://www.yolbak.com.tr/alcak-orta-irtifa-fuze-rampasi395.html"
 },
 {
 "ad": "Pagetel",
 "rol": "rakip",
-"not": "İzmir'de askerî şelter ve sistem şelterizasyonu yapıyor, ASELSAN ve Roketsan referansı var; konteyner tipi kabinlerde yerleşik rakip.",
+"not": "İzmir'de askerî şelter ve sistem şelterizasyonu; ASELSAN ve Roketsan referansı; konteyner tipi kabinlerde yerleşik rakip (önceki araştırma notu, bu turda web'de yeniden doğrulanmadı).",
 "kaynak": "araştırma notu S3, Bölüm 5"
 },
 {
 "ad": "Roketsan",
 "rol": "musteri",
-"not": "KARA ATMACA konteyner lançerini Nisan 2026'da ilk kez teslim etti; 2025 cirosu 2 milyar doları aştı, tedarikçi başvurusu üç aşamalı portaldan (yeni, aday, onaylı) yapılıyor.",
-"kaynak": "01 rapor, s_crane, 8.5"
+"not": "ASELSAN'a 23 Eylül 2026'da 1,23 milyar avroluk hava savunma alt bileşen siparişi verdi (KAP'ta müşteri Roketsan); NATO 7 Temmuz 2026'da Türkiye'nin önemli sayıda KARA ATMACA alacağını duyurdu; TAYFUN Blok-2 teslimatları sürüyor; tedarikçi portalı sayfası bu turda 404 verdi.",
+"kaynak": "https://kap.org.tr/tr/Bildirim/1666885 ; https://www.janes.com/defence-intelligence-insights/defence-news/defence/nato-summit-2026-turkiye-furthers-atmaca-procurement-munitions-provision"
 },
 {
 "ad": "ASELSAN",
 "rol": "musteri",
-"not": "HİSAR ve SİPER'in sistem entegratörü, seri üretim sözleşmesi 1,5 milyar doların üstünde; alt yükleniciler ona bağımlı, ödeme vadesi bilanço bazında yaklaşık 95 ile 113 gün.",
-"kaynak": "01 rapor, s_crane, 8.5; s_eco, Tablo 5.3"
+"not": "Çelik Kubbe ve SİPER, HİSAR entegratörü; 27 Ağustos 2025'te 47 sistem 460 milyon dolar teslim etti; 26 Kasım 2025'te 6,5 milyar dolarlık sözleşmenin tarafı; seri üretim payı 428,5 milyon avro ve 4,88 milyar TL, teslimat 2025 ile 2029.",
+"kaynak": "https://en.wikipedia.org/wiki/Steel_Dome ; Benguturk"
 },
 {
 "ad": "Koluman",
 "rol": "musteri",
-"not": "HİSAR füze fırlatma ve taşıma-yükleme araç platformunu ve üst yapı donanımı prototipini yüzde 70'in üzerinde yerlilikle üretti (2019 beyanı); aynı katmanda yerleşik rakip de.",
-"kaynak": "araştırma notu S8, Bölüm 4"
+"not": "Tarsus, 312.000 m2 tesis, Daimler onaylı üst yapıcı; HİSAR füze fırlatma ve taşıma-yükleme araçlarının platformunu ve üst yapı prototipini yüzde 70 üstü yerlilikle üretti; üst kısım ASELSAN ve Roketsan sözleşmesinde (AA, 6 Ocak 2019); SAHA 2026'da platin alan katılımcısı. Hem müşteri hem aynı katmanda rakip.",
+"kaynak": "https://www.haberturk.com/mehmetcik-in-yukune-derman-olacak-2283340-ekonomi ; https://www.sahaexpo.com/katilimci/koluman"
+},
+{
+"ad": "BMC",
+"rol": "musteri",
+"not": "TAYFUN ilk test atışı BMC 525-44 8x8 aracından yapıldı (20 Ekim 2022); TAYFUN lançer aracının üst yapı tedarikçisi açık kaynakta yok; üst yapı alt parçaları için aday alıcı.",
+"kaynak": "https://shiftdelete.net/?p=862025"
+},
+{
+"ad": "Nurol Makina",
+"rol": "ortak_adayi",
+"not": "Task listesinde lançer aracı adayı olarak geçiyor; bu turda lançer ya da üst yapı işiyle ilgili hiçbir kaynak bulunamadı, yalnız DSA 2026 ve EFES 2026 zırhlı araç haberleri var (arama özeti).",
+"kaynak": "https://www.c4defence.com/ (arama özeti, lançer bağlantısı bulunamadı)"
 },
 {
 "ad": "Kongsberg",
 "rol": "musteri",
-"not": "NASAMS için Norveç'in 2,7 milyar NOK'luk yeni kanister lançer siparişi var (Aralık 2024); tedarikçi portalı açık.",
-"kaynak": "https://www.kongsberg.com/kda/suppliers/"
+"not": "NASAMS kanister lançerleri; önceki listedeki 2,7 milyar NOK Aralık 2024 siparişi bu turda doğrulanamadı, tedarikçi sayfası 403 verdi.",
+"kaynak": "https://www.kongsberg.com/kda/suppliers/ (açılamadı)"
 },
 {
 "ad": "Türkiye Uzay Ajansı",
 "rol": "kurum",
-"not": "Somali uzay ve fırlatma üssü 30 Aralık 2025'te açıklandı, birinci faz inşaat başladı; fırlatma üssü işinde muhatap kurum, ana yüklenici belli değil.",
-"kaynak": "https://www.trtworld.com/article/e8e867fd877f"
+"not": "Somali Warsheikh üssünün inşaatını gözetiyor; üs 350 milyon dolar (NTU, tek kaynak); yönetim kurulu üyesi Karabeyoğlu TRT World'e üssün dünyanın en iyi fırlatma yerlerinden biri olduğunu söyledi.",
+"kaynak": "https://www.trtworld.com/article/e8e867fd877f ; NTU CAS"
 },
 {
 "ad": "Sanayi ve Teknoloji Bakanlığı",
 "rol": "kurum",
-"not": "Somali üssünü Türkiye Uzay Ajansı ile birlikte koordine eden bakanlık; özel müteahhit adı hiçbir kaynakta yok.",
-"kaynak": "https://www.trtworld.com/article/e8e867fd877f"
+"not": "Bakan Kacır Aralık 2025'te fizibilite ve tasarımın bittiğini, birinci faz inşaatın başladığını; 2026'da uzay limanının hızla tamamlanacağını açıkladı; müteahhit adı vermedi.",
+"kaynak": "https://www.gzt.com/teknoloji/bakan-kacir-duyurdu-milli-uzay-programinda-geri-sayim-basladi-turkiye-uzay-aracini-ne-zaman-firlatacak-4250873"
 },
 {
 "ad": "SSB",
 "rol": "kurum",
-"not": "EYDEP ve YETEN kayıtları yerli ana yükleniciler için fiilî giriş bileti; kataloğunda lançer mekaniği üreten bağımsız firma yalnızca Yol Bak.",
-"kaynak": "01 rapor, s_eco, 5.3 ve 5.5"
+"not": "Çelik Kubbe 6,5 milyar dolar ve KARA ATMACA sözleşmelerinin alıcısı; EYDEP ve yüzde 21 yan sanayi kuralı alt yüklenici kapısı; 7 Temmuz 2026 NATO Forumu'nda Roketsan'ı yüklenici saydı.",
+"kaynak": "https://en.wikipedia.org/wiki/Steel_Dome ; Janes 07.07.2026"
 },
 {
 "ad": "MSB",
 "rol": "kurum",
-"not": "Lançer ve rampa çelik yapısı ML4 sınıfında; Tesis Güvenlik Belgesi, Üretim İzin Belgesi ve AQAP zinciri 12 ile 20 ay sürer, fason iş dahi tam kontrole tabi.",
-"kaynak": "01 rapor, s_reg, 6.4 ve Tablo 6.3"
+"not": "Lançer ve rampa çelik yapısı ML4; Tesis Güvenlik Belgesi, Üretim İzin Belgesi ve AQAP zinciri 12 ile 20 ay; MSB TGB sayfası bu turda açılamadı.",
+"kaynak": "01 rapor 6.4 ve Tablo 6.3"
 },
 {
 "ad": "Baykar",
 "rol": "emsal",
-"not": "Somali üssünü Roketsan ile birlikte kullanacak; Selçuk Bayraktar inşaatın devlet tarafından başlatıldığını söyledi (12 Aralık 2025).",
+"not": "Somali üssünü Roketsan ile birlikte kullanacak; bu turda yeni kaynak yok.",
 "kaynak": "araştırma notu S8, Bölüm 3.5"
 },
 {
 "ad": "Özen İş Makina",
 "rol": "emsal",
-"not": "Roket ve füze yapısal parçaları, gövde ve alt sistemler üreten KOBİ; WDS 2026'da Roketsan standındaki 15 KOBİ'den biri.",
+"not": "Roket ve füze yapısal parçaları üreten KOBİ; WDS 2026'da Roketsan standında; bu turda yeni kaynak yok.",
 "kaynak": "araştırma notu S8, Bölüm 4"
 },
 {
 "ad": "MERKAD Makina",
 "rol": "emsal",
-"not": "Roket gövde ve kanat sistemleri üretiyor; kapasitesinin yüzde 85'i savunmaya, bunun yüzde 60'ı Roketsan'a gidiyor.",
+"not": "Roket gövde ve kanat sistemleri; kapasitesinin yüzde 85'i savunma, bunun yüzde 60'ı Roketsan; bu turda yeni kaynak yok.",
 "kaynak": "araştırma notu S8, Bölüm 4"
 },
 {
 "ad": "Diehl",
 "rol": "emsal",
-"not": "IRIS-T SLM için Nonnweiler entegrasyon merkezi kuruyor (1,5 milyar avro); tedarikçi adı vermiyor, kapasite darboğazı var.",
-"kaynak": "https://www.grosswald.org/"
+"not": "IRIS-T SLM Nonnweiler entegrasyon merkezi 1,5 milyar avro; römork ve lançer tedarikçisi açıklanmıyor; bu turda doğrulanamadı.",
+"kaynak": "01 rapor Tablo 8.5.1"
 },
 {
 "ad": "KNDS",
 "rol": "emsal",
-"not": "EuroPULS ortak girişimi Kassel'de kuruldu (26 Mart 2026); Yunanistan 36 sistem sipariş etti (650 milyon avro), yerel içerik ifadesi yok.",
-"kaynak": "https://www.knds.com/"
+"not": "EuroPULS ortak girişimi Kassel, Mart 2026; Yunanistan 36 sistem 650 milyon avro; yerel içerik ifadesi yok; bu turda doğrulanamadı.",
+"kaynak": "01 rapor Tablo 8.5.1"
 },
 {
 "ad": "Lockheed Martin",
 "rol": "emsal",
-"not": "HIMARS hattı yılda 48'den 96 lançere çıktı; Polonya Homar-A için 486 lançer modülü verildi, dış KOBİ'ye açık çağrı yok, ITAR geçerli.",
-"kaynak": "https://www.lockheedmartin.com/"
+"not": "HIMARS: 8 Mayıs 2024'te 96 lançer 861,3 milyon dolar; Nisan 2026'da 1,1 milyar dolar Lot 17; 2018 ile 2020 dolayı 24 lançer 289 milyon dolar ve 18 lançer 218 milyon dolar; Camden hattı, dış KOBİ çağrısı yok.",
+"kaynak": "https://www.afcea.org/signal-media/army-purchases-himars-rocket-launchers ; https://insidedefense.com/node/221083 ; Lockheed Martin 06.05.2026"
+},
+{
+"ad": "Hanwha Aerospace",
+"rol": "emsal",
+"not": "Polonya Homar-K: 218 modül 3,55 milyar dolar (Kasım 2022), 72 modül 1,6 milyar dolar (25 Nisan 2024), 60'ı Polonya'da; toplam 290.",
+"kaynak": "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/poland-secures-deal-for-homar-k-mlrs-from-south-korea"
+},
+{
+"ad": "PGZ-WWR konsorsiyumu (HSW, Jelcz)",
+"rol": "emsal",
+"not": "Polonya Silahlanma Ajansı ile 198 Jelcz şasi 1,5 milyar PLN brüt (Aralık 2023), teslimat 2024 ile 2027; HSW lançer modüllerini üretiyor; alt yüklenicileri PGZ grubu ve Polonyalı firmalar.",
+"kaynak": "https://defence24.com/armed-forces/poland-to-procure-15-bn-zlotys-worth-of-jelcz-truck-platforms-for-homar-k"
+},
+{
+"ad": "PT Republik Defence Indonesia",
+"rol": "emsal",
+"not": "Roketsan ile 11 Haziran 2025'te ikinci ATMACA tedarik sözleşmesi ve ortak girişim anlaşması; füze montajı ve yerli üretim Endonezya'da; adet ve bedel açıklanmadı.",
+"kaynak": "https://www.donanimhaber.com/roketsan-dan-endonezya-ya-ikinci-kez-atmaca-ihracati--192471"
+},
+{
+"ad": "Malezya Savunma Bakanlığı",
+"rol": "emsal",
+"not": "Nisan 2026 DSA 2026'da Roketsan ile 24 ATMACA için 79,5 milyon avro sözleşme; gemisavar sürümü; tek kaynak.",
+"kaynak": "https://www.sozcu.com.tr/avrupa-vazgecti-rota-turkiye-ye-dondu-atmaca-icin-ankara-nin-kapisini-calacaklar-p339109"
+},
+{
+"ad": "MEKA Global",
+"rol": "yatirimci",
+"not": "2025 hasılat 2.875.634.546 TL, brüt kâr 618.986.335 TL (yüzde 21,5), faaliyet zararı 40.483.342 TL; ihracat yüzde 78; Ankara'da dört fabrika ve Eskişehir tesisi; ürün portföyü beton santralleri ve kırma-eleme.",
+"kaynak": "https://kap.org.tr/en/Bildirim/1652844"
 },
 {
 "ad": "Hanwha",
@@ -13994,6 +18588,111 @@ window.MEKA_DATA = {
 "kaynak": "https://defence-industry.eu/"
 }
 ],
+"ekonomi": {
+"bilet": "0,47 ile 1,27 milyon dolar (420 ile 1.130 bin avro), baz 0,84 milyon dolar; ilk 24 ay; ortak belge payı beşte bir dahil; vinç koşullu",
+"sure_ilk_gelir": "Üs satışı gerçekleşirse 6 ile 12 ay (2027); alt yüklenici geliri belgelerle 18 ile 30 ay (2028 sonu, 2029)",
+"yil3": "2029: gelir 0,65 ile 3,2 milyon dolar; brüt kâr 0,12 ile 0,9 milyon dolar (konteyner gövdesi 5 ile 10 adet, üst yapı 10 ile 20 set, üs ek satışı 0 ile 0,5 milyon dolar; marj yüzde 18 ile 28)",
+"yil5": "2031: gelir 1,7 ile 7,9 milyon dolar; brüt kâr 0,3 ile 2,2 milyon dolar (konteyner gövdesi 15 ile 30 adet, üst yapı 20 ile 40 set, üs ve ihracat projeleri 0 ile 1,0 milyon dolar)",
+"geri_odeme": "Baz 36 ile 40 ay (bilet 0,84 milyon dolar; birikimli brüt kâr yıl 3 sonunda 0,70, yıl 4 içinde 1,50 milyon dolar). İyi durum 24 ay (üs satışı yıl 1'de). Kötü durum 5 yılda dönmez (üs satışı yok, belge 20 ay, marj yüzde 12).",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kârı 0,3 ile 2,2 milyon dolar; dayanak 15 ile 30 konteyner gövdesi ve 20 ile 40 üst yapı seti tahmini adedi, 80 ile 150 bin dolar ve 25 ile 60 bin dolar tahmini birim fiyatı, MEKA'nın KAP 2025 yüzde 21,5 brüt marjı çevresinde yüzde 18 ile 28 marj.",
+"varsayimlar": "Kur 1 dolar 49,58 TL, 1 avro 55,69 TL (20 Ekim 2026, canlı bant). Birim fiyatlar tahmindir: mobil beton santrali 250 ile 600 bin dolar, çelik hizmet yapısı 2.500 ile 3.500 dolar/ton, konteyner lançer gövdesi 80 ile 150 bin dolar, üst yapı seti 25 ile 60 bin dolar (5 ile 15 ton, 3.000 ile 5.000 dolar/ton). Adetler: Ağustos 2025'te 47 sistem tek teslimat ve 2025 ile 2029 seri üretim ritminden yılda 60 ile 120 fırlatma ve yükleme aracı (tahmin); MEKA payı yıl 3'te yaklaşık yüzde 15 (10 ile 20 set), yıl 5'te yaklaşık yüzde 33 (20 ile 40 set). KARA ATMACA adedi açıklanmadı; yıl 5'te 15 ile 30 gövde tahmindir. Marj: MEKA 2025 brüt marjı yüzde 21,5 (KAP); alt yüklenicilikte yüzde 18 ile 28. Ortak bütçenin yüzde 50 desteği bilete sayılmadı, net maliyet daha düşük olabilir. Faaliyet gideri, finansman ve vergi modelde yok; getiri brüt kârdır."
+},
+"emsaller": [
+{
+"tarih": "23 Eylül 2026",
+"taraflar": "ASELSAN (satıcı) ve Roketsan (müşteri)",
+"bedel": "1.234.210.000 avro",
+"birim": "Birim yok; hava savunma sistemleri alt bileşenleri; Roketsan ASELSAN net satışlarının yüzde 4,03'ü",
+"kaynak": "https://kap.org.tr/tr/Bildirim/1666885 (resmi, KAP)"
+},
+{
+"tarih": "26 Kasım 2025",
+"taraflar": "SSB ile ASELSAN, Havelsan ve Roketsan",
+"bedel": "6,5 milyar dolar",
+"birim": "Çelik Kubbe yeni hava savunma sistemleri; SİPER bataryası 14 araç, HİSAR-O bataryası 7 araç (01 rapor)",
+"kaynak": "https://en.wikipedia.org/wiki/Steel_Dome (Reuters 26.11.2025, Army Recognition ve Times of Israel atıfı; Reuters sayfası açılamadı)"
+},
+{
+"tarih": "27 Ağustos 2025",
+"taraflar": "ASELSAN ve Türk Silahlı Kuvvetleri",
+"bedel": "460 milyon dolar, 47 sistem",
+"birim": "Hesapla sistem başına 9,8 milyon dolar (31 araç, 9 EH sistemi ve radarlar; kendi aritmetiğimiz)",
+"kaynak": "https://en.wikipedia.org/wiki/Steel_Dome (PBS ve AA 27.08.2025 atıfı)"
+},
+{
+"tarih": "8 Mayıs 2024",
+"taraflar": "ABD Ordusu Sözleşme Komutanlığı ve Lockheed Martin",
+"bedel": "861.333.188 dolar, 96 HIMARS lançeri",
+"birim": "Hesapla lançer başına yaklaşık 9,0 milyon dolar, destek hizmetleri dahil; sözleşme W31P4Q-24-D-0019",
+"kaynak": "https://www.afcea.org/signal-media/army-purchases-himars-rocket-launchers ; https://insidedefense.com/node/221083"
+},
+{
+"tarih": "25 Nisan 2024",
+"taraflar": "Polonya Silahlanma Ajansı ve Hanwha Aerospace",
+"bedel": "1,6 milyar dolar (6,4 milyar PLN)",
+"birim": "72 Homar-K lançer modülü artı binlerce füze; temiz birim fiyat çıkmaz; 60 modül Polonya'da",
+"kaynak": "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2024/poland-secures-deal-for-homar-k-mlrs-from-south-korea ; https://notesfrompoland.com/2024/04/26/poland-signs-1-6-billion-deal-with-south-korea-for-rocket-artillery-launchers/"
+},
+{
+"tarih": "Aralık 2023",
+"taraflar": "Polonya Silahlanma Ajansı ve PGZ-WWR konsorsiyumu (Jelcz)",
+"bedel": "1,5 milyar PLN brüt (345 milyon dolar)",
+"birim": "198 Jelcz 8x8 şasi; hesapla şasi başına 1,74 milyon dolar; teslimat 2024 ile 2027",
+"kaynak": "https://defence24.com/armed-forces/poland-to-procure-15-bn-zlotys-worth-of-jelcz-truck-platforms-for-homar-k"
+},
+{
+"tarih": "8 Temmuz 2024",
+"taraflar": "ASELSAN ve Roketsan",
+"bedel": "59.143.396 avro sözleşme değişikliği",
+"birim": "Hava savunma füze alt sistemleri; teslimat 2024 ile 2028",
+"kaynak": "https://www.borsagundem.com.tr/aselsan-ile-roketsan-arasinda-591-milyon-avro-tutarinda-sozlesme-degisikligi-imzalandi (KAP aktarımı)"
+},
+{
+"tarih": "Nisan 2026",
+"taraflar": "Malezya Savunma Bakanlığı ve Roketsan",
+"bedel": "79,5 milyon avro",
+"birim": "24 ATMACA; hesapla füze başına 3,3 milyon avro; tek kaynak",
+"kaynak": "https://www.sozcu.com.tr/avrupa-vazgecti-rota-turkiye-ye-dondu-atmaca-icin-ankara-nin-kapisini-calacaklar-p339109"
+},
+{
+"tarih": "2018 ile 2020 dolayı (sayfada sözleşme tarihi yok)",
+"taraflar": "ABD Ordusu ve Lockheed Martin",
+"bedel": "289 milyon dolar ve 218 milyon dolar",
+"birim": "24 HIMARS, teslim Temmuz 2022'ye kadar, hesapla 12,0 milyon dolar/lançer; 18 HIMARS dış müşteri, teslim Aralık 2020'ye kadar, hesapla 12,1 milyon dolar/lançer",
+"kaynak": "https://www.defence-industries.com/projects/lockheed-martin-receives-contract-for-high-mobility-artillery-rocket-system"
+}
+],
+"cevaplar": [
+{
+"soru": "Somali fırlatma üssünün ana yüklenicisi kim, konum ve inşaat takvimi ne?",
+"durum": "kismen",
+"cevap": "Konum: Warsheikh, Mogadişu'nun yaklaşık 70 km kuzeyi (Le Monde, Jerusalem Post aktarımı, 4 Temmuz 2026). Takvim: Le Monde inşaatın Ekim 2025 ortasında başladığını yazıyor; Bakan Kacır Aralık 2025'te fizibilite ve tasarımın bittiğini, birinci faz inşaatın başladığını açıkladı; Erdoğan 6 Ekim 2026'da Antalya IAC 2026'da inşaatın sürdüğünü söyledi (Euronews, sayfa açılamadı, arama özeti). Bütçe 350 milyon dolar, Türkiye Uzay Ajansı gözetiminde (NTU, tek kaynak). İlk fırlatma hedefi 2028 (Yeni Şafak, arama özeti, sayfa açılmadı). Ana yüklenici: bulunamadı; Horn Review 17 Ağustos 2026'da arazi kirası, gelir paylaşımı ve işletme şartlarının yayımlanmadığını yazıyor.",
+"kaynak": "https://jpost.com/middle-east/article-901355 ; https://www.ntu.edu.sg/cas/news-events/news/detail/somalia-to-launch-satellite-launch-in-partnership-with-turkey ; https://www.trtworld.com/article/e8e867fd877f ; https://hornreview.org/2026/08/17/the-warsheikh-facility-and-somalias-pattern-of-asymmetric-agreements-with-turkey/",
+"kime": "Türkiye Uzay Ajansı başkanlığı ve Sanayi ve Teknoloji Bakanlığı uzay dairesi; Mogadişu'da iş yapan Türk müteahhitler (Türk Müteahhitler Birliği üzerinden)"
+},
+{
+"soru": "HİSAR, SİPER ve TAYFUN fırlatma ve taşıma-yükleme araçlarının üst yapısını bugün hangi firmalar üretiyor?",
+"durum": "kismen",
+"cevap": "HİSAR: Koluman Otomotiv Endüstri (Tarsus) füze fırlatma sistemi ve füze taşıma-yükleme sistemi araçlarının platformunu ve üst yapı donanımının prototipini yüzde 70'in üstünde yerlilikle yaptı; yönetim kurulu başkanı Kaan Saltık: platformu biz üretiyoruz, üst kısım genel sözleşme sahibi olarak ASELSAN ve Roketsan kapsamında; taşıma aracında 6 füze ve özel vinç var, vinçte yerli çözüm ortaklarıyla çalışıyorlar (AA haberi, Habertürk, 6 Ocak 2019; atış kontrol merkezi aracı ve üst yapısı da Koluman'da). TAYFUN: ilk test atışı BMC 525-44 8x8 araçtan yapıldı (20 Ekim 2022); Blok-4 SAHA 2026'da 8x8 lançer üzerinde sergilendi (arama özeti). SİPER ve ÇNRA üst yapısını kaynaklayan firma bulunamadı. Hidrokon'un Roketsan işi hâlâ yalnız kendi 21 Kasım 2016 duyurusuna dayanıyor.",
+"kaynak": "https://www.haberturk.com/mehmetcik-in-yukune-derman-olacak-2283340-ekonomi ; https://shiftdelete.net/?p=862025 ; https://www.hidrokon.com/haberdetay/8/roketsan-fuze-tasima-sistemi",
+"kime": "ASELSAN tedarik zinciri yönetimi (SİPER araçları); Koluman satın alma (HİSAR üst yapı alt parçaları); BMC savunma satın alma (TAYFUN lançer aracı)"
+},
+{
+"soru": "MEKA'nın eski füze rampası işinin müşterisi, yılı, kapsamı, çizimi ve faturası var mı?",
+"durum": "gorusme",
+"cevap": "Web'de bulunamadı. MEKA'nın KAP 2025 sürdürülebilirlik raporu ürün portföyünü beton santralleri ve kırma-eleme olarak yazıyor, savunma referansı yok. Yol Bak 2013'te 6x6 kamyon üzerinde MIL-STD-810G alçak ve orta irtifa füze rampası yaptığını kendi sitesinde yazıyor; MEKA'nın işi aynı dönemde (2013 ile 2016 HİSAR test dönemi) bir ana yüklenicinin prototip rampası olabilir. Belge yalnız şirket arşivinden çıkar.",
+"kaynak": "https://kap.org.tr/en/Bildirim/1652844 ; https://www.yolbak.com.tr/alcak-orta-irtifa-fuze-rampasi395.html",
+"kime": "MEKA yönetimi, muhasebe arşivi (fatura ve iş emri) ve teknik ofis (çizim)"
+},
+{
+"soru": "MEKA tesislerinde tavan vinci 20-30 ton tek parça kaldırıyor mu, kanca yüksekliği 8 metreyi aşıyor mu?",
+"durum": "gorusme",
+"cevap": "Web'de veri yok. KAP 2025 TSRS raporu MEKA'nın Ankara'da dört fabrikası (MEKA 1 ile 4) ve bir Eskişehir fabrikası olduğunu yazıyor, vinç kapasitesi vermiyor. Rapor Eskişehir için 10 ton ve 7 metre sınırı yazıyordu. Bu yaprağın işleri (kanister kızağı, denge ayağı kutusu, konteyner gövdesi, 5 ile 15 ton) bu sınırın içinde kalır; yalnız tam lançer platformu ve 40 ft gövde için 20 ton üstü vinç gerekir. Ekonomi modelinde 25 tonluk iki köprü vinç 150 ile 300 bin avro koşullu kalem olarak yazıldı.",
+"kaynak": "https://kap.org.tr/en/Bildirim/1652844 ; 01 rapor Tablo 7.4",
+"kime": "MEKA üretim müdürü, tesis veri formu Ek A"
+}
+],
+"arastirildi": true,
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_devlet",
 "kol_ad": "Devlet firmaları",
@@ -14001,29 +18700,35 @@ window.MEKA_DATA = {
 "puan_kisa": "3,70 · 3,40 · 3,10",
 "butonlar": [
 {
+"dosya": "c_lancer",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+},
+{
 "dosya": "01_rapor",
 "bolum_basligi": "8.5 Füze ve roket lançerleri, fırlatma rampaları ve büyük mekanik yapılar",
 "sayfa": 30,
-"rol": "tam"
+"rol": "ana"
 }
 ],
 "puan": {
-"G": 3.33,
-"H": 3.67,
-"R": 2.67,
-"E": 2.33,
+"G": 1.67,
+"H": 2.67,
+"R": 2.0,
+"E": 2.0,
 "M": 4.0,
-"S": 3.33,
+"S": 3.0,
 "B": 4,
-"K": 4
+"K": 3
 },
 "puan_not": {
-"G": "Model yok; 47 araç Ağustos 2025, yüzlerce üst yapı 2025-2029; brüt 2-5 M$ tahminim.",
-"H": "Fırlatma üssüne santral satışı 0 ile 12 ay mevcut ürün; lançer 18 ile 36",
-"R": "Talep belgeli; ML4 kontrol, ödeme vadesi 95 ile 113 gün, üs yüklenicisi bilinmiyor",
-"E": "Tesis Güvenlik Belgesi, Üretim İzni ve AQAP zinciri 12-20 ay; Somali yüklenicisi bilinmiyor.",
-"M": "Konteyner tipi santral deneyimi lançer gövdesine yakın; teknik uyum tesis formu bekliyor.",
-"S": "Savunma geliri bağımsız; Çelik Kubbe 6,5 Mrd$ penceresi 2025 ile 2029"
+"G": "Yıl 5 brüt kâr 0,3 ile 2,2 M dolar; gövde fiyatı tahmin, web emsali yok",
+"H": "Üs alıcısı yok; alt yüklenici geliri 18 ile 30 ay, belgelerle 2028 sonu.",
+"R": "Somali üssü ana yüklenicisi bulunamadı; ML4, TGB ve AQAP zinciri 12 ile 20 ay.",
+"E": "Roketsan tedarikçi kaydı artı Tesis Güvenlik Belgesi 12 ile 20 ay; üs alıcısı belirsiz.",
+"M": "Konteyner tipi santral hattı, ağır sac ve hidrolik doğrudan kullanılır; belge yükü yeni.",
+"S": "Savunma geliri taş tozdan bağımsız; tasarım ana yüklenicide, ikinci kademe marjı düşük."
 },
 "puan_yayilim": []
 },
@@ -35901,71 +40606,71 @@ window.MEKA_DATA = {
 "meka": {
 "id": "meka",
 "baslik": "MEKA ile ilgili",
-"ozet": "Bu dalda 25 yaprak var ve birinci yön savunma: 22 Eylül 2026 tarihli rapor tahkimat prekast hattını, tahkimat kalıbını, flat rack ve kanca yükleyici gövdesini, mühimmat hattı ekipmanını ve konteyner gövdesini MEKA'nın ağır çelik, kalıp ve konteyner tipi tesis işine en yakın kalemler sayıyor; prekast hattı ile kalıp ihracat kontrolü dışında kalıyor ve mevcut bayi ağıyla 0 ile 12 ayda satılabiliyor, bu da gelire en yakın yol; istihkam ataşmanı, vinç alt yükleniciliği, uçak bakım platformları ve Roketsan ile fırlatma üssüne bağlı lançer işleri aynı belge zincirini bekliyor. İkinci yön mineral ve altyapı: mineral zenginleştirme, Beylikova, belediye hafriyat tesisleri, enkaz agregası, üretilmiş kum ve RES temel paketi MEKA'nın kırma, eleme ve yıkama ürünlerinin uzantısı; talep Giresun ihaleleri ve Beylikova NDK lisansı gibi belgelerle somut, ama doğrudan ihale sayısı az ve pazar rakamlarının bir kısmı doğrulanamadı. Üçüncü yön tarihli pencereler ve ortaklıklar: çimento katkısında Türkiye ETS izleme planı 27 Ekim 2026'da doluyor ve CBAM sertifika satışı 1 Şubat 2027'de başlıyor, nükleerde Sinop için bağlayıcı teklif 2026 içinde bekleniyor, tungstende DFARS kapsamı 1 Ocak 2027'de genişliyor, termal batarya ve trafo tankı ortak ya da müşteri onayı istiyor, Milvus ile teknokent yolu tedarikçilikten başlıyor ve ilk gelir yaprağa göre 12 aydan 4 yıla uzanıyor. Dördüncü yön keşif turunda eklenen enerji ekipmanı imalatı: veri merkezi jeneratör kabini ile prefabrik elektrik odası ve gaz türbini filtre evi, susturucu ve egzoz bacası; talep GE Vernova'nın 116 GW birikimi ve Caterpillar'ın 72,1 milyar dolar birikimi gibi borsa bildirimleriyle belgeli, ama set ve kabin fiyatı doğrulanamadı, bilet 4 ile 8 milyon dolar ve düzenli gelir 18 ile 24 ay sonra. Ortak engel şu: hiçbir yaprakta ilk 90 gün adımının atıldığına dair kayıt yok; Ek A tesis veri formu, MSB 5201 sınıflandırma görüşü, ISO 3834-2 ile EN 1090-2 EXC3 belgeleri ve NCAGE, NSPA, UNGM, SAM.gov kayıtları birden çok yaprağın önünde duruyor, Eskişehir'in 10 ton ile 7 x 2,5 x 2,5 metre tek parça sınırı büyük lançer platformunu, güç trafosu kazanını ve reaktör kabını kapsam dışına itiyor, bu yüzden belge sırası tesis verisiyle başlamalı, kaynak belgeleri ve kayıtlar onu izlemeli.",
+"ozet": "MEKA dalında 27 yaprak var: özel firmalar kolunda 23, devlet kolunda Beylikova nadir toprak tesisi, belediye konkasör ihaleleri ve lançer altyapısı, teknokent kolunda Milvus Robotics. Savunma kolları en kalabalık grup; tahkimat prekast hattı, tahkimat kalıbı, flat rack, mühimmat hattı ekipmanı ve konteyner gövdesinin talebi Polonya, Baltık, Almanya ve Hollanda ihale kayıtlarıyla isimli, lançer tarafında ASELSAN ile Roketsan'ın 1,23 milyar avroluk sözleşmesi KAP'ta kayıtlı. Mineral ve altyapıda enkaz agregası ve belediye konkasörü MEKA'nın hazır ürününü satar ve 6 ile 12 ayda gelir görür; çimento, nükleer, tungsten, trafo ve termal batarya tarihli pencereler ama ruhsat, sertifika ve fiyat verisi eksik; veri merkezi kabini ve gaz türbini yan ekipmanı SEC belgeli talep taşıyan enerji ekipmanı imalatı; Milvus ve Beylikova önce tedarikçilik yolu. 20 Ekim 2026 turundan sonra yıl 5 brüt kârı kaynaklı fiyata dayanan yapraklar şunlar: tahkimat prekast 0,2 ile 1,0 milyon avro, tahkimat kalıbı 0,35 ile 1,0 milyon avro, mühimmat ekipmanı 0,9 ile 3,0 milyon avro, konteyner 1,4 ile 5 milyon avro, flat rack 0,7 ile 3,7 milyon avro, enkaz 0,9 ile 3,1 milyon dolar, belediye 0,35 ile 0,68 milyon dolar, lançer 0,3 ile 2,2 milyon dolar; elektrikli otobüs ve Çinli otobüs ortaklığında birim fiyat kaynaklı ama adet ve marj varsayım, veri merkezi, türbin ve termalde tahmin, diğer yapraklarda yıl 5 rakamı yok. Ortak engel bütün dalda aynı: tesis veri formu, MSB sınıflandırma görüşü, NCAGE ve NSPA kayıtları, ISO 3834 ve EN 1090 belgeleri henüz yok ve Avrupa alıcıları yerli tedarikçi seçiyor.",
 "ne_yapmali": [
 {
-"adim": "Savunma ortak paketini tek seferde tamamla. Ek A tesis veri formunu Ankara ve Eskişehir için doldur: hol yüksekliği, tavan vinci kapasitesi, en büyük tek parça ağırlığı ve boyu, kesim kalınlığı, robotik kaynak, kumlama, boya ve test imkânı, boş kapasite saati. MSB'den 5201 sayılı Kanun kapsamında tek yazıyla ürün bazında sınıflandırma görüşü iste: tahkimat kalıbı, flat rack ve kanca yükleyici gövdesi, konteyner ve şelter gövdesi, mühimmat hattı ekipmanı. NCAGE başvurusunu yap, ardından NSPA Source File, UNGM ve SAM.gov kayıtları ile ASFAT portalı ve STM tedarikçi kaydını tamamla; hepsi ücretsiz. 30 Eylül 2026 son günlü YETEN kaydı ve SSB 2027 fuar desteği başvurusunun yapılıp yapılmadığını kayda geçir. Tesis verisi savunma nişlerinin teknik uyumunu ve trafo, nükleer, lançer, türbin ve kabin kapsamını belirliyor.",
-"kim": "Savunma iş birimi sorumlusu, üretim müdürü ve iki fabrika müdürü; MSB yazısı için hukuk",
-"ne_zaman": "MSB yazısı 31 Ekim 2026'ya kadar; tesis formu 15 Kasım 2026'ya kadar; kayıtlar 30 Kasım 2026'ya kadar",
-"konu_id": "sav_flatrack"
+"adim": "Dalın ortak belge sırasını tek seferde başlatmak: Ek A tesis veri formunu doldurmak, kanca yüksekliği, Ø300 mm üstü torna sayısı, hol yüksekliği, robotik kaynak hücresi, boş saat ve metrekare; MSB'den 5201 sayılı Kanun kapsamında ürün bazlı yazılı sınıflandırma görüşü istemek, listede tahkimat kalıbı, bunker segment kalıbı, Çek kirpisi, flat rack ve kanca gövdesi, ISO konteyner gövdesi, konveyör, silo, çelik platform ve lançer rampası çelik yapısı; NCAGE, NSPA, UNGM ve SAM.gov kayıtlarını tamamlamak; ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak, bu belge nükleer ve türbin yan ekipmanı için de gerekli.",
+"kim": "Mehmet Ulaş ile MEKA kalite ve ihracat birimi",
+"ne_zaman": "Kasım 2026 içinde form ve başvurular, belgelendirme Haziran 2027'ye kadar",
+"konu_id": "sav_konteyner"
 },
 {
-"adim": "Tahkimat kalıp kataloğunu ve prekast hat paketini hazırla: ejder dişi, kirpi, T-duvar ve bunker segmenti kalıpları, gabion ve çelik engel, kompakt santral, agrega hattı, kür ve otomasyon; Esenboğa üçüncü pistteki 140 m3/saat K145 santralini referans olarak ekle. Sonra Pekabex, Consolis Polska, E-Betoonelement, TMB Element ve Warren Concrete OÜ ile Estonya ve Letonya bunker ihalesini kazanan firmalarla temas kur; mevcut bayi ağını kullan.",
-"kim": "Satış ve bayi ağı ile prekast ürün mühendisliği",
-"ne_zaman": "Katalog 30 Kasım 2026'ya kadar; temaslar 21 Aralık 2026'ya kadar",
+"adim": "Tahkimat prekast paketi için üç konfigürasyonlu fiyat listesi ve kalıp kataloğu hazırlamak; TED'de kazanan on Polonyalı prekastçıya teklif götürmek: Małro ve Stropy Małro, Transbet, Gralbet, VECO-BET, Kruszbet, WPŻ Elbud Gdańsk, Drogi i Mosty Kaczmarczyk; Estonya ECDI'ye 600 bunker ihalesinin sonucunu ve Letonya katılımını yazılı sormak.",
+"kim": "MEKA beton santrali satış ekibi",
+"ne_zaman": "Fiyat listesi Aralık 2026, teklifler Ocak 2027",
 "konu_id": "sav_prekast"
 },
 {
-"adim": "Lançer ve fırlatma üssü için hızlı kazanım kapısını aç. Eski füze rampası işinin arşivini tara: müşteri, yıl, kapsam, çizim, fatura, fotoğraf; belge varsa Roketsan görüşmesine götür. Somali üssünün ana yüklenicisini ve Türkiye Uzay Ajansı muhatabını tespit et; beton santrali, RCC ve çelik hizmet yapıları için mevcut ürünle teklif hazırla, pencere 2026 ile 2027. Roketsan, ASELSAN ve Koluman tedarikçi portallarına kayıt ol.",
-"kim": "Savunma iş birimi sorumlusu ve yurt içi satış müdürü; arşiv için mali işler",
-"ne_zaman": "Arşiv taraması 15 Kasım 2026'ya kadar; yüklenici ve TUA tespiti Kasım 2026; portal kayıtları 30 Kasım 2026'ya kadar",
+"adim": "Flat rack ve konteyner gövdesi için ana yüklenici görüşmeleri: Hiab Defence Logistics, G3 Systems, Marshall Land Systems ve Rheinmetall Project Solutions'a ikinci üretim kaynağı teklifi; Zamet-Glowno ve Saxas fiyat düzeyiyle kıyas; STANAG 2413 ve DIN 30722 tasarım paketini başlatmak.",
+"kim": "Mehmet Ulaş ve MEKA mühendislik",
+"ne_zaman": "Görüşmeler Ocak 2027, prototip Mart 2027; Rheinmetall'in 149 istasyonluk üretimi Ocak ile Mart 2027 arasında başlıyor",
+"konu_id": "sav_flatrack"
+},
+{
+"adim": "Belediye konkasör ihaleleri için hazırlık: Taşsan Kırma Eleme'yi Ticaret Sicil kaydından tanımak, imalatçı mı bayi mi; EKAP'ta 1 Ocak 2024'ten bu yana konkasör, kırma eleme ve yıkıntı atığı sonuç ilanlarını çekmek; MCC 70, MP 90 ve MP 110C için kamu ihalelerine özel TL fiyat listesi, yerli malı belgesi, TSE ve CE dosyası hazırlamak; 2027'nin ilk belediye ya da il özel idaresi ihalesine teklif vermek.",
+"kim": "MEKA yurt içi satış ve kamu ihale sorumlusu",
+"ne_zaman": "Kasım 2026 dosya ve EKAP taraması, Aralık 2026 fiyat listesi, ilk teklif 2027 ilk çeyrek",
+"konu_id": "belediye"
+},
+{
+"adim": "Enkaz agregası ekonomi modelini MEKA'nın iç ürün marjıyla doğrulamak, MCC 70 ve MP serisi için ünite başı maliyet ve marj; UNGM tedarikçi kaydını tamamlayıp UNDP Filistin, UNDP Suriye ve UNDP Türkiye enkaz ihalelerini izlemek; Zoom Investment Holding, Deir ez-Zor Şehir Meclisi ve UNDP Suriye REVIVE ofisiyle tanışmak.",
+"kim": "MEKA finans ve yurt dışı satış",
+"ne_zaman": "Kasım 2026 model doğrulama ve UNGM kaydı, Aralık 2026 tanışma ziyaretleri",
+"konu_id": "enkaz"
+},
+{
+"adim": "Lançer ve fırlatma altyapısı için: eski füze rampası işinin arşivini taramak, iş emri, çizim, fatura ve fotoğraf; Roketsan tedarikçi portalına kayıt; ASELSAN, Koluman ve BMC satın alma birimlerine kanister ve üst yapı kalemleri için kısa liste sunmak; Türkiye Uzay Ajansı ile Somali Warsheikh üssünün beton santrali ve çelik hizmet yapısı ihtiyacını ve ana yüklenicisini görüşmek.",
+"kim": "Mehmet Ulaş ve MEKA savunma satış",
+"ne_zaman": "Kasım 2026 arşiv ve portal kaydı, Aralık 2026 görüşmeler",
 "konu_id": "lancer"
 },
 {
-"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlat; rapor tahmini 25 ile 55 bin avro, destekle yarıya inebilir. Belge flat rack, konteyner gövdesi, trafo tankı, türbin filtre evi ve egzoz bacası, e-house gövdesi ve nükleer kalite yolunun ortak ön koşulu; nükleerden bağımsız olarak da değerli. Aynı anda NÜKSAK, Ankara Sanayi Odası ve TÜNAŞ ile ilk teması kur; Sinop yerli tedarik listesine girme şartını sor.",
-"kim": "Kalite müdürü; kurum temasları için genel müdür",
-"ne_zaman": "Teklifler Kasım 2026, denetim başlangıcı Ocak 2027; kurum temasları Aralık 2026",
-"konu_id": "nukleer"
+"adim": "Elektrikli otobüs için EGO Genel Müdürlüğü ile görüşme: 1.000 otobüs programının ihale biçimi, takvimi, finansmanı ve yerli malı şartı; Yutong, BYD, King Long, Higer, Zhongtong ve Skywell'e tek sayfalık ortaklık mektubu; FMT ve SANY Türkiye ile kit montaj deneyimi görüşmesi; fikstür yatırımından önce karar kapısı.",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "Mektuplar Kasım 2026, EGO görüşmesi Aralık 2026, karar kapısı 31 Mart 2027",
+"konu_id": "elektrikli_oto"
 },
 {
-"adim": "Veri merkezi jeneratör kabini ve e-house için talep kapısını yokla. Aksa, Teksan ve Borusan Cat ile üç görüşme: kabin ve e-house dış tedarik politikası, yıllık adet, hedef fiyat. Siemens Türkiye ve ABB Türkiye ile Harju Elekter tipi e-house gövde ve montaj alt yükleniciliği görüşmesi. Aktif Group, EKOS Group ve bir orta gerilim pano üreticisiyle e-house ortak teklifi için şalt ortağı ara. İlk hedef Türkiye ve Avrupa paketleyicileri olsun; ABD için UL yolu 2027 ilk çeyrekten sonra kalır.",
-"kim": "İş geliştirme yöneticisi ve ihracat satış; teknik sorular için üretim müdürü",
-"ne_zaman": "Paketleyici görüşmeleri Kasım 2026; Siemens, ABB ve şalt ortağı görüşmeleri Aralık 2026 sonuna kadar",
-"konu_id": "dc_ehouse"
-},
-{
-"adim": "Gaz türbini yan ekipmanı için tedarik zincirine kayıt ol ve referans topla. GE Vernova Supplier Connect kaydını yap ve Gas Power yan ekipman kategorisi için ön niteliğe başvur. Çimtaş Hassas İşleme ve Çimtaş Çelik ile referans ziyareti: GE Vernova onay süreci, onay süresi, ihracat birim fiyatı. Parker Hannifin FES, Camfil Power Systems, Braden Group, Donaldson GTS ve CECO Environmental ile filtre evi, susturucu ve egzoz bacası gövdesi için ilk temas. 0,3 ile 0,5 milyon dolarlık pilot kararını set fiyatı geldikten sonra ver.",
-"kim": "İş geliştirme yöneticisi ve kalite müdürü; ziyaret için üretim müdürü",
-"ne_zaman": "GE Vernova kaydı ve Çimtaş ziyareti Kasım 2026; paketleyici temasları Aralık 2026 sonuna kadar; pilot kararı Ocak 2027",
-"konu_id": "turbin_yan"
-},
-{
-"adim": "Kamu ihale izlemesini kur: EKAP'ta Eti Maden idare adıyla Beylikova, nadir toprak, cevher hazırlama, kırma ve öğütme ihalelerini haftalık tara; Giresun 2026/1539482 ve 2026/1100761 konkasör ihalelerinin sonuç ilanlarını sorgula, yoksa Giresun Belediyesi Fen İşleri Müdürlüğü'nü ara. Eti Maden Yatırım ve Satınalma birimleriyle görüşme iste: sanayi tesisinin tasarımını yapan firma, iki fazlı yatırım takvimi, temel atma tarihi ve kırma ile öğütme paketinin ayrı ihale edilip edilmeyeceği; e-ÇED'den Beylikova ÇED raporunu indirip kırma kademelerini çıkar.",
-"kim": "Yurt içi satış ve ihale birimi; Eti Maden görüşmesi için genel müdür",
-"ne_zaman": "İzleme 26 Ekim 2026'dan itibaren haftalık; Giresun sorgusu 31 Ekim 2026'ya kadar; Eti Maden görüşmesi Aralık 2026",
-"konu_id": "beylikova"
-},
-{
-"adim": "Çimento penceresinde ucuz ilk adımları at: Türkiye ETS ilk izleme planı süresinin uzatılıp uzatılmadığını İklim Değişikliği Başkanlığı duyurularından kontrol et; MAPEG kayıtlarından trass, çimento kili, marn, kalker ve pomza ruhsat haritasını çıkar; Limak Çimento, Çimsa ve OYAK Çimento ile üç ayrı ilk görüşme yap, soru kalsine kil ve puzolanı nereden aldıkları ve 0,80 klinker sınırını nasıl karşıladıkları. CBAM sertifika satışı 1 Şubat 2027'de başlıyor.",
-"kim": "İş geliştirme yöneticisi",
-"ne_zaman": "ETS kontrolü 27 Ekim 2026'ya kadar; ruhsat haritası ve görüşmeler Aralık 2026 sonuna kadar",
-"konu_id": "cimento"
+"adim": "Milvus Robotics ile tanışma görüşmesi: CEO Şamil Özden, COO Hasan Ölmez ve satın alma; 1.700 robotluk yeni Bağlıca fabrikasının 2026 sonu takvimi, şasi ve çelik gövdenin dışarıdan alınıp alınmayacağı, numune ve kalifikasyon şartı; Comau MyMR hacmini ve üretim yerini sormak.",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "Kasım 2026, yeni fabrika devreye girmeden önce",
+"konu_id": "milvus"
 }
 ],
 "kapi_etkisi": {
-"sirket": "Dalın 25 yaprağının hepsi şirket üzerinden yürüyebilir. 21 yaprak yalnız şirket yatırımı için yazılmış: dokuz savunma yaprağı, yani tahkimat prekast hattı, tahkimat kalıbı, flat rack, mühimmat hattı, konteyner gövdesi, istihkam ataşmanı, vinç alt yükleniciliği, uçak bakım platformları ve lançer, ayrıca mineral zenginleştirme, termal batarya, trafo tankı, üretilmiş kum, enkaz agregası, RES temel paketi, mobil parçalayıcı, asfalt plenti, veri merkezi jeneratör kabini, gaz türbini yan ekipmanı, Beylikova ve belediye tesisleri. Çimento katkısı, nükleer kalite imalat, tungsten ve Milvus da şirket üzerinden olabilir; bu seçimde düşen yaprak yok.",
-"kisisel": "Kişisel yatırıma yalnız dört yaprak açık: çimento katkısı, çünkü ruhsat ve rezerv kişisel yatırıma uygun ve Maden Kanunu Madde 6 hak sahibini T.C. vatandaşı ya da Türk şirketi sayıyor; nükleer kalite imalat, atölye alımı yolu; tungsten, azınlık hisse yolu; Milvus, pay yatırımı. Diğer 21 yaprak düşer: savunma raporu, enerji ekipmanı çalışmaları ve öteki çalışmalar MEKA Global için yazılmış, kişisel seçenek yok. Milvus'ta da tedarik ilişkisi MEKA üzerinden kalır, kişisel pay yalnız azınlık aşamasında anlamlı.",
-"dusuk_butce": "Dilim 1 ve 2 ile 18 yaprak uyar. Dilim 1, yani 100 bin dolar altı: tahkimat prekast hattı, tahkimat kalıbı, mühimmat hattı ekipmanı, vinç alt yükleniciliği, uçak bakım platformları, enkaz agregası ve belediye tesisleri; kayıtlar ücretsiz, bilet teklif, ziyaret ve prototip payından oluşuyor. Dilim 2, yani 100 bin ile 1 milyon dolar: flat rack, konteyner gövdesi, istihkam ataşmanı, lançer, mineral zenginleştirme, termal batarya, nükleer, trafo tankı, RES temel paketi, Beylikova ve Milvus. Yedi yaprak düşer: çimento katkısı, tungsten, üretilmiş kum, mobil parçalayıcı, asfalt plenti, veri merkezi jeneratör kabini ve gaz türbini yan ekipmanı, hepsi 1 ile 10 milyon dolar; çimentoda yalnız ruhsat haritası ve türbinde yalnız 0,3 ile 0,5 milyon dolarlık pilot bu dilimlere sığar.",
-"yuksek_butce": "Dilim 3, yani 1 ile 10 milyon dolar, yedi yaprağı açar: çimento katkısı, ruhsatlı ocak ve hat 1 ile 6 milyon dolar; tungsten, ekipman tedariki 0,5 ile 2 milyon ve Uludağ ön çalışması 4 ile 10 milyon dolar; üretilmiş kum, tesis başına 3 ile 15 milyon dolar ve üst uç dilim 4'e taşar; mobil parçalayıcı, iki prototip ve ilk stok 1 ile 3 milyon dolar; asfalt plenti, üretici satın alma 1 ile 10 milyon dolar; veri merkezi jeneratör kabini ve e-house, ilk 24 ay 4 ile 8 milyon dolar; gaz türbini yan ekipmanı, ilk 24 ay 5 ile 8 milyon dolar. Dilim 4'ü, yani 10 milyon dolar üstünü isteyen yaprak yok; tam trafo fabrikası 70 ile 140 milyon dolar ve tungsten işleme tesisi 100 milyon dolar üstü yaprak kapsamı dışında bırakılmış. Diğer 18 yaprak bu bütçeyi istemez; düşmezler ama bütçenin büyük kısmı boş kalır.",
-"kur": "Kur yolu tek başına iki yaprağa uyar: tahkimat prekast hattı ve tahkimat kalıbı; rapor ikisini MEKA'nın kendi santral, kalıp ve otomasyon üretimi ve ihracatı olarak yazıyor. 14 yaprak iki yolu da taşıyor ve kur tarafı var: flat rack üretimi, mühimmat hattı çelik ve konveyör paketi, uçak bakım platformları, mineral yıkama ve sınıflandırma hattı, çimento için ruhsatlı ocak, nükleer kalite sisteminin MEKA içinde kurulması, tungsten için Uludağ sahası, trafo numune tankı, enkaz için yurt içi doğrudan satış, parçalayıcıda ortaklık sonrası kendi tasarım, gaz türbini yan ekipmanı için ayrı ağır sac fabrikasyon şirketi, Beylikova kırma ve eleme paketi, belediye ihalelerine doğrudan teklif ve lançer için fırlatma üssüne kendi beton santrali. Düşen dokuz yaprak: konteyner gövdesi, istihkam ataşmanı, vinç alt yükleniciliği, termal batarya, üretilmiş kum, RES temel paketi, asfalt plenti, veri merkezi jeneratör kabini ve Milvus.",
-"ortak": "Ortak yolu dokuz yaprakta tek yol: konteyner gövdesi alt yükleniciliği, istihkam ataşmanı için FNSS, Otokar, Hidromek ve Pearson, vinç OEM alt yükleniciliği, termal bataryada Avrupa EPC ve imalat ortaklığı, üretilmiş kum için ocak sahibi, RES temelinde CBoP müteahhidi, asfaltta satın alma fırsatı, veri merkezi e-house için şalt ortağı ve paketleyici alt tedariki, Milvus. 14 ikili yaprakta da ortak tarafı var: Roketsan, ASELSAN ve Koluman alt yükleniciliği, Repkon ve STV hat entegratörleri, Metso ve flotasyon lisansı, Sinop için Koreli ya da Avrupalı ikinci kademe, Çin dışı tungsten madencisine azınlık payı, uzman tank imalatçısı, Suriye işletmecisi, Avrupa parçalayıcı üreticisi bayiliği, gaz türbini paketleyicisine ikinci kademe tedarik, Beylikova için öğütme ve flotasyon ortağı, belediye adına saha işleten firmalar. Düşen iki yaprak: tahkimat prekast hattı ve tahkimat kalıbı; yerli prekastçıyla çalışmak burada yalnız yerli tercih riskine karşı azaltma, ana yol kendi üretim."
+"sirket": "Yatırım şirket üzerinden olursa 27 yaprağın hepsi açık kalır; savunma kolları, enkaz, belediye, lançer, Beylikova ve enerji ekipmanı MEKA tesisine ve KAP'a bildirilen ürün fiyatlarına dayanıyor. Çimento, nükleer, tungsten ve Milvus paketleri şirket ya da kişisel diye yazıyor; şirket yolunda bunlar da kalır.",
+"kisisel": "Kişisel yatırım seçilince MEKA dalı tümüyle kapanır; devlet ihaleleri, Roketsan tedarikçiliği ve Avrupa alt yükleniciliği MEKA tüzel kişiliğini ister. Paket yalnız çimento ruhsatı, tungsten ve Milvus azınlık payı ve nükleer için kişisel yolu da yazıyor; bunlar ancak MEKA dışı bir yapıda yeniden ele alınır.",
+"dusuk_butce": "Dilim 1 ve 2 seçilirse sav_vinc ve sav_mro 100 bin dolar altı ile; sav_prekast, sav_kalip, sav_istihkam, enkaz, mineral, termal, trafo, res_temel, nukleer, beylikova, belediye, lancer ve milvus 100 bin ile 1 milyon dolar ile uyar. sav_flatrack, sav_muhimmat, sav_konteyner, cimento, tungsten, kum, parcalayici, asfalt, dc_ehouse, turbin_yan ve elektrikli_oto 1 ile 10 milyon dolar, cin_otobus_ort yaklaşık 11,5 milyon dolar ister; bunlar düşer. sav_flatrack 0,8 ile 1,5 ve sav_muhimmat 0,93 ile 1,9 milyon dolar ile sınıra yakın.",
+"yuksek_butce": "Dilim 3 ve 4 seçilirse sav_flatrack, sav_muhimmat, sav_konteyner, cimento, tungsten, kum, parcalayici, asfalt, dc_ehouse, turbin_yan ve elektrikli_oto 1 ile 10 milyon dolar ile, cin_otobus_ort 10 milyon dolar üstü ile açılır. Küçük biletli yapraklar düşmez; belediye 250 bin dolar, beylikova 100 bin dolar altı ve lançer 0,47 ile 1,27 milyon dolar ile bütçenin küçük bir kısmını kullanır. En büyük kalemler dc_ehouse 4 ile 8, turbin_yan 5 ile 8, elektrikli_oto 6 ile 10 milyon dolar; geri ödemeleri 5 yılı aşıyor.",
+"kur": "Kuralım seçilirse sav_prekast tek kur yolu olarak; sav_kalip, sav_flatrack, sav_muhimmat, sav_mro, mineral, cimento, nukleer, tungsten, trafo, enkaz, parcalayici, turbin_yan, beylikova, belediye ve lancer iki yollu olarak uyar; üretim MEKA'da, Beylikova ve belediyede EKAP ihalesine MEKA kendi girer. sav_konteyner, sav_istihkam, sav_vinc, termal, kum, res_temel, asfalt, dc_ehouse, elektrikli_oto, cin_otobus_ort ve milvus yalnız ortak yolu yazıyor; kur seçilince düşer.",
+"ortak": "Ortak olalım seçilirse sav_konteyner, sav_istihkam, sav_vinc, termal, kum, res_temel, asfalt, dc_ehouse, elektrikli_oto, cin_otobus_ort ve milvus tam uyar; iki yollu yapraklar satış kanalı, teknoloji ya da öğütme ve flotasyon ortağıyla devam eder, beylikova, belediye ve lancer dahil. Yalnız sav_prekast düşer; paket onu MEKA'nın kendi santral ve kalıp paketini satması diye yazıyor."
 },
 "uyarilar": [
-"Savunma raporu 22 Eylül 2026 tarihli ve kendi doğrulamasının yaklaşık yarısını kullanım limiti yüzünden tamamlayamadı; kontrol edilen 38 iddianın 13'ü düzeltildi. Aynı nişe farklı puanlar var: uçak bakım platformlarına bir akış 4/5, lazer ve CNC odaklı akış 2/5 veriyor; kart 4.000 kanca yükleyiciyi kesin yazarken Hiab kaynağı 4.000'e kadar diyor; sağlık konteyneri toplamı kartta 600 milyon avro üstü, tek kaynakta 500 milyon avro üstü. Yönetimin hatırladığı eski füze rampası işi kamuya açık hiçbir kaynakta bulunamadı; Somali üssü yüklenicisi ve HİSAR ile SİPER lançer üst yapılarını kimin ürettiği bilinmiyor.",
-"Pencereler daralıyor ve bazıları geçti: 30 Eylül 2026 YETEN kaydı ve SSB 2027 fuar desteği günü geçti, yapıldığı kayıtlı değil; MSB sınıflandırma görüşü rapor takvimine göre 22 Ekim 2026 civarı istenecekti; Türkiye ETS ilk izleme planı 27 Ekim 2026'da doluyor; fırlatma üssü penceresi 2026 ile 2027; DFARS tungsten kapsamı 1 Ocak 2027; tahkimat talebi 2027 ile 2028'de programlar bitince düşebilir ve Avrupa'da yeni prekast hatları aynı dönemde devreye giriyor. Beylikova'da 2026 temel sözü Ekim 2026'da gerçekleşmemiş, inşaat 2027 deniyor. Veri merkezinde Generac Enercon'u 1 Nisan 2026'da aldı ve Belvidere paketleme tesisini 2027 ilk çeyrekte açıyor; MEKA'nın UL yolu ABD'ye 2027 ilk çeyrekten sonra ulaşır.",
-"Kanıtı zayıf yapraklar: RES temel paketi ve üretilmiş kum kanıt 2/5, çünkü YEKA şartnamesi ve Nordex temel dokümanı okunamadı ve kum fiyatı blog düzeyinde; mineral zenginleştirmede MAPEG ve USGS pazar rakamları doğrulanamadı; enkazda Hatay'daki 500 ton/saat tesis açık talep değil, bitmiş bağış projesi ve Suriye 8 milyon m3 hedefi yalnız SANA kaynaklı; Beylikova'da mühendislik firması ve ekipman takvimi yok. İki yeni enerji yaprağında talep belgeli ama iş kanıtı zayıf: kabin için tek veri 2011 tarihli bir ses azaltma maliyeti, e-house için tek sözleşme Harju Elekter'in 15,5 milyon avrosu; türbin setinin fiyatı ve fabrikasyon marjı doğrulanmadı, Siemens Energy'nin 69 GW birikimi tek haber kaynağında ve geri ödeme alt senaryoda 2031'de tamamlanmıyor.",
-"Çalışmalar arası çelişkiler: termal bataryayı 05 belgesi on iki iş içinde en üste koyuyor, 10 belgesi giren kazanır testinde 3/10 veriyor; trafoda Europower bileti önceki çalışmada 50 milyon dolar, Eylül 2026 sunumunda yaklaşık 140 milyon dolar; mineralde Türkiye feldispat üretimi 8,98 milyon ton ile 5,27 milyon ton arasında değişiyor; Milvus turu 04 belgesinde Seri B, şirket kaynaklarında Seri A; keşif kartı Caterpillar brüt marjını yüzde 32,8 ve GE Vernova Power marjını yüzde 16,3 veriyordu, doğrulanan sayfalarda yüzde 24,6 ve yüzde 18,8; savunma dört kolunun özel firmalar kolunda mı yoksa ayrı bir savunma şemsiyesinde mi durması gerektiği inceleme tarafından sorgulanıyor.",
-"Yapısal ve mali sınırlar: Eskişehir tek parça sınırı 10 ton ve 7 x 2,5 x 2,5 metre; bom kutuları, büyük lançer platformu, güç trafosu kazanı ve reaktör kabı dışarıda kalır. Jeneratör kabini için 8.000 ile 10.000 m2 kapalı alan ve elektrik tasarım ekibi gerekiyor, MEKA'da ikisi de yok; UL 2200 ve IEC tip testleri pahalı ve uzun. ABD Bölüm 232 çelik türev ürün vergisi türbin yan ekipmanı ve kabin ihracatını etkiler; yüzde 50 oranı BIS sayfasında yazmıyor. MEKA'nın 2026 ilk çeyrekte hasılatının yaklaşık yüzde 24 düştüğü ve 44,5 milyon TL net zarar bilgisi yalnız bir arama özetine dayanıyor ve doğrulanamadı. Rapor savunmanın yarı zamanlı yürütülmesini orta olasılık ve yüksek etki riski sayıyor; ayrı iş birimi, bütçe ve sorumlu yönetici öneriyor."
+"Yerli tedarikçi tercihi: 2024 ile 2026 TED tahkimat sonuçlarında bütün kazananlar yerli, tek istisna Litvanyalı Gelmesta'nın Letonya çerçevesi; Marshall Hollanda işinde ofset için Hollandalı Contour'u seçti ve Türk tedarikçi ofset sayılmaz; Rheinmetall 3:1 konteyneri kendi üretiyor; Hollanda flat racklerini Polonyalı Zamet-Glowno yapıyor. Hiçbir ana yüklenici Türk tedarikçi aradığını yazmıyor.",
+"Pencere ve ihale sayısı: Polonya ve Letonya tahkimat programları 2028'de, Estonya hattı 2027 sonunda bitiyor; Polonya kirpi fiyatı bir yılda 1.282 ile 1.747 PLN'den 847 ile 1.026 PLN'ye indi. Belediye tarafında EKAP'ta belediye konkasör alımı yılda 1 ile 2, il özel idaresi yılda 1; Giresun'u 13 Ekim 2026'da Taşsan 23,3 milyon TL ile aldı ve yalnız 2 istekli vardı; yıl 5 için 5 ile 8 makine hedefi bu sayıya göre iddialı.",
+"İhracat kontrolü ve belge zinciri: bunker segment kalıbı ML13.b ve ML18.a, askerî konteyner gövdesi ML17, lançer ve rampa çelik yapısı ML4; Tesis Güvenlik Belgesi, Üretim İzin Belgesi ve AQAP zinciri 12 ile 20 ay sürer. Somali üssünün ana yüklenicisi 10 ayda hiçbir kaynakta çıkmadı; üs satışı olmazsa lançer yaprağının yıl 1 ve 2 geliri sıfır.",
+"Devlet ve teknokent yaprakları: Beylikova'da temel 2026'da söz verildi, Ekim 2026'da haber yok ve inşaat 2027 deniyor; tesisin mühendislik firması hiçbir kaynakta yok, MEKA ancak alt tedarikçi olur. Milvus'un 1.700 robot ve 450 kurulu robot rakamları şirket beyanı; robot başına 3 ile 4 bin dolar sac işi varsayımıyla tedarik cirosu yılda 3 ile 4 milyon dolar, MEKA ölçeğinde yan iş.",
+"Otobüs ve büyük biletli enerji yaprakları: iç pazar 2025'te 69 elektrikli araç, hepsi Karsan; Çinli ortak doğrulanamadı, BYD Manisa anlaşması 10 Haziran 2026'da askıya alındı; bilet 6 ile 11,5 milyon dolar. Veri merkezi kabini 4 ile 8 ve türbin yan ekipmanı 5 ile 8 milyon dolar bilet ile geri ödeme 6 yılı aşabilir, kabin ve set fiyatı bulunamadı. Çimento, nükleer, tungsten, trafo, kum ve mineralde yıl 5 rakamı yok."
 ],
 "siralama": [],
 "konu_ids": [
@@ -35991,6 +40696,8 @@ window.MEKA_DATA = {
 "asfalt",
 "dc_ehouse",
 "turbin_yan",
+"elektrikli_oto",
+"cin_otobus_ort",
 "izle_meka",
 "beylikova",
 "belediye",
@@ -36098,71 +40805,71 @@ window.MEKA_DATA = {
 "meka_ozel": {
 "id": "meka_ozel",
 "baslik": "MEKA ile ilgili, Özel firmalar",
-"ozet": "Bu kolda 21 yaprak var: sekiz savunma nişi, hammadde işleri olan mineral zenginleştirme, çimento katkısı, tungsten ve üretilmiş kum, enerji ve ekipman işleri olan termal batarya, nükleer kalite imalat, trafo tankı, RES temel paketi, mobil parçalayıcı ve asfalt plenti, enkaz agregası, bir de keşif turunda eklenen veri merkezi jeneratör kabini ile prefabrik elektrik odası ve gaz türbini filtre evi, susturucu ve egzoz bacası imalatı. Gelire en yakın iş tahkimat prekast hattı ve kalıbıdır: ürün ihracat kontrolü dışında, mevcut bayi ağıyla satılıyor ve Polonya ile Baltık tahkimat programlarının kanıtlanmış toplam bütçesi 4,5 ile 5,5 milyar avro. İki yeni enerji ekipmanı yaprağında talep borsa bildirimleriyle belgeli, GE Vernova gaz ekipmanı birikimi 116 GW ve Caterpillar birikimi 72,1 milyar dolar, ama set ve kabin fiyatı doğrulanamadı, biletler 4 ile 8 milyon dolar bandında ve düzenli gelir 18 ile 24 ay sonra geliyor. Flat rack, konteyner gövdesi ve mühimmat hattı ekipmanı aynı belge ve kayıt paketini bekliyor; 22 Eylül 2026 raporundan bu yana MSB görüşü, tesis veri formu ve NCAGE kaydı için kayıtlı bir ilerleme yok. Savunma dışı yapraklarda ortak sorun pazar ve fiyat verisinin doğrulanamaması ve ISO 3834-2 ile EN 1090-2 belgelerinin henüz olmaması; belge sırası tesis verisiyle başlamalı, kaynak belgeleri ve tedarikçi kayıtları onu izlemeli.",
+"ozet": "Bu kolda 23 yaprak var; en kalabalık grup savunma: tahkimat prekast hattı, tahkimat kalıbı, flat rack, mühimmat hattı ekipmanı, konteyner gövdesi, istihkam ataşmanı, vinç alt yükleniciliği ve uçak bakım platformları, talep Polonya, Baltık, Almanya ve Hollanda'nın resmî ihale kayıtlarıyla isimli ve ilk beşinin ekonomi modeli 20 Ekim 2026'da kaynaklı rakamla kuruldu. Mineral ve altyapı grubunda enkaz agregası, üretilmiş kum, mineral zenginleştirme, mobil parçalayıcı, asfalt plenti ve RES temel paketi var; enkaz yaprağı MEKA'nın hazır MCC 70 ve MP serisini satar, KAP sipariş bedelleri 651.700 ile 2.190.000 avro ve yurt içinde ilk gelir 6 ile 12 ay, bu yüzden gelire en yakın yaprak odur. Çimento katkısı, nükleer imalat, tungsten, trafo ve termal batarya tarihli pencereler ama ruhsat, sertifika ya da fiyat verisi eksik; veri merkezi kabini ve gaz türbini yan ekipmanı SEC belgeli talep taşıyor ama bilet 4 ile 8 milyon dolar. Elektrikli otobüs ve Çinli otobüs ortaklığı 20 Ekim 2026'da yöneticinin isteğiyle eklendi; Avrupa ihale fiyatları kaynaklı, Çinli ortak ve iç talep doğrulanamadı. Ortak engel belge sırası ve alıcı tarafı: tesis veri formu, MSB sınıflandırma görüşü, ISO 3834 ve EN 1090 belgeleri henüz yok, Avrupa ana yüklenicileri ve ihale kazananları yerli tedarikçi seçiyor.",
 "ne_yapmali": [
 {
-"adim": "Savunma ortak paketini tek seferde tamamla. MSB'den 5201 sayılı Kanun kapsamında tahkimat kalıbı, flat rack ve kanca yükleyici gövdesi, konteyner ve şelter gövdesi ile mühimmat hattı ekipmanı için tek yazıyla sınıflandırma görüşü iste. Ek A tesis veri formunu Ankara ve Eskişehir için doldur: hol yüksekliği, tavan vinci kapasitesi, en büyük tek parça ağırlığı ve boyu, kesim kalınlığı, montaj hattı uzunluğu, robotik kaynak, kumlama, boya ve test imkânı, boş kapasite saati ve alan. NCAGE başvurusunu yap, ardından NSPA Source File, UNGM ve SAM.gov tedarikçi kayıtlarını tamamla; hepsi ücretsiz. 30 Eylül 2026 süreli YETEN kaydının ve SSB 2027 fuar desteği başvurusunun yapılıp yapılmadığını kayda geçir. Aynı tesis verisi trafo tankı, nükleer, türbin yan ekipmanı ve jeneratör kabini için kapsam sorusuna da girdi olur.",
-"kim": "Savunma iş birimi sorumlusu ile kalite ve üretim müdürü; MSB yazısı için hukuk",
-"ne_zaman": "MSB yazısı 31 Ekim 2026'ya kadar; tesis formu ve kayıtlar 30 Kasım 2026'ya kadar",
-"konu_id": "sav_flatrack"
-},
-{
-"adim": "Tahkimat kalıp kataloğunu ve prekast hat paketini hazırla: ejder dişi, kirpi, T-duvar ve bunker segmenti için çelik batarya kalıpları, gabion ve çelik engel, kompakt prekast santrali, agrega hattı, kür sistemi ve otomasyon. Esenboğa üçüncü pistteki 140 m3/saat K145 santralini referans olarak ekle. Sonra Pekabex, Consolis Polska, E-Betoonelement, TMB Element ve Warren Concrete OÜ ile Estonya ve Letonya bunker ihalesini kazanan firmalarla temas kur; satış kanalı mevcut bayi ağı.",
-"kim": "Ürün geliştirme ekibi ve ihracat satış yöneticisi, bayi ağı ile",
-"ne_zaman": "Katalog 30 Kasım 2026'ya kadar; temaslar 21 Aralık 2026'ya kadar",
-"konu_id": "sav_prekast"
-},
-{
-"adim": "Veri merkezi jeneratör kabini ve e-house için talep kapısını yokla. Aksa, Teksan ve Borusan Cat ile üç görüşme: kabin ve e-house dış tedarik politikası, yıllık adet, hedef fiyat. Siemens Türkiye ve ABB Türkiye ile alt yüklenici görüşmesi: Harju Elekter tipi e-house gövde ve montaj tedariki, Avrupa ve Orta Doğu veri merkezi projeleri. Aktif Group, EKOS Group ve bir orta gerilim pano üreticisiyle e-house ortak teklifi için şalt ortağı ara. Generac'ın üçüncü taraf paketleme ihtiyacı ABD paketleyicilerine yönelik ve UL yolu 2027 ilk çeyrekten sonra kalır; ilk hedef Türkiye ve Avrupa paketleyicileri olsun.",
-"kim": "İş geliştirme yöneticisi ve ihracat satış; teknik sorular için üretim müdürü",
-"ne_zaman": "Paketleyici görüşmeleri Kasım 2026; Siemens, ABB ve şalt ortağı görüşmeleri Aralık 2026 sonuna kadar",
-"konu_id": "dc_ehouse"
-},
-{
-"adim": "Gaz türbini yan ekipmanı için tedarik zincirine kayıt ol ve referans topla. GE Vernova Supplier Connect kaydını yap ve Gas Power yan ekipman kategorisi için ön niteliğe başvur. Çimtaş Hassas İşleme ve Çimtaş Çelik ile referans ziyareti: GE Vernova onay süreci deneyimi, onay süresi, ihracat birim fiyatı. Parker Hannifin FES, Camfil Power Systems, Braden Group, Donaldson GTS ve CECO Environmental için kısa liste çıkar; filtre evi, susturucu ve egzoz bacası gövdesi için ilk temas yap. 0,3 ile 0,5 milyon dolarlık pilot kararını paketleyici cevapları ve set fiyatı geldikten sonra ver.",
-"kim": "İş geliştirme yöneticisi ve kalite müdürü; ziyaret için üretim müdürü",
-"ne_zaman": "GE Vernova kaydı ve Çimtaş ziyareti Kasım 2026; paketleyici temasları Aralık 2026 sonuna kadar; pilot kararı Ocak 2027",
-"konu_id": "turbin_yan"
-},
-{
-"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlat; rapor tahmini 25 ile 55 bin avro, destekle yarıya inebilir. Belge flat rack, konteyner gövdesi, trafo tankı, türbin filtre evi ve egzoz bacası ile e-house gövdesinin ortak ön koşulu, nükleer kalite programının da ilk basamağı. Aynı anda Eskişehir ve Ankara tesislerinin tek parça ağırlık, boy, vinç ve kaynak kapasitesini yazıp NÜKSAK, Ankara Sanayi Odası ve TÜNAŞ ile ilk teması kur; Sinop yerli tedarik listesine girme şartını sor.",
-"kim": "Kalite müdürü; kurum temasları için genel müdür",
-"ne_zaman": "Belgelendirme teklifleri Kasım 2026, denetim başlangıcı Ocak 2027; kurum temasları Aralık 2026",
-"konu_id": "nukleer"
-},
-{
-"adim": "Türkiye ETS ilk izleme planı süresinin uzatılıp uzatılmadığını İklim Değişikliği Başkanlığı duyurularından kontrol et; süre 27 Ekim 2026'da doluyor. Ardından Limak Çimento, Çimsa ve OYAK Çimento ile üç ayrı ilk görüşme yap: kalsine kil ve puzolanı nereden alıyorlar, kamu işlerindeki 0,80 klinker sınırını nasıl karşılıyorlar, dış tedarikçiye açık mı. MAPEG ruhsat kayıtlarından trass, çimento kili, marn, kalker ve pomza ruhsatlarını çıkarıp ruhsat haritası hazırla; CBAM sertifika satışı 1 Şubat 2027'de başlıyor.",
-"kim": "İş geliştirme yöneticisi",
-"ne_zaman": "ETS kontrolü 27 Ekim 2026'ya kadar; görüşmeler ve ruhsat haritası Aralık 2026 sonuna kadar",
-"konu_id": "cimento"
-},
-{
-"adim": "Ana yüklenici ve OEM görüşmelerini tek turda yap ve görüşmelere tesis veri formunu götür. Konteyner ve şelter gövdesi için Rheinmetall Mobile Systeme, Marshall Land Systems ve ASELSAN. Flat rack ve kanca yükleyici gövdesi için Hiab Defence Logistics, Palfinger, Contsystem, Koluman ve BMC; Koluman tedarikçi portalına kayıt ol. Vinç alt yükleniciliği için Liebherr. Mühimmat hattı için Repkon, STV Machinery ve Macrodyne; teklif kalemlerini MSB görüşü gelmeden sözleşmeye bağlama.",
-"kim": "İhracat satış yöneticisi ve savunma iş birimi sorumlusu",
-"ne_zaman": "Aralık 2026 ile Ocak 2027 arasında ilk görüşmeler",
+"adim": "Savunma kolunun ortak belge paketini tek seferde başlatmak: Ek A tesis veri formunu doldurmak, kanca yüksekliği, Ø300 mm üstü torna sayısı, hol yüksekliği, robotik kaynak hücresi, boş saat ve metrekare; MSB'den 5201 sayılı Kanun kapsamında ürün bazlı yazılı sınıflandırma görüşü istemek, listede tahkimat kalıbı, bunker segment kalıbı, Çek kirpisi, flat rack ve kanca gövdesi, ISO konteyner gövdesi, bant konveyör, silo ve çelik platform; NCAGE, NSPA, UNGM ve SAM.gov tedarikçi kayıtlarını tamamlamak; ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak.",
+"kim": "Mehmet Ulaş ile MEKA kalite ve ihracat birimi",
+"ne_zaman": "Kasım 2026 içinde form ve başvurular, belgelendirme Haziran 2027'ye kadar",
 "konu_id": "sav_konteyner"
 },
 {
-"adim": "Magaldi'nin ANKIROS katılımını teyit et; varsa İstanbul'da stant H6-C110'da yüz yüze görüş. Magaldi, Kyoto Group, EnergyNest, Kraftblock ve Rondo'ya Türkiye ve bölge için imalat ve EPC ortaklığı teklif mektubu gönder; emsal Rondo ile SCG. EEN Türkiye iletişim noktası KOSGEB ya da TOBB üzerinden 1 Ekim 2026'da kapanan TOTR20251001007 profilinin sahibine ulaşmayı dene.",
-"kim": "İş geliştirme yöneticisi ve ihracat satış",
-"ne_zaman": "ANKIROS teyidi 31 Ekim 2026'ya kadar; mektuplar ve EEN teması Kasım 2026 sonuna kadar",
-"konu_id": "termal"
+"adim": "Tahkimat prekast paketi için üç konfigürasyonlu fiyat listesi ve kalıp kataloğu hazırlamak; TED'de kazanan on Polonyalı prekastçıya teklif götürmek: Małro ve Stropy Małro, Transbet, Gralbet, VECO-BET, Kruszbet, WPŻ Elbud Gdańsk, Drogi i Mosty Kaczmarczyk; aynı turda Estonya ECDI'ye 600 bunker ihalesinin sonucunu ve Letonya katılımını yazılı sormak.",
+"kim": "MEKA beton santrali satış ekibi",
+"ne_zaman": "Fiyat listesi Aralık 2026, teklifler Ocak 2027",
+"konu_id": "sav_prekast"
+},
+{
+"adim": "Gelmesta ve Kontmet'e çelik profil engel ve Çek kirpisi alt yüklenici teklifi vermek; Litvanya Lojistik Komutanlığı ve Letonya VALIC'in 2027 çerçevelerini izlemek; Ankara'dan Riga'ya nakliye bedelini gerçek teklifle almak, tahmin adet başına 40 ile 55 avro ve brüt marjın yaklaşık yarısı.",
+"kim": "MEKA ihracat satış",
+"ne_zaman": "Aralık 2026",
+"konu_id": "sav_kalip"
+},
+{
+"adim": "Flat rack ve konteyner gövdesi için ana yüklenici görüşmeleri: Hiab Defence Logistics, G3 Systems, Marshall Land Systems ve Rheinmetall Project Solutions'a ikinci üretim kaynağı teklifi; Zamet-Glowno ve Saxas fiyat düzeyiyle kıyas; STANAG 2413 ve DIN 30722 tasarım paketini başlatmak.",
+"kim": "Mehmet Ulaş ve MEKA mühendislik",
+"ne_zaman": "Görüşmeler Ocak 2027, prototip Mart 2027; Rheinmetall'in 149 istasyonluk üretimi Ocak ile Mart 2027 arasında başlıyor",
+"konu_id": "sav_flatrack"
+},
+{
+"adim": "ARCA ile Estonya Kiviõli tesisi için tedarikçi görüşmesi, genel amaçlı kalem listesi ve teklif takvimi istemek; MKE Kırıkkale barut ve mühimmat yatırımının konveyör, silo ve çelik yapı paketlerini sormak.",
+"kim": "MEKA satış",
+"ne_zaman": "Aralık 2026; ARCA üretimi 2028'de başlıyor",
+"konu_id": "sav_muhimmat"
+},
+{
+"adim": "Enkaz agregası ekonomi modelini MEKA'nın iç ürün marjıyla doğrulamak, MCC 70 ve MP serisi için ünite başı maliyet ve marj; UNGM tedarikçi kaydını tamamlayıp UNDP Filistin, UNDP Suriye ve UNDP Türkiye enkaz ihalelerini izlemek; Zoom Investment Holding, Deir ez-Zor Şehir Meclisi ve UNDP Suriye REVIVE ofisiyle tanışmak.",
+"kim": "MEKA finans ve yurt dışı satış",
+"ne_zaman": "Kasım 2026 model doğrulama ve UNGM kaydı, Aralık 2026 tanışma ziyaretleri",
+"konu_id": "enkaz"
+},
+{
+"adim": "Elektrikli otobüs için EGO Genel Müdürlüğü ile görüşme: 1.000 otobüs programının ihale biçimi, takvimi, finansmanı ve yerli malı şartı; Yutong, BYD, King Long, Higer, Zhongtong ve Skywell'e tek sayfalık ortaklık mektubu; FMT ve SANY Türkiye ile kit montaj deneyimi görüşmesi; fikstür yatırımından önce karar kapısı.",
+"kim": "Mehmet Ulaş",
+"ne_zaman": "Mektuplar Kasım 2026, EGO görüşmesi Aralık 2026, karar kapısı 31 Mart 2027",
+"konu_id": "elektrikli_oto"
+},
+{
+"adim": "Enerji ekipmanı için ilk temas: GE Vernova Supplier Connect kaydı ve Parker, Camfil, Braden, Donaldson ile ikinci kademe tedarikçi görüşmesi; Çimtaş'a GE onay süreci için referans ziyareti; aynı turda Aksa, Teksan ve Borusan Cat'e jeneratör kabini dış tedarik politikasını ve yıllık adedi sormak.",
+"kim": "MEKA iş geliştirme",
+"ne_zaman": "Aralık 2026 kayıt ve temas, Şubat 2027 Çimtaş ziyareti",
+"konu_id": "turbin_yan"
 }
 ],
 "kapi_etkisi": {
-"sirket": "Yatırım şirket üzerinden olursa 21 yaprağın hepsi kapıdan geçer. 18 yaprak yalnız şirket yolunu tanıyor: sekiz savunma nişi ile mineral zenginleştirme, termal batarya, trafo tankı, üretilmiş kum, enkaz agregası, RES temel paketi, mobil parçalayıcı, asfalt plenti, veri merkezi jeneratör kabini ve gaz türbini yan ekipmanı. Çimento katkısı, nükleer kalite imalat ve tungsten iki yolu da kabul ediyor; bu seçimde düşen yaprak yok.",
-"kisisel": "Kişisel yatırımda yalnız çimento katkısı, nükleer kalite imalat ve tungsten ayakta kalır: çimentoda ruhsat sahipliği Maden Kanunu Madde 6'ya göre T.C. vatandaşı ya da Türk şirketi olabilir, nükleerde atölye alımı yolu, tungstende azınlık hisse yolu var. Öteki 18 yaprak düşer: sekiz savunma nişi ile mineral zenginleştirme, termal batarya, trafo tankı, üretilmiş kum, enkaz agregası, RES temel paketi, mobil parçalayıcı, asfalt plenti, jeneratör kabini ve türbin yan ekipmanı; savunma raporu ve iki enerji ekipmanı çalışması MEKA şirketi için yazıldı, kişisel seçenek çalışmalarda yok.",
-"dusuk_butce": "Dilim 1 ya da 2 seçilirse 14 yaprak uyar. 100 bin dolar altı biletle tahkimat prekast hattı, tahkimat kalıbı, mühimmat hattı ekipmanı, vinç alt yükleniciliği, uçak bakım platformları ve enkaz agregası; 100 bin ile 1 milyon dolar biletle flat rack, konteyner gövdesi, istihkam ataşmanı, mineral zenginleştirme, termal batarya, nükleer kalite imalat, trafo tankı ve RES temel paketi. Yedi yaprak düşer: çimento katkısı, tungsten, üretilmiş kum, mobil parçalayıcı, asfalt plenti, 4 ile 8 milyon dolarlık veri merkezi jeneratör kabini ve 5 ile 8 milyon dolarlık gaz türbini yan ekipmanı; çimentoda yalnız ruhsat haritası, türbinde yalnız 0,3 ile 0,5 milyon dolarlık pilot bu dilimlere sığar.",
-"yuksek_butce": "Dilim 3 ya da 4 seçilirse yedi yaprak kapıdan geçer: çimento katkısı, tungsten, üretilmiş kum, mobil parçalayıcı, asfalt plenti, veri merkezi jeneratör kabini ve gaz türbini yan ekipmanı; hepsi 1 ile 10 milyon dolar dilimindedir, kumun üst ucu dilim 4'e taşar. Öteki 14 yaprak daha küçük biletle giriyor; yüksek bütçe onları düşürmez ama gerekli de değil. Dilim 4'ü isteyen yaprak bu bölgede yok; tam trafo fabrikası 70 ile 140 milyon dolar ve tungsten işleme tesisi 100 milyon dolar üstü olduğu için kapsam dışında tutuldu.",
-"kur": "Kur seçilirse 13 yaprak uyar. Tahkimat prekast hattı ve tahkimat kalıbı yalnız kur yolunu tanıyor; flat rack, mühimmat hattı ekipmanı, uçak bakım platformları, mineral zenginleştirme, çimento katkısı, nükleer kalite imalat, tungsten, trafo tankı, enkaz agregası, mobil parçalayıcı ve gaz türbini yan ekipmanı iki yolu da kabul ediyor, türbin tarafında ağır sac fabrikasyonu ayrı şirket olarak kurulabilir. Sekiz yaprak düşer: konteyner gövdesi, istihkam ataşmanı, vinç alt yükleniciliği, termal batarya, üretilmiş kum, RES temel paketi, asfalt plenti ve veri merkezi jeneratör kabini; bu yapraklarda çalışma yalnız alt yüklenicilik, ortaklık ya da satın alma yolu gösteriyor, e-house kazancı şalt ortağı ister.",
-"ortak": "Ortak seçilirse 19 yaprak uyar. Konteyner gövdesi, istihkam ataşmanı, vinç alt yükleniciliği, termal batarya, üretilmiş kum, RES temel paketi, asfalt plenti ve veri merkezi jeneratör kabini yalnız ortak yolunu tanıyor; flat rack, mühimmat hattı ekipmanı, uçak bakım platformları, mineral zenginleştirme, çimento katkısı, nükleer kalite imalat, tungsten, trafo tankı, enkaz agregası, mobil parçalayıcı ve gaz türbini yan ekipmanı iki yolu da kabul ediyor. Tahkimat prekast hattı ve tahkimat kalıbı düşer; rapor bu ikisinde MEKA'nın kendi santral, kalıp ve otomasyon paketini üretip satmasını öneriyor."
+"sirket": "Yatırım şirket üzerinden olursa 23 yaprağın hepsi açık kalır; savunma kolları, enkaz, mineral ve enerji ekipmanı MEKA'nın Ankara ve Eskişehir tesisine ve KAP'a bildirilen ürün fiyatlarına dayanıyor. Çimento, nükleer ve tungsten paketleri şirket ya da kişisel diye yazıyor; şirket yolunda bunlar da kalır.",
+"kisisel": "Kişisel yatırım seçilince bu kol tümüyle kapanır; bütün yapraklar MEKA tesisi ve ürünüyle çalışıyor. Paket yalnız çimento için ruhsat, tungsten için azınlık hisse ve nükleer için kişisel yolu da yazıyor; o fikirler ancak MEKA dışı bir yapıda yeniden ele alınır.",
+"dusuk_butce": "Dilim 1 ve 2 seçilirse sav_vinc ve sav_mro 100 bin dolar altı ile, sav_prekast, sav_kalip, sav_istihkam, enkaz, mineral, termal, trafo, res_temel ve nukleer 100 bin ile 1 milyon dolar ile uyar. sav_flatrack, sav_muhimmat, sav_konteyner, cimento, tungsten, kum, parcalayici, asfalt, dc_ehouse, turbin_yan ve elektrikli_oto 1 ile 10 milyon dolar, cin_otobus_ort yaklaşık 11,5 milyon dolar ister; bunlar düşer. sav_flatrack 0,8 ile 1,5 ve sav_muhimmat 0,93 ile 1,9 milyon dolar ile sınıra yakın, cimento için ruhsat haritası 100 bin dolar altında.",
+"yuksek_butce": "Dilim 3 ve 4 seçilirse sav_flatrack, sav_muhimmat, sav_konteyner, cimento, tungsten, kum, parcalayici, asfalt, dc_ehouse, turbin_yan ve elektrikli_oto 1 ile 10 milyon dolar ile, cin_otobus_ort 10 milyon dolar üstü ile açılır. Küçük biletli yapraklar düşmez, bütçenin küçük bir kısmını kullanır. En büyük kalemler dc_ehouse 4 ile 8, turbin_yan 5 ile 8, elektrikli_oto 6 ile 10 milyon dolar; bunlarda geri ödeme 5 yılı aşıyor.",
+"kur": "Kuralım seçilirse sav_prekast tek kur yolu olarak, sav_kalip, sav_flatrack, sav_muhimmat, sav_mro, mineral, cimento, nukleer, tungsten, trafo, enkaz, parcalayici ve turbin_yan iki yollu olarak uyar; üretim MEKA'da. sav_konteyner, sav_istihkam, sav_vinc, termal, kum, res_temel, asfalt, dc_ehouse, elektrikli_oto ve cin_otobus_ort yalnız ortak yolu yazıyor; kur seçilince düşer.",
+"ortak": "Ortak olalım seçilirse sav_konteyner, sav_istihkam, sav_vinc, termal, kum, res_temel, asfalt, dc_ehouse, elektrikli_oto ve cin_otobus_ort tam uyar; sav_kalip, sav_flatrack, sav_muhimmat, sav_mro, mineral, cimento, nukleer, tungsten, trafo, enkaz, parcalayici ve turbin_yan satış kanalı ya da teknoloji ortağıyla devam eder. Yalnız sav_prekast düşer; paket onu MEKA'nın kendi santral ve kalıp paketini satması diye yazıyor."
 },
 "uyarilar": [
-"Savunma raporu 22 Eylül 2026'da doğrulamasının yaklaşık yarısını kullanım limiti yüzünden bitiremedi; 38 iddianın 13'ü düzeltildi. Kanca yükleyici sayısı 4.000 ile 4.000'e kadar, sağlık konteyneri 500 ile 600 milyon avro, Baltık bunker sayısı 600 ile 1.600 olarak farklı yerlerde farklı geçiyor; inceleme savunma dört kolunun Özel firmalar altında durmasını da sorguluyor, çünkü ilk 90 günün kapıları YETEN, SSB, NCAGE, NSPA ve MSB gibi kamu kurumları.",
-"Pencereler daralıyor ve bazıları geçti: 30 Eylül 2026 süreli YETEN kaydı ve SSB 2027 fuar desteği başvurusunun yapıldığına dair kayıt yok. MSB sınıflandırma görüşü için rapor takvimi 22 Ekim 2026 civarı doluyor. Türkiye ETS ilk izleme planı süresi 27 Ekim 2026'da doluyor. Tahkimat talebi 2027 ile 2028'de programlar tamamlanınca düşebilir ve Avrupa'da yeni prekast hatları aynı dönemde devreye giriyor. Veri merkezinde Generac Enercon'u 1 Nisan 2026'da aldı ve Belvidere paketleme tesisini 2027 ilk çeyrekte açıyor; OEM paketlemeyi içeri alırken MEKA'nın UL yolu ABD'ye 2027 ilk çeyrekten sonra ulaşır.",
-"Çalışmalar arası çelişki: termal batarya için 27 Eylül 2026 tarihli 05 çalışması on iki iş içinde birinci sırayı verirken 30 Eylül 2026 tarihli 10 çalışması giren kazanır testinde 3/10 verdi ve 07 ile 08 yalnız opsiyon dedi. Yer destek ekipmanına iki akış 4/5 ve 2/5 verdi; fark AS9100 kapsamına bağlı ve TUSAŞ teyidi alınmadı. Tungstende Çin dışı fiyatın Çin iç fiyatına oranı kaynağa göre 2,2 ile 3,0 kat arasında değişiyor. Keşif kartı Caterpillar brüt marjını yüzde 32,8 ve GE Vernova Power marjını yüzde 16,3 veriyordu; doğrulanan sayfalarda segment marjı yüzde 24,6 ve 2Q26 Power marjı yüzde 18,8.",
-"Zayıf kanıt: mineral, kum, RES temel, trafo, parçalayıcı ve tungstende pazar ve fiyat rakamları doğrulanamadı; PDF metinleri okunamadı, bazı sayfalar açılmadı, kum fiyatı blog kaynaklı; kum ve RES temel kanıt puanı bu turda 3'ten 2'ye indi. İki yeni enerji yaprağında işin kendisine ait kanıt zayıf: kabin için tek veri 2011 tarihli bir ses azaltma maliyeti, e-house için tek sözleşme Harju Elekter'in 15,5 milyon avrosu; türbin setinin fiyatı ve fabrikasyon marjı doğrulanmadı, Siemens Energy'nin 69 GW birikimi tek haber kaynağında ve geri ödeme alt senaryoda 2031'de tamamlanmıyor. MEKA'nın 2026 ilk çeyrekte hasılatının yüzde 24 düştüğü ve 44,5 milyon TL net zarar ettiği bilgisi yalnız bir arama özetinde ve doğrulanamadı.",
-"Tesis ve dış ticaret sınırları: Eskişehir tesisinin 10 ton ve 7 x 2,5 x 2,5 metre tek parça sınırı vinç bom kutularını, büyük güç trafosu kazanlarını ve büyük reaktör kabını dışarıda bırakır; jeneratör kabini için 8.000 ile 10.000 m2 kapalı alan ve elektrik tasarım ekibi gerekiyor, MEKA'da ikisi de yok, UL 2200 ve IEC tip testleri pahalı ve uzun. ABD Bölüm 232 çelik türev ürün vergisi türbin yan ekipmanı ve kabin ihracatını etkiler; yüzde 50 oranı BIS sayfasında yazmıyor, 3 Haziran 2025 kararnamesine dayanıyor. Rapor savunmanın yarı zamanlı yürütülmesini orta olasılık ve yüksek etki riski sayıyor; ayrı iş birimi, bütçe ve sorumlu yönetici öneriyor."
+"Yerli tedarikçi tercihi: 2024 ile 2026 TED tahkimat sonuçlarında bütün kazananlar yerli, tek istisna Litvanyalı Gelmesta'nın Letonya çerçevesi; Marshall Hollanda işinde ofset için Hollandalı Contour'u seçti ve Türk tedarikçi ofset sayılmaz; Rheinmetall 3:1 konteyneri kendi üretiyor; Hollanda flat racklerini Polonyalı Zamet-Glowno yapıyor. Hiçbir ana yüklenici Türk tedarikçi aradığını yazmıyor.",
+"Pencere ve fiyat: Polonya ve Letonya tahkimat programları 2028'de, Estonya hattı 2027 sonunda bitiyor; Bundeswehr kamyon çerçevesinin kalan hacmi 2027'ye kadar; Polonya'da kirpi birim fiyatı Ekim 2025'te 1.282 ile 1.747 PLN iken Eylül 2026'da 847 ile 1.026 PLN'ye indi, yerli prekast kapasitesi yetiyor.",
+"İhracat kontrolü: bunker segment kalıbı ML13.b ve ML18.a, askerî konteyner gövdesi ML17, mühimmata özgü fikstür ML18.a kapsamına girebilir; MSB yazısı alınmadan sevkiyat durur ya da ceza doğar. Beş savunma yaprağı 80 ile 160 bin avroluk ortak belge payını beşe bölerek taşıyor; tek yaprak seçilirse bu pay tek yaprağa biner.",
+"Otobüs yaprakları: Türkiye'de 2025'te 69 elektrikli toplu ulaşım aracı satıldı, hepsi Karsan; Türk üreticiler gövdeyi kendileri yapıyor ve yaklaşık yüzde 32 boş kapasiteleri var; BYD'nin Manisa anlaşması 10 Haziran 2026'da askıya alındı; Çinli üreticinin Türkiye'de ortak aradığı doğrulanamadı. Bilet 6 ile 11,5 milyon dolar, geri ödeme 4,5 ile 5,4 yıl, yıl 5 adetleri ve marjı varsayım.",
+"Zayıf kanıt ve yakın tarih: RES temel ve üretilmiş kum kanıt 2/5; mineral pazar rakamları MAPEG ve USGS bu turda doğrulanamadı; termal bataryada sanayi gazı 1,69 TL/kWh ve hibesiz geri ödeme yaklaşık 11,5 yıl; trafo tank diliminde Genba var. Çimentoda Türkiye ETS ilk izleme planı süresi uzatılmazsa 27 Ekim 2026'da doluyor ve CBAM sertifika satışı 1 Şubat 2027'de başlıyor; ruhsat haritası ve fiyat hâlâ yok."
 ],
 "siralama": [],
 "konu_ids": [
@@ -36188,77 +40895,79 @@ window.MEKA_DATA = {
 "asfalt",
 "dc_ehouse",
 "turbin_yan",
+"elektrikli_oto",
+"cin_otobus_ort",
 "izle_meka"
 ]
 },
 "meka_devlet": {
 "id": "meka_devlet",
 "baslik": "MEKA ile ilgili, Devlet firmaları",
-"ozet": "Bu kolda üç yaprak var: Eti Maden'in Beylikova nadir toprak tesisi, belediyelerin inşaat ve yıkıntı atığı tesisleri ve Roketsan ile fırlatma altyapısına bağlı lançer işleri. Eyleme en yakın olan belediye ihaleleri: Giresun 2026'da iki kez konkasör alımına çıktı, yerli malına yüzde 15 fiyat avantajı tanıdı ve MEKA'nın MCC 70, MP 90 ve MP 110C ürünleri bu işe hazır. Beylikova'da yılda 570 bin ton cevher işleyecek sanayi tesisi için kırma ve öğütme paketi beklenir ama temel 2026'da atılmadı ve mühendislik firması bilinmiyor. Lançer tarafında fırlatma üssüne beton santrali ve çelik yapı satışı mevcut ürünle yapılabilir; lançer gövdesi ise 12 ile 20 ay süren Tesis Güvenlik Belgesi ve AQAP zincirini ister. Üç yaprağın ortak engeli tek alıcılı devlet ihalesi, uzun ödeme vadesi ve ihale sayısının azlığıdır.",
+"ozet": "Bu kolda alıcı kamu kuruluşu: belediyeler ve il özel idareleri, Eti Maden, Roketsan ve ASELSAN. Üç yaprak da MEKA'nın mevcut kırma eleme, beton santrali ve ağır sac hatlarını kullanır; satış yolu ya EKAP mal alımı ihalesine doğrudan teklif ya da ana yüklenicinin altında ikinci kademe tedarik, iki yolda da bedel sabit TL ve ödeme vadesi uzun. Gelire ve eyleme en yakın yaprak belediye: 2026'da Safranbolu ve Giresun 14,6 ve 23,3 milyon TL'lik konkasör aldı, Siirt ve Niğde il özel idareleri 69,4 ve 93 milyon TL'lik tesis aldı; 20 Ekim 2026 çalışmasında bilet 5 ile 12,5 milyon TL, ilk gelire 6 ile 12 ay ve beş emsal ihale sonucu yazıldı. Lancer için aynı turda ekonomi modeli ve emsal sözleşmeler yazıldı; talep KAP'taki 1,23 milyar avroluk ASELSAN ve Roketsan sözleşmesiyle kayıtlı, ama alt yüklenici geliri belge zinciri yüzünden 18 ile 30 ay sonra başlar ve Somali üssünün ana yüklenicisi hâlâ bilinmiyor. Beylikova'da Eti Maden'in 570 bin ton/yıl sanayi tesisi henüz ihaleye çıkmadı; temel 2026 için söz verildi, Ekim 2026'da gerçekleşme haberi yok ve ortak engel üçünde de aynı: fiyat odaklı kamu alıcısı, tasarımın ana yüklenicide olması ve uzun ödeme süreci.",
 "ne_yapmali": [
 {
-"adim": "EKAP'ta idare adı Eti Maden ile Beylikova, nadir toprak, cevher hazırlama, kırma ve öğütme ihalelerini haftalık izle; çıkan her ilanı tarih, kapsam ve yaklaşık maliyetle kayda geçir.",
-"kim": "Kamu ihale takip sorumlusu, yurt içi satış",
-"ne_zaman": "23 Ekim 2026'dan başlayarak her hafta",
-"konu_id": "beylikova"
-},
-{
-"adim": "Eti Maden Genel Müdürlüğü Yatırım ve Satınalma birimleriyle görüşme yap. Sorular: sanayi tesisinin tasarımını yapan firma, iki fazlı yatırım planının takvimi, temel atma tarihi ve kırma ile öğütme paketinin ayrı ihale edilip edilmeyeceği. 16 Ekim 2026 tarihli TBMM KİT Komisyonu açıklamasını dayanak olarak kullan.",
-"kim": "Genel müdür ve yurt içi satış müdürü",
-"ne_zaman": "Kasım 2026 sonuna kadar",
-"konu_id": "beylikova"
-},
-{
-"adim": "e-ÇED sisteminden Beylikova kompleks cevher ÇED raporunu indir; kırma kademeleri, öğütme tipi, günlük tonaj ve toryum kaynaklı radyoaktif atık şartlarını çıkar. MEKA ürün gamıyla eşleşen kalemleri listele.",
-"kim": "Proses mühendisliği ekibi",
-"ne_zaman": "31 Ekim 2026'ya kadar",
-"konu_id": "beylikova"
-},
-{
-"adim": "EKAP'ta 2026/1539482 ve 2026/1100761 sayılı Giresun konkasör ihalelerinin sonuç ilanlarını sorgula; yoksa Giresun Belediyesi Fen İşleri Müdürlüğü'nü arayıp sonucu, kazanan markayı ve fiyatı öğren. Samsun Büyükşehir Güzeldere konkasör tesisinin yeni mi mevcut mu olduğunu sor.",
-"kim": "Kamu ihale takip sorumlusu",
-"ne_zaman": "24 Ekim 2026'ya kadar",
+"adim": "Taşsan Kırma Eleme'yi tanı: Ticaret Sicil Gazetesi kaydı, imalatçı mı bayi mi, Safranbolu ve Giresun'a hangi marka ve modeli teslim ettiği; rakip mi, bayi ya da ortak adayı mı karar ver. Giresun Belediyesi Fen İşleri Müdürlüğü'nden makine listesini iste.",
+"kim": "Kamu ihale ve satış sorumlusu",
+"ne_zaman": "30 Ekim 2026",
 "konu_id": "belediye"
 },
 {
-"adim": "Belediye adına saha işleten özel firmalar ve belediye şirketleriyle görüşme yap: Egeşehir, Aliağa Belediyesi Petrol A.Ş., Burkent, Haydar Madencilik ve İSTAÇ. Bornova Belediyesi İklim Değişikliği ve Sıfır Atık Müdürlüğü'nü arayıp 23 Aralık 2025 Karaçam ihalesinin sonucunu ve işletmeciyi öğren. CSB taslak yıkım yönetmeliğini okuyup seçici yıkım, geri kazanım oranı ve geri kazanılmış agrega şartlarını not et.",
-"kim": "Yurt içi satış müdürü",
-"ne_zaman": "Kasım 2026 sonuna kadar",
+"adim": "EKAP üyeliğini tek masadan yürüt: 1 Ocak 2024'ten bugüne konkasör, kırma eleme, mobil kırıcı ve yıkıntı atığı sonuç ilanlarını tam say; idare, bedel, istekli sayısı ve kazananı tabloya yaz. Aynı taramada idare adı Eti Maden ile Beylikova, cevher hazırlama, kırma ve öğütme ilanlarını her hafta kontrol et, çıkan ilanı aynı gün karar sahibine ilet.",
+"kim": "Pazarlama analisti ve ihale destek sorumlusu",
+"ne_zaman": "Sayım 6 Kasım 2026'ya kadar, sonra her hafta",
 "konu_id": "belediye"
 },
 {
-"adim": "Eski füze rampası işinin arşivini tara: müşteri, yıl, kapsam, çizim, fatura ve fotoğraf. Belge bulunursa Roketsan görüşmesine referans olarak götür; bulunamazsa yönetimin hatırladığı işin kanıtı yok sayılır, bunu kayda geçir.",
-"kim": "MEKA yönetimi ve arşiv sorumlusu",
-"ne_zaman": "31 Ekim 2026'ya kadar",
+"adim": "MCC 70, MP 90 ve MP 110C için kamu ihalelerine özel TL fiyat listesi, yerli malı belgesi, TSE ve CE dosyasını hazırla; brüt marj varsayımını yüzde 25 ile 30 arasında KAP'taki MEKA tablolarıyla doğrula; Safranbolu 14,6 ve Giresun 23,3 milyon TL emsallerine göre konumlandır. Ardından Niğde ve Siirt alımlarını yapan il özel idaresi birimleriyle görüş ve 81 il özel idaresi için 2027 bütçe takvimine göre ziyaret planı çıkar.",
+"kim": "Satış müdürü, mali işler ve yurt içi satış müdürü",
+"ne_zaman": "Fiyat ve belge dosyası 13 Kasım 2026, il özel idaresi planı 20 Kasım 2026",
+"konu_id": "belediye"
+},
+{
+"adim": "e-ÇED sisteminden Beylikova kompleks cevher ÇED raporunu indir; kırma kademeleri, öğütme tipi, günlük tonaj ve ekipman listesini çıkar. Bu bilgiyle Eti Maden Genel Müdürlüğü Yatırım ve Satınalma birimleriyle görüş: tesisin tasarımını yapan firma, EPC mi ayrı paket mi, kırma eleme paketinin ihale takvimi, yerli ekipman tercihi, kapasite 570 bin mi 500 bin ton/yıl mı.",
+"kim": "MEKA proses ve teklif mühendisi ile iş geliştirme yöneticisi, Ankara",
+"ne_zaman": "ÇED raporu 31 Ekim 2026'ya kadar, Eti Maden görüşmesi Kasım 2026 içinde",
+"konu_id": "beylikova"
+},
+{
+"adim": "NDK Lisanslama Dairesi'ne bilgi edinme başvurusu yap: toryumlu cevherde kırma ve eleme ekipmanı tedarikçisine ek şart, malzeme ya da belge gereği var mı. Eskişehir bayisi üzerinden temel atma duyurusunu ve dava durumunu izle; temel atılır ve EPC yüklenicisi açıklanırsa 30 gün içinde yükleniciye kırma eleme alt tedarikçisi olarak teklif hazırla.",
+"kim": "MEKA kalite ve belgelendirme sorumlusu, Eskişehir bayisi ve iş geliştirme",
+"ne_zaman": "NDK başvurusu Kasım 2026 içinde; izleme Aralık 2026 sonuna kadar, sonra üç ayda bir",
+"konu_id": "beylikova"
+},
+{
+"adim": "Eski füze rampası işinin arşivini tara: iş emri, çizim, fatura, fotoğraf. Aynı hafta dört Ankara fabrikası ve Eskişehir için tesis veri formunu doldur: vinç kapasitesi, kanca yüksekliği, boş saat. Vinç verisi 25 tonluk iki köprü vincin gerekip gerekmediğini ve biletin 2. dilimde kalıp kalmadığını belirler.",
+"kim": "MEKA yönetimi, arşiv sorumlusu ve üretim müdürü",
+"ne_zaman": "15 Kasım 2026'ya kadar",
 "konu_id": "lancer"
 },
 {
-"adim": "Somali üssü yüklenicisini ve Türkiye Uzay Ajansı muhatabını tespit et; beton santrali, RCC ve çelik hizmet yapıları için mevcut ürünle teklif hazırla. Pencere 2026 ile 2027 arasında dar; yüklenici bulunamazsa fırsat kaçar.",
-"kim": "İhracat satış yöneticisi ve genel müdür",
-"ne_zaman": "Tespit Kasım 2026; teklif Aralık 2026 sonuna kadar",
+"adim": "Roketsan tedarikçi portalına yeni tedarikçi kaydı; ASELSAN, Koluman ve BMC satın alma birimlerine kanister kızağı, denge ayağı kutusu ve konteyner gövdesi için yetkinlik dosyası ve numune teklifi. Somali Warsheikh üssü için Türkiye Uzay Ajansı ve Sanayi ve Teknoloji Bakanlığı ile görüş; Mogadişu'da çalışan Türk müteahhitlere ve Roketsan altyapı birimine mobil beton santrali ve çelik hizmet yapısı teklif dosyası gönder.",
+"kim": "Savunma iş birimi sorumlusu ile MEKA satış ve iş geliştirme",
+"ne_zaman": "Kayıt Aralık 2026'ya kadar; üs görüşmeleri Kasım 2026 ile Mart 2027; ilk teklif Mart 2027'ye kadar",
 "konu_id": "lancer"
 },
 {
-"adim": "Roketsan, ASELSAN ve Koluman tedarikçi portallarına kayıt ol; Roketsan portalında yeni, aday ve onaylı aşamalarını takip et. Tesis Güvenlik Belgesi ve AQAP-2110 için ön hazırlık başlat; zincir 12 ile 20 ay sürüyor, fiziki güvenlik yatırımı 1 ile 3 milyon TL, danışmanlık 10 ile 25 bin avro.",
-"kim": "Savunma iş birimi sorumlusu ve kalite müdürü",
-"ne_zaman": "Kayıtlar Kasım 2026; Tesis Güvenlik Belgesi ön hazırlığı Aralık 2026",
+"adim": "12. ay kapısı: üs satışı gerçekleşti mi, ana yüklenicilerden en az bir numune siparişi geldi mi. Evetse Tesis Güvenlik Belgesi ve Üretim İzin Belgesi sürecine gir; hayırsa yaprağı yalnız üs altyapısı satışıyla sınırla.",
+"kim": "Yönetim kurulu",
+"ne_zaman": "Ekim 2027; lançer iş paketlerine teklif kararı Nisan 2028",
 "konu_id": "lancer"
 }
 ],
 "kapi_etkisi": {
-"sirket": "Üç yaprak da şirket yolunu tanıyor: beylikova, belediye ve lancer. Şirket seçimi bu bölgede yaprak düşürmez.",
-"kisisel": "Kişisel yatırımda üç yaprak da düşer. Beylikova ve belediye EKAP ihalesine giren bir imalatçı ister; lancer raporu MEKA şirketi için yazıldı ve kişisel seçenek çalışmada yok.",
-"dusuk_butce": "Dilim 1 ya da 2 seçilirse üç yaprak da uyar. Belediye 100 bin dolar altı biletle giriyor: EKAP izleme, ihale dosyası, yerli malı belgesi ve satış ziyaretleri. Beylikova ve lancer 100 bin ile 1 milyon dolar dilimindedir; beylikova'da yalnız kırma ve eleme ihalesi için ek yatırım küçük kalır, lancer'da fırlatma üssü satışı yeni yatırım istemez.",
-"yuksek_butce": "Dilim 3 ya da 4 bu bölgede hiçbir yaprak için gerekli değil; üçü de daha küçük biletle giriyor. Yüksek bütçe seçimi yaprak düşürmez ama ek kapı da açmaz.",
-"kur": "Kur seçilirse üç yaprak da uyar. Beylikova'da kırma, eleme ve konveyör paketini MEKA kendi kurar ve EKAP ihalesine girer; belediye'de ihalelere doğrudan teklif verir; lancer'da fırlatma üssüne kendi beton santralini ve çelik yapısını satar.",
-"ortak": "Ortak seçilirse üç yaprak da uyar. Beylikova'da öğütme ve flotasyon için teknoloji ortağı gerekir, Metso ve Aksa Magnet ortak adayı olarak geçiyor; belediye'de saha işleten özel firmalar ve belediye şirketleriyle çalışılır; lancer'da gövde ve üst yapılar Roketsan, ASELSAN ve Koluman'a alt yükleniciliktir."
+"sirket": "Üç yaprak da şirket yatırımı için yazıldı: beylikova, belediye ve lancer MEKA'nın mevcut fabrika hatları, EKAP üyeliği ve kamu referanslarıyla yürür. Şirket seçilince bu kolda düşen yaprak yok.",
+"kisisel": "Kişisel yatırım seçilince MEKA dalı tamamen kapanır; beylikova, belediye ve lancer üçü de düşer. Kamu alıcısına teklif ve alt yüklenicilik ancak MEKA tüzel kişiliği, tesis belgeleri ve kurumsal referanslarla mümkün.",
+"dusuk_butce": "Üç yaprağın giriş bileti 100 bin ile 1 milyon dolar dilimindedir, yani dilim 2'de üçü de uyar. Belediye demo makinesiz 5 milyon TL ile dilim 1'e iner; beylikova yalnız kırma eleme ihalesine girişte 100 bin doların altında kalır. Lancer vinç yatırımı olmadan 0,47 ile 1,27 milyon dolar bandında dilim 2'de kalır; dilim 1 seçilirse lancer düşer.",
+"yuksek_butce": "Bu kolda hiçbir yaprak 1 milyon dolar üstü giriş bileti istemez; dilim 3 ya da 4 seçilince üçü de yine uyar, ek bütçe kapasiteye değil hıza gider. Lancer'da 25 tonluk iki köprü vinç eklenirse üst sınır 1 milyon doları geçer ve dilim 3'e yaklaşır; beylikova'da öğütme ve besleme ekipmanı geliştirmek 12 ile 24 ayda 300 bin ile 1 milyon dolar ister.",
+"kur": "Üç yaprağın yolu da iki seçeneğe açık ve kur tarafı güçlüdür. Belediye'de MEKA kendi ürünüyle EKAP ihalesine doğrudan teklif verir ve ortaklık kurma gerekmez; beylikova'da kırma, eleme ve konveyör paketini MEKA kendi kurar; lancer'da fırlatma üssüne beton santrali ve çelik hizmet yapısını doğrudan satar.",
+"ortak": "Ortak yolu seçilince üçü de uyar ama kapsam daralır. Beylikova'da öğütme ve flotasyon için yerli ya da yabancı teknoloji ortağı gerekir ve Metso ilişkisi başlangıç noktasıdır; belediye'de Taşsan gibi ihale kazanan yerel firmalarla bayi ya da tedarik ortaklığı kurulur; lancer'da MEKA Roketsan, ASELSAN, Koluman ve BMC'ye ikinci kademe alt yüklenici olur, yurt dışı lançer programlarına ancak Polonyalı ya da Alman bir ortakla girilir."
 },
 "uyarilar": [
-"Beylikova takvimi kayıyor: Bakan 29 Ekim 2025'te temeli 2026'da atmayı, 1 Mayıs 2026'da üretime bu yıl başlamayı söyledi; Ekim 2026'da temel haberi yok ve inşaat 2027 deniyor, iki yıl kayabilir. Rakamlar çelişiyor: yıllık 10 bin ton oksit hedefi tek köşe yazısında, AA aynı rakamı pilot tesise atfediyor; 600 milyon dolar üç projenin toplamı, yalnız Beylikova'ya ait tutar yok.",
-"Belediye yaprağında önceki çalışma hızlı ve orta büyüklükte demişti; bu turda doğrudan ekipman ihalesi sayısı çok düşük çıktı. Belediyeler çoğunlukla tesisi kurmuyor, sahayı özel firmaya kiralıyor; alıcı özel işletmeci olunca fiyat baskısı artıyor. Keçiören ihale bandı yalnız arama özetinden alındı, ilan sayfası açılmadı.",
-"Yönetimin hatırladığı eski füze rampası işi kamuya açık hiçbir kaynakta bulunamadı. Somali üssünün ana yüklenicisi ve HİSAR ile SİPER lançer üst yapılarını kimin ürettiği bilinmiyor. Fırlatma üssü penceresi 2026 ile 2027 arasında dar; yüklenici bulunamazsa fırsat kaçar.",
-"Lançer ve rampa çelik yapısı ML4 sınıfında; fason iş dahi tam ihracat kontrolüne tabi, ihracat yalnız Roketsan ve ASELSAN paketleri üzerinden dolaylı olur. Tesis Güvenlik Belgesi, Üretim İzin Belgesi ve AQAP zinciri 12 ile 20 ay. Savunma raporu doğrulamasının yaklaşık yarısını tamamlayamadı, 38 iddianın 13'ü düzeltildi.",
-"Üç yaprak da devlet alıcısına bağlı: ödeme vadesi uzun, ASELSAN için 95 ile 113 gün bilançodan hesaplanmış; belediyelerde ödeme gecikmesi ve bütçe daralması var; Eti Maden ihalesi fiyat odaklı ve ekipman paketi yabancı mühendislik ya da EPC firmasının içinden gelebilir. Toryum içeren cevher nedeniyle NDK lisansı ve radyoaktif atık kuralları tedarikçiye ek şart getirebilir."
+"Belediye ihale sonuçları ve yaklaşık maliyetler EKAP'ın kendi ekranından değil, kamuihaleler.com adlı tek üçüncü taraf siteden alındı; Taşsan'ın imalatçı mı bayi mi olduğu ve Safranbolu ile Giresun'a verilen marka bulunamadı.",
+"Belediye talebi önceki turdan geniş çıktı ama ritim düşük: belediye konkasör alımı yılda 1 ile 2, il özel idaresi alımı yılda 1; yıl 5 için 5 ile 8 makine hedefi bu ritmin üstünde ve çoğu belediye tesisi kurmak yerine sahayı özel firmaya kiralıyor.",
+"Lancer'da Somali üssünün ana yüklenicisi 10 ayda hiçbir kaynakta çıkmadı; üs satışı gerçekleşmezse yıl 1 ve 2 geliri sıfır olur. Konteyner gövdesi 80 ile 150 bin dolar ve üst yapı seti 25 ile 60 bin dolar birim fiyatları tahmindir, web'de emsal yok; inşaat başlangıcı için Ekim 2025 ortası ile 30 Aralık 2025 arasında kaynak çelişkisi var.",
+"Lancer belge kapısı uzun: lançer ve rampa çelik yapısı ML4, Tesis Güvenlik Belgesi, Üretim İzin Belgesi ve AQAP zinciri 12 ile 20 ay sürer; Kontrole Tabi Liste'ye yeni giren ürünlerde belge süreçleri 1 Haziran 2027'ye kadar bitmeli.",
+"Beylikova'da kanıt 3/5 ve çelişkiler var: 600 milyon dolar üç projenin toplamı, 10 bin ton/yıl oksit hedefi tek köşe yazısına dayanıyor, temel atma 2026 sözüne karşılık Ekim 2026'da haber yok ve inşaat 2027'ye kayabilir. 16 açılan sayfanın hiçbirinde mühendislik ya da EPC firması yok; ekipman paketi EPC içinden gelirse MEKA ancak alt tedarikçi olur ve toryumlu cevher için NDK ek şart getirebilir."
 ],
 "siralama": [],
 "konu_ids": [
@@ -36801,6 +41510,13 @@ window.MEKA_DATA = {
 {
 "tarih": "20 Ekim 2026",
 "iso": "2026-10-20",
+"olay": "7. tur: MEKA dalının 8 yaprağı için ekonomi modeli ve emsal ihale sonuçları; elektrikli otobüs ve Çinli üreticiyle ortaklık yaprakları eklendi; 10 yaprak üç puanlayıcı ve eleştirmenle puanlandı",
+"kaynak": "bu uygulama",
+"konu_id": ""
+},
+{
+"tarih": "20 Ekim 2026",
+"iso": "2026-10-20",
 "olay": "AB aşağı akış genişletmesi için ilk siyasi üçlü görüşme, Strazburg genel kurulu sırasında.",
 "kaynak": "rapor https://www.mayerbrown.com/en/insights/publications/2026/10/eus-cbam-downstream-extension-and-anti-circumvention-amendments-the-road-to-trilogue",
 "konu_id": "cimento"
@@ -36834,24 +41550,24 @@ window.MEKA_DATA = {
 "konu_id": "termal"
 },
 {
-"tarih": "22 Ekim 2026 civarı",
+"tarih": "22 Ekim 2026",
 "iso": "2026-10-22",
-"olay": "MSB'den tahkimat kalıbı için yazılı sınıflandırma görüşü istenmiş olmalı; rapor tarihinden bir ay, hesap",
-"kaynak": "01 rapor, s_road, 9.2",
+"olay": "MSB sınıflandırma görüşü için rapor takviminin dolduğu gün; alındığına dair kayıt yok",
+"kaynak": "01 rapor 9.2",
 "konu_id": "sav_kalip"
 },
 {
-"tarih": "22 Ekim 2026 dolayı",
+"tarih": "22 Ekim 2026 dolayı, en geç 31 Ekim 2026",
 "iso": "2026-10-22",
-"olay": "MSB'den flat rack için 5201 kapsamında yazılı sınıflandırma görüşü istemek; tesis veri formu; NCAGE başvurusu. Rapor 22 Eylül 2026'dan itibaren bir ay içinde diyor; tarih hesaptır",
-"kaynak": "01 rapor, s_road 9.2",
+"olay": "MSB sınıflandırma görüşü başvurusu, Ek A tesis veri formu, NCAGE başvurusu; rapor 22 Eylül 2026'dan itibaren bir ay diyor",
+"kaynak": "01 rapor 9.2",
 "konu_id": "sav_flatrack"
 },
 {
-"tarih": "22 Ekim 2026'ya kadar",
+"tarih": "22 Ekim 2026",
 "iso": "2026-10-22",
-"olay": "Raporun bir ay içinde dediği adımlar: tesis veri formu, NCAGE ve NSPA kayıtları, MSB 5201 sınıflandırma görüşü. Tarih 22 Eylül 2026'dan hesaplandı.",
-"kaynak": "01 rapor, s_road, 9.2 İlk 90 gün",
+"olay": "Raporun bir ay içinde dediği adımlar: tesis veri formu, NCAGE ve NSPA kayıtları, MSB 5201 görüşü. 22 Eylül 2026'dan hesaplandı.",
+"kaynak": "01 rapor, 9.2 İlk 90 gün",
 "konu_id": "sav_muhimmat"
 },
 {
@@ -36860,13 +41576,6 @@ window.MEKA_DATA = {
 "olay": "ANKIROS fuarı İstanbul, Magaldi standı H6-C110; katılım 10'da doğrulanamadı",
 "kaynak": "07, Dünyada kimler var ve İlk 6 ay; 08, Acil; 10, Bölüm 9 Ek satırı",
 "konu_id": "termal"
-},
-{
-"tarih": "25 Ekim 2026",
-"iso": "2026-10-25",
-"olay": "GPT kartının 30 günlük doğrulama penceresinin sonu. Beşer görüşme, test ve maliyet, yatırım kararı.",
-"kaynak": "iç belge, GPT kartı 25 Eylül 2026, tarih hesapla bulundu",
-"konu_id": "enkaz"
 },
 {
 "tarih": "27 Ekim 2026",
@@ -36953,6 +41662,27 @@ window.MEKA_DATA = {
 "konu_id": "pfas"
 },
 {
+"tarih": "Kasım 2026 ile Kasım 2027",
+"iso": "2026-11-15",
+"olay": "Hollanda WTB programı: G3 Systems ilk sistemleri 2026 sonundan önce üretime alıyor; 30 aylık teslim fazı Mayıs 2025'ten hesapla Kasım 2027'de bitiyor; açılan kaynaklarda opsiyon kaydı yok, ihale sonucu çerçeve sözleşme değil diyor",
+"kaynak": "https://www.adsgroup.org.uk/knowledge/industry-member-news/g3-systems-establishes-european-supply-chain-partnerships/; https://tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/386113/pdf",
+"konu_id": "sav_flatrack"
+},
+{
+"tarih": "2026 sonu ve 2027 başı",
+"iso": "2026-11-15",
+"olay": "Rheinmetall Baisogala, Litvanya tesisinin inşaatı 2026 sonunda bitecek, faaliyete 2027 başında geçmesi bekleniyor; inşaat PST Group'ta.",
+"kaynak": "https://lrt.lt/en/news-in-english/19/2730325/lithuania-s-pst-group-to-build-rheinmetall-munitions-factory-in-baisogala-for-eur141-m",
+"konu_id": "sav_muhimmat"
+},
+{
+"tarih": "15 Kasım 2026",
+"iso": "2026-11-15",
+"olay": "Ek A tesis veri formu ve robot hücresi kararı (bu çalışmanın önerisi; rapor 22 Ekim 2026 demişti)",
+"kaynak": "01 rapor 9.2; bu çalışma",
+"konu_id": "sav_konteyner"
+},
+{
 "tarih": "Kasım 2026 sonu",
 "iso": "2026-11-15",
 "olay": "1-2. ay penceresi: EPDK statüsü, dağıtım bedeli, BOTAŞ ve teşvik teyidi",
@@ -36979,13 +41709,6 @@ window.MEKA_DATA = {
 "olay": "Hedef: sanayi tesisi tasarımının bitmesi (köşe yazısı)",
 "kaynak": "https://www.turkiyetoday.com/opinion/the-west-seeks-non-chinese-rare-earths-and-turkiyes-beylikova-holds-a-powerful-hand-3224554",
 "konu_id": "beylikova"
-},
-{
-"tarih": "2026 sonu ya da 2027 başı",
-"iso": "2026-11-15",
-"olay": "Almanya yaklaşık 500 PULS lançeri çerçeve imzası bekleniyor, Bundeswehr payı yaklaşık 200; teyit gerekli",
-"kaynak": "01 rapor, s_crane, Tablo 8.5.1 ve s_road, Tablo 10.2",
-"konu_id": "lancer"
 },
 {
 "tarih": "Kasım 2026",
@@ -37032,9 +41755,16 @@ window.MEKA_DATA = {
 {
 "tarih": "10 Ekim ile 20 Kasım 2026",
 "iso": "2026-11-20",
-"olay": "Polonya 16. Askerî Ekonomik Birim ihalesinde 6 lot beton kirpi ve 12 lot prekast atış mevzii elemanı teslim dönemi; ilan 20 Temmuz, teklif 6 Ağustos 2026. İlan ile teslim arası yaklaşık üç ay; bitmiş ürün ihracatını eleyen örnek.",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1",
+"olay": "16 WOG Doğu Kalkanı malzemesi teslimleri (18 lot, 42,8 milyon PLN); 12 WOG D/29 ve 6 WOG 2026 sözleşmeleri de yıl sonuna kadar teslim.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/625610-2026",
 "konu_id": "sav_prekast"
+},
+{
+"tarih": "10 Ekim ile 20 Kasım 2026",
+"iso": "2026-11-20",
+"olay": "Polonya 16. WOG beton kirpi ve siper prefabrik teslimleri (Stropy Małro, Transbet, Drogi i Mosty; 42,84 milyon PLN)",
+"kaynak": "TED 625610-2026",
+"konu_id": "sav_kalip"
 },
 {
 "tarih": "5 Ekim ile 20 Kasım 2026",
@@ -37063,6 +41793,13 @@ window.MEKA_DATA = {
 "olay": "İtalya MACSE-2 ihalesi, 16 GWh, teslim 2029, yalnız lityum batarya. Tavan 27.000 €/MWh-yıl iddiası doğrulanamadı. Yaprağın ana tetiği.",
 "kaynak": "haber https://www.ess-news.com/2026/06/02/italy-sets-november-date-for-macse-storage-auction-targeting-16-gwh/ ; diger https://www.solareindustriale.it/blog-fotovoltaico/mercato-termine-stoccaggi",
 "konu_id": "depolama_hak"
+},
+{
+"tarih": "30 Kasım 2026",
+"iso": "2026-11-30",
+"olay": "MSB 5201 sınıflandırma başvurusu için bu çalışmanın önerdiği son tarih; hesaplanan 22 Ekim 2026 tarihi geçmek üzere.",
+"kaynak": "01 rapor s_road 9.2; Wassenaar ML 2025",
+"konu_id": "sav_prekast"
 },
 {
 "tarih": "30 Kasım 2026",
@@ -37100,11 +41837,18 @@ window.MEKA_DATA = {
 "konu_id": "milvus"
 },
 {
+"tarih": "Aralık 2026",
+"iso": "2026-12-15",
+"olay": "AB çelik koruma önlemi değerlendirmesi (ikincisi Haziran 2027); fasıl 84 makine sınıflandırması korunmalı.",
+"kaynak": "01 rapor Tablo 10.1",
+"konu_id": "sav_prekast"
+},
+{
 "tarih": "Aralık 2026 ve Haziran 2027",
 "iso": "2026-12-15",
-"olay": "AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi değerlendirmesi.",
-"kaynak": "01 rapor, s_road, Tablo 10.1",
-"konu_id": "sav_prekast"
+"olay": "AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi değerlendirmesi",
+"kaynak": "01 rapor Tablo 10.1",
+"konu_id": "sav_kalip"
 },
 {
 "tarih": "Aralık 2026",
@@ -37121,38 +41865,38 @@ window.MEKA_DATA = {
 "konu_id": "karbon_dogrula"
 },
 {
-"tarih": "21 Aralık 2026, hesap",
+"tarih": "21 Aralık 2026",
 "iso": "2026-12-21",
-"olay": "İlk 90 gün penceresinin sonu; kalıp kataloğu, prekast hat paketi ve Polonya ile Baltık prekastçılarıyla temas bu pencerede. Tarih raporda yazılı değil, 22 Eylül 2026 artı 90 gün.",
-"kaynak": "01 rapor, s_road 9.2",
+"olay": "İlk 90 gün penceresi: paket fiyat listesi, kalıp kataloğu, Polonya prekastçılarıyla temas. Hesap, 22 Eylül 2026 artı 90 gün.",
+"kaynak": "01 rapor s_road 9.2",
 "konu_id": "sav_prekast"
 },
 {
-"tarih": "21 Aralık 2026 civarı",
+"tarih": "21 Aralık 2026",
 "iso": "2026-12-21",
-"olay": "İlk 90 gün ve ilk çeyrek biter: kalıp kataloğu, prekastçı temasları, ISO 3834-2 ve EN 1090-2 belgelendirmesi, Küresel Tedarik Zinciri başvurusu başlatılmış olmalı",
-"kaynak": "01 rapor, s_road, 9.2; inceleme, 01 tutarsızlıklar, hesap",
+"olay": "İlk çeyrek sonu: kalıp kataloğu, prekastçı temasları, Küresel Tedarik Zinciri başvurusu",
+"kaynak": "01 rapor 9.2; bu çalışma adımları",
 "konu_id": "sav_kalip"
 },
 {
-"tarih": "21 Aralık 2026'ya kadar",
+"tarih": "21 Aralık 2026",
 "iso": "2026-12-21",
-"olay": "İlk çeyrek: STANAG 2413 flat rack prototip tasarımı ve test planı; Hiab Defence Logistics, Palfinger, Contsystem, Koluman, BMC görüşmeleri; ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesine başlamak",
-"kaynak": "01 rapor, s_road 9.2; ilk 90 gün bitişi inceleme hesabı",
+"olay": "İlk çeyrek sonu: tasarım paketi, rakip fiyat kıyası, G3 ve Hiab Defence Logistics tanıtım dosyası, belgelendirme başlangıcı",
+"kaynak": "01 rapor 9.2; bu çalışma",
 "konu_id": "sav_flatrack"
 },
 {
-"tarih": "21 Aralık 2026 civarı",
+"tarih": "21 Aralık 2026",
 "iso": "2026-12-21",
-"olay": "İlk 90 gün penceresinin sonu: Repkon ve Arca görüşmeleri, ISO 3834-2 ve EN 1090-2 belgelendirme başlangıcı, EYDEP başvurusu. İnceleme hesabı.",
-"kaynak": "01 rapor, s_road, 9.2; inceleme, gorevler ve tutarsizlik_ve_eskiyenler",
+"olay": "İlk 90 gün sonu: Repkon ve Arca görüşmeleri, ISO 3834-2 ve EN 1090-2 başlangıcı, EYDEP başvurusu.",
+"kaynak": "01 rapor, 9.2",
 "konu_id": "sav_muhimmat"
 },
 {
 "tarih": "21 Aralık 2026",
 "iso": "2026-12-21",
-"olay": "Raporun ilk çeyreği biter: ISO 3834-2 ve EN 1090-2 EXC3 başlatılmış, kartın görüşme listesi yapılmış olmalı",
-"kaynak": "01 rapor, s_road, 9.2; 01 kart, İlk 90 gün; 22 Eylül 2026'dan hesap",
+"olay": "Raporun ilk çeyreği biter: ISO 3834-2 ve EN 1090-2 EXC3 başlatılmış, CSC test teklifi alınmış, kayıtlar tamam",
+"kaynak": "01 rapor 9.2; 22 Eylül 2026'dan hesap",
 "konu_id": "sav_konteyner"
 },
 {
@@ -37161,6 +41905,13 @@ window.MEKA_DATA = {
 "olay": "İlk 90 gün penceresinin yaklaşık sonu; Liebherr görüşmesi ve ISO 3834-2, EN 1090-2 başvurusu bu listede",
 "kaynak": "01_kart, İlk 90 gün; inceleme 5 Ekim 2026",
 "konu_id": "sav_vinc"
+},
+{
+"tarih": "31 Aralık 2026",
+"iso": "2026-12-31",
+"olay": "Estonya 2026 hedefi: 23 ek bunker kurulumu ve 3,4 km ek tank hendeği; 600 bunker ihalesi sonucu bekleniyor.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/baltic-defence-line/",
+"konu_id": "sav_prekast"
 },
 {
 "tarih": "31 Aralık 2026",
@@ -37359,45 +42110,38 @@ window.MEKA_DATA = {
 "konu_id": "karbon_dogrula"
 },
 {
-"tarih": "Mart 2027 civarı, 6. ay",
+"tarih": "Mart 2027",
 "iso": "2027-03-15",
-"olay": "Karar noktası: tahkimat paketiyle en az üç ülkede teklif verilmiş olmalı; MSB sınıflandırma görüşü alınmış olmalı.",
-"kaynak": "01 rapor, s_road, Tablo 9.3",
+"olay": "6. ay karar noktası: tahkimat paketiyle en az üç ülkede teklif, MSB görüşü alınmış.",
+"kaynak": "01 rapor Tablo 9.3",
 "konu_id": "sav_prekast"
 },
 {
 "tarih": "Mart 2027",
 "iso": "2027-03-15",
-"olay": "6. ay kontrol noktası: tahkimat paketiyle en az üç ülkede teklif; MSB görüşü ve belgeler tamam",
-"kaynak": "01 rapor, s_road, Tablo 9.3, hesap",
-"konu_id": "sav_kalip"
-},
-{
-"tarih": "Mart 2027",
-"iso": "2027-03-15",
-"olay": "Raporun 6. ayı, hesapla: ISO 3834-2 ve EN 1090-2 belgeleri; MSB görüşü; flat rack prototipi hazır. Karar: lojistik üst yapıya seri üretim yatırımı yapılsın mı",
-"kaynak": "01 rapor, s_road Tablo 9.3",
+"olay": "Raporun 6. ayı: ISO 3834-2 ve EN 1090-2 belgeleri, MSB görüşü, iki prototip; seri üretim ve robot hücresi kararı",
+"kaynak": "01 rapor Tablo 9.3",
 "konu_id": "sav_flatrack"
 },
 {
-"tarih": "Mart 2027 civarı",
+"tarih": "Mart 2027",
 "iso": "2027-03-15",
-"olay": "6. ay karar noktası: kayıtlar tamam, ISO 3834-2 ve EN 1090-2 belgeleri, MSB sınıflandırma görüşü. Tarih 22 Eylül 2026'dan hesaplandı.",
-"kaynak": "01 rapor, s_road, Tablo 9.3",
+"olay": "6. ay karar noktası: kayıtlar, ISO 3834-2 ve EN 1090-2 belgeleri, MSB görüşü.",
+"kaynak": "01 rapor, Tablo 9.3",
 "konu_id": "sav_muhimmat"
 },
 {
-"tarih": "Mart 2027 ile Eylül 2028",
+"tarih": "Ocak ile Mart 2027",
 "iso": "2027-03-15",
-"olay": "Ana bahis dilimi, 6 ile 24. ay; tarihler 22 Eylül 2026'dan hesaplandı. 18. ayda, Mart 2028 civarı, konteyner ve şelter ya da mühimmat hattı ekipmanında ilk seri sipariş bekleniyor; karar lançer iş paketlerine teklif.",
-"kaynak": "01 rapor, s_road, Tablo 9.1 ve Tablo 9.3",
-"konu_id": "sav_muhimmat"
+"olay": "Rheinmetall 149 mobil kurtarma istasyonunun (298 konteyner) üretimine başlıyor; alt tedarikçi penceresi",
+"kaynak": "Rheinmetall basın bülteni 17 Ağustos 2026",
+"konu_id": "sav_konteyner"
 },
 {
 "tarih": "Mart 2027",
 "iso": "2027-03-15",
-"olay": "6. ay kilometre taşı: kayıtlar tamam, ISO 3834-2 ve EN 1090-2 belgeleri, MSB sınıflandırma görüşü",
-"kaynak": "01 rapor, s_road, Tablo 9.3; 22 Eylül 2026'dan hesap",
+"olay": "6. ay kilometre taşı: MSB sınıflandırma görüşü, belgeler, kayıtlar",
+"kaynak": "01 rapor Tablo 9.3",
 "konu_id": "sav_konteyner"
 },
 {
@@ -37431,6 +42175,13 @@ window.MEKA_DATA = {
 {
 "tarih": "31 Mart 2027",
 "iso": "2027-03-31",
+"olay": "Önerilen MEKA karar kapısı: niyet mektubu ve ihale takvimi varsa pilot, tahmin",
+"kaynak": "bu çalışma, tahmin",
+"konu_id": "elektrikli_oto"
+},
+{
+"tarih": "31 Mart 2027",
+"iso": "2027-03-31",
 "olay": "MEKA iç karar noktası: EPDK cevabı, pilot ölçümleri, toptan fiyat ve Ocak 2027 tarifesiyle yeniden değerlendirme. Bu çalışma.",
 "kaynak": "bu çalışma",
 "konu_id": "balkon_ges"
@@ -37443,41 +42194,6 @@ window.MEKA_DATA = {
 "konu_id": "karbon_dogrula"
 },
 {
-"tarih": "3-9 Mayıs 2027",
-"iso": "2027-05-03",
-"olay": "IDEF 2027 İstanbul; aynı yıl MSPO 2027 Polonya ve DSEI 2027 Londra",
-"kaynak": "01 rapor, s_road, 9.4",
-"konu_id": "sav_kalip"
-},
-{
-"tarih": "3-9 Mayıs 2027",
-"iso": "2027-05-03",
-"olay": "IDEF 2027 İstanbul; rapor SSB ve Ticaret Bakanlığı fuar destekleriyle katılım öneriyor; SSB 2027 destek başvurusunun son günü 30 Eylül 2026 idi",
-"kaynak": "01 rapor, s_road 9.4",
-"konu_id": "sav_flatrack"
-},
-{
-"tarih": "3-9 Mayıs 2027",
-"iso": "2027-05-03",
-"olay": "IDEF 2027, İstanbul; SSB ve Ticaret Bakanlığı fuar destekleriyle katılım. Rapor MSPO 2027, DSEI 2027 ve Eurosatory 2028'i de sayıyor.",
-"kaynak": "01 rapor, s_road, 9.4 Ticari ilkeler",
-"konu_id": "sav_muhimmat"
-},
-{
-"tarih": "3-9 Mayıs 2027",
-"iso": "2027-05-03",
-"olay": "IDEF 2027, İstanbul Fuar Merkezi; SSB ve Ticaret Bakanlığı fuar destekleriyle",
-"kaynak": "01 rapor, s_road, 9.4 Ticari ilkeler",
-"konu_id": "sav_konteyner"
-},
-{
-"tarih": "3-9 Mayıs 2027",
-"iso": "2027-05-03",
-"olay": "IDEF 2027, İstanbul; SSB fuar desteğiyle",
-"kaynak": "01 rapor, s_road, 9.4 Ticari ilkeler",
-"konu_id": "lancer"
-},
-{
 "tarih": "5 ile 7 Mayıs 2027",
 "iso": "2027-05-07",
 "olay": "IFAT Eurasia, Yenikapı Avrasya Gösteri ve Sanat Merkezi İstanbul; rakip ve bayi haritası için ziyaret",
@@ -37487,15 +42203,50 @@ window.MEKA_DATA = {
 {
 "tarih": "3 ile 9 Mayıs 2027",
 "iso": "2027-05-09",
-"olay": "IDEF 2027 İstanbul; ayrıca MSPO 2027 Polonya, DSEI 2027 Londra, Eurosatory 2028. SSB ve Ticaret Bakanlığı fuar destekleriyle.",
-"kaynak": "01 rapor, s_road 9.4",
+"olay": "IDEF 2027 İstanbul; Eylül 2027 MSPO Kielce. SSB 2027 fuar desteği başvurusu 30 Eylül 2026'da kapandı, destek yok.",
+"kaynak": "01 rapor s_road 9.4; SSB duyurusu",
 "konu_id": "sav_prekast"
+},
+{
+"tarih": "3 ile 9 Mayıs 2027",
+"iso": "2027-05-09",
+"olay": "IDEF 2027 İstanbul; MSPO 2027 Kielce Eylül 2027",
+"kaynak": "01 rapor 9.4",
+"konu_id": "sav_kalip"
+},
+{
+"tarih": "3 ile 9 Mayıs 2027",
+"iso": "2027-05-09",
+"olay": "IDEF 2027 İstanbul; prototip sergisi; SSB 2027 fuar desteği başvurusu 30 Eylül 2026'da kapandı",
+"kaynak": "01 rapor 9.4",
+"konu_id": "sav_flatrack"
+},
+{
+"tarih": "3 ile 9 Mayıs 2027",
+"iso": "2027-05-09",
+"olay": "IDEF 2027, İstanbul.",
+"kaynak": "01 rapor, 9.4",
+"konu_id": "sav_muhimmat"
+},
+{
+"tarih": "3 ile 9 Mayıs 2027",
+"iso": "2027-05-09",
+"olay": "IDEF 2027, İstanbul; standart gövde prototipinin sergilenmesi",
+"kaynak": "01 rapor 9.4",
+"konu_id": "sav_konteyner"
+},
+{
+"tarih": "3 ile 9 Mayıs 2027",
+"iso": "2027-05-09",
+"olay": "IDEF 2027 İstanbul",
+"kaynak": "01 rapor 9.4",
+"konu_id": "lancer"
 },
 {
 "tarih": "1 Haziran 2027",
 "iso": "2027-06-01",
-"olay": "Kontrole Tabi Liste'ye yeni giren ürünlerin üreticileri için belge süreçlerinin tamamlanma tarihi; liste 30 Haziran 2026'da yayımlandı",
-"kaynak": "01 rapor, s_reg, 6.4 Türk ihracat kontrol zinciri",
+"olay": "Kontrole Tabi Liste'ye yeni giren ürünler için belge süreçlerinin tamamlanma tarihi",
+"kaynak": "01 rapor 6.4",
 "konu_id": "lancer"
 },
 {
@@ -37569,25 +42320,11 @@ window.MEKA_DATA = {
 "konu_id": "odtu"
 },
 {
-"tarih": "2027 ile 2028",
-"iso": "2027-06-30",
-"olay": "Tahkimat programları tamamlanınca talep düşebilir; Avrupa'da yeni prekast hatları devreye girince dış tedarikçi penceresi daralır. Letonya programı 2028'de bitiyor; Polonya Doğu Kalkanı 2024-2028.",
-"kaynak": "01 rapor, s_road Tablo 10.1; s_glob 4.7; s_fort Tablo 8.1.1",
-"konu_id": "sav_prekast"
-},
-{
-"tarih": "2027-2028",
-"iso": "2027-06-30",
-"olay": "Polonya programı 2028'de, Letonya ejder dişi ve hendek inşaatı 2028'de tamamlanıyor; talep düşüş riski",
-"kaynak": "01 rapor, s_fort, Tablo 8.1.1; s_road, Tablo 10.1",
-"konu_id": "sav_kalip"
-},
-{
 "tarih": "2027",
 "iso": "2027-06-30",
-"olay": "Rheinmetall'in 149 Bundeswehr sağlık istasyonunun üretim yılı; alt tedarikçi penceresi",
-"kaynak": "01 rapor, s_cont, Tablo 8.4.1",
-"konu_id": "sav_konteyner"
+"olay": "Unterlüß tam kapasite; Letonya Rheinmetall tesisi, inşaat 2026 baharında başladıysa yaklaşık bir yıl sonra açılış, AIN tek kaynak, bu turda açılmadı.",
+"kaynak": "https://www.rheinmetall.com/en/media/news-watch/news/2025/09/2025-09-05-factory-opening-in-unterluess; https://en.ain.ua/2025/10/15/rheinmetall-in-eastern-europe/",
+"konu_id": "sav_muhimmat"
 },
 {
 "tarih": "2027 ile 2029",
@@ -37630,6 +42367,13 @@ window.MEKA_DATA = {
 "olay": "İnşaat başlangıcı hedefi (köşe yazısı); 2028 işletmeye alma hedefi Enerji Günlüğü'ne dayanır, bu turda kontrol edilmedi",
 "kaynak": "https://www.enerjigunlugu.net/bayraktar-abdye-nadir-toprak-elementleri-satisi-soz-konusu-degil-65443h.htm",
 "konu_id": "beylikova"
+},
+{
+"tarih": "2027 ilk ayları",
+"iso": "2027-06-30",
+"olay": "Türkiye'nin hibrit itkili Ay aracı fırlatılacak (Kacır); MUFS test fırlatması 2026 ile 2027 (tek kaynak)",
+"kaynak": "https://www.gzt.com/... ; https://shiftdelete.net/?p=727204",
+"konu_id": "lancer"
 },
 {
 "tarih": "2027",
@@ -37725,43 +42469,43 @@ window.MEKA_DATA = {
 {
 "tarih": "12 Ağustos 2027",
 "iso": "2027-08-12",
-"olay": "Binaların Yıkılması Hakkında Yönetmelik değişikliğinin diğer hükümleri, bina yıkıntı atığı ve seçici yıkım tanımları dahil, yürürlüğe girer.",
-"kaynak": "resmi https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm sayı 33338, doğrulama turunda açıldı",
+"olay": "Binaların Yıkılması Hakkında Yönetmelik değişikliğinin diğer hükümleri yürürlüğe girer.",
+"kaynak": "resmi https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm önceki turda açıldı",
 "konu_id": "enkaz"
 },
 {
 "tarih": "12 Ağustos 2027",
 "iso": "2027-08-12",
-"olay": "Yıkım yönetmeliği değişikliğinin diğer hükümleri yürürlüğe giriyor, yayımdan bir yıl sonra (doğrulandı)",
+"olay": "Yıkım yönetmeliği değişikliğinin diğer hükümleri yürürlüğe giriyor (doğrulandı)",
 "kaynak": "https://www.resmigazete.gov.tr/eskiler/2026/08/20260812-2.htm",
 "konu_id": "belediye"
 },
 {
-"tarih": "Eylül 2027 civarı, 12. ay",
+"tarih": "Eylül 2027",
 "iso": "2027-09-15",
-"olay": "Karar noktası: ilk tahkimat ekipmanı siparişleri alınmış olmalı.",
-"kaynak": "01 rapor, s_road, Tablo 9.3",
+"olay": "12. ay karar noktası: ilk tahkimat ekipmanı siparişi; yoksa yaprağı genel prekast satışına katlamak.",
+"kaynak": "01 rapor Tablo 9.3",
 "konu_id": "sav_prekast"
 },
 {
 "tarih": "Eylül 2027",
 "iso": "2027-09-15",
-"olay": "12. ay kontrol noktası: ilk tahkimat ekipmanı siparişleri",
-"kaynak": "01 rapor, s_road, Tablo 9.3, hesap",
+"olay": "12. ay kontrol noktası: ilk tahkimat kalıbı ya da çelik engel siparişi; yoksa genel prekast kalıbına dönüş kararı",
+"kaynak": "01 rapor Tablo 9.3; bu çalışma",
 "konu_id": "sav_kalip"
 },
 {
 "tarih": "Eylül 2027",
 "iso": "2027-09-15",
-"olay": "Raporun 12. ayı, hesapla: flat rack STANAG 2413 testi; en az bir yabancı ana yüklenicide tedarikçi onayı",
-"kaynak": "01 rapor, s_road Tablo 9.3",
+"olay": "Raporun 12. ayı: STANAG 2413 testi, en az bir yabancı ana yüklenicide tedarikçi onayı; MSPO 2027 Kielce",
+"kaynak": "01 rapor Tablo 9.3 ve 9.4",
 "konu_id": "sav_flatrack"
 },
 {
 "tarih": "Eylül 2027",
 "iso": "2027-09-15",
-"olay": "12. ay kilometre taşı: en az bir yabancı ana yüklenicide tedarikçi onayı",
-"kaynak": "01 rapor, s_road, Tablo 9.3; 22 Eylül 2026'dan hesap",
+"olay": "12. ay kilometre taşı: en az bir yabancı ana yüklenicide tedarikçi onayı; TGB ve Üretim İzin Belgesi kararı",
+"kaynak": "01 rapor Tablo 9.3",
 "konu_id": "sav_konteyner"
 },
 {
@@ -37770,13 +42514,6 @@ window.MEKA_DATA = {
 "olay": "Tavuk gübresi için belge 05'in 12 ile 24 ay etiketi, 27 Eylül 2026'dan sayıldı.",
 "kaynak": "05, 6. sıra etiketi",
 "konu_id": "izle_meka"
-},
-{
-"tarih": "Eylül 2027 dolayı ve Mart 2028 dolayı",
-"iso": "2027-09-15",
-"olay": "Raporun 12. ay karar noktası: TGB ve Üretim İzin Belgesi sürecine girilsin mi; 18. ay: lançer ve batarya kabini iş paketlerine teklif verilsin mi. Aylar rapordan, takvim tarihleri 22 Eylül 2026'dan hesaplandı",
-"kaynak": "01 rapor, s_road, Tablo 9.3 Kilometre taşları",
-"konu_id": "lancer"
 },
 {
 "tarih": "30 Eylül 2027",
@@ -37807,6 +42544,13 @@ window.MEKA_DATA = {
 "konu_id": "lityum"
 },
 {
+"tarih": "Ekim 2027 ve Nisan 2028",
+"iso": "2027-10-15",
+"olay": "12. ay kapısı: TGB ve ÜİB'ye giriş kararı; 18. ay: lançer iş paketlerine teklif kararı (bu çalışmanın takvimi, 20 Ekim 2026'dan sayıldı)",
+"kaynak": "01 rapor Tablo 9.3; bu çalışma",
+"konu_id": "lancer"
+},
+{
 "tarih": "15 Eylül ve 15 Ekim 2027",
 "iso": "2027-10-15",
 "olay": "2027 raporlama yılı için tesislerin MEDAS başvurusu ve atanan doğrulayıcıyla sözleşme imzası son günleri (tebliğ madde 32/3, teyit).",
@@ -37814,11 +42558,53 @@ window.MEKA_DATA = {
 "konu_id": "karbon_dogrula"
 },
 {
+"tarih": "16 ile 21 Ekim 2027",
+"iso": "2027-10-21",
+"olay": "Busworld Europe, Brüksel; Çinli ve Avrupalı otobüs üreticileriyle görüşme fırsatı",
+"kaynak": "https://www.sustainable-bus.com/news/acea-electric-bus-market-europe-2025",
+"konu_id": "elektrikli_oto"
+},
+{
+"tarih": "16 ile 21 Ekim 2027",
+"iso": "2027-10-21",
+"olay": "Busworld Europe, Brüksel; Çinli üreticilerle görüşme için ana pencere",
+"kaynak": "https://www.sustainable-bus.com/events-public-transport/busworld-turkey-2026/",
+"konu_id": "cin_otobus_ort"
+},
+{
+"tarih": "2027 sonu",
+"iso": "2027-11-15",
+"olay": "Bundeswehr WLS çerçevesi ve Hiab ile RMMV kanca sözleşmesi bitiyor; kalan en çok 1.277 kamyon; yeni dilim onayı tarihi belirsiz",
+"kaynak": "https://www.rheinmetall.com/de/media/news-watch/news/2024/06/2024-06-12-bundeswehr-bestellt-weitere-1515-militaer-lkw",
+"konu_id": "sav_flatrack"
+},
+{
+"tarih": "2027 ikinci yarısı",
+"iso": "2027-11-15",
+"olay": "Nammo Elling, Danimarka tesisinde üretim başlangıcı; dolum hattı Repkon'da.",
+"kaynak": "https://www.nammo.com/nammo-to-re-establish-ammunition-production-in-denmark/",
+"konu_id": "sav_muhimmat"
+},
+{
 "tarih": "2027 sonu ile 2029",
 "iso": "2027-11-15",
 "olay": "RES-2026 kazananlarının lisans sonrası 36 aylık kurulum süresi içinde temel inşaatı dönemi; tahmin. Uzman görüşü fiilen 20 ay ile 3 yıl.",
 "kaynak": "https://www.ruzgarenerjisi.com.tr/enerji-bakanligi-yeka-res-2026-yarismalarini-ilan-etti/ ve https://www.bloomberght.com/yeka-da-basvurular-alindi-22-yila-varan-kredi-imkani-motivasyonu-artiriyor-3791225",
 "konu_id": "res_temel"
+},
+{
+"tarih": "Aralık 2027",
+"iso": "2027-12-15",
+"olay": "Estonya Baltic Defence Line'ın onaylı kapsamının bitişi; 600 bunker ihalesinin sonucu henüz yok",
+"kaynak": "RKIK; ERR",
+"konu_id": "sav_kalip"
+},
+{
+"tarih": "Aralık 2027",
+"iso": "2027-12-15",
+"olay": "ABD Ordusu dolum kapasitesi hedefi ayda 140.000; Iowa mevcut hattı 78.000.",
+"kaynak": "https://www.oversight.gov/sites/default/files/documents/reports/2026-07/DOWIG-2026-095%20155-mm_Redacted_Secure.pdf",
+"konu_id": "sav_muhimmat"
 },
 {
 "tarih": "Aralık 2027",
@@ -37833,6 +42619,13 @@ window.MEKA_DATA = {
 "olay": "Melek yatırımcı vergi teşviki bitiyor",
 "kaynak": "04",
 "konu_id": "odtu"
+},
+{
+"tarih": "31 Aralık 2027",
+"iso": "2027-12-31",
+"olay": "Estonya hedefi: 600 bunker yerde, 40 km ek hendek; Baltic Defence Line onaylı kapsam tamam.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/estonia-procures-hundreds-of-bunkers-for-the-baltic-defence-line/",
+"konu_id": "sav_prekast"
 },
 {
 "tarih": "31 Aralık 2027",
@@ -37898,6 +42691,13 @@ window.MEKA_DATA = {
 "konu_id": "karbon_dogrula"
 },
 {
+"tarih": "Ocak 2028",
+"iso": "2028-01-15",
+"olay": "UNDP ve AB Gazze enkaz projesinin 18 aylık süresi dolar; Temmuz 2026 başlangıcından hesapla.",
+"kaynak": "haber https://news.fundsforngos.org/2026/07/13/undp-and-european-union-launch-e15-million-project-to-support-debris-management-and-recovery-efforts-in-gaza/",
+"konu_id": "enkaz"
+},
+{
 "tarih": "17 Ocak 2028",
 "iso": "2028-01-17",
 "olay": "AB Tüzüğü 2026/1386 uygulanmaya başlar. Önceki turdan, bu turda doğrulanmadı.",
@@ -37907,15 +42707,22 @@ window.MEKA_DATA = {
 {
 "tarih": "10 Mart 2028",
 "iso": "2028-03-10",
-"olay": "Deir ez-Zor projesinin 18 aylık hedef süresi dolar. 10 Eylül 2026 başlangıcından hesapla bulundu.",
+"olay": "Deir ez-Zor projesinin 18 aylık hedef süresi dolar, hesapla.",
 "kaynak": "haber https://sana.sy/en/syria/2344891/",
 "konu_id": "enkaz"
 },
 {
 "tarih": "Mart 2028",
 "iso": "2028-03-15",
-"olay": "18. ay kilometre taşı: konteyner ve şelter ya da mühimmat hattı ekipmanında ilk seri sipariş; TGB başvurusu sonuçlanmış olmalı",
-"kaynak": "01 rapor, s_road, Tablo 9.3; 22 Eylül 2026'dan hesap",
+"olay": "18. ay: konteyner ve şelter ya da mühimmat hattı ekipmanında ilk seri sipariş beklentisi.",
+"kaynak": "01 rapor, Tablo 9.3",
+"konu_id": "sav_muhimmat"
+},
+{
+"tarih": "Mart 2028",
+"iso": "2028-03-15",
+"olay": "18. ay kilometre taşı: konteyner ve şelter gövdesinde ilk seri sipariş; modelde ilk gelir",
+"kaynak": "01 rapor Tablo 9.3; bu çalışmanın modeli",
 "konu_id": "sav_konteyner"
 },
 {
@@ -37949,6 +42756,13 @@ window.MEKA_DATA = {
 {
 "tarih": "Haziran 2028",
 "iso": "2028-06-15",
+"olay": "Bir sonraki Busworld Türkiye bekleniyor; iki yıllık döngüye göre tahmin",
+"kaynak": "tahmin",
+"konu_id": "cin_otobus_ort"
+},
+{
+"tarih": "Haziran 2028",
+"iso": "2028-06-15",
 "olay": "Hidrojen Vadisi 5 yıllık sürenin bitişi, 1 Temmuz 2023 başlangıçtan hesapla; 5 yıl TÜBİTAK ile doğrulandı, 1 Temmuz başlangıcı Ekonomist'e dayanıyor, açılmadı, doğrulanamadı.",
 "kaynak": "resmi https://tubitak.gov.tr/tr/haber/turkiyenin-ilk-hidrojen-vadisi-ve-turkiyenin-en-buyuk-kapasiteli-ilk-yerli-yesil-hidrojen-tesisi-kuruluyor ; haber https://www.ekonomist.com.tr/haberler/turkiye-nin-hidrojende-2-onemli-projesi-45508 (açılmadı)",
 "konu_id": "teksis"
@@ -37975,11 +42789,46 @@ window.MEKA_DATA = {
 "konu_id": "sav_prekast"
 },
 {
+"tarih": "2028",
+"iso": "2028-06-30",
+"olay": "Polonya Doğu Kalkanı (10 milyar PLN, 2024-2028) ve Letonya 303 milyon avroluk program biter; talep penceresi daralır. AB askerî hareketlilik CEF 2028-2034 teklifi 17,6 milyar avro.",
+"kaynak": "https://defence24.pl/polityka-obronna/co-z-tarcza-wschod-w-2026-wojsko-przedstawia-plan ; 01 rapor Tablo 8.1.1",
+"konu_id": "sav_prekast"
+},
+{
+"tarih": "2028",
+"iso": "2028-06-30",
+"olay": "Polonya Tarcza Wschód ve Letonya programlarının tamamlanması; talep düşüşü",
+"kaynak": "muratordom; 01 rapor Tablo 8.1.1",
+"konu_id": "sav_kalip"
+},
+{
+"tarih": "2028 ilk yarı",
+"iso": "2028-06-30",
+"olay": "Hesapla ilk seri sipariş ve ilk gelir; Eurosatory 2028 Paris",
+"kaynak": "bu çalışma Ekonomi modeli; 01 rapor 9.4",
+"konu_id": "sav_flatrack"
+},
+{
+"tarih": "2028",
+"iso": "2028-06-30",
+"olay": "ARCA Baltics Kiviõli tesisinde üretim başlangıcı.",
+"kaynak": "https://www.kaitseinvesteeringud.ee/en/arca-baltics-operations-to-build-e300-million-ammunition-factory-in-north-kivioli/",
+"konu_id": "sav_muhimmat"
+},
+{
 "tarih": "2028-29",
 "iso": "2028-06-30",
 "olay": "Rajasthan hedefi: yılda 30 milyon ton M-sand ve devlet destekli inşaatta %50 pay.",
 "kaynak": "haber https://www.gktoday.in/rajasthan-launches-m-sand-2024-policy",
 "konu_id": "kum"
+},
+{
+"tarih": "2028",
+"iso": "2028-06-30",
+"olay": "Somali üssünden ilk fırlatma hedefi (Yeni Şafak, arama özeti, sayfa açılmadı)",
+"kaynak": "https://www.yenisafak.com/hayat/somalide-turk-uzay-ussu-4667277 (açılamadı)",
+"konu_id": "lancer"
 },
 {
 "tarih": "2028",
@@ -38017,10 +42866,10 @@ window.MEKA_DATA = {
 "konu_id": "karbon_dogrula"
 },
 {
-"tarih": "Eylül 2028 ile Eylül 2029, 24 ile 36. ay",
+"tarih": "Eylül 2028 ile Eylül 2029",
 "iso": "2028-09-15",
-"olay": "Mobil tahkimat fabrikası konseptinin bir savunma bakanlığına sunulması.",
-"kaynak": "01 rapor, s_road, Tablo 9.3",
+"olay": "Mobil tahkimat prekast fabrikası konseptinin bir savunma bakanlığına sunulması (24 ile 36. ay); Litvanya programı 2035'e kadar sürer.",
+"kaynak": "01 rapor Tablo 9.3; Defence Industry Europe",
 "konu_id": "sav_prekast"
 },
 {
@@ -38052,11 +42901,25 @@ window.MEKA_DATA = {
 "konu_id": "biyo_ilac"
 },
 {
+"tarih": "Aralık 2028",
+"iso": "2028-12-15",
+"olay": "ABD'de eksik 9.000 aylık gövde için yeni sanayi kaynaklarının hazır olması planı; Mesquite için ayda 20.000 hedefi.",
+"kaynak": "https://www.oversight.gov/sites/default/files/documents/reports/2026-07/DOWIG-2026-095%20155-mm_Redacted_Secure.pdf",
+"konu_id": "sav_muhimmat"
+},
+{
 "tarih": "7 Mayıs 2029",
 "iso": "2029-05-07",
 "olay": "Roketsan laboratuvarının TÜRKAK sertifika geçerlilik sonu. Arama özeti, doğrulanamadı.",
 "kaynak": "resmi Roketsan TÜRKAK sertifika PDF'i arama özeti, doğrulanamadı",
 "konu_id": "teknolus"
+},
+{
+"tarih": "2029",
+"iso": "2029-06-30",
+"olay": "Rheinmetall Role 2B zırhlı mobil sağlık tesislerinin ilk seri teslimleri; çerçeve 2040'a kadar",
+"kaynak": "Defence Industry Europe 14 Ekim 2025; tek kaynak",
+"konu_id": "sav_konteyner"
 },
 {
 "tarih": "2029",
@@ -38071,6 +42934,13 @@ window.MEKA_DATA = {
 "olay": "ABD PFOA ve PFOS uyum yılı; öneri başvuran sistemler için 2031. Doğrulandı.",
 "kaynak": "resmi https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas",
 "konu_id": "pfas"
+},
+{
+"tarih": "Ağustos 2029",
+"iso": "2029-08-15",
+"olay": "Iowa Future Artillery Complex tamamlanma tarihi; üretim Eylül 2029 bilgisi FW Magazine'den, bu turda açılmadı.",
+"kaynak": "https://www.stripes.com/branches/army/2025-08-21/iowa-artillery-facility-expands-capacity-18833994.html; https://fw-mag.com/shownews/672/czechoslovak-group-to-build-a-155-mm-production-plant-for-the-us-dod",
+"konu_id": "sav_muhimmat"
 },
 {
 "tarih": "31 Aralık 2029",
@@ -38164,11 +43034,25 @@ window.MEKA_DATA = {
 "konu_id": "izle_meka"
 },
 {
+"tarih": "21 Mart 2034",
+"iso": "2034-03-21",
+"olay": "HDT ASF-RWS IDIQ sözleşmesinin tahmini bitişi",
+"kaynak": "ABD Savunma Bakanlığı sözleşme listesi, clearancejobs kopyası 26 Mart 2024",
+"konu_id": "sav_konteyner"
+},
+{
 "tarih": "2034",
 "iso": "2034-06-30",
 "olay": "CBAM faktörü %100'e ulaşıyor, ücretsiz tahsis sıfırlanıyor.",
 "kaynak": "rapor https://projetcelsius.com/en/blog/cbam-free-allowances-phase-out/",
 "konu_id": "cimento"
+},
+{
+"tarih": "2035",
+"iso": "2035-06-30",
+"olay": "Litvanya 1,1 milyar €'luk on yıllık karşı hareketlilik programının bitişi",
+"kaynak": "01 rapor Tablo 8.1.1",
+"konu_id": "sav_kalip"
 },
 {
 "tarih": "2035",
@@ -38302,11 +43186,11 @@ window.MEKA_DATA = {
 },
 {
 "no": "Ek",
-"ad": "Belediyeler: hafriyat ve inşaat yıkıntı atığı tesisleri (ek araştırma)",
-"tarih": "16 Ekim 2026",
-"sayfa": 9,
+"ad": "Belediyeler: hafriyat ve inşaat atığı tesisleri, EKAP ihaleleri (derin çalışma)",
+"tarih": "20 Ekim 2026",
+"sayfa": 10,
 "pdf": "Calisma_belediye.pdf",
-"aciklama": "İki tur web araştırması; 6 açık sorunun 0'i cevaplandı, 1'i görüşmeye kaldı. Kanıt 3/5, kapsam kismi, bant ikincil."
+"aciklama": "Derin web çalışması; 6 açık sorunun 0'i cevaplandı, 1'i görüşmeye kaldı. 35 şirket, 8 emsal işlem. Kanıt 4/5."
 },
 {
 "no": "Ek",
@@ -38502,11 +43386,11 @@ window.MEKA_DATA = {
 },
 {
 "no": "Ek",
-"ad": "İnşaat ve yıkıntı atığından agrega, Suriye enkazı dahil (ek araştırma)",
-"tarih": "16 Ekim 2026",
-"sayfa": 6,
+"ad": "İnşaat ve yıkıntı atığından agrega, Suriye enkazı dahil (derin çalışma)",
+"tarih": "20 Ekim 2026",
+"sayfa": 10,
 "pdf": "Calisma_enkaz.pdf",
-"aciklama": "Derin web araştırması; 7 açık sorunun 1'i cevaplandı, 3'i görüşmeye kaldı. 19 şirket ve kurum."
+"aciklama": "Derin web çalışması; 7 açık sorunun 0'i cevaplandı, 2'i görüşmeye kaldı. 27 şirket, 15 emsal işlem. Kanıt 4/5."
 },
 {
 "no": "Ek",
@@ -38611,6 +43495,70 @@ window.MEKA_DATA = {
 "sayfa": 10,
 "pdf": "Calisma_lisansli_ges.pdf",
 "aciklama": "Keşif turunda bulunan yeni bağımsız iş; derin web çalışması. 6 açık sorunun 0 tanesi cevaplandı, 1 tanesi görüşmeye kaldı. 21 şirket, 7 emsal işlem. Kanıt 3/5."
+},
+{
+"no": "Ek",
+"ad": "Tahkimat prekast hattı (derin çalışma)",
+"tarih": "20 Ekim 2026",
+"sayfa": 6,
+"pdf": "Calisma_sav_prekast.pdf",
+"aciklama": "Derin web çalışması; 5 açık sorunun 1'i cevaplandı, 1'i görüşmeye kaldı. 34 şirket, 10 emsal işlem. Kanıt 4/5."
+},
+{
+"no": "Ek",
+"ad": "Tahkimat kalıbı, gabion ve çelik engel (derin çalışma)",
+"tarih": "20 Ekim 2026",
+"sayfa": 8,
+"pdf": "Calisma_sav_kalip.pdf",
+"aciklama": "Derin web çalışması; 4 açık sorunun 1'i cevaplandı, 1'i görüşmeye kaldı. 36 şirket, 11 emsal işlem. Kanıt 4/5."
+},
+{
+"no": "Ek",
+"ad": "Flat rack ve kanca yükleyici gövdesi (derin çalışma)",
+"tarih": "20 Ekim 2026",
+"sayfa": 9,
+"pdf": "Calisma_sav_flatrack.pdf",
+"aciklama": "Derin web çalışması; 5 açık sorunun 0'i cevaplandı, 2'i görüşmeye kaldı. 39 şirket, 11 emsal işlem. Kanıt 4/5."
+},
+{
+"no": "Ek",
+"ad": "Konteyner ve şelter gövdesi (derin çalışma)",
+"tarih": "20 Ekim 2026",
+"sayfa": 9,
+"pdf": "Calisma_sav_konteyner.pdf",
+"aciklama": "Derin web çalışması; 4 açık sorunun 0'i cevaplandı, 1'i görüşmeye kaldı. 30 şirket, 7 emsal işlem. Kanıt 4/5."
+},
+{
+"no": "Ek",
+"ad": "Lançer ve fırlatma altyapısı: konteyner tipi lançer gövdesi, fırlatma üssü, Roketsan üst yapısı (derin çalışma)",
+"tarih": "20 Ekim 2026",
+"sayfa": 9,
+"pdf": "Calisma_lancer.pdf",
+"aciklama": "Derin web çalışması; 4 açık sorunun 0'i cevaplandı, 2'i görüşmeye kaldı. 25 şirket, 9 emsal işlem. Kanıt 3/5."
+},
+{
+"no": "Ek",
+"ad": "Mühimmat hattı ekipmanı (derin çalışma)",
+"tarih": "20 Ekim 2026",
+"sayfa": 9,
+"pdf": "Calisma_sav_muhimmat.pdf",
+"aciklama": "Derin web çalışması; 5 açık sorunun 1'i cevaplandı, 1'i görüşmeye kaldı. 24 şirket, 9 emsal işlem. Kanıt 3/5."
+},
+{
+"no": "Ek",
+"ad": "Elektrikli otobüs: Türkiye'de montaj ve gövde üretimi (derin çalışma)",
+"tarih": "20 Ekim 2026",
+"sayfa": 9,
+"pdf": "Calisma_elektrikli_oto.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 7 açık sorunun 0 tanesi cevaplandı, 6 tanesi görüşmeye kaldı. 22 şirket, 10 emsal işlem. Kanıt 3/5."
+},
+{
+"no": "Ek",
+"ad": "Çinli elektrikli otobüs üreticisiyle Türkiye ortaklığı (derin çalışma)",
+"tarih": "20 Ekim 2026",
+"sayfa": 8,
+"pdf": "Calisma_cin_otobus_ort.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 7 açık sorunun 0 tanesi cevaplandı, 7 tanesi görüşmeye kaldı. 24 şirket, 13 emsal işlem. Kanıt 3/5."
 },
 {
 "no": "Ağaç",
@@ -38754,11 +43702,11 @@ window.MEKA_DATA = {
 "sayfa_sayisi": 4
 },
 "c_belediye": {
-"ad": "Belediyeler: hafriyat ve inşaat atığı tesisleri, EKAP ihaleleri: ek araştırma, iki tur (16 Ekim 2026, 9 sayfa)",
+"ad": "Belediyeler: hafriyat ve inşaat atığı tesisleri, EKAP ihaleleri: derin çalışma (20 Ekim 2026, 10 sayfa)",
 "pdf": "Calisma_belediye.pdf",
-"tur": "ek",
-"kisa": "Ek araştırma, 16 Ekim 2026",
-"sayfa_sayisi": 9
+"tur": "derin",
+"kisa": "Derin çalışma, 20 Ekim 2026",
+"sayfa_sayisi": 10
 },
 "c_balkon_ges": {
 "ad": "Balkon GES kiti: derin çalışma (16 Ekim 2026, 9 sayfa)",
@@ -38929,11 +43877,11 @@ window.MEKA_DATA = {
 "sayfa_sayisi": 11
 },
 "c_enkaz": {
-"ad": "İnşaat ve yıkıntı atığından agrega, Suriye enkazı dahil: ek araştırma (16 Ekim 2026, 6 sayfa)",
+"ad": "İnşaat ve yıkıntı atığından agrega, Suriye enkazı dahil: derin çalışma (20 Ekim 2026, 10 sayfa)",
 "pdf": "Calisma_enkaz.pdf",
-"tur": "ek",
-"kisa": "Ek araştırma, 16 Ekim 2026",
-"sayfa_sayisi": 6
+"tur": "derin",
+"kisa": "Derin çalışma, 20 Ekim 2026",
+"sayfa_sayisi": 10
 },
 "c_odtu": {
 "ad": "ODTÜ Teknokent fon ve giriş yolları: ODTÜ70 fonu, INVEST101 yan yana yatırım, Oyak ODTÜ Teknokent fonu, lisanslı melek yatırımcı: derin çalışma (16 Ekim 2026, 9 sayfa)",
@@ -39025,6 +43973,62 @@ window.MEKA_DATA = {
 "tur": "derin",
 "kisa": "Derin çalışma, 16 Ekim 2026",
 "sayfa_sayisi": 10
+},
+"c_sav_prekast": {
+"ad": "Tahkimat prekast hattı: derin çalışma (20 Ekim 2026, 6 sayfa)",
+"pdf": "Calisma_sav_prekast.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 20 Ekim 2026",
+"sayfa_sayisi": 6
+},
+"c_sav_kalip": {
+"ad": "Tahkimat kalıbı, gabion ve çelik engel: derin çalışma (20 Ekim 2026, 8 sayfa)",
+"pdf": "Calisma_sav_kalip.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 20 Ekim 2026",
+"sayfa_sayisi": 8
+},
+"c_sav_flatrack": {
+"ad": "Flat rack ve kanca yükleyici gövdesi: derin çalışma (20 Ekim 2026, 9 sayfa)",
+"pdf": "Calisma_sav_flatrack.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 20 Ekim 2026",
+"sayfa_sayisi": 9
+},
+"c_sav_konteyner": {
+"ad": "Konteyner ve şelter gövdesi: derin çalışma (20 Ekim 2026, 9 sayfa)",
+"pdf": "Calisma_sav_konteyner.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 20 Ekim 2026",
+"sayfa_sayisi": 9
+},
+"c_lancer": {
+"ad": "Lançer ve fırlatma altyapısı: konteyner tipi lançer gövdesi, fırlatma üssü, Roketsan üst yapısı: derin çalışma (20 Ekim 2026, 9 sayfa)",
+"pdf": "Calisma_lancer.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 20 Ekim 2026",
+"sayfa_sayisi": 9
+},
+"c_sav_muhimmat": {
+"ad": "Mühimmat hattı ekipmanı: derin çalışma (20 Ekim 2026, 9 sayfa)",
+"pdf": "Calisma_sav_muhimmat.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 20 Ekim 2026",
+"sayfa_sayisi": 9
+},
+"c_elektrikli_oto": {
+"ad": "Elektrikli otobüs: Türkiye'de montaj ve gövde üretimi: derin çalışma (20 Ekim 2026, 9 sayfa)",
+"pdf": "Calisma_elektrikli_oto.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 20 Ekim 2026",
+"sayfa_sayisi": 9
+},
+"c_cin_otobus_ort": {
+"ad": "Çinli elektrikli otobüs üreticisiyle Türkiye ortaklığı: derin çalışma (20 Ekim 2026, 8 sayfa)",
+"pdf": "Calisma_cin_otobus_ort.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 20 Ekim 2026",
+"sayfa_sayisi": 8
 }
 },
 "dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Dal ve kol yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz yaprağın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; yapraklar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk yapraklar arası ve yaprak ile bölge arası tutarlılıkta: ağacın ön bandı yedi yaprakta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir yaprakta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B yapraklarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki yaprağın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
@@ -39514,7 +44518,7 @@ window.MEKA_DATA = {
 }
 ],
 "esikler": {
-"yildiz": 50,
+"yildiz": 46,
 "orta": 36
 },
 "yontem": [
@@ -39777,6 +44781,60 @@ window.MEKA_DATA = {
 ]
 },
 {
+"ad": "MEKA dalı: ekonomi modelleri ve emsal işlemler",
+"tarih": "20 Ekim 2026",
+"aciklama": "Eleştirmen MEKA dalının en yüksek puanlı yapraklarında ekonomi modelinin eksik olduğunu söyledi. Sekiz yaprak için kaynaklı birim fiyat, program hacmi ve emsal ihale sonuçlarıyla bilet, ilk gelir süresi, yıl 3 ve yıl 5 brüt kâr ve geri ödeme yazıldı; savunma kollarının ortak belge ve test bütçesi beşe bölünerek pay edildi. Her çalışma ikinci bir ajan tarafından sayfa sayfa doğrulandı.",
+"yaprak_belgeleri": [
+{
+"yaprak": "sav_konteyner",
+"dosya": "c_sav_konteyner"
+},
+{
+"yaprak": "sav_muhimmat",
+"dosya": "c_sav_muhimmat"
+},
+{
+"yaprak": "sav_flatrack",
+"dosya": "c_sav_flatrack"
+},
+{
+"yaprak": "sav_kalip",
+"dosya": "c_sav_kalip"
+},
+{
+"yaprak": "enkaz",
+"dosya": "c_enkaz"
+},
+{
+"yaprak": "sav_prekast",
+"dosya": "c_sav_prekast"
+},
+{
+"yaprak": "lancer",
+"dosya": "c_lancer"
+},
+{
+"yaprak": "belediye",
+"dosya": "c_belediye"
+}
+]
+},
+{
+"ad": "Yönetici isteği: elektrikli otobüs",
+"tarih": "20 Ekim 2026",
+"aciklama": "Yönetici iki konu getirdi: Türkiye'de elektrikli otobüs gövdesi ve CKD montajı; Çinli elektrikli otobüs üreticisiyle Türkiye ortaklığı (SANY ve FMT'nin Ankara emsali dahil). İkisi de derin çalışma ve çürütücü doğrulamasıyla yazıldı, MEKA ile ilgili dalına kondu ve diğer yapraklarla aynı ölçekte puanlandı.",
+"yaprak_belgeleri": [
+{
+"yaprak": "cin_otobus_ort",
+"dosya": "c_cin_otobus_ort"
+},
+{
+"yaprak": "elektrikli_oto",
+"dosya": "c_elektrikli_oto"
+}
+]
+},
+{
 "ad": "Ek araştırmalar",
 "tarih": "16 Ekim 2026",
 "aciklama": "Önceki çalışmalarda yalnız bir iki cümleyle geçen MEKA dalı yaprakları için web kaynaklı ek araştırmalar.",
@@ -39806,10 +44864,6 @@ window.MEKA_DATA = {
 "dosya": "c_kum"
 },
 {
-"yaprak": "enkaz",
-"dosya": "c_enkaz"
-},
-{
 "yaprak": "parcalayici",
 "dosya": "c_parcalayici"
 },
@@ -39828,10 +44882,6 @@ window.MEKA_DATA = {
 {
 "yaprak": "beylikova",
 "dosya": "c_beylikova"
-},
-{
-"yaprak": "belediye",
-"dosya": "c_belediye"
 },
 {
 "yaprak": "milvus",
