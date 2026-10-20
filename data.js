@@ -1,5 +1,5 @@
 window.MEKA_DATA = {
-"baslik": "İki dal, altı kol, 39 yaprak",
+"baslik": "İki dal, altı kol, 51 yaprak",
 "alt_baslik": "Her yaprakta bir sayfalık özet, altında tam çalışma. Üst dal kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 yaprak 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
 "derleme_tarihi": "20 Ekim 2026",
@@ -36787,7 +36787,14 @@ window.MEKA_DATA = {
 {
 "tarih": "16 Ekim 2026",
 "iso": "2026-10-16",
-"olay": "Kanıtı zayıf 12 yaprak için web araştırması; bağımsız dalın 13 yaprağı için derin çalışma; 36 yaprak yeniden puanlandı",
+"olay": "Kanıtı zayıf 12 yaprak için web araştırması; bağımsız dalın 13 yaprağı için derin çalışma",
+"kaynak": "bu uygulama",
+"konu_id": ""
+},
+{
+"tarih": "20 Ekim 2026",
+"iso": "2026-10-20",
+"olay": "ODTÜ yaprağı altıya ayrıldı; keşif turuyla 7 yeni yaprak; 48 yaprak üç puanlayıcıyla yeniden puanlandı",
 "kaynak": "bu uygulama",
 "konu_id": ""
 },
