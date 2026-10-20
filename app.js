@@ -268,7 +268,7 @@
   function okumaRehberi() {
     var all = tumYapraklar().filter(function (t) { return genelPuan(t) != null; }); var top = Math.max.apply(null, all.map(genelPuan));
     return '<div class="card"><div class="eyebrow">Puan nasıl okunur</div><p class="muted">100 kuramsal tavan: her ölçütte 5. Bugün en yüksek yaprak ' + Math.round(top) + '. Puan düşük görünür, çünkü puanlayıcılar yalnız kanıtlanmış rakamla puan verdi ve çoğu yaprakta kanıt orta. Düşük puan iş yok demek değil, kanıt ve kapı yok demek.</p><div class="kv">' +
-      [['65+', 'Başla: teklif ver, pilot kur, müşteri temasını bu ay yap.'], [P.esikler.yildiz + ' ile 64', 'İlk adımları at: belge, numune, iki üç görüşme; üç ayda tekrar puanla.'], [P.esikler.orta + ' ile ' + (P.esikler.yildiz - 1), 'İzle ve bilgi topla: saha görüşmesiyle kanıt gelirse yükselir, para bağlama.'], [P.esikler.orta + ' altı', 'Şimdilik bırak; yalnız dış tetik (mevzuat, ihale, satılık varlık) çıkarsa aç.']].map(function (r) { return '<div class="r"><div class="k">' + r[0] + '</div><div>' + r[1] + '</div></div>'; }).join('') + '</div></div>';
+      [[(P.esikler.yildiz + 13) + '+', 'Başla: teklif ver, pilot kur, müşteri temasını bu ay yap.'], [P.esikler.yildiz + ' ile ' + (P.esikler.yildiz + 12), 'İlk adımları at: belge, numune, iki üç görüşme; üç ayda tekrar puanla.'], [P.esikler.orta + ' ile ' + (P.esikler.yildiz - 1), 'İzle ve bilgi topla: saha görüşmesiyle kanıt gelirse yükselir, para bağlama.'], [P.esikler.orta + ' altı', 'Şimdilik bırak; yalnız dış tetik (mevzuat, ihale, satılık varlık) çıkarsa aç.']].map(function (r) { return '<div class="r"><div class="k">' + r[0] + '</div><div>' + r[1] + '</div></div>'; }).join('') + '</div></div>';
   }
   function siralamaHtml() {
     var rm = rankMap(); var all = sirala(tumYapraklar());
@@ -365,9 +365,16 @@
 
   function ekonomiHtml(t) {
     var x = t.ekonomi; if (!x) return '';
-    var rows = [['Giriş bileti', x.bilet], ['İlk gelire kadar', x.sure_ilk_gelir], ['Yıllık kâr potansiyeli', x.yillik_kar_potansiyeli], ['Varsayımlar', x.varsayimlar]].filter(function (r) { return r[1]; });
+    var rows = [['Giriş bileti', x.bilet], ['İlk gelire kadar', x.sure_ilk_gelir], ['Yıl 3', x.yil3], ['Yıl 5', x.yil5], ['Geri ödeme', x.geri_odeme], ['Yıllık kâr potansiyeli', x.yillik_kar_potansiyeli], ['Varsayımlar', x.varsayimlar]].filter(function (r) { return r[1]; });
     if (!rows.length) return '';
-    return '<div class="card"><div class="eyebrow">Ekonomi (kaba tahmin)</div><div class="kv">' + rows.map(function (r) { return '<div class="r"><div class="k" style="font-size:17px">' + e(r[0]) + '</div><div>' + e(r[1]) + '</div></div>'; }).join('') + '</div></div>';
+    var derin = !!(x.yil3 || x.yil5 || x.geri_odeme);
+    return '<div class="card"><div class="eyebrow">' + (derin ? 'Ekonomi modeli (derin çalışma; kaynaklı rakamla tahmin ayrı yazıldı)' : 'Ekonomi (kaba tahmin)') + '</div><div class="kv">' + rows.map(function (r) { return '<div class="r"><div class="k" style="font-size:17px">' + e(r[0]) + '</div><div>' + e(r[1]) + '</div></div>'; }).join('') + '</div></div>' + emsallerHtml(t);
+  }
+  function emsallerHtml(t) {
+    var l = t.emsaller; if (!l || !l.length) return '';
+    return '<div class="card"><div class="eyebrow">Emsal işlemler (satın alma, yatırım turu, ihale)</div><div class="kv">' + l.map(function (x) {
+      return '<div class="r"><div class="k">' + e(x.tarih || '') + '</div><div><b>' + e(x.taraflar || '') + '</b>' + (x.bedel ? ': ' + e(x.bedel) : '') + (x.birim ? '<div class="muted">' + e(x.birim) + '</div>' : '') + (x.kaynak ? '<div class="src">' + linkify(x.kaynak) + '</div>' : '') + '</div></div>';
+    }).join('') + '</div></div>';
   }
 
   function topicHtml(id) {
@@ -451,7 +458,7 @@
       if (g.yaprak_belgeleri) {
         h += '<div class="doclist">' + g.yaprak_belgeleri.map(function (x) {
           var t = topic(x.yaprak); if (!t) return '';
-          return '<div class="docrow"><a href="#/konu/' + t.id + '">' + e(t.kisa || t.baslik) + '</a>' + docBtn({ dosya: x.dosya, etiket: 'Ek araştırma' }, false) + '</div>';
+          return '<div class="docrow"><a href="#/konu/' + t.id + '">' + e(t.kisa || t.baslik) + '</a>' + docBtn({ dosya: x.dosya, etiket: ((D.dosyalar[x.dosya] || {}).tur === 'derin' ? 'Derin çalışma' : 'Ek araştırma') }, false) + '</div>';
         }).join('') + '</div>';
       } else {
         h += '<div class="doclist">' + (g.belgeler || []).map(function (b) { return docBtn(b, b.rol === 'tam'); }).join('') + '</div>';
