@@ -45766,7 +45766,7 @@ window.MEKA_DATA = {
 "poz": "MEKA uyumu yüksek",
 "neg": "MEKA uyumu düşük",
 "kaynak": "puanlayici",
-"aciklama": "Mevcut tesis, makine ve satış kanalının kullanılma derecesi. Yalnız filtredir: işin hangi dala (MEKA ile ilgili ya da bağımsız) gireceğini belirler, genel puana katılmaz (yönetici kararı, 21 Ekim 2026).",
+"aciklama": "Mevcut tesis, makine ve satış kanalının kullanılma derecesi. Yalnız filtredir: işin hangi dala (MEKA ile ilgili ya da bağımsız) gireceğini belirler, genel puana katılmaz.",
 "capa": "5: mevcut makineyle doğrudan üretilir ya da satılır · 3: aynı atölye ve ustalık, yeni ürün · 1: bağlantı yok, saf yatırım"
 },
 {
