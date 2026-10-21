@@ -45766,7 +45766,7 @@ window.MEKA_DATA = {
 "poz": "MEKA uyumu yüksek",
 "neg": "MEKA uyumu düşük",
 "kaynak": "puanlayici",
-"aciklama": "Mevcut tesis, makine ve satış kanalının kullanılma derecesi.",
+"aciklama": "Mevcut tesis, makine ve satış kanalının kullanılma derecesi. Yalnız filtredir: işin hangi dala (MEKA ile ilgili ya da bağımsız) gireceğini belirler, genel puana katılmaz (yönetici kararı, 21 Ekim 2026).",
 "capa": "5: mevcut makineyle doğrudan üretilir ya da satılır · 3: aynı atölye ve ustalık, yeni ürün · 1: bağlantı yok, saf yatırım"
 },
 {
@@ -45800,7 +45800,7 @@ window.MEKA_DATA = {
 "B": 12.5,
 "R": 12.5,
 "E": 12.5,
-"M": 12.5,
+"M": 0,
 "S": 12.5,
 "K": 12.5
 }
@@ -45814,7 +45814,7 @@ window.MEKA_DATA = {
 "B": 8,
 "R": 14,
 "E": 12,
-"M": 10,
+"M": 0,
 "S": 10,
 "K": 12
 }
@@ -45828,7 +45828,7 @@ window.MEKA_DATA = {
 "B": 12,
 "R": 10,
 "E": 16,
-"M": 14,
+"M": 0,
 "S": 2,
 "K": 8
 }
@@ -45842,18 +45842,18 @@ window.MEKA_DATA = {
 "B": 6,
 "R": 12,
 "E": 8,
-"M": 2,
+"M": 0,
 "S": 22,
 "K": 16
 }
 }
 ],
 "esikler": {
-"yildiz": 46,
-"orta": 36
+"yildiz": 41,
+"orta": 32
 },
 "yontem": [
-"Altı ölçüt (getiri, hız, risk, erişim, MEKA uyumu, stratejik değer) üç bağımsız puanlayıcı tarafından, her yaprak için aynı kanıt paketinden 1 ile 5 arasında puanlandı. Üç puanın ortalaması alındı.",
+"Beş ölçüt (getiri, hız, risk, erişim, stratejik değer) üç bağımsız puanlayıcı tarafından, her yaprak için aynı kanıt paketinden 1 ile 5 arasında puanlandı. Üç puanın ortalaması alındı. MEKA uyumu da puanlanır ama genel puana katılmaz; yalnız işin MEKA ile ilgili dala mı bağımsız dala mı gireceğini belirleyen filtredir.",
 "İki ölçüt yargıyla değil sistemden gelir: giriş bileti kapı diliminden, kanıt gücü yapraktaki kanıt puanından hesaplanır.",
 "Genel puan, ölçüt puanlarının ağırlıklı ortalamasıdır ve 0 ile 100 arasına çevrilir: 1 puan sıfır, 5 puan yüz eder. Ağırlıklar seçtiğin profile göre değişir.",
 "Dal ve kol puanı, içindeki seçime uyan en iyi üç yaprağın ortalamasıdır.",
