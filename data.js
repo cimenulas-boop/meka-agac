@@ -1,10 +1,10 @@
 window.MEKA_DATA = {
-"baslik": "İki dal, altı kol, 55 yaprak",
+"baslik": "İki dal, altı kol, 56 yaprak",
 "alt_baslik": "Her yaprakta bir sayfalık özet, altında tam çalışma. Üst dal kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 yaprak 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
 "derleme_tarihi": "21 Ekim 2026",
 "bugun_iso": "2026-10-21",
-"surum": "Sürüm 21 Ekim 2026, 8. tur · ATV ve UTV ile rüzgar kulesi yaprakları eklendi; 7. tur:  MEKA dalının en yüksek puanlı 8 yaprağı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık yaprakları eklendi; 50 yaprak üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
+"surum": "Sürüm 21 Ekim 2026, 8. tur · ATV ve UTV, yasal kenevir ve rüzgar kulesi yaprakları eklendi; 7. tur:  MEKA dalının en yüksek puanlı 8 yaprağı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık yaprakları eklendi; 50 yaprak üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
 "agac": [
 {
 "id": "meka",
@@ -41,6 +41,7 @@ window.MEKA_DATA = {
 "cin_otobus_ort",
 "atv_utv",
 "res_kule",
+"kenevir",
 "izle_meka"
 ]
 },
@@ -16599,6 +16600,700 @@ window.MEKA_DATA = {
 "E": "Kazananlar belli değil; 12 başvuru sahibi, alım sözü yok, rekabet yoğun.",
 "M": "Ağır sac, kaynak, kumlama, boya uyar; yeni hat için 12 ile 20 M$.",
 "S": "Teknolojik değil, ilk giren yok; yalnız taştan tozdan bağımsız enerji geliri."
+},
+"puan_yayilim": []
+},
+"kenevir": {
+"id": "kenevir",
+"dal": "meka",
+"kol": "ozel",
+"baslik": "Yasal endüstriyel kenevir: ekim, işleme ve ürün",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "Yönetici isteği",
+"bolum": "21 Ekim 2026: yönetici yasal kenevir üretimini sordu; derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı",
+"tarih": "21 Ekim 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_kenevir",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "KENEVİRO (UOB Grup)",
+"rol": "musteri",
+"not": "Havza OSB'de 31 milyon dolarlık entegre tesis: elyaf, iplik, kıtık, kedi kumu. 2024'te 13.600 dekar ekim, 2026 ciro hedefi 50 milyon dolar. Ana alıcı adayı ve aynı zamanda rakip.",
+"kaynak": "[10] Türkiye Gazetesi 7 Ekim 2023; [9]; [11]"
+},
+{
+"ad": "Anadolu Kenevir Endüstri A.Ş.",
+"rol": "musteri",
+"not": "Taşköprü OSB'de 15.000 dekar kapasiteli lif fabrikası planladı, 2022'de 47 çiftçi ve 750 dekar sözleşme. Açılış bulunamadı.",
+"kaynak": "[15] İşçi Haber, AA 25 Şubat 2022"
+},
+{
+"ad": "TİGEM Gökhöyük Tarım İşletmesi",
+"rol": "kurum",
+"not": "Amasya'da 2025'te 850 dekar ekimin 500 dekarını yaptı, kenevir tohumu üretiyor.",
+"kaynak": "[13] Gazete Vatan, İHA 23 Ekim 2025"
+},
+{
+"ad": "Ondokuz Mayıs Üniversitesi Kenevir Araştırmaları Enstitüsü",
+"rol": "kurum",
+"not": "Narlı ve Vezir çeşitlerini geliştirdi, 2021'de tescil. Narlı'nın 10 yıllık üretim ve satış hakkı KENEVİRO'da.",
+"kaynak": "[8]; [10]"
+},
+{
+"ad": "Karadeniz Tarımsal Araştırma Enstitüsü, TAGEM",
+"rol": "kurum",
+"not": "Yılmaz çeşidi (10 yıllık hak de KENEVİRO'da). TAGEM, üniversite ve özel sektörle keten, kenevir ve ısırgan lifli kompozit Ar-Ge projesi yürütüyor.",
+"kaynak": "[10]; [8]"
+},
+{
+"ad": "Tarım ve Orman Bakanlığı",
+"rol": "kurum",
+"not": "Ekim izin sisteminin sahibi, il ve ilçe müdürlükleri başvuruyu inceler, mülki idare amiri onaylar.",
+"kaynak": "[2]"
+},
+{
+"ad": "Sağlık Bakanlığı ve TİTCK",
+"rol": "kurum",
+"not": "Ürün ruhsatı, üretim yeri izni, elektronik takip ve ihracat izni. Satış yalnız eczane.",
+"kaynak": "[4]"
+},
+{
+"ad": "Toprak Mahsulleri Ofisi",
+"rol": "kurum",
+"not": "Yalnız çiçek ve yaprak amaçlı yetiştiricilik başvurusu ve kota. Lif ve hurd tarafı dışı.",
+"kaynak": "[2] madde 8 ve 9"
+},
+{
+"ad": "Samsun İl Tarım ve Orman Müdürlüğü",
+"rol": "kurum",
+"not": "2024'te 253 üretici ve 4.895 dekar kayıt, 2025 için 8.000 ile 10.000 dekar tahmin etti.",
+"kaynak": "[9]"
+},
+{
+"ad": "Amasya İl Tarım ve Orman Müdürlüğü",
+"rol": "kurum",
+"not": "Ekimin 6.500 dekardan 850 dekara düştüğünü, üreticilerin mağdur olduğunu açıkladı.",
+"kaynak": "[13]"
+},
+{
+"ad": "ANDRITZ",
+"rol": "rakip",
+"not": "Avusturyalı grup. Ekolution Malmö tesisine 5 ton/saat hammadde kapasiteli teXline lif hattını 27 Ocak 2025 duyurusunda yakın zamanda devreye almış olarak bildirdi. Bedel açıklanmadı.",
+"kaynak": "[20] Textile World 27 Ocak 2025"
+},
+{
+"ad": "Ekolution",
+"rol": "emsal",
+"not": "İsveç'te kenevir yalıtım ve nonwoven üreticisi, ANDRITZ hattının alıcısı.",
+"kaynak": "[20]"
+},
+{
+"ad": "Hempalta Corp.",
+"rol": "emsal",
+"not": "Kanada'da 8 Eylül 2025'te hurd ve lif işleme faaliyetini kapattı, ekipman satışı kapanmadı. Sayfa boş yanıt verdi, arama özeti, doğrulanamadı.",
+"kaynak": "[24] Barchart, arama özeti (tek kaynak)"
+},
+{
+"ad": "Sunstrand",
+"rol": "emsal",
+"not": "ABD'li lif işleyici, 2019'da Chapter 7 iflas. Arama özeti, sayfa açılamadı.",
+"kaynak": "[27] Hemp Industry Daily (tek kaynak)"
+},
+{
+"ad": "Formation Ag",
+"rol": "rakip",
+"not": "ABD'li küçük dekortikatör, Fiber Track 660, 1 ton/saat, 139.000 dolardan. Doğrulanamadı.",
+"kaynak": "[23] Hemptoday, arama özeti (tek kaynak), sayfa HTTP 403"
+},
+{
+"ad": "CannaSystems",
+"rol": "rakip",
+"not": "R-2 dekortikatör, 2 ton/saat, 330.000 dolar. Doğrulanamadı.",
+"kaynak": "[23] Hemptoday, arama özeti (tek kaynak), sayfa HTTP 403"
+},
+{
+"ad": "HempTrain (CGT)",
+"rol": "rakip",
+"not": "Kanada, 1 ton/saat anahtar teslim modül 1,85 milyon dolar. Doğrulanamadı.",
+"kaynak": "[23] Hemptoday, arama özeti (tek kaynak), sayfa HTTP 403"
+},
+{
+"ad": "Tatham",
+"rol": "rakip",
+"not": "İngiltere, saatte 4 tona kadar anahtar teslim hat teklif ediyor, fiyat yayımlamıyor.",
+"kaynak": "[25] Textile World, arama özeti"
+},
+{
+"ad": "Fastmarkets",
+"rol": "kurum",
+"not": "2 Ekim 2025'te haftalık ABD hurd fiyat endeksi başlattı. Hurd, lif sektörünün en likit pazarı. Fiyat düzeyi bulunamadı.",
+"kaynak": "[19] Fastmarkets 8 Ocak 2026"
+},
+{
+"ad": "European Alliance for Flax-Linen and Hemp",
+"rol": "kurum",
+"not": "AB lif gözlemevi. Mart 2024'te AB keten lifi, tüm kalitelerin ortalaması 9,08 euro/kg, yıllık yüzde 55 artış. Bu kenevir fiyatı değil.",
+"kaynak": "[17]"
+},
+{
+"ad": "Biosys France (HempBLOCK)",
+"rol": "rakip",
+"not": "Fransız hempcrete blok sistemi, Vieille Matériaux grubu. Arama özeti.",
+"kaynak": "[28] arama özeti"
+},
+{
+"ad": "HempFlax",
+"rol": "rakip",
+"not": "Hollandalı kenevir işleyici. Yalnız isim, durum doğrulanmadı.",
+"kaynak": "[28] arama özeti (tek kaynak)"
+},
+{
+"ad": "Tarım Kredi Kooperatifleri",
+"rol": "ortak_adayi",
+"not": "Kenevir faaliyeti bulunamadı. Çiftçi ağı için görüşme adayı.",
+"kaynak": "Bulunamadı"
+}
+],
+"celiskiler": [
+"İl sayısı: Milliyet 2016 haberi 19 il sayıyor (sayfada Konya ve Sivas yok), Amasya Valisi 2016'da 21 ilden söz etti (Gazete Vatan, 23 Ekim 2025), 31 Ocak 2026 metni 21 il sayıyor ve Konya ile Sivas listede. Resmî metin esas alındı.",
+"Ekim alanı: KENEVİRO 2024'te Samsun, Amasya ve Kastamonu'da 13.600 dekar ekim yaptı. TÜİK lif ve tohum alanını toplam 16.051 dekar verdi, ama yalnız lif alanı 8.845 dekar. Samsun'un 4.895 ve Amasya'nın 6.500 dekarı tek başına 11.395 eder. KENEVİRO'nun 13.600 dekarı toplam alana sığar, tek başına lif alanına sığmaz. Kapsam farkı olabilir, kesin uyum doğrulanamadı.",
+"Verim: KENEVİRO sap verimi 2023'te 650, 2024'te 1.200 kg/dekar. TÜİK'ten çıkan gerçekleşen lif verimi 137,5 kg/dekar. Anadolu Kenevir tekstil lifi hedefi yaklaşık 67 kg/dekar (1.000 ton bölü 15.000 dekar, arama özeti, sayfa açılmadı). Teagasc örneği dekarda 300 kg lif diyor, bu en iyimser.",
+"KENEVİRO 2025 ekim hedefi 28.000 dekar (Türkiye Gazetesi, 7 Ekim 2023), Samsun müdürlüğünün 2025 tahmini 8.000 ile 10.000 dekar, Amasya'da ekim düştü. 2025 gerçekleşmesi bulunamadı.",
+"Kanun tarihi: TBMM önergesi 21 Temmuz 2025 diyor, hukuk sitesi Resmî Gazete'de 24 Temmuz 2025 sayı 32965 diyor. Kabul ve yayım tarihleri olarak uyumlu.",
+"ABD lif fiyatı: arama özetinde 2024'te 0,19 dolar/lb, 2025 ikinci çeyrekte 1,81 dolar/lb. Dokuz kat sıçrama doğrulanamadı, modelde kullanılmadı.",
+"Karşı okuma (yuksek): Yıl 5 baz senaryoda yılda 4 ekipman paketi satılır (düşük 2, yüksek 6); yıl 3 ile 5 arası baz toplam 9 paket. İtiraz: Hacim iç pazarın büyüklüğüne sığmıyor. Çalışmanın kendi rakamıyla 2024 lif üretimi 1.216 ton ve lif alanı 8.845 dekar. Baz lif oranı yüzde 20 ile bu yaklaşık 6.000 ton sap eder, yüzde 14 ile yaklaşık 8.700 ton. Çalışmanın tesis yolunda 3 ton/saat hat 12.000 ton sap işliyor. Yani bütün ulusal sap bir ya da iki hatta işlenir. Alıcı adayı iki firma (KENEVİRO ke",
+"Karşı okuma (yuksek): Türkiye'de lif, hurd ve sap fiyatı bulunamadı. Modelde çiftçiye sap 6 TL/kg (121 dolar/ton) tahmin, hurd 400 ile 1.100 dolar/ton, lif 600 ile 2.500 dolar/ton. İtiraz: Türkiye fiyat noktaları var ve model bunlardan çok farklı. Ondokuz Mayıs Üniversitesi Kenevir Araştırmaları Enstitüsü 2026 tarifesi: kıtık 50 TL/kg, lif 240 TL/kg, sap 45 TL/kg, tohum 520 TL/kg. 49,60 kurla kıtık yaklaşık 1.008 dolar/ton, lif yaklaşık 4.839 dolar/ton, sap yaklaşık 907 dolar/ton. Bu bir araştırma enstitüsünün döner sermaye tarifesi, küçük par",
+"Karşı okuma (orta): Hempalta'nın 8 Eylül 2025 kapanışı doğrulanamadı, tek kaynak. İtiraz: Doğrulandı, ve ekipman satışı için kötü haber taşıyor. Hempalta'nın kendi basın bülteni: işleme faaliyetini düzenli olarak kapatıyor, sermaye yoğun bir işti, tüketici ürünü benimsenmesi yavaştı, daha önce duyurulan ekipman satışı kapanmadı. Yani bu emsal, çalışmanın tesis yolunu kötüleştiriyor ve MEKA'nın ekipman satışı için iki şeyi gösteriyor: işleyicileri",
+"Karşı okuma (orta): ABD ve Kanada fiyat çöküşü ve işleyici iflasları doğrulanamadı, modelde kullanılmadı. İtiraz: Çöküş yönünde bağımsız işaretler var, ama Türkiye için doğrudan ölçü değil. Arama özetine göre USDA NASS 2025 raporunda ABD lif değeri 2024'te 11,2 milyon dolardan 13,5 milyon dolara çıktı, ama fiyatlar 2021 sonrası çöküşün ardından çok yıllık diplere yakın ve üreticiler biraz daha gelir için çok daha fazla üretmek zorunda kaldı (sayfa açılmadı, özet). Astut",
+"Karşı okuma (orta): Ekipman paketi fiyatı 0,6 ile 1,0 milyon dolar ve brüt marj yüzde 20 ile 30. Rakip fiyatları 139.000 ve 330.000 dolar dekortikatör, 1,85 milyon dolar 1 ton/saat anahtar teslim hat. İtiraz: Paket fiyatı ve marjın hiçbir kanıtı yok, ve rakip fiyatlar doğrulanmadı. Paketin kapsamı (eleme, değirmen, konveyör, silo, balya) net bir fiyat listesine bağlanmadı. Aynı çalışmadaki 1 ton/saat anahtar teslim 1,85 milyon dolarlık hat ile kıyaslanırsa, dekortikatörsüz bir yan ekipman paketi için 0,75 milyon dolar bu hatta göre yüksek kalabilir, ve MEKA dekor"
+],
+"degisiklikler": [
+"21 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"21 Ekim 2026 bağımsız karşı okuma eklendi: ekipman yolu yıl 5 brüt kâr 0 ile 0,5 milyon dolara düşürüldü, harcama üç dilime bölündü",
+"Emsal tarihi Kasım 2023 yerine 7 Ekim 2023 yapıldı: sayfa o tarihli, üretimin 1 Kasım 2023'te başlayacağı yazıyor.",
+"Dekar başı bedel düzeltildi: sayfada 2024 hedefi 16.000 dekar, 2025 sonu hedefi 35.000 dekar kenevir ve keten. Eski 15.000 dekar sayfada yok. Yeni aralık 0,9 ile 1,9 milyon dolar/1.000 dekar, yaklaşık 1.900 dolar/dekar.",
+"Satış garantisi sözü Amasya Valisine değil Kastamonu Valisi Avni Çakır'a ait (İşçi Haber, 25 Şubat 2022). Ölçüt tablosunda düzeltildi.",
+"AB 9,08 euro/kg rakamı keten lifinin tüm kalitelerdeki Mart 2024 ortalaması ve yıllık artış yüzde 55. Uzun lif ifadesi sayfada yok, düzeltildi.",
+"ANDRITZ hattı için Ocak 2025'te devreye aldı ifadesi, 27 Ocak 2025 duyurusunda yakın zamanda devreye aldı olarak düzeltildi.",
+"Yönetmelik lif, tohum ve sap izninde işleyiciyle sözleşme şartı koymuyor. Sözleşme tanımı var ama yetiştiricilik sözleşmesi çiçek ve yaprak tarafında TMO ile. Kapı paragrafı düzeltildi.",
+"Tüzel kişi yöneticilerinin ve ortakların sicil şartı yalnız çiçek ve yaprak maddelerinde (madde 8 ve 9). Lif maddesinde yalnız yetiştiriciden temiz sicil isteniyor. Türk yatırımcı paragrafı düzeltildi.",
+"Kota Sağlık Bakanlığına geçmedi. Kotayı Cumhurbaşkanı belirler, Tarım ve Orman Bakan Yardımcısı başkanlığındaki komisyon dağıtır, işleri TMO yürütür. Metin ve mevzuat riski düzeltildi.",
+"Yol 1 hat bedeli 5,5 yerine 5,55 milyon dolar (3 çarpı 1,85). Bilet toplamı 8,3 milyon dolar zaten buna uyuyordu, kalem toplamı artık tutuyor. Varyant özetindeki hat rakamı da düzeltildi.",
+"Yol 2 yıl 3 brüt kâr rakamları (eksi 0,12 / eksi 0,08 / 0,06) 0,2 sabit gider ile çıkmıyordu, 0,15 ile çıkıyor. Yıl 3 sabit saha gideri 0,15 tahmin olarak tabloya ve varsayımlara eklendi.",
+"Lif oranı yüzde 14 hesabına dekarda 1.000 kg sap varsayımı yazıldı. 650 kg sapta yüzde 21, 1.200 kg sapta yüzde 11,5 çıkıyor. Eskiden bu iki rakam uyuşur deniyordu.",
+"Üç işleyici adayı var ve ikisi aynı grupta cümlesi silindi. Kaynakta yalnız KENEVİRO ve Anadolu Kenevir adı geçiyor, aynı gruptan olduklarına dair kaynak yok.",
+"TAGEM ve Karadeniz Enstitüsü satırındaki mekanizasyon projesi ifadesi silindi. TRT haberinde TAGEM projesi lif takviyeli kompozit malzeme için.",
+"Hemptoday sayfası HTTP 403, Barchart sayfası boş yanıt verdi. Formation Ag, CannaSystems, HempTrain, Hempalta rakamlarının ve ilgili risk ve emsal satırlarının yanına doğrulanamadı yazıldı.",
+"Ekim alanı çelişki notu yeniden yazıldı: KENEVİRO'nun 13.600 dekarı yalnız TÜİK lif alanına (8.845) sığmıyor, lif ve tohum toplamına (16.051) sığıyor. Eski metin kesin uyumlu diyordu.",
+"Çıkış yolu açık cümlesi ve KENEVİRO yan ekipman boşluğu cümlesi kaynaksızdı, tahmin diye işaretlendi.",
+"Türkiye Gazetesi başlığı 30 milyon dolar diyor, gövde 29 artı 2 ile 31 hesaplıyor. 31 rakamı doğru, not eklendi.",
+"Hurd fiyatı için Teagasc 1.000 dolar/ton yazıyor, tabloya ve varsayımlara eklendi. Teagasc sayfasında 2015 Kentucky Hempsters telif notu var, eski olduğu yazıldı.",
+"Çiftçi kelimesindeki yazım hatası düzeltildi. Kaynak 23 ve 24 satırlarına doğrulanamadı eklendi.",
+"Doğrulananlar değiştirilmedi: 21 il listesi, tarih ve süreler, 50 gün adli para cezası, TÜİK üretim ve alan rakamları, 137,5 kg/dekar, 253 üretici ve 4.895 dekar, 6.500 dan 850 dekara, 31 milyon dolar kalemleri, kur 49,60, ANDRITZ 5 ve 1,5 ton/saat, Fastmarkets 2 Ekim 2025, Teagasc 2.500, 1.000 ve 3.000 dolar.",
+"Aritmetik dört yolda satır satır kontrol edildi. Gelir, değişken gider, yıl 3 ve yıl 5 brüt kâr, marj ve geri ödeme sonuçları (5,4 / 3,1; geri ödemez; 4,5 / 3,7; 3,5 / 2,7) doğru çıktı. Yalnız yukarıdaki iki tutarsızlık bulundu."
+],
+"ne": "Düşük THC'li lif ve tohum kenevirinin 21 ilde Tarım ve Orman Bakanlığı izniyle ekimi, lif ve hurd olarak işlenmesi ve yalıtım, hayvan yatağı, tekstil gibi ürünlere çevrilmesi. Çiçek ve yaprak tarafı (CBD ve türevleri) ayrı rejimde, yalnız eczane satışlı ve bu çalışmanın dışında tutuldu.",
+"neden": "Yasal zemin 31 Ocak 2026'da netleşti ve MEKA'nın elek, konveyör, silo, çekiçli değirmen ve ağır sac gücü hurd işleme ve balyalama hattına uyuyor. Ama pazar çok küçük, alım garantisi yok ve tek büyük işleyici var. Bu yüzden asıl fırsat tesis kurmak değil, küçük biletle işleyicilere yan ekipman satmaktır.",
+"rakamlar": [
+{
+"deger": "21 il",
+"aciklama": "Lif, tohum ve sap kenevir ekimine izin verilen il sayısı. 2016 listesi 19 ildi, Konya ve Sivas eklendi.",
+"kaynak": "[2] Resmî Gazete 31 Ocak 2026 sayı 33154, yönetmelik madde 4; [7] Milliyet 29 Eylül 2016. https://www.alomaliye.com/2026/01/31/kenevir-yetiştiriciligi-ve-kontrolune-dair-yonetmelik/"
+},
+{
+"deger": "1.216 ton",
+"aciklama": "2024'te Türkiye kenevir lifi üretimi. 2020'de 9 tondu. Baz tahmin fiyatla (1.200 dolar/ton) değeri yaklaşık 1,5 milyon dolar.",
+"kaynak": "[8] TÜİK verisi, AA haberi, Mayıs 2025. https://www.trthaber.com/haber/ekonomi/stratejik-urun-kenevirde-hem-uretim-hem-verimlilik-artiyor-906434.html"
+},
+{
+"deger": "8.845 dekar",
+"aciklama": "2024 lif kenevir ekili alanı. 2020'de 101 dekardı. Tohum kenevir alanı 7.206 dekar.",
+"kaynak": "[8] TÜİK verisi, AA haberi, Mayıs 2025"
+},
+{
+"deger": "556 ton",
+"aciklama": "2024 kenevir tohumu üretimi. 2023'te 327 tondu.",
+"kaynak": "[8] TÜİK verisi, AA haberi, Mayıs 2025"
+},
+{
+"deger": "137,5 kg lif/dekar",
+"aciklama": "1.216 ton bölü 8.845 dekar. Gerçekleşen lif verimi. Teknik üst sınır çok daha yüksek.",
+"kaynak": "[8] hesap: 1.216.000 kg / 8.845 dekar"
+},
+{
+"deger": "650 ve 1.200 kg sap/dekar",
+"aciklama": "KENEVİRO'nun 2023 ortalaması ve 2024 beklentisi. Tek şirket beyanı.",
+"kaynak": "[9] AA, 26 Eylül 2024. https://www.politikam.com/kenevir-ureticileri-az-sulamaya-ragmen-yuksek-verim-aldi (tek kaynak)"
+},
+{
+"deger": "31 milyon dolar",
+"aciklama": "KENEVİRO Havza OSB yatırımı: 4 milyon dolar tarım makinesi, 25 milyon dolar fabrika, 2 milyon dolar ek. Haber başlığı 30 milyon yazar, gövdede 29 artı 2 ile 31 çıkar.",
+"kaynak": "[10] Türkiye Gazetesi, 7 Ekim 2023; [11] Ekonomi Gazetesi, 12 Ağustos 2025"
+},
+{
+"deger": "6.500 dekardan 850 dekara",
+"aciklama": "Amasya'da kenevir ekimi 2024'ten 2025'e düştü. Neden: sözleşmeli üretimde bir firmayla yaşanan sorunlar. 850 dekarın 500'ü TİGEM Gökhöyük'te, kalanı iki firmanın Gümüşhacıköy ve Hamamözü ekimi.",
+"kaynak": "[13] Gazete Vatan, İHA, 23 Ekim 2025. https://www.gazetevatan.com/galeri/amasyali-uretici-kenevirden-vazgecti-ekim-alanlari-hizla-dustu-2319079 (tek kaynak)"
+},
+{
+"deger": "253 üretici, 4.895 dekar",
+"aciklama": "Samsun'da Havza ve Vezirköprü'de 2024 izinli ekim.",
+"kaynak": "[9] AA, 26 Eylül 2024"
+},
+{
+"deger": "1 Ocak - 1 Nisan",
+"aciklama": "Yıllık izin başvuru penceresi. İzin tek dönemlik. İnceleme bir ay, Bakanlık görüşünde üç aya kadar.",
+"kaynak": "[2] yönetmelik madde 5 ve 6"
+},
+{
+"deger": "En az 50 gün adli para cezası",
+"aciklama": "İzinsiz ya da izin belgesindeki alan dışında ekimin cezası.",
+"kaynak": "[3] Hukukçular Evi, 2313 sayılı Kanun madde 23/5 özeti (ikincil kaynak)"
+},
+{
+"deger": "139.000 ve 330.000 dolar; 1,85 milyon dolar",
+"aciklama": "ABD'li küçük dekortikatör 1 ton/saat; 2 ton/saat dekortikatör; 1 ton/saat anahtar teslim hat.",
+"kaynak": "[23] Hemptoday, arama özeti, sayfa açılamadı (HTTP 403), tek kaynak, doğrulanamadı"
+},
+{
+"deger": "Bulunamadı",
+"aciklama": "Türkiye'de lif, hurd ve sap için güncel alım ve satış fiyatı ve GTİP bazlı ithalat ve ihracat tutarı.",
+"kaynak": "Yapılan aramalarda ve açılan sayfalarda yok"
+},
+{
+"deger": "49,60 TL/dolar",
+"aciklama": "Hesaplarda kullanılan kur, 21 Ekim 2026.",
+"kaynak": "[6] Sözcü (49,60) ve [11] Ekonomi Gazetesi (49,6025) sayfa başlığı"
+}
+],
+"durum": "Kenevir Türkiye'de yasak bir bitki değil, izne bağlı bir bitkidir. 31 Ocak 2026'da iki yönetmelik çıktı: ekim kuralları Tarım ve Orman Bakanlığında, ürün ruhsatı Sağlık Bakanlığı ve TİTCK'de. Üretim hızlı büyüdü ama küçük: 2024'te 8.845 dekar lif alanı ve 1.216 ton lif. Pazarı fiilen KENEVİRO taşıyor ve Amasya örneği, güvenilmez sözleşmenin ekimi bir yılda yüzde 87 düşürdüğünü gösteriyor. Alım garantisi ve taban fiyat bulunamadı. Fiyat ve talep kanıtı Türkiye için zayıf, yabancı fiyatlar eski ya da ikincil. Karşı okuma sonrası öneri: Öneri kısmen ayakta: ekim ağı ve işleme tesisine girilmez, ekipman halkası yalnız aşamalı ve şartlı denenir. Değişiklikler: (1) Yıl 5 kâr aralığı düşürülür, çünkü iç pazar yılda 4 paketi taşımaz. Yurt içinde beş yılda 1 ile 3 paket gerçekçi. (2) Para iki dilime bölünür. İlk dilim yalnız tasarım, teklif ve yazılı niyet mektubu için en çok 0,15 milyon dolar. Mektup gelirse pilot paket için 0,35 milyon dolara çıkılır. Kalan 0,4 milyon dolar yalnız ilk yazılı sipariş geldikten sonra harcanır. (3) Niyet mektubuna fiyat ve ödeme biçimi yazdırılır, çünkü Hempalta gibi işleyicilerin ekipman parasını bulamadığı görüldü. (4) Görüşmelerde Türkiye alım f",
+"adimlar": [
+{
+"adim": "KENEVİRO ve Anadolu Kenevir Endüstri ile görüş: hurd, eleme ve balyalamada yaşadıkları darboğaz, kullandıkları hat ve alım fiyatı",
+"kim": "Mehmet Bey ve MEKA satış müdürü",
+"ne_zaman": "9 Kasım 2026 haftası"
+},
+{
+"adim": "Samsun, Amasya, Çorum, Yozgat il tarım müdürlüklerinden 2026 ekim alanı, üretici sayısı ve sözleşme fiyatını yazılı iste",
+"kim": "MEKA satış mühendisi",
+"ne_zaman": "Aralık 2026"
+},
+{
+"adim": "Hurd eleme, çekiçli değirmen, konveyör, silo ve balya paketi için ön tasarım ve maliyet çıkar, dekortikatör için bir Avrupa ya da Çin tedarikçisinden teklif al",
+"kim": "MEKA Ar-Ge ve proje",
+"ne_zaman": "Ocak ile Mart 2027"
+},
+{
+"adim": "En az bir işleyiciden pilot paket için yazılı niyet mektubu al. Mektup yoksa üretim harcaması yapma",
+"kim": "Mehmet Bey",
+"ne_zaman": "1 Nisan 2027, izin penceresi kapanmadan"
+},
+{
+"adim": "Pilot paketi üret, işleyicinin sahasında devreye al, eleme verimi ve toz oranını ölç",
+"kim": "MEKA üretim ve servis",
+"ne_zaman": "Nisan ile Ağustos 2027, Eylül 2027 hasadına yetişecek şekilde"
+},
+{
+"adim": "Karar noktası: iki yeni paket siparişi ya da taban fiyat ve destek açıklaması varsa ölçekle, yoksa dur",
+"kim": "Mehmet Bey",
+"ne_zaman": "31 Ekim 2027"
+}
+],
+"riskler": [
+"Talep ve alıcı riski, olasılık yüksek, etki yüksek: ulusal lif üretimi 1.216 ton, tek büyük işleyici var. Azaltma: niyet mektubu olmadan harcama yok.",
+"Ham madde riski, olasılık yüksek, etki yüksek: Amasya'da ekim 6.500 dekardan 850 dekara düştü, izin her yıl yenileniyor ve tek dönemlik. Azaltma: ekim ve tesis yolundan uzak dur.",
+"Fiyat riski, olasılık yüksek, etki orta: Türkiye fiyatı bulunamadı. ABD ve Kanada işleyicilerinin zorlandığı bilgisi yalnız arama özetine dayanıyor (Hempalta'nın 8 Eylül 2025 kapanışı doğrulanamadı). Azaltma: gelir MEKA ekipman satışına bağlı, kenevir fiyatına değil.",
+"Mevzuat riski, olasılık orta, etki orta: il listesi Bakan onayıyla değişebilir, kota Cumhurbaşkanı kararıdır, ürün tarafı Sağlık Bakanlığı elinde. Azaltma: yalnız lif ve hurd tarafında, ekipman satışı.",
+"Teknoloji riski, olasılık orta, etki orta: dekortikasyon çekirdeği özel bir makine, MEKA yapmıyor. Azaltma: çekirdeği ortak ya da tedarikçiden al, MEKA çevre ekipmanını yapsın.",
+"İtibar ve hukuk riski, olasılık düşük, etki yüksek: ürünün amaç dışı kullanımı. Azaltma: yalnız izinli işleyicilere satış, yazılı son kullanım beyanı."
+],
+"takvim": [
+{
+"tarih": "21 Temmuz 2025",
+"olay": "7557 sayılı Kanun kabul edildi: kenevirden elde edilen ürünlerin ruhsat ve takibi Sağlık Bakanlığına, yetiştirme Tarım ve Orman Bakanlığında kaldı",
+"kaynak": "[5] TBMM soru önergesi, 18 Şubat 2026",
+"iso": "2025-07-21"
+},
+{
+"tarih": "24 Temmuz 2025",
+"olay": "7557 sayılı Kanun Resmî Gazete'de yayımlandı, sayı 32965, 2313 sayılı Kanun madde 23 değişti, ürünler yalnız eczanede satılabilir",
+"kaynak": "[4] Hukukçular Evi, ürünler rejimi (ikincil kaynak)",
+"iso": "2025-07-24"
+},
+{
+"tarih": "31 Ocak 2026",
+"olay": "Kenevir Yetiştiriciliği ve Kontrolüne Dair Yönetmelik ile Kenevirden Elde Edilen Ürünlere Dair Yönetmelik yürürlüğe girdi, 21 il",
+"kaynak": "[1] Resmî Gazete sayı 33154; [2]",
+"iso": "2026-01-31"
+},
+{
+"tarih": "18 Şubat 2026",
+"olay": "TBMM'de alım garantisi, destek ve ihtisas OTB soruları soruldu, yanıt bulunamadı",
+"kaynak": "[5]",
+"iso": "2026-02-18"
+},
+{
+"tarih": "6 Mart 2026",
+"olay": "TİTCK üretim yeri izin ve GMP kılavuzu KDD-KLVZ-02 tarihi (tek kaynak, arama özeti)",
+"kaynak": "[30] Lexpera arama özeti",
+"iso": "2026-03-06"
+},
+{
+"tarih": "1 Ocak 2027 - 1 Nisan 2027",
+"olay": "2027 ekim dönemi izin başvuru penceresi. İzin tek dönemlik, her yıl yenilenir",
+"kaynak": "[2] madde 5 ve 6",
+"iso": "2027-01-01"
+},
+{
+"tarih": "Eylül 2027",
+"olay": "İzinli ilk sap hasadı. 2024'te Samsun'da hasat Eylül'de tamamlandı",
+"kaynak": "[9] AA, 26 Eylül 2024",
+"iso": "2027-09-15"
+},
+{
+"tarih": "31 Ekim 2027",
+"olay": "Önerilen pilotun karar noktası",
+"kaynak": "Bu çalışmanın önerisi",
+"iso": "2027-10-31"
+}
+],
+"web": [
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2026/01/20260131.htm",
+"ne": "Resmî Gazete 31 Ocak 2026, sayı 33154 içindekiler: iki kenevir yönetmeliği",
+"tur": "resmi"
+},
+{
+"url": "https://www.alomaliye.com/2026/01/31/kenevir-yetistiriciligi-ve-kontrolune-dair-yonetmelik/",
+"ne": "Kenevir Yetiştiriciliği ve Kontrolüne Dair Yönetmelik tam metni (Resmî Gazete yansıması)",
+"tur": "resmi"
+},
+{
+"url": "https://hukukcularevi.com/yasal-kenevir-yetistiriciligi-izin-sureci-2026-yonetmeligi/",
+"ne": "İzin süreci ve ceza özeti, hukuk bürosu",
+"tur": "diger"
+},
+{
+"url": "https://hukukcularevi.com/kenevirden-elde-edilen-urunler-ruhsat-recete-ve-satis-rejimi/",
+"ne": "Ürün rejimi, 7557 sayılı Kanun, eczane satışı",
+"tur": "diger"
+},
+{
+"url": "https://cdn.tbmm.gov.tr/KKBSPublicFile/D28/Y4/T7/WebOnergeMetni/dddab9b8-cd44-46c3-8654-299f1012ccbd.pdf",
+"ne": "TBMM yazılı soru önergesi, 18 Şubat 2026",
+"tur": "resmi"
+},
+{
+"url": "https://www.sozcu.com.tr/kenevir-uretimi-izni-verilen-21-il-resmi-gazete-de-yayinlandi-p288869",
+"ne": "21 il haberi",
+"tur": "haber"
+},
+{
+"url": "https://www.milliyet.com.tr/ekonomi/kenevir-yetistiriciligine-duzenleme-sadece-o-illerde-yetistirilecek-2318583",
+"ne": "2016 yönetmeliği, 19 il",
+"tur": "haber"
+},
+{
+"url": "https://www.trthaber.com/haber/ekonomi/stratejik-urun-kenevirde-hem-uretim-hem-verimlilik-artiyor-906434.html",
+"ne": "TÜİK kenevir lif ve tohum üretimi ve alanı, AA",
+"tur": "haber"
+},
+{
+"url": "https://www.politikam.com/kenevir-ureticileri-az-sulamaya-ragmen-yuksek-verim-aldi",
+"ne": "Samsun 2024 hasat, KENEVİRO verimi, AA",
+"tur": "haber"
+},
+{
+"url": "https://www.turkiyegazetesi.com.tr/ekonomi/uretimi-yasaklanmisti-kenevire-dev-yatirim-995582",
+"ne": "KENEVİRO 31 milyon dolar yatırım, 7 Ekim 2023",
+"tur": "haber"
+},
+{
+"url": "https://www.ekonomigazetesi.com/kose-yazisi/oglu-abdde-iken-kenevire-kafayi-takti-31-milyon-dolar-yatirip-5200-dekara-ulasti-24873",
+"ne": "KENEVİRO öyküsü ve hedefler, 12 Ağustos 2025",
+"tur": "haber"
+},
+{
+"url": "https://www.ekonomist.com.tr/makale/endustriyel-kenevir-tarima-yeni-soluk-getiriyor-45558",
+"ne": "KENEVİRO sözleşmeli tarım, 20 Kasım 2023",
+"tur": "haber"
+},
+{
+"url": "https://www.gazetevatan.com/galeri/amasyali-uretici-kenevirden-vazgecti-ekim-alanlari-hizla-dustu-2319079",
+"ne": "Amasya ekim düşüşü, 23 Ekim 2025",
+"tur": "haber"
+},
+{
+"url": "https://www.milliyet.com.tr/ekonomi/kenevirde-sozlesmeli-uretime-gecildi-ekim-alani-10-katina-cikti-6992469",
+"ne": "Vezirköprü sözleşmeli üretim, 17 Ağustos 2023",
+"tur": "haber"
+},
+{
+"url": "https://www.iscihaber.net/ekonomi/kastamonuda-bin-dekar-alana-kenevir-ekilecek/34181",
+"ne": "Anadolu Kenevir Endüstri sözleşmesi, 25 Şubat 2022",
+"tur": "haber"
+},
+{
+"url": "https://www.memurlar.net/haber/802714/kenevir-uretiminde-yeni-donem-1-dekarda-650-700-lira-kar-birakiyor.html",
+"ne": "2019 kenevir politikası, dünya ekim alanı, AA",
+"tur": "haber"
+},
+{
+"url": "https://allianceflaxlinenhemp.eu/en/flax-linen-hemp-economic-observatory/2024-flax-hemp-market-figures",
+"ne": "AB keten ve kenevir gözlemevi 2024 rakamları",
+"tur": "rapor"
+},
+{
+"url": "https://teagasc.ie/wp-content/uploads/media/website/publications/2025/Hemp---A-Sustainable-Revolution-in-Textiles-andConstruction.pdf",
+"ne": "Kentucky tabanlı hektar bütçesi örneği: lif, hurd, tohum fiyatı (sayfada 2015 telif notu)",
+"tur": "rapor"
+},
+{
+"url": "https://www.fastmarkets.com/insights/launch-of-hemp-hurd-fob-us-northern-plains-and-fob-us-southern-plains-prices",
+"ne": "ABD hurd fiyat endeksi duyurusu",
+"tur": "firma"
+},
+{
+"url": "https://www.textileworld.com/textile-world/nonwovens-technical-textiles/2025/01/andritz-bast-fiber-line-commissioned-at-ekolution-plant-in-malmo-sweden/",
+"ne": "ANDRITZ Ekolution hattı, 27 Ocak 2025",
+"tur": "firma"
+},
+{
+"url": "https://dergipark.org.tr/tr/pub/tead/article/841625",
+"ne": "Başer ve Bozoğlu 2020, Türkiye kenevir politikası ve piyasası",
+"tur": "rapor"
+},
+{
+"url": "https://hemptoday.net/fiber-track-660-decorticator/",
+"ne": "Formation Ag, CannaSystems, HempTrain fiyatları, açılamadı (HTTP 403), yalnız arama özeti, doğrulanamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.barchart.com/story/news/34665565/hempalta-corp-announces-wind-up-of-hemp-processing-operations-and-initiation-of-strategic-alternatives-review",
+"ne": "Hempalta işleme kapanışı, açılamadı (boş yanıt), yalnız arama özeti, doğrulanamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.textileworld.com/?p=85867",
+"ne": "Tatham kenevir hattı, açılamadı, yalnız arama özeti",
+"tur": "firma"
+},
+{
+"url": "https://eiha.org/media/attach/764/1020_Mark_Reinders.pdf.pagespeed.ce.SlQ2LFAbDt.pdf",
+"ne": "HD1300 hat fiyatı 1,5 ile 2,0 milyon euro, açılamadı, HTTP 403",
+"tur": "rapor"
+},
+{
+"url": "https://hempindustrydaily.com/?p=100450",
+"ne": "Sunstrand iflası, açılamadı, HTTP 403",
+"tur": "haber"
+},
+{
+"url": "https://www.htfmarketintelligence.com/press-release/europe-hempcrete-construction-materials-market",
+"ne": "Avrupa hempcrete pazarı, yalnız arama özeti",
+"tur": "rapor"
+},
+{
+"url": "https://www.cumhuriyet.com.tr/turkiye/kastamonuda-tekstil-sektoru-icin-kenevir-uretimine-baslaniyor-1931904",
+"ne": "Kastamonu Anadolu Kenevir 2022, yalnız arama özeti",
+"tur": "haber"
+},
+{
+"url": "https://www.lexpera.com.tr/mevzuat/kilavuzlar/kenevirden-elde-edilen-bilesenlerin-destek-urunlerinin-ve-saglik-urunlerinin-uretim-yerlerine-1",
+"ne": "TİTCK üretim yeri kılavuzu KDD-KLVZ-02, yalnız arama özeti",
+"tur": "resmi"
+},
+{
+"url": "https://www.turkgun.com/gundem/kenevirde-yeni-donem-endustriyel-ve-tibbi-kullanim-icin-yasal-zemin-genisliyor/309908",
+"ne": "Açılamadı, HTTP 403",
+"tur": "haber"
+},
+{
+"url": "https://hemptoday.net/?p=19904",
+"ne": "Açılamadı, HTTP 403",
+"tur": "haber"
+}
+],
+"ekonomi": {
+"bilet": "Önerilen ekipman yolu: 0,75 milyon dolar (24 ay, ilk 12 ay 0,35). Diğer yollar: ekim ağı 1,6, son ürün 1,8, işleme tesisi 8,3 milyon dolar. Hepsi tahmin, dayanak çalışma metninde. Karşı okuma: ilk dilim en çok 0,15 milyon dolar (tasarım, teklif, yazılı niyet mektubu); mektup gelirse pilot paket için 0,35; kalan 0,4 milyon dolar yalnız ilk yazılı sipariş sonrası.",
+"sure_ilk_gelir": "Ekipman: 12 ile 18 ay (tahmin, ilk pilot teslimat Eylül 2027 sezonu). Tesis: 13 ile 20 ay (ilk sap hasadı Eylül 2027, hat siparişi 8 ile 12 ay). Ekim ağı: 12 ay. Son ürün: 15 ay, hurd kaynağına bağlı.",
+"yil3": "Ekipman: gelir 0,6 ile 3,0 milyon dolar, brüt kâr 0,12 ile 0,9. Tesis: gelir 1,6 ile 8,0, brüt kâr eksi 0,76 ile artı 5,7. Ekim ağı: gelir 0,5 ile 0,7, brüt kâr eksi 0,12 ile artı 0,06. Son ürün: gelir 1,0 ile 1,7, brüt kâr 0,05 ile 0,72 milyon dolar.",
+"yil5": "Ekipman: gelir 1,2 ile 6,0 milyon dolar, brüt kâr 0,24 ile 1,8. Tesis: gelir 3,2 ile 16,1, brüt kâr eksi 0,7 ile artı 12,2. Ekim ağı: gelir 1,4 ile 1,8, brüt kâr eksi 0,13 ile artı 0,35. Son ürün: gelir 2,6 ile 4,4, brüt kâr 0,12 ile 1,92 milyon dolar. Bağımsız karşı okuma düzeltmesi, planlamada bunu kullan: ekipman yolu yıl 5 brüt kâr 0 ile 0,5 milyon dolar, baz 0,15 milyon dolar, yılda 0 ile 1 paket, tahmin.",
+"geri_odeme": "Ekipman: baz 3,5 yıl, yüksek 2,7 yıl, düşük 5 yılda geri ödemez. Tesis: baz 5,4 yıl, yüksek 3,1 yıl, düşük geri ödemez. Ekim ağı: geri ödemez. Son ürün: baz 4,5 yıl, yüksek 3,7 yıl, düşük 10 yıldan uzun. Faiz, vergi ve amortisman dışarıda.",
+"yillik_kar_potansiyeli": "Ekipman halkasında yıl 5 brüt kâr 0 ile 0,5 milyon dolar (karşı okuma düzeltmesi; çalışmanın ilk senaryosu 0,24 ile 1,8 milyon dolar), tahmin; iç pazar yılda 4 paketi taşımıyor.",
+"varsayimlar": "Kur 49,60 TL/dolar. Sap verimi 650, 1.000, 1.200 kg/dekar. Lif oranı yüzde 14, 20, 28; hurd oranı yüzde 45, 52, 58. Lif fiyatı 600, 1.200, 2.500 dolar/ton; hurd fiyatı 400, 700, 1.100 dolar/ton; yalnız lif 2.500 (Teagasc sunumu, 2015 Kentucky) ve hurd yaklaşık 1.100 (arama özeti, sayfa açılmadı) yabancı kaynaklı, ötesi tahmin. Teagasc hurd için 1.000 dolar/ton veriyor. Çiftçiye sap 6 TL/kg tahmin. Ekipman paketi 0,6 ile 1,0 milyon dolar, marj yüzde 20 ile 30 tahmin. Ekim ağında yıl 3 sabit saha gideri 0,15 milyon dolar tahmin. Türkiye fiyatı bulunamadı. Yıl 1 gelirsiz kabul edildi."
+},
+"emsaller": [
+{
+"tarih": "7 Ekim 2023 (haber tarihi; üretim 1 Kasım 2023'te başlayacaktı)",
+"taraflar": "KENEVİRO (UOB Grup), Samsun Havza OSB entegre kenevir tesisi",
+"bedel": "31 milyon dolar",
+"birim": "Yaklaşık 1.900 dolar/dekar bağlı ekim hedefi (2024 hedefi 16.000 dekar; 2025 sonu 35.000 dekar kenevir ve keten hedefine göre 0,9 ile 1,9 milyon dolar/1.000 dekar)",
+"kaynak": "[10] Türkiye Gazetesi 7 Ekim 2023"
+},
+{
+"tarih": "27 Ocak 2025",
+"taraflar": "ANDRITZ ve Ekolution, Malmö bast fiber hattı",
+"bedel": "Açıklanmadı",
+"birim": "5 ton/saat hammadde, 1,5 ton/saat nonwoven",
+"kaynak": "[20] Textile World"
+},
+{
+"tarih": "8 Eylül 2025",
+"taraflar": "Hempalta Corp., Kanada, işleme faaliyetini sonlandırdı",
+"bedel": "Ekipman satışı kapanmadı, tutar bulunamadı",
+"birim": "Çıkış emsali, doğrulanamadı",
+"kaynak": "[24] arama özeti (tek kaynak)"
+},
+{
+"tarih": "Tarih bulunamadı",
+"taraflar": "HempTrain (CGT), 1 ton/saat anahtar teslim modül",
+"bedel": "1,85 milyon dolar",
+"birim": "1,85 milyon dolar/ton-saat, doğrulanamadı",
+"kaynak": "[23] Hemptoday, arama özeti (tek kaynak)"
+},
+{
+"tarih": "2019",
+"taraflar": "Sunstrand, Kentucky, Chapter 7 iflas",
+"bedel": "Bulunamadı",
+"birim": "Çıkış emsali",
+"kaynak": "[27] arama özeti (tek kaynak)"
+},
+{
+"tarih": "25 Şubat 2022",
+"taraflar": "Anadolu Kenevir Endüstri A.Ş. ve 47 çiftçi, Taşköprü",
+"bedel": "Fiyat açıklanmadı",
+"birim": "750 dekar sözleşme, 15.000 dekar fabrika kapasitesi",
+"kaynak": "[15] İşçi Haber, AA"
+}
+],
+"cevaplar": [
+{
+"soru": "Ekim izni kimden alınıyor ve hangi illerde?",
+"durum": "cevaplandi",
+"cevap": "Lif, tohum ve sap için yetiştirici, ekim yapacağı yerin en büyük mülki idare amirliğine 1 Ocak ile 1 Nisan arasında başvurur. İl ya da ilçe tarım müdürlüğü inceler, mülki idare amiri onaylar. 21 il: Amasya, Antalya, Bartın, Burdur, Çorum, İzmir, Karabük, Kastamonu, Kayseri, Konya, Kütahya, Malatya, Ordu, Rize, Samsun, Sinop, Sivas, Tokat, Uşak, Yozgat, Zonguldak.",
+"kaynak": "[2] Resmî Gazete 31 Ocak 2026, madde 4 ve 5",
+"kime": ""
+},
+{
+"soru": "THC sınırı ve tohum kaynağı nedir?",
+"durum": "kismen",
+"cevap": "Başvuruda uyuşturucu etkisi olmayacak çeşit özelliğini gösteren tohumluk sertifikası şart. Yüzde 0,3 THC sınırı yönetmelikte kişisel bakım ve destek ürünleri tanımında geçiyor. Lif için ayrı bir sayısal sınır metinde görülmedi, çeşit sertifikası kriter.",
+"kaynak": "[2] yönetmelik madde 3, 5, 6",
+"kime": ""
+},
+{
+"soru": "Takip ve denetim ile ceza riski nedir?",
+"durum": "cevaplandi",
+"cevap": "Arazi kontrol tutanağı, izin belgesinin kolluğa bildirilmesi, hasat sonrası yaprak ve çiçek artıklarının imhası zorunlu. İzinsiz ekim en az 50 gün adli para cezası. Esrar amacı hapis cezası gerektirir ve kapsam dışıdır.",
+"kaynak": "[2] madde 6 ve 7; [3]",
+"kime": ""
+},
+{
+"soru": "İzinli üretici sayısı ve toplam izinli alan nedir?",
+"durum": "kismen",
+"cevap": "Ulusal izin sayısı bulunamadı. Samsun'da 2024'te 253 üretici ve 4.895 dekar. TÜİK 2024 lif alanı 8.845 dekar.",
+"kaynak": "[9]; [8]",
+"kime": "Tarım ve Orman Bakanlığı Bitkisel Üretim Genel Müdürlüğü ve il müdürlükleri"
+},
+{
+"soru": "Çiftçiye alım garantisi ya da taban fiyat var mı?",
+"durum": "gorusme",
+"cevap": "Lif kenevir için kamu alım garantisi bulunamadı. 18 Şubat 2026 tarihli TBMM soru önergesi tam bunu soruyor ve yanıt bulunamadı. Çiftçi için tek güvence işleyici sözleşmesi.",
+"kaynak": "[5] TBMM soru önergesi, 18 Şubat 2026",
+"kime": "Tarım ve Orman Bakanlığı; KENEVİRO; Tarım Kredi"
+},
+{
+"soru": "Lif ve hurd için Türkiye'de güncel birim fiyat nedir?",
+"durum": "gorusme",
+"cevap": "Bulunamadı. Modelde ABD ve Kentucky referansları ile açıkça işaretli tahminler kullanıldı.",
+"kaynak": "[18], [19]",
+"kime": "KENEVİRO ve Anadolu Kenevir Endüstri satış birimi"
+},
+{
+"soru": "Taşköprü'deki Anadolu Kenevir Endüstri lif fabrikası açıldı mı?",
+"durum": "gorusme",
+"cevap": "2022'de 47 çiftçi ve 750 dekar sözleşme imzalandı, fabrika 2023 için planlıydı. Açıldığına dair kaynak bulunamadı.",
+"kaynak": "[15] İşçi Haber, AA, 25 Şubat 2022",
+"kime": "Taşköprü OSB yönetimi, Anadolu Kenevir Endüstri A.Ş."
+},
+{
+"soru": "CBD ve türevleri Türkiye'de yasal mı?",
+"durum": "cevaplandi",
+"cevap": "Yasal ama tek kanal eczane. 7557 sayılı Kanun ruhsat ve takibi Sağlık Bakanlığına verdi. Tıbbi ve sağlık ürünü reçeteli, kişisel bakım ve destek ürünü reçetesiz ama yalnız eczanede. MEKA için fırsat değil.",
+"kaynak": "[4] Hukukçular Evi, ürünler rejimi",
+"kime": ""
+},
+{
+"soru": "GTİP bazında ithalat ve ihracat tutarı nedir?",
+"durum": "gorusme",
+"cevap": "Bulunamadı. TÜİK dış ticaret sorgusu ya da Ticaret Bakanlığı ile alınmalı.",
+"kaynak": "Aramalarda çıkmadı",
+"kime": "TÜİK dış ticaret istatistikleri, Ticaret Bakanlığı"
+}
+],
+"kapilar": {
+"yatirim": "sirket",
+"butce": 2,
+"butce_not": "Önerilen ekipman halkasında ilk 24 ay toplam harcama 0,75 milyon dolar, ilk 12 ay 0,35 milyon dolar. Diğer yollar 24 ayda bir ile 10 milyon dolar diliminde: ekim ağı 1,6, son ürün 1,8, işleme tesisi 8,3 milyon dolar. Kişisel yatırım seçilirse MEKA dalı kapanır ve ekipman yolu kullanılamaz.",
+"yol": "ikisi",
+"yol_not": "Hurd eleme, konveyör, silo ve balya paketini MEKA kendisi kurar. Dekortikasyon çekirdeğini ve ilk referans sahayı ortak (KENEVİRO ya da yabancı üretici) ile alır."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "kismi",
+"acik_sorular": [
+"Kısmen cevaplandı: THC sınırı ve tohum kaynağı nedir?",
+"Kısmen cevaplandı: İzinli üretici sayısı ve toplam izinli alan nedir?",
+"Görüşme gerekir: Çiftçiye alım garantisi ya da taban fiyat var mı? (Tarım ve Orman Bakanlığı; KENEVİRO; Tarım Kredi)",
+"Görüşme gerekir: Lif ve hurd için Türkiye'de güncel birim fiyat nedir? (KENEVİRO ve Anadolu Kenevir Endüstri satış birimi)",
+"Görüşme gerekir: Taşköprü'deki Anadolu Kenevir Endüstri lif fabrikası açıldı mı? (Taşköprü OSB yönetimi, Anadolu Kenevir Endüstri A.Ş.)",
+"Görüşme gerekir: GTİP bazında ithalat ve ihracat tutarı nedir? (TÜİK dış ticaret istatistikleri, Ticaret Bakanlığı)"
+],
+"bant": "izle",
+"puan_metni": "Yönetici isteğiyle derin çalışma (21 Ekim 2026), bant önerisi izle: Mevzuat resmi kaynakla kanıtlı ve kapı açık, ama herkese açık. Pazar küçük, alım garantisi ve Türkiye fiyatı yok, ekipman alıcısı birkaç firma. Bu yüzden öne çıkarılmaz. Yazılı niyet mektubu gelirse 0,75 milyon dolarlık pilot ikincil banda çıkabilir. Mektup gelmezse elenir.",
+"kapsam_notu": "21 Ekim 2026 derin çalışma: 18 arama, 22 sayfa; 9 açık sorunun 3 tanesi cevaplandı, 4 tanesi görüşme gerektiriyor. Çürütücü 17 sayfa açtı, güven 4/5. Türkiye'de lif, hurd ve sap için güncel birim fiyat bulunamadı. Fiyatlar ve verim oranları yabancı, eski ya da ikincil kaynaklı veya tahmin, hepsi işaretli. GTİP bazlı ithalat ve ihracat bulunamadı. Hemptoday ve Hempalta (Barchart) sayfaları çürütücü turunda da açılamadı (HTTP 403 ve boş yanıt), ilgili rakamlar doğrulanamadı. EIHA ve Sunstrand sayfaları çürütücü turunda yeniden denenmedi, yalnız arama özetine dayanıyor. Yeni yönetmelik metni tam okundu ama Resmî Gazete'nin kendi sayfası yalnız içindekiler düzeyinde açıldı, tam metin Alomaliye yansımasından. Çürütücü bu turda 17 sayfayı açıp okudu. İşleme tesisinin başka bir iznine dair kaynak bulunamadı. Tarım Kredi ve kooperatif verisi bulunamadı. Teşvik belgesi ve vergi ayrıntısı araştırılmadı. Karşı okuma ajanı 10 sayfa açtı, 8 arama yaptı. Bulunamayanlar: Türkiye'de işleyicinin gerçek sap, lif ve kıtık alım fiyatı. Yalnız üniversite tarifesi ve tek bir haber var, sözleşme fiyatı yok.; 2025 ve 2026 gerçekleşen izinli ekim alanı ve üretici sayısı. TÜİK 2025 verisi çıkmadı.; Anadolu Kenevir Endüstri fabrikasının açılıp açılmadığı.; Rakip ekipman fiyatları (Formation Ag, CannaSystems, HempTrain, ANDRITZ). Hemptoday, EIHA ve mjbizdaily sayfaları HTTP 403 verdi, açılamadı.",
+"guven": 4,
+"tarih": "21 Ekim 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "MEKA ile ilgili",
+"kol_id": "meka_ozel",
+"kol_ad": "Özel firmalar",
+"kisa": "Yasal endüstriyel kenevir: ekim, işleme, ekipman",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_kenevir",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 1.0,
+"H": 3.0,
+"R": 2.0,
+"E": 3.0,
+"M": 4.0,
+"S": 2.33,
+"B": 4,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 0 ile 0,5 milyon dolar, tahmin; karşı okuma düzeltmesi.",
+"H": "Ekipmanda ilk gelir 12 ile 18 ay, tahmin; ilk pilot teslimat Eylül 2027.",
+"R": "KENEVİRO tek büyük işleyici; Amasya ekimi yüzde 87 düştü; fiyat bulunamadı.",
+"E": "Kapı açık ama alıcı KENEVİRO ve Anadolu Kenevir; niyet mektubu ve ortak şart.",
+"M": "Hurd eleme, konveyör, silo MEKA işi; dekortikasyon çekirdeği ortakta.",
+"S": "Taş tozdan farklı sektör, ama ekipman sıradan; pazar 1.216 ton, avantaj zayıf."
 },
 "puan_yayilim": []
 },
@@ -42004,6 +42699,7 @@ window.MEKA_DATA = {
 "cin_otobus_ort",
 "atv_utv",
 "res_kule",
+"kenevir",
 "izle_meka",
 "beylikova",
 "belediye",
@@ -42205,6 +42901,7 @@ window.MEKA_DATA = {
 "cin_otobus_ort",
 "atv_utv",
 "res_kule",
+"kenevir",
 "izle_meka"
 ]
 },
@@ -42825,7 +43522,7 @@ window.MEKA_DATA = {
 {
 "tarih": "21 Ekim 2026",
 "iso": "2026-10-21",
-"olay": "8. tur: ATV ve UTV (benzinli ve elektrikli) ve rüzgar türbini çelik kulesi yaprakları eklendi ve puanlandı; ikinci keşif turunda 51 aday arandı",
+"olay": "8. tur: ATV ve UTV (benzinli ve elektrikli), yasal endüstriyel kenevir ve rüzgar türbini çelik kulesi yaprakları eklendi ve puanlandı; ikinci keşif turunda 51 aday arandı",
 "kaynak": "bu uygulama",
 "konu_id": ""
 },
@@ -43290,6 +43987,13 @@ window.MEKA_DATA = {
 "olay": "DFARS 252.225-7052 genişliyor. Çin, Rusya, Kuzey Kore ve İran'da çıkarılan, rafine edilen, ayrıştırılan, eritilen ya da üretilen tungsten metal tozu ve ağır alaşım teslim edilemeyecek. Muafiyet mümkün.",
 "kaynak": "resmi https://www.acquisition.gov/dfars/252.225-7052-restriction-acquisition-certain-magnets-tantalum-and-tungsten.",
 "konu_id": "tungsten"
+},
+{
+"tarih": "1 Ocak 2027 - 1 Nisan 2027",
+"iso": "2027-01-01",
+"olay": "2027 ekim dönemi izin başvuru penceresi. İzin tek dönemlik, her yıl yenilenir",
+"kaynak": "[2] madde 5 ve 6",
+"konu_id": "kenevir"
 },
 {
 "tarih": "1 Ocak 2027",
@@ -43810,6 +44514,13 @@ window.MEKA_DATA = {
 "konu_id": "sav_konteyner"
 },
 {
+"tarih": "Eylül 2027",
+"iso": "2027-09-15",
+"olay": "İzinli ilk sap hasadı. 2024'te Samsun'da hasat Eylül'de tamamlandı",
+"kaynak": "[9] AA, 26 Eylül 2024",
+"konu_id": "kenevir"
+},
+{
 "tarih": "Eylül 2027 ile Eylül 2028",
 "iso": "2027-09-15",
 "olay": "Tavuk gübresi için belge 05'in 12 ile 24 ay etiketi, 27 Eylül 2026'dan sayıldı.",
@@ -43871,6 +44582,13 @@ window.MEKA_DATA = {
 "olay": "Busworld Europe, Brüksel; Çinli üreticilerle görüşme için ana pencere",
 "kaynak": "https://www.sustainable-bus.com/events-public-transport/busworld-turkey-2026/",
 "konu_id": "cin_otobus_ort"
+},
+{
+"tarih": "31 Ekim 2027",
+"iso": "2027-10-31",
+"olay": "Önerilen pilotun karar noktası",
+"kaynak": "Bu çalışmanın önerisi",
+"konu_id": "kenevir"
 },
 {
 "tarih": "2027 sonu",
@@ -44878,6 +45596,14 @@ window.MEKA_DATA = {
 "aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 10 açık sorunun 1 tanesi cevaplandı, 3 tanesi görüşmeye kaldı. 23 şirket, 6 emsal işlem. Kanıt 3/5."
 },
 {
+"no": "Ek",
+"ad": "Yasal endüstriyel kenevir: ekim, işleme ve ürün (derin çalışma)",
+"tarih": "21 Ekim 2026",
+"sayfa": 11,
+"pdf": "Calisma_kenevir.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 9 açık sorunun 3 tanesi cevaplandı, 4 tanesi görüşmeye kaldı. 23 şirket, 6 emsal işlem. Kanıt 3/5."
+},
+{
 "no": "Ağaç",
 "ad": "Karar ağacı posteri",
 "tarih": "15 Ekim 2026",
@@ -45360,6 +46086,13 @@ window.MEKA_DATA = {
 "tur": "derin",
 "kisa": "Derin çalışma, 21 Ekim 2026",
 "sayfa_sayisi": 10
+},
+"c_kenevir": {
+"ad": "Yasal endüstriyel kenevir: ekim, işleme ve ürün: derin çalışma (21 Ekim 2026, 11 sayfa)",
+"pdf": "Calisma_kenevir.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 21 Ekim 2026",
+"sayfa_sayisi": 11
 }
 },
 "dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Dal ve kol yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz yaprağın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; yapraklar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk yapraklar arası ve yaprak ile bölge arası tutarlılıkta: ağacın ön bandı yedi yaprakta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir yaprakta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B yapraklarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki yaprağın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
@@ -46166,9 +46899,9 @@ window.MEKA_DATA = {
 ]
 },
 {
-"ad": "Yönetici sorusu ve keşif: ATV, rüzgar kulesi",
+"ad": "Yönetici sorusu ve keşif: ATV, kenevir, rüzgar kulesi",
 "tarih": "21 Ekim 2026",
-"aciklama": "Yönetici ATV sektörünü sordu (benzinli mi, elektrikli mi): derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
+"aciklama": "Yönetici ATV sektörünü (benzinli mi, elektrikli mi) ve yasal endüstriyel keneviri sordu: ikisi de derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
 "yaprak_belgeleri": [
 {
 "yaprak": "res_kule",
@@ -46177,6 +46910,10 @@ window.MEKA_DATA = {
 {
 "yaprak": "atv_utv",
 "dosya": "c_atv_utv"
+},
+{
+"yaprak": "kenevir",
+"dosya": "c_kenevir"
 }
 ]
 },
