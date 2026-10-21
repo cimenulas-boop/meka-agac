@@ -1,10 +1,10 @@
 window.MEKA_DATA = {
-"baslik": "İki dal, altı kol, 53 yaprak",
+"baslik": "İki dal, altı kol, 55 yaprak",
 "alt_baslik": "Her yaprakta bir sayfalık özet, altında tam çalışma. Üst dal kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 yaprak 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
-"derleme_tarihi": "20 Ekim 2026",
-"bugun_iso": "2026-10-20",
-"surum": "Sürüm 20 Ekim 2026, 7. tur · MEKA dalının en yüksek puanlı 8 yaprağı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık yaprakları eklendi; 50 yaprak üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
+"derleme_tarihi": "21 Ekim 2026",
+"bugun_iso": "2026-10-21",
+"surum": "Sürüm 21 Ekim 2026, 8. tur · ATV ve UTV ile rüzgar kulesi yaprakları eklendi; 7. tur:  MEKA dalının en yüksek puanlı 8 yaprağı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık yaprakları eklendi; 50 yaprak üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
 "agac": [
 {
 "id": "meka",
@@ -39,6 +39,8 @@ window.MEKA_DATA = {
 "turbin_yan",
 "elektrikli_oto",
 "cin_otobus_ort",
+"atv_utv",
+"res_kule",
 "izle_meka"
 ]
 },
@@ -5356,7 +5358,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 20 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört kolun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
+"butce_not": "Dilim 21 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört kolun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
 "yol": "ortak",
 "yol_not": "Rapor yalnız alt yüklenicilik ve entegratörle ortaklık öneriyor; Koluman için doğal ortak ya da müşteri diyor. Kendi markalı vinç 1,55 puanla elenmiş. Yatırım tarafı varsayım: rapor Eskişehir tesisini esas alıyor, kişisel yatırım seçeneği çalışmalarda yok."
 },
@@ -5740,7 +5742,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 20 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
+"butce_not": "Dilim 21 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
 "yol": "ikisi",
 "yol_not": "Varsayım. Rapor giriş yolu olarak NSPA tedarikçi kaydı ve Avrupa askerî MRO merkezlerine platform tedariki gösteriyor; bu MEKA'nın kendi ürettiği ürünün doğrudan satışı. Ayrıca TUSAŞ ve ASFAT ihracat programlarına alt yüklenicilik ile ASFAT portalı ve STM tedarikçi kaydı var. Ortaklık, lisans ya da pay alma önerisi çalışmalarda yok."
 },
@@ -7277,7 +7279,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "ikisi",
 "butce": 3,
-"butce_not": "Dilim 20 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
+"butce_not": "Dilim 21 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
 "yol": "ortak",
 "yol_not": "Yatırım kapısı 'ikisi' yapıldı: sahada MEKA makinesi gerekmiyor, şirket de kişi de girebilir (ajan değeri sirket). 08 Bölüm 5 önerilen karma: önce bölge EPC ve sözleşmeli imalat ortaklığı, üstüne hizmet olarak ısı pilotu, paralelde yerli firmaya yatırım keşfi. Sıfırdan Ar-Ge yalnız yerlileştirme mühendisliği düzeyinde; lisans ve yerel üretim ancak 2-3 referans sonra. Şirket üzerinden yürütme 07 ve 08'in MEKA odaklı kurgusundan çıkarım, varsayım. Yerli firmaya yatırım kişisel de olabilir, varsayım."
 },
@@ -15295,6 +15297,1308 @@ window.MEKA_DATA = {
 "E": "Yabancı ortak şart, Türkiye'de Çinli otobüs montajı bulunamadı; belediyeler yerli markayı seçiyor.",
 "M": "Kaplı iskelet ve batarya kitten gelir; MEKA payı kesim, boya, montaj; 11,5 milyon dolar.",
 "S": "Çinli e-otobüs teknolojisi ve Gümrük Birliği kapısı; Türkiye'de ilk olur; taş tozdan bağımsız."
+},
+"puan_yayilim": []
+},
+"atv_utv": {
+"id": "atv_utv",
+"dal": "meka",
+"kol": "ozel",
+"baslik": "ATV ve UTV: benzinli ve elektrikli arazi aracı",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "Yönetici isteği",
+"bolum": "21 Ekim 2026: yönetici ATV sektörünü sordu (benzinli mi, elektrikli mi); derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı",
+"tarih": "21 Ekim 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_atv_utv",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "Polaris Inc.",
+"rol": "rakip",
+"not": "2025'te Off Road satışı 5.713,1 milyon dolar, brüt marj yüzde 20,2. Çin kaynaklı malzeme payı yüzde 14, yıllık raporda yok, habere dayanıyor, tek kaynak.",
+"kaynak": "https://ir.polaris.com/files/doc_financials/2025/ar/Polaris-2025-Annual-Report-Final.pdf ve https://powersportsbusiness.com/news/polaris/2026/01/28/polaris-reports-marketshare-gains-rightsizes-dealer-inventory-as-tariffs-weigh-on-2025-results/"
+},
+{
+"ad": "BRP, Can-Am",
+"rol": "rakip",
+"not": "2026 mali yılı geliri 8,44 milyar, birim sayfada yazmıyor, çeyrek geliri Kanada doları. Kuzey Amerika Can-Am ATV perakendesi dördüncü çeyrekte iki haneli düşük artış. Elektrikli varlıklarda 232,5 milyon dolar değer düşüklüğü.",
+"kaynak": "https://powersportsbusiness.com/news/brp/2026/03/31/brp-tops-q4-expectations-as-strong-retail-new-products-drive-momentum-into-fy27/"
+},
+{
+"ad": "CFMOTO, Zhejiang Chunfeng",
+"rol": "ortak_adayi",
+"not": "Shanghai borsasında 603129, yılda 600.000 araç kapasitesi, 100'den fazla ülke; Türkiye'de ATV ve UTV liste fiyatı var.",
+"kaynak": "https://en.wikipedia.org/wiki/CFMoto"
+},
+{
+"ad": "Segway, Ninebot",
+"rol": "ortak_adayi",
+"not": "Ninebot 2015'te Segway'i aldı; Türkiye ilanlarında Segway ATV görülüyor, resmi distribütör bulunamadı.",
+"kaynak": "https://en.wikipedia.org/wiki/Segway_Inc."
+},
+{
+"ad": "Yamaha ve Kawasaki",
+"rol": "rakip",
+"not": "2027 ATV ve Mule hatlarını açıkladı, adet bulunamadı.",
+"kaynak": "https://www.utvdriver.com/tags/electric-utv/"
+},
+{
+"ad": "Textron, Arctic Cat",
+"rol": "emsal",
+"not": "247 milyon dolara 2017'de alındı, Aralık 2024'te Minnesota üretiminin 2025'in ilk yarısında biteceği duyuruldu, 24 Nisan 2025'te satıldı.",
+"kaynak": "https://en.wikipedia.org/wiki/Arctic_Cat"
+},
+{
+"ad": "Argo, Brad Darling grubu",
+"rol": "yatirimci",
+"not": "Arctic Cat'i 24 Nisan 2025'te aldı, bedel bulunamadı.",
+"kaynak": "https://en.wikipedia.org/wiki/Arctic_Cat"
+},
+{
+"ad": "Volcon",
+"rol": "emsal",
+"not": "Elektrikli Stag UTV'yi bıraktı, 2024 geliri 4,04 milyon dolar, net zarar 45,5 milyon dolar, HF1 29.999 dolar.",
+"kaynak": "https://utvdriver.com/utv-news/volcon-2024-financial-results"
+},
+{
+"ad": "KTM AG",
+"rol": "ortak_adayi",
+"not": "CFMOTO'nun Avrupa dağıtımını 1 Haziran 2025'te bıraktı, Hangzhou ortak üretimi sürüyor.",
+"kaynak": "https://www.1000ps.com/en-gb/article/3012555/ktm-ends-cfmoto-distribution-in-europe"
+},
+{
+"ad": "ORSO, Quadro International",
+"rol": "rakip",
+"not": "Gemlik Serbest Bölge'de YETX UTV üretimi, 28 Nisan 2023'te açıldı, yüzde 70 yerlilik hedefi; güncel adet bulunamadı.",
+"kaynak": "https://www.dunya.com/sektorler/otomotiv/yetx-cok-amacli-ozel-arazi-araci-dunyaya-acilacak-haberi-692424"
+},
+{
+"ad": "Kymco",
+"rol": "ortak_adayi",
+"not": "29 Eylül 2022'de Türkiye'de montaj tesisi değerlendirdiğini söyledi; ATV üretimi belirsiz.",
+"kaynak": "https://www.yeniakit.com.tr/haber/scooter-motosiklet-ve-atv-uretimi-gerceklestiren-kymcodan-turkiye-karari-uretim-ussu-kuracaklar-1694798.html"
+},
+{
+"ad": "Yılmazoğlu Motor, Çankırı",
+"rol": "musteri",
+"not": "CFMOTO ATV ilanı veren bayi örneği; resmi distribütör statüsü doğrulanmadı. Tek kaynak, arama özeti.",
+"kaynak": "https://www.arabam.com/ikinci-el/atv-utv-cankiri-yetkili-bayiden"
+},
+{
+"ad": "Ticaret Bakanlığı İthalat Genel Müdürlüğü",
+"rol": "kurum",
+"not": "ATV ithalatında gözetim belgesi veriyor, belge altı ay geçerli.",
+"kaynak": "https://orgtr.org/?p=32738"
+},
+{
+"ad": "Gelir İdaresi Başkanlığı",
+"rol": "kurum",
+"not": "ÖTV (II) sayılı liste, ATV ve UTV için yüzde 25.",
+"kaynak": "https://orgtr.org/?p=21754"
+},
+{
+"ad": "İzmir İl Emniyet Müdürlüğü",
+"rol": "kurum",
+"not": "Ağustos 2026'da denetimleri artırdı, off-road araçların yola çıkmasını yasak ve men sebebi olarak açıkladı.",
+"kaynak": "https://www.yeniasir.com.tr/yasam/2026/08/13/atvlere-trafikte-kirmizi-cizgi"
+},
+{
+"ad": "ABD Deniz Piyadeleri",
+"rol": "musteri",
+"not": "Polaris MRZR için 98 milyon dolarlık sözleşme haberi, adet bulunamadı, başlık düzeyinde tek kaynak.",
+"kaynak": "https://www.utvdriver.com/utv-news/polaris-mrzr-98-million-contract-usmc/"
+}
+],
+"celiskiler": [
+"Elektrikli pazar: IMARC 2025 için 1,4 milyar dolar ve yıllık yüzde 5,34 veriyor (sayfada doğrulandı); başka bir yayının arama özeti 2024 için 2,2 milyar dolar ve yıllık yüzde 19,6 yazıyor, doğrulanamadı.",
+"Genel pazar değeri: Bizwit 2025 için 11,95 milyar dolar, bir başka yayın 2024 için 10,25 milyar dolar, yalnız ATV için başka bir tahmin 2026 için 3,49 milyar dolar. Polaris adedi yüzde 2,6 büyüdü, yayınların değer büyümesi yüzde 6 ile 8.",
+"Kinetic menzili: Mascus ilanı 70 km, yani yaklaşık 43 mil; ATV.com 80 mil, yani 128,7 km.",
+"Ehliyet: eski kaynaklar B1 ve A2 yazıyor, İzmir Emniyeti Ağustos 2026'da kayda göre A ya da en az F sınıfı diyor.",
+"BRP geliri: Trade Only Today 8,44 milyar dolar yazıyor; Powersports Business çeyrek gelirini ve 2027 beklentisini Kanada doları veriyor, yıllık 8,44 milyar için birim yazmıyor. Para birimi doğrulanamadı.",
+"Karşı okuma (yuksek): Türkiye pazarı yılda 5.000 adet, MEKA yıl 5'te 250 ile 600 araç, yani yüzde 5 ile 12 pay satar. İtiraz: 5.000 adet dünya adedinin yüzde 0,5'i diye konmuş, Türkiye'ye ait hiçbir veriye dayanmıyor. Yakın pazar verisi aşağı yönde: motosiklet ve L sınıfı satışlar 2025'te yüzde 26 düştü, 2026 için 700 bin adet öngörülüyor, yani 2025'in 885 bin adedinin yaklaşık yüzde 21 altı. Taşıt tescilleri Eylül 2026'da yıllık yüzde 18 düştü. 960 bin liralık keyfe bağlı bir arac",
+"Karşı okuma (orta): Benzinli distribütörlük birim brüt kâr 2.130 dolar (yüzde 15 distribütör marjı), araç başı toplam 2.726 dolar. İtiraz: Marjlar CFMOTO tavsiye edilen perakende fiyatından geriye doğru hesaplandı. O fiyatı belirleyen bir resmi CFMOTO kanalı zaten var; MEKA o markanın distribütörlüğünü alamazsa Segway ya da Linhai gibi başka bir markayla çalışır ve fiyat, marj ve talep bilinmez. Liste fiyatı ayrıca tavsiye edilen fiyattır, gerçek işlem fiyatı değildir. Liste iki aracı UTV TRAKT",
+"Karşı okuma (yuksek): Çin menşeli ek vergi bulunamadı, gümrük vergisi yüzde 10 ile 30 varsayıldı; landed maliyet 13.200 doları aşarsa girilmez. İtiraz: Bu açık rakam yerinde duruyor ve kapatılamadı. Çin menşeli binek otomobil ithalatında 8703 altında içten yanmalı ve hibrit araçlara 2024'ten beri yüzde 40, sonra yüzde 50 ilave gümrük vergisi var. ATV'ler de gümrük tarife cetvelinde 8703.21 altında olduğu için, ilave verginin ATV ve UTV alt pozisyonlarını kapsayıp kapsamadığı açık sorudur. Kapsıyorsa landed",
+"Karşı okuma (orta): Çinli markalar fiyatta üstün, bu yüzden benzinli distribütörlük marjı var. İtiraz: Çinli fiyat avantajı tek yönlü değil. ABD'de 2026 CFMOTO UForce 1000 için 13.999 dolar, Polaris Ranger XP 1000 için 21.499 dolar, ama Can-Am Defender HD9 için 11.699 dolar yazılıyor; yani en ucuz araç Çinli değil. Türkiye'deki ZFORCE 1000 Sport R liste fiyatı çalışmanın kuruyla yaklaşık 19.365 dolar, ABD'deki CFMOTO fiyatının yaklaşık yüzde 38 üstünde; bu fa",
+"Karşı okuma (orta): MEKA şasi, kafes, kargo yatağı ve römork işiyle değer katar; şasi fason yolu araç başı 264 dolar kâr verir. İtiraz: MEKA'nın şasi ve kasa işinin araç değerindeki payı için hiçbir kaynak bulunamadı. Çalışmanın kendi hesabı bunu küçük gösteriyor: set başı gelir 1.200 dolar, distribütör satış fiyatı 14.201 dolar, yani yaklaşık yüzde 8,5 pay; brüt kâr 264 dolar, yani araç değerinin yüzde 1,9'u. Önerilen asıl yol olan distribütörlükte MEKA'nın şasisi hiç kullanılmıyor, MEKA sa"
+],
+"degisiklikler": [
+"21 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"21 Ekim 2026 bağımsız karşı okuma eklendi: yıl 5 brüt kâr 0,3 ile 1,1 milyon dolara düşürüldü, pilot öneri ve üç ön şart yazıldı",
+"Ekonomi modeli, benzinli yol a: gelir ve yedek parça tabanı 11.834 dolardı (landed maliyet, nakliyesiz); gerçek araç geliri distribütörün bayiye satış fiyatı 14.201 dolar. Yedek parça brüt marjı araç başı 497 dolardan 596 dolara, toplam araç başı brüt kâr 2.627 dolardan 2.726 dolara çıktı.",
+"Benzinli yıl 3 düzeltildi: gelir 2,0 ile 4,6 milyon dolardan 2,4 ile 5,6 milyon dolara, brüt kâr 0,39 ile 0,92 milyon dolardan 0,41 ile 0,95 milyon dolara.",
+"Benzinli yıl 5 düzeltildi: gelir 3,3 ile 8,0 milyon dolardan 4,0 ile 9,5 milyon dolara, brüt kâr 0,66 ile 1,58 milyon dolardan 0,68 ile 1,64 milyon dolara. Durum, bant gerekçesi, varyant, yıllık kâr potansiyeli ve dal uygunluğu metinleri aynı rakama çekildi.",
+"Benzinli geri ödeme yeniden hesaplandı: yıllık brüt kâr 204, 442, 682, 922, 1.159 bin dolar; brüt geri ödeme 4,5 yıldan 4,4 yıla, net geri ödeme 5,9 yıldan 5,7 yıla.",
+"Elektrikli yol a: gelir ve yedek parça tabanı 18.000 dolardı (landed, nakliyesiz); distribütör satış fiyatı 21.600 dolar kullanıldı. Araç başı brüt kâr 3.996 dolardan 4.147 dolara çıktı.",
+"Elektrikli yıl 3 düzeltildi: gelir 0,40 ile 1,21 milyon dolardan 0,48 ile 1,45 milyon dolara, brüt kâr 0,08 ile 0,24 milyon dolardan 0,08 ile 0,25 milyon dolara. Yıl 5: gelir 0,81 ile 3,02 milyon dolardan 0,97 ile 3,63 milyon dolara, brüt kâr 0,16 ile 0,60 milyon dolardan 0,17 ile 0,62 milyon dolara.",
+"Elektrikli yol a yıl 5 orta brüt kâr 380 bin dolardan 394 bin dolara, brüt geri ödeme 7,7 yıldan 7,5 yıla düzeltildi. İşletme gideri sonrası yılda 44 bin dolar kalıyor, net geri ödeme yok sonucu değişmedi.",
+"Vergi yüzde 30 senaryosunda gümrük kıymeti 7.293 dolar yazılmıştı, doğru yuvarlama 7.294 dolar.",
+"Landed maliyet 13.200 dolara çıkınca birim kâr 1.000 doların altına değil, yaklaşık 1.000 dolara iner (14.201 eksi 13.200 eşittir 1.001).",
+"Arctic Cat: Textron üretimi Aralık 2024'te durdurdu denmişti. Sayfa, Aralık 2024'te Minnesota üretiminin 2025'in ilk yarısında biteceğinin duyurulduğunu söylüyor. Rakamlar, firmalar, emsaller ve metin düzeltildi.",
+"BRP: Can-Am ATV perakendesindeki iki haneli düşük artış yıllık değil, Kuzey Amerika dördüncü çeyrek rakamı. Düzeltildi.",
+"BRP: 8,44 milyar ve 232,5 milyon için sayfa para birimi yazmıyor, çeyrek geliri ve 2027 beklentisini Kanada doları veriyor. Birimi belirsiz diye işaretlendi, çelişkiler listesi buna göre düzeltildi.",
+"Polaris Çin kaynaklı malzeme payı yüzde 14: yıllık raporda yok. Firma satırındaki kaynak Powersports Business haberine çevrildi, tek kaynak ve bu turda açılmadı diye işaretlendi.",
+"ÖTV: yüzde 25 oranı 87.04 altında da var, eklendi. Asgari maktu verginin istisnasına 4 kW altı elektrikli L sınıfı da dahil, yorum cümlesi buna göre düzeltildi (4 kW ve üzeri elektrikli L sınıfı asgariye tabi). Sözcü haberi de yüzde 25 yazıyor, ikinci kaynak olarak eklendi.",
+"Gözetim belgesi: 7.889 dolar kıymet için eşiklerin altında, yani belge gerekir denmişti. Kıymet 18 kilovat üstü ATV eşiklerinin altında ama 18 kilovata kadar eşik 5.078, kıymet bunun üstünde. Tebliğ yalnız ATV'leri sayıyor. Cümle düzeltildi.",
+"Kinetic menzili: Mascus ilanı 45 mil değil 70 km (yaklaşık 43 mil) yazıyor. Çelişki satırı ve fiyat bölümü düzeltildi.",
+"ORSO için Türkiye'de bilinen tek yerli üretim ifadesi sayfada yok, silindi. Bulunan yerli üretim örneği denildi.",
+"Otoviraj liste fiyatlarının KDV ve ÖTV dahil olduğu sayfada yazmıyor; dahil varsayımı olarak işaretlendi. Listenin iki aracı traktör tipi diye verdiği eklendi.",
+"Emniyet açıklaması: 13 Ağustos 2026 yayın tarihi, söyleme tarihi değil. Cümle 13 Ağustos 2026 tarihli haberde söyledi diye düzeltildi.",
+"Kaynaksız iddialar tahmin ya da değerlendirme diye işaretlendi: Kinetic için bu fiyata pazar yok, elektrikte menzil ve şarj sorunu, münhasırlık almak zor, hukuki engel yok ve yabancı yatırım denetimi.",
+"Doğrulananlar değiştirilmedi: Polaris adetleri (395.000, 575.000, 970.000, 945.000, Kuzey Amerika 780.000) ve Off Road 5.713,1 ile 1.155,1; IMARC 1,4 ve 2,3 milyar, yüzde 5,34; ÖTV yüzde 25; gözetim eşikleri ve altı ay geçerlilik; CFMOTO 808.400 ve 959.900 lira; Kinetic 37.499 dolar ve 36.000 avro; Volcon 4,04, 45,5 ve 8,7 milyon dolar; Textron 247 milyon dolar; kur 49,57; ORSO 28 Nisan 2023 ve yüzde 70; KTM 1 Haziran 2025 ve beş ülke. Birim yığını, bilet toplamı 2.738.000, elektrikli fiyat farkı 10.090 ve Türkiye fiyat çevirileri aritmetik olarak doğru bulundu."
+],
+"ne": "Tek kişilik ATV ve yan yana oturmalı, kargo yataklı UTV arazi araçlarının Türkiye'de Çinli markanın distribütörlüğü, CKD ya da SKD montajı, şasi ve kasa fasonu ya da kendi marka olarak satışı ve üretimi. Benzinli ve elektrikli iki varyant ayrı ve yan yana değerlendirildi.",
+"neden": "MEKA'nın taş ocağı, kırma eleme ve beton santrali müşterileri saha aracı kullanıyor. MEKA aynı müşteriye UTV'yi kendi ağıyla satabilir ve şasi, koruma kafesi, kargo yatağı, römork gibi parçaları kendisi üretebilir. Benzinli distribütörlük küçük ama hızlı bir ek gelir verir. Elektrikli taraf bugün ekonomik değil.",
+"rakamlar": [
+{
+"deger": "970.000 adet",
+"aciklama": "2025 dünya arazi aracı perakende satışı, ATV 395.000 ve UTV 575.000. UTV payı yüzde 59,3. 2024'te 945.000, yani yüzde 2,6 büyüme. Polaris iç tahmini, resmi istatistik değil. Rapor tablosunda doğrulandı.",
+"kaynak": "rapor, Polaris 2025 Annual Report, https://ir.polaris.com/files/doc_financials/2025/ar/Polaris-2025-Annual-Report-Final.pdf"
+},
+{
+"deger": "5.713,1 milyon dolar",
+"aciklama": "Polaris Off Road segmenti 2025 satışı, brüt kâr 1.155,1 milyon dolar, yani yüzde 20,2. Büyük üreticinin brüt marjı yaklaşık yüzde 20. Rapor tablosunda doğrulandı.",
+"kaynak": "rapor, Polaris 2025 Annual Report, https://ir.polaris.com/files/doc_financials/2025/ar/Polaris-2025-Annual-Report-Final.pdf"
+},
+{
+"deger": "11,95 milyar dolar",
+"aciklama": "2025 dünya ATV ve UTV pazar değeri, 2035'te 24,64 milyar dolar, yıllık yüzde 6,80. Arama özetinde görüldü, sayfa açılamadı. Tek kaynak.",
+"kaynak": "rapor, Bizwit, https://www.dri.co.jp/auto/report/bizwit/260219-global-atv-and-utv-market-size-study-.html"
+},
+{
+"deger": "1,4 milyar dolar",
+"aciklama": "2025 dünya elektrikli ATV ve UTV pazarı, 2034'te 2,3 milyar dolar, yıllık yüzde 5,34. Sayfada doğrulandı. Bizwit rakamına oranı yaklaşık yüzde 12, kapsam farkı nedeniyle üst sınır tahmini.",
+"kaynak": "rapor, IMARC, https://imarcgroup.com/electric-all-terrain-vehicle-utility-terrain-vehicle-market-report"
+},
+{
+"deger": "yüzde 25",
+"aciklama": "ATV ve UTV için ÖTV oranı, 87.03, 87.01 ve 87.04 altında. Elektrikli için ayrı oran yok, yani vergi avantajı görülmedi. Liste orgTR.org yansısından okundu ve doğrulandı. Sözcü haberi de aynı oranı yazıyor.",
+"kaynak": "resmi yansı, ÖTV (II) sayılı liste, https://orgtr.org/?p=21754"
+},
+{
+"deger": "5.078 ile 44.890 dolar",
+"aciklama": "GTİP 8703.21.10.90.19 ATV gözetim belgesi eşiği, motor gücüne göre. Eşiğin altındaki birim gümrük kıymeti belge ister. Belge altı ay geçerli. Sayfada doğrulandı. Tebliğ yalnız ATV'leri sayıyor.",
+"kaynak": "resmi, Tebliğ 2026/17, https://orgtr.org/?p=32738"
+},
+{
+"deger": "808.400 lira ve 959.900 lira",
+"aciklama": "CFMOTO CFORCE 1000 ATR ATV ve ZFORCE 1000 Sport R UTV 2026 liste fiyatı, 5 Şubat 2026, sayfada doğrulandı. Kur 49,57 ile yaklaşık 16.308 ve 19.365 dolar. KDV ve ÖTV dahil olduğu sayfada yazmıyor, dahil varsayıldı. Tek kaynak.",
+"kaynak": "diger, Otoviraj, https://otoviraj.com/?p=10748"
+},
+{
+"deger": "37.499 dolar ve 36.000 avro",
+"aciklama": "Polaris Ranger XP Kinetic ABD fiyatı ve Avrupa bayi ilan fiyatı, KDV hariç. 110 beygir, 14,9 kilovat saat batarya. Her iki sayfada doğrulandı.",
+"kaynak": "diger, ATV.com ve Mascus, https://www.atv.com/specs/polaris/utility/2027/ranger-xp-kinetic/ultimate/detail.html"
+},
+{
+"deger": "247 milyon dolar",
+"aciklama": "Textron'un 25 Ocak 2017'de Arctic Cat için ödediği nakit. Textron Aralık 2024'te Minnesota üretiminin 2025'in ilk yarısında biteceğini duyurdu, Arctic Cat 24 Nisan 2025'te satıldı.",
+"kaynak": "diger, Vikipedi Arctic Cat, https://en.wikipedia.org/wiki/Arctic_Cat"
+},
+{
+"deger": "232,5 milyon dolar",
+"aciklama": "BRP'nin 2026 mali yılı dördüncü çeyreğinde elektrikli ve hafif hareketlilik varlıklarında yazdığı değer düşüklüğü. Sayfada doğrulandı, para birimi yazmıyor, sayfa çeyrek gelirini Kanada doları veriyor.",
+"kaynak": "haber, Powersports Business, https://powersportsbusiness.com/news/brp/2026/03/31/brp-tops-q4-expectations-as-strong-retail-new-products-drive-momentum-into-fy27/"
+},
+{
+"deger": "45,5 milyon dolar",
+"aciklama": "Volcon'un 2024 net zararı, geliri 4,04 milyon dolar. Elektrikli Stag UTV bırakıldı, 8,7 milyon dolar yazıldı. Sayfada doğrulandı. Tek kaynak.",
+"kaynak": "haber, UTV Driver, https://utvdriver.com/utv-news/volcon-2024-financial-results"
+},
+{
+"deger": "12.071 dolar ve 2.130 dolar",
+"aciklama": "Benzinli UTV landed maliyeti ÖTV dahil ve distribütör birim brüt kârı. Liste fiyatından geriye doğru hesap, aritmetik kontrol edildi. Marj ve gümrük vergisi tahmin.",
+"kaynak": "hesap, bu çalışma, ekonomi modeli bölümü"
+},
+{
+"deger": "49,57 lira bir dolar",
+"aciklama": "21 Ekim 2026'da okunan kur, sayfa başlığında doğrulandı. Tek kaynak, yaklaşık.",
+"kaynak": "haber, Sözcü sayfa başlığı, https://www.sozcu.com.tr/karavanda-otv-indirimi-wp6729957"
+},
+{
+"deger": "5.000 adet",
+"aciklama": "Türkiye yıllık ATV ve UTV pazarı. Resmi veri bulunamadı. Dünya adedinin yüzde 0,5'i, aralık 3.000 ile 8.000. Tahmin.",
+"kaynak": "tahmin, bu çalışma"
+}
+],
+"durum": "Kapı açık ama dar. ÖTV yüzde 25 ve yakıt ayrımı yok, düşük değerli ATV ithalatı 2026/17 sayılı tebliğle gözetim belgesine bağlı, Ağustos 2026'dan beri yol kullanımına karşı denetim sıkı. Türkiye'nin yıllık satış, tescil ve ithalat adedi, Çin menşeli ek vergi ve kamu ihale sonuçları web'de bulunamadı. Benzinli distribütörlük ilk 24 ayda 2,74 milyon dolar bilet ister, yıl 5 brüt kârı 0,68 ile 1,64 milyon dolardır. Elektrikli varyant fiyat farkı ve zarar yazan emsallerle şimdilik ekonomik değil. Hüküm: benzinli yolu küçük bir pilotla dene, elektrikli girme, bant izle. Karşı okuma sonrası öneri: Elektrikli girmeyin, bu karar ayakta. Benzinli yolda 2,74 milyon dolarlık distribütörlük bileti şimdi verilmesin; yalnız 0,3 milyon dolarlık pilot bayilik, ve pilota başlamadan önce üç şart kapanmalı: (1) Ticaret Bakanlığı'ndan bağlayıcı tarife bilgisiyle Çin menşeli ek verginin ATV ve UTV alt pozisyonlarını kapsamadığı yazılı doğrulansın; (2) hedef markanın Türkiye münhasırlığı yazılı alınsın, CFMOTO'nun mevcut kanalı varsa ikinci marka fiyatı ve marjı teklif olarak alınsın; (3) 20 müşteriden en az 40 araçlık yazılı talep toplansın. Türkiye'deki motosiklet ve taşıt tescilleri 2025 ve 2026'da düşerken yıl 5 için 250 ile 600 araç varsayımı iyimser; planlamada 150 ile 400 araç kullanılsın. Dis",
+"adimlar": [
+{
+"adim": "CFMOTO, Segway ve Linhai'nin Türkiye'deki mevcut distribütör ve münhasırlık durumunu sorgula",
+"kim": "MEKA yönetimi ve hukuk",
+"ne_zaman": "30 Kasım 2026"
+},
+{
+"adim": "GTİP, gümrük vergisi, Çin menşeli ek vergi ve gözetim belgesi için bağlayıcı tarife bilgisi al",
+"kim": "İthalat sorumlusu ve gümrük müşaviri",
+"ne_zaman": "15 Aralık 2026"
+},
+{
+"adim": "20 taş ocağı ve şantiye müşterisinden en az 40 araçlık yazılı talep topla",
+"kim": "Satış müdürü",
+"ne_zaman": "31 Ocak 2027"
+},
+{
+"adim": "İki numune araç ithal et, motosiklet ya da traktör tescil sınıfını netleştir",
+"kim": "Ürün müdürü",
+"ne_zaman": "28 Şubat 2027"
+},
+{
+"adim": "Koruma kafesi, çelik kargo yatağı ve römork ataşman prototipini yap",
+"kim": "Mühendislik",
+"ne_zaman": "31 Mart 2027"
+},
+{
+"adim": "Pilot sonucuna göre 0,3 milyon dolarlık bayilikten distribütörlüğe geçişe karar ver",
+"kim": "Yönetim kurulu",
+"ne_zaman": "30 Nisan 2027"
+}
+],
+"riskler": [
+"Türkiye hacmi 3.000 adedin altında çıkabilir. Olasılık orta, etki yüksek. Azaltma: 40 araçlık yazılı talep şartı.",
+"Çin menşeli ek vergi ya da gözetim belgesi maliyeti landed maliyeti 13.200 doların üstüne çıkarabilir. Olasılık orta, etki yüksek. Azaltma: bağlayıcı tarife bilgisi.",
+"Yol kullanımı ve tescil sıkılaşabilir, araç men edilebilir. Olasılık yüksek, etki orta. Azaltma: tescilli model ve saha kullanımı odağı.",
+"Kur şoku: ürün dolarla alınıp lirayla satılıyor. Olasılık yüksek, etki orta. Azaltma: dolara endeksli fiyat sözleşmesi.",
+"Marka münhasırlığı başka distribütörde kalabilir. Olasılık orta, etki yüksek. Azaltma: yazılı beş yıllık sözleşme.",
+"Elektrikli batarya, garanti ve fiyat riski; Volcon ve BRP zarar yazdı. Olasılık yüksek, etki yüksek. Azaltma: elektrikli girmeyip izlemek."
+],
+"takvim": [
+{
+"tarih": "30 Ocak 2026",
+"olay": "2026/17 sayılı gözetim tebliği yürürlüğe girdi, ATV'ler için gözetim belgesi",
+"kaynak": "https://orgtr.org/?p=32738",
+"iso": "2026-01-30"
+},
+{
+"tarih": "17 Nisan 2026",
+"olay": "Gözetim eşik tablosu 33227 sayılı Resmî Gazete ile değişti",
+"kaynak": "https://orgtr.org/ithalatta-gozetim-uygulanmasina-iliskin-teblig-teblig-no-2026-17de-degisiklik-yapilmasina-dair-teblig/",
+"iso": "2026-04-17"
+},
+{
+"tarih": "31 Temmuz 2026",
+"olay": "7590 sayılı Kanun, 87.03 mallarda asgari maktu ÖTV, 33326 sayılı Resmî Gazete",
+"kaynak": "https://orgtr.org/?p=21754",
+"iso": "2026-07-31"
+},
+{
+"tarih": "13 Ağustos 2026",
+"olay": "İzmir Emniyeti ATV ve UTV denetimlerinin arttığını ve off-road araçların yola çıkamayacağını açıkladı",
+"kaynak": "https://www.yeniasir.com.tr/yasam/2026/08/13/atvlere-trafikte-kirmizi-cizgi",
+"iso": "2026-08-13"
+},
+{
+"tarih": "30 Nisan 2027",
+"olay": "Pilot sonrası bayilik ya da distribütörlük kararı, plan",
+"kaynak": "plan, bu çalışma",
+"iso": "2027-04-30"
+}
+],
+"web": [
+{
+"url": "https://orgtr.org/?p=21754",
+"ne": "ÖTV (II) sayılı liste, ATV ve UTV yüzde 25, orgTR.org yansısı, açıldı ve doğrulandı, Resmî Gazete metni açılamadı",
+"tur": "resmi"
+},
+{
+"url": "https://orgtr.org/?p=32738",
+"ne": "İthalatta Gözetim Tebliği 2026/17, ATV eşikleri, açıldı ve doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://orgtr.org/ithalatta-gozetim-uygulanmasina-iliskin-teblig-teblig-no-2026-17de-degisiklik-yapilmasina-dair-teblig/",
+"ne": "Tebliğ 2026/17 değişikliği, 17 Nisan 2026",
+"tur": "resmi"
+},
+{
+"url": "https://ir.polaris.com/files/doc_financials/2025/ar/Polaris-2025-Annual-Report-Final.pdf",
+"ne": "Polaris 2025 yıllık raporu, dünya ORV adetleri ve segment sonuçları, açıldı ve doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.rurallifestyledealer.com/articles/12061-polaris-reports-full-year-2025-sales-mostly-flat-vs-2024",
+"ne": "Polaris 2025 sonuç duyurusu",
+"tur": "haber"
+},
+{
+"url": "https://powersportsbusiness.com/news/polaris/2026/01/28/polaris-reports-marketshare-gains-rightsizes-dealer-inventory-as-tariffs-weigh-on-2025-results/",
+"ne": "Polaris 2025 sonuçları, Çin kaynaklı malzeme payı",
+"tur": "haber"
+},
+{
+"url": "https://tradeonlytoday.com/industry-news/brp-releases-fy-2026-and-q4-financials/",
+"ne": "BRP 2026 mali yılı sonuçları",
+"tur": "haber"
+},
+{
+"url": "https://powersportsbusiness.com/news/brp/2026/03/31/brp-tops-q4-expectations-as-strong-retail-new-products-drive-momentum-into-fy27/",
+"ne": "BRP dördüncü çeyrek, elektrikli değer düşüklüğü, açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://imarcgroup.com/electric-all-terrain-vehicle-utility-terrain-vehicle-market-report",
+"ne": "IMARC elektrikli ATV ve UTV pazar tahmini, açıldı ve doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.atv.com/specs/polaris/utility/2027/ranger-xp-kinetic/ultimate/detail.html",
+"ne": "Ranger XP Kinetic Ultimate özellikleri ve ABD fiyatı, açıldı ve doğrulandı",
+"tur": "diger"
+},
+{
+"url": "https://mascus.nl/transport/terreinwagens/polaris-ranger-xp-kinetic-premium-ev-2026/tdlcqjgi.html",
+"ne": "Kinetic Premium Avrupa bayi ilanı, 36.000 avro KDV hariç, menzil 70 km, açıldı ve doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://otoviraj.com/?p=10748",
+"ne": "CFMOTO 2026 Türkiye liste fiyatları, açıldı ve doğrulandı, KDV durumu yazmıyor",
+"tur": "diger"
+},
+{
+"url": "https://www.yeniasir.com.tr/yasam/2026/08/13/atvlere-trafikte-kirmizi-cizgi",
+"ne": "İzmir Emniyeti ATV ve UTV denetimi, ehliyet ve tescil sınıfı, açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.dunya.com/sektorler/otomotiv/yetx-cok-amacli-ozel-arazi-araci-dunyaya-acilacak-haberi-692424",
+"ne": "ORSO YETX fabrikası, Gemlik, açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.utvdriver.com/tags/electric-utv/",
+"ne": "UTV Driver sayfa menüsü, Kawasaki ve Yamaha 2027 hatları",
+"tur": "haber"
+},
+{
+"url": "https://www.yeniakit.com.tr/haber/scooter-motosiklet-ve-atv-uretimi-gerceklestiren-kymcodan-turkiye-karari-uretim-ussu-kuracaklar-1694798.html",
+"ne": "Kymco Türkiye montaj kararı, 29 Eylül 2022",
+"tur": "haber"
+},
+{
+"url": "https://www.1000ps.com/en-gb/article/3012555/ktm-ends-cfmoto-distribution-in-europe",
+"ne": "KTM CFMOTO Avrupa dağıtımını bıraktı, açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://en.wikipedia.org/wiki/CFMoto",
+"ne": "CFMOTO kapasite ve ortaklık bilgisi",
+"tur": "diger"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Arctic_Cat",
+"ne": "Textron Arctic Cat alımı ve satışı, açıldı ve düzeltildi",
+"tur": "diger"
+},
+{
+"url": "https://utvdriver.com/utv-news/volcon-2024-financial-results",
+"ne": "Volcon 2024 sonuçları, açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.utvdriver.com/utv-news/polaris-mrzr-98-million-contract-usmc/",
+"ne": "Polaris MRZR 98 milyon dolar, yalnız başlık okundu",
+"tur": "haber"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Segway_Inc.",
+"ne": "Segway ve Ninebot",
+"tur": "diger"
+},
+{
+"url": "https://www.sozcu.com.tr/karavanda-otv-indirimi-wp6729957",
+"ne": "Dolar kuru için sayfa başlığı, kur 49,57 doğrulandı; haber ATV ve UTV ÖTV yüzde 25 de yazıyor",
+"tur": "haber"
+},
+{
+"url": "https://www.brp-world.com/tr/tr/modeller/can-am-off-road/kullanici-portali/getting_started/riding-information/atv-ssv-license.html",
+"ne": "BRP ATV ve UTV ehliyet sayfası",
+"tur": "firma"
+},
+{
+"url": "https://farmshow.com/a_article.php?aid=38283",
+"ne": "Kinetic bakım tasarrufu tahmini, yalnız arama özeti, sayfa açılamadı",
+"tur": "haber"
+},
+{
+"url": "https://www.dri.co.jp/auto/report/bizwit/260219-global-atv-and-utv-market-size-study-.html",
+"ne": "Bizwit pazar çalışması, yalnız arama özeti, açılamadı",
+"tur": "rapor"
+},
+{
+"url": "https://www.globenewswire.com/fr/news-release/2025/10/06/3161479/28124/en/",
+"ne": "ATV ve UTV rapor duyurusu, HTTP 403, açılamadı",
+"tur": "rapor"
+},
+{
+"url": "https://www.pwc.com.tr/tr/Hizmetlerimiz/vergi/dolayli-vergi/bultenler/kdv-%C3%B6tv-b%C3%BCltenleri/2025/tasit-araclarinin-otv-oranlarinda-degisiklikler.pdf",
+"ne": "PwC ÖTV bülteni, HTTP 403, açılamadı",
+"tur": "rapor"
+},
+{
+"url": "https://www.polaris.com/en-ca/off-road/ranger/model-quote/",
+"ne": "Polaris Kanada fiyat sayfası, HTTP 403, açılamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.sec.gov/Archives/edgar/data/1829794/000168316825000871/volcon_ex9901.htm",
+"ne": "Volcon SEC ekleri, HTTP 403, açılamadı",
+"tur": "resmi"
+},
+{
+"url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0168",
+"ne": "AB 168/2013 L7e tip onayı, boş yanıt, açılamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.motoder.org.tr",
+"ne": "MOTODER, boş yanıt, açılamadı",
+"tur": "diger"
+},
+{
+"url": "https://www.donedeal.ie/quads-for-sale/polaris-ranger-xp-kinetic-premium-2026/35582749",
+"ne": "Kinetic İrlanda ilanı, HTTP 403, açılamadı",
+"tur": "firma"
+}
+],
+"ekonomi": {
+"bilet": "Benzinli distribütörlük için 2,74 milyon dolar ilk 24 ayda, aralık 2,2 ile 3,4 milyon dolar; ilk 12 ayda 1,78 milyon dolar. Elektrikli distribütörlük 1,98 milyon dolar. CKD montaj 4,78 milyon dolar benzinli, 5,05 milyon dolar elektrikli. Şasi fason 1,0 ile 1,1 milyon dolar. Kendi marka 22 ile 25 milyon dolar.",
+"sure_ilk_gelir": "Benzinli distribütörlük 6 ile 9 ay, şasi fason 9 ile 12 ay, CKD 15 ile 18 ay, kendi marka 30 ay ve üstü. Elektrikli distribütörlük 9 ile 12 ay.",
+"yil3": "Benzinli distribütörlük: 150 ile 350 araç, gelir 2,4 ile 5,6 milyon dolar, brüt kâr 0,41 ile 0,95 milyon dolar. Elektrikli distribütörlük: 20 ile 60 araç, gelir 0,48 ile 1,45 milyon dolar, brüt kâr 0,08 ile 0,25 milyon dolar. Hepsi tahmin.",
+"yil5": "Benzinli distribütörlük: 250 ile 600 araç, gelir 4,0 ile 9,5 milyon dolar, brüt kâr 0,68 ile 1,64 milyon dolar. Elektrikli distribütörlük: 40 ile 150 araç, gelir 0,97 ile 3,63 milyon dolar, brüt kâr 0,17 ile 0,62 milyon dolar. Hepsi tahmin. Bağımsız karşı okuma düzeltmesi, planlamada bunu kullan: benzinli distribütörlük 150 ile 400 araç, brüt kâr 0,3 ile 1,1 milyon dolar, tahmin.",
+"geri_odeme": "Benzinli distribütörlük brüt kâr bazında 4,4 yıl, yıl 3'ten sonra yıllık 400 bin dolar işletme gideri düşülünce 5,7 yıl. Benzinli CKD 5,3 ve 7,0 yıl. Elektrikli distribütörlük brüt kâr bazında 7,5 yıl, net geri ödeme yok. Tahmin.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kâr 0,3 ile 1,1 milyon dolar (karşı okuma düzeltmesi; çalışmanın ilk senaryosu 0,68 ile 1,64 milyon dolar), benzinli distribütörlük, tahmin.",
+"varsayimlar": "Kur 49,57 lira bir dolar, tek kaynak. Türkiye pazarı 5.000 adet, tahmin. KDV yüzde 20, bayi marjı yüzde 12, distribütör marjı yüzde 15, gümrük vergisi yüzde 20 aralık yüzde 10 ile 30, nakliye yüzde 3, yedek parça geliri yüzde 12 ve marjı yüzde 35, hepsi tahmin. Araç geliri distribütörün bayiye satış fiyatıdır: benzinli 14.201 dolar, elektrikli 21.600 dolar. Liste fiyatı CFMOTO ZFORCE 1000 Sport R, 959.900 lira, kaynaklı; KDV dahil olduğu sayfada yazmıyor, varsayım. ÖTV yüzde 25 kaynaklı. Çinli elektrikli UTV çıkış fiyatı 12.000 dolar tahmin, kaynak bulunamadı. Adetler yıl 3'te yüzde 2 ile 7, yıl 5'te yüzde 5 ile 14 pazar payı varsayar. Bilet MEKA harcaması, getiri MEKA brüt kârı. Yıl 1 ve 2 işletme gideri biletin içinde, yıl 3'ten sonra 400 bin dolar."
+},
+"emsaller": [
+{
+"tarih": "25 Ocak 2017",
+"taraflar": "Textron alıcı, Arctic Cat",
+"bedel": "247 milyon dolar nakit",
+"birim": "çarpan bulunamadı",
+"kaynak": "https://en.wikipedia.org/wiki/Arctic_Cat"
+},
+{
+"tarih": "24 Nisan 2025",
+"taraflar": "Arctic Cat satıldı, alıcı Brad Darling ve yatırım grubu. Textron Aralık 2024'te Minnesota üretiminin 2025'in ilk yarısında biteceğini duyurmuştu",
+"bedel": "bulunamadı",
+"birim": "bulunamadı",
+"kaynak": "https://en.wikipedia.org/wiki/Arctic_Cat"
+},
+{
+"tarih": "2024 mali yılı, 31 Aralık 2024",
+"taraflar": "Volcon, Stag elektrikli UTV'yi bıraktı",
+"bedel": "8,7 milyon dolar yazılan değer, 2024 geliri 4,04 milyon dolar, net zarar 45,5 milyon dolar",
+"birim": "HF1 birim fiyatı 29.999 dolar",
+"kaynak": "https://utvdriver.com/utv-news/volcon-2024-financial-results"
+},
+{
+"tarih": "31 Ocak 2026, 2026 mali yılı sonu",
+"taraflar": "BRP, elektrikli ve hafif hareketlilik varlıkları",
+"bedel": "232,5 milyon dolar değer düşüklüğü, para birimi sayfada yazmıyor",
+"birim": "bulunamadı",
+"kaynak": "https://powersportsbusiness.com/news/brp/2026/03/31/brp-tops-q4-expectations-as-strong-retail-new-products-drive-momentum-into-fy27/"
+},
+{
+"tarih": "1 Haziran 2025",
+"taraflar": "KTM AG ve CFMOTO, Avrupa dağıtımının devri",
+"bedel": "bulunamadı",
+"birim": "Almanya, Avusturya, İsviçre, İngiltere ve İspanya dağıtımı",
+"kaynak": "https://www.1000ps.com/en-gb/article/3012555/ktm-ends-cfmoto-distribution-in-europe"
+},
+{
+"tarih": "28 Nisan 2023",
+"taraflar": "ORSO ve Quadro International, SHERP teknolojisiyle YETX UTV fabrikası, Gemlik Serbest Bölge",
+"bedel": "bulunamadı",
+"birim": "yüzde 70 yerlilik hedefi",
+"kaynak": "https://www.dunya.com/sektorler/otomotiv/yetx-cok-amacli-ozel-arazi-araci-dunyaya-acilacak-haberi-692424"
+},
+{
+"tarih": "tarih bulunamadı, 2026 haberi",
+"taraflar": "Polaris ve ABD Deniz Piyadeleri, MRZR kamu sözleşmesi",
+"bedel": "98 milyon dolar",
+"birim": "adet bulunamadı",
+"kaynak": "https://www.utvdriver.com/utv-news/polaris-mrzr-98-million-contract-usmc/"
+}
+],
+"cevaplar": [
+{
+"soru": "Elektrikli mi benzinli mi?",
+"durum": "cevaplandi",
+"cevap": "Benzinli. Elektriklide ÖTV avantajı yok, tahmini fiyat farkı 10.090 dolar, Polaris'in kendi beş yıllık tasarruf iddiası 3.500 dolar. Volcon ve BRP elektrikli işte zarar yazdı.",
+"kaynak": "https://orgtr.org/?p=21754 ve https://powersportsbusiness.com/news/brp/2026/03/31/brp-tops-q4-expectations-as-strong-retail-new-products-drive-momentum-into-fy27/",
+"kime": ""
+},
+{
+"soru": "Türkiye'de yıllık ATV ve UTV satış, tescil ve ithalat adedi kaç?",
+"durum": "gorusme",
+"cevap": "Web'de bulunamadı. OSD özetinde kalem görülmedi, TÜİK ve MOTODER sayfaları açılamadı. Hesapta 5.000 adet tahmin kullanıldı.",
+"kaynak": "bulunamadı",
+"kime": "MOTODER yönetimi ve TÜİK dış ticaret birimi"
+},
+{
+"soru": "Elektrikli ATV ve UTV için ÖTV ya da teşvik avantajı var mı?",
+"durum": "cevaplandi",
+"cevap": "ÖTV (II) sayılı listede ATV ve UTV için tek oran yüzde 25. Elektrikli ayrı satır yok. Teşvik bu turda doğrulanmadı.",
+"kaynak": "https://orgtr.org/?p=21754",
+"kime": ""
+},
+{
+"soru": "Tescil, ehliyet ve yol kullanımı nasıl?",
+"durum": "kismen",
+"cevap": "İzmir Emniyeti 13 Ağustos 2026 tarihli haberde off-road satılan araçların yola çıkamayacağını, motosiklet kayıtlı için A, traktör kayıtlı için en az F sınıfı belge gerektiğini söyledi. Resmi mevzuat metni açılamadı.",
+"kaynak": "https://www.yeniasir.com.tr/yasam/2026/08/13/atvlere-trafikte-kirmizi-cizgi",
+"kime": "Emniyet Genel Müdürlüğü trafik birimi"
+},
+{
+"soru": "Çin menşeli ek vergi ve gümrük vergisi ne kadar?",
+"durum": "gorusme",
+"cevap": "Bulunamadı. Hesapta yüzde 10, 20 ve 30 senaryosu tahmin olarak kullanıldı.",
+"kaynak": "bulunamadı",
+"kime": "Ticaret Bakanlığı İthalat Genel Müdürlüğü ve gümrük müşaviri"
+},
+{
+"soru": "Türkiye'de resmi distribütörler ve kamu UTV ihale sonuçları kimde?",
+"durum": "gorusme",
+"cevap": "Bulunamadı. Yalnız bayi ilanları görüldü. EKAP'ta arama yapılamadı.",
+"kaynak": "bulunamadı",
+"kime": "CFMOTO, Segway, Linhai, Can-Am temsilcileri; EKAP, AFAD, Orman Genel Müdürlüğü"
+},
+{
+"soru": "Bu yaprak MEKA dalına mı bağımsız dala mı uygun?",
+"durum": "cevaplandi",
+"cevap": "MEKA dalının özel firmalar kolu. Avantaj MEKA'nın müşterisi, servisi ve şasi gücü. Bağımsız yatırım olarak getiri küçük.",
+"kaynak": "bu çalışma, ekonomi modeli",
+"kime": ""
+}
+],
+"kapilar": {
+"yatirim": "sirket",
+"butce": 3,
+"butce_not": "Dilim 3, yani 1 ile 10 milyon dolar. İlk 24 ayda toplam harcama 2,74 milyon dolar, aralık 2,2 ile 3,4 milyon dolar. İlk 12 ayda 1,78 milyon dolar, tahmin. Bilet MEKA şirketinin harcaması, stok kalemleri en yüksek stok düzeyi. Önce 0,3 milyon dolarlık pilot bayilik denenir. Elektrikli distribütörlük 24 ayda 1,98 milyon dolar.",
+"yol": "ortak",
+"yol_not": "Benzinli distribütörlük ve bayilik Çinli bir markanın anlaşmasını ister, yani ortak yolu. MEKA'nın kendi başına kuracağı tek şey kafes, kargo yatağı ve römork ataşman ürünleri. CKD ya da kendi marka bu aşamada önerilmez."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "kismi",
+"acik_sorular": [
+"Görüşme gerekir: Türkiye'de yıllık ATV ve UTV satış, tescil ve ithalat adedi kaç? (MOTODER yönetimi ve TÜİK dış ticaret birimi)",
+"Kısmen cevaplandı: Tescil, ehliyet ve yol kullanımı nasıl?",
+"Görüşme gerekir: Çin menşeli ek vergi ve gümrük vergisi ne kadar? (Ticaret Bakanlığı İthalat Genel Müdürlüğü ve gümrük müşaviri)",
+"Görüşme gerekir: Türkiye'de resmi distribütörler ve kamu UTV ihale sonuçları kimde? (CFMOTO, Segway, Linhai, Can-Am temsilcileri; EKAP, AFAD, Orman Genel Müdürlüğü)"
+],
+"bant": "izle",
+"puan_metni": "Yönetici isteğiyle derin çalışma (21 Ekim 2026), bant önerisi izle: Dünya adedi ve vergi kapıları kaynaklı, ama Türkiye hacmi, gümrük vergisi, Çin menşeli ek vergi ve kamu ihale sonuçları bulunamadı. Benzinli distribütörlük için brüt kâr bazında geri ödeme 4,4 yıl, net 5,7 yıl ve yıl 5 brüt kâr en çok 1,64 milyon dolar; getiri küçük, adetler tahmin. Yol kullanımı sıkılaşıyor. Düşük biletli pilot ve MEKA müşterisine UTV satışı sinerjisi izlemeye değer. Elektrikli yol elendi.",
+"kapsam_notu": "21 Ekim 2026 derin çalışma: 18 arama, 26 sayfa; 7 açık sorunun 3 tanesi cevaplandı, 3 tanesi görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. Bulunamayan ya da doğrulanamayanlar: Türkiye yıllık satış, tescil ve ithalat adedi (TÜİK, MOTODER, OSD sayfaları açılamadı), GTİP 8703.21 gümrük vergisi ve Çin menşeli ek vergi, yerli malı belgesi ve yatırım teşviki, kamu UTV ihale sonuçları (EKAP aranamadı), Türkiye'deki resmi distribütör isimleri, Honda, Linhai, Hisun ve Kymco verileri, AB 168/2013 L7e ve Euro 5 metni, ABD EPA, CPSC ve ROV standardı, Çinli elektrikli UTV fiyatları. ÖTV ve gözetim metinleri orgTR.org yansısından okundu, Resmî Gazete asılları açılamadı. Dünya pazar değeri tahminlerinin sayfaları açılamadı. Türkiye fiyatı tek kaynak, kur tek kaynak. Birim yığını, marjlar, adetler ve elektrikli çıkış fiyatı tahmindir ve kaynaklı rakamla karıştırılmamalıdır. Tek kaynaklı rakamlar metinde işaretlendi. Çürütme turunda 14 sayfa açıldı; açılmayan sayfalara (Wikipedia CFMoto ve Segway, Trade Only Today, Rural Lifestyle Dealer, Powersports Business Polaris, Yeni Akit, BRP ehliyet) dayanan rakamlar bu turda yeniden doğrulanmadı. Benzinli ve elektrikli distribütörlük (yol a) aritmetiği satır satır kontrol edildi; CKD, şasi fason ve kendi marka yollarının geri ödeme süreleri yeniden türetilmedi. Karşı okuma ajanı 9 sayfa açtı, 8 arama yaptı. Bulunamayanlar: ATV ve UTV için Türkiye yıllık satış, tescil ve ithalat adedi: iki aramada da bulunamadı; 8703.21 ATV ve UTV alt pozisyonlarında gümrük vergisi ve Çin menşeli ilave gümrük vergisinin kapsamı: Ticaret Bakanlığı bağlayıcı tarife bilgisi gerekir; UTV'nin gözetim tebliğinde ya da başka bir GTİP altında olup olmadığı; Türkiye'de CFMOTO, Segway ve Linhai'nin resmi distribütörü ve münhasırlık durumu; Avrupa'da Çinli UTV perakende fiyatları",
+"guven": 4,
+"tarih": "21 Ekim 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "MEKA ile ilgili",
+"kol_id": "meka_ozel",
+"kol_ad": "Özel firmalar",
+"kisa": "ATV ve UTV: benzinli ve elektrikli arazi aracı",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_atv_utv",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 1.0,
+"H": 4.0,
+"R": 2.0,
+"E": 3.0,
+"M": 2.0,
+"S": 1.0,
+"B": 2,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 0,3 ile 1,1 M$, tahmin; işletme gideri yıllık 0,4 M$.",
+"H": "Benzinli distribütörlük 6 ile 9 ay tahmin; ürün hazır, geliştirme yok.",
+"R": "Türkiye hacmi, Çin ek vergisi, münhasırlık bulunamadı; yol denetimi sıkı, pilotla zarar sınırlı.",
+"E": "Çinli marka anlaşması şart; münhasırlık bilinmiyor; gözetim belgesi ve ÖTV yüzde 25.",
+"M": "Satış kanalı taş ocağı müşterisi; yalnız kafes ve kargo yatağı üretilir.",
+"S": "Sıradan ürün, Polaris ve Yamaha ile saf rekabet; teknoloji ve ilk giren yok."
+},
+"puan_yayilim": []
+},
+"res_kule": {
+"id": "res_kule",
+"dal": "meka",
+"kol": "ozel",
+"baslik": "Rüzgar türbini çelik kule hattı",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "İkinci keşif turu",
+"bolum": "21 Ekim 2026 ikinci keşif turu: 10 tarayıcı 51 aday buldu, 4 jüri ilk 10'u seçti, ön kontrolü yalnız bu aday geçti. Jüri notu: Fiyat (Eurostat 1,96 euro/kg) ve marj (CS Wind yüzde 13 ile 16) kaynaklı, YEKA şartnamesi kuleyi 21 puanla en ağır kalem yapıyor; ama hacim tahmin, Türkiye'de zaten 7 kule tesisi var ve bilet 12 ile 20 milyon dolar olduğu için B 1. Eksik kanıt: kazanan YEKA sa",
+"tarih": "21 Ekim 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_res_kule",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "Gesbey Enerji Türbini Kule Üretim",
+"rol": "rakip",
+"not": "Bandırma'da Beyçelik ve GRI ortaklığı, Türkiye'nin en yüksek kapasiteli kule üreticisi beyanı, 430 kule/yıl, ikinci fabrika 30 milyon euro. Aynı sayfada mevcut kapasite 320 eş değer kule ve yüzde 30 artış da yazıyor.",
+"kaynak": "Para Dergi, 2 Kasım 2023 [6]"
+},
+{
+"ad": "Ateş Çelik, Ateş Wind Power",
+"rol": "rakip",
+"not": "Yerli kule üreticisi, 1.500 MW kurulu gücün ihtiyacını karşılama kapasitesi beyanı; kule temel ringi, temel kafesi, iç aksam ve 2018'den beri doğrudan tahrikli jeneratör de üretiyor. Ortak kontrol İş Enerji ve Maxis fonlarına geçiyor, haber 26 Şubat 2025 tarihli.",
+"kaynak": "Ekonomi Gazetesi, Rekabet Kurumu duyurusu [8]"
+},
+{
+"ad": "CS Wind Türkiye",
+"rol": "rakip",
+"not": "Aliağa'da 2018 ve ikinci İzmir fabrikası Mayıs 2022, iki fabrikaya yaklaşık 60 milyon dolar, haftada 20 kule parçası, çoğu ihracat, üçüncü fabrika için yatırım planı.",
+"kaynak": "TGRT Haber, 12 Mayıs 2022 [12]"
+},
+{
+"ad": "CS Wind Corp",
+"rol": "emsal",
+"not": "Dünyanın en büyük kule üreticisi beyanı (TGRT), 2025 satış 2.931.649 milyon KRW, brüt kâr yüzde 16,0, işletme kârı marjı yüzde 10,9 (hesap).",
+"kaynak": "cswind.com gelir tablosu [5]; TGRT [12]"
+},
+{
+"ad": "SAY Yenilenebilir Enerji, SAYAS",
+"rol": "tedarikci",
+"not": "Kule iç aksamı üreticisi, borsada kote. Enercon ile 35 milyon euro alım garantili anlaşma; Ateş Wind Power'a 2026 ilk çeyrekte yaklaşık 4,8 milyon euro satış bekliyor. Sayfalar açılmadı.",
+"kaynak": "Borsa Gündem, KAP özeti [16] [17]"
+},
+{
+"ad": "Metgün Enerji, METEN",
+"rol": "musteri",
+"not": "YEKA RES-2026'nın yedi yarışmasının hepsine 13 Ekim 2026'da başvurdu.",
+"kaynak": "Foreks/KAP, 14 Ekim 2026 [3]"
+},
+{
+"ad": "Eksim Enerji",
+"rol": "musteri",
+"not": "YEKA RES-2025 Balıkesir-3, 110 MW, MW başına 312 bin euro katkı payı.",
+"kaynak": "CNBC-e, 9 Aralık 2025 [13]"
+},
+{
+"ad": "Soma Enerji",
+"rol": "musteri",
+"not": "YEKA RES-2025 Balıkesir-1, 160 MW, MW başına 212 bin euro.",
+"kaynak": "CNBC-e [13]"
+},
+{
+"ad": "İçdaş Elektrik Enerjisi",
+"rol": "musteri",
+"not": "YEKA RES-2025 Kütahya, 120 MW, MW başına 222 bin euro.",
+"kaynak": "CNBC-e [13]"
+},
+{
+"ad": "Stone Enerji",
+"rol": "musteri",
+"not": "YEKA RES-2025 Aydın-Denizli, 140 MW, MW başına 170 bin euro.",
+"kaynak": "CNBC-e [13]"
+},
+{
+"ad": "Kanat Rüzgar Enerji",
+"rol": "musteri",
+"not": "YEKA RES-2025 Sivas projesini kazandı, 500 MW, MW başına 56 bin euro, 6. turda. Sayfayla doğrulandı, tek haber kaynağı.",
+"kaynak": "CNBC-e, 9 Aralık 2025 [13]"
+},
+{
+"ad": "Balıkesir Elektrik Yenilenebilir Enerji Üretim ve Satış",
+"rol": "musteri",
+"not": "YEKA RES-2025 Balıkesir-2, 120 MW, MW başına 218 bin euro, 12. turda.",
+"kaynak": "CNBC-e [13]"
+},
+{
+"ad": "Nordex",
+"rol": "musteri",
+"not": "Türkiye'de yatırımı olan küresel türbin üreticisi. Kule alımı türbin üreticisi üzerinden de gelebilir.",
+"kaynak": "Capital, 24 Nisan 2026 [7]"
+},
+{
+"ad": "Goldwind",
+"rol": "musteri",
+"not": "Türkiye'de yatırımı olan türbin üreticisi, 2017 YEKA'da Akfen ve Beyçelik konsorsiyumunda.",
+"kaynak": "Capital [7]; Hürriyet [22]"
+},
+{
+"ad": "Enercon",
+"rol": "musteri",
+"not": "Kule iç aksamını SAYAS'tan alıyor, 12 kule üreticisi ve 7 ülke.",
+"kaynak": "Borsa Gündem [16]"
+},
+{
+"ad": "Dongfang Electric",
+"rol": "ortak_adayi",
+"not": "Türkiye'de yıllık 2.000 MW türbin tesisi için yaklaşık 250 milyon dolar planı, 30 Eylül 2025. Kule yerlileşmesi için olası müşteri.",
+"kaynak": "Ekonomist, 30 Eylül 2025 [9]"
+},
+{
+"ad": "GRI Renewable Industries ve Beyçelik Holding",
+"rol": "ortak_adayi",
+"not": "Gesbey sahipleri. Teknik ortaklık ya da lisans görüşmesi için aday, ama Gesbey doğrudan rakip.",
+"kaynak": "Para Dergi [6]"
+},
+{
+"ad": "Enerji ve Tabii Kaynaklar Bakanlığı",
+"rol": "kurum",
+"not": "YEKA yarışmasını yürütür, Yerli Malı Belgesi ve tedarik anlaşmalarını önlisans içinde inceler.",
+"kaynak": "Şartname [1]"
+},
+{
+"ad": "EPDK",
+"rol": "kurum",
+"not": "Önlisans ve lisans verir; belge uygunluğu sonrası lisans bildirimi yapılır.",
+"kaynak": "Şartname madde 4 ve 6.3 [1]"
+},
+{
+"ad": "TÜREB",
+"rol": "kurum",
+"not": "Temmuz 2026 raporunda kurulu güç 16.231,08 MW (sayfa açılmadı). Başkan İbrahim Erden 2026 için 2.500 MW kurulum hedefi söyledi ve kule ile kanatta yüzde 65 yerlilik şartından söz etti.",
+"kaynak": "Arama özeti [26]; Milliyet 13 Mayıs 2026 [18]"
+},
+{
+"ad": "Bridgepoint",
+"rol": "yatirimci",
+"not": "Windar Renovables'ı Grupo Daniel Alonso ve Siemens Gamesa'dan satın almak için 22 Mayıs 2023'te anlaştı, kapanış yıl sonundan önce bekleniyordu. Windar denizüstü rüzgar kule ve alt yapı üreticisi.",
+"kaynak": "Siemens Gamesa basın bildirimi [19]; IPP Journal [20]"
+},
+{
+"ad": "İş Enerji ve Maxis girişim sermayesi fonları",
+"rol": "yatirimci",
+"not": "Ateş Çelik'in ortak kontrolünü devralıyor.",
+"kaynak": "Ekonomi Gazetesi [8]"
+},
+{
+"ad": "Dirinler Döküm",
+"rol": "tedarikci",
+"not": "İzmir'de rüzgar döküm parçası üreticisi, ihracatın yüzde 80'i; kuzey İzmir'de kule üreticileri kümelenmiş. Sayfa açılmadı.",
+"kaynak": "Daily Sabah, 2 Kasım 2020 [11]"
+}
+],
+"celiskiler": [
+"Ön kontrol yarışmaların 2 Kasım 2026'da yapılacağını söyledi. Bu çalışmada tarih bulunamadı. Şartname tarihin sonradan duyurulacağını söylüyor. İddia doğrulanamadı.",
+"Kart başvuru tarihini 13 Ekim 2026 olarak verdi ve ön kontrol doğrulayamadı. Metgün Enerji'nin KAP açıklamasıyla doğrulandı: 12 başvuru sahibi, 29 başvuru.",
+"Ön kontrol kule ağırlığını 30 ile 53 ton/MW aldı ve 1.500 MW için 45 ile 80 bin ton verdi. Bu çalışma 55 ile 80 ton/MW ve 82 ile 120 bin ton kullandı. İki aralık da resmi kaynağa dayanmıyor, tahmindir. Tek dayanak sayfası 2,3 MW için yaklaşık 63 ton/MW veriyor.",
+"Kart kuleyi en ağır kalem olarak sundu. Şartnamede kalıcı mıknatıslı doğrudan tahrikli jeneratör 30 puandır, kule 21 puandır. Kule yalnız dişli kutulu türbinde en ağır kalemdir. Ek-2'de kulesiz azami puan 88 (dişli kutulu türbinde 78) olduğundan kule zorunlu değildir. Talep varsayımı bu yüzden kesin değil.",
+"Kart ve ön kontrol Türkiye'de 7 kule tesisi olduğunu söyledi. Bu çalışmada sayı doğrulanamadı, isimli üç üretici bulundu.",
+"Gesbey kapasitesi Para Dergi'de 430 kule/yıl, aracı site kariyer.net profilinde 300 adet (bu sayfa açılmadı). Aynı Para Dergi sayfası mevcut kapasiteyi 320 eş değer kule ve yüzde 30 artış olarak da yazıyor. Şirket beyanı 430 kullanıldı.",
+"Bakan rüzgar türbinlerinde yüzde 60 yerlilik söylüyor, TÜREB başkanı kule ve kanatta yüzde 65 şartından söz ediyor, 2026 şartnamesi kule için yüzde 51 istiyor. Güncel resmi rakam şartnamedir.",
+"YEKA-2025 katkı payı: Bakan toplam 208 milyon euro ve MW başına yaklaşık 180 bin euro diyor. CNBC-e'de açıklanan altı teklif MW ile çarpılınca 172,8 milyon euro, MW başına yaklaşık 150 bin euro çıkıyor (hesap). Fark kaynaklarda açıklanmadı.",
+"CS Wind tablosunda 2021 ile 2023 için satışlar eksi satış maliyeti, tablodaki brüt kâr satırından yüksek (yüzde 31,3; 25,5; 18,5; hesap). Çalışma tablodaki brüt kâr satırını kullandı.",
+"Ön çalışma her yarışmacıdan 100 bin euro teminat dedi. Şartname başvuruda MW başına 20.000 euro teminat mektubu ve 100.000 Türk lirası iade edilmeyen bedel ister. Kazanan MW başına 100.000 euro teminat mektubu sunar."
+],
+"degisiklikler": [
+"21 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"Şartname Ek-2 ile kule en ağır kalem değildir olarak düzeltildi: kalıcı mıknatıslı doğrudan tahrikli jeneratör 30 puan, kule 21 puan. Dişli kutusu seçilirse kule en ağır kalemdir. Neden, rakamlar ve çelişkiler buna göre yazıldı.",
+"Kulesiz azami puan 88 sayfayla doğrulandı (30 puanlık jeneratörle). Dişli kutulu türbinde kulesiz azami puan 78 olarak eklendi (hesap).",
+"Teminat düzeltildi: ham metinde her yarışmacı 100 bin euro deniyordu. Şartname başvuruda MW başına 20.000 euro teminat mektubu ve 100.000 Türk lirası iade edilmeyen bedel, kazananda MW başına 100.000 euro teminat mektubu ister (madde 3.1.1 ve 8.3).",
+"Yabancı şirket ifadesi şartnamedeki hale getirildi: sermaye şirketi statüsündeki yabancı şirketler.",
+"YEKA-2025 katkı payı aralığı 170 ile 312 bin euro iken 56 ile 312 bin euro olarak düzeltildi, çünkü CNBC-e'de Sivas 500 MW için MW başına 56 bin euro.",
+"MW başına 181 bin euro hesabı kaldırıldı. Bakan 208 milyon euro ve yaklaşık 180 bin euro dedi. Açıklanan altı teklifin MW ile çarpımı 172,8 milyon euro (yaklaşık 150 bin euro/MW), fark çelişki olarak yazıldı.",
+"Kanat Rüzgar Sivas 500 MW kaydı CNBC-e sayfasıyla doğrulandı, arama özeti etiketi kaldırıldı. Balıkesir Elektrik (Balıkesir-2, 120 MW, 218 bin euro/MW) müşteri olarak eklendi.",
+"Kule ağırlığı düzeltildi: üç bölüm toplamı 154,5 değil 158,6 kısa ton, yani yaklaşık 144 metrik ton ve 62,6 ton/MW (yaklaşık 61 değil 63). Sayfadaki bölüm boyları (78,5 m) göbek yüksekliğinden (102,7 m) kısa olduğu için eksik ağırlık uyarısı eklendi.",
+"Kaynağı olmayan 'Siemens türbininde 80 metre kule için 162 ton' cümlesi silindi.",
+"Duyarlılık düzeltildi: yüzde 10 marjda 16 milyon dolarlık bilet yıl 12 değil yıl 10'da, 20 milyon dolarlık bilet yıl 12'de geri döner. 6 bin ton için geri ödeme 15 yılı aşar denmişti, doğrusu 12 milyon dolar için yıl 10, 20 milyon dolar için yıl 15.",
+"Üst senaryo geliri tabloda 33,0 yazıyordu, hesap adımında 32,9; 32,9 olarak birleştirildi (15 bin ton x 1,96 x 1,12).",
+"Ekonomi aritmetiği satır satır kontrol edildi: yıl 3, yıl 5, kümülatif brüt kâr ve 7, 9, 10 yıllık geri ödeme doğru çıktı, değiştirilmedi.",
+"CS Wind brüt marjları gelir tablosuyla doğrulandı. Tabloda 2021 ile 2023 için satış eksi satış maliyeti brüt kâr satırından farklı çıkıyor, bu uyarı eklendi. İşletme kârı marjı yüzde 3,1 ile 10,9 eklendi (hesap).",
+"'2024 ve 2025 Amerika etkisi' cümlesi tahmin olarak işaretlendi.",
+"Dünyanın en büyük kule üreticisi beyanının kaynağı CS Wind tablosu değil TGRT sayfasıdır, düzeltildi.",
+"TGRT: 12 Mayıs 2022 haber tarihidir, ikinci fabrika açılışı o hafta cuma günüydü; CS Wind üçüncü fabrika planı eklendi.",
+"Gesbey sayfasında kule başına 120 ton yazıyor, 'parça başına' denmişti, düzeltildi. Aynı sayfadaki 320 eş değer kule ve yüzde 30 artış bilgisi çelişki olarak eklendi.",
+"Gesbey oranıyla (2.273 euro/ton) 10 bin ton kapasite yaklaşık 25,5 milyon dolar eder, bilet notlarına eklendi (hesap). Bilet tahmini iyimser olabilir.",
+"Windar: Siemens Gamesa bildirimi anlaşmayı anlatıyor, kapanış yıl sonundan önce bekleniyordu; 'çoğunluğunu 2023'te aldı' ifadesi düzeltildi. 700 milyon dolar yalnız IPP Journal özetine dayanır, bildirimde bedel yok, tek kaynak işaretlendi.",
+"KED Pueblo sayfası açılmaya çalışıldı, HTTP 301 ve boş yanıt geldi; emsal satırına doğrulanamadı yazıldı.",
+"Resmi Gazete sayı 33307 bilgisi Ekonomist sayfasında yoktu, şartnameye dayandırıldı. Başvurunun 'alındı' ifadesi 'alınacağı duyuruldu, KAP ile yapıldığı doğrulandı' olarak düzeltildi.",
+"Eurostat fiyatı AB sınırı ithalat değeridir, fabrika çıkış fiyatı düşük olabilir (tahmin) notu eklendi. 1,12 kuru Ekonomi Gazetesi sayfa başlığındaki 1,12192 ile doğrulandı.",
+"Milliyet sayfası 13 Mayıs 2026 tarihli; TÜREB başkanı İbrahim Erden'in 2.500 MW ve yüzde 65 kule ve kanat yerlilik sözü doğrulandı. 16.231,08 MW bu sayfada yok, doğrulanamadı olarak kaldı.",
+"Ateş Çelik 1.500 MW ifadesi firma beyanıdır ve yıllık olup olmadığı yazmıyor; 'tek firma bir YEKA turunu karşılayabilir' cümlesi yumuşatıldı. Ateş Çelik'in doğrudan tahrikli jeneratör üretimi eklendi.",
+"'Yerli üretici kapasitesi YEKA akışını karşılamaya yeter' çıkarımı tahmin olarak işaretlendi.",
+"Bant önerisi izle olarak korundu, fikir olduğundan büyük gösterilmedi. Gerekçeye daha yüksek bilet riski ve duyarlılık eklendi. Kanıt puanı 3 kaldı, çünkü birden çok resmi ve borsa kaynağı var ama alım sözü ve Türkiye marjı yok.",
+"Kaynaklar bölümüne hangi sayfaların açıldığı, hangisinin açılamadığı yazıldı. Açılan sayfa sayısı 13, açılamayan 1 (KED)."
+],
+"ne": "MEKA Ankara tesisinde rüzgar türbini için boru kule bölümleri üretmek: levha bükme, boyuna ve çevresel kaynak, kumlama, boya. Müşteri YEKA RES-2026 kazananları ve türbin üreticileri. Baz senaryo yılda 10 bin ton satıştır. Bu hacim ve ilk gelir süresi tahmindir.",
+"neden": "YEKA RES-2026 şartnamesi her türbinde en az 55 yerlilik puanı ister ve kuleyi 21 puanla en ağır kalemlerden biri yapar. Kule kolay yerlileşen kalemdir, bu yüzden talep gerçektir. Ama kule zorunlu değildir, kulesiz de 55 puana ulaşılır. Fiyat ve marj resmi ve borsa kaynaklarıyla görülebilir. Türkiye'de kule kapasitesi zaten geniştir, ilk giren avantajı yoktur ve elde alım sözü yoktur. Yatırımcı için anlamlı olan, bağlayıcı sipariş gelirse MEKA'nın mevcut sac, kaynak, boya ve vinç altyapısıyla 12 ile 20 milyon dolarlık orta riskli bir hat kurmasıdır. Gesbey oranıyla 10 bin ton kapasite yaklaşık 25,5 milyon dolar eder (hesap), bu yüzden bilet tahmini iyimser olabilir.",
+"rakamlar": [
+{
+"deger": "1.500 MW, 7 yarışma, 49 yıl",
+"aciklama": "YEKA RES-2026 kapsamı. Sivas 320, Kütahya 260, Manisa 235, Balıkesir 235 ile 170 ile 140 ile 140 MW. Sayfayla doğrulandı.",
+"kaynak": "Resmi: enerji.gov.tr şartname Ek-1 ve madde 1 [1]; Foreks/KAP tablosu [3]"
+},
+{
+"deger": "Kule 21 puan, yüzde 51 yerli katkı; bağlantı elemanları 1 puan, yüzde 70",
+"aciklama": "Asgari toplam yerlilik puanı 55. Kulesiz azami puan 88 (kalıcı mıknatıslı doğrudan tahrikli jeneratörle, hesap); dişli kutulu türbinde kulesiz azami puan 78 (hesap). Kule zorunlu değil. Kule en ağır tek kalem değildir: kalıcı mıknatıslı doğrudan tahrikli jeneratör 30 puandır. Dişli kutusu seçilirse kule en ağır kalem olur.",
+"kaynak": "Resmi: şartname madde 6.2 ve Ek-2 [1]; toplamlar hesap"
+},
+{
+"deger": "12 başvuru sahibi, 29 başvuru, 13 Ekim 2026",
+"aciklama": "Başvurular yapıldı. Metgün Enerji yedi yarışmanın hepsine başvurdu. Sayfayla doğrulandı.",
+"kaynak": "Borsa bildirimi: KAP, Foreks haberi 14 Ekim 2026 [3]; Resmi Gazete ilanı haberi, başvuru tarihi önceden duyurulmuştu [2]"
+},
+{
+"deger": "52,2 bin ton, 106,4 milyon euro, 2,04 euro/kg",
+"aciklama": "AB dışından AB'ye kule ithalatı, Ocak-Mart 2026. Sayfayla doğrulandı. Ithalat değeri AB sınırı değeridir, fabrika çıkış fiyatından yüksek olabilir (tahmin).",
+"kaynak": "Resmi veri, aracı site: Eurostat COMEXT, thetradehub [4]"
+},
+{
+"deger": "Türkiye 9,9 bin ton, 19,5 milyon euro, 1,96 euro/kg, pay yüzde 18,3",
+"aciklama": "Türkiye'nin AB'ye üç aylık kule satışı. Yıllık yaklaşık 40 bin ton (hesap). Çin için aynı hesap 2,04 euro/kg, Vietnam 2,17 (sayfada yazıyor). Sayfayla doğrulandı.",
+"kaynak": "Resmi veri, aracı site: Eurostat COMEXT [4]"
+},
+{
+"deger": "CS Wind brüt marjı: 2021 yüzde 14,3; 2022 yüzde 9,9; 2023 yüzde 13,6; 2024 yüzde 13,2; 2025 yüzde 16,0",
+"aciklama": "Küresel konsolide gelir tablosundaki brüt kâr satırından hesap, sayfayla doğrulandı. Türkiye fabrikalarına ayrılmış marj bulunamadı. Tabloda 2021 ile 2023 için satış eksi satış maliyeti brüt kâr satırına eşit değil, tablo kendi içinde tutarsız.",
+"kaynak": "Firma beyanı, denetimli tablo: cswind.com [5]"
+},
+{
+"deger": "55 ile 80 ton/MW, toplam 82 ile 120 bin ton",
+"aciklama": "1.500 MW için kule çeliği. Dayanak zayıf: 2,3 MW türbinde üç bölüm toplam 158,6 kısa ton, yani yaklaşık 144 metrik ton, yaklaşık 63 ton/MW. Resmi kaynak bulunamadı, tahmin.",
+"kaynak": "Tek kaynak, blog: energyskeptic [24]; hesap"
+},
+{
+"deger": "430 kule/yıl",
+"aciklama": "Gesbey'in şirket beyanı kapasitesi. Aynı sayfada mevcut kapasite 320 eş değer kule ve yüzde 30 artış da yazıyor. İkinci fabrika 30 milyon euro, 110 kule/yıl.",
+"kaynak": "Haber, firma beyanı: Para Dergi 2 Kasım 2023 [6]"
+},
+{
+"deger": "1.500 MW kapasite",
+"aciklama": "Ateş Çelik'in karşılayabildiği rüzgar gücü beyanı. Yıllık olup olmadığı belirtilmemiş. Firma beyanı, doğrulanmamış.",
+"kaynak": "Haber, Rekabet Kurumu duyurusu: Ekonomi Gazetesi [8]"
+},
+{
+"deger": "Tavan 5,50, taban 3,50 euro sent/kWh; 72 ay serbest satış",
+"aciklama": "Yarışma fiyat aralığı, sayfayla doğrulandı. YEKA-2025'te 1.150 MW taban fiyata indi, katkı payı MW başına 56 ile 312 bin euro, Bakan devlete 208 milyon euro dedi. Açıklanan tekliflerin MW ile çarpımı 172,8 milyon euro eder (hesap), fark açıklanmadı.",
+"kaynak": "Resmi: şartname madde 3.3.3 ve 8 [1]; haber: CNBC-e [13], Alomaliye [14]"
+},
+{
+"deger": "16.231,08 MW; 2026 hedefi 2.500 MW",
+"aciklama": "Rüzgar kurulu gücü Temmuz 2026 ve yıllık kurulum hedefi. 2025'te 2,1 GW kuruldu. 2.500 MW hedefi Milliyet sayfasıyla doğrulandı, 16.231,08 MW ve 2,1 GW sayfası açılmadı.",
+"kaynak": "Sektör derneği, arama özeti: TÜREB [26]; haber: Capital [7], Milliyet 13 Mayıs 2026 [18]"
+},
+{
+"deger": "Önlisans en çok 24 ay, inşaat en çok 36 ay",
+"aciklama": "Yerli Malı Belgeleri ve tedarik anlaşmaları önlisans süresi içinde sunulur. Kule siparişi bu pencerede gelir. Sayfayla doğrulandı.",
+"kaynak": "Resmi: şartname madde 6.3 ve madde 10 [1]"
+},
+{
+"deger": "Yıl 5 brüt kâr 2,2 ile 3,5 milyon dolar",
+"aciklama": "10 bin ton x 1,96 euro/kg = 19,6 milyon euro gelir. Marj yüzde 10 ile 16. 1 euro = 1,12 dolar. Hacim ve marj tahmin. Aritmetik doğrulandı.",
+"kaynak": "Hesap: Eurostat [4] ve CS Wind [5] üzerine"
+}
+],
+"durum": "YEKA RES-2026 şartnamesi gerçek bir yerli kule talebi yaratıyor. Şartname 21 Ekim 2026 itibarıyla yürürlükte. Başvurular 13 Ekim 2026'da yapıldı, 12 başvuru sahibi 29 başvuru yaptı. Yarışma tarihi henüz duyurulmadı ve kartın 2 Kasım 2026 iddiası doğrulanamadı. Kazananlar belli değil, bu yüzden kimseden kule alım sözü yok. Türkiye'de Gesbey, CS Wind ve Ateş Çelik gibi kurulu kule üreticileri var ve Ateş Çelik 1.500 MW karşılayabildiğini söylüyor. Fiyat ve marj kaynaklı: Türkiye'nin AB'ye kule fiyatı 1,96 euro/kg, CS Wind brüt marjı yüzde 10 ile 16. Bu çalışmada baz satış 10 bin ton/yıl alındı ve yıl 5 brüt kâr 2,2 ile 3,5 milyon dolar çıktı.",
+"adimlar": [
+{
+"adim": "Yatırım için bağlayıcı sipariş şartı koy. Niyet mektubu olmadan harcama yapılmaz. Bu çalışmayı res_temel ile birlikte yönetime sun.",
+"kim": "Mehmet Bey ve MEKA yönetim kurulu",
+"ne_zaman": "22 Ekim 2026 ile 31 Ekim 2026"
+},
+{
+"adim": "Bakanlık sitesinden yarışma tarihlerini izle. Duyuru gelince yarışmaya giren 12 başvuru sahibine ve Nordex, Goldwind, Enercon satış birimlerine kule fiyat talebi için ulaş.",
+"kim": "MEKA satış direktörü",
+"ne_zaman": "Kasım 2026, yarışma duyurusundan sonra"
+},
+{
+"adim": "Yarışma sonuçlarından sonra kazananlardan en az 5 bin ton/yıl için niyet mektubu iste. Hedef fiyat 1,9 euro/kg ve üzeri. Mektup yoksa karar ertelenir.",
+"kim": "MEKA satış direktörü ve Mehmet Bey",
+"ne_zaman": "Aralık 2026 ile Mart 2027"
+},
+{
+"adim": "Mevcut altyapıyla pilot bölüm ve fizibilite: tezgah envanteri, 4,30 metre çap sınırı, Ankara'dan sahalara ve İzmir ya da Aliağa limanına yol etüdü, maliyet kalemi çıkarımı.",
+"kim": "MEKA üretim müdürü ve mühendislik",
+"ne_zaman": "Ocak 2027 ile Nisan 2027"
+},
+{
+"adim": "Teknik ortak ya da lisans görüşmesi: Gesbey ve GRI, CS Wind. Müşteri denetimi ve kalite belgeleri için en az bir deneyimli kule firmasıyla ön anlaşma. Yerli Malı Belgesi sürecini Sanayi ve Teknoloji Bakanlığı ile ön görüşmeye al.",
+"kim": "MEKA kalite müdürü ve hukuk",
+"ne_zaman": "Şubat 2027 ile Mayıs 2027"
+},
+{
+"adim": "Bağlayıcı sipariş ve ortak varsa yatırım kararı. Borsa kote olduğu için KAP özel durum açıklaması. Kurulum ve ilk teslim hedefi tahmin olarak Haziran 2028.",
+"kim": "MEKA yönetim kurulu",
+"ne_zaman": "Haziran 2027 karar, Haziran 2028 ilk teslim hedefi"
+}
+],
+"riskler": [
+"Talep riski, olasılık yüksek, etki yüksek: kazananlar kule alımını MEKA'ya vermeyebilir. Kulesiz azami puan 88 olduğundan kule zorunlu değildir ve mevcut üreticiler fiyat kırabilir. Azaltma: bağlayıcı sipariş şartı.",
+"Rekabet riski, olasılık yüksek, etki yüksek: Gesbey 430 kule/yıl, Ateş Çelik 1.500 MW beyanı ve iki CS Wind fabrikası ile üçüncü fabrika planı var. İlk giren avantajı yok. Azaltma: ihracat ve Sivas ile Kütahya sahaları için yakın konum, res_temel paketi ile birlikte satış.",
+"Marj ve fiyat riski, olasılık orta, etki yüksek: CS Wind marjı küresel ve Amerikan teşvik etkisi içerebilir (tahmin). YEKA kazananları katkı payı ödediği için kule fiyatı baskı görür. 2022 CS Wind marjı yüzde 9,9, işletme marjı yüzde 3,1. Eurostat fiyatı AB sınırı değeridir, fabrika çıkış fiyatı düşük olabilir (tahmin). Azaltma: model yüzde 10 marjla da 2,2 milyon dolar gösterir.",
+"Zaman riski, olasılık orta, etki orta: karar sonrası ilk gelir 18 ile 24 ay. Önlisans 24 aya kadar uzar, sipariş 2028'e kayabilir. Azaltma: aşamalı yatırım ve sipariş sonrası tezgah alımı.",
+"Lojistik ve teknik riski, olasılık orta, etki orta: Ankara iç bölgede, yol taşımasında alt bölüm çapı 4,30 metre civarında sınırlıdır. Daha büyük çaplar bölünmüş bölüm gerektirir. Müşteri kalite denetimi ve kaynak sertifikasyonu zaman alır. Azaltma: erken yol etüdü ve deneyimli ortak.",
+"Politika riski, olasılık düşük, etki yüksek: Bakanlık yarışmaları erteleyebilir, askıya alabilir ya da iptal edebilir. Şartname madde 3.3.9. Çıkış: ekipman çok amaçlı ağır sac işlemeye yeniden yönlendirilir; hat satılabilir."
+],
+"takvim": [
+{
+"tarih": "11 Temmuz 2026",
+"olay": "YEKA RES-2026 yarışma ilanı Resmî Gazete'de yayımlandı, sayı 33307. 1.500 MW, 7 yarışma.",
+"kaynak": "Resmi: şartname [1]; Ekonomist/AA [2]",
+"iso": "2026-07-11"
+},
+{
+"tarih": "13 Ekim 2026",
+"olay": "Başvuru günü. 12 başvuru sahibi, 29 başvuru. Detay evrak incelemesi sürüyor.",
+"kaynak": "Foreks/KAP Metgün [3]",
+"iso": "2026-10-13"
+},
+{
+"tarih": "Bulunamadı",
+"olay": "Yarışma tarihi. Bakanlık ilk yarışmadan en az 3 gün önce duyuracak. Ön kontroldeki 2 Kasım 2026 iddiası doğrulanamadı.",
+"kaynak": "Şartname madde 3.3.2 [1]",
+"iso": ""
+},
+{
+"tarih": "Yarışmadan sonra, tahmin",
+"olay": "Bakan onayı, sözleşmeye davet, 30 gün içinde sözleşme. Önlisans başvurusu bildirimden itibaren 15 iş günü.",
+"kaynak": "Şartname madde 3.3.8, 3.4 ve 4 [1]",
+"iso": ""
+},
+{
+"tarih": "Sözleşmeden itibaren en çok 24 ay",
+"olay": "Önlisans süresi. Yerli Malı Belgeleri ve tedarik anlaşmaları bu sürede sunulur. Kule sipariş penceresi budur.",
+"kaynak": "Şartname madde 6.3 ve madde 10 [1]",
+"iso": ""
+},
+{
+"tarih": "Lisanstan itibaren en çok 36 ay",
+"olay": "İnşaat süresi, gerekirse 12 ay uzatma. Kule teslimleri bu pencerede.",
+"kaynak": "Şartname madde 4.8 ve madde 10 [1]",
+"iso": ""
+},
+{
+"tarih": "9 Aralık 2025",
+"olay": "YEKA RES-2025 sonuçları, 1.150 MW, katkı payı 56 ile 312 bin euro/MW. Emsal takvim.",
+"kaynak": "CNBC-e [13]; Alomaliye [14]",
+"iso": "2025-12-09"
+},
+{
+"tarih": "13 Mayıs 2026",
+"olay": "Bakan her yıl en az 2.000 MW YEKA, bunun 1.500 MW'ı rüzgar olacak diyor. 2035'e kadar 120 GW rüzgar ve güneş hedefi.",
+"kaynak": "Milliyet 13 Mayıs 2026 [18]; Capital [7]",
+"iso": "2026-05-13"
+}
+],
+"web": [
+{
+"url": "https://enerji.gov.tr/Media/Dizin/BHIM/tr/Duyurular//YEKA_RES-2026Sartname_202607111136.pdf",
+"ne": "YEKA RES-2026 şartnamesi, 29 sayfa; açıldı ve doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.ekonomist.com.tr/yesil-ekonomist/gunes-ve-ruzgar-enerjisine-dayali-yeka-yarismalari-icin-geri-sayim-basvuru-tarihi-belli-oldu-76744",
+"ne": "AA haberi, Resmî Gazete ilanı ve 13 Ekim başvuru tarihi; açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.foreks.com/haber/detay/6acf095424008d7d437426ef/FRKS/tr/metgun-enerji-yeka-res-2026-yarismalarina-basvuruda-bulundu-14-10-26/",
+"ne": "Metgün Enerji KAP açıklaması, 12 başvuru sahibi 29 başvuru; açıldı ve doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.thetradehub.eu/en/customs/trade/73082010",
+"ne": "Eurostat COMEXT kule dış ticareti, Ocak-Mart 2026; açıldı ve doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://cswind.com/en/investment_information/financial_information/profit_and_loss",
+"ne": "CS Wind konsolide gelir tablosu 2021 ile 2025; açıldı ve doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.paradergi.com.tr/is-dunyasi-kulis/2023/11/02/kule-ureticisi-gesbey-30-milyon-euro-yatirimla-ikinci-fabrikasini-acti",
+"ne": "Gesbey ikinci fabrika, 30 milyon euro; açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.capital.com.tr/sektorler/enerji/turkiyede-ruzgar-enerjisi-sanayi-ve-enerji-politikalarinin-merkezine-yerlesiyor",
+"ne": "GWEC 2026 raporu özeti, Türkiye rüzgar; çürütücü açmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.ekonomigazetesi.com/sirket-haberleri/is-enerji-ates-celike-ortak-oluyor-59938",
+"ne": "İş Enerji ve fonlar Ateş Çelik devri, Rekabet Kurumu; açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.ekonomist.com.tr/yesil-ekonomist/cin-den-turkiye-ye-250-milyon-dolarlik-ruzgar-turbini-yatirimi-65772",
+"ne": "Dongfang 250 milyon dolarlık türbin tesisi planı; çürütücü açmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.iso.org.tr/Sites/1/upload/files/BILGI_WEB_RUZGAR_SEKTOR-7323.PDF",
+"ne": "İSO rüzgar notu 2017, YEKA kule yerlilik şartı; çürütücü açmadı",
+"tur": "rapor"
+},
+{
+"url": "https://www.dailysabah.com/business/energy/local-firm-to-produce-all-parts-of-wind-turbines-in-western-turkey-with-new-investment/amp",
+"ne": "Dirinler Döküm ve kuzey İzmir rüzgar kümesi; çürütücü açmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.tgrthaber.com/ekonomi/avrupanin-enerji-krizine-turkiye-cevabi-2827375",
+"ne": "CS Wind Türkiye fabrikaları, 60 milyon dolar; açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.cnbce.com/enerji/yeka-res-yarismalarinda-6-proje-icin-en-iyi-teklif-verenler-belli-oldu-h20926",
+"ne": "YEKA RES-2025 kazananlar ve katkı payları; açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.alomaliye.com/2025/12/09/yeka-res-yarismalarinda-1-150-mw-tahsis-edildi-devlete-208-milyon-euro-gelir/",
+"ne": "YEKA RES-2025 sonucu, 208 milyon euro katkı; açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.ekonomigazetesi.com/sektor-haberleri/yeka-res-2025-icin-sozlesmeler-imzalandi-70119",
+"ne": "YEKA RES-2025 sözleşme imzası; çürütücü açmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.borsagundem.com.tr/say-yenilenebilir-enerji-enercon-gmbh-ile-35-milyon-euroluk-tedarik-anlasmasi-imzaladi",
+"ne": "SAYAS Enercon kule iç aksamı anlaşması; çürütücü açmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.borsagundem.com.tr/say-yenilenebilir-enerji-ates-wind-powerdan-2026-ilk-ceyrek-icin-48-milyon-avroluk-hasilat-bekliyor",
+"ne": "SAYAS Ateş Wind Power gelir beklentisi; çürütücü açmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.milliyet.com.tr/7586904",
+"ne": "Bakan Bayraktar, her yıl en az 2.000 MW YEKA; TÜREB 2.500 MW hedefi, 13 Mayıs 2026; açıldı ve doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.siemensgamesa.com/global/en/home/press-releases/052223-siemens-gamesa-press-release-grupo-daniel-alonso-windar-sell-bridgepoint.html",
+"ne": "Windar satışı basın bildirimi, bedel yazmıyor; açıldı ve doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://ippjournal.com/update/bridgepoint-acquired-32-stake-in-windar-renovables",
+"ne": "Windar ilk değer 700 milyon dolar; çürütücü açmadı",
+"tur": "haber"
+},
+{
+"url": "https://offshorewind.biz/2023/07/10/offshore-wind-turbine-tower-manufacturer-to-acquire-bladt-industries",
+"ne": "CS Wind Bladt devri; çürütücü açmadı",
+"tur": "haber"
+},
+{
+"url": "https://www.hurriyet.com.tr/ekonomi/4u-alman-8-dev-yeka-icin-yarisacak-40533172",
+"ne": "2017 YEKA konsorsiyumları; çürütücü açmadı",
+"tur": "haber"
+},
+{
+"url": "https://energyskeptic.com/2020/900-tons-of-material-to-build-just-1-windmill/",
+"ne": "MidAmerican 2,3 MW kule bölüm ağırlıkları, zayıf kaynak; açıldı ve doğrulandı",
+"tur": "diger"
+},
+{
+"url": "https://amp.kedglobal.com/newsAmp/ked202106040006",
+"ne": "CS Wind Vestas Pueblo fabrikası 150 milyon dolar; sayfa açılamadı (HTTP 301, boş yanıt), doğrulanamadı",
+"tur": "haber"
+}
+],
+"ekonomi": {
+"bilet": "12 ile 20 milyon dolar, girişin ilk 24 ayı. Tahmin. Dayanak: Gesbey ikinci fabrika 30 milyon euro, CS Wind iki İzmir fabrikası yaklaşık 60 milyon dolar. Gesbey oranıyla (2.273 euro/ton yıllık kapasite, hesap) 10 bin ton kapasite yaklaşık 22,7 milyon euro, yaklaşık 25,5 milyon dolar eder. MEKA altyapısının düşürme etkisi ölçülmedi.",
+"sure_ilk_gelir": "Karardan 18 ile 24 ay sonra. Tahmin. Dayanak: önlisans en çok 24 ay, belgeler önlisans içinde sunulur, kurulum ve müşteri denetimi yaklaşık 12 ay. 18 ay iyimser senaryodur.",
+"yil3": "5 bin ton, gelir 9,8 milyon euro yani yaklaşık 11,0 milyon dolar, brüt kâr yüzde 8 ile 16 marjla 0,9 ile 1,8 milyon dolar. Hacim ve marj tahmin. Fiyat 1,96 euro/kg Eurostat.",
+"yil5": "10 bin ton, gelir 19,6 milyon euro yani yaklaşık 22,0 milyon dolar, brüt kâr yüzde 10 ile 16 marjla 2,2 ile 3,5 milyon dolar. Üst senaryo 15 bin ton ile 32,9 milyon dolar gelir, 3,3 ile 5,3 milyon dolar brüt kâr. Hacim tahmin.",
+"geri_odeme": "Brüt kârla karardan itibaren 7 ile 10 yıl: 12 milyon dolar bilet için yaklaşık yıl 7, 16 milyon dolar için yıl 9, 20 milyon dolar için yıl 10. Yüzde 10 marjda yıl 9 ile yıl 12. Net kârla 10 yıldan uzun. Hesap yüzde 13,2 marj ve yıl 3 5 bin ton, yıl 4 8 bin ton, yıl 5 sonrası 10 bin ton varsayar. Aritmetik doğrulandı.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kâr yıllık 2,2 ile 3,5 milyon dolar; dayanak 10 bin ton x 1,96 euro/kg (Eurostat, Türkiye fiyatı) ve yüzde 10 ile 16 brüt marj (CS Wind), 1 euro = 1,12 dolar; hacim tahmindir.",
+"varsayimlar": "Satış fiyatı Türkiye'nin AB'ye 1,96 euro/kg ihracat fiyatına eşit alındı. Bu fiyat AB sınırı ithalat değeridir, fabrika çıkış fiyatı daha düşük olabilir (tahmin). Üç aylık veri yıllığa çevrilmedi, fiyat olarak kullanıldı. İç piyasa fiyatı bulunamadı. Marj CS Wind 2021 ile 2025 brüt kâr satırından, yüzde 9,9 ile 16,0, yüzde 10 ile 16 alındı. Kule ağırlığı 55 ile 80 ton/MW tahmin. Hacim yıl 3 5 bin ton, yıl 5 10 bin ton tahmin, ulusal talebin yüzde 5 ile 9'u. Kur 1 euro = 1,12 dolar, 21 Ekim 2026 piyasa kuru yaklaşık 1,122 (Ekonomi Gazetesi sayfa başlığında 1,12192). Brüt kâr işletme gideri, amortisman ve vergiden önce. Alım sözü yok. Fiyat kazananların katkı payı baskısıyla düşebilir."
+},
+"emsaller": [
+{
+"tarih": "4 Haziran 2021",
+"taraflar": "CS Wind alıcı, Vestas satıcı. Pueblo, Colorado kule fabrikası, yüzde 100.",
+"bedel": "150 milyon dolar",
+"birim": "Yılda 3.000 üzeri kule parçası; parça başına yıllık kapasite için yaklaşık 50 bin dolar (hesap). Tek kaynak, sayfa açılamadı (HTTP 301, boş yanıt), doğrulanamadı.",
+"kaynak": "KED Global arama özeti [23]"
+},
+{
+"tarih": "22 Mayıs 2023",
+"taraflar": "Bridgepoint alıcı; Grupo Daniel Alonso yüzde 68 ve Siemens Gamesa yüzde 32 satıcı. Windar Renovables, denizüstü rüzgar için kule ve alt yapı üreticisi.",
+"bedel": "İlk değer 700 milyon dolar yalnız IPP Journal özetine dayanır, tek kaynak; Siemens Gamesa bildiriminde bedel yok",
+"birim": "Çarpan bulunamadı",
+"kaynak": "Siemens Gamesa [19]; IPP Journal [20]"
+},
+{
+"tarih": "10 Temmuz 2023",
+"taraflar": "CS Wind alıcı, Nordic Capital satıcı. Bladt Industries, denizüstü rüzgar alt yapıları.",
+"bedel": "Açıklanmadı",
+"birim": "Bulunamadı",
+"kaynak": "Offshorewind.biz [21]"
+},
+{
+"tarih": "2 Kasım 2023",
+"taraflar": "Gesbey, Bandırma ikinci fabrika. Beyçelik ve GRI ortaklığı.",
+"bedel": "30 milyon euro yeni yatırım",
+"birim": "Yılda 110 kule, 6,4 metre çap, kule başına 120 ton (sayfada böyle yazıyor, modern kule için düşük, ürün tanımı belirsiz); yaklaşık 2.270 euro/ton yıllık kapasite (hesap, tahmin)",
+"kaynak": "Para Dergi [6]"
+},
+{
+"tarih": "12 Mayıs 2022 haber tarihi",
+"taraflar": "CS Wind Türkiye, Aliağa ve ikinci İzmir fabrikası, ikinci fabrika açılışı cuma günü yapılacaktı.",
+"bedel": "Yaklaşık 60 milyon dolar, iki fabrikaya birlikte",
+"birim": "Haftada 20 kule parçası, 450 çalışan; parça ağırlığı bilinmediğinden ton birimi çıkarılamadı",
+"kaynak": "TGRT Haber [12]"
+},
+{
+"tarih": "26 Şubat 2025",
+"taraflar": "İş Enerji ile Maxis fonları, Ateş Çelik ortak kontrolünü devralıyor.",
+"bedel": "Açıklanmadı",
+"birim": "Bulunamadı. Ateş Çelik 1.500 MW karşılama kapasitesi beyan ediyor.",
+"kaynak": "Ekonomi Gazetesi, Rekabet Kurumu duyurusu [8]"
+}
+],
+"cevaplar": [
+{
+"soru": "Kazanan YEKA sahiplerinden kule alım niyeti var mı?",
+"durum": "gorusme",
+"cevap": "Yok. Yarışma tarihi duyurulmadı, kazananlar belli değil. Başvuranlardan yalnız Metgün Enerji kamuya açıklandı. YEKA-2025 kazananları Eksim Enerji, Soma Enerji, İçdaş, Stone Enerji, Kanat Rüzgar ve Balıkesir Elektrik adına kule alım sözü bulunamadı.",
+"kaynak": "Foreks/KAP [3]; CNBC-e [13]",
+"kime": "Yarışmaya giren 12 başvuru sahibi, Nordex, Goldwind ve Enercon satış birimleri; yarışma sonuçlarından sonra"
+},
+{
+"soru": "20 bin ton satış sözleşmesi gerçekçi mi?",
+"durum": "kismen",
+"cevap": "Sözleşme yok. 20 bin ton şişkin. Baz hacim 10 bin ton. Toplam YEKA-2026 kule çeliği 82 ile 120 bin ton (tahmin), üç yıla yayılırsa yılda 27 ile 40 bin ton. 10 bin ton bunun yüzde 25 ile 37'si, ulusal yıllık talebin yüzde 5 ile 9'u.",
+"kaynak": "Hesap; şartname [1]; TÜREB [26]",
+"kime": "Nordex, Goldwind, Enercon ve yarışma kazananları"
+},
+{
+"soru": "İlk gelir 18 ayda gelir mi?",
+"durum": "kismen",
+"cevap": "Zor. Sözleşme ve önlisans sonrası kule siparişi 2027 sonu ile 2028 arasında beklenir. Kurulum ve müşteri denetimi 12 ay sürerse ilk gelir karardan 18 ile 24 ay sonra gelir, 24 ay sınırında kalır (tahmin).",
+"kaynak": "Şartname madde 4, 6.3, 10 [1]",
+"kime": "MEKA üretim ve satın alma direktörleri"
+},
+{
+"soru": "Başvuru tarihi 13 Ekim 2026 doğru mu?",
+"durum": "cevaplandi",
+"cevap": "Doğru. Resmi Gazete ilanı 11 Temmuz 2026, sayı 33307. Başvurular 13 Ekim 2026'da saat 10.00 ile 12.00 arasında alınacaktı. Metgün Enerji başvurunun 13 Ekim 2026'da yapıldığını KAP'a bildirdi.",
+"kaynak": "Şartname [1]; Ekonomist/AA [2]; Foreks/KAP [3]",
+"kime": ""
+},
+{
+"soru": "Yarışmalar 2 Kasım 2026'da mı?",
+"durum": "kismen",
+"cevap": "Doğrulanamadı. Şartname, yarışma tarihinin ilk yarışmadan en az 3 gün önce Bakanlık sitesinde duyurulacağını söyler. Tarih bulunamadı. Ön kontroldeki 2 Kasım bilgisi tek haber kaynağıydı.",
+"kaynak": "Şartname madde 3.3.2 [1]",
+"kime": "Enerji ve Tabii Kaynaklar Bakanlığı, Enerji İşleri Genel Müdürlüğü duyuru sayfası"
+},
+{
+"soru": "CS Wind marjı Türkiye'ye aktarılır mı?",
+"durum": "kismen",
+"cevap": "Belirsiz. Beş yıllık konsolide brüt marj yüzde 9,9 ile 16,0. 2024 ve 2025 Amerika'daki yüksek hacimden etkilenmiş olabilir (tahmin). Türkiye fabrikası marjı bulunamadı. Aynı tabloda işletme kârı marjı yüzde 3,1 ile 10,9 (hesap). Model brüt marj yüzde 10 ile 16 kullanır.",
+"kaynak": "CS Wind [5]",
+"kime": "CS Wind yatırımcı ilişkileri; Gesbey ve Ateş Çelik yönetimi"
+},
+{
+"soru": "Türkiye'de 7 kule tesisi var mı?",
+"durum": "kismen",
+"cevap": "Sayı doğrulanamadı. İsimli üreticiler: Gesbey iki fabrika, CS Wind iki İzmir fabrikası ve üçüncü fabrika planı, Ateş Çelik. Kapasite Gesbey 430 kule/yıl, Ateş Çelik 1.500 MW beyanı. Ton bazında ulusal kapasite bulunamadı.",
+"kaynak": "Para Dergi [6]; TGRT [12]; Ekonomi Gazetesi [8]",
+"kime": "TÜREB ve Sanayi ve Teknoloji Bakanlığı"
+},
+{
+"soru": "Kule ton/MW değeri nedir?",
+"durum": "kismen",
+"cevap": "Resmi kaynak bulunamadı. Tahmin 55 ile 80 ton/MW. Tek dayanak 2,3 MW türbinin üç bölümü: yaklaşık 63 ton/MW, ama sayfadaki bölüm boyları göbek yüksekliğinden kısa, ağırlık eksik olabilir. Ön kontroldeki 30 ile 53 ton/MW eski türbinlere dayanıyordu ve düşük kalır.",
+"kaynak": "Energyskeptic [24]; hesap",
+"kime": "Nordex ve Enercon kule teknik şartnameleri; Gesbey"
+},
+{
+"soru": "res_temel ile aynı müşteri toplantısı yapılabilir mi?",
+"durum": "gorusme",
+"cevap": "Evet, müşteri aynı: YEKA kazananları ve türbin üreticileri. Temel paketi ile kule tek görüşmede sunulabilir. Henüz görüşme yok.",
+"kaynak": "Şartname Ek-2 [1]",
+"kime": "MEKA satış direktörü"
+},
+{
+"soru": "MEKA'nın mevcut altyapısı bileti ne kadar düşürür?",
+"durum": "gorusme",
+"cevap": "Ölçülmedi. Bilet 12 ile 20 milyon dolar tahmini. Gesbey oranı 2.273 euro/ton yıllık kapasite (hesap), 10 bin ton için yaklaşık 25,5 milyon dolar eder. Düşüş için MEKA'nın bükme tezgahı, kaynak, kumlama, boya ve vinç envanteri bölüm bölüm kontrol edilmeli.",
+"kaynak": "Tahmin; Gesbey 30 milyon euro [6], CS Wind 60 milyon dolar [12] ile kıyas",
+"kime": "MEKA üretim müdürü ve mühendislik"
+}
+],
+"kapilar": {
+"yatirim": "sirket",
+"butce": 4,
+"butce_not": "Giriş ilk 24 ayda 12 ile 20 milyon dolar, tahmin. Dayanak Gesbey 30 milyon euro ve CS Wind iki İzmir fabrikası 60 milyon dolar. Gesbey oranı 10 bin ton için yaklaşık 25,5 milyon dolar eder (hesap). MEKA'nın mevcut altyapısı bileti düşürür, ne kadar düşürdüğü ölçülmedi. Bilet 10 milyon doların üstünde olduğu için dilim 4.",
+"yol": "kur",
+"yol_not": "MEKA kendi tesisinde kurar. Şirket borsada kote olduğu için karar ve KAP açıklaması şirket düzeyindedir. Ortak yol yedek: Gesbey, GRI ya da CS Wind ile teknik ortaklık Rekabet Kurumu bildirimi gerektirebilir, Ateş Çelik devri örneği."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "kismi",
+"acik_sorular": [
+"Görüşme gerekir: Kazanan YEKA sahiplerinden kule alım niyeti var mı? (Yarışmaya giren 12 başvuru sahibi, Nordex, Goldwind ve Enercon satış birimleri; yarışma sonuçlarından sonra)",
+"Kısmen cevaplandı: 20 bin ton satış sözleşmesi gerçekçi mi?",
+"Kısmen cevaplandı: İlk gelir 18 ayda gelir mi?",
+"Kısmen cevaplandı: Yarışmalar 2 Kasım 2026'da mı?",
+"Kısmen cevaplandı: CS Wind marjı Türkiye'ye aktarılır mı?",
+"Kısmen cevaplandı: Türkiye'de 7 kule tesisi var mı?",
+"Kısmen cevaplandı: Kule ton/MW değeri nedir?",
+"Görüşme gerekir: res_temel ile aynı müşteri toplantısı yapılabilir mi? (MEKA satış direktörü)",
+"Görüşme gerekir: MEKA'nın mevcut altyapısı bileti ne kadar düşürür? (MEKA üretim müdürü ve mühendislik)"
+],
+"bant": "izle",
+"puan_metni": "Yönetici isteğiyle derin çalışma (21 Ekim 2026), bant önerisi izle: Talep kuralla yaratılıyor ve fiyat ile marj kaynaklı, ama kule zorunlu değil, ilk giren avantajı yok, kurulu kule kapasitesi geniş ve hiçbir alım sözü yok. Yıl 5 brüt kâr 2,2 ile 3,5 milyon dolar, geri ödeme brüt kârla 7 ile 10 yıl, yüzde 10 marjda 9 ile 12 yıl, net kârla 10 yıldan uzun. Bilet 12 ile 20 milyon dolar, ama Gesbey oranıyla 10 bin ton hat yaklaşık 25,5 milyon dolar eder, bilet iyimser olabilir. Fiyat AB sınırı değeridir, fabrika çıkış fiyatı düşük olabilir. Yönetimin dört ölçütünden yalnızca taştan tozdan farklı olma tam sağlanıyor. Yarışma sonuçları ve kazananlardan en az 5 bin ton/yıl için bağlayıcı niyet mektubu gelirse ikincil banda alınabilir.",
+"kapsam_notu": "21 Ekim 2026 derin çalışma: 14 arama, 26 sayfa; 10 açık sorunun 1 tanesi cevaplandı, 3 tanesi görüşme gerektiriyor. Çürütücü 13 sayfa açtı, güven 4/5. Yarışma tarihi bulunamadı, 2 Kasım iddiası doğrulanamadı. Kule ton/MW için resmi kaynak yok, tek kaynaklı zayıf dayanak kullanıldı ve sayfadaki bölüm boyları göbek yüksekliğinden kısa. İç piyasa kule fiyatı bulunamadı, yalnız AB ihracat fiyatı var, bu AB sınırı değeridir ve Eurostat verisine aracı siteden ulaşıldı. CS Wind Türkiye marjı bulunamadı ve CS Wind tablosu 2021 ile 2023 için kendi içinde tutarsız. YEKA-2025 katkı payı toplamı Bakan beyanı ile teklif çarpımı arasında 35 milyon euro farklı. Türkiye'de 7 kule tesisi ve toplam kule kapasitesi doğrulanamadı. Vestas Pueblo satışı (sayfa açılamadı) ve TÜREB 16.231,08 MW rakamı yalnız arama özetinden, doğrulanamadı. Windar 700 milyon dolar rakamı yalnız IPP Journal özetine dayanır, Bladt bedeli açıklanmadı, çarpan yok. Capital, SAYAS, Dirinler, Dongfang, IPP Journal, Bladt, Hürriyet, İSO ve Ekonomi Gazetesi sözleşme sayfaları çürütücü tarafından açılmadı. Yerli Malı Belgesi süreci, yüzde 51 yerli katkının çelik levha kaynağı ve teşvik konuları incelenemedi. Alım niyeti hiçbir kazanandan alınmadı.",
+"guven": 4,
+"tarih": "21 Ekim 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "MEKA ile ilgili",
+"kol_id": "meka_ozel",
+"kol_ad": "Özel firmalar",
+"kisa": "Rüzgar türbini çelik kule hattı",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_res_kule",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 2.0,
+"H": 2.0,
+"R": 1.67,
+"E": 2.0,
+"M": 3.0,
+"S": 2.0,
+"B": 1,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 2,2 ile 3,5 M$; hacim tahmin, alım sözü yok.",
+"H": "Karardan 18 ile 24 ay sonra; yarışma tarihi duyurulmadı.",
+"R": "Kule zorunlu değil, kulesiz 88 puan; Gesbey, CS Wind, Ateş Çelik kurulu.",
+"E": "Kazananlar belli değil; 12 başvuru sahibi, alım sözü yok, rekabet yoğun.",
+"M": "Ağır sac, kaynak, kumlama, boya uyar; yeni hat için 12 ile 20 M$.",
+"S": "Teknolojik değil, ilk giren yok; yalnız taştan tozdan bağımsız enerji geliri."
 },
 "puan_yayilim": []
 },
@@ -40698,6 +42002,8 @@ window.MEKA_DATA = {
 "turbin_yan",
 "elektrikli_oto",
 "cin_otobus_ort",
+"atv_utv",
+"res_kule",
 "izle_meka",
 "beylikova",
 "belediye",
@@ -40897,6 +42203,8 @@ window.MEKA_DATA = {
 "turbin_yan",
 "elektrikli_oto",
 "cin_otobus_ort",
+"atv_utv",
+"res_kule",
 "izle_meka"
 ]
 },
@@ -41515,25 +42823,11 @@ window.MEKA_DATA = {
 "konu_id": ""
 },
 {
-"tarih": "20 Ekim 2026",
-"iso": "2026-10-20",
-"olay": "AB aşağı akış genişletmesi için ilk siyasi üçlü görüşme, Strazburg genel kurulu sırasında.",
-"kaynak": "rapor https://www.mayerbrown.com/en/insights/publications/2026/10/eus-cbam-downstream-extension-and-anti-circumvention-amendments-the-road-to-trilogue",
-"konu_id": "cimento"
-},
-{
-"tarih": "20 Ekim 2026",
-"iso": "2026-10-20",
-"olay": "CBAM aşağı akış genişletmesinde ilk resmi üçlü görüşme, Strazburg oturumu sırasında.",
-"kaynak": "rapor https://www.mayerbrown.com/en/insights/publications/2026/10/eus-cbam-downstream-extension-and-anti-circumvention-amendments-the-road-to-trilogue",
-"konu_id": "trafo"
-},
-{
-"tarih": "20 Ekim 2026",
-"iso": "2026-10-20",
-"olay": "MACSE-2 ihale öncesi teminat ve depolama beyanları son günü, yalnız kabul edilmiş operatörler. ESS News teyit; Solare Industriale 40 gün kuralıyla Ekim ortası diyor.",
-"kaynak": "haber https://www.ess-news.com/2026/06/02/italy-sets-november-date-for-macse-storage-auction-targeting-16-gwh/",
-"konu_id": "depolama_hak"
+"tarih": "21 Ekim 2026",
+"iso": "2026-10-21",
+"olay": "8. tur: ATV ve UTV (benzinli ve elektrikli) ve rüzgar türbini çelik kulesi yaprakları eklendi ve puanlandı; ikinci keşif turunda 51 aday arandı",
+"kaynak": "bu uygulama",
+"konu_id": ""
 },
 {
 "tarih": "20 ile 21 Ekim 2026",
@@ -42185,6 +43479,13 @@ window.MEKA_DATA = {
 "olay": "MEKA iç karar noktası: EPDK cevabı, pilot ölçümleri, toptan fiyat ve Ocak 2027 tarifesiyle yeniden değerlendirme. Bu çalışma.",
 "kaynak": "bu çalışma",
 "konu_id": "balkon_ges"
+},
+{
+"tarih": "30 Nisan 2027",
+"iso": "2027-04-30",
+"olay": "Pilot sonrası bayilik ya da distribütörlük kararı, plan",
+"kaynak": "plan, bu çalışma",
+"konu_id": "atv_utv"
 },
 {
 "tarih": "30 Nisan 2027",
@@ -43561,6 +44862,22 @@ window.MEKA_DATA = {
 "aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 7 açık sorunun 0 tanesi cevaplandı, 7 tanesi görüşmeye kaldı. 24 şirket, 13 emsal işlem. Kanıt 3/5."
 },
 {
+"no": "Ek",
+"ad": "ATV ve UTV: benzinli ve elektrikli arazi aracı (derin çalışma)",
+"tarih": "21 Ekim 2026",
+"sayfa": 13,
+"pdf": "Calisma_atv_utv.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 7 açık sorunun 3 tanesi cevaplandı, 3 tanesi görüşmeye kaldı. 16 şirket, 7 emsal işlem. Kanıt 3/5."
+},
+{
+"no": "Ek",
+"ad": "Rüzgar türbini çelik kule hattı (derin çalışma)",
+"tarih": "21 Ekim 2026",
+"sayfa": 10,
+"pdf": "Calisma_res_kule.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 10 açık sorunun 1 tanesi cevaplandı, 3 tanesi görüşmeye kaldı. 23 şirket, 6 emsal işlem. Kanıt 3/5."
+},
+{
 "no": "Ağaç",
 "ad": "Karar ağacı posteri",
 "tarih": "15 Ekim 2026",
@@ -44029,6 +45346,20 @@ window.MEKA_DATA = {
 "tur": "derin",
 "kisa": "Derin çalışma, 20 Ekim 2026",
 "sayfa_sayisi": 8
+},
+"c_atv_utv": {
+"ad": "ATV ve UTV: benzinli ve elektrikli arazi aracı: derin çalışma (21 Ekim 2026, 13 sayfa)",
+"pdf": "Calisma_atv_utv.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 21 Ekim 2026",
+"sayfa_sayisi": 13
+},
+"c_res_kule": {
+"ad": "Rüzgar türbini çelik kule hattı: derin çalışma (21 Ekim 2026, 10 sayfa)",
+"pdf": "Calisma_res_kule.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 21 Ekim 2026",
+"sayfa_sayisi": 10
 }
 },
 "dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Dal ve kol yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz yaprağın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; yapraklar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk yapraklar arası ve yaprak ile bölge arası tutarlılıkta: ağacın ön bandı yedi yaprakta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir yaprakta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B yapraklarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki yaprağın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
@@ -44831,6 +46162,21 @@ window.MEKA_DATA = {
 {
 "yaprak": "elektrikli_oto",
 "dosya": "c_elektrikli_oto"
+}
+]
+},
+{
+"ad": "Yönetici sorusu ve keşif: ATV, rüzgar kulesi",
+"tarih": "21 Ekim 2026",
+"aciklama": "Yönetici ATV sektörünü sordu (benzinli mi, elektrikli mi): derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
+"yaprak_belgeleri": [
+{
+"yaprak": "res_kule",
+"dosya": "c_res_kule"
+},
+{
+"yaprak": "atv_utv",
+"dosya": "c_atv_utv"
 }
 ]
 },
