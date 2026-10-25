@@ -1,10 +1,10 @@
 window.MEKA_DATA = {
-"baslik": "İki dal, altı kol, 55 yaprak",
+"baslik": "İki dal, altı kol, 56 yaprak",
 "alt_baslik": "Her yaprakta bir sayfalık özet, altında tam çalışma. Üst dal kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 yaprak 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
-"derleme_tarihi": "21 Ekim 2026",
-"bugun_iso": "2026-10-21",
-"surum": "Sürüm 21 Ekim 2026, 8. tur · ATV ve UTV ile rüzgar kulesi yaprakları eklendi; 7. tur:  MEKA dalının en yüksek puanlı 8 yaprağı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık yaprakları eklendi; 50 yaprak üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
+"derleme_tarihi": "24 Ekim 2026",
+"bugun_iso": "2026-10-24",
+"surum": "Sürüm 24 Ekim 2026, 9. tur · Test laboratuvarı yaprağı eklendi; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA dalının en yüksek puanlı 8 yaprağı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık yaprakları eklendi; 50 yaprak üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
 "agac": [
 {
 "id": "meka",
@@ -41,6 +41,7 @@ window.MEKA_DATA = {
 "cin_otobus_ort",
 "atv_utv",
 "res_kule",
+"test_lab",
 "izle_meka"
 ]
 },
@@ -5358,7 +5359,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 21 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört kolun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
+"butce_not": "Dilim 24 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört kolun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
 "yol": "ortak",
 "yol_not": "Rapor yalnız alt yüklenicilik ve entegratörle ortaklık öneriyor; Koluman için doğal ortak ya da müşteri diyor. Kendi markalı vinç 1,55 puanla elenmiş. Yatırım tarafı varsayım: rapor Eskişehir tesisini esas alıyor, kişisel yatırım seçeneği çalışmalarda yok."
 },
@@ -5742,7 +5743,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 21 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
+"butce_not": "Dilim 24 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
 "yol": "ikisi",
 "yol_not": "Varsayım. Rapor giriş yolu olarak NSPA tedarikçi kaydı ve Avrupa askerî MRO merkezlerine platform tedariki gösteriyor; bu MEKA'nın kendi ürettiği ürünün doğrudan satışı. Ayrıca TUSAŞ ve ASFAT ihracat programlarına alt yüklenicilik ile ASFAT portalı ve STM tedarikçi kaydı var. Ortaklık, lisans ya da pay alma önerisi çalışmalarda yok."
 },
@@ -7279,7 +7280,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "ikisi",
 "butce": 3,
-"butce_not": "Dilim 21 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
+"butce_not": "Dilim 24 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
 "yol": "ortak",
 "yol_not": "Yatırım kapısı 'ikisi' yapıldı: sahada MEKA makinesi gerekmiyor, şirket de kişi de girebilir (ajan değeri sirket). 08 Bölüm 5 önerilen karma: önce bölge EPC ve sözleşmeli imalat ortaklığı, üstüne hizmet olarak ısı pilotu, paralelde yerli firmaya yatırım keşfi. Sıfırdan Ar-Ge yalnız yerlileştirme mühendisliği düzeyinde; lisans ve yerel üretim ancak 2-3 referans sonra. Şirket üzerinden yürütme 07 ve 08'in MEKA odaklı kurgusundan çıkarım, varsayım. Yerli firmaya yatırım kişisel de olabilir, varsayım."
 },
@@ -16599,6 +16600,764 @@ window.MEKA_DATA = {
 "E": "Kazananlar belli değil; 12 başvuru sahibi, alım sözü yok, rekabet yoğun.",
 "M": "Ağır sac, kaynak, kumlama, boya uyar; yeni hat için 12 ile 20 M$.",
 "S": "Teknolojik değil, ilk giren yok; yalnız taştan tozdan bağımsız enerji geliri."
+},
+"puan_yayilim": []
+},
+"test_lab": {
+"id": "test_lab",
+"dal": "meka",
+"kol": "ozel",
+"baslik": "Titreşim, çevre koşulları ve ölçüm test laboratuvarı",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "Yönetici isteği",
+"bolum": "24 Ekim 2026: yönetici ölçüm ve titreşim test laboratuvarını sordu; derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı",
+"tarih": "24 Ekim 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_test_lab",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "STEST Standart Kontrol ve Test Hizmetleri A.Ş.",
+"rol": "rakip",
+"not": "Malıköy Anadolu OSB, 2017; TÜRKAK 2021; 10 ve 50 kN sarsıcı, 70.000 feet irtifa odası, 70 ton taşıyan döner tablalı oda; 1.500'ü aşkın müşteri ve 20.000'i aşkın test beyanı; e-posta alan adı Nero Industry.",
+"kaynak": "https://www.stest.com.tr; https://www.ostimsavunma.org/companies/standart-kontrol-ve-test-hizmetleri-anonim-sirketi-1; https://www.ostimsavunma.org/public/files/migrated/stest-katalogtr-2-20230113093139-0001808.pdf"
+},
+{
+"ad": "Roketsan Çevre Koşulları Test Laboratuvarı",
+"rol": "rakip",
+"not": "1991'den beri; TÜRKAK 2012; MIL-STD-810F/G, 331 ve 167 kapsamı; enerjik malzeme test edebiliyor; savunma ve sivil müşterilere hizmet veriyor.",
+"kaynak": "https://roketsan.com.tr/en/solutions/services/environmental-conditions-test-services"
+},
+{
+"ad": "TÜBİTAK SAGE",
+"rol": "rakip",
+"not": "TÜRKAK akredite çevre test laboratuvarı; 70 kN sarsıcı ve 140 kN şok, Ex-proof 200 kN sarsıcı ve 400 kN şok, 20 kN ikinci sistem; 65 ton taşıyan buzlanma odası.",
+"kaynak": "https://www.sage.tubitak.gov.tr/en/our-services/environmental-test-services/"
+},
+{
+"ad": "BIAS Mühendislik",
+"rol": "ortak_adayi",
+"not": "Merkez İstanbul Altunizade, fabrika Kahramankazan; TOSB otomotiv test merkezi MIL-STD-810G prosedür I ve II titreşim, şok ve iklim için akredite beyanı; Türkiye'nin en büyük özel test merkezi beyanı; rakip de olabilir.",
+"kaynak": "https://ostim.org.tr/companies/bias-muhendislik-ltd-sti-1"
+},
+{
+"ad": "Teknolus",
+"rol": "ortak_adayi",
+"not": "ODTÜ Teknokent; düşük kuvvet sarsıcı, 120 kg yük; akreditasyon beyanı yok.",
+"kaynak": "https://test.teknolus.com/cevre-kosul/titresim"
+},
+{
+"ad": "GTL Global Tech Laboratory",
+"rol": "rakip",
+"not": "İzmir; MIL-STD-810 F-G-H ve DO-160 testi, onaylanmış kuruluş 2729.",
+"kaynak": "https://gtl.com.tr"
+},
+{
+"ad": "TSE",
+"rol": "kurum",
+"not": "Temelli Kalite Kampüsü kalibrasyon dahil 7 laboratuvarla açılışa hazır, 27 Nisan 2026; kalibrasyonda kamu rakibi.",
+"kaynak": "https://www.gazetebirlik.com/yasam/sanayide-devrim-yaratacak-dev-yatirim-tsenin-yeni-ussu-kapilarini-aciyor/981413"
+},
+{
+"ad": "TÜBİTAK MAM",
+"rol": "kurum",
+"not": "2026 fiyat listesinde tuz püskürtme 225 TL/saat, KDV hariç; kamu fiyat çıpası.",
+"kaynak": "https://mam.tubitak.gov.tr/wp-content/uploads/sites/129/Test-ve-Analiz-Fiyat-Listesi-2026.pdf"
+},
+{
+"ad": "TÜRKAK",
+"rol": "kurum",
+"not": "Akredite gelirin yüzde 1'i kullanım payı, eşik 1,5 milyon TL.",
+"kaynak": "https://www.alomaliye.com/2026/01/07/turk-akreditasyon-kurumunca-uygulanacak-akreditasyon-kullanim-ucreti-payina-dair-teblig-turkak-2026-1/"
+},
+{
+"ad": "Savunma Sanayii Başkanlığı",
+"rol": "kurum",
+"not": "2025 ihracatı 10,054 milyar dolar, yeni sözleşmeler 17,8 milyar dolar; SSB proje onaylı yatırımlar öncelikli.",
+"kaynak": "https://www.borsagundem.com.tr/savunma-ve-havacilik-ihracati-10-milyar-dolar-esigini-asti"
+},
+{
+"ad": "OSSA OSTİM Savunma ve Havacılık Kümesi",
+"rol": "musteri",
+"not": "2021'de 270'i aşkın üye bildirmişti, arama özeti; STEST üye profili kümede.",
+"kaynak": "https://www.ostimsavunma.org"
+},
+{
+"ad": "ASELSAN, TUSAŞ, FNSS",
+"rol": "musteri",
+"not": "Ana yüklenici; laboratuvar kabul listeleri ve dış test harcamaları bulunamadı.",
+"kaynak": "Bulunamadı; görüşme"
+},
+{
+"ad": "OSTİM Teknik Üniversitesi ve Korucu Makine",
+"rol": "emsal",
+"not": "Yerli çoklu stres test laboratuvarı TEİAŞ onayıyla 15 Nisan 2026'da açıldı.",
+"kaynak": "https://ostim.org.tr/news/multiple-stress-testing-laboratory-commissioned-at-ostim-tec"
+},
+{
+"ad": "Eurofins",
+"rol": "emsal",
+"not": "Element'in Kuzey Amerika yaşam bilimleri test işi, 400 milyon dolar, 20 Temmuz 2026; Türkiye'de Gözlem'i almıştı.",
+"kaynak": "https://www.eurofins.com/en/media-centre/press-releases/eurofins-agrees-to-acquire-element-materials-technology-s-life-sciences-testing-services-business-in-north-america/"
+},
+{
+"ad": "Element Materials Technology",
+"rol": "emsal",
+"not": "NTS'yi 26 Eylül 2022'de aldı, 29 laboratuvar, bedel açıklanmadı.",
+"kaynak": "Arama özeti; https://www.businesswire.com/news/home/20220927005596/en/Element-Materials-Technology-Acquires-National-Technical-Systems"
+},
+{
+"ad": "Applus+",
+"rol": "emsal",
+"not": "2024 teklif yarışında ISQ ve TDR 12,78 avro ve yaklaşık 1.650 milyon avro, Apollo 12,51 avro ve 1.614,7 milyon avro değer.",
+"kaynak": "https://www.merca2.es/2024/04/26/applus-alza-11-1655001/"
+},
+{
+"ad": "ALS",
+"rol": "emsal",
+"not": "Antalya'daki Proanaliz'i 9 Ağustos 2023'te aldı, Türkiye'de 9 laboratuvar.",
+"kaynak": "https://www.alsglobal.com/en/News-and-publications/2023/08/Acquisition-of-Proanaliz"
+},
+{
+"ad": "TÜV Austria",
+"rol": "emsal",
+"not": "Türk tahribatsız muayene firması Sila Kalite'yi aldı.",
+"kaynak": "https://www.pressetext.com/news/ndt-pioneer-sila-kalite-acquired-by-t-v-austria-group.html"
+},
+{
+"ad": "Tartu Üniversitesi",
+"rol": "emsal",
+"not": "15 Haziran 2026 tarihli elektrodinamik titreşim sistemi ihalesi, 114.000 avro tahmini değer.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/407181-2026"
+},
+{
+"ad": "Fraunhofer",
+"rol": "emsal",
+"not": "2025'te lityum iyon batarya titreşim ve şok testi için elektrodinamik sarsıcı ihalesi.",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/490499-2025"
+},
+{
+"ad": "HBK Brüel & Kjær LDS, IMV, Weiss Technik",
+"rol": "tedarikci",
+"not": "Sarsıcı ve iklim odası tedarikçileri; Türkiye fiyatı bulunamadı, teklif istenmeli.",
+"kaynak": "Bulunamadı"
+},
+{
+"ad": "Hi-Test Labs",
+"rol": "emsal",
+"not": "ABD'de ek titreşim testi 1.000 dolar/saat, 65K titreşim tablası aylık 20.000 dolar, 2023.",
+"kaynak": "https://hitestlabs.com/s/2023-Rates_Update.pdf"
+}
+],
+"celiskiler": [
+"16 Ekim 2026 tarihli Teknolus çalışması Ankara'da özel ve bağımsız akredite çevre koşul laboratuvarı bulamamıştı; bu turda STEST, Malıköy, 2017, TÜRKAK 2021, MIL-STD-810 ve DO-160 kapsamı beyanıyla ve BIAS TOSB test merkezi MIL-STD-810G akredite beyanıyla bulundu.",
+"STEST alanı web sitesinde 9.000 m², Kasım 2022 kataloğunda ve OSSA profilinde 4.000 m²; fark büyüme olabilir.",
+"BIAS'ın fabrikası Ankara Kahramankazan'da, merkezi İstanbul'da; akredite beyanlı test merkezi TOSB adını taşıyor ve OSTİM profili ilini yazmıyor. TOSB adı Kocaeli'deki TAYSAD OSB'yi akla getiriyor; test merkezinin Ankara'da olup olmadığı teyit edilmeli.",
+"Roketsan AB-0548-T sertifikasının geçerlilik tarihi bir arama özetinde 7 Mayıs 2025, başka bir özette 7 Mayıs 2029; PDF açılamadı.",
+"Karşı okuma (yuksek): Yıl 5'te küçük laboratuvarda sarsıcı doluluğu yüzde 55 ile 70, akredite titreşim saati 120 ile 180 dolar; önerilen yolun brüt kârı 0,40 ile 1,16 milyon dolar. İtiraz: Bu iki varsayım modelin bel kemiği ama ikisinin de Türkiye kaynağı yok. Yeni giren, beşinci yılında altıdan fazla yerleşik rakibe karşı yüzde 55 ile 70 doluluğa ulaşmaz. Kamu laboratuvarları teklifle çalışıyor ve kamu tarifesi çok düşük. Daha gerçekçi aralık yüzde 35 ile 55 doluluk ve 90 ile 150 dolar saat ücreti. Bu durumda küçük laboratuvarın yıl 5 brüt kâ",
+"Karşı okuma (orta): Ankara ve çevresinde dört rakip var: STEST, Roketsan, SAGE, BIAS. GTL İzmir'de. İtiraz: Rakip sayısı az gösterilmiş. GTL'nin test tesisi İzmir'de değil, Kocaeli Dilovası'nda; İzmir yalnız telefon kodu. Tesis TÜRKAK akreditasyonuyla MIL-STD ve DO-160 titreşim, şok ve iklim testi yapıyor. Gebze OSB'de Tekno Kauçuk'un TÜRKAK akrediteli titreşim ve şok test merkezi var, bilgi 2016 tarihli ve tek kaynak. Ankara'da STG Mühendislik kendi ISO/IEC 17025",
+"Karşı okuma (orta): Başkent Üniversitesi 2023 tezi bir Ankara savunma firmasında test gecikmesini ve kapasite boşluğunu gösteriyor. İtiraz: Tez aslında ters yönde bir kanıt. Firma bir yıllık talebini inceliyor ve dışarıdan almak yerine kendi MIL-STD-810 çevre test laboratuvarını kurmaya karar veriyor. Bu, savunma firmalarının testi içeri aldığını ve dış talebin küçüldüğünü gösteriyor. STG ilanı da aynı eğilimi destekliyor. Bekleme süresi verisi tezde yok.",
+"Karşı okuma (orta): SAGE kapasitesi 70 kN ve 200 kN sarsıcı ile 65 ton taşıyan buzlanma odası. İtiraz: SAGE'in kamu kapasitesi çalışmada yazılandan da büyük ve geniş. Hizmet listesinde MIL-STD-810H dahil akredite irtifa, sıcaklık ve ısıl şok testleri var. Listede 5 x 5 x 21 metre boyutunda iklim odası, güneş ışıması ve yağmur testleri de geçiyor. Büyük parça ve tam sistem testi kamuda karşılanıyor. Yeni girene kalan iş küçük parça testi. Orada da STEST ve GTL",
+"Karşı okuma (orta): MEKA'nın kendi savunma prototipleri çapa müşteri olur; prototip başına 20 ile 80 bin avro test bütçesi. İtiraz: İç talep küçük laboratuvarın gelirinin küçük bir kısmını taşır. Yılda 3 ile 5 prototip olsa yıllık 0,07 ile 0,45 milyon dolar eder. Bu da tek tesise değil, birden çok test türüne dağılır. 1,2 ile 1,9 milyon dolarlık bilet için çapa sayılmaz. Dış niyet mektubu şartı doğru ama yetmez. Bağlayıcı kapasite sözleşmesi gerekir.",
+"Karşı okuma (orta): Akredite ilk fatura 15 ile 18 ayda; akreditasyon 12 ile 18 ay. İtiraz: Süre için kaynak bulunamadı. Bu süreye ana yüklenici laboratuvar kabulü eklenmemiş. Ana yüklenici listeleri kamuya açık değil; nitelendirme ek 6 ile 12 ay alabilir, tahmin. Savunma geliri 2 ile 2,5 yıla kayabilir. Bu, yıl 3 gelirini ve yıl 5 doluluk rampasını aşağı çeker."
+],
+"degisiklikler": [
+"24 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"24 Ekim 2026 bağımsız karşı okuma eklendi: yıl 5 brüt kâr 0,25 ile 0,75 milyon dolara düşürüldü, laboratuvar için üç şart yazıldı",
+"SAGE: sayfada üç sarsıcı var; 70 kN ve 140 kN şoklu birinci sisteme ek olarak Ex-proof üçüncü sistem 200 kN sinüs ve rastgele, 400 kN şok, ikinci sistem 20 kN. 70 kN en büyük sarsıcı değil; rakamlar, durum, firmalar, bant gerekçesi, riskler ve çalışma metni düzeltildi.",
+"BIAS: OSTİM profilinde akredite beyan TOSB otomotiv test merkezine ait; Kahramankazan fabrika, merkez İstanbul Altunizade. BIAS Kahramankazan'da akredite beyanıyla çalışıyor ifadesi düzeltildi, çelişkilere ve açık sorulara test merkezinin yeri eklendi.",
+"Applus+: Merca2 sayfasında ISQ ve TDR teklifinin şirketin tamamına yaklaşık 1.650 milyon avro değer biçtiği yazıyor; arama özeti ibaresi silindi, ilgili çelişki kaldırıldı, emsal birimi ve firma notu güncellendi.",
+"Yol c yıl 3 aritmetiği: 8.000 cihaz x 80 dolar = 640 bin dolar, 0,5 değil; gelir 0,2 ile 0,64, brüt 0,10 ile 0,38 milyon dolar olarak düzeltildi.",
+"Yol d: tesis sayısı x 8 ile 20 bin dolar çarpımı gelir aralığını vermiyor; gelir aralığı ortalama tesis başı 12,5 ile 17 bin, yıl 5'te 10 ile 17 bin dolarla tutarlı; dayanak açıklandı, varsayımlara eklendi.",
+"Tartu ihalesi: TED kaydında yayım tarihi 15 Haziran 2026, teslim sözleşmeden sonra en geç 12 ay; tarih takvime, emsale ve metne eklendi, kuvvet sınıfı kayıtta yok diye düzeltildi.",
+"Aventis: medyan 10,1 kat FAVÖK 24 işlemden, 2,4 kat gelir 72 işlemden hesaplanmış; 25 milyon doların altındaki bölgesel laboratuvarlar aralığın alt ucunda; açıklamalara eklendi.",
+"STEST alan çelişkisi: 4.000 m² Kasım 2022 kataloğunda da geçiyor; kaynak eklendi. Katalogdan 70 ton taşıyan döner tabla ve Malıköy Anadolu OSB doğrulandı.",
+"Borsa Gündem haberinin tarihi 3 Ocak 2026 olarak eklendi; SSB ifadesi teslimatların hızlandığı yerine sayfadaki gibi teslimatların artacağı yıl yapıldı.",
+"TÜBİTAK MAM: 225 TL/saat doğrulandı, KDV hariç ve oran yüzde 20; 600 saate kadar 188, üstü 150 TL kademeleri eklendi.",
+"9903: madde 9 birinci fıkra l bendi test merkezi, d bendi SSB onaylı savunma yatırımı olarak doğrulandı ve cevapta bent belirtildi.",
+"Doğrulananlar, değiştirilmedi: Hi-Test 1.000 dolar/saat ve 65K tabla 20.000 dolar/ay; Clemson 3.600 ve 275 dolar/gün; STEST 9.000 m², TÜRKAK 2021, 100'ü aşkın kapsam, 20.000 test, 1.500 müşteri, 10 ve 50 kN, 70.000 feet; Roketsan 1991, TÜRKAK 2012, MIL-STD-810F/G, 331, 167; TÜRKAK yüzde 1, 1,5 milyon TL, Mart 2027; SSB 10,054 ve 17,8 milyar dolar, yüzde 3,7, 5,6 milyar dolar; Eurofins 400 milyon dolar, 150 milyon dolar gelir, 27 laboratuvar, 750 çalışan, 2026 dördüncü çeyrek; Tartu 114.000 avro; TCMB satış 49,6540 TL ve 55,5997 TL.",
+"Ekonomi aritmetiği kontrol edildi: yol a bilet toplamı 3,73 ile 5,96, yıl 3 hesabı 628 x 1,20 = 754 ve 1.357 x 1,25 = 1.696 bin dolar, brüt yüzde 45 ve 55 ile 0,34 ve 0,93; yıl 5 brüt 0,49 ve 1,22; yol b bilet 1,18 ile 1,90; yol e pay hesabı 0,36 ve 1,66; önerilen yol toplamları ve geri ödeme adımları 1,77, 0,335, 1,425, 0,345 doğru; yol a 4,85, 1,33, 3,52 ve yıl 11 doğru.",
+"Kaynaksız kalan iki ifade tahmin olarak işaretlendi: doluluk yüzde 35 altında geri ödemenin 10 yılı aşması ve yıl 5 kâr potansiyelinin dayanağı; yol c ve d geri ödeme yılları da tahmin diye işaretlendi.",
+"Sınırlar güncellendi: çürütücü turu yapıldı, 16 sayfa açıldı."
+],
+"ne": "Ankara'da TÜRKAK ISO/IEC 17025 akreditasyonlu bağımsız test laboratuvarı: elektrodinamik sarsıcıyla titreşim ve şok, sıcaklık, nem, tuz sisi, toz, yağmur ve irtifa testleri, isteğe bağlı EMC; yanında kalibrasyon ve titreşim ölçümüne dayalı kondisyon izleme hizmeti.",
+"neden": "Savunma ve havacılık ihracatı 2025'te 10,054 milyar dolara, yeni sözleşmeler 17,8 milyar dolara çıktı ve her yeni ürün MIL-STD-810, AECTP ya da DO-160 raporu ister. MEKA'nın kendi savunma prototiplerinde de 20 ile 80 bin avro test bütçesi dışarı gidiyor. Test merkezi 9903 sayılı Karar ile öncelikli yatırım sayılıyor. Ama Ankara'da STEST, Roketsan ve SAGE zaten var, BIAS da akredite test merkezi işletiyor; kazanç büyük laboratuvarda değil, küçük ve odaklı girişte.",
+"rakamlar": [
+{
+"deger": "10,054 milyar dolar",
+"aciklama": "2025 savunma ve havacılık ihracatı; 9,87 milyar dolar mal, 184 milyon dolar hizmet; 2024'te 7,1 milyar dolar",
+"kaynak": "SSB Başkanı açıklaması, Borsa Gündem 3 Ocak 2026, haber: https://www.borsagundem.com.tr/savunma-ve-havacilik-ihracati-10-milyar-dolar-esigini-asti"
+},
+{
+"deger": "17,8 milyar dolar",
+"aciklama": "2025'te imzalanan yeni savunma ihracat sözleşmeleri, 2024'te 10 milyar dolar; SSB 2026'yı teslimatların artacağı yıl olarak görüyor",
+"kaynak": "Aynı haber: https://www.borsagundem.com.tr/savunma-ve-havacilik-ihracati-10-milyar-dolar-esigini-asti"
+},
+{
+"deger": "Yüzde 1",
+"aciklama": "TÜRKAK akreditasyon kullanım payı; akredite brüt geliri 1,5 milyon TL'yi aşanlar öder, bildirim ve ödeme 31 Mart 2027'ye kadar",
+"kaynak": "Resmî Gazete 7 Ocak 2026, sayı 33130, resmi: https://www.alomaliye.com/2026/01/07/turk-akreditasyon-kurumunca-uygulanacak-akreditasyon-kullanim-ucreti-payina-dair-teblig-turkak-2026-1/"
+},
+{
+"deger": "225 TL/saat",
+"aciklama": "TÜBİTAK MAM tuz püskürtme testi, 300 saate kadar, KDV hariç, 2026; 600 saate kadar 188 TL, üstü 150 TL; yaklaşık 4,5 dolar",
+"kaynak": "TÜBİTAK MAM fiyat listesi 2026, resmi: https://mam.tubitak.gov.tr/wp-content/uploads/sites/129/Test-ve-Analiz-Fiyat-Listesi-2026.pdf"
+},
+{
+"deger": "1.000 dolar/saat",
+"aciklama": "ABD gemi şok test tesisinde ek titreşim testi ücreti, 2023; 65K titreşim tablası aylık 20.000 dolar; tek kaynak",
+"kaynak": "Hi-Test Labs, firma: https://hitestlabs.com/s/2023-Rates_Update.pdf"
+},
+{
+"deger": "3.600 dolar/gün",
+"aciklama": "Clemson Üniversitesi dış müşteri şok, titreşim ve basma testi; iklim odası 275 dolar/gün, 2026 ve 2027",
+"kaynak": "Clemson ücret listesi, resmi: https://media.clemson.edu/finance/controller/rates/2627/Food%20Nutrition%20and%20Packaging%20Science_%20Sonoco%20Package%20Testing%20Lab_FY2627.pdf"
+},
+{
+"deger": "128,62 avro/saat",
+"aciklama": "İtalyan Ordusu bakım merkezi MIL-STD-810 titreşim testi; sayfa açılamadı, tek kaynak",
+"kaynak": "Arama özeti; https://www.esercito.difesa.it/en/organization/The-Chief-of-General-Staff-of-the-Army/Logistic-Command/Maintenance-Centre-of-Electronic-Telecommunication-and-Optoelectronic-Means-of-Rome/Pagine/listino.aspx"
+},
+{
+"deger": "70 kN, 200 kN ve 400 kN",
+"aciklama": "TÜBİTAK SAGE sarsıcıları: birinci sistem 70 kN sinüs ve rastgele, 140 kN şok; Ex-proof üçüncü sistem 200 kN sinüs ve rastgele, 400 kN şok; ikinci sistem 20 kN; 65 ton taşıyan buzlanma odası",
+"kaynak": "SAGE, resmi: https://www.sage.tubitak.gov.tr/en/our-services/environmental-test-services/"
+},
+{
+"deger": "10 ve 50 kN; 1.500 müşteri",
+"aciklama": "STEST sarsıcıları; 20.000'i aşkın test, 1.500'ü aşkın müşteri, 100'ü aşkın akredite kapsam beyanı",
+"kaynak": "STEST, firma: https://www.stest.com.tr ve katalog https://www.ostimsavunma.org/public/files/migrated/stest-katalogtr-2-20230113093139-0001808.pdf"
+},
+{
+"deger": "10,1 kat FAVÖK; 2,4 kat gelir",
+"aciklama": "Test laboratuvarı satın almalarında medyan çarpan, Ocak 2015 ile Ekim 2026; FAVÖK çarpanı 24, gelir çarpanı 72 işlemden; özel işlemler çoğunlukla 7 ile 12 kat, 25 milyon doların altındaki bölgesel laboratuvarlar alt uçta; tek kaynak",
+"kaynak": "Aventis Advisors, rapor: https://aventis-advisors.com/tic-company-valuations/"
+},
+{
+"deger": "Yüzde 21",
+"aciklama": "Listeli test, muayene ve belgelendirme şirketlerinin medyan FAVÖK marjı, Ağustos 2026; on yıllık bant yüzde 18 ile 22",
+"kaynak": "Aventis Advisors, rapor: https://aventis-advisors.com/tic-company-valuations/"
+},
+{
+"deger": "400 milyon dolar",
+"aciklama": "Eurofins'in Element Kuzey Amerika yaşam bilimleri test işi için işletme değeri; 2026'da 150 milyon doları aşan gelir beklentisi, 27 laboratuvar",
+"kaynak": "Eurofins basın bülteni 20 Temmuz 2026, borsa bildirimi: https://www.eurofins.com/en/media-centre/press-releases/eurofins-agrees-to-acquire-element-materials-technology-s-life-sciences-testing-services-business-in-north-america/"
+},
+{
+"deger": "114.000 avro",
+"aciklama": "Tartu Üniversitesi elektrodinamik titreşim test sistemi ihalesinin tahmini değeri, ilan 15 Haziran 2026, teslim sözleşmeden sonra en geç 12 ay",
+"kaynak": "TED 407181-2026, resmi: https://ted.europa.eu/en/notice/-/detail/407181-2026"
+},
+{
+"deger": "20 ile 80 bin avro",
+"aciklama": "MEKA savunma yapraklarında prototip başına MIL-STD-810 test bütçesi; 22 ile 90 bin dolar",
+"kaynak": "MEKA karar ağacı savunma yaprakları, olgu; kur TCMB 23 Ekim 2026"
+}
+],
+"durum": "Ankara'da akredite çevre ve titreşim test kapasitesi var: STEST Malıköy'de 2017'den beri, Roketsan Elmadağ'da 1991'den beri, SAGE 70 kN ve Ex-proof 200 kN sarsıcıyla çalışıyor. BIAS'ın fabrikası Kahramankazan'da, akredite beyanlı test merkezi TOSB'de. Türkiye'de özel laboratuvar fiyatı, cirosu ve bekleme süresi yayımlanmıyor; bu üç veri teklif ve görüşmeyle alınmalı. Talep savunma ihracatıyla büyüyor ve 9903 sayılı Karar test merkezini öncelikli yatırım sayıyor. Model büyük laboratuvar için 7 ile 12 yılı aşan, küçük ve aşamalı giriş için yaklaşık 6 yıllık geri ödeme gösteriyor. Öneri: kondisyon izlemeyle başla, çapa müşteri bulunursa küçük laboratuvar kur. Karşı okuma sonrası: İlk adım kondisyon izleme. Bilet 0,15 ile 0,3 milyon dolar. MEKA'nın taş ocağı, kırma eleme ve çimento müşterileri ilk pazar. Bu kısım ayakta. Test laboratuvarı kurma kararı ertelenmeli. Ankara, Kocaeli ve Gebze'de en az altı akredite ya da akredite beyanlı rakip var: STEST, Roketsan, SAGE, BIAS, GTL ve Tekno Kauçuk. SAGE büyük parça ve tam sistem testini kamu olarak karşılıyor. Savunma firmaları kendi laboratuvarlarını kuruyor. Küçük laboratuvara ancak şu üç şart birlikte sağlanırsa geçilmeli. Bir: ilk 2 yıl sarsıcı kapasitesinin en az yüzde 40'ını kapsayan bağlayıcı sözleşmeler var. Niyet me",
+"adimlar": [
+{
+"adim": "STEST, SAGE ve BIAS'tan aynı MIL-STD-810 paketi için yazılı teklif, saat ücreti ve bekleme süresi istenir",
+"kim": "MEKA kalite müdürü",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "MEKA savunma prototiplerinin 2027 ve 2028 test takvimi ve bütçesi çıkarılır",
+"kim": "MEKA savunma ekibi",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "10 taş ocağı ve çimento müşterisine kondisyon izleme pilotu önerilir",
+"kim": "MEKA satış ve servis ekibi",
+"ne_zaman": "Aralık 2026"
+},
+{
+"adim": "ASELSAN, TUSAŞ, FNSS ve iki OSSA üyesine dış test harcaması ve laboratuvar kabul koşulu sorulur",
+"kim": "MEKA iş geliştirme",
+"ne_zaman": "Aralık 2026"
+},
+{
+"adim": "9903 sayılı Karar kapsamında teşvik belgesi başvurusu hazırlanır",
+"kim": "Mali müşavir",
+"ne_zaman": "Ocak 2027"
+},
+{
+"adim": "Çapa müşteri ve fiyat verisiyle küçük laboratuvar kararı verilir; olumsuzsa STEST ya da BIAS ile ortaklık görüşülür",
+"kim": "Mehmet Bey ve MEKA yönetimi",
+"ne_zaman": "Mart 2027"
+}
+],
+"riskler": [
+"Fiyat riski: kamu laboratuvarları ucuz, MAM tuz sisi 225 TL/saat; özel fiyat bilinmiyor; azaltma: yatırımdan önce üç teklif.",
+"Doluluk riski: çapa müşteri yoksa doluluk yüzde 35 altında kalır ve geri ödeme 10 yılı aşar, tahmin; azaltma: niyet mektubu olmadan sarsıcı siparişi yok.",
+"Rakip riski: STEST 1.500 müşteri beyan ediyor, SAGE 200 kN sarsıcıya kadar kapasiteyle ve Roketsan kurumsal, BIAS Türkiye'nin en büyük özel test merkezi olduğunu söylüyor; azaltma: fikstür imalatı, saha ölçümü ve kondisyon izlemeyle farklılaşma.",
+"Akreditasyon gecikmesi: ilk akredite fatura 15 ile 18 aya kayabilir, tahmin; azaltma: dar kapsamla başlamak.",
+"Personel riski: deneyimli test mühendisi az; azaltma: SAGE ve Roketsan geçmişli personel, eğitim.",
+"Veri riski: model tahmine dayalı, Türkiye fiyatı ve ciroları bulunamadı; azaltma: Kasım ve Aralık 2026 görüşmelerinden sonra model yeniden kurulur."
+],
+"takvim": [
+{
+"tarih": "30 Mayıs 2025",
+"olay": "9903 sayılı Karar yürürlükte; madde 9 test merkezi yatırımlarını öncelikli yatırım sayıyor",
+"kaynak": "https://www.alomaliye.com/2025/05/30/yatirimlarda-devlet-yardimlari-hakkinda-karar-karar-sayisi-9903/",
+"iso": "2025-05-30"
+},
+{
+"tarih": "21 Haziran 2025",
+"olay": "9903 uygulama tebliği 2025/1 Resmî Gazete'de",
+"kaynak": "Arama özeti; https://www.alomaliye.com/2025/06/21/yatirimlarda-devlet-yardimlari-hakkinda-karar-teblig-no-2025-1/",
+"iso": "2025-06-21"
+},
+{
+"tarih": "3 Ocak 2026",
+"olay": "SSB Başkanı 2025 savunma ihracatını 10,054 milyar dolar, yeni sözleşmeleri 17,8 milyar dolar açıkladı",
+"kaynak": "https://www.borsagundem.com.tr/savunma-ve-havacilik-ihracati-10-milyar-dolar-esigini-asti",
+"iso": "2026-01-03"
+},
+{
+"tarih": "7 Ocak 2026",
+"olay": "TÜRKAK 2026/1 tebliği: akredite gelirin yüzde 1'i kullanım payı",
+"kaynak": "https://www.alomaliye.com/2026/01/07/turk-akreditasyon-kurumunca-uygulanacak-akreditasyon-kullanim-ucreti-payina-dair-teblig-turkak-2026-1/",
+"iso": "2026-01-07"
+},
+{
+"tarih": "15 Nisan 2026",
+"olay": "OSTİM Teknik Üniversitesi çoklu stres laboratuvarı TEİAŞ onayıyla açıldı",
+"kaynak": "https://ostim.org.tr/news/multiple-stress-testing-laboratory-commissioned-at-ostim-tec",
+"iso": "2026-04-15"
+},
+{
+"tarih": "27 Nisan 2026",
+"olay": "TSE Temelli Kalite Kampüsü, kalibrasyon dahil 7 laboratuvarla açılışa hazır",
+"kaynak": "https://www.gazetebirlik.com/yasam/sanayide-devrim-yaratacak-dev-yatirim-tsenin-yeni-ussu-kapilarini-aciyor/981413",
+"iso": "2026-04-27"
+},
+{
+"tarih": "15 Haziran 2026",
+"olay": "Tartu Üniversitesi elektrodinamik titreşim sistemi ihalesi TED'de yayımlandı, 114.000 avro tahmini değer",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/407181-2026",
+"iso": "2026-06-15"
+},
+{
+"tarih": "29 Haziran 2026",
+"olay": "Norveç FFI 70 kN üstü sarsıcı ihalesi kapandı",
+"kaynak": "https://www.mercell.com/en/tender/283774541/2600636-vibration-shaker-tender.aspx",
+"iso": "2026-06-29"
+},
+{
+"tarih": "20 Temmuz 2026",
+"olay": "Eurofins, Element'in Kuzey Amerika yaşam bilimleri test işini 400 milyon dolara almak için anlaştı; kapanış 2026 dördüncü çeyrek",
+"kaynak": "https://www.eurofins.com/en/media-centre/press-releases/eurofins-agrees-to-acquire-element-materials-technology-s-life-sciences-testing-services-business-in-north-america/",
+"iso": "2026-07-20"
+},
+{
+"tarih": "31 Mart 2027",
+"olay": "Akredite kuruluşların 2026 gelir bildirimi ve TÜRKAK payı ödeme son ayı",
+"kaynak": "https://www.alomaliye.com/2026/01/07/turk-akreditasyon-kurumunca-uygulanacak-akreditasyon-kullanim-ucreti-payina-dair-teblig-turkak-2026-1/",
+"iso": "2027-03-31"
+},
+{
+"tarih": "3 Mayıs 2027",
+"olay": "IDEF 2027 İstanbul'da başlıyor, 9 Mayıs 2027'ye kadar; test firmaları ve ana yüklenicilerle görüşme fırsatı",
+"kaynak": "https://standart-kontrol-ve-test-hizmetleri-as.idef.com.tr",
+"iso": "2027-05-03"
+}
+],
+"web": [
+{
+"url": "https://www.stest.com.tr",
+"ne": "STEST tesis, akreditasyon, test ve müşteri sayısı; çürütücü açtı",
+"tur": "firma"
+},
+{
+"url": "https://www.ostimsavunma.org/companies/standart-kontrol-ve-test-hizmetleri-anonim-sirketi-1",
+"ne": "STEST kuruluş, adres, kapsam",
+"tur": "firma"
+},
+{
+"url": "https://www.ostimsavunma.org/public/files/migrated/stest-katalogtr-2-20230113093139-0001808.pdf",
+"ne": "STEST katalog: Malıköy 2017, 4.000 m², 10 ve 50 kN sarsıcı, irtifa ve iklim odaları; çürütücü açtı",
+"tur": "firma"
+},
+{
+"url": "https://www.ostimsavunma.org/public/files/migrated/turkak-kapsamrev01-20230113102543-0001810.pdf",
+"ne": "STEST TÜRKAK kapsam belgesi; taranmış görüntü, metin okunamadı",
+"tur": "firma"
+},
+{
+"url": "https://www.sage.tubitak.gov.tr/en/our-services/environmental-test-services/",
+"ne": "SAGE çevre test ekipmanı ve akreditasyon; 70, 20 ve Ex-proof 200 kN sarsıcı; çürütücü açtı",
+"tur": "resmi"
+},
+{
+"url": "https://roketsan.com.tr/en/solutions/services/environmental-conditions-test-services",
+"ne": "Roketsan çevre test laboratuvarı ve akreditasyon; çürütücü açtı",
+"tur": "firma"
+},
+{
+"url": "https://roketsan.com.tr/uploads/docs/cevresel-test-hizmetleri/1742294344_ab-0548-t-ing..pdf",
+"ne": "Roketsan AB-0548-T sertifikası; açılamadı, 404",
+"tur": "firma"
+},
+{
+"url": "https://ostim.org.tr/companies/bias-muhendislik-ltd-sti-1",
+"ne": "BIAS TOSB test merkezi akreditasyon beyanı, merkez İstanbul, fabrika Kahramankazan; çürütücü açtı",
+"tur": "firma"
+},
+{
+"url": "https://test.teknolus.com/cevre-kosul/titresim",
+"ne": "Teknolus düşük kuvvet sarsıcı",
+"tur": "firma"
+},
+{
+"url": "https://gtl.com.tr",
+"ne": "GTL test kapsamı ve akreditasyonlar",
+"tur": "firma"
+},
+{
+"url": "https://gcntr-uluslararasi-belgelendirme.idef.com.tr",
+"ne": "GTL IDEF profili",
+"tur": "firma"
+},
+{
+"url": "https://www.gazetebirlik.com/yasam/sanayide-devrim-yaratacak-dev-yatirim-tsenin-yeni-ussu-kapilarini-aciyor/981413",
+"ne": "TSE Kalite Kampüsü, 27 Nisan 2026",
+"tur": "haber"
+},
+{
+"url": "https://www.alomaliye.com/2026/01/07/turk-akreditasyon-kurumunca-uygulanacak-akreditasyon-kullanim-ucreti-payina-dair-teblig-turkak-2026-1/",
+"ne": "TÜRKAK 2026/1 tebliği metni; çürütücü açtı",
+"tur": "resmi"
+},
+{
+"url": "https://www.alomaliye.com/2025/05/30/yatirimlarda-devlet-yardimlari-hakkinda-karar-karar-sayisi-9903/",
+"ne": "9903 sayılı Karar metni, madde 9 bent d ve l; çürütücü açtı",
+"tur": "resmi"
+},
+{
+"url": "https://mam.tubitak.gov.tr/wp-content/uploads/sites/129/Test-ve-Analiz-Fiyat-Listesi-2026.pdf",
+"ne": "TÜBİTAK MAM 2026 fiyat listesi, M82 tuz püskürtme; çürütücü açtı",
+"tur": "resmi"
+},
+{
+"url": "https://hitestlabs.com/s/2023-Rates_Update.pdf",
+"ne": "ABD test tesisi saat ücretleri; çürütücü açtı",
+"tur": "firma"
+},
+{
+"url": "https://media.clemson.edu/finance/controller/rates/2627/Food%20Nutrition%20and%20Packaging%20Science_%20Sonoco%20Package%20Testing%20Lab_FY2627.pdf",
+"ne": "Clemson test laboratuvarı günlük ücretleri; çürütücü açtı",
+"tur": "resmi"
+},
+{
+"url": "https://www.esercito.difesa.it/en/organization/The-Chief-of-General-Staff-of-the-Army/Logistic-Command/Maintenance-Centre-of-Electronic-Telecommunication-and-Optoelectronic-Means-of-Rome/Pagine/listino.aspx",
+"ne": "İtalyan Ordusu test fiyat listesi; açılamadı",
+"tur": "resmi"
+},
+{
+"url": "https://www.borsagundem.com.tr/savunma-ve-havacilik-ihracati-10-milyar-dolar-esigini-asti",
+"ne": "SSB 2025 savunma ihracatı ve sözleşmeler, 3 Ocak 2026; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://aventis-advisors.com/tic-company-valuations/",
+"ne": "TIC çarpanları ve marjları; çürütücü açtı",
+"tur": "rapor"
+},
+{
+"url": "https://www.eurofins.com/en/media-centre/press-releases/eurofins-agrees-to-acquire-element-materials-technology-s-life-sciences-testing-services-business-in-north-america/",
+"ne": "Eurofins ve Element işlemi; çürütücü açtı",
+"tur": "firma"
+},
+{
+"url": "https://www.merca2.es/2024/04/26/applus-alza-11-1655001/",
+"ne": "Applus+ teklif fiyatları ve şirket değerleri; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://www.businesswire.com/news/home/20220927005596/en/Element-Materials-Technology-Acquires-National-Technical-Systems",
+"ne": "Element ve NTS; açılamadı, boş yanıt",
+"tur": "haber"
+},
+{
+"url": "https://www.alsglobal.com/en/News-and-publications/2023/08/Acquisition-of-Proanaliz",
+"ne": "ALS Proanaliz alımı",
+"tur": "firma"
+},
+{
+"url": "https://www.next-finance.net/Eurofins-expands-its-footprint",
+"ne": "Eurofins Gözlem alımı",
+"tur": "haber"
+},
+{
+"url": "https://www.pressetext.com/news/ndt-pioneer-sila-kalite-acquired-by-t-v-austria-group.html",
+"ne": "TÜV Austria Sila Kalite alımı",
+"tur": "haber"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/407181-2026",
+"ne": "Tartu sarsıcı ihalesi tahmini değer; çürütücü TED API kaydını açtı",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/155586-2022",
+"ne": "TU Dortmund test tezgahı sözleşme değeri",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/269003-2022",
+"ne": "SDU iklim odası ve sarsıcı alımı",
+"tur": "resmi"
+},
+{
+"url": "https://ted.europa.eu/en/notice/-/detail/490499-2025",
+"ne": "Fraunhofer batarya sarsıcısı ihalesi",
+"tur": "resmi"
+},
+{
+"url": "https://www.mercell.com/en/tender/283774541/2600636-vibration-shaker-tender.aspx",
+"ne": "FFI 70 kN üstü sarsıcı ihalesi",
+"tur": "diger"
+},
+{
+"url": "https://acikerisim.baskent.edu.tr/items/2e4be975-c374-4170-afdd-c3f826c3d225/full",
+"ne": "Ankara savunma firmasında çevre test darboğazı tezi",
+"tur": "diger"
+},
+{
+"url": "https://ostim.org.tr/news/multiple-stress-testing-laboratory-commissioned-at-ostim-tec",
+"ne": "OSTİM Teknik Üniversitesi test laboratuvarı",
+"tur": "haber"
+},
+{
+"url": "https://www.tcmb.gov.tr/kurlar/today.xml",
+"ne": "TCMB 23 Ekim 2026 kurları; çürütücü açtı, dolar satış 49,6540, avro satış 55,5997",
+"tur": "resmi"
+},
+{
+"url": "https://standart-kontrol-ve-test-hizmetleri-as.idef.com.tr",
+"ne": "IDEF 2027 tarihleri; firma sayfası 404",
+"tur": "diger"
+},
+{
+"url": "https://evertiq.com/news/54572",
+"ne": "Etteplan test laboratuvarı genişlemesi, tutar yok",
+"tur": "haber"
+},
+{
+"url": "https://www.eurolab.net/testler/cevresel-testler/titresim-ve-sok-testleri/",
+"ne": "Eurolab titreşim sayfası; tesis yeri belirsiz, kullanılmadı",
+"tur": "diger"
+}
+],
+"ekonomi": {
+"bilet": "Önerilen yol: ilk 24 ayda 1,35 ile 2,2 milyon dolar, tahmin; kondisyon izleme 0,15 ile 0,3, küçük laboratuvar 1,2 ile 1,9. Orta ölçek laboratuvar 3,7 ile 6,0; kalibrasyon 0,45 ile 0,8; ortaklık 2 ile 6 milyon dolar.",
+"sure_ilk_gelir": "Kondisyon izleme 3 ile 6 ay; küçük laboratuvar akreditasyonsuz ilk fatura 9 ile 12 ay, akredite fatura 15 ile 18 ay; ortaklık kapanışta 6 ile 9 ay; tahmin.",
+"yil3": "Önerilen yol gelir 0,61 ile 1,39 milyon dolar, brüt kâr 0,27 ile 0,80 milyon dolar; kalibrasyon yolu gelir 0,2 ile 0,64, brüt 0,10 ile 0,38 milyon dolar; tahmin.",
+"yil5": "Önerilen yol gelir 0,90 ile 2,02 milyon dolar, brüt kâr 0,40 ile 1,16 milyon dolar; orta ölçek laboratuvar gelir 1,08 ile 2,22, brüt 0,49 ile 1,22 milyon dolar; tahmin. Bağımsız karşı okuma düzeltmesi, planlamada bunu kullan: kondisyon izleme artı koşullu küçük laboratuvar 0,25 ile 0,75 milyon dolar brüt kâr, tahmin; geri ödeme yıl 8 ile 10.",
+"geri_odeme": "Önerilen yol orta senaryoda yıl 6, aralık yıl 4 ile 10 üstü; orta ölçek laboratuvar orta senaryoda yıl 11; kondisyon izleme tek başına yıl 3 ile 4; tahmin. Karşı okuma: düzeltilmiş doluluk ve ücretle orta senaryoda yıl 8 ile 10.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kâr 0,25 ile 0,75 milyon dolar (karşı okuma düzeltmesi; ilk senaryo 0,4 ile 1,16), kondisyon izleme tek başına 0,11 ile 0,41 milyon dolar, tahmin.",
+"varsayimlar": "Kur TCMB 23 Ekim 2026: 1 dolar 49,654 TL, 1 avro 55,600 TL. Sarsıcı yılda 4.000 saat, iklim odası 6.000 saat; tahmin. Akredite titreşim saati 110 ile 220 dolar, tahmin; çıpalar İtalyan Ordusu 128,62 avro tek kaynak, Hi-Test 1.000 dolar. İklim odası 20 ile 35 dolar/saat, tahmin; Clemson 275 dolar/gün. Brüt marj yüzde 45 ile 55, kondisyon izleme yüzde 45 ile 60, tahmin; listeli şirket FAVÖK medyanı yüzde 21. Kondisyon izleme tesis başı yıllık 8 ile 20 bin dolar, gelir aralıkları ortalama 10 ile 17 bin dolarla hesaplı, tahmin. Kalibrasyon cihaz başı 40 ile 80 dolar, yıl 3'te 5.000 ile 8.000 cihaz, tahmin. Genel gider küçük laboratuvar 0,1 ile 0,15, büyük 0,25 ile 0,35, kondisyon izleme 0,05 ile 0,1 milyon dolar/yıl, tahmin. Ekipman fiyatları TED ihaleleriyle çıpalanmış tahmin."
+},
+"emsaller": [
+{
+"tarih": "20 Temmuz 2026",
+"taraflar": "Eurofins; Element Kuzey Amerika yaşam bilimleri test işi",
+"bedel": "400 milyon dolar işletme değeri",
+"birim": "2026'da 150 milyon doları aşan gelir beklentisi, en çok yaklaşık 2,7 kat gelir; 27 laboratuvar, 750 çalışan",
+"kaynak": "https://www.eurofins.com/en/media-centre/press-releases/eurofins-agrees-to-acquire-element-materials-technology-s-life-sciences-testing-services-business-in-north-america/"
+},
+{
+"tarih": "26 Nisan 2024",
+"taraflar": "Applus+; ISQ ve TDR konsorsiyumu ile Apollo",
+"bedel": "12,78 avro/pay ve 12,51 avro/pay",
+"birim": "Şirketin tamamına ISQ ve TDR yaklaşık 1.650 milyon avro, Apollo 1.614,7 milyon avro",
+"kaynak": "https://www.merca2.es/2024/04/26/applus-alza-11-1655001/"
+},
+{
+"tarih": "26 Eylül 2022",
+"taraflar": "Element Materials Technology; National Technical Systems",
+"bedel": "Açıklanmadı",
+"birim": "29 laboratuvar",
+"kaynak": "Arama özeti; https://www.businesswire.com/news/home/20220927005596/en/Element-Materials-Technology-Acquires-National-Technical-Systems"
+},
+{
+"tarih": "9 Ağustos 2023",
+"taraflar": "ALS; Proanaliz, Antalya",
+"bedel": "Açıklanmadı",
+"birim": "ALS Türkiye'de 9 laboratuvara çıktı",
+"kaynak": "https://www.alsglobal.com/en/News-and-publications/2023/08/Acquisition-of-Proanaliz"
+},
+{
+"tarih": "Ocak 2015 ile Ekim 2026",
+"taraflar": "1.246 test laboratuvarı satın alması",
+"bedel": "Medyan işlem 13,4 milyon dolar",
+"birim": "Medyan 10,1 kat FAVÖK, 24 işlem; 2,4 kat gelir, 72 işlem; özel işlemler çoğunlukla 7 ile 12 kat",
+"kaynak": "https://aventis-advisors.com/tic-company-valuations/"
+},
+{
+"tarih": "15 Haziran 2026",
+"taraflar": "Tartu Üniversitesi; elektrodinamik titreşim test sistemi ihalesi",
+"bedel": "114.000 avro tahmini değer",
+"birim": "Sistem başına; kuvvet sınıfı kayıtta yok",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/407181-2026"
+},
+{
+"tarih": "2022",
+"taraflar": "TU Dortmund; titreşim test tezgahı",
+"bedel": "336.100 avro",
+"birim": "Sözleşme değeri, ilan metni okunmadı",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/155586-2022"
+},
+{
+"tarih": "2022",
+"taraflar": "Güney Danimarka Üniversitesi; iklim odası ve sarsıcı içeren alım",
+"bedel": "7.544.342 Danimarka kronu, yaklaşık 1 milyon avro",
+"birim": "Sözleşme değeri, ilan metni okunmadı",
+"kaynak": "https://ted.europa.eu/en/notice/-/detail/269003-2022"
+}
+],
+"cevaplar": [
+{
+"soru": "Böyle bir tesis fırsat mı?",
+"durum": "kismen",
+"cevap": "Talep var, savunma ihracatı 2025'te 10,054 milyar dolar; ama Ankara ve çevresinde dört rakip var. Büyük laboratuvar zayıf, küçük ve aşamalı giriş makul.",
+"kaynak": "Borsa Gündem SSB haberi; STEST, SAGE, Roketsan, BIAS sayfaları",
+"kime": "MEKA yönetimi"
+},
+{
+"soru": "Giren kazanır penceresi var mı?",
+"durum": "cevaplandi",
+"cevap": "Kapanan resmi pencere bulunamadı. Test 10 üzerinden 5: kapı, takvim, alınabilir, boşluk ve taban birer puan.",
+"kaynak": "Bu çalışmanın giren kazanır testi",
+"kime": "MEKA yönetimi"
+},
+{
+"soru": "Hangi giriş yolu mantıklı?",
+"durum": "cevaplandi",
+"cevap": "Önce kondisyon izleme, 0,15 ile 0,3 milyon dolar; çapa müşteriyle tek 40 ile 60 kN sarsıcılı küçük laboratuvar, 1,2 ile 1,9 milyon dolar. Büyük laboratuvar doğrudan önerilmez.",
+"kaynak": "Ekonomi modeli, tahmin",
+"kime": "MEKA yönetimi"
+},
+{
+"soru": "Ankara'da kim titreşim ve çevre testi yapıyor?",
+"durum": "cevaplandi",
+"cevap": "STEST, Roketsan, TÜBİTAK SAGE ve küçük ölçekte Teknolus; BIAS'ın fabrikası Kahramankazan'da, akredite beyanlı test merkezi TOSB'de; İzmir'de GTL.",
+"kaynak": "https://www.stest.com.tr; https://roketsan.com.tr/en/solutions/services/environmental-conditions-test-services; https://www.sage.tubitak.gov.tr/en/our-services/environmental-test-services/; https://ostim.org.tr/companies/bias-muhendislik-ltd-sti-1",
+"kime": "Yok"
+},
+{
+"soru": "Türkiye'de sarsıcı saat ücreti ve test paketi fiyatı ne?",
+"durum": "gorusme",
+"cevap": "Özel laboratuvar fiyatı bulunamadı. Kamu tarafında TÜBİTAK MAM tuz sisi 225 TL/saat. Yurt dışında 128,62 avro ile 1.000 dolar arası.",
+"kaynak": "TÜBİTAK MAM 2026 listesi; Hi-Test Labs; İtalyan Ordusu arama özeti",
+"kime": "STEST, SAGE ve BIAS satış birimleri, yazılı teklif"
+},
+{
+"soru": "Mevcut laboratuvarlarda bekleme süresi ne, testler yurt dışına gidiyor mu?",
+"durum": "gorusme",
+"cevap": "Veri bulunamadı. Başkent Üniversitesi 2023 tezi bir Ankara savunma firmasında test teslim gecikmesinin üretimi aksattığını yazıyor.",
+"kaynak": "https://acikerisim.baskent.edu.tr/items/2e4be975-c374-4170-afdd-c3f826c3d225/full",
+"kime": "ASELSAN, TUSAŞ, FNSS tedarikçi kalite birimleri; OSSA üyeleri"
+},
+{
+"soru": "TÜRKAK akreditasyonu ne kadar sürer ve ne tutar?",
+"durum": "kismen",
+"cevap": "Kullanım payı akredite gelirin yüzde 1'i, eşik 1,5 milyon TL. Başvuru ve denetim gün ücreti bulunamadı; süre 12 ile 18 ay tahmin.",
+"kaynak": "Resmî Gazete 7 Ocak 2026, TÜRKAK 2026/1",
+"kime": "TÜRKAK deney laboratuvarları birimi"
+},
+{
+"soru": "Hangi teşvikler var?",
+"durum": "cevaplandi",
+"cevap": "9903 sayılı Karar madde 9 birinci fıkra: l bendi orta yüksek ve yüksek teknolojili ürünlere yönelik test merkezi yatırımlarını, d bendi SSB proje onaylı savunma yatırımlarını öncelikli yatırım sayıyor. Yatırıma katkı oranı yüzde 30 bilgisi arama özetinden.",
+"kaynak": "https://www.alomaliye.com/2025/05/30/yatirimlarda-devlet-yardimlari-hakkinda-karar-karar-sayisi-9903/",
+"kime": "Mali müşavir, Sanayi ve Teknoloji Bakanlığı"
+},
+{
+"soru": "TÜRKAK veri tabanında titreşim kapsamlı kaç akredite laboratuvar var?",
+"durum": "gorusme",
+"cevap": "Veri tabanı bu turda sorgulanamadı; sayı bulunamadı.",
+"kaynak": "Bulunamadı",
+"kime": "TÜRKAK"
+},
+{
+"soru": "Ana yüklenicilerin iç laboratuvarları dışarıya hizmet veriyor mu?",
+"durum": "kismen",
+"cevap": "Roketsan savunma sanayii şirketlerine ve diğer kurumlara veriyor. ASELSAN, TUSAŞ, FNSS ve Otokar için bilgi bulunamadı.",
+"kaynak": "https://roketsan.com.tr/en/solutions/services/environmental-conditions-test-services",
+"kime": "ASELSAN, TUSAŞ, FNSS, Otokar test birimleri"
+},
+{
+"soru": "Ekipman ne tutar?",
+"durum": "kismen",
+"cevap": "Tartu 2026 sarsıcı ihalesi 114.000 avro tahmini; TU Dortmund 2022 test tezgahı 336.100 avro; SDU 2022 iklim odası ve sarsıcı alımı yaklaşık 1 milyon avro. Kuvvet sınıfına göre fiyat bulunamadı.",
+"kaynak": "TED 407181-2026, 155586-2022, 269003-2022",
+"kime": "HBK, IMV, Weiss Technik Türkiye temsilcileri"
+}
+],
+"kapilar": {
+"yatirim": "sirket",
+"butce": 3,
+"butce_not": "Önerilen yol kondisyon izleme artı koşullu küçük laboratuvar: ilk 24 ayda 1,35 ile 2,2 milyon dolar, tahmin. İlk 12 ayda 0,3 ile 0,6 milyon dolar: kondisyon izleme 0,15 ile 0,3, sarsıcı avansı ve bina tadilatı 0,15 ile 0,3. Yalnız kondisyon izleme yapılırsa dilim 2; orta ölçek laboratuvar 3,7 ile 6,0 milyon dolarla yine dilim 3.",
+"yol": "ikisi",
+"yol_not": "Kondisyon izleme ve küçük laboratuvar kurulur. Büyük kapasite gerekirse STEST, BIAS ya da Teknolus ile ortaklık aranır; azınlık payı test laboratuvarı medyanı 2,4 kat gelirle fiyatlanır."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "kismi",
+"acik_sorular": [
+"Kısmen cevaplandı: Böyle bir tesis fırsat mı?",
+"Görüşme gerekir: Türkiye'de sarsıcı saat ücreti ve test paketi fiyatı ne? (STEST, SAGE ve BIAS satış birimleri, yazılı teklif)",
+"Görüşme gerekir: Mevcut laboratuvarlarda bekleme süresi ne, testler yurt dışına gidiyor mu? (ASELSAN, TUSAŞ, FNSS tedarikçi kalite birimleri; OSSA üyeleri)",
+"Kısmen cevaplandı: TÜRKAK akreditasyonu ne kadar sürer ve ne tutar?",
+"Görüşme gerekir: TÜRKAK veri tabanında titreşim kapsamlı kaç akredite laboratuvar var? (TÜRKAK)",
+"Kısmen cevaplandı: Ana yüklenicilerin iç laboratuvarları dışarıya hizmet veriyor mu?",
+"Kısmen cevaplandı: Ekipman ne tutar?"
+],
+"bant": "ikincil",
+"puan_metni": "Yönetici isteğiyle derin çalışma (24 Ekim 2026), bant önerisi ikincil: Talep resmi açıklamayla kanıtlı ve teşvik kapısı açık, ama Ankara ve çevresinde dört yerleşik rakip var, SAGE 200 kN sarsıcıya kadar kapasiteye sahip ve Türkiye fiyatı bilinmiyor. Büyük laboratuvarın geri ödemesi 7 ile 12 yılı aşıyor. Küçük ve aşamalı giriş, kondisyon izlemeyle başlayıp çapa müşteriyle laboratuvara geçerek yaklaşık 6 yılda geri ödüyor. Bu yüzden öne çıkan değil, koşullu ikincil.",
+"kapsam_notu": "24 Ekim 2026 derin çalışma: 20 arama, 31 sayfa; 11 açık sorunun 4 tanesi cevaplandı, 3 tanesi görüşme gerektiriyor. Çürütücü 16 sayfa açtı, güven 4/5. WebSearch 20 aramayla sınırlandı. Roketsan AB-0548-T sertifikası ve katalogları, İtalyan Ordusu fiyat listesi, Business Wire NTS haberi ve Aventis PDF'i açılamadı; STEST TÜRKAK kapsam PDF'i taranmış görüntü olduğu için okunamadı. TÜRKAK veri tabanı sorgulanamadı; titreşim kapsamlı laboratuvar sayısı, başvuru ve denetim ücreti bulunamadı. Türkiye'de özel laboratuvar saat ücreti, bekleme süresi, laboratuvar ciroları, kalibrasyon ve kondisyon izleme fiyatları bulunamadı; bu kalemler modelde tahmin. TED değerlerinden ikisinin ilan metni okunmadı, değer API alanından. Ana yüklenici onaylı laboratuvar listeleri, AQAP gereksinimleri ve ASELSAN ile TUSAŞ iç laboratuvarlarının dış hizmeti araştırılamadı. Çürütücü 24 Ekim 2026'da 16 sayfayı açıp rakamları karşılaştırdı; OSSA STEST profili, Teknolus, GTL, TSE haberi, 9903 tebliği ve emsal haberlerinin bir kısmı çürütücü turunda açılmadı. BIAS TOSB test merkezinin yeri doğrulanamadı. Karşı okuma ajanı 12 sayfa açtı, 10 arama yaptı.",
+"guven": 4,
+"tarih": "24 Ekim 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "MEKA ile ilgili",
+"kol_id": "meka_ozel",
+"kol_ad": "Özel firmalar",
+"kisa": "Titreşim ve çevre test laboratuvarı, kondisyon izleme",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_test_lab",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 1.0,
+"H": 4.0,
+"R": 2.0,
+"E": 3.0,
+"M": 2.0,
+"S": 3.0,
+"B": 2,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 0,25 ile 0,75 milyon dolar, tahmin; karşı okuma düşürdü.",
+"H": "Kondisyon izleme 3 ile 6 ayda gelir, tahmin; akredite fatura 15 ile 18 ay.",
+"R": "Fiyat, doluluk, bekleme süresi bulunamadı; çapasız doluluk yüzde 35 altı; altı akredite rakip.",
+"E": "TÜRKAK 17025 ve ana yüklenici kabulü şart; STEST 1.500 müşteri, savunma testi içeride.",
+"M": "Sarsıcı ve iklim odası satın alınır; yalnız kondisyon izleme ocak müşterisini kullanır.",
+"S": "Savunma geliri taştan bağımsız; ama Roketsan 1991, STEST 2017'den beri var, ilk giren değil."
 },
 "puan_yayilim": []
 },
@@ -42004,6 +42763,7 @@ window.MEKA_DATA = {
 "cin_otobus_ort",
 "atv_utv",
 "res_kule",
+"test_lab",
 "izle_meka",
 "beylikova",
 "belediye",
@@ -42205,6 +42965,7 @@ window.MEKA_DATA = {
 "cin_otobus_ort",
 "atv_utv",
 "res_kule",
+"test_lab",
 "izle_meka"
 ]
 },
@@ -42830,13 +43591,6 @@ window.MEKA_DATA = {
 "konu_id": ""
 },
 {
-"tarih": "20 ile 21 Ekim 2026",
-"iso": "2026-10-21",
-"olay": "Ankara 2. Enerji Stratejileri Konferansı, EPDK Konferans Salonu; Novator Yenilikçi Ürünler Vitrini standı; tanışma penceresi; firma beyanı, teyit",
-"kaynak": "https://www.linkedin.com/company/novator-enerji",
-"konu_id": "novator"
-},
-{
 "tarih": "22-24 Ekim 2026",
 "iso": "2026-10-22",
 "olay": "ANKIROS, İstanbul; Magaldi katılımı teyitsiz",
@@ -42844,32 +43598,11 @@ window.MEKA_DATA = {
 "konu_id": "termal"
 },
 {
-"tarih": "22 Ekim 2026",
-"iso": "2026-10-22",
-"olay": "MSB sınıflandırma görüşü için rapor takviminin dolduğu gün; alındığına dair kayıt yok",
-"kaynak": "01 rapor 9.2",
-"konu_id": "sav_kalip"
-},
-{
-"tarih": "22 Ekim 2026 dolayı, en geç 31 Ekim 2026",
-"iso": "2026-10-22",
-"olay": "MSB sınıflandırma görüşü başvurusu, Ek A tesis veri formu, NCAGE başvurusu; rapor 22 Eylül 2026'dan itibaren bir ay diyor",
-"kaynak": "01 rapor 9.2",
-"konu_id": "sav_flatrack"
-},
-{
-"tarih": "22 Ekim 2026",
-"iso": "2026-10-22",
-"olay": "Raporun bir ay içinde dediği adımlar: tesis veri formu, NCAGE ve NSPA kayıtları, MSB 5201 görüşü. 22 Eylül 2026'dan hesaplandı.",
-"kaynak": "01 rapor, 9.2 İlk 90 gün",
-"konu_id": "sav_muhimmat"
-},
-{
-"tarih": "22-24 Ekim 2026",
-"iso": "2026-10-22",
-"olay": "ANKIROS fuarı İstanbul, Magaldi standı H6-C110; katılım 10'da doğrulanamadı",
-"kaynak": "07, Dünyada kimler var ve İlk 6 ay; 08, Acil; 10, Bölüm 9 Ek satırı",
-"konu_id": "termal"
+"tarih": "24 Ekim 2026",
+"iso": "2026-10-24",
+"olay": "9. tur: titreşim, çevre koşulları ve ölçüm test laboratuvarı yaprağı eklendi ve puanlandı; üçüncü keşif turunda 69 aday tarandı, ön kontrolü geçen çıkmadı",
+"kaynak": "bu uygulama",
+"konu_id": ""
 },
 {
 "tarih": "27 Ekim 2026",
@@ -43476,6 +44209,13 @@ window.MEKA_DATA = {
 {
 "tarih": "31 Mart 2027",
 "iso": "2027-03-31",
+"olay": "Akredite kuruluşların 2026 gelir bildirimi ve TÜRKAK payı ödeme son ayı",
+"kaynak": "https://www.alomaliye.com/2026/01/07/turk-akreditasyon-kurumunca-uygulanacak-akreditasyon-kullanim-ucreti-payina-dair-teblig-turkak-2026-1/",
+"konu_id": "test_lab"
+},
+{
+"tarih": "31 Mart 2027",
+"iso": "2027-03-31",
 "olay": "MEKA iç karar noktası: EPDK cevabı, pilot ölçümleri, toptan fiyat ve Ocak 2027 tarifesiyle yeniden değerlendirme. Bu çalışma.",
 "kaynak": "bu çalışma",
 "konu_id": "balkon_ges"
@@ -43493,6 +44233,13 @@ window.MEKA_DATA = {
 "olay": "2026 yılı doğrulanmış emisyon raporlarının Başkanlığa son verilme günü; Başkanlık en çok bir ay uzatabilir (madde 29/1, teyit).",
 "kaynak": "https://www.hukukihaber.net/turkiye-emisyon-ticaret-sistemi-yonetmeligi sayfa açıldı",
 "konu_id": "karbon_dogrula"
+},
+{
+"tarih": "3 Mayıs 2027",
+"iso": "2027-05-03",
+"olay": "IDEF 2027 İstanbul'da başlıyor, 9 Mayıs 2027'ye kadar; test firmaları ve ana yüklenicilerle görüşme fırsatı",
+"kaynak": "https://standart-kontrol-ve-test-hizmetleri-as.idef.com.tr",
+"konu_id": "test_lab"
 },
 {
 "tarih": "5 ile 7 Mayıs 2027",
@@ -44878,6 +45625,14 @@ window.MEKA_DATA = {
 "aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 10 açık sorunun 1 tanesi cevaplandı, 3 tanesi görüşmeye kaldı. 23 şirket, 6 emsal işlem. Kanıt 3/5."
 },
 {
+"no": "Ek",
+"ad": "Titreşim, çevre koşulları ve ölçüm test laboratuvarı (derin çalışma)",
+"tarih": "24 Ekim 2026",
+"sayfa": 6,
+"pdf": "Calisma_test_lab.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 11 açık sorunun 4 tanesi cevaplandı, 3 tanesi görüşmeye kaldı. 22 şirket, 8 emsal işlem. Kanıt 3/5."
+},
+{
 "no": "Ağaç",
 "ad": "Karar ağacı posteri",
 "tarih": "15 Ekim 2026",
@@ -45360,6 +46115,13 @@ window.MEKA_DATA = {
 "tur": "derin",
 "kisa": "Derin çalışma, 21 Ekim 2026",
 "sayfa_sayisi": 10
+},
+"c_test_lab": {
+"ad": "Titreşim, çevre koşulları ve ölçüm test laboratuvarı: derin çalışma (24 Ekim 2026, 6 sayfa)",
+"pdf": "Calisma_test_lab.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 24 Ekim 2026",
+"sayfa_sayisi": 6
 }
 },
 "dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Dal ve kol yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz yaprağın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; yapraklar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk yapraklar arası ve yaprak ile bölge arası tutarlılıkta: ağacın ön bandı yedi yaprakta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir yaprakta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B yapraklarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki yaprağın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
@@ -46166,9 +46928,9 @@ window.MEKA_DATA = {
 ]
 },
 {
-"ad": "Yönetici sorusu ve keşif: ATV, rüzgar kulesi",
-"tarih": "21 Ekim 2026",
-"aciklama": "Yönetici ATV sektörünü sordu (benzinli mi, elektrikli mi): derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
+"ad": "Yönetici soruları ve keşif: ATV, test laboratuvarı, rüzgar kulesi",
+"tarih": "21 ile 24 Ekim 2026",
+"aciklama": "Yönetici ATV sektörünü (benzinli mi, elektrikli mi) ve titreşim test laboratuvarını sordu: ikisi de derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
 "yaprak_belgeleri": [
 {
 "yaprak": "res_kule",
@@ -46177,6 +46939,10 @@ window.MEKA_DATA = {
 {
 "yaprak": "atv_utv",
 "dosya": "c_atv_utv"
+},
+{
+"yaprak": "test_lab",
+"dosya": "c_test_lab"
 }
 ]
 },
