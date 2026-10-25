@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
-<title>MEKA Karar Ağacı</title>
+<title>MEKA Fırsat Haritası</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;600&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
@@ -64,7 +64,7 @@ button { font: inherit; cursor: pointer; }
 .seg button.on { background: var(--acc); border-color: var(--acc); color: #fff; }
 .seg button:focus-visible { outline: 2px solid var(--steel); outline-offset: 2px; }
 @media (min-width: 760px) { #gates { grid-template-columns: 1fr 1fr 1fr; } }
-/* ağaç */
+/* harita */
 .tree { display: flex; flex-direction: column; gap: 14px; }
 .root { background: var(--ink); color: #fff; border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; }
 .root h2 { color: #fff; }
@@ -198,9 +198,9 @@ html.yazdir body { background: #fff !important; }
 </head>
 <body>
 <div id="bar"><div class="in">
-  <a class="brand" href="#/">MEKA<span class="brand-long"> · Karar ağacı</span><small id="brandDate"></small></a>
+  <a class="brand" href="#/">MEKA<span class="brand-long"> · Fırsat haritası</span><small id="brandDate"></small></a>
   <nav>
-    <a href="#/" data-nav="/">Ağaç</a>
+    <a href="#/" data-nav="/">Harita</a>
     <a href="#/siralama" data-nav="/siralama">Sıralama</a>
     <a href="#/takvim" data-nav="/takvim">Takvim</a>
     <a href="#/calismalar" data-nav="/calismalar">Çalışmalar</a>
@@ -209,7 +209,7 @@ html.yazdir body { background: #fff !important; }
   <button id="temaBtn" class="sw-tema-btn sw-plain" type="button" aria-label="Tema değiştir"></button>
 </div></div>
 <main class="wrap" id="app"></main>
-<script src="data.js?v=r19"></script>
-<script src="app.js?v=r19"></script>
+<script src="data.js?v=r20"></script>
+<script src="app.js?v=r20"></script>
 </body>
 </html>

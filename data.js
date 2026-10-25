@@ -1,10 +1,10 @@
 window.MEKA_DATA = {
-"baslik": "İki dal, altı kol, 56 yaprak",
-"alt_baslik": "Her yaprakta bir sayfalık özet, altında tam çalışma. Üst dal kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
-"kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 yaprak 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
+"baslik": "İki alan, altı grup, 56 fırsat",
+"alt_baslik": "Her fırsatta bir sayfalık özet, altında tam çalışma. Üst alan kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
+"kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 fırsat 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
 "derleme_tarihi": "24 Ekim 2026",
 "bugun_iso": "2026-10-24",
-"surum": "Sürüm 24 Ekim 2026, 9. tur · Test laboratuvarı yaprağı eklendi; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA dalının en yüksek puanlı 8 yaprağı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık yaprakları eklendi; 50 yaprak üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
+"surum": "Sürüm 24 Ekim 2026, 9. tur · Test laboratuvarı fırsatı eklendi; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
 "agac": [
 {
 "id": "meka",
@@ -121,10 +121,10 @@ window.MEKA_DATA = {
 "id": "sav_prekast",
 "baslik": "Tahkimat prekast hattı",
 "bant": "one_cikan",
-"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi öne çıkan: Beş savunma kolunun en düşük bileti (0,47 ile 0,88 milyon avro), en kısa ilk gelir süresi (9 ile 15 ay) ve tam MEKA uyumu; talep ve alıcılar resmî ihale kayıtlarıyla isimli; iki açık soru resmî kaynakla kapandı. Mutlak kâr küçük (yıl 5 brüt kârı 0,2 ile 1,0 milyon avro) ve Polonya'da fiyat düşüşü kapasite argümanını zayıflattı; bu yüzden öne çıkan bant, Eylül 2027'de ilk sipariş yoksa izle bandına inme şartıyla. Önceki çalışmanın kendi puanı: 4,35 / 5, yedi kriterli ağırlıklı puan, 24 savunma nişi içinde 1. sıra, sınıf Birincil. Kriter puanları: teknik uyum 5, ihracat pazarı 4, giriş engeli 5, rekabet 3, gelire ulaşma süresi 4, yatırım ihtiyacı 4, öz iş sinerjisi 5. Baz, pazar o…",
+"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi öne çıkan: Beş savunma grubunun en düşük bileti (0,47 ile 0,88 milyon avro), en kısa ilk gelir süresi (9 ile 15 ay) ve tam MEKA uyumu; talep ve alıcılar resmî ihale kayıtlarıyla isimli; iki açık soru resmî kaynakla kapandı. Mutlak kâr küçük (yıl 5 brüt kârı 0,2 ile 1,0 milyon avro) ve Polonya'da fiyat düşüşü kapasite argümanını zayıflattı; bu yüzden öne çıkan bant, Eylül 2027'de ilk sipariş yoksa izle bandına inme şartıyla. Önceki çalışmanın kendi puanı: 4,35 / 5, yedi kriterli ağırlıklı puan, 24 savunma nişi içinde 1. sıra, sınıf Birincil. Kriter puanları: teknik uyum 5, ihracat pazarı 4, giriş engeli 5, rekabet 3, gelire ulaşma süresi 4, yatırım ihtiyacı 4, öz iş sinerjisi 5. Baz, pazar o…",
 "tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 22 Eylül 2026",
 "ne": "NATO doğu kanadındaki tahkimat programlarına bitmiş beton ürün değil, üretim sistemi satmak. Paket: MEKA prekast beton santrali (0,33 ile 2,0 m³ karıştırıcı, kış paketi), isteğe bağlı mobil kırma eleme hattı, ejder dişi, beton kirpi, T-duvar ve bunker segmenti için çelik batarya kalıpları, kür ve otomasyon. Alıcı Polonya ve Baltık'taki prekast üreticileri; Polonya'da Ekim 2025 ile Ekim 2026 arasında TED'de yayımlanan kirpi ve mevzi elemanı sözleşmelerini kazanan Małro, Transbet, Gralbet, VECO-BET, Kruszbet, Elbud Gdańsk ve Drogi i Mosty gibi firmalar isimli hedef. Satış kanalı mevcut bayi ağı ve Esenboğa K145 referansı. Kaynak: TED 10621-2026, 496566-2026, 625610-2026, 662217-2026; MEKA ürün sayfası; 01 rapor Rol 1.",
-"neden": "Paket MEKA'nın çekirdek ürünüdür ve bilet beş savunma kolunun en düşüğüdür: ilk 24 ayda 0,47 ile 0,88 milyon avro, bunun 80 ile 160 bin avrosu beşe bölünmüş ortak belge ve test payı. Talep belgeli: Polonya'da son on iki ayda yalnızca TED'de görülen kirpi ve mevzi elemanı sözleşmeleri 293,5 milyon PLN, yaklaşık 70 milyon avro; Estonya 600 bunker için 60 milyon avro ayırdı ve ihale Şubat 2026'da açıldı; Litvanya 27 karşı hareketlilik parkını 50'ye çıkarmayı öneriyor. MEKA'nın KAP'a bildirdiği santral siparişleri birim fiyat mertebesini veriyor: 2025 ve 2026'da adet başına 165 ile 490 bin avro. Konsolide brüt marj 2025'te yüzde 21,5 ve 2026 ilk yarıda yüzde 24,3. Bu verilerle yıl 3 brüt kârı 0,45 ile 1,25 milyon avro, geri ödeme 24 ile 42 ay. Kârın mutlak büyüklüğü küçük ama risk ve bilet de küçük. Kaynak: TED kayıtları; KAP bildirimleri (Borsagündem, Rotaborsa, Midas); İş Yatırım MEKAG finansal tablosu; ECDI.",
+"neden": "Paket MEKA'nın çekirdek ürünüdür ve bilet beş savunma grubunun en düşüğüdür: ilk 24 ayda 0,47 ile 0,88 milyon avro, bunun 80 ile 160 bin avrosu beşe bölünmüş ortak belge ve test payı. Talep belgeli: Polonya'da son on iki ayda yalnızca TED'de görülen kirpi ve mevzi elemanı sözleşmeleri 293,5 milyon PLN, yaklaşık 70 milyon avro; Estonya 600 bunker için 60 milyon avro ayırdı ve ihale Şubat 2026'da açıldı; Litvanya 27 karşı hareketlilik parkını 50'ye çıkarmayı öneriyor. MEKA'nın KAP'a bildirdiği santral siparişleri birim fiyat mertebesini veriyor: 2025 ve 2026'da adet başına 165 ile 490 bin avro. Konsolide brüt marj 2025'te yüzde 21,5 ve 2026 ilk yarıda yüzde 24,3. Bu verilerle yıl 3 brüt kârı 0,45 ile 1,25 milyon avro, geri ödeme 24 ile 42 ay. Kârın mutlak büyüklüğü küçük ama risk ve bilet de küçük. Kaynak: TED kayıtları; KAP bildirimleri (Borsagündem, Rotaborsa, Midas); İş Yatırım MEKAG finansal tablosu; ECDI.",
 "rakamlar": [
 {
 "deger": "42.839.186 PLN",
@@ -221,7 +221,7 @@ window.MEKA_DATA = {
 "ne_zaman": "30 Kasım 2026'ya kadar; hesaplanan 22 Ekim 2026 tarihi geçmek üzere"
 },
 {
-"adim": "Ortak belge ve test bütçesinin beşte bir payı (80 ile 160 bin avro) ve yaprağa özgü kalıp prototip bütçesi (60 ile 120 bin avro) için yönetim onayı; Ticaret Bakanlığı pazara giriş belgesi desteği başvurusu.",
+"adim": "Ortak belge ve test bütçesinin beşte bir payı (80 ile 160 bin avro) ve fırsata özgü kalıp prototip bütçesi (60 ile 120 bin avro) için yönetim onayı; Ticaret Bakanlığı pazara giriş belgesi desteği başvurusu.",
 "kim": "Genel müdür ve mali işler",
 "ne_zaman": "Kasım 2026"
 },
@@ -231,7 +231,7 @@ window.MEKA_DATA = {
 "ne_zaman": "Aralık 2026 ile Mart 2027"
 },
 {
-"adim": "IDEF 2027 (3 ile 9 Mayıs 2027) ve MSPO 2027 (Eylül 2027, Kielce) stantlarında paket ve mobil tahkimat fabrikası konsepti; karar noktası: Eylül 2027'ye kadar ilk paket siparişi yoksa yaprağı genel prekast satışına katlayıp mobil fabrikaya geçmek.",
+"adim": "IDEF 2027 (3 ile 9 Mayıs 2027) ve MSPO 2027 (Eylül 2027, Kielce) stantlarında paket ve mobil tahkimat fabrikası konsepti; karar noktası: Eylül 2027'ye kadar ilk paket siparişi yoksa fırsatı genel prekast satışına katlayıp mobil fabrikaya geçmek.",
 "kim": "Savunma iş birimi ve satış",
 "ne_zaman": "Mayıs ve Eylül 2027"
 }
@@ -242,7 +242,7 @@ window.MEKA_DATA = {
 "Bunker segment kalıbının Wassenaar ML13.b Not 1 ve ML18.a yüzünden kontrollü sayılması; MSB yazısı alınmadan ihracatta ceza riski. Olasılık orta, etki yüksek. Azaltma: ürün bazlı yazılı görüş, bunker kalıbını ayrı kalem yapmak. Kaynak: Wassenaar ML 2025.",
 "Estonya'da RKIK'in Datasel mühimmat sözleşmelerine ilişkin Avrupa Komisyonu incelemesi (Eylül 2026) ihale süreçlerini yavaşlatabilir; 600 bunker ihalesinin sonucu gecikebilir. Olasılık orta, etki orta. Azaltma: Warren Concrete ve diğer Estonyalı prekastçılarla ihale sonucundan bağımsız teklif. Kaynak: ERR 70 milyon avro haberi.",
 "AB çelik koruma önleminin makine ve çelik yapılara genişletilmesi (değerlendirme Aralık 2026 ve Haziran 2027); kalıplar HS 8480 ile fasıl 84'te kalmalı. Olasılık düşük ile orta, etki orta. Kaynak: 01 rapor Tablo 10.1.",
-"Organizasyon: 2026 ilk yarıda 60,4 milyon TL net zarar veren şirkette savunma işinin yarı zamanlı yürütülmesi; sorumlu yönetici hâlâ atanmadı. Olasılık orta, etki yüksek. Azaltma: ayrı iş birimi ve bu yaprağa özgü bütçe. Kaynak: Midas KAP özeti; 01 rapor 9.2 madde 16."
+"Organizasyon: 2026 ilk yarıda 60,4 milyon TL net zarar veren şirkette savunma işinin yarı zamanlı yürütülmesi; sorumlu yönetici hâlâ atanmadı. Olasılık orta, etki yüksek. Azaltma: ayrı iş birimi ve bu fırsata özgü bütçe. Kaynak: Midas KAP özeti; 01 rapor 9.2 madde 16."
 ],
 "kapilar": {
 "yatirim": "sirket",
@@ -296,7 +296,7 @@ window.MEKA_DATA = {
 },
 {
 "tarih": "Eylül 2027",
-"olay": "12. ay karar noktası: ilk tahkimat ekipmanı siparişi; yoksa yaprağı genel prekast satışına katlamak.",
+"olay": "12. ay karar noktası: ilk tahkimat ekipmanı siparişi; yoksa fırsatı genel prekast satışına katlamak.",
 "kaynak": "01 rapor Tablo 9.3",
 "iso": "2027-09-15"
 },
@@ -379,7 +379,7 @@ window.MEKA_DATA = {
 },
 {
 "dosya": "01_ozet",
-"bolum_basligi": "Tablo Ö.1. Önerilen dört kol",
+"bolum_basligi": "Tablo Ö.1. Önerilen dört grup",
 "sayfa": 2
 },
 {
@@ -642,9 +642,9 @@ window.MEKA_DATA = {
 "Kirpi fiyatı ile nakliye tahmini: önceki tur 1,5 tonluk ejder dişinin Ankara'dan Baltık'a nakliyesini 155 ile 220 avro sayıyordu; Polonya kirpi satış fiyatı 200 ile 410 avro, Ukrayna ejder dişi 24 ile 38 avro. Bitmiş ürün ihracatının elenmesi doğrulandı, Ukrayna için daha da kesin.",
 "Estonya bunker sayısı: 600 Estonya, 1.000'den fazla Letonya planı; FPRI Letonya için 1.116 bunker hesaplıyor; raporun 1.600 toplamı bu iki sayının toplamıdır, çelişki değil kapsam farkı.",
 "Bunker sayısı iki biçimde geçiyor. 01 kartı ve Tablo Ö.1 Baltık için 600'den fazla bunker diyor; özetin Talep bölümü ve rapor 8.1 Rol 1 Estonya ve Letonya için 1.600'den fazla yazıyor. Tablo 8.1.1'e göre 600 Estonya'nın ortak ihale adedi, Letonya ayrıca 1.000'den fazla bunker planlıyor; iki sayı farklı kapsamı anlatıyor.",
-"Kartın üst kutusu tahkimat kalıbı ve prekast hattını 4,35 ile tek kol gösteriyor; puan listesinde prekast hattı 4,35 ve kalıp, gabion, çelik engel 4,25 iki ayrı satır; Tablo Ö.1 ikisini 4,35 / 4,25 diye tek kolda yazıyor. Bu yaprak 4,35'lik prekast hattı satırıdır.",
+"Kartın üst kutusu tahkimat kalıbı ve prekast hattını 4,35 ile tek grup gösteriyor; puan listesinde prekast hattı 4,35 ve kalıp, gabion, çelik engel 4,25 iki ayrı satır; Tablo Ö.1 ikisini 4,35 / 4,25 diye tek grupta yazıyor. Bu fırsat 4,35'lik prekast hattı satırıdır.",
 "Duyarlılık notu iki yerde farklı. Tablo 7.2 notu ilk dört nişin tüm senaryolarda ilk altıda kaldığını, Tablo Ö.1 notu ilk beşte kaldığını yazıyor. Bu niş için fark yok: üç senaryoda 1., hızlı nakit senaryosunda 2.",
-"Alıcı tanımı ağaçtaki yeri etkiliyor. Fatura kesilen taraf prekast firmaları, yani özel B2B; nihai talep kamu tahkimat programı. Tablo 7.3 yalnızca savunma alıcılı nişleri sayarken bu nişi ve kalıp paketini dışarıda bırakıyor; yönetim savunma nişini dar tanımlarsa bu satır listeden düşer.",
+"Alıcı tanımı haritadaki yeri etkiliyor. Fatura kesilen taraf prekast firmaları, yani özel B2B; nihai talep kamu tahkimat programı. Tablo 7.3 yalnızca savunma alıcılı nişleri sayarken bu nişi ve kalıp paketini dışarıda bırakıyor; yönetim savunma nişini dar tanımlarsa bu satır listeden düşer.",
 "Raporun kendi doğrulamasında iki iddia düzeltildi: Estonya'da Aralık 2025'e kadar 30 milyon € harcandı iddiası yanlış, 30 milyon € 2026 ödeneği ve kurulum bir yıl gecikti; Polonya'da yerel ortak fiilen şart iddiası yanlış, resmî sayfadaki ifade bağlayıcı olmayan tercih beyanı. Kaynak: s_road Tablo 10.2."
 ],
 "degisiklikler": [
@@ -671,7 +671,7 @@ window.MEKA_DATA = {
 "kapilar: butce_not'ta 15 ile 40 bin € rakamının satış fiyatı mertebesi olduğu, maliyet olmadığı düzeltildi; yol_not'a yatırım kapısının varsayım olduğu eklendi.",
 "takvim: 30 Eylül 2026 son günü, Aralık 2026 ve Haziran 2027 çelik önlemi değerlendirmesi, DSEI 2027 ve Eurosatory 2028, 24 ile 36. ay mobil fabrika satırı eklendi; 21 Aralık 2026 satırından inceleme atfı kaldırıldı, hesap olduğu yazıldı.",
 "kaynaklar: inceleme_sonuc.json girişi kaldırıldı, dosya bu turda verilmedi; s_glob 4.2 başlığı dosyadaki gerçek başlıkla değiştirildi; s_road'a 9.4 Ticari ilkeler, s_score'a Tablo 7.3 ve 7.3 eklendi.",
-"celiskiler: 03 dosyasına dayanan süre etiketi çelişkisi çıkarıldı, 03 dosyası bu turda verilmedi; ağaçtaki yer maddesindeki inceleme önerisi çıkarıldı, yerine Tablo 7.3'ün bu nişi dışladığı yazıldı; Tablo 7.2 ile Tablo Ö.1 notları arasındaki ilk altı ve ilk beş farkı eklendi; bunker maddesinden inceleme atfı kaldırıldı.",
+"celiskiler: 03 dosyasına dayanan süre etiketi çelişkisi çıkarıldı, 03 dosyası bu turda verilmedi; haritadaki yer maddesindeki inceleme önerisi çıkarıldı, yerine Tablo 7.3'ün bu nişi dışladığı yazıldı; Tablo 7.2 ile Tablo Ö.1 notları arasındaki ilk altı ve ilk beş farkı eklendi; bunker maddesinden inceleme atfı kaldırıldı.",
 "kapsam_notu: bu turda verilen dosyaların kapsamı ve çıkarılan atıflar yazıldı."
 ],
 "guven": 4,
@@ -823,7 +823,7 @@ window.MEKA_DATA = {
 {
 "ad": "NSPA",
 "rol": "kurum",
-"not": "NATO fonlu altyapı işlerinin kapısı; ücretsiz Source File ve NCAGE kaydı; bu yaprak için doğrudan sözleşme bulunamadı.",
+"not": "NATO fonlu altyapı işlerinin kapısı; ücretsiz Source File ve NCAGE kaydı; bu fırsat için doğrudan sözleşme bulunamadı.",
 "kaynak": "https://www.nspa.nato.int/business/procurement"
 },
 {
@@ -841,7 +841,7 @@ window.MEKA_DATA = {
 {
 "ad": "Ticaret Bakanlığı",
 "rol": "kurum",
-"not": "Pazara giriş belgesi ve Küresel Tedarik Zinciri desteği yüzde 50; ortak belge bütçesinin bu yaprağa düşen 80 ile 160 bin avroluk payı 40 ile 80 bin avroya iner.",
+"not": "Pazara giriş belgesi ve Küresel Tedarik Zinciri desteği yüzde 50; ortak belge bütçesinin bu fırsata düşen 80 ile 160 bin avroluk payı 40 ile 80 bin avroya iner.",
 "kaynak": "https://ticaret.gov.tr/destekler/ihracat-destekleri"
 },
 {
@@ -1032,7 +1032,7 @@ window.MEKA_DATA = {
 "puan_not": {
 "G": "Yıl 5 brüt kâr 0,2 ile 1,0 milyon avro; paket adedi tahmin, pencere 2028.",
 "H": "İlk avans faturası Mart ile Eylül 2027, 9 ile 15 ay; santral mevcut ürün.",
-"R": "Talep TED kayıtlı; kirpi fiyatı 1.747'den 1.026 PLN'ye düştü; ML13 kontrol riski. [Eleştirmen düzeltti, ortalama 3 iken 2: Pencere, yerli tercih ve sınıflandırma birden çok kritik belirsizlik; rubrik R2. Aynı ihale kayıtları ve aynı pencereye dayanan kalıp yaprağı 2,3 alır]",
+"R": "Talep TED kayıtlı; kirpi fiyatı 1.747'den 1.026 PLN'ye düştü; ML13 kontrol riski. [Eleştirmen düzeltti, ortalama 3 iken 2: Pencere, yerli tercih ve sınıflandırma birden çok kritik belirsizlik; rubrik R2. Aynı ihale kayıtları ve aynı pencereye dayanan kalıp fırsatı 2,3 alır]",
 "E": "On Polonyalı prekastçı isimli, MEKA kendi satar; bunker kalıbı MSB görüşü ister. [Eleştirmen düzeltti, ortalama 4 iken 3: Rubrik E3: izin ya da belge gerekir, yol belli. Sınıflandırma görüşü alınmadan kalıp ihracı yapılamıyor ve Polonyalı alıcılarla mevcut ilişki yok. Ayn]",
 "M": "Beton santrali çekirdek ürün; kalıp Ankara ağır sac hattında, ek yatırım yok.",
 "S": "Teknoloji yok, mevcut ürünün yeni müşterisi; Polonya ve Baltık penceresi 2028'de kapanıyor."
@@ -1046,7 +1046,7 @@ window.MEKA_DATA = {
 "id": "sav_kalip",
 "baslik": "Tahkimat kalıbı, gabion ve çelik engel",
 "bant": "one_cikan",
-"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi öne çıkan: Talep artık resmî ihale sonuçlarıyla kanıtlı ve birim fiyatlar belli; bilet 290 ile 485 bin avro ile MEKA ölçeğinde küçük; ilk gelir 9 ile 12 ay; geri ödeme 20 ile 36 ay; ürünler mevcut tezgâh parkına doğrudan oturuyor. Çekinceler: yıl 5 brüt kârı 0,35 ile 1,0 milyon avro ile mutlak değer küçük, talep 2028'den sonra daralıyor, kazananların tamamı yerli. Bu yaprak tek başına büyük değil; prekast hattı yaprağıyla aynı pakette ve hızlı nakit kalemi olarak öne çıkan sınıfta kalmalı. Önceki çalışmanın kendi puanı: 4,25 / 5. Savunma raporunun yedi kriterli ağırlıklı baz puanı; 24 niş içinde 2. sıra, sınıf birincil. Kriter puanları: teknik uyum 5, pazar çekiciliği 3, giriş engeli 5, rekabet 3, gelire ulaşma süresi 5, yatırım ihtiyacı 5, sinerji 4. Hızl…",
+"puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi öne çıkan: Talep artık resmî ihale sonuçlarıyla kanıtlı ve birim fiyatlar belli; bilet 290 ile 485 bin avro ile MEKA ölçeğinde küçük; ilk gelir 9 ile 12 ay; geri ödeme 20 ile 36 ay; ürünler mevcut tezgâh parkına doğrudan oturuyor. Çekinceler: yıl 5 brüt kârı 0,35 ile 1,0 milyon avro ile mutlak değer küçük, talep 2028'den sonra daralıyor, kazananların tamamı yerli. Bu fırsat tek başına büyük değil; prekast hattı fırsatıyla aynı pakette ve hızlı nakit kalemi olarak öne çıkan sınıfta kalmalı. Önceki çalışmanın kendi puanı: 4,25 / 5. Savunma raporunun yedi kriterli ağırlıklı baz puanı; 24 niş içinde 2. sıra, sınıf birincil. Kriter puanları: teknik uyum 5, pazar çekiciliği 3, giriş engeli 5, rekabet 3, gelire ulaşma süresi 5, yatırım ihtiyacı 5, sinerji 4. Hızl…",
 "tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 22 Eylül 2026",
 "ne": "MEKA'nın Ankara tesisinde ağır sac, lazer kesim, CNC ve kaynak hattıyla ejder dişi, beton kirpi, T-duvar ve bunker paneli için çelik batarya kalıpları, Çek kirpisi tipi çelik profil engeller ve tel kafes gabion üretmek. Bitmiş beton ürün değil, kalıp ve çelik engel ihraç edilir. Alıcılar Polonya ve Baltık prekast üreticileri ile savunma bakanlıklarının lojistik birimleridir. Kalıp HS 8480, gabion HS 7314; rapor bu ürünleri kontrol dışı sayar, MSB görüşü henüz yok.",
 "neden": "Talep resmî ihale kayıtlarıyla kanıtlı: Polonya askerî birimleri 2025 ve 2026'da TED'de yüz binlerce beton kirpi aldı; tek bir 13. WOG ihalesi 56.200 kirpi ve 133,1 milyon PLN. Litvanya 7.300 ejder dişini adet başına 213 avroya aldı; Letonya 4,87 milyon avroluk ejder dişi çerçevesi ve 410.640 avroluk metal kirpi sözleşmesi imzaladı. Bu ürünler MEKA'nın mevcut tezgâh parkına doğrudan oturur, bilet küçüktür ve ilk gelir 9 ile 12 ayda gelir. Pazar 2028'de daralır; o yüzden kalıp hattı genel prekast kalıbına da dönebilecek biçimde kurulmalı.",
@@ -1122,7 +1122,7 @@ window.MEKA_DATA = {
 "kaynak": "diger, Wikipedia Czech hedgehog"
 }
 ],
-"durum": "Yaprak 20 Ekim 2026'da derin çalışmayla güncellendi; önceki veri 22 Eylül 2026 tarihli rapordan geliyordu ve web araması yapılmamıştı. Bu tur TED API'den 2024 ile 2026 arasındaki Polonya, Litvanya, Letonya ve Estonya ihale sonuçları çekildi; birim fiyatlar ve kazananlar artık kaynaklı. Ekonomi modeli kuruldu: tam giriş bileti 290 ile 485 bin avro, destek sonrası 225 ile 365 bin avro; yıl 3 brüt kârı 0,33 ile 0,77 milyon avro, yıl 5 brüt kârı 0,35 ile 1,0 milyon avro; geri ödeme 20 ile 36 ay. Çürütücü 20 Ekim 2026 tarihinde on dört sayfayı açtı; on bir TED kaydı, mil.in.ua, prom.ua ve focus.ua doğrulandı; bilet toplamı ve hacim tablosu aritmetiği düzeltildi, 13. ve 16. WOG kazanan listeleri tamamlandı. MSB sınıflandırma görüşü için rapor takvimi 22 Ekim 2026'da doluyor ve alındığına dair kayıt yok. Polonya 16. WOG teslimleri 10 Ekim ile 20 Kasım 2026 arasında sürüyor; Estonya ve Letonya ortak bunker ihalesinin sonucu TED'de henüz yok. Bant one_cikan kalıyor ama gerekçe değişti: küçük bilet, hızlı nakit ve resmî talep kanıtı güçlü; mutlak kâr MEKA ölçeğinde küçük ve talep 2028'den sonra daralıyor.",
+"durum": "Fırsat 20 Ekim 2026'da derin çalışmayla güncellendi; önceki veri 22 Eylül 2026 tarihli rapordan geliyordu ve web araması yapılmamıştı. Bu tur TED API'den 2024 ile 2026 arasındaki Polonya, Litvanya, Letonya ve Estonya ihale sonuçları çekildi; birim fiyatlar ve kazananlar artık kaynaklı. Ekonomi modeli kuruldu: tam giriş bileti 290 ile 485 bin avro, destek sonrası 225 ile 365 bin avro; yıl 3 brüt kârı 0,33 ile 0,77 milyon avro, yıl 5 brüt kârı 0,35 ile 1,0 milyon avro; geri ödeme 20 ile 36 ay. Çürütücü 20 Ekim 2026 tarihinde on dört sayfayı açtı; on bir TED kaydı, mil.in.ua, prom.ua ve focus.ua doğrulandı; bilet toplamı ve hacim tablosu aritmetiği düzeltildi, 13. ve 16. WOG kazanan listeleri tamamlandı. MSB sınıflandırma görüşü için rapor takvimi 22 Ekim 2026'da doluyor ve alındığına dair kayıt yok. Polonya 16. WOG teslimleri 10 Ekim ile 20 Kasım 2026 arasında sürüyor; Estonya ve Letonya ortak bunker ihalesinin sonucu TED'de henüz yok. Bant one_cikan kalıyor ama gerekçe değişti: küçük bilet, hızlı nakit ve resmî talep kanıtı güçlü; mutlak kâr MEKA ölçeğinde küçük ve talep 2028'den sonra daralıyor.",
 "acik_sorular": [
 "Kısmen cevaplandı: MEKA'da kalıp, kür sistemi ve tahkimat tasarım bilgisi eksik; kendi geliştirmeyle mi, ortaklıkla mı kapanacak?",
 "Görüşme gerekir: MSB'den yazılı sınıflandırma görüşü alındı mı? (MSB İhracat ve Kontrol dairesi; MEKA savunma iş birimi)",
@@ -1150,7 +1150,7 @@ window.MEKA_DATA = {
 "ne_zaman": "31 Mart 2027"
 },
 {
-"adim": "Ortak belge havuzunu tamamlamak: ISO 3834-2 ve EN 1090-2 (çelik engel için CE işareti); bu yaprağın payı beşte bir.",
+"adim": "Ortak belge havuzunu tamamlamak: ISO 3834-2 ve EN 1090-2 (çelik engel için CE işareti); bu fırsatın payı beşte bir.",
 "kim": "Kalite ve belgelendirme",
 "ne_zaman": "30 Haziran 2027"
 },
@@ -1240,7 +1240,7 @@ window.MEKA_DATA = {
 "kaynaklar": [
 {
 "dosya": "01_Kart_Savunma_Nisi.md",
-"bolum": "Tek ürün değil, dört kollu bir portföy; 24 niş içinden seçilenler, puan (5); Yol haritası 36 ay; İlk 90 gün",
+"bolum": "Tek ürün değil, dört gruplu bir portföy; 24 niş içinden seçilenler, puan (5); Yol haritası 36 ay; İlk 90 gün",
 "tarih": "22 Eylül 2026"
 },
 {
@@ -1260,7 +1260,7 @@ window.MEKA_DATA = {
 },
 {
 "dosya": "inceleme_sonuc.json",
-"bolum": "01 tutarsizlik_ve_eskiyenler ve gorevler; çelişkiler, Savunmanın yeri; kart01_sadakat; ağaç önerileri, Savunma dört kol",
+"bolum": "01 tutarsizlik_ve_eskiyenler ve gorevler; çelişkiler, Savunmanın yeri; kart01_sadakat; harita önerileri, Savunma dört grup",
 "tarih": "5 Ekim 2026"
 }
 ],
@@ -1478,11 +1478,11 @@ window.MEKA_DATA = {
 "Polonya 16. Askerî Ekonomik Birim: rapor ilan değerini teyit gerekli saymıştı; TED 625610-2026 gerçek sözleşme toplamını 42.839.186 PLN olarak veriyor, kazananlar Stropy Małro, Transbet ve Drogi i Mosty Kaczmarczyk.",
 "Alıcı adayları: önceki liste Pekabex, Consolis Polska, E-Betoonelement ve TMB Element'i alıcı örneği sayıyordu; 2025 ile 2026 TED sonuçlarında kazananlar Małro, Gralbet, Transbet, Drogi i Mosty Kaczmarczyk, VECO-BET, Budokop, Fabet, Czarnowski gibi yerel prekastçılar. Hedef listesi değişmeli.",
 "Çek kirpisi tanımı: rapor Litvanya'nın Çek kirpisi tipi çelik engel aldığını yazıyor; TED'de Litvanya ve Letonya hem beton hem metal kirpi alıyor, Polonya'da jeż beton gwiazdobloktur (1.700 kg). Çelik engel pazarı Baltık'ta, beton kirpi pazarı Polonya'da.",
-"01 kartı dört kol diyor ama puan listesinde tahkimat iki satır: prekast hattı 4,35 ve kalıp, gabion, çelik engel 4,25. Üst kutuda ikisi tek kol olarak 4,35 ile gösterilmiş. Kaynak: 01 kart; inceleme, 01 tutarsızlıklar.",
+"01 kartı dört grup diyor ama puan listesinde tahkimat iki satır: prekast hattı 4,35 ve kalıp, gabion, çelik engel 4,25. Üst kutuda ikisi tek grup olarak 4,35 ile gösterilmiş. Kaynak: 01 kart; inceleme, 01 tutarsızlıklar.",
 "01 kartı tahkimatı 0-12 ay hızlı kazanım sayıyor. 03 belgesi, 24 Eylül 2026, savunmayı on alanda 6. sıraya koyuyor, süreyi 6-24 ay ve yatırımı orta yazıyor, gerekçe vermiyor. Ölçekler farklı, sayısal çelişki değil; inceleme 01 özetini daha iyi kanıtlı sayıyor. Kaynak: inceleme, Savunmanın yeri.",
 "Bunker sayısı: kart Baltık için 600'den fazla yazıyor; inceleme özetin bir yerde 600'den fazla, bir yerde 1.600'den fazla yazdığını saptıyor. Raporun 8.1 bölümü ikisini açıklıyor: Rol 1 paragrafı Estonya ve Letonya için 1.600'den fazla bunker yazar; Tablo 8.1.1 Estonya 600 bunker, Letonya 1.000'den fazla bunker planı verir.",
 "Teknik uyum: Tablo 7.1 bu nişe teknik uyum 5 verir. Tablo 8.1.2 tahkimat üretim sistemleri bütününe MEKA teknik uyumu 4 verir ve kalıp ile kür sistemleri ve tahkimat tasarım bilgisinin eksik olduğunu yazar. İki tablo farklı kapsamda; yine de kalıp nişinde 5 puanı iyimser olabilir.",
-"Ağaç yeri: inceleme, savunma kollarını Özel firmalar altına koymayı tartışmalı sayıyor; ilk 90 günün kapıları kamu, talep örnekleri devlet alımı. Bu niş için Tablo 7.1 alıcıyı prekast üreticileri ve savunma bakanlıkları diye iki kanal yazıyor; Tablo 8.1.2 savunma bakanlıkları kanalını mobil fabrikaya bağlıyor. Gabion ve çelik engelin doğrudan kamuya satış yolu kartta ve raporda ayrıca anlatılmıyor."
+"Harita yeri: inceleme, savunma kollarını Özel firmalar altına koymayı tartışmalı sayıyor; ilk 90 günün kapıları kamu, talep örnekleri devlet alımı. Bu niş için Tablo 7.1 alıcıyı prekast üreticileri ve savunma bakanlıkları diye iki kanal yazıyor; Tablo 8.1.2 savunma bakanlıkları kanalını mobil fabrikaya bağlıyor. Gabion ve çelik engelin doğrudan kamuya satış yolu kartta ve raporda ayrıca anlatılmıyor."
 ],
 "degisiklikler": [
 "20 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
@@ -1943,7 +1943,7 @@ window.MEKA_DATA = {
 },
 {
 "deger": "80 kamyon; 1,2 milyar Çek kronunun üzerinde, KDV hariç",
-"aciklama": "Çek Savunma Bakanlığı ile Tatra Trucks arasındaki 2 Eylül 2022 sözleşmesi: Tatra Force 8x8 tek kollu kanca yükleyici; kamyon başı hesapla yaklaşık 15 milyon kron",
+"aciklama": "Çek Savunma Bakanlığı ile Tatra Trucks arasındaki 2 Eylül 2022 sözleşmesi: Tatra Force 8x8 tek gruplu kanca yükleyici; kamyon başı hesapla yaklaşık 15 milyon kron",
 "kaynak": "haber, https://ct24.ceskatelevize.cz/domaci/3526577-tatra-vyrobi-pro-armadu-osmdesat-nakladnich-aut-prijdou-na-vic-nez-miliardu"
 },
 {
@@ -1968,7 +1968,7 @@ window.MEKA_DATA = {
 },
 {
 "deger": "400 ile 800 bin avro; beşte bir pay 80 ile 160 bin avro",
-"aciklama": "Beş savunma kolunun ortak belge, test, prototip ve TGB bütçesi 36 ay; desteklerle yarıya iner; bu yaprağın payı beşe bölme kuralıyla",
+"aciklama": "Beş savunma grubunun ortak belge, test, prototip ve TGB bütçesi 36 ay; desteklerle yarıya iner; bu fırsatın payı beşe bölme kuralıyla",
 "kaynak": "01 rapor Tablo 9.2, s. 38"
 },
 {
@@ -2138,7 +2138,7 @@ window.MEKA_DATA = {
 },
 {
 "dosya": "sec_exec.js",
-"bolum": "Tablo Ö.1 önerilen dört kol; özet yol haritası; görev listesinde yoktu",
+"bolum": "Tablo Ö.1 önerilen dört grup; özet yol haritası; görev listesinde yoktu",
 "tarih": "22 Eylül 2026"
 },
 {
@@ -2153,7 +2153,7 @@ window.MEKA_DATA = {
 },
 {
 "dosya": "inceleme_sonuc.json",
-"bolum": "01 kart zayıf yanlar ve tutarsızlıklar; kart01_sadakat; takvim 30 Eylül; ağaç notu Savunma dört kol",
+"bolum": "01 kart zayıf yanlar ve tutarsızlıklar; kart01_sadakat; takvim 30 Eylül; harita notu Savunma dört grup",
 "tarih": "5 Ekim 2026"
 }
 ],
@@ -2205,7 +2205,7 @@ window.MEKA_DATA = {
 },
 {
 "dosya": "01_ozet",
-"bolum_basligi": "Tablo Ö.1. Önerilen dört kol",
+"bolum_basligi": "Tablo Ö.1. Önerilen dört grup",
 "sayfa": 2
 },
 {
@@ -2349,15 +2349,15 @@ window.MEKA_DATA = {
 "Bundeswehr flat rack ihtiyacı: rapor 8.000 ile 16.000 flat rack tahmin ediyor; kaynaklı sipariş 2023 ve 2024 çağrılarında 2.330 adet artı Saxas 1.750 platform. Raporun hacmi kamyon başına 2 ile 4 varsayımıyla kuruldu; gerçek sipariş kamyon başına 1'in altında görünüyor. Kaynak: Rheinmetall 2023 ve 2024 bültenleri.",
 "Saxas çerçeve adedi: ESUT 5.100, Eurotransport 4.000 yazıyor; ikisi de 7 Kasım 2024 tarihli. Hangisinin doğru olduğu BAAINBw bülteniyle teyit edilmeli.",
 "Jelcz sözleşme bedeli: Defence24 847 milyon zloti, Silahlanma Ajansı bülteni yaklaşık 837 milyon zloti yazıyor.",
-"Önceki yaprak bütçe dilimini 2 vermişti; tam bilet robot hücresi ve işletme sermayesiyle 0,7 ile 1,3 milyon avro olunca dilim 3'e çıktı. Robot hücresi olmadan dilim 2'de kalır.",
-"Hiab Defence Logistics: önceki yaprak Haziran 2026'da kurulan yeni birim diyordu; Hiab bülteni yalnız Government Business Operations biriminin yeniden adlandırılması olduğunu yazıyor, aynı ekip.",
+"Önceki fırsat bütçe dilimini 2 vermişti; tam bilet robot hücresi ve işletme sermayesiyle 0,7 ile 1,3 milyon avro olunca dilim 3'e çıktı. Robot hücresi olmadan dilim 2'de kalır.",
+"Hiab Defence Logistics: önceki fırsat Haziran 2026'da kurulan yeni birim diyordu; Hiab bülteni yalnız Government Business Operations biriminin yeniden adlandırılması olduğunu yazıyor, aynı ekip.",
 "Koluman: önceki liste 195 konteyner ve 40 platform sözleşmesi yazıyordu; bu turda açılan kaynakta yalnız 70 araç ve teslim takvimi var, konteyner ve platform adedi doğrulanamadı.",
 "Hollanda WTB için önceki metinde yüzde 100 opsiyon yazıyordu; ihale sonucu, ADS ve EDR sayfalarında opsiyon kaydı yok, ihale sonucu çerçeve sözleşme değil diyor; iddia silindi.",
 "Jelcz için gecikme cezası iddiası Defence24 sayfasında yok; silindi. ESUT Nisan 2026 sayfasındaki 1,5 milyar avro başlığı WLS ve SatComBw'yi birlikte kapsıyor ve tarihsiz.",
 "Kart ve özet kesin 4.000 kanca yükleyici yazıyor; Hiab kaynağı 4.000'e kadar diyor ve 2021 tarihli. Raporun kendi içinde de iki kullanım var: 8.2 metni ve Tablo 8.6.1 4.000 adede kadar, Tablo 8.2.1, Tablo 8.4.2 ve Tablo Ö.1 kesin 4.000. Kaynak: inceleme 5 Ekim 2026, kart01_sadakat; 01 rapor s_other, s_crane, s_cont, s_exec.",
 "Kartta rakip analizi yok: flat rack'te mevcut tedarikçiler ve fiyat düzeyi yazmıyor. Rapor 8.2 yalnız birim fiyat tahmini veriyor, rakip adı vermiyor. Kaynak: inceleme zayıf yanlar; 01 rapor s_other 8.2.",
 "Kartın 30 günlük ödeme vadesi avantajı NSPA, BM ve AB kamusuna doğrudan satışta geçerli; flat rack'in muhatapları Hiab, Palfinger, Koluman gibi özel OEM'ler ve onlarda vade 50 ile 109 gün. Kart bu çelişkiyi ele almıyor. Kaynak: inceleme zayıf yanlar.",
-"Ağaç yeri tartışmalı: inceleme dört savunma kolunun Özel firmalar kolunda durmasını fatura kesilen taraf kuralına bağlıyor; kayıt kapıları ve nihai alıcı kamu. Öneri: şemsiye Savunma kartı Devlet altında, bu kolda kanal özel ana yüklenici etiketi. Kaynak: inceleme ağaç notları.",
+"Harita yeri tartışmalı: inceleme dört savunma grubunun Özel firmalar grubunda durmasını fatura kesilen taraf kuralına bağlıyor; kayıt kapıları ve nihai alıcı kamu. Öneri: şemsiye Savunma kartı Devlet altında, bu grupta kanal özel ana yüklenici etiketi. Kaynak: inceleme harita notları.",
 "Flat rack sayısı 8.000-16.000 ve birim fiyatlar raporda tahmin işaretli; kart bunları rakam olarak vermiyor. Kaynak: 01 rapor s_other 8.2.",
 "Kartın 30 Eylül 2026 son günlü YETEN ve SSB fuar başvurusu geçti; yapıldığı dosyalarda yok. Kaynak: inceleme tutarsızlık ve eskiyenler.",
 "Duyarlılık ifadesi iki yerde farklı: Tablo 7.2 notu ilk dört nişin tüm senaryolarda ilk altı içinde kaldığını, Tablo Ö.1 notu ilk beş içinde kaldığını yazıyor. Kaynak: 01 rapor s_score Tablo 7.2; s_exec Tablo Ö.1.",
@@ -2864,8 +2864,8 @@ window.MEKA_DATA = {
 "kaynak": "rapor, Peters, Timmerhaus ve West tablosu, Politecnico di Milano ders notu, https://pselab.chem.polimi.it/wp-content/uploads/2015/01/L8-Plant-Economics.pdf"
 },
 {
-"deger": "400 ile 800 bin avro, bu yaprağın payı 80 ile 160 bin",
-"aciklama": "Beş savunma kolunun ortak 36 aylık belge, test ve altyapı bütçesi; beşte biri bu yaprağa yazıldı, desteklerle 40 ile 80 bin avroya iner. Tahmin.",
+"deger": "400 ile 800 bin avro, bu fırsatın payı 80 ile 160 bin",
+"aciklama": "Beş savunma grubunun ortak 36 aylık belge, test ve altyapı bütçesi; beşte biri bu fırsata yazıldı, desteklerle 40 ile 80 bin avroya iner. Tahmin.",
 "kaynak": "01 rapor, Tablo 9.2"
 }
 ],
@@ -2919,7 +2919,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 3,
-"butce_not": "Tam giriş bileti, Ocak 2027 ile Aralık 2028 arası: 0,8 ile 1,65 milyon avro, yaklaşık 0,93 ile 1,9 milyon dolar; orta değer 1,2 milyon avro, yaklaşık 1,4 milyon dolar, dilim 3. Kalemler: beş savunma kolunun ortak belge ve test paketinin beşte biri 80 ile 160 bin avro, rapor Tablo 9.2 toplamı 400 ile 800 bin avronun beşte biri, desteklerle 40 ile 80 bin; ML18.a hukuki görüş 10 ile 25 bin avro; ATEX teknik dosyası ve onaylanmış kuruluş 20 ile 50 bin avro, yaprağa özgü; 3 kişilik proje ve teklif mühendisliği ekibi 24 ay 180 ile 300 bin avro; iş geliştirme ve fuar 80 ile 150 bin avro; bedelsiz ön tasarım 30 ile 60 bin avro; ilk paket işletme sermayesi 400 ile 900 bin avro. Ortak pay dışındakiler tahmin. İlk 12 ayın harcaması 260 ile 490 bin avro. İşletme sermayesi hariç tutulursa bilet 0,4 ile 0,75 milyon avro ile dilim 2'ye iner. Yeni makine gerekmez. Yatırım MEKA şirketi üzerinden; kişisel yatırım seçeneği yok.",
+"butce_not": "Tam giriş bileti, Ocak 2027 ile Aralık 2028 arası: 0,8 ile 1,65 milyon avro, yaklaşık 0,93 ile 1,9 milyon dolar; orta değer 1,2 milyon avro, yaklaşık 1,4 milyon dolar, dilim 3. Kalemler: beş savunma grubunun ortak belge ve test paketinin beşte biri 80 ile 160 bin avro, rapor Tablo 9.2 toplamı 400 ile 800 bin avronun beşte biri, desteklerle 40 ile 80 bin; ML18.a hukuki görüş 10 ile 25 bin avro; ATEX teknik dosyası ve onaylanmış kuruluş 20 ile 50 bin avro, fırsata özgü; 3 kişilik proje ve teklif mühendisliği ekibi 24 ay 180 ile 300 bin avro; iş geliştirme ve fuar 80 ile 150 bin avro; bedelsiz ön tasarım 30 ile 60 bin avro; ilk paket işletme sermayesi 400 ile 900 bin avro. Ortak pay dışındakiler tahmin. İlk 12 ayın harcaması 260 ile 490 bin avro. İşletme sermayesi hariç tutulursa bilet 0,4 ile 0,75 milyon avro ile dilim 2'ye iner. Yeni makine gerekmez. Yatırım MEKA şirketi üzerinden; kişisel yatırım seçeneği yok.",
 "yol": "ikisi",
 "yol_not": "Üretim kur: konveyör ve şaseler Başkent OSB fabrikalarında, silo ve çelik yapılar beton santrali hattında, 10 tona ve 7 metreye kadar ağır parçalar Eskişehir OSB'de; 2025'te devreye alınan kaynak robotu, CNC borverk, boya ünitesi ve MEKASoft Siemens S7 otomasyon panoları kullanılır. Kanal ortak: ARCA ve MKE'ye doğrudan tedarikçi, Repkon, MSM Group ve PST Group gibi entegratör ve yüklenicilere alt yüklenici. Önce Türk bağlantılı projeler, sonra Avrupa yüklenicileri sırası varsayım."
 },
@@ -3031,7 +3031,7 @@ window.MEKA_DATA = {
 },
 {
 "dosya": "inceleme_sonuc.json",
-"bolum": "G1 01 kartı, konu Mühimmat hattı ekipmanı; zayif_yanlar; tutarsizlik_ve_eskiyenler; gorevler; savunma_raporuyla_karsilastirma; kart01_sadakat; agac önerileri Savunma dört kol",
+"bolum": "G1 01 kartı, konu Mühimmat hattı ekipmanı; zayif_yanlar; tutarsizlik_ve_eskiyenler; gorevler; savunma_raporuyla_karsilastirma; kart01_sadakat; agac önerileri Savunma dört grup",
 "tarih": "5 Ekim 2026"
 }
 ],
@@ -3244,7 +3244,7 @@ window.MEKA_DATA = {
 "Litvanya tesisi rakamları kaynaklar arasında farklı: LRT 141 milyon avroluk inşaat, 340 hektar ve yılda yaklaşık 10.000 mermi veriyor, doğrudan yatırımı yazmıyor; 180 milyon avro ve Rheinmetall'in on binlerce mermi ifadesi AIN'den. Açılış 2026 ortasından 2027 başına kaydı.",
 "MKE ifadesi. Önceki metin MKE'nin 2025'te 384 yeni makine, hat ve tesis yatırımı yaptığını yazıyordu; MKE'nin kendi sayfası 384 yeni tezgâh, hat ve tesis için yatırım planını hayata geçirdik diyor. Anlam yakın, ifade düzeltildi.",
 "Bütçe dilimi. Önceki kapilar.butce 1 idi ve yalnız ilk belge dilimini sayıyordu. Tam giriş bileti ilk 24 ayda 0,8 ile 1,65 milyon avro, yaklaşık 0,93 ile 1,9 milyon dolar; dilim 3.",
-"Ağaçtaki kol. İnceleme, savunma dört kolunun Özel firmalar altında durmasını sorguluyor: fatura kesilen taraf özel, Repkon ve STV, ama ilk 90 günün kapıları kamu, YETEN, SSB, NCAGE, NSPA, UNGM, SAM.gov, MSB, ve talep örnekleri devlet alımı. Önerisi şemsiye Savunma kartını Devlet altına almak, dört kolda kanal etiketi özel ana yüklenici yazmak.",
+"Haritadaki grup. İnceleme, savunma dört grubunun Özel firmalar altında durmasını sorguluyor: fatura kesilen taraf özel, Repkon ve STV, ama ilk 90 günün kapıları kamu, YETEN, SSB, NCAGE, NSPA, UNGM, SAM.gov, MSB, ve talep örnekleri devlet alımı. Önerisi şemsiye Savunma kartını Devlet altına almak, dört grupta kanal etiketi özel ana yüklenici yazmak.",
 "Alıcı listesi. İnceleme kart için MKE gibi devlet alıcıları dosyada geçmiyor diyor; raporun Tablo 9.1'i ise MKE'yi ve Arca'yı alıcı sayıyor. Kartın görüşme listesinden Contsystem, Arca, Rheinmetall Mobile Systeme ve SSB Sanayileşme Dairesi düşmüş, Liebherr eklenmiş. İnceleme 54 sayfalık raporu görmedi; kartı ve özeti okudu.",
 "Arca'nın yeri. Raporun 8.3 bölümü Arca Savunma'yı Çorum'da gösteriyor; aynı raporun Tablo 9.1'i Arca'nın yanına Estonya yazıyor. Hangisinin doğru olduğu çalışmalardan anlaşılmıyor.",
 "Kart 24 niş diyor ama 14'ünü listeliyor. Aynı bölümün komşu nişi mühimmat ambalajı ve taşıma konteynerleri, 3,45, kartta yok; 155 mm gövde ise önerilmeyenlerde geçiyor ama puan listesinde yok.",
@@ -3415,7 +3415,7 @@ window.MEKA_DATA = {
 {
 "ad": "NSPA",
 "rol": "kurum",
-"not": "Ücretsiz Source File kaydı; bu yaprakta doğrudan alıcı değil, tedarikçi görünürlüğü için.",
+"not": "Ücretsiz Source File kaydı; bu fırsatta doğrudan alıcı değil, tedarikçi görünürlüğü için.",
 "kaynak": "01 rapor 9.2"
 },
 {
@@ -3668,7 +3668,7 @@ window.MEKA_DATA = {
 },
 {
 "deger": "1,1 ile 2,0 milyon avro",
-"aciklama": "Bu çalışmanın bilet hesabı: ortak belge ve test paketinin beşte biri 80 ile 160 bin avro artı yaprağa özgü CSC testi, genişleyebilir prototip, robotik kaynak hücresi, ekip, iş geliştirme ve ilk sipariş işletme sermayesi.",
+"aciklama": "Bu çalışmanın bilet hesabı: ortak belge ve test paketinin beşte biri 80 ile 160 bin avro artı fırsata özgü CSC testi, genişleyebilir prototip, robotik kaynak hücresi, ekip, iş geliştirme ve ilk sipariş işletme sermayesi.",
 "kaynak": "01 rapor Tablo 9.2 ve bu çalışmanın tahmini"
 },
 {
@@ -3677,7 +3677,7 @@ window.MEKA_DATA = {
 "kaynak": "Bu çalışmanın ekonomi modeli; birim fiyatlar Marshall, Kamerstuk ve TCK 9 emsallerinden türetildi"
 }
 ],
-"durum": "Rapor bu nişi dört kollu portföyün dördüncü kolu ve 6 ile 24 ay arası ana bahis sayıyor; Tablo 7.1 puanı 3,70 ve sınıf eşiğine göre ikincil. Bu turda talep kanıtı tarihli programlara bağlandı: Rheinmetall'in 149 istasyonluk üretimi 2027 ilk çeyrekte başlıyor, Marshall kapasite için Tecnove'ye üretim verdi ve Bundeswehr tank konteyneri için yeni ihale şartı kondu. Kaynaklı birim fiyatlar bulundu: Marshall 154 bin sterlin, Hollanda programı alt sistemler dahil, bakım hariç 70 ile 175 bin avro, TCK 9 145 ile 290 bin avro. Bunlardan gövde payı yüzde 25 ile 35 varsayımıyla standart gövde için 30 ile 45 bin avro, genişleyebilir gövde için 90 ile 140 bin avro fiyat kuruldu. Ekonomi modeli bilet 1,1 ile 2,0 milyon avro, yıl 3 brüt kâr 0,3 ile 1,6 milyon avro, yıl 5 brüt kâr 1,4 ile 5 milyon avro, geri ödeme yaklaşık 4 yıl veriyor. Hiçbir ana yüklenici Türk tedarikçi aradığını açıkça yazmıyor; Marshall'ın Hollanda işinde ofset gereği yerli alt yüklenici seçtiği görülüyor, bu yüzden bant ikincil kalıyor.",
+"durum": "Rapor bu nişi dört gruplu portföyün dördüncü grubu ve 6 ile 24 ay arası ana bahis sayıyor; Tablo 7.1 puanı 3,70 ve sınıf eşiğine göre ikincil. Bu turda talep kanıtı tarihli programlara bağlandı: Rheinmetall'in 149 istasyonluk üretimi 2027 ilk çeyrekte başlıyor, Marshall kapasite için Tecnove'ye üretim verdi ve Bundeswehr tank konteyneri için yeni ihale şartı kondu. Kaynaklı birim fiyatlar bulundu: Marshall 154 bin sterlin, Hollanda programı alt sistemler dahil, bakım hariç 70 ile 175 bin avro, TCK 9 145 ile 290 bin avro. Bunlardan gövde payı yüzde 25 ile 35 varsayımıyla standart gövde için 30 ile 45 bin avro, genişleyebilir gövde için 90 ile 140 bin avro fiyat kuruldu. Ekonomi modeli bilet 1,1 ile 2,0 milyon avro, yıl 3 brüt kâr 0,3 ile 1,6 milyon avro, yıl 5 brüt kâr 1,4 ile 5 milyon avro, geri ödeme yaklaşık 4 yıl veriyor. Hiçbir ana yüklenici Türk tedarikçi aradığını açıkça yazmıyor; Marshall'ın Hollanda işinde ofset gereği yerli alt yüklenici seçtiği görülüyor, bu yüzden bant ikincil kalıyor.",
 "acik_sorular": [
 "Kısmen cevaplandı: Hangi alt segmentle girilecek? Atölye ve depo konteyneri uyum 5 ve en düşük bariyer. Genişleyebilir sağlık konteyneri uyum 4, tıbbi iç donanım için ortak gerekir. Tablo 8.4.2.",
 "Kısmen cevaplandı: Askerî konteyner ihracat kontrolüne giriyor mu? Kart ürünlerin çoğu ihracat izni gerektirmiyor diyor. Rapor 9.2 konteyner için MSB'den 5201 kapsamında yazılı sınıflandırma görüşü istenmesini yazıyor; Tablo 10.1 ML6, ML17, ML18 gri alanlarını risk sayıyor.",
@@ -3727,7 +3727,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 3,
-"butce_not": "Tam giriş bileti (Ocak 2027 ile Aralık 2028 arası toplam harcama) 1,1 ile 2,0 milyon avro, yaklaşık 1,2 ile 2,2 milyon dolar; bu 1 ile 10 milyon dolar dilimine girer. Kalemler: beş savunma kolunun ortak belge ve test paketinin beşte biri 80 ile 160 bin avro (rapor Tablo 9.2 toplamı 400 ile 800 bin avronun beşte biri; desteklerle 40 ile 80 bin); ISO 1496-1 ve CSC onayı 20 ile 50 bin avro (tahmin); genişleyebilir gövde ve hidrolik mekanizma prototipi 150 ile 300 bin avro (tahmin); robotik kaynak hücresi ve pozisyoner 250 ile 500 bin avro (tahmin, varsa sıfır); tasarım ve kalite ekibi 3 kişi 24 ay 180 ile 300 bin avro (tahmin); iş geliştirme ve fuar 60 ile 100 bin avro (tahmin); ilk seri sipariş işletme sermayesi 400 ile 600 bin avro (tahmin, avans düşülmüş). İlk 12 ayın harcaması 290 ile 550 bin avro; robot hücresi ilk yılda alınırsa 540 ile 1.050 bin avro. Robot hücresi ve işletme sermayesi hariç tutulursa bilet 0,5 ile 0,9 milyon avro ile 2. dilime iner. Yatırım MEKA şirketi üzerinden; kişisel yatırım seçeneği yok, çünkü üretim MEKA tesisinde.",
+"butce_not": "Tam giriş bileti (Ocak 2027 ile Aralık 2028 arası toplam harcama) 1,1 ile 2,0 milyon avro, yaklaşık 1,2 ile 2,2 milyon dolar; bu 1 ile 10 milyon dolar dilimine girer. Kalemler: beş savunma grubunun ortak belge ve test paketinin beşte biri 80 ile 160 bin avro (rapor Tablo 9.2 toplamı 400 ile 800 bin avronun beşte biri; desteklerle 40 ile 80 bin); ISO 1496-1 ve CSC onayı 20 ile 50 bin avro (tahmin); genişleyebilir gövde ve hidrolik mekanizma prototipi 150 ile 300 bin avro (tahmin); robotik kaynak hücresi ve pozisyoner 250 ile 500 bin avro (tahmin, varsa sıfır); tasarım ve kalite ekibi 3 kişi 24 ay 180 ile 300 bin avro (tahmin); iş geliştirme ve fuar 60 ile 100 bin avro (tahmin); ilk seri sipariş işletme sermayesi 400 ile 600 bin avro (tahmin, avans düşülmüş). İlk 12 ayın harcaması 290 ile 550 bin avro; robot hücresi ilk yılda alınırsa 540 ile 1.050 bin avro. Robot hücresi ve işletme sermayesi hariç tutulursa bilet 0,5 ile 0,9 milyon avro ile 2. dilime iner. Yatırım MEKA şirketi üzerinden; kişisel yatırım seçeneği yok, çünkü üretim MEKA tesisinde.",
 "yol": "ortak",
 "yol_not": "Alt yüklenicilik: üretim MEKA'da, satış kanalı ana yüklenicinin. Hedef ana yükleniciler Marshall Land Systems (Tecnove modelinde ikinci üretim kaynağı), Alfons Haar tipi konteyner entegratörleri (TCK 9 yeni ihalesi 2027), Rheinmetall Mobile Systeme (genişleyebilir sağlık gövdesi, görüşme gerek) ve NCIA ile NSPA kanalında Türk adaylar Dorçe, Nurol İnşaat, STM. Kendi markalı şelter yolu önerilmiyor: pazarlama, sertifika ve referans yükü bilete 2 ile 3 milyon avro ekler (tahmin) ve rakipler yerleşik."
 },
@@ -3808,7 +3808,7 @@ window.MEKA_DATA = {
 "kaynaklar": [
 {
 "dosya": "01_kart, 01_Kart_Savunma_Nisi.md",
-"bolum": "Dört kol kutusu, 14 niş puan listesi, yol haritası, ilk 90 gün",
+"bolum": "Dört grup kutusu, 14 niş puan listesi, yol haritası, ilk 90 gün",
 "tarih": "22 Eylül 2026"
 },
 {
@@ -3997,13 +3997,13 @@ window.MEKA_DATA = {
 "Hollanda 2018 programı: Marshall 1.400 üstü konteyner ve 14 yıl destek diyor; Meclis mektubu 1.433 konteyner, 3.269 alt sistem ve 100 ile 250 milyon avro yatırım yazıyor, 10 yıl bakım birlikte ihale edilmiş ama bakım gideri yatırımın dışında; 2015 mektubu konteyner sayısını 1.691'den 1.432'ye indirdiğini gösteriyor. Avro ve sterlin rakamları farklı kapsamlara ait.",
 "Marshall 201 konteyner: önceki veri 2025 yılını sözleşme yılı gibi veriyor; vaka çalışmasına göre 2025 son teslim yılı, üretim 2023'te başladı; içerik mühimmat ve tıbbi malzeme deposu, beş varyant doğru.",
 "Losberger NSPA Baltık işi: önceki not konteyner kampı izlenimi veriyor; vaka sayfasına göre ürün ağırlıkla Prostock hangar ve TAM çadır, konteyner yan ekipman.",
-"Kartın ürünlerin çoğu ihracat izni gerektirmiyor ibaresi bu yaprak için yanlış: ML17 konteynerleri açıkça kapsar, askerî gövde izne tabidir; yalnız genel amaçlı ISO gövde kontrol dışı kalabilir.",
+"Kartın ürünlerin çoğu ihracat izni gerektirmiyor ibaresi bu fırsat için yanlış: ML17 konteynerleri açıkça kapsar, askerî gövde izne tabidir; yalnız genel amaçlı ISO gövde kontrol dışı kalabilir.",
 "Fiyat avantajı: rapor Avrupa'da lojistik sonrası yüzde 10 ile 25 avantaj diyor; TCK 9 örneğinde askerî konteyner 290 bin avro, sivil benzer ürün 60 bin avro (blog, tek kaynak); askerî fiyatın belirleyicisi gövde maliyeti değil şartname ve sertifika, bu yüzden avantaj gövde kaleminde sınırlı.",
 "TCK 9 2021 birim fiyatı: esut.de 29 milyon avro ve 200 adetten yaklaşık 145 bin avro diyor; Grosswald 142 bin avro ve 2026 için 291 bin avro yazıyor; fark yuvarlamadan, model esut rakamını kullanıyor.",
 "Hollanda 100 ile 250 milyon avro: önceki metin bu tutarı bakım dahil saydı; Meclis mektubu tutarı 2019 ile 2023 yatırım bütçesi diye veriyor, bakım gideri gizli ekte ayrı; birim fiyat 70 ile 175 bin avro alt sistemler dahil, bakım hariç.",
 "Sağlık konteyneri rakamı: kart ve rapor metni >600 milyon € diyor ve Ağustos 2026 tarihli tek kaynağa bağlıyor; o kaynak 149 adet ve >500 milyon € yazıyor. Tablo 8.4.1 satırı 600 rakamını Aralık 2024 çerçevesiyle Ağustos 2026 siparişinin toplamı olarak sunuyor. Ana rapor metninin atfı tek kaynaklı; teyit gerekir.",
-"Aynı puanlı iki niş: fırlatma üssü altyapısı da 3,70 ama dört kola alınmamış. Kartta gerekçe yok. Rapor 7.1 bunu niş değil, zamana bağlı proje fırsatı sayar ve Tablo 9.1'de hızlı kazanım satırına koyar.",
-"Sınıf ve kol uyumsuzluğu: Tablo 7.1 eşiğine göre 3,70 ikincil sınıf ve Bölüm 7.1 nişi ikinci halka diyor; aynı rapor nişi önerilen dört kol ve ana bahis sayıyor. Bu özet bandı ikincil aldı.",
+"Aynı puanlı iki niş: fırlatma üssü altyapısı da 3,70 ama dört gruba alınmamış. Kartta gerekçe yok. Rapor 7.1 bunu niş değil, zamana bağlı proje fırsatı sayar ve Tablo 9.1'de hızlı kazanım satırına koyar.",
+"Sınıf ve grup uyumsuzluğu: Tablo 7.1 eşiğine göre 3,70 ikincil sınıf ve Bölüm 7.1 nişi ikinci halka diyor; aynı rapor nişi önerilen dört grup ve ana bahis sayıyor. Bu özet bandı ikincil aldı.",
 "İhracat izni: kart ürünlerin çoğu ihracat izni gerektirmiyor diyor. Puan tablosu bu nişi askerî alıcılı sayıyor, 9.2 konteyner için MSB sınıflandırma görüşü istiyor, Tablo 10.1 gri alan riski yazıyor. Kesin hüküm verilen kaynaklarda yok.",
 "Tablo 8.4.2'de sağlık satırı Bundeswehr 165 istasyon, KBRN satırı Bundeswehr 112 zırhlı sağlık istasyonu yazıyor. 165 rakamı 16 ile 149'un toplamı olabilir; 112 rakamının dayanağı bölüm metninde ve Tablo 8.4.1'de yok."
 ],
@@ -4354,7 +4354,7 @@ window.MEKA_DATA = {
 "id": "sav_istihkam",
 "baslik": "İstihkam ataşmanları: dozer bıçağı, mayın pulluğu ve silindiri",
 "bant": "ikincil",
-"puan_metni": "İkinci tur (16 Ekim 2026): Band değişmiyor. İhracat talebi resmi kaynakla doğrulandı: İngiltere 26 pulluk ve 24 kit için tahmini 10,5 milyon sterlin, doğrudan ihale, Pearson tek tedarikçi. Pearson'ın yerel ortak modeli firma beyanı ve Avustralya haberiyle doğrulandı. Bu yaprağı yaşatıyor. Ancak Türkiye'de açık bir Kara Kuvvetleri programı yok, Pearson'ın hiçbir sayfasında Türkiye geçmiyor, FNSS Umman işi 6 araçlık küçük bir adet. TGB ücreti ve İngiltere sözleşmesinin nihai bedeli teyitsiz; sözleşme için Haziran 2026'da sonlandırma bildirimi yayımlanmış, nedeni okunmadı. Giriş FNSS, BMC ya da Pearson'a alt yüklenici olmaya bağlı; zırh çeliği kaynak onayı, TGB ve MSB ihracat izni ek süre ister. Bu yüzden ikincil kalmalı; kapı değerleri şirket yatırımı, bütçe dilimi 2 ve iki yol korunur. Talep NATO tarafında firma duyuruları ve haberlerle doğrulandı; tek resmi kaynak olan İngiltere ilanı açılamadı. Ürün MEKA'nın ağır sac, kaynak ve hidrolik yetkinliğiyle örtüşüyor. Ancak pazar Pearson'ın hakimiyetinde, Türkiye'de yerli talep kanıtı bulunamadı ve MEKA'nın girişi bir iki araç üreticisinin alt yüklenici kararına bağlı. Bu yüzden öne çıkan değil ikincil; FNSS ve Hidromek görüşmeleri olumlu dönerse yükselebilir. 3,55 / 5, savunma raporu baz senaryo, Tablo 7.1. 24 niş içinde 7. sıra, sınıf ikincil. Kriter puanları: teknik uyum 4, ihracat pazarı 4, giriş engeli 3, rekabet 3, gelir süresi 3, yatırım 3, sinerji 4. Yalnızca savunma alıcılı nişler tablosunda 5. sıra, Tablo 7.3. Raporun 8.9 bölümünde ön puan 3,5 yazıyor. Kart da 3,55 veriyor.",
+"puan_metni": "İkinci tur (16 Ekim 2026): Band değişmiyor. İhracat talebi resmi kaynakla doğrulandı: İngiltere 26 pulluk ve 24 kit için tahmini 10,5 milyon sterlin, doğrudan ihale, Pearson tek tedarikçi. Pearson'ın yerel ortak modeli firma beyanı ve Avustralya haberiyle doğrulandı. Bu fırsatı yaşatıyor. Ancak Türkiye'de açık bir Kara Kuvvetleri programı yok, Pearson'ın hiçbir sayfasında Türkiye geçmiyor, FNSS Umman işi 6 araçlık küçük bir adet. TGB ücreti ve İngiltere sözleşmesinin nihai bedeli teyitsiz; sözleşme için Haziran 2026'da sonlandırma bildirimi yayımlanmış, nedeni okunmadı. Giriş FNSS, BMC ya da Pearson'a alt yüklenici olmaya bağlı; zırh çeliği kaynak onayı, TGB ve MSB ihracat izni ek süre ister. Bu yüzden ikincil kalmalı; kapı değerleri şirket yatırımı, bütçe dilimi 2 ve iki yol korunur. Talep NATO tarafında firma duyuruları ve haberlerle doğrulandı; tek resmi kaynak olan İngiltere ilanı açılamadı. Ürün MEKA'nın ağır sac, kaynak ve hidrolik yetkinliğiyle örtüşüyor. Ancak pazar Pearson'ın hakimiyetinde, Türkiye'de yerli talep kanıtı bulunamadı ve MEKA'nın girişi bir iki araç üreticisinin alt yüklenici kararına bağlı. Bu yüzden öne çıkan değil ikincil; FNSS ve Hidromek görüşmeleri olumlu dönerse yükselebilir. 3,55 / 5, savunma raporu baz senaryo, Tablo 7.1. 24 niş içinde 7. sıra, sınıf ikincil. Kriter puanları: teknik uyum 4, ihracat pazarı 4, giriş engeli 3, rekabet 3, gelir süresi 3, yatırım 3, sinerji 4. Yalnızca savunma alıcılı nişler tablosunda 5. sıra, Tablo 7.3. Raporun 8.9 bölümünde ön puan 3,5 yazıyor. Kart da 3,55 veriyor.",
 "tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 22 Eylül 2026",
 "ne": "Tank, zırhlı muharebe aracı ve zırhlı iş makinesine takılan ön ekipman: mayın pulluğu, muharebe dozer bıçağı, mayın silindiri, araç arayüz kiti, hızlı kazı kovası ve zırhlı kabin. Alıcı ordular değil, araç üreticileri ve Pearson gibi ataşman uzmanlarıdır. MEKA için yol, bu firmalara ağır sac gövde, kaynaklı konstrüksiyon ve hidrolik alt montaj yapmaktır.",
 "neden": "Ukrayna savaşı ve NATO doğu kanadı tahkimatı mayın açma ve engel aşma ekipmanına talebi 2023 sonrası belirgin artırdı. İngiltere'nin 2025'te 26 pulluk ve 24 tank kitini 8,67 milyon sterline aldığı bilgisi arama özetine dayanır, ilan sayfası açılamadı (doğrulanamadı). Polonya 99 Abrams için istihkam kiti sipariş etti (firma beyanı). Pearson 19 Ocak 2026'da insansız MineWolf 370 Next Generation sistemini duyurdu (firma beyanı). Ürün ağır sac, kaynak ve hidrolikten ibaret; MEKA'nın mevcut üretim yetkinliğiyle örtüşür.",
@@ -4997,8 +4997,8 @@ window.MEKA_DATA = {
 "Önceki çalışma istihkam ataşmanını 7. sıraya 3,55 puanla koymuştu; bu araştırma talep puanını güçlendirir ama Türkiye iç talep puanını düşürür",
 "Bölüm 8.9 ön puanı 3,5 yazıyor; Tablo 7.1 ve kart 3,55 veriyor. Küçük yuvarlama farkı, aynı rapor içinde.",
 "Tablo 7.1 alıcı olarak orduları, Pearson ve FFG tipi firmaları ve FNSS'i sayıyor; Tablo 9.1 yalnız orduları ve FNSS'i yazıyor. Aynı rapor içinde alıcı listesi farklı.",
-"İnceleme 5 Ekim 2026'da bu nişi Devlet firmaları koluna koydu ve dosyada alıcı adı yok dedi. İnceleme yalnız kartı gördü, raporu görmedi; kartta gerçekten alıcı yok. Raporun Tablo 7.1'i hem orduları hem özel firmaları alıcı sayıyor; kol hem devlet hem özel tarafı içeriyor.",
-"İnceleme bu nişi Savunma kartı altında tek satır ikincil etiketiyle göstermeyi öneriyor; ayrı yaprak açmak bu öneriyle çelişiyor.",
+"İnceleme 5 Ekim 2026'da bu nişi Devlet firmaları grubuna koydu ve dosyada alıcı adı yok dedi. İnceleme yalnız kartı gördü, raporu görmedi; kartta gerçekten alıcı yok. Raporun Tablo 7.1'i hem orduları hem özel firmaları alıcı sayıyor; grup hem devlet hem özel tarafı içeriyor.",
+"İnceleme bu nişi Savunma kartı altında tek satır ikincil etiketiyle göstermeyi öneriyor; ayrı fırsat açmak bu öneriyle çelişiyor.",
 "İnceleme 01 için yönetime sunum ve karar kanıtı yok diyor; kartın 30 Eylül 2026 YETEN ve SSB fuar desteği son günü de geçti, yapıldığı dosyada yok."
 ],
 "degisiklikler": [
@@ -5052,7 +5052,7 @@ window.MEKA_DATA = {
 "tam_calisma: Tablo 7.4 Kritik tesis eşikleri eklendi.",
 "kapsam_notu: ihracat kontrol sınıfı eksikliği ve web bulgularının bu incelemede doğrulanmadığı eklendi.",
 "web: her maddeye 'bu incelemede yeniden doğrulanmadı' notu eklendi; web araması yapılmadı.",
-"celiskiler: Tablo 7.1 ile Tablo 9.1 arasındaki alıcı farkı eklendi; inceleme maddesinden doğrulanamayan 'bu görevdeki kol ozel' ibaresi çıkarıldı."
+"celiskiler: Tablo 7.1 ile Tablo 9.1 arasındaki alıcı farkı eklendi; inceleme maddesinden doğrulanamayan 'bu görevdeki grup ozel' ibaresi çıkarıldı."
 ],
 "guven": 4,
 "arastirildi": true,
@@ -5359,7 +5359,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 24 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört kolun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
+"butce_not": "Dilim 24 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört grubun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
 "yol": "ortak",
 "yol_not": "Rapor yalnız alt yüklenicilik ve entegratörle ortaklık öneriyor; Koluman için doğal ortak ya da müşteri diyor. Kendi markalı vinç 1,55 puanla elenmiş. Yatırım tarafı varsayım: rapor Eskişehir tesisini esas alıyor, kişisel yatırım seçeneği çalışmalarda yok."
 },
@@ -5490,9 +5490,9 @@ window.MEKA_DATA = {
 "acik_sorular: Hidrokon anlaşmasının Roketsan teyidi sorusu eklendi.",
 "adimlar: ay bazlı tarihler kaynakta olmadığı için ilk 90 gün penceresine bağlandı; kim alanlarına öneri etiketi kondu; numune parça teklifi kaynakta yok diye çıkarıldı; 1988-1998 derlemesi için raporun iki hafta süresi ve 6 Ekim 2026 gecikmesi eklendi.",
 "riskler: sistematik askerî vinç programı bulunamadığı ve pazarın Liebherr, Grove, Tadano elinde olduğu eklendi; ASELSAN çalışmasına Nisan 2020 tarihi eklendi; 3,40 eşiği riski eklendi.",
-"kapilar: butce_not ve yol_not'a varsayım etiketi eklendi; 400 ile 800 bin € rakamının dört kolun tamamına ait olduğu belirtildi.",
+"kapilar: butce_not ve yol_not'a varsayım etiketi eklendi; 400 ile 800 bin € rakamının dört grubun tamamına ait olduğu belirtildi.",
 "takvim: 6 Ekim 2026 satırı eklendi; Mart 2028 ile Eylül 2029 satırının hesaplanmış olduğu yazıldı.",
-"kaynaklar: s_road, s_exec eklendi; inceleme bölüm adları dosyadaki gerçek alan adlarıyla yazıldı; ağaç notları ifadesi kaldırıldı.",
+"kaynaklar: s_road, s_exec eklendi; inceleme bölüm adları dosyadaki gerçek alan adlarıyla yazıldı; harita notları ifadesi kaldırıldı.",
 "tam_calisma: 7.1 Sıralamanın okunuşu ve 01_ozet Tablo Ö.2 başlıkları eklendi.",
 "celiskiler: Liebherr maddesine özetin gerçek görüşme listesi ve 54 sayfalık raporun 9.2 bölümündeki Liebherr görüşmesi eklendi; sıra paylaşımı ve 47 araç toplamı çelişkileri eklendi; ikincil grup iddiası incelemeye atfedildi.",
 "kapsam_notu: toplam pazar büyüklüğünün verilmediği eklendi."
@@ -5692,7 +5692,7 @@ window.MEKA_DATA = {
 "kaynak": "01 rapor, s_score, Tablo 7.1; s_mro, 8.8 Uçak ve gemi yedek parçası"
 }
 ],
-"durum": "Rapor 22 Eylül 2026 tarihli. İki niş Tablo 7.1'de 13. ve 14. sırada; raporun kendi sınıfı Fırsatçı / koşullu. Raporun İkincil eşiği 3,40; bu nişler 3,30 ve 3,20 ile altında kalıyor. 01 kartındaki dört kolda ve 36 aylık yol haritasında yer almıyor. Kartın renk anahtarında Önerilen 4 kol, İkincil ve Yönetimin fikirleri grupları var; bu iki nişin hangi grupta olduğu metinden okunmuyor. Bölüm 7.1 metni ikisini koşullu olarak uygun sayıyor ve bakım platformlarının ihracat kontrolü dışında kaldığını yazıyor. Bu nedenlerle bant ikincil yerine izle. Giriş kapıları olan NCAGE, NSPA, UNGM ve SAM.gov kayıtları ile MSB ihracat kontrol görüşü 01 kartının ilk 90 gün planında var. Teknik uyum puanları tesis verisi gelene kadar varsayım; kart ve rapor bunu açıkça yazıyor. Bu görevde inceleme dosyası verilmedi; inceleme atıfları doğrulanamadı ve çıkarıldı.",
+"durum": "Rapor 22 Eylül 2026 tarihli. İki niş Tablo 7.1'de 13. ve 14. sırada; raporun kendi sınıfı Fırsatçı / koşullu. Raporun İkincil eşiği 3,40; bu nişler 3,30 ve 3,20 ile altında kalıyor. 01 kartındaki dört grupta ve 36 aylık yol haritasında yer almıyor. Kartın renk anahtarında Önerilen 4 grup, İkincil ve Yönetimin fikirleri grupları var; bu iki nişin hangi grupta olduğu metinden okunmuyor. Bölüm 7.1 metni ikisini koşullu olarak uygun sayıyor ve bakım platformlarının ihracat kontrolü dışında kaldığını yazıyor. Bu nedenlerle bant ikincil yerine izle. Giriş kapıları olan NCAGE, NSPA, UNGM ve SAM.gov kayıtları ile MSB ihracat kontrol görüşü 01 kartının ilk 90 gün planında var. Teknik uyum puanları tesis verisi gelene kadar varsayım; kart ve rapor bunu açıkça yazıyor. Bu görevde inceleme dosyası verilmedi; inceleme atıfları doğrulanamadı ve çıkarıldı.",
 "acik_sorular": [
 "AS9100 gereksinimi yalnızca uçağa temas eden ekipmanla sınırlı mı? Rapor TUSAŞ ile teyit istiyor; cevap nişin puanını 4/5 ile 2/5 arasında belirliyor.",
 "Uçağa özel krikolar, motor sehpaları ve mühimmat yükleme arabaları ihracat kontrolüne giriyor mu? Rapor ürün bazında hukuki görüş istiyor; 01 kartı MSB görüşünü ilk 90 gün planına koymuş.",
@@ -5743,7 +5743,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 24 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma kolunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş kola aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
+"butce_not": "Dilim 24 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
 "yol": "ikisi",
 "yol_not": "Varsayım. Rapor giriş yolu olarak NSPA tedarikçi kaydı ve Avrupa askerî MRO merkezlerine platform tedariki gösteriyor; bu MEKA'nın kendi ürettiği ürünün doğrudan satışı. Ayrıca TUSAŞ ve ASFAT ihracat programlarına alt yüklenicilik ile ASFAT portalı ve STM tedarikçi kaydı var. Ortaklık, lisans ya da pay alma önerisi çalışmalarda yok."
 },
@@ -5855,11 +5855,11 @@ window.MEKA_DATA = {
 "acik_sorular: Tablo 7.4 eşik ifadesi 'tek parça kaldırma' ile tamamlandı. Askerî pazar payı sorusu eklendi.",
 "adimlar: kaynakta olmayan Kasım 2026, Aralık 2026 ve Ekim 2026 tarihleri çıkarıldı; yerine ilk 90 gün planındaki madde numaraları yazıldı. Ayrı savunma iş birimi adımı eklendi.",
 "riskler: DIBBS ve JCP sertifikası riski, tesis verisi varsayımı ve ödeme vadesi riski eklendi.",
-"kapilar: yol 'ortak' yerine 'ikisi'; rapor NSPA kaydı ve MRO merkezlerine doğrudan platform tedariki ile alt yükleniciliği birlikte gösteriyor. Yatırım yolunun da varsayım olduğu nota yazıldı. Bütçe notunda 400 ila 800 bin avro 'dört kol için' yerine '36 aylık yol haritası için' olarak düzeltildi.",
+"kapilar: yol 'ortak' yerine 'ikisi'; rapor NSPA kaydı ve MRO merkezlerine doğrudan platform tedariki ile alt yükleniciliği birlikte gösteriyor. Yatırım yolunun da varsayım olduğu nota yazıldı. Bütçe notunda 400 ila 800 bin avro 'dört grup için' yerine '36 aylık yol haritası için' olarak düzeltildi.",
 "takvim: '28 Ağustos 2026 SSB deniz projeleri' kaynak künyesine atfedildi. 30 Eylül 2026 satırında inceleme atfı çıkarıldı, bugünün tarihi yazıldı. 'Aralık 2026' yerine '22 Eylül 2026'dan 90 gün' yazıldı. Rapor tarihi satırı eklendi.",
 "kaynaklar: inceleme satırı çıkarıldı; dosya bu görevde verilmedi. s_other notu başlıklarla somutlandı.",
 "tam_calisma: Tablo 7.1 başlığı dosyadaki gibi '(baz senaryo)' ekiyle yazıldı; kart başlığına '(5)' eklendi; 7.1 Sıralamanın okunuşu eklendi.",
-"celiskiler: inceleme ve ağaç yerleşimine dayanan iki madde çıkarıldı; yerine kaynaklardan doğrulanan alıcı karşılaştırması yazıldı. Gemi donatım 3/5 ile 3,20 farkı ve 7.1 metnindeki sıra numarası tutarsızlığı eklendi."
+"celiskiler: inceleme ve harita yerleşimine dayanan iki madde çıkarıldı; yerine kaynaklardan doğrulanan alıcı karşılaştırması yazıldı. Gemi donatım 3/5 ile 3,20 farkı ve 7.1 metnindeki sıra numarası tutarsızlığı eklendi."
 ],
 "guven": 4,
 "firmalar": [
@@ -6038,8 +6038,8 @@ window.MEKA_DATA = {
 "bant": "elendi",
 "puan_metni": "Savunma raporu, 5 üzerinden yedi kriterli ağırlıklı puan, Tablo 7.1 baz senaryo: kendi markalı askerî vinç 1,55 ve 24 niş içinde 24. sıra; uçak yapısal yedek parçası 1,60 ve 23. sıra; 155 mm gövde final işleme alt yükleniciliği 2,55 ve 21. sıra; zırh çeliği kesim ve zırhlı gövde alt montajı 2,60 ve 20. sıra. Eşik: 3,00 altı önerilmez. Kartta yalnız 1,55 ve 1,60 var; 155 mm ve zırh puanları raporun Tablo 7.1 verisinden hesaplandı. Bölüm içi ön puanlar ayrı ölçektir ve Tablo 7.1 ile karıştırılmamalı: 8.6 Tablo 8.6.2 tam entegre vinç 1; 8.8 havacılık yapısal parça 1 ile 2; 8.3 tam gövde 2 ve final işleme 3; 8.9 zırh 2,6.",
 "tarih": "22 Eylül 2026",
-"ne": "Bu yaprak savunma raporunun açıkça elediği dört fikri bir arada tutar: MEKA markalı tam entegre askerî mobil vinç, uçak yapısal yedek parçası, 155 mm mühimmat gövdesi final işleme ve zırh çeliği kesimi ile zırhlı gövde alt montajı. Dördü de 22 Eylül 2026 raporunda 24 niş içinde yedi kriterle puanlanmış ve 3,00 önerilmez eşiğinin altında kalmıştır. Sayfa yapılacak işi değil, yapılmayacak işi ve yerine önerilen kolu gösterir.",
-"neden": "Yönetimin iki fikri burada: mobil vinç ile uçak ve gemi yedek parçası. Rapor 7.1 bunları tam ürün olarak elemiş, alt yüklenicilik olarak yeniden konumlandırmıştır. Dört fikrin ortak zayıflığı aynıdır: giriş engeli puanı 1, gelire ulaşma süresi puanı 1, yatırım ihtiyacı puanı 1 ya da 2. Bu sayfa aynı fikirlerin yeniden gündeme gelmesini önler ve okuyucuyu değerli kola yönlendirir: vinç OEM'lerine yapısal alt yüklenicilik 3,35, askerî uçak yer destek ekipmanı ve bakım platformları 3,30, mühimmat hattı ekipmanı 3,95.",
+"ne": "Bu fırsat savunma raporunun açıkça elediği dört fikri bir arada tutar: MEKA markalı tam entegre askerî mobil vinç, uçak yapısal yedek parçası, 155 mm mühimmat gövdesi final işleme ve zırh çeliği kesimi ile zırhlı gövde alt montajı. Dördü de 22 Eylül 2026 raporunda 24 niş içinde yedi kriterle puanlanmış ve 3,00 önerilmez eşiğinin altında kalmıştır. Sayfa yapılacak işi değil, yapılmayacak işi ve yerine önerilen grubu gösterir.",
+"neden": "Yönetimin iki fikri burada: mobil vinç ile uçak ve gemi yedek parçası. Rapor 7.1 bunları tam ürün olarak elemiş, alt yüklenicilik olarak yeniden konumlandırmıştır. Dört fikrin ortak zayıflığı aynıdır: giriş engeli puanı 1, gelire ulaşma süresi puanı 1, yatırım ihtiyacı puanı 1 ya da 2. Bu sayfa aynı fikirlerin yeniden gündeme gelmesini önler ve okuyucuyu değerli gruba yönlendirir: vinç OEM'lerine yapısal alt yüklenicilik 3,35, askerî uçak yer destek ekipmanı ve bakım platformları 3,30, mühimmat hattı ekipmanı 3,95.",
 "rakamlar": [
 {
 "deger": "1,55 / 5",
@@ -6072,16 +6072,16 @@ window.MEKA_DATA = {
 "kaynak": "01 rapor, s_mro, 8.3, 155 mm kapasite darboğazı: talep kanıtı; s_other 8.9 zırh maddesi"
 }
 ],
-"durum": "Dördü de 22 Eylül 2026 raporunda elenmiş; kart Önerilmeyen satırında dördünü sayıyor. Ön bant elendi doğrulandı. Rapor üçü için aynı bölümde değerli kolu gösteriyor: markalı vinç yerine vinç OEM'lerine ve entegratörlere yapısal alt yüklenicilik 3,35; havacılık yapısal parçası yerine askerî uçak yer destek ekipmanı ve bakım platformları 3,30 ile gemi donatım modülleri 3,20; 155 mm gövde ile aynı bölüm 8.3'te mühimmat hattı ekipmanı 3,95. Zırh için raporda yerine geçecek kol yazılı değil. Verilen kaynaklarda 22 Eylül 2026'dan sonra bu dört fikir üzerine yeni çalışma yok; 5 Ekim 2026 incelemesi yalnızca kart tutarsızlıklarını ve ağaç yerleşimini not etmiş.",
+"durum": "Dördü de 22 Eylül 2026 raporunda elenmiş; kart Önerilmeyen satırında dördünü sayıyor. Ön bant elendi doğrulandı. Rapor üçü için aynı bölümde değerli grubu gösteriyor: markalı vinç yerine vinç OEM'lerine ve entegratörlere yapısal alt yüklenicilik 3,35; havacılık yapısal parçası yerine askerî uçak yer destek ekipmanı ve bakım platformları 3,30 ile gemi donatım modülleri 3,20; 155 mm gövde ile aynı bölüm 8.3'te mühimmat hattı ekipmanı 3,95. Zırh için raporda yerine geçecek grup yazılı değil. Verilen kaynaklarda 22 Eylül 2026'dan sonra bu dört fikir üzerine yeni çalışma yok; 5 Ekim 2026 incelemesi yalnızca kart tutarsızlıklarını ve harita yerleşimini not etmiş.",
 "acik_sorular": [
 "Tesis veri formu gelince puanlar değişecek. Büyük CNC torna, Ø300 mm üstü salınım ve en az 3 ile 4 adet, ile lazer 20 ile 25 mm ve plazma 50 mm kesim kalınlığı var mı? Tablo 7.4'e göre 155 mm final işleme ve zırh kesimi buna bağlı. Boş kapasite verisi süre ve yatırım puanlarını da belirler. Giriş engeli puanı 1 tesis verisiyle değişmez; eşiğin aşılması zor.",
 "MEKA'nın 1988 ile 1998 arası vinç ve cephe asansörü üretimi belgelenebilir mi? Tip, tonaj ve ekip bilgisi. Bu geçmiş markalı vinci kurtarmaz ama OEM alt yükleniciliği için referans olur.",
 "Yönetim bu dört fikri yeniden açmak istiyor mu, yoksa raporun gösterdiği alternatif kollarla yetinilecek mi? Karar çalışmalarda yok.",
-"Zırh için raporda alternatif kol yok. Tablo 7.4 aynı kesim kalınlığı eşiğini istihkam ataşmanları 3,55 için de sayıyor; zırh çeliği kesimi bu kolun yan ürünü olabilir mi? Çalışmalarda yok."
+"Zırh için raporda alternatif grup yok. Tablo 7.4 aynı kesim kalınlığı eşiğini istihkam ataşmanları 3,55 için de sayıyor; zırh çeliği kesimi bu grubun yan ürünü olabilir mi? Çalışmalarda yok."
 ],
 "adimlar": [
 {
-"adim": "Dört fikri karar ağacında elendi olarak kapat; yeniden açma koşulunu yaz: tesis verisi ve yönetimin açık talebi. Kartın yol haritasındaki vinç kelimesinin alt yüklenicilik anlamına geldiğini nota ekle.",
+"adim": "Dört fikri fırsat haritasında elendi olarak kapat; yeniden açma koşulunu yaz: tesis verisi ve yönetimin açık talebi. Kartın yol haritasındaki vinç kelimesinin alt yüklenicilik anlamına geldiğini nota ekle.",
 "kim": "Mehmet Bey ve savunma iş birimi sorumlusu",
 "ne_zaman": "31 Ekim 2026'ya kadar; tarih çalışmalarda yok, öneri"
 },
@@ -6096,7 +6096,7 @@ window.MEKA_DATA = {
 "ne_zaman": "21 Aralık 2026'ya kadar; tarih çalışmalarda yok, ilk 90 gün penceresine bağlandı"
 },
 {
-"adim": "Vinç fikrini alt yüklenicilik koluna yönlendir: Liebherr'in SSB sanayi katılımı taahhüdünün hangi programa ait olduğunu SSB'den sor; Koluman tedarikçi ağına kayıt yap; Hidrokon ile temas kur.",
+"adim": "Vinç fikrini alt yüklenicilik grubuna yönlendir: Liebherr'in SSB sanayi katılımı taahhüdünün hangi programa ait olduğunu SSB'den sor; Koluman tedarikçi ağına kayıt yap; Hidrokon ile temas kur.",
 "kim": "Savunma iş birimi sorumlusu",
 "ne_zaman": "Kartın ilk 90 gün görüşme listesinde Liebherr ve Koluman var; 21 Aralık 2026'ya kadar başla"
 },
@@ -6116,7 +6116,7 @@ window.MEKA_DATA = {
 "butce": 3,
 "butce_not": "Varsayım. Raporda tutar yok. Yatırım ihtiyacı puanı dördünde de 1 ya da 2, yani yüksek. Markalı vinç beş yıldan uzun Ar-Ge ve servis ağı ister; 155 mm tam gövde için dövme presi ve ısıl işlem gerekir, MEKA'da yok, rapor tahmini; zırh için üç yıllık kalifikasyon. Girilmesi önerilmiyor; dilim yalnız bilgi için.",
 "yol": "ortak",
-"yol_not": "Varsayım. Rapor dört fikri kur yolundan eledi; kapı kararı raporda yok. Yerine önerdiği kolların hepsi alt yüklenicilik: vinç OEM'leri Liebherr, Palfinger, Hiab ve entegratörler Hidrokon, Koluman; yer destek ekipmanı için NSPA kaydı, TUSAŞ ve ASFAT ihracat programları; mühimmat hattı için Repkon, STV gibi hat entegratörleri. Zırh için yol yok."
+"yol_not": "Varsayım. Rapor dört fikri kur yolundan eledi; kapı kararı raporda yok. Yerine önerdiği grupların hepsi alt yüklenicilik: vinç OEM'leri Liebherr, Palfinger, Hiab ve entegratörler Hidrokon, Koluman; yer destek ekipmanı için NSPA kaydı, TUSAŞ ve ASFAT ihracat programları; mühimmat hattı için Repkon, STV gibi hat entegratörleri. Zırh için yol yok."
 },
 "takvim": [
 {
@@ -6210,7 +6210,7 @@ window.MEKA_DATA = {
 "Kart 155 mm gövde ve zırhı Önerilmeyen satırında sayıyor ama puan vermiyor. 5 Ekim 2026 incelemesi bunu dosyada puan yok ve gerekçe kartta yok diye not etmiş. Raporun Tablo 7.1 verisinde ikisi puanlı: 155 mm final işleme 2,55, zırh kesim 2,60; gerekçeleri 8.3 ve 8.9 bölümlerinde var.",
 "Kartın yol haritası opsiyon satırında vinç var; aynı kart markalı vinci önermiyor. İnceleme kastedilenin alt yüklenicilik olduğunun yazılmadığını not etmiş. Rapor 7.1 bunu açık yazıyor: markalı ürün 24. sıra önerilmez, alt yüklenicilik 12. sıra koşullu. Not: Tablo 7.1 verisinde 3,35 puanlı üç niş var, mobil tahkimat fabrikası, vinç alt yükleniciliği ve ağır römork; sıra eşitlik kuralına göre 10 ile 12 arasında değişir, 7.1 metni 12 yazıyor.",
 "Raporun eşiğine göre 3,00 altı önerilmez sınıfında altı niş var; kart dördünü sayıyor. Sığınak, HAS ve patlama kapıları 2,95 ile radar direği, İHA katapultu ve havadan indirme platformu 2,20 kartta yok. Hesap s_score Tablo 7.1 verisinden.",
-"İnceleme okuyucusu dört fikri Devlet firmaları koluna koymuş; bu yaprak ozel kolunda. İnceleme ayrımın dosyada dayanağı olmadığını, kartın alıcı yazmadığını not etmiş. Rapor Tablo 7.1 alıcıları veriyor: markalı vinç için ordular, havacılık parçası için TUSAŞ, Airbus, DLA, NSPA, 155 mm için MKE, Arca ve gövde üreticileri, zırh için Türk ve Avrupa zırhlı araç üreticileri. Dördü tek kola sığmıyor; inceleme önerisi hepsini Savunma kartı altında elendi etiketiyle tek satıra almak.",
+"İnceleme okuyucusu dört fikri Devlet firmaları grubuna koymuş; bu fırsat ozel grubunda. İnceleme ayrımın dosyada dayanağı olmadığını, kartın alıcı yazmadığını not etmiş. Rapor Tablo 7.1 alıcıları veriyor: markalı vinç için ordular, havacılık parçası için TUSAŞ, Airbus, DLA, NSPA, 155 mm için MKE, Arca ve gövde üreticileri, zırh için Türk ve Avrupa zırhlı araç üreticileri. Dördü tek gruba sığmıyor; inceleme önerisi hepsini Savunma kartı altında elendi etiketiyle tek satıra almak.",
 "Tablo 7.4, büyük CNC torna varsa 155 mm final işleme puanının 2'den 3'e çıkabileceğini yazıyor. Tablo 7.1'de bu nişin teknik uyum puanı zaten 3. Bölüm 8.3 ise tam gövde 2 ve final işleme 3 veriyor. Hangi puanın değişeceği açık değil.",
 "Kart 24 niş diyor; inceleme kartta yalnız 14 nişin listelendiğini ve kalan 10 nişin pakette bulunmadığını not etmiş. Bu çalışmada s_score dosyasıyla 24 nişin tamamı ve puanları görüldü; eksik kapanıyor.",
 "Taslağın tesis verisi süre ve yatırım puanlarını değiştirmez iddiası Tablo 7.4 ile çelişiyordu; tablo boş kapasite verisinin bu iki puanı doğrudan belirlediğini yazıyor. Düzeltildi."
@@ -6218,7 +6218,7 @@ window.MEKA_DATA = {
 "degisiklikler": [
 "acik_sorular 1 ve riskler 2: taslak süre ve yatırım puanlarının tesis verisiyle değişmediğini yazıyordu; Tablo 7.4 boş kapasitenin bu iki puanı belirlediğini söylüyor. Yalnız giriş engeli puanı tesis verisine bağlı değil diye düzeltildi; eşik hesabı eklendi ve hesabın bu çalışmaya ait olduğu belirtildi.",
 "kaynaklar s_mro: bölüm başlıkları dosyadaki gerçek başlıklara çevrildi. 8.8 ana başlığı Yedek parça ve MRO işleme, yer destek ekipmanı, gemi inşa alt yükleniciliği; 8.3 ana başlığı Mühimmat gövdeleri, mühimmat üretim hattı ekipmanı ve mühimmat ambalajı. Alt başlıklar ayrıca yazıldı.",
-"kaynaklar inceleme: ağaç yerleşim önerileri adlı bölüm dosyada yok; gerçek anahtar tartismali_yerlesimler yazıldı.",
+"kaynaklar inceleme: harita yerleşim önerileri adlı bölüm dosyada yok; gerçek anahtar tartismali_yerlesimler yazıldı.",
 "adimlar 4 ve 5: 2027 ilk çeyrek tarihi kaynaklarda yok. Kart Liebherr ve Koluman görüşmelerini ilk 90 güne koyuyor; tarih buna bağlandı. TUSAŞ teyidi için tarih çalışmalarda yok diye işaretlendi. Hidrokon için tedarikçi kaydı ifadesi temasa çevrildi; rapor kaydı yalnız Koluman için yazıyor.",
 "adimlar 1 ve 3: 31 Ekim ve 21 Aralık tarihlerinin kaynakta olmadığı, öneri ve türetme olduğu nota eklendi.",
 "riskler 3: bu belgelerin maliyeti destek almaz cümlesi silindi; kart Ticaret Bakanlığı desteklerinin açık olduğunu yazıyor. Üretim İzin Belgesi yalnız 155 mm için yazıldı; rapor zırh için bunu söylemiyor.",
@@ -6314,13 +6314,13 @@ window.MEKA_DATA = {
 {
 "ad": "Hidrokon",
 "rol": "ortak_adayi",
-"not": "Vinç fikrinin yönlendirildiği alt yüklenicilik kolunda entegratör; Roketsan ile 2016 füze taşıma sistemi referansı kendi beyanı.",
+"not": "Vinç fikrinin yönlendirildiği alt yüklenicilik grubunda entegratör; Roketsan ile 2016 füze taşıma sistemi referansı kendi beyanı.",
 "kaynak": "https://www.hidrokon.com/haberdetay/8/roketsan-fuze-tasima-sistemi"
 },
 {
 "ad": "Koluman",
 "rol": "ortak_adayi",
-"not": "Vinç fikrinin yönlendirildiği alt yüklenicilik kolunda doğal ortak; 800 tedarikçilik ağına kayıt yapılacak.",
+"not": "Vinç fikrinin yönlendirildiği alt yüklenicilik grubunda doğal ortak; 800 tedarikçilik ağına kayıt yapılacak.",
 "kaynak": "https://www.kolumanotomotiv.com/"
 },
 {
@@ -6344,7 +6344,7 @@ window.MEKA_DATA = {
 {
 "ad": "SSB",
 "rol": "kurum",
-"not": "Sanayileşme Dairesi'ne Liebherr taahhüdünün hangi programa ait olduğu sorulacak; vinç alt yüklenicilik kolunun kapısı.",
+"not": "Sanayileşme Dairesi'ne Liebherr taahhüdünün hangi programa ait olduğu sorulacak; vinç alt yüklenicilik grubunun kapısı.",
 "kaynak": "https://www.ssb.gov.tr/storage/img/sanayilesme-taahhudu-bulunan-firmalar-listesi.pdf"
 },
 {
@@ -7394,7 +7394,7 @@ window.MEKA_DATA = {
 "Magaldi ANKIROS iddiası: 07 ve 08 22-24 Ekim 2026 stant H6-C110 diyor ve ilk 6 ay planına yüz yüze görüşme koyuyor. 10 Bölüm 9 Magaldi'nin ANKIROS'ta yer alması doğrulanamadı, kullanmadım diyor. Bir plan adımı havada.",
 "EEN profili TOTR20251001007 1 Ekim 2026'da sona erdi; 07 ve 08'deki bu hafta ilgi bildir adımının süresi geçti. Bildirimin yapılıp yapılmadığı ve firmaya hâlâ ulaşılabileceği dosyada yok. Yerli firmaya yatırım yolunun tek adayı buydu.",
 "Pilot maliyet birimi: 08 Kyoto siparişinden ~114 €/kWh çıkarıyor, 07 dipnotu aynı sayıyı ~114 $/kWh yazıyor; avro ile dolar eşit alınmış. 08'in kendi rakamları iç tutarlı: 182 bin $ brüt, 34 bin $ bakım, 148 bin $ net; 1,7 M$ bölü 148 bin $ yaklaşık 11,5 yıl, kendi hesabım.",
-"Ağaçtaki yer: 05 ve 10 konuya MEKA'dan bağımsız ölçütle bakıyor, 07 ve 08 MEKA'nın DNA'sı diyerek MEKA ile ilgili dala koyuyor. Yerli firmaya yatırım seçeneğinin teknokent bağı kanıtlı değil; 08 Bölüm 5 doğrulanmış aday yok, yalnızca EEN'deki gizli profil diyor.",
+"Haritadaki yer: 05 ve 10 konuya MEKA'dan bağımsız ölçütle bakıyor, 07 ve 08 MEKA'nın DNA'sı diyerek MEKA ile ilgili alana koyuyor. Yerli firmaya yatırım seçeneğinin teknokent bağı kanıtlı değil; 08 Bölüm 5 doğrulanmış aday yok, yalnızca EEN'deki gizli profil diyor.",
 "Ortak adayları: 08 Kyoto'nun daraldığını ve 2024'te devredildiğini, Kraftblock'un son turunun Ağustos 2023 olduğunu ayı tarafında sayıyor, sonra aynı firmaları öncelikli ortak gösteriyor. Orta senaryodaki yılda 20-40 modül varsayımı adayların 20-56 MWh proje ölçekleriyle temellendirilmemiş; 08 bunu yön gösterici varsayım diye etiketliyor."
 ],
 "degisiklikler": [
@@ -8046,7 +8046,7 @@ window.MEKA_DATA = {
 "Üretim rakamı: ihracatçı birliği başkanı 2025 için 100 milyon tona yakın üretim diyor, TÜRKÇİMENTO CEO'suna atfedilen 97,8 milyon ton doğrulanamadı. İki rakam uyumlu ama aynı değil.",
 "MEKA payı iki dosyada farklı: 09 özeti yalnız yüksek varyantı yazıyor, tesisin yaklaşık %35-55'i. 10 uzun çalışması kalsine kil tesisinde payı %15-30 veriyor. Özet bu yüzden uzun çalışmadan daha iyimser okunuyor. 09 A1 kartı; 10 A1 Giriş yolu ve bilet.",
 "CBAM iki ayrı yerde geçiyor ve karıştırılmamalı: A1'in tetiği olan çimento CBAM'ı ile 10'un yan bulgusu olan aşağı akış genişletmesi. Yan bulgu, MEKA'nın mevcut makinelerinin 1 Ocak 2028'den CBAM kapsamına girme olasılığı: Komisyon önerisi yaklaşık 180 ek ürün, Konsey yaklaşık 200, Parlamento komitesi 457; Parlamento 16 Eylül 2026'da 464 oyla pozisyon aldı. Kırma-eleme makinelerinin listede olup olmadığı bilinmiyor. 10, Bölüm 7 ve Bölüm 9 Yan bulgu.",
-"Ağaç yeri: 10 kendini MEKA'dan bağımsız dünya taraması diye tanımlıyor ve puan MEKA uyumunu ölçmüyor. Buna karşın A1'i Liste A'ya, yani sahada MEKA tipi makine gereken alanlara koyuyor ve tahmini makine payı veriyor. Ruhsat kaydı MAPEG'de; kamu rolü ruhsat ve devir onayı. Türkiye maruziyet rakamları ikincil kaynaktan, yazar yeniden hesaplanmalı diyor. 10, Giriş, Bölüm 2, Bölüm 5 giriş paragrafı, A1 Kanıt.",
+"Harita yeri: 10 kendini MEKA'dan bağımsız dünya taraması diye tanımlıyor ve puan MEKA uyumunu ölçmüyor. Buna karşın A1'i Liste A'ya, yani sahada MEKA tipi makine gereken alanlara koyuyor ve tahmini makine payı veriyor. Ruhsat kaydı MAPEG'de; kamu rolü ruhsat ve devir onayı. Türkiye maruziyet rakamları ikincil kaynaktan, yazar yeniden hesaplanmalı diyor. 10, Giriş, Bölüm 2, Bölüm 5 giriş paragrafı, A1 Kanıt.",
 "Tarih kaynağı farkı: 27 Ekim 2026 ETS izleme planı tarihi yalnız bir hukuk bürosunda görülmüş; 09 özeti bu tarihi Tarihler listesine kaynak notu olmadan yazıyor, 10 ise tek kaynaklı olduğunu açıkça söylüyor. 10, A1 Takvim kutusu ve Bölüm 7; 09 Tarihler."
 ],
 "degisiklikler": [
@@ -8078,7 +8078,7 @@ window.MEKA_DATA = {
 "FLSmidth, KHD ve thyssenkrupp Polysius notları ZKG metnindeki somut ifadelere göre netleştirildi.",
 "Kaynak notları açılan sayfaları gösterecek şekilde güncellendi.",
 "inceleme_sonuc.json adlı 5 Ekim 2026 dosyası klasörde bulunamadı ve kaynak listesinde verilmedi; ona dayanan tüm cümleler ve atıflar çıkarıldı: kaynaklar listesinden silindi, durum alanındaki yönetim izi cümlesi iki kaynak dosyaya göre yeniden yazıldı, takvimdeki 1 Şubat 2027 satırından inceleme atfı kaldırıldı.",
-"celiskiler: inceleme kaynaklı olgunluk etiketi maddesi silindi; MEKA payı, CBAM iki yer ve ağaç yeri maddelerinde inceleme atıfları kaldırılıp doğrudan 09 ve 10 bölümleri yazıldı; CBAM yan bulgusuna 10 Bölüm 9'daki ürün sayıları ve 16 Eylül 2026 oylaması eklendi; 27 Ekim tarihinin kaynak notu farkı yeni madde olarak eklendi.",
+"celiskiler: inceleme kaynaklı olgunluk etiketi maddesi silindi; MEKA payı, CBAM iki yer ve harita yeri maddelerinde inceleme atıfları kaldırılıp doğrudan 09 ve 10 bölümleri yazıldı; CBAM yan bulgusuna 10 Bölüm 9'daki ürün sayıları ve 16 Eylül 2026 oylaması eklendi; 27 Ekim tarihinin kaynak notu farkı yeni madde olarak eklendi.",
 "puan_metni: 'Kapı testi' adı 10'daki gerçek ad olan 'giren kazanır testi' ile değiştirildi; B3'ün de 7 / 10 olduğu ve alan kodu A1 eklendi; kaynak bölümleri yazıldı.",
 "ne: değerin CBAM ve ETS tetiklerine bağlanmasının yazarın çıkarımı olduğu eklendi.",
 "neden: öğütme değirmeninin MEKA payına girmediği ve Türkiye gerekçesinin olgu ve çıkarım karışık işaretli olduğu eklendi; 'en ucuzlarından biri' ifadesi 10'daki gibi 'en ucuz ikisinden biri' yapıldı.",
@@ -8466,7 +8466,7 @@ window.MEKA_DATA = {
 },
 {
 "tarih": "2 Haziran 2026",
-"olay": "Trillium Flow Technologies, Fransa kolunun Framatome'a satışını duyurdu, bu tarih arama özetinden ve doğrulanamadı. NEI Magazine 5 Haziran 2026 tarihli haberinde Framatome'un alımı tamamladığını yazıyor, tamamlanma günü yok. Yeni ad Sebim.",
+"olay": "Trillium Flow Technologies, Fransa grubunun Framatome'a satışını duyurdu, bu tarih arama özetinden ve doğrulanamadı. NEI Magazine 5 Haziran 2026 tarihli haberinde Framatome'un alımı tamamladığını yazıyor, tamamlanma günü yok. Yeni ad Sebim.",
 "kaynak": "firma https://www.trilliumflow.com/tf-news/trillium-flow-technologies-announces-sale-of-french-valves-operations/ ; haber https://www.neimagazine.com/news/framatome-acquires-trillium-france",
 "iso": "2026-06-02"
 },
@@ -9427,7 +9427,7 @@ window.MEKA_DATA = {
 "rakamlar 6: SDE analizinin tarihi 14 Kasım 2024 ve kısmen teyit işareti eklendi.",
 "rakamlar: Energy Fuels 725 milyon dolar DoD kredisi sinyali eklendi; kaynakta var, taslakta yoktu.",
 "durum: Batı'da baskın oyuncuya bakılmadığı ve çalışmanın yatırım önerisi vermediği eklendi.",
-"acik_sorular 1: karar ağacı ve Devlet firmaları kolu ifadesi çıkarıldı, kaynakta yok. Ruhsat devri kuralları ve Mining.com birimi için iki soru eklendi.",
+"acik_sorular 1: fırsat haritası ve Devlet firmaları grubu ifadesi çıkarıldı, kaynakta yok. Ruhsat devri kuralları ve Mining.com birimi için iki soru eklendi.",
 "adimlar 2: Almonty örneğinden başla ifadesi, Almonty'nin çalışmada yalnız örnek olduğu biçiminde düzeltildi.",
 "adimlar 3: kim alanında araştırma ekibi varsayım olarak işaretlendi; Molycorp karşılaştırması B4 ilk adımından eklendi.",
 "adimlar 5: JORC uyumlu yeni tahmin ifadesi, çalışmanın yalnız eski tahminlerin JORC dışı olduğunu söylediği biçiminde düzeltildi.",
@@ -9897,7 +9897,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 üçüncü tur: 8 açık sorunun 0'i cevaplandı, 7'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. 12 aramanın hepsi kullanıldı. 15 sayfa açma denemesinin 14'ü okundu, MEKA tesis sayfası nükleer yaprakta da kullanıldı. Akgün Radyatör 403 verdi. Astor ve Europower yatırımcı sunumları PDF olarak indi ve metni yerel bir betikle çıkarıldı, bazı Türkçe karakterler ve Europower sertifika slaytı okunamadı. Baysan Trafo sayfası 2013 tarihli çıktı ve ilgisiz. Açılmayan ve yalnız arama özetinden alınanlar: Baysan, MBT ve Akgün sayfaları, Toreks ve Dynaxis, Esitaş, Beta, STD, Rystad, HD Hyundai ve Hyosung. Doğrulanamayanlar: TEİAŞ resmi yatırım planı, onarım pazarı büyüklüğü, BEST verisi, Siemens Energy ve Hitachi'nin tank tedariği, Europower'ın dışarıdan tank alıp almadığı, MEKA'nın EN 1090 ve ISO 3834 durumu, Ankara tesislerinin boyut ve vinç sınırı, CBAM nihai ürün listesi. Doğrulama turu (16 Ekim 2026): 10 sayfa açıldı, Astor ve Europower sunumları yerel olarak metne çevrilip okundu. Arama bütçesi bittiği için ek arama yapılamadı. Arama özetine dayanan şu kayıtlar doğrulanamadı: Baysan, MBT, Akgün, Toreks, Dynaxis, Beta, STD, BEST, Esitaş, Astor Romanya devri, Rystad iddiaları, HD Hyundai ikinci tesis ve Hyosung rakamları, Hitachi bileşen fabrikası, Elektrik Dünyası'ndaki Europower sipariş haberi ve Yatırımx haberindeki 100 milyon dolar.",
+"kapsam_notu": "16 Ekim 2026 üçüncü tur: 8 açık sorunun 0'i cevaplandı, 7'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. 12 aramanın hepsi kullanıldı. 15 sayfa açma denemesinin 14'ü okundu, MEKA tesis sayfası nükleer fırsatta da kullanıldı. Akgün Radyatör 403 verdi. Astor ve Europower yatırımcı sunumları PDF olarak indi ve metni yerel bir betikle çıkarıldı, bazı Türkçe karakterler ve Europower sertifika slaytı okunamadı. Baysan Trafo sayfası 2013 tarihli çıktı ve ilgisiz. Açılmayan ve yalnız arama özetinden alınanlar: Baysan, MBT ve Akgün sayfaları, Toreks ve Dynaxis, Esitaş, Beta, STD, Rystad, HD Hyundai ve Hyosung. Doğrulanamayanlar: TEİAŞ resmi yatırım planı, onarım pazarı büyüklüğü, BEST verisi, Siemens Energy ve Hitachi'nin tank tedariği, Europower'ın dışarıdan tank alıp almadığı, MEKA'nın EN 1090 ve ISO 3834 durumu, Ankara tesislerinin boyut ve vinç sınırı, CBAM nihai ürün listesi. Doğrulama turu (16 Ekim 2026): 10 sayfa açıldı, Astor ve Europower sunumları yerel olarak metne çevrilip okundu. Arama bütçesi bittiği için ek arama yapılamadı. Arama özetine dayanan şu kayıtlar doğrulanamadı: Baysan, MBT, Akgün, Toreks, Dynaxis, Beta, STD, BEST, Esitaş, Astor Romanya devri, Rystad iddiaları, HD Hyundai ikinci tesis ve Hyosung rakamları, Hitachi bileşen fabrikası, Elektrik Dünyası'ndaki Europower sipariş haberi ve Yatırımx haberindeki 100 milyon dolar.",
 "kanit": 3,
 "web": [
 {
@@ -10013,9 +10013,9 @@ window.MEKA_DATA = {
 "Puan cetveliyle çelişki. 10 Bölüm 4 tablosu Kapı için \"Yok; kapasite yarışı\", A4 metni \"Lisans kapısı yok\" diyor; 09 \"Kapı yok, kapasite yarışı\" yazıyor. Ama Kapı kutusuna 1 puan verilmiş. 10 Bölüm 2 cetvelinde \"yok\" karşılığı 0 puan; 1 puan tanımlı değil. Yazar 1 puanı yeterlilik ve test kapasitesi engeline veriyor gibi, çıkarım. Kapı 0 olsa toplam 5 / 10. Kaynak: 10 Bölüm 2, 4 ve 5; 09 A4.",
 "10 Bölüm 1 \"baktığım 10 pencerenin hepsinde kapıyı bir hak ya da yeterlilik tutuyor\" diyor; Bölüm 4 A4 için \"Yok; kapasite yarışı\" yazıyor. Kaynak: 10 Bölüm 1 ve 4.",
 "Liste A \"sahasında MEKA tipi makine gereken alanlar\" diye tanımlı, ama A4'te MEKA payı hesaplanmadı ve yakınlık yalnız çıkarım. Kaynak: 10 Bölüm 4 başlığı, Bölüm 5 giriş ve A4 MEKA makine payı.",
-"Nihai alıcı kamu olabilir: Europower'ın 100 siparişinin 27'si TEİAŞ. Önerilen dilimin müşterisi ise trafo üreticileri, yani özel. Ağaçta kamu ile özel ayrımı yapılırsa bu not düşülmeli. Kaynak: 10 A4 Kapı.",
+"Nihai alıcı kamu olabilir: Europower'ın 100 siparişinin 27'si TEİAŞ. Önerilen dilimin müşterisi ise trafo üreticileri, yani özel. Haritada kamu ile özel ayrımı yapılırsa bu not düşülmeli. Kaynak: 10 A4 Kapı.",
 "İfade farkı: 10 Bölüm 1 zayıf halkaları \"listeleri 5+5 tutmak için yer verdim\" diyor; Bölüm 4 \"en iyi 5'i doldurmak için değil, listeyi dürüst tutmak için ekledim\" diyor. Kaynak: 10 Bölüm 1 ve 4.",
-"Yaprak adı trafo onarım ve üretim; ama yazarın tek önerdiği dilim onarım-yenileme ve tank-radyatör. Üretim kısmı için yazar \"ilk Türk trafo üreticisi olma yeri çoktan dolu\" diyor. Kaynak: 10 A4 Kanıt ve İlk adım.",
+"Fırsat adı trafo onarım ve üretim; ama yazarın tek önerdiği dilim onarım-yenileme ve tank-radyatör. Üretim kısmı için yazar \"ilk Türk trafo üreticisi olma yeri çoktan dolu\" diyor. Kaynak: 10 A4 Kanıt ve İlk adım.",
 "Takvim yerleşimi: 1 Ocak 2028 CBAM satırı 10 Bölüm 7'de A4'e değil \"Yan bulgu\" alanına bağlı ve MEKA'nın mevcut işi için yazılmış. Taslak bunu trafo takvimine koyuyor; trafo listede geçtiği için tutuldu, ama bağ dolaylı. Kaynak: 10 Bölüm 7 ve 9."
 ],
 "degisiklikler": [
@@ -10058,7 +10058,7 @@ window.MEKA_DATA = {
 "takvim: üçüncü satıra Bölüm 7'de A4 satırı olmadığı eklendi.",
 "kaynaklar: inceleme kaydı çıkarıldı, çünkü dosya bu çürütmede verilmedi. 10 kaydına kaynak 108, 109 ve 155 ile Bölüm 4 Nasıl okunmalı eklendi.",
 "kapsam_notu: incelemenin verilmediği ve ona dayanan ifadelerin çıkarıldığı not edildi.",
-"celiskiler: inceleme atıfları kaldırıldı; her madde 10 ya da 09'daki yere bağlandı. Ağaç üst dal ve envanter notu yorumları çıkarıldı. Kamu ile özel maddesi 10 A4 Kapı verisine indirgendi. CBAM takvim yerleşimi yeni çelişki olarak eklendi; 09'un da aynı Kapı çelişkisini taşıdığı eklendi."
+"celiskiler: inceleme atıfları kaldırıldı; her madde 10 ya da 09'daki yere bağlandı. Harita üst alan ve envanter notu yorumları çıkarıldı. Kamu ile özel maddesi 10 A4 Kapı verisine indirgendi. CBAM takvim yerleşimi yeni çelişki olarak eklendi; 09'un da aynı Kapı çelişkisini taşıdığı eklendi."
 ],
 "guven": 4,
 "ekonomi": {
@@ -10380,7 +10380,7 @@ window.MEKA_DATA = {
 "ne_zaman": "Kasım 2026; öneri"
 },
 {
-"adim": "Yerel ocak ortağı çıkmazsa alanı kapat ve ağaçta elendi bandına al. Önceki çalışmanın kendi ilk adım kuralı.",
+"adim": "Yerel ocak ortağı çıkmazsa alanı kapat ve haritada elendi bandına al. Önceki çalışmanın kendi ilk adım kuralı.",
 "kim": "Mehmet Bey",
 "ne_zaman": "Aralık 2026 sonu; öneri"
 },
@@ -10489,7 +10489,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 üçüncü tur: 7 açık sorunun 1'i cevaplandı, 4'i kısmen, 0'i kapandı, 2'i görüşme gerektiriyor. Araştırmacı turunda açılamayanlar: ÇED Yönetmeliği değişikliği sayfası 403, Vietnam Thanh Hóa sayfası 403, Metso Barmac VSI sayfası 404. Doğrulama turunda WebSearch bütçesi dolu olduğu için arama yapılamadı. Doğrulama turunda açılanlar: Ekonomi Gazetesi, Para Dergisi, Karekod, Evrensel, MEKA MCSP, Paratic 651 bin avro haberi, Boğaziçi Beton faaliyet raporu, Uzmanpara Çimsa haberi, Monitor Uganda Rukungiri haberi ve AGÜB sitesi. Fintables sayfası 403 verdi. Doğrulanamayanlar: MEKA 2026 ilk çeyrek hasılatı, net zararı ve net nakdi; 879 bin avro sipariş; Körfez, Kenya, Nijerya, Gana ve Etiyopya için nehir kumu kısıtı; Botswana, Çad, Kayunga ve Kamuli haberleri; Rajasthan ve Vietnam için 2026 güncellemesi; kırma kum için ayrı fiyat, yalnız blog fiyatı var; kaçak nehir kumunun payı; ocak alımı için emsal çarpan ve KPMG rakamı; ÇED eşik değerleri ve 2006 genelgesi; MAPEG güncel agrega üretimi; Boğaziçi Beton'un Aralık 2024 arsa alımı; 130 milyon m³ rakamı; eski sektör belgesinin 60 milyon ton rakamı; MEKA'nın kendi VSI ürünü; Metso, Sandvik ve Terex ürün ayrıntıları; MEKA 2026 ikinci çeyrek sonuçları. Doğrulama turunda yeniden açılmayanlar: Maden Kanunu, GKToday Rajasthan, BusinessDay Güney Afrika, firma kayıtları. Maden Kanunu madde grupları çimento yaprağı çalışmasında okundu, bu yaprağın sayfa sayısına dahil değil. Arama ve sayfa özetleri küçük bir modelin ürünü; sayfa açılmadan arama özetinden alınan rakamlar kaynak alanında belirtildi. Bilet, süre, kâr ve kum ihtiyacı rakamları tahmindir.",
+"kapsam_notu": "16 Ekim 2026 üçüncü tur: 7 açık sorunun 1'i cevaplandı, 4'i kısmen, 0'i kapandı, 2'i görüşme gerektiriyor. Araştırmacı turunda açılamayanlar: ÇED Yönetmeliği değişikliği sayfası 403, Vietnam Thanh Hóa sayfası 403, Metso Barmac VSI sayfası 404. Doğrulama turunda WebSearch bütçesi dolu olduğu için arama yapılamadı. Doğrulama turunda açılanlar: Ekonomi Gazetesi, Para Dergisi, Karekod, Evrensel, MEKA MCSP, Paratic 651 bin avro haberi, Boğaziçi Beton faaliyet raporu, Uzmanpara Çimsa haberi, Monitor Uganda Rukungiri haberi ve AGÜB sitesi. Fintables sayfası 403 verdi. Doğrulanamayanlar: MEKA 2026 ilk çeyrek hasılatı, net zararı ve net nakdi; 879 bin avro sipariş; Körfez, Kenya, Nijerya, Gana ve Etiyopya için nehir kumu kısıtı; Botswana, Çad, Kayunga ve Kamuli haberleri; Rajasthan ve Vietnam için 2026 güncellemesi; kırma kum için ayrı fiyat, yalnız blog fiyatı var; kaçak nehir kumunun payı; ocak alımı için emsal çarpan ve KPMG rakamı; ÇED eşik değerleri ve 2006 genelgesi; MAPEG güncel agrega üretimi; Boğaziçi Beton'un Aralık 2024 arsa alımı; 130 milyon m³ rakamı; eski sektör belgesinin 60 milyon ton rakamı; MEKA'nın kendi VSI ürünü; Metso, Sandvik ve Terex ürün ayrıntıları; MEKA 2026 ikinci çeyrek sonuçları. Doğrulama turunda yeniden açılmayanlar: Maden Kanunu, GKToday Rajasthan, BusinessDay Güney Afrika, firma kayıtları. Maden Kanunu madde grupları çimento fırsatı çalışmasında okundu, bu fırsatın sayfa sayısına dahil değil. Arama ve sayfa özetleri küçük bir modelin ürünü; sayfa açılmadan arama özetinden alınan rakamlar kaynak alanında belirtildi. Bilet, süre, kâr ve kum ihtiyacı rakamları tahmindir.",
 "kanit": 2,
 "web": [
 {
@@ -10499,7 +10499,7 @@ window.MEKA_DATA = {
 },
 {
 "url": "https://www.mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=1&MevzuatNo=3213&MevzuatTertip=5",
-"ne": "Maden Kanunu 3213, madde grupları, cimento yaprağında okundu, bu turda yeniden açılmadı",
+"ne": "Maden Kanunu 3213, madde grupları, cimento fırsatında okundu, bu turda yeniden açılmadı",
 "tur": "resmi"
 },
 {
@@ -11140,7 +11140,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "tam",
-"kapsam_notu": "20 Ekim 2026 derin çalışma: 12 arama, 35 sayfa; 7 açık sorunun 0'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 15 sayfa açtı, güven 4/5. WebFetch aracı bu oturumda DNS hatası verdi; sayfalar curl ile proxy üzerinden indirilip metne çevrildi, içerik aynı şekilde okundu. UNDP'nin kendi sayfaları 403 verdi; Hatay 700 milyon yen, REVIVE faz 2 18,95 milyon dolar ve Gazze 61 milyon ton rakamları arama özetinden ya da ikincil sitelerden. MEKA brüt marjı İş Yatırım şirket kartından tek kaynak; sütun dönem eşlemesi çıkarım, enflasyon düzeltmeli ve konsolide, ürün bazında değil. KAP sipariş bedelleri ürün konfigürasyonunu vermiyor; MCC 70 fiyatı doğrudan bulunamadı. BM sözleşmelerinde tonaj yok; yüklenici adları UNGM'de var. Sassari, Litoměřice ve Üsküp ihaleleri sonuçlanmamış, bedeller tahmini; Üsküp bedeli bulunamadı. Deir ez-Zor rakamları tek yayıncı SANA. Türkiye'de agrega ve geri dönüştürülmüş agrega fiyatı, Giresun ihale sonucu ve yönetmelik taslağı metni bulunamadı. Ünite sayıları, kur ve demo ünite maliyeti tahmindir. Dosya yazılmadı, başka yaprağa dokunulmadı.",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 12 arama, 35 sayfa; 7 açık sorunun 0'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 15 sayfa açtı, güven 4/5. WebFetch aracı bu oturumda DNS hatası verdi; sayfalar curl ile proxy üzerinden indirilip metne çevrildi, içerik aynı şekilde okundu. UNDP'nin kendi sayfaları 403 verdi; Hatay 700 milyon yen, REVIVE faz 2 18,95 milyon dolar ve Gazze 61 milyon ton rakamları arama özetinden ya da ikincil sitelerden. MEKA brüt marjı İş Yatırım şirket kartından tek kaynak; sütun dönem eşlemesi çıkarım, enflasyon düzeltmeli ve konsolide, ürün bazında değil. KAP sipariş bedelleri ürün konfigürasyonunu vermiyor; MCC 70 fiyatı doğrudan bulunamadı. BM sözleşmelerinde tonaj yok; yüklenici adları UNGM'de var. Sassari, Litoměřice ve Üsküp ihaleleri sonuçlanmamış, bedeller tahmini; Üsküp bedeli bulunamadı. Deir ez-Zor rakamları tek yayıncı SANA. Türkiye'de agrega ve geri dönüştürülmüş agrega fiyatı, Giresun ihale sonucu ve yönetmelik taslağı metni bulunamadı. Ünite sayıları, kur ve demo ünite maliyeti tahmindir. Dosya yazılmadı, başka fırsata dokunulmadı.",
 "kanit": 4,
 "web": [
 {
@@ -11426,7 +11426,7 @@ window.MEKA_DATA = {
 "riskler: 'Çinli üreticiler' ifadesi kaynaklarda yok, çıkarıldı. GPT'nin 'iç teklif havuzu ve marjlarla doğrulanmalı' ve 'satış garantisi değil' uyarısı yeni risk olarak eklendi.",
 "kapilar: yol_not ve butce_not'a GPT kartında bütçe olmadığı ve şirket/kişisel sorusunun kaynaklarda yer almadığı eklendi; varsayım notları korundu.",
 "takvim: 6-12 ay ve 12-24 ay aralıkları gün bazında yeniden hesaplandı ve hesap olduğu belirtildi.",
-"celiskiler: 'risk ölçütlerde yer almadığı halde sırayı etkilemiş görünüyor' yorumu ve 'ağaçta kol özel' ifadesi kaynaklarda yok, çıkarıldı. Harita ve 570 bin ton çelişkileri doğrudan 03'ten doğrulanıp kaynağı 03 olarak yazıldı.",
+"celiskiler: 'risk ölçütlerde yer almadığı halde sırayı etkilemiş görünüyor' yorumu ve 'haritada grup özel' ifadesi kaynaklarda yok, çıkarıldı. Harita ve 570 bin ton çelişkileri doğrudan 03'ten doğrulanıp kaynağı 03 olarak yazıldı.",
 "kaynaklar: inceleme satırı 'dosya verilmedi' notuyla bırakıldı; gpt satırına kaynak [1] ve [2] eklendi; 04 satırına grep ile doğrulandığı eklendi."
 ],
 "guven": 4,
@@ -11802,7 +11802,7 @@ window.MEKA_DATA = {
 "id": "res_temel",
 "baslik": "RES temel paketi",
 "bant": "ikincil",
-"puan_metni": "İkinci tur (16 Ekim 2026): Bant değişmedi, kanıt puanı 3'ten 2'ye indi. Lehine: YEKA RES-2026 takvimi, 1.500 MW kapasite ve 7 yarışma iki haber kaynağıyla doğrulandı; Nordex 389 MW yeni sipariş ve yerli ankraj kafesi üretimi firma beyanıyla doğrulandı; hazır beton fiyatı ve THBB üretim rakamı doğrulandı. Aleyhine: yaprağın temel iddiası (şartnamede temel ve ankraj kafesine puan yok) ve pazar büyüklüğü hesabının iki girdisi (235 türbin, 568 ile 666 m3) okunamayan PDF'lere dayanıyor, doğrulanamadı. Müteahhitlerin mobil santral kullanıp kullanmadığı hâlâ bilinmiyor; bu MEKA için kritik soru. THBB Eylül 2026 endeksi genel inşaatta daralma gösteriyor, RES temeli niş talep olarak değer kazanabilir ama bunu gösteren kaynak yok. Belirsizlik kapanmadan öne çıkan banda alınamaz; doğrulanmış pazar işaretleri nedeniyle elenmez. Pazar gerçek ve tarihli: YEKA RES-2026 1.500 MW üç kaynakla, 2025'te 2.141 MW ekleme TÜREB verisiyle doğrulandı. Ama MEKA için iş gerekçesinin çekirdeği olan temel başına beton hacmi tek firma özetinden ve doğrulanamadı; hacim ve ciro tahminleri bu rakama dayanır. Bu yüzden kanıt puanı 2. Bant yine ikincil: bu yeni bir iş alanı değil, mevcut mobil santral ve kırıcının yeni bir müşteri segmentine satışıdır ve yıllık birkaç makine ölçeğinde kalır. Temel müteahhitliğine girmek MEKA'nın işi değildir. Belge 03 sıralamasında on alan içinde 4. sıra, \"Sonrakiler\" grubu. Etiketler: 6 ile 18 ay, Ar-Ge düşük, yatırım düşük. Harita: gelire uzaklık orta, potansiyel büyüklük orta. Sayısal puan yok; Belge 03 yalnızca sıra verir.",
+"puan_metni": "İkinci tur (16 Ekim 2026): Bant değişmedi, kanıt puanı 3'ten 2'ye indi. Lehine: YEKA RES-2026 takvimi, 1.500 MW kapasite ve 7 yarışma iki haber kaynağıyla doğrulandı; Nordex 389 MW yeni sipariş ve yerli ankraj kafesi üretimi firma beyanıyla doğrulandı; hazır beton fiyatı ve THBB üretim rakamı doğrulandı. Aleyhine: fırsatın temel iddiası (şartnamede temel ve ankraj kafesine puan yok) ve pazar büyüklüğü hesabının iki girdisi (235 türbin, 568 ile 666 m3) okunamayan PDF'lere dayanıyor, doğrulanamadı. Müteahhitlerin mobil santral kullanıp kullanmadığı hâlâ bilinmiyor; bu MEKA için kritik soru. THBB Eylül 2026 endeksi genel inşaatta daralma gösteriyor, RES temeli niş talep olarak değer kazanabilir ama bunu gösteren kaynak yok. Belirsizlik kapanmadan öne çıkan banda alınamaz; doğrulanmış pazar işaretleri nedeniyle elenmez. Pazar gerçek ve tarihli: YEKA RES-2026 1.500 MW üç kaynakla, 2025'te 2.141 MW ekleme TÜREB verisiyle doğrulandı. Ama MEKA için iş gerekçesinin çekirdeği olan temel başına beton hacmi tek firma özetinden ve doğrulanamadı; hacim ve ciro tahminleri bu rakama dayanır. Bu yüzden kanıt puanı 2. Bant yine ikincil: bu yeni bir iş alanı değil, mevcut mobil santral ve kırıcının yeni bir müşteri segmentine satışıdır ve yıllık birkaç makine ölçeğinde kalır. Temel müteahhitliğine girmek MEKA'nın işi değildir. Belge 03 sıralamasında on alan içinde 4. sıra, \"Sonrakiler\" grubu. Etiketler: 6 ile 18 ay, Ar-Ge düşük, yatırım düşük. Harita: gelire uzaklık orta, potansiyel büyüklük orta. Sayısal puan yok; Belge 03 yalnızca sıra verir.",
 "tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 Eylül 2026",
 "ne": "Rüzgâr santrali inşaatında türbin temellerinin beton ve agrega ihtiyacını sahada karşılayan paket: mobil beton santrali, mobil kırma eleme hattı ve kalıp ya da ankraj kafesi gibi kaynaklı yardımcı parçalar. MEKA bunu doğrudan temel müteahhidi olarak değil, CBoP müteahhidine makine satan ya da kiralayan ve saha kurulumunu üstlenen ortak olarak yapar.",
 "neden": "Türkiye 2035'e kadar her yıl 2.000 ile 2.500 MW rüzgâr kapasitesi tahsis etmeyi hedefliyor ve 2025 yılında rekor 2.141 MW eklendi (TÜREB verisi, Forbes aktarımı). YEKA RES-2026 ile 1.500 MW daha tahsis ediliyor ve başvurular 13 Ekim 2026 günü alındı. Bu kapasite 6 ile 7 MW sınıfı türbinlerle yılda 300 ile 400 türbin temeli demek. Temel başına 700 m3 dolayında beton rakamı tek firma kaynaklı ve bu turda doğrulanamadı. Beton sahada, uzak ve dağlık arazide üretilir; mobil santral ve mobil kırıcı bu işin makinesidir ve MEKA'nın mevcut ürünüdür (firma beyanı).",
@@ -11948,7 +11948,7 @@ window.MEKA_DATA = {
 "kaynak": "https://www.bloomberght.com/yeka-da-basvurular-alindi-22-yila-varan-kredi-imkani-motivasyonu-artiriyor-3791225"
 }
 ],
-"durum": "RES temel paketi ikincil bantta kalıyor, kanıt puanı 3'ten 2'ye indi. 16 Ekim 2026 çürütme turunda 13 çağrı yapıldı, 12 sayfa içerik döndü. Yaprağın en kritik iddiası, YEKA RES-2026 şartnamesinde temel, ankraj kafesi ve kalıbın yerli aksam puanı taşımadığı, doğrulanamadı: şartname PDF'i indi ama metin okunamadı. Aynı sorun TEA sonuçları (235 türbin, 1.645 MW, 119 m nasel) ve Nordex temel dokümanı (568 ile 666 m3 C35/45) için de geçerli; yalnız doküman adı ve tarihi görüldü. Bu üç PDF harness tarafından yerel dosyaya kaydedildi, ekip bir PDF okuyucuyla açıp teyit edebilir. Doğrulananlar: YEKA takvimi ve fiyat, teminat, süre koşulları (iki haber kaynağı); Nordex Türkiye'de yerli ankraj kafesi ve kule üretimi ile 389 MW yeni sipariş (firma beyanı); hazır beton Eylül 2026 fiyatları (bağımsız blog); THBB 2025 üretimi 140 milyon m3 ve Eylül 2026 endeksinde faaliyetin 98,00'a düşmesi. Yeni bilgi: inşaat sektörü genel olarak daralıyor; bu ortamda RES temeli beton üreticileri için niş ama istikrarlı bir talep olabilir. Eksik kalan iki ana konu değişmedi: temel müteahhitlerinin kim olduğu ve betonu mobil santralle mi hazır betoncudan mı aldıkları. Bu yalnız bayi anketi ve görüşmeyle kapanır; bayi cevapları web'den puanlanamaz, elle tabloya girilip basit bir puan şemasıyla sıralanmalı.",
+"durum": "RES temel paketi ikincil bantta kalıyor, kanıt puanı 3'ten 2'ye indi. 16 Ekim 2026 çürütme turunda 13 çağrı yapıldı, 12 sayfa içerik döndü. Fırsatın en kritik iddiası, YEKA RES-2026 şartnamesinde temel, ankraj kafesi ve kalıbın yerli aksam puanı taşımadığı, doğrulanamadı: şartname PDF'i indi ama metin okunamadı. Aynı sorun TEA sonuçları (235 türbin, 1.645 MW, 119 m nasel) ve Nordex temel dokümanı (568 ile 666 m3 C35/45) için de geçerli; yalnız doküman adı ve tarihi görüldü. Bu üç PDF harness tarafından yerel dosyaya kaydedildi, ekip bir PDF okuyucuyla açıp teyit edebilir. Doğrulananlar: YEKA takvimi ve fiyat, teminat, süre koşulları (iki haber kaynağı); Nordex Türkiye'de yerli ankraj kafesi ve kule üretimi ile 389 MW yeni sipariş (firma beyanı); hazır beton Eylül 2026 fiyatları (bağımsız blog); THBB 2025 üretimi 140 milyon m3 ve Eylül 2026 endeksinde faaliyetin 98,00'a düşmesi. Yeni bilgi: inşaat sektörü genel olarak daralıyor; bu ortamda RES temeli beton üreticileri için niş ama istikrarlı bir talep olabilir. Eksik kalan iki ana konu değişmedi: temel müteahhitlerinin kim olduğu ve betonu mobil santralle mi hazır betoncudan mı aldıkları. Bu yalnız bayi anketi ve görüşmeyle kapanır; bayi cevapları web'den puanlanamaz, elle tabloya girilip basit bir puan şemasıyla sıralanmalı.",
 "acik_sorular": [
 "Kısmen cevaplandı: YEKA RES-2026 şartnamesinin aksam puan tablosunda temel, kalıp ya da ankraj kafesi puan taşıyor mu, yoksa yerlilik yalnız türbin aksamıyla mı sınırlı",
 "Görüşme gerekir: Türkiye'de türbin temeli döken başlıca inşaat müteahhitleri kimler; betonu kendi mobil santralleriyle mi döküyorlar (TÜREB Ankara ofisi, üye müteahhit listesi için; telefon ve e-posta önceki turdan, tureb.tr bu turda içerik döndürmediği için doğrulanamadı. Enerjisa Üretim satın alma, Balkaya RES temel yüklenicisi ve beton tedarik modeli için. Nordex Enerji A.Ş. satış, SalesTurkey@nordex-online.com (doğrulandı), çalıştıkları CBoP yüklenicileri için. MEKA bayileri, saha anketi.)",
@@ -11964,7 +11964,7 @@ window.MEKA_DATA = {
 "ne_zaman": "20 Ekim 2026'ya kadar"
 },
 {
-"adim": "Bayi anketi cevaplarını elle tek tabloya girmek. Sütunlar: bayi adı, bölge, görüşme tarihi, RES temeli döken firma adları, mobil santral kullanıyor mu (evet, hayır, bilmiyor), m3 başına ücret ya da kiralama örneği, kaynak kişi. Puanlama: firma adı verdiyse 1 puan, mobil santral evet 2 puan, bilmiyor 1 puan, hayır 0 puan, ücret ya da kiralama örneği verdiyse 1 puan; toplam 0 ile 4. En yüksek puanlı bayi bölgesi öncelikli saha ziyareti olur. Yaprak kararı için ölçüt: mobil santral evet diyen bayi sayısı toplamın yarısını geçerse yaprak öne çıkan banda aday, üçte birinin altında kalırsa izle bandına düşer",
+"adim": "Bayi anketi cevaplarını elle tek tabloya girmek. Sütunlar: bayi adı, bölge, görüşme tarihi, RES temeli döken firma adları, mobil santral kullanıyor mu (evet, hayır, bilmiyor), m3 başına ücret ya da kiralama örneği, kaynak kişi. Puanlama: firma adı verdiyse 1 puan, mobil santral evet 2 puan, bilmiyor 1 puan, hayır 0 puan, ücret ya da kiralama örneği verdiyse 1 puan; toplam 0 ile 4. En yüksek puanlı bayi bölgesi öncelikli saha ziyareti olur. Fırsat kararı için ölçüt: mobil santral evet diyen bayi sayısı toplamın yarısını geçerse fırsat öne çıkan banda aday, üçte birinin altında kalırsa izle bandına düşer",
 "kim": "Satış müdürü ve bayi ağı",
 "ne_zaman": "30 Ekim 2026'ya kadar"
 },
@@ -11994,7 +11994,7 @@ window.MEKA_DATA = {
 "ne_zaman": "30 Ekim 2026'ya kadar"
 },
 {
-"adim": "Bayi tablosu ve görüşme sonuçlarıyla yaprağı yeniden puanlamak; mobil santral kullanımı yaygınsa paket kiralık ya da satılık mobil santral artı ankraj kafesi ve kalıp teklifi olarak yeniden tanımlanır, hazır betondan alınıyorsa izle bandına düşer",
+"adim": "Bayi tablosu ve görüşme sonuçlarıyla fırsatı yeniden puanlamak; mobil santral kullanımı yaygınsa paket kiralık ya da satılık mobil santral artı ankraj kafesi ve kalıp teklifi olarak yeniden tanımlanır, hazır betondan alınıyorsa izle bandına düşer",
 "kim": "Strateji ekibi ve genel müdür",
 "ne_zaman": "13 Kasım 2026"
 }
@@ -12275,7 +12275,7 @@ window.MEKA_DATA = {
 "Önceki çalışma RES temel paketini 'yatırım düşük, 6 ile 18 ay' diye konumlamıştı; bu araştırmada 36 aylık kurulum süresi ve uzmanın 20 ay ile 3 yıl görüşü yüzünden RES-2026 kaynaklı gelir 2028 sonrasına kayıyor, ancak RES-2024 sahaları daha erken bir pencere açıyor.",
 "Yerlilik şartı için kule puanı 2024 şartnamesinde 17, 2025 zeyilnamesinde 21 deniyor; her iki PDF de açılmadı, doğrulanamadı. RES-2026 için haber yalnız 55 puan eşiğini veriyor.",
 "Önceki metin 'yarışma günü henüz açıklanmadı' diyordu; açılan sayfaların hiçbiri bunu doğrulamıyor ya da çürütmüyor. Temmuz ilanı 'Bakanlık sitesinden duyurulacak' diyor; 13 Ekim haberi yarışma gününe değinmiyor.",
-"Belge 03 kule gövdesi ve türbin kanadını açıkça eliyor; gerekçeler kanat kompozit iş, kule gövdesi 10 ton tek parça sınırı. Bu iki madde RES temel paketinin altında elendi notu olarak durmalı, ayrı dal olmamalı.",
+"Belge 03 kule gövdesi ve türbin kanadını açıkça eliyor; gerekçeler kanat kompozit iş, kule gövdesi 10 ton tek parça sınırı. Bu iki madde RES temel paketinin altında elendi notu olarak durmalı, ayrı alan olmamalı.",
 "Belge 03 yalnızca yerlilik şartlı diyor, oran ve kapsam vermiyor. Taslağın web kaynağına göre şart asgari 55 puan ve aksam için. Temel betonu ve iç parçalar sayılmıyor. Çelişki değil, eksik; yerlilik avantajı doğrulanmalı. Web bilgisi bu turda doğrulanmadı.",
 "Belge 03 etiketi gelire 6 ile 18 ay diyor. Taslağın web kaynağına göre lisans sonrası kurulum 36 ay ve yarışma tarihi henüz yok. Bu doğruysa yeni YEKA sahalarından gelir 2027'den önce zor; etiket iyimser kalabilir. Web bilgisi bu turda doğrulanmadı.",
 "Taslak 5 Ekim 2026 inceleme dosyasına atıf yapıyor; bu dosya tura verilmedi. Oradan gelen 13 Ekim jeotermal ihalesi karışıklığı notu doğrulanamadığı için çıkarıldı."
@@ -12301,7 +12301,7 @@ window.MEKA_DATA = {
 "Kanıt puanı 3'ten 2'ye indirildi: temel iddia ve pazar hesabının girdileri okunamayan PDF'lere dayanıyor",
 "Bant ikincil olarak korundu, gerekçe doğrulama durumuna göre yeniden yazıldı",
 "Adımlara ilk adım olarak kaydedilen üç PDF'in PDF okuyucuda açılıp teyit edilmesi eklendi",
-"Bayi anketi adımına elle giriş ve 0 ile 4 puanlık puanlama şablonu ile yaprak karar ölçütü eklendi; ek_md'ye aynı şablon bölüm olarak eklendi",
+"Bayi anketi adımına elle giriş ve 0 ile 4 puanlık puanlama şablonu ile fırsat karar ölçütü eklendi; ek_md'ye aynı şablon bölüm olarak eklendi",
 "TÜREB ve Enerjisa iletişim bilgileri doğrulanamadığı için adımlarda tarayıcıyla teyit edilmeli notu eklendi",
 "Web listesinde her URL için doğrulandı, doğrulanamadı ya da bu turda açılmadı durumu yazıldı; THBB Eylül 2026 endeks sayfası eklendi",
 "Sınırlar bölümü çürütme turuna göre yeniden yazıldı; arama sayısı 0, okunan sayfa 12",
@@ -13060,14 +13060,14 @@ window.MEKA_DATA = {
 "ne: Komptech Terminator kapasite, güç ve ağırlık rakamları çıkarıldı; 03'te yok, web kaynaklıydı.",
 "ne: ömrünü tamamlamış lastik ifadesi sadeleştirildi; 03 yalnızca lastik diyor.",
 "neden: 13 Ağustos 2026 ve geri dönüşüm ile piroliz tesislerine açıldı ayrıntısı çıkarıldı; 03 yalnızca Ağustos'ta genişledi diyor.",
-"neden: savunma çalışmasında kanca yükleyici gövdesi ayrı kol iddiası düzeltildi; 03'teki savunma kolu flat rack ve konteyner gövdesi yazıyor, kanca yükleyici geçmiyor. Ortak şasi fikri varsayım olarak işaretlendi.",
+"neden: savunma çalışmasında kanca yükleyici gövdesi ayrı grup iddiası düzeltildi; 03'teki savunma grubu flat rack ve konteyner gövdesi yazıyor, kanca yükleyici geçmiyor. Ortak şasi fikri varsayım olarak işaretlendi.",
 "rakamlar: 13 Ağustos 2026 maddesi Ağustos 2026 olarak düzeltildi; kaynak yalnızca 03.",
 "rakamlar: 200.000 ton yıl lastik maddesi çıkarıldı; web kaynaklı, çalışmalarda yok.",
 "rakamlar: Komptech 45-100 ton saat, 250-447 kW, 21-26,5 ton maddesi çıkarıldı; web kaynaklı, çalışmalarda yok.",
 "rakamlar: 0,7 ile 1,8 milyar dolar pazar maddesi çıkarıldı; web kaynaklı, çalışmalarda yok.",
 "durum: 5 Ekim 2026 incelemesine atıf çıkarıldı; inceleme dosyası bu görevde kaynak olarak verilmedi ve bulunamadı. 05 belgesinin tarihi ve kapsamı eklendi.",
 "acik_sorular: inceleme atfı kaldırıldı, plastik kırıcı sorusu 03 metnine dayandırıldı; Ağustos 2026 değişikliğinin içeriği sorusu eklendi.",
-"adimlar: AKO Grup adı çıkarıldı; web kaynaklı. Piroliz tesisi ifadesi çıkarıldı; 03'te yok. Lisans seçeneğinin çalışmalarda olmadığı eklendi. Kanca yükleyici gövdesi kolu ifadesi flat rack ve konteyner gövdesi olarak düzeltildi.",
+"adimlar: AKO Grup adı çıkarıldı; web kaynaklı. Piroliz tesisi ifadesi çıkarıldı; 03'te yok. Lisans seçeneğinin çalışmalarda olmadığı eklendi. Kanca yükleyici gövdesi grubu ifadesi flat rack ve konteyner gövdesi olarak düzeltildi.",
 "riskler: pazar 0,7 ile 1,8 milyar dolar rakamı ve inceleme atfı çıkarıldı; 03'ün kaba tahmin notu ve plastik kırıcı pazar yorumu eklendi.",
 "kapilar: butce_not sadeleştirildi, 100 bin ile 1 milyon dolar bandı açıkça yazıldı. yol ikisi yerine kur yapıldı; 03 yeni ürün ve Ar-Ge orta diyor, ortaklık seçeneği çalışmalarda yok; varsayım notu korundu.",
 "takvim: 13 Ağustos 2026 maddesi Ağustos 2026 oldu; inceleme ve web kaynak atfı çıkarıldı. Mart 2027 sonu bildirim maddesi çıkarıldı; web kaynaklı. EKAP maddesine parçalayıcı uzantısının 03'te olmadığı notu eklendi.",
@@ -13091,7 +13091,7 @@ window.MEKA_DATA = {
 {
 "soru": "Komptech, Doppstadt, Arjes, Hammel, Lindner'in Türkiye bayisi var mı; kim",
 "durum": "kismen",
-"cevap": "Doppstadt (firma beyanı, sayfa doğrulandı): 16 Ekim 2025 tarihli haberde DTR TURKEY MAKINE resmi Türkiye dağıtım ortağı olarak duyuruldu. Firma 2009'dan beri faal; geri dönüşüm, inşaat, madencilik, plastik, enerji ve demir çelik alanlarında çözüm sağlayıcı. İmza töreninde Ramazan Ergin (DTR Makina kurucu direktör), Gerd Schreier (Doppstadt genel müdür) ve Boben Kalappurayil (bölge satış müdürü) yer aldı. Doppstadt yedek parça ve servis desteği sözü veriyor. Hammel (firma beyanı, sayfa doğrulandı): Türkiye temsilcisi İMİ İnş. Mak. İth. Müh. Müş. Müm. San. ve Tic. Ltd. Şti., Emre Şükrü Hamleci, Atatürk Bulvarı 105/809 Kızılay Ankara, telefon +90 312 425 1006, faks +90 312 418 6755. Komptech (Avusturya ticaret ofisi haberi, 28 Ekim 2021, doğrulandı): Mayıs 2021 İzmir Kınık biyokütle tesisinde ilk elektrik motorlu mobil kırma makinesi; Kasım 2020 Adana Yüreğir biyokütle tesisinde Crambo 5000 ağaç parçalama makinesi; Ocak 2019 Afyonkarahisar Çay tarımsal atık tesisi için parçalama ve elek makineleri. Haber Türk bayi ya da partner adı vermiyor; projelerin bayisiz yürütüldüğü bir çıkarımdır, sayfada yazmıyor. Arjes ve Lindner sayfaları bu turda açılmadı; Türkiye bayisi olmadığı iddiası doğrulanamadı.",
+"cevap": "Doppstadt (firma beyanı, sayfa doğrulandı): 16 Ekim 2025 tarihli haberde DTR TURKEY MAKINE resmi Türkiye dağıtım ortağı olarak duyuruldu. Firma 2009'dan beri faal; geri dönüşüm, inşaat, madencilik, plastik, enerji ve demir çelik alanlarında çözüm sağlayıcı. İmza töreninde Ramazan Ergin (DTR Makina kurucu direktör), Gerd Schreier (Doppstadt genel müdür) ve Boben Kalappurayil (bölge satış müdürü) yer aldı. Doppstadt yedek parça ve servis desteği sözü veriyor. Hammel (firma beyanı, sayfa doğrulandı): Türkiye temsilcisi İMİ İnş. Mak. İth. Müh. Müş. Müm. San. ve Tic. Ltd. Şti., Emre Şükrü Hamleci, Atatürk Bulvarı 105/809 Kızılay Ankara, telefon +90 312 425 1006, faks +90 312 418 6755. Komptech (Avusturya ticaret ofisi haberi, 28 Ekim 2021, doğrulandı): Mayıs 2021 İzmir Kınık biyokütle tesisinde ilk elektrik motorlu mobil kırma makinesi; Kasım 2020 Adana Yüreğir biyokütle tesisinde Crambo 5000 harita parçalama makinesi; Ocak 2019 Afyonkarahisar Çay tarımsal atık tesisi için parçalama ve elek makineleri. Haber Türk bayi ya da partner adı vermiyor; projelerin bayisiz yürütüldüğü bir çıkarımdır, sayfada yazmıyor. Arjes ve Lindner sayfaları bu turda açılmadı; Türkiye bayisi olmadığı iddiası doğrulanamadı.",
 "kaynak": "https://www.doppstadt.de/en/company/news/news-detail-page/unser-globales-netzwerk-waechst-willkommen-dtr-turkey-makine (firma beyanı; açıldı, doğrulandı); https://www.hammel.de/index.php/en/unternehmen-en/hammel-worldwide (firma beyanı; açıldı, doğrulandı); https://www.advantageaustria.org/tr/news/Komptech_GmbH_Tuerkiye_de_yeni_bir_projeye_daha_imza.tr.html (resmi, Avusturya ticaret ofisi; açıldı, doğrulandı); https://www.arjes.de/en/sales-partners/ (firma; açılmadı, doğrulanamadı); https://www.lindner.com/ (firma; açılmadı, doğrulanamadı)",
 "kime": "Komptech GmbH Frohnleiten, komptech.com/en/contact; Arjes GmbH, info@arjes.de, +49 36969 58 0; Lindner Recyclingtech, lindner.com/contact. Her üçüne Türkiye temsilcisi ve kurulu makine sayısı sorulacak. DTR Makina ve İMİ ile doğrudan görüşme yapılacak."
 },
@@ -13857,8 +13857,8 @@ window.MEKA_DATA = {
 {
 "ad": "ASPİLSAN Enerji",
 "rol": "tedarikci",
-"not": "Yerli batarya kaynağı olarak MEKA'nın SSB batarya yaprağında anılıyor; otobüs bataryası fiyatı ve kapasitesi bu turda bulunamadı.",
-"kaynak": "sonuc9.json, ssb_batarya yaprağı"
+"not": "Yerli batarya kaynağı olarak MEKA'nın SSB batarya fırsatında anılıyor; otobüs bataryası fiyatı ve kapasitesi bu turda bulunamadı.",
+"kaynak": "sonuc9.json, ssb_batarya fırsatı"
 },
 {
 "ad": "Bari Belediyesi",
@@ -13910,9 +13910,9 @@ window.MEKA_DATA = {
 "Kapasite kullanımı: OSD Ocak ile Mayıs 2025 otobüs ve midibüs grubu yüzde 62; aynı açıklamadaki yüzde 68 otomotiv sektörünün genelidir, otobüs grubunun yıl geneli değil; OSD yıllık sayfası okunamadı.",
 "ACEA'nın yüzde 23,8 şarj edilebilir payı şarjlı hibriti de içeriyor; tam elektrikli 2025 payı bulunamadı. Ocak ile Eylül 2025 için 6.444 tam elektrikli iddiası yalnız bir LinkedIn sayfasında, açılmadı.",
 "Karsan'ın 624 elektrikli satış rakamı firma sayfasında doğrudan geçmiyor; 555 ihracat ile 69 yurt içi satışın toplamı olarak hesaplandı.",
-"sonuc9 bağı, savunma flat rack yaprağı: Eskişehir tesisinin tek parça 10 ton ve 7 metre sınırı flat rack için yeterli deniyor; 12 ile 18 metrelik otobüs gövdesi için yetmez, yeni hol ve fikstür gerekir.",
-"sonuc9 bağı, Milvus yaprağı: MEKA'nın boya hattından söz ediyor; MEKA yapraklarının hiçbirinde kataforez hattı geçmiyor. Otobüs gövdesi korozyon koruması için kataforez yatırımı ya da fason gerekir.",
-"sonuc9 bağı, SSB batarya yaprağı: ASPİLSAN yerli batarya kaynağı olarak anılıyor; otobüs bataryası için fiyat ve kapasite bu turda bulunamadı."
+"sonuc9 bağı, savunma flat rack fırsatı: Eskişehir tesisinin tek parça 10 ton ve 7 metre sınırı flat rack için yeterli deniyor; 12 ile 18 metrelik otobüs gövdesi için yetmez, yeni hol ve fikstür gerekir.",
+"sonuc9 bağı, Milvus fırsatı: MEKA'nın boya hattından söz ediyor; MEKA fırsatlarının hiçbirinde kataforez hattı geçmiyor. Otobüs gövdesi korozyon koruması için kataforez yatırımı ya da fason gerekir.",
+"sonuc9 bağı, SSB batarya fırsatı: ASPİLSAN yerli batarya kaynağı olarak anılıyor; otobüs bataryası için fiyat ve kapasite bu turda bulunamadı."
 ],
 "degisiklikler": [
 "20 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
@@ -14028,7 +14028,7 @@ window.MEKA_DATA = {
 "ne_zaman": "Ocak 2027"
 },
 {
-"adim": "Karar kapısı: niyet mektubu ve ihale takvimi varsa 10 ile 20 araçlık pilot; yoksa yaprak izlemede kalır",
+"adim": "Karar kapısı: niyet mektubu ve ihale takvimi varsa 10 ile 20 araçlık pilot; yoksa fırsat izlemede kalır",
 "kim": "MEKA yönetim kurulu",
 "ne_zaman": "31 Mart 2027"
 }
@@ -14440,7 +14440,7 @@ window.MEKA_DATA = {
 ],
 "bant": "izle",
 "puan_metni": "Yönetici isteğiyle derin çalışma (20 Ekim 2026), bant önerisi izle: Pazar gerçek ve büyüyor, emsal fiyatlar kaynaklı, MEKA'nın lazer, abkant, kaynak ve boya gücü doğrudan kullanılır. Ama Türkiye iç pazarı 2025'te 69 adet, Türk üreticiler gövdeyi kendileri yapıyor ve kapasiteleri boş; MEKA'nın girişi tek bir tetiğe, ABB'nin 1.000 otobüslük programına ve bir Çinli ortağa bağlı. Ekonomi orta: 6 ile 10 milyon dolar bilete karşı yıl 5 brüt kârı 1,3 ile 4,4 milyon dolar, baz geri ödeme 5,4 yıl. ABB ihalesi yerli üretim şartıyla çıkar ve bir üretici niyet mektubu imzalarsa ikincil banda yükselir.",
-"kapsam_notu": "20 Ekim 2026 derin çalışma: 14 arama, 26 sayfa; 7 açık sorunun 0 tanesi cevaplandı, 6 tanesi görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. Araştırmacı tek ajanla çalıştı; çürütücü ikinci turda 14 sayfayı yeniden açtı ve emsal bedelleri, ACEA, CPT, PwC, Temiz Araçlar Direktifi, TEMSA satışı, Karsan 2025 sonuçları, ABB planı, Bükreş ihalesi, Karsan ve Bozankaya anlaşması ile OSD kapasite verisini sayfayla karşılaştırdı; hepsi tuttu, iki rakam düzeltildi. Kanıt 3 kaldı, çünkü tek yerli tetik olan ABB planı tek haber kaynağı, MEKA'nın otobüs başına payı, brüt marj, adet ve bilet kırılımı tahmindir ve yurt içi elektrikli ihale sonucu bulunamadı. EKAP ve belediye sonuç ilanları açılamadı; İETT, ESHOT, Bursa, Konya ve Antalya'nın 2024 ile 2026 elektrikli otobüs ihale sonuçları bulunamadı, yurt içi emsaller dizel İETT ihalesi ve bedeli açıklanmayan Bakanlık siparişiyle sınırlı. KAP API 429 hatası verdi; KAP bildirimleri haber ve aracı site aktarımıyla okundu. UNECE, SteelRadar, SeeNews ve electrive sayfaları açılamadı; tip onayı ve IATF 16949 süre ve maliyeti bulunamadı. OSD 2025 yıllık verisi okunamadı; otobüs grubu için yıl geneli kapasite rakamı yok. Brüt kâr genel gider ve vergi öncesidir. Anadolu Isuzu, Mercedes-Benz Türk ve MAN Türkiye'nin elektrikli kapasitesi, Çinli üreticilerin Türkiye montaj planı ve Çin menşeli otobüse ek gümrük vergisi bulunamadı. Yöneticinin ikinci konusu olan Çinli ortak listesi bu yaprakta yalnız ortak adayı olarak ele alındı; ayrıntılı firma taraması ayrı yaprak gerektirir.",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 14 arama, 26 sayfa; 7 açık sorunun 0 tanesi cevaplandı, 6 tanesi görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. Araştırmacı tek ajanla çalıştı; çürütücü ikinci turda 14 sayfayı yeniden açtı ve emsal bedelleri, ACEA, CPT, PwC, Temiz Araçlar Direktifi, TEMSA satışı, Karsan 2025 sonuçları, ABB planı, Bükreş ihalesi, Karsan ve Bozankaya anlaşması ile OSD kapasite verisini sayfayla karşılaştırdı; hepsi tuttu, iki rakam düzeltildi. Kanıt 3 kaldı, çünkü tek yerli tetik olan ABB planı tek haber kaynağı, MEKA'nın otobüs başına payı, brüt marj, adet ve bilet kırılımı tahmindir ve yurt içi elektrikli ihale sonucu bulunamadı. EKAP ve belediye sonuç ilanları açılamadı; İETT, ESHOT, Bursa, Konya ve Antalya'nın 2024 ile 2026 elektrikli otobüs ihale sonuçları bulunamadı, yurt içi emsaller dizel İETT ihalesi ve bedeli açıklanmayan Bakanlık siparişiyle sınırlı. KAP API 429 hatası verdi; KAP bildirimleri haber ve aracı site aktarımıyla okundu. UNECE, SteelRadar, SeeNews ve electrive sayfaları açılamadı; tip onayı ve IATF 16949 süre ve maliyeti bulunamadı. OSD 2025 yıllık verisi okunamadı; otobüs grubu için yıl geneli kapasite rakamı yok. Brüt kâr genel gider ve vergi öncesidir. Anadolu Isuzu, Mercedes-Benz Türk ve MAN Türkiye'nin elektrikli kapasitesi, Çinli üreticilerin Türkiye montaj planı ve Çin menşeli otobüse ek gümrük vergisi bulunamadı. Yöneticinin ikinci konusu olan Çinli ortak listesi bu fırsatta yalnız ortak adayı olarak ele alındı; ayrıntılı firma taraması ayrı fırsat gerektirir.",
 "guven": 4,
 "tarih": "20 Ekim 2026 (derin çalışma, yönetici isteği)",
 "dal_ad": "MEKA ile ilgili",
@@ -14647,10 +14647,10 @@ window.MEKA_DATA = {
 "QazTehna kapasitesi: Informburo yılda 1.000 otobüs ve 200 iş makinesi, yaklaşık 800 çalışan diyor; arama özetindeki başka bir kaynak 1.200 otobüs ve 500 iş makinesi, Orda.kz 1.000'den fazla çalışan diyor.",
 "Medyascope 10 Haziran 2026 haberi BYD Macaristan montajı için 2023'ün dördüncü çeyreğini yazıyor; aynı haberin gövdesi bu yılın dördüncü çeyreği diyor. 2023 ifadesi hata. Aynı haber Manisa anlaşmasını geçen yıl diye yazıyor, oysa anlaşma Temmuz 2024; haberin içindeki Stella Li alıntısı iki yıl geçti diyor.",
 "Busnex Poland ihalelerinde Yutong adı açılan TED kayıtlarında geçmiyor; Busnex'in Yutong satıcısı olduğu araştırmacının tam metin aramasından çıkarım, resmi kayıtla doğrulanmadı.",
-"Bağ, lityum yaprağı: orada BYD'nin Türkiye araç fabrikasının 10 Haziran 2026'da askıya alındığı yazıyor; bu çalışma aynı bilgiyi doğruladı, çelişki yok. Lityum yaprağı BYD'yi Solinved'in hücre tedarikçisi sayıyor.",
-"Bağ, TEKSİS yaprağı: İmmaks'ın Tip 4 hidrojen tankında hedef pazarlardan biri otobüs; hidrojenli otobüs bu yaprağa alternatif bir yol.",
-"Bağ, SSB batarya yaprağı: ASPİLSAN gibi yerli hücre ve paket üreticileri, kitten montajlı otobüste yerli katkı payını artırmak için tedarikçi olabilir.",
-"Bağ, sonuc9.json: otobüs ve araç montajı üzerine yaprak yok; kataforez kelimesi hiç geçmiyor, yani MEKA'nın kataforez hattı kaydı yok. Şasi kelimesi parçalayıcı, flat rack ve vinç yapraklarında ağır şasi anlamında geçiyor; otobüs iskeleti ince cidarlı profil olduğu için bu yetkinlik sınırlı aktarılır."
+"Bağ, lityum fırsatı: orada BYD'nin Türkiye araç fabrikasının 10 Haziran 2026'da askıya alındığı yazıyor; bu çalışma aynı bilgiyi doğruladı, çelişki yok. Lityum fırsatı BYD'yi Solinved'in hücre tedarikçisi sayıyor.",
+"Bağ, TEKSİS fırsatı: İmmaks'ın Tip 4 hidrojen tankında hedef pazarlardan biri otobüs; hidrojenli otobüs bu fırsata alternatif bir yol.",
+"Bağ, SSB batarya fırsatı: ASPİLSAN gibi yerli hücre ve paket üreticileri, kitten montajlı otobüste yerli katkı payını artırmak için tedarikçi olabilir.",
+"Bağ, sonuc9.json: otobüs ve araç montajı üzerine fırsat yok; kataforez kelimesi hiç geçmiyor, yani MEKA'nın kataforez hattı kaydı yok. Şasi kelimesi parçalayıcı, flat rack ve vinç fırsatlarında ağır şasi anlamında geçiyor; otobüs iskeleti ince cidarlı profil olduğu için bu yetkinlik sınırlı aktarılır."
 ],
 "degisiklikler": [
 "20 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
@@ -15264,7 +15264,7 @@ window.MEKA_DATA = {
 "Görüşme gerekir: Otobüs montajı için proje bazlı teşvik ya da yatırım teşvik belgesi alınabilir mi? (Sanayi ve Teknoloji Bakanlığı Teşvik Uygulama Genel Müdürlüğü)"
 ],
 "bant": "izle",
-"puan_metni": "Yönetici isteğiyle derin çalışma (20 Ekim 2026), bant önerisi izle: Pazar ve fiyat tarafı resmi kaynakla sağlam: OSD pazar verisi ve 7 TED ihale sonucu, çürütücü turunda altısı resmi API'den yeniden açılıp birim fiyatlar doğrulandı. Ama yaprağı belirleyen üç şey doğrulanamadı: Çinli üreticinin Türkiye'de ortak arayıp aramadığı, kit fiyatı ve otobüse uygulanan ek vergi ile yerli malı şartı. Türkiye pazarı yılda yaklaşık 1.843 otobüsle küçük, yerli fabrikalarda yüzde 32 boş kapasite var ve Çinli taraf otomotiv deneyimli bir ortağı seçmeye yatkın. BYD'nin Manisa'dan çekilmesi Türkiye'nin Çin yatırım önceliğinde geri düştüğünü gösteriyor. MEKA uyumu kısmi: kesim, büküm, kaynak ve boya uyar; kataforez, tip onayı ve otomotiv montaj deneyimi yok. Bilet 11,5 M$ ile 4. dilimde, ekonomi büyük ölçüde tahmin. Bu yüzden izle: Kasım 2026'daki mektuplara olumlu ve somut dönüş gelirse ikincil ya da öne çıkana yükselebilir.",
+"puan_metni": "Yönetici isteğiyle derin çalışma (20 Ekim 2026), bant önerisi izle: Pazar ve fiyat tarafı resmi kaynakla sağlam: OSD pazar verisi ve 7 TED ihale sonucu, çürütücü turunda altısı resmi API'den yeniden açılıp birim fiyatlar doğrulandı. Ama fırsatı belirleyen üç şey doğrulanamadı: Çinli üreticinin Türkiye'de ortak arayıp aramadığı, kit fiyatı ve otobüse uygulanan ek vergi ile yerli malı şartı. Türkiye pazarı yılda yaklaşık 1.843 otobüsle küçük, yerli fabrikalarda yüzde 32 boş kapasite var ve Çinli taraf otomotiv deneyimli bir ortağı seçmeye yatkın. BYD'nin Manisa'dan çekilmesi Türkiye'nin Çin yatırım önceliğinde geri düştüğünü gösteriyor. MEKA uyumu kısmi: kesim, büküm, kaynak ve boya uyar; kataforez, tip onayı ve otomotiv montaj deneyimi yok. Bilet 11,5 M$ ile 4. dilimde, ekonomi büyük ölçüde tahmin. Bu yüzden izle: Kasım 2026'daki mektuplara olumlu ve somut dönüş gelirse ikincil ya da öne çıkana yükselebilir.",
 "kapsam_notu": "20 Ekim 2026 derin çalışma: 17 arama, 36 sayfa; 7 açık sorunun 0 tanesi cevaplandı, 7 tanesi görüşme gerektiriyor. Çürütücü 20 sayfa açtı, güven 4/5. Bu turda çürütücü ajan 14 sayfayı sayfa_oku.py ile açtı: 6 TED kaydı (resmi API), OSD Aralık 2025 PDF'i, EY, Bursa Hakimiyet, Informburo, Sözcü, Yutong Katar, Medyascope ve İşçi Haber. TED birim fiyatları, OSD pazar ve ihracat rakamları, İETT bedeli, EY karar içerikleri, QazTehna kapasitesi, Yutong 2025 satışları, BYD askıya alma haberi ve 20 Ekim 2026 kurları sayfayla uyuştu. Orda.kz, Bus-News, Prototyping China, Capital, Cumhuriyet, AA, Sustainable Bus, Karsan Mersin PDF'i ve Bloomberg HT bu turda yeniden açılmadı. Çinli üreticilerin CKD kit fiyatı, lisans bedeli ve Türkiye niyeti web'de yok; ekonomi modelindeki kit oranı, montajcı marjı, adetler ve yatırım kalemleri tahmindir. Otobüs 87.02 için Çin menşeine uygulanan gümrük vergisi, İGV ve EMY oranı resmi tablodan doğrulanamadı; Ticaret Bakanlığı Otomotiv Sektör Raporu 2026 ve EUR-Lex AB telafi vergisi metni açılamadı. Yerli malı tebliğinin otobüs kapsamı ve tip onayı süreci resmi kaynaktan çıkarılamadı. Türkiye'de elektrikli otobüs yıllık satış adedi bulunamadı; TEHAD rakamı eski tarihli. Busnex Poland'ın Yutong satıcısı olduğu açılan TED kayıtlarında yazmıyor, araştırmacının tam metin aramasından çıkarım. Zloti avro kuru 4,25 varsayımdır; TL kurları 20 Ekim 2026 Sözcü sayfasından. Yutong Makedonya 2010 rakamı tek kaynak, sayfa açılamadı. Electrive, Steelradar, Automotive World ve ChinaEVHome sayfaları engellendi. Golden Dragon, Zhongtong, Ankai, Foton, Sunwin ve CRRC için Türkiye ya da yurt dışı montaj bilgisi aranmadı, bütçe yetmedi.",
 "guven": 4,
 "tarih": "20 Ekim 2026 (derin çalışma, yönetici isteği)",
@@ -15436,7 +15436,7 @@ window.MEKA_DATA = {
 "21 Ekim 2026 bağımsız karşı okuma eklendi: yıl 5 brüt kâr 0,3 ile 1,1 milyon dolara düşürüldü, pilot öneri ve üç ön şart yazıldı",
 "Ekonomi modeli, benzinli yol a: gelir ve yedek parça tabanı 11.834 dolardı (landed maliyet, nakliyesiz); gerçek araç geliri distribütörün bayiye satış fiyatı 14.201 dolar. Yedek parça brüt marjı araç başı 497 dolardan 596 dolara, toplam araç başı brüt kâr 2.627 dolardan 2.726 dolara çıktı.",
 "Benzinli yıl 3 düzeltildi: gelir 2,0 ile 4,6 milyon dolardan 2,4 ile 5,6 milyon dolara, brüt kâr 0,39 ile 0,92 milyon dolardan 0,41 ile 0,95 milyon dolara.",
-"Benzinli yıl 5 düzeltildi: gelir 3,3 ile 8,0 milyon dolardan 4,0 ile 9,5 milyon dolara, brüt kâr 0,66 ile 1,58 milyon dolardan 0,68 ile 1,64 milyon dolara. Durum, bant gerekçesi, varyant, yıllık kâr potansiyeli ve dal uygunluğu metinleri aynı rakama çekildi.",
+"Benzinli yıl 5 düzeltildi: gelir 3,3 ile 8,0 milyon dolardan 4,0 ile 9,5 milyon dolara, brüt kâr 0,66 ile 1,58 milyon dolardan 0,68 ile 1,64 milyon dolara. Durum, bant gerekçesi, varyant, yıllık kâr potansiyeli ve alan uygunluğu metinleri aynı rakama çekildi.",
 "Benzinli geri ödeme yeniden hesaplandı: yıllık brüt kâr 204, 442, 682, 922, 1.159 bin dolar; brüt geri ödeme 4,5 yıldan 4,4 yıla, net geri ödeme 5,9 yıldan 5,7 yıla.",
 "Elektrikli yol a: gelir ve yedek parça tabanı 18.000 dolardı (landed, nakliyesiz); distribütör satış fiyatı 21.600 dolar kullanıldı. Araç başı brüt kâr 3.996 dolardan 4.147 dolara çıktı.",
 "Elektrikli yıl 3 düzeltildi: gelir 0,40 ile 1,21 milyon dolardan 0,48 ile 1,45 milyon dolara, brüt kâr 0,08 ile 0,24 milyon dolardan 0,08 ile 0,25 milyon dolara. Yıl 5: gelir 0,81 ile 3,02 milyon dolardan 0,97 ile 3,63 milyon dolara, brüt kâr 0,16 ile 0,60 milyon dolardan 0,17 ile 0,62 milyon dolara.",
@@ -15874,9 +15874,9 @@ window.MEKA_DATA = {
 "kime": "CFMOTO, Segway, Linhai, Can-Am temsilcileri; EKAP, AFAD, Orman Genel Müdürlüğü"
 },
 {
-"soru": "Bu yaprak MEKA dalına mı bağımsız dala mı uygun?",
+"soru": "Bu fırsat MEKA alanına mı bağımsız alana mı uygun?",
 "durum": "cevaplandi",
-"cevap": "MEKA dalının özel firmalar kolu. Avantaj MEKA'nın müşterisi, servisi ve şasi gücü. Bağımsız yatırım olarak getiri küçük.",
+"cevap": "MEKA alanının özel firmalar grubu. Avantaj MEKA'nın müşterisi, servisi ve şasi gücü. Bağımsız yatırım olarak getiri küçük.",
 "kaynak": "bu çalışma, ekonomi modeli",
 "kime": ""
 }
@@ -16858,8 +16858,8 @@ window.MEKA_DATA = {
 },
 {
 "deger": "20 ile 80 bin avro",
-"aciklama": "MEKA savunma yapraklarında prototip başına MIL-STD-810 test bütçesi; 22 ile 90 bin dolar",
-"kaynak": "MEKA karar ağacı savunma yaprakları, olgu; kur TCMB 23 Ekim 2026"
+"aciklama": "MEKA savunma fırsatlarında prototip başına MIL-STD-810 test bütçesi; 22 ile 90 bin dolar",
+"kaynak": "MEKA fırsat haritası savunma fırsatları, olgu; kur TCMB 23 Ekim 2026"
 }
 ],
 "durum": "Ankara'da akredite çevre ve titreşim test kapasitesi var: STEST Malıköy'de 2017'den beri, Roketsan Elmadağ'da 1991'den beri, SAGE 70 kN ve Ex-proof 200 kN sarsıcıyla çalışıyor. BIAS'ın fabrikası Kahramankazan'da, akredite beyanlı test merkezi TOSB'de. Türkiye'de özel laboratuvar fiyatı, cirosu ve bekleme süresi yayımlanmıyor; bu üç veri teklif ve görüşmeyle alınmalı. Talep savunma ihracatıyla büyüyor ve 9903 sayılı Karar test merkezini öncelikli yatırım sayıyor. Model büyük laboratuvar için 7 ile 12 yılı aşan, küçük ve aşamalı giriş için yaklaşık 6 yıllık geri ödeme gösteriyor. Öneri: kondisyon izlemeyle başla, çapa müşteri bulunursa küçük laboratuvar kur. Karşı okuma sonrası: İlk adım kondisyon izleme. Bilet 0,15 ile 0,3 milyon dolar. MEKA'nın taş ocağı, kırma eleme ve çimento müşterileri ilk pazar. Bu kısım ayakta. Test laboratuvarı kurma kararı ertelenmeli. Ankara, Kocaeli ve Gebze'de en az altı akredite ya da akredite beyanlı rakip var: STEST, Roketsan, SAGE, BIAS, GTL ve Tekno Kauçuk. SAGE büyük parça ve tam sistem testini kamu olarak karşılıyor. Savunma firmaları kendi laboratuvarlarını kuruyor. Küçük laboratuvara ancak şu üç şart birlikte sağlanırsa geçilmeli. Bir: ilk 2 yıl sarsıcı kapasitesinin en az yüzde 40'ını kapsayan bağlayıcı sözleşmeler var. Niyet me",
@@ -17370,7 +17370,7 @@ window.MEKA_DATA = {
 "bant": "izle",
 "puan_metni": "İkinci tur (16 Ekim 2026): Doğrulama bandı değiştirmiyor, hatta türbin tarafını biraz daha zayıflatıyor: kule gövdesi ve kule iç aksamı yerleşik oyuncularla dolu, Ateş Wind Power iç aksamı zaten üretiyor. Bazalt ve plastik kırıcı MEKA'nın ağır makine gücüne talep yaratmıyor; batarya geri dönüşümü hacmi yılda yaklaşık 500 ton pil düzeyinde. Tek olası açık biyogaz tesislerinde ağır sac işi; bu da tedarikçi görüşmesi yapılmadan doğrulanamıyor. İzle bandı yerinde. Belge 03 sırası, 10 alan içinde: bazalttan karbon kredisi 7, etiketi \"uçuk fikir\"; batarya geri dönüşümü 8, etiketi \"izle\"; Ay madenciliği 10, etiketi \"prestij\". Türbin ve kanat, kule gövdesi, plastik kırıcı sıra dışı, \"Önermediklerimiz\" listesinde. Belge 03 haritası: bazalt gelire uzaklık orta ve potansiyel orta; batarya uzak ve küçük; Ay uzak ve orta. Belge 05 sırası, 12 iş içinde: tavuk gübresinden enerji 6, haritada gelire uzaklık orta ve potansiyel orta. İki belgede de sayısal puan yok, yalnız sıra ve kaba etiket.",
 "tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 Eylül 2026 ve 27 Eylül 2026",
-"ne": "Bu yaprak tek bir iş değil, yedi küçük kalemin toplamıdır. Dördü izleme listesinde: tavuk gübresinden enerji tesislerine ekipman, batarya geri dönüşümü, bazaltla karbon giderimi yapan girişimlere kırma tesisi satmak, Ay madenciliği çevresiyle tanışmak. Üçü belge 03'te açıkça elenmiş: rüzgar türbini kanadı, rüzgar kulesi gövdesi, plastik kırıcı.",
+"ne": "Bu fırsat tek bir iş değil, yedi küçük kalemin toplamıdır. Dördü izleme listesinde: tavuk gübresinden enerji tesislerine ekipman, batarya geri dönüşümü, bazaltla karbon giderimi yapan girişimlere kırma tesisi satmak, Ay madenciliği çevresiyle tanışmak. Üçü belge 03'te açıkça elenmiş: rüzgar türbini kanadı, rüzgar kulesi gövdesi, plastik kırıcı.",
 "neden": "Hepsinde MEKA'nın mevcut yetkinliğine bir ucundan dokunan bir iş var. Belge 05 tavuk gübresi için besleme, tank, ayırıcı, kurutma ve otomasyonu \"bize uyan\" diye sayıyor. Belge 03 bazalt için kırma tesisi satışını, kule gövdesi için çelik gövde üretimini anıyor. Şimdilik hiçbiri gelire yakın değil. Yönetimin bu kalemlere yeniden zaman ayırmaması, yalnız belirli tetikleyiciler çıkınca dosyayı açması için tek sayfada toplandı.",
 "rakamlar": [
 {
@@ -17573,7 +17573,7 @@ window.MEKA_DATA = {
 "Bazalt satışı boşa çıkabilir: belge 03'teki örnek anlaşmalar Hindistan ve Brezilya'da, girişimlerin kırma tesisi aldığına kanıt yok, Türkiye'de alıcı adı yok.",
 "Tavuk gübresinde pazar kurulu oyuncularla dolu; belge 05 kendisi 'iş yapılıyor' diyor. Bu, aynı belgenin 'ilk giren kazanır' ölçütüne uymuyor. Getiri hesabı ve rakip listesi yok. 419 kr/kWh Mart 2026 verisi; geçerlilik süresi çalışmalarda yok.",
 "Batarya geri dönüşümü ve Ay madenciliği gelire 2 ile 4 yıl ve 5 yıldan uzak; belge 03 ikisine de Ar-Ge yüksek etiketi veriyor. Zaman ayırmak öne çıkan alanlardan kaynak çeker.",
-"Bu yaprağın dört kalemi dört ayrı sektör. Hepsini birden izlemek dağınıklık yaratır; tetikleyici tanımlı olmayan kalem kapanmalı."
+"Bu fırsatın dört kalemi dört ayrı sektör. Hepsini birden izlemek dağınıklık yaratır; tetikleyici tanımlı olmayan kalem kapanmalı."
 ],
 "kapilar": {
 "yatirim": "sirket",
@@ -17660,7 +17660,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ikinci tur: 6 açık sorunun 1'i cevaplandı, 4'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Bu tur yalnız doğrulama turuydu, yeni arama yapılmadı; önceki turun 29 kaynağından 24'ü açıldı, 23'ü okundu. Açılamayanlar: electrive (404), jwell-group (önceden 403), resale.info (önceden 404), PAGEV PDF (metin okunamadı). Bunlara dayanan ifadeler doğrulanamadı olarak işaretlendi, silinmedi. 419 kuruş rakamı hiçbir sayfada yok. EPDK sayfasındaki Word ve Excel belgeleri indirilip okunmadı; 2026 başvuru tarihi ve karar içeriği bu yüzden doğrulanamadı. Biyogaz tesis listesi 2022 tarihli ve hammadde vermiyor; tesislerin tavuk gübresi kullandığı varsayım. Biyogaz Derneği telefonu üye sayfasında Hunbiyogaz'a ait görünüyor, derneğin iletişim sayfası açılmadı. Exitcom sitesinde alakasız kumar reklam bağlantıları var, site ele geçirilmiş olabilir. DonanımHaber içeriği forum yeniden yayını, asıl kaynak ekonomim.com; forum yorumlarındaki TPI iflas iddiası doğrulanmadı ve kullanılmadı. Şirket sitesi rakamları firma beyanıdır. Kullanıcının sorduğu bayi görüşmesi puanlaması bu yaprağın kapsamında değil: bu yaprakta bayi görüşmesi kaydı yok, görüşme sonuçları web'de bulunmaz ve elle girilmesi gerekir; hangi bayinin daha çok puan aldığı ancak görüşme notları yaprağa eklenince hesaplanabilir.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 6 açık sorunun 1'i cevaplandı, 4'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Bu tur yalnız doğrulama turuydu, yeni arama yapılmadı; önceki turun 29 kaynağından 24'ü açıldı, 23'ü okundu. Açılamayanlar: electrive (404), jwell-group (önceden 403), resale.info (önceden 404), PAGEV PDF (metin okunamadı). Bunlara dayanan ifadeler doğrulanamadı olarak işaretlendi, silinmedi. 419 kuruş rakamı hiçbir sayfada yok. EPDK sayfasındaki Word ve Excel belgeleri indirilip okunmadı; 2026 başvuru tarihi ve karar içeriği bu yüzden doğrulanamadı. Biyogaz tesis listesi 2022 tarihli ve hammadde vermiyor; tesislerin tavuk gübresi kullandığı varsayım. Biyogaz Derneği telefonu üye sayfasında Hunbiyogaz'a ait görünüyor, derneğin iletişim sayfası açılmadı. Exitcom sitesinde alakasız kumar reklam bağlantıları var, site ele geçirilmiş olabilir. DonanımHaber içeriği forum yeniden yayını, asıl kaynak ekonomim.com; forum yorumlarındaki TPI iflas iddiası doğrulanmadı ve kullanılmadı. Şirket sitesi rakamları firma beyanıdır. Kullanıcının sorduğu bayi görüşmesi puanlaması bu fırsatın kapsamında değil: bu fırsatta bayi görüşmesi kaydı yok, görüşme sonuçları web'de bulunmaz ve elle girilmesi gerekir; hangi bayinin daha çok puan aldığı ancak görüşme notları fırsata eklenince hesaplanabilir.",
 "kanit": 3,
 "web": [
 {
@@ -17804,10 +17804,10 @@ window.MEKA_DATA = {
 ],
 "celiskiler": [
 "Belge 05, başlık ve 6. sıra: ölçüt 'MEKA'dan bağımsız' ve 'ilk giren kazanır'. Aynı belge tavuk gübresinde 'iş yapılıyor' deyip Bolu 35 MW ve Afyon 8 MW tesisleri sayıyor ve 'bize uyan' ekipmanı MEKA ürünleriyle anlatıyor. İki ölçüte de uymuyor ama listede 6. sırada duruyor.",
-"Belge 05 kendini MEKA'dan bağımsız liste olarak sunuyor; bu yaprak tavuk gübresini MEKA tarafına koyuyor. Aynı belgedeki veri merkezi soğutma ve termal batarya bu yaprağa alınmadı. Yerleştirme kuralı belgede yok, bu özetin kararı.",
+"Belge 05 kendini MEKA'dan bağımsız liste olarak sunuyor; bu fırsat tavuk gübresini MEKA tarafına koyuyor. Aynı belgedeki veri merkezi soğutma ve termal batarya bu fırsata alınmadı. Yerleştirme kuralı belgede yok, bu özetin kararı.",
 "Belge 03, 7. sıra: bazalt anlaşmaları Hindistan ve Brezilya'da; 'önce bu girişimlere kırma tesisi satmak' deniyor ama girişimlerin kırma tesisi aldığına dair kaynak yok. Önceki taslağın doğrulanmamış web notu tersini söylüyor: Alt Carbon ocak atığı tozu kullanıyor.",
 "Belge 03, 5. sıra ve Önermediklerimiz: mobil parçalayıcı yeni ürün olarak öneriliyor, plastik kırıcı ise 'mobil olması anlamsız' diye eleniyor. Mobil parçalayıcının malzeme listesi lastik, ahşap, hacimli atık, hafif hurda; plastik yok. Ayrımın gerekçesi tek cümle ve kaynaksız.",
-"Belge 03, Önermediklerimiz: türbin ve kanat ile kule gövdesi eleniyor; aynı belge RES temel paketini 4. sıraya koyuyor. Üçü aynı rüzgar konusunun parçası. Kanat ve gövde bu yaprakta, RES temeli başka yaprakta; okuyucu bağı görmeyebilir.",
+"Belge 03, Önermediklerimiz: türbin ve kanat ile kule gövdesi eleniyor; aynı belge RES temel paketini 4. sıraya koyuyor. Üçü aynı rüzgar konusunun parçası. Kanat ve gövde bu fırsatta, RES temeli başka fırsatta; okuyucu bağı görmeyebilir.",
 "Belge 03, Yakın takvim: Antalya Uzay Kongresi 5 ile 9 Ekim; bugün 15 Ekim 2026. Fırsat geçti, dosyalarda katılım kaydı yok.",
 "Önceki taslağın inceleme_sonuc.json atıflı dört maddesi doğrulanamadı ve silindi: belge 10'un 10 ton sınırını anmaması, belge 09 ve 10'daki Li-Cycle ve SSB Batarya OTAĞ örnekleri, indeks konu listesindeki plastik ibaresi, eleştirmenin yerleşim önerileri. İnceleme dosyası klasörde yok; belge 02, 09 ve 10 bu tura verilmedi."
 ],
@@ -17826,7 +17826,7 @@ window.MEKA_DATA = {
 "Bazalt cevabına UNDO sayacının diğer değerleri (61.310 akre, 444 çiftlik, 78.835 ton CO2), Senken alıcı tonajları ve yüzde 0,8 pazar payı, Sheffield 4 ile 5 ton kaya/ton CO2 oranı eklendi",
 "Ek rakamlar listesine doğrulama etiketi eklendi; 1.450 avro satırı doğrulanamadı olarak kaldı; yeni doğrulanmış rakamlar eklendi",
 "Kaynaklar listesi 25 maddeye çıkarıldı, her birine doğrulandı/doğrulanamadı etiketi eklendi",
-"Kullanıcının bayi puanlaması sorusu sinirlar alanına not edildi: bu yaprakta bayi kaydı yok, görüşme sonuçları elle girilmeli",
+"Kullanıcının bayi puanlaması sorusu sinirlar alanına not edildi: bu fırsatta bayi kaydı yok, görüşme sonuçları elle girilmeli",
 "okunan_sayfa 23, acilan_sayfa 24, arama_sayisi 0 olarak güncellendi; guven 4",
 "inceleme_sonuc.json klasörün hiçbir yerinde bulunamadı; kaynaklar listesinden çıkarıldı, kapsam notuna ve duruma yazıldı.",
 "Çelişkiler yeniden yazıldı: yalnız 03 ve 05'ten doğrulananlar kaldı ve bu dosyalara atfedildi. İnceleme, belge 02, 09, 10 ve indeks atıflı maddeler silindi; silinenler tek maddede listelendi.",
@@ -18003,7 +18003,7 @@ window.MEKA_DATA = {
 "ad": "Çevre Bakanlığı",
 "rol": "kurum",
 "not": "Lisanslı pil tesisi listesi buradan alınacak; Türkiye'de toplanan pil yılda yaklaşık 500 ton.",
-"kaynak": "yaprak adımları, 3. adım"
+"kaynak": "fırsat adımları, 3. adım"
 },
 {
 "ad": "Microsoft",
@@ -18354,7 +18354,7 @@ window.MEKA_DATA = {
 },
 {
 "dosya": "inceleme_sonuc.json",
-"bolum": "Taslakta anılan bölümler bu kontrolde doğrulanamadı; dosya verilmedi. Taslağın atfı: 03 konuları Beylikova; 03 zayıf yanlar; çelişki Beylikova 03'te gerekçe 10'da doğrulanmamış; ağaç önerisi A3 ile B4",
+"bolum": "Taslakta anılan bölümler bu kontrolde doğrulanamadı; dosya verilmedi. Taslağın atfı: 03 konuları Beylikova; 03 zayıf yanlar; çelişki Beylikova 03'te gerekçe 10'da doğrulanmamış; harita önerisi A3 ile B4",
 "tarih": "5 Ekim 2026"
 }
 ],
@@ -18381,7 +18381,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ikinci tur: 8 açık sorunun 1'i cevaplandı, 6'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Bu tur yalnız doğrulama turuydu; yeni web araması yapılmadı, cevaplarda zaten gösterilen 27 sayfadan 16'sı açıldı. Açılmayanlar: Habertürk, Ekofull, Net26, Milliyet 3 Mayıs, Millî İrade 1 Mayıs, Yeni Akit, eskisehir.net, Kısa Dalga, Advantis, Bigpara, Bianet; bunlara dayanan bilgiler doğrulanamadı diye işaretlendi. instituDE ve erkansaka.net sayfalarının ikinci yarıları yalnız özet olarak okundu; Çin'de kg başına 11 dolar, maliyetin üçte ikisi ve 2027 mühendislik ifadeleri bu zayıf kısımdan. Resmî Gazete'de yalnız fihrist açıldı, karar PDF'i açılmadı; taşınmaz sayısı ve mahalleler Evrensel'den. Eti Maden sitesi, EKAP ve e-ÇED yine açılmadı; mühendislik firması, EPC ve ekipman ihalesi için hiçbir web kaynağı yok. 'Temel atma yapılmadı' yargısı haber yokluğuna dayanıyor. Dava bilgisi tek bir Bakan açıklamasıyla sınırlı; mahkeme, tarih ve karar doğrulanamadı. Tenör rakamları resmi değil ve kaynaklar çelişiyor. Kullanıcının bayi sorusu: bayi görüşmeleri web'den doğrulanamaz; sonuçlar manuel girilmeli (tarih, kişi, söylenen, belge); girilmeden puana ve banda girmez. Yapraklar arası puan karşılaştırması bu yaprakta yapılmaz, tüm yapraklar toplandığında karar sahibi yapar.",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 8 açık sorunun 1'i cevaplandı, 6'i kısmen, 0'i kapandı, 1'i görüşme gerektiriyor. Sınırlar: Bu tur yalnız doğrulama turuydu; yeni web araması yapılmadı, cevaplarda zaten gösterilen 27 sayfadan 16'sı açıldı. Açılmayanlar: Habertürk, Ekofull, Net26, Milliyet 3 Mayıs, Millî İrade 1 Mayıs, Yeni Akit, eskisehir.net, Kısa Dalga, Advantis, Bigpara, Bianet; bunlara dayanan bilgiler doğrulanamadı diye işaretlendi. instituDE ve erkansaka.net sayfalarının ikinci yarıları yalnız özet olarak okundu; Çin'de kg başına 11 dolar, maliyetin üçte ikisi ve 2027 mühendislik ifadeleri bu zayıf kısımdan. Resmî Gazete'de yalnız fihrist açıldı, karar PDF'i açılmadı; taşınmaz sayısı ve mahalleler Evrensel'den. Eti Maden sitesi, EKAP ve e-ÇED yine açılmadı; mühendislik firması, EPC ve ekipman ihalesi için hiçbir web kaynağı yok. 'Temel atma yapılmadı' yargısı haber yokluğuna dayanıyor. Dava bilgisi tek bir Bakan açıklamasıyla sınırlı; mahkeme, tarih ve karar doğrulanamadı. Tenör rakamları resmi değil ve kaynaklar çelişiyor. Kullanıcının bayi sorusu: bayi görüşmeleri web'den doğrulanamaz; sonuçlar manuel girilmeli (tarih, kişi, söylenen, belge); girilmeden puana ve banda girmez. Fırsatlar arası puan karşılaştırması bu fırsatta yapılmaz, tüm fırsatlar toplandığında karar sahibi yapar.",
 "kanit": 3,
 "web": [
 {
@@ -18938,7 +18938,7 @@ window.MEKA_DATA = {
 "puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi ikincil: Talep ve fiyat artık kaynaklı: 2026'da iki belediye konkasör aldı (14,6 ve 23,3 milyon TL), iki il özel idaresi 69 ile 93 milyon TL'lik tesis aldı, rakip sayısı 2 ile 7 arasında. MEKA'nın ürünü hazır, bilet 5 ile 12,5 milyon TL, geri ödeme 2 yılın altında. Ancak yıl 5 brüt kârı 17,5 ile 33,6 milyon TL (0,35 ile 0,68 milyon dolar) ile MEKA ölçeğinde küçük kalıyor; belediye alımı yılda 1 ile 2 adet görünüyor ve ihale sonuçları tek bir üçüncü taraf siteden alındı. Bu yüzden ikincil bant korunmalı; EKAP tam sayımı yılda 6 ve üstü kamu alımı gösterirse ve il özel idareleri kanalı doğrulanırsa öne çıkan banda alınmalı. Önceki çalışmanın kendi puanı: İkinci tur (16 Ekim 2026): Doğrulanan kanıt talebin gerçek olduğunu gösteriyor: Giresun 2026'da iki kez konkasör ihalesine çıktı ve yerli malına yüzde 15 avantaj MEKA lehine; Samsun bir konkasör tesisine trafo ihalesi yaptı; Bornova 36 mily…",
 "tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 24 Eylül 2026",
 "ne": "Belediyelerin, belediye şirketlerinin ve il özel idarelerinin kendi kırma eleme tesisleri için MEKA ürünü satmak: kanca yüklemeli MCC 70 (en çok 110 ton/saat), lastik tekerlekli MP 90 (200 ton/saat) ve MP 110C (340 ton/saat); üçünde de üstbant mıknatıs var ve Ankara fabrikasındaki mevcut sac, lazer, kaynak ve hidrolik hatlarıyla üretiliyor (firma beyanı). Satış yolu EKAP mal alımı ihaleleri (yerli malına yüzde 15 avantaj), belediye adına saha işleten özel firmalar ve il özel idareleri. Bilet MEKA şirketinin harcamasıdır; getiri makine satışından brüt kârdır.",
-"neden": "Talep artık rakamla görülüyor. EKAP sonuç ilanlarına göre 2026'da iki belediye konkasör aldı: Safranbolu 14,6 milyon TL (6 Mayıs 2026, 7 istekli) ve Giresun 23,3 milyon TL (13 Ekim 2026, 2 istekli); il özel idareleri daha büyük paketler aldı: Siirt 69,4 milyon TL (2024) ve Niğde 93 milyon TL (2025), ikisini de Fabo kazandı. Alıcının ekonomisi güçlü: Kocaeli Büyükşehir kendi tesisiyle 6 ayda 97.048 ton mıcır üretip 17,5 milyon TL tasarruf açıkladı, tona yaklaşık 180 TL; Eskişehir 4 ayda 24 ile 25 milyon TL. Rekabet dar: Giresun'da 2, Siirt'te 2, Niğde'de 3 istekli. MEKA'nın ürünü hazır, bilet küçük, geri ödeme 2 yılın altında; ama yıl 5 brüt kârı 0,35 ile 0,68 milyon dolar bandında kaldığı için ana kol değil, düşük maliyetli yan kol.",
+"neden": "Talep artık rakamla görülüyor. EKAP sonuç ilanlarına göre 2026'da iki belediye konkasör aldı: Safranbolu 14,6 milyon TL (6 Mayıs 2026, 7 istekli) ve Giresun 23,3 milyon TL (13 Ekim 2026, 2 istekli); il özel idareleri daha büyük paketler aldı: Siirt 69,4 milyon TL (2024) ve Niğde 93 milyon TL (2025), ikisini de Fabo kazandı. Alıcının ekonomisi güçlü: Kocaeli Büyükşehir kendi tesisiyle 6 ayda 97.048 ton mıcır üretip 17,5 milyon TL tasarruf açıkladı, tona yaklaşık 180 TL; Eskişehir 4 ayda 24 ile 25 milyon TL. Rekabet dar: Giresun'da 2, Siirt'te 2, Niğde'de 3 istekli. MEKA'nın ürünü hazır, bilet küçük, geri ödeme 2 yılın altında; ama yıl 5 brüt kârı 0,35 ile 0,68 milyon dolar bandında kaldığı için ana grup değil, düşük maliyetli yan grup.",
 "rakamlar": [
 {
 "deger": "23.296.000 TL",
@@ -19440,7 +19440,7 @@ window.MEKA_DATA = {
 "İSTAÇ sitesinde geri kazanım tesisleri sayfası yalnız ATY ve kompost tesisi gösteriyor; önceki turun 'inşaat ve yıkıntı atıklarının işlendiği' ifadesi hafriyat sayfasına dayanıyor; 2024 raporunda da tesis ve kapasite yok.",
 "Kocaeli tesisi 400 ton/saat ve taş ocağı besliyor; Eskişehir tesisi yıkıntı atığı işliyor; iki tasarruf rakamı farklı işleri anlatıyor, tona 180 TL tasarruf çıkarımı yalnız Kocaeli'ye ait.",
 "03 sıralaması 0 ile 6 ay diyordu; Giresun örneğinde ilan ile sonuç arası 53 gün, teslim 60 gün; ilk ihaleyi bulma süresiyle ilk gelir 6 ile 12 ay, GPT kartının 12 ile 24 ay'ına yakın.",
-"Önceki çalışma yaprağı 'hızlı ve orta büyüklükte' saymıştı; bu araştırmada doğrudan ekipman ihalesi sayısı çok düşük çıktı, hız iddiası zayıfladı",
+"Önceki çalışma fırsatı 'hızlı ve orta büyüklükte' saymıştı; bu araştırmada doğrudan ekipman ihalesi sayısı çok düşük çıktı, hız iddiası zayıfladı",
 "Eskişehir tesisi kendisini kamuya ait ilk lisanslı tesis diye sunuyor; İzmir listesinde Aliağa Belediyesi Petrol A.Ş. de belediye şirketi olarak tesis işletiyor, hangisinin önce lisans aldığı belli değil",
 "Bursa Burkent 800 ton/gün rakamı için haber tarihi doğrulanamadı; sayfa tarihi 6 Ağustos 2026 görünüyor ama tarama tarihi olabilir",
 "İlk metin '7 büyükşehir inceledi' demişti; kaynak 6 büyükşehir ve Bilecik Belediyesi'ne bilgi verildiğini söylüyor, inceleme değil bilgi aktarımı",
@@ -19499,7 +19499,7 @@ window.MEKA_DATA = {
 "Risklere Eskişehir rakamlarının belediye beyanı olduğu eklendi; açık sorulara yönetmelik ekleri ve Giresun mevcut ekipman markası eklendi",
 "Çelişkilere dört yeni madde eklendi (7 vs 6+1 belediye, Giresun ilan niteliği, MEKA model adı, yönetmelik tarihi)",
 "Kanıt puanı 3'te bırakıldı: mevzuat ve belediye listeleri resmi kaynakla doğrulandı ama ekonomik rakamlar tek belediye açıklamasına dayanıyor; kapı değerleri gerekçeyle tutarlı bulundu, değiştirilmedi",
-"İnceleme dosyası kaynak listesinde yok ve klasörde bulunamadı; inceleme atıflı rakam, kaynak, çelişki ve ağaç yerleşimi notu çıkarıldı. Kanıt puanı 2 / 5 artık incelemeye değil bu turdaki değerlendirmeye dayanıyor.",
+"İnceleme dosyası kaynak listesinde yok ve klasörde bulunamadı; inceleme atıflı rakam, kaynak, çelişki ve harita yerleşimi notu çıkarıldı. Kanıt puanı 2 / 5 artık incelemeye değil bu turdaki değerlendirmeye dayanıyor.",
 "Yeni Şafak haberi ve %40, 2035 geri kazanım düzenlemesi çıkarıldı; hiçbir çalışmada geçmiyor ve web araması yapılmadı. Buna bağlı açık soru ve takvim satırı da silindi.",
 "Giresun ihalesinin 21 Ağustos 2026 ilan tarihi, 22 Eylül 2026 saat 10:30 yeterlik tarihi ve yalnızca yerli istekli şartı 03'te yok; web ilanından geliyor. Rakamlar listesinden çıkarıldı, takvim ve web listesinde doğrulanmamış diye işaretlendi.",
 "Kepez haberinin 6 Aralık 2024 tarihi 03'te yok; doğrulanmamış diye işaretlendi.",
@@ -19757,7 +19757,7 @@ window.MEKA_DATA = {
 "ad": "Ankara Büyükşehir Belediyesi",
 "rol": "kurum",
 "not": "Keçiören hafriyat sahası sorusu için Çevre Koruma ve Kontrol Dairesi'ne sorulacak; web'de kayıt yok.",
-"kaynak": "yaprak adımları, 6. adım"
+"kaynak": "fırsat adımları, 6. adım"
 },
 {
 "ad": "İBB",
@@ -19881,8 +19881,8 @@ window.MEKA_DATA = {
 "bant": "ikincil",
 "puan_metni": "Derin çalışma (20 Ekim 2026), bant önerisi ikincil: Talep kaynaklı ve büyük (KAP 1,23 milyar avro, Çelik Kubbe 6,5 milyar dolar, NATO KARA ATMACA taahhüdü) ve MEKA uyumu güçlü: konteyner tipi santral hattı, ağır sac ve hidrolik doğrudan kullanılır. Ama bilet 0,5 ile 1,3 milyon dolara karşılık yıl 5 brüt kârı 0,3 ile 2,2 milyon dolar, baz geri ödeme 36 ile 40 ay; Somali üssünün yüklenicisi 10 aydır bilinmiyor; TGB ve ÜİB 12 ile 20 ay; birim fiyatlar tahmin. Öne çıkan için alıcı ve fiyat teyidi gerek; izleye düşürmek için talebin kaybolması gerek, o da yok. İkincil kalır; 12. ay kapısı (Ekim 2027) yukarı ya da aşağı taşır. Önceki çalışmanın kendi puanı: Savunma raporu, 5 üzerinden, baz senaryo. Fırlatma üssü altyapısı 3,70 ve ikincil sınıf; rapor 7.1 metnine göre 24 niş içinde 6. sıra. Konteyner tipi lançer gövdesi 3,40 ve ikincil sınıfın alt sınırı, 9. sıra. Lançer üst yapısı 3,10 ve fırs…",
 "tarih": "20 Ekim 2026 (derin çalışma); önceki çalışma 22 Eylül 2026",
-"ne": "Bu yaprakta üç iş var ve üçü de MEKA'nın Ankara'daki dört fabrikası ile Eskişehir tesisindeki ağır sac, lazer ve plazma kesim, kaynak ve hidrolik montaj hatlarıyla yapılır. Birincisi fırlatma üssüne satış: Somali Warsheikh'teki Türk uzay limanına ve Roketsan'ın Mikro Uydu Fırlatma Sistemi üssüne MEKA'nın mevcut mobil beton santrali ile ağır çelik hizmet yapıları. İkincisi konteyner tipi lançer gövdesi ve batarya kabinleri: KARA ATMACA konteyner lançerinin çelik gövdesi, hidrolik ayakları ve komuta, bakım, mühimmat kabinleri; MEKA'nın konteyner tipi beton santrali hattıyla doğrudan benzeşir. Üçüncüsü lançer aracı üst yapısı: HİSAR, SİPER, TAYFUN ve ÇNRA fırlatma ve taşıma-yükleme araçlarının erektör çerçevesi, pod rafı, hidrolik denge ayağı kutusu ve kanister kızağı; her araçta 5 ile 15 ton kaynaklı çelik. Alıcılar Roketsan, ASELSAN, Koluman, BMC ve üs yüklenicisidir; MEKA ya kendi ürününü doğrudan satar ya da ikinci kademe alt yüklenici olur.",
-"neden": "Talep kaynaklı ve büyük: Çelik Kubbe genişletmesi 6,5 milyar dolar (26 Kasım 2025), tek teslimatta 47 sistem 460 milyon dolar (27 Ağustos 2025), ASELSAN ile Roketsan arasında 1,23 milyar avroluk hava savunma alt bileşen sözleşmesi (23 Eylül 2026, KAP). SİPER ve HİSAR seri üretimi 2025 ile 2029 arasında yüzlerce araç üst yapısı demek. NATO 7 Temmuz 2026'da Türkiye'nin önemli sayıda KARA ATMACA alacağını duyurdu. Fırlatma üssü işi yeni ürün istemez: Somali üssünde inşaat Ekim 2025'ten beri sürüyor, bütçe 350 milyon dolar yazılıyor. MEKA'nın 2025 brüt kâr marjı yüzde 21,5 ve faaliyet zararı 40 milyon TL; savunma alt yükleniciliği döviz bazlı, uzun vadeli bir ikinci gelir kolu açabilir. Bilet 0,5 ile 1,3 milyon dolar ile MEKA ölçeğinde kalıyor.",
+"ne": "Bu fırsatta üç iş var ve üçü de MEKA'nın Ankara'daki dört fabrikası ile Eskişehir tesisindeki ağır sac, lazer ve plazma kesim, kaynak ve hidrolik montaj hatlarıyla yapılır. Birincisi fırlatma üssüne satış: Somali Warsheikh'teki Türk uzay limanına ve Roketsan'ın Mikro Uydu Fırlatma Sistemi üssüne MEKA'nın mevcut mobil beton santrali ile ağır çelik hizmet yapıları. İkincisi konteyner tipi lançer gövdesi ve batarya kabinleri: KARA ATMACA konteyner lançerinin çelik gövdesi, hidrolik ayakları ve komuta, bakım, mühimmat kabinleri; MEKA'nın konteyner tipi beton santrali hattıyla doğrudan benzeşir. Üçüncüsü lançer aracı üst yapısı: HİSAR, SİPER, TAYFUN ve ÇNRA fırlatma ve taşıma-yükleme araçlarının erektör çerçevesi, pod rafı, hidrolik denge ayağı kutusu ve kanister kızağı; her araçta 5 ile 15 ton kaynaklı çelik. Alıcılar Roketsan, ASELSAN, Koluman, BMC ve üs yüklenicisidir; MEKA ya kendi ürününü doğrudan satar ya da ikinci kademe alt yüklenici olur.",
+"neden": "Talep kaynaklı ve büyük: Çelik Kubbe genişletmesi 6,5 milyar dolar (26 Kasım 2025), tek teslimatta 47 sistem 460 milyon dolar (27 Ağustos 2025), ASELSAN ile Roketsan arasında 1,23 milyar avroluk hava savunma alt bileşen sözleşmesi (23 Eylül 2026, KAP). SİPER ve HİSAR seri üretimi 2025 ile 2029 arasında yüzlerce araç üst yapısı demek. NATO 7 Temmuz 2026'da Türkiye'nin önemli sayıda KARA ATMACA alacağını duyurdu. Fırlatma üssü işi yeni ürün istemez: Somali üssünde inşaat Ekim 2025'ten beri sürüyor, bütçe 350 milyon dolar yazılıyor. MEKA'nın 2025 brüt kâr marjı yüzde 21,5 ve faaliyet zararı 40 milyon TL; savunma alt yükleniciliği döviz bazlı, uzun vadeli bir ikinci gelir grubu açabilir. Bilet 0,5 ile 1,3 milyon dolar ile MEKA ölçeğinde kalıyor.",
 "rakamlar": [
 {
 "deger": "1.234.210.000 avro",
@@ -19946,7 +19946,7 @@ window.MEKA_DATA = {
 },
 {
 "deger": "400 ile 800 bin avro",
-"aciklama": "Beş savunma kolunun ortak 36 aylık belge, test ve altyapı bütçesi; bu yaprağın payı beşte bir, 80 ile 160 bin avro; desteklerle yarıya iner",
+"aciklama": "Beş savunma grubunun ortak 36 aylık belge, test ve altyapı bütçesi; bu fırsatın payı beşte bir, 80 ile 160 bin avro; desteklerle yarıya iner",
 "kaynak": "01 rapor Tablo 9.2 (tahmin)"
 },
 {
@@ -19979,7 +19979,7 @@ window.MEKA_DATA = {
 "ne_zaman": "Aralık 2026'ya kadar kayıt; Mart 2027'ye kadar ilk teklif"
 },
 {
-"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak; EYDEP başvurusu; ortak bütçenin beşte bir payı bu yaprağa yazılır.",
+"adim": "ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak; EYDEP başvurusu; ortak bütçenin beşte bir payı bu fırsata yazılır.",
 "kim": "Kalite ve belgelendirme ekibi",
 "ne_zaman": "Başlangıç Kasım 2026; belgeler Haziran 2027"
 },
@@ -19989,7 +19989,7 @@ window.MEKA_DATA = {
 "ne_zaman": "Prototip Nisan 2027; test Haziran 2027; fuar 3 ile 9 Mayıs 2027 (prototip erken biterse)"
 },
 {
-"adim": "12. ay kapısı: üs satışı gerçekleşti mi, ana yüklenicilerden en az bir numune siparişi var mı; evetse Tesis Güvenlik Belgesi ve Üretim İzin Belgesi sürecine girmek, hayırsa yaprağı yalnız üs altyapısı satışıyla sınırlamak.",
+"adim": "12. ay kapısı: üs satışı gerçekleşti mi, ana yüklenicilerden en az bir numune siparişi var mı; evetse Tesis Güvenlik Belgesi ve Üretim İzin Belgesi sürecine girmek, hayırsa fırsatı yalnız üs altyapısı satışıyla sınırlamak.",
 "kim": "Yönetim kurulu",
 "ne_zaman": "Ekim 2027; teklif kararı Nisan 2028"
 }
@@ -20005,7 +20005,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Bilet, girişin ilk 24 ayındaki MEKA harcaması: 420 ile 1.130 bin avro, yani 0,47 ile 1,27 milyon dolar; baz 750 bin avro (0,84 milyon dolar). Kalemler: beş kolun ortak belge ve test bütçesinin beşte biri 80 ile 160 bin avro (destek öncesi); konteyner lançer gövdesi prototipi 80 ile 150 bin avro (tahmin); kanister kızağı ve denge ayağı prototip seti 60 ile 120 bin avro (tahmin); yaprağa özgü ek MIL-STD-810 ve hidrolik test 20 ile 40 bin avro (tahmin); savunma iş birimi 2 ile 4 kişi 24 ay 150 ile 300 bin avro (tahmin); teklif, seyahat, IDEF 2027 30 ile 60 bin avro (tahmin); koşullu 25 tonluk iki köprü vinç 0 ile 300 bin avro (tahmin, tesis verisi gelince kesinleşir). İlk 12 ay harcaması 270 ile 530 bin avro (0,30 ile 0,59 milyon dolar): ortak kalemin yarısı, iki prototip, personelin ilk yılı, seyahatin yarısı. Vinç yatırımı yapılırsa üst sınır 1 milyon doları geçer ve 3. dilime yaklaşır; vinçsiz 2. dilimde kalır.",
+"butce_not": "Bilet, girişin ilk 24 ayındaki MEKA harcaması: 420 ile 1.130 bin avro, yani 0,47 ile 1,27 milyon dolar; baz 750 bin avro (0,84 milyon dolar). Kalemler: beş grubun ortak belge ve test bütçesinin beşte biri 80 ile 160 bin avro (destek öncesi); konteyner lançer gövdesi prototipi 80 ile 150 bin avro (tahmin); kanister kızağı ve denge ayağı prototip seti 60 ile 120 bin avro (tahmin); fırsata özgü ek MIL-STD-810 ve hidrolik test 20 ile 40 bin avro (tahmin); savunma iş birimi 2 ile 4 kişi 24 ay 150 ile 300 bin avro (tahmin); teklif, seyahat, IDEF 2027 30 ile 60 bin avro (tahmin); koşullu 25 tonluk iki köprü vinç 0 ile 300 bin avro (tahmin, tesis verisi gelince kesinleşir). İlk 12 ay harcaması 270 ile 530 bin avro (0,30 ile 0,59 milyon dolar): ortak kalemin yarısı, iki prototip, personelin ilk yılı, seyahatin yarısı. Vinç yatırımı yapılırsa üst sınır 1 milyon doları geçer ve 3. dilime yaklaşır; vinçsiz 2. dilimde kalır.",
 "yol": "ikisi",
 "yol_not": "Fırlatma üssünde MEKA kendi beton santralini ve çelik hizmet yapısını doğrudan satar (kur). Konteyner lançer gövdesi ve araç üst yapısında Roketsan, ASELSAN, Koluman ve BMC'ye ikinci kademe alt yüklenici olur (ortak). Yurt dışı lançer programlarına giriş ancak Polonyalı ya da Alman bir ortak üzerinden; bu turda açık çağrı bulunmadı."
 },
@@ -20191,7 +20191,7 @@ window.MEKA_DATA = {
 },
 {
 "dosya": "inceleme",
-"bolum": "01 kartı konular: Fırlatma üssü altyapısı, Konteyner tipi lançer gövdesi, Lançer üst yapısı satırları; okuyucu notları ve tutarsızlık ve eskiyenler; G1 ağaç önerileri, savunmada ikincil ve elenen nişler",
+"bolum": "01 kartı konular: Fırlatma üssü altyapısı, Konteyner tipi lançer gövdesi, Lançer üst yapısı satırları; okuyucu notları ve tutarsızlık ve eskiyenler; G1 harita önerileri, savunmada ikincil ve elenen nişler",
 "tarih": "5 Ekim 2026"
 }
 ],
@@ -20233,7 +20233,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "tam",
-"kapsam_notu": "20 Ekim 2026 derin çalışma: 12 arama, 32 sayfa; 4 açık sorunun 0'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. WebFetch DNS hatası verdi; sayfalar curl ile indirilip metne çevrilerek okundu. Reuters, Euronews, Satnews, Executivebiz, Kongsberg, Roketsan, MSB ve SSB sayfaları açılamadı; bu kaynaklara dayanan rakamlar ikincil aktarım ya da tek kaynak. Yaprağa özgü birim fiyatlar (beton santrali, çelik yapı ton fiyatı, konteyner gövdesi, üst yapı seti) web'de bulunamadı ve tahmin olarak işaretlendi; adetler program ritminden türetildi. KARA ATMACA adedi ve konteyner lançer teslimatı doğrulanamadı. Somali üssünün yüklenicisi, SİPER ve ÇNRA üst yapı üreticisi bulunamadı. MEKA'nın vinç kapasitesi ve eski rampa işi yalnız şirket içinden doğrulanabilir. Kanıt puanı 3: emsal sözleşmeler resmi ve borsa kaynaklı, ama ekonomi modelinin çekirdek birim fiyatları tahmindir ve alıcı belirsiz. Çürütme 20 Ekim 2026: 14 kaynak sayfası açıldı (KAP 1666885, KAP 1652844 ve TSRS PDF'i, Wikipedia Steel Dome, AFCEA, Army Recognition, Defence24, Benguturk, Habertürk, NTU, Jerusalem Post, Janes, Sözcü, Borsa Gündem, defence-industries.com); hepsi HTTP 200 döndü. InsideDefense, Notes from Poland, Lockheed Martin, Hidrokon, Yol Bak, TRT World, Horn Review, GZT, Shiftdelete, Defense Post, GBP, Defence Turkey, DonanımHaber ve SAHA sayfaları çürütmede açılmadı; bunlara dayanan satırlar araştırmacının okumasına dayanır.",
+"kapsam_notu": "20 Ekim 2026 derin çalışma: 12 arama, 32 sayfa; 4 açık sorunun 0'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 14 sayfa açtı, güven 4/5. WebFetch DNS hatası verdi; sayfalar curl ile indirilip metne çevrilerek okundu. Reuters, Euronews, Satnews, Executivebiz, Kongsberg, Roketsan, MSB ve SSB sayfaları açılamadı; bu kaynaklara dayanan rakamlar ikincil aktarım ya da tek kaynak. Fırsata özgü birim fiyatlar (beton santrali, çelik yapı ton fiyatı, konteyner gövdesi, üst yapı seti) web'de bulunamadı ve tahmin olarak işaretlendi; adetler program ritminden türetildi. KARA ATMACA adedi ve konteyner lançer teslimatı doğrulanamadı. Somali üssünün yüklenicisi, SİPER ve ÇNRA üst yapı üreticisi bulunamadı. MEKA'nın vinç kapasitesi ve eski rampa işi yalnız şirket içinden doğrulanabilir. Kanıt puanı 3: emsal sözleşmeler resmi ve borsa kaynaklı, ama ekonomi modelinin çekirdek birim fiyatları tahmindir ve alıcı belirsiz. Çürütme 20 Ekim 2026: 14 kaynak sayfası açıldı (KAP 1666885, KAP 1652844 ve TSRS PDF'i, Wikipedia Steel Dome, AFCEA, Army Recognition, Defence24, Benguturk, Habertürk, NTU, Jerusalem Post, Janes, Sözcü, Borsa Gündem, defence-industries.com); hepsi HTTP 200 döndü. InsideDefense, Notes from Poland, Lockheed Martin, Hidrokon, Yol Bak, TRT World, Horn Review, GZT, Shiftdelete, Defense Post, GBP, Defence Turkey, DonanımHaber ve SAHA sayfaları çürütmede açılmadı; bunlara dayanan satırlar araştırmacının okumasına dayanır.",
 "kanit": 3,
 "web": [
 {
@@ -20438,17 +20438,17 @@ window.MEKA_DATA = {
 }
 ],
 "celiskiler": [
-"Somali üssü inşaat başlangıcı: Le Monde (Jerusalem Post ve AllAfrica aktarımı) Ekim 2025 ortası diyor; Bakan Kacır ve önceki yaprak 30 Aralık 2025 açıklamasıyla birinci faz başladı diyor; Jerusalem Post resmi duyuruyu Aralık 2025 yazıyor. NTU inşaatın Aralık'ta başladığını yazıyor ama yıl vermiyor; metin 2025 içinde yazıldığından Aralık 2024 anlaşılıyor. Fiilî başlangıç Ekim 2025 olabilir, resmi duyuru Aralık 2025.",
+"Somali üssü inşaat başlangıcı: Le Monde (Jerusalem Post ve AllAfrica aktarımı) Ekim 2025 ortası diyor; Bakan Kacır ve önceki fırsat 30 Aralık 2025 açıklamasıyla birinci faz başladı diyor; Jerusalem Post resmi duyuruyu Aralık 2025 yazıyor. NTU inşaatın Aralık'ta başladığını yazıyor ama yıl vermiyor; metin 2025 içinde yazıldığından Aralık 2024 anlaşılıyor. Fiilî başlangıç Ekim 2025 olabilir, resmi duyuru Aralık 2025.",
 "Üs maliyeti: NTU 350 milyon dolar yazıyor, tek kaynak; önceki rapor maliyetin kaynaklar arasında çelişkili olduğunu yazmıştı. Rakam modelde kullanılmadı, yalnız ölçek için anıldı.",
 "KARA ATMACA ilk teslimatı: rapor Nisan 2026 diyor (Savunma Hattı, sayfa bu turda 404); Janes 7 Temmuz 2026 NATO duyurusunu tedarik taahhüdü olarak okuyor, teslimat tarihi doğrulanamadı. Savunma Bakanı Güler Nisan 2026'da teslimatlar arasında ATMACA saydı (Janes).",
 "Koluman'ın rolü: önceki listede 2019 beyanı yazıyordu; Habertürk sayfası 6 Ocak 2019 tarihli, önceki tarih doğru. Koluman platformu ve üst yapı prototipini yaptığını, üst kısmın ASELSAN ve Roketsan kapsamında olduğunu söylüyor; atış kontrol merkezi aracı ve üst yapısı da Koluman'da. Raporun 5.2 ile 8.6 arasındaki araç ve üst yapı ayrımı böylece netleşiyor: araç ve kaba üst yapı Koluman, lançer mekaniği ana yüklenici.",
 "Çelik Kubbe ilk teslimatı: Wikipedia 47 sistem yazıyor, araç değil; Erdoğan'ın saydığı 10 SİPER ve 21 HİSAR aracı 31 eder, kalanı PUHU, REDET ve radarlar. Araç başına fiyat bu yüzden sistem başına diye okunmalı.",
 "Önceki butce_not yalnız lançer kalemleri sayılırsa 1. dilime düşebilir diyordu; bu turun modeli personel, iki prototip ve ortak payla 2. dilimi veriyor; vinç yatırımı eklenirse 3. dilime yaklaşır.",
-"Önceki yaprak kanıt puanını 4 vermişti; bu tur 3 veriyor çünkü yaprağa özgü birim fiyatların hiçbiri kaynaklı değil ve Somali yüklenicisi hâlâ yok; emsal sözleşmeler ise resmi ve borsa kaynaklı.",
+"Önceki fırsat kanıt puanını 4 vermişti; bu tur 3 veriyor çünkü fırsata özgü birim fiyatların hiçbiri kaynaklı değil ve Somali yüklenicisi hâlâ yok; emsal sözleşmeler ise resmi ve borsa kaynaklı.",
 "Kongsberg 2,7 milyar NOK ve Diehl 1,5 milyar avro rakamları bu turda doğrulanamadı; sayfalar açılamadı. Önceki listede duruyor, yeni kaynak yok.",
-"İnceleme, 5 Ekim 2026: fırlatma üssü altyapısı ile konteyner ve şelter gövdesi kartta aynı puanda, 3,70; biri dört kolda, diğeri değil ve kartta gerekçe yok. Raporun 7.1 bölümü cevabı veriyor: fırlatma üssü bir niş değil, mevcut ürünle yakalanacak zamana bağlı proje fırsatı.",
-"İnceleme: kart fırlatma üssü için alıcı yazmıyor, ağaçtaki devlet etiketi varsayım sayılmış. Rapor Tablo 7.1 alıcıyı Türkiye Uzay Ajansı, Somali üs yüklenicisi ve Roketsan olarak veriyor; devlet etiketi raporla uyumlu ama üs yüklenicisi henüz bilinmiyor.",
-"Kart ve rapor Tablo 9.1 lançer gövdesini 18-36 ay opsiyon sayıyor; aynı tablo fırlatma üssü satışını 0-12 ay hızlı kazanım sayıyor. Bu yaprağın iki parçası farklı ufukta; tek bant altında toplanması yönetimi yanıltabilir.",
+"İnceleme, 5 Ekim 2026: fırlatma üssü altyapısı ile konteyner ve şelter gövdesi kartta aynı puanda, 3,70; biri dört grupta, diğeri değil ve kartta gerekçe yok. Raporun 7.1 bölümü cevabı veriyor: fırlatma üssü bir niş değil, mevcut ürünle yakalanacak zamana bağlı proje fırsatı.",
+"İnceleme: kart fırlatma üssü için alıcı yazmıyor, haritadaki devlet etiketi varsayım sayılmış. Rapor Tablo 7.1 alıcıyı Türkiye Uzay Ajansı, Somali üs yüklenicisi ve Roketsan olarak veriyor; devlet etiketi raporla uyumlu ama üs yüklenicisi henüz bilinmiyor.",
+"Kart ve rapor Tablo 9.1 lançer gövdesini 18-36 ay opsiyon sayıyor; aynı tablo fırlatma üssü satışını 0-12 ay hızlı kazanım sayıyor. Bu fırsatın iki parçası farklı ufukta; tek bant altında toplanması yönetimi yanıltabilir.",
 "Rapor Tablo 10.2: Hidrokon'un Roketsan'a füze taşıma sistemi tedarik ettiği iddiası yalnız Hidrokon'un 2016 duyurusuna dayanıyor, Roketsan teyidi yok. Bölüm 8.6 aynı örneği bir Anadolu KOBİ'sinin segmente girebildiğine işaret olarak kullanıyor.",
 "Rapor 8.6 Koluman'ı HİSAR fırlatma, taşıma-yükleme ve komuta araçlarının üreticisi olarak yazıyor; aynı raporun 5.2 bölümü bu araçların üst yapısını kimin ürettiğinin açık kaynakta bulunamadığını söylüyor. Araç ile üst yapı ayrımı metinde netleştirilmemiş.",
 "İnceleme: eski füze rampası işi kartta referans olarak anılıyor ama belgesi toplanmamış; rapor da işi kamuya açık hiçbir kaynakta bulamadığını yazıyor. Referans bugün itibarıyla yalnız yönetimin hatırasına dayanıyor."
@@ -20484,7 +20484,7 @@ window.MEKA_DATA = {
 "riskler 1: ASELSAN 95-113 gün rakamının bilançodan hesaplanmış olduğu ve alt yükleniciye fiilî vade verisinin bulunmadığı eklendi.",
 "riskler 3: Avrupa lançer dalgasında ibaresi Polonya ile sınırlandı; Tablo 8.5.1 notu yalnız Polonya için konuşuyor. Yabancı ana yüklenici alt yapıları için ITAR ve 18-36 ay kalifikasyon eklendi.",
 "riskler: raporun doğrulama durumu uyarısı eklendi: 38 iddia, 13 düzeltme, yarısı tamamlanamadı.",
-"durum: raporun doğrulama uyarısı ve kartın bu nişleri dört kola almadığı eklendi.",
+"durum: raporun doğrulama uyarısı ve kartın bu nişleri dört gruba almadığı eklendi.",
 "kapilar butce_not: yatirim seçeneğinin raporda olmadığı ve yalnız lançer kalemleri sayılırsa 1. dilime düşebileceği eklendi.",
 "kapilar yol_not: kur ve ortak etiketlerinin raporun terimi olmadığı, varsayım olduğu eklendi.",
 "takvim, TAYFUN: tarih Mayıs 2026 olarak düzeltildi; rapor metni ay veriyor, gün yalnız kaynak künyesinde.",
@@ -20750,7 +20750,7 @@ window.MEKA_DATA = {
 {
 "soru": "MEKA tesislerinde tavan vinci 20-30 ton tek parça kaldırıyor mu, kanca yüksekliği 8 metreyi aşıyor mu?",
 "durum": "gorusme",
-"cevap": "Web'de veri yok. KAP 2025 TSRS raporu MEKA'nın Ankara'da dört fabrikası (MEKA 1 ile 4) ve bir Eskişehir fabrikası olduğunu yazıyor, vinç kapasitesi vermiyor. Rapor Eskişehir için 10 ton ve 7 metre sınırı yazıyordu. Bu yaprağın işleri (kanister kızağı, denge ayağı kutusu, konteyner gövdesi, 5 ile 15 ton) bu sınırın içinde kalır; yalnız tam lançer platformu ve 40 ft gövde için 20 ton üstü vinç gerekir. Ekonomi modelinde 25 tonluk iki köprü vinç 150 ile 300 bin avro koşullu kalem olarak yazıldı.",
+"cevap": "Web'de veri yok. KAP 2025 TSRS raporu MEKA'nın Ankara'da dört fabrikası (MEKA 1 ile 4) ve bir Eskişehir fabrikası olduğunu yazıyor, vinç kapasitesi vermiyor. Rapor Eskişehir için 10 ton ve 7 metre sınırı yazıyordu. Bu fırsatın işleri (kanister kızağı, denge ayağı kutusu, konteyner gövdesi, 5 ile 15 ton) bu sınırın içinde kalır; yalnız tam lançer platformu ve 40 ft gövde için 20 ton üstü vinç gerekir. Ekonomi modelinde 25 tonluk iki köprü vinç 150 ile 300 bin avro koşullu kalem olarak yazıldı.",
 "kaynak": "https://kap.org.tr/en/Bildirim/1652844 ; 01 rapor Tablo 7.4",
 "kime": "MEKA üretim müdürü, tesis veri formu Ek A"
 }
@@ -21271,13 +21271,13 @@ window.MEKA_DATA = {
 "TİM ödülü: 2023 yılının En Yenilikçi İhracatçı KOBİ'si ödülü, 2024'te verildi; önceki metin '2024 ödülü' gibi okunuyordu.",
 "Toplam yatırım: duyurulardan hesap 6,1 milyon dolar; Tracxn 5,1 milyon dolar yazıyor, doğrulanamadı.",
 "Seri A tarihi: Tracxn 10 Haziran 2025 (doğrulanamadı), şirket 27 Mayıs 2025 ilk kapanış ve 21 Temmuz 2025 uzatma.",
-"Konum: karar ağacı ODTÜ Teknokent diyor; röportaj Ar-Ge merkezini ve üretimi Bağlıca'da gösteriyor. Teknokent bağı eski haberlere dayanıyor ve bu turda doğrulanamadı.",
+"Konum: fırsat haritası ODTÜ Teknokent diyor; röportaj Ar-Ge merkezini ve üretimi Bağlıca'da gösteriyor. Teknokent bağı eski haberlere dayanıyor ve bu turda doğrulanamadı.",
 "Yatırım turu: 04 'Mayıs 2025: 4,5 M$ Seri B, lider TT Ventures' diyor, 06 '5,5 M$ Seri A, Temmuz 2025' diyor. İki belge aynı egirişim haberini kaynak gösteriyor; 06 ayrıca 'Seri A 5,5 M$'a uzadı' başlıklı Milvus blog yazısını kullanıyor. Tur adı ve tutar farkı dosyalardan çözülmüyor.",
 "Ortaklık zamanı 06 içinde çelişiyor: strateji kutusunda '2028 ve sonrası', tablo dipnotunda '2027-28 turu'.",
 "Tedarik tablosu 2030 için 1.200 robot, yatırım tablosunun orta senaryosu yılda yaklaşık 1.000 robot; orta senaryoya eklenen 0,7-1,1 M$ tedarik kârı daha yüksek adetli tedarik tablosundan geliyor.",
 "İyi senaryo kendi verisiyle gergin: 200 M$ ciro, robot başına 40 bin $ ile yaklaşık 5.000 robot eder; şirketin açıkladığı yeni fabrika kapasitesi yılda 1.700+ robot. Hesap bizim.",
 "04 Milvus için 'yurt dışına açılıyor' diyor; 06'ya göre satışın %70'inden fazlası zaten ihracat, 20'den fazla ülke.",
-"Ağaçtaki yer: Milvus'un ODTÜ Teknokent bağı yalnızca 04'ün kısa listesinden geliyor; 06 teknokent bağını hiç yazmıyor. Şirket 98 kişilik ve kendi fabrikasını kuruyor.",
+"Haritadaki yer: Milvus'un ODTÜ Teknokent bağı yalnızca 04'ün kısa listesinden geliyor; 06 teknokent bağını hiç yazmıyor. Şirket 98 kişilik ve kendi fabrikasını kuruyor.",
 "Şirket verileri 98 kişi, 450 robot, 41 lokasyon ve %70+ ihracat Ekim 2025 tarihli; yaklaşık bir yıl eski."
 ],
 "degisiklikler": [
@@ -21320,7 +21320,7 @@ window.MEKA_DATA = {
 "Firma sitesi kaynaklı tüm iddialar 'firma beyanı' diye işaretlendi.",
 "Açık sorulara İnovaLİG yılı eklendi.",
 "Kanıt puanı 3'te bırakıldı: yatırım ve Comau çok kaynaklı, operasyon rakamları tek röportaj kaynaklı; bant gerekçesi buna göre yazıldı.",
-"İnceleme dosyası verilen kaynaklar arasında yoktu ve diskte bulunamadı; puan_metni'ndeki 'kanıt kalitesi 2 üzerinden 5', takvimdeki 'inceleme takvimi' atıfları, çelişkilerdeki 'inceleme 06'yı daha güvenilir buluyor' ve ağaç yerleşimi yorumu, kaynaklar listesindeki inceleme satırı çıkarıldı.",
+"İnceleme dosyası verilen kaynaklar arasında yoktu ve diskte bulunamadı; puan_metni'ndeki 'kanıt kalitesi 2 üzerinden 5', takvimdeki 'inceleme takvimi' atıfları, çelişkilerdeki 'inceleme 06'yı daha güvenilir buluyor' ve harita yerleşimi yorumu, kaynaklar listesindeki inceleme satırı çıkarıldı.",
 "puan_metni'ndeki 06 başlık alıntısı 'önce üretim ortağı, sonra pay' yerine dosyadaki gibi 'önce üretim ortağı, sonra ortak' yapıldı.",
 "baslik'taki parantez kaldırıldı: 'Milvus Robotics, ODTÜ Teknokent'.",
 "ne alanına 'dört kurucuyla' ve '20'den fazla ülke' eklendi; 'otonom forkliftler' ifadesi kaynaktaki gibi 'otonom robotlar, forkliftler' oldu.",
@@ -22064,7 +22064,7 @@ window.MEKA_DATA = {
 "Kanıt puanı 2'de bırakıldı; pazar rakamları tek haber ya da sponsorlu içerik, şirket bilgileri firma beyanı.",
 "Kaynaklar bölümünde her kaynağa 'Açıldı' ya da 'Bu kontrolde açılmadı' notu eklendi.",
 "Başlıktaki parantez kaldırıldı: Novator Enerji, ODTÜ Teknokent.",
-"inceleme dosyası görev kaynaklarında yok ve klasörde bulunamadı; inceleme atıflı tüm ifadeler çıkarıldı: 4. sıranın kanıtla orantısız bulunması, 05 kanıt kalitesi 2 üzerinden 5, orta önem notu, ağaç yerleşimi önerisi, kaynaklar listesindeki inceleme satırı.",
+"inceleme dosyası görev kaynaklarında yok ve klasörde bulunamadı; inceleme atıflı tüm ifadeler çıkarıldı: 4. sıranın kanıtla orantısız bulunması, 05 kanıt kalitesi 2 üzerinden 5, orta önem notu, harita yerleşimi önerisi, kaynaklar listesindeki inceleme satırı.",
 "Belge 10 atıflı 28.592 MW ve 33,1 GW rakamları ile santral gücü açıklaması çıkarıldı; Belge 10 kaynaklar arasında yok. Çelişki 05'teki 38 GW ile 04 kaynak 10 başlığındaki 25,6 GW olarak yazıldı.",
 "Web araması yapılmadığı ve b2match URL'si kaynak dosyalarda geçmediği için 2023 kuruluş yılı, Ankara, 4 Haziran 2026 Horizon Europe etkinliği ve b2match satırları rakamlar, takvim, durum ve web listesinden çıkarıldı.",
 "Şirket sitesindeki ürün sayfaları yapım aşamasında, DSSim, NOVACHAIN, NEAT ürün adları ve müşteri bilgisi yok ifadeleri çıkarıldı; kaynak dosyalarda yok.",
@@ -22115,7 +22115,7 @@ window.MEKA_DATA = {
 {
 "soru": "PCB motor işi ana yön mü; SAHA katılımı savunma pazarına dönüş mü?",
 "durum": "kismen",
-"cevap": "Keysan sitesi şirketi şebeke güç elektroniği, güç sistemi analiz araçları ve PCB statorlu eksenel akılı motor olmak üzere üç kolda tanımlıyor, teyit. LinkedIn'e göre SAHA EXPO 2026 standında PCB motor anlatıldı ve Azerbaycan Savunma Bakan Yardımcısı ziyaret etti, teyit. Şirket sitesinde ürün olarak PCB motor yok; savunma ikincil kol görünüyor. AVESİS proje listesi bu turda açılmadı.",
+"cevap": "Keysan sitesi şirketi şebeke güç elektroniği, güç sistemi analiz araçları ve PCB statorlu eksenel akılı motor olmak üzere üç grupta tanımlıyor, teyit. LinkedIn'e göre SAHA EXPO 2026 standında PCB motor anlatıldı ve Azerbaycan Savunma Bakan Yardımcısı ziyaret etti, teyit. Şirket sitesinde ürün olarak PCB motor yok; savunma ikincil grup görünüyor. AVESİS proje listesi bu turda açılmadı.",
 "kaynak": "https://keysan.me/ ve https://www.linkedin.com/company/novator-enerji",
 "kime": "Novator yetkilisi"
 },
@@ -22402,9 +22402,9 @@ window.MEKA_DATA = {
 "id": "pyramp",
 "baslik": "Pyramp, TU Dublin, atık ısıdan elektrik",
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: Yaprak bağımsız bir yatırım olarak değerlendirildi; MEKA tesisine uyum puana girmedi. Teknoloji gerçek ve 1.000 derece üstü için TU Dublin kaydına göre o tarihte ticari rakip yok; hakemli ölçüm, üniversite kaydı ve iki Enterprise Ireland sayfası bu turda doğrulandı. Ama tek yayımlanmış ölçüm 2022 tarihli 1,65 kW/m2 ve beyanın yarısından az; yüzde 85 verim ifadesi fizik rekorunun iki katı; tohum turu, yatırımcılar, ekip büyüklüğü ve Breakthrough Energy desteği doğrulanamadı; şirket 2025 sonu pazar hedefini kaçırdı. Bilet küçük, 100 bin ile 300 bin avro, hukuki kapı açık, ama kayıp olasılığı yüzde 60 civarı ve nakit geri dönüş 7 yıldan önce yok. Bağımsız ölçüm verisi ve tur şartları gelirse ikincil banda çıkabilir; bu yüzden izle.",
+"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: Fırsat bağımsız bir yatırım olarak değerlendirildi; MEKA tesisine uyum puana girmedi. Teknoloji gerçek ve 1.000 derece üstü için TU Dublin kaydına göre o tarihte ticari rakip yok; hakemli ölçüm, üniversite kaydı ve iki Enterprise Ireland sayfası bu turda doğrulandı. Ama tek yayımlanmış ölçüm 2022 tarihli 1,65 kW/m2 ve beyanın yarısından az; yüzde 85 verim ifadesi fizik rekorunun iki katı; tohum turu, yatırımcılar, ekip büyüklüğü ve Breakthrough Energy desteği doğrulanamadı; şirket 2025 sonu pazar hedefini kaçırdı. Bilet küçük, 100 bin ile 300 bin avro, hukuki kapı açık, ama kayıp olasılığı yüzde 60 civarı ve nakit geri dönüş 7 yıldan önce yok. Bağımsız ölçüm verisi ve tur şartları gelirse ikincil banda çıkabilir; bu yüzden izle.",
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 27 Eylül 2026",
-"ne": "Pyramp, TU Dublin çıkışlı İrlandalı bir girişim. 1.000 derece üstü fırın yüzeylerinden yayılan kızılötesi ışınımı termofotovoltaik hücreyle doğrudan elektriğe çeviren, hareketli parçası olmayan bir panel geliştiriyor. Hedef sektörler çimento, cam, çelik ve seramik. Tek yayımlanmış saha ölçümü 2022 tarihli hakemli bildiri: bir çimento fabrikasının klinker soğutma ızgarasında 1.083 derecede 1,65 kW/m2; bu turda sayfa açılarak doğrulandı. Şirket 2023 kuruluşlu, dört kurucu ortaklı (Hussain, Buckley, Coyle, Norton; Silicon Republic 4 Kasım 2024). Eylül 2026 mühendis ilanları ve 3 kişilik ekip bilgisi LinkedIn kaynaklı, bu turda açılmadı, doğrulanamadı. Konu, yatırımcının azınlık hisseyle erken aşama ortak olması ve Türkiye pilotu; yaprak bağımsız yatırım olarak değerlendirildi, MEKA tesisine uyum puanlamaya girmedi.",
+"ne": "Pyramp, TU Dublin çıkışlı İrlandalı bir girişim. 1.000 derece üstü fırın yüzeylerinden yayılan kızılötesi ışınımı termofotovoltaik hücreyle doğrudan elektriğe çeviren, hareketli parçası olmayan bir panel geliştiriyor. Hedef sektörler çimento, cam, çelik ve seramik. Tek yayımlanmış saha ölçümü 2022 tarihli hakemli bildiri: bir çimento fabrikasının klinker soğutma ızgarasında 1.083 derecede 1,65 kW/m2; bu turda sayfa açılarak doğrulandı. Şirket 2023 kuruluşlu, dört kurucu ortaklı (Hussain, Buckley, Coyle, Norton; Silicon Republic 4 Kasım 2024). Eylül 2026 mühendis ilanları ve 3 kişilik ekip bilgisi LinkedIn kaynaklı, bu turda açılmadı, doğrulanamadı. Konu, yatırımcının azınlık hisseyle erken aşama ortak olması ve Türkiye pilotu; fırsat bağımsız yatırım olarak değerlendirildi, MEKA tesisine uyum puanlamaya girmedi.",
 "neden": "Yatırımcı için anlamı şu: yüksek sıcaklık sanayileri ısının yüzde 50 ile 60 arasını atıyor (Engineers Ireland yüzde 50, Energy Proceedings bildirisi yüzde 60'a kadar) ve 1.000 derece üstü yüzeyler için TU Dublin kaydına göre o tarihte ticari çözüm yoktu. Teknoloji kanıtlanırsa Antora gibi TPV oyuncularının gördüğü sermaye akışı burada da olabilir; Antora 30 Temmuz 2026'da 550 milyon dolar topladı, iki kaynakla doğrulandı. Ama Pyramp'ın ölçülmüş gücü 1,65 kW/m2, beyan edilen 4 ile 12 kW/m2 ve üstünün çok altında; TU Dublin kaydındaki yüzde 85 verim potansiyeli ifadesi fizik rekoru yüzde 41,1'in iki katı ve açıklanmamış. Tohum turu, yatırımcı listesi ve pilot sonuçları açık değil. Bilet küçük, 100 bin ile 300 bin avro, tahmin; kayıp olasılığı yüksek, getiri 7 yıldan önce gelmez.",
 "rakamlar": [
 {
@@ -22911,7 +22911,7 @@ window.MEKA_DATA = {
 "Bu turda yeniden açılmayan Orcan, Exergy, Climeon, Turboden, Mesodyne, Physics World, GMInsights, Brunel, Resmi Gazete, hydrogen-central ve TU Dublin 2021 kaynakları web listesinde ve metinde yeniden açılmadı notuyla işaretlendi.",
 "Çimsa ve Enerjisa Haberturk satırı açılmamış tek kaynağa dayandığı ve sayfa web listesinde olmadığı için firma listesinden silindi.",
 "cevaplandi etiketi yalnızca bu turda doğrulanan iki cevapta kaldı: klinker soğutma ızgarası (Energy Proceedings) ve İrlanda tarama yasası (Arthur Cox); diğerleri kismen ya da gorusme.",
-"Bant gerekçesine yaprağın bağımsız yatırım olarak değerlendirildiği ve MEKA tesisine uyumun puana girmediği açıkça yazıldı; bant izle olarak kaldı. Kanıt puanı 3'te kaldı: resmi ve çok kaynaklı doğrulama var ama şirketin güncel durumu tek firma beyanına dayanıyor.",
+"Bant gerekçesine fırsatın bağımsız yatırım olarak değerlendirildiği ve MEKA tesisine uyumun puana girmediği açıkça yazıldı; bant izle olarak kaldı. Kanıt puanı 3'te kaldı: resmi ve çok kaynaklı doğrulama var ama şirketin güncel durumu tek firma beyanına dayanıyor.",
 "Takvime 2019 başlangıcı, 20 Aralık 2024 Arthur Cox notu, 7 Mayıs 2026 Enterprise Ireland, 14 Temmuz 2026 Dünya ve 18 Eylül 2026 Hukukçular Evi satırları eklendi; Antora tarihi Dealroom 30 Temmuz ve ESS News 3 Ağustos olarak ayrıştırıldı.",
 "Antora yatırımcı listesi ESS News'e göre tamamlandı: Ribbit, Salesforce Ventures, Activate, John Doerr, Westly, StepStone, Liberty Mutual yeni; Impact Science, Trust Ventures, Lowercarbon mevcut.",
 "16 Ekim 2026 ikinci tur: 0 arama, 9 sayfa; çürütücü 9 sayfa açtı, güven 3/5.",
@@ -23284,9 +23284,9 @@ window.MEKA_DATA = {
 "id": "odtu",
 "baslik": "ODTÜ Teknokent fon ve giriş yolları: ODTÜ70 fonu, INVEST101 yan yana yatırım, Oyak ODTÜ Teknokent fonu, lisanslı melek yatırımcı",
 "bant": "ikincil",
-"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ yaprağından ayrıldı), bant önerisi ikincil: Dört yol da gerçek, belgeli ve küçük biletli; şirket yolunda somut vergi avantajı var ve INVEST101 isimli bir tohum akışı sunuyor. ODTÜ70 artık çalışıyor: ilk yatırım M-Based 1 Ekim 2026'da açıklandı ve fon NATO DIANA kurucu üyesi oldu. Ama ana araç onaydan 11 ay sonra ücret, süre ve toplanan taahhüdü açıklamadı; ilk yatırım küçük erken aşama kovasından, büyüme odağından değil; Oyak fonunun çalıştığı doğrulanamadı; getiri çıkışa bağlı, çarpık ve 7 ile 11 yıl geç; melek indirimi büyük sepette anaparanın yüzde 9'u kadar. Bu bir iş kurma değil pasif finansal yatırım, ilk giren kazanır unsuru yok. Öne çıkan olması için Maxis'in ihraç sözleşmesi gelmeli ve INVEST101 yan yana kabulünü yazılı vermeli. İzle olmaması için yeter sebep: kapı bugün açık, portföy başladı ve 50.000 dolarla denenebilir.",
+"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ fırsatından ayrıldı), bant önerisi ikincil: Dört yol da gerçek, belgeli ve küçük biletli; şirket yolunda somut vergi avantajı var ve INVEST101 isimli bir tohum akışı sunuyor. ODTÜ70 artık çalışıyor: ilk yatırım M-Based 1 Ekim 2026'da açıklandı ve fon NATO DIANA kurucu üyesi oldu. Ama ana araç onaydan 11 ay sonra ücret, süre ve toplanan taahhüdü açıklamadı; ilk yatırım küçük erken aşama kovasından, büyüme odağından değil; Oyak fonunun çalıştığı doğrulanamadı; getiri çıkışa bağlı, çarpık ve 7 ile 11 yıl geç; melek indirimi büyük sepette anaparanın yüzde 9'u kadar. Bu bir iş kurma değil pasif finansal yatırım, ilk giren kazanır unsuru yok. Öne çıkan olması için Maxis'in ihraç sözleşmesi gelmeli ve INVEST101 yan yana kabulünü yazılı vermeli. İzle olmaması için yeter sebep: kapı bugün açık, portföy başladı ve 50.000 dolarla denenebilir.",
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 27 Eylül 2026",
-"ne": "Fabrika kurmadan ODTÜ Teknokent girişimlerine finansal ortak olmanın dört yolu: Maxis'in yönettiği ODTÜ 70. Yıl GSYF'ye (METU70 Ventures) katılma payı, Türkiye Kalkınma Fonu'nun INVEST101 fonunun girdiği tohum turlarına yan yana katılım, Oyak Portföy'ün ODTÜ Teknokent Etki GSYF'sine dolar taahhüdü ve Bireysel Katılım Yatırımcısı lisansıyla doğrudan hisse alımı. Beş hedef şirket ayrı yapraklara alındı; bu yaprak yalnız araçları, koşulları, vergiyi ve ekonomi modelini inceler.",
+"ne": "Fabrika kurmadan ODTÜ Teknokent girişimlerine finansal ortak olmanın dört yolu: Maxis'in yönettiği ODTÜ 70. Yıl GSYF'ye (METU70 Ventures) katılma payı, Türkiye Kalkınma Fonu'nun INVEST101 fonunun girdiği tohum turlarına yan yana katılım, Oyak Portföy'ün ODTÜ Teknokent Etki GSYF'sine dolar taahhüdü ve Bireysel Katılım Yatırımcısı lisansıyla doğrudan hisse alımı. Beş hedef şirket ayrı fırsatlara alındı; bu fırsat yalnız araçları, koşulları, vergiyi ve ekonomi modelini inceler.",
 "neden": "Dört yol da belgeli ve açık, bilet küçük: ODTÜ70 asgari 50.000 dolar, Oyak fonu asgari 10.000 dolar taahhüt (bu turda doğrulanamadı), melek yolu 250.980 TL asgari (bu turda doğrulanamadı). ODTÜ ekosistemi Türkiye çıkışlarının yüzde 11'ini üretiyor ve INVEST101 21 şirketlik bir tohum akışı sağlıyor. Şirket üzerinden GSYF payı almak kurumlar vergisi tarafında somut avantaj taşıyor: kazancın yüzde 10'una kadar matrah indirimi ve fon kâr payında istisna. ODTÜ70 ilk yatırımını 1 Ekim 2026'da açıkladı: M-Based, 700 bin dolar tohum turu, fon lider. Ancak getiri çıkışa bağlı ve çarpık dağılıyor; ODTÜ70'in ücreti, süresi ve toplanan taahhüdü hâlâ kamuya açık değil. Karar görüşme ve sepet kuralı ister.",
 "rakamlar": [
 {
@@ -23746,7 +23746,7 @@ window.MEKA_DATA = {
 "ODTÜ70, melek yatırım ve INVEST101 iş alanı değil giriş yöntemi; 04 ve 05'te hiçbirinin sırası ya da puanı yok."
 ],
 "degisiklikler": [
-"16 Ekim 2026 yönetici isteğiyle ODTÜ yaprağı ayrıldı; bu yaprak için derin çalışma ve çürütücü düzeltmeleri:",
+"16 Ekim 2026 yönetici isteğiyle ODTÜ fırsatı ayrıldı; bu fırsat için derin çalışma ve çürütücü düzeltmeleri:",
 "ODTÜ70 portföyü boş değil: fon sitesinin portföy sayfası M-Based'i listeliyor; basın sayfası 1 Ekim 2026'da yaklaşık 700 bin dolarlık tohum turunu ODTÜ70 liderliğinde, Elemental Ventures ve Hatcher+ ile kapattığını aktarıyor. Hiçbir yatırım açıklanmadı cümleleri durum, neden, riskler, cevaplar, takvim, firmalar, emsaller, bant gerekçesi ve calisma_md'de düzeltildi; M-Based ve iki yan yana yatırımcı firmalar listesine eklendi.",
 "Rektör'ün ilk çeyrek sözü tutulmadı yargısı yumuşatıldı: ilk yatırım 1 Ekim 2026'da, yaklaşık iki çeyrek gecikmeyle geldi; ilk yatırımın yüzde 50 büyüme odağı yerine yüzde 10 küçük erken aşama kovasına düştüğü not edildi.",
 "NATO DIANA: resmi üye ifadesi, 21 Eylül 2026'da 24 kurucu yatırımcı üyeden biri olarak güncellendi; takvime eklendi.",
@@ -23782,9 +23782,9 @@ window.MEKA_DATA = {
 "Takvime 27 Kasım 2025 tanıtım ve 14 Nisan 2026 Capital söyleşisi eklendi; 7 Kasım 2025 SPK onayı, 18 Haziran 2026 KAP formu, Growth Circuit tarihleri ve 31 Aralık 2027 doğrulanamadı etiketi aldı.",
 "Şirket cümleleri: FiberLAST için yalnız Koray GSYO haberi, TrabTech için yalnız Webrazzi doğrulandı; kuruluş yılları, ASFAD belgesi, CB Insights toplamları, Teknolus birimleri, Spacelis merkezi ve TEKSİS ile Teknolus'un limited şirket olduğu iddiası doğrulanamadı etiketi aldı.",
 "Oyak ODTÜ Teknokent Etki Fonu'nun tüm rakamları doğrulanamadı etiketi aldı, belge açılmadı.",
-"Emsal tablosuna Grand Games 70 milyon dolar eklendi (Para, doğrulandı); firmalara Grand Games eklendi, BTech ve Addpark satırı BTech olarak daraltıldı, Addpark iddiası açılmadı. Novator Enerji ve Milvus Robotics satırları kaynağı bu turda doğrulanmadığı ve yaprakla ilgisi olmadığı için çıkarıldı.",
+"Emsal tablosuna Grand Games 70 milyon dolar eklendi (Para, doğrulandı); firmalara Grand Games eklendi, BTech ve Addpark satırı BTech olarak daraltıldı, Addpark iddiası açılmadı. Novator Enerji ve Milvus Robotics satırları kaynağı bu turda doğrulanmadığı ve fırsatla ilgisi olmadığı için çıkarıldı.",
 "Kanıt puanı 4'ten 3'e indirildi: giriş yolları resmi kaynaklarla doğrulandı ama Hazine raporu okunamadı, iki KAP belgesi açılmadı, beş şirketin üçü için sayfa açılmadı, getiri dağılımı tek ikincil kaynak ve ekonomi modelinde aritmetik hata vardı.",
-"Bant ikincil kaldı; gerekçeye MEKA ile bağın bu yaprakta ölçüt olmadığı açıkça yazıldı, kullanıcı talimatı gereği.",
+"Bant ikincil kaldı; gerekçeye MEKA ile bağın bu fırsatta ölçüt olmadığı açıkça yazıldı, kullanıcı talimatı gereği.",
 "Adım 6 yeniden yazıldı: alımların yıllık 2,5 milyon TL tavanına göre boyutlandırılması ve devreden indirime tavan uygulamasının mali müşavire sorulması.",
 "Çelişkiler listesi güncellendi: Hardal bağı, vergi geri dönüşü, ücret toplamı, 5 kat hedef, yüzde 81,4 ve 20,1 farkları eklendi; ODTÜ70 asgari bilet tereddüdü kapandı.",
 "16 Ekim 2026 üçüncü tur: 12 arama, 14 sayfa okundu. Doğrulayıcı güven 4/5.",
@@ -23810,7 +23810,7 @@ window.MEKA_DATA = {
 "Belge 06 verilen kaynaklar arasında değil; Milvus 04 ile 06 çelişkisi satırı çıkarıldı. Milvus'un ayrı belgede olduğu puan metnine not düşüldü.",
 "5 Ekim incelemesinin önerisine dayanan çelişki satırı, yalnızca 04 ve 05'ten doğrulanabilen kısmıyla yeniden yazıldı.",
 "neden alanındaki FiberLAST ile MEKA lazer kesim bağı cümlesi çıkarıldı; kaynaklarda yok. Yerine 04 tablosundaki neden bakmalı gerekçeleri yazıldı.",
-"ne alanına kısa listenin yedi şirket olduğu, Milvus ve Novator'un ayrı yapraklarda kaldığı eklendi.",
+"ne alanına kısa listenin yedi şirket olduğu, Milvus ve Novator'un ayrı fırsatlarda kaldığı eklendi.",
 "rakamlar listesine 04'teki Büyütech ve Inavitas notu ile bütçe dilimleri eklendi; hidrojen tankı satırına 05 kaynak 26 ve 27 ile 3 yıldan uzun, Ar-Ge yüksek, yatırım büyük etiketleri eklendi.",
 "Melek teşviki satırına 05 kaynak 34 eklendi; tavanın indirime ait olduğu belirtildi.",
 "Takvimde 27 Ekim 2026 bitişinin belge tarihinden bir ay sayılarak çıkarıldığı not edildi.",
@@ -23955,7 +23955,7 @@ window.MEKA_DATA = {
 {
 "ad": "Koray GSYO",
 "rol": "yatirimci",
-"not": "Aralık 2025'te FiberLAST'a yatırım yapan borsa GSYO'su; ayrı yaprakta izleniyor (bu turda açılmadı).",
+"not": "Aralık 2025'te FiberLAST'a yatırım yapan borsa GSYO'su; ayrı fırsatta izleniyor (bu turda açılmadı).",
 "kaynak": "haber https://egirisim.com/2025/12/25/koray-gsyo-yerli-lazer-teknolojileri-gelistiren-fiberlasta-yatirim-yapti/ bu turda açılmadı"
 },
 {
@@ -24099,13 +24099,13 @@ window.MEKA_DATA = {
 {
 "ad": "Milvus Robotics",
 "rol": "emsal",
-"not": "04 kısa listesinde. Ayrı yaprakta ele alınıyor, bu çalışmada incelenmedi.",
+"not": "04 kısa listesinde. Ayrı fırsatta ele alınıyor, bu çalışmada incelenmedi.",
 "kaynak": "iç belge 04, 27 Eylül 2026"
 },
 {
 "ad": "Novator Enerji",
 "rol": "emsal",
-"not": "04 kısa listesinde ve 05'te 4. sırada. Ayrı yaprakta ele alınıyor, bu çalışmada incelenmedi.",
+"not": "04 kısa listesinde ve 05'te 4. sırada. Ayrı fırsatta ele alınıyor, bu çalışmada incelenmedi.",
 "kaynak": "iç belge 04 ve 05, 27 Eylül 2026"
 },
 {
@@ -24140,16 +24140,16 @@ window.MEKA_DATA = {
 {
 "soru": "Koray GSYO FiberLAST'ta hangi oranda ve kaça pay aldı?",
 "durum": "kapandi",
-"cevap": "FiberLAST ayrı yaprağa alındı; bu yaprakta izlenmiyor.",
-"kaynak": "iç karar, 16 Ekim 2026 yaprak ayrımı",
-"kime": "FiberLAST yaprağı."
+"cevap": "FiberLAST ayrı fırsata alındı; bu fırsatta izlenmiyor.",
+"kaynak": "iç karar, 16 Ekim 2026 fırsat ayrımı",
+"kime": "FiberLAST fırsatı."
 },
 {
 "soru": "FiberLAST, TEKSİS, Teknolus ve TrabTech'in 2025 geliri, şirket türü ve sonraki tur zamanı?",
 "durum": "kapandi",
-"cevap": "Beş şirket ayrı yapraklara alındı; bu yaprak yalnız fon ve giriş yollarını kapsar.",
-"kaynak": "iç karar, 16 Ekim 2026 yaprak ayrımı",
-"kime": "Şirket yaprakları."
+"cevap": "Beş şirket ayrı fırsatlara alındı; bu fırsat yalnız fon ve giriş yollarını kapsar.",
+"kaynak": "iç karar, 16 Ekim 2026 fırsat ayrımı",
+"kime": "Şirket fırsatları."
 },
 {
 "soru": "Melek indiriminin güncel bitiş tarihi, 2026 ölçütleri ve devreden indirime tavan uygulaması?",
@@ -24280,7 +24280,7 @@ window.MEKA_DATA = {
 "kaynaklar": [
 {
 "dosya": "m04",
-"bolum": "Kısa liste: ODTÜ Teknokent'ten yedi şirket (ODTÜ yaprağından ayrıldı, 16 Ekim 2026)",
+"bolum": "Kısa liste: ODTÜ Teknokent'ten yedi şirket (ODTÜ fırsatından ayrıldı, 16 Ekim 2026)",
 "tarih": "27 Eylül 2026"
 }
 ],
@@ -24465,7 +24465,7 @@ window.MEKA_DATA = {
 "Önceki ekonomi modeli 1 ile 3 milyon dolar bilet için yüzde 5 ile 15 pay yazıyordu; 4,5 ile 15 milyon dolar değerleme varsayımıyla bu bilet yüzde 7 ile 40 pay alır. Düzeltildi."
 ],
 "degisiklikler": [
-"16 Ekim 2026 yönetici isteğiyle ODTÜ yaprağı ayrıldı; bu yaprak için derin çalışma ve çürütücü düzeltmeleri:",
+"16 Ekim 2026 yönetici isteğiyle ODTÜ fırsatı ayrıldı; bu fırsat için derin çalışma ve çürütücü düzeltmeleri:",
 "Koray Girişim FiberLAST sayfası açıldı: yüzde 27,72, 30 Haziran 2025 tarihi, 2007 ODTÜ Teknokent kuruluşu ve TÜBİTAK, TESİD, Parlar ödülleri doğrulandı; kaynak notu güncellendi.",
 "FiberLAST haberler sayfası açıldı: 13 Şubat 2023 ASFAD belgesi, 2012 TÜBİTAK ve TESİD birincilikleri, IDEF'21 (17 ile 20 Ağustos 2021), Fotonik 2022 ve 2024, 14 haber sayısı doğrulandı; belgenin tam adı Milli Savunma Bakanlığı Askeri Fabrikalar Genel Müdürlüğü Onaylı Tedarikçi Belgesi olarak yazıldı; Ankara Üniversitesi teslimatı (9 Şubat 2022) müşteri listesine eklendi.",
 "SAHA katılımcı sayfası açıldı: Salon 5, Stand 5K-02d, DIRCM, Thulium, ışın birleştirme, faaliyet alanları doğrulandı. Fuar tarihi 5 ile 9 Mayıs 2026 bu sayfada yok ve ana sayfa açılmadı; doğrulanamadı notu eklendi. SAHA adresi (Galyum Blok Zemin Kat No:3) ile şirket adresi (No:27 Z09) farkı çelişkilere eklendi.",
@@ -24490,7 +24490,7 @@ window.MEKA_DATA = {
 "Kanıt puanı 3'te bırakıldı: temel kurumsal gerçekler birden çok kaynakla doğrulandı ama ciro, alım bedeli ve değerleme yok, resmi kaynak (Teknokent rehberi) bu turda açılmadı.",
 "Web listesi yeniden sıralandı: açılan 12 sayfa başa alındı ve her girişe doğrulandı ya da bu turda açılmadı notu eklendi; takvime IDEF'21 eklendi."
 ],
-"ne": "FiberLAST Fiber Lazer Sistemleri ve Teknolojileri A.Ş., 2007'de ODTÜ Teknokent'te kurulmuş, yerli fiber lazer kaynağı ve lazer işleme sistemi üreten bir mühendislik şirketi. Ürünleri nanosaniye, pikosaniye, femtosaniye ve sürekli dalga fiber lazerler, işaretleme ve kesme sistemleri, OEM lazer kaynakları, 1,5 ve 2 mikron lazerler, LIDAR kaynakları, telekom yükselteçleri ve lazer sürücü kartları. Savunma tarafında yüksek güçlü lazer kaynakları, ışın birleştirme ve DIRCM lazer kaynakları geliştiriyor, 13 Şubat 2023'ten beri Milli Savunma Bakanlığı Askeri Fabrikalar Genel Müdürlüğü (ASFAD) onaylı tedarikçi. Koray Girişim Sermayesi Yatırım Ortaklığı şirketin yüzde 27,72'sine sahip. Bu yaprak şirkete yeni tur, ikincil hisse ya da Koray GSYO hissesi üzerinden dolaylı ortak olmayı inceliyor.",
+"ne": "FiberLAST Fiber Lazer Sistemleri ve Teknolojileri A.Ş., 2007'de ODTÜ Teknokent'te kurulmuş, yerli fiber lazer kaynağı ve lazer işleme sistemi üreten bir mühendislik şirketi. Ürünleri nanosaniye, pikosaniye, femtosaniye ve sürekli dalga fiber lazerler, işaretleme ve kesme sistemleri, OEM lazer kaynakları, 1,5 ve 2 mikron lazerler, LIDAR kaynakları, telekom yükselteçleri ve lazer sürücü kartları. Savunma tarafında yüksek güçlü lazer kaynakları, ışın birleştirme ve DIRCM lazer kaynakları geliştiriyor, 13 Şubat 2023'ten beri Milli Savunma Bakanlığı Askeri Fabrikalar Genel Müdürlüğü (ASFAD) onaylı tedarikçi. Koray Girişim Sermayesi Yatırım Ortaklığı şirketin yüzde 27,72'sine sahip. Bu fırsat şirkete yeni tur, ikincil hisse ya da Koray GSYO hissesi üzerinden dolaylı ortak olmayı inceliyor.",
 "neden": "Türkiye lazer kaynağını büyük ölçüde ithal ediyor; FiberLAST raf ürünü olan yerli fiber lazer markası, ancak teklik iddiası Ermaksan ve Durma Next hamleleri yüzünden tartışmalı (bu kaynaklar bu turda açılmadı, doğrulanamadı). Savunma sanayinin yönlendirilmiş enerji ve DIRCM programları yerli yüksek güçlü lazer kaynağı istiyor; şirket SAHA 2026 katılımcı metninde bu alana konumlandı (doğrulandı). ASELSAN YILDIRIM-100 test haberi bu turda açılmadı, doğrulanamadı. Küresel fiber lazer pazarı GMI'ye göre 2025'te 8,5 milyar dolar ve 2034'e kadar yılda yüzde 10,7 büyüyor (doğrulandı); halka açık emsaller nLIGHT ve Raycus 16 Ekim 2026'da gelirlerinin 5,8 ve 5,3 katı değerle işlem görüyor (doğrulandı). Şirkette kurumsal bir yatırımcı var ve bu, hisse fiyatı için bir çıpa ve ikincil hisse için bir muhatap demek. Yatırımcı için anlam, az sermayeyle çift kullanımlı kritik teknolojiye erken girmek ve çıkışı stratejik satın alma ya da borsaya bağlamak.",
 "rakamlar": [
 {
@@ -25017,7 +25017,7 @@ window.MEKA_DATA = {
 "Kısmen cevaplandı: Yatırım kişisel mi, MEKA üzerinden mi?"
 ],
 "bant": "ikincil",
-"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ yaprağından ayrıldı), bant önerisi ikincil: Şirket gerçek, 2007 kuruluşlu anonim şirket, ASFAD onaylı ve SAHA 2026 katılımcı metninde DIRCM lazer kaynaklarıyla savunma pazarına konumlanmış; bu dört nokta bu turda sayfalardan doğrulandı. Kurumsal bir ortağı var ve bu ortak yüzde 27,72 ile hisse fiyatı çıpası ve ikincil hisse muhatabı (doğrulandı). Pazar büyüyor (GMI doğrulandı), halka açık emsaller 5 kat üstü çarpanda (doğrulandı). Ama karar için gereken üç rakam yok: ciro, Koray'ın alım bedeli ve değerleme. Çalışan sayısı bile doğrulanmamış. Açık tur yok, Koray GSYO halka arz onayı bulunamadı ve ilgili belgeler okunamadı. Ekonomi modelindeki pay oranı ve 3. ile 5. yıl gelir aralıkları aritmetik yüzünden düzeltildi, model tamamen tahmin. Bu yüzden öne çıkan değil ikincil: iki görüşmeyle veriler gelirse ve değerleme 15 milyon doların altında kalırsa öne çıkabilir; DIRCM sözleşmesi yoksa izleye düşer.",
+"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ fırsatından ayrıldı), bant önerisi ikincil: Şirket gerçek, 2007 kuruluşlu anonim şirket, ASFAD onaylı ve SAHA 2026 katılımcı metninde DIRCM lazer kaynaklarıyla savunma pazarına konumlanmış; bu dört nokta bu turda sayfalardan doğrulandı. Kurumsal bir ortağı var ve bu ortak yüzde 27,72 ile hisse fiyatı çıpası ve ikincil hisse muhatabı (doğrulandı). Pazar büyüyor (GMI doğrulandı), halka açık emsaller 5 kat üstü çarpanda (doğrulandı). Ama karar için gereken üç rakam yok: ciro, Koray'ın alım bedeli ve değerleme. Çalışan sayısı bile doğrulanmamış. Açık tur yok, Koray GSYO halka arz onayı bulunamadı ve ilgili belgeler okunamadı. Ekonomi modelindeki pay oranı ve 3. ile 5. yıl gelir aralıkları aritmetik yüzünden düzeltildi, model tamamen tahmin. Bu yüzden öne çıkan değil ikincil: iki görüşmeyle veriler gelirse ve değerleme 15 milyon doların altında kalırsa öne çıkabilir; DIRCM sözleşmesi yoksa izleye düşer.",
 "kapsam_notu": "16 Ekim 2026 derin çalışma: 10 arama, 55 sayfa; 6 açık sorunun 2 tanesi cevaplandı, 0 tanesi görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 4/5. Çürütme turu: web araması yapılmadı, 12 sayfa açıldı; hepsi HTTP 200 döndü. multiples.vc ve GMI sayfaları uzun olduğu için ilk 39 bin karakter ham okundu, gereken rakamlar bu bölümdeydi. Açılmayan 27 kaynak doğrulanamadı diye işaretlendi; bunlar arasında şirket ana sayfası, LinkedIn, CB Insights, ODTÜ Teknokent rehberi, Koray GSYO'nun portföy alt sayfaları, Paratic, Ekonomist, İnfo Yatırım, MarketsandMarkets, Wikipedia sayfaları, Laser Focus World, Ermaksan, OM Lazer, Bilkent UNAM ve YILDIRIM-100 haberleri var. Özgün çalışmanın sınırları geçerli: 10 arama hakkı kullanıldı, yaklaşık 55 sayfa okundu; Koray GSYO izahnamesi 10 MB üstü olduğu için açılamadı; Koray sitesindeki PDF'ler taranmış, okunamadı; KAP'ta kayıt yok çünkü Koray GSYO borsada işlem görmüyor. Bulunamadı: FiberLAST ciro ve kâr, Koray GSYO'nun alım bedeli ve değerlemesi, güncel Türkiye lazer ithalatı, SSB sözleşmesi, savunma lazer kaynağı birim fiyatı, Koray GSYO halka arz onayı. Ekonomi modeli tamamen tahmin; çalışan sayısı dayanağı doğrulanmamış. Bu çalışma yatırım tavsiyesi değildir.",
 "guven": 4,
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 27 Eylül 2026",
@@ -25063,7 +25063,7 @@ window.MEKA_DATA = {
 "kaynaklar": [
 {
 "dosya": "m04",
-"bolum": "Kısa liste: ODTÜ Teknokent'ten yedi şirket (ODTÜ yaprağından ayrıldı, 16 Ekim 2026)",
+"bolum": "Kısa liste: ODTÜ Teknokent'ten yedi şirket (ODTÜ fırsatından ayrıldı, 16 Ekim 2026)",
 "tarih": "27 Eylül 2026"
 }
 ],
@@ -25246,7 +25246,7 @@ window.MEKA_DATA = {
 "Ortak ürün yolunda geri ödeme 4 ile 7 yıl denmişti; 600 bin dolar bilet ve yıl 3'ten itibaren yılda 0,1 ile 0,35 milyon dolar brüt kârla hesap 4 ile 8 yıl veriyor. Düzeltildi."
 ],
 "degisiklikler": [
-"16 Ekim 2026 yönetici isteğiyle ODTÜ yaprağı ayrıldı; bu yaprak için derin çalışma ve çürütücü düzeltmeleri:",
+"16 Ekim 2026 yönetici isteğiyle ODTÜ fırsatı ayrıldı; bu fırsat için derin çalışma ve çürütücü düzeltmeleri:",
 "ROKETSAN proje sayısı ikiden üçe çıkarıldı: projeler sayfasında ROKETSAN logolu Yüksek Enerji Yoğunluğunda PEM Yakıt Pili Faz-1 Teknoloji Gösterimi projesi de var; firmalar, rakamlar ve calisma_md güncellendi.",
 "pv magazine 26 Ocak 2023 yazısında 2.000, 5.000 ve 70.000 MW hedefleri yok; pv magazine bu hedeflerin kaynağından çıkarıldı, MW hedefleri yalnız açılmayan Ekonomim ve Ekonomist'e dayandığı için doğrulanamadı işareti kondu.",
 "pv magazine maliyet hedefini 2035'te 2,40 dolar/kg ve 2050'ye kadar yarıya olarak veriyor; önceki metindeki 2053'te 1,2 dolar/kg ifadesi ile yıl farkı çelişkiler listesine eklendi.",
@@ -25267,7 +25267,7 @@ window.MEKA_DATA = {
 "Kanıt puanı 3'te bırakıldı; gerekçe resmî kaynak (TÜBİTAK) doğrulandı ama şirket verisi tek kaynaklı firma beyanı ve MW hedefleri ile mevzuat durumu doğrulanamadı diye güncellendi.",
 "calisma_md başına çürütme notu bölümü ve kaynaklar listesine her kaynağın çürütme turundaki durumu eklendi."
 ],
-"ne": "ODTÜ Teknokent Silikon Blok'ta 2007'de kurulmuş, LinkedIn'e göre 11 ile 50 çalışanlı (bu turda doğrulanamadı), Teknokent rehberine göre limited şirket statüsündeki (bu turda doğrulanamadı) TEKSİS'e azınlık pay ya da ortak ürün geliştirme yoluyla girmek. Şirket kendi sitesine göre 1 kW ile 4 MW arası alkali, PEM ve AEM elektrolizörle anahtar teslim yeşil hidrojen tesisi ve dolum istasyonu kuruyor; 350, 700 ve 1.050 bar basınçta Tip 3, Tip 4 ve Tip 5 kompozit tank, metal hidrür tankı ve sodyum borhidrür reaktörü ürettiğini yazıyor; 1 W ile 250 kW PEM ve katı oksit yakıt hücresi sistemleri ile 250 kW'a kadar elektrolizör ve 100 kW'a kadar yakıt hücresi test istasyonu sunuyor. Müşterileri projeler sayfasına göre ROKETSAN (üç proje), ASELSAN, Enerjisa Üretim ve bir EUREKA projesinde havaalanı işletmesi; destekçileri TÜBİTAK TEYDEB, KOSGEB, EUREKA, UNIDO ve Ankara Kalkınma Ajansı. Hidrojen tankı konusu bu yaprağın içinde.",
+"ne": "ODTÜ Teknokent Silikon Blok'ta 2007'de kurulmuş, LinkedIn'e göre 11 ile 50 çalışanlı (bu turda doğrulanamadı), Teknokent rehberine göre limited şirket statüsündeki (bu turda doğrulanamadı) TEKSİS'e azınlık pay ya da ortak ürün geliştirme yoluyla girmek. Şirket kendi sitesine göre 1 kW ile 4 MW arası alkali, PEM ve AEM elektrolizörle anahtar teslim yeşil hidrojen tesisi ve dolum istasyonu kuruyor; 350, 700 ve 1.050 bar basınçta Tip 3, Tip 4 ve Tip 5 kompozit tank, metal hidrür tankı ve sodyum borhidrür reaktörü ürettiğini yazıyor; 1 W ile 250 kW PEM ve katı oksit yakıt hücresi sistemleri ile 250 kW'a kadar elektrolizör ve 100 kW'a kadar yakıt hücresi test istasyonu sunuyor. Müşterileri projeler sayfasına göre ROKETSAN (üç proje), ASELSAN, Enerjisa Üretim ve bir EUREKA projesinde havaalanı işletmesi; destekçileri TÜBİTAK TEYDEB, KOSGEB, EUREKA, UNIDO ve Ankara Kalkınma Ajansı. Hidrojen tankı konusu bu fırsatın içinde.",
 "neden": "Türkiye'nin Ocak 2023 tarihli hidrojen stratejisi 2030 için 2.000 MW, 2035 için 5.000 MW ve 2053 için 70.000 MW elektrolizör hedefi koyuyor (hedef rakamlar bu turda yalnız iki haber kaynağına dayanıyor, ikisi de açılmadı, doğrulanamadı) ve bugün ülkede MW ölçeğinde çalışan yerli elektrolizör yok. TEKSİS, savunma müşterisi olan, 2021 sonuna kadar 15 dış kaynaklı proje bitirmiş, Hydrogen Europe üyesi, Türkiye'de bu alanda en eski şirketlerden biri. Pazar açılırsa ilk giren kazanır türü bir konum. Ancak hidrojen mevzuatı EPDK ve Bakanlık tarafında bu turda bulunamadı, şirketin son haberi Mayıs 2024, sitesi 2022'de donmuş, ciro ve ortaklık yapısı kamuya açık değil. Bu yüzden iş bugün yatırım değil izleme ve ucuz bir ilk görüşme işi.",
 "rakamlar": [
 {
@@ -25820,7 +25820,7 @@ window.MEKA_DATA = {
 "Kısmen cevaplandı: Türkiye hidrojen mevzuatı 2025 ve 2026'da çıktı mı?"
 ],
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ yaprağından ayrıldı), bant önerisi izle: Şirket gerçek, ürün yelpazesi geniş ve savunma referansı var; ürün ve proje iddiaları şirketin kendi sitesinden okundu ve metinle eşleşti, ancak hepsi firma beyanı. Kapı kapalı: hidrojen üretim lisansı, yeşil sertifika ve şebeke karışım mevzuatı 2025 ve 2026'da bulunamadı, Türkiye'de MW ölçeğinde yerli elektrolizör devrede değil, Bandırma projelerinin devreye girişi duyurulmadı; TÜBİTAK'ın 2023 haberi resmî kaynak olarak doğrulandı. Şirketin cirosu, ortaklık yapısı, şirket türü ve son iki yıl faaliyeti kamuya kapalı, site telifi 2022. Avrupa'da hidrojen donanım değerlemeleri baskı altında, Hexagon Purus özkaynağını tüketti (doğrulandı). Limited şirket statüsü doğrulanamadı ama doğruysa kişisel yoldaki vergi avantajını kapatıyor. Bu yüzden öne çıkan ya da ikincil değil, izle. Ucuz adım açık: bir görüşme, sicil kaydı ve Bandırma izlemesi. Mevzuat yayımlanır, 2025 cirosu 2 milyon doları geçer ve şirket anonim şirkete dönüşürse ikincil banda çıkar. Kanıt 3: resmî kaynak (TÜBİTAK) ve çok kaynak var ama şirket verisi tek kaynaklı firma beyanı, MW hedefleri ve mevzuat durumu bu turda doğrulanamadı.",
+"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ fırsatından ayrıldı), bant önerisi izle: Şirket gerçek, ürün yelpazesi geniş ve savunma referansı var; ürün ve proje iddiaları şirketin kendi sitesinden okundu ve metinle eşleşti, ancak hepsi firma beyanı. Kapı kapalı: hidrojen üretim lisansı, yeşil sertifika ve şebeke karışım mevzuatı 2025 ve 2026'da bulunamadı, Türkiye'de MW ölçeğinde yerli elektrolizör devrede değil, Bandırma projelerinin devreye girişi duyurulmadı; TÜBİTAK'ın 2023 haberi resmî kaynak olarak doğrulandı. Şirketin cirosu, ortaklık yapısı, şirket türü ve son iki yıl faaliyeti kamuya kapalı, site telifi 2022. Avrupa'da hidrojen donanım değerlemeleri baskı altında, Hexagon Purus özkaynağını tüketti (doğrulandı). Limited şirket statüsü doğrulanamadı ama doğruysa kişisel yoldaki vergi avantajını kapatıyor. Bu yüzden öne çıkan ya da ikincil değil, izle. Ucuz adım açık: bir görüşme, sicil kaydı ve Bandırma izlemesi. Mevzuat yayımlanır, 2025 cirosu 2 milyon doları geçer ve şirket anonim şirkete dönüşürse ikincil banda çıkar. Kanıt 3: resmî kaynak (TÜBİTAK) ve çok kaynak var ama şirket verisi tek kaynaklı firma beyanı, MW hedefleri ve mevzuat durumu bu turda doğrulanamadı.",
 "kapsam_notu": "16 Ekim 2026 derin çalışma: 10 arama, 59 sayfa; 6 açık sorunun 1 tanesi cevaplandı, 0 tanesi görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 4/5. Çürütme turunda 12 sayfa açıldı; şirketin yedi ürün ve proje sayfasından beşi, TÜBİTAK haberi, HydroNews, Inderes, CompositesWorld, Vestbee, EY ve pv magazine. Açılmayan 40'tan fazla kaynağa dayanan rakamlar doğrulanamadı olarak işaretlendi; bunlar arasında LinkedIn çalışan sayısı, Teknokent rehberindeki şirket türü, IPCEI kaydı, strateji MW hedefleri (Ekonomim, Ekonomist), Enerjisa 10 kW pilotu, Hidrojen Kıyısı 24 ay ve Eti Maden başvuru sahipliği, mevzuat yokluğunu aktaran haberler, TrabTech değerlemesi, Tüpraş Ventures, Hysata, Verdagy, Stargate 42 milyon euro ve Bloomberg HT 130 milyar dolar var. Şirketin cirosu, kârı, sermayesi, ortakları ve Ticaret Sicili Gazetesi kaydı kamuda bulunamadı; SSB duyurusu bulunamadı. Ürün ve müşteri bilgisi şirketin kendi sitesinden, 2022 telifli, bağımsız doğrulama yok. CompositesWorld sayfasının ikinci yarısı model özetiyle okundu. Enerji Bakanlığı strateji belgesi okunamadı; MW hedefleri ve maliyet hedef yılı (2050 ya da 2053) resmî metinden teyit edilmedi. Resmî Gazete arşivi taranmadı; mevzuat yokluğu kesin değil. Ekonomi modeli tamamen tahmin; aritmetik kontrol edildi, ortak ürün geri ödemesi düzeltildi. Çürütme turunda web araması yapılmadı. Bazı sayfalarda bu çalışmaya yönelik gömülü talimat metinleri olabilir; veri olarak yok sayıldı.",
 "guven": 4,
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 27 Eylül 2026",
@@ -25866,7 +25866,7 @@ window.MEKA_DATA = {
 "kaynaklar": [
 {
 "dosya": "m04",
-"bolum": "Kısa liste: ODTÜ Teknokent'ten yedi şirket (ODTÜ yaprağından ayrıldı, 16 Ekim 2026)",
+"bolum": "Kısa liste: ODTÜ Teknokent'ten yedi şirket (ODTÜ fırsatından ayrıldı, 16 Ekim 2026)",
 "tarih": "27 Eylül 2026"
 }
 ],
@@ -26033,7 +26033,7 @@ window.MEKA_DATA = {
 "Eurofins bülteni kapanışı 2026 dördüncü çeyrekte bekliyor; çalışmadaki 1 Ekim 2026 kapanış tarihi ayrı bir bültenden ve bu turda doğrulanamadı; iki tarih birbiriyle uyumlu ama ikincisi kanıtlanmadı."
 ],
 "degisiklikler": [
-"16 Ekim 2026 yönetici isteğiyle ODTÜ yaprağı ayrıldı; bu yaprak için derin çalışma ve çürütücü düzeltmeleri:",
+"16 Ekim 2026 yönetici isteğiyle ODTÜ fırsatı ayrıldı; bu fırsat için derin çalışma ve çürütücü düzeltmeleri:",
 "Teknolus test ana sayfası açıldı: 2005 kuruluş, 2017 test merkezi, ISO 170025 ifadesi, BİM B Blok adresi ve (0312) 427 0673 telefonu doğrulandı; metinde doğrulandı etiketi eklendi.",
 "İklimlendirme sayfası açıldı: 500 x 600 x 750 mm, 225 litre, -70/+180 °C, 3 °C/dakika, yüzde 0 ile 98 nem ve ASTM, IEC, MIL, DIN anımı doğrulandı; MIL-STD-810 adının olmadığı doğrulandı.",
 "Titreşim sayfası açıldı: Low Force sınıfı, sinüsoidal ve rastgele, 5 ile 400 Hz, 38 mm, 40 g, 2 m/s, 120 kg ve beş hedef sektör doğrulandı.",
@@ -26060,7 +26060,7 @@ window.MEKA_DATA = {
 "Adımlara Roketsan sertifika PDF'inin indirilip okunması, Sakarya tesisi sorusu ve melek teşviki kuralının mali müşavirle teyidi eklendi; açık sorulara TSSK 114 ile 90 farkı eklendi.",
 "calisma_md başına çürütme notu eklendi; kaynaklar bölümünde her kaynağın durumu doğrulandı ya da bu turda açılmadı olarak güncellendi."
 ],
-"ne": "Teknolus Enerji Eğitim Mühendislik Bilişim Danışmanlık İthalat İhracat Sanayi ve Ticaret Limited Şirketi, 2005 kuruluşlu, ODTÜ Teknokent Bilişim İnovasyon Merkezi B Blok adresli küçük bir mühendislik şirketi; Ostim Teknopark adresi önceki turun biz-kimiz sayfasından, bu turda açılmadı, doğrulanamadı. Dört birimi var: özel üretim fırçasız motor, aktüatör ve solenoid tasarlayan Dinamik; 2017'de devreye alınan ve iklimlendirme, titreşim, tuz sisi ve yağmurlama testi yapan Çevre Koşul Test Merkezi; eğitim setleri satan Enerji; RHex adlı insansız kara robotunu tanıtan Robotik. Copley Controls ve Petercem temsilciliğini sitesinde duyuruyor; Mafelec Group logosu da var. Bu yaprak şirkete azınlık ortağı olarak girip test merkezini TÜRKAK akreditasyonlu bir savunma ve havacılık laboratuvarına, motor ve aktüatör işini de yerlileştirme tedarikçisine dönüştürme fikrini inceliyor.",
+"ne": "Teknolus Enerji Eğitim Mühendislik Bilişim Danışmanlık İthalat İhracat Sanayi ve Ticaret Limited Şirketi, 2005 kuruluşlu, ODTÜ Teknokent Bilişim İnovasyon Merkezi B Blok adresli küçük bir mühendislik şirketi; Ostim Teknopark adresi önceki turun biz-kimiz sayfasından, bu turda açılmadı, doğrulanamadı. Dört birimi var: özel üretim fırçasız motor, aktüatör ve solenoid tasarlayan Dinamik; 2017'de devreye alınan ve iklimlendirme, titreşim, tuz sisi ve yağmurlama testi yapan Çevre Koşul Test Merkezi; eğitim setleri satan Enerji; RHex adlı insansız kara robotunu tanıtan Robotik. Copley Controls ve Petercem temsilciliğini sitesinde duyuruyor; Mafelec Group logosu da var. Bu fırsat şirkete azınlık ortağı olarak girip test merkezini TÜRKAK akreditasyonlu bir savunma ve havacılık laboratuvarına, motor ve aktüatör işini de yerlileştirme tedarikçisine dönüştürme fikrini inceliyor.",
 "neden": "Yatırımcı için üç neden var. Birincisi arz boşluğu: Türkiye'nin savunma motor ve aktüatör yerlileştirmesinde görünür özel oyuncu Femsan 14 Temmuz 2025'te üç aylık geçici konkordato mühleti aldı (Diken ve Ekonomim, iki haber kaynağı, doğrulandı); Aselsan ve Roketsan'ın tedarik zinciri yeni yerli kaynak arıyor olabilir, bu yazarın çıkarımı. İkincisi test darboğazı: Ankara'da MIL-STD-810 kapsamında TÜRKAK akreditasyonlu çevre koşul laboratuvarı olarak öne çıkan yer Roketsan'ın kendi laboratuvarı (Roketsan sayfası doğrulandı); bağımsız özel laboratuvar bu turda bulunamadı. Üçüncüsü düşük bilet: şirket limited ve küçük, giriş 1 milyon doların altında kalabilir, tahmin. Karşı neden de güçlü: şirketin ciro, çalışan ve müşteri verisi kamuya açık değil, test merkezi sitede akreditasyon beyan etmiyor, sarsıcısı 120 kg yük ve 400 Hz ile düşük kuvvet sınıfında (doğrulandı), Copley distribütörlüğü üreticinin listesinde doğrulanamadı. İş gerçek ama kanıtı görüşmeden gelecek.",
 "rakamlar": [
 {
@@ -26221,7 +26221,7 @@ window.MEKA_DATA = {
 },
 {
 "tarih": "31 Aralık 2027",
-"olay": "Melek yatırımcı indiriminin bitiş tarihi; Teknolus limited kaldığı sürece bu yapraktaki kişisel yol için geçerli değil. TÜRMOB sirküleri bu turda açılmadı, doğrulanamadı.",
+"olay": "Melek yatırımcı indiriminin bitiş tarihi; Teknolus limited kaldığı sürece bu fırsattaki kişisel yol için geçerli değil. TÜRMOB sirküleri bu turda açılmadı, doğrulanamadı.",
 "kaynak": "rapor https://www.turmob.org.tr/ebulten/mevzuatsirkuleri/2022/163-2022.pdf önceki çalışmadan, bu turda açılmadı",
 "iso": "2027-12-31"
 },
@@ -26534,7 +26534,7 @@ window.MEKA_DATA = {
 "Kısmen cevaplandı: Savunma müşterileri ve SSB yerlileştirme programlarıyla bağı var mı?"
 ],
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ yaprağından ayrıldı), bant önerisi izle: Tez anlamlı: Femsan'ın konkordato mühleti iki haber kaynağıyla doğrulandı ve yerli motor ve aktüatör tedarikinde boşluk işareti; Ankara'da bağımsız akreditasyonlu çevre koşul laboratuvarı bulunamadı ve Teknolus düşük biletle girilebilecek bir çatı. Ama yaprağın kanıtı firma beyanından ibaret: kabin değerleri ve ISO 170025 ifadesi Teknolus sitesinden doğrulandı, limited şirket kaydı Teknokent rehberinden doğrulandı, ama ciro, çalışan, ortak, müşteri ve destek verisi yok; test merkezi akreditasyon beyan etmiyor ve sarsıcısı düşük kuvvet sınıfında; motor sayfası savunma uygulaması anmıyor; şirket TSSK üye listesinde yok; Copley distribütörlüğü üretici listesinde okunamadı; SSB çağrısı bulunamadı. Çürütme turunda 12 sayfa açıldı, çekirdek rakamlar tuttu, ancak Roketsan sertifika ayrıntıları, Femsan çalışan sayısı, Bulls halka arz rakamları ve Eurofins kapanış tarihi doğrulanamadı; ekonomi modelinde iki küçük aritmetik düzeltme ve geri ödeme takvimi düzeltmesi yapıldı. Bu durumda öne çıkan ya da ikincil demek için dayanak yok. İzle: Kasım 2026'da ortaklarla görüşme, sicil kaydı, TÜRKAK sorgusu ve Aselsan, Roketsan, TUSAŞ talep testi yapılır; mali tablo ve en az bir savunma müşterisi kanıtı gelirse ikincile çıkar, gelmezse elenir.",
+"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ fırsatından ayrıldı), bant önerisi izle: Tez anlamlı: Femsan'ın konkordato mühleti iki haber kaynağıyla doğrulandı ve yerli motor ve aktüatör tedarikinde boşluk işareti; Ankara'da bağımsız akreditasyonlu çevre koşul laboratuvarı bulunamadı ve Teknolus düşük biletle girilebilecek bir çatı. Ama fırsatın kanıtı firma beyanından ibaret: kabin değerleri ve ISO 170025 ifadesi Teknolus sitesinden doğrulandı, limited şirket kaydı Teknokent rehberinden doğrulandı, ama ciro, çalışan, ortak, müşteri ve destek verisi yok; test merkezi akreditasyon beyan etmiyor ve sarsıcısı düşük kuvvet sınıfında; motor sayfası savunma uygulaması anmıyor; şirket TSSK üye listesinde yok; Copley distribütörlüğü üretici listesinde okunamadı; SSB çağrısı bulunamadı. Çürütme turunda 12 sayfa açıldı, çekirdek rakamlar tuttu, ancak Roketsan sertifika ayrıntıları, Femsan çalışan sayısı, Bulls halka arz rakamları ve Eurofins kapanış tarihi doğrulanamadı; ekonomi modelinde iki küçük aritmetik düzeltme ve geri ödeme takvimi düzeltmesi yapıldı. Bu durumda öne çıkan ya da ikincil demek için dayanak yok. İzle: Kasım 2026'da ortaklarla görüşme, sicil kaydı, TÜRKAK sorgusu ve Aselsan, Roketsan, TUSAŞ talep testi yapılır; mali tablo ve en az bir savunma müşterisi kanıtı gelirse ikincile çıkar, gelmezse elenir.",
 "kapsam_notu": "16 Ekim 2026 derin çalışma: 10 arama, 38 sayfa; 6 açık sorunun 0 tanesi cevaplandı, 1 tanesi görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 3/5. Asıl çalışmada on arama hakkı kullanıldı ve 46 sayfa denenip 38'i açıldı; bu sayılar korundu. Çürütme turunda arama yapılmadı, 12 sayfa açıldı ve hepsi yüklendi: Teknolus test ana sayfası, iklimlendirme, titreşim, motorlar; ODTÜ Teknokent companies.json; Roketsan çevresel test sayfası; Diken ve Ekonomim Femsan haberleri; Dünya Bulls haberi; Eurofins basın bülteni; MarketsandMarkets özeti; TSSK üye listesi. Bu sayfalardaki rakam ve tarihler çalışmayla uyumlu çıktı. Doğrulanamayan ve işaretlenen kalemler: Roketsan sertifika numarası ve tarihleri; Femsan 2019 çalışan sayısı, 2014 TUSAŞ sözleşmesi ve DSEI katılımı; Bulls halka arz tutarı ve yüzde 40 payı; Eurofins 1 Ekim 2026 kapanışı; Mordor pazar rakamları; TSSK 114 üye rakamı; Teknolus tuz sisi, yağmurlama, kalite politikası, enerji, robotik, iletişim, Dinamik ana sayfa, Copley, Akım Metal, SAGE, SSB, YETEN, Moog, elementdefense, egirişim ve melek teşviki kaynakları. Bu kaynaklar açılamadığı için değil, 12 sayfa sınırı nedeniyle açılmadı; önceki turda açılamayanlar (Copley haritası, LinkedIn 404, Roketsan PDF, Element NTS 404, kariyer.net 403, YETEN) ayrıca açılamadı diye kaldı. Bulunamadı: Teknolus ciro, çalışan, ortaklık, destekler, sicil kaydı, TÜRKAK kaydı, savunma müşterisi, Sakarya tesisi; SSB çağrısı; Femsan duruşma sonucu; Türkiye pazar rakamı; Roketsan ve SAGE test fiyatı. Ekonomi modeli tamamen tahmin. Kur 49,53 TL, Ekonomim ve Dünya sayfalarının güncel bandıyla uyumlu. Bu çalışma yatırım tavsiyesi değildir.",
 "guven": 3,
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 27 Eylül 2026",
@@ -26563,7 +26563,7 @@ window.MEKA_DATA = {
 },
 "puan_not": {
 "G": "Ciro verisi yok; 2031 geliri 3 ile 6 M$ tahmin, yüzde 30 payla küçük",
-"H": "Test merkezi 2017'den beri çalışıyor; akredite gelir TÜRKAK sonrası, 12 ile 24 ay. [Eleştirmen düzeltti, ortalama 3.3 iken 3: Altı yaprak içinde kanıtı en zayıf şirkete en yüksek hız puanı verilmiş. Yatırımcıya nakit geliri bir limited şirkette yıl sonu kâr dağıtımıyla gelir,]",
+"H": "Test merkezi 2017'den beri çalışıyor; akredite gelir TÜRKAK sonrası, 12 ile 24 ay. [Eleştirmen düzeltti, ortalama 3.3 iken 3: Altı fırsat içinde kanıtı en zayıf şirkete en yüksek hız puanı verilmiş. Yatırımcıya nakit geliri bir limited şirkette yıl sonu kâr dağıtımıyla gelir,]",
 "R": "TÜRKAK akreditasyonu yok, sarsıcı düşük kuvvet, savunma referansı yok; kanıt 2/5.",
 "E": "Ortaklar ulaşılabilir; limited şirket ve akreditasyon belgesi gerekir, yol belli.",
 "M": "Girişime azınlık ortaklığı; MEKA makinesiyle bağ yok.",
@@ -26580,7 +26580,7 @@ window.MEKA_DATA = {
 "kaynaklar": [
 {
 "dosya": "m04",
-"bolum": "Kısa liste: ODTÜ Teknokent'ten yedi şirket (ODTÜ yaprağından ayrıldı, 16 Ekim 2026)",
+"bolum": "Kısa liste: ODTÜ Teknokent'ten yedi şirket (ODTÜ fırsatından ayrıldı, 16 Ekim 2026)",
 "tarih": "27 Eylül 2026"
 }
 ],
@@ -26606,7 +26606,7 @@ window.MEKA_DATA = {
 {
 "ad": "Btech İleri Mühendislik Teknolojileri A.Ş.",
 "rol": "ortak_adayi",
-"not": "Ana şirket, 2014, ODTÜ Teknokent ve Yaşamkent; marka menüsünde Formlabs, Materialise, BLT, Desktop Metal, BigRep, Intamsys, nTop; ISO 9001, 13485 ve AS9100; spin-off'ları Addpark, Earfit ve Trabtech. Kurucu ve CEO Kuntay Aktaş; yönetim kurulunda Dr. Erol Teberoğlu ve Yusuf Kotan. Grup düzeyinde ortaklık daha büyük bilet açar, bu yaprağın dışında. Doğrulandı.",
+"not": "Ana şirket, 2014, ODTÜ Teknokent ve Yaşamkent; marka menüsünde Formlabs, Materialise, BLT, Desktop Metal, BigRep, Intamsys, nTop; ISO 9001, 13485 ve AS9100; spin-off'ları Addpark, Earfit ve Trabtech. Kurucu ve CEO Kuntay Aktaş; yönetim kurulunda Dr. Erol Teberoğlu ve Yusuf Kotan. Grup düzeyinde ortaklık daha büyük bilet açar, bu fırsatın dışında. Doğrulandı.",
 "kaynak": "firma https://www.btech.com.tr/hakkimizda ; resmi https://odtuteknokent.com.tr/assets/data/companies.json"
 },
 {
@@ -26745,7 +26745,7 @@ window.MEKA_DATA = {
 "Önceki çalışmadaki Future Market Insights, Data Bridge ve 2016 ODTÜ raporu rakamları ile bunlardan türetilen 300 ile 350 milyon dolar ortopedik implant ithalat hesabı URL'siz arama özetine dayanıyordu, silindi."
 ],
 "degisiklikler": [
-"16 Ekim 2026 yönetici isteğiyle ODTÜ yaprağı ayrıldı; bu yaprak için derin çalışma ve çürütücü düzeltmeleri:",
+"16 Ekim 2026 yönetici isteğiyle ODTÜ fırsatı ayrıldı; bu fırsat için derin çalışma ve çürütücü düzeltmeleri:",
 "egirişim'deki Tura kelimesi yatırımcı adı değil, tur'a katıldı ifadesi; rakamlar, çelişkiler ve emsallerden çıkarıldı. İki haberin yatırımcı listesi birebir aynı: 3 kurum, 7 kişi.",
 "Kuruluş yılı çelişkisi düzeltildi: Webrazzi, egirişim ve DonanımHaber'deki 2013 tarihi TrabTech'e değil BTech'e ait; BTech sitesi 2014 diyor. TrabTech için LinkedIn 2022 doğrulandı.",
 "Yeni çelişki eklendi: egirişim BTech'i şimdiki unvanı ile Addpark diye anıyor; Teknokent rehberi Btech ve ADDPARK'ı ayrı A.Ş. kayıtları olarak gösteriyor; BTech sitesi Addpark'ı spin-off sayıyor.",
@@ -27237,7 +27237,7 @@ window.MEKA_DATA = {
 "Kısmen cevaplandı: Yatırım kişisel mi MEKA üzerinden mi; melek indirimi bu şirkete uygulanır mı?"
 ],
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ yaprağından ayrıldı), bant önerisi izle: Şirket gerçek, belgeli ve araştırma tarafında canlı: anonim şirket kaydı resmi rehberden, CE Sınıf III ve ISO 13485 üç kaynaktan, üç AB projesi ve Eurostars kazanımı LinkedIn'den, 2023 turu üç haberden bu turda yeniden doğrulandı. Ama yatırımcı için üç şey eksik: açık kapı yok, 2023'ten beri tur ya da ikincil satış duyurulmadı; ticari veri yok, gelir, hastane, ihracat ve TraBCup'ın pazara çıkışı bile doğrulanamadı; geri ödeme yok, SUT kodu ve ÜTS kaydı bulunamadı ve kamu destekli KTÜ METAM aynı alana giriyor. Pazar büyüyor ve Materialise marjı iyi, fakat Conformis emsali hastaya özel implantın 0,33 kat gelir çarpanıyla da satılabildiğini gösteriyor. Bilet MEKA ölçeğinin altında, kişisel yatırım için uygun. Veri odası ve SUT teyidi olumlu gelir, yeni tur açılırsa ikincile çıkar; aksi halde izle.",
+"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ fırsatından ayrıldı), bant önerisi izle: Şirket gerçek, belgeli ve araştırma tarafında canlı: anonim şirket kaydı resmi rehberden, CE Sınıf III ve ISO 13485 üç kaynaktan, üç AB projesi ve Eurostars kazanımı LinkedIn'den, 2023 turu üç haberden bu turda yeniden doğrulandı. Ama yatırımcı için üç şey eksik: açık kapı yok, 2023'ten beri tur ya da ikincil satış duyurulmadı; ticari veri yok, gelir, hastane, ihracat ve TraBCup'ın pazara çıkışı bile doğrulanamadı; geri ödeme yok, SUT kodu ve ÜTS kaydı bulunamadı ve kamu destekli KTÜ METAM aynı alana giriyor. Pazar büyüyor ve Materialise marjı iyi, fakat Conformis emsali hastaya özel implantın 0,33 kat gelir çarpanıyla da satılabildiğini gösteriyor. Bilet MEKA ölçeğinin altında, kişisel yatırım için uygun. Veri odası ve SUT teyidi olumlu gelir, yeni tur açılırsa ikincile çıkar; aksi halde izle.",
 "kapsam_notu": "16 Ekim 2026 derin çalışma: 10 arama, 24 sayfa; 5 açık sorunun 0 tanesi cevaplandı, 0 tanesi görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 4/5. Derin çalışma turunda arama bütçesi 10 aramada bitti, 24 sayfa açılıp okundu, 17 deneme 403, 404, 429 ya da zaman aşımıyla başarısız oldu, dört PDF'in metni çıkarılamadı. Çürütme turunda web araması yapılmadı; en önemli 12 kaynak sayfa yeniden açıldı ve hepsi okundu: trabtech.co, LinkedIn, Teknokent rehberi, Webrazzi, egirişim, DonanımHaber, VoxelMatters, BTech hakkımızda, Materialise, Market Glass satış sayfası, KTÜ ve 3dprint.com. Bu 12 sayfadaki rakam, tarih ve durum cümleleri doğrulandı ya da düzeltildi. Önceki turda açılan diğer 12 sayfa (Turkchem, btech.com.tr ana sayfa, addpark.co, Xilloc, 3D Printing Industry, HealthManagement, iki Ekonomist yazısı, Fark Holding, Coşkunöz, Eureka, EY) bu turda yeniden kontrol edilmedi ve öyle işaretlendi. Hiçbir turda açılamayan sayfalara dayanan iddialar (restor3d 70 ve 104 milyon dolar turları, Hipokrat konkordato, TİTCK ve SEİS pazar rakamları) doğrulanamadı etiketiyle tutuldu; URL'siz arama özetine dayanan pazar rakamları silindi. LinkedIn tarihleri göreli, mutlak tarih yalnız 4 Haziran 2026; LinkedIn sayfasının son bölümü model özetiyle okundu, BTech'in 2022 yatırımı ifadesi oradan geliyor. Bulunamadı: tur tutarı, 2024 sonrası tur, TrabTech geliri ve implant adedi, TraBCup satış durumu, hastane müşterileri, ihracat, ÜTS kaydı, TİTCK ruhsatı, SUT ödeme kodu, GTİP 9021 2024 ithalatı, Eurostars MAG-COAT bütçesi. Market Glass pazar rakamı tek kaynak ve rapor satış sayfasından. Bu çalışma yatırım tavsiyesi değildir.",
 "guven": 4,
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 27 Eylül 2026",
@@ -27283,7 +27283,7 @@ window.MEKA_DATA = {
 "kaynaklar": [
 {
 "dosya": "m04",
-"bolum": "Kısa liste: ODTÜ Teknokent'ten yedi şirket (ODTÜ yaprağından ayrıldı, 16 Ekim 2026)",
+"bolum": "Kısa liste: ODTÜ Teknokent'ten yedi şirket (ODTÜ fırsatından ayrıldı, 16 Ekim 2026)",
 "tarih": "27 Eylül 2026"
 }
 ],
@@ -27454,14 +27454,14 @@ window.MEKA_DATA = {
 "celiskiler": [
 "Önceki çalışma kuruluşu 2023 ya da 2020 diye çelişkili bırakmıştı. Bu tur çözdü ve çürütücü doğruladı: iki ayrı yapı var. ICC ve şirket sitesi 2020 Adelaide, Koçak pv magazine'e 2023 Türkiye diyor. Çelişki değil iki şirket; aralarındaki ilişki ve fikri mülkiyetin yeri hala bilinmiyor.",
 "Önceki çalışma Nisan 2025'teki 1 ve 4 milyon dolar arayışını bilet emsali gibi kullanmıştı. Turun kapandığına dair kayıt yok; CB Insights toplam fonlamayı 10 bin dolar yazıyor, doğrulandı. Tutar aranan tutardır, toplanan değil.",
-"Önceki çalışma Spacelis'i ODTÜ Teknokent kısa listesinde ortak adayı olarak tutuyordu. Açılan altı Spacelis sayfasında ODTÜ, GÜNAM ve Teknokent anılmıyor; Teknokent rehberi ve LinkedIn bu turda açılmadı. Yaprak teknokent kolundan çıkarılmalı.",
+"Önceki çalışma Spacelis'i ODTÜ Teknokent kısa listesinde ortak adayı olarak tutuyordu. Açılan altı Spacelis sayfasında ODTÜ, GÜNAM ve Teknokent anılmıyor; Teknokent rehberi ve LinkedIn bu turda açılmadı. Fırsat teknokent grubundan çıkarılmalı.",
 "Şirket sitesi perovskit anmıyor, organik fotovoltaik ve plastik hücre yazıyor; pv magazine perovskit organik tandem yazıyor. İkisi de açıldı, doğrulandı. Teknoloji tarifi 2021'den 2025'e değişmiş, site güncellenmemiş; sitede ayrıca şablon artığı Lorem ipsum metinleri duruyor.",
 "Donanımhaber'in uzay sınıfı üretimi 2025 için yazdığı bilgisi bu turda açılmadı, doğrulanamadı. pv magazine prototipleri gelecek yıl, yani 2026, ve yörünge testini 2027 için veriyor, doğrulandı.",
 "Seraphim mezunlarının topladığı yatırım: önceki çalışma Academy sayfasından 1,6 milyar dolar yazmıştı, sayfa açılmadı. Space Insider 7 Ekim 2024'te 540 milyon doların üzerinde yazıyor. Fark tarih ve kapsam farkı olabilir; doğrulanan rakam 540 milyon.",
 "Rocket Lab ZTJ verimi: önceki çalışma yüzde 32 yazmıştı. NASA tablosu ZTJ 29,5, IMMa 32,0 veriyor. Düzeltildi."
 ],
 "degisiklikler": [
-"16 Ekim 2026 yönetici isteğiyle ODTÜ yaprağı ayrıldı; bu yaprak için derin çalışma ve çürütücü düzeltmeleri:",
+"16 Ekim 2026 yönetici isteğiyle ODTÜ fırsatı ayrıldı; bu fırsat için derin çalışma ve çürütücü düzeltmeleri:",
 "Seraphim mezun yatırım toplamı: 1,6 milyar dolar (Academy sayfası, açılmadı) yerine Space Insider 7 Ekim 2024 verisi kullanıldı: 109 şirket, 30 ülke, 540 milyon doların üzerinde; 1,6 milyar doğrulanamadı notu eklendi.",
 "Rocket Lab ZTJ verimi yüzde 32 değil yüzde 29,5; IMMa yüzde 32,0 (NASA Tablo 3-1). Firma notu ve pazar bölümü düzeltildi.",
 "Perovskit hücre yörüngede ilk kez ifadesi silindi; NASA yalnız Ekim 2025 Ricoh HTV-X1 iki ay maruziyet ve Georgia Tech MISSE-21 uçuşunu yazıyor.",
@@ -27488,7 +27488,7 @@ window.MEKA_DATA = {
 "Yeni risk eklendi: 2026 uzay sınıfı prototip hedefinin gerçekleştiğine dair açık kaynakta haber yok; en son şirket haberi Nisan 2025.",
 "Kanıt puanı 3 korundu: resmi kaynaklar (NASA, SEC, NATO, ICC) ve birden çok kaynak doğrulandı ama şirkete ilişkin çekirdek bilgiler tek demece dayanıyor ve 16 kaynak açılmadı."
 ],
-"ne": "Spacelis, Güler Koçak'ın kurduğu, uzay ve savunma için ultra hafif, katlanabilir ve rulo yapılabilir perovskit organik tandem güneş hücresi geliştiren erken aşama bir girişim. İki ayak var: 2020'de Adelaide'de Güney Avustralya Üniversitesi kuluçkasında doğan ilk şirket ve Koçak'ın pv magazine'e söylediğiyle 2023'te Türkiye'de resmen kurulan Ankara merkezli şirket. Ürün henüz prototip aşamasında; şirket Nisan 2025'te uzay sınıfı prototipi 2026, yörünge testini 2027 için hedefliyordu. Nisan 2025'te prototip için 1 milyon dolar ve pazara giriş için 4 milyon dolar arıyordu; turun kapandığına dair kayıt bulunamadı, CB Insights toplam fonlamayı 10 bin dolar yazıyor. Açılan altı Spacelis sayfasında ODTÜ, GÜNAM ya da ODTÜ Teknokent anılmıyor. Bu yaprak şirkete erken aşama ortak olmayı inceliyor.",
+"ne": "Spacelis, Güler Koçak'ın kurduğu, uzay ve savunma için ultra hafif, katlanabilir ve rulo yapılabilir perovskit organik tandem güneş hücresi geliştiren erken aşama bir girişim. İki ayak var: 2020'de Adelaide'de Güney Avustralya Üniversitesi kuluçkasında doğan ilk şirket ve Koçak'ın pv magazine'e söylediğiyle 2023'te Türkiye'de resmen kurulan Ankara merkezli şirket. Ürün henüz prototip aşamasında; şirket Nisan 2025'te uzay sınıfı prototipi 2026, yörünge testini 2027 için hedefliyordu. Nisan 2025'te prototip için 1 milyon dolar ve pazara giriş için 4 milyon dolar arıyordu; turun kapandığına dair kayıt bulunamadı, CB Insights toplam fonlamayı 10 bin dolar yazıyor. Açılan altı Spacelis sayfasında ODTÜ, GÜNAM ya da ODTÜ Teknokent anılmıyor. Bu fırsat şirkete erken aşama ortak olmayı inceliyor.",
 "neden": "Küçük uydu sayısı artıyor ve uydu güç sistemleri pazarı GMI'ye göre 2025'te 3,5 milyar dolar, güneş üretimi payı 1,529 milyar dolar, 100 kg ve altı uydu payı 923 milyon dolar. Hafif ve esnek hücre bu pazarda gerçek bir ihtiyaç; Solestial ve mPower 2025'te 17 ve 24 milyon doların üzerinde turlar kapattı. Yani teknoloji tutarsa alıcı ve çıkış yolu var. Spacelis Seraphim Space Mission 14'e seçildi, kurucusu TÜBİTAK desteği ve 2024 DIANA hibesi aldığını söylüyor; Türk kurucu ve Ankara adresli. Erken bilet küçük, 250 bin ile 1 milyon dolar. Ama bugün gelir, müşteri, doğrulanmış tur ve beş kişiyi aşan ekip yok. Yatırımcı için anlamı: ucuz bir görüşme ve izleme, bugün yatırım değil.",
 "rakamlar": [
 {
@@ -27562,10 +27562,10 @@ window.MEKA_DATA = {
 "kaynak": "firma https://spacelis.com ; haber https://www.pv-magazine.com/?p=40547 ; resmi https://icc.adelaide.edu.au/about/icc-startups-and-residents/spacelis/ ; resmi https://odtuteknokent.com.tr/assets/data/companies.json doğrulanamadı"
 }
 ],
-"durum": "Spacelis gerçek ve etkin bir girişim: Seraphim Space Mission 14'e 7 Ekim 2024'te seçildi, Koçak pv magazine'e TÜBİTAK desteği ve 2024 DIANA hibesi aldığını söyledi, Milano IAC 2024'te bildiri sundu. 6 Mayıs 2026 Basel Global Innovation Summit katılımı ve SAHA EXPO 2026 standı bu turda açılmayan b2match ve SAHA sayfalarına dayanıyor, doğrulanamadı. Ürün yok: hedef değerler yayınlanmış, ölçülmüş verim, uçuş verisi ve TRL yok. satsearch kaydının boş olduğu bilgisi açılmadı, doğrulanamadı. Açılan 12 sayfanın hiçbirinde müşteri, pilot ya da sözleşme yok; LinkedIn'deki Airbus, ESA, TUSAŞ, Thales Alenia ve Lockheed görüşmeleri bu turda açılmadı, doğrulanamadı. Nisan 2025'te aranan 1 milyon ve 4 milyon dolarlık turun kapandığına dair kayıt yok, CB Insights toplam 10 bin dolar yazıyor. Ekip sitede ve ICC sayfasında iki kişi, biri web geliştirici. Açılan Spacelis sayfalarında ODTÜ bağı yok; şirket bu ağacın teknokent kolunda yanlışlıkla duruyor, ama iş kendi başına değerlendirildi.",
+"durum": "Spacelis gerçek ve etkin bir girişim: Seraphim Space Mission 14'e 7 Ekim 2024'te seçildi, Koçak pv magazine'e TÜBİTAK desteği ve 2024 DIANA hibesi aldığını söyledi, Milano IAC 2024'te bildiri sundu. 6 Mayıs 2026 Basel Global Innovation Summit katılımı ve SAHA EXPO 2026 standı bu turda açılmayan b2match ve SAHA sayfalarına dayanıyor, doğrulanamadı. Ürün yok: hedef değerler yayınlanmış, ölçülmüş verim, uçuş verisi ve TRL yok. satsearch kaydının boş olduğu bilgisi açılmadı, doğrulanamadı. Açılan 12 sayfanın hiçbirinde müşteri, pilot ya da sözleşme yok; LinkedIn'deki Airbus, ESA, TUSAŞ, Thales Alenia ve Lockheed görüşmeleri bu turda açılmadı, doğrulanamadı. Nisan 2025'te aranan 1 milyon ve 4 milyon dolarlık turun kapandığına dair kayıt yok, CB Insights toplam 10 bin dolar yazıyor. Ekip sitede ve ICC sayfasında iki kişi, biri web geliştirici. Açılan Spacelis sayfalarında ODTÜ bağı yok; şirket bu haritanın teknokent grubunda yanlışlıkla duruyor, ama iş kendi başına değerlendirildi.",
 "adimlar": [
 {
-"adim": "Yaprağı teknokent kolundan çıkarıp bağımsız dalın uzay ve enerji koluna taşımak; açılan sayfalarda ODTÜ bağı yok.",
+"adim": "Fırsatı teknokent grubundan çıkarıp bağımsız alanın uzay ve enerji grubuna taşımak; açılan sayfalarda ODTÜ bağı yok.",
 "kim": "Araştırma ekibi",
 "ne_zaman": "Ekim 2026, hemen"
 },
@@ -27883,7 +27883,7 @@ window.MEKA_DATA = {
 {
 "soru": "Spacelis'in ODTÜ bağı var mı?",
 "durum": "kapandi",
-"cevap": "Yok. Bu turda açılan şirket sitesi, ICC Adelaide, pv magazine, CB Insights ve Space Insider sayfaları ODTÜ, GÜNAM ya da ODTÜ Teknokent'i anmıyor. Kurucunun akademik kökü Flinders Üniversitesi, Avustralya; kuluçka UniSA ICC. Önceki turun LinkedIn ve Teknokent rehberi bulguları bu turda açılmadı, doğrulanamadı. Yaprak teknokent kolundan bağımsız dala taşınmalı.",
+"cevap": "Yok. Bu turda açılan şirket sitesi, ICC Adelaide, pv magazine, CB Insights ve Space Insider sayfaları ODTÜ, GÜNAM ya da ODTÜ Teknokent'i anmıyor. Kurucunun akademik kökü Flinders Üniversitesi, Avustralya; kuluçka UniSA ICC. Önceki turun LinkedIn ve Teknokent rehberi bulguları bu turda açılmadı, doğrulanamadı. Fırsat teknokent grubundan bağımsız alana taşınmalı.",
 "kaynak": "firma https://spacelis.com ; haber https://www.pv-magazine.com/?p=40547 ; resmi https://icc.adelaide.edu.au/about/icc-startups-and-residents/spacelis/ ; resmi https://odtuteknokent.com.tr/assets/data/companies.json doğrulanamadı",
 "kime": ""
 },
@@ -27933,7 +27933,7 @@ window.MEKA_DATA = {
 "Kısmen cevaplandı: Kısa listedeki şirket bugün ne durumda?"
 ],
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ yaprağından ayrıldı), bant önerisi izle: Şirket gerçek, kurucu nitelikli ve Seraphim Mission 14 doğrulandı; TÜBİTAK ve DIANA desteği şirket beyanı. Pazar büyüyor ve emsaller 2025'te 17 ile 24 milyon doların üzerinde turlarla çıkış yolunun açık olduğunu gösteriyor; bunlar doğrulandı. Ama bugün yatırımı haklı çıkaran hiçbir veri yok: ölçülmüş verim ve uçuş verisi yok, açılan 12 sayfanın hiçbirinde müşteri ve pilot yok, Nisan 2025 turunun kapandığına kayıt yok, ekip iki kişi görünüyor, iki ülkede iki şirket yapısı açıklanmamış ve açılan sayfalarda ODTÜ bağı yok. 2026 prototip hedefinin tutup tutmadığına dair haber de yok. Esnek ince filmin ticari zorluğunu Ascent Solar'ın 76.773 dolarlık geliri gösteriyor. Bu yüzden elendi değil izle: görüşme ucuz, bilet küçük, karar 2026 prototip verisi ve 2027 yörünge testi tetiğine bağlanır. Tetik tutarsa ikincil banda çıkar; 2027 sonunda veri yoksa elenir.",
+"puan_metni": "Derin çalışma (16 Ekim 2026, ODTÜ fırsatından ayrıldı), bant önerisi izle: Şirket gerçek, kurucu nitelikli ve Seraphim Mission 14 doğrulandı; TÜBİTAK ve DIANA desteği şirket beyanı. Pazar büyüyor ve emsaller 2025'te 17 ile 24 milyon doların üzerinde turlarla çıkış yolunun açık olduğunu gösteriyor; bunlar doğrulandı. Ama bugün yatırımı haklı çıkaran hiçbir veri yok: ölçülmüş verim ve uçuş verisi yok, açılan 12 sayfanın hiçbirinde müşteri ve pilot yok, Nisan 2025 turunun kapandığına kayıt yok, ekip iki kişi görünüyor, iki ülkede iki şirket yapısı açıklanmamış ve açılan sayfalarda ODTÜ bağı yok. 2026 prototip hedefinin tutup tutmadığına dair haber de yok. Esnek ince filmin ticari zorluğunu Ascent Solar'ın 76.773 dolarlık geliri gösteriyor. Bu yüzden elendi değil izle: görüşme ucuz, bilet küçük, karar 2026 prototip verisi ve 2027 yörünge testi tetiğine bağlanır. Tetik tutarsa ikincil banda çıkar; 2027 sonunda veri yoksa elenir.",
 "kapsam_notu": "16 Ekim 2026 derin çalışma: 10 arama, 28 sayfa; 5 açık sorunun 0 tanesi cevaplandı, 1 tanesi görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 4/5. Çürütücü turu: 12 sayfa açıldı, web araması yapılmadı. Doğrulanan kaynaklar: spacelis.com, ICC Adelaide, pv magazine, Space Insider Mission 14 ve Solestial A turu, CB Insights, NASA Güç bölümü, Payload Solestial tohum, Via Satellite mPower, SEC Ascent Solar 10-K, GMI uydu güç sistemleri, NATO DIANA 11 Aralık 2024. NASA, SEC ve NATO sayfaları uzun olduğu için tablo ve rakam bölümleri sayfanın özet kısmından okundu. Açılmayan ve doğrulanamadı işaretlenen 16 kaynak: Donanımhaber, SAHA EXPO, satsearch, b2match, LinkedIn, DefenseScoop iki yazı, Defense News, GCIP TÜBİTAK, MarketsandMarkets, Wikipedia Rocket Lab, Avustralya eşikleri, EY melek indirimi, Ekonomist, ODTÜ Teknokent rehberi, Seraphim Academy, Cottonwood. Bulunamadı: Spacelis Türk ticaret sicili kaydı ve şirket türü, iki şirketin ilişkisi, TÜBİTAK program adı ve tutarı, DIANA hibesinin bağımsız teyidi, 2025 turunun akıbeti, 2026 prototipinin durumu, ölçülmüş verim ve TRL, herhangi bir müşteri ya da pilot, dizi düzeyinde birim fiyat, Sharp uzay hücresi verisi, Rocket Lab SolAero bedeli. Pazar rakamları ticari rapor ve tek kaynak; fiyat rakamı arama özeti. Ekonomi modelinin gelir ve olasılık rakamları tamamen tahmin. Şirketle ilgili çekirdek bilgiler büyük ölçüde kurucunun pv magazine'e verdiği tek demeçten geliyor; CB Insights ve Space Insider yalnız kuruluş, fonlama ve program seçimini doğruluyor. Bu çalışma yatırım tavsiyesi değildir.",
 "guven": 4,
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 27 Eylül 2026",
@@ -28501,7 +28501,7 @@ window.MEKA_DATA = {
 "3 yıl, 30 yıl ve 5.000 hektar: Kanun metni okundu ve m.5, m.6 ile doğrulandı. Arama ruhsatının bir yıl uzatılabildiği eklendi. Tek kaynak ve kanun metni okunamadı ibareleri kaldırıldı.",
 "Devirde vadesi geçmiş borç şartı KOP rehberinde ve kanun metninde yok, silindi.",
 "Yabancı katılım: Kanun m.4/2 hükmü ve m.10 devir ile sicil hükmü eklendi. Yabancıya özel hüküm bulunamadı ifadesi bununla değiştirildi.",
-"Pi Makina: haber 21 Ağustos 2014 tarihli ve petrol sondaj kulesinden söz ediyor. MEKA'ya benzer iş kolu cümlesi kaynaksız olduğu için silindi.",
+"Pi Makina: haber 21 Ağustos 2014 tarihli ve petrol sondaj kulesinden söz ediyor. MEKA'ya benzer iş grubu cümlesi kaynaksız olduğu için silindi.",
 "Zorlu, Çelikler, Türkerler: haber tarihleri (22 Mart 2018, 10 Haziran 2019, 1 Kasım 2018) eklendi, rakamlar doğrulandı.",
 "Gürmat: 970 milyon dolar ve EBRD 150 milyon dolar rakamları doğrulanamadığı için silindi, kayıt doğrulanamadı olarak işaretlendi.",
 "Kipaş kaydı kaynaksız olduğu için firmalar listesinden silindi.",
@@ -28898,7 +28898,7 @@ window.MEKA_DATA = {
 "id": "depolama_hak",
 "baslik": "Avrupa depolama hakları (Almanya, İspanya, İngiltere, İtalya)",
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: İzle, tetiği tarihli ve ölçülebilir. Teyit edilen kısım: İtalya'da MACSE-2 24 Kasım 2026'da ve başvuru kapalı, MACSE-1 fiyatı 12.959 €/MWh-yıl, inşaata hazır proje medyanı 37.500 €/MW; Almanya'da usul, ücret, teminat ve 30 Kasım 2026 takvimi üç kaynakla sağlam; İngiltere'de kuyruk 91 GW ve kapasite fiyatı 5 sterlin, hak maliyete dönüşüyor. Teyit edilemeyen kısım: 27.000 tavanı, ARERA maliyet varsayımları, Terna hisse devri izni, Ofgem Gate 2 tarihleri ve İspanya emri; bu beşi yaprağın kapı ve getiri hesabının omurgası. Getiri kanıtı yok: MACSE-1 fiyatıyla 32 milyon euroluk yatırım 15 yılda geri dönmüyor, başabaş prim yaklaşık 15.200 €/MWh-yıl, işlem bedelleri açıklanmıyor. 24 Kasım 2026 MACSE-2 sonucu 20.000 €/MWh-yıl üstünde kapanırsa, ARERA ve Terna belgeleri metin olarak doğrulanırsa ve bir İtalyan geliştiriciyle hisse yolu açılırsa ikincile yükselt. Almanya ikinci döngü tarihi ya da İspanya ilk çağrısı çıkarsa yeniden değerlendir.",
+"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: İzle, tetiği tarihli ve ölçülebilir. Teyit edilen kısım: İtalya'da MACSE-2 24 Kasım 2026'da ve başvuru kapalı, MACSE-1 fiyatı 12.959 €/MWh-yıl, inşaata hazır proje medyanı 37.500 €/MW; Almanya'da usul, ücret, teminat ve 30 Kasım 2026 takvimi üç kaynakla sağlam; İngiltere'de kuyruk 91 GW ve kapasite fiyatı 5 sterlin, hak maliyete dönüşüyor. Teyit edilemeyen kısım: 27.000 tavanı, ARERA maliyet varsayımları, Terna hisse devri izni, Ofgem Gate 2 tarihleri ve İspanya emri; bu beşi fırsatın kapı ve getiri hesabının omurgası. Getiri kanıtı yok: MACSE-1 fiyatıyla 32 milyon euroluk yatırım 15 yılda geri dönmüyor, başabaş prim yaklaşık 15.200 €/MWh-yıl, işlem bedelleri açıklanmıyor. 24 Kasım 2026 MACSE-2 sonucu 20.000 €/MWh-yıl üstünde kapanırsa, ARERA ve Terna belgeleri metin olarak doğrulanırsa ve bir İtalyan geliştiriciyle hisse yolu açılırsa ikincile yükselt. Almanya ikinci döngü tarihi ya da İspanya ilk çağrısı çıkarsa yeniden değerlendir.",
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 30 Eylül 2026",
 "ne": "Avrupa'da büyük batarya projelerinin tuttuğu hakları satın almak ya da bu projelere geliştirme aşamasında ortak olmak. Hak üç biçimde geliyor: şebeke bağlantı rezervasyonu, kapasite ya da prim sözleşmesi ve izinli proje şirketi. Değer, izin ve bağlantı belgesi olan ve bir gelir ihalesine girebilecek projede toplanıyor. İş sahada makine değil sermaye, hukuk ve zamanlama ister.",
 "neden": "Dört ülkede de kapıyı tutan şey hak. İtalya'da yalnız izinli ve bağlantılı proje MACSE ihalesine girebiliyor; MACSE-2 ihalesi 24 Kasım 2026'da, 16 GWh için (ESS News 2 Haziran 2026 ile teyit). Prim tavanının 27.000 €/MWh-yıl olduğu iddiası ARERA kararına dayanıyor; karar PDF'i bu turda metin olarak okunamadı, doğrulanamadı. Almanya'da bağlantı artık sıraya göre değil olgunluk puanına göre veriliyor, ilk döngünün bağlayıcı teklifleri 30 Kasım 2026'ya kadar çıkacak (Gleiss Lutz ve Addleshaw Goddard ile teyit). İspanya kapasite piyasası iddiası Pérez-Llorca ve Garrigues notlarına dayanıyor, bu turda açılmadı. İngiltere'de batarya kuyruğu 91 GW, hedef 29 GW ve 2027'den itibaren 3.000 ile 25.000 £/MW kuyruk ücreti öneriliyor (Modo 24 Temmuz 2026 ile teyit); hak orada değer değil maliyet üretiyor. Türkiye'de 568 depolamalı ön lisanslı proje var (AA 31 Temmuz 2026 ile teyit). Türk yatırımcı için bilet 1 ile 3 milyon euro ile başlıyor ve inşaat için ortak gerekiyor.",
@@ -28974,7 +28974,7 @@ window.MEKA_DATA = {
 "kaynak": "haber https://www.aa.com.tr/tr/enerjiterminali/elektrik/on-lisansli-depolamali-elektrik-projelerinin-kurulu-gucu-28-bin-megavati-asti/58688"
 }
 ],
-"durum": "16 Ekim 2026 itibarıyla dört ülkede de yeni girişçiye açık, tarihi belli bir birincil pencere yok. İtalya'da MACSE-2 başvurusu 27 Temmuz 2026'da kapandı, ihale 24 Kasım 2026'da, 16 GWh, teslim 2029 (ESS News teyit). Terna'nın 7 Temmuz 2026 SSS belgesine dayandırılan hisse devri izni ve vekalet yasağı bu turda doğrulanamadı; PDF metni okunamadı, yalnız 6 Temmuz 2026 oluşturma tarihi ve 7 sayfa olduğu görüldü. MACSE-2 tavanının 27.000 €/MWh-yıl olduğu iddiası da ARERA PDF'inden doğrulanamadı; dosya 25 Eylül 2026'da oluşturulmuş bir DELIBERA. Sonuç fiyatı bu yaprağın en önemli tetiği olmaya devam ediyor. İspanya kapasite piyasası iddiaları (18 Eylül 2026 yürürlük, ikincil pazar) bu turda açılmayan hukuk bürosu notlarına dayanıyor. Almanya'da ilk döngünün bağlayıcı teklifleri 30 Kasım 2026'ya kadar çıkacak, döngü Şubat 2027'de bitecek, ikinci döngü tarihi yok; değerlendirilmeyen başvurular ücretsiz devrediliyor (Gleiss Lutz ve Addleshaw Goddard teyit). Bağlantılar en erken 2029, bazı TSO'larda 2032. İngiltere'de batarya kuyruğu 91 GW ile 29 GW hedefin üç katı (Modo teyit), T-1 fiyatı 5 sterline düştü (ESS News teyit), Temmuz 2027'den itibaren 3.000 ile 25.000 £/MW kuyruk ücreti öneriliyor; Gate 2 teklif takvimi Ofgem PDF'inden doğrulanamadı. Bu pazar yeni hak alıcısı için kapalı sayılmalı. Doğrulanmış işlem fiyatı yalnız İtalya'da ve tek platformdan (nTeaser, ESS News teyit); 2026'daki on satın almanın hiçbirinde bedel açıklanmadı, bu işlemlerin sayfaları bu turda açılmadı.",
+"durum": "16 Ekim 2026 itibarıyla dört ülkede de yeni girişçiye açık, tarihi belli bir birincil pencere yok. İtalya'da MACSE-2 başvurusu 27 Temmuz 2026'da kapandı, ihale 24 Kasım 2026'da, 16 GWh, teslim 2029 (ESS News teyit). Terna'nın 7 Temmuz 2026 SSS belgesine dayandırılan hisse devri izni ve vekalet yasağı bu turda doğrulanamadı; PDF metni okunamadı, yalnız 6 Temmuz 2026 oluşturma tarihi ve 7 sayfa olduğu görüldü. MACSE-2 tavanının 27.000 €/MWh-yıl olduğu iddiası da ARERA PDF'inden doğrulanamadı; dosya 25 Eylül 2026'da oluşturulmuş bir DELIBERA. Sonuç fiyatı bu fırsatın en önemli tetiği olmaya devam ediyor. İspanya kapasite piyasası iddiaları (18 Eylül 2026 yürürlük, ikincil pazar) bu turda açılmayan hukuk bürosu notlarına dayanıyor. Almanya'da ilk döngünün bağlayıcı teklifleri 30 Kasım 2026'ya kadar çıkacak, döngü Şubat 2027'de bitecek, ikinci döngü tarihi yok; değerlendirilmeyen başvurular ücretsiz devrediliyor (Gleiss Lutz ve Addleshaw Goddard teyit). Bağlantılar en erken 2029, bazı TSO'larda 2032. İngiltere'de batarya kuyruğu 91 GW ile 29 GW hedefin üç katı (Modo teyit), T-1 fiyatı 5 sterline düştü (ESS News teyit), Temmuz 2027'den itibaren 3.000 ile 25.000 £/MW kuyruk ücreti öneriliyor; Gate 2 teklif takvimi Ofgem PDF'inden doğrulanamadı. Bu pazar yeni hak alıcısı için kapalı sayılmalı. Doğrulanmış işlem fiyatı yalnız İtalya'da ve tek platformdan (nTeaser, ESS News teyit); 2026'daki on satın almanın hiçbirinde bedel açıklanmadı, bu işlemlerin sayfaları bu turda açılmadı.",
 "acik_sorular": [
 "Kısmen cevaplandı: Almanya TSO 2. tur ve İspanya ilk kapasite ihalesi ne zaman?",
 "Kısmen cevaplandı: İtalya MACSE-2 yeni girişçiye kapalı mı, kabul edilmiş proje devredilebilir mi?",
@@ -28992,7 +28992,7 @@ window.MEKA_DATA = {
 "ne_zaman": "Ekim 2026, hemen"
 },
 {
-"adim": "24 Kasım 2026 MACSE-2 sonucunu kaydet: bölge fiyatları, kazananlar, tavana oran. Ağırlıklı ortalama 20.000 €/MWh-yıl üstündeyse yaprağı ikincile yükselt, altındaysa İtalya'da yalnız ucuz erken aşama proje bak.",
+"adim": "24 Kasım 2026 MACSE-2 sonucunu kaydet: bölge fiyatları, kazananlar, tavana oran. Ağırlıklı ortalama 20.000 €/MWh-yıl üstündeyse fırsatı ikincile yükselt, altındaysa İtalya'da yalnız ucuz erken aşama proje bak.",
 "kim": "Araştırma ekibi",
 "ne_zaman": "25 Kasım ile 5 Aralık 2026"
 },
@@ -29059,7 +29059,7 @@ window.MEKA_DATA = {
 },
 {
 "tarih": "24 Kasım 2026",
-"olay": "İtalya MACSE-2 ihalesi, 16 GWh, teslim 2029, yalnız lityum batarya. Tavan 27.000 €/MWh-yıl iddiası doğrulanamadı. Yaprağın ana tetiği.",
+"olay": "İtalya MACSE-2 ihalesi, 16 GWh, teslim 2029, yalnız lityum batarya. Tavan 27.000 €/MWh-yıl iddiası doğrulanamadı. Fırsatın ana tetiği.",
 "kaynak": "haber https://www.ess-news.com/2026/06/02/italy-sets-november-date-for-macse-storage-auction-targeting-16-gwh/ ; diger https://www.solareindustriale.it/blog-fotovoltaico/mercato-termine-stoccaggi",
 "iso": "2026-11-24"
 },
@@ -29405,7 +29405,7 @@ window.MEKA_DATA = {
 "Sphera, Sonnedix, Alpiq, Harmony, Modo ve ARERA kayıtları açılmayan sayfalara dayandığı için doğrulanamadı notu aldı. Almanya 717 talep ve 270 GW, Endesa tahmini ve Almanya on ay süresi de doğrulanamadı olarak işaretlendi.",
 "Almanya 4 saatlik batarya getirisi yüzde 13,7 ve 935.000 €/MW Modo arama özetine dayandığı için doğrulanamadı olarak işaretlendi. İtalya izinli proje medyanı ifadesi inşaata hazır proje medyanı olarak düzeltildi.",
 "Adım 1'de MACSE-2 sonrası satılık kabul edilmiş projeler ifadesi kaynaksız olduğu için kabul edilmiş projelerin devir imkanı, kural bulunamadı olarak değiştirildi.",
-"inceleme_sonuc.json referansları silindi: dosya verilen kaynak listesinde yok ve klasörde bulunamadı. Kaynaklar 4. madde ve çelişkiler 5. madde, ağaç yerleşimi notu, çıkarıldı.",
+"inceleme_sonuc.json referansları silindi: dosya verilen kaynak listesinde yok ve klasörde bulunamadı. Kaynaklar 4. madde ve çelişkiler 5. madde, harita yerleşimi notu, çıkarıldı.",
 "İspanya için 'AB onayı 30 Mayıs 2026' ifadesi 'AB onayı haberi 30 Mayıs 2026' yapıldı; 10 bu tarihi haber tarihi olarak veriyor.",
 "24 Kasım 2026 takvim satırından '16 GWh hedef' çıkarıldı; rakam yalnız kaynak 68'in başlığında geçiyor, metinde yok. Not olarak bırakıldı.",
 "durum: '15 Ekim 2026 itibarıyla' ifadesi kaldırıldı; kaynağın durum tarihi 30 Eylül 2026 yazıldı ve sonrası için bilgi olmadığı belirtildi.",
@@ -29836,7 +29836,7 @@ window.MEKA_DATA = {
 "id": "biyo_ilac",
 "baslik": "Biyolojik ilaç ikamesi",
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: Alan kendi başına değerlendirildi, MEKA'ya uyum puana girmedi. Doğrulanan çekirdek: pazar 2025'te 90,9 Mrd TL ve toplam pazarın %21,1'i (İEİS 2025 raporu özeti); ithalat 7,3 Mrd$ ve artıyor; devlet 2026'da 380 ilacı listeye aldı ve son iki duyuruda 203 ilacın 188'i yerli (SGK duyuruları); fiyat rejimi Karar 11031 metniyle netleşti: %65 katsayı, %60 tavan, ilk eşdeğere üç yıl %80/%75/%70 ve imal eşdeğere pazar payına bağlı koruma; biyobenzer oranı tebliğde ve okunmadı; plazma kolu Kızılay ve SK Plasma'nın 500 M€'luk projesiyle kapalı, özel ortak yok. Doğrulanamayan ama hükmü etkileyen iddialar: 13 tesisin atıl olduğu, SGK iskontosunun %27 olduğu, ilaç avrosunun piyasa kurunun %51,9'u olduğu ve yerli biyobenzer payının düştüğü; bunlar İEİS PDF'lerinden okunamadı. Öne çıkan ya da ikincil bant için gereken kapı yok: biyobenzer fiyat oranı bilinmiyor, alım garantisi birincil metinde yok, atıl tesis iddiası doğrulanmadı. Elemek için erken: Karar 11031 imal eşdeğere dolaylı avantaj getirdi ve bu mantık tebliğde biyobenzere de uygulanmış olabilir; SGK listeleme hızı yüksek. Üç tetik bandı yükseltir: tebliğ tam metninde biyobenzere referansın %70 ve üstü fiyat ya da imal biyobenzere açık avantaj; yerli biyobenzer için süresi ve fiyatı belli kamu alım garantisinin resmî metinde yer alması; bir biyoteknoloji tesisinin azınlık payı ya da kapasite ortaklığı teklif etmesi. 2027 avro değeri ilanına kadar hiçbiri gelmezse elendi bandına inilmeli. Geri ödeme nominal 7 yıl, iskontolu 9 ile 11 yıl, tahmin.",
+"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: Alan kendi başına değerlendirildi, MEKA'ya uyum puana girmedi. Doğrulanan çekirdek: pazar 2025'te 90,9 Mrd TL ve toplam pazarın %21,1'i (İEİS 2025 raporu özeti); ithalat 7,3 Mrd$ ve artıyor; devlet 2026'da 380 ilacı listeye aldı ve son iki duyuruda 203 ilacın 188'i yerli (SGK duyuruları); fiyat rejimi Karar 11031 metniyle netleşti: %65 katsayı, %60 tavan, ilk eşdeğere üç yıl %80/%75/%70 ve imal eşdeğere pazar payına bağlı koruma; biyobenzer oranı tebliğde ve okunmadı; plazma grubu Kızılay ve SK Plasma'nın 500 M€'luk projesiyle kapalı, özel ortak yok. Doğrulanamayan ama hükmü etkileyen iddialar: 13 tesisin atıl olduğu, SGK iskontosunun %27 olduğu, ilaç avrosunun piyasa kurunun %51,9'u olduğu ve yerli biyobenzer payının düştüğü; bunlar İEİS PDF'lerinden okunamadı. Öne çıkan ya da ikincil bant için gereken kapı yok: biyobenzer fiyat oranı bilinmiyor, alım garantisi birincil metinde yok, atıl tesis iddiası doğrulanmadı. Elemek için erken: Karar 11031 imal eşdeğere dolaylı avantaj getirdi ve bu mantık tebliğde biyobenzere de uygulanmış olabilir; SGK listeleme hızı yüksek. Üç tetik bandı yükseltir: tebliğ tam metninde biyobenzere referansın %70 ve üstü fiyat ya da imal biyobenzere açık avantaj; yerli biyobenzer için süresi ve fiyatı belli kamu alım garantisinin resmî metinde yer alması; bir biyoteknoloji tesisinin azınlık payı ya da kapasite ortaklığı teklif etmesi. 2027 avro değeri ilanına kadar hiçbiri gelmezse elendi bandına inilmeli. Geri ödeme nominal 7 yıl, iskontolu 9 ile 11 yıl, tahmin.",
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 30 Eylül 2026",
 "ne": "Türkiye'nin ithal ettiği biyoteknolojik ilaçları, yani referans biyolojikleri, biyobenzerleri ve plazma türevlerini yerli üretim ya da lisanslı yerel dolumla ikame etmek. Türk yatırımcı için gerçekçi giriş yolları: yabancı biyobenzer geliştiricisinden lisans alıp yerli bir tesiste dolum ve bitirme yaptırmak, mevcut bir Türk biyoteknoloji CDMO'suna azınlık payıyla girmek ya da halka açık bir ilaç şirketinde pay almak. Sıfırdan tam zincir tesis 100 M$ ve üstü (AbdiBio 2018, Forbes), plazma tesisi 500 M€ ölçeğinde (Proturk) ve plazma yolu Kızılay ile SK Plasma tarafından kapatılmış durumda.",
 "neden": "Pazar büyük ve ithalata bağımlı: İEİS Türkiye İlaç Sektörü 2025 raporuna göre biyoteknolojik ilaç pazarı 2025'te 90,9 Mrd TL (referans 82,7, biyobenzer 8,2), toplam ilaç pazarı 430,8 Mrd TL, pay %21,1 (hesap bizim); ilaç ithalatı 2025'te 7,3 Mrd$ ve %17,4 arttı (Medikal Akademi özeti, doğrulandı). Referans biyolojiklerin tamamının ithal olduğu iddiası İEİS biyoteknoloji PDF'ine dayanıyor; bu PDF bu turda açıldı ama metin çıkarılamadı, doğrulanamadı. Devlet yerlileştirme istiyor: 1 Nisan 2026'da listeye alınan 72 ilacın 69'u yerli (Politikam, doğrulandı); 16 Ekim 2026'da 131 ilaç daha eklendi, 119'u yerli, 2026 toplamı 380 ilaç (Ekonomist/AA, doğrulandı). Ama sektör birliğinin 1,1 Mrd$ teşvikle kurulan 13 biyoteknoloji tesisinin atıl olduğu, SGK'ya ortalama %27 iskonto verildiği ve ilaç avrosunun piyasa kurunun %51,9'u olduğu iddiaları İEİS PDF'lerine dayanıyor ve bu turda doğrulanamadı. Karar 11031 metni doğrulandı: avro katsayısı %65, eşdeğere %60 tavan, ilk eşdeğerlere üç yıl %80/%75/%70 kademesi ve imal eşdeğer pazar payına bağlı koruma var; biyobenzer fiyatı tebliğe bırakılmış. Yani alan bağımsız bir yatırım olarak büyük ama kârlılığı fiyat rejimi belirliyor ve kapı ruhsat süresi ile geri ödeme kararı.",
@@ -29920,7 +29920,7 @@ window.MEKA_DATA = {
 "Kısmen cevaplandı: Rekabet Kurulu bildirim eşikleri ve yabancı alıcıya özel ilaç sınırı var mı?",
 "Kısmen cevaplandı: Biyolojik segmentin büyüklüğü nedir; en büyük ithal kalemlerde hangi yerli firmalar üretim planlıyor?",
 "Kısmen cevaplandı: Deva ve TRILC kartlarının tarihi ne; Sanovel'in 2026 satış fiyatı ne?",
-"Kısmen cevaplandı: Yerli üretim teşviki var mı; plazma türevi kolunda özel girişime yer var mı?"
+"Kısmen cevaplandı: Yerli üretim teşviki var mı; plazma türevi grubunda özel girişime yer var mı?"
 ],
 "adimlar": [
 {
@@ -29963,7 +29963,7 @@ window.MEKA_DATA = {
 "Fiyat rejimi: avro katsayısı %65, eşdeğere %60 tavan, ilk eşdeğerlere %80/%75/%70 kademesi (Karar 11031 metni doğrulandı); biyobenzer oranı tebliğde ve okunmadı; ilaç avrosunun piyasa kurunun %51,9'u olduğu ve SGK iskontosunun ortalama %27 olduğu iddiaları İEİS PDF'lerine dayanır ve bu turda doğrulanamadı.",
 "Atıl kapasite ve düşen yerli pay: 13 tesisin atıl olduğu ve imal biyobenzerin değer payının %2,7'ye indiği iddiaları İEİS kaynaklı, bu turda doğrulanamadı. Doğrulanırsa yeni giren mevcut atıl kapasiteyle rekabet eder.",
 "Süre ve geri ödeme kapısı: ruhsat fiilen 2,5 ile 3 yıla kadar (önceki turdan, bu turda açılmadı); SGK listelemesi toplu kararlarla, 2026'da en az dört duyuru ve 380 ilaç (doğrulandı). İlk gelir yeni üründe 36 ile 48 ay, tahmin.",
-"Devlet projesi ve alım garantisi belirsizliği: plazma kolu Kızılay ve SK Plasma projesiyle kapalı (doğrulandı); yerli biyobenzer için alım garantisi yalnız sektör talebi (doğrulanamadı); OVP birincil metni okunamadı. Garanti gelirse ilk yararlanan mevcut tesisler olur, çıkarım.",
+"Devlet projesi ve alım garantisi belirsizliği: plazma grubu Kızılay ve SK Plasma projesiyle kapalı (doğrulandı); yerli biyobenzer için alım garantisi yalnız sektör talebi (doğrulanamadı); OVP birincil metni okunamadı. Garanti gelirse ilk yararlanan mevcut tesisler olur, çıkarım.",
 "Kur ve hacim: toplam ilaç pazarı 2025'te değerde %32,7, kutuda %3,2 büyüdü (doğrulandı); büyümenin çoğu fiyat ve kurdan. Dolar bazında biyoteknolojik pazar 1,9 ile 2,1 Mrd$ bandında, Sandoz yöneticisinin 2,5 ile 3 Mrd$ rakamıyla bağdaşmıyor.",
 "Değerleme ve likidite: TRILC ve Deva rakamları bu turda doğrulanamadı; Sanovel fiyatı açıklanmadı. Azınlık payında çıkış yolu dar, alıcı genelde stratejik yabancı.",
 "Kaynak kalitesi: Forbes AbdiBio yazısı reklam iş birliği içeriği; OM Pharma bedeli haberde kendi içinde çelişkili; İEİS rakamları sektör birliği kaynaklı ve bu turda PDF'lerden okunamadı."
@@ -30336,7 +30336,7 @@ window.MEKA_DATA = {
 "Takvim: Karar 11031 ve IQVIA satırlarına doğrulanamadı notu, Rekabet satırına Resmî Gazete sayısı, OVP satırına mükerrer notu eklendi.",
 "Bant gerekçesinde Kızılay alıyor yerine projesi var, satışa konu şirketler yerine el değiştiren şirketler yazıldı. Çelişkiler bölümüne ödeyici ve yerli üretim maddeleri eklendi, pay hesabı maddesi yeniden yazıldı.",
 "5 Ekim 2026 incelemesine yapılan bütün atıflar çıkarıldı: durum, takvim 4 ve 5, kaynaklar üçüncü madde, çelişkiler 1 ile 6. Bu dosya verilen kaynak dosyalar arasında yok ve klasörde bulunamadı.",
-"Çelişkiler 1, 2, 3, 4 ve 5 Belge 10 metninde doğrudan doğrulandı; kaynak atıfları Belge 10'un bölüm adlarına çevrildi. Ağaç yerleşimi çelişkisi silindi; yalnız incelemeye dayanıyordu.",
+"Çelişkiler 1, 2, 3, 4 ve 5 Belge 10 metninde doğrudan doğrulandı; kaynak atıfları Belge 10'un bölüm adlarına çevrildi. Harita yerleşimi çelişkisi silindi; yalnız incelemeye dayanıyordu.",
 "Çelişkilere Belge 09 ile Belge 10 arasındaki kapsam farkı eklendi.",
 "puan_metni'ne 'MEKA'ya uyum puana katılmamış' ve 'on alan içinde 6 / 10 alan dört alandan biri' eklendi; Belge 10 Bölüm 1 ve 2.",
 "neden alanına 'eşdeğer ürünlerde münhasırlık yok' ve 'tarihli bir tetik yok' eklendi; Belge 10 B5 Kapı satırı ve Neden zayıf halka.",
@@ -30585,9 +30585,9 @@ window.MEKA_DATA = {
 "kime": "KAP bildirimleri; Afendis Capital Management."
 },
 {
-"soru": "Yerli üretim teşviki var mı; plazma türevi kolunda özel girişime yer var mı?",
+"soru": "Yerli üretim teşviki var mı; plazma türevi grubunda özel girişime yer var mı?",
 "durum": "kismen",
-"cevap": "Doğrulanan: Karar 11031 madde 2/12 imal eşdeğer ürünlerin pazar payına bağlı daha yüksek fiyat oranı koruması getiriyor (ilk yıl sonunda %5 pay ile ikinci yıl %80, %10 pay ile üçüncü yıl %75); bu dolaylı bir imal ürün avantajı, ama biyobenzerler genel kuralın dışında ve tebliğe bağlı. Madde 2/19 imal ürüne maliyet kartı imkânı veriyor. HİT-30'da biyoteknolojik ilaç stratejik sektör (Medikal Akademi). Plazma kolu doğrulandı: Proturk'ta SK Plasma %15, kalan Kızılay tarafında; ticari üretime kadar fason işi Andong'da; özel ortak yok. Doğrulanamayan: 13 tesis 1,1 Mrd$ teşvik ve atıl tesis iddiası, alım garantisi talebi (Malkoç PDF). Sanayi ve Teknoloji Bakanlığı'nın ana paydaş olduğu iddiası kaynakta yok, silindi.",
+"cevap": "Doğrulanan: Karar 11031 madde 2/12 imal eşdeğer ürünlerin pazar payına bağlı daha yüksek fiyat oranı koruması getiriyor (ilk yıl sonunda %5 pay ile ikinci yıl %80, %10 pay ile üçüncü yıl %75); bu dolaylı bir imal ürün avantajı, ama biyobenzerler genel kuralın dışında ve tebliğe bağlı. Madde 2/19 imal ürüne maliyet kartı imkânı veriyor. HİT-30'da biyoteknolojik ilaç stratejik sektör (Medikal Akademi). Plazma grubu doğrulandı: Proturk'ta SK Plasma %15, kalan Kızılay tarafında; ticari üretime kadar fason işi Andong'da; özel ortak yok. Doğrulanamayan: 13 tesis 1,1 Mrd$ teşvik ve atıl tesis iddiası, alım garantisi talebi (Malkoç PDF). Sanayi ve Teknoloji Bakanlığı'nın ana paydaş olduğu iddiası kaynakta yok, silindi.",
 "kaynak": "resmi https://www.alomaliye.com/2026/03/12/beseri-tibbi-urunlerin-fiyatlandirilmasina-dair-karar-karar-sayisi-11031/amp/ doğrulandı ; haber https://en.nocutnews.co.kr/news/6532894 doğrulandı ; haber https://www.haberler.com/guncel/ankara-da-kurulacak-turk-kizilay-proturk-plazma-19938673-haberi/ doğrulandı ; rapor https://www.ieis.org.tr/static/shared/basindabiz//297253YWc_winally03-07.pdf doğrulanamadı",
 "kime": "Tedarikçi rolü için Kızılay Yatırım yatırım yöneticisi Mustafa Günhan Nasuhbeyoğlu; İEİS."
 }
@@ -30703,9 +30703,9 @@ window.MEKA_DATA = {
 "id": "ssb_batarya",
 "baslik": "SSB batarya ekosistemi ve OTAĞ",
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle (önceki: elendi): Önceki elendi hükmü MEKA'nın hücre ve BMS yetkinliği olmamasına dayanıyordu; bağımsız dalda bu ölçüt kullanılmaz. İş kendi başına değerlendirildiğinde kapı özel firmaya kapalı değil: Altınay 4,96 milyon dolarlık batarya sözleşmesi aldı ve PhillipCapital notu Roketsan ile AKYA batarya seri üretimini teyit ediyor; OTAĞ'a katılım herkese açıktı. Ancak açık çağrı yok, yol haritası yayımlanmadı, ana oyuncu vakıf iştiraki, Türkiye'de açıklanan sözleşmeler 5 milyon dolar düzeyinde, SSB kredisi kote firmalara kapalı ve ortak adayı Altınay 1Ç26'da zarar yazdı. 3 ile 6 milyon dolarlık biletin geri ödemesi baz senaryoda 6 ile 7 yıl; önceki 7 ile 9 yıl hesapla uyuşmuyordu. Bu getiri bugün yatırımı haklı çıkarmaz; OTAĞ raporu ya da bataryaya özel SAGA çağrısı çıkınca yeniden bakılmalı. Hüküm elendi değil izle.",
+"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle (önceki: elendi): Önceki elendi hükmü MEKA'nın hücre ve BMS yetkinliği olmamasına dayanıyordu; bağımsız alanda bu ölçüt kullanılmaz. İş kendi başına değerlendirildiğinde kapı özel firmaya kapalı değil: Altınay 4,96 milyon dolarlık batarya sözleşmesi aldı ve PhillipCapital notu Roketsan ile AKYA batarya seri üretimini teyit ediyor; OTAĞ'a katılım herkese açıktı. Ancak açık çağrı yok, yol haritası yayımlanmadı, ana oyuncu vakıf iştiraki, Türkiye'de açıklanan sözleşmeler 5 milyon dolar düzeyinde, SSB kredisi kote firmalara kapalı ve ortak adayı Altınay 1Ç26'da zarar yazdı. 3 ile 6 milyon dolarlık biletin geri ödemesi baz senaryoda 6 ile 7 yıl; önceki 7 ile 9 yıl hesapla uyuşmuyordu. Bu getiri bugün yatırımı haklı çıkarmaz; OTAĞ raporu ya da bataryaya özel SAGA çağrısı çıkınca yeniden bakılmalı. Hüküm elendi değil izle.",
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 30 Eylül 2026",
-"ne": "Türkiye savunma sanayii için lityum batarya hücresi, batarya yönetim sistemi ve paket entegrasyonu işi. Savunma Sanayii Başkanlığı 10 Eylül 2025'te Batarya Teknolojileri OTAĞ'ını TUSAŞ koordinasyonunda başlattı; yol haritası 16 Ekim 2026'da hâlâ yayımlanmamış, SSB Ar-Ge portalında ne tamamlanan ne devam eden listede. Pazar ana yüklenici sözleşmeleri ve offset yükümlülükleriyle işliyor. Yerli oyuncular TSKGV iştiraki ASPİLSAN, borsaya kote Altınay Savunma ve KOBİ ölçekli Birikim Pilleri. Bağımsız bir yatırım konusu olarak değerlendirildi; MEKA uyumu bu yaprakta ölçülmedi. Hücre üretimi 4. kapı, paket ve entegrasyon işi 3. kapı.",
+"ne": "Türkiye savunma sanayii için lityum batarya hücresi, batarya yönetim sistemi ve paket entegrasyonu işi. Savunma Sanayii Başkanlığı 10 Eylül 2025'te Batarya Teknolojileri OTAĞ'ını TUSAŞ koordinasyonunda başlattı; yol haritası 16 Ekim 2026'da hâlâ yayımlanmamış, SSB Ar-Ge portalında ne tamamlanan ne devam eden listede. Pazar ana yüklenici sözleşmeleri ve offset yükümlülükleriyle işliyor. Yerli oyuncular TSKGV iştiraki ASPİLSAN, borsaya kote Altınay Savunma ve KOBİ ölçekli Birikim Pilleri. Bağımsız bir yatırım konusu olarak değerlendirildi; MEKA uyumu bu fırsatta ölçülmedi. Hücre üretimi 4. kapı, paket ve entegrasyon işi 3. kapı.",
 "neden": "Dünya askeri batarya pazarı 2025 için Meticulous tarafından 4,42 milyar dolar olarak veriliyor; diğer üç ticari tahmin 1,67 ile 2,9 milyar dolar arasında ama bu turda doğrulanamadı. İnsansız sistemler en hızlı büyüyen uygulama, paket ve modül en büyük bileşen payı, BMS en hızlı büyüyen bileşen. Türkiye'de talep var ama sözleşmeler küçük: açıklanan tek batarya sözleşmesi 4,96 milyon dolar. Çıkış çarpanı yüksek: EnerSys, Bren-Tronics'i 2024'te FAVÖK'ün 8,7 katına, satışların yaklaşık 2,1 katına aldı. Kapı büyük firmaya kapalı değil; Altınay örneği özel sermayeli bir firmanın torpido bataryası seri üretimini alabildiğini gösteriyor. Ancak açık çağrı yok, ana oyuncu vakıf iştiraki, SSB kredi programı borsaya kote firmaları dışlıyor ve Altınay 1Ç26'da zarar yazdı. Bu yüzden konu yatırım değil izleme konusu.",
 "rakamlar": [
 {
@@ -30824,7 +30824,7 @@ window.MEKA_DATA = {
 "ne_zaman": "15 Aralık 2026"
 },
 {
-"adim": "SSB duyuru listesinin ve Ar-Ge portalının ayda bir taranması; batarya SAGA çağrısı ya da OTAĞ raporu çıkarsa yaprağın yeniden açılması",
+"adim": "SSB duyuru listesinin ve Ar-Ge portalının ayda bir taranması; batarya SAGA çağrısı ya da OTAĞ raporu çıkarsa fırsatın yeniden açılması",
 "kim": "Araştırma sorumlusu",
 "ne_zaman": "Her ayın ilk haftası, Kasım 2026'dan itibaren"
 },
@@ -30834,7 +30834,7 @@ window.MEKA_DATA = {
 "ne_zaman": "Mart 2027"
 },
 {
-"adim": "Batarya OTAĞ raporu yayımlandığında yol haritasındaki paket, kasa ve ısıl yönetim kalemleri için 2 haftalık fizibilite ve yaprağın bant kararı",
+"adim": "Batarya OTAĞ raporu yayımlandığında yol haritasındaki paket, kasa ve ısıl yönetim kalemleri için 2 haftalık fizibilite ve fırsatın bant kararı",
 "kim": "Yatırım komitesi",
 "ne_zaman": "Rapor yayımından sonraki 30 gün içinde, en geç Aralık 2027"
 }
@@ -31137,7 +31137,7 @@ window.MEKA_DATA = {
 }
 ],
 "celiskiler": [
-"Önceki çalışma yaprağı MEKA'nın hücre ve BMS yetkinliği olmadığı için elendi saymıştı; bağımsız dal talimatına göre MEKA uyumu bu yaprakta ölçülmez, hüküm izle olarak değişti",
+"Önceki çalışma fırsatı MEKA'nın hücre ve BMS yetkinliği olmadığı için elendi saymıştı; bağımsız alan talimatına göre MEKA uyumu bu fırsatta ölçülmez, hüküm izle olarak değişti",
 "Önceki çalışma Altınay AKYA sözleşmesinin tutarını açıklanmadı yazmıştı; 5 Mayıs 2026 KAP bildirimi yurt içi müşteriyle 4,96 milyon dolarlık lityum batarya sözleşmesi veriyor; PhillipCapital notu AKYA batarya seri üretim sözleşmesinin Roketsan ile olduğunu yazıyor ama segment ciro katkısı açıklanmadı; KAP müşteri adı vermediği için iki sözleşmenin aynı olduğu çıkarım",
 "Önceki firma listesi ASPİLSAN'ın OTAĞ BMS grubu lideri olduğunu genel müdür söyleşisine dayandırıyordu; ASPİLSAN'ın kendi OTAĞ katılım sayfası liderlikten söz etmiyor; SSB duyurusu yalnız TUSAŞ'ı lider kuruluş olarak veriyor; iddia tek kaynak kalıyor",
 "Çalışma dünya pazarını 1,67 ile 4,42 milyar dolar aralığında vermişti; bu turda yalnız Meticulous 4,42 doğrulandı, alt sınırı veren üç rapor arama özetinden ve doğrulanamadı; aralık tek kaynağa dayanır",
@@ -32076,7 +32076,7 @@ window.MEKA_DATA = {
 "5 Ekim 2026 inceleme dosyası verilen kaynaklarda yok ve dizinde bulunamadı; durum alanındaki 'inceleme görev açık duruyor' cümlesi çıkarıldı.",
 "kaynaklar listesinden inceleme girişi çıkarıldı; 10'un kaynak listesine CFIUS için kullanılan 41 eklendi.",
 "takvim 12 Ocak 2026 satırında 'inceleme, takvim' atfı çıkarıldı; 10 Bölüm 6 B1 Takvim satırı ve Kaynaklar 59 eklendi.",
-"celiskiler: inceleme atıflı beş madde 09 ve 10'dan doğrulanabilen hallerine yeniden yazıldı; ağaç şeması ve kapı tutucu kamu ölçütü maddesi kaynaklarda bulunmadığı için silindi; yerine ABD tek aktif pazar çelişkisi eklendi, kaynak 10 Kaynaklar 60.",
+"celiskiler: inceleme atıflı beş madde 09 ve 10'dan doğrulanabilen hallerine yeniden yazıldı; harita şeması ve kapı tutucu kamu ölçütü maddesi kaynaklarda bulunmadığı için silindi; yerine ABD tek aktif pazar çelişkisi eklendi, kaynak 10 Kaynaklar 60.",
 "puan_metni: eşit ağırlıklı puanlama ve MEKA uyumunun puana katılmadığı notu eklendi, kaynak 10 Bölüm 2.",
 "neden: en yüksek puanın B2 ile paylaşıldığı, puanın kapı ve takvim yapısından geldiği ve sözleşmeli taban olmadığı eklendi; 'bugün para kazanan varlık al' örneği Bölüm 3'ten eklendi.",
 "durum: yazarın 'hedef listesi ve hukuk görüşü çıkmadan bilet ve süre belli değil' ve 'yürürlükte olmayan tarihi 1 ile 2 yıl kaydır' uyarıları eklendi; sözleşmeli taban yok eklendi.",
@@ -32496,10 +32496,10 @@ window.MEKA_DATA = {
 "id": "nadir_toprak",
 "baslik": "Ağır nadir toprak elementleri",
 "bant": "ikincil",
-"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi ikincil (önceki: izle): Bu yaprak MEKA'dan bağımsız kişisel finansal yatırımdır; MEKA ile ilgi puan ölçütü olarak kullanılmadı. İkincil kalmasının üç dayanağı bu turda doğrulandı: taban rakamı iki SEC belgesinde etiketli (Dy 575, Tb 2.050 dolar/kg); hedef türü var (Carester iki yatırımcıya yüzde 13,6'şar pay sattı, InfraVia gibi fonlar var); pencere tarihli (1 Ocak 2027 DFARS, 10 Ocak 2027 askı, 2026 sonu ile 2027 devreye almalar). Öne çıkan olmamasının sebepleri: Carester pay bedeli ve kapanışı açık değil; Lynas Çin dışı ağır talebini yaklaşık 400 ton/yıl veriyor ve yeni kapasite bunu aşabilir; düzeltilmiş ekonomi modelinde temettüyle geri ödeme 6 ile 15 yıl, getiri çıkışa bağlı; yabancı yatırım denetimi doğrulanmadı. Karar Mehmet Bey'in; alım garantisi ya da taban olmayan paya girilmemeli.",
+"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi ikincil (önceki: izle): Bu fırsat MEKA'dan bağımsız kişisel finansal yatırımdır; MEKA ile ilgi puan ölçütü olarak kullanılmadı. İkincil kalmasının üç dayanağı bu turda doğrulandı: taban rakamı iki SEC belgesinde etiketli (Dy 575, Tb 2.050 dolar/kg); hedef türü var (Carester iki yatırımcıya yüzde 13,6'şar pay sattı, InfraVia gibi fonlar var); pencere tarihli (1 Ocak 2027 DFARS, 10 Ocak 2027 askı, 2026 sonu ile 2027 devreye almalar). Öne çıkan olmamasının sebepleri: Carester pay bedeli ve kapanışı açık değil; Lynas Çin dışı ağır talebini yaklaşık 400 ton/yıl veriyor ve yeni kapasite bunu aşabilir; düzeltilmiş ekonomi modelinde temettüyle geri ödeme 6 ile 15 yıl, getiri çıkışa bağlı; yabancı yatırım denetimi doğrulanmadı. Karar Mehmet Bey'in; alım garantisi ya da taban olmayan paya girilmemeli.",
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 30 Eylül 2026",
-"ne": "Disprosyum ve terbiyumun Çin dışında ayrıştırılması ve oksit, metal ve alaşım haline getirilmesi. Orta halka: karışık konsantre ya da mıknatıs hurdası alınır, solvent ekstraksiyonla Dy ve Tb oksit ayrılır, sonra metal ve alaşıma çevrilir. Müşteri mıknatıs üreticileri, otomotiv, savunma ve havacılık. Türk yatırımcı için gerçekçi giriş: Avrupa'daki özel bir ayırma firmasında ya da kritik metal fonunda azınlık payı, alım garantili finansman ortaklığı. Sıfırdan kurma bu biletle mümkün değil. Bu yaprak MEKA'nın işinden bağımsız bir finansal yatırımdır; MEKA ile ilgi puanlanmadı.",
-"neden": "Dy ve Tb için Çin dışı fiyat Çin fob fiyatının katları: 27 Ağustos 2026'da Dy oksit Rotterdam 1.250 ile 1.675 dolar/kg, Çin fob 270 ile 330; 1 Ekim 2026'da Dy oksit CIP global 2.500 ile 3.500, Tb oksit 5.000 ile 8.000 dolar/kg (doğrulandı). Çin'in Nisan 2025 lisansı Dy ve Tb için hiç askıya alınmadı ve ağır nadir toprak ihracatı yaklaşık yüzde 50 düşük (Reuters, doğrulandı). 1 Ocak 2027'de ABD Savunma Bakanlığı alımlarında Çin kaynaklı mıknatıs yasağı başlıyor. İlk kez Dy ve Tb için sözleşmeli taban fiyat var ve etiketler artık net: SEC sunumunda SPV taban fiyatı Dy 575, Tb 2.050 dolar/kg; devlet SPV'ye 750 milyon dolar koydu (doğrulandı). Devlet parası akıyor: ABD 1,55 milyar dolarlık SPV, Avustralya 1,65 milyar Avustralya doları kredi (Fastmarkets tablosu), Fransa 106 milyon avro ve Japonya 110 milyon avro (önceki tur). Carester 2026'da iki yatırımcıya yaklaşık yüzde 13,6'şar pay sattı, bedel açıklanmadı (doğrulandı). Dikkat: Lynas Çin dışı ağır nadir toprak talebini yaklaşık 400 ton/yıl veriyor; Caremag tek başına 600 ton/yıl hedefliyor, yani pazar ince ve hızla doyabilir. Türkiye'de Beylikova hafif nadir toprak ağırlıklı ve ayırma teknolojisi yok, bu yüzden yaprak Türkiye dışı finansal yatırımdır.",
+"ne": "Disprosyum ve terbiyumun Çin dışında ayrıştırılması ve oksit, metal ve alaşım haline getirilmesi. Orta halka: karışık konsantre ya da mıknatıs hurdası alınır, solvent ekstraksiyonla Dy ve Tb oksit ayrılır, sonra metal ve alaşıma çevrilir. Müşteri mıknatıs üreticileri, otomotiv, savunma ve havacılık. Türk yatırımcı için gerçekçi giriş: Avrupa'daki özel bir ayırma firmasında ya da kritik metal fonunda azınlık payı, alım garantili finansman ortaklığı. Sıfırdan kurma bu biletle mümkün değil. Bu fırsat MEKA'nın işinden bağımsız bir finansal yatırımdır; MEKA ile ilgi puanlanmadı.",
+"neden": "Dy ve Tb için Çin dışı fiyat Çin fob fiyatının katları: 27 Ağustos 2026'da Dy oksit Rotterdam 1.250 ile 1.675 dolar/kg, Çin fob 270 ile 330; 1 Ekim 2026'da Dy oksit CIP global 2.500 ile 3.500, Tb oksit 5.000 ile 8.000 dolar/kg (doğrulandı). Çin'in Nisan 2025 lisansı Dy ve Tb için hiç askıya alınmadı ve ağır nadir toprak ihracatı yaklaşık yüzde 50 düşük (Reuters, doğrulandı). 1 Ocak 2027'de ABD Savunma Bakanlığı alımlarında Çin kaynaklı mıknatıs yasağı başlıyor. İlk kez Dy ve Tb için sözleşmeli taban fiyat var ve etiketler artık net: SEC sunumunda SPV taban fiyatı Dy 575, Tb 2.050 dolar/kg; devlet SPV'ye 750 milyon dolar koydu (doğrulandı). Devlet parası akıyor: ABD 1,55 milyar dolarlık SPV, Avustralya 1,65 milyar Avustralya doları kredi (Fastmarkets tablosu), Fransa 106 milyon avro ve Japonya 110 milyon avro (önceki tur). Carester 2026'da iki yatırımcıya yaklaşık yüzde 13,6'şar pay sattı, bedel açıklanmadı (doğrulandı). Dikkat: Lynas Çin dışı ağır nadir toprak talebini yaklaşık 400 ton/yıl veriyor; Caremag tek başına 600 ton/yıl hedefliyor, yani pazar ince ve hızla doyabilir. Türkiye'de Beylikova hafif nadir toprak ağırlıklı ve ayırma teknolojisi yok, bu yüzden fırsat Türkiye dışı finansal yatırımdır.",
 "rakamlar": [
 {
 "deger": "2.500 ile 3.500 dolar/kg Dy oksit, 5.000 ile 8.000 dolar/kg Tb oksit",
@@ -32577,14 +32577,14 @@ window.MEKA_DATA = {
 "kaynak": "haber https://gazeteoksijen.com/turkiye/cumhurbaskani-erdogandan-nadir-toprak-elementleri-aciklamasi-254160 ; haber https://www.aydinlik.com.tr/haber/dunyadaki-en-buyuk-ikinci-rezervi-turkiyede-kesfedildi-ulkemiz-bu-alanda-soz-sahibi-olacak-442040 ; haber https://medyascope.tv/2026/03/18/beylikova-nadir-elementlerin-koyu/"
 }
 ],
-"durum": "16 Ekim 2026 itibarıyla Çin dışı Dy ve Tb piyasası iki tetikle gergin: Çin'in Nisan 2025 lisansı yedi ağır element için yürürlükte ve Ekim 2025 genişlemesinin askısı 10 Kasım 2026'dan 10 Ocak 2027'ye uzatıldı (Rinnovabili, doğrulandı, tek tam kaynak); ABD Savunma Bakanlığı mıknatıs kuralı 1 Ocak 2027'de başlıyor. Spot 1 Ekim 2026'da Dy oksit 2.500 ile 3.500, Tb oksit 5.000 ile 8.000 dolar/kg; Çin fob Dy 270 ile 330, Tb 1.180 ile 1.270 (doğrulandı). SEC sunumunda SPV taban fiyatları açıkça etiketli: Dy 575 ve Tb 2.050 dolar/kg (doğrulandı). Serra Verde alımı 4 Eylül 2026'da yaklaşık 2,8 milyar dolara kapandı (doğrulandı). Yeni kapasite 2026 sonu ile 2028 arasında: Carester Lacq 500 ton Dy ve 100 ton Tb oksit, Solvay La Rochelle, Lynas Kuantan, Iluka Eneabba 2027, Energy Fuels Kore alaşım 3.600 ton 2026 sonu. Özel işleyiciler azınlık sermayesi alıyor: Carester yüzde 13,6'şar pay sattı (doğrulandı), kapanış teyidi yok. Yeni uyarı: Lynas Çin dışı ağır talebini yaklaşık 400 ton/yıl veriyor; yeni kapasite talebi aşabilir. Alıcılar da birleşiyor: Lynas Meteoric'i 968 milyon Avustralya dolarına alıyor, Energy Fuels VAC'ı 1,9 milyar dolara alacak. Türkiye'de Beylikova hafif element ağırlıklı, ayırma yok; yaprak Türk yatırımcı için yurt dışı kişisel finansal yatırım, bant ikincil.",
+"durum": "16 Ekim 2026 itibarıyla Çin dışı Dy ve Tb piyasası iki tetikle gergin: Çin'in Nisan 2025 lisansı yedi ağır element için yürürlükte ve Ekim 2025 genişlemesinin askısı 10 Kasım 2026'dan 10 Ocak 2027'ye uzatıldı (Rinnovabili, doğrulandı, tek tam kaynak); ABD Savunma Bakanlığı mıknatıs kuralı 1 Ocak 2027'de başlıyor. Spot 1 Ekim 2026'da Dy oksit 2.500 ile 3.500, Tb oksit 5.000 ile 8.000 dolar/kg; Çin fob Dy 270 ile 330, Tb 1.180 ile 1.270 (doğrulandı). SEC sunumunda SPV taban fiyatları açıkça etiketli: Dy 575 ve Tb 2.050 dolar/kg (doğrulandı). Serra Verde alımı 4 Eylül 2026'da yaklaşık 2,8 milyar dolara kapandı (doğrulandı). Yeni kapasite 2026 sonu ile 2028 arasında: Carester Lacq 500 ton Dy ve 100 ton Tb oksit, Solvay La Rochelle, Lynas Kuantan, Iluka Eneabba 2027, Energy Fuels Kore alaşım 3.600 ton 2026 sonu. Özel işleyiciler azınlık sermayesi alıyor: Carester yüzde 13,6'şar pay sattı (doğrulandı), kapanış teyidi yok. Yeni uyarı: Lynas Çin dışı ağır talebini yaklaşık 400 ton/yıl veriyor; yeni kapasite talebi aşabilir. Alıcılar da birleşiyor: Lynas Meteoric'i 968 milyon Avustralya dolarına alıyor, Energy Fuels VAC'ı 1,9 milyar dolara alacak. Türkiye'de Beylikova hafif element ağırlıklı, ayırma yok; fırsat Türk yatırımcı için yurt dışı kişisel finansal yatırım, bant ikincil.",
 "acik_sorular": [
 "Kısmen cevaplandı: Türkiye'de Dy ve Tb için doğrulanmış bir varlık var mı? Beylikova'nın ürün karışımı ne?",
 "Kısmen cevaplandı: Hangi ağır nadir toprak işleyicisi ortak ya da alıcı arıyor?",
 "Kısmen cevaplandı: Beylikova tesisi ve Eti Maden ilişkisi ne, ayırma halkası var mı?",
 "Kısmen cevaplandı: Türkiye nadir topraklarda yabancı ortağa açık mı?",
 "Kısmen cevaplandı: Batı'da yeni ayırma tesisleri ve teşvikler hangileri?",
-"Görüşme gerekir: Beylikova ön zenginleştirme ekipmanı MEKA için ayrı bir müşteri kapısı mı? (Eti Maden satın alma birimi. Ayrı yaprakta.)"
+"Görüşme gerekir: Beylikova ön zenginleştirme ekipmanı MEKA için ayrı bir müşteri kapısı mı? (Eti Maden satın alma birimi. Ayrı fırsatta.)"
 ],
 "adimlar": [
 {
@@ -32632,7 +32632,7 @@ window.MEKA_DATA = {
 "butce": 3,
 "butce_not": "Gerçekçi bilet 10 ile 20 milyon dolar: Avrupa'da özel bir ayırma firmasında yüzde 3 ile 6 pay ya da kritik metal fonunda sınırlı ortaklık. Dayanak: Carester yüzde 13,6 pay sattı, bedel açık değil; Caremag projesi 216 milyon avro; Solvay ek hat 20 milyon avro. İlk adımlar, yani danışman, hukuk görüşü ve görüşmeler 150 ile 300 bin dolar. Tahmin.",
 "yol": "ortak",
-"yol_not": "Ortak yolu: azınlık payı ya da fon payı, mümkünse alım taahhüdü eklenmiş. Kur yolu kapalı: tek Dy ve Tb hattı 20 milyon avro ama hammadde, teknoloji ve izin yok; tam rafineri 1 milyar dolar üstü. Yatırım kişisel yazıldı: iş MEKA'dan bağımsız, MEKA makinesi gerekmiyor; MEKA ile ilgi bu yaprakta puan ölçütü değil. Şirket üzerinden yatırım KAP ve ilişkili taraf sorusu getirir, vergi danışmanına sorulmalı. Tahmin."
+"yol_not": "Ortak yolu: azınlık payı ya da fon payı, mümkünse alım taahhüdü eklenmiş. Kur yolu kapalı: tek Dy ve Tb hattı 20 milyon avro ama hammadde, teknoloji ve izin yok; tam rafineri 1 milyar dolar üstü. Yatırım kişisel yazıldı: iş MEKA'dan bağımsız, MEKA makinesi gerekmiyor; MEKA ile ilgi bu fırsatta puan ölçütü değil. Şirket üzerinden yatırım KAP ve ilişkili taraf sorusu getirir, vergi danışmanına sorulmalı. Tahmin."
 },
 "takvim": [
 {
@@ -32767,7 +32767,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "tam",
-"kapsam_notu": "16 Ekim 2026 derin çalışma: 0 arama, 12 sayfa; 9 açık sorunun 3'i cevaplandı, 1'i görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 4/5. Çürütme turu: web araması yapılmadı, yalnız 12 sayfa açıldı ve hepsi 200 döndü: Fastmarkets 6 Ekim ve 10 Eylül 2026, Fastmarkets AB listesi 14 Ekim 2026, iki SEC belgesi, Mining Technology Carester, Poder360, SMM Lynas, Fool.com.au Iluka, Energy Fuels, Rinnovabili, Reuters/Yahoo. Açılmayan ve önceki turdan gelen kaynaklar işaretlendi: Beylikova haberleri, China Briefing, Skillings, Benchmark, SMM 17 Haziran ve 30 Temmuz, Caremag 2025 yazıları, EUobserver, MP Materials, Magnetics Magazine, DFARS, Panabee. Bunlara dayanan rakamlar bu turda doğrulanamadı diye not edildi ama silinmedi, çünkü sayfalar önceki turda okunmuştu. Sayfada bulunmayan ve silinen iddialar: Lynas Malezya lisansı 10 yıl uzatma; S&P Global 29 Mayıs 2026 özeti (URL yoktu). Doğrulanamadı olarak işaretlenenler: ASM bedeli 447 milyon Avustralya doları, yüzde 121 prim ve 243 milyon dolar; Iluka 1,25 milyar ilk dilim ve 17.500 ton kapasite; MP ağır devre; Lynas Teksas; Platts Kuzey Amerika fiyatları. Askı uzatması 10 Ocak 2027 tek tam kaynak. Carester pay bedeli ve kapanışı açıklanmamış. Yabancı yatırım denetim eşikleri doğrulanmadı. Ekonomi modeli varsayımları tahmin; tam kapasite satışı varsayımı Lynas'ın 400 ton/yıl Çin dışı talep rakamı karşısında iyimser. Fool.com.au yazısı yapay zekâ yardımıyla hazırlandığını belirtiyor. SMM Lynas haberi para birimi yazmıyor. MEKA ile ilgi bu yaprakta puanlanmadı; yaprak MEKA'dan bağımsız kişisel yatırım.",
+"kapsam_notu": "16 Ekim 2026 derin çalışma: 0 arama, 12 sayfa; 9 açık sorunun 3'i cevaplandı, 1'i görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 4/5. Çürütme turu: web araması yapılmadı, yalnız 12 sayfa açıldı ve hepsi 200 döndü: Fastmarkets 6 Ekim ve 10 Eylül 2026, Fastmarkets AB listesi 14 Ekim 2026, iki SEC belgesi, Mining Technology Carester, Poder360, SMM Lynas, Fool.com.au Iluka, Energy Fuels, Rinnovabili, Reuters/Yahoo. Açılmayan ve önceki turdan gelen kaynaklar işaretlendi: Beylikova haberleri, China Briefing, Skillings, Benchmark, SMM 17 Haziran ve 30 Temmuz, Caremag 2025 yazıları, EUobserver, MP Materials, Magnetics Magazine, DFARS, Panabee. Bunlara dayanan rakamlar bu turda doğrulanamadı diye not edildi ama silinmedi, çünkü sayfalar önceki turda okunmuştu. Sayfada bulunmayan ve silinen iddialar: Lynas Malezya lisansı 10 yıl uzatma; S&P Global 29 Mayıs 2026 özeti (URL yoktu). Doğrulanamadı olarak işaretlenenler: ASM bedeli 447 milyon Avustralya doları, yüzde 121 prim ve 243 milyon dolar; Iluka 1,25 milyar ilk dilim ve 17.500 ton kapasite; MP ağır devre; Lynas Teksas; Platts Kuzey Amerika fiyatları. Askı uzatması 10 Ocak 2027 tek tam kaynak. Carester pay bedeli ve kapanışı açıklanmamış. Yabancı yatırım denetim eşikleri doğrulanmadı. Ekonomi modeli varsayımları tahmin; tam kapasite satışı varsayımı Lynas'ın 400 ton/yıl Çin dışı talep rakamı karşısında iyimser. Fool.com.au yazısı yapay zekâ yardımıyla hazırlandığını belirtiyor. SMM Lynas haberi para birimi yazmıyor. MEKA ile ilgi bu fırsatta puanlanmadı; fırsat MEKA'dan bağımsız kişisel yatırım.",
 "kanit": 4,
 "web": [
 {
@@ -33008,12 +33008,12 @@ window.MEKA_DATA = {
 "Serra Verde: hissedar onayı 28 Ağustos, Moraitis 1 Ekim'de CEO; Faz 1 ömür ortalaması ~6.400 t, EBITDA hesabı 4.400 t ve 190 $/kg sepetle. Eklendi.",
 "Fastmarkets 1 Ekim: Dy bir hafta önce 1.910 ile 2.500, ferro-Dy 2.750 ile 3.850 eklendi; 'yapay kısıt' üretici yorumu ve birim Dy/Tb kullanımının düşmesi riske eklendi.",
 "AB listesi: dört proje adı (BREES/Rhodia, HyProMag GmbH, Silmet 2.0, Sokli), izin 15 ve 27 ay, CRMA yüzde 10/40/25 ve 65 doğrulandı; Permag eklendi. 'Para getirmiyor' ifadesi EUobserver'a bırakıldı, bu turda açılmadı.",
-"Bant gerekçesi ve kapılar: MEKA ile ilgi puanlanmadı, yaprak MEKA'dan bağımsız kişisel finansal yatırım olarak açıkça yazıldı.",
+"Bant gerekçesi ve kapılar: MEKA ile ilgi puanlanmadı, fırsat MEKA'dan bağımsız kişisel finansal yatırım olarak açıkça yazıldı.",
 "Açılmayan sayfalara dayanan rakamların yanına 'bu turda açılmadı' ya da 'doğrulanamadı' notu eklendi; web listesi buna göre güncellendi.",
 "Kanıt puanı 4 korundu: iki SEC belgesi, Energy Fuels resmi bildirimi ve birden çok bağımsız fiyat ve haber kaynağı doğrulandı.",
 "16 Ekim 2026 üçüncü tur: 12 arama, 12 sayfa okundu. Doğrulayıcı güven 4/5.",
 "Neden ve MD Ne ve neden bölümlerinde Ocak 2027 mıknatıs kuralı ABD'de yasak diye yazılmıştı. DFARS metni ve Fastmarkets yazısı kuralın ABD Savunma Bakanlığı alımlarına ait olduğunu gösteriyor. Düzeltildi, ülke listesi ve muafiyetler eklendi, çelişkiler bölümüne madde konuldu.",
-"DFARS: 1 Ocak 2027 tarihi, dört ülke, çıkarma, rafine etme, ayrıştırma, eritme ve üretme aşamaları ve muafiyetler resmi metinden doğrulandı. Tungsten yaprağında okundu notu bu turda okundu yapıldı.",
+"DFARS: 1 Ocak 2027 tarihi, dört ülke, çıkarma, rafine etme, ayrıştırma, eritme ve üretme aşamaları ve muafiyetler resmi metinden doğrulandı. Tungsten fırsatında okundu notu bu turda okundu yapıldı.",
 "Fastmarkets: yazı 6 Ekim 2026 tarihli, fiyat günü 1 Ekim 2026, baz CIP global. ABD alıcıları fazla ödüyor ifadesi piyasa katılımcılarına atfedildi. Fiyat ve yüzde 41 doğrulandı.",
 "Benchmark: temmuz ve ağustos artışları yüzde 16'dan fazla ve yüzde 32'den fazla olarak düzeltildi, yazı alt sınır veriyor. 16,3 kat oranının günü ve Çin fiyatının rakamı yazıda yok, not edildi.",
 "Rare Earth Exchanges: priminin dayanağı görünen kısımda yok, çıkarım olarak kaldı. Yazının Serra Verde Dy ve Tb tabanlarını sözleşmeli asgari fiyat diye andığı ve tek küresel spot fiyat olmadığını yazdığı eklendi.",
@@ -33036,7 +33036,7 @@ window.MEKA_DATA = {
 "Beylikova endüstriyel tesis takvimi: Bakan temelin gelecek yıl atılmasını 29 Ekim 2025'te söylemişti. Bunun Ekim 2025 beyanı olduğu ve temelin 2026'da atıldığının doğrulanamadığı yazıldı. Enerji Bakanlığı kaydı buna göre düzeltildi.",
 "Arama özetine bağlı Iluka, Solvay ve Neo rakamları, MP 200 ton/yıl rakamı ve gelir mertebesi hesabı doğrulanamadı olarak işaretlendi. Riskler, bütçe, ekonomi ve adımlar alanlarında da not düşüldü.",
 "Kaynaklardan inceleme girdisi silindi: 5 Ekim 2026 inceleme dosyası görev kaynaklarında verilmedi ve dizinde bulunamadı. Durum, çelişkiler ve kapsam notundaki inceleme atıfları çıkarıldı.",
-"Çelişki 7 ağaç yerleşimi silindi: Bağımsız dalı, Özel firmalar başlığı ve kart bağlama önerisi 09 ve 10 dosyalarında yok.",
+"Çelişki 7 harita yerleşimi silindi: Bağımsız alanı, Özel firmalar başlığı ve kart bağlama önerisi 09 ve 10 dosyalarında yok.",
 "Çelişki 2'den inceleme cümlesi çıkarıldı; yerine 09 ile 10 arasındaki takvim etiket farkı eklendi: 09 DFARS'ı yalnız A3, askıyı yalnız B4 yazıyor.",
 "Takvimde 28 Ağustos 2026 satırının kaynak numarası 89'dan 88'e düzeltildi; 89 numaralı kaynak 20 Ocak 2026 duyurusu, 88 tamamlanma haberi.",
 "Durumdaki 'Henüz adım atılmadı; 5 Ekim 2026 incelemesi B4 görevini açık listeliyor' cümlesi 'İki kaynak dosyada atılmış bir adım yok' diye düzeltildi.",
@@ -33300,9 +33300,9 @@ window.MEKA_DATA = {
 {
 "soru": "Beylikova ön zenginleştirme ekipmanı MEKA için ayrı bir müşteri kapısı mı?",
 "durum": "gorusme",
-"cevap": "Bu yaprağın dışında ve bu yaprağın puanına etki etmez. Pilot tesis kırma, öğütme ve flotasyon yapıyor; endüstriyel tesis 570.000 ton/yıl cevher işleyecek. Cevher hazırlama ihtiyacı ayrı yaprağın konusu. Ekipman ihalesi bulunamadı.",
+"cevap": "Bu fırsatın dışında ve bu fırsatın puanına etki etmez. Pilot tesis kırma, öğütme ve flotasyon yapıyor; endüstriyel tesis 570.000 ton/yıl cevher işleyecek. Cevher hazırlama ihtiyacı ayrı fırsatın konusu. Ekipman ihalesi bulunamadı.",
 "kaynak": "haber https://medyascope.tv/2026/03/18/beylikova-nadir-elementlerin-koyu/ ; haber https://www.aydinlik.com.tr/haber/dunyadaki-en-buyuk-ikinci-rezervi-turkiyede-kesfedildi-ulkemiz-bu-alanda-soz-sahibi-olacak-442040",
-"kime": "Eti Maden satın alma birimi. Ayrı yaprakta."
+"kime": "Eti Maden satın alma birimi. Ayrı fırsatta."
 }
 ],
 "emsaller": [
@@ -33423,7 +33423,7 @@ window.MEKA_DATA = {
 "id": "lityum",
 "baslik": "Lityum batarya: fabrika depolaması, hücre ve montaj halkaları",
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: İzle, iki aylık somut test takvimiyle. Pazar tarafı resmi ve çoklu kaynakla sağlam: Ember 33 GW ve 37 GWh, EPDK Şubat ve Mayıs 2026 lisans kesitleri, KAP'tan iki Pomega sözleşmesi (180 ve 195 dolar/kWh), Resmi Gazete vergi kararı üç haberde aynı. Kapı 2026 içinde açıldı: saatlik mahsuplaşma 1 Mayıs 2026, LFP hücre vergisi 11 Temmuz ile 31 Aralık 2026 arası sıfır. Buna karşın bu dalın tek yatırım yolu olan fabrika depolamasının getirisi iki doğrulanamayan girdiye dayanıyor: PTF saat dilimleri (Fintables 403) ve 2025 tarihli tek kaynaklı sanayi tarifesi. Geri ödeme 5 ile 16 yıl aralığı bu yüzden geniş ve kanıt puanı 3'e indirildi. Hücre, paket ve entegrasyon halkaları elendi: tek yerli hücre üreticisi başkanının beyanıyla bir yıldır duruyor, montaj kapasitesi talebin üstünde, entegratör marjı yüzde 5 altı. Pomega varlık alımı yolu da başkanın satılmayacak beyanıyla şimdilik kapandı. Öne çıkan ya da ikincil bant için EPİAŞ saatlik PTF ve EPDK tarife tablosuyla yeniden hesaplanmış, gerçek fatura verisine dayalı 7 yıl altı geri ödeme kanıtı gerekir. Elenmedi, çünkü vergi penceresi ve mahsuplaşma kuralı aynı yılda çakıştı ve bu çakışma 2027'de tekrar etmeyebilir. Bu dal MEKA'dan bağımsız bir iş; MEKA uyumu puanlanmadı, MEKA fabrikası yalnız pilot sahası olarak hesaba girdi.",
+"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: İzle, iki aylık somut test takvimiyle. Pazar tarafı resmi ve çoklu kaynakla sağlam: Ember 33 GW ve 37 GWh, EPDK Şubat ve Mayıs 2026 lisans kesitleri, KAP'tan iki Pomega sözleşmesi (180 ve 195 dolar/kWh), Resmi Gazete vergi kararı üç haberde aynı. Kapı 2026 içinde açıldı: saatlik mahsuplaşma 1 Mayıs 2026, LFP hücre vergisi 11 Temmuz ile 31 Aralık 2026 arası sıfır. Buna karşın bu alanın tek yatırım yolu olan fabrika depolamasının getirisi iki doğrulanamayan girdiye dayanıyor: PTF saat dilimleri (Fintables 403) ve 2025 tarihli tek kaynaklı sanayi tarifesi. Geri ödeme 5 ile 16 yıl aralığı bu yüzden geniş ve kanıt puanı 3'e indirildi. Hücre, paket ve entegrasyon halkaları elendi: tek yerli hücre üreticisi başkanının beyanıyla bir yıldır duruyor, montaj kapasitesi talebin üstünde, entegratör marjı yüzde 5 altı. Pomega varlık alımı yolu da başkanın satılmayacak beyanıyla şimdilik kapandı. Öne çıkan ya da ikincil bant için EPİAŞ saatlik PTF ve EPDK tarife tablosuyla yeniden hesaplanmış, gerçek fatura verisine dayalı 7 yıl altı geri ödeme kanıtı gerekir. Elenmedi, çünkü vergi penceresi ve mahsuplaşma kuralı aynı yılda çakıştı ve bu çakışma 2027'de tekrar etmeyebilir. Bu alan MEKA'dan bağımsız bir iş; MEKA uyumu puanlanmadı, MEKA fabrikası yalnız pilot sahası olarak hesaba girdi.",
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 30 Eylül 2026; fabrika ölçeği fikri 27 Eylül 2026",
 "ne": "Sanayi tesisinin arkasına lityum demir fosfat batarya kurup gündüz güneş fazlasını akşam tüketimine kaydırmak ve bunu enerji hizmeti olarak işletmek. Arkasında dört halka var: hücre, modül ve paket, sistem entegrasyonu ve depolama işletmesi. Bu çalışma dört halkayı ayrı ayrı ölçüyor, Türkiye depolama pazarının resmi rakamlarını, 2026 fiyat ve vergi durumunu ve bir fabrika pilotunun ekonomisini açık varsayımlarla hesaplıyor. Çürütme turunda 14 sayfa denendi, 13 açıldı; rakamlar sayfayla karşılaştırıldı, düzeltmeler degisiklikler listesinde.",
 "neden": "Türkiye depolamalı santral stoğu 33 GW ve 37 GWh ile dünyanın en büyük proje stoklarından biri, ama Şubat 2026 itibarıyla lisans alan 23 projenin 1.070 MW gücünün yalnız yaklaşık 208 MW'ı devrede. Boşluk büyük. 1 Mayıs 2026'dan beri lisanssız güneşte saatlik mahsuplaşma var ve tesis gücüne kadar depolama kurulabiliyor. 11 Temmuz 2026'da ithal LFP hücreye yüzde 30 ek vergi 31 Aralık 2026'ya kadar sıfırlandı; EDEDER'e göre hücre sonrası aşamalarda koruma sürüyor, bu da yerli montajcıdan alımı ucuzlatıyor. Eylül 2026 akşam ve gündüz PTF farkı 36 dolar/MWh olarak aktarılıyor ama kaynak sayfa açılamadı, doğrulanamadı. Bu üç şey aynı yılda çakıştı ve 2026 sonuna kadar ucuz giriş penceresi açtı. Yerli hücre üreticisi Pomega yönetim kurulu başkanının kendi ifadesiyle yaklaşık bir yıldır çalışmıyor ve satılmayacak; varlık alımı yolu şimdilik kapalı.",
@@ -33763,7 +33763,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 derin çalışma: 12 arama, 29 sayfa; 10 açık sorunun 1'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 13 sayfa açtı, güven 3/5. Çürütme turu: web araması yapılmadı, 14 sayfa denendi, 13 açıldı. Açılamayan: Fintables Ekim 2026 bülteni HTTP 403; Fintables ana bilgisayarı engelli sayıldığı için üçüncü çeyrek yazısı denenmedi. EPDK tarife tabloları sayfası açıldı ama tablo akordeon içinde, metin ve dosya bağlantısı gelmedi; resmi 2026 sanayi tarifesi bu turda da bulunamadı, kullanıcının eksikleri araştır isteği bu iki kalemde karşılanamadı; parent'ın EPİAŞ Şeffaflık Platformu'ndan saatlik PTF'yi ve EPDK tarife PDF'ini doğrudan indirmesi gerekir. Bu turda yeniden açılmayan ve önceki tur bulgusu olarak kalanlar: AA 31 Temmuz 2026, Paksoy, CNN Türk, Bloomberg HT, KAP 1608262 ve 1659481, SEC Fluence, Wärtsilä, Solinved, Maxxen, Aksa, ASPİLSAN, Defence Turkey, Midas, ESS News, WFW, Power Technology, Ekofin, Kontrolmatik raporları, FFK Partner, Arnold Porter. BNEF sistem fiyatları hâlâ arama özetinden. Koruma oranları (modül, paket, sistem) bulunamadı. Resmi Gazete karar numarası bulunamadı. Kontrolmatik 2 Ekim 2026 finansal tablolarının içeriği ve toplam borcu bulunamadı. Pomega durma iddiası tek yayında, yönetim beyanına dayanıyor. Pilot ekonomisi fabrikanın kendi verisiyle test edilmedi. Bu dal MEKA'dan bağımsız; MEKA uyumu puanlanmadı, MEKA fabrikası yalnız pilot sahası olarak hesaba girdi.",
+"kapsam_notu": "16 Ekim 2026 derin çalışma: 12 arama, 29 sayfa; 10 açık sorunun 1'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 13 sayfa açtı, güven 3/5. Çürütme turu: web araması yapılmadı, 14 sayfa denendi, 13 açıldı. Açılamayan: Fintables Ekim 2026 bülteni HTTP 403; Fintables ana bilgisayarı engelli sayıldığı için üçüncü çeyrek yazısı denenmedi. EPDK tarife tabloları sayfası açıldı ama tablo akordeon içinde, metin ve dosya bağlantısı gelmedi; resmi 2026 sanayi tarifesi bu turda da bulunamadı, kullanıcının eksikleri araştır isteği bu iki kalemde karşılanamadı; parent'ın EPİAŞ Şeffaflık Platformu'ndan saatlik PTF'yi ve EPDK tarife PDF'ini doğrudan indirmesi gerekir. Bu turda yeniden açılmayan ve önceki tur bulgusu olarak kalanlar: AA 31 Temmuz 2026, Paksoy, CNN Türk, Bloomberg HT, KAP 1608262 ve 1659481, SEC Fluence, Wärtsilä, Solinved, Maxxen, Aksa, ASPİLSAN, Defence Turkey, Midas, ESS News, WFW, Power Technology, Ekofin, Kontrolmatik raporları, FFK Partner, Arnold Porter. BNEF sistem fiyatları hâlâ arama özetinden. Koruma oranları (modül, paket, sistem) bulunamadı. Resmi Gazete karar numarası bulunamadı. Kontrolmatik 2 Ekim 2026 finansal tablolarının içeriği ve toplam borcu bulunamadı. Pomega durma iddiası tek yayında, yönetim beyanına dayanıyor. Pilot ekonomisi fabrikanın kendi verisiyle test edilmedi. Bu alan MEKA'dan bağımsız; MEKA uyumu puanlanmadı, MEKA fabrikası yalnız pilot sahası olarak hesaba girdi.",
 "kanit": 3,
 "web": [
 {
@@ -34009,7 +34009,7 @@ window.MEKA_DATA = {
 "Yeni adım eklendi: EPİAŞ Şeffaflık Platformu'ndan saatlik PTF ve EPDK tarife PDF'i ile girdilerin 31 Ekim 2026'ya kadar doğrulanması.",
 "Bu turda açılmayan kaynaklara önceki turda açıldı etiketi kondu; web listesi ve kaynaklar bölümü buna göre işaretlendi.",
 "Kanıt puanı 4'ten 3'e indirildi: pazar tarafı resmi ve çoklu kaynaklı ama ekonomi modelinin iki ana girdisi doğrulanamadı ya da tek ve eski kaynaklı.",
-"Kullanıcı notu uygulandı: bu dal MEKA'dan bağımsız, MEKA uyumu puanlanmadı; bant gerekçesi ve sınırlar bölümüne açıkça yazıldı.",
+"Kullanıcı notu uygulandı: bu alan MEKA'dan bağımsız, MEKA uyumu puanlanmadı; bant gerekçesi ve sınırlar bölümüne açıkça yazıldı.",
 "16 Ekim 2026 üçüncü tur: 12 arama, 9 sayfa okundu. Doğrulayıcı güven 4/5.",
 "neden: saatlik mahsuplaşma kuralı daraltıldı, yalnız 12 Mayıs 2019 sonrası çağrı mektubu alan lisanssız yenilenebilir tesisler, konut hariç, depolama tesisin elektriksel gücüne kadar; depolama serbest ifadesi çıkarıldı.",
 "rakam 1: AA tarihi haber tarihi olarak düzeltildi, verinin tarihi haberde yok; rakamlar doğrulandı.",
@@ -34502,10 +34502,10 @@ window.MEKA_DATA = {
 "id": "balkon_ges",
 "baslik": "Balkon GES kiti",
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: Bu yaprak bağımsız daldır; MEKA ile ilgi derecesi puanlanmadı, iş kendi başına değerlendirildi. Kapı kapalı ve birincil metinle görüldü: 2 Nisan 2026 tarihli 33212 sayılı Resmî Gazete değişikliği bu turda okundu, balkon ya da küçük güç hükmü yok; EPDK 2026 taslağı için aynı tespit önceki tura dayanıyor. Tüketici ekonomisi destekli tarifede 9 ile 24 yıl geri ödeme veriyor, Almanya'daki doğrulanmış 2,5 ile 5 yılın çok üstünde. Almanya pazarı olgunlaşıyor: 2026 Ocak ile Temmuz yeni adet yüzde 11,5 düştü, priwatt iflas sürecinde, Hoymiles ve APSystems zararda; üçü de bu turda doğrulandı. Bu turda bulunan indi maliyet türetim hatası iş ekonomisini daha da kırılgan gösteriyor: toptan fiyat alınamazsa marj yok. Bilet küçük ve giriş kolay olduğu için yaprak elenmez; EPDK kuralı ya da SKTT etkisiyle talep görünür olduğu an ikincil banda çıkar. Bugün yalnız 10 kitlik pilot, toptan fiyat teklifi ve EPDK yazılı sorusu anlamlı.",
+"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: Bu fırsat bağımsız daldır; MEKA ile ilgi derecesi puanlanmadı, iş kendi başına değerlendirildi. Kapı kapalı ve birincil metinle görüldü: 2 Nisan 2026 tarihli 33212 sayılı Resmî Gazete değişikliği bu turda okundu, balkon ya da küçük güç hükmü yok; EPDK 2026 taslağı için aynı tespit önceki tura dayanıyor. Tüketici ekonomisi destekli tarifede 9 ile 24 yıl geri ödeme veriyor, Almanya'daki doğrulanmış 2,5 ile 5 yılın çok üstünde. Almanya pazarı olgunlaşıyor: 2026 Ocak ile Temmuz yeni adet yüzde 11,5 düştü, priwatt iflas sürecinde, Hoymiles ve APSystems zararda; üçü de bu turda doğrulandı. Bu turda bulunan indi maliyet türetim hatası iş ekonomisini daha da kırılgan gösteriyor: toptan fiyat alınamazsa marj yok. Bilet küçük ve giriş kolay olduğu için fırsat elenmez; EPDK kuralı ya da SKTT etkisiyle talep görünür olduğu an ikincil banda çıkar. Bugün yalnız 10 kitlik pilot, toptan fiyat teklifi ve EPDK yazılı sorusu anlamlı.",
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 27 Eylül 2026",
 "ne": "Prize takılan, 800 W çıkışlı mikro inverter ve iki ile dört panelden oluşan balkon güneş kiti. Almanya'da kitlesel tüketici ürünü: Marktstammdatenregister'e kayıtlı cihaz 15 Nisan 2026'da 1.311.919 (strom-report, bu turda doğrulandı), Ağustos 2026 sonunda 1.500.172 (Bundesnetzagentur'a atıfla Zendure bülteni, bu turda doğrulandı). Türkiye'de ürün satılıyor ama prize takılan şebeke paralel cihaza özel kural yok. 2 Nisan 2026 tarihli ve 33212 sayılı Resmî Gazete değişikliği bu turda birincil metinden okundu: 27 madde, saatlik mahsuplaşma, mesken aylık; balkon, 800 W, küçük güç ifadesi yok. EPDK'nın 4 Haziran 2026 tarihli taslağının docx metni önceki turda okunmuştu, bu çürütme turunda yeniden açılmadı; önceki turun tespiti (yalnız acil durum yük atma, uzaktan kontrol ve mahsuplaşma düzeltmesi) bu turda doğrulanmadı.",
-"neden": "Yatırımcı için anlamı: Avrupa'da kanıtlanmış, düşük Ar-Ge'li, küçük biletli bir dağıtım işi. Ancak iki fren var. Birincisi kural: Türkiye'de tanımlı yol hâlâ 25 kW'a kadar çatı ve cephe başvurusu, bağlantı anlaşması ve çift yönlü sayaç; 2 Nisan 2026 değişikliğinde muafiyet yok (bu turda okundu), EPDK 2026 taslağında da yok (önceki tur). İkincisi tüketici ekonomisi: destekli konut tarifesinde 100 kWh 323,8 TL iken (bu turda doğrulandı) 23.880 ile 60.588 TL arası kit 10 yıldan uzun sürede geri döner, Almanya'da aynı süre Verivox'a göre 2,5 ile 5 yıl (bu turda doğrulandı). Kural çıkarsa ya da 4.000 kWh üstü haneler SKTT'ye kayarak pahalı elektrik ödediğinde pazar açılır; o gün hazır marka, stok ve servis ağı olan kazanır. Almanya'da 2026 Ocak ile Temmuz yeni cihaz adedi yüzde 11,5 düştü, priwatt 7 Nisan 2026'da geçici iflas sürecine girdi, Hoymiles 2026 ilk yarıda 164 milyon RMB zarar yazdı (üçü de bu turda doğrulandı); pazar olgunlaşıyor ve fiyat savaşı var. Bu yüzden Türkiye girişinin zamanlaması kurala bağlanmalı, bugün yalnız küçük pilot anlamlı. Bu yaprak bağımsız daldır; MEKA ile ilgi derecesi puanlanmadı.",
+"neden": "Yatırımcı için anlamı: Avrupa'da kanıtlanmış, düşük Ar-Ge'li, küçük biletli bir dağıtım işi. Ancak iki fren var. Birincisi kural: Türkiye'de tanımlı yol hâlâ 25 kW'a kadar çatı ve cephe başvurusu, bağlantı anlaşması ve çift yönlü sayaç; 2 Nisan 2026 değişikliğinde muafiyet yok (bu turda okundu), EPDK 2026 taslağında da yok (önceki tur). İkincisi tüketici ekonomisi: destekli konut tarifesinde 100 kWh 323,8 TL iken (bu turda doğrulandı) 23.880 ile 60.588 TL arası kit 10 yıldan uzun sürede geri döner, Almanya'da aynı süre Verivox'a göre 2,5 ile 5 yıl (bu turda doğrulandı). Kural çıkarsa ya da 4.000 kWh üstü haneler SKTT'ye kayarak pahalı elektrik ödediğinde pazar açılır; o gün hazır marka, stok ve servis ağı olan kazanır. Almanya'da 2026 Ocak ile Temmuz yeni cihaz adedi yüzde 11,5 düştü, priwatt 7 Nisan 2026'da geçici iflas sürecine girdi, Hoymiles 2026 ilk yarıda 164 milyon RMB zarar yazdı (üçü de bu turda doğrulandı); pazar olgunlaşıyor ve fiyat savaşı var. Bu yüzden Türkiye girişinin zamanlaması kurala bağlanmalı, bugün yalnız küçük pilot anlamlı. Bu fırsat bağımsız daldır; MEKA ile ilgi derecesi puanlanmadı.",
 "rakamlar": [
 {
 "deger": "1.311.919 cihaz; 1,34 GW",
@@ -34583,7 +34583,7 @@ window.MEKA_DATA = {
 "kaynak": "rapor: https://strom-report.com/balkonkraftwerk/"
 }
 ],
-"durum": "16 Ekim 2026 itibarıyla Türkiye'de prize takılan balkon GES için muafiyet ya da bildirim esası yok. 2 Nisan 2026 tarihli 33212 sayılı Resmî Gazete değişikliği bu turda birincil metinden okundu: saatlik mahsuplaşma 1 Mayıs 2026'da başladı, mesken aylık sistemde kaldı, Madde 37'ye kabulsüz işletme fıkrası eklendi, balkon konusuna girilmedi. EPDK'nın 4 Haziran 2026 taslağına ilişkin önceki tur tespiti (yalnız acil durum yük atma ve uzaktan kontrol) bu turda yeniden doğrulanamadı. Tüketici ekonomisi zayıf: 4 Nisan 2026 tarifesinde 100 kWh 323,8 TL (doğrulandı), 800 W kit 23.880 ile 60.588 TL (Mil Enerji doğrulandı, PV Balkon bu turda açılmadı), bu çalışmanın hesabıyla geri dönüş 9 ile 24 yıl; yalnız 4.000 kWh üstü SKTT'ye kayan yaklaşık 2,5 milyon hane için 5 ile 7 yıla iner. Almanya'da kayıtlı cihaz Ağustos 2026 sonunda 1.500.172 (doğrulandı) ama 2026 Ocak ile Temmuz yeni adet yüzde 11,5 düştü (doğrulandı), priwatt 7 Nisan 2026'da geçici iflas sürecine girdi (doğrulandı), Hoymiles 2026 ilk yarıda 164 milyon RMB zarar yazdı (doğrulandı). Ekonomi modelinde bir türetim hatası bulundu ve düzeltildi: Almanya perakende medyanı 0,51 €/Wp ile 900 Wp set 459 €, yani yaklaşık 24.000 TL eder; 16.000 ile 18.700 TL indi maliyet ancak toptan alımla mümkün, bu varsayım açıkça yazıldı. Türk satıcı hacmi, pazar yeri ilanları ve TÜİK konut stoku eksik; bu turda sayfa açma sınırı 12 ile doluydu, pazar yeri siteleri otomatik erişime kapalı. Yaprak izle bandında kalır, tetik EPDK kuralı ya da SKTT etkisinin görünür hale gelmesi.",
+"durum": "16 Ekim 2026 itibarıyla Türkiye'de prize takılan balkon GES için muafiyet ya da bildirim esası yok. 2 Nisan 2026 tarihli 33212 sayılı Resmî Gazete değişikliği bu turda birincil metinden okundu: saatlik mahsuplaşma 1 Mayıs 2026'da başladı, mesken aylık sistemde kaldı, Madde 37'ye kabulsüz işletme fıkrası eklendi, balkon konusuna girilmedi. EPDK'nın 4 Haziran 2026 taslağına ilişkin önceki tur tespiti (yalnız acil durum yük atma ve uzaktan kontrol) bu turda yeniden doğrulanamadı. Tüketici ekonomisi zayıf: 4 Nisan 2026 tarifesinde 100 kWh 323,8 TL (doğrulandı), 800 W kit 23.880 ile 60.588 TL (Mil Enerji doğrulandı, PV Balkon bu turda açılmadı), bu çalışmanın hesabıyla geri dönüş 9 ile 24 yıl; yalnız 4.000 kWh üstü SKTT'ye kayan yaklaşık 2,5 milyon hane için 5 ile 7 yıla iner. Almanya'da kayıtlı cihaz Ağustos 2026 sonunda 1.500.172 (doğrulandı) ama 2026 Ocak ile Temmuz yeni adet yüzde 11,5 düştü (doğrulandı), priwatt 7 Nisan 2026'da geçici iflas sürecine girdi (doğrulandı), Hoymiles 2026 ilk yarıda 164 milyon RMB zarar yazdı (doğrulandı). Ekonomi modelinde bir türetim hatası bulundu ve düzeltildi: Almanya perakende medyanı 0,51 €/Wp ile 900 Wp set 459 €, yani yaklaşık 24.000 TL eder; 16.000 ile 18.700 TL indi maliyet ancak toptan alımla mümkün, bu varsayım açıkça yazıldı. Türk satıcı hacmi, pazar yeri ilanları ve TÜİK konut stoku eksik; bu turda sayfa açma sınırı 12 ile doluydu, pazar yeri siteleri otomatik erişime kapalı. Fırsat izle bandında kalır, tetik EPDK kuralı ya da SKTT etkisinin görünür hale gelmesi.",
 "acik_sorular": [
 "Kısmen cevaplandı: EPDK'nın 2026 lisanssız üretim yönetmeliği değişiklik taslağında küçük güç ya da basitleştirilmiş bağlantı hükmü var mı",
 "Kısmen cevaplandı: Prize takılan 800 W cihazın 2019 Lisanssız Elektrik Üretim Yönetmeliği karşısındaki hukuki durumu",
@@ -34619,7 +34619,7 @@ window.MEKA_DATA = {
 "ne_zaman": "15 Aralık 2026 ile 15 Mart 2027"
 },
 {
-"adim": "Karar toplantısı: EPDK cevabı, pilot ölçümleri, toptan fiyat teklifleri, indi maliyet ve Ocak 2027 tarifesiyle geri ödeme hesabı güncellenir; kural ya da SKTT etkisi yoksa yaprak izle bandında kalır, kural sinyali varsa bilet onayı ve marka tescili başlar.",
+"adim": "Karar toplantısı: EPDK cevabı, pilot ölçümleri, toptan fiyat teklifleri, indi maliyet ve Ocak 2027 tarifesiyle geri ödeme hesabı güncellenir; kural ya da SKTT etkisi yoksa fırsat izle bandında kalır, kural sinyali varsa bilet onayı ve marka tescili başlar.",
 "kim": "Mehmet Ulaş ve MEKA yönetimi",
 "ne_zaman": "31 Mart 2027"
 }
@@ -34632,7 +34632,7 @@ window.MEKA_DATA = {
 "Fiyat savaşı ve kur: Almanya'da priwatt geçici iflas sürecinde, Hoymiles ve APSystems 2026 ilk yarıda zarar yazdı; Çinli markalar kural çıkınca pazar yerlerinden doğrudan girer, marj 20 puan altına inebilir.",
 "Ürün normu: Almanya'da Aralık 2025'ten geçerli DIN VDE V 0126-95 ev prizinde 960 Wp üstünü özel prize bağlıyor; Türkiye'de benzer bir norm çıkarsa dört panelli setler elektrikçi gerektirir ve tak çalıştır iddiası zayıflar.",
 "İthalat maliyeti belirsiz: 1 Ocak 2026 ilave gümrük vergisi, referans fiyat ve alüminyum çerçeve dampingi; GTİP bazlı oran doğrulanmadı, indi maliyet yüzde 15 ile 25 sapabilir.",
-"Borsaya kote şirkette küçük ama yeni iş kolu KAP açıklaması ve yönetim dikkati ister; kişisel yatırım tercih edilirse marka ve servis güveni daha zor kurulur."
+"Borsaya kote şirkette küçük ama yeni iş grubu KAP açıklaması ve yönetim dikkati ister; kişisel yatırım tercih edilirse marka ve servis güveni daha zor kurulur."
 ],
 "kapilar": {
 "yatirim": "ikisi",
@@ -35019,7 +35019,7 @@ window.MEKA_DATA = {
 "priwatt ve Nextpower haberleri doğrulandı; Nextpower kapanış şartı (düzenleyici onay) ve Zimmermann profili (1950 kuruluş, 2.500 proje, 20 GW, 58 ülke) eklendi; iflas yöneticisinin devam için somut yaklaşım görmediği notu eklendi.",
 "SKTT birim fiyat tahmini için EMO yüzde 75 ile 99 artışından 5,7 ile 6,4 TL/kWh aralığı türetildi; modeldeki 5,5 TL muhafazakar olarak işaretlendi.",
 "Ekonomi aritmetiği kontrol edildi: bilet toplamı, yıl 3 ve yıl 5 çarpımları, dolar çevrimleri ve beş yıllık birikimli geri ödeme tablosu tutuyor; geri ödeme ifadesi 5. yıl sonunda olarak netleştirildi; indi maliyet 24.000 TL olursa geri ödeme yok notu eklendi.",
-"Bant gerekçesine bağımsız dal notu eklendi: MEKA ile ilgi derecesi puanlanmadı; bant izle olarak kaldı.",
+"Bant gerekçesine bağımsız alan notu eklendi: MEKA ile ilgi derecesi puanlanmadı; bant izle olarak kaldı.",
 "Çelişkiler listesine Almanya 2025 yeni cihaz için üç farklı rakam, strom-report yuvarlama farkları, Kleines Kraftwerk fiyat hatası, indi maliyet türetim hatası, Madde 28/11 ve Mil Enerji beyanı ile Madde 37/13 çelişkisi eklendi.",
 "Takvime 1 Kasım 2025 EMO, 11 Eylül 2026 PV Tech, 16 Eylül 2026 Kleines Kraftwerk ve 29 Eylül 2026 Zendure satırları eklendi; her satıra doğrulama durumu yazıldı.",
 "Firmalar listesine APSystems ve HTW Berlin eklendi; Hoymiles kuruluş yılı ve kod bilgisi doğrulanamadı olarak işaretlendi.",
@@ -35064,7 +35064,7 @@ window.MEKA_DATA = {
 "Kanıt puanı 3'te bırakıldı; bant önerisi 'izle' ve kapı değerleri değiştirilmedi; bütçe notuna 'web kaynağına dayanmaz' eklendi.",
 "Riskler bölümüne Almanya fiyatlarının %0 KDV ile olduğu ve Türkiye farkının bir miktar abartılı olabileceği eklendi.",
 "5 Ekim 2026 tarihli inceleme dosyası verilen kaynaklar arasında yok ve dizinde bulunamadı; durum, takvim, kaynaklar ve çelişkilerdeki tüm inceleme atıfları çıkarıldı.",
-"Çelişkilerden ağaç yerleşimi, Özel firmalar kolu ve EPDK etiketi maddesi çıkarıldı; kaynağı doğrulanamadı.",
+"Çelişkilerden harita yerleşimi, Özel firmalar grubu ve EPDK etiketi maddesi çıkarıldı; kaynağı doğrulanamadı.",
 "Çelişkilerden ilk ay işlerinin yapılmadığına dair inceleme kaydı maddesi çıkarıldı; durum alanında yalnızca verilen dosyalarda kayıt olmadığı yazıldı.",
 "Rakamlara Belge 04 ve 05 kaynak numaraları eklendi: 04 kaynak 5, 6, 7 ve 05 kaynak 3, 4.",
 "Ağustos 2026 İngiltere rakamına Belge 05'te bu bilginin olmadığı notu eklendi.",
@@ -35415,7 +35415,7 @@ window.MEKA_DATA = {
 "bant": "ikincil",
 "puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi ikincil: Pazar kanıtına göre: talep tarihli ve Ankara'da, üç kampüs 2028'e kilitli ve üçü de bu turda doğrulandı; küresel sıvı soğutma pazarı yılda yüzde 34 büyüyor ve Ecolab CoolIT alımı yaklaşık 8,6 kat gelir çarpanı gösteriyor. Buna karşılık Türkiye sıvı soğutma pazarı için resmi rakam yok, kapasite 120 ile 250 MW arasında tanıma göre değişiyor, 1 GW hedefinin tanımı yok, teknoloji sahipleri Türkiye'de üretim ortağı aramıyor ve yerel imalat havuzu üç yılda 40 ile 135 milyon dolar tahminden ibaret. Su geri kazanımı mevzuatı resmi metinle doğrulandı ama pazar büyüklüğü ve birim fiyat tek doğrulanmamış örnekten; buharlı ısı pompasının Türkiye verisi (SHURA) bu turda doğrulanamadı ve pilot yok. Bu kanıt tabanı ve 1 milyon dolar altı bilet ikincil banda uyuyor. Bant MEKA uyumuna göre düşürülmedi. İsimli bir lisans ya da alt yüklenici anlaşması ve bir Ankara mekanik paketi gelirse öne çıkan banda alınır.",
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 27 Eylül 2026",
-"ne": "Üç ayrı su ve enerji verimliliği işi tek yaprakta: binalarda yağmur suyu ve gri su geri kazanım sistemleri; veri merkezleri için sıvı soğutma donanımı ve bunun sac, manifold, soğutma dağıtım ünitesi ve skid imalatı; sanayide doğal gaz kazanı yerine 120 ile 200 derece buhar üreten yüksek sıcaklık ısı pompaları. Derin tur 12 arama ve 40 sayfa açtı. Çürütme turunda 12 kaynak yeniden açıldı: 10 sayfa doğrulandı, 2026/9 Genelge ve SHURA PDF'leri ikili veri döndü ve metne çevrilemedi; bu iki belgeye dayanan okuma iddiaları doğrulanamadı. Hüküm: veri merkezi sıvı soğutma kontrat imalatı yaprağın taşıyıcı işi, su geri kazanımı küçük ve düşük marjlı bir ek iş, buharlı ısı pompası 2028 öncesi Türkiye'de pilot bile olmayan bir izleme konusu.",
+"ne": "Üç ayrı su ve enerji verimliliği işi tek fırsatta: binalarda yağmur suyu ve gri su geri kazanım sistemleri; veri merkezleri için sıvı soğutma donanımı ve bunun sac, manifold, soğutma dağıtım ünitesi ve skid imalatı; sanayide doğal gaz kazanı yerine 120 ile 200 derece buhar üreten yüksek sıcaklık ısı pompaları. Derin tur 12 arama ve 40 sayfa açtı. Çürütme turunda 12 kaynak yeniden açıldı: 10 sayfa doğrulandı, 2026/9 Genelge ve SHURA PDF'leri ikili veri döndü ve metne çevrilemedi; bu iki belgeye dayanan okuma iddiaları doğrulanamadı. Hüküm: veri merkezi sıvı soğutma kontrat imalatı fırsatın taşıyıcı işi, su geri kazanımı küçük ve düşük marjlı bir ek iş, buharlı ısı pompası 2028 öncesi Türkiye'de pilot bile olmayan bir izleme konusu.",
 "neden": "Talep tarafı Ankara'da ve tarihli: Rönesans ile Digital Realty Temelli'de 2028'de 22 MW üstü IT ilk fazı, Ankara ve İstanbul toplamında 200 MW IT ve 3 milyar dolara kadar yatırım hedefi (Forbes, 1 Ekim 2026, doğrulandı); TÜRKSAT Gölbaşı 33 MVA, 35.300 m2, 2028 başı (CNBC-e, 22 Temmuz 2026, doğrulandı); Turkcell ile Google Cloud Ankara'da üç yedekli merkezden oluşan 3 milyar dolarlık hiper ölçekli kampüs, hizmet 2028 (Bloomberg HT, 26 Aralık 2025, doğrulandı). Mevcut Türkiye kapasitesi 120 MW IT yükü (ResearchAndMarkets, Haziran 2025, doğrulandı) ya da 140 MW (Vodafone haberi, Eylül 2026, kaynak belirtilmiyor) ya da 250 MW kurulu güç 2023 (TESAB aktarımı, doğrulandı); 2030 hedefi 1 GW, Forbes ve Ekonomi Gazetesi bunu Ulusal Yapay Zeka Eylem Planı'na bağlıyor. Küresel yapay zeka veri merkezi sıvı soğutma pazarı 2026'da 3,52 milyar dolar, 2032'de 20,39 milyar dolar, yıllık yüzde 34 (MarketsandMarkets, Ekim 2026, doğrulandı). Ecolab CoolIT'i 4,75 milyar dolara alıyor, CoolIT yıllık satışı yaklaşık 550 milyon dolar (aynı sayfa, doğrulandı); Schneider Motivair ve Trane LiquidStack bu turda doğrulanamadı. Vertiv EMEA üretimini Slovakya'da 22.000 m2 büyütüyor ve son genişlemeleri İrlanda, İtalya, Hırvatistan, Malezya, Meksika ve ABD'de; Türkiye yok (Vertiv, 28 Eylül 2026, doğrulandı). Iceotope OEM ve ODM'ye IP lisansı veriyor, peşin lisans ya da birim başı telif, üretim ortağın kendi fabrikasında ya da ODM'de (Iceotope ortaklık sayfası, doğrulandı). Su tarafında mevzuat 11 Mart 2025'ten beri yürürlükte (Resmî Gazete 32838, doğrulandı); birim bilet 40 bin dolar civarı tek akademik örnekten, bu turda açılmadı. Isı pompası tarafında SHURA rakamları bu turda doğrulanamadı; Türkiye'de buhar üreten kurulum bulunmadı.",
 "rakamlar": [
 {
@@ -35489,7 +35489,7 @@ window.MEKA_DATA = {
 "kaynak": "bulunamadı"
 }
 ],
-"durum": "Çürütme turunda 12 kaynak açıldı. Veri merkezi talep tarafı sağlam: Rönesans Digital Realty (22 MW üstü IT 2028, Ankara ve İstanbul toplamında 200 MW IT ve 3 milyar dolara kadar), TÜRKSAT Gölbaşı (33 MVA, 2028 başı) ve Turkcell Google Cloud (3 milyar dolar, 2028) haberleri doğrulandı. Kapasite rakamları doğrulandı: 120 MW IT yükü (Haziran 2025), 140 MW (Eylül 2026, kaynaksız), 250 MW kurulu güç (2023). 1 GW 2030 hedefi iki haberde Eylem Planı'na bağlanıyor; Genelge PDF'si metne çevrilemedi, Genelge'de MW olup olmadığı doğrulanamadı. Küresel pazar 3,52 ile 20,39 milyar dolar ve Ecolab CoolIT 4,75 milyar dolar doğrulandı; Schneider Motivair ve Trane LiquidStack doğrulanamadı. Vertiv'in Slovakya genişlemesi doğrulandı, Türkiye yok. Iceotope lisans modeli doğrulandı, patent sayısı 228. Su mevzuatı Resmî Gazete metniyle doğrulandı: yağmur suyu ve gri su yükümlülüğü 11 Mart 2025'te yürürlükte, YeS-TR 1 Ocak 2026, BIM ve yaşam döngüsü 1 Ocak 2027; birim bilet ve geri ödeme kaynakları bu turda açılmadı. SHURA PDF'si metne çevrilemedi; sanayi ısı rakamları doğrulanamadı. Yaprak ikincil bantta; gerekçe pazar kanıtına dayanıyor, MEKA uyumuna değil.",
+"durum": "Çürütme turunda 12 kaynak açıldı. Veri merkezi talep tarafı sağlam: Rönesans Digital Realty (22 MW üstü IT 2028, Ankara ve İstanbul toplamında 200 MW IT ve 3 milyar dolara kadar), TÜRKSAT Gölbaşı (33 MVA, 2028 başı) ve Turkcell Google Cloud (3 milyar dolar, 2028) haberleri doğrulandı. Kapasite rakamları doğrulandı: 120 MW IT yükü (Haziran 2025), 140 MW (Eylül 2026, kaynaksız), 250 MW kurulu güç (2023). 1 GW 2030 hedefi iki haberde Eylem Planı'na bağlanıyor; Genelge PDF'si metne çevrilemedi, Genelge'de MW olup olmadığı doğrulanamadı. Küresel pazar 3,52 ile 20,39 milyar dolar ve Ecolab CoolIT 4,75 milyar dolar doğrulandı; Schneider Motivair ve Trane LiquidStack doğrulanamadı. Vertiv'in Slovakya genişlemesi doğrulandı, Türkiye yok. Iceotope lisans modeli doğrulandı, patent sayısı 228. Su mevzuatı Resmî Gazete metniyle doğrulandı: yağmur suyu ve gri su yükümlülüğü 11 Mart 2025'te yürürlükte, YeS-TR 1 Ocak 2026, BIM ve yaşam döngüsü 1 Ocak 2027; birim bilet ve geri ödeme kaynakları bu turda açılmadı. SHURA PDF'si metne çevrilemedi; sanayi ısı rakamları doğrulanamadı. Fırsat ikincil bantta; gerekçe pazar kanıtına dayanıyor, MEKA uyumuna değil.",
 "acik_sorular": [
 "Kısmen cevaplandı: 1 GW BT yükü mü tesis gücü mü; genelge PDF'si okunmalı.",
 "Kısmen cevaplandı: 250 MW ile 140 MW farkının tanımı ne?",
@@ -35705,7 +35705,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "tam",
-"kapsam_notu": "16 Ekim 2026 derin çalışma: 12 arama, 40 sayfa; 9 açık sorunun 1'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 3/5. Çürütme turu 12 sayfa açtı, web araması yapılmadı; kullanıcı eksikleri araştırma istemişti ama bu turun aracı yalnız verilen URL'leri açmaya izin verdi ve 12 sayfa bütçesi doldu. Kanıt 3: su mevzuatı Resmî Gazete metniyle doğrulandı; Genelge 2026/9 ve SHURA PDF'leri açıldı ama ikili veri döndü, metne çevrilemedi, dosyalar kaydedildi; bunlara dayanan rakamlar doğrulanamadı. Türkiye veri merkezi kapasitesi için ResearchAndMarkets, Vodafone ve TESAB aktarımları doğrulandı ama hepsi danışmanlık, firma beyanı ya da sektör birliği; resmi rakam yok. Küresel pazar ve Ecolab CoolIT doğrulandı; Schneider Motivair ve Trane LiquidStack doğrulanamadı. Su birim fiyatı, geri ödeme, Türk Telekom, Baxtel, Systemair, Habertürk, Örge, ısı pompası oyuncuları ve teşvik sayfaları bu turda açılmadı; önceki tur notları 'bu turda açılmadı' ile işaretli duruyor. Ekonomi modelindeki paylar ve bilet tamamen tahmin; mekanik payı yüzde 15 ve yerel imalat payı yüzde 10 ile 15 için kaynak yok. Dosya yazılmadı, başka yaprağa dokunulmadı.",
+"kapsam_notu": "16 Ekim 2026 derin çalışma: 12 arama, 40 sayfa; 9 açık sorunun 1'i cevaplandı, 2'i görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 3/5. Çürütme turu 12 sayfa açtı, web araması yapılmadı; kullanıcı eksikleri araştırma istemişti ama bu turun aracı yalnız verilen URL'leri açmaya izin verdi ve 12 sayfa bütçesi doldu. Kanıt 3: su mevzuatı Resmî Gazete metniyle doğrulandı; Genelge 2026/9 ve SHURA PDF'leri açıldı ama ikili veri döndü, metne çevrilemedi, dosyalar kaydedildi; bunlara dayanan rakamlar doğrulanamadı. Türkiye veri merkezi kapasitesi için ResearchAndMarkets, Vodafone ve TESAB aktarımları doğrulandı ama hepsi danışmanlık, firma beyanı ya da sektör birliği; resmi rakam yok. Küresel pazar ve Ecolab CoolIT doğrulandı; Schneider Motivair ve Trane LiquidStack doğrulanamadı. Su birim fiyatı, geri ödeme, Türk Telekom, Baxtel, Systemair, Habertürk, Örge, ısı pompası oyuncuları ve teşvik sayfaları bu turda açılmadı; önceki tur notları 'bu turda açılmadı' ile işaretli duruyor. Ekonomi modelindeki paylar ve bilet tamamen tahmin; mekanik payı yüzde 15 ve yerel imalat payı yüzde 10 ile 15 için kaynak yok. Dosya yazılmadı, başka fırsata dokunulmadı.",
 "kanit": 3,
 "web": [
 {
@@ -35945,7 +35945,7 @@ window.MEKA_DATA = {
 "05, 2026'dan beri gri su zorunlu diyor; 04 tarihi 1 Ocak 2026 diye veriyor. Web kaynaklarına göre zorunluluk yalnız 1 Ocak 2026 sonrası ruhsat alan yeni binalar için, mevcut binalar muaf. 04 ve 05 bu kısıtı yazmıyor; pazar büyüklüğünü doğrudan etkiler.",
 "04 ve 05 sıraları farklı: 04'te 7 iş içinde 4., 5., 6.; 05'te 12 iş içinde 7., 8., 9. Fark, 05'e Novator, Pyramp ve tavuk gübresinin bu üçün önüne eklenmesinden; göreli sıra aynı.",
 "04, ısı pompasının termal bataryayla aynı müşteriye satılacağını ve birlikte düşünülmesi gerektiğini yazıyor. Isı pompasının termal bataryaya rakip mi tamamlayıcı mı olduğu 04 ve 05'te yok; termal batarya dosyaları 07 ve 08 ile karşılaştırılmalı.",
-"05, tavuk gübresi için bize uyan ekipman sayıyor; veri merkezi soğutma için de yerli üretilebilir diyor. İkisinin karar ağacında aynı dalda olup olmadığı 04 ve 05'ten çıkmaz; dal yerleştirmesi yönetimin kararı."
+"05, tavuk gübresi için bize uyan ekipman sayıyor; veri merkezi soğutma için de yerli üretilebilir diyor. İkisinin fırsat haritasında aynı alanda olup olmadığı 04 ve 05'ten çıkmaz; alan yerleştirmesi yönetimin kararı."
 ],
 "degisiklikler": [
 "16 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
@@ -36436,9 +36436,9 @@ window.MEKA_DATA = {
 "id": "izle_bagimsiz",
 "baslik": "Araç powerbank ve mobil şarj; uzun yaşam ilacı",
 "bant": "izle",
-"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: İzle, iki konu farklı nedenlerle. Bu yaprak MEKA'dan bağımsız; MEKA ile ilgi derecesi puanlamaya alınmadı, bant yalnız iş ekonomisi ve kanıta göre verildi. Mobil şarj elenmeye bir adım uzakta: kural açık ve lisanslı işletmeci için bildirim yetiyor, ancak EPDK verisinde ülke genelinde 26 mobil nokta var, doğrulandı; sabit nokta sayısı hızla artarken mobil ihtiyacı daralıyor; bugünkü 13,90 TL/kWh fiyatla ünite başına yıllık işletme sonucu eksi 9,1 bin dolar ve 450 TL çağrı bedeliyle bile amortisman sonrası ancak başabaş; madde 25 fıkra 1 ayrı bedel yasağı çağrı bedelini hukuken riskli kılıyor; Moxion iflası doğrulandı. Tek izleme nedeni 31 Aralık 2026'da OtoPriz'in servis bedeli alıp almayacağı ve EPDK Aralık 2026 mobil nokta sayısı; 50'yi geçmezse elendi. Uzun yaşam ilacı izlemede kalır: sermaye akışı rekor ve büyük ilaç şirketleri girdi, doğrulandı; ama insanda onay on yıl içinde bekleniyor, 13 önde gelen şirketten hiçbiri faz 3'te değil, Türkiye'de ne girişim ne fon var, giriş yalnız yabancı fon ya da Nasdaq hissesiyle mümkün ve nakit getirisi yok. Kanıt 4: Resmî Gazete metni, EPDK verisi iki haberde, firma fiyat sayfası, lisans bedeli haberi, Moxion ve SparkCharge haberleri, Retro şirket blogu ve iki bağımsız tur sayımı bu turda açıldı ve rakamlar doğrulandı. Uzun yaşam tarafında Loyal, Life Biosciences, BioAge, Altos ve Unity şirket sayfaları açılmadığı için o yarı tek başına 3 olurdu.",
+"puan_metni": "Derin çalışma (16 Ekim 2026), bant önerisi izle: İzle, iki konu farklı nedenlerle. Bu fırsat MEKA'dan bağımsız; MEKA ile ilgi derecesi puanlamaya alınmadı, bant yalnız iş ekonomisi ve kanıta göre verildi. Mobil şarj elenmeye bir adım uzakta: kural açık ve lisanslı işletmeci için bildirim yetiyor, ancak EPDK verisinde ülke genelinde 26 mobil nokta var, doğrulandı; sabit nokta sayısı hızla artarken mobil ihtiyacı daralıyor; bugünkü 13,90 TL/kWh fiyatla ünite başına yıllık işletme sonucu eksi 9,1 bin dolar ve 450 TL çağrı bedeliyle bile amortisman sonrası ancak başabaş; madde 25 fıkra 1 ayrı bedel yasağı çağrı bedelini hukuken riskli kılıyor; Moxion iflası doğrulandı. Tek izleme nedeni 31 Aralık 2026'da OtoPriz'in servis bedeli alıp almayacağı ve EPDK Aralık 2026 mobil nokta sayısı; 50'yi geçmezse elendi. Uzun yaşam ilacı izlemede kalır: sermaye akışı rekor ve büyük ilaç şirketleri girdi, doğrulandı; ama insanda onay on yıl içinde bekleniyor, 13 önde gelen şirketten hiçbiri faz 3'te değil, Türkiye'de ne girişim ne fon var, giriş yalnız yabancı fon ya da Nasdaq hissesiyle mümkün ve nakit getirisi yok. Kanıt 4: Resmî Gazete metni, EPDK verisi iki haberde, firma fiyat sayfası, lisans bedeli haberi, Moxion ve SparkCharge haberleri, Retro şirket blogu ve iki bağımsız tur sayımı bu turda açıldı ve rakamlar doğrulandı. Uzun yaşam tarafında Loyal, Life Biosciences, BioAge, Altos ve Unity şirket sayfaları açılmadığı için o yarı tek başına 3 olurdu.",
 "tarih": "16 Ekim 2026 (derin çalışma); önceki çalışma 30 Eylül 2026 ve 27 Eylül 2026",
-"ne": "Bu yaprakta iki ayrı iş var. Birincisi mobil şarj: Resmî Gazete 23 Mart 2026 tarihli değişiklikle tanımlanan, sabit elektrik tesisatına bağlı olmayan şarj istasyonu; bataryalı bir van çağrı üzerine elektrikli otomobili bulunduğu yerde şarj eder. İkincisi uzun yaşam ilacı: yaşlanma biyolojisini hedefleyen ilaç geliştiren şirketlere fon ya da borsa üzerinden pay almak. İki konu da MEKA'nın işinden bağımsızdır; MEKA ile ilgi derecesi puanlamaya girmedi.",
+"ne": "Bu fırsatta iki ayrı iş var. Birincisi mobil şarj: Resmî Gazete 23 Mart 2026 tarihli değişiklikle tanımlanan, sabit elektrik tesisatına bağlı olmayan şarj istasyonu; bataryalı bir van çağrı üzerine elektrikli otomobili bulunduğu yerde şarj eder. İkincisi uzun yaşam ilacı: yaşlanma biyolojisini hedefleyen ilaç geliştiren şirketlere fon ya da borsa üzerinden pay almak. İki konu da MEKA'nın işinden bağımsızdır; MEKA ile ilgi derecesi puanlamaya girmedi.",
 "neden": "İki konu da teknolojik ve büyüyen bir alanın içinde. Mobil şarjda kural artık net ve lisanslı işletmeci için bildirim yetiyor, ama EPDK verisine göre Türkiye'de 45.660 şarj noktasının yalnız 26'sı mobil ve bugünkü fiyatla bir ünite sürücü maliyetini bile karşılamıyor. Uzun yaşam ilacında sermaye akışı rekor düzeyde, 2025'te 18,4 milyar dolar, ama insanda onaylı ilaç yok ve rapor ilk onayı on yıl içinde, başlıkta 2035, bekliyor. Yatırımcı için anlam: ikisi de bugün para kazandıran iş değil, biri küçük ve zararda, diğeri on yıllık piyango bileti.",
 "rakamlar": [
 {
@@ -36512,7 +36512,7 @@ window.MEKA_DATA = {
 "kaynak": "diger bu çalışmanın hesabı, girdiler OtoPriz sayfası ve EPDK verisi"
 }
 ],
-"durum": "Mobil şarjda kural 23 Mart 2026'da oturdu: tanım, bildirim, AC, DC ve mobil arasında fiyat farklılaştırma izni, ayrı lisans şartı yok; Resmî Gazete metni 16 Ekim 2026'da okundu ve doğrulandı. Pazar ise 19 Temmuz 2026'da 26 mobil noktadan ibaret; bu rakam iki haber kaynağında doğrulandı. OtoPriz İstanbul'da yalnız kendi müşterilerine 13,90 TL/kWh ile çalışıyor ve yönlendirme servis bedelini 31 Aralık 2026'ya kadar almıyor; bu fiyatla ünite başına yıllık sonuç eksi. Yurt dışında Moxion Ağustos 2024'te Chapter 7 ile battı, doğrulandı; SparkCharge Haziran 2025'te 30,5 milyon dolarla filo hizmetine döndü, doğrulandı; FreeWire'ın kapanışı ve OptiGrid alan adı gözlemi bu turda yeniden açılmadı, doğrulanamadı. Uzun yaşam ilacında 2025 rekor yıl; 2026'da NewLimit 435 milyon dolar Seri C, lider Founders Fund, Retro 1,8 milyar dolar pre-money, Loyal 100 milyon dolar Seri C aldı; bu üçü doğrulandı. İnsanda onaylı ilaç hâlâ yok. Life Biosciences 8 Ekim 2026 verisi, BioAge, Altos ve Unity satırları bu turda açılmadı, doğrulanamadı. Türk yatırımcı için ne yerli ilaç girişimi ne yerli fon var; yol yabancı fon payı ya da Nasdaq hissesi. Hidrojen tankı konusu (27 Eylül taramasında yalnız izleme maddesiydi) ODTÜ yaprağının ayrılmasıyla TEKSİS yaprağında ele alındı; ayrı bir iş olarak izlenmiyor.",
+"durum": "Mobil şarjda kural 23 Mart 2026'da oturdu: tanım, bildirim, AC, DC ve mobil arasında fiyat farklılaştırma izni, ayrı lisans şartı yok; Resmî Gazete metni 16 Ekim 2026'da okundu ve doğrulandı. Pazar ise 19 Temmuz 2026'da 26 mobil noktadan ibaret; bu rakam iki haber kaynağında doğrulandı. OtoPriz İstanbul'da yalnız kendi müşterilerine 13,90 TL/kWh ile çalışıyor ve yönlendirme servis bedelini 31 Aralık 2026'ya kadar almıyor; bu fiyatla ünite başına yıllık sonuç eksi. Yurt dışında Moxion Ağustos 2024'te Chapter 7 ile battı, doğrulandı; SparkCharge Haziran 2025'te 30,5 milyon dolarla filo hizmetine döndü, doğrulandı; FreeWire'ın kapanışı ve OptiGrid alan adı gözlemi bu turda yeniden açılmadı, doğrulanamadı. Uzun yaşam ilacında 2025 rekor yıl; 2026'da NewLimit 435 milyon dolar Seri C, lider Founders Fund, Retro 1,8 milyar dolar pre-money, Loyal 100 milyon dolar Seri C aldı; bu üçü doğrulandı. İnsanda onaylı ilaç hâlâ yok. Life Biosciences 8 Ekim 2026 verisi, BioAge, Altos ve Unity satırları bu turda açılmadı, doğrulanamadı. Türk yatırımcı için ne yerli ilaç girişimi ne yerli fon var; yol yabancı fon payı ya da Nasdaq hissesi. Hidrojen tankı konusu (27 Eylül taramasında yalnız izleme maddesiydi) ODTÜ fırsatının ayrılmasıyla TEKSİS fırsatında ele alındı; ayrı bir iş olarak izlenmiyor.",
 "acik_sorular": [
 "Kısmen cevaplandı: Mobil şarj hizmetinde çağrı primi alınabilir mi?",
 "Kısmen cevaplandı: Mobil şarjın maliyet kalemleri neler?",
@@ -36576,7 +36576,7 @@ window.MEKA_DATA = {
 "butce": 2,
 "butce_not": "Mobil şarj: lisans 1.914.200 TL yaklaşık 39 bin dolar kaynaklı; 3 ünitelik pilot 350 ile 500 bin dolar, 5 ünite 0,68 ile 0,88 milyon dolar, tahmin, ilk 24 ay açığı dahil. Uzun yaşam: fon LP bileti 250 bin ile 1 milyon dolar sektör normu tahmin; borsa yolu 50 bin dolardan başlar. Yalnız izleme ve hukukçu okuması 100 bin doların altında kalır.",
 "yol": "ortak",
-"yol_not": "Mobil şarjda kendi kurma yolu hukuken açık ve lisanslı işletmeci için bildirimle yeter, ama ekonomi eksi; mantıklı tek yol mevcut işletmeciyle ortaklık ya da filo müşterisine B2B hizmet, varsayım. Uzun yaşamda yol fon payı ya da halka açık hisse, yani ortak. Bu yaprak MEKA'dan bağımsız; yatırım kişisel varsayıldı, MEKA ile ilgi derecesi değerlendirmeye alınmadı."
+"yol_not": "Mobil şarjda kendi kurma yolu hukuken açık ve lisanslı işletmeci için bildirimle yeter, ama ekonomi eksi; mantıklı tek yol mevcut işletmeciyle ortaklık ya da filo müşterisine B2B hizmet, varsayım. Uzun yaşamda yol fon payı ya da halka açık hisse, yani ortak. Bu fırsat MEKA'dan bağımsız; yatırım kişisel varsayıldı, MEKA ile ilgi derecesi değerlendirmeye alınmadı."
 },
 "takvim": [
 {
@@ -36926,7 +36926,7 @@ window.MEKA_DATA = {
 "Uzun yaşam alanı cevabı cevaplandı yerine kısmen yapıldı; Retro, NewLimit, Loyal turu ve Life Biosciences turu doğrulandı, Loyal FDA durumu, Life Biosciences 8 Ekim verisi, BioAge, Altos ve Unity doğrulanamadı.",
 "Açılmayan 25 kaynağa dayanan rakam, takvim, firma ve emsal satırlarına doğrulanamadı notu eklendi.",
 "New Market Pitch bulgusu eklendi: 13 önde gelen longevity şirketinden hiçbiri faz 3'e ulaşmadı; 50 milyon dolar üstü turlar çıkarılınca pazar yüzde 6 küçüldü; medyan tur 16'dan 12 milyon dolara düştü.",
-"Bant gerekçesi, yol notu ve ne alanından MEKA ile ilgi ölçütü çıkarıldı; yaprak MEKA'dan bağımsız diye işaretlendi, bant yalnız iş ekonomisi ve kanıta göre verildi.",
+"Bant gerekçesi, yol notu ve ne alanından MEKA ile ilgi ölçütü çıkarıldı; fırsat MEKA'dan bağımsız diye işaretlendi, bant yalnız iş ekonomisi ve kanıta göre verildi.",
 "Adımlara bu turda açılmayan birincil sayfaları açma görevi eklendi, Ekim 2026.",
 "Web listesine ve kaynaklara her URL için açıldı ve doğrulandı ya da bu turda açılmadı notu eklendi.",
 "Çürütme notu bölümü çalışma metninin başına eklendi.",
@@ -36977,7 +36977,7 @@ window.MEKA_DATA = {
 "web: açılan ve açılamayan sayfaların durumu yazıldı, Bengü Türk ve Life Biosciences sayfaları eklendi.",
 "sinirlar: doğrulama turu sınırları eklendi.",
 "inceleme dosyası verilen kaynak dosyalar arasında yok ve dizinde bulunamadı; kaynaklar listesinden inceleme satırı çıkarıldı, kapsam_notu'na bu durum yazıldı.",
-"İnceleme'ye dayanan iki çelişki silindi: ağaç yerleşimi önerisi ve inceleme'nin ölçüt yorumu. Uzun yaşam çelişkisi yalnız 05 metniyle yeniden yazıldı.",
+"İnceleme'ye dayanan iki çelişki silindi: harita yerleşimi önerisi ve inceleme'nin ölçüt yorumu. Uzun yaşam çelişkisi yalnız 05 metniyle yeniden yazıldı.",
 "yol_not'tan inceleme'ye atıf çıkarıldı; yerine 04 ve 05'teki açık soru ve çalışmalarda MEKA katkısı olmadığı yazıldı.",
 "acik_sorular'daki inceleme teyit istiyor ifadesi kaldırıldı; kişisel mi MEKA mı sorusu 04 ve 05'e dayanarak eklendi.",
 "puan_metni'ne 05'in kaba etiketleri ve 10'un Ek-5'te testi yalnız termal ile lityuma uyguladığı bilgisi eklendi.",
@@ -37546,7 +37546,7 @@ window.MEKA_DATA = {
 "gmk.center'ın 5 ile 150 bin avro maliyet bandı bağımsız bir kaynak gibi anılıyordu. Bulgu: gmk.center bu bandı embeddedcarbonrecord.com adlı başka bir portaldan alıyor; SKDM fiyatı hâlâ ticari ve ikincil kaynaklı."
 ],
 "degisiklikler": [
-"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız dalda daha iyi fırsat ara); çürütücü düzeltmeleri:",
+"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız alanda daha iyi fırsat ara); çürütücü düzeltmeleri:",
 "Adam-gün ücreti tanımı düzeltildi: tebliğ madde 52/2'ye göre sözleşme raporun ait olduğu yılın brüt asgari ücretiyle yapılır, raporun teslim edileceği yılın ücretine fark 31 Ocak'a kadar eklenir; 2026 emisyonları için fiili ücret 2027 asgari ücreti, 33.030 TL taban olarak işlendi.",
 "Tebliğ madde 52/3 eklendi: adam-gün ücreti baş doğrulayıcı, doğrulayıcı, teknik uzman ve seyahat dahil bütün zorunlu giderleri kapsar; riskler listesine marj baskısı olarak girdi.",
 "Adam-gün süreleri (4, 5, 9, 13, 18, 22) yanına 'doğrulanamadı' yazıldı: rehber PDF'i indi ama metin katmanı okunamadı; tablo başlığına da aynı not eklendi.",
@@ -38190,8 +38190,8 @@ window.MEKA_DATA = {
 "Kart, Türk paketleyicileri doğrudan kanal sayıyordu; Aksa'nın kendi kabin serisi iddiası bu turda da doğrulanamadı, dış alım hâlâ varsayım."
 ],
 "degisiklikler": [
-"16 Ekim 2026: keşif turu bu yaprağı bağımsız dalda bulmuştu; iş ağır sac ve çelik imalatı olduğu için MEKA ile ilgili dalına (Özel firmalar) taşındı, MEKA uyumu puana katılır.",
-"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız dalda daha iyi fırsat ara); çürütücü düzeltmeleri:",
+"16 Ekim 2026: keşif turu bu fırsatı bağımsız alanda bulmuştu; iş ağır sac ve çelik imalatı olduğu için MEKA ile ilgili alanına (Özel firmalar) taşındı, MEKA uyumu puana katılır.",
+"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız alanda daha iyi fırsat ara); çürütücü düzeltmeleri:",
 "Bant önerisi ikincil'den izle'ye düşürüldü; gerekçe: Generac'ın üçüncü taraf paketleme ifadesi ABD'ye yönelik ve şirket paketlemeyi içeri alıyor, ekonomi modeli e-house değerinin tamamını MEKA cirosu sayıyor, ürün düzeyinde fiyat ve marj kanıtı yok, Türk müşteri sayfaları açılamadı.",
 "Caterpillar rakamları Benzinga via Webull ile doğrulandı; birikimin yüzde 59'unun 12 ayda teslimi ve 10 MW gaz motoru hattı iddiaları Nasdaq açılamadığı için doğrulanamadı olarak işaretlendi.",
 "Generac 1,35 milyar $ 2027 teslimatının kaynağı SEC 8-K'dan tutanak özetine düzeltildi; 8-K yalnızca ilk hiperölçek müşteri için yaklaşık 700 milyon $ veriyor.",
@@ -38317,7 +38317,7 @@ window.MEKA_DATA = {
 "ne_zaman": "28 Şubat 2027'ye kadar"
 },
 {
-"adim": "Yatırım kararı: en az bir yazılı niyet mektubu ya da deneme siparişi ve en az iki fiyatlı teklif varsa 4 ile 8 milyon dolarlık hat ve ekip yatırımına yönetim kurulu onayı; yoksa yaprak kapanır",
+"adim": "Yatırım kararı: en az bir yazılı niyet mektubu ya da deneme siparişi ve en az iki fiyatlı teklif varsa 4 ile 8 milyon dolarlık hat ve ekip yatırımına yönetim kurulu onayı; yoksa fırsat kapanır",
 "kim": "Yönetim kurulu",
 "ne_zaman": "31 Mart 2027"
 },
@@ -38635,7 +38635,7 @@ window.MEKA_DATA = {
 "Görüşme gerekir: Bir Caterpillar bayisi dış kabin tedarikçisi kabul eder mi? (Borusan Cat enerji sistemleri yöneticisi; bir Körfez Caterpillar bayisi)"
 ],
 "bant": "izle",
-"puan_metni": "Keşif turu derin çalışması (16 Ekim 2026), bant önerisi izle: Talep ve kapasite darboğazı üç SEC bildirimi ve bir tutanakla belgeli ve bu turda doğrulandı; bu yaprağın güçlü yanı. Ama çalışma fikri olduğundan büyük gösteriyor: Generac'ın üçüncü taraf paketleme ifadesi ABD paketleyicilerine yönelik ve şirket aynı anda Enercon ve Belvidere ile paketlemeyi içeri alıyor, MEKA UL yolunu geçmeden o pencere kapanır. Ekonomi modeli 15,5 milyon euroluk e-house değerinin tamamını MEKA cirosu sayıyor; oysa yol notu MEKA'yı gövde ve montaj alt yüklenicisi olarak kuruyor, bu payın oranı için kaynak yok ve yıl 5 brüt kârı buna göre yarıya inebilir. Kabin fiyatı için tek kaynak 2011 tarihli ve kabin fiyatı değil ses azaltma maliyeti; ürün düzeyinde marj kanıtı hiç yok; Türk müşterilerin dış alım yaptığına dair kanıt yok ve Aksa, Teksan, Aktif, Siemens sayfaları bu turda açılamadı. Bu haliyle ikincil değil izle bandı. Yükseltme tetikleyicisi: Aksa, Teksan ya da bir şalt OEM'inden yazılı tedarik niyeti ya da deneme siparişi gelirse ikincil; fiyatlı ve adetli teklif gelirse öne çıkan.",
+"puan_metni": "Keşif turu derin çalışması (16 Ekim 2026), bant önerisi izle: Talep ve kapasite darboğazı üç SEC bildirimi ve bir tutanakla belgeli ve bu turda doğrulandı; bu fırsatın güçlü yanı. Ama çalışma fikri olduğundan büyük gösteriyor: Generac'ın üçüncü taraf paketleme ifadesi ABD paketleyicilerine yönelik ve şirket aynı anda Enercon ve Belvidere ile paketlemeyi içeri alıyor, MEKA UL yolunu geçmeden o pencere kapanır. Ekonomi modeli 15,5 milyon euroluk e-house değerinin tamamını MEKA cirosu sayıyor; oysa yol notu MEKA'yı gövde ve montaj alt yüklenicisi olarak kuruyor, bu payın oranı için kaynak yok ve yıl 5 brüt kârı buna göre yarıya inebilir. Kabin fiyatı için tek kaynak 2011 tarihli ve kabin fiyatı değil ses azaltma maliyeti; ürün düzeyinde marj kanıtı hiç yok; Türk müşterilerin dış alım yaptığına dair kanıt yok ve Aksa, Teksan, Aktif, Siemens sayfaları bu turda açılamadı. Bu haliyle ikincil değil izle bandı. Yükseltme tetikleyicisi: Aksa, Teksan ya da bir şalt OEM'inden yazılı tedarik niyeti ya da deneme siparişi gelirse ikincil; fiyatlı ve adetli teklif gelirse öne çıkan.",
 "kapsam_notu": "16 Ekim 2026 keşif turu derin çalışması: 0 arama, 11 sayfa; 5 açık sorunun 1 tanesi cevaplandı, 1 tanesi görüşme gerektiriyor. Çürütücü 11 sayfa açtı, güven 4/5. Çürütme turunda yalnız çalışmadaki URL'ler açıldı, yeni web araması yapılmadı; kullanıcının ek araştırma isteği bu rolün sınırları içinde karşılanamadı. 12 açılış denemesinden 11'i başarılı; Nasdaq iki denemede zaman aşımına uğradı. Açılmayan on sayfa: Nasdaq, Fool, PrivSource, Harju Elekter, Archdesk, Siemens, Aktif, Aksa, Teksan, Yatırım Ofisi; bunlara dayanan iddialar doğrulanamadı olarak işaretlendi, silinmedi. Generac tutanağının ilk 39 bin karakteri tam metin olarak okundu; yüzde 70 paketleme ve üçüncü taraf paketleme cümleleri kalan bölümün model özetinden geldi, tam metin görülmedi. Webull sayfaları Benzinga ve Motley Fool içeriğinin yeniden yayını. Kabin birim fiyatı için yalnızca 2011 tarihli tek makale var ve rakamlar kabin fiyatı değil ses azaltma maliyeti. E-house içinde MEKA'nın alabileceği pay için hiçbir kaynak yok. IEC 61439 ve IEC 62271-202 standart sayfaları okunmadı. Cummins iddiaları ve Türkiye teşvik ürün listesi doğrulanamadı. E-house pazar raporları veri merkezi segmentini ayrı vermiyor.",
 "guven": 4,
 "tarih": "16 Ekim 2026 (keşif turu, derin çalışma)",
@@ -38829,8 +38829,8 @@ window.MEKA_DATA = {
 "Kart 6 ile 12 M$ bilet veriyordu; kademeli giriş ve kiralık halle 5 ile 8 M$ yeterli görünüyor, pilot 0,3 ile 0,5 M$."
 ],
 "degisiklikler": [
-"16 Ekim 2026: keşif turu bu yaprağı bağımsız dalda bulmuştu; iş ağır sac ve çelik imalatı olduğu için MEKA ile ilgili dalına (Özel firmalar) taşındı, MEKA uyumu puana katılır.",
-"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız dalda daha iyi fırsat ara); çürütücü düzeltmeleri:",
+"16 Ekim 2026: keşif turu bu fırsatı bağımsız alanda bulmuştu; iş ağır sac ve çelik imalatı olduğu için MEKA ile ilgili alanına (Özel firmalar) taşındı, MEKA uyumu puana katılır.",
+"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız alanda daha iyi fırsat ara); çürütücü düzeltmeleri:",
 "Braden emsali: SEC 8-K'daki 160+ çalışan Innova'nın ofis personeli; Braden 160+ rakamı Newswire Aralık 2017'de. Kaynak düzeltildi, çalışan başına 270 bin $ hesabı silindi (satış CFI'yi de içeriyor).",
 "Innova 43 M$ sipariş: üç santralle sınırlı değil; Avustralya, Meksika, Şili, Jamaika, Pakistan ve Rusya siparişlerini de içeriyor. Santral başına 10 ile 15 M$ türetimi silindi.",
 "Aero set fabrikasyon payı 0,6 ile 1,0 M$ yerine tonajla 0,4 ile 1,0 M$ (80 t x 5 $/kg = 0,4 M$).",
@@ -38962,7 +38962,7 @@ window.MEKA_DATA = {
 "ne_zaman": "Ocak ile Eylül 2027"
 },
 {
-"adim": "Pilot sipariş: bir paketleyiciden tek aero set ya da egzoz susturucu alt parçası için numune iş; fiyat, tolerans ve lojistik maliyeti ölçülür. Yatırım kararı bu pilotun sonucuna bağlanır. Pilot teklifi 2027 ilk çeyrekte alınmazsa yaprak izle bandına düşer.",
+"adim": "Pilot sipariş: bir paketleyiciden tek aero set ya da egzoz susturucu alt parçası için numune iş; fiyat, tolerans ve lojistik maliyeti ölçülür. Yatırım kararı bu pilotun sonucuna bağlanır. Pilot teklifi 2027 ilk çeyrekte alınmazsa fırsat izle bandına düşer.",
 "kim": "Proje ekibi",
 "ne_zaman": "İlk teklif 2027 ilk çeyrek, teslim 2027 üçüncü çeyrek"
 },
@@ -39498,7 +39498,7 @@ window.MEKA_DATA = {
 "ASC 2026 delege sayısı: 'bin 500'e yakın' APSA sayfasında değil, TÜRKTOB-TÜRKTED ortak açıklamasında; ilk çalışma APSA'ya atfetmişti, düzeltildi"
 ],
 "degisiklikler": [
-"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız dalda daha iyi fırsat ara); çürütücü düzeltmeleri:",
+"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız alanda daha iyi fırsat ara); çürütücü düzeltmeleri:",
 "KWS Pop Vriend: sayfada ciro 'yaklaşık 75 M€' ve bedel 'KWS piyasa değerinin yaklaşık yüzde 20'si' var; 400 M€ bedel, 5,3 kat çarpan ve yüzde 40 kâr marjı sayfada yok, silindi. Pop Vriend ürünleri ıspanak, fasulye, pancar, pazı; domates değil, eklendi",
 "Hortidaily Syngenta: sayfada 663 M$ ciro, grup satışlarının yüzde 4'ü, yaklaşık 2 milyar $ beklenti ve JP Morgan var; '3 ile 6 kat satış' ve 'brüt marj yüzde 60 üstü' sayfada yok, silindi; türetilebilen tek çarpan yaklaşık 3 kat olarak yazıldı",
 "Brüt marj yüzde 45 ile 55 ve FAVÖK yüzde 20 ile 25 varsayımlarının kaynağı kalmadı; 'kaynaklı' listesinden çıkarılıp kaynaksız tahmin olarak işaretlendi; 'neden', 'durum', cevaplar ve bant gerekçesindeki yüzde 60 marj ve 3 ile 6 kat ifadeleri çıkarıldı",
@@ -40047,7 +40047,7 @@ window.MEKA_DATA = {
 {
 "ad": "Wogen Resources / Xcelsior Capital",
 "rol": "musteri",
-"not": "Londra merkezli metal tüccarı ve yatırım kolu; Hillgrove konsantresinin ilk yedi yıl satış hakkı, 4 M$ ön ödeme; Türk konsantresi için olası alıcı ve finansör.",
+"not": "Londra merkezli metal tüccarı ve yatırım grubu; Hillgrove konsantresinin ilk yedi yıl satış hakkı, 4 M$ ön ödeme; Türk konsantresi için olası alıcı ve finansör.",
 "kaynak": "Fastmarkets 3 Aralık 2024, doğrulandı"
 },
 {
@@ -40126,7 +40126,7 @@ window.MEKA_DATA = {
 "Kart Haziran 2026 fiyatını 27,50 ile 32,96 $/kg alıyordu; Skillings sayfası bu rakamları 'tahmini' diye işaretliyor; Campine 23.000 $/t rakamı açılamadı. Bölgesel kaynaklar birbirinden yüzde 30 sapıyor."
 ],
 "degisiklikler": [
-"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız dalda daha iyi fırsat ara); çürütücü düzeltmeleri:",
+"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız alanda daha iyi fırsat ara); çürütücü düzeltmeleri:",
 "USGS 2026 rakamlarının tamamı (45.000 t, 39.000 t, yüzde 91, 25 $/lb, 3.000 t, 99.000 t, 110.000 t) doğrulanamadı diye işaretlendi; PDF metni çözülemedi.",
 "Türkiye 2023 üretimi 6.000 t, dünya 83.000 t, Çin 40.000, Tacikistan 21.000 Fastmarkets ile doğrulandı ve rakamlara eklendi.",
 "Ekonomi modeli yeniden kuruldu: dayanaksız yüzde 20 konsantre iskontosu kaldırıldı; konsantre ödeme oranı mantığı (yüzde 65 ile 75) getirildi; eski girdilerin eski çıktıyla tutarsız olduğu çelişkilere yazıldı.",
@@ -40880,7 +40880,7 @@ window.MEKA_DATA = {
 "Best Grup Rekabet Kurumu muafiyeti yalnız ölçekten değil, 11 Şubat 2026 Tebliğ 2026/2 ile yükseltilen eşiklerden kaynaklanıyor; önceki çalışma bu ayrıntıyı atlamıştı."
 ],
 "degisiklikler": [
-"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız dalda daha iyi fırsat ara); çürütücü düzeltmeleri:",
+"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız alanda daha iyi fırsat ara); çürütücü düzeltmeleri:",
 "Mayıs 2026 HANÇER O-İKA 1 seri üretim sözleşme değişikliği ve 5 araç iddiası silindi; DonanımHaber 7 Mayıs 2026 ve Savunmasanayist 2021 sayfalarında yok, başka kaynak da yok",
 "SSB sözleşmesi cevabı cevaplandi'dan kismen'e çekildi; 2021 sözleşmesi doğrulandı, 2026 değişikliği kaynaksız",
 "Nisan 2024 AA haberinden yeni bulgu eklendi: HANÇER TSK'ya teslim edildi, BOĞAÇ için MSB ve SSB ile sözleşme imzalandı, yeni tasarım BOZKURT",
@@ -41582,7 +41582,7 @@ window.MEKA_DATA = {
 "Önceki sürümde kaldıraçsız getiri bir yerde yüzde 8 ile 10, başka yerde 8 ile 11 yazılmıştı; hesap 2,6 ile 3,4 milyon dolar bölü 30 milyon dolar ile yüzde 8,7 ile 11,3 veriyor, metin tekleştirildi."
 ],
 "degisiklikler": [
-"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız dalda daha iyi fırsat ara); çürütücü düzeltmeleri:",
+"16 Ekim 2026 keşif taramasında bulundu (yönetici isteği: bağımsız alanda daha iyi fırsat ara); çürütücü düzeltmeleri:",
 "Ekonomist 12.12.2025 sayfasına göre iptal edilen 5 ön lisanstan biri Akfen Elektrik Enerjisi Toptan Satış'ın Çanakkale 50 MWe RES'i; önceki sürüm Akfen'i iptal listesinde saymıyordu. Firmalar, takvim, riskler ve metne eklendi.",
 "Para Dergisi'ndeki 611 MW rakamı EPDK Başkanı açıklamasının aktarımı; bağımsız ikinci kaynak sayılmaktan çıkarıldı.",
 "EPİAŞ bülteni açılmadı; Temmuz 2.699,61 ve 3. çeyrek 2.824,13 TL/MWh değerlerine doğrulanamadı eklendi; 3. çeyrek değeri 27 Ağustos'a kadarki kısmi çeyrek olarak düzeltildi. Fiyat varsayımının dayanağı doğrulanan 04.09.2026 verisine çevrildi.",
@@ -42107,11 +42107,11 @@ window.MEKA_DATA = {
 "kol": "belirsiz",
 "on_bant": "izle",
 "id": "belirsiz",
-"baslik": "Alt dalı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge",
+"baslik": "Alt alanı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge",
 "bant": "elendi",
-"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulama bandı değiştirmiyor, kapanışı güçlendiriyor. Barut üretimi 6551 sayılı Kanun ve 87/12028 sayılı Tüzük ile hukuken açık ama İçişleri Bakanlığı ve Genelkurmay görüşüne bağlı ağır güvenlik rejimi var, askeri segment kamu tekelinde, MEKA'nın sac, lazer, kaynak ve hidrolik yetkinliğiyle ilişkisiz. Detonasyonla enerjide ticari güç üretimi oyuncusu yok; Venus Aerospace itki odaklı. Güneş kiremidinde yerli üretici yok; BIPV pazarı Şişecam, Kalyon ve Ankara Solar gibi cam ve panel üreticilerinde, Türk ithalatçı iddiası yanlış çıktı. Tarım dronu pazarı küçük, izin rejimi 2026'da taslak düzeyinde, alıcı kamu ağırlıklı ve yetkinlik dışı. Eski fabrika alımı tek başına iş alanı değil; icradan OSB tesisi arzı doğrulandı ve kapasite isteyen diğer yapraklara aktarılmalı. Kalan eksikler (drone pazar büyüklüğü, konkordato toplamı, güneş kiremidi mevzuatı) kararı değiştirecek güçte değil. 03, 24 Eylül 2026: barut üretimi ve eski fabrika almak on alanlık sıralamanın dışında, Önermediklerimiz listesinde. 04, 27 Eylül 2026: güneşli katlanır ev, güneş kiremidi ve tarım dronu yedi alanlık sıralamanın dışında, Şimdilik değil listesinde. 05, 27 Eylül 2026 revize: kontrollü patlamayla enerji 12 iş içinde 10. sıra, puan yok, etiket 5+ yıl, Ar-Ge çok yüksek, yatırım orta; barutu doğrudan yakıt yapmak ve güneşli katlanır ev Şimdilik değil listesinde. Sıfırdan Ar-Ge için anılan 07 ve 08 bu doğrulamada verilen kaynak dosyalar arasında yok; o satır doğrulanmadı.",
+"puan_metni": "İkinci tur (16 Ekim 2026): Doğrulama bandı değiştirmiyor, kapanışı güçlendiriyor. Barut üretimi 6551 sayılı Kanun ve 87/12028 sayılı Tüzük ile hukuken açık ama İçişleri Bakanlığı ve Genelkurmay görüşüne bağlı ağır güvenlik rejimi var, askeri segment kamu tekelinde, MEKA'nın sac, lazer, kaynak ve hidrolik yetkinliğiyle ilişkisiz. Detonasyonla enerjide ticari güç üretimi oyuncusu yok; Venus Aerospace itki odaklı. Güneş kiremidinde yerli üretici yok; BIPV pazarı Şişecam, Kalyon ve Ankara Solar gibi cam ve panel üreticilerinde, Türk ithalatçı iddiası yanlış çıktı. Tarım dronu pazarı küçük, izin rejimi 2026'da taslak düzeyinde, alıcı kamu ağırlıklı ve yetkinlik dışı. Eski fabrika alımı tek başına iş alanı değil; icradan OSB tesisi arzı doğrulandı ve kapasite isteyen diğer fırsatlara aktarılmalı. Kalan eksikler (drone pazar büyüklüğü, konkordato toplamı, güneş kiremidi mevzuatı) kararı değiştirecek güçte değil. 03, 24 Eylül 2026: barut üretimi ve eski fabrika almak on alanlık sıralamanın dışında, Önermediklerimiz listesinde. 04, 27 Eylül 2026: güneşli katlanır ev, güneş kiremidi ve tarım dronu yedi alanlık sıralamanın dışında, Şimdilik değil listesinde. 05, 27 Eylül 2026 revize: kontrollü patlamayla enerji 12 iş içinde 10. sıra, puan yok, etiket 5+ yıl, Ar-Ge çok yüksek, yatırım orta; barutu doğrudan yakıt yapmak ve güneşli katlanır ev Şimdilik değil listesinde. Sıfırdan Ar-Ge için anılan 07 ve 08 bu doğrulamada verilen kaynak dosyalar arasında yok; o satır doğrulanmadı.",
 "tarih": "16 Ekim 2026 (ek araştırma, iki tur); önceki çalışma 24 ve 27 Eylül 2026",
-"ne": "Bu yaprak tek bir iş değil, altı ayrı fikrin toplandığı bir sepet. Barut üretimi, barutla ya da kontrollü patlamayla enerji, güneşli katlanır ev ve güneş kiremidi, tarım dronu, eski bir fabrika satın almak ve sıfırdan kendi Ar-Ge'sini kurmak. Verilen üç kaynak dosya bunların dördünü gerekçesiyle elemiş: barut üretimi, eski fabrika almak, güneşli ev ile kiremit, tarım dronu. Kontrollü patlamayla enerji 12 iş içinde 10. sırada duruyor; barutu doğrudan yakıt yapmak ayrıca elenmiş. Sıfırdan Ar-Ge fikri bu üç dosyada geçmiyor; 07 ve 08 bu turda doğrulanmadı.",
+"ne": "Bu fırsat tek bir iş değil, altı ayrı fikrin toplandığı bir sepet. Barut üretimi, barutla ya da kontrollü patlamayla enerji, güneşli katlanır ev ve güneş kiremidi, tarım dronu, eski bir fabrika satın almak ve sıfırdan kendi Ar-Ge'sini kurmak. Verilen üç kaynak dosya bunların dördünü gerekçesiyle elemiş: barut üretimi, eski fabrika almak, güneşli ev ile kiremit, tarım dronu. Kontrollü patlamayla enerji 12 iş içinde 10. sırada duruyor; barutu doğrudan yakıt yapmak ayrıca elenmiş. Sıfırdan Ar-Ge fikri bu üç dosyada geçmiyor; 07 ve 08 bu turda doğrulanmadı.",
 "neden": "Mehmet Bey MEKA'dan bağımsız, teknolojik, yüksek getirili ve ilk giren kazanır türünden iş aradı. Güneşli küçük akıllı ev onun kendi önerisiydi; 04 buna doğrudan cevap verdi. Barut üretimi ve eski fabrika almak MEKA'ya bitişik alanlar sıralanırken 03'te gündeme geldi. Kontrollü patlama ve tarım dronu bağımsız taramada çıktı. Hepsine bakıldı ve kenara konuldu. Bu sayfa aynı fikirlerin yeniden tartışılmasını önlemek için gerekçeleri tek yerde tutar.",
 "rakamlar": [
 {
@@ -42195,7 +42195,7 @@ window.MEKA_DATA = {
 "kaynak": "https://patents.google.com/patent/US7340903"
 }
 ],
-"durum": "Yaprak önceki iki turda elendi; bu çürütme turunda 21 kaynaktan 15'i açılıp satır satır karşılaştırıldı. Barut cevabı iki resmi mevzuat sayfasıyla doğrulandı ve 'cevaplandi' olarak kaldı; MKE istisnası ifadesi inceltildi. Eski fabrika cevabındaki tüm rakamlar ve 4562 sayılı Kanun madde 15 ile 18 doğrulandı. Güneş kiremidi cevabında 'Kaymaz Yapı' adlı Türk firması iddiası yanlıştı ve silindi; haber yalnızca İspanyol Solum'un ürününü anlatıyor. Tarım dronu kaynaklarından biri (borsaningundemi) açılmadı; Hürriyet etiket sayfasındaki Tarım Kredi haberleri eski (2020-2021). Enerji cevabında 'tek ticari şirket' ifadesi kaldırıldı, NETL PDF doğrulanamadı. Hiçbir düzeltme bandı değiştirmiyor; yaprak elendi bandında kalır. Fabrika alımı bilgisi kapasite isteyen diğer yapraklara aktarılmalı.",
+"durum": "Fırsat önceki iki turda elendi; bu çürütme turunda 21 kaynaktan 15'i açılıp satır satır karşılaştırıldı. Barut cevabı iki resmi mevzuat sayfasıyla doğrulandı ve 'cevaplandi' olarak kaldı; MKE istisnası ifadesi inceltildi. Eski fabrika cevabındaki tüm rakamlar ve 4562 sayılı Kanun madde 15 ile 18 doğrulandı. Güneş kiremidi cevabında 'Kaymaz Yapı' adlı Türk firması iddiası yanlıştı ve silindi; haber yalnızca İspanyol Solum'un ürününü anlatıyor. Tarım dronu kaynaklarından biri (borsaningundemi) açılmadı; Hürriyet etiket sayfasındaki Tarım Kredi haberleri eski (2020-2021). Enerji cevabında 'tek ticari şirket' ifadesi kaldırıldı, NETL PDF doğrulanamadı. Hiçbir düzeltme bandı değiştirmiyor; fırsat elendi bandında kalır. Fabrika alımı bilgisi kapasite isteyen diğer fırsatlara aktarılmalı.",
 "acik_sorular": [
 "Kısmen cevaplandı: Kontrollü patlamayla enerji (hidrojen detonasyon, pulse detonation) alanında ticari oyuncu ve Türkiye'de girişim var mı; izleme listesinde kalmalı mı",
 "Kısmen cevaplandı: Tarım dronu pazarı Türkiye: üretici sayısı, SHGM izin rejimi, pazar büyüklüğü; kapanış kararı yeterli mi",
@@ -42204,12 +42204,12 @@ window.MEKA_DATA = {
 ],
 "adimlar": [
 {
-"adim": "Yaprağı elendi bandında kapat; karar ağacı dosyasına 'beş alt fikir kapandı, fabrika alımı araç olarak diğer yapraklara aktarıldı' notunu işle; Kaymaz Yapı hatasının silindiğini not et",
+"adim": "Fırsatı elendi bandında kapat; fırsat haritası dosyasına 'beş alt fikir kapandı, fabrika alımı araç olarak diğer fırsatlara aktarıldı' notunu işle; Kaymaz Yapı hatasının silindiğini not et",
 "kim": "Strateji ve iş geliştirme sorumlusu",
 "ne_zaman": "23 Ekim 2026'ya kadar"
 },
 {
-"adim": "İcradan OSB fabrikası ilanlarını aylık izleme listesi kur: UYAP e-satış portalı, Ankara ve çevre iller, 10.000 m² üstü kapalı alan; 4562 madde 15 ve 18 şartlarını (OSB uygunluk görüşü, katılımcı niteliği, Bakanlık ve OSB alacakları) kontrol listesine ekle; sonuçları kapasite artışı isteyen yapraklara aktar",
+"adim": "İcradan OSB fabrikası ilanlarını aylık izleme listesi kur: UYAP e-satış portalı, Ankara ve çevre iller, 10.000 m² üstü kapalı alan; 4562 madde 15 ve 18 şartlarını (OSB uygunluk görüşü, katılımcı niteliği, Bakanlık ve OSB alacakları) kontrol listesine ekle; sonuçları kapasite artışı isteyen fırsatlara aktar",
 "kim": "Yatırım ve finans sorumlusu",
 "ne_zaman": "İlk tarama 2 Kasım 2026, sonra her ayın ilk haftası"
 },
@@ -42219,7 +42219,7 @@ window.MEKA_DATA = {
 "ne_zaman": "30 Ekim 2026'ya kadar"
 },
 {
-"adim": "Yalnızca bilgi için: Tarım ve Orman Bakanlığı Gıda ve Kontrol Genel Müdürlüğünden ruhsatlı zirai İHA listesi ve üretici sayısı; SHGM'den İHATTYS yürürlük tarihi. İletişim bilgileri resmi siteden teyit edilmeli. Cevap yaprağın bandını değiştirmez",
+"adim": "Yalnızca bilgi için: Tarım ve Orman Bakanlığı Gıda ve Kontrol Genel Müdürlüğünden ruhsatlı zirai İHA listesi ve üretici sayısı; SHGM'den İHATTYS yürürlük tarihi. İletişim bilgileri resmi siteden teyit edilmeli. Cevap fırsatın bandını değiştirmez",
 "kim": "Strateji ve iş geliştirme sorumlusu",
 "ne_zaman": "13 Kasım 2026'ya kadar, düşük öncelik"
 },
@@ -42233,7 +42233,7 @@ window.MEKA_DATA = {
 "Aynı fikirler farklı adlarla yeniden gündeme gelebilir; barut 03'te üretim, 05'te yakıt olarak iki ayrı biçimde çıktı.",
 "Elemelerin kanıtı zayıf. Tarım dronu tek cümle ve tek kaynakla elendi. Barut üretiminin tek kaynağı bir haber bağlantısı, rakam yalnızca adreste. Kontrollü patlamanın tarihçe ve enerji karşılaştırması Wikipedia ve Jalopnik kaynaklı; teknik duyurular NETL ve DefenceTurk. Yanlış eleme olasılığı var.",
 "Eski fabrika almak nakdi bağlar diye elendi; başka bir alanda yer gerekirse bu kapı yeniden açılacak ve elde hazır bir değerlendirme olmayacak.",
-"Sıfırdan Ar-Ge bu sepette adıyla duruyor ama verilen dosyalarda gerekçesi yok. Teyit edilmeden ağaca yazılırsa dayanaksız kalır."
+"Sıfırdan Ar-Ge bu sepette adıyla duruyor ama verilen dosyalarda gerekçesi yok. Teyit edilmeden haritaya yazılırsa dayanaksız kalır."
 ],
 "kapilar": {
 "yatirim": "ikisi",
@@ -42318,7 +42318,7 @@ window.MEKA_DATA = {
 }
 ],
 "kapsam": "kismi",
-"kapsam_notu": "16 Ekim 2026 ikinci tur: 5 açık sorunun 1'i cevaplandı, 4'i kısmen, 0'i kapandı, 0'i görüşme gerektiriyor. Sınırlar: Çürütme turunda arama yapılmadı, yalnızca verilen URL'ler açıldı; 21 kaynaktan 15'i açıldı. Açılmayan 6 kaynak (NETL PDF, borsaningundemi, iki ffkpartnerhukuk sayfası, tarimorman GKGM, EGM) için ifadeler 'doğrulanamadı' olarak işaretlendi; EGM kaynaklardan çıkarıldı. mevzuat.gov.tr sayfaları uzun olduğu için 87/12028 Tüzük madde 82, 113, 118 ve 131 ile patentin düşme tarihi sayfanın özet kısmından alındı, ana metinde doğrudan görülmedi. Hürriyet ZİHA etiket sayfası ve Şantiye Dergisi sayfası tarihsiz. SHGM ve Tarım Bakanlığı resmi metinleri hala açılmadı; drone kuralları yalnızca haber kaynaklı ve İHATTYS taslak aşamasında. Tarım dronu pazar büyüklüğü, üretici sayısı, konkordato toplamı ve güneş kiremidi mevzuatı için veri yok; bu yüzden kapsam 'kismi'. Kullanıcının bayi puanlama sorusu bu yaprağın dışında: bayi görüşmeleri web ile doğrulanamaz, puanlar görüşmeyi yapan kişi tarafından elle girilmeli (ek_md sonundaki not).",
+"kapsam_notu": "16 Ekim 2026 ikinci tur: 5 açık sorunun 1'i cevaplandı, 4'i kısmen, 0'i kapandı, 0'i görüşme gerektiriyor. Sınırlar: Çürütme turunda arama yapılmadı, yalnızca verilen URL'ler açıldı; 21 kaynaktan 15'i açıldı. Açılmayan 6 kaynak (NETL PDF, borsaningundemi, iki ffkpartnerhukuk sayfası, tarimorman GKGM, EGM) için ifadeler 'doğrulanamadı' olarak işaretlendi; EGM kaynaklardan çıkarıldı. mevzuat.gov.tr sayfaları uzun olduğu için 87/12028 Tüzük madde 82, 113, 118 ve 131 ile patentin düşme tarihi sayfanın özet kısmından alındı, ana metinde doğrudan görülmedi. Hürriyet ZİHA etiket sayfası ve Şantiye Dergisi sayfası tarihsiz. SHGM ve Tarım Bakanlığı resmi metinleri hala açılmadı; drone kuralları yalnızca haber kaynaklı ve İHATTYS taslak aşamasında. Tarım dronu pazar büyüklüğü, üretici sayısı, konkordato toplamı ve güneş kiremidi mevzuatı için veri yok; bu yüzden kapsam 'kismi'. Kullanıcının bayi puanlama sorusu bu fırsatın dışında: bayi görüşmeleri web ile doğrulanamaz, puanlar görüşmeyi yapan kişi tarafından elle girilmeli (ek_md sonundaki not).",
 "kanit": 3,
 "web": [
 {
@@ -42423,7 +42423,7 @@ window.MEKA_DATA = {
 }
 ],
 "celiskiler": [
-"Barut fikri iki belgede iki ayrı biçimde geçiyor. 03 'Barut üretimi' diye Önermediklerimiz listesine koymuş. 05 'Barutu doğrudan yakıt yapmak' diye Şimdilik değil listesine koymuş ve fikrin değerli kısmını 10. maddeye bağlamış. Ağaçta tek bir elendi satırı olmalı.",
+"Barut fikri iki belgede iki ayrı biçimde geçiyor. 03 'Barut üretimi' diye Önermediklerimiz listesine koymuş. 05 'Barutu doğrudan yakıt yapmak' diye Şimdilik değil listesine koymuş ve fikrin değerli kısmını 10. maddeye bağlamış. Haritada tek bir elendi satırı olmalı.",
 "03'teki barut üretimi için tek kaynak özel bir şirketin, Ahlatcı'nın fabrika haberi. Belge metninde rakam yok; yıllık 4 ton yalnızca bağlantı adresinde. MKE ya da kamu alıcısı geçmiyor. Devlet firmaları gibi bir yerleşim dayanaksız olur.",
 "04 ve 05 aynı gün tarihli ama Şimdilik değil listeleri farklı. 04'te güneşli ev ve tarım dronu var. 05'te güneşli ev ve barutu doğrudan yakıt yapmak var, tarım dronu yok. 04 Mehmet Bey'e üç soru, 05 iki soru soruyor.",
 "Kontrollü patlama 5+ yıl ve Ar-Ge çok yüksek etiketliyken yatırım etiketi orta. 05'te 11 ve 12. sıradaki işler izle etiketli, 10. sıradaki kontrollü patlama etiketsiz. İlk adım ve ticarileşme yolu yazılmamış. Tarihçe ve enerji karşılaştırması Wikipedia ve Jalopnik kaynaklı.",
@@ -42504,7 +42504,7 @@ window.MEKA_DATA = {
 {
 "soru": "Eski fabrika satın alma: Türkiye'de sanayi tesisi satışlarında güncel piyasa ve bu yolun ne zaman yeniden açılacağı",
 "durum": "kismen",
-"cevap": "İcradan OSB fabrikası arzı 2026'da belirgin. Örnek 1: Bilecik Bozüyük OSB'de boş seramik tesisi, Poyra OSB Mahallesi, 61.890 m² arsa, 16.299 m² kapalı üretim alanı, muhammen bedel 502.908.235 TL, birinci artırma 9 ile 16 Eylül 2026, ikinci artırma 2 ile 9 Ekim 2026; aynı OSB'de Hitit Seramik ve iştiraki Beril Seramik için iflas kararı verilmişti; ilan sitelerinde çok sayıda satılık fabrika var (haber 25 Haziran 2026, sayfada doğrulandı). Örnek 2: Şanlıurfa Eyyübiye Koçören Mahallesi 2. OSB'de 17.963 m² arsalı fabrika, 215 ada 63 parsel, muhammen bedel 176.455.960 TL, KDV yüzde 20, elektrik, su ve aidat borcu 738.751 TL, artırmalar 7 ile 14 Mayıs ve 4 ile 11 Haziran 2026 (haber 23 Mart 2026, kaynak Basın İlan Kurumu, sayfada doğrulandı). Hukuki çerçeve 4562 sayılı OSB Kanunu (sayfada doğrulandı): madde 15 icra yoluyla satışta Bakanlık ve OSB alacakları öncelikle ödenir, satış kuruluş protokolündeki niteliklere sahip alıcılara ya da kredi alacaklısı kuruluşa yapılabilir, ilanlarda katılımcı nitelikleri yer alır, kredi alacaklısı kuruluş en geç iki yıl içinde uygun nitelikli kişilere satmak ya da kiraya vermek zorunda; madde 18 OSB mülkiyetinde olmayan tüm taşınmazların tapusuna 'icra yoluyla satışı dahil üçüncü kişilere devrinde OSB'den uygunluk görüşü alınması zorunludur' şerhi konur, eski katılımcının taahhütleri yeni alıcı tarafından aynen kabul edilmiş sayılır. Hukuki kontrol listesi kaynağı (ffkpartnerhukuk) bu turda açılmadı, doğrulanamadı. TOBB kurulan kapanan şirket sayfasında Ağustos 2026 haber bülteni ve xlsx dosyası bağlantısı var, sayfada rakam yok (sayfada doğrulandı); Eylül 2026 henüz yayımlanmamış. Konkordato ve satış hacmi toplamı için resmi rakam bulunamadı. Ne zaman açılır: bu bir iş alanı değil, giriş aracı. Başka bir yaprak kapasite yatırım kararı aldığında hedef şehirde OSB fabrikası icra ilanı çıkınca açılır. Bugün alıcı piyasası görünümü var; seramik, tekstil ve mobilyada arzın sürmesi beklenir (yorum, kaynaklı değil).",
+"cevap": "İcradan OSB fabrikası arzı 2026'da belirgin. Örnek 1: Bilecik Bozüyük OSB'de boş seramik tesisi, Poyra OSB Mahallesi, 61.890 m² arsa, 16.299 m² kapalı üretim alanı, muhammen bedel 502.908.235 TL, birinci artırma 9 ile 16 Eylül 2026, ikinci artırma 2 ile 9 Ekim 2026; aynı OSB'de Hitit Seramik ve iştiraki Beril Seramik için iflas kararı verilmişti; ilan sitelerinde çok sayıda satılık fabrika var (haber 25 Haziran 2026, sayfada doğrulandı). Örnek 2: Şanlıurfa Eyyübiye Koçören Mahallesi 2. OSB'de 17.963 m² arsalı fabrika, 215 ada 63 parsel, muhammen bedel 176.455.960 TL, KDV yüzde 20, elektrik, su ve aidat borcu 738.751 TL, artırmalar 7 ile 14 Mayıs ve 4 ile 11 Haziran 2026 (haber 23 Mart 2026, kaynak Basın İlan Kurumu, sayfada doğrulandı). Hukuki çerçeve 4562 sayılı OSB Kanunu (sayfada doğrulandı): madde 15 icra yoluyla satışta Bakanlık ve OSB alacakları öncelikle ödenir, satış kuruluş protokolündeki niteliklere sahip alıcılara ya da kredi alacaklısı kuruluşa yapılabilir, ilanlarda katılımcı nitelikleri yer alır, kredi alacaklısı kuruluş en geç iki yıl içinde uygun nitelikli kişilere satmak ya da kiraya vermek zorunda; madde 18 OSB mülkiyetinde olmayan tüm taşınmazların tapusuna 'icra yoluyla satışı dahil üçüncü kişilere devrinde OSB'den uygunluk görüşü alınması zorunludur' şerhi konur, eski katılımcının taahhütleri yeni alıcı tarafından aynen kabul edilmiş sayılır. Hukuki kontrol listesi kaynağı (ffkpartnerhukuk) bu turda açılmadı, doğrulanamadı. TOBB kurulan kapanan şirket sayfasında Ağustos 2026 haber bülteni ve xlsx dosyası bağlantısı var, sayfada rakam yok (sayfada doğrulandı); Eylül 2026 henüz yayımlanmamış. Konkordato ve satış hacmi toplamı için resmi rakam bulunamadı. Ne zaman açılır: bu bir iş alanı değil, giriş aracı. Başka bir fırsat kapasite yatırım kararı aldığında hedef şehirde OSB fabrikası icra ilanı çıkınca açılır. Bugün alıcı piyasası görünümü var; seramik, tekstil ve mobilyada arzın sürmesi beklenir (yorum, kaynaklı değil).",
 "kaynak": "https://www.haberhurriyeti.com/haber/28234459/bir-zamanlar-bos-yer-bulunamazdi-bozuyukteki-dev-fabrika-yarim-milyar-liraya-icradan-satista (haber, açıldı); https://www.urfanatik.com/sanliurfada-18-bin-metrekarelik-fabrika-satisa-cikarildi (haber, açıldı); https://mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=1&MevzuatNo=4562&MevzuatTertip=5 (resmi, açıldı); https://www.tobb.org.tr/BilgiErisimMudurlugu/Sayfalar/KurulanKapananSirketistatistikleri.php (resmi, açıldı); https://www.ffkpartnerhukuk.com.tr/fabrika-ve-sanayi-tesisi-satin-alirken-hukuki-kontrol-listesi-2026-guncel-rehber/ (diger, açılmadı, doğrulanamadı)",
 "kime": "Konkordato ve kapanan imalat şirketi sayısı için TOBB Ağustos 2026 bülteni (docx) ve istatistik dosyası (xlsx) indirilip okunmalı. Güncel ilan akışı için UYAP e-satış portalı ve Ankara Sanayi Odası OSB birimi."
 }
@@ -42568,7 +42568,7 @@ window.MEKA_DATA = {
 "ad": "UYAP e-satış portalı",
 "rol": "kurum",
 "not": "İcradan OSB fabrikası ilanları aylık izlenecek; ilk tarama 2 Kasım 2026.",
-"kaynak": "yaprak adımları, 2. adım"
+"kaynak": "fırsat adımları, 2. adım"
 },
 {
 "ad": "TOBB",
@@ -42652,7 +42652,7 @@ window.MEKA_DATA = {
 "dal_ad": "Bağımsız",
 "kol_id": "bag_ozel",
 "kol_ad": "Özel firmalar",
-"kisa": "Alt dalı belirsiz fikirler",
+"kisa": "Alt alanı belirsiz fikirler",
 "puan_kisa": "izle",
 "butonlar": [
 {
@@ -42669,10 +42669,10 @@ window.MEKA_DATA = {
 "meka": {
 "id": "meka",
 "baslik": "MEKA ile ilgili",
-"ozet": "MEKA dalında 27 yaprak var: özel firmalar kolunda 23, devlet kolunda Beylikova nadir toprak tesisi, belediye konkasör ihaleleri ve lançer altyapısı, teknokent kolunda Milvus Robotics. Savunma kolları en kalabalık grup; tahkimat prekast hattı, tahkimat kalıbı, flat rack, mühimmat hattı ekipmanı ve konteyner gövdesinin talebi Polonya, Baltık, Almanya ve Hollanda ihale kayıtlarıyla isimli, lançer tarafında ASELSAN ile Roketsan'ın 1,23 milyar avroluk sözleşmesi KAP'ta kayıtlı. Mineral ve altyapıda enkaz agregası ve belediye konkasörü MEKA'nın hazır ürününü satar ve 6 ile 12 ayda gelir görür; çimento, nükleer, tungsten, trafo ve termal batarya tarihli pencereler ama ruhsat, sertifika ve fiyat verisi eksik; veri merkezi kabini ve gaz türbini yan ekipmanı SEC belgeli talep taşıyan enerji ekipmanı imalatı; Milvus ve Beylikova önce tedarikçilik yolu. 20 Ekim 2026 turundan sonra yıl 5 brüt kârı kaynaklı fiyata dayanan yapraklar şunlar: tahkimat prekast 0,2 ile 1,0 milyon avro, tahkimat kalıbı 0,35 ile 1,0 milyon avro, mühimmat ekipmanı 0,9 ile 3,0 milyon avro, konteyner 1,4 ile 5 milyon avro, flat rack 0,7 ile 3,7 milyon avro, enkaz 0,9 ile 3,1 milyon dolar, belediye 0,35 ile 0,68 milyon dolar, lançer 0,3 ile 2,2 milyon dolar; elektrikli otobüs ve Çinli otobüs ortaklığında birim fiyat kaynaklı ama adet ve marj varsayım, veri merkezi, türbin ve termalde tahmin, diğer yapraklarda yıl 5 rakamı yok. Ortak engel bütün dalda aynı: tesis veri formu, MSB sınıflandırma görüşü, NCAGE ve NSPA kayıtları, ISO 3834 ve EN 1090 belgeleri henüz yok ve Avrupa alıcıları yerli tedarikçi seçiyor.",
+"ozet": "MEKA alanında 27 fırsat var: özel firmalar grubunda 23, devlet grubunda Beylikova nadir toprak tesisi, belediye konkasör ihaleleri ve lançer altyapısı, teknokent grubunda Milvus Robotics. Savunma grupları en kalabalık grup; tahkimat prekast hattı, tahkimat kalıbı, flat rack, mühimmat hattı ekipmanı ve konteyner gövdesinin talebi Polonya, Baltık, Almanya ve Hollanda ihale kayıtlarıyla isimli, lançer tarafında ASELSAN ile Roketsan'ın 1,23 milyar avroluk sözleşmesi KAP'ta kayıtlı. Mineral ve altyapıda enkaz agregası ve belediye konkasörü MEKA'nın hazır ürününü satar ve 6 ile 12 ayda gelir görür; çimento, nükleer, tungsten, trafo ve termal batarya tarihli pencereler ama ruhsat, sertifika ve fiyat verisi eksik; veri merkezi kabini ve gaz türbini yan ekipmanı SEC belgeli talep taşıyan enerji ekipmanı imalatı; Milvus ve Beylikova önce tedarikçilik yolu. 20 Ekim 2026 turundan sonra yıl 5 brüt kârı kaynaklı fiyata dayanan fırsatlar şunlar: tahkimat prekast 0,2 ile 1,0 milyon avro, tahkimat kalıbı 0,35 ile 1,0 milyon avro, mühimmat ekipmanı 0,9 ile 3,0 milyon avro, konteyner 1,4 ile 5 milyon avro, flat rack 0,7 ile 3,7 milyon avro, enkaz 0,9 ile 3,1 milyon dolar, belediye 0,35 ile 0,68 milyon dolar, lançer 0,3 ile 2,2 milyon dolar; elektrikli otobüs ve Çinli otobüs ortaklığında birim fiyat kaynaklı ama adet ve marj varsayım, veri merkezi, türbin ve termalde tahmin, diğer fırsatlarda yıl 5 rakamı yok. Ortak engel bütün alanda aynı: tesis veri formu, MSB sınıflandırma görüşü, NCAGE ve NSPA kayıtları, ISO 3834 ve EN 1090 belgeleri henüz yok ve Avrupa alıcıları yerli tedarikçi seçiyor.",
 "ne_yapmali": [
 {
-"adim": "Dalın ortak belge sırasını tek seferde başlatmak: Ek A tesis veri formunu doldurmak, kanca yüksekliği, Ø300 mm üstü torna sayısı, hol yüksekliği, robotik kaynak hücresi, boş saat ve metrekare; MSB'den 5201 sayılı Kanun kapsamında ürün bazlı yazılı sınıflandırma görüşü istemek, listede tahkimat kalıbı, bunker segment kalıbı, Çek kirpisi, flat rack ve kanca gövdesi, ISO konteyner gövdesi, konveyör, silo, çelik platform ve lançer rampası çelik yapısı; NCAGE, NSPA, UNGM ve SAM.gov kayıtlarını tamamlamak; ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak, bu belge nükleer ve türbin yan ekipmanı için de gerekli.",
+"adim": "Alanın ortak belge sırasını tek seferde başlatmak: Ek A tesis veri formunu doldurmak, kanca yüksekliği, Ø300 mm üstü torna sayısı, hol yüksekliği, robotik kaynak hücresi, boş saat ve metrekare; MSB'den 5201 sayılı Kanun kapsamında ürün bazlı yazılı sınıflandırma görüşü istemek, listede tahkimat kalıbı, bunker segment kalıbı, Çek kirpisi, flat rack ve kanca gövdesi, ISO konteyner gövdesi, konveyör, silo, çelik platform ve lançer rampası çelik yapısı; NCAGE, NSPA, UNGM ve SAM.gov kayıtlarını tamamlamak; ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak, bu belge nükleer ve türbin yan ekipmanı için de gerekli.",
 "kim": "Mehmet Ulaş ile MEKA kalite ve ihracat birimi",
 "ne_zaman": "Kasım 2026 içinde form ve başvurular, belgelendirme Haziran 2027'ye kadar",
 "konu_id": "sav_konteyner"
@@ -42721,19 +42721,19 @@ window.MEKA_DATA = {
 }
 ],
 "kapi_etkisi": {
-"sirket": "Yatırım şirket üzerinden olursa 27 yaprağın hepsi açık kalır; savunma kolları, enkaz, belediye, lançer, Beylikova ve enerji ekipmanı MEKA tesisine ve KAP'a bildirilen ürün fiyatlarına dayanıyor. Çimento, nükleer, tungsten ve Milvus paketleri şirket ya da kişisel diye yazıyor; şirket yolunda bunlar da kalır.",
-"kisisel": "Kişisel yatırım seçilince MEKA dalı tümüyle kapanır; devlet ihaleleri, Roketsan tedarikçiliği ve Avrupa alt yükleniciliği MEKA tüzel kişiliğini ister. Paket yalnız çimento ruhsatı, tungsten ve Milvus azınlık payı ve nükleer için kişisel yolu da yazıyor; bunlar ancak MEKA dışı bir yapıda yeniden ele alınır.",
+"sirket": "Yatırım şirket üzerinden olursa 27 fırsatın hepsi açık kalır; savunma grupları, enkaz, belediye, lançer, Beylikova ve enerji ekipmanı MEKA tesisine ve KAP'a bildirilen ürün fiyatlarına dayanıyor. Çimento, nükleer, tungsten ve Milvus paketleri şirket ya da kişisel diye yazıyor; şirket yolunda bunlar da kalır.",
+"kisisel": "Kişisel yatırım seçilince MEKA alanı tümüyle kapanır; devlet ihaleleri, Roketsan tedarikçiliği ve Avrupa alt yükleniciliği MEKA tüzel kişiliğini ister. Paket yalnız çimento ruhsatı, tungsten ve Milvus azınlık payı ve nükleer için kişisel yolu da yazıyor; bunlar ancak MEKA dışı bir yapıda yeniden ele alınır.",
 "dusuk_butce": "Dilim 1 ve 2 seçilirse sav_vinc ve sav_mro 100 bin dolar altı ile; sav_prekast, sav_kalip, sav_istihkam, enkaz, mineral, termal, trafo, res_temel, nukleer, beylikova, belediye, lancer ve milvus 100 bin ile 1 milyon dolar ile uyar. sav_flatrack, sav_muhimmat, sav_konteyner, cimento, tungsten, kum, parcalayici, asfalt, dc_ehouse, turbin_yan ve elektrikli_oto 1 ile 10 milyon dolar, cin_otobus_ort yaklaşık 11,5 milyon dolar ister; bunlar düşer. sav_flatrack 0,8 ile 1,5 ve sav_muhimmat 0,93 ile 1,9 milyon dolar ile sınıra yakın.",
-"yuksek_butce": "Dilim 3 ve 4 seçilirse sav_flatrack, sav_muhimmat, sav_konteyner, cimento, tungsten, kum, parcalayici, asfalt, dc_ehouse, turbin_yan ve elektrikli_oto 1 ile 10 milyon dolar ile, cin_otobus_ort 10 milyon dolar üstü ile açılır. Küçük biletli yapraklar düşmez; belediye 250 bin dolar, beylikova 100 bin dolar altı ve lançer 0,47 ile 1,27 milyon dolar ile bütçenin küçük bir kısmını kullanır. En büyük kalemler dc_ehouse 4 ile 8, turbin_yan 5 ile 8, elektrikli_oto 6 ile 10 milyon dolar; geri ödemeleri 5 yılı aşıyor.",
+"yuksek_butce": "Dilim 3 ve 4 seçilirse sav_flatrack, sav_muhimmat, sav_konteyner, cimento, tungsten, kum, parcalayici, asfalt, dc_ehouse, turbin_yan ve elektrikli_oto 1 ile 10 milyon dolar ile, cin_otobus_ort 10 milyon dolar üstü ile açılır. Küçük biletli fırsatlar düşmez; belediye 250 bin dolar, beylikova 100 bin dolar altı ve lançer 0,47 ile 1,27 milyon dolar ile bütçenin küçük bir kısmını kullanır. En büyük kalemler dc_ehouse 4 ile 8, turbin_yan 5 ile 8, elektrikli_oto 6 ile 10 milyon dolar; geri ödemeleri 5 yılı aşıyor.",
 "kur": "Kuralım seçilirse sav_prekast tek kur yolu olarak; sav_kalip, sav_flatrack, sav_muhimmat, sav_mro, mineral, cimento, nukleer, tungsten, trafo, enkaz, parcalayici, turbin_yan, beylikova, belediye ve lancer iki yollu olarak uyar; üretim MEKA'da, Beylikova ve belediyede EKAP ihalesine MEKA kendi girer. sav_konteyner, sav_istihkam, sav_vinc, termal, kum, res_temel, asfalt, dc_ehouse, elektrikli_oto, cin_otobus_ort ve milvus yalnız ortak yolu yazıyor; kur seçilince düşer.",
-"ortak": "Ortak olalım seçilirse sav_konteyner, sav_istihkam, sav_vinc, termal, kum, res_temel, asfalt, dc_ehouse, elektrikli_oto, cin_otobus_ort ve milvus tam uyar; iki yollu yapraklar satış kanalı, teknoloji ya da öğütme ve flotasyon ortağıyla devam eder, beylikova, belediye ve lancer dahil. Yalnız sav_prekast düşer; paket onu MEKA'nın kendi santral ve kalıp paketini satması diye yazıyor."
+"ortak": "Ortak olalım seçilirse sav_konteyner, sav_istihkam, sav_vinc, termal, kum, res_temel, asfalt, dc_ehouse, elektrikli_oto, cin_otobus_ort ve milvus tam uyar; iki yollu fırsatlar satış kanalı, teknoloji ya da öğütme ve flotasyon ortağıyla devam eder, beylikova, belediye ve lancer dahil. Yalnız sav_prekast düşer; paket onu MEKA'nın kendi santral ve kalıp paketini satması diye yazıyor."
 },
 "uyarilar": [
 "Yerli tedarikçi tercihi: 2024 ile 2026 TED tahkimat sonuçlarında bütün kazananlar yerli, tek istisna Litvanyalı Gelmesta'nın Letonya çerçevesi; Marshall Hollanda işinde ofset için Hollandalı Contour'u seçti ve Türk tedarikçi ofset sayılmaz; Rheinmetall 3:1 konteyneri kendi üretiyor; Hollanda flat racklerini Polonyalı Zamet-Glowno yapıyor. Hiçbir ana yüklenici Türk tedarikçi aradığını yazmıyor.",
 "Pencere ve ihale sayısı: Polonya ve Letonya tahkimat programları 2028'de, Estonya hattı 2027 sonunda bitiyor; Polonya kirpi fiyatı bir yılda 1.282 ile 1.747 PLN'den 847 ile 1.026 PLN'ye indi. Belediye tarafında EKAP'ta belediye konkasör alımı yılda 1 ile 2, il özel idaresi yılda 1; Giresun'u 13 Ekim 2026'da Taşsan 23,3 milyon TL ile aldı ve yalnız 2 istekli vardı; yıl 5 için 5 ile 8 makine hedefi bu sayıya göre iddialı.",
-"İhracat kontrolü ve belge zinciri: bunker segment kalıbı ML13.b ve ML18.a, askerî konteyner gövdesi ML17, lançer ve rampa çelik yapısı ML4; Tesis Güvenlik Belgesi, Üretim İzin Belgesi ve AQAP zinciri 12 ile 20 ay sürer. Somali üssünün ana yüklenicisi 10 ayda hiçbir kaynakta çıkmadı; üs satışı olmazsa lançer yaprağının yıl 1 ve 2 geliri sıfır.",
-"Devlet ve teknokent yaprakları: Beylikova'da temel 2026'da söz verildi, Ekim 2026'da haber yok ve inşaat 2027 deniyor; tesisin mühendislik firması hiçbir kaynakta yok, MEKA ancak alt tedarikçi olur. Milvus'un 1.700 robot ve 450 kurulu robot rakamları şirket beyanı; robot başına 3 ile 4 bin dolar sac işi varsayımıyla tedarik cirosu yılda 3 ile 4 milyon dolar, MEKA ölçeğinde yan iş.",
-"Otobüs ve büyük biletli enerji yaprakları: iç pazar 2025'te 69 elektrikli araç, hepsi Karsan; Çinli ortak doğrulanamadı, BYD Manisa anlaşması 10 Haziran 2026'da askıya alındı; bilet 6 ile 11,5 milyon dolar. Veri merkezi kabini 4 ile 8 ve türbin yan ekipmanı 5 ile 8 milyon dolar bilet ile geri ödeme 6 yılı aşabilir, kabin ve set fiyatı bulunamadı. Çimento, nükleer, tungsten, trafo, kum ve mineralde yıl 5 rakamı yok."
+"İhracat kontrolü ve belge zinciri: bunker segment kalıbı ML13.b ve ML18.a, askerî konteyner gövdesi ML17, lançer ve rampa çelik yapısı ML4; Tesis Güvenlik Belgesi, Üretim İzin Belgesi ve AQAP zinciri 12 ile 20 ay sürer. Somali üssünün ana yüklenicisi 10 ayda hiçbir kaynakta çıkmadı; üs satışı olmazsa lançer fırsatının yıl 1 ve 2 geliri sıfır.",
+"Devlet ve teknokent fırsatları: Beylikova'da temel 2026'da söz verildi, Ekim 2026'da haber yok ve inşaat 2027 deniyor; tesisin mühendislik firması hiçbir kaynakta yok, MEKA ancak alt tedarikçi olur. Milvus'un 1.700 robot ve 450 kurulu robot rakamları şirket beyanı; robot başına 3 ile 4 bin dolar sac işi varsayımıyla tedarik cirosu yılda 3 ile 4 milyon dolar, MEKA ölçeğinde yan iş.",
+"Otobüs ve büyük biletli enerji fırsatları: iç pazar 2025'te 69 elektrikli araç, hepsi Karsan; Çinli ortak doğrulanamadı, BYD Manisa anlaşması 10 Haziran 2026'da askıya alındı; bilet 6 ile 11,5 milyon dolar. Veri merkezi kabini 4 ile 8 ve türbin yan ekipmanı 5 ile 8 milyon dolar bilet ile geri ödeme 6 yılı aşabilir, kabin ve set fiyatı bulunamadı. Çimento, nükleer, tungsten, trafo, kum ve mineralde yıl 5 rakamı yok."
 ],
 "siralama": [],
 "konu_ids": [
@@ -42774,7 +42774,7 @@ window.MEKA_DATA = {
 "bagimsiz": {
 "id": "bagimsiz",
 "baslik": "Bağımsız",
-"ozet": "Bağımsız dalda 23 yaprak var; hiçbiri MEKA'nın makinesine ve taş toz işine bağlı değil, hepsi ya finansal yatırım ya da tarihli bir pencere işi ve MEKA uyumu puana katılmaz. Sekiz Teknokent yaprağı azınlık hissesi ister ve çoğunun ciro, ortaklık ve değerleme verisi kamuya kapalı; devlet kolundaki jeotermal, depolama hakları, biyolojik ilaç ve SSB batarya kamu takvimine bağlı; özel koldaki PFAS, nadir toprak, lityum, balkon GES, enerji verimliliği ve izleme yaprakları dış pazar ya da mevzuata dayanır. Keşif turuyla gelen beş yeni yaprak mevzuat takvimine ya da belgeli kapasite açığına yaslanır: karbon doğrulamada 774 tesisin 2026 raporu 30 Nisan 2027'ye kadar doğrulanmış olmalı, antimuanda Çin askısı 27 Kasım 2026'da bitiyor, lisanslı GES'te 678 ön lisans ve 33.000 MW lisans aşamasına geçiyor ve EPDK sahadaki 500 milyon dolara karşı 20 ile 25 milyar dolar ihtiyaç görüyor, hibrit tohumda Türkiye 2025'te 539 milyon dolar tohum ihracatı yaptı, Elektroland kendi beyanıyla 18 ülkeye satan hazır bir üretici. Gelire en yakın olanlar çalışan bir işletmeye ortak olan yapraklar: karbon doğrulamada devralınan MEDAS sözleşmeleriyle yerli gelir hemen başlar, hibrit tohumda satın alınan firmanın satışı 0 ile 3 ayda sürer, Teknolus'un test merkezi 2017'den beri çalışıyor, lityumda Aralık 2026 siparişi Mayıs 2027'de devreye girer. Yönetimin üç kararı burada belirleyici: yalnız şirket üzerinden girilebilen iki ve yalnız kişisel girilebilen dört yaprak var; on yaprak 100 bin ile 1 milyon dolar, on iki yaprak 1 ile 10 milyon dolar, antimuan 10 milyon dolar üstü bilet ister; kur yolu yalnız dört yaprakta açık, geri kalan on dokuzu ortaklık ister.",
+"ozet": "Bağımsız alanda 23 fırsat var; hiçbiri MEKA'nın makinesine ve taş toz işine bağlı değil, hepsi ya finansal yatırım ya da tarihli bir pencere işi ve MEKA uyumu puana katılmaz. Sekiz Teknokent fırsatı azınlık hissesi ister ve çoğunun ciro, ortaklık ve değerleme verisi kamuya kapalı; devlet grubundaki jeotermal, depolama hakları, biyolojik ilaç ve SSB batarya kamu takvimine bağlı; özel gruptaki PFAS, nadir toprak, lityum, balkon GES, enerji verimliliği ve izleme fırsatları dış pazar ya da mevzuata dayanır. Keşif turuyla gelen beş yeni fırsat mevzuat takvimine ya da belgeli kapasite açığına yaslanır: karbon doğrulamada 774 tesisin 2026 raporu 30 Nisan 2027'ye kadar doğrulanmış olmalı, antimuanda Çin askısı 27 Kasım 2026'da bitiyor, lisanslı GES'te 678 ön lisans ve 33.000 MW lisans aşamasına geçiyor ve EPDK sahadaki 500 milyon dolara karşı 20 ile 25 milyar dolar ihtiyaç görüyor, hibrit tohumda Türkiye 2025'te 539 milyon dolar tohum ihracatı yaptı, Elektroland kendi beyanıyla 18 ülkeye satan hazır bir üretici. Gelire en yakın olanlar çalışan bir işletmeye ortak olan fırsatlar: karbon doğrulamada devralınan MEDAS sözleşmeleriyle yerli gelir hemen başlar, hibrit tohumda satın alınan firmanın satışı 0 ile 3 ayda sürer, Teknolus'un test merkezi 2017'den beri çalışıyor, lityumda Aralık 2026 siparişi Mayıs 2027'de devreye girer. Yönetimin üç kararı burada belirleyici: yalnız şirket üzerinden girilebilen iki ve yalnız kişisel girilebilen dört fırsat var; on fırsat 100 bin ile 1 milyon dolar, on iki fırsat 1 ile 10 milyon dolar, antimuan 10 milyon dolar üstü bilet ister; kur yolu yalnız dört fırsatta açık, geri kalan on dokuzu ortaklık ister.",
 "ne_yapmali": [
 {
 "adim": "Üç kapı kapatılır: yatırım şirket üzerinden mi kişisel mi, ilk 24 ay bütçe dilimi, kur mu ortak mı. Fon payında şirket yolu avantajlı: 325/A ile kazancın yüzde 10'u matrahtan düşer; melek hissesi yalnız kişisel yolla alınır ve bireysel katılım yatırımcısı lisansı ister. Karar sonrası Maxis'e ODTÜ70 ihraç sözleşmesi, ücretler ve fon süresi yazılı sorulur; Oyak Portföy'e Etki GSYF ilk kapanışı yaptı mı sorusu gider.",
@@ -42783,7 +42783,7 @@ window.MEKA_DATA = {
 "konu_id": "odtu"
 },
 {
-"adim": "Teknokent yaprakları için tek veri odası turu: MERSİS ve Ticaret Sicili Gazetesi'nden Novator, TEKSİS, Teknolus, TrabTech, FiberLAST ve Spacelis'in şirket türü, sermayesi, ortakları ve son değişiklikleri çekilir; ardından kurucularla tanışma görüşmelerinde 2024 ve 2025 ciro, sipariş defteri ve ortaklık yapısı istenir. Koray GSYO'dan FiberLAST payının bedeli ve ikincil hisse imkânı ayrıca sorulur.",
+"adim": "Teknokent fırsatları için tek veri odası turu: MERSİS ve Ticaret Sicili Gazetesi'nden Novator, TEKSİS, Teknolus, TrabTech, FiberLAST ve Spacelis'in şirket türü, sermayesi, ortakları ve son değişiklikleri çekilir; ardından kurucularla tanışma görüşmelerinde 2024 ve 2025 ciro, sipariş defteri ve ortaklık yapısı istenir. Koray GSYO'dan FiberLAST payının bedeli ve ikincil hisse imkânı ayrıca sorulur.",
 "kim": "MEKA iş geliştirme ve mali müşavir",
 "ne_zaman": "Sicil taraması 15 Kasım 2026'ya kadar, görüşmeler Kasım ve Aralık 2026",
 "konu_id": "novator"
@@ -42813,7 +42813,7 @@ window.MEKA_DATA = {
 "konu_id": "lisansli_ges"
 },
 {
-"adim": "Erzurum Valiliği YİKOB'a 4982 sayılı Kanun kapsamında yazılı bilgi edinme başvurusu: 13 Ekim 2026 Aşkale ve Pasinler ihalelerinin sonucu ve kapanış bedeli. MTA'dan Aşkale, Pasinler, Diyadin ve Kırşehir sahalarının sıcaklık ve debi verisi alınır; 1 Kasım 2026 IGIS Kapadokya toplantısına katılınır, tarih JESDER sitesinden teyit edilir. Bu dalda kendi adına yapılabilecek en ucuz adım budur.",
+"adim": "Erzurum Valiliği YİKOB'a 4982 sayılı Kanun kapsamında yazılı bilgi edinme başvurusu: 13 Ekim 2026 Aşkale ve Pasinler ihalelerinin sonucu ve kapanış bedeli. MTA'dan Aşkale, Pasinler, Diyadin ve Kırşehir sahalarının sıcaklık ve debi verisi alınır; 1 Kasım 2026 IGIS Kapadokya toplantısına katılınır, tarih JESDER sitesinden teyit edilir. Bu alanda kendi adına yapılabilecek en ucuz adım budur.",
 "kim": "MEKA iş geliştirme",
 "ne_zaman": "Başvuru 31 Ekim 2026'ya kadar, toplantı 1 Kasım 2026, MTA verisi Kasım 2026",
 "konu_id": "jeotermal"
@@ -42826,12 +42826,12 @@ window.MEKA_DATA = {
 }
 ],
 "kapi_etkisi": {
-"sirket": "Yatırım şirket üzerinden olursa 19 yaprak uyar: kapısı ikisi olan 17 yaprak ile yalnız şirket yolu açık olan enerji verimliliği ve antimuan. Spacelis, biyolojik ilaç, nadir toprak ve izleme yaprağı düşer; dördü de yalnız kişisel yatırım olarak tanımlı. ODTÜ fon payında şirket yolu ayrıca 325/A ile kazancın yüzde 10'unu matrahtan düşürür.",
-"kisisel": "Kişisel yatırımda 21 yaprak uyar; enerji verimliliği ve antimuan düşer, çünkü ikisi yalnız şirket yatırımı olarak tanımlı. Teknokent hisselerinde kişisel yol bireysel katılım yatırımcısı lisansı ister ve melek hissesi yalnız bu yolla alınır; Teknolus limited şirket olduğu için melek teşviki orada uygulanamaz.",
-"dusuk_butce": "Dilim 1 ve 2 seçilirse on yaprak uyar: Novator, Pyramp, ODTÜ fonları, TEKSİS, Teknolus, TrabTech, Spacelis, balkon GES, enerji verimliliği ve izleme yaprağı; hepsi 100 bin ile 1 milyon dolar bilet ister. Hiçbir yaprak 100 bin dolar altında değil; jeotermalde yalnız ruhsat 32 ile 33 bin dolar ama 24 aylık gerçek giriş etüt ve kuyuyla 3. dilime çıkar. Geri kalan 13 yaprak düşer.",
-"yuksek_butce": "Dilim 3 seçilirse 12 yaprak uyar: FiberLAST, jeotermal, depolama hakları, biyolojik ilaç, SSB batarya, PFAS, nadir toprak, lityum, karbon doğrulama, lisanslı GES, Elektroland ve hibrit tohum. Dilim 4'te yalnız antimuan var; 3.000 ton ATO hattı 28 ile 40 milyon dolar ister. On dilim 2 yaprağı bu bütçenin altında kalır.",
-"kur": "Kur yolu yalnız dört yaprakta açık: jeotermalde ruhsat ihalesine doğrudan girmek, depolama haklarında İtalya ya da Almanya'da hak aşamasında kendi proje şirketi, lityumda fabrika pilotunu kendi işletmek, balkon GES'te marka ve dağıtım kurmak. Geri kalan 19 yaprak düşer; çoğunda teknoloji, belge ya da lisans başkasında ve sıfırdan kurmak yıllar alır.",
-"ortak": "Ortak yolu 23 yaprağın hepsinde açık. Teknokent yaprakları azınlık hissesi, karbon doğrulama ve hibrit tohum mevcut şirketin devri ya da çoğunluk hissesi, antimuan Suda Maden ile ortaklık, lisanslı GES lisans almış projeye hisse girişi ister. Kur yolu açık dört yaprak da ortak yolunu kabul eder."
+"sirket": "Yatırım şirket üzerinden olursa 19 fırsat uyar: kapısı ikisi olan 17 fırsat ile yalnız şirket yolu açık olan enerji verimliliği ve antimuan. Spacelis, biyolojik ilaç, nadir toprak ve izleme fırsatı düşer; dördü de yalnız kişisel yatırım olarak tanımlı. ODTÜ fon payında şirket yolu ayrıca 325/A ile kazancın yüzde 10'unu matrahtan düşürür.",
+"kisisel": "Kişisel yatırımda 21 fırsat uyar; enerji verimliliği ve antimuan düşer, çünkü ikisi yalnız şirket yatırımı olarak tanımlı. Teknokent hisselerinde kişisel yol bireysel katılım yatırımcısı lisansı ister ve melek hissesi yalnız bu yolla alınır; Teknolus limited şirket olduğu için melek teşviki orada uygulanamaz.",
+"dusuk_butce": "Dilim 1 ve 2 seçilirse on fırsat uyar: Novator, Pyramp, ODTÜ fonları, TEKSİS, Teknolus, TrabTech, Spacelis, balkon GES, enerji verimliliği ve izleme fırsatı; hepsi 100 bin ile 1 milyon dolar bilet ister. Hiçbir fırsat 100 bin dolar altında değil; jeotermalde yalnız ruhsat 32 ile 33 bin dolar ama 24 aylık gerçek giriş etüt ve kuyuyla 3. dilime çıkar. Geri kalan 13 fırsat düşer.",
+"yuksek_butce": "Dilim 3 seçilirse 12 fırsat uyar: FiberLAST, jeotermal, depolama hakları, biyolojik ilaç, SSB batarya, PFAS, nadir toprak, lityum, karbon doğrulama, lisanslı GES, Elektroland ve hibrit tohum. Dilim 4'te yalnız antimuan var; 3.000 ton ATO hattı 28 ile 40 milyon dolar ister. On dilim 2 fırsatı bu bütçenin altında kalır.",
+"kur": "Kur yolu yalnız dört fırsatta açık: jeotermalde ruhsat ihalesine doğrudan girmek, depolama haklarında İtalya ya da Almanya'da hak aşamasında kendi proje şirketi, lityumda fabrika pilotunu kendi işletmek, balkon GES'te marka ve dağıtım kurmak. Geri kalan 19 fırsat düşer; çoğunda teknoloji, belge ya da lisans başkasında ve sıfırdan kurmak yıllar alır.",
+"ortak": "Ortak yolu 23 fırsatın hepsinde açık. Teknokent fırsatları azınlık hissesi, karbon doğrulama ve hibrit tohum mevcut şirketin devri ya da çoğunluk hissesi, antimuan Suda Maden ile ortaklık, lisanslı GES lisans almış projeye hisse girişi ister. Kur yolu açık dört fırsat da ortak yolunu kabul eder."
 },
 "uyarilar": [
 "Teknokent şirketlerinde finans verisi kapalı: FiberLAST, TEKSİS, Teknolus, Novator, TrabTech ve Spacelis için ciro, ortaklık yapısı ve değerleme hiçbir açık kaynakta yok; çalışan sayıları doğrulanmamış LinkedIn verisi. Değerleme görüşmede şişebilir ve azınlık hisseleri 5 ile 10 yıl likit olmaz, sıfırlanabilir.",
@@ -42871,10 +42871,10 @@ window.MEKA_DATA = {
 "meka_ozel": {
 "id": "meka_ozel",
 "baslik": "MEKA ile ilgili, Özel firmalar",
-"ozet": "Bu kolda 23 yaprak var; en kalabalık grup savunma: tahkimat prekast hattı, tahkimat kalıbı, flat rack, mühimmat hattı ekipmanı, konteyner gövdesi, istihkam ataşmanı, vinç alt yükleniciliği ve uçak bakım platformları, talep Polonya, Baltık, Almanya ve Hollanda'nın resmî ihale kayıtlarıyla isimli ve ilk beşinin ekonomi modeli 20 Ekim 2026'da kaynaklı rakamla kuruldu. Mineral ve altyapı grubunda enkaz agregası, üretilmiş kum, mineral zenginleştirme, mobil parçalayıcı, asfalt plenti ve RES temel paketi var; enkaz yaprağı MEKA'nın hazır MCC 70 ve MP serisini satar, KAP sipariş bedelleri 651.700 ile 2.190.000 avro ve yurt içinde ilk gelir 6 ile 12 ay, bu yüzden gelire en yakın yaprak odur. Çimento katkısı, nükleer imalat, tungsten, trafo ve termal batarya tarihli pencereler ama ruhsat, sertifika ya da fiyat verisi eksik; veri merkezi kabini ve gaz türbini yan ekipmanı SEC belgeli talep taşıyor ama bilet 4 ile 8 milyon dolar. Elektrikli otobüs ve Çinli otobüs ortaklığı 20 Ekim 2026'da yöneticinin isteğiyle eklendi; Avrupa ihale fiyatları kaynaklı, Çinli ortak ve iç talep doğrulanamadı. Ortak engel belge sırası ve alıcı tarafı: tesis veri formu, MSB sınıflandırma görüşü, ISO 3834 ve EN 1090 belgeleri henüz yok, Avrupa ana yüklenicileri ve ihale kazananları yerli tedarikçi seçiyor.",
+"ozet": "Bu grupta 23 fırsat var; en kalabalık grup savunma: tahkimat prekast hattı, tahkimat kalıbı, flat rack, mühimmat hattı ekipmanı, konteyner gövdesi, istihkam ataşmanı, vinç alt yükleniciliği ve uçak bakım platformları, talep Polonya, Baltık, Almanya ve Hollanda'nın resmî ihale kayıtlarıyla isimli ve ilk beşinin ekonomi modeli 20 Ekim 2026'da kaynaklı rakamla kuruldu. Mineral ve altyapı grubunda enkaz agregası, üretilmiş kum, mineral zenginleştirme, mobil parçalayıcı, asfalt plenti ve RES temel paketi var; enkaz fırsatı MEKA'nın hazır MCC 70 ve MP serisini satar, KAP sipariş bedelleri 651.700 ile 2.190.000 avro ve yurt içinde ilk gelir 6 ile 12 ay, bu yüzden gelire en yakın fırsat odur. Çimento katkısı, nükleer imalat, tungsten, trafo ve termal batarya tarihli pencereler ama ruhsat, sertifika ya da fiyat verisi eksik; veri merkezi kabini ve gaz türbini yan ekipmanı SEC belgeli talep taşıyor ama bilet 4 ile 8 milyon dolar. Elektrikli otobüs ve Çinli otobüs ortaklığı 20 Ekim 2026'da yöneticinin isteğiyle eklendi; Avrupa ihale fiyatları kaynaklı, Çinli ortak ve iç talep doğrulanamadı. Ortak engel belge sırası ve alıcı tarafı: tesis veri formu, MSB sınıflandırma görüşü, ISO 3834 ve EN 1090 belgeleri henüz yok, Avrupa ana yüklenicileri ve ihale kazananları yerli tedarikçi seçiyor.",
 "ne_yapmali": [
 {
-"adim": "Savunma kolunun ortak belge paketini tek seferde başlatmak: Ek A tesis veri formunu doldurmak, kanca yüksekliği, Ø300 mm üstü torna sayısı, hol yüksekliği, robotik kaynak hücresi, boş saat ve metrekare; MSB'den 5201 sayılı Kanun kapsamında ürün bazlı yazılı sınıflandırma görüşü istemek, listede tahkimat kalıbı, bunker segment kalıbı, Çek kirpisi, flat rack ve kanca gövdesi, ISO konteyner gövdesi, bant konveyör, silo ve çelik platform; NCAGE, NSPA, UNGM ve SAM.gov tedarikçi kayıtlarını tamamlamak; ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak.",
+"adim": "Savunma grubunun ortak belge paketini tek seferde başlatmak: Ek A tesis veri formunu doldurmak, kanca yüksekliği, Ø300 mm üstü torna sayısı, hol yüksekliği, robotik kaynak hücresi, boş saat ve metrekare; MSB'den 5201 sayılı Kanun kapsamında ürün bazlı yazılı sınıflandırma görüşü istemek, listede tahkimat kalıbı, bunker segment kalıbı, Çek kirpisi, flat rack ve kanca gövdesi, ISO konteyner gövdesi, bant konveyör, silo ve çelik platform; NCAGE, NSPA, UNGM ve SAM.gov tedarikçi kayıtlarını tamamlamak; ISO 3834-2 ve EN 1090-2 EXC3 belgelendirmesini başlatmak.",
 "kim": "Mehmet Ulaş ile MEKA kalite ve ihracat birimi",
 "ne_zaman": "Kasım 2026 içinde form ve başvurular, belgelendirme Haziran 2027'ye kadar",
 "konu_id": "sav_konteyner"
@@ -42923,18 +42923,18 @@ window.MEKA_DATA = {
 }
 ],
 "kapi_etkisi": {
-"sirket": "Yatırım şirket üzerinden olursa 23 yaprağın hepsi açık kalır; savunma kolları, enkaz, mineral ve enerji ekipmanı MEKA'nın Ankara ve Eskişehir tesisine ve KAP'a bildirilen ürün fiyatlarına dayanıyor. Çimento, nükleer ve tungsten paketleri şirket ya da kişisel diye yazıyor; şirket yolunda bunlar da kalır.",
-"kisisel": "Kişisel yatırım seçilince bu kol tümüyle kapanır; bütün yapraklar MEKA tesisi ve ürünüyle çalışıyor. Paket yalnız çimento için ruhsat, tungsten için azınlık hisse ve nükleer için kişisel yolu da yazıyor; o fikirler ancak MEKA dışı bir yapıda yeniden ele alınır.",
+"sirket": "Yatırım şirket üzerinden olursa 23 fırsatın hepsi açık kalır; savunma grupları, enkaz, mineral ve enerji ekipmanı MEKA'nın Ankara ve Eskişehir tesisine ve KAP'a bildirilen ürün fiyatlarına dayanıyor. Çimento, nükleer ve tungsten paketleri şirket ya da kişisel diye yazıyor; şirket yolunda bunlar da kalır.",
+"kisisel": "Kişisel yatırım seçilince bu grup tümüyle kapanır; bütün fırsatlar MEKA tesisi ve ürünüyle çalışıyor. Paket yalnız çimento için ruhsat, tungsten için azınlık hisse ve nükleer için kişisel yolu da yazıyor; o fikirler ancak MEKA dışı bir yapıda yeniden ele alınır.",
 "dusuk_butce": "Dilim 1 ve 2 seçilirse sav_vinc ve sav_mro 100 bin dolar altı ile, sav_prekast, sav_kalip, sav_istihkam, enkaz, mineral, termal, trafo, res_temel ve nukleer 100 bin ile 1 milyon dolar ile uyar. sav_flatrack, sav_muhimmat, sav_konteyner, cimento, tungsten, kum, parcalayici, asfalt, dc_ehouse, turbin_yan ve elektrikli_oto 1 ile 10 milyon dolar, cin_otobus_ort yaklaşık 11,5 milyon dolar ister; bunlar düşer. sav_flatrack 0,8 ile 1,5 ve sav_muhimmat 0,93 ile 1,9 milyon dolar ile sınıra yakın, cimento için ruhsat haritası 100 bin dolar altında.",
-"yuksek_butce": "Dilim 3 ve 4 seçilirse sav_flatrack, sav_muhimmat, sav_konteyner, cimento, tungsten, kum, parcalayici, asfalt, dc_ehouse, turbin_yan ve elektrikli_oto 1 ile 10 milyon dolar ile, cin_otobus_ort 10 milyon dolar üstü ile açılır. Küçük biletli yapraklar düşmez, bütçenin küçük bir kısmını kullanır. En büyük kalemler dc_ehouse 4 ile 8, turbin_yan 5 ile 8, elektrikli_oto 6 ile 10 milyon dolar; bunlarda geri ödeme 5 yılı aşıyor.",
+"yuksek_butce": "Dilim 3 ve 4 seçilirse sav_flatrack, sav_muhimmat, sav_konteyner, cimento, tungsten, kum, parcalayici, asfalt, dc_ehouse, turbin_yan ve elektrikli_oto 1 ile 10 milyon dolar ile, cin_otobus_ort 10 milyon dolar üstü ile açılır. Küçük biletli fırsatlar düşmez, bütçenin küçük bir kısmını kullanır. En büyük kalemler dc_ehouse 4 ile 8, turbin_yan 5 ile 8, elektrikli_oto 6 ile 10 milyon dolar; bunlarda geri ödeme 5 yılı aşıyor.",
 "kur": "Kuralım seçilirse sav_prekast tek kur yolu olarak, sav_kalip, sav_flatrack, sav_muhimmat, sav_mro, mineral, cimento, nukleer, tungsten, trafo, enkaz, parcalayici ve turbin_yan iki yollu olarak uyar; üretim MEKA'da. sav_konteyner, sav_istihkam, sav_vinc, termal, kum, res_temel, asfalt, dc_ehouse, elektrikli_oto ve cin_otobus_ort yalnız ortak yolu yazıyor; kur seçilince düşer.",
 "ortak": "Ortak olalım seçilirse sav_konteyner, sav_istihkam, sav_vinc, termal, kum, res_temel, asfalt, dc_ehouse, elektrikli_oto ve cin_otobus_ort tam uyar; sav_kalip, sav_flatrack, sav_muhimmat, sav_mro, mineral, cimento, nukleer, tungsten, trafo, enkaz, parcalayici ve turbin_yan satış kanalı ya da teknoloji ortağıyla devam eder. Yalnız sav_prekast düşer; paket onu MEKA'nın kendi santral ve kalıp paketini satması diye yazıyor."
 },
 "uyarilar": [
 "Yerli tedarikçi tercihi: 2024 ile 2026 TED tahkimat sonuçlarında bütün kazananlar yerli, tek istisna Litvanyalı Gelmesta'nın Letonya çerçevesi; Marshall Hollanda işinde ofset için Hollandalı Contour'u seçti ve Türk tedarikçi ofset sayılmaz; Rheinmetall 3:1 konteyneri kendi üretiyor; Hollanda flat racklerini Polonyalı Zamet-Glowno yapıyor. Hiçbir ana yüklenici Türk tedarikçi aradığını yazmıyor.",
 "Pencere ve fiyat: Polonya ve Letonya tahkimat programları 2028'de, Estonya hattı 2027 sonunda bitiyor; Bundeswehr kamyon çerçevesinin kalan hacmi 2027'ye kadar; Polonya'da kirpi birim fiyatı Ekim 2025'te 1.282 ile 1.747 PLN iken Eylül 2026'da 847 ile 1.026 PLN'ye indi, yerli prekast kapasitesi yetiyor.",
-"İhracat kontrolü: bunker segment kalıbı ML13.b ve ML18.a, askerî konteyner gövdesi ML17, mühimmata özgü fikstür ML18.a kapsamına girebilir; MSB yazısı alınmadan sevkiyat durur ya da ceza doğar. Beş savunma yaprağı 80 ile 160 bin avroluk ortak belge payını beşe bölerek taşıyor; tek yaprak seçilirse bu pay tek yaprağa biner.",
-"Otobüs yaprakları: Türkiye'de 2025'te 69 elektrikli toplu ulaşım aracı satıldı, hepsi Karsan; Türk üreticiler gövdeyi kendileri yapıyor ve yaklaşık yüzde 32 boş kapasiteleri var; BYD'nin Manisa anlaşması 10 Haziran 2026'da askıya alındı; Çinli üreticinin Türkiye'de ortak aradığı doğrulanamadı. Bilet 6 ile 11,5 milyon dolar, geri ödeme 4,5 ile 5,4 yıl, yıl 5 adetleri ve marjı varsayım.",
+"İhracat kontrolü: bunker segment kalıbı ML13.b ve ML18.a, askerî konteyner gövdesi ML17, mühimmata özgü fikstür ML18.a kapsamına girebilir; MSB yazısı alınmadan sevkiyat durur ya da ceza doğar. Beş savunma fırsatı 80 ile 160 bin avroluk ortak belge payını beşe bölerek taşıyor; tek fırsat seçilirse bu pay tek fırsata biner.",
+"Otobüs fırsatları: Türkiye'de 2025'te 69 elektrikli toplu ulaşım aracı satıldı, hepsi Karsan; Türk üreticiler gövdeyi kendileri yapıyor ve yaklaşık yüzde 32 boş kapasiteleri var; BYD'nin Manisa anlaşması 10 Haziran 2026'da askıya alındı; Çinli üreticinin Türkiye'de ortak aradığı doğrulanamadı. Bilet 6 ile 11,5 milyon dolar, geri ödeme 4,5 ile 5,4 yıl, yıl 5 adetleri ve marjı varsayım.",
 "Zayıf kanıt ve yakın tarih: RES temel ve üretilmiş kum kanıt 2/5; mineral pazar rakamları MAPEG ve USGS bu turda doğrulanamadı; termal bataryada sanayi gazı 1,69 TL/kWh ve hibesiz geri ödeme yaklaşık 11,5 yıl; trafo tank diliminde Genba var. Çimentoda Türkiye ETS ilk izleme planı süresi uzatılmazsa 27 Ekim 2026'da doluyor ve CBAM sertifika satışı 1 Şubat 2027'de başlıyor; ruhsat haritası ve fiyat hâlâ yok."
 ],
 "siralama": [],
@@ -42972,7 +42972,7 @@ window.MEKA_DATA = {
 "meka_devlet": {
 "id": "meka_devlet",
 "baslik": "MEKA ile ilgili, Devlet firmaları",
-"ozet": "Bu kolda alıcı kamu kuruluşu: belediyeler ve il özel idareleri, Eti Maden, Roketsan ve ASELSAN. Üç yaprak da MEKA'nın mevcut kırma eleme, beton santrali ve ağır sac hatlarını kullanır; satış yolu ya EKAP mal alımı ihalesine doğrudan teklif ya da ana yüklenicinin altında ikinci kademe tedarik, iki yolda da bedel sabit TL ve ödeme vadesi uzun. Gelire ve eyleme en yakın yaprak belediye: 2026'da Safranbolu ve Giresun 14,6 ve 23,3 milyon TL'lik konkasör aldı, Siirt ve Niğde il özel idareleri 69,4 ve 93 milyon TL'lik tesis aldı; 20 Ekim 2026 çalışmasında bilet 5 ile 12,5 milyon TL, ilk gelire 6 ile 12 ay ve beş emsal ihale sonucu yazıldı. Lancer için aynı turda ekonomi modeli ve emsal sözleşmeler yazıldı; talep KAP'taki 1,23 milyar avroluk ASELSAN ve Roketsan sözleşmesiyle kayıtlı, ama alt yüklenici geliri belge zinciri yüzünden 18 ile 30 ay sonra başlar ve Somali üssünün ana yüklenicisi hâlâ bilinmiyor. Beylikova'da Eti Maden'in 570 bin ton/yıl sanayi tesisi henüz ihaleye çıkmadı; temel 2026 için söz verildi, Ekim 2026'da gerçekleşme haberi yok ve ortak engel üçünde de aynı: fiyat odaklı kamu alıcısı, tasarımın ana yüklenicide olması ve uzun ödeme süreci.",
+"ozet": "Bu grupta alıcı kamu kuruluşu: belediyeler ve il özel idareleri, Eti Maden, Roketsan ve ASELSAN. Üç fırsat da MEKA'nın mevcut kırma eleme, beton santrali ve ağır sac hatlarını kullanır; satış yolu ya EKAP mal alımı ihalesine doğrudan teklif ya da ana yüklenicinin altında ikinci kademe tedarik, iki yolda da bedel sabit TL ve ödeme vadesi uzun. Gelire ve eyleme en yakın fırsat belediye: 2026'da Safranbolu ve Giresun 14,6 ve 23,3 milyon TL'lik konkasör aldı, Siirt ve Niğde il özel idareleri 69,4 ve 93 milyon TL'lik tesis aldı; 20 Ekim 2026 çalışmasında bilet 5 ile 12,5 milyon TL, ilk gelire 6 ile 12 ay ve beş emsal ihale sonucu yazıldı. Lancer için aynı turda ekonomi modeli ve emsal sözleşmeler yazıldı; talep KAP'taki 1,23 milyar avroluk ASELSAN ve Roketsan sözleşmesiyle kayıtlı, ama alt yüklenici geliri belge zinciri yüzünden 18 ile 30 ay sonra başlar ve Somali üssünün ana yüklenicisi hâlâ bilinmiyor. Beylikova'da Eti Maden'in 570 bin ton/yıl sanayi tesisi henüz ihaleye çıkmadı; temel 2026 için söz verildi, Ekim 2026'da gerçekleşme haberi yok ve ortak engel üçünde de aynı: fiyat odaklı kamu alıcısı, tasarımın ana yüklenicide olması ve uzun ödeme süreci.",
 "ne_yapmali": [
 {
 "adim": "Taşsan Kırma Eleme'yi tanı: Ticaret Sicil Gazetesi kaydı, imalatçı mı bayi mi, Safranbolu ve Giresun'a hangi marka ve modeli teslim ettiği; rakip mi, bayi ya da ortak adayı mı karar ver. Giresun Belediyesi Fen İşleri Müdürlüğü'nden makine listesini iste.",
@@ -43017,18 +43017,18 @@ window.MEKA_DATA = {
 "konu_id": "lancer"
 },
 {
-"adim": "12. ay kapısı: üs satışı gerçekleşti mi, ana yüklenicilerden en az bir numune siparişi geldi mi. Evetse Tesis Güvenlik Belgesi ve Üretim İzin Belgesi sürecine gir; hayırsa yaprağı yalnız üs altyapısı satışıyla sınırla.",
+"adim": "12. ay kapısı: üs satışı gerçekleşti mi, ana yüklenicilerden en az bir numune siparişi geldi mi. Evetse Tesis Güvenlik Belgesi ve Üretim İzin Belgesi sürecine gir; hayırsa fırsatı yalnız üs altyapısı satışıyla sınırla.",
 "kim": "Yönetim kurulu",
 "ne_zaman": "Ekim 2027; lançer iş paketlerine teklif kararı Nisan 2028",
 "konu_id": "lancer"
 }
 ],
 "kapi_etkisi": {
-"sirket": "Üç yaprak da şirket yatırımı için yazıldı: beylikova, belediye ve lancer MEKA'nın mevcut fabrika hatları, EKAP üyeliği ve kamu referanslarıyla yürür. Şirket seçilince bu kolda düşen yaprak yok.",
-"kisisel": "Kişisel yatırım seçilince MEKA dalı tamamen kapanır; beylikova, belediye ve lancer üçü de düşer. Kamu alıcısına teklif ve alt yüklenicilik ancak MEKA tüzel kişiliği, tesis belgeleri ve kurumsal referanslarla mümkün.",
-"dusuk_butce": "Üç yaprağın giriş bileti 100 bin ile 1 milyon dolar dilimindedir, yani dilim 2'de üçü de uyar. Belediye demo makinesiz 5 milyon TL ile dilim 1'e iner; beylikova yalnız kırma eleme ihalesine girişte 100 bin doların altında kalır. Lancer vinç yatırımı olmadan 0,47 ile 1,27 milyon dolar bandında dilim 2'de kalır; dilim 1 seçilirse lancer düşer.",
-"yuksek_butce": "Bu kolda hiçbir yaprak 1 milyon dolar üstü giriş bileti istemez; dilim 3 ya da 4 seçilince üçü de yine uyar, ek bütçe kapasiteye değil hıza gider. Lancer'da 25 tonluk iki köprü vinç eklenirse üst sınır 1 milyon doları geçer ve dilim 3'e yaklaşır; beylikova'da öğütme ve besleme ekipmanı geliştirmek 12 ile 24 ayda 300 bin ile 1 milyon dolar ister.",
-"kur": "Üç yaprağın yolu da iki seçeneğe açık ve kur tarafı güçlüdür. Belediye'de MEKA kendi ürünüyle EKAP ihalesine doğrudan teklif verir ve ortaklık kurma gerekmez; beylikova'da kırma, eleme ve konveyör paketini MEKA kendi kurar; lancer'da fırlatma üssüne beton santrali ve çelik hizmet yapısını doğrudan satar.",
+"sirket": "Üç fırsat da şirket yatırımı için yazıldı: beylikova, belediye ve lancer MEKA'nın mevcut fabrika hatları, EKAP üyeliği ve kamu referanslarıyla yürür. Şirket seçilince bu grupta düşen fırsat yok.",
+"kisisel": "Kişisel yatırım seçilince MEKA alanı tamamen kapanır; beylikova, belediye ve lancer üçü de düşer. Kamu alıcısına teklif ve alt yüklenicilik ancak MEKA tüzel kişiliği, tesis belgeleri ve kurumsal referanslarla mümkün.",
+"dusuk_butce": "Üç fırsatın giriş bileti 100 bin ile 1 milyon dolar dilimindedir, yani dilim 2'de üçü de uyar. Belediye demo makinesiz 5 milyon TL ile dilim 1'e iner; beylikova yalnız kırma eleme ihalesine girişte 100 bin doların altında kalır. Lancer vinç yatırımı olmadan 0,47 ile 1,27 milyon dolar bandında dilim 2'de kalır; dilim 1 seçilirse lancer düşer.",
+"yuksek_butce": "Bu grupta hiçbir fırsat 1 milyon dolar üstü giriş bileti istemez; dilim 3 ya da 4 seçilince üçü de yine uyar, ek bütçe kapasiteye değil hıza gider. Lancer'da 25 tonluk iki köprü vinç eklenirse üst sınır 1 milyon doları geçer ve dilim 3'e yaklaşır; beylikova'da öğütme ve besleme ekipmanı geliştirmek 12 ile 24 ayda 300 bin ile 1 milyon dolar ister.",
+"kur": "Üç fırsatın yolu da iki seçeneğe açık ve kur tarafı güçlüdür. Belediye'de MEKA kendi ürünüyle EKAP ihalesine doğrudan teklif verir ve ortaklık kurma gerekmez; beylikova'da kırma, eleme ve konveyör paketini MEKA kendi kurar; lancer'da fırlatma üssüne beton santrali ve çelik hizmet yapısını doğrudan satar.",
 "ortak": "Ortak yolu seçilince üçü de uyar ama kapsam daralır. Beylikova'da öğütme ve flotasyon için yerli ya da yabancı teknoloji ortağı gerekir ve Metso ilişkisi başlangıç noktasıdır; belediye'de Taşsan gibi ihale kazanan yerel firmalarla bayi ya da tedarik ortaklığı kurulur; lancer'da MEKA Roketsan, ASELSAN, Koluman ve BMC'ye ikinci kademe alt yüklenici olur, yurt dışı lançer programlarına ancak Polonyalı ya da Alman bir ortakla girilir."
 },
 "uyarilar": [
@@ -43048,7 +43048,7 @@ window.MEKA_DATA = {
 "meka_teknokent": {
 "id": "meka_teknokent",
 "baslik": "MEKA ile ilgili, Teknokentler",
-"ozet": "Bu kolda tek yaprak var: Milvus Robotics. Şirket 2011'de Ankara'da kuruldu, SEIT markalı otonom mobil robot ve filo yazılımı üretiyor, yaklaşık 100 çalışanı var ve satışının yüzde 70'ten fazlası ihracat. 2025'te 5,5 milyon dolarlık Seri A turunu kapattı, 2026 sonu için yılda 1.700 robotluk yeni Bağlıca fabrikası açıkladı ve 13 Nisan 2026'da Comau'nun MyMR robot ailesi için teknoloji ortağı seçildi. MEKA için konu yeni bir iş kurmak değil: önce şasi, çelik gövde ve boya tedarikçisi olmak, kendi fabrikasında robot kullanmak, sonra azınlık ortaklığı düşünmek. Engel şu: tedarik cirosu küçük, yılda 1.000 robotta bile 3 ile 4 milyon dolar, robot gövdesi ince sac ve hassas montaj işi olduğu için MEKA'nın ağır sac hattına uymayabilir ve rakamların çoğu şirketin kendi beyanı.",
+"ozet": "Bu grupta tek fırsat var: Milvus Robotics. Şirket 2011'de Ankara'da kuruldu, SEIT markalı otonom mobil robot ve filo yazılımı üretiyor, yaklaşık 100 çalışanı var ve satışının yüzde 70'ten fazlası ihracat. 2025'te 5,5 milyon dolarlık Seri A turunu kapattı, 2026 sonu için yılda 1.700 robotluk yeni Bağlıca fabrikası açıkladı ve 13 Nisan 2026'da Comau'nun MyMR robot ailesi için teknoloji ortağı seçildi. MEKA için konu yeni bir iş kurmak değil: önce şasi, çelik gövde ve boya tedarikçisi olmak, kendi fabrikasında robot kullanmak, sonra azınlık ortaklığı düşünmek. Engel şu: tedarik cirosu küçük, yılda 1.000 robotta bile 3 ile 4 milyon dolar, robot gövdesi ince sac ve hassas montaj işi olduğu için MEKA'nın ağır sac hattına uymayabilir ve rakamların çoğu şirketin kendi beyanı.",
 "ne_yapmali": [
 {
 "adim": "Milvus Robotics ile tanışma görüşmesi yap: CEO Şamil Özden, COO Hasan Ölmez ve satın alma. Sorular: yılda 1.700 robot kapasitesi ne zaman devreye giriyor, gövde ve şasi içeride mi dışarıda mı yapılacak, sac ve boya işinin yıllık hacmi ne.",
@@ -43088,11 +43088,11 @@ window.MEKA_DATA = {
 }
 ],
 "kapi_etkisi": {
-"sirket": "Milvus uyar. Tedarikçi ve müşteri ilişkisi zaten MEKA üzerinden yürür; numune, fikstür ve kalifikasyon bütçesi şirkete yazılır. Bu kolda düşen yaprak yok.",
+"sirket": "Milvus uyar. Tedarikçi ve müşteri ilişkisi zaten MEKA üzerinden yürür; numune, fikstür ve kalifikasyon bütçesi şirkete yazılır. Bu grupta düşen fırsat yok.",
 "kisisel": "Milvus uyar. Pay yatırımı kişisel olabilir, paket bunu açık bırakıyor. Ancak tedarik ve pilot robot adımları yine MEKA üzerinden olur; kişisel yatırım yalnız azınlık pay aşaması için anlamlı.",
 "dusuk_butce": "Milvus uyar. Giriş bileti 100 bin ile 1 milyon dolar dilimi: tedarikçi yolu için ilk 12 ile 24 ayda numune, fikstür, ince sac ve boya kalifikasyonu ve pilot robot kiralaması tahminen 150 ile 500 bin dolar. Yalnız dilim 1 seçilirse bu bütçe yetmez.",
-"yuksek_butce": "Bu kolda 1 milyon dolar üstü bilet isteyen yaprak yok. Milvus için yüksek bütçe yalnız sonraki azınlık pay turunda anlam kazanır; paket bunun için tutar vermiyor. Bu seçimde düşen yaprak yok ama bütçe büyük ölçüde boş kalır.",
-"kur": "Milvus düşer. Paket açık yazıyor: kurulacak yeni iş yok, yol alt yüklenici, müşteri ve azınlık ortak sırasıyla ilerliyor. Kur yolu seçilirse bu kolda yaprak kalmaz.",
+"yuksek_butce": "Bu grupta 1 milyon dolar üstü bilet isteyen fırsat yok. Milvus için yüksek bütçe yalnız sonraki azınlık pay turunda anlam kazanır; paket bunun için tutar vermiyor. Bu seçimde düşen fırsat yok ama bütçe büyük ölçüde boş kalır.",
+"kur": "Milvus düşer. Paket açık yazıyor: kurulacak yeni iş yok, yol alt yüklenici, müşteri ve azınlık ortak sırasıyla ilerliyor. Kur yolu seçilirse bu grupta fırsat kalmaz.",
 "ortak": "Milvus uyar. Yol tam olarak ortaklık yolu: önce şasi, gövde ve boya alt yüklenicisi, sonra robot müşterisi, sonra azınlık ortak. Comau ortaklığı ve 2025 Seri A yatırımcıları bu yolda MEKA'nın yanında başka taraflar olduğunu gösteriyor."
 },
 "uyarilar": [
@@ -43110,7 +43110,7 @@ window.MEKA_DATA = {
 "bag_teknokent": {
 "id": "bag_teknokent",
 "baslik": "Bağımsız, Teknokentler",
-"ozet": "Bu kol fabrika kurmadan teknokent girişimlerine finansal ortak olmanın üç biçimini toplar: tek şirkete azınlık payı, fon payı ve yan yana yatırım. Azınlık payı yedi şirkette aranır, FiberLAST, TEKSİS, Teknolus, TrabTech, Novator, Pyramp ve Spacelis; fon payı Maxis'in yönettiği ODTÜ70 fonunda asgari 50.000 dolar biletle açık ve fon 1 Ekim 2026'da M-Based'e ilk yatırımını yaptı; yan yana yatırım INVEST101'in 22,2 milyon dolarlık fonu ve 21 şirketlik portföyü üzerinden tohum turlarına girmektir. Şirket verisi yalnız iki yerde belgeli: FiberLAST'ta Koray GSYO'nun yüzde 27,72 payı ve 2007 kuruluşu, TrabTech'te 19 Ocak 2023 turunun 6,6 milyon dolar değerlemesi. Novator, TEKSİS, Teknolus, Pyramp ve Spacelis'in cirosu, sermayesi ve ortaklık yapısı hiçbir açık kaynakta yok; Oyak ODTÜ Teknokent Etki fonunun ilk kapanışı da hiçbir kaynakta görülmedi. Ortak engel şu: sekiz yaprağın hiçbirinde temettü beklenmiyor, getiri 5 ile 10 yıl sonra çıkışla geliyor ve değerleme veriye değil görüşmeye dayanıyor.",
+"ozet": "Bu grup fabrika kurmadan teknokent girişimlerine finansal ortak olmanın üç biçimini toplar: tek şirkete azınlık payı, fon payı ve yan yana yatırım. Azınlık payı yedi şirkette aranır, FiberLAST, TEKSİS, Teknolus, TrabTech, Novator, Pyramp ve Spacelis; fon payı Maxis'in yönettiği ODTÜ70 fonunda asgari 50.000 dolar biletle açık ve fon 1 Ekim 2026'da M-Based'e ilk yatırımını yaptı; yan yana yatırım INVEST101'in 22,2 milyon dolarlık fonu ve 21 şirketlik portföyü üzerinden tohum turlarına girmektir. Şirket verisi yalnız iki yerde belgeli: FiberLAST'ta Koray GSYO'nun yüzde 27,72 payı ve 2007 kuruluşu, TrabTech'te 19 Ocak 2023 turunun 6,6 milyon dolar değerlemesi. Novator, TEKSİS, Teknolus, Pyramp ve Spacelis'in cirosu, sermayesi ve ortaklık yapısı hiçbir açık kaynakta yok; Oyak ODTÜ Teknokent Etki fonunun ilk kapanışı da hiçbir kaynakta görülmedi. Ortak engel şu: sekiz fırsatın hiçbirinde temettü beklenmiyor, getiri 5 ile 10 yıl sonra çıkışla geliyor ve değerleme veriye değil görüşmeye dayanıyor.",
 "ne_yapmali": [
 {
 "adim": "20 ile 21 Ekim 2026'da EPDK Konferans Salonu Ankara'daki 2. Enerji Stratejileri Konferansı'nda Novator ekibiyle yüz yüze görüşmek: SOP ve GridBridge saha kurulumu, BEDAŞ hibrit radyal ring projesinin durumu, tur planı ve pay dağılımı; TÜBİTAK BİGG+ Tohum 2026/1 çağrısı 20 Kasım 2026'ya kadar açık, şirketin başvurup başvurmadığı sorulur. Ardından MERSİS ve Ticaret Sicili Gazetesi'nden Novator Enerji A.Ş. sermaye, pay sahipleri ve yönetim kurulu kaydını çekmek ve EPDK kabul edilen Ar-Ge proje listelerinde BEDAŞ satırlarını taramak.",
@@ -43163,18 +43163,18 @@ window.MEKA_DATA = {
 ],
 "kapi_etkisi": {
 "sirket": "Şirket üzerinden yatırımda Novator, Pyramp, ODTÜ fon yolları, FiberLAST, TEKSİS, Teknolus ve TrabTech kalır; yedisi de iki yola açık. ODTÜ70 fon payı şirket tarafında avantajlı, çünkü 325/A ile kazancın yüzde 10'u matrahtan düşer. Spacelis kişisel yazıldığı için düşer; melek yatırımcı hissesi yolu da şirkete kapalı, yalnız kişisel.",
-"kisisel": "Kişisel yatırımda sekiz yaprağın hepsi kalır; Spacelis zaten yalnız kişisel. Novator, FiberLAST ve ODTÜ yollarında doğrudan hisse için bireysel katılım yatırımcısı lisansı gerekir; 2026 asgari yatırım 250.980 TL yazılı ama bu turda doğrulanamadı. Teknolus limited şirket olduğu için melek teşviki uygulanamaz.",
+"kisisel": "Kişisel yatırımda sekiz fırsatın hepsi kalır; Spacelis zaten yalnız kişisel. Novator, FiberLAST ve ODTÜ yollarında doğrudan hisse için bireysel katılım yatırımcısı lisansı gerekir; 2026 asgari yatırım 250.980 TL yazılı ama bu turda doğrulanamadı. Teknolus limited şirket olduğu için melek teşviki uygulanamaz.",
 "dusuk_butce": "Dilim 2 seçilirse Novator, Pyramp, ODTÜ fon yolları, TEKSİS, Teknolus, TrabTech ve Spacelis kalır; yedisi de 100 bin ile 1 milyon dolar bandında. Dilim 1 için yalnız ODTÜ yolları açılır: ODTÜ70 asgari 50.000 dolar, Oyak fonu asgari 10.000 dolar taahhüt. FiberLAST 1 ile 3 milyon dolar yazıldığı için düşük bütçede düşer.",
-"yuksek_butce": "Dilim 3 seçilirse yalnız FiberLAST doğrudan uyar, anlamlı azınlık payı 1 ile 3 milyon dolar. TEKSİS'te azınlık pay yolu 1 ile 3 milyon dolar ve ODTÜ üst senaryosu 1,45 milyon dolar taahhüt ile bu dilime taşınabilir. Dilim 4'e giren yaprak yok; Novator, Pyramp, Teknolus, TrabTech ve Spacelis bu bütçeyi gerektirmez.",
-"kur": "Kur yolu seçilirse bu kolda kalan yaprak yok. Sekiz yaprağın hepsinde kurmak anlamsız yazılı, çünkü ekip, prototip, belge ve müşteri ilişkisi mevcut şirkette: FiberLAST 19 yıllık ekip ve ürün, TEKSİS ve Teknolus 2007 ve 2005 kuruluşlu, TrabTech CE Sınıf III belgeli, Pyramp patentli yayıcı malzeme sahibi.",
-"ortak": "Ortak yolu seçilirse sekiz yaprağın hepsi kalır. Biçimler farklı: Novator, Pyramp, FiberLAST, Teknolus, TrabTech ve Spacelis'te tek şirkete azınlık payı; TEKSİS'te azınlık payı ya da ortak ürün geliştirme; ODTÜ yollarında ODTÜ70 ve Oyak fon payı ile INVEST101 yanında yan yana yatırım. FiberLAST'ta Koray GSYO'dan ikincil hisse, TrabTech'te yedi bireysel yatırımcıdan ikincil hisse ek seçenek."
+"yuksek_butce": "Dilim 3 seçilirse yalnız FiberLAST doğrudan uyar, anlamlı azınlık payı 1 ile 3 milyon dolar. TEKSİS'te azınlık pay yolu 1 ile 3 milyon dolar ve ODTÜ üst senaryosu 1,45 milyon dolar taahhüt ile bu dilime taşınabilir. Dilim 4'e giren fırsat yok; Novator, Pyramp, Teknolus, TrabTech ve Spacelis bu bütçeyi gerektirmez.",
+"kur": "Kur yolu seçilirse bu grupta kalan fırsat yok. Sekiz fırsatın hepsinde kurmak anlamsız yazılı, çünkü ekip, prototip, belge ve müşteri ilişkisi mevcut şirkette: FiberLAST 19 yıllık ekip ve ürün, TEKSİS ve Teknolus 2007 ve 2005 kuruluşlu, TrabTech CE Sınıf III belgeli, Pyramp patentli yayıcı malzeme sahibi.",
+"ortak": "Ortak yolu seçilirse sekiz fırsatın hepsi kalır. Biçimler farklı: Novator, Pyramp, FiberLAST, Teknolus, TrabTech ve Spacelis'te tek şirkete azınlık payı; TEKSİS'te azınlık payı ya da ortak ürün geliştirme; ODTÜ yollarında ODTÜ70 ve Oyak fon payı ile INVEST101 yanında yan yana yatırım. FiberLAST'ta Koray GSYO'dan ikincil hisse, TrabTech'te yedi bireysel yatırımcıdan ikincil hisse ek seçenek."
 },
 "uyarilar": [
 "Şirket verisi eksik: Novator, TEKSİS, Teknolus, Pyramp ve Spacelis için ciro, sermaye ve ortaklık yapısı hiçbir açık kaynakta yok; FiberLAST'ın 3 ile 5 milyon dolar ciro tahmini doğrulanmamış LinkedIn çalışan aralığından türetildi; TrabTech'in gelir ve implant adedi yok, TraBCup'ın pazara çıktığı bile doğrulanmadı. Teknolus kanıtı 2/5. Değerleme her görüşmede şişebilir.",
 "Önceki çalışmalarla çelişkiler düzeltildi: FiberLAST'ta Koray GSYO payının Aralık 2025'te alındığı yazılmıştı, Koray sayfası 30 Haziran 2025 tarihli ve yüzde 27,72 gösteriyor; ODTÜ70 portföyü boş deniyordu, 1 Ekim 2026'da M-Based yatırımı var; Teknolus GES kurulum ve arazi robotu diye anlatılıyordu, açılan dört sayfada bu yok; Pyramp saha ölçümünün yayımlanmadığı yazılmıştı, 2022 tarihli hakemli bildiri bulundu.",
 "Teknoloji iddiaları ölçümle uyuşmuyor: Pyramp'ın ölçülmüş 1,65 kW/m2 değeri beyan edilen 4 ve 12 kW/m2'nin çok altında, yüzde 85 verim iddiası MIT ve NREL rekoru yüzde 41,1'in iki katı ve dayanağı yok, TRL 6 Aralık 2023'te kaldı. Spacelis'in ölçülmüş verim, uçuş verisi ve TRL'si yok; CB Insights toplam fonlamayı 10 bin dolar gösteriyor; Nisan 2025'te aranan 5 milyon doların toplandığına kayıt yok; ekip iki kişi.",
 "Kapı ve mevzuat sorunları: TEKSİS için hidrojen üretim lisansı, yeşil sertifika ve şebeke karışım mevzuatı 2025 ve 2026'da bulunamadı; Teknolus TÜRKAK akreditasyonu beyan etmiyor, sarsıcısı düşük kuvvet sınıfında ve savunma müşterisi kanıtı yok; TrabTech için SGK SUT ödeme kodu bulunamadı ve KTÜ METAM 47,3 milyon TL ile kamu destekli rakip. Oyak fonunun ihraç belgesinde onay tarihi boş ve ilk kapanış hiçbir kaynakta yok; ODTÜ70'in ücret, süre ve toplanan taahhüt bilgisi SPK onayından 11 ay sonra hâlâ açık değil.",
-"Kolun adı iki yaprak için yanıltıcı: Spacelis'in ODTÜ Teknokent bağı açılan 12 sayfanın hiçbirinde yok ve çalışma yaprağı teknokent kolundan çıkarıp bağımsız dalın uzay ve enerji koluna taşımayı öneriyor; Pyramp TU Dublin çıkışlı İrlanda girişimi. Novator için şirkete özgü bilgilerin hepsi LinkedIn ve firma beyanı; Teknolus'un Ostim Teknopark adresi ve TEKSİS'in limited şirket statüsü bu turda doğrulanamadı."
+"Grubun adı iki fırsat için yanıltıcı: Spacelis'in ODTÜ Teknokent bağı açılan 12 sayfanın hiçbirinde yok ve çalışma fırsatı teknokent grubundan çıkarıp bağımsız alanın uzay ve enerji grubuna taşımayı öneriyor; Pyramp TU Dublin çıkışlı İrlanda girişimi. Novator için şirkete özgü bilgilerin hepsi LinkedIn ve firma beyanı; Teknolus'un Ostim Teknopark adresi ve TEKSİS'in limited şirket statüsü bu turda doğrulanamadı."
 ],
 "siralama": [],
 "konu_ids": [
@@ -43191,7 +43191,7 @@ window.MEKA_DATA = {
 "bag_devlet": {
 "id": "bag_devlet",
 "baslik": "Bağımsız, Devlet firmaları",
-"ozet": "Bu kolda dört yaprak var ve dördü de bir kamu takvimine ya da kamu kararına bağlı: il özel idarelerinin jeotermal ruhsat ihaleleri, Avrupa'da Terna ve Bundesnetzagentur gibi kurumların depolama hak ve ihale süreçleri, SGK listesi ve Karar 11031 fiyat rejimiyle biyolojik ilaç, Savunma Sanayii Başkanlığı'nın Batarya OTAĞ'ı. Eyleme en yakın olan jeotermal: 2026'da dokuz ilde saha ihalesi ilan edildi, Erzurum ihalesi 13 Ekim 2026'da yapıldı ve saha başına muhammen bedel 32 ile 33 bin dolar; Margün'ün 24 MWm santral için 105,5 milyon dolar ödemesi sektörde para kazanıldığını gösteriyor. Depolama haklarının tetiği tarihli: MACSE-2 ihalesi 24 Kasım 2026'da ve 16 GWh için, ama başvuru 27 Temmuz 2026'da kapandı ve yeni girişçiye açık pencere yok. Biyolojik ilaçta pazar 2025'te 90,9 milyar TL ve ithalat 7,3 milyar dolar, ama ruhsat fiilen 2,5 ile 3 yıl ve ilk gelir 36 ile 48 ay; SSB bataryada OTAĞ yol haritası 16 Ekim 2026'da hâlâ yayımlanmamış ve açıklanan tek sözleşme 4,96 milyon dolar. Ortak engel şeffaflık: jeotermalde hiçbir ihale sonucu yayımlanmadı, depolamada ARERA ve Terna belgeleri metin olarak okunamadı, bataryada açık çağrı yok, ilaçta atıl kapasite iddiası doğrulanamadı.",
+"ozet": "Bu grupta dört fırsat var ve dördü de bir kamu takvimine ya da kamu kararına bağlı: il özel idarelerinin jeotermal ruhsat ihaleleri, Avrupa'da Terna ve Bundesnetzagentur gibi kurumların depolama hak ve ihale süreçleri, SGK listesi ve Karar 11031 fiyat rejimiyle biyolojik ilaç, Savunma Sanayii Başkanlığı'nın Batarya OTAĞ'ı. Eyleme en yakın olan jeotermal: 2026'da dokuz ilde saha ihalesi ilan edildi, Erzurum ihalesi 13 Ekim 2026'da yapıldı ve saha başına muhammen bedel 32 ile 33 bin dolar; Margün'ün 24 MWm santral için 105,5 milyon dolar ödemesi sektörde para kazanıldığını gösteriyor. Depolama haklarının tetiği tarihli: MACSE-2 ihalesi 24 Kasım 2026'da ve 16 GWh için, ama başvuru 27 Temmuz 2026'da kapandı ve yeni girişçiye açık pencere yok. Biyolojik ilaçta pazar 2025'te 90,9 milyar TL ve ithalat 7,3 milyar dolar, ama ruhsat fiilen 2,5 ile 3 yıl ve ilk gelir 36 ile 48 ay; SSB bataryada OTAĞ yol haritası 16 Ekim 2026'da hâlâ yayımlanmamış ve açıklanan tek sözleşme 4,96 milyon dolar. Ortak engel şeffaflık: jeotermalde hiçbir ihale sonucu yayımlanmadı, depolamada ARERA ve Terna belgeleri metin olarak okunamadı, bataryada açık çağrı yok, ilaçta atıl kapasite iddiası doğrulanamadı.",
 "ne_yapmali": [
 {
 "adim": "Erzurum Valiliği Yatırım İzleme ve Koordinasyon Başkanlığı'na 4982 sayılı Kanun kapsamında yazılı bilgi edinme başvurusu yapılır: 13 Ekim 2026 Aşkale Küçükgeçit ve Pasinler Alvar ihalelerinin sonucu, kazanan ve kapanış bedeli sorulur. Sonuç 2026 ihalelerinde rekabetin şiddetini gösteren ilk veri olur.",
@@ -43244,18 +43244,18 @@ window.MEKA_DATA = {
 ],
 "kapi_etkisi": {
 "sirket": "Yatırım şirket üzerinden olursa jeotermal, depolama hakları ve SSB batarya uyar; üçünün kapısı ikisi. Biyolojik ilaç düşer, çünkü yalnız kişisel yatırım olarak tanımlı; gerçekçi yolu yabancı geliştiriciden lisans alıp yerli dolum ya da bir CDMO'da azınlık payı.",
-"kisisel": "Kişisel yatırımda dört yaprak da uyar. Jeotermal ruhsat ihalesine kendi adına girilebilir; bu, kolda kişisel yolla yapılabilecek en ucuz adım, saha başına 32 ile 33 bin dolar artı yüzde 3 teminat.",
-"dusuk_butce": "Dilim 1 ve 2 seçilirse dört yaprağın hiçbiri tam uymaz; dördü de 1 ile 10 milyon dolar dilimine yazılı. Tek istisna jeotermalde yalnız ruhsat almak: 32 ile 33 bin dolar, ama etüt ve ilk kuyu 24 ayda bileti 3. dilime çıkarır. Depolama haklarında İtalya'da 50 MW izinli proje hissesi yaklaşık 1,9 milyon euro ile başlar.",
-"yuksek_butce": "Dilim 3 seçilirse dört yaprak da uyar: jeotermalde etüt ve ilk kuyu, depolama haklarında hak bedeli ve MACSE teminatı, biyolojik ilaçta 8 ile 15 milyon dolar lisanslı dolum ya da CDMO payı, SSB bataryada 3 ile 6 milyon dolar paket ve test hattı. Dilim 4'te bu kolda yaprak yok; depolama haklarında inşaata geçilirse doğrulanmamış maliyetle toplam 32 milyon euroya çıkar.",
+"kisisel": "Kişisel yatırımda dört fırsat da uyar. Jeotermal ruhsat ihalesine kendi adına girilebilir; bu, grupta kişisel yolla yapılabilecek en ucuz adım, saha başına 32 ile 33 bin dolar artı yüzde 3 teminat.",
+"dusuk_butce": "Dilim 1 ve 2 seçilirse dört fırsatın hiçbiri tam uymaz; dördü de 1 ile 10 milyon dolar dilimine yazılı. Tek istisna jeotermalde yalnız ruhsat almak: 32 ile 33 bin dolar, ama etüt ve ilk kuyu 24 ayda bileti 3. dilime çıkarır. Depolama haklarında İtalya'da 50 MW izinli proje hissesi yaklaşık 1,9 milyon euro ile başlar.",
+"yuksek_butce": "Dilim 3 seçilirse dört fırsat da uyar: jeotermalde etüt ve ilk kuyu, depolama haklarında hak bedeli ve MACSE teminatı, biyolojik ilaçta 8 ile 15 milyon dolar lisanslı dolum ya da CDMO payı, SSB bataryada 3 ile 6 milyon dolar paket ve test hattı. Dilim 4'te bu grupta fırsat yok; depolama haklarında inşaata geçilirse doğrulanmamış maliyetle toplam 32 milyon euroya çıkar.",
 "kur": "Kur yolu jeotermal ve depolama haklarında açık: ruhsat ihalesine doğrudan girmek ve İtalya ya da Almanya'da hak aşamasında kendi proje şirketini kurmak. Biyolojik ilaç ve SSB batarya düşer; biri lisans ve dolum ortaklığı, diğeri Altınay ya da Birikim gibi mevcut bir paket üreticisiyle ortaklık ister.",
-"ortak": "Ortak yolu dört yaprakta da açık. Jeotermalde sondaj ve santral için Margün ve Zorlu gibi işletmecilerle ortaklık, depolama haklarında izinli proje şirketine hisse, biyolojik ilaçta lisans ya da CDMO azınlık payı, SSB bataryada Altınay ya da Birikim ile paket entegrasyonu ortaklığı."
+"ortak": "Ortak yolu dört fırsatta da açık. Jeotermalde sondaj ve santral için Margün ve Zorlu gibi işletmecilerle ortaklık, depolama haklarında izinli proje şirketine hisse, biyolojik ilaçta lisans ya da CDMO azınlık payı, SSB bataryada Altınay ya da Birikim ile paket entegrasyonu ortaklığı."
 },
 "uyarilar": [
 "Jeotermalde şeffaflık yok: 2026'da dokuz ilde saha ihalesi ilan edildi, dördü doğrulandı, hiçbir sonuç yayımlanmadı; Erzurum 13 Ekim 2026 sonucu bilinmiyor. Kuyu maliyeti 3 ile 6 milyon dolar tek kaynak ve doğrulanamadı; elektrik yolu 31 Aralık 2030 YEKDEM şartına bağlı ve 2026 ruhsatıyla yetişmek zor.",
 "Depolama haklarında MACSE-2 tavanı 27.000 euro/MWh-yıl ve 150.500 euro/MWh maliyet varsayımı ARERA PDF'inden doğrulanamadı; MACSE-1 yaklaşık 12.959 euro ile kapandı, rezerv priminin üçte biri. Başvuru 27 Temmuz 2026'da kapandı; dört ülkede de yeni girişçiye açık tarihli pencere yok ve kurallar her yıl değişiyor.",
 "Biyolojik ilaçta 13 tesisin atıl olduğu ve imal biyobenzer payının yüzde 2,7'ye indiği iddiaları İEİS kaynaklı ve doğrulanamadı; ruhsat fiilen 2,5 ile 3 yıl, ilk gelir 36 ile 48 ay. Önceki tur yerli üretime fiyat avantajı yok demişti; Karar 11031 madde 2/12 ilk eşdeğerlere yüzde 80, 75 ve 70 kademesi getiriyor, çelişki bu turda düzeltildi.",
 "SSB bataryada OTAĞ yol haritası 16 Ekim 2026'da hâlâ yayımlanmamış ve açık çağrı yok; iş ana yüklenicinin alt yüklenici seçimine bağlı. Ortak adayı Altınay 1Ç26'da yüzde 33 satış daralması ve 54,2 milyon TL net zarar yazdı. Dünya pazarı için Meticulous 4,42 milyar dolar, diğer üç tahmin 1,67 ile 2,9 milyar dolar; fark büyük ve diğerleri doğrulanamadı.",
-"Kanıt dört yaprakta da kısmi kapsamlı: jeotermal 4/5, depolama hakları, biyolojik ilaç ve SSB batarya 3/5. Bu kolda hiçbir yaprak 100 bin dolar altı bilete sığmaz; yalnız jeotermal ruhsatı 32 ile 33 bin dolar ama etüt ve kuyu olmadan gelir üretmez."
+"Kanıt dört fırsatta da kısmi kapsamlı: jeotermal 4/5, depolama hakları, biyolojik ilaç ve SSB batarya 3/5. Bu grupta hiçbir fırsat 100 bin dolar altı bilete sığmaz; yalnız jeotermal ruhsatı 32 ile 33 bin dolar ama etüt ve kuyu olmadan gelir üretmez."
 ],
 "siralama": [],
 "konu_ids": [
@@ -43268,7 +43268,7 @@ window.MEKA_DATA = {
 "bag_ozel": {
 "id": "bag_ozel",
 "baslik": "Bağımsız, Özel firmalar",
-"ozet": "Bu kolda on bir yaprak var ve hepsi MEKA'nın taş ve toz işinden bağımsız gelir arar. Çoğu mevcut bir şirkete ya da projeye ortak olmayı anlatır: TÜRKAK akreditasyonlu karbon doğrulayıcı kuruluşun devri, lisansını yeni almış depolamalı GES projesine hisse girişi, Elektroland'a yüzde 20 ile 30 azınlık payı, Antalya hibrit tohum firmasına çoğunluk payı, ABD PFAS imha şirketine ve Avrupa nadir toprak ayırma firmasına azınlık payı, Suda Maden ile antimuan ortaklığı. Gelire en yakın olanlar çalışan bir işi devralanlardır: karbon doğrulamada 774 tesisin 2026 raporu 30 Nisan 2027'ye kadar doğrulanmak zorunda ve devralınan MEDAS sözleşmeleri hemen gelir üretir; hibrit tohumda satın alınan firma çalışır durumda olduğu için gelir 0 ile 3 ayda başlar; fabrika bataryası pilotu siparişten 4 ile 6 ay sonra devreye girer. Kendi kurma yolu yalnız fabrika bataryası ve balkon GES'te açık, diğer dokuz yaprakta izin, akreditasyon, lisans ya da ıslah süresi yüzünden kapalı. Ortak engel üçlü: hedef şirketlerin ciro ve ortaklık verisi kamuya açık değil, kural pencereleri dar ve 2026 içinde birkaç kez değişti, getiri çoğunlukla temettüyle değil çıkışla geliyor.",
+"ozet": "Bu grupta on bir fırsat var ve hepsi MEKA'nın taş ve toz işinden bağımsız gelir arar. Çoğu mevcut bir şirkete ya da projeye ortak olmayı anlatır: TÜRKAK akreditasyonlu karbon doğrulayıcı kuruluşun devri, lisansını yeni almış depolamalı GES projesine hisse girişi, Elektroland'a yüzde 20 ile 30 azınlık payı, Antalya hibrit tohum firmasına çoğunluk payı, ABD PFAS imha şirketine ve Avrupa nadir toprak ayırma firmasına azınlık payı, Suda Maden ile antimuan ortaklığı. Gelire en yakın olanlar çalışan bir işi devralanlardır: karbon doğrulamada 774 tesisin 2026 raporu 30 Nisan 2027'ye kadar doğrulanmak zorunda ve devralınan MEDAS sözleşmeleri hemen gelir üretir; hibrit tohumda satın alınan firma çalışır durumda olduğu için gelir 0 ile 3 ayda başlar; fabrika bataryası pilotu siparişten 4 ile 6 ay sonra devreye girer. Kendi kurma yolu yalnız fabrika bataryası ve balkon GES'te açık, diğer dokuz fırsatta izin, akreditasyon, lisans ya da ıslah süresi yüzünden kapalı. Ortak engel üçlü: hedef şirketlerin ciro ve ortaklık verisi kamuya açık değil, kural pencereleri dar ve 2026 içinde birkaç kez değişti, getiri çoğunlukla temettüyle değil çıkışla geliyor.",
 "ne_yapmali": [
 {
 "adim": "Karbon doğrulama için TÜRKAK'tan ISO 17029 ve ISO 14065 kapsamında akredite sera gazı doğrulayıcı kuruluşların güncel listesini almak, devir ya da ortaklık için 2 ile 3 aday seçmek ve RvA'ya cfa@rva.nl üzerinden SKDM akreditasyonunun süresi, ücreti ve tanık denetim şartı için ön başvuru sorgusu göndermek. 2026 raporlarının teslim tarihi 30 Nisan 2027 ve RvA başvurusunun 2027 ortasında sonuçlanması gerektiği için bekleme payı yok.",
@@ -43283,7 +43283,7 @@ window.MEKA_DATA = {
 "konu_id": "lityum"
 },
 {
-"adim": "Elektroland Genel Müdürü Ferhat Uğur ile tanışma toplantısı ve karşılıklı gizlilik sözleşmesi; ortakların pay satmaya açık olup olmadığını sormak; son 3 yıl mali tablo, sipariş defteri, ihracat izinleri, 5201 Üretim İzin Belgesi ve Tesis Güvenlik Belgesi'ni istemek. Ciro 10 milyon dolar altındaysa yaprağın bilet ve getiri modeli çöker, bu yüzden ilk soru ciro.",
+"adim": "Elektroland Genel Müdürü Ferhat Uğur ile tanışma toplantısı ve karşılıklı gizlilik sözleşmesi; ortakların pay satmaya açık olup olmadığını sormak; son 3 yıl mali tablo, sipariş defteri, ihracat izinleri, 5201 Üretim İzin Belgesi ve Tesis Güvenlik Belgesi'ni istemek. Ciro 10 milyon dolar altındaysa fırsatın bilet ve getiri modeli çöker, bu yüzden ilk soru ciro.",
 "kim": "MEKA genel müdürü",
 "ne_zaman": "Kasım 2026",
 "konu_id": "elektroland"
@@ -43322,15 +43322,15 @@ window.MEKA_DATA = {
 "kapi_etkisi": {
 "sirket": "Yatırım şirket üzerinden olursa enerji verimliliği ve antimuan rafinerisi tam uyar; PFAS, fabrika bataryası, balkon GES, karbon doğrulama, lisanslı GES, Elektroland ve hibrit tohum iki yola da açık olduğu için kalır. Ağır nadir toprak ile araç powerbank ve uzun yaşam ilacı kişisel yazıldığı için düşer.",
 "kisisel": "Kişisel yatırımda ağır nadir toprak ile araç powerbank ve uzun yaşam ilacı doğrudan uyar; PFAS, fabrika bataryası, balkon GES, karbon doğrulama, lisanslı GES, Elektroland ve hibrit tohum da kalır. Enerji verimliliği ve antimuan rafinerisi şirket yazıldığı için düşer; enerji verimliliğinde sıvı soğutma imalatı MEKA tesisine bağlı.",
-"dusuk_butce": "Dilim 1 ve 2 seçilirse yalnız balkon GES, enerji verimliliği ile araç powerbank ve uzun yaşam ilacı kalır; üçü de 100 bin ile 1 milyon dolar bandında. Fabrika bataryasında 1 MWh pilot 120 ile 200 bin dolar ve hibrit tohumda azınlık payıyla deneme girişi 1 ile 2 milyon dolar yazılı, ama iki yaprağın kapı dilimi 1 ile 10 milyon dolar. 100 bin dolar altında kalan yaprak yok.",
+"dusuk_butce": "Dilim 1 ve 2 seçilirse yalnız balkon GES, enerji verimliliği ile araç powerbank ve uzun yaşam ilacı kalır; üçü de 100 bin ile 1 milyon dolar bandında. Fabrika bataryasında 1 MWh pilot 120 ile 200 bin dolar ve hibrit tohumda azınlık payıyla deneme girişi 1 ile 2 milyon dolar yazılı, ama iki fırsatın kapı dilimi 1 ile 10 milyon dolar. 100 bin dolar altında kalan fırsat yok.",
 "yuksek_butce": "Dilim 3 seçilirse PFAS, ağır nadir toprak, fabrika bataryası, karbon doğrulama, lisanslı GES, Elektroland ve hibrit tohum uyar. Antimuan rafinerisi 10 milyon dolar üstü yazılı ve yalnız dilim 4 ile açılır; ağır nadir toprakta gerçekçi bilet 10 ile 20 milyon dolar yazıldığı için o da dilim 4'e yaklaşır. Balkon GES, enerji verimliliği ve mobil şarj bu bütçeyi gerektirmez.",
-"kur": "Kur yolu seçilirse bu kolda yalnız fabrika bataryası ve balkon GES kalır; ikisi de kur ve ortak yoluna açık. Diğer dokuz yaprakta kur yolu kapalı yazılı: izinli yakma tesisi, Dy ve Tb ayırma hattı, akredite doğrulayıcı, lisanslı santral, savunma robotu üreticisi, tohum ıslahçısı ve antimuan hattı sıfırdan kurulamaz ya da yıllar alır.",
-"ortak": "Ortak yolu seçilirse on bir yaprağın hepsi kalır. Dokuzunda ortak tek yol: PFAS'ta 374Water tipi azınlık payı ya da tek üniteli imha ortak girişimi, nadir toprakta Avrupa ayırma firması ya da fon payı, karbon doğrulamada TÜRKAK akreditasyonlu kuruluşa ortaklık ya da devir, lisanslı GES'te hisse girişi, Elektroland ve hibrit tohumda pay alımı, antimuanda Suda Maden ortaklığı, enerji verimliliğinde Iceotope tipi lisans, mobil şarjda mevcut işletmeci. Fabrika bataryası ve balkon GES'te ortak yolu tedarikçi ortaklığı ya da distribütörlük biçiminde."
+"kur": "Kur yolu seçilirse bu grupta yalnız fabrika bataryası ve balkon GES kalır; ikisi de kur ve ortak yoluna açık. Diğer dokuz fırsatta kur yolu kapalı yazılı: izinli yakma tesisi, Dy ve Tb ayırma hattı, akredite doğrulayıcı, lisanslı santral, savunma robotu üreticisi, tohum ıslahçısı ve antimuan hattı sıfırdan kurulamaz ya da yıllar alır.",
+"ortak": "Ortak yolu seçilirse on bir fırsatın hepsi kalır. Dokuzunda ortak tek yol: PFAS'ta 374Water tipi azınlık payı ya da tek üniteli imha ortak girişimi, nadir toprakta Avrupa ayırma firması ya da fon payı, karbon doğrulamada TÜRKAK akreditasyonlu kuruluşa ortaklık ya da devir, lisanslı GES'te hisse girişi, Elektroland ve hibrit tohumda pay alımı, antimuanda Suda Maden ortaklığı, enerji verimliliğinde Iceotope tipi lisans, mobil şarjda mevcut işletmeci. Fabrika bataryası ve balkon GES'te ortak yolu tedarikçi ortaklığı ya da distribütörlük biçiminde."
 },
 "uyarilar": [
-"Üç yaprağın ekonomisi yakın tarihli pencerelere bağlı: ithal LFP hücreye yüzde 30 ek vergi yalnız 31 Aralık 2026'ya kadar sıfır, uzatılmazsa 2027'de hücre maliyeti yüzde 30 artar; Çin'in ABD'ye antimuan ihracat yasağı askısı 27 Kasım 2026'da bitiyor; EPA'nın PFAS için 2031 uzatması 16 Ekim 2026 itibarıyla yalnız öneri ve nihai olursa ABD atık akışı iki yıl kayar.",
+"Üç fırsatın ekonomisi yakın tarihli pencerelere bağlı: ithal LFP hücreye yüzde 30 ek vergi yalnız 31 Aralık 2026'ya kadar sıfır, uzatılmazsa 2027'de hücre maliyeti yüzde 30 artar; Çin'in ABD'ye antimuan ihracat yasağı askısı 27 Kasım 2026'da bitiyor; EPA'nın PFAS için 2031 uzatması 16 Ekim 2026 itibarıyla yalnız öneri ve nihai olursa ABD atık akışı iki yıl kayar.",
 "Antimuan çalışmasının ekonomi modeli kendi girdileriyle tutarsızdı ve yeniden kuruldu; bilet 20 ile 30 milyon dolar yerine 28 ile 40 milyon dolar çıktı. Çalışmanın pazar iskeleti olan USGS 2026 rakamları, 45.000 ton tüketim, yüzde 91 bağımlılık ve Türkiye 3.000 ton, PDF okunamadığı için doğrulanamadı; antimuan metal fiyatı Haziran 2025'te 60.000 dolar/ton iken Haziran 2026'da 23.000 ile 33.000 dolar/ton bandına indi.",
-"Elektroland ve hibrit tohum yapraklarının kanıtı 2/5. Elektroland için önceki çalışmadaki Mayıs 2026 HANÇER seri üretim sözleşme değişikliği hiçbir kaynakta bulunamadı ve silindi; şirkete özgü güncel haberlerin üçü de AA kaynaklı tek kanal; ciro, kâr, çalışan sayısı ve ortaklık yapısı hiçbir açık kaynakta yok. Hibrit tohumda yüzde 45 ile 55 brüt marj ve yüzde 20 ile 25 FAVÖK marjı varsayımı kaynaksız; Antalya payı için iki kaynak uyuşmuyor, 365 firmanın 118'i ile yüzde 80.",
+"Elektroland ve hibrit tohum fırsatlarının kanıtı 2/5. Elektroland için önceki çalışmadaki Mayıs 2026 HANÇER seri üretim sözleşme değişikliği hiçbir kaynakta bulunamadı ve silindi; şirkete özgü güncel haberlerin üçü de AA kaynaklı tek kanal; ciro, kâr, çalışan sayısı ve ortaklık yapısı hiçbir açık kaynakta yok. Hibrit tohumda yüzde 45 ile 55 brüt marj ve yüzde 20 ile 25 FAVÖK marjı varsayımı kaynaksız; Antalya payı için iki kaynak uyuşmuyor, 365 firmanın 118'i ile yüzde 80.",
 "Fabrika bataryası hesabının iki ana girdisi, PTF saat dilimleri ve sanayi tarifesi, doğrulanamadı; saatlik mahsuplaşma, fazla enerji ödemesi ve dağıtım tarifesi 2026 içinde üç kez değişti. Lisanslı GES'te keşif kartının MW başı 1 milyon dolar dayanağı olan Smart GES Diyarbakır haberi bulunamadı ve devreye alınmış depolamalı santral için çıkış emsali yok. Pomega yaklaşık bir yıldır çalışmıyor, yerli hücre üreticisi yok.",
 "Karbon doğrulamada yerli taraf pazar değil tarife: MEDAS atıyor, adam-gün ücreti brüt asgari ücrete sabit, süreler EK-3'te sabit; SKDM tarafında Bureau Veritas, SGS, RINA, Intertek ve EmiCert Eylül ile Ekim 2026'da AB akreditasyonu aldı ve pencere daralıyor. Balkon GES için Türkiye'de prize takılan cihaza kural yok ve 2 Nisan 2026 değişikliği konuya girmedi; tüketici geri ödemesi 9 ile 24 yıl. Mobil şarjda 45.660 noktanın 26'sı mobil ve bugünkü fiyatla ünite ekonomisi eksi; çağrı bedeli almak Resmî Gazete madde 25 fıkra 1 yüzünden hukuken riskli."
 ],
@@ -43558,35 +43558,35 @@ window.MEKA_DATA = {
 {
 "tarih": "15 Ekim 2026",
 "iso": "2026-10-15",
-"olay": "Karar ağacı ve yaprak özetleri derlendi",
+"olay": "Fırsat haritası ve fırsat özetleri derlendi",
 "kaynak": "bu uygulama",
 "konu_id": ""
 },
 {
 "tarih": "16 Ekim 2026",
 "iso": "2026-10-16",
-"olay": "Kanıtı zayıf 12 yaprak için web araştırması; bağımsız dalın 13 yaprağı için derin çalışma",
+"olay": "Kanıtı zayıf 12 fırsat için web araştırması; bağımsız alanın 13 fırsatı için derin çalışma",
 "kaynak": "bu uygulama",
 "konu_id": ""
 },
 {
 "tarih": "20 Ekim 2026",
 "iso": "2026-10-20",
-"olay": "ODTÜ yaprağı altıya ayrıldı; keşif turuyla 7 yeni yaprak; 48 yaprak üç puanlayıcıyla yeniden puanlandı",
+"olay": "ODTÜ fırsatı altıya ayrıldı; keşif turuyla 7 yeni fırsat; 48 fırsat üç puanlayıcıyla yeniden puanlandı",
 "kaynak": "bu uygulama",
 "konu_id": ""
 },
 {
 "tarih": "20 Ekim 2026",
 "iso": "2026-10-20",
-"olay": "7. tur: MEKA dalının 8 yaprağı için ekonomi modeli ve emsal ihale sonuçları; elektrikli otobüs ve Çinli üreticiyle ortaklık yaprakları eklendi; 10 yaprak üç puanlayıcı ve eleştirmenle puanlandı",
+"olay": "7. tur: MEKA alanının 8 fırsatı için ekonomi modeli ve emsal ihale sonuçları; elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 10 fırsat üç puanlayıcı ve eleştirmenle puanlandı",
 "kaynak": "bu uygulama",
 "konu_id": ""
 },
 {
 "tarih": "21 Ekim 2026",
 "iso": "2026-10-21",
-"olay": "8. tur: ATV ve UTV (benzinli ve elektrikli) ve rüzgar türbini çelik kulesi yaprakları eklendi ve puanlandı; ikinci keşif turunda 51 aday arandı",
+"olay": "8. tur: ATV ve UTV (benzinli ve elektrikli) ve rüzgar türbini çelik kulesi fırsatları eklendi ve puanlandı; ikinci keşif turunda 51 aday arandı",
 "kaynak": "bu uygulama",
 "konu_id": ""
 },
@@ -43600,7 +43600,7 @@ window.MEKA_DATA = {
 {
 "tarih": "24 Ekim 2026",
 "iso": "2026-10-24",
-"olay": "9. tur: titreşim, çevre koşulları ve ölçüm test laboratuvarı yaprağı eklendi ve puanlandı; üçüncü keşif turunda 69 aday tarandı, ön kontrolü geçen çıkmadı",
+"olay": "9. tur: titreşim, çevre koşulları ve ölçüm test laboratuvarı fırsatı eklendi ve puanlandı; üçüncü keşif turunda 69 aday tarandı, ön kontrolü geçen çıkmadı",
 "kaynak": "bu uygulama",
 "konu_id": ""
 },
@@ -43817,7 +43817,7 @@ window.MEKA_DATA = {
 {
 "tarih": "24 Kasım 2026",
 "iso": "2026-11-24",
-"olay": "İtalya MACSE-2 ihalesi, 16 GWh, teslim 2029, yalnız lityum batarya. Tavan 27.000 €/MWh-yıl iddiası doğrulanamadı. Yaprağın ana tetiği.",
+"olay": "İtalya MACSE-2 ihalesi, 16 GWh, teslim 2029, yalnız lityum batarya. Tavan 27.000 €/MWh-yıl iddiası doğrulanamadı. Fırsatın ana tetiği.",
 "kaynak": "haber https://www.ess-news.com/2026/06/02/italy-sets-november-date-for-macse-storage-auction-targeting-16-gwh/ ; diger https://www.solareindustriale.it/blog-fotovoltaico/mercato-termine-stoccaggi",
 "konu_id": "depolama_hak"
 },
@@ -44531,7 +44531,7 @@ window.MEKA_DATA = {
 {
 "tarih": "Eylül 2027",
 "iso": "2027-09-15",
-"olay": "12. ay karar noktası: ilk tahkimat ekipmanı siparişi; yoksa yaprağı genel prekast satışına katlamak.",
+"olay": "12. ay karar noktası: ilk tahkimat ekipmanı siparişi; yoksa fırsatı genel prekast satışına katlamak.",
 "kaynak": "01 rapor Tablo 9.3",
 "konu_id": "sav_prekast"
 },
@@ -44699,7 +44699,7 @@ window.MEKA_DATA = {
 {
 "tarih": "31 Aralık 2027",
 "iso": "2027-12-31",
-"olay": "Melek yatırımcı indiriminin bitiş tarihi; Teknolus limited kaldığı sürece bu yapraktaki kişisel yol için geçerli değil. TÜRMOB sirküleri bu turda açılmadı, doğrulanamadı.",
+"olay": "Melek yatırımcı indiriminin bitiş tarihi; Teknolus limited kaldığı sürece bu fırsattaki kişisel yol için geçerli değil. TÜRMOB sirküleri bu turda açılmadı, doğrulanamadı.",
 "kaynak": "rapor https://www.turmob.org.tr/ebulten/mevzuatsirkuleri/2022/163-2022.pdf önceki çalışmadan, bu turda açılmadı",
 "konu_id": "teknolus"
 },
@@ -45125,7 +45125,7 @@ window.MEKA_DATA = {
 "sayfa": 54,
 "pdf": "MEKA_Savunma_Nis_Arastirmasi_Rapor.pdf",
 "url": "https://claude.ai/artifact/RoFtUiqpRijgkzpV2KW5io",
-"aciklama": "24 niş yedi kriterle puanlandı (5 üzerinden). Önerilen dört kol: tahkimat, flat rack ve kanca yükleyici, mühimmat hattı, konteyner ve şelter. Yönetici özeti: MEKA_Savunma_Yonetici_Ozeti_ve_Ozet.pdf; kart: MEKA_Savunma_Ozet_Karti_1sayfa.pdf."
+"aciklama": "24 niş yedi kriterle puanlandı (5 üzerinden). Önerilen dört grup: tahkimat, flat rack ve kanca yükleyici, mühimmat hattı, konteyner ve şelter. Yönetici özeti: MEKA_Savunma_Yonetici_Ozeti_ve_Ozet.pdf; kart: MEKA_Savunma_Ozet_Karti_1sayfa.pdf."
 },
 {
 "no": "02",
@@ -45150,7 +45150,7 @@ window.MEKA_DATA = {
 "tarih": "25 Eylül 2026",
 "sayfa": 2,
 "pdf": "MEKA_Yeni_Alanlar_GPT_Astra_6_Claude_Opus_5_5.pdf",
-"aciklama": "Ayrı bir yapay zekânın görüşü: önce satış (inşaat ve yıkıntı atığından agrega), sonra yeni iş kolu."
+"aciklama": "Ayrı bir yapay zekânın görüşü: önce satış (inşaat ve yıkıntı atığından agrega), sonra yeni iş grubu."
 },
 {
 "no": "04",
@@ -45214,7 +45214,7 @@ window.MEKA_DATA = {
 "tarih": "5 Ekim 2026",
 "sayfa": 0,
 "pdf": "",
-"aciklama": "Beş okuyucu, iki denetçi, bir eleştirmen: 30 konu, 51 görev, 13 açık soru, altı farklı puan ölçeği. Bu uygulamanın bant ve dal kuralı oradan geldi."
+"aciklama": "Beş okuyucu, iki denetçi, bir eleştirmen: 30 konu, 51 görev, 13 açık soru, altı farklı puan ölçeği. Bu uygulamanın bant ve alan kuralı oradan geldi."
 },
 {
 "no": "Ek",
@@ -45330,7 +45330,7 @@ window.MEKA_DATA = {
 },
 {
 "no": "Ek",
-"ad": "Alt dalı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge (ek araştırma)",
+"ad": "Alt alanı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge (ek araştırma)",
 "tarih": "16 Ekim 2026",
 "sayfa": 3,
 "pdf": "Calisma_belirsiz.pdf",
@@ -45633,24 +45633,24 @@ window.MEKA_DATA = {
 "aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 11 açık sorunun 4 tanesi cevaplandı, 3 tanesi görüşmeye kaldı. 22 şirket, 8 emsal işlem. Kanıt 3/5."
 },
 {
-"no": "Ağaç",
-"ad": "Karar ağacı posteri",
+"no": "Harita",
+"ad": "Fırsat haritası posteri",
 "tarih": "15 Ekim 2026",
 "sayfa": 1,
 "pdf": "MEKA_Karar_Agaci_1sayfa.pdf",
 "aciklama": "A3 tek sayfa poster. Bu uygulamanın basılabilir hali; karar kapıları posterde yok."
 }
 ],
-"calismalar_notu": "Kaynak çalışmalar 22-30 Eylül 2026 arasında hazırlandı; 16 Ekim 2026'da 14 yaprak için iki turda web kaynaklı ek araştırma eklendi. PDF'ler bu siteye ekli.",
+"calismalar_notu": "Kaynak çalışmalar 22-30 Eylül 2026 arasında hazırlandı; 16 Ekim 2026'da 14 fırsat için iki turda web kaynaklı ek araştırma eklendi. PDF'ler bu siteye ekli.",
 "gorus": [
-"En olgun ve gelire en yakın iş savunmanın dört kolu. Tek engel belge sırası ve tesis verisi.",
+"En olgun ve gelire en yakın iş savunmanın dört grubu. Tek engel belge sırası ve tesis verisi.",
 "Mineral zenginleştirme mevcut müşterinin doğal uzantısı, ama Metso sorusu çözülmeden ilerlemez.",
 "Termal batarya ve lityum artık yüksek getirili iş değil, opsiyon. 5+5 pencereleri izleme listesi; hiçbirinde getiri hesabı yok.",
-"Bağımsız dalda ilerleme yönetimin üç cevabına bağlı. Cevap gelmedikçe o dal bekler."
+"Bağımsız alanda ilerleme yönetimin üç cevabına bağlı. Cevap gelmedikçe o alan bekler."
 ],
 "sabit_adimlar": [
 "Tesis veri formu: kapalı alan, vinç kapasiteleri, sac kalınlığı, makine listesi. Savunma puanları bu veriyle güncellenecek.",
-"30 Eylül sonrası yapılan çalışmalar bu pakette yok; klasöre eklenince ağaca işlenir."
+"30 Eylül sonrası yapılan çalışmalar bu pakette yok; klasöre eklenince haritaya işlenir."
 ],
 "dosyalar": {
 "01_rapor": {
@@ -45745,10 +45745,10 @@ window.MEKA_DATA = {
 "sayfa_sayisi": 2
 },
 "agac": {
-"ad": "Karar ağacı posteri (15 Ekim 2026)",
+"ad": "Fırsat haritası posteri (15 Ekim 2026)",
 "pdf": "MEKA_Karar_Agaci_1sayfa.pdf",
 "tur": "ozet",
-"kisa": "Karar ağacı posteri",
+"kisa": "Fırsat haritası posteri",
 "sayfa_sayisi": 1
 },
 "lityum_ek": {
@@ -45858,7 +45858,7 @@ window.MEKA_DATA = {
 "sayfa_sayisi": 2
 },
 "c_belirsiz": {
-"ad": "Alt dalı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge: ek araştırma, iki tur (16 Ekim 2026, 3 sayfa)",
+"ad": "Alt alanı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge: ek araştırma, iki tur (16 Ekim 2026, 3 sayfa)",
 "pdf": "Calisma_belirsiz.pdf",
 "tur": "ek",
 "kisa": "Ek araştırma, 16 Ekim 2026",
@@ -46124,118 +46124,118 @@ window.MEKA_DATA = {
 "sayfa_sayisi": 6
 }
 },
-"dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Dal ve kol yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz yaprağın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; yapraklar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk yapraklar arası ve yaprak ile bölge arası tutarlılıkta: ağacın ön bandı yedi yaprakta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir yaprakta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B yapraklarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki yaprağın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
+"dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Alan ve grup yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz fırsatın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; fırsatlar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk fırsatlar arası ve fırsat ile bölge arası tutarlılıkta: haritanın ön bandı yedi fırsatta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir fırsatta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B fırsatlarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki fırsatın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
 "elestiri": {
 "sorunlar": [
 {
 "konu_id": "jeotermal",
-"aciklama": "Ağaçtaki ön bant ile yaprak bandı yedi yaprakta farklı. Jeotermal ve PFAS ağaçta one_cikan, yaprakta izle ve ikincil. Konteyner ve şelter one_cikan iken ikincil. Uçak bakım, lityum ve Avrupa depolama ikincil iken izle. Belirsiz fikirler izle iken elendi. Bölge özetleri yaprak bandını kullanıyor; ağaç satırları eski kaldı. Bağımsız dalda ağaç iki one_cikan gösteriyor, bölge özeti sıfır diyor.",
-"oneri": "Ağaç tablosundaki ön bant sütununu yaprak bandıyla eşitle. Her bant değişikliğini yaprakta tek cümleyle gerekçelendir; jeotermal ve PFAS için bu gerekçe zaten var, ağaca taşı.",
+"aciklama": "Haritadaki ön bant ile fırsat bandı yedi fırsatta farklı. Jeotermal ve PFAS haritada one_cikan, fırsatta izle ve ikincil. Konteyner ve şelter one_cikan iken ikincil. Uçak bakım, lityum ve Avrupa depolama ikincil iken izle. Belirsiz fikirler izle iken elendi. Bölge özetleri fırsat bandını kullanıyor; harita satırları eski kaldı. Bağımsız alanda harita iki one_cikan gösteriyor, bölge özeti sıfır diyor.",
+"oneri": "Harita tablosundaki ön bant sütununu fırsat bandıyla eşitle. Her bant değişikliğini fırsatta tek cümleyle gerekçelendir; jeotermal ve PFAS için bu gerekçe zaten var, haritaya taşı.",
 "onem": "yuksek"
 },
 {
 "konu_id": "tungsten",
-"aciklama": "Bütçe dilimi iki farklı ölçüte göre verilmiş. Tungsten 4, PFAS 4, nadir toprak 4, kum 3 ve asfalt 3 tam giriş biletini sayıyor. Prekast 1, kalıp 1, mühimmat 1, termal 2, nükleer 2, Milvus 1 ve cimento 2 yalnız ilk adımı sayıyor. Milvus azınlık payı 3. dilim olduğu halde yaprak 1 yazıyor; Novator ve Pyramp aynı azınlık pay işi için 2 yazıyor. Kapı filtresi bu yüzden savunma ve teknokent yapraklarını yapay olarak ucuz, B listesi yapraklarını yapay olarak pahalı gösterir.",
-"oneri": "Tek kural seç: ya ilk 12 ayın harcaması ya tam giriş bileti. Her yaprağa iki alan koy: ilk_dilim ve tam_dilim. Program kapı filtresinde hangisini kullandığını yazsın.",
+"aciklama": "Bütçe dilimi iki farklı ölçüte göre verilmiş. Tungsten 4, PFAS 4, nadir toprak 4, kum 3 ve asfalt 3 tam giriş biletini sayıyor. Prekast 1, kalıp 1, mühimmat 1, termal 2, nükleer 2, Milvus 1 ve cimento 2 yalnız ilk adımı sayıyor. Milvus azınlık payı 3. dilim olduğu halde fırsat 1 yazıyor; Novator ve Pyramp aynı azınlık pay işi için 2 yazıyor. Kapı filtresi bu yüzden savunma ve teknokent fırsatlarını yapay olarak ucuz, B listesi fırsatlarını yapay olarak pahalı gösterir.",
+"oneri": "Tek kural seç: ya ilk 12 ayın harcaması ya tam giriş bileti. Her fırsata iki alan koy: ilk_dilim ve tam_dilim. Program kapı filtresinde hangisini kullandığını yazsın.",
 "onem": "yuksek"
 },
 {
 "konu_id": "sav_prekast",
-"aciklama": "Beş savunma kolu aynı ortak bütçe kaleminden besleniyor: prototipler 50 ile 150 bin avro, ISO 3834-2 ve EN 1090-2 25 ile 55 bin avro, MIL-STD testleri 20 ile 80 bin avro. Buna rağmen prekast, kalıp ve mühimmat 1. dilim, flat rack ve konteyner 2. dilim. Prekast kalıp seti prototipi tek başına 150 bin avroya kadar çıkıyor; bu 100 bin dolar sınırını aşar.",
-"oneri": "Savunma kollarının ortak kalemini portföy düzeyinde bir kez say, yapraklara pay dağıt ve dilimi aynı pay kuralıyla ver. Pay bilinmiyorsa beşine de aynı dilimi yaz.",
+"aciklama": "Beş savunma grubu aynı ortak bütçe kaleminden besleniyor: prototipler 50 ile 150 bin avro, ISO 3834-2 ve EN 1090-2 25 ile 55 bin avro, MIL-STD testleri 20 ile 80 bin avro. Buna rağmen prekast, kalıp ve mühimmat 1. dilim, flat rack ve konteyner 2. dilim. Prekast kalıp seti prototipi tek başına 150 bin avroya kadar çıkıyor; bu 100 bin dolar sınırını aşar.",
+"oneri": "Savunma gruplarının ortak kalemini portföy düzeyinde bir kez say, fırsatlara pay dağıt ve dilimi aynı pay kuralıyla ver. Pay bilinmiyorsa beşine de aynı dilimi yaz.",
 "onem": "orta"
 },
 {
 "konu_id": "nadir_toprak",
-"aciklama": "Liste B yaprakları aynı gerekçeyle farklı yatırım kapısı almış. PFAS, jeotermal ve Avrupa depolama ikisi; ağır nadir toprak ve biyolojik ilaç kişisel. Üçünde de gerekçe aynı cümle: sahada MEKA makinesi gerekmiyor. Ayrıca 10 numaralı çalışma tungsten ile ağır nadir toprağı tek bahis sayıyor; tungsten yatırım ikisi ve yol ikisi, nadir toprak yatırım kişisel ve yol ortak. Kapı filtresi tek bahsin iki yarısını ayrı yerlere düşürür.",
-"oneri": "Liste B yaprakların hepsine yatırım ikisi yaz ve varsayım notunu koru. Tungsten ile nadir toprağa aynı kapı değerlerini ver ya da farkın gerekçesini yaz.",
+"aciklama": "Liste B fırsatları aynı gerekçeyle farklı yatırım kapısı almış. PFAS, jeotermal ve Avrupa depolama ikisi; ağır nadir toprak ve biyolojik ilaç kişisel. Üçünde de gerekçe aynı cümle: sahada MEKA makinesi gerekmiyor. Ayrıca 10 numaralı çalışma tungsten ile ağır nadir toprağı tek bahis sayıyor; tungsten yatırım ikisi ve yol ikisi, nadir toprak yatırım kişisel ve yol ortak. Kapı filtresi tek bahsin iki yarısını ayrı yerlere düşürür.",
+"oneri": "Liste B fırsatların hepsine yatırım ikisi yaz ve varsayım notunu koru. Tungsten ile nadir toprağa aynı kapı değerlerini ver ya da farkın gerekçesini yaz.",
 "onem": "orta"
 },
 {
 "konu_id": "sav_vinc",
-"aciklama": "Aynı görev farklı yapraklarda farklı son tarih almış. Tesis veri formu: prekast, flat rack, mühimmat, konteyner ve istihkamda 22 Ekim 2026; vinç ve elenenlerde 21 Aralık 2026. NCAGE, NSPA, UNGM ve SAM.gov kayıtları: mühimmat ve konteynerde 22 Ekim; uçak bakımda 21 Aralık; üst dal özetinde 31 Ekim. 1988 ile 1998 vinç arşivi: vinçte Ekim 2026 ve gecikmiş, elenenlerde 21 Aralık, üst dal özetinde 31 Ekim. Programda aynı iş üç ayrı tarihle görünür.",
-"oneri": "Ortak görevleri tek bir görev listesine al, her görev için tek tarih ver ve yapraklar o listeye bağlansın. Raporun kendi tarihi ile hesaplanan tarihi ayrı sütunda tut.",
+"aciklama": "Aynı görev farklı fırsatlarda farklı son tarih almış. Tesis veri formu: prekast, flat rack, mühimmat, konteyner ve istihkamda 22 Ekim 2026; vinç ve elenenlerde 21 Aralık 2026. NCAGE, NSPA, UNGM ve SAM.gov kayıtları: mühimmat ve konteynerde 22 Ekim; uçak bakımda 21 Aralık; üst alan özetinde 31 Ekim. 1988 ile 1998 vinç arşivi: vinçte Ekim 2026 ve gecikmiş, elenenlerde 21 Aralık, üst alan özetinde 31 Ekim. Programda aynı iş üç ayrı tarihle görünür.",
+"oneri": "Ortak görevleri tek bir görev listesine al, her görev için tek tarih ver ve fırsatlar o listeye bağlansın. Raporun kendi tarihi ile hesaplanan tarihi ayrı sütunda tut.",
 "onem": "orta"
 },
 {
 "konu_id": "lancer",
-"aciklama": "Lançer yaprağı rakamlar bölümünde 47 araçlık Ağustos 2025 teslimatını olgu olarak veriyor ve ayrıntıyı bir SİPER için 10, üç HİSAR-O için 21 diye yazıyor; toplam 31 eder. Vinç yaprağı aynı rakamı çelişki olarak işaretliyor ve kalan 16 aracın açıklanmadığını söylüyor. İki yaprak aynı kaynağı farklı güvenle kullanıyor.",
-"oneri": "Lançer yaprağında 47 rakamının yanına 10 artı 21 eşit 31 notunu ve kalan 16 aracın kaynakta açıklanmadığını ekle. Rakamı yalnız 31 teyitli, 47 raporun ifadesi diye göster.",
+"aciklama": "Lançer fırsatı rakamlar bölümünde 47 araçlık Ağustos 2025 teslimatını olgu olarak veriyor ve ayrıntıyı bir SİPER için 10, üç HİSAR-O için 21 diye yazıyor; toplam 31 eder. Vinç fırsatı aynı rakamı çelişki olarak işaretliyor ve kalan 16 aracın açıklanmadığını söylüyor. İki fırsat aynı kaynağı farklı güvenle kullanıyor.",
+"oneri": "Lançer fırsatında 47 rakamının yanına 10 artı 21 eşit 31 notunu ve kalan 16 aracın kaynakta açıklanmadığını ekle. Rakamı yalnız 31 teyitli, 47 raporun ifadesi diye göster.",
 "onem": "orta"
 },
 {
 "konu_id": "milvus",
-"aciklama": "Teknokent bölge özetinin ilk paragrafı Temmuz 2025'te 5,5 milyon dolar Seri A turunu olgu gibi yazıyor. Aynı özetin uyarılar bölümü ve Milvus yaprağı bu turun 04 belgesinde Mayıs 2025 4,5 milyon dolar Seri B olarak geçtiğini ve farkın çözülmediğini söylüyor. Program sayfasında üst özet ile uyarı birbirini tutmaz. Ayrıca bu bölgenin kimliği tire ile yazılmış, diğer yedi bölge alt çizgi kullanıyor.",
+"aciklama": "Teknokent bölge özetinin ilk paragrafı Temmuz 2025'te 5,5 milyon dolar Seri A turunu olgu gibi yazıyor. Aynı özetin uyarılar bölümü ve Milvus fırsatı bu turun 04 belgesinde Mayıs 2025 4,5 milyon dolar Seri B olarak geçtiğini ve farkın çözülmediğini söylüyor. Program sayfasında üst özet ile uyarı birbirini tutmaz. Ayrıca bu bölgenin kimliği tire ile yazılmış, diğer yedi bölge alt çizgi kullanıyor.",
 "oneri": "Bölge özetine 'iki belgede tur adı ve tutar farklı' notunu koy, tek rakam yazma. Bölge kimliğini meka_teknokent biçimine çevir.",
 "onem": "dusuk"
 },
 {
 "konu_id": "enkaz",
-"aciklama": "Aynı yapraklar iki bölge sıralamasında farklı yerde. Özel firmalar bölgesinde enkaz 6. sırada, vinç ve termalin üstünde. Üst dal özetinde enkaz 9. sırada, vinç ve termalin altında. İkisi de aynı bant, kanıt ve gelire yakınlık ölçütünü kullandığını söylüyor. Kullanıcı üst bağlantıdan alt bölgeye inince sıra değişir.",
-"oneri": "Üst dal sıralamasını alt bölgelerin sıralamasından türet; alt bölgede bir yaprak diğerinin üstündeyse üst dalda da üstünde kalsın. Fark bilinçliyse gerekçesini üst dal uyarılarına yaz.",
+"aciklama": "Aynı fırsatlar iki bölge sıralamasında farklı yerde. Özel firmalar bölgesinde enkaz 6. sırada, vinç ve termalin üstünde. Üst alan özetinde enkaz 9. sırada, vinç ve termalin altında. İkisi de aynı bant, kanıt ve gelire yakınlık ölçütünü kullandığını söylüyor. Kullanıcı üst bağlantıdan alt bölgeye inince sıra değişir.",
+"oneri": "Üst alan sıralamasını alt bölgelerin sıralamasından türet; alt bölgede bir fırsat diğerinin üstündeyse üst alanda da üstünde kalsın. Fark bilinçliyse gerekçesini üst alan uyarılarına yaz.",
 "onem": "orta"
 },
 {
 "konu_id": "beylikova",
-"aciklama": "Rakamlar bölümü çalışmalardan gelmeli; Beylikova yaprağının üç rakamından ikisi yalnız webden ve bu turda açılmamış. Ürün planı 10 bin ton oksit, 72 bin ton barit, 70 bin ton florit ve pilot tesis 1.200 ton, yüzde 90 ve yüzde 99 rakamları çalışmalarda yok. RES temel yaprağında 7 saha ve 7 yarışma rakamı da web kaynaklı ve doğrulanmamış. Program bu rakamları diğer rakamlarla aynı kutuda gösterirse kanıt gücü yanlış okunur.",
+"aciklama": "Rakamlar bölümü çalışmalardan gelmeli; Beylikova fırsatının üç rakamından ikisi yalnız webden ve bu turda açılmamış. Ürün planı 10 bin ton oksit, 72 bin ton barit, 70 bin ton florit ve pilot tesis 1.200 ton, yüzde 90 ve yüzde 99 rakamları çalışmalarda yok. RES temel fırsatında 7 saha ve 7 yarışma rakamı da web kaynaklı ve doğrulanmamış. Program bu rakamları diğer rakamlarla aynı kutuda gösterirse kanıt gücü yanlış okunur.",
 "oneri": "Doğrulanmamış web rakamlarını rakamlar listesinden çıkar ya da ayrı bir 'doğrulanacak' alanına taşı. Rakamlar alanında yalnız çalışmalardan gelen değerler kalsın.",
 "onem": "orta"
 },
 {
 "konu_id": "izle_meka",
-"aciklama": "Yaprakların kaynak tabanı eşit değil. Dokuz savunma yaprağı ve lançer 5 Ekim 2026 incelemesini kaynak olarak kullanıyor ve ona dayanan çelişkiler yazıyor. Uçak bakım, enkaz, RES temel, parçalayıcı, asfalt, izleme, Beylikova, Pyramp, biyolojik ilaç, SSB batarya, balkon GES ve belirsiz yaprakları aynı dosyanın verilmediğini yazıyor; izleme yaprağı dosyanın klasörde bulunmadığını söylüyor. Özel firmalar bölge özeti yine de incelemenin ağaç önerisine dayanıyor. Aynı pakette bir dosya hem var hem yok.",
-"oneri": "İnceleme dosyasının yerini netleştir. Varsa eksik on iki yaprağa tekrar ver ve çıkarılan çelişkileri geri ekle; yoksa savunma yapraklarındaki inceleme atıflarını 'doğrulanamadı' diye işaretle. Aynı kural 07 ve 08 için belirsiz yaprağında geçerli.",
+"aciklama": "Fırsatların kaynak tabanı eşit değil. Dokuz savunma fırsatı ve lançer 5 Ekim 2026 incelemesini kaynak olarak kullanıyor ve ona dayanan çelişkiler yazıyor. Uçak bakım, enkaz, RES temel, parçalayıcı, asfalt, izleme, Beylikova, Pyramp, biyolojik ilaç, SSB batarya, balkon GES ve belirsiz fırsatları aynı dosyanın verilmediğini yazıyor; izleme fırsatı dosyanın klasörde bulunmadığını söylüyor. Özel firmalar bölge özeti yine de incelemenin harita önerisine dayanıyor. Aynı pakette bir dosya hem var hem yok.",
+"oneri": "İnceleme dosyasının yerini netleştir. Varsa eksik on iki fırsata tekrar ver ve çıkarılan çelişkileri geri ekle; yoksa savunma fırsatlarındaki inceleme atıflarını 'doğrulanamadı' diye işaretle. Aynı kural 07 ve 08 için belirsiz fırsatında geçerli.",
 "onem": "orta"
 },
 {
 "konu_id": "belirsiz",
-"aciklama": "Ağaçta belirsiz fikirler yaprağı bagimsiz ve belirsiz alt dalında. Bölge özetlerinde bu alt dal yok; yaprak Bağımsız Özel firmalar bölgesine konmuş ve o bölge yedi yaprak sayıyor. Ağaçta Bağımsız Özel firmalar altı yaprak. Programda yaprağa tıklanan üst bağlantı yanlış bölgeye gider.",
-"oneri": "Ya ağaçta yaprağı bagimsiz ve ozel alt dalına taşı ya da bölge özetinde bu yaprağı dalın kendi notu olarak ayrı göster ve Özel firmalar sayısını altıya düşür.",
+"aciklama": "Haritada belirsiz fikirler fırsatı bagimsiz ve belirsiz alt alanında. Bölge özetlerinde bu alt alan yok; fırsat Bağımsız Özel firmalar bölgesine konmuş ve o bölge yedi fırsat sayıyor. Haritada Bağımsız Özel firmalar altı fırsat. Programda fırsata tıklanan üst bağlantı yanlış bölgeye gider.",
+"oneri": "Ya haritada fırsatı bagimsiz ve ozel alt alanına taşı ya da bölge özetinde bu fırsatı alanın kendi notu olarak ayrı göster ve Özel firmalar sayısını altıya düşür.",
 "onem": "orta"
 },
 {
 "konu_id": "sav_mro",
-"aciklama": "Savunma raporundaki sıra numaraları iki ayrı yoldan alınmış. Uçak bakım yaprağı, Tablo 7.1 verisinden hesaplanan sıraların metinden farklı olduğunu yazıyor: vinç alt yükleniciliği metinde 12, hesapta 11; lançer üst yapısı metinde 16, hesapta 15. Lançer yaprağı metin sıralarını kullanıyor ve yalnız 'bir basamak kayabilir' diyor; vinç yaprağı 12 yazıyor. Aynı tablo için yapraklar farklı sıra gösteriyor.",
-"oneri": "Tüm savunma yapraklarında tek kaynak seç, tercihen Tablo 7.1 puanına göre hesaplanan sıra, ve eşit puanlı nişleri 'paylaşımlı' diye işaretle.",
+"aciklama": "Savunma raporundaki sıra numaraları iki ayrı yoldan alınmış. Uçak bakım fırsatı, Tablo 7.1 verisinden hesaplanan sıraların metinden farklı olduğunu yazıyor: vinç alt yükleniciliği metinde 12, hesapta 11; lançer üst yapısı metinde 16, hesapta 15. Lançer fırsatı metin sıralarını kullanıyor ve yalnız 'bir basamak kayabilir' diyor; vinç fırsatı 12 yazıyor. Aynı tablo için fırsatlar farklı sıra gösteriyor.",
+"oneri": "Tüm savunma fırsatlarında tek kaynak seç, tercihen Tablo 7.1 puanına göre hesaplanan sıra, ve eşit puanlı nişleri 'paylaşımlı' diye işaretle.",
 "onem": "dusuk"
 },
 {
 "konu_id": "termal",
-"aciklama": "Termal yaprağının yatırım kapısı sirket. Üst dal özetinin kişisel kapı senaryosu termal bataryada yerli firmaya yatırımı kişisel seçenek olarak sayıyor. Yaprak bu seçeneği yalnız yol notunda varsayım diye anıyor. Kapı filtresi kişisel seçilince yaprak düşer, bölge metni ise onu listede tutar.",
-"oneri": "Termal yaprağının yatırım kapısını ikisi yap ya da bölge özetinden kişisel termal cümlesini çıkar.",
+"aciklama": "Termal fırsatının yatırım kapısı sirket. Üst alan özetinin kişisel kapı senaryosu termal bataryada yerli firmaya yatırımı kişisel seçenek olarak sayıyor. Fırsat bu seçeneği yalnız yol notunda varsayım diye anıyor. Kapı filtresi kişisel seçilince fırsat düşer, bölge metni ise onu listede tutar.",
+"oneri": "Termal fırsatının yatırım kapısını ikisi yap ya da bölge özetinden kişisel termal cümlesini çıkar.",
 "onem": "dusuk"
 },
 {
 "konu_id": "izle_meka",
-"aciklama": "Elenen fikirlerin yeri tutarsız. Savunmada elenenler ve belirsiz fikirler ayrı elendi yaprakları. Türbin kanadı, kule gövdesi ve plastik kırıcı ise izle bandındaki izleme yaprağının içinde elendi işaretiyle duruyor. RES temel yaprağı kule gövdesi ve kanadın kendi altında elendi notu olmasını istiyor. Aynı fikir için üç farklı yerleşim önerisi var.",
-"oneri": "Elenen kalemler için tek kural koy: ya her dalda tek elendi yaprağı ya ilgili yaprağın altında elendi notu. Kanat ve kule gövdesini RES temel yaprağına taşı, plastik kırıcıyı parçalayıcı yaprağına.",
+"aciklama": "Elenen fikirlerin yeri tutarsız. Savunmada elenenler ve belirsiz fikirler ayrı elendi fırsatları. Türbin kanadı, kule gövdesi ve plastik kırıcı ise izle bandındaki izleme fırsatının içinde elendi işaretiyle duruyor. RES temel fırsatı kule gövdesi ve kanadın kendi altında elendi notu olmasını istiyor. Aynı fikir için üç farklı yerleşim önerisi var.",
+"oneri": "Elenen kalemler için tek kural koy: ya her alanda tek elendi fırsatı ya ilgili fırsatın altında elendi notu. Kanat ve kule gövdesini RES temel fırsatına taşı, plastik kırıcıyı parçalayıcı fırsatına.",
 "onem": "dusuk"
 },
 {
 "konu_id": "sav_vinc",
-"aciklama": "Farklı ölçekli puanlar yer yer yan yana karşılaştırılmış. Vinç yaprağının neden bölümü Tablo 7.1 teknik uyum 4 / 5 ile Tablo 8.6.2 alt segment ön puanı 3 / 5'i aynı cümlede veriyor; ikisi farklı şeyi ölçüyor. Mineral yaprağının puan metni tungsten 7 / 10 ve kum 6 / 10 kapı puanlarını 03'ün sıra numarasının yanına koyuyor. Bölge özetleri toplamadığını söylüyor, ama sıralamada 7 / 10 kapı puanlı yapraklar 3,55 savunma puanlı yaprağın altında ya da üstünde yer alıyor ve bunun gerekçesi yalnız genel cümle.",
+"aciklama": "Farklı ölçekli puanlar yer yer yan yana karşılaştırılmış. Vinç fırsatının neden bölümü Tablo 7.1 teknik uyum 4 / 5 ile Tablo 8.6.2 alt segment ön puanı 3 / 5'i aynı cümlede veriyor; ikisi farklı şeyi ölçüyor. Mineral fırsatının puan metni tungsten 7 / 10 ve kum 6 / 10 kapı puanlarını 03'ün sıra numarasının yanına koyuyor. Bölge özetleri toplamadığını söylüyor, ama sıralamada 7 / 10 kapı puanlı fırsatlar 3,55 savunma puanlı fırsatın altında ya da üstünde yer alıyor ve bunun gerekçesi yalnız genel cümle.",
 "oneri": "Her puana ölçek etiketi ekle: savunma 5'lik, kapı testi 10'luk, 03 ve 05 sıra, kaba etiket. Program farklı etiketli puanları aynı sütunda göstermesin. Bölge sıralamasında kullanılan ölçüt üçlüsünü her satırda açıkça yaz.",
 "onem": "dusuk"
 },
 {
 "konu_id": "lancer",
-"aciklama": "Üst dal özeti 25 yaprağın dokuzunun savunma raporundan geldiğini yazıyor. Lançer yaprağı da aynı rapordan; sayı on. Devlet firmaları bölge özeti bunu doğru veriyor.",
-"oneri": "Üst dal özetinde sayıyı ona çevir.",
+"aciklama": "Üst alan özeti 25 fırsatın dokuzunun savunma raporundan geldiğini yazıyor. Lançer fırsatı da aynı rapordan; sayı on. Devlet firmaları bölge özeti bunu doğru veriyor.",
+"oneri": "Üst alan özetinde sayıyı ona çevir.",
 "onem": "dusuk"
 },
 {
 "konu_id": "sav_konteyner",
-"aciklama": "Konteyner ve şelter yaprağı raporun dört kolundan biri ve ana bahis sayıldığı halde ikincil bantta. Fırlatma üssü aynı 3,70 puanla hızlı kazanım diliminde ve lançer yaprağının içinde. Lançer yaprağı iki ufku tek bantta tutuyor. Bölge özetleri bunu uyarı olarak yazıyor, ama sıralamada lançer konteynerin üstünde; gerekçe kanıt 4 ve güven 5. Konteynerin kanıtı da 4. Fark yalnız güven puanından geliyor ve güven puanının nasıl verildiği hiçbir yerde tanımlı değil.",
-"oneri": "Güven puanının tanımını tek cümleyle yaz ve bölge sıralamasında kanıt ile güvenin ağırlığını belirt. Lançer yaprağını iki parçaya ayırmayı ya da iki ufku iki satırda göstermeyi düşün.",
+"aciklama": "Konteyner ve şelter fırsatı raporun dört grubundan biri ve ana bahis sayıldığı halde ikincil bantta. Fırlatma üssü aynı 3,70 puanla hızlı kazanım diliminde ve lançer fırsatının içinde. Lançer fırsatı iki ufku tek bantta tutuyor. Bölge özetleri bunu uyarı olarak yazıyor, ama sıralamada lançer konteynerin üstünde; gerekçe kanıt 4 ve güven 5. Konteynerin kanıtı da 4. Fark yalnız güven puanından geliyor ve güven puanının nasıl verildiği hiçbir yerde tanımlı değil.",
+"oneri": "Güven puanının tanımını tek cümleyle yaz ve bölge sıralamasında kanıt ile güvenin ağırlığını belirt. Lançer fırsatını iki parçaya ayırmayı ya da iki ufku iki satırda göstermeyi düşün.",
 "onem": "dusuk"
 }
 ],
 "eksik_yapraklar": [
-"Özeti olmayan yaprak yok: ağaçtaki 39 yaprağın 39'u için özet var. Kapsamı 'yok' olan yaprak yok. Kanıt 2 ve altı olan 12 yaprak var, bunların 11'i aynı zamanda kapsam 'kismi'.",
-"parcalayici: kanıt 1, kapsam kısmi. Tek paragraf ve iki kaynak. Gerçek araştırma gerekir: pazar büyüklüğü, yerli ve yabancı rakipler, Komptech dışı emsal, lastik tesis listesi. Ağaçta ikincil kalacaksa bu araştırma şart; yoksa izle bandına indirilmeli.",
+"Özeti olmayan fırsat yok: haritadaki 39 fırsatın 39'u için özet var. Kapsamı 'yok' olan fırsat yok. Kanıt 2 ve altı olan 12 fırsat var, bunların 11'i aynı zamanda kapsam 'kismi'.",
+"parcalayici: kanıt 1, kapsam kısmi. Tek paragraf ve iki kaynak. Gerçek araştırma gerekir: pazar büyüklüğü, yerli ve yabancı rakipler, Komptech dışı emsal, lastik tesis listesi. Haritada ikincil kalacaksa bu araştırma şart; yoksa izle bandına indirilmeli.",
 "res_temel: kanıt 2, kapsam kısmi. Tek dayanak YEKA duyurusu; yerlilik kapsamı, 36 ay kurulum ve 7 saha bilgisi web kaynaklı ve doğrulanmamış. Gerçek araştırma gerekir: YEKA şartnamesi, mevcut temel tedarikçileri, MEKA'nın farkı.",
 "beylikova: kanıt 2, güven 3, kapsam kısmi. Çalışmalarda tek cümle; kilit rakamlar webden. Araştırmadan çok görüşme gerekir: Eti Maden ihale takvimi ve kapsam. Masa başı araştırma yalnız web rakamlarının doğrulanması için.",
-"belediye: kanıt 2, kapsam kısmi. Tek belediye, tek ihale. Gerçek araştırma gerekir: EKAP geçmiş ihale taraması, yıllık ihale sayısı, kazananlar ve fiyatlar. Bu tarama ucuz ve yaprağın bandını belirler.",
+"belediye: kanıt 2, kapsam kısmi. Tek belediye, tek ihale. Gerçek araştırma gerekir: EKAP geçmiş ihale taraması, yıllık ihale sayısı, kazananlar ve fiyatlar. Bu tarama ucuz ve fırsatın bandını belirler.",
 "milvus: kanıt 2, kapsam tam. Tek taslak özet. Araştırma değil teyit gerekir: yatırım turu adı ve tutarı, ODTÜ Teknokent bağı, Ekim 2025 verilerinin güncellenmesi.",
 "novator: kanıt 2, kapsam kısmi. Kaynak fuar sayfası ve şirket sitesi. Araştırma değil görüşme ve kayıt teyidi gerekir.",
 "pyramp: kanıt 2, kapsam kısmi. Tek şirket iddiası şirketin ifadesi, dayanak sponsorlu içerik. Gerçek araştırma gerekir: rakip taraması, tur durumu, İrlanda izin ve teşvik kuralları. 05'in andığı ayrıntılı tarama pakette yok.",
@@ -46244,7 +46244,7 @@ window.MEKA_DATA = {
 "asfalt: kanıt 2, kapsam kısmi. İzle bandında ve çalışma eylem önermiyor. Şimdilik araştırma gerekmez; yalnız satılık üretici çıkarsa bakılır.",
 "izle_meka: kanıt 2, kapsam kısmi. Yedi küçük kalem. Araştırma gerekmez; yalnız bazalt müşteri tipi ve 419 kr/kWh koşulu için kısa teyit yeter.",
 "belirsiz: kanıt 2, kapsam kısmi. Elendi bandında. Araştırma gerekmez; yalnız sıfırdan Ar-Ge satırı için 07 ve 08 açılıp gerekçe eklenmeli.",
-"Kanıt 3 ama kapsam kısmi üç yaprak: sav_istihkam (pazar rakamı ve muhatap yok), mineral (ürün ve proses bilgisi yok, Metso kapsamı okunmamış), ssb_batarya (OTAĞ sonucu yok). Bunlar için araştırmadan çok iç görev kapanışı gerekir."
+"Kanıt 3 ama kapsam kısmi üç fırsat: sav_istihkam (pazar rakamı ve muhatap yok), mineral (ürün ve proses bilgisi yok, Metso kapsamı okunmamış), ssb_batarya (OTAĞ sonucu yok). Bunlar için araştırmadan çok iç görev kapanışı gerekir."
 ],
 "takvim": [
 {
@@ -46464,7 +46464,7 @@ window.MEKA_DATA = {
 "konu_id": "pfas"
 }
 ],
-"genel": "Otuz dokuz yaprağın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; yapraklar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk yapraklar arası ve yaprak ile bölge arası tutarlılıkta: ağacın ön bandı yedi yaprakta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir yaprakta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B yapraklarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki yaprağın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı."
+"genel": "Otuz dokuz fırsatın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; fırsatlar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk fırsatlar arası ve fırsat ile bölge arası tutarlılıkta: haritanın ön bandı yedi fırsatta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir fırsatta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B fırsatlarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki fırsatın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı."
 },
 "arastirma_gerekenler": [],
 "dilim_kurali": "Bütçe dilimi, işe gerçekten girmek için ilk 12-24 ayda gereken para (giriş bileti); ilk temas ve belge maliyeti değil. 1: 100 bin $ altı, 2: 100 bin ile 1 M$, 3: 1 ile 10 M$, 4: 10 M$ üstü. Yatırım kapısı: sahada MEKA makinesi gerekiyorsa şirket; gerekmiyorsa ikisi de olur.",
@@ -46528,7 +46528,7 @@ window.MEKA_DATA = {
 "poz": "MEKA uyumu yüksek",
 "neg": "MEKA uyumu düşük",
 "kaynak": "puanlayici",
-"aciklama": "Mevcut tesis, makine ve satış kanalının kullanılma derecesi. Yalnız filtredir: işin hangi dala (MEKA ile ilgili ya da bağımsız) gireceğini belirler, genel puana katılmaz.",
+"aciklama": "Mevcut tesis, makine ve satış kanalının kullanılma derecesi. Yalnız filtredir: işin hangi alana (MEKA ile ilgili ya da bağımsız) gireceğini belirler, genel puana katılmaz.",
 "capa": "5: mevcut makineyle doğrudan üretilir ya da satılır · 3: aynı atölye ve ustalık, yeni ürün · 1: bağlantı yok, saf yatırım"
 },
 {
@@ -46548,7 +46548,7 @@ window.MEKA_DATA = {
 "poz": "güçlü kanıt",
 "neg": "zayıf kanıt",
 "kaynak": "sistem",
-"aciklama": "Özetin dayandığı kaynakların sağlamlığı; yapraktaki kanıt puanından gelir.",
+"aciklama": "Özetin dayandığı kaynakların sağlamlığı; fırsattaki kanıt puanından gelir.",
 "capa": "5: resmi, rakamlı, çok kaynaklı · 3: kısmen doğrulanmış · 1: tek cümlelik fikir"
 }
 ],
@@ -46615,18 +46615,18 @@ window.MEKA_DATA = {
 "orta": 32
 },
 "yontem": [
-"Beş ölçüt (getiri, hız, risk, erişim, stratejik değer) üç bağımsız puanlayıcı tarafından, her yaprak için aynı kanıt paketinden 1 ile 5 arasında puanlandı. Üç puanın ortalaması alındı. MEKA uyumu da puanlanır ama genel puana katılmaz; yalnız işin MEKA ile ilgili dala mı bağımsız dala mı gireceğini belirleyen filtredir.",
-"İki ölçüt yargıyla değil sistemden gelir: giriş bileti kapı diliminden, kanıt gücü yapraktaki kanıt puanından hesaplanır.",
+"Beş ölçüt (getiri, hız, risk, erişim, stratejik değer) üç bağımsız puanlayıcı tarafından, her fırsat için aynı kanıt paketinden 1 ile 5 arasında puanlandı. Üç puanın ortalaması alındı. MEKA uyumu da puanlanır ama genel puana katılmaz; yalnız işin MEKA ile ilgili alana mı bağımsız alana mı gireceğini belirleyen filtredir.",
+"İki ölçüt yargıyla değil sistemden gelir: giriş bileti kapı diliminden, kanıt gücü fırsattaki kanıt puanından hesaplanır.",
 "Genel puan, ölçüt puanlarının ağırlıklı ortalamasıdır ve 0 ile 100 arasına çevrilir: 1 puan sıfır, 5 puan yüz eder. Ağırlıklar seçtiğin profile göre değişir.",
-"Dal ve kol puanı, içindeki seçime uyan en iyi üç yaprağın ortalamasıdır.",
-"Bu puan getiri tahmini değildir, farklı çalışmaları aynı ölçekte sıralamak için bir araçtır. Puanlayıcılar yapay zekâdır ve yalnızca bu sitedeki kanıt paketini görmüştür. Saha görüşmesinden sonra yaprakta saha puanı girersen genel puan en çok 10 puan oynar."
+"Alan ve grup puanı, içindeki seçime uyan en iyi üç fırsatın ortalamasıdır.",
+"Bu puan getiri tahmini değildir, farklı çalışmaları aynı ölçekte sıralamak için bir araçtır. Puanlayıcılar yapay zekâdır ve yalnızca bu sitedeki kanıt paketini görmüştür. Saha görüşmesinden sonra fırsatta saha puanı girersen genel puan en çok 10 puan oynar."
 ]
 },
 "calisma_gruplari": [
 {
 "ad": "Savunma nişi araştırması",
 "tarih": "22 Eylül 2026",
-"aciklama": "İhracat odaklı savunma nişi: 24 niş yedi kriterle puanlandı, dört kol önerildi.",
+"aciklama": "İhracat odaklı savunma nişi: 24 niş yedi kriterle puanlandı, dört grup önerildi.",
 "belgeler": [
 {
 "dosya": "01_rapor",
@@ -46753,9 +46753,9 @@ window.MEKA_DATA = {
 ]
 },
 {
-"ad": "Bağımsız dal derin çalışmaları",
+"ad": "Bağımsız alan derin çalışmaları",
 "tarih": "16 Ekim 2026",
-"aciklama": "Bağımsız dalın 13 yaprağı savunma raporu derinliğinde tek tek çalışıldı: pazar, oyuncular ve emsal işlemler, kapı ve takvim, Türk yatırımcı açısı, ekonomi modeli, giriş yolu, riskler, açık sorular. Her çalışma ikinci bir ajan tarafından kaynak kaynak doğrulandı.",
+"aciklama": "Bağımsız alanın 13 fırsatı savunma raporu derinliğinde tek tek çalışıldı: pazar, oyuncular ve emsal işlemler, kapı ve takvim, Türk yatırımcı açısı, ekonomi modeli, giriş yolu, riskler, açık sorular. Her çalışma ikinci bir ajan tarafından kaynak kaynak doğrulandı.",
 "yaprak_belgeleri": [
 {
 "yaprak": "nadir_toprak",
@@ -46810,7 +46810,7 @@ window.MEKA_DATA = {
 {
 "ad": "ODTÜ ayrımı: beş şirket ve fon yolu",
 "tarih": "16 Ekim 2026",
-"aciklama": "Yönetici isteğiyle ODTÜ kısa listesi yaprağı altıya ayrıldı: FiberLAST, TEKSİS, Teknolus, TrabTech ve Spacelis birer şirket yaprağı; ODTÜ yaprağı yalnız fon ve giriş yollarını (ODTÜ70, INVEST101, Oyak fonu, melek yatırımcı) tutuyor. Her biri derin çalışma ve çürütücü doğrulamasıyla.",
+"aciklama": "Yönetici isteğiyle ODTÜ kısa listesi fırsatı altıya ayrıldı: FiberLAST, TEKSİS, Teknolus, TrabTech ve Spacelis birer şirket fırsatı; ODTÜ fırsatı yalnız fon ve giriş yollarını (ODTÜ70, INVEST101, Oyak fonu, melek yatırımcı) tutuyor. Her biri derin çalışma ve çürütücü doğrulamasıyla.",
 "yaprak_belgeleri": [
 {
 "yaprak": "fiberlast",
@@ -46841,7 +46841,7 @@ window.MEKA_DATA = {
 {
 "ad": "Keşif turu: yeni fırsatlar",
 "tarih": "16 ile 20 Ekim 2026",
-"aciklama": "Yönetici isteğiyle (bağımsız dalda daha iyi fırsat ara) sekiz tarayıcı 49 aday buldu, üç jüri yedisini seçti, her biri derin çalışma ve çürütücü doğrulamasıyla yazıldı. İkisi (veri merkezi e-house, gaz türbini yan ekipmanı) ağır sac imalatı olduğu için MEKA ile ilgili dalına kondu.",
+"aciklama": "Yönetici isteğiyle (bağımsız alanda daha iyi fırsat ara) sekiz tarayıcı 49 aday buldu, üç jüri yedisini seçti, her biri derin çalışma ve çürütücü doğrulamasıyla yazıldı. İkisi (veri merkezi e-house, gaz türbini yan ekipmanı) ağır sac imalatı olduğu için MEKA ile ilgili alanına kondu.",
 "yaprak_belgeleri": [
 {
 "yaprak": "dc_ehouse",
@@ -46874,9 +46874,9 @@ window.MEKA_DATA = {
 ]
 },
 {
-"ad": "MEKA dalı: ekonomi modelleri ve emsal işlemler",
+"ad": "MEKA alanı: ekonomi modelleri ve emsal işlemler",
 "tarih": "20 Ekim 2026",
-"aciklama": "Eleştirmen MEKA dalının en yüksek puanlı yapraklarında ekonomi modelinin eksik olduğunu söyledi. Sekiz yaprak için kaynaklı birim fiyat, program hacmi ve emsal ihale sonuçlarıyla bilet, ilk gelir süresi, yıl 3 ve yıl 5 brüt kâr ve geri ödeme yazıldı; savunma kollarının ortak belge ve test bütçesi beşe bölünerek pay edildi. Her çalışma ikinci bir ajan tarafından sayfa sayfa doğrulandı.",
+"aciklama": "Eleştirmen MEKA alanının en yüksek puanlı fırsatlarında ekonomi modelinin eksik olduğunu söyledi. Sekiz fırsat için kaynaklı birim fiyat, program hacmi ve emsal ihale sonuçlarıyla bilet, ilk gelir süresi, yıl 3 ve yıl 5 brüt kâr ve geri ödeme yazıldı; savunma gruplarının ortak belge ve test bütçesi beşe bölünerek pay edildi. Her çalışma ikinci bir ajan tarafından sayfa sayfa doğrulandı.",
 "yaprak_belgeleri": [
 {
 "yaprak": "sav_konteyner",
@@ -46915,7 +46915,7 @@ window.MEKA_DATA = {
 {
 "ad": "Yönetici isteği: elektrikli otobüs",
 "tarih": "20 Ekim 2026",
-"aciklama": "Yönetici iki konu getirdi: Türkiye'de elektrikli otobüs gövdesi ve CKD montajı; Çinli elektrikli otobüs üreticisiyle Türkiye ortaklığı (SANY ve FMT'nin Ankara emsali dahil). İkisi de derin çalışma ve çürütücü doğrulamasıyla yazıldı, MEKA ile ilgili dalına kondu ve diğer yapraklarla aynı ölçekte puanlandı.",
+"aciklama": "Yönetici iki konu getirdi: Türkiye'de elektrikli otobüs gövdesi ve CKD montajı; Çinli elektrikli otobüs üreticisiyle Türkiye ortaklığı (SANY ve FMT'nin Ankara emsali dahil). İkisi de derin çalışma ve çürütücü doğrulamasıyla yazıldı, MEKA ile ilgili alanına kondu ve diğer fırsatlarla aynı ölçekte puanlandı.",
 "yaprak_belgeleri": [
 {
 "yaprak": "cin_otobus_ort",
@@ -46949,7 +46949,7 @@ window.MEKA_DATA = {
 {
 "ad": "Ek araştırmalar",
 "tarih": "16 Ekim 2026",
-"aciklama": "Önceki çalışmalarda yalnız bir iki cümleyle geçen MEKA dalı yaprakları için web kaynaklı ek araştırmalar.",
+"aciklama": "Önceki çalışmalarda yalnız bir iki cümleyle geçen MEKA alanı fırsatları için web kaynaklı ek araştırmalar.",
 "yaprak_belgeleri": [
 {
 "yaprak": "cimento",

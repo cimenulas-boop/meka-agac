@@ -52,7 +52,7 @@
   function saveSel() { lsSet('meka_sel', sel); }
   function uyum(t) {
     var k = t.kapilar || {}; var r = { yatirim: true, butce: true, yol: true };
-    // Karar 1 dal seçer: kişisel yatırımda yalnız Bağımsız dal sayılır; şirkette MEKA dalı tamamen, Bağımsız daldan şirketin girebileceği yapraklar
+    // Karar 1 alan seçer: kişisel yatırımda yalnız Bağımsız alan sayılır; şirkette MEKA alanı tamamen, Bağımsız alandan şirketin girebileceği fırsatlar
     if (sel.yatirim === 'kisisel') r.yatirim = (t.dal === 'bagimsiz' && k.yatirim !== 'sirket');
     if (sel.yatirim === 'sirket') r.yatirim = (k.yatirim === 'sirket' || k.yatirim === 'ikisi');
     if (sel.butce !== 'hepsi') r.butce = ((k.butce || 1) <= Number(sel.butce));
@@ -86,23 +86,23 @@
     for (var i = 0; i < ps.length; i++) if (ps[i].id === PROFIL) return ps[i];
     return ps[0] || { id: 'dengeli', ad: 'Dengeli', agirliklar: {} };
   }
-  // Yönetim kararı 1 puan formülünü değiştirir: kişisel yatırımda MEKA uyumu ölçütü kapanır, ağırlığı diğerlerine dağılır
-  // MEKA uyumu yalnız MEKA ile ilgili dalda ölçülür: bağımsız yaprak MEKA tesisine uymadığı için puan kaybetmez. Kişisel yatırımda her yerde kapalı.
+  // MEKA uyumu ölçütünün ağırlığı her profilde 0; puan formülüne girmez
+  // MEKA uyumu yalnız alan filtresidir; bütün profillerde ağırlığı 0, hiçbir alanda puana katılmaz.
   function agirlik(kid, t) { if (kid === 'M' && (sel.yatirim === 'kisisel' || (t && t.dal === 'bagimsiz'))) return 0; return Number(profil().agirliklar[kid] || 0); }
   function secimEtkisi() {
     var all = tumYapraklar(); var soluk = all.filter(function (t) { return !uyum(t).ok; }).length;
     var p = [];
     if (sel.yatirim === 'kisisel') {
       var hisse = all.filter(function (t) { return t.dal === 'meka' && (t.kapilar || {}).yatirim === 'ikisi'; }).map(function (t) { return t.kisa || t.baslik; });
-      p.push('Kişisel yatırım: yalnız Bağımsız dal sayılıyor, MEKA ile ilgili dal kapalı; MEKA uyumu ölçütü puana katılmıyor.' + (hisse.length ? ' Not: MEKA dalında hisse ya da ortaklıkla kişi olarak da girilebilen ' + hisse.length + ' yaprak var (' + hisse.join(', ') + '); onları görmek için Karar yok seç.' : ''));
+      p.push('Kişisel yatırım: yalnız Bağımsız alan sayılıyor, MEKA ile ilgili alan kapalı; MEKA uyumu ölçütü puana katılmıyor.' + (hisse.length ? ' Not: MEKA alanında hisse ya da ortaklıkla kişi olarak da girilebilen ' + hisse.length + ' fırsat var (' + hisse.join(', ') + '); onları görmek için Karar yok seç.' : ''));
     }
-    if (sel.yatirim === 'sirket') p.push('Şirket üzerinden: MEKA ile ilgili dal tamamen sayılıyor; Bağımsız daldan şirketin girebileceği yapraklar sayılıyor, yalnız kişiye açık olanlar soluk. MEKA uyumu ölçütü puanda.');
-    if (sel.butce !== 'hepsi') p.push('Bütçe: giriş bileti ' + BUTCE_AD[sel.butce] + ' dilimini aşan yapraklar soluk.');
-    if (sel.yol === 'kur') p.push('Kuralım: yalnız ortaklıkla girilebilen yapraklar soluk.');
-    if (sel.yol === 'ortak') p.push('Ortak olalım: yalnız kendi kurmayı gerektiren yapraklar soluk.');
+    if (sel.yatirim === 'sirket') p.push('Şirket üzerinden: MEKA ile ilgili alan tamamen sayılıyor; Bağımsız alandan şirketin girebileceği fırsatlar sayılıyor, yalnız kişiye açık olanlar soluk. MEKA uyumu yalnız filtre, puana katılmaz.');
+    if (sel.butce !== 'hepsi') p.push('Bütçe: giriş bileti ' + BUTCE_AD[sel.butce] + ' dilimini aşan fırsatlar soluk.');
+    if (sel.yol === 'kur') p.push('Kuralım: yalnız ortaklıkla girilebilen fırsatlar soluk.');
+    if (sel.yol === 'ortak') p.push('Ortak olalım: yalnız kendi kurmayı gerektiren fırsatlar soluk.');
     p.push(PROFIL === 'esit' ? 'Puan profili seçilmedi: sekiz ölçüt eşit ağırlıkta.' : 'Puan profili: ' + profil().ad + ', ağırlıklar Sıralama sayfasında.');
-    if (p.length === 1 && sel.yatirim === 'hepsi' && sel.butce === 'hepsi' && sel.yol === 'hepsi') return '<p class="tiny">Henüz karar seçilmedi; bütün yapraklar sayılıyor. ' + p[0] + '</p>';
-    return '<p class="muted" style="border-left:3px solid var(--acc);padding-left:10px"><b>Seçimin etkisi:</b> ' + p.join(' ') + ' Şu an ' + soluk + ' yaprak soluk, ' + (all.length - soluk) + ' yaprak sayılıyor.</p>';
+    if (p.length === 1 && sel.yatirim === 'hepsi' && sel.butce === 'hepsi' && sel.yol === 'hepsi') return '<p class="tiny">Henüz karar seçilmedi; bütün fırsatlar sayılıyor. ' + p[0] + '</p>';
+    return '<p class="muted" style="border-left:3px solid var(--acc);padding-left:10px"><b>Seçimin etkisi:</b> ' + p.join(' ') + ' Şu an ' + soluk + ' fırsat soluk, ' + (all.length - soluk) + ' fırsat sayılıyor.</p>';
   }
   function altPuan(t) { return t.puan || null; }
   function genelTemel(t) {
@@ -180,7 +180,7 @@
       var l2 = (f.kisa || f.ad) + ' · ' + (f.sayfa_sayisi ? f.sayfa_sayisi + ' sayfa' : 'PDF') + (b.sayfa && b.sayfa > 1 ? ' · s. ' + b.sayfa : '');
       return '<a class="fullbtn' + (i ? ' alt' : '') + '" href="' + e(href) + '" target="_blank" rel="noopener">' + DOC_ICON + '<span class="fb"><span class="l1">' + (f.btn || ETIKET[b.rol]) + '</span><span class="l2">' + e(l2) + '</span></span></a>';
     }).join('') + '</div>';
-    if (bs[0].rol === 'kaynak') html += '<p class="tiny" style="margin-top:6px">Bu yaprak için ayrı bir tam çalışma yok; özet bu kaynak belgelere dayanıyor.</p>';
+    if (bs[0].rol === 'kaynak') html += '<p class="tiny" style="margin-top:6px">Bu fırsat için ayrı bir tam çalışma yok; özet bu kaynak belgelere dayanıyor.</p>';
     return html;
   }
   function ilerleme(id) {
@@ -195,7 +195,7 @@
       return '<div class="seg">' + opts.map(function (o) { return '<button type="button" data-' + attr + '="' + name + '" data-val="' + o[0] + '" class="sw-plain ' + (String(cur) === String(o[0]) ? 'on' : '') + '">' + e(o[1]) + '</button>'; }).join('') + '</div>';
     }
     var prof = (P.profiller || []).map(function (p) { return [p.id, p.ad]; });
-    return '<div class="card"><div class="eyebrow">Yönetimin üç kararı</div><p class="muted">Seçim yapınca uymayan yapraklar soluklaşır; sıralama, yol önerisi ve yapılacaklar değişir. Seçim bu cihazda kalır.</p><div id="gates">' +
+    return '<div class="card"><div class="eyebrow">Yönetimin üç kararı</div><p class="muted">Seçim yapınca uymayan fırsatlar soluklaşır; sıralama, yol önerisi ve yapılacaklar değişir. Seçim bu cihazda kalır.</p><div id="gates">' +
       '<div class="gate"><div class="q">1. Yatırım kimin üzerinden?</div>' + seg('yatirim', [['sirket', 'Şirket (MEKA)'], ['kisisel', 'Kişisel'], ['hepsi', 'Karar yok']], sel.yatirim, 'gate') + '</div>' +
       '<div class="gate"><div class="q">2. İlk bütçe dilimi?</div>' + seg('butce', [['1', '< 100 bin $'], ['2', '100 bin ile 1 M$'], ['3', '1 ile 10 M$'], ['4', '> 10 M$'], ['hepsi', 'Karar yok']], sel.butce, 'gate') + '</div>' +
       '<div class="gate"><div class="q">3. Kuralım mı, ortak mı olalım?</div>' + seg('yol', [['kur', 'Kuralım'], ['ortak', 'Ortak olalım'], ['hepsi', 'Karar yok']], sel.yol, 'gate') + '</div>' +
@@ -206,7 +206,7 @@
   // ---------------- önerilen yol ----------------
   function yolHtml() {
     var dals = D.agac.map(function (br) { return { br: br, p: dugumPuani(dalYapraklari(br)) }; }).filter(function (x) { return x.p != null; });
-    if (!dals.length) return '<div class="card"><div class="eyebrow">Önerilen yol</div><p class="muted">Seçime uyan yaprak kalmadı. Kararlardan birini gevşet.</p></div>';
+    if (!dals.length) return '<div class="card"><div class="eyebrow">Önerilen yol</div><p class="muted">Seçime uyan fırsat kalmadı. Kararlardan birini gevşet.</p></div>';
     dals.sort(function (a, b) { return b.p - a.p; });
     var bd = dals[0];
     var kols = bd.br.kollar.map(function (k) { return { k: k, p: dugumPuani(kolYapraklari(k)) }; }).filter(function (x) { return x.p != null; }).sort(function (a, b) { return b.p - a.p; });
@@ -214,10 +214,10 @@
     var leaf = sirala(kolYapraklari(bk.k)).filter(aktif)[0];
     var tum = sirala(tumYapraklar()).filter(aktif).slice(0, 5);
     var h = '<div class="card"><div class="eyebrow">Önerilen yol (seçimine göre)</div><div class="pathrow">' +
-      '<a class="pnode" href="#/bolge/' + bd.br.id + '"><small>Dal</small><b>' + e(bd.br.ad) + '</b>' + puanRozet(bd.p, true) + '</a><span class="parrow">›</span>' +
-      '<a class="pnode" href="#/bolge/' + bk.k.id + '"><small>Kol</small><b>' + e(bk.k.ad) + '</b>' + puanRozet(bk.p, true) + '</a><span class="parrow">›</span>' +
-      '<a class="pnode" href="#/konu/' + leaf.id + '"><small>Yaprak</small><b>' + e(leaf.kisa || leaf.baslik) + '</b>' + puanRozet(genelPuan(leaf), true) + '</a></div>' +
-      '<p class="tiny">Dal ve kol puanı, içindeki en iyi üç yaprağın ortalamasıdır. Diğer dal: ' + (dals[1] ? e(dals[1].br.ad) + ' (' + Math.round(dals[1].p) + ')' : 'seçime uyan yaprak yok') + '.</p>' +
+      '<a class="pnode" href="#/bolge/' + bd.br.id + '"><small>Alan</small><b>' + e(bd.br.ad) + '</b>' + puanRozet(bd.p, true) + '</a><span class="parrow">›</span>' +
+      '<a class="pnode" href="#/bolge/' + bk.k.id + '"><small>Grup</small><b>' + e(bk.k.ad) + '</b>' + puanRozet(bk.p, true) + '</a><span class="parrow">›</span>' +
+      '<a class="pnode" href="#/konu/' + leaf.id + '"><small>Fırsat</small><b>' + e(leaf.kisa || leaf.baslik) + '</b>' + puanRozet(genelPuan(leaf), true) + '</a></div>' +
+      '<p class="tiny">Alan ve grup puanı, içindeki en iyi üç fırsatın ortalamasıdır. Diğer dal: ' + (dals[1] ? e(dals[1].br.ad) + ' (' + Math.round(dals[1].p) + ')' : 'seçime uyan fırsat yok') + '.</p>' +
       '<div class="eyebrow" style="margin-top:6px">Genel sıralamada ilk beş</div><div>' + tum.map(function (t, i) {
         return '<a class="leaf" href="#/konu/' + t.id + '"><span class="n">' + (i + 1) + '</span><span class="t">' + e(t.kisa || t.baslik) + ' <span class="tiny">· ' + e(t.dal_ad) + '</span></span>' + puanRozet(genelPuan(t), true) + '</a>';
       }).join('') + '</div><a href="#/siralama" class="tiny">Sıralamanın tamamı ve puanlama yöntemi ›</a></div>';
@@ -230,22 +230,22 @@
     h += '<div><div class="eyebrow">MEKA Global · yeni iş alanı araştırmaları</div><h1>' + e(D.baslik) + '</h1><p class="muted">' + e(D.alt_baslik) + '</p></div>';
     h += gatesHtml();
     h += yolHtml();
-    h += '<div class="card soft edit"><div class="eyebrow">Düzenleme modu nasıl işler</div><ul class="plain"><li>Bir yaprağı aç, en alttaki Durum kartında ilerleme, görevler ve saha puanını gir, Kaydet.</li><li>Saha puanı 1 ile 5: 3 nötr, 5 genel puana 10 puan ekler, 1 on puan düşürür. Görüşme notunu da yaz.</li><li>Notlar her yaprakta ayrı kartta; düzenleme moduna gerek yok.</li><li>Herkes görsün istersen sayfanın altından durumu dışa aktar, durum.json dosyasını GitHub deposunun köküne yükle.</li></ul></div>';
-    h += '<div class="card"><div class="eyebrow">Yaprak ara</div><input class="search" id="ara" type="search" placeholder="Yaprak, çalışma ya da şirket adı: lityum, Pomega, PFAS, Milvus..." autocomplete="off"><div id="ara-sonuc"></div></div>';
+    h += '<div class="card soft edit"><div class="eyebrow">Düzenleme modu nasıl işler</div><ul class="plain"><li>Bir fırsatı aç, en alttaki Durum kartında ilerleme, görevler ve saha puanını gir, Kaydet.</li><li>Saha puanı 1 ile 5: 3 nötr, 5 genel puana 10 puan ekler, 1 on puan düşürür. Görüşme notunu da yaz.</li><li>Notlar her fırsatta ayrı kartta; düzenleme moduna gerek yok.</li><li>Herkes görsün istersen sayfanın altından durumu dışa aktar, durum.json dosyasını GitHub deposunun köküne yükle.</li></ul></div>';
+    h += '<div class="card"><div class="eyebrow">Fırsat ara</div><input class="search" id="ara" type="search" placeholder="Fırsat, çalışma ya da şirket adı: lityum, Pomega, PFAS, Milvus..." autocomplete="off"><div id="ara-sonuc"></div></div>';
     h += '<div class="tree">';
     h += '<div class="root"><div class="eyebrow" style="color:#F2B28B">Kök</div><h2>MEKA</h2><p class="muted" style="color:#ddd">' + e(D.kok_notu) + '</p></div>';
     D.agac.forEach(function (br) {
       var dp = dugumPuani(dalYapraklari(br));
-      h += '<div class="branch ' + br.id + '"><a class="head" href="#/bolge/' + br.id + '"><h2>' + e(br.ad) + '</h2><span class="tiny">dal puanı ' + dugumRozet(dalYapraklari(br)) + ' · ' + e(br.id === 'meka' && sel.yatirim === 'kisisel' ? 'kişisel yatırım seçildi: bu dal sayılmıyor' : br.aciklama) + ' ›</span></a><div class="kols">';
+      h += '<div class="branch ' + br.id + '"><a class="head" href="#/bolge/' + br.id + '"><h2>' + e(br.ad) + '</h2><span class="tiny">alan puanı ' + dugumRozet(dalYapraklari(br)) + ' · ' + e(br.id === 'meka' && sel.yatirim === 'kisisel' ? 'kişisel yatırım seçildi: bu alan sayılmıyor' : br.aciklama) + ' ›</span></a><div class="kols">';
       br.kollar.forEach(function (k) {
         var ts = sirala(kolYapraklari(k));
         var kp = dugumPuani(ts);
-        h += '<div class="kol"><a class="head" href="#/bolge/' + k.id + '"><h3>' + e(k.ad) + '</h3><span class="tiny">' + dugumRozet(ts) + ' · ' + ts.length + ' yaprak ›</span></a><div>' + ts.map(leafHtml).join('') + '</div></div>';
+        h += '<div class="kol"><a class="head" href="#/bolge/' + k.id + '"><h3>' + e(k.ad) + '</h3><span class="tiny">' + dugumRozet(ts) + ' · ' + ts.length + ' fırsat ›</span></a><div>' + ts.map(leafHtml).join('') + '</div></div>';
       });
       h += '</div></div>';
     });
     h += '</div>';
-    h += '<div class="card"><div class="eyebrow">İşaretler ve puan</div><p class="muted">Her yaprak aynı sekiz ölçütle 0 ile 100 arasında puanlandı; bir çalışmanın 7 puanı başka çalışmanın 6 puanıyla artık aynı ölçekte kıyaslanır. <b class="sym one_cikan">★</b> ' + P.esikler.yildiz + ' ve üzeri · <b class="sym ikincil">○</b> ' + P.esikler.orta + ' ile ' + (P.esikler.yildiz - 1) + ' · <b class="sym izle">▽</b> ' + P.esikler.orta + ' altı ya da çalışma elemiş. <a href="#/siralama">Yöntem ve sıralama ›</a></p></div>';
+    h += '<div class="card"><div class="eyebrow">İşaretler ve puan</div><p class="muted">Her fırsat aynı sekiz ölçütle 0 ile 100 arasında puanlandı; bir çalışmanın 7 puanı başka çalışmanın 6 puanıyla artık aynı ölçekte kıyaslanır. <b class="sym one_cikan">★</b> ' + P.esikler.yildiz + ' ve üzeri · <b class="sym ikincil">○</b> ' + P.esikler.orta + ' ile ' + (P.esikler.yildiz - 1) + ' · <b class="sym izle">▽</b> ' + P.esikler.orta + ' altı ya da çalışma elemiş. <a href="#/siralama">Yöntem ve sıralama ›</a></p></div>';
     h += okumaRehberi();
     h += '<div class="card"><div class="eyebrow">Görüş</div>' + D.gorus.map(function (g) { return '<p style="padding-left:10px;border-left:3px solid var(--acc)">' + e(g) + '</p>'; }).join('') + '</div>';
     h += '<div class="foot">' + e(D.dipnot) + '</div>';
@@ -255,10 +255,10 @@
   function dugumlerHtml() {
     var h = '<div class="grid2">';
     D.agac.forEach(function (br) {
-      h += '<div class="card"><a class="head" href="#/bolge/' + br.id + '" style="text-decoration:none;color:inherit"><div class="eyebrow">Dal</div><h3>' + e(br.ad) + ' ' + dugumRozet(dalYapraklari(br)) + '</h3></a>';
+      h += '<div class="card"><a class="head" href="#/bolge/' + br.id + '" style="text-decoration:none;color:inherit"><div class="eyebrow">Alan</div><h3>' + e(br.ad) + ' ' + dugumRozet(dalYapraklari(br)) + '</h3></a>';
       br.kollar.forEach(function (k) {
         var ts = kolYapraklari(k); var best = sirala(ts).filter(aktif)[0];
-        h += '<a class="leaf" href="#/bolge/' + k.id + '"><span class="sym">›</span><span class="t">' + e(k.ad) + ' <span class="tiny">· ' + ts.length + ' yaprak' + (best ? ' · en iyi: ' + e(best.kisa || best.baslik) : '') + '</span></span>' + dugumRozet(ts) + '</a>';
+        h += '<a class="leaf" href="#/bolge/' + k.id + '"><span class="sym">›</span><span class="t">' + e(k.ad) + ' <span class="tiny">· ' + ts.length + ' fırsat' + (best ? ' · en iyi: ' + e(best.kisa || best.baslik) : '') + '</span></span>' + dugumRozet(ts) + '</a>';
       });
       h += '</div>';
     });
@@ -267,20 +267,20 @@
 
   function okumaRehberi() {
     var all = tumYapraklar().filter(function (t) { return genelPuan(t) != null; }); var top = Math.max.apply(null, all.map(genelPuan));
-    return '<div class="card"><div class="eyebrow">Puan nasıl okunur</div><p class="muted">100 kuramsal tavan: her ölçütte 5. Bugün en yüksek yaprak ' + Math.round(top) + '. Puan düşük görünür, çünkü puanlayıcılar yalnız kanıtlanmış rakamla puan verdi ve çoğu yaprakta kanıt orta. Düşük puan iş yok demek değil, kanıt ve kapı yok demek.</p><div class="kv">' +
+    return '<div class="card"><div class="eyebrow">Puan nasıl okunur</div><p class="muted">100 kuramsal tavan: her ölçütte 5. Bugün en yüksek fırsat ' + Math.round(top) + '. Puan düşük görünür, çünkü puanlayıcılar yalnız kanıtlanmış rakamla puan verdi ve çoğu fırsatta kanıt orta. Düşük puan iş yok demek değil, kanıt ve kapı yok demek.</p><div class="kv">' +
       [[(P.esikler.yildiz + 13) + '+', 'Başla: teklif ver, pilot kur, müşteri temasını bu ay yap.'], [P.esikler.yildiz + ' ile ' + (P.esikler.yildiz + 12), 'İlk adımları at: belge, numune, iki üç görüşme; üç ayda tekrar puanla.'], [P.esikler.orta + ' ile ' + (P.esikler.yildiz - 1), 'İzle ve bilgi topla: saha görüşmesiyle kanıt gelirse yükselir, para bağlama.'], [P.esikler.orta + ' altı', 'Şimdilik bırak; yalnız dış tetik (mevzuat, ihale, satılık varlık) çıkarsa aç.']].map(function (r) { return '<div class="r"><div class="k">' + r[0] + '</div><div>' + r[1] + '</div></div>'; }).join('') + '</div></div>';
   }
   function siralamaHtml() {
     var rm = rankMap(); var all = sirala(tumYapraklar());
-    var h = '<a class="back" href="#/">‹ Ağaca dön</a><div><div class="eyebrow">Genel sıralama</div><h1>' + Object.keys(rm).length + ' yaprak, tek ölçek</h1><p class="muted">Her yaprak aynı sekiz ölçütle ve aynı ağırlıklarla puanlandı. Çalışmaların kendi puanları (5 üzerinden, 10 üzerinden, sıra numarası) karşılaştırmada kullanılmadı. ' + e(secimMetni()) + ' · profil: ' + e(profil().ad) + '</p></div>';
+    var h = '<a class="back" href="#/">‹ Haritaya dön</a><div><div class="eyebrow">Genel sıralama</div><h1>' + Object.keys(rm).length + ' fırsat, tek ölçek</h1><p class="muted">Her fırsat aynı sekiz ölçütle ve aynı ağırlıklarla puanlandı. Çalışmaların kendi puanları (5 üzerinden, 10 üzerinden, sıra numarası) karşılaştırmada kullanılmadı. ' + e(secimMetni()) + ' · profil: ' + e(profil().ad) + '</p></div>';
     h += gatesHtml();
-    h += '<div class="eyebrow">Dallar ve kollar</div>' + dugumlerHtml();
-    h += '<div class="card"><div class="eyebrow">Tüm yapraklar</div><div class="rank">' + all.map(function (t, i) {
+    h += '<div class="eyebrow">Alanlar ve gruplar</div>' + dugumlerHtml();
+    h += '<div class="card"><div class="eyebrow">Tüm fırsatlar</div><div class="rank">' + all.map(function (t, i) {
       var b = bantOf(t);
       return '<a href="#/konu/' + t.id + '" class="' + (aktif(t) ? '' : 'off') + '"><span class="n">' + (i + 1) + '</span><span class="sym ' + b + '">' + BANT_SYM[b] + '</span><span><b>' + e(t.kisa || t.baslik) + '</b> <span class="tiny">' + e(t.dal_ad) + ' › ' + e(t.kol_ad) + ' · kanıt ' + e(t.kanit) + '/5' + (t.sepet ? ' · sepet: puanlanmadı' : '') + (aktif(t) ? '' : ' · seçime uymaz') + '</span><div class="why">' + e(gucluZayif(t)) + '</div></span>' + puanRozet(genelPuan(t)) + '</a>';
     }).join('') + '</div></div>';
     h += okumaRehberi();
-    h += '<div class="card"><div class="eyebrow">Puan nasıl hesaplanıyor</div><ul class="plain">' + (P.yontem || []).map(function (s) { return '<li>' + e(s) + '</li>'; }).join('') + '<li>MEKA uyumu ölçütü yalnız MEKA ile ilgili dalda sayılır; Bağımsız dalda ağırlığı sıfırdır ve kalan ölçütlere dağılır. Kişisel yatırım seçilince her yerde kapanır.</li></ul>' +
+    h += '<div class="card"><div class="eyebrow">Puan nasıl hesaplanıyor</div><ul class="plain">' + (P.yontem || []).map(function (s) { return '<li>' + e(s) + '</li>'; }).join('') + '<li>MEKA uyumu puana katılmaz; yalnız fırsatın MEKA ile ilgili alana mı Bağımsız alana mı gireceğini belirleyen filtredir. Kişisel yatırım seçilince MEKA ile ilgili alan kapanır.</li></ul>' +
       '<div class="kv" style="margin-top:8px">' + KR.map(function (k) {
         return '<div class="r"><div class="k">' + e(k.id) + ' · %' + agirlik(k.id) + '</div><div><b>' + e(k.ad) + '</b> <span class="tiny">' + (k.kaynak === 'sistem' ? 'sistemden: ' : 'puanlayıcılar: ') + '</span>' + e(k.aciklama) + '<div class="src">' + e(k.capa || '') + '</div></div></div>';
       }).join('') + '</div></div>';
@@ -292,9 +292,9 @@
     var isDal = rid === 'meka' || rid === 'bagimsiz';
     var ts = sirala(regionTopics(rid));
     var np = dugumPuani(ts);
-    var h = '<a class="back" href="#/">‹ Ağaca dön</a>';
-    h += '<div><div class="eyebrow">' + (isDal ? 'Dal' : 'Kol') + '</div><h1>' + e(r.baslik) + '</h1><p class="muted">' + ts.length + ' yaprak · ' + e(secimMetni()) + '</p></div>';
-    h += '<div class="card"><div class="eyebrow">' + (isDal ? 'Dal' : 'Kol') + ' puanı</div><div class="row"><span class="bigscore">' + (np == null ? '–' : Math.round(np)) + '</span><span class="muted">' + (np == null && ts.length ? 'Bu bölgede seçime uyan yaprak yok; kararlardan birini gevşet. ' : 'en iyi üç yaprağın ortalaması, seçime uyanlar arasında. ') + (ts.filter(aktif)[0] ? 'En iyi yaprak: <a href="#/konu/' + ts.filter(aktif)[0].id + '">' + e(ts.filter(aktif)[0].kisa || ts.filter(aktif)[0].baslik) + '</a>.' : '') + '</span></div>';
+    var h = '<a class="back" href="#/">‹ Haritaya dön</a>';
+    h += '<div><div class="eyebrow">' + (isDal ? 'Alan' : 'Grup') + '</div><h1>' + e(r.baslik) + '</h1><p class="muted">' + ts.length + ' fırsat · ' + e(secimMetni()) + '</p></div>';
+    h += '<div class="card"><div class="eyebrow">' + (isDal ? 'Alan' : 'Grup') + ' puanı</div><div class="row"><span class="bigscore">' + (np == null ? '–' : Math.round(np)) + '</span><span class="muted">' + (np == null && ts.length ? 'Bu bölgede seçime uyan fırsat yok; kararlardan birini gevşet. ' : 'en iyi üç fırsatın ortalaması, seçime uyanlar arasında. ') + (ts.filter(aktif)[0] ? 'En iyi yaprak: <a href="#/konu/' + ts.filter(aktif)[0].id + '">' + e(ts.filter(aktif)[0].kisa || ts.filter(aktif)[0].baslik) + '</a>.' : '') + '</span></div>';
     if (isDal) {
       var br = D.agac.filter(function (b) { return b.id === rid; })[0];
       if (br) h += '<div style="margin-top:6px">' + br.kollar.map(function (k) { return '<a class="leaf" href="#/bolge/' + k.id + '"><span class="sym">›</span><span class="t">' + e(k.ad) + '</span>' + dugumRozet(kolYapraklari(k)) + '</a>'; }).join('') + '</div>';
@@ -322,7 +322,7 @@
   }
 
   function puanKartiHtml(t) {
-    if (t.sepet) return '<div class="card soft"><div class="eyebrow">Genel puan</div><p>Bu yaprak birden çok küçük fikri bir arada tutan bir sepet. Tek bir puan verilmedi; genel sıralamaya ve dal puanına girmez. Bir fikri öne çıkarmak istersen onu ayrı yaprak olarak araştırmak gerekir.</p></div>';
+    if (t.sepet) return '<div class="card soft"><div class="eyebrow">Genel puan</div><p>Bu fırsat birden çok küçük fikri bir arada tutan bir sepet. Tek bir puan verilmedi; genel sıralamaya ve alan puanına girmez. Bir fikri öne çıkarmak istersen onu ayrı fırsat olarak araştırmak gerekir.</p></div>';
     var a = altPuan(t); if (!a) return '';
     var g = genelPuan(t); var rm = rankMap(); var n = Object.keys(rm).length;
     var sp = Number(dur(t.id).saha_puan || 0);
@@ -378,7 +378,7 @@
   }
 
   function topicHtml(id) {
-    var t = topic(id); if (!t) return '<div class="card">Yaprak bulunamadı.</div>';
+    var t = topic(id); if (!t) return '<div class="card">Fırsat bulunamadı.</div>';
     var u = uyum(t); var k = t.kapilar || {}; var il = ilerleme(id); var b = bantOf(t); var g = genelPuan(t);
     var h = '<a class="back" href="#/bolge/' + t.kol_id + '">‹ ' + e(t.kol_ad) + '</a>';
     h += '<div><div class="eyebrow">' + e(t.dal_ad) + ' · ' + e(t.kol_ad) + '</div><h1>' + e(t.baslik) + '</h1>' + butonlarHtml(t) + '<div class="fullrow ozet-indir"><a class="docbtn" href="pdf/ozet/Ozet_' + e(t.id) + '.pdf" download="MEKA_Ozet_' + e(t.id) + '.pdf" target="_blank" rel="noopener">⬇ Bu özeti PDF olarak indir</a></div>' +
@@ -444,7 +444,7 @@
     }).join('') + '</div>';
   }
   function takvimHtml() {
-    return '<a class="back" href="#/">‹ Ağaca dön</a><div><div class="eyebrow">Takvim</div><h1>Tarihi belli pencereler</h1><p class="muted">Gri geçti, turuncu 30 gün içinde, mavi ileride. Tarihler çalışmalardan alındı; ' + e(D.derleme_tarihi) + ' itibarıyla yeniden doğrulanmadı.</p></div><div class="card">' + tlHtml(D.takvim) + '</div>';
+    return '<a class="back" href="#/">‹ Haritaya dön</a><div><div class="eyebrow">Takvim</div><h1>Tarihi belli pencereler</h1><p class="muted">Gri geçti, turuncu 30 gün içinde, mavi ileride. Tarihler çalışmalardan alındı; ' + e(D.derleme_tarihi) + ' itibarıyla yeniden doğrulanmadı.</p></div><div class="card">' + tlHtml(D.takvim) + '</div>';
   }
 
   function docBtn(b, main) {
@@ -452,7 +452,7 @@
     return '<a class="docbtn' + (main ? ' main' : '') + '" href="pdf/' + e(f.pdf) + '" target="_blank" rel="noopener">' + e(b.etiket || f.kisa || f.ad) + (f.sayfa_sayisi ? ' · ' + f.sayfa_sayisi + ' sf.' : '') + '</a>';
   }
   function calismalarHtml() {
-    var h = '<a class="back" href="#/">‹ Ağaca dön</a><div><div class="eyebrow">Çalışmalar</div><h1>Kaynak çalışmalar</h1><p class="muted">' + e(D.calismalar_notu) + '</p></div>';
+    var h = '<a class="back" href="#/">‹ Haritaya dön</a><div><div class="eyebrow">Çalışmalar</div><h1>Kaynak çalışmalar</h1><p class="muted">' + e(D.calismalar_notu) + '</p></div>';
     (D.calisma_gruplari || []).forEach(function (g) {
       h += '<div class="card"><div class="row" style="justify-content:space-between;align-items:baseline"><h3>' + e(g.ad) + '</h3><span class="tiny">' + e(g.tarih) + '</span></div><p class="muted">' + e(g.aciklama) + '</p>';
       if (g.yaprak_belgeleri) {
@@ -469,7 +469,7 @@
   }
 
   function neYapmaliHtml() {
-    var h = '<a class="back" href="#/">‹ Ağaca dön</a><div><div class="eyebrow">Ne yapmalıyız</div><h1>Seçime göre ilk adımlar</h1><p class="muted">' + e(secimMetni()) + '</p></div>';
+    var h = '<a class="back" href="#/">‹ Haritaya dön</a><div><div class="eyebrow">Ne yapmalıyız</div><h1>Seçime göre ilk adımlar</h1><p class="muted">' + e(secimMetni()) + '</p></div>';
     h += gatesHtml();
     D.agac.forEach(function (br) {
       var r = region(br.id); if (!r) return;
@@ -483,10 +483,10 @@
     var gl = sirala(tumYapraklar()).filter(aktif).map(function (t) { return { t: t, g: (t.cevaplar || []).filter(function (c) { return c.durum === 'gorusme'; }) }; }).filter(function (x) { return x.g.length; });
     if (gl.length) {
       var toplam = gl.reduce(function (a, x) { return a + x.g.length; }, 0);
-      h += '<div class="card"><div class="eyebrow">Görüşme listesi: kime ne sorulacak (' + toplam + ' soru)</div><p class="muted">Web araştırmasıyla kapanmayan sorular. Genel puanı yüksek yapraklar üstte.</p>' + gl.map(function (x) {
+      h += '<div class="card"><div class="eyebrow">Görüşme listesi: kime ne sorulacak (' + toplam + ' soru)</div><p class="muted">Web araştırmasıyla kapanmayan sorular. Genel puanı yüksek fırsatlar üstte.</p>' + gl.map(function (x) {
         return '<details><summary><b>' + e(x.t.kisa || x.t.baslik) + '</b> <span class="tiny">' + x.g.length + ' soru · genel puan ' + (genelPuan(x.t) == null ? '–' : Math.round(genelPuan(x.t))) + '</span></summary><div class="steps" style="margin-top:6px">' + x.g.map(function (c, i) {
           return '<div class="step"><div class="n">' + (i + 1) + '</div><div>' + e(c.soru) + '<div class="meta">Kime: ' + e(c.kime || 'belirtilmedi') + '</div></div></div>';
-        }).join('') + '<a class="tiny" href="#/konu/' + x.t.id + '">Yaprağı aç ›</a></div></details>';
+        }).join('') + '<a class="tiny" href="#/konu/' + x.t.id + '">Fırsatı aç ›</a></div></details>';
       }).join('') + '</div>';
     }
     h += '<div class="card"><div class="eyebrow">Her zaman</div><ul class="plain">' + D.sabit_adimlar.map(function (s) { return '<li>' + e(s) + '</li>'; }).join('') + '</ul></div>';
@@ -518,7 +518,7 @@
     var file;
     try { file = new File([json], dosyaAdi(), { type: 'application/json' }); } catch (x) { file = null; }
     if (file && navigator.canShare && navigator.canShare({ files: [file] }) && navigator.share) {
-      navigator.share({ files: [file], title: 'MEKA karar ağacı durumu' }).catch(function () {});
+      navigator.share({ files: [file], title: 'MEKA fırsat haritası durumu' }).catch(function () {});
       return;
     }
     var blob = new Blob([json], { type: 'application/json' }); var a = document.createElement('a');
