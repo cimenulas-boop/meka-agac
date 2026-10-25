@@ -1,10 +1,10 @@
 window.MEKA_DATA = {
-"baslik": "İki alan, altı grup, 56 fırsat",
+"baslik": "İki alan, altı grup, 57 fırsat",
 "alt_baslik": "Her fırsatta bir sayfalık özet, altında tam çalışma. Üst alan kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 fırsat 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
-"derleme_tarihi": "24 Ekim 2026",
-"bugun_iso": "2026-10-24",
-"surum": "Sürüm 24 Ekim 2026, 9. tur · Test laboratuvarı fırsatı eklendi; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
+"derleme_tarihi": "25 Ekim 2026",
+"bugun_iso": "2026-10-25",
+"surum": "Sürüm 25 Ekim 2026, 10. tur · Veri merkezi fırsatı eklendi; 9. tur: test laboratuvarı; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
 "agac": [
 {
 "id": "meka",
@@ -42,6 +42,7 @@ window.MEKA_DATA = {
 "atv_utv",
 "res_kule",
 "test_lab",
+"veri_merkezi",
 "izle_meka"
 ]
 },
@@ -1482,7 +1483,7 @@ window.MEKA_DATA = {
 "01 kartı tahkimatı 0-12 ay hızlı kazanım sayıyor. 03 belgesi, 24 Eylül 2026, savunmayı on alanda 6. sıraya koyuyor, süreyi 6-24 ay ve yatırımı orta yazıyor, gerekçe vermiyor. Ölçekler farklı, sayısal çelişki değil; inceleme 01 özetini daha iyi kanıtlı sayıyor. Kaynak: inceleme, Savunmanın yeri.",
 "Bunker sayısı: kart Baltık için 600'den fazla yazıyor; inceleme özetin bir yerde 600'den fazla, bir yerde 1.600'den fazla yazdığını saptıyor. Raporun 8.1 bölümü ikisini açıklıyor: Rol 1 paragrafı Estonya ve Letonya için 1.600'den fazla bunker yazar; Tablo 8.1.1 Estonya 600 bunker, Letonya 1.000'den fazla bunker planı verir.",
 "Teknik uyum: Tablo 7.1 bu nişe teknik uyum 5 verir. Tablo 8.1.2 tahkimat üretim sistemleri bütününe MEKA teknik uyumu 4 verir ve kalıp ile kür sistemleri ve tahkimat tasarım bilgisinin eksik olduğunu yazar. İki tablo farklı kapsamda; yine de kalıp nişinde 5 puanı iyimser olabilir.",
-"Harita yeri: inceleme, savunma kollarını Özel firmalar altına koymayı tartışmalı sayıyor; ilk 90 günün kapıları kamu, talep örnekleri devlet alımı. Bu niş için Tablo 7.1 alıcıyı prekast üreticileri ve savunma bakanlıkları diye iki kanal yazıyor; Tablo 8.1.2 savunma bakanlıkları kanalını mobil fabrikaya bağlıyor. Gabion ve çelik engelin doğrudan kamuya satış yolu kartta ve raporda ayrıca anlatılmıyor."
+"Harita yeri: inceleme, savunma gruplarını Özel firmalar altına koymayı tartışmalı sayıyor; ilk 90 günün kapıları kamu, talep örnekleri devlet alımı. Bu niş için Tablo 7.1 alıcıyı prekast üreticileri ve savunma bakanlıkları diye iki kanal yazıyor; Tablo 8.1.2 savunma bakanlıkları kanalını mobil fabrikaya bağlıyor. Gabion ve çelik engelin doğrudan kamuya satış yolu kartta ve raporda ayrıca anlatılmıyor."
 ],
 "degisiklikler": [
 "20 Ekim 2026 derin çalışma, çürütücü düzeltmeleri:",
@@ -5359,7 +5360,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 24 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört grubun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
+"butce_not": "Dilim 25 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört grubun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
 "yol": "ortak",
 "yol_not": "Rapor yalnız alt yüklenicilik ve entegratörle ortaklık öneriyor; Koluman için doğal ortak ya da müşteri diyor. Kendi markalı vinç 1,55 puanla elenmiş. Yatırım tarafı varsayım: rapor Eskişehir tesisini esas alıyor, kişisel yatırım seçeneği çalışmalarda yok."
 },
@@ -5743,7 +5744,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 24 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
+"butce_not": "Dilim 25 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
 "yol": "ikisi",
 "yol_not": "Varsayım. Rapor giriş yolu olarak NSPA tedarikçi kaydı ve Avrupa askerî MRO merkezlerine platform tedariki gösteriyor; bu MEKA'nın kendi ürettiği ürünün doğrudan satışı. Ayrıca TUSAŞ ve ASFAT ihracat programlarına alt yüklenicilik ile ASFAT portalı ve STM tedarikçi kaydı var. Ortaklık, lisans ya da pay alma önerisi çalışmalarda yok."
 },
@@ -6076,7 +6077,7 @@ window.MEKA_DATA = {
 "acik_sorular": [
 "Tesis veri formu gelince puanlar değişecek. Büyük CNC torna, Ø300 mm üstü salınım ve en az 3 ile 4 adet, ile lazer 20 ile 25 mm ve plazma 50 mm kesim kalınlığı var mı? Tablo 7.4'e göre 155 mm final işleme ve zırh kesimi buna bağlı. Boş kapasite verisi süre ve yatırım puanlarını da belirler. Giriş engeli puanı 1 tesis verisiyle değişmez; eşiğin aşılması zor.",
 "MEKA'nın 1988 ile 1998 arası vinç ve cephe asansörü üretimi belgelenebilir mi? Tip, tonaj ve ekip bilgisi. Bu geçmiş markalı vinci kurtarmaz ama OEM alt yükleniciliği için referans olur.",
-"Yönetim bu dört fikri yeniden açmak istiyor mu, yoksa raporun gösterdiği alternatif kollarla yetinilecek mi? Karar çalışmalarda yok.",
+"Yönetim bu dört fikri yeniden açmak istiyor mu, yoksa raporun gösterdiği alternatif gruplarla yetinilecek mi? Karar çalışmalarda yok.",
 "Zırh için raporda alternatif grup yok. Tablo 7.4 aynı kesim kalınlığı eşiğini istihkam ataşmanları 3,55 için de sayıyor; zırh çeliği kesimi bu grubun yan ürünü olabilir mi? Çalışmalarda yok."
 ],
 "adimlar": [
@@ -7280,7 +7281,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "ikisi",
 "butce": 3,
-"butce_not": "Dilim 24 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
+"butce_not": "Dilim 25 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
 "yol": "ortak",
 "yol_not": "Yatırım kapısı 'ikisi' yapıldı: sahada MEKA makinesi gerekmiyor, şirket de kişi de girebilir (ajan değeri sirket). 08 Bölüm 5 önerilen karma: önce bölge EPC ve sözleşmeli imalat ortaklığı, üstüne hizmet olarak ısı pilotu, paralelde yerli firmaya yatırım keşfi. Sıfırdan Ar-Ge yalnız yerlileştirme mühendisliği düzeyinde; lisans ve yerel üretim ancak 2-3 referans sonra. Şirket üzerinden yürütme 07 ve 08'in MEKA odaklı kurgusundan çıkarım, varsayım. Yerli firmaya yatırım kişisel de olabilir, varsayım."
 },
@@ -17358,6 +17359,717 @@ window.MEKA_DATA = {
 "E": "TÜRKAK 17025 ve ana yüklenici kabulü şart; STEST 1.500 müşteri, savunma testi içeride.",
 "M": "Sarsıcı ve iklim odası satın alınır; yalnız kondisyon izleme ocak müşterisini kullanır.",
 "S": "Savunma geliri taştan bağımsız; ama Roketsan 1991, STEST 2017'den beri var, ilk giren değil."
+},
+"puan_yayilim": []
+},
+"veri_merkezi": {
+"id": "veri_merkezi",
+"dal": "meka",
+"kol": "ozel",
+"baslik": "Veri merkezi: kurmak, işletmek ve fabrika enerjisiyle beslemek",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "Yönetici isteği",
+"bolum": "24 Ekim 2026: yönetici veri merkezi kurmayı, fabrika enerjisinin veri merkezini besleyip beslemeyeceğini ve termal bataryayı sordu; derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı",
+"tarih": "25 Ekim 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_veri_merkezi",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "Turkcell, TDC Veri Hizmetleri",
+"rol": "rakip",
+"not": "54 MW aktif kapasite, yüzde 39 pay; Ankara'daki dört modüle üç yeni merkez ekliyor, 2028.",
+"kaynak": "Ekonomi Gazetesi 19 Ekim 2026; Akbank Yatırım 9 Şubat 2026"
+},
+{
+"ad": "Google Cloud",
+"rol": "musteri",
+"not": "Turkcell altyapısında Türkiye bölgesi, 2028 ile 2029; 10 yılda 2 milyar $ yatırım.",
+"kaynak": "Akbank Yatırım 9 Şubat 2026; CNBC-e 12 Kasım 2025"
+},
+{
+"ad": "Digital Realty",
+"rol": "rakip",
+"not": "Rönesans ile ortaklıkla Başkent OSB'de 22 MW üstü kampüs, temel 19 Ekim 2026, açılış 2028.",
+"kaynak": "Anadolu Ajansı ve Ekonomi Gazetesi, 19 Ekim 2026"
+},
+{
+"ad": "Rönesans Holding",
+"rol": "ortak_adayi",
+"not": "Ankara ve İstanbul'da 200 MW hedefli ortaklığın yatırım ve inşaat tarafı; Ekonomi Gazetesi ortağı Rönesans Altyapı diye yazıyor; yerli tedarik için ilk muhatap.",
+"kaynak": "Ekonomi Gazetesi 19 Ekim 2026; Anadolu Ajansı 19 Ekim 2026"
+},
+{
+"ad": "TÜRKSAT",
+"rol": "kurum",
+"not": "Gölbaşı Veri Merkezi 33 MVA, 6.300 m² beyaz alan, temel 22 Temmuz 2026; kamu bulutu ve e-Devlet.",
+"kaynak": "Takvim 19 Temmuz 2026"
+},
+{
+"ad": "Vodafone Türkiye",
+"rol": "rakip",
+"not": "Damac Digital ile İzmir'de 4 MW ile başlayıp 20 MW'a çıkacak altıncı veri merkezi.",
+"kaynak": "Baxtel 9 Eylül 2026"
+},
+{
+"ad": "Damac Digital",
+"rol": "yatirimci",
+"not": "İzmir projesinin bütçesini 100 milyon $'dan 300 milyon $'a çıkardı.",
+"kaynak": "Baxtel 9 Eylül 2026"
+},
+{
+"ad": "Kredi Kayıt Bürosu",
+"rol": "musteri",
+"not": "Ankara Anadolu Veri Merkezi 8 MVA'dan 2026 sonunda 32 MVA'ya, 3.000 kabinete çıkıyor; finans talebi.",
+"kaynak": "Ekonomi Gazetesi 19 Ekim 2026"
+},
+{
+"ad": "Kuzey DC",
+"rol": "rakip",
+"not": "İstanbul Çekmeköy Tier III kolokasyon, 1U ya da 2U ve 1 amper ayda 135 $.",
+"kaynak": "kuzeydc.com"
+},
+{
+"ad": "Ekiphost, Datacasa",
+"rol": "rakip",
+"not": "İstanbul perakende kolokasyon, 2U ve 1 amper ayda 5.415 TL KDV hariç.",
+"kaynak": "WHTop 9 Eylül 2026"
+},
+{
+"ad": "Trendyol ve Castle Investments",
+"rol": "rakip",
+"not": "Ankara veri merkezi için yaklaşık 500 milyon $ ortak proje; sayfa açılamadı, tek kaynak.",
+"kaynak": "Benguturk, açılamadı"
+},
+{
+"ad": "Başkent OSB",
+"rol": "kurum",
+"not": "OSB dağıtım lisansı sahibi; iki büyük kampüse ev sahipliği yapıyor; trafo kapasitesi bulunamadı.",
+"kaynak": "Anadolu Ajansı 19 Ekim 2026"
+},
+{
+"ad": "Sanayi ve Teknoloji Bakanlığı",
+"rol": "kurum",
+"not": "HIT-30 kapsamında 1,4 milyar $'lık veri merkezi çağrısı, en az 30 MW; Çakmak Avukatlık 1,5 milyar $ yazıyor.",
+"kaynak": "Anadolu Ajansı 19 Ekim 2026; Çakmak Avukatlık 8 Ocak 2026"
+},
+{
+"ad": "EPDK",
+"rol": "kurum",
+"not": "19 Ekim 2026'da dengeleme, lisanslama, depolama, yenilenebilir destekleri ve sistem kullanımı konularında sekiz yönetmeliği değiştirdi.",
+"kaynak": "Erdem ve Erdem"
+},
+{
+"ad": "TSE",
+"rol": "kurum",
+"not": "Teşvik için TS EN 50600 veri merkezi tasarım ve tesis belgesi veriyor.",
+"kaynak": "Çakmak Avukatlık 8 Ocak 2026"
+},
+{
+"ad": "Microsoft ve Fortum",
+"rol": "emsal",
+"not": "Espoo veri merkezi atık ısısı bölge ısıtmanın yaklaşık yüzde 40'ı.",
+"kaynak": "Espoo Belediyesi 15 Temmuz 2024"
+},
+{
+"ad": "Stockholm Data Parks",
+"rol": "emsal",
+"not": "Belediye, Stockholm Exergi, Ellevio ve Stokab ortaklığı; veri merkezi ısısını satın alıyor.",
+"kaynak": "stockholmdataparks.com"
+},
+{
+"ad": "Rondo Energy",
+"rol": "emsal",
+"not": "100 MWh ısı bataryası 16 Ekim 2025'te ticari işletmede; çıktı buhar ve ısı.",
+"kaynak": "rondo.com"
+},
+{
+"ad": "Antora Energy",
+"rol": "emsal",
+"not": "Karbon bloklu ısı bataryası; termofotovoltaikle yüzde 40'tan fazla ısıdan elektriğe beyanı.",
+"kaynak": "Contrary Research"
+},
+{
+"ad": "Schneider Electric",
+"rol": "ortak_adayi",
+"not": "440 kW hazır yapım analizinde geleneksel yapıyla yakın maliyet; sayfa açılmadı.",
+"kaynak": "DCD beyaz kitap, arama özeti"
+},
+{
+"ad": "3C1B",
+"rol": "rakip",
+"not": "Ankara'da veri merkezi işletmecisi; tarifeler yayımlanmamış, arama özeti.",
+"kaynak": "3c1b.com, açılmadı"
+}
+],
+"celiskiler": [
+"Türkiye mevcut kapasitesi: ResearchAndMarkets Haziran 2025'te yaklaşık 120 MW, Ekim 2025'te yaklaşık 160 MW diyor; Turkcell'in 50 MW ve yüzde 39 payından yaklaşık 128 MW çıkıyor; önceki sıvı soğutma fırsatında Vodafone kaynaklı 140 MW vardı.",
+"Kolokasyon pazar geliri: bir Q2 2026 veri kitabı 2026 için 897,4 milyon $ derken Arizton 2024 için 161 milyon $ ve 2030 için 476 milyon $ veriyor; ikisi de arama özeti.",
+"Rönesans ve Digital Realty toplamı: Ekonomi Gazetesi 19 Ekim 2026'da 200 MW için 3 milyar $'a kadar yazıyor; aynı gün Bakan 10 milyar $'ı aşan yatırım dedi ve Ankara için tüm fazlarla 4,1 milyar $ verdi.",
+"HIT Veri Merkezi Çağrısı bütçesi: Bakan 19 Ekim 2026'da 1,4 milyar $ dedi; Çakmak Avukatlık 8 Ocak 2026'da 1,5 milyar $ yazıyor.",
+"TÜRKSAT Gölbaşı hizmet tarihi: Takvim 19 Temmuz 2026 haberinde tarih yok; önceki sıvı soğutma fırsatı 2028 başı yazmıştı. Alan: Takvim 35.300 m² toplam alan ve 6.300 m² beyaz alan veriyor; 28.500 m² rakamı bu turda açılan sayfalarda yok.",
+"Turkcell aktif kapasitesi: Akbank 9 Şubat 2026'da 50 MW, Ekonomi Gazetesi 19 Ekim 2026'da 54 MW; çelişki değil, ikinci çeyrekte eklenen modül.",
+"Karşı okuma (yuksek): Yol b ve e birlikte yıl 5 brüt kâr 1,2 ile 2,3 milyon $; yılda 15 ile 25 adet sözleşmeli imalat, adet başı 250 bin $, yüzde 20 ile 25 marj. İtiraz: Adet sayısının dayanağı yok. Ankara'da 2028'e kadar açılacak kapasite birkaç kampüsten ibaret ve her kampüs fazlarla yıllara yayılıyor. Türkiye'nin toplam kapasitesi 2025'te yaklaşık 150 MW. Bu büyüklükte bir pazarda yeni giren bir sac ve tank imalatçısının ilk yıllarda yılda 15 ile 25 büyük modül ya da tank alması zor. Büyük kampüsler modül yerine yerinde i",
+"Karşı okuma (yuksek): Yol e: MEKA'nın arazisi ve güç hakkı 2 MW BT için bir geliştiriciye 20 ile 35 $/kW-ay kirayla verilir, yıl 5 brüt kâr 0,4 ile 0,7 milyon $, kira başlayınca bilet bir yılda döner. İtiraz: 2 MW, bu pazardaki geliştiricilerin ölçeğinin çok altında. Aynı OSB'de Digital Realty ilk fazı 22 MW, HIT çağrısı en az 30 MW, Trendyol ve Castle projesi 48 MW BT. Geliştirici 2 MW için ayrı arsa kiralamaz. Ayrıca güç MEKA'nın satabileceği bir hak değil; OSB'nin dağıtım lisansı altında tahsis edilir ve aynı trafo kapasitesini 22 MW kampüs de istiyor. 20 ile",
+"Karşı okuma (orta): Ankara'da yeni kapasite yalnız Digital Realty 22 MW, Turkcell üç merkez, TÜRKSAT ve KKB; Trendyol ve Castle projesi yalnız 500 milyon $ olarak geçiyor. İtiraz: Arama özetine göre Trendyol ve Castle projesi Ankara'da 48 MW BT ve ilk fazı 2026 üçüncü çeyrekte. Bu doğruysa Ankara'ya 2028'den önce de büyük arz geliyor. Bu, kendi kolokasyon yolunda yıl 5 yüzde 80 doluluk varsayımını daha da zayıflatır ve yol e için de arsa talebini azaltır, çünkü büyükler kendi arsalarını almış.",
+"Karşı okuma (orta): Termal depolamanın katkısı soğuk su deposudur; MEKA kampüslere soğuk su tankı imalatı yapabilir. İtiraz: Fizik doğru, ekonomi zayıf. ABD Enerji Bakanlığı çalışmasında 12.658 ton-saatlik soğuk su tankı 3,55 milyon $ tutuyor, yaklaşık 280 $/ton-saat, teşviksiz geri ödeme 14 ile 21 yıl. Veri merkezleri tankı çoğunlukla kesintide birkaç dakika soğutma için küçük hacimde koyar. Bu yüzden tank talebi kampüs başına birkaç adetle sınırlı; yol b gelirinin tank ayağı küç",
+"Karşı okuma (orta): Başkent OSB ek güç onayı 24 aydan uzun sürebilir; 0,5 ile 2 MW için OSB'ye ek güç başvurusu yeter. İtiraz: Mevzuatta OSB'nin TEİAŞ'tan anlaşma gücü artışı için süre kısa: TEİAŞ 45 günde görüş verir, vermezse kabul sayılır. Asıl kısıt süre değil, OSB'nin trafo merkezindeki boş kapasite. Aynı OSB'de 22 MW üstü kampüs aynı kapasiteyi kullanacak. Yeni trafo merkezi gerekirse bağlantı anlaşması, inşaat ve sonrasında 9 aya kadar sistem kullanım anlaşması süreci var. Ri",
+"Karşı okuma (orta): Talepte banka, finans ve kamu başı çekiyor; sebep verinin yurt içinde tutulması. İtiraz: Kural genel bir talep motoru değil. 7499 sayılı Kanunla 1 Haziran 2024'ten beri kişisel veri standart sözleşme ve bağlayıcı şirket kurallarıyla yurt dışına aktarılabiliyor. Zorunluluk esas olarak bankalar ve kamu için. Bankalar ve KKB gibi kurumlar kendi merkezlerini kuruyor; kamu verisi TÜRKSAT'a gidiyor. Küçük bir bağımsız merkeze düşen yerelleştirme taleb"
+],
+"degisiklikler": [
+"25 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"25 Ekim 2026 bağımsız karşı okuma eklendi: yıl 5 brüt kâr 0,2 ile 0,9 milyon dolara düşürüldü, arazi ortaklığı için 10 MW ve yazılı OSB onayı şartı, ilk 12 ay harcama sınırı 0,1 milyon dolar",
+"TÜRKSAT Gölbaşı için 2027 hizmet tarihi Takvim haberinde yok; rakamdan, firma notundan, calisma_md'den ve takvimden silindi, celiskiler düzeltildi; 35.300 m² alan ve 6.300 m² beyaz alan eklendi",
+"EPDK 19 Ekim 2026 sekiz yönetmelik konusu düzeltildi: sayfa lisanssız üretim ve OSB değil, dengeleme ve uzlaştırma, lisanslama, depolama, yenilenebilir destekleri ve sistem kullanımı diyor (takvim, firmalar, calisma_md)",
+"HIT Veri Merkezi Çağrısı bütçesi: Çakmak Avukatlık 1,5 milyar $ yazıyor, AA 1,4; rakama, firmaya, calisma_md'ye ve celiskilere not eklendi; çağrının yüzde 50 yapay zekâ uyumlu kapasite şartı eklendi",
+"9903 Hedef Yatırımlar da yüzde 60 vergi indirimi alıyor; rakam ve calisma_md netleştirildi",
+"Riskler: kaynaksız 'raf yoğunluğu ortalama 50 kW' yerine Encor Advisors'ın 30 ile 100 kW yapay zekâ rafı bilgisi yazıldı (riskler ve calisma_md risk tablosu)",
+"Digital Realty 22 MW üstü ve 2028 açılış bilgisi AA'da değil Ekonomi Gazetesi'nde; firma notu, takvim 2028 satırı ve calisma_md kaynakları [1] ile düzeltildi",
+"Durum: Turkcell'in 'Ankara'da üç yeni merkezin inşaatına başladı' cümlesi kaynakla uyuşmuyor; Ekonomi Gazetesi'ndeki 'Google Cloud için yeni tesislerin inşaatı başladı' ifadesiyle değiştirildi",
+"Yol b yıl 5 aritmetiği: 15 ile 25 adet × 250 bin $ = 3,75 ile 6,25 milyon $, brüt kâr 0,75 ile 1,56; gelir 4 ile 6 ve brüt kâr 0,8 ile 1,5 yerine 3,8 ile 6,3 ve 0,8 ile 1,6 yazıldı",
+"Yol b ve e birlikte yıl 5: gelir 4,5 ile 6,8 yerine 4,2 ile 7,1, brüt kâr 1,2 ile 2,2 yerine 1,2 ile 2,3; yillik_kar_potansiyeli ve varyant b güncellendi",
+"Yol a 300 $/kW senaryosu geri ödeme: yıl 3 ile 5 brüt kâr 0,94, 1,38 ve 1,83 milyon $ ile yaklaşık 8,2 yıl; 7 ile 8 yıl yerine yaklaşık 8 yıl yazıldı",
+"Yol a yıl 4 doluluk varsayımı yüzde 65 açıkça yazıldı; 1,8 milyon $ birikim hesabı buna dayanıyor",
+"Kur kaynağı: 49,7 TL, Ekonomi Gazetesi sayfasındaki canlı kur göstergesinden; haber metninde kur yok, varsayım notu düzeltildi",
+"Emsal Turkcell ve Google: Google'ın 2 milyar $'ı 10 yıla, Turkcell'in 1 milyar $'ı 2032'ye kadar; kapasite 50 MW'tan 100 MW'a, Akbank kaynağı eklendi",
+"Rönesans ortaklığında Ekonomi Gazetesi'nin Rönesans Altyapı adını kullandığı ve 3 milyar $'ın 'kadar' olduğu notu eklendi",
+"Tier III tasarımı Çakmak raporunda yok; calisma_md'de teşvik şartı yalnız TS EN 50600 olarak ayrıldı",
+"Uzmanpara tarihi 4 Nisan 2026, NextMSC tarihi 12 Ekim 2026 olarak netleştirildi; C&W 17,6 milyon $/MW çip hariç notu eklendi",
+"Doğrulanan rakamlar değişmedi: 54 MW, 32 bin m², yüzde 39 ve 24, 545 milyon avro, yüzde 67, 100 milyon $ FAVÖK, 450 ve 900 milyon $, 4,1 milyar $, 1 GW, 10 milyar $, 500 kW, 3 MW, yüzde 20 ve 30, 15,1 ve 30,1 milyon TL, PUE 1,4 ve 1,65, 135 $, 5.415 TL, 196 $, yüzde 1,4, PTF 2.617,83, 1.876,53 ve 590,90, yüzde 5,8, 746 TL/kW, 8 ve 32 MVA, 33 MVA, 300 milyon $ ve 20 MW, 11,3 ve 17,6 milyon $/MW, yüzde 21, yüzde 40 üstü",
+"Yol a, c, d, e ve f aritmetiği satır satır kontrol edildi, hata yok"
+],
+"ne": "Veri merkezi kurmak ve işletmek: elektrik, soğutma ve bağlantıyı kW başına aylık bedelle satan bir altyapı işi. Fırsat üç soruyu birlikte ele alıyor: iş olarak nasıl, MEKA'nın Ankara Başkent OSB tesisi ve enerji altyapısı bir veri merkezini besleyebilir mi, termal batarya ne katar. Altı giriş yolu karşılaştırıldı: OSB'de kendi kolokasyonu, modüler veri merkezi gövdesi ve soğuk su tankı imalatı, GPU barındırma, uç veri merkezi, geliştiriciye arazi, güç ve bina ortaklığı, atık ısı.",
+"neden": "Türkiye'nin yeni veri merkezi kümesi MEKA'nın bulunduğu OSB'de kuruluyor: Rönesans ile Digital Realty'nin 22 MW'lık ilk kampüsünün temeli 19 Ekim 2026'da Başkent OSB'de atıldı, Turkcell Ankara'da 2028'de üç yeni merkez açıyor, devletin hedefi 2030'da en az 1 GW. 2027 ve 2028 Ankara'da inşaat yılları; bu iki yılda arazi, güç ve imalat talebi en yüksek olacak. Kendi kolokasyonunu işletmek ise küçük ölçekte zayıf getiri veriyor; değer, düşük biletli ortaklık ve sözleşmeli imalat yolunda.",
+"rakamlar": [
+{
+"deger": "54 MW",
+"aciklama": "Turkcell aktif veri merkezi kapasitesi, 2026 ikinci çeyrekte devreye alınan modülle; dört tesiste yaklaşık 32 bin m² sunucu alanı",
+"kaynak": "Ekonomi Gazetesi, 19 Ekim 2026, haber"
+},
+{
+"deger": "yüzde 39 pay, yaklaşık 128 MW pazar",
+"aciklama": "Turkcell kurumsal veri merkezi kapasitesinde yüzde 39 pay; 50 MW bölü 0,39 ile Türkiye pazarı yaklaşık 128 MW, hesap bizim; ikinci oyuncu yaklaşık yüzde 24",
+"kaynak": "Akbank Yatırım raporu, 9 Şubat 2026"
+},
+{
+"deger": "22 MW; 450 milyon $ ve 900 milyon $",
+"aciklama": "Başkent OSB'deki Rönesans ile Digital Realty kampüsü faz 1: 450 milyon $ bina ve altyapı, 900 milyon $ soğutma ve BT; MW başına bina 20,5, toplam 61 milyon $; tüm fazlarla 4,1 milyar $",
+"kaynak": "Anadolu Ajansı, 19 Ekim 2026, Bakan beyanı"
+},
+{
+"deger": "545 milyon avro, 50 MW",
+"aciklama": "Turkcell birikimli veri merkezi yatırımı; MW başına yaklaşık 10,9 milyon avro; kapasitenin yüzde 67'si dış müşteride; 2026 için veri merkezi ve buluttan 100 milyon $ FAVÖK hedefi",
+"kaynak": "Akbank Yatırım raporu, 9 Şubat 2026"
+},
+{
+"deger": "1 GW ve 1,4 milyar $",
+"aciklama": "2030 ulusal kurulu güç hedefi en az 1 GW; HIT Veri Merkezi Çağrısı en az 30 MW BT, en az yüzde 50 yapay zekâ uyumlu kapasite ve en çok 1,4 PUE istiyor; bütçe Bakan'a göre 1,4 milyar $, Çakmak Avukatlık 1,5 milyar $ yazıyor",
+"kaynak": "Anadolu Ajansı, 19 Ekim 2026; Çakmak Avukatlık, 8 Ocak 2026"
+},
+{
+"deger": "500 kW ve 3 MW eşikleri",
+"aciklama": "9903 sayılı Kararda veri merkezi için Hedef Yatırımlar en az 500 kW, yüzde 20 katkı, 15,1 milyon TL faiz desteği; Öncelikli Yatırımlar en az 3 MW, yüzde 30 katkı, 30,1 milyon TL; vergi indirimi ikisinde de yüzde 60; PUE en çok 1,65 ve TSE tasarım belgesi şart",
+"kaynak": "Çakmak Avukatlık, 8 Ocak 2026, rapor"
+},
+{
+"deger": "135 $/ay ve 5.415 TL/ay",
+"aciklama": "İstanbul perakende kolokasyon: Kuzey DC 1U ya da 2U ve 1 amper ayda 135 $; Ekiphost Datacasa 2U ve 1 amper ayda 5.415 TL KDV hariç; kW başına yaklaşık 470 ile 590 $ eder, hesap bizim",
+"kaynak": "Kuzey DC fiyat sayfası; WHTop, 9 Eylül 2026; tek kaynaklı perakende fiyatlar"
+},
+{
+"deger": "196 $/kW-ay, boşluk yüzde 1,4",
+"aciklama": "Kuzey Amerika'da 250 ile 500 kW toptan anlaşmalar 2025 ikinci yarısı, istenen fiyat; boşluk oranı 2025 sonunda rekor düşük; Türkiye toptan fiyatı ve doluluk bulunamadı",
+"kaynak": "Encor Advisors, 1 Haziran 2026, rapor; tek kaynak"
+},
+{
+"deger": "2.617,83 ve 1.876,53 TL/MWh",
+"aciklama": "Gün öncesi PTF ortalaması 2025 ve 2026 Ocak ile Ağustos arası; Mayıs 2026 ortalaması 590,90 TL/MWh",
+"kaynak": "EPİAŞ günlük bülten, 26 Ağustos 2026, resmi"
+},
+{
+"deger": "yüzde 5,8",
+"aciklama": "Orta gerilim sanayi abone grubu perakende fiyat artışı, 4 Nisan 2026'dan geçerli",
+"kaynak": "Uzmanpara, 4 Nisan 2026, haber"
+},
+{
+"deger": "8 MVA'dan 32 MVA'ya",
+"aciklama": "KKB Anadolu Veri Merkezi ikinci fazı 2026 sonu; 1.000 kabinetten 3.000 kabinete; Ankara finans talebinin göstergesi",
+"kaynak": "Ekonomi Gazetesi, 19 Ekim 2026, KKB Genel Müdürü beyanı"
+},
+{
+"deger": "33 MVA",
+"aciklama": "TÜRKSAT Gölbaşı Veri Merkezi, temel 22 Temmuz 2026, 35.300 m² alan, 6.300 m² beyaz alan; fiziksel kapasite ilk fazda 3 kat, ikinci fazda 8 katın üstüne; hizmet tarihi haberde yok",
+"kaynak": "Takvim, 19 Temmuz 2026, Bakan beyanı"
+},
+{
+"deger": "yüzde 40'tan fazla ve yüzde 97 üstü",
+"aciklama": "Antora termofotovoltaik ısıdan elektriğe dönüşüm beyanı; Rondo 100 MWh ünitesi ısı olarak yüzde 97 üstü verim; termal batarya elektriği ancak yüzde 40 civarında geri verir",
+"kaynak": "Contrary Research, Antora; Rondo, 16 Ekim 2025; firma beyanları"
+},
+{
+"deger": "yüzde 40, 400.000 ton",
+"aciklama": "Microsoft ile Fortum Espoo veri merkezi atık ısısı bölge ısıtma ihtiyacının yaklaşık yüzde 40'ı, yılda yaklaşık 400.000 ton CO2 azaltımı",
+"kaynak": "Espoo Belediyesi, 15 Temmuz 2024, resmi"
+}
+],
+"durum": "Konu yeni; yönetici 24 Ekim 2026'da sordu. Aynı hafta Başkent OSB'de Rönesans ile Digital Realty kampüsünün temeli atıldı; Turkcell de Google Cloud için yeni tesislerin inşaatının başladığını açıkladı. MEKA'nın bağlantı gücü, boş arazisi ve Başkent OSB'nin trafo kapasitesi web'de yok; karar için ilk iş bu üç bilgiyi toplamak. Türkiye toptan kolokasyon fiyatı yayımlanmıyor; model perakende fiyatla ABD toptan fiyatı arasında bir tahmine dayanıyor. Kendi kolokasyon ekonomisi zayıf; sözleşmeli imalat ve arazi, güç ortaklığı küçük biletle denenebilir. Karşı okuma sonrası: Kendi kolokasyonunu kurmama hükmü ve termal batarya hükmü ayakta. Değişen kısım önerilen yollar: yol e'nin baz senaryo değeri sıfıra yakın, çünkü 2 MW geliştiricilerin ölçeğinin altında ve güç OSB'nin tahsisinde. Yol b'nin adet ve marj varsayımı da iyimser. Bu yüzden ilk 12 ayda 0,4 ile 0,9 milyon $ harcanmamalı. Önce neredeyse sıfır maliyetli üç iş yapılmalı: tesis enerji envanteri, Başkent OSB'ye kampüs sonrası kalan trafo kapasitesi sorusu ve Rönesans, Digital Realty, Turkcell ve Trendyol projelerinden tank ve çelik yapı için yazılı teklif talebi. Harcama yalnız yazılı teklif talebi gelince",
+"adimlar": [
+{
+"adim": "Tesis enerji envanteri: bağlantı anlaşma gücü, trafo kVA, son 12 ayın saatlik yük eğrisi, boş arazi ve bina m²",
+"kim": "MEKA tesis ve enerji sorumlusu",
+"ne_zaman": "15 Kasım 2026'ya kadar"
+},
+{
+"adim": "Başkent OSB'ye yazılı soru: 2, 5 ve 10 MW ek güç verilebilir mi, ne kadar sürede, veri merkezi OSB faaliyet listesinde mi",
+"kim": "MEKA yönetimi",
+"ne_zaman": "30 Kasım 2026'ya kadar"
+},
+{
+"adim": "Rönesans, Digital Realty ve Turkcell proje ekipleriyle tank, çelik yapı, modül gövdesi tedariki ve arazi ihtiyacı görüşmesi",
+"kim": "Mehmet Bey ve iş geliştirme",
+"ne_zaman": "Aralık 2026"
+},
+{
+"adim": "Bir modüler veri merkezi ya da soğutma OEM'i ile sözleşmeli imalat görüşmesi",
+"kim": "MEKA iş geliştirme",
+"ne_zaman": "Ocak 2027"
+},
+{
+"adim": "Arazi, güç ve bina ortaklığı için iki veri merkezi işletmecisine yazılı teklif",
+"kim": "MEKA iş geliştirme",
+"ne_zaman": "Şubat 2027"
+},
+{
+"adim": "Karar kapısı: yazılı tedarik niyeti ya da ek güç onayı yoksa konuyu kapat; varsa yol b ve e'yi başlat",
+"kim": "Mehmet Bey",
+"ne_zaman": "31 Mart 2027"
+}
+],
+"riskler": [
+"Şebeke: Başkent OSB ek güç onayı 24 aydan uzun sürebilir ya da yeni trafo merkezi gerekebilir; olasılık orta, etki yüksek",
+"Fiyat: aynı OSB'de 22 MW Digital Realty ve Turkcell'in yeni merkezleri 2028'de açılınca küçük kolokasyonun fiyat gücü düşer; olasılık yüksek, etki yüksek",
+"Tedarik: kampüsler global OEM ve kendi yüklenicileriyle çalışabilir, yerli sözleşmeli imalata yer kalmayabilir; olasılık orta, etki orta",
+"Kur ve elektrik: gelir dolarla yazılsa da elektrik TL tarifesine bağlı; 2026'da sanayi tarifesi 4 Nisan'da yüzde 5,8 arttı",
+"Teknoloji: yapay zekâ kümeleri raf başına 30 ile 100 kW istiyor, Encor Advisors; hava soğutmalı küçük tasarım hızla eskir",
+"Bilgi: MEKA'da 24 saat işletme, Tier III ve TSE belgesi deneyimi yok; kendi kolokasyon yolunda uygulama riski yüksek"
+],
+"takvim": [
+{
+"tarih": "15 Mart 2020",
+"olay": "BDDK bilgi sistemleri yönetmeliği: bankaların birincil ve ikincil sistemleri yurt içinde",
+"kaynak": "Resmî Gazete, 15 Mart 2020",
+"iso": "2020-03-15"
+},
+{
+"tarih": "19 Mart 2025",
+"olay": "7545 sayılı Siber Güvenlik Kanunu yayımlandı; barındırma ve yetkilendirilmiş veri merkezi işletmecisi tanımları",
+"kaynak": "Resmî Gazete, 19 Mart 2025",
+"iso": "2025-03-19"
+},
+{
+"tarih": "17 Ekim 2025",
+"olay": "HIT Veri Merkezi Çağrısı açıldı: en az 30 MW BT, en çok 1,4 PUE",
+"kaynak": "Çakmak Avukatlık, 8 Ocak 2026",
+"iso": "2025-10-17"
+},
+{
+"tarih": "12 Kasım 2025",
+"olay": "Turkcell ile Google Cloud ortaklığı KAP'a bildirildi; bölge 2028 ile 2029",
+"kaynak": "CNBC-e, 12 Kasım 2025; Akbank Yatırım, 9 Şubat 2026",
+"iso": "2025-11-12"
+},
+{
+"tarih": "4 Nisan 2026",
+"olay": "Orta gerilim sanayi elektrik tarifesine yüzde 5,8 artış",
+"kaynak": "Uzmanpara, 4 Nisan 2026",
+"iso": "2026-04-04"
+},
+{
+"tarih": "22 Temmuz 2026",
+"olay": "TÜRKSAT Gölbaşı Veri Merkezi temel atma",
+"kaynak": "Takvim, 19 Temmuz 2026",
+"iso": "2026-07-22"
+},
+{
+"tarih": "19 Ekim 2026",
+"olay": "Rönesans ile Digital Realty Başkent OSB kampüsü temel atma, faz 1 22 MW",
+"kaynak": "Anadolu Ajansı, 19 Ekim 2026",
+"iso": "2026-10-19"
+},
+{
+"tarih": "19 Ekim 2026",
+"olay": "EPDK dengeleme ve uzlaştırma, lisanslama, depolama, yenilenebilir destekleri ve sistem kullanımı konularında sekiz yönetmeliği değiştirdi, Resmî Gazete 33405",
+"kaynak": "Erdem ve Erdem bilgi bankası",
+"iso": "2026-10-19"
+},
+{
+"tarih": "31 Aralık 2026",
+"olay": "KKB Anadolu Veri Merkezi 32 MVA'ya çıkıyor",
+"kaynak": "Ekonomi Gazetesi, 19 Ekim 2026",
+"iso": "2026-12-31"
+},
+{
+"tarih": "31 Mart 2027",
+"olay": "Önerilen karar kapısı: yazılı niyet ya da ek güç onayı yoksa konu kapanır",
+"kaynak": "bu çalışma",
+"iso": "2027-03-31"
+},
+{
+"tarih": "2028",
+"olay": "Digital Realty faz 1 ve Turkcell'in Ankara'daki üç yeni merkezi açılıyor",
+"kaynak": "Ekonomi Gazetesi, 19 Ekim 2026; Akbank Yatırım, 9 Şubat 2026",
+"iso": "2028-06-30"
+},
+{
+"tarih": "2030",
+"olay": "Yapay Zekâ Eylem Planı hedefi en az 1 GW kurulu güç",
+"kaynak": "Ekonomi Gazetesi, 19 Ekim 2026",
+"iso": "2030-06-30"
+}
+],
+"web": [
+{
+"url": "https://www.ekonomigazetesi.com/sirket-haberleri/veri-merkezlerinde-hedef-10-milyar-dolar-sirketler-yatirimlarinda-gaza-basti-89996",
+"ne": "Turkcell 54 MW, KKB 32 MVA, Rönesans 200 MW ve 3 milyar $, Temelli kampüsü 2028, 1 GW hedefi; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://aa.com.tr/en/economy/turkiye-breaks-ground-on-massive-22-megawatt-data-center-project/4093804",
+"ne": "Başkent OSB 22 MW temel atma, 450 ve 900 milyon $, 4,1 milyar $, HIT veri merkezi çağrısı 1,4 milyar $; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://www.bloomberght.com/turkcell-genel-muduru-koc-turkiye-ye-ilk-hiper-olcekli-veri-merkezini-getiriyoruz-3764876",
+"ne": "Turkcell ve Google 3 milyar $, 2028",
+"tur": "haber"
+},
+{
+"url": "https://www.cnbce.com/borsa/turkcell-ve-googledan-anlasma-1-milyar-dolarlik-yatirim-turkcell-hisse-turkcell-google-anlasma-turkcell-veri-merkezi-tcell-hisse-tcell-kap-h19585",
+"ne": "Turkcell KAP açıklaması özeti, bölge 2028 ile 2029",
+"tur": "haber"
+},
+{
+"url": "https://yatirim.akbank.com/_layouts/15/AkbankYatirimciPortali/Rapor/Download.aspx?ID=10717",
+"ne": "Turkcell 545 milyon avro, yüzde 39 pay, Ankara'da dört modül ve üç yeni merkez 2028, 100 milyon $ FAVÖK; çürütücü açtı",
+"tur": "rapor"
+},
+{
+"url": "https://baxtel.com/news/damac-and-vodafone-turkiye-triple-investment-in-izmir-data-center-project",
+"ne": "Damac ve Vodafone İzmir 300 milyon $, 4 MW ile 20 MW; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://www.takvim.com.tr/guncel/2026/07/19/turksatin-veri-merkezi-kapasitesi-8-kat-artiyor",
+"ne": "TÜRKSAT Gölbaşı 33 MVA, 35.300 m², 6.300 m² beyaz alan; hizmet tarihi yok; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://www.kuzeydc.com/en/colocation",
+"ne": "Kuzey DC 1U ya da 2U, 1 amper 135 $/ay; çürütücü açtı",
+"tur": "firma"
+},
+{
+"url": "https://btw.media/en/kuzey-dcs-1u-rack-competes-with-cloud-convenience",
+"ne": "Kuzey DC fiyatı ve AWS İstanbul Local Zone",
+"tur": "haber"
+},
+{
+"url": "https://www.whtop.com/amp/plans/ekiphost.com/156618",
+"ne": "Ekiphost 2U 5.415 TL/ay KDV hariç, eklenme 9 Eylül 2026; çürütücü açtı",
+"tur": "diger"
+},
+{
+"url": "https://encoradvisors.com/data-center-pricing/",
+"ne": "196 $/kW-ay toptan, boşluk yüzde 1,4, yapay zekâ rafı 30 ile 100 kW; çürütücü açtı",
+"tur": "rapor"
+},
+{
+"url": "https://www.epias.com.tr/wp-content/uploads/2026/08/epias-bulten-26.08.2026.pdf",
+"ne": "Aylık PTF ortalamaları 2023 ile 2026; çürütücü açtı",
+"tur": "resmi"
+},
+{
+"url": "https://uzmanpara.milliyet.com.tr/uzmanpara/elektrik-zammi-2026-nisanda-ne-kadar-oldu-elektrige-ne-kadar-zam-geldi-iste-yeni-tarife-7565631",
+"ne": "4 Nisan 2026 tarifesi, OG sanayi yüzde 5,8; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://www.birgun.net/haber/epdk-kararlari-resmi-gazetede-elektrikte-toptan-satis-fiyati-ve-2026-bedelleri-belli-oldu-680333",
+"ne": "2026 sanayi güvence bedeli 746 TL/kW; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2025/03/20250319-1.htm",
+"ne": "7545 sayılı Siber Güvenlik Kanunu",
+"tur": "resmi"
+},
+{
+"url": "https://www.resmigazete.gov.tr/eskiler/2020/03/20200315-10.htm",
+"ne": "BDDK bilgi sistemleri yönetmeliği, yurt içi zorunluluğu",
+"tur": "resmi"
+},
+{
+"url": "https://cakmak.av.tr/wp-content/uploads/2026/01/Turkiyede-Veri-Merkezi-Yatirimlari.pdf",
+"ne": "HIT ve 9903 veri merkezi teşvik şartları; çağrı bütçesi 1,5 milyar $ yazıyor; çürütücü açtı",
+"tur": "rapor"
+},
+{
+"url": "https://www.erdem-erdem.av.tr/bilgi-bankasi/elektrik-piyasasinda-lisanssiz-elektrik-uretim-yonetmeliginde-degisiklik-yapilmasina-dair-yonetmelik-resmi-gazetede-yayimlandi",
+"ne": "Lisanssız üretimde satış tüketimle sınırlı",
+"tur": "diger"
+},
+{
+"url": "https://www.erdem-erdem.av.tr/bilgi-bankasi/elektrik-piyasasinda-lisanssiz-elektrik-uretim-yonetmeliginde-degisiklik-yapilmasina-dair-yonetmelik-yururluge-girdi",
+"ne": "OSB içi üretim ilişkilendirmesi, 19 Ekim 2026 sekiz yönetmelik değişikliği, Resmî Gazete 33405; çürütücü açtı",
+"tur": "diger"
+},
+{
+"url": "https://irei.com/news/cushman-wakefield-releases-2026-data-center-development-cost-guide-citing-21-rise-in-per-mw-construction-costs/",
+"ne": "MW başına maliyet yüzde 21 arttı, ABD ve Kanada; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://www.nextmsc.com/industry-deep-dive/data-centre-cost-per-mw-by-region",
+"ne": "JLL 11,3 milyon $/MW, C&W 17,6 milyon $/MW çip hariç; çürütücü açtı",
+"tur": "rapor"
+},
+{
+"url": "https://www.espoo.fi/en/articles/using-waste-heat-new-data-center-cover-40-espoos-district-heating-needs",
+"ne": "Espoo atık ısı yüzde 40",
+"tur": "resmi"
+},
+{
+"url": "https://yle.fi/a/3-12363215",
+"ne": "Microsoft ve Fortum projesi",
+"tur": "haber"
+},
+{
+"url": "https://stockholmdataparks.com/",
+"ne": "Stockholm Data Parks ortaklık yapısı",
+"tur": "resmi"
+},
+{
+"url": "https://research.contrary.com/company/antora-energy",
+"ne": "Antora yüzde 40 üstü ısıdan elektriğe; çürütücü açtı",
+"tur": "rapor"
+},
+{
+"url": "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
+"ne": "Rondo 100 MWh, yüzde 97 ısı verimi",
+"tur": "firma"
+},
+{
+"url": "https://intelligence.uptimeinstitute.com/pdf-download/node/155975",
+"ne": "Termal depolama kapasite aracı, 4 Haziran 2026",
+"tur": "rapor"
+},
+{
+"url": "https://www.haberturk.com/turkcell-genel-muduru-koc-turkiye-ye-ilk-hiper-olcekli-veri-merkezini-getiriyoruz-3848781-teknoloji",
+"ne": "Turkcell Ankara projesi doğrulama",
+"tur": "haber"
+},
+{
+"url": "https://www.ekonomigazetesi.com/sirket-haberleri/turkcell-ve-googledan-dev-stratejik-anlasma-64476",
+"ne": "Turkcell Google, verinin yurt dışına çıkmaması",
+"tur": "haber"
+},
+{
+"url": "https://www.businesswire.com/news/home/20250924933122/en",
+"ne": "Kapasite 120 ile 160 MW ve Ankara payı özetleri; açılamadı, arama özeti",
+"tur": "rapor"
+},
+{
+"url": "https://dunya.com/sirketler/ronesans-ve-digital-realtyden-turkiyeye-veri-merkezi-yatirimi-haberi-842164",
+"ne": "Rönesans ve Digital Realty; açılamadı, HTTP 403",
+"tur": "haber"
+},
+{
+"url": "https://www.benguturk.com/ekonomi/trendyol-ve-baeli-sirket-castle-investments-ankara-veri-merkezi-icin-anlasma-205670h",
+"ne": "Trendyol ve Castle 500 milyon $; açılamadı, HTTP 403, tek kaynak",
+"tur": "haber"
+},
+{
+"url": "https://www.datacenterdynamics.com/en/news/digital-realty-enters-turkey-plans-22mw-facility-in-ankara/",
+"ne": "Digital Realty Türkiye girişi; açılamadı, HTTP 403",
+"tur": "haber"
+},
+{
+"url": "https://www.pwc.com.tr/tr/hizmetlerimiz/vergi/dolayli-vergi/bultenler/yatirim-tesvik-bultenleri/2025/hit-30-programi-kapsaminda-4-yeni-teknoloji-cagrisi-yayimlanmistir.html",
+"ne": "HIT-30 çağrıları; açılamadı, HTTP 403",
+"tur": "rapor"
+},
+{
+"url": "https://borsacoo.com/bildirim/51888",
+"ne": "ASO 154/34,5 kV trafo merkezi ihalesi 227,5 milyon TL; açılmadı, arama özeti",
+"tur": "diger"
+},
+{
+"url": "https://www.galvnews.com/nostromo-energy-launches-icebrick360-for-data-centers---a-new-cold-thermal-energy-storage/article_795ccc58-8a5d-5f41-9f0d-adf01541f96c.html",
+"ne": "Soğuk depolama yüzde 10 ile 30 tepe yük beyanı; açılmadı",
+"tur": "firma"
+},
+{
+"url": "https://www.datacenterdynamics.com/en/whitepapers/quantitative-analysis-prefabricated-vs-traditional-data-center/",
+"ne": "Schneider 440 kW hazır yapım analizi; açılmadı, arama özeti",
+"tur": "rapor"
+}
+],
+"ekonomi": {
+"bilet": "Önerilen yol b ve e: ilk 24 ayda 0,4 ile 0,9 milyon $, tahmin. Karşılaştırma: kendi 1 MW kolokasyon 8 ile 12 milyon $; dayanak Turkcell 10,9 milyon avro/MW, Damac ve Vodafone İzmir 15 milyon $/MW, küresel kabuk ve çekirdek 11,3 milyon $/MW; 0,5 MW GPU barındırma 6 ile 8 milyon $, tahmin. Karşı okuma: ilk 12 ayda en çok 0,1 milyon dolar harcanmalı; büyük harcama yalnız yazılı teklif talebi gelince.",
+"sure_ilk_gelir": "Sözleşmeli imalat 12 ile 18 ay; arazi kirası 18 ile 30 ay; kendi kolokasyon ve uç merkez 18 ile 24 ay; hepsi tahmin.",
+"yil3": "Yol b ve e birlikte: gelir 1,5 ile 3,1 milyon $, brüt kâr 0,3 ile 1,1 milyon $, tahmin. Kendi 1 MW kolokasyon yüzde 50 dolulukta: gelir 1,2, brüt kâr 0,3 milyon $.",
+"yil5": "Yol b ve e birlikte: gelir 4,2 ile 7,1 milyon $, brüt kâr 1,2 ile 2,3 milyon $, tahmin. Kendi 1 MW kolokasyon yüzde 80 dolulukta: gelir 1,9, brüt kâr 0,9 milyon $. Bağımsız karşı okuma düzeltmesi, planlamada bunu kullan: yol b ve e birlikte 0,2 ile 0,9 milyon dolar brüt kâr, tahmin; yol e baz senaryoda 0.",
+"geri_odeme": "Yol b yaklaşık 3 yıl; yol e kira başladıktan sonra 1 yıl; uç merkez 4 ile 5 yıl; kendi kolokasyon baz senaryoda yaklaşık 14 yıl, 300 $/kW fiyatla yaklaşık 8 yıl; GPU barındırma 15 yıldan uzun; atık ısı 8 ile 17 yıl. Karşı okuma: sözleşmeli imalat düzeltilmiş adetle 4 ile 6 yıl; arazi ortaklığı geliştirici çıkmazsa gelir yok.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kâr 0,2 ile 0,9 milyon dolar (karşı okuma düzeltmesi; ilk senaryo 1,2 ile 2,3): sözleşmeli imalat yılda 5 ile 10 adet, yüzde 15 ile 20 marjla 0,2 ile 0,5; arazi ve güç ortaklığı baz senaryoda 0, geliştirici çıkarsa en çok 0,4 milyon dolar, tahmin.",
+"varsayimlar": "1 $ = 49,7 TL, Ekonomi Gazetesi sayfasındaki kur göstergesi, Ekim 2026. Elektrik teslim fiyatı 80 $/MWh, tahmin; dayanak PTF 2025 ortalaması 2.617,83 TL/MWh ve 2026 ilk sekiz ay 1.876,53 TL/MWh, EPİAŞ. Kolokasyon fiyatı elektrik dahil 200 $/kW-ay, tahmin; İstanbul perakende 470 ile 590 $, ABD toptan 196 $. Doluluk yıl 3 yüzde 50, yıl 4 yüzde 65, yıl 5 yüzde 80, tahmin. PUE 1,5 ve sözleşmeli gücün yüzde 60 kullanımı, tahmin. Sabit gider 1 MW için yılda 0,55 milyon $, tahmin. Modül gövdesi 150 ile 300 bin $, tank 200 ile 600 bin $, tahmin. Arazi kirası 20 ile 35 $/kW-ay, tahmin. Gaz 1,69 TL/kWh, BOTAŞ 4 Nisan 2026. Brüt kâr amortisman ve vergi öncesi."
+},
+"emsaller": [
+{
+"tarih": "19 Ekim 2026",
+"taraflar": "Rönesans Holding ve Digital Realty, Başkent OSB faz 1",
+"bedel": "450 milyon $ bina ve altyapı, 900 milyon $ soğutma ve BT",
+"birim": "22 MW; bina 20,5 milyon $/MW, toplam 61 milyon $/MW",
+"kaynak": "Anadolu Ajansı, 19 Ekim 2026"
+},
+{
+"tarih": "19 Ekim 2026",
+"taraflar": "Rönesans ve Digital Realty, Ankara ve İstanbul toplamı",
+"bedel": "3 milyar $'a kadar; Bakan 10 milyar $ üstü dedi",
+"birim": "200 MW; 15 ile 50 milyon $/MW",
+"kaynak": "Ekonomi Gazetesi ve Anadolu Ajansı, 19 Ekim 2026"
+},
+{
+"tarih": "12 Kasım 2025",
+"taraflar": "Turkcell ve Google Cloud",
+"bedel": "Turkcell 2032'ye kadar 1 milyar $, Google 10 yılda 2 milyar $",
+"birim": "Turkcell kapasitesi 2032'ye kadar 50 MW'tan 100 MW'a, MW değeri açıklanmadı",
+"kaynak": "Akbank Yatırım 9 Şubat 2026; CNBC-e KAP özeti"
+},
+{
+"tarih": "9 Eylül 2026",
+"taraflar": "Damac Digital ve Vodafone Türkiye, İzmir",
+"bedel": "300 milyon $",
+"birim": "20 MW; 15 milyon $/MW",
+"kaynak": "Baxtel, 9 Eylül 2026"
+},
+{
+"tarih": "9 Şubat 2026",
+"taraflar": "Turkcell birikimli veri merkezi yatırımı",
+"bedel": "545 milyon avro",
+"birim": "50 MW aktif; 10,9 milyon avro/MW",
+"kaynak": "Akbank Yatırım, 9 Şubat 2026"
+},
+{
+"tarih": "2026",
+"taraflar": "Ecolab ve CoolIT, sıvı soğutma satın alması",
+"bedel": "4,75 milyar $",
+"birim": "yaklaşık 8,6 kat gelir",
+"kaynak": "proje içi sıvı soğutma fırsatı, bu turda yeniden açılmadı"
+}
+],
+"cevaplar": [
+{
+"soru": "Veri merkezi kurmak ve işletmek iş olarak nasıl?",
+"durum": "cevaplandi",
+"cevap": "kW başına aylık bedel satan, MW başına 10 ile 20 milyon $ yatırım isteyen, en büyük gideri elektrik olan bir ölçek işi. Turkcell 545 milyon avroyla 50 MW kurdu ve 2026 için 100 milyon $ FAVÖK hedefliyor. 1 MW'lık bağımsız bir tesis 200 $/kW fiyatla yıl 5'te 0,9 milyon $ brüt kâr bırakır ve yaklaşık 14 yılda döner, tahmin.",
+"kaynak": "Akbank Yatırım 9 Şubat 2026; NextMSC Ekim 2026; IREI 20 Ağustos 2026; kendi model",
+"kime": "gerekmiyor"
+},
+{
+"soru": "MEKA'nın Başkent OSB tesisi ve enerji altyapısı bir veri merkezini besleyebilir mi?",
+"durum": "kismen",
+"cevap": "Mevcut bağlantıyla yalnız 0,1 ile 0,3 MW BT'lik bir pilot ya da uç merkez beslenebilir, o da boş güç varsa. Veri merkezi 24 saat sabit güç çeker; 1 MW BT 1,4 ile 1,65 MW şebeke gücü ister. 0,5 ile 2 MW için OSB'ye ek güç başvurusu, 5 MW üstü için büyük ihtimalle yeni trafo merkezi ve TEİAŞ görüşü gerekir. Çatı GES 1 MW BT tüketiminin yaklaşık yüzde 12'sini karşılar, tahmin.",
+"kaynak": "Çakmak Avukatlık 8 Ocak 2026 PUE eşikleri; Erdem ve Erdem lisanssız üretim; kendi hesap",
+"kime": "Başkent OSB elektrik birimi ve MEKA tesis müdürü"
+},
+{
+"soru": "Termal batarya gibi şeyler bu işe ne katar?",
+"durum": "cevaplandi",
+"cevap": "Termal batarya veri merkezine elektrik sağlamaz; ısı depolar ve ısıdan elektriğe en iyi beyan yüzde 40 civarı. Katkı soğuk su deposudur: soğutma tepesini keser, aynı trafo gücüyle daha fazla BT bağlatır, kesintide soğutmayı sürdürür. Atık ısı ancak bölge ısıtma şebekesi varsa değer kazanır; Başkent OSB'de böyle bir şebeke bulunamadı.",
+"kaynak": "Contrary Research Antora; Rondo 16 Ekim 2025; Uptime Institute 4 Haziran 2026; Espoo 15 Temmuz 2024",
+"kime": "gerekmiyor"
+},
+{
+"soru": "MEKA'nın boş arazisi, binası ve bağlantı anlaşma gücü ne kadar?",
+"durum": "gorusme",
+"cevap": "Web'de bulunamadı. Yol e'nin ve pilotun tamamı buna bağlı.",
+"kaynak": "bulunamadı",
+"kime": "MEKA tesis ve enerji sorumlusu"
+},
+{
+"soru": "Ankara'da toptan kolokasyon kW fiyatı ve doluluk ne?",
+"durum": "gorusme",
+"cevap": "Yayımlanmıyor. İstanbul perakende fiyatları kW başına ayda 470 ile 590 $ ediyor; ABD toptan 196 $. Modelde 200 $ kullanıldı, tahmin.",
+"kaynak": "Kuzey DC; WHTop Ekiphost; Encor Advisors",
+"kime": "KKB, Turkcell ve 3C1B satış ekipleri"
+},
+{
+"soru": "Ankara kampüsleri modül gövdesi, soğuk su tankı ve çelik yapıyı yerli imalatçıdan alır mı?",
+"durum": "gorusme",
+"cevap": "Bulunamadı. Kampüslerin tedarik listesi yayımlanmadı.",
+"kaynak": "bulunamadı",
+"kime": "Rönesans, Digital Realty ve Turkcell proje satın alma ekipleri"
+}
+],
+"kapilar": {
+"yatirim": "sirket",
+"butce": 2,
+"butce_not": "Önerilen yol b ve e için ilk 24 ayda toplam 0,4 ile 0,9 milyon $: sözleşmeli imalat 0,3 ile 0,6, arazi ve güç ortaklığı 0,1 ile 0,3; hepsi tahmin. Karşı okuma: ilk 12 ayda en çok 0,1 milyon $ harcanmalı, büyük harcama yalnız yazılı teklif talebi gelince. Kendi 1 MW kolokasyon seçilirse ilk 24 ay 5 ile 6 milyon $ ile dilim 3, ilk 12 ay 1 ile 2 milyon $; tesisin tamamı 8 ile 12 milyon $.",
+"yol": "ortak",
+"yol_not": "Arazi ve güç için bir veri merkezi geliştiricisi ya da işletmecisi, imalat için bir modüler veri merkezi ya da soğutma OEM'i veya kampüs yüklenicisi. Kendi kolokasyonunu kurmak önerilmiyor; HIT çağrısının 30 MW eşiği MEKA ölçeğinin üstünde."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "kismi",
+"acik_sorular": [
+"Kısmen cevaplandı: MEKA'nın Başkent OSB tesisi ve enerji altyapısı bir veri merkezini besleyebilir mi?",
+"Görüşme gerekir: MEKA'nın boş arazisi, binası ve bağlantı anlaşma gücü ne kadar? (MEKA tesis ve enerji sorumlusu)",
+"Görüşme gerekir: Ankara'da toptan kolokasyon kW fiyatı ve doluluk ne? (KKB, Turkcell ve 3C1B satış ekipleri)",
+"Görüşme gerekir: Ankara kampüsleri modül gövdesi, soğuk su tankı ve çelik yapıyı yerli imalatçıdan alır mı? (Rönesans, Digital Realty ve Turkcell proje satın alma ekipleri)"
+],
+"bant": "ikincil",
+"puan_metni": "Yönetici isteğiyle derin çalışma (25 Ekim 2026), bant önerisi ikincil: Pazar ve takvim güçlü kaynaklarla doğrulandı: Başkent OSB'deki 22 MW kampüs, Turkcell'in Ankara genişlemesi, TÜRKSAT ve KKB yatırımları, resmi teşvik ve veri yerelleştirme kuralları. Ama kendi kolokasyon ekonomisi zayıf, baz senaryoda geri ödeme yaklaşık 14 yıl. Değerli yollar olan arazi ve güç ortaklığı ile sözleşmeli imalat MEKA'nın bilinmeyen bağlantı gücüne, boş arazisine ve kampüslerin yazılı niyetine bağlı. Bu üç bilgi gelip olumluysa öne çıkan banda, olumsuzsa izle bandına taşınmalı.",
+"kapsam_notu": "25 Ekim 2026 derin çalışma: 20 arama, 29 sayfa; 6 açık sorunun 2 tanesi cevaplandı, 3 tanesi görüşme gerektiriyor. Çürütücü 16 sayfa açtı, güven 4/5. MEKA'nın bağlantı anlaşma gücü, trafo kapasitesi ve boş arazisi web'de yok; Başkent OSB'nin trafo merkezi kapasitesi bulunamadı. Türkiye toptan kolokasyon kW fiyatı ve doluluk oranı yayımlanmıyor; yalnız İstanbul perakende fiyatları ve ABD toptan fiyatı var. Türkiye kurulu kapasite rakamları ücretli araştırma özetlerinden, sayfalar açılamadı. 2026 orta gerilim sanayi tarifesinin tam kWh fiyatı resmi tablodan okunamadı; teslim elektrik fiyatı PTF üstüne tahmin. 2019/12 sayılı Genelge, Meta Odense ekonomisi, Trendyol ve Castle projesi, Dünya ve DCD haberleri açılamadı. Modül, tank ve arazi kirası birim fiyatları için kaynak bulunamadı, hepsi tahmin. TÜRKSAT Gölbaşı hizmet tarihi açılan kaynakta yok. Çürütücü 25 Ekim 2026'da 16 sayfa açtı; Rondo, Espoo, Uptime, Bloomberg HT, CNBC-e ve Resmî Gazete sayfaları bu turda yeniden açılmadı. Karşı okuma ajanı 12 sayfa açtı, 11 arama yaptı.",
+"guven": 4,
+"tarih": "25 Ekim 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "MEKA ile ilgili",
+"kol_id": "meka_ozel",
+"kol_ad": "Özel firmalar",
+"kisa": "Veri merkezi: kurmak, fabrika enerjisi, termal batarya",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_veri_merkezi",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 1.0,
+"H": 3.0,
+"R": 3.0,
+"E": 3.0,
+"M": 4.0,
+"S": 3.33,
+"B": 4,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 0,2 ile 0,9 milyon dolar, tahmin; arazi payı baz 0.",
+"H": "Sözleşmeli imalatta ilk gelir 12 ile 18 ay, tahmin; tedarik sözleşmesi yok.",
+"R": "Bilet küçük, 0,4 ile 0,9 milyon dolar; müşteri belirsiz, yerli tedarik niyeti bulunamadı.",
+"E": "Kampüs aynı Başkent OSB'de; ortak ve OEM şart, 31 Mart 2027 karar kapısı.",
+"M": "Çelik yapı, soğuk su tankı ve modül gövdesi mevcut sac ve kaynakla üretilir.",
+"S": "Taştan bağımsız gelir, 2027 ile 2028 inşaat penceresi; MEKA'nın payı sıradan sac imalatı."
 },
 "puan_yayilim": []
 },
@@ -42764,6 +43476,7 @@ window.MEKA_DATA = {
 "atv_utv",
 "res_kule",
 "test_lab",
+"veri_merkezi",
 "izle_meka",
 "beylikova",
 "belediye",
@@ -42966,6 +43679,7 @@ window.MEKA_DATA = {
 "atv_utv",
 "res_kule",
 "test_lab",
+"veri_merkezi",
 "izle_meka"
 ]
 },
@@ -43605,6 +44319,13 @@ window.MEKA_DATA = {
 "konu_id": ""
 },
 {
+"tarih": "25 Ekim 2026",
+"iso": "2026-10-25",
+"olay": "10. tur: veri merkezi kurmak, fabrika enerjisiyle beslemek ve termal batarya fırsatı eklendi ve puanlandı",
+"kaynak": "bu uygulama",
+"konu_id": ""
+},
+{
 "tarih": "27 Ekim 2026",
 "iso": "2026-10-27",
 "olay": "Türkiye ETS ilk izleme planları (tek kaynak)",
@@ -43943,6 +44664,13 @@ window.MEKA_DATA = {
 {
 "tarih": "31 Aralık 2026",
 "iso": "2026-12-31",
+"olay": "KKB Anadolu Veri Merkezi 32 MVA'ya çıkıyor",
+"kaynak": "Ekonomi Gazetesi, 19 Ekim 2026",
+"konu_id": "veri_merkezi"
+},
+{
+"tarih": "31 Aralık 2026",
+"iso": "2026-12-31",
 "olay": "Önerilen karar noktası: ölçüm ve tur şartları gelmezse izlemede kalır",
 "kaynak": "bu çalışma",
 "konu_id": "pyramp"
@@ -44212,6 +44940,13 @@ window.MEKA_DATA = {
 "olay": "Akredite kuruluşların 2026 gelir bildirimi ve TÜRKAK payı ödeme son ayı",
 "kaynak": "https://www.alomaliye.com/2026/01/07/turk-akreditasyon-kurumunca-uygulanacak-akreditasyon-kullanim-ucreti-payina-dair-teblig-turkak-2026-1/",
 "konu_id": "test_lab"
+},
+{
+"tarih": "31 Mart 2027",
+"iso": "2027-03-31",
+"olay": "Önerilen karar kapısı: yazılı niyet ya da ek güç onayı yoksa konu kapanır",
+"kaynak": "bu çalışma",
+"konu_id": "veri_merkezi"
 },
 {
 "tarih": "31 Mart 2027",
@@ -44874,6 +45609,13 @@ window.MEKA_DATA = {
 {
 "tarih": "2028",
 "iso": "2028-06-30",
+"olay": "Digital Realty faz 1 ve Turkcell'in Ankara'daki üç yeni merkezi açılıyor",
+"kaynak": "Ekonomi Gazetesi, 19 Ekim 2026; Akbank Yatırım, 9 Şubat 2026",
+"konu_id": "veri_merkezi"
+},
+{
+"tarih": "2028",
+"iso": "2028-06-30",
 "olay": "Somali üssünden ilk fırlatma hedefi (Yeni Şafak, arama özeti, sayfa açılmadı)",
 "kaynak": "https://www.yenisafak.com/hayat/somalide-turk-uzay-ussu-4667277 (açılamadı)",
 "konu_id": "lancer"
@@ -45003,6 +45745,13 @@ window.MEKA_DATA = {
 "olay": "Kamu işlerinde klinker/çimento oranı üst sınırı 0,75'e iniyor.",
 "kaynak": "haber https://santiye.com.tr/yesil-cimento-nun-yayginlastirilmasina-iliskin-teblig-yayinlandi",
 "konu_id": "cimento"
+},
+{
+"tarih": "2030",
+"iso": "2030-06-30",
+"olay": "Yapay Zekâ Eylem Planı hedefi en az 1 GW kurulu güç",
+"kaynak": "Ekonomi Gazetesi, 19 Ekim 2026",
+"konu_id": "veri_merkezi"
 },
 {
 "tarih": "2030",
@@ -45142,7 +45891,7 @@ window.MEKA_DATA = {
 "tarih": "24 Eylül 2026",
 "sayfa": 1,
 "pdf": "MEKA_Yeni_Alanlar_Siralamasi.pdf",
-"aciklama": "MEKA'nın yetkinliğinden dallanan on alan üç soruyla sıralandı."
+"aciklama": "MEKA'nın yetkinliğinden çıkan on alan üç soruyla sıralandı."
 },
 {
 "no": "GPT",
@@ -45633,6 +46382,14 @@ window.MEKA_DATA = {
 "aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 11 açık sorunun 4 tanesi cevaplandı, 3 tanesi görüşmeye kaldı. 22 şirket, 8 emsal işlem. Kanıt 3/5."
 },
 {
+"no": "Ek",
+"ad": "Veri merkezi: kurmak, işletmek ve fabrika enerjisiyle beslemek (derin çalışma)",
+"tarih": "25 Ekim 2026",
+"sayfa": 12,
+"pdf": "Calisma_veri_merkezi.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 6 açık sorunun 2 tanesi cevaplandı, 3 tanesi görüşmeye kaldı. 21 şirket, 6 emsal işlem. Kanıt 3/5."
+},
+{
 "no": "Harita",
 "ad": "Fırsat haritası posteri",
 "tarih": "15 Ekim 2026",
@@ -45785,21 +46542,21 @@ window.MEKA_DATA = {
 "pdf": "Calisma_balkon_ges.pdf",
 "tur": "derin",
 "kisa": "Derin çalışma, 16 Ekim 2026",
-"sayfa_sayisi": 9
+"sayfa_sayisi": 11
 },
 "c_beylikova": {
 "ad": "Beylikova nadir toprak tesisi ve Eti Maden: ek araştırma, iki tur (16 Ekim 2026, 9 sayfa)",
 "pdf": "Calisma_beylikova.pdf",
 "tur": "ek",
 "kisa": "Ek araştırma, 16 Ekim 2026",
-"sayfa_sayisi": 9
+"sayfa_sayisi": 10
 },
 "c_milvus": {
 "ad": "Milvus Robotics, ODTÜ Teknokent: ek araştırma, iki tur (16 Ekim 2026, 6 sayfa)",
 "pdf": "Calisma_milvus.pdf",
 "tur": "ek",
 "kisa": "Ek araştırma, 16 Ekim 2026",
-"sayfa_sayisi": 6
+"sayfa_sayisi": 9
 },
 "c_novator": {
 "ad": "Novator Enerji, ODTÜ Teknokent: derin çalışma (16 Ekim 2026, 7 sayfa)",
@@ -45855,7 +46612,7 @@ window.MEKA_DATA = {
 "pdf": "Calisma_izle_meka.pdf",
 "tur": "ek",
 "kisa": "Ek araştırma, 16 Ekim 2026",
-"sayfa_sayisi": 2
+"sayfa_sayisi": 3
 },
 "c_belirsiz": {
 "ad": "Alt alanı belirsiz fikirler: barut üretimi, kontrollü patlamayla enerji, güneşli ev ve güneş kiremidi, tarım dronu, eski fabrika almak, sıfırdan Ar-Ge: ek araştırma, iki tur (16 Ekim 2026, 3 sayfa)",
@@ -45883,7 +46640,7 @@ window.MEKA_DATA = {
 "pdf": "Calisma_nukleer.pdf",
 "tur": "ek",
 "kisa": "Ek araştırma, 16 Ekim 2026",
-"sayfa_sayisi": 5
+"sayfa_sayisi": 6
 },
 "c_trafo": {
 "ad": "Trafo onarım ve üretim: ek araştırma (16 Ekim 2026, 6 sayfa)",
@@ -45904,7 +46661,7 @@ window.MEKA_DATA = {
 "pdf": "Calisma_nadir_toprak.pdf",
 "tur": "derin",
 "kisa": "Derin çalışma, 16 Ekim 2026",
-"sayfa_sayisi": 8
+"sayfa_sayisi": 7
 },
 "c_jeotermal": {
 "ad": "Jeotermal ruhsat ihaleleri (Türkiye): derin çalışma (16 Ekim 2026, 6 sayfa)",
@@ -45939,7 +46696,7 @@ window.MEKA_DATA = {
 "pdf": "Calisma_lityum.pdf",
 "tur": "derin",
 "kisa": "Derin çalışma, 16 Ekim 2026",
-"sayfa_sayisi": 8
+"sayfa_sayisi": 7
 },
 "c_izle_bagimsiz": {
 "ad": "Araç powerbank ve mobil şarj; uzun yaşam ilacı: derin çalışma (16 Ekim 2026, 11 sayfa)",
@@ -45967,7 +46724,7 @@ window.MEKA_DATA = {
 "pdf": "Calisma_fiberlast.pdf",
 "tur": "derin",
 "kisa": "Derin çalışma, 16 Ekim 2026",
-"sayfa_sayisi": 10
+"sayfa_sayisi": 9
 },
 "c_teksis": {
 "ad": "TEKSİS İleri Teknolojiler (ODTÜ Teknokent, hidrojen üretim, depolama, yakıt hücresi ve test sistemleri): derin çalışma (16 Ekim 2026, 11 sayfa)",
@@ -45981,14 +46738,14 @@ window.MEKA_DATA = {
 "pdf": "Calisma_teknolus.pdf",
 "tur": "derin",
 "kisa": "Derin çalışma, 16 Ekim 2026",
-"sayfa_sayisi": 9
+"sayfa_sayisi": 10
 },
 "c_trabtech": {
 "ad": "TrabTech (ODTÜ Teknokent, 3D baskı titanyum implant, BTech spin-off): derin çalışma (16 Ekim 2026, 9 sayfa)",
 "pdf": "Calisma_trabtech.pdf",
 "tur": "derin",
 "kisa": "Derin çalışma, 16 Ekim 2026",
-"sayfa_sayisi": 9
+"sayfa_sayisi": 10
 },
 "c_spacelis": {
 "ad": "Spacelis (uzay için esnek güneş hücresi): derin çalışma (16 Ekim 2026, 9 sayfa)",
@@ -46009,14 +46766,14 @@ window.MEKA_DATA = {
 "pdf": "Calisma_dc_ehouse.pdf",
 "tur": "derin",
 "kisa": "Derin çalışma, 16 Ekim 2026",
-"sayfa_sayisi": 10
+"sayfa_sayisi": 9
 },
 "c_turbin_yan": {
 "ad": "Gaz türbini yan ekipmanı: filtre evi, susturucu ve egzoz bacası imalatı: derin çalışma (16 Ekim 2026, 7 sayfa)",
 "pdf": "Calisma_turbin_yan.pdf",
 "tur": "derin",
 "kisa": "Derin çalışma, 16 Ekim 2026",
-"sayfa_sayisi": 7
+"sayfa_sayisi": 6
 },
 "c_hibrit_tohum": {
 "ad": "Antalya hibrit sebze tohumu firmasına ortaklık: derin çalışma (16 Ekim 2026, 10 sayfa)",
@@ -46107,7 +46864,7 @@ window.MEKA_DATA = {
 "pdf": "Calisma_atv_utv.pdf",
 "tur": "derin",
 "kisa": "Derin çalışma, 21 Ekim 2026",
-"sayfa_sayisi": 13
+"sayfa_sayisi": 12
 },
 "c_res_kule": {
 "ad": "Rüzgar türbini çelik kule hattı: derin çalışma (21 Ekim 2026, 10 sayfa)",
@@ -46122,9 +46879,16 @@ window.MEKA_DATA = {
 "tur": "derin",
 "kisa": "Derin çalışma, 24 Ekim 2026",
 "sayfa_sayisi": 6
+},
+"c_veri_merkezi": {
+"ad": "Veri merkezi: kurmak, işletmek ve fabrika enerjisiyle beslemek: derin çalışma (25 Ekim 2026, 12 sayfa)",
+"pdf": "Calisma_veri_merkezi.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 25 Ekim 2026",
+"sayfa_sayisi": 12
 }
 },
-"dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Alan ve grup yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz fırsatın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; fırsatlar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk fırsatlar arası ve fırsat ile bölge arası tutarlılıkta: haritanın ön bandı yedi fırsatta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir fırsatta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B fırsatlarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki fırsatın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
+"dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Alan ve grup yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz fırsatın hepsinin özeti var ve bölge sayıları haritayla tutuyor; fırsatlar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk fırsatlar arası ve fırsat ile bölge arası tutarlılıkta: haritanın ön bandı yedi fırsatta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir fırsatta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B fırsatlarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki fırsatın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
 "elestiri": {
 "sorunlar": [
 {
@@ -46464,7 +47228,7 @@ window.MEKA_DATA = {
 "konu_id": "pfas"
 }
 ],
-"genel": "Otuz dokuz fırsatın hepsinin özeti var ve bölge sayıları ağaçla tutuyor; fırsatlar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk fırsatlar arası ve fırsat ile bölge arası tutarlılıkta: haritanın ön bandı yedi fırsatta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir fırsatta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B fırsatlarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki fırsatın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı."
+"genel": "Otuz dokuz fırsatın hepsinin özeti var ve bölge sayıları haritayla tutuyor; fırsatlar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk fırsatlar arası ve fırsat ile bölge arası tutarlılıkta: haritanın ön bandı yedi fırsatta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir fırsatta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B fırsatlarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki fırsatın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı."
 },
 "arastirma_gerekenler": [],
 "dilim_kurali": "Bütçe dilimi, işe gerçekten girmek için ilk 12-24 ayda gereken para (giriş bileti); ilk temas ve belge maliyeti değil. 1: 100 bin $ altı, 2: 100 bin ile 1 M$, 3: 1 ile 10 M$, 4: 10 M$ üstü. Yatırım kapısı: sahada MEKA makinesi gerekiyorsa şirket; gerekmiyorsa ikisi de olur.",
@@ -46612,7 +47376,7 @@ window.MEKA_DATA = {
 ],
 "esikler": {
 "yildiz": 41,
-"orta": 32
+"orta": 33
 },
 "yontem": [
 "Beş ölçüt (getiri, hız, risk, erişim, stratejik değer) üç bağımsız puanlayıcı tarafından, her fırsat için aynı kanıt paketinden 1 ile 5 arasında puanlandı. Üç puanın ortalaması alındı. MEKA uyumu da puanlanır ama genel puana katılmaz; yalnız işin MEKA ile ilgili alana mı bağımsız alana mı gireceğini belirleyen filtredir.",
@@ -46660,7 +47424,7 @@ window.MEKA_DATA = {
 {
 "ad": "On alanın sıralaması",
 "tarih": "24 ve 25 Eylül 2026",
-"aciklama": "MEKA'nın yetkinliğinden dallanan on alan; ayrıca GPT Astra 6 kartının görüşü.",
+"aciklama": "MEKA'nın yetkinliğinden çıkan on alan; ayrıca GPT Astra 6 kartının görüşü.",
 "belgeler": [
 {
 "dosya": "03",
@@ -46928,9 +47692,9 @@ window.MEKA_DATA = {
 ]
 },
 {
-"ad": "Yönetici soruları ve keşif: ATV, test laboratuvarı, rüzgar kulesi",
-"tarih": "21 ile 24 Ekim 2026",
-"aciklama": "Yönetici ATV sektörünü (benzinli mi, elektrikli mi) ve titreşim test laboratuvarını sordu: ikisi de derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
+"ad": "Yönetici soruları ve keşif: ATV, test laboratuvarı, veri merkezi, rüzgar kulesi",
+"tarih": "21 ile 25 Ekim 2026",
+"aciklama": "Yönetici ATV sektörünü (benzinli mi, elektrikli mi), titreşim test laboratuvarını ve veri merkezi kurmayı sordu: üçü de derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
 "yaprak_belgeleri": [
 {
 "yaprak": "res_kule",
@@ -46943,6 +47707,10 @@ window.MEKA_DATA = {
 {
 "yaprak": "test_lab",
 "dosya": "c_test_lab"
+},
+{
+"yaprak": "veri_merkezi",
+"dosya": "c_veri_merkezi"
 }
 ]
 },
