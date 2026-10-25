@@ -381,7 +381,7 @@
     var t = topic(id); if (!t) return '<div class="card">Yaprak bulunamadı.</div>';
     var u = uyum(t); var k = t.kapilar || {}; var il = ilerleme(id); var b = bantOf(t); var g = genelPuan(t);
     var h = '<a class="back" href="#/bolge/' + t.kol_id + '">‹ ' + e(t.kol_ad) + '</a>';
-    h += '<div><div class="eyebrow">' + e(t.dal_ad) + ' · ' + e(t.kol_ad) + '</div><h1>' + e(t.baslik) + '</h1>' + butonlarHtml(t) +
+    h += '<div><div class="eyebrow">' + e(t.dal_ad) + ' · ' + e(t.kol_ad) + '</div><h1>' + e(t.baslik) + '</h1>' + butonlarHtml(t) + '<div class="fullrow ozet-indir"><a class="docbtn" href="pdf/ozet/Ozet_' + e(t.id) + '.pdf" download="MEKA_Ozet_' + e(t.id) + '.pdf" target="_blank" rel="noopener">⬇ Bu özeti PDF olarak indir</a></div>' +
       '<div class="row" style="margin-top:12px"><span class="pill ' + (b === 'one_cikan' ? 'acc' : '') + '"><span class="sym ' + b + '">' + BANT_SYM[b] + '</span>' + BANT_AD[b] + '</span><span class="pill steel">genel puan ' + (g == null ? '–' : Math.round(g)) + '</span><span class="pill">kaynak tarihi ' + e(t.tarih) + '</span><span class="pill">kanıt ' + e(t.kanit) + '/5</span>' +
       '<span class="pill ' + (t.kapsam === 'tam' ? 'ok' : 'warn') + '">' + e(t.kapsam === 'tam' ? 'çalışma tam' : (t.kapsam === 'kismi' ? 'web araştırması tamam, saha teyidi bekliyor' : 'çalışılmadı')) + '</span>' + (u.ok ? '' : '<span class="pill warn">seçime uymaz</span>') + '</div></div>';
     h += puanKartiHtml(t);
@@ -586,6 +586,12 @@
       var rd = new FileReader(); rd.onload = function () { iceAktar(String(rd.result)); }; rd.readAsText(ev.target.files[0]);
     }
   });
+  // Yazdır kipi (?yazdir=1): özet PDF'i üretmek için açık tema, gezinme ve düzenleme gizli, bağlantılar canlı siteye işaret eder.
+  if (/[?&]yazdir=1\b/.test(location.search)) {
+    document.documentElement.dataset.tema = 'acik';
+    document.documentElement.classList.add('yazdir');
+    var bz = document.createElement('base'); bz.href = 'https://cimenulas-boop.github.io/meka-agac/'; document.head.appendChild(bz);
+  }
   window.addEventListener('hashchange', render);
   render();
   // Sitenin kökünde durum.json varsa (yöneticinin dışa aktardığı işaretler ve notlar) herkes için yükle

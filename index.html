@@ -175,6 +175,22 @@ details > summary { padding: 4px 0; }
 a.docbtn { display: inline-flex; align-items: center; text-decoration: none; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--steel); color: var(--steel); background: var(--card); font-size: 15px; font-weight: 600; }
 a.docbtn.main { background: var(--acc); border-color: var(--acc); color: #fff; }
 .docrow { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; padding: 6px 0; border-top: 1px solid var(--rule); flex: 1 1 100%; }
+
+/* Özet PDF'i ve tarayıcıdan yazdırma: tek sütun, açık zemin, gezinme ve düzenleme gizli. */
+html.yazdir #bar, html.yazdir .back, html.yazdir .edit, html.yazdir .ozet-indir, html.yazdir #app > .row.tiny:last-child, html.yazdir .sw-tema-btn { display: none !important; }
+html.yazdir body { background: #fff !important; }
+@media print {
+  #bar, .back, .edit, .ozet-indir, .sw-tema-btn, #app > .row.tiny:last-child { display: none !important; }
+  html, body { background: #fff !important; color: #16181B !important; }
+  .card { break-inside: auto; box-shadow: none !important; padding: 10px 12px !important; margin: 0 !important; }
+  .eyebrow, h1, h2, h3 { break-after: avoid; }
+  :root { --fs: 12.5px !important; }
+  h1 { font-size: 24px !important; } .bigscore { font-size: 40px !important; }
+  .wrap { gap: 8px !important; padding-block: 0 !important; }
+  details { display: block; } details > * { display: block !important; }
+  .wrap { max-width: none; padding: 0; }
+  @page { size: A4; margin: 12mm 11mm; }
+}
 </style>
 <link rel="stylesheet" href="synthwave.css?v=r7">
 <link rel="stylesheet" href="synth-uyum.css?v=r8">
@@ -193,7 +209,7 @@ a.docbtn.main { background: var(--acc); border-color: var(--acc); color: #fff; }
   <button id="temaBtn" class="sw-tema-btn sw-plain" type="button" aria-label="Tema değiştir"></button>
 </div></div>
 <main class="wrap" id="app"></main>
-<script src="data.js?v=r18"></script>
-<script src="app.js?v=r18"></script>
+<script src="data.js?v=r19"></script>
+<script src="app.js?v=r19"></script>
 </body>
 </html>
