@@ -1,10 +1,10 @@
 window.MEKA_DATA = {
-"baslik": "İki alan, altı grup, 57 fırsat",
+"baslik": "İki alan, altı grup, 60 fırsat",
 "alt_baslik": "Her fırsatta bir sayfalık özet, altında tam çalışma. Üst alan kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 fırsat 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
-"derleme_tarihi": "25 Ekim 2026",
-"bugun_iso": "2026-10-25",
-"surum": "Sürüm 25 Ekim 2026, 10. tur · Veri merkezi fırsatı eklendi; 9. tur: test laboratuvarı; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
+"derleme_tarihi": "26 Ekim 2026",
+"bugun_iso": "2026-10-26",
+"surum": "Sürüm 26 Ekim 2026, 11. tur · Yapay zekâlı simülasyon ve CAD, yapay zekâlı müzik ve geleceğin şehirleri fırsatları eklendi; 10. tur: veri merkezi; 9. tur: test laboratuvarı; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
 "agac": [
 {
 "id": "meka",
@@ -43,6 +43,7 @@ window.MEKA_DATA = {
 "res_kule",
 "test_lab",
 "veri_merkezi",
+"gelecek_sehir",
 "izle_meka"
 ]
 },
@@ -107,6 +108,8 @@ window.MEKA_DATA = {
 "lisansli_ges",
 "elektroland",
 "hibrit_tohum",
+"yz_cae_cad",
+"yz_muzik",
 "izle_bagimsiz",
 "belirsiz"
 ]
@@ -5360,7 +5363,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 25 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört grubun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
+"butce_not": "Dilim 26 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört grubun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
 "yol": "ortak",
 "yol_not": "Rapor yalnız alt yüklenicilik ve entegratörle ortaklık öneriyor; Koluman için doğal ortak ya da müşteri diyor. Kendi markalı vinç 1,55 puanla elenmiş. Yatırım tarafı varsayım: rapor Eskişehir tesisini esas alıyor, kişisel yatırım seçeneği çalışmalarda yok."
 },
@@ -5744,7 +5747,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 25 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
+"butce_not": "Dilim 26 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
 "yol": "ikisi",
 "yol_not": "Varsayım. Rapor giriş yolu olarak NSPA tedarikçi kaydı ve Avrupa askerî MRO merkezlerine platform tedariki gösteriyor; bu MEKA'nın kendi ürettiği ürünün doğrudan satışı. Ayrıca TUSAŞ ve ASFAT ihracat programlarına alt yüklenicilik ile ASFAT portalı ve STM tedarikçi kaydı var. Ortaklık, lisans ya da pay alma önerisi çalışmalarda yok."
 },
@@ -7281,7 +7284,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "ikisi",
 "butce": 3,
-"butce_not": "Dilim 25 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
+"butce_not": "Dilim 26 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
 "yol": "ortak",
 "yol_not": "Yatırım kapısı 'ikisi' yapıldı: sahada MEKA makinesi gerekmiyor, şirket de kişi de girebilir (ajan değeri sirket). 08 Bölüm 5 önerilen karma: önce bölge EPC ve sözleşmeli imalat ortaklığı, üstüne hizmet olarak ısı pilotu, paralelde yerli firmaya yatırım keşfi. Sıfırdan Ar-Ge yalnız yerlileştirme mühendisliği düzeyinde; lisans ve yerel üretim ancak 2-3 referans sonra. Şirket üzerinden yürütme 07 ve 08'in MEKA odaklı kurgusundan çıkarım, varsayım. Yerli firmaya yatırım kişisel de olabilir, varsayım."
 },
@@ -18070,6 +18073,1467 @@ window.MEKA_DATA = {
 "E": "Kampüs aynı Başkent OSB'de; ortak ve OEM şart, 31 Mart 2027 karar kapısı.",
 "M": "Çelik yapı, soğuk su tankı ve modül gövdesi mevcut sac ve kaynakla üretilir.",
 "S": "Taştan bağımsız gelir, 2027 ile 2028 inşaat penceresi; MEKA'nın payı sıradan sac imalatı."
+},
+"puan_yayilim": []
+},
+"yz_cae_cad": {
+"id": "yz_cae_cad",
+"dal": "bagimsiz",
+"kol": "ozel",
+"baslik": "Yapay zekâlı simülasyon ve CAD yazılımı: ANSYS ve SolidWorks benzeri program yapmak",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "Yönetici isteği",
+"bolum": "25 Ekim 2026: yönetici yapay zekâ ile ANSYS ve CAD gibi bir program yapmayı sordu; derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı",
+"tarih": "25 Ekim 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_yz_cae_cad",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "Synopsys ve ANSYS",
+"rol": "rakip",
+"not": "17 Temmuz 2025'te birleşti; ANSYS 2024 geliri 2,54 milyar dolar; 31 milyar dolarlık pazar hedefliyor.",
+"kaynak": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys"
+},
+{
+"ad": "Siemens Digital Industries Software",
+"rol": "rakip",
+"not": "Altair'i 26 Mart 2025'te aldı; PhysicsX'e yatırımcı; Parasolid çekirdeğinin sahibi.",
+"kaynak": "https://news.siemens.com/en-us/siemens-altair-engineering-closing/ ; https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering"
+},
+{
+"ad": "Altair Engineering",
+"rol": "emsal",
+"not": "Yaklaşık 10 milyar dolar işletme değeriyle Siemens'e satıldı; 2024 geliri 0,66 milyar dolar.",
+"kaynak": "https://companiesmarketcap.com/altair-engineering/revenue/"
+},
+{
+"ad": "Dassault Systèmes",
+"rol": "rakip",
+"not": "SolidWorks 2026 yıllık abonelik avro bölgesinde 3.480 ile 5.496 avro; CAD pazarının üç büyüğünden.",
+"kaynak": "https://ohmycad.com/en/?p=117142"
+},
+{
+"ad": "Autodesk",
+"rol": "rakip",
+"not": "Fusion sahibi; Dassault ve Siemens ile birlikte CAD pazarının yüzde 65'ten fazlasını tutuyor.",
+"kaynak": "https://www.jonpeddie.com/news/computer-aided-design-cad-market-continues-its-dramatic-growth-7-cagr/"
+},
+{
+"ad": "PTC",
+"rol": "rakip",
+"not": "Onshape sahibi; kullanıcı başına yılda 1.500 ile 2.500 dolar.",
+"kaynak": "https://www.capterra.com/p/164681/Onshape/pricing/"
+},
+{
+"ad": "COMSOL",
+"rol": "rakip",
+"not": "Temel kalıcı lisans yaklaşık 4.500 dolar; CAE pazarının anahtar oyuncuları listesinde.",
+"kaynak": "https://service.purdue.edu/TDClient/32/Purdue/KB/PrintArticle?ID=1824"
+},
+{
+"ad": "PhysicsX",
+"rol": "rakip",
+"not": "8 Haziran 2026'da 2,4 milyar dolar değerlemeyle 300 milyon dolar aldı; 300'den fazla çalışan; Bay Area ve Singapur'da varlığını genişletiyor.",
+"kaynak": "https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering"
+},
+{
+"ad": "Neural Concept",
+"rol": "ortak_adayi",
+"not": "18 Aralık 2025'te 100 milyon dolar aldı; 50'den fazla küresel şirket kullanıyor; Leonardo Aerospace ve Safran gibi havacılık ve savunma müşterileri var; Türkiye iş ortağı adayı.",
+"kaynak": "https://am.gs.com/en-us/individual/news/press-release/2025/neural-concept-closes--100m-funding-round-led-by-growth-equity-a"
+},
+{
+"ad": "Luminary",
+"rol": "ortak_adayi",
+"not": "15 Eylül 2025'te 72 milyon dolar B turu; Northrop Grumman ve Joby müşterisi; önceden eğitilmiş SHIFT modelleri sunuyor.",
+"kaynak": "https://www.luminarycloud.com/resources/luminary-cloud-secures-dollar72m-series-b-to-lead-the-physics-ai-era"
+},
+{
+"ad": "Backflip",
+"rol": "rakip",
+"not": "Aralık 2024'te 30 milyon dolar A turu; 10 milyon 3B parça verisiyle eğitilmiş metinden ve görüntüden 3B model.",
+"kaynak": "https://siliconangle.com/2024/12/19/ai-powered-3d-modelling-startup-backflip-closes-30m-round/"
+},
+{
+"ad": "Zoo, eski adı KittyCAD",
+"rol": "rakip",
+"not": "Metinden CAD API'sini dakika başı 0,50 dolar ücretle saniye bazında faturalıyor.",
+"kaynak": "https://zoo.dev/blog"
+},
+{
+"ad": "Leo AI",
+"rol": "rakip",
+"not": "Mühendislik yardımcısı olarak konumlanıyor; yatırım turu bilgisi bu turda bulunamadı.",
+"kaynak": "https://www.getleo.ai/blog"
+},
+{
+"ad": "Shapr3D",
+"rol": "emsal",
+"not": "Parasolid ve D-Cubed lisanslayarak 12 ayda CAD ürünü çıkardı; 6 milyon dolar A turu.",
+"kaynak": "https://blogs.sw.siemens.com/plm-components/software-startup-reduces-risk-and-accelerates-time-to-market-with-plm-components/"
+},
+{
+"ad": "Open Cascade",
+"rol": "tedarikci",
+"not": "OCCT geometri çekirdeği LGPL 2.1 artı istisna ile dağıtılıyor; ticari destek satıyor.",
+"kaynak": "https://dev.opencascade.org/resources/licensing"
+},
+{
+"ad": "OpenFOAM, OpenCFD",
+"rol": "tedarikci",
+"not": "Akışkanlar çözücüsü GPL v3 ile dağıtılıyor.",
+"kaynak": "https://www.openfoam.com/documentation/licencing"
+},
+{
+"ad": "SimScale ve Rescale",
+"rol": "rakip",
+"not": "Bulut tabanlı simülasyon; CAE pazarının anahtar oyuncuları listesinde.",
+"kaynak": "https://www.marketsandmarkets.com/PressReleases/computer-aided-engineering.asp"
+},
+{
+"ad": "Eda Tasarım Analiz Mühendislik, CAEeda",
+"rol": "ortak_adayi",
+"not": "ODTÜ Teknokent; ilk yerli mühendislik tasarım ve analiz paketi olarak SSM kataloğunda; 5 TEYDEB projesi. Sayfa açılamadı, tek kaynak.",
+"kaynak": "https://www.kariyer.net/firma-profil/eda-tasarim-analiz-muhendislik-ve-bilgisayar-hizme-45058-126324"
+},
+{
+"ad": "Eksen Mühendislik",
+"rol": "ortak_adayi",
+"not": "Türkiye'de yabancı CAE yazılımı dağıtıcısı, SoftInWay temsilcisi; dağıtım ortağı adayı. Arama özetinden, tek kaynak.",
+"kaynak": "https://www.softinway.com/?p=4854"
+},
+{
+"ad": "TÜBİTAK TEYDEB",
+"rol": "kurum",
+"not": "1507 programı yüzde 75 hibe, proje bütçesi en çok 3,5 milyon TL, süre en çok 18 ay; yalnız KOBİ ölçeğindeki sermaye şirketleri, firmanın ilk 5 projesi; 2026-2 çağrısı 11 Kasım 2026'da kapanıyor.",
+"kaynak": "https://www.tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1507"
+},
+{
+"ad": "NVIDIA NVentures",
+"rol": "yatirimci",
+"not": "PhysicsX ve Luminary'ye yatırım yaptı.",
+"kaynak": "https://startuprise.co.uk/londons-physicsx-nears-unicorn-with-nvidia-vc-e133m-series-b/ ; https://www.luminarycloud.com/resources/luminary-cloud-secures-dollar72m-series-b-to-lead-the-physics-ai-era"
+},
+{
+"ad": "Temasek",
+"rol": "yatirimci",
+"not": "PhysicsX C turunun lideri.",
+"kaynak": "https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering"
+}
+],
+"celiskiler": [
+"Onshape Professional fiyatı kaynaklarda farklı: Capterra'nın bir sayfasında 2.500 dolar, başka bir sayfasında 2.100 dolar.",
+"SolidWorks Professional fiyatı ABD listesinde yılda 3.456 dolar, avro bölgesi listesinde 4.152 avro; Dassault her bölge için ayrı fiyat koyuyor, kur çevirisi değil.",
+"CAE pazarı 2025 için Cambashi 11,6 milyar dolar, MarketsandMarkets 12,28 milyar dolar diyor; tanım farkı.",
+"PhysicsX için 2,4 milyar dolar değerleme bir arama özetinde doğrulanmamış diye işaretlendi; şirketin 8 Haziran 2026 duyurusu bunu doğruluyor.",
+"Neural Concept duyurusu 18 Aralık 2025 tarihli, Goldman Sachs sayfası 22 Aralık 2025 yayın tarihi taşıyor.",
+"Synopsys ANSYS birleşme sözleşmesi SEC kaydında 15 Ocak 2024 tarihli, duyuru 16 Ocak 2024.",
+"Karşı okuma (yuksek): Yıl 5'te ürün geliri 1,2 milyon dolar: 40 kurumsal müşteri çarpı 30 bin dolar. Neural Concept'in 50'den fazla kullanıcısı olduğu için 40 müşteri iyimser ama ulaşılabilir. İtiraz: Çalışma kendisiyle çelişiyor. Alanı, büyüklerin ilgilenmeyeceği kadar dar seçiyor: kırıcı ve elek şasisi. Ama aynı dar alanda 40 kurumsal müşteri varsayıyor. Bu kadar dar bir alanda dünyada 40 ödeme yapan müşteri bulmak zor. Neural Concept 100 milyon doları aşan yatırım ve yıllar sonra 50'den fazla kullanıcıya ulaştı; ARR rakamını da açıklamıyor. Monolith to",
+"Karşı okuma (yuksek): Büyükler yetişmeden önce 2 ile 3 yıllık pencere var. Geçmiş veriyle dar yedek model ve savunma için yerinde kurulum, girişimin farkı olur. İtiraz: Bu farkı büyükler zaten satıyor. Ansys SimAI 2026 R1 ile SimAI Pro adında, iş istasyonu GPU'suyla yerel çalışan bir masaüstü sürüm çıkardı. Müşterinin kendi sunucusunda kurulum seçeneği de var. Ürün, simülasyon uzmanlığı gerektirmeden geçmiş sonuçlardan model kurmayı vaat ediyor. Siemens 27 Mayıs 2026'da Simcenter PhysicsAI'yi STAR-CCM+ eklentisi olarak çıka",
+"Karşı okuma (orta): Yapay zekâ destekli simülasyon hizmeti 3 ile 6 ayda gelir getirir ve yıl 5'te 1,4 milyon dolar gelire yüzde 38 brüt marjla ulaşır. Türkiye'de bu işi yapan yerli şirket bulunamadı. İtiraz: Türkiye'de simülasyon hizmeti pazarı boş değil. FİGES 1990'dan beri ANSYS temsilcisi ve hem yazılım satıyor hem proje yürütüyor. Anova ile NUMESYS ortak girişimini kurdu. Ankara'da serbest çalışan ANSYS analiz uzmanı çok, talep az. Bu durum fiyatı ve marjı baskılar. Yurt içinde 1,4 milyon dolar yıllık hizmet geliri yaklaşık 20 mühendis demek ve büyük kısmı i",
+"Karşı okuma (orta): Ürün müşteri başı yılda 30 bin dolara satılır; Türk müşteriler ilk müşteri havuzudur. İtiraz: Türkiye'de yazılıma ödeme isteği düşük. Bilinen son BSA rakamına göre lisanssız yazılım oranı yüzde 62, dünya ortalaması yüzde 42. Kurumların yüzde 40'ı korsan yazılımın iyi olduğunu söylemiş. Rakam eski ve mühendislik yazılımına özel değil, ama yerli kurumsal müşteriden yıllık 30 bin dolar almak iddialı. Gelir ağırlıkla ihracata dayanmak zorunda; bu da satı",
+"Karşı okuma (orta): Çıkış yolu: ürün tutarsa 3 ile 4 kat ARR ile satış; yıl 5'te ürün değeri 3,7 ile 4,8 milyon dolar. İtiraz: Bu alanda küçük girişimlerin akıbeti karışık. CASTOR, eklemeli imalat tasarım yazılımı, 5,62 milyon dolar topladıktan sonra Temmuz 2025'te iflas etti. Hyperganic'in kurucuları Mart 2023'te ayrıldı; ürünün benimsenmesi yavaş kaldı. Monolith büyük bir buluta açıklanmayan bedelle satıldı. Medyan SaaS çarpanı, müşterisi az ve büyümesi yavaş bir dar alan ürününe",
+"Karşı okuma (orta): Geri ödeme orta senaryoda yaklaşık 3,5 yıl. İtiraz: Bu süre ürün gelirinin yıl 4'te 0,6, yıl 5'te 1,2 milyon dolara çıkmasına bağlı. Ürün geliri 5 ile 15 müşteriye indirilirse kümülatif nakit yıl 4 sonunda hâlâ eksidedir. Çalışmanın kendi kötü senaryosu olan yalnız hizmet şirketi, 5 ile 6 yıllık geri ödeme, orta senaryo olarak alınmalı. Satış ve pazarlama gideri ayrıca kalem olarak modelde yok."
+],
+"degisiklikler": [
+"26 Ekim 2026: üç puanlayıcı MEKA uyumunu 2 verdi; filtre kuralıyla bağımsız alana alındı",
+"25 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"25 Ekim 2026 bağımsız karşı okuma eklendi: yıl 5 brüt kâr 0,4 ile 1,0 milyon dolara, geri ödeme 5 ile 6 yıla çekildi; ürün aşaması 18 ayda 3 dış pilot şartına bağlandı",
+"Karşı okuma sonrası bant önerisi ikincil yerine izle",
+"CAE büyüme oranı yüzde 9 ile 10 yerine yaklaşık yüzde 10 yazıldı: Cambashi sayfasında toplam pazar için büyüme oranı yok, tek oran MarketsandMarkets'in yüzde 10,2'si. Neden, cevaplar ve özet düzeltildi.",
+"Geri ödeme hesabı düzeltildi: yıl 2 kümülatif eksi 0,243, yıl 3 net 0,088 ile kümülatif eksi 0,155, yıl 4 net 0,286 ile kümülatif artı 0,131; geri ödeme 3,9 değil yaklaşık 3,5 yıl. Yıl 3 brüt kâr 0,53 yerine 0,54, yıl 5 kümülatif 0,79 yerine 0,80. Ekonomi, bant gerekçesi, öneri, özet ve önerilen varyant güncellendi.",
+"PhysicsX için Ekim 2026'da Singapur merkezi açtı ifadesi kaynak sayfada yok; sayfa yalnız Bay Area ve Singapur'da varlığını genişlettiğini söylüyor. Firmalar ve giren kazanır testi düzeltildi.",
+"Neural Concept: sayfa Leonardo Aerospace ve Safran'ı havacılık şirketleri olarak sayıyor ve 50'den fazla küresel şirketin platformu kullandığını yazıyor; savunma müşterileri ifadesi havacılık ve savunma müşterileri, kurumsal müşteri ifadesi küresel şirket olarak düzeltildi.",
+"TÜBİTAK 1507 sayfası, yalnız KOBİ ölçeğindeki sermaye şirketleri ve firmanın ilk 5 projesi şartını taşıyor; bu şart adım 2'ye, kurum notuna, varsayımlara, risklere ve kapı bölümüne eklendi. Henüz kurulmamış yeni şirket 9 Kasım 2026 ön kaydına giremez; 2027 ilk çağrısı genelde Ocak ve Şubat.",
+"e yolunun gelir ve brüt kâr tutarsızlığı açıklandı: satış başına yüzde 20 ile 35 marj, gelirin bayi payı olduğu anlamında yazıldı; aksi halde 0,3 ile 1,0 gelire 0,25 ile 0,8 brüt kâr uyuşmuyordu.",
+"Ölçek farkı 1.000 kattan fazla yerine yaklaşık 1.000 kat: 2,54 milyar bölü 2,6 milyon yaklaşık 977.",
+"SaaS çarpanı emsal tarihi 2026 ikinci çeyrek yerine 2026 ilk ve ikinci çeyrek: Aventis rakamı ilk çeyreğe ait.",
+"Synopsys bedeli 34,9 milyar dolar SEC sayfası açılamadığı için doğrulanamadı diye işaretlendi.",
+"Siemens'in PhysicsX yatırımcısı olduğu Siemens sayfasında yok, PhysicsX C turu sayfasında var; kaynak eklendi. NVentures için Luminary sayfası kaynak olarak eklendi.",
+"Kaynaksız rakamlar tahmin diye işaretlendi: genel platform bileti 6 ile 10 milyon dolar, yüzlerce ile binlerce çözüm ihtiyacı, teknokent şirketlerinin yabancı çözücü kullandığı; güvenin 20 ile 40 yılda biriktiği ifadesi kaynaksız olduğu için onlarca yıl diye yumuşatıldı.",
+"Luminary cümlesi sayfaya göre düzeltildi: yetersiz veri, yapay zekânın fiziksel dünyada etkili olamamasının nedeni olarak yazılıyor. PhysicsX iki tur toplamı aştı yerine topladı, 300 artı 155 eşittir 455.",
+"Doğrulanan rakamlar değiştirilmedi: Cambashi 11,6, 10,1 ve 1,6 milyar; MarketsandMarkets 12,28, 19,96 ve yüzde 10,2; JPR 16 milyar ve yüzde 65; Synopsys 31 milyar pazar, 16 Ocak 2024 ve 2026 ilk yarısı; Siemens 10 milyar ve 26 Mart 2025; ANSYS 2,54 milyar ve gelir dağılımı; Altair 0,66 milyar; PhysicsX 300 milyon, 2,4 milyar, 300 kişi, Temasek; Neural Concept 100 milyon, 18 Aralık 2025, 4 kat, 2026 başı üretken CAD; Luminary 72 milyon, N47, Northrop ve Joby; SolidWorks 3.480, 4.152, 5.496 avro ve ABD 3.456 dolar; ANSYS 22 bin ve 320 bin dolar; COMSOL 4.500 dolar ve yüzde 50; 1507 yüzde 75, 3,5 milyon TL, 18 ay, 20 Temmuz, 9 ve 11 Kasım 2026; SEG 4,0 ve Aventis 3,1 kat.",
+"Bilet aritmetiği doğrulandı: yıl 1 0,20 artı 0,05 artı 0,03 artı 0,09 eşittir 0,37; yıl 2 0,28 artı 0,02 artı 0,01 artı 0,12 artı 0,03 artı 0,12 eşittir 0,58; kişi başı 39.130 dolar; hibe 2,625 milyon TL bölü 46 eşittir 57 bin dolar; ARR değeri 3,72 ile 4,8 milyon dolar."
+],
+"ne": "Yapay zekâ ile ANSYS gibi bir mühendislik simülasyon programı ya da SolidWorks gibi bir CAD programı yapmak. Altı giriş yolu incelendi: genel platform, dar alanda yedek model, mevcut programlara eklenti, yapay zekâ destekli simülasyon hizmeti, yabancı bir yapay zekâ CAE girişimiyle ortaklık ve MEKA için iç araç.",
+"neden": "Dünya CAE pazarı 2025'te 11,6 ile 12,3 milyar dolar ve yılda yaklaşık yüzde 10 büyüyor. Stratejik alıcılar bu işlere gelirin 13 ile 15 katını ödedi. Yapay zekâ yerlisi girişimler 1 ile 2,4 milyar dolar değerlemeye ulaştı. Genel platform Türk ölçeğine göre çok pahalı. Ama dar bir alanda hizmetle başlayıp veriyle ürüne geçen yol küçük biletle yapılabilir.",
+"rakamlar": [
+{
+"deger": "11,6 milyar dolar",
+"aciklama": "Dünya CAE pazarı 2025, 10,1 milyar dolar yazılım ve 1,6 milyar dolar hizmet",
+"kaynak": "Cambashi, rapor: https://cambashi.com/cambashi-releases-2025-update-for-its-cae-software-market-observatory/"
+},
+{
+"deger": "12,28 milyar dolardan 19,96 milyar dolara, yıllık yüzde 10,2",
+"aciklama": "CAE pazarı 2025 ile 2030 tahmini",
+"kaynak": "MarketsandMarkets, rapor: https://www.marketsandmarkets.com/PressReleases/computer-aided-engineering.asp"
+},
+{
+"deger": "16 milyar dolar, yüzde 65'ten fazlası üç şirkette",
+"aciklama": "CAD pazarı 2027 tahmini, 2024 ile 2027 arası yıllık büyüme yaklaşık yüzde 7; Autodesk, Dassault ve Siemens payı",
+"kaynak": "Jon Peddie Research, rapor, Mart 2024, tek kaynak: https://www.jonpeddie.com/news/computer-aided-design-cad-market-continues-its-dramatic-growth-7-cagr/"
+},
+{
+"deger": "34,9 milyar dolar",
+"aciklama": "Synopsys'in ANSYS için ödediği toplam bedel, kapanış 17 Temmuz 2025; ANSYS 2024 geliri 2,54 milyar dolar, yaklaşık 13,7 kat gelir",
+"kaynak": "Synopsys duyurusu https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys ; bedel SEC 10-K, açılamadı, tek kaynak, doğrulanamadı; gelir https://stockanalysis.com/stocks/anss/revenue/"
+},
+{
+"deger": "Yaklaşık 10 milyar dolar işletme değeri",
+"aciklama": "Siemens Altair satın alması, kapanış 26 Mart 2025; Altair 2024 geliri 0,66 milyar dolar, yaklaşık 15 kat",
+"kaynak": "Siemens resmi duyuru https://news.siemens.com/en-us/siemens-altair-engineering-closing/ ; gelir https://companiesmarketcap.com/altair-engineering/revenue/"
+},
+{
+"deger": "300 milyon dolar, yaklaşık 2,4 milyar dolar değerleme",
+"aciklama": "PhysicsX C turu, 8 Haziran 2026; çalışan sayısı 300'ü aştı",
+"kaynak": "PhysicsX duyurusu: https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering"
+},
+{
+"deger": "100 milyon dolar",
+"aciklama": "Neural Concept C turu, 18 Aralık 2025; 50'den fazla küresel şirket kullanıyor; değerleme açıklanmadı",
+"kaynak": "Goldman Sachs duyurusu: https://am.gs.com/en-us/individual/news/press-release/2025/neural-concept-closes--100m-funding-round-led-by-growth-equity-a"
+},
+{
+"deger": "72 milyon dolar",
+"aciklama": "Luminary B turu, 15 Eylül 2025; değerleme açıklanmadı",
+"kaynak": "Luminary duyurusu: https://www.luminarycloud.com/resources/luminary-cloud-secures-dollar72m-series-b-to-lead-the-physics-ai-era"
+},
+{
+"deger": "Yılda 3.480, 4.152 ve 5.496 avro",
+"aciklama": "SolidWorks Design Standard, Professional ve Premium 2026 yıllık abonelik, avro bölgesi, vergi hariç",
+"kaynak": "Ohmycad, resmi bayi fiyat listesi, tek kaynak: https://ohmycad.com/en/?p=117142"
+},
+{
+"deger": "Kullanıcı başına yılda 1.500 ve 2.500 dolar",
+"aciklama": "Onshape Standard ve Professional",
+"kaynak": "Capterra, tek kaynak: https://www.capterra.com/p/164681/Onshape/pricing/"
+},
+{
+"deger": "Yaklaşık 22.000 dolar",
+"aciklama": "ANSYS Mechanical kalıcı lisans kullanıcı teklifi; kurumsal anlaşma ortalaması 320.000 dolar",
+"kaynak": "ThePricer, ikincil derleme, tek kaynak: https://www.thepricer.org/ansys-cost/"
+},
+{
+"deger": "Yaklaşık 4.500 dolar, yıllık lisans bunun yüzde 50'si",
+"aciklama": "COMSOL temel kalıcı lisans; modüller 600 ile 4.500 dolar",
+"kaynak": "Purdue Üniversitesi lisans sayfası, tek kaynak: https://service.purdue.edu/TDClient/32/Purdue/KB/PrintArticle?ID=1824"
+},
+{
+"deger": "Aylık ortalama 75.200 TL",
+"aciklama": "Türkiye yazılım mühendisi 2026 ortalama maaşı, en düşük 50.900, en yüksek 128.600 TL",
+"kaynak": "eleman.net, ilan verisi: https://www.eleman.net/meslek/yazilim-muhendisi/maas"
+},
+{
+"deger": "4,0 kat ve 3,1 kat",
+"aciklama": "Özel SaaS satın almalarında medyan gelir çarpanı: SEG 2026 ikinci çeyrek ve Aventis 2026 ilk çeyrek",
+"kaynak": "Peony derlemesi: https://www.peony.ink/blog/saas-valuation-multiples"
+}
+],
+"durum": "CAE ve CAD pazarı 2024 ile 2025 arasında büyük birleşmelerle yeniden şekillendi: Synopsys ANSYS'i, Siemens Altair'i aldı. Yapay zekâ yerlileri, yani PhysicsX, Neural Concept ve Luminary, toplam yarım milyar doları aşan yatırımla yedek model ve fizik yapay zekâsı kategorisini kuruyor. Büyükler yapay zekâyı kendi paketlerine katıyor; Synopsys ilk birleşik özellikleri 2026 ilk yarısına koydu. Türkiye'de bilinen tek yerli genel CAE paketi Eda Tasarım'ın CAEeda'sı; yapay zekâ ile simülasyon yapan yerli bir şirket bu turda bulunamadı. Türkiye pazar büyüklüğü ve kullanıcı sayısı için resmi rakam bulunamadı. TÜBİTAK 1507 çağrısı 11 Kasım 2026'da kapanıyor ve teknokent kazanç istisnası 31 Aralık 2028'e kadar sürüyor. Karşı okuma sonrası: Genel amaçlı platforma girilmemeli; bu kısım ayakta. Ama dar yedek model ürünü ana gelir kaynağı olarak planlanmamalı. ANSYS SimAI 2026 R1'de yerel ve müşteri sunucusunda çalışan sürüm çıkardı. Siemens de 27 Mayıs 2026'da Simcenter PhysicsAI'yi çıkardı. Büyüklerin müşterisi aynı işi kendi verisiyle yapabiliyor. Girilecekse şirket üzerinden, küçük bir yapay zekâ destekli simülasyon hizmeti şirketi kurulmalı. İlk 12 ayda 0,25 ile 0,35 milyon doları geçmemeli. İlk müşteri MEKA olmalı. Yazılım olarak sıfırdan çözücü yazılmamalı. SimAI, PhysicsAI ya da açık kaynak araçları kullanan bir hizmet olara",
+"adimlar": [
+{
+"adim": "MEKA tasarım arşivinde geçmiş FEA ve CAD dosyalarını say: model sayısı, biçim, hangi ürün ailesi; yedek model için yeterli mi karar ver",
+"kim": "MEKA Ar-Ge müdürü ve bir CAE danışmanı",
+"ne_zaman": "1 ile 30 Kasım 2026"
+},
+{
+"adim": "TÜBİTAK 1507 başvurusunu planla. Program yalnız KOBİ ölçeğindeki sermaye şirketlerine ve firmanın ilk 5 projesine açık. MEKA bu şartları taşıyorsa 2026-2 çağrısına ön kayıt yap; taşımıyorsa yeni şirket kurulunca 2027 ilk çağrısına dar alan yedek model projesi hazırla",
+"kim": "MEKA Ar-Ge birimi ya da yeni şirketin kurucu ekibi",
+"ne_zaman": "Ön kayıt 9 Kasım 2026, kapanış 11 Kasım 2026; değilse 2027 ilk çağrısı, genelde Ocak ve Şubat"
+},
+{
+"adim": "Ankara'da bir teknokentte, ODTÜ, Bilkent ya da Hacettepe, simülasyon hizmeti şirketini kur ve 3 ile 5 CAE mühendisi al",
+"kim": "MEKA yönetimi",
+"ne_zaman": "Aralık 2026 ile Şubat 2027"
+},
+{
+"adim": "İlk 5 hizmet müşterisini bağla: MEKA'nın kendi ürünleri, iki savunma alt yüklenicisi ve iki makine üreticisi; her projede çözüm verisini düzenli sakla",
+"kim": "Şirket genel müdürü",
+"ne_zaman": "Mart ile Haziran 2027"
+},
+{
+"adim": "Neural Concept, Luminary ve PhysicsX ile Türkiye iş ortaklığı ya da yeniden satıcılık görüşmesi yap; savunma için yerinde kurulum şartını sor",
+"kim": "Genel müdür ve MEKA iş geliştirme",
+"ne_zaman": "Ocak ile Nisan 2027"
+},
+{
+"adim": "Biriken veriyle ilk dar yedek modeli, örneğin kırıcı ve elek şasisi anında gerilme tahmini, pilot müşteride dene; hata payı yüzde 10 altına inmezse ürüne geçme",
+"kim": "3 kişilik makine öğrenmesi ekibi",
+"ne_zaman": "Eylül 2027 ile Mart 2028"
+}
+],
+"riskler": [
+"Mühendisler ve onay kurumları yapay zekâ tahminine güvenmez; sertifika ve imza için yine klasik çözücü istenir. Azaltma: modeli klasik çözümün yerine değil, ön eleme aracı olarak sat.",
+"Büyükler aynı özelliği pakete ücretsiz katar: Synopsys ANSYS ile birleşik özellikleri 2026 ilk yarısına koydu, Neural Concept üretken CAD'i 2026 başına koydu. Azaltma: büyüklerin ilgilenmeyeceği kadar dar ve yerel bir alan seç.",
+"Veri yetersizliği: dar alanda yedek model için yüzlerce ile binlerce çözüm gerekir, bu sayı tahmindir; MEKA arşivi yetmeyebilir. Azaltma: açık kaynak çözücülerle sentetik veri üret.",
+"Yetenek kaybı: makine öğrenmesi ve CAE bilen mühendisler döviz maaşlı yurt dışı işlere gider. Azaltma: teknokent istisnası ve hisse opsiyonu.",
+"Lisans tuzağı: OpenFOAM GPL v3; değiştirilmiş kodu ürün olarak dağıtmak kaynak açma yükümlülüğü doğurabilir. Azaltma: çözücüyü sunucuda çalıştır, hukuk görüşü al.",
+"Savunma müşterisi yabancı bulut ve yabancı yapay zekâ ortağını kabul etmeyebilir. Azaltma: yerinde kurulum ve yerli veri saklama.",
+"Teşvik uygunluğu: TÜBİTAK 1507 yalnız KOBİ ölçeğindeki şirketlere ve firmanın ilk 5 projesine açık; MEKA uygun değilse hibe ancak yeni şirketle alınır. Azaltma: hizmet şirketini ayrı tüzel kişilik olarak kur."
+],
+"takvim": [
+{
+"tarih": "16 Ocak 2024",
+"olay": "Synopsys ANSYS satın almasını duyurdu",
+"kaynak": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys",
+"iso": "2024-01-16"
+},
+{
+"tarih": "19 Aralık 2024",
+"olay": "Backflip 30 milyon dolar A turu",
+"kaynak": "https://siliconangle.com/2024/12/19/ai-powered-3d-modelling-startup-backflip-closes-30m-round/",
+"iso": "2024-12-19"
+},
+{
+"tarih": "26 Mart 2025",
+"olay": "Siemens Altair satın almasını tamamladı",
+"kaynak": "https://news.siemens.com/en-us/siemens-altair-engineering-closing/",
+"iso": "2025-03-26"
+},
+{
+"tarih": "17 Temmuz 2025",
+"olay": "Synopsys ANSYS satın almasını tamamladı",
+"kaynak": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys",
+"iso": "2025-07-17"
+},
+{
+"tarih": "15 Eylül 2025",
+"olay": "Luminary 72 milyon dolar B turu",
+"kaynak": "https://www.luminarycloud.com/resources/luminary-cloud-secures-dollar72m-series-b-to-lead-the-physics-ai-era",
+"iso": "2025-09-15"
+},
+{
+"tarih": "20 Kasım 2025",
+"olay": "PhysicsX B turu uzatması, toplam 155 milyon dolar, yaklaşık 1 milyar dolar değerleme",
+"kaynak": "https://startuprise.co.uk/londons-physicsx-nears-unicorn-with-nvidia-vc-e133m-series-b/",
+"iso": "2025-11-20"
+},
+{
+"tarih": "18 Aralık 2025",
+"olay": "Neural Concept 100 milyon dolar C turu; üretken CAD özelliği 2026 başına planlandı",
+"kaynak": "https://am.gs.com/en-us/individual/news/press-release/2025/neural-concept-closes--100m-funding-round-led-by-growth-equity-a",
+"iso": "2025-12-18"
+},
+{
+"tarih": "8 Haziran 2026",
+"olay": "PhysicsX 300 milyon dolar C turu, yaklaşık 2,4 milyar dolar değerleme",
+"kaynak": "https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering",
+"iso": "2026-06-08"
+},
+{
+"tarih": "20 Temmuz 2026",
+"olay": "TÜBİTAK 1507 2026-2 çağrısı açıldı",
+"kaynak": "https://www.tubitak.gov.tr/sites/default/files/2026-07/1507_KOBI_Ar-Ge_Baslangic_Destek_Programlari_2026-2_Proje_Cagri_Metni_13.07.2026_v2.pdf",
+"iso": "2026-07-20"
+},
+{
+"tarih": "9 Kasım 2026",
+"olay": "TÜBİTAK 1507 2026-2 kuruluş ön kayıt son günü",
+"kaynak": "https://www.tubitak.gov.tr/sites/default/files/2026-07/1507_KOBI_Ar-Ge_Baslangic_Destek_Programlari_2026-2_Proje_Cagri_Metni_13.07.2026_v2.pdf",
+"iso": "2026-11-09"
+},
+{
+"tarih": "11 Kasım 2026",
+"olay": "TÜBİTAK 1507 2026-2 çağrısı kapanıyor",
+"kaynak": "https://www.tubitak.gov.tr/sites/default/files/2026-07/1507_KOBI_Ar-Ge_Baslangic_Destek_Programlari_2026-2_Proje_Cagri_Metni_13.07.2026_v2.pdf",
+"iso": "2026-11-11"
+},
+{
+"tarih": "31 Aralık 2028",
+"olay": "Teknokent yazılım, tasarım ve Ar-Ge kazanç istisnasının bitişi, 4691 sayılı Kanun geçici 2. madde",
+"kaynak": "https://www.alomaliye.com/2026/02/10/teknokent-kazanclari-ve-vergi-istisnasi-nitelikli-harcamalarin-hesaplanmasi/",
+"iso": "2028-12-31"
+}
+],
+"web": [
+{
+"url": "https://cambashi.com/cambashi-releases-2025-update-for-its-cae-software-market-observatory/",
+"ne": "CAE pazarı 2025: 11,6 milyar dolar; çürütücü açtı, doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.marketsandmarkets.com/PressReleases/computer-aided-engineering.asp",
+"ne": "CAE pazarı 2025 ile 2030, yüzde 10,2 büyüme, oyuncu listesi; doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.jonpeddie.com/news/computer-aided-design-cad-market-continues-its-dramatic-growth-7-cagr/",
+"ne": "CAD pazarı 2027'de 16 milyar dolar, pazar payları; Mart 2024 tarihli, doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys",
+"ne": "Synopsys ANSYS kapanış duyurusu; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm",
+"ne": "Synopsys 10-K, ANSYS bedeli 34,9 milyar dolar; açılamadı, HTTP 403",
+"tur": "resmi"
+},
+{
+"url": "https://news.siemens.com/en-us/siemens-altair-engineering-closing/",
+"ne": "Siemens Altair kapanış duyurusu; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.nafems.org/about-us/media/news/industrynews1003/siemens-completes-10-billion-acquisition-of-altair-engineering/",
+"ne": "Altair satın alması ikinci kaynak",
+"tur": "haber"
+},
+{
+"url": "https://stockanalysis.com/stocks/anss/revenue/",
+"ne": "ANSYS 2024 geliri ve gelir dağılımı; doğrulandı",
+"tur": "diger"
+},
+{
+"url": "https://companiesmarketcap.com/altair-engineering/revenue/",
+"ne": "Altair 2024 geliri; doğrulandı",
+"tur": "diger"
+},
+{
+"url": "https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering",
+"ne": "PhysicsX C turu; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.physicsx.ai/newsroom",
+"ne": "PhysicsX haber listesi",
+"tur": "firma"
+},
+{
+"url": "https://startuprise.co.uk/londons-physicsx-nears-unicorn-with-nvidia-vc-e133m-series-b/",
+"ne": "PhysicsX B turu uzatması",
+"tur": "haber"
+},
+{
+"url": "https://am.gs.com/en-us/individual/news/press-release/2025/neural-concept-closes--100m-funding-round-led-by-growth-equity-a",
+"ne": "Neural Concept C turu; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.luminarycloud.com/resources/luminary-cloud-secures-dollar72m-series-b-to-lead-the-physics-ai-era",
+"ne": "Luminary B turu; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://siliconangle.com/2024/12/19/ai-powered-3d-modelling-startup-backflip-closes-30m-round/",
+"ne": "Backflip A turu",
+"tur": "haber"
+},
+{
+"url": "https://ohmycad.com/en/?p=117142",
+"ne": "SolidWorks 2026 fiyat listesi; doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.capterra.com/p/164681/Onshape/pricing/",
+"ne": "Onshape fiyatları",
+"tur": "diger"
+},
+{
+"url": "https://www.thepricer.org/ansys-cost/",
+"ne": "ANSYS lisans fiyat derlemesi; doğrulandı",
+"tur": "diger"
+},
+{
+"url": "https://service.purdue.edu/TDClient/32/Purdue/KB/PrintArticle?ID=1824",
+"ne": "COMSOL lisans maliyeti; doğrulandı",
+"tur": "diger"
+},
+{
+"url": "https://dev.opencascade.org/resources/licensing",
+"ne": "Open CASCADE lisansı",
+"tur": "firma"
+},
+{
+"url": "https://www.openfoam.com/documentation/licencing",
+"ne": "OpenFOAM lisansı",
+"tur": "firma"
+},
+{
+"url": "https://blogs.sw.siemens.com/plm-components/software-startup-reduces-risk-and-accelerates-time-to-market-with-plm-components/",
+"ne": "Shapr3D Parasolid lisansı örneği",
+"tur": "firma"
+},
+{
+"url": "https://zoo.dev/blog",
+"ne": "Zoo metinden CAD API ücreti",
+"tur": "firma"
+},
+{
+"url": "https://www.getleo.ai/blog",
+"ne": "Leo AI",
+"tur": "firma"
+},
+{
+"url": "https://www.alomaliye.com/2026/02/10/teknokent-kazanclari-ve-vergi-istisnasi-nitelikli-harcamalarin-hesaplanmasi/",
+"ne": "Teknokent kazanç istisnası 31 Aralık 2028, özelge metni",
+"tur": "diger"
+},
+{
+"url": "https://www.tubitak.gov.tr/tr/destekler/sanayi/ulusal-destek-programlari/1507",
+"ne": "TÜBİTAK 1507 destek oranı, bütçe üst sınırı, KOBİ ve ilk 5 proje şartı; doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.tubitak.gov.tr/sites/default/files/2026-07/1507_KOBI_Ar-Ge_Baslangic_Destek_Programlari_2026-2_Proje_Cagri_Metni_13.07.2026_v2.pdf",
+"ne": "1507 2026-2 çağrı tarihleri; doğrulandı",
+"tur": "resmi"
+},
+{
+"url": "https://www.eleman.net/meslek/yazilim-muhendisi/maas",
+"ne": "Yazılım mühendisi maaşı 2026",
+"tur": "diger"
+},
+{
+"url": "https://meslekmaas.com/yazilim-muhendisi-maaslari/",
+"ne": "Kıdeme göre maaş bandı",
+"tur": "diger"
+},
+{
+"url": "https://www.peony.ink/blog/saas-valuation-multiples",
+"ne": "Özel SaaS gelir çarpanları 2026; doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.kariyer.net/firma-profil/eda-tasarim-analiz-muhendislik-ve-bilgisayar-hizme-45058-126324",
+"ne": "Eda Tasarım CAEeda; açılamadı, HTTP 403",
+"tur": "firma"
+}
+],
+"ekonomi": {
+"bilet": "Önerilen yol için ilk 24 ayda toplam harcama yaklaşık 0,95 milyon dolar: yıl 1 0,37, yıl 2 0,58 milyon dolar; hizmet gelirleri düşülünce net nakit ihtiyacı 0,25 ile 0,35 milyon dolar. Dayanak: kişi başı yıllık 40 bin dolar ekip maliyeti, tahmin, maaş bandı eleman.net ve meslekmaas.com. Karşı okuma: ilk 12 ayda en çok 0,25 ile 0,35 milyon dolar; ilk müşteri MEKA'nın kendi mühendisliği.",
+"sure_ilk_gelir": "Hizmette 3 ile 6 ay; dar yedek modelde ilk pilot geliri 12 ile 18 ay, düzenli abonelik 24 ile 30 ay. Tahmin.",
+"yil3": "Gelir 0,7 ile 1,5 milyon dolar, orta değer 1,1; brüt kâr 0,35 ile 0,75 milyon dolar, orta değer 0,54. Tahmin: hizmet 0,8 milyon dolar yüzde 38 brüt marjla, ürün 0,3 milyon dolar yüzde 78 brüt marjla.",
+"yil5": "Gelir 1,8 ile 4,0 milyon dolar, orta değer 2,6; brüt kâr 1,0 ile 2,4 milyon dolar, orta değer 1,47. Tahmin: hizmet 1,4 milyon dolar, ürün 1,2 milyon dolar yani 40 kurumsal müşteri çarpı 30 bin dolar. Bağımsız karşı okuma düzeltmesi, planlamada bunu kullan: 0,4 ile 1,0 milyon dolar, orta değer yaklaşık 0,6 milyon dolar; tahmin. Dayanak: hizmet geliri 0,8 ile 1,4 milyon dolar, yüzde 35 ile 40 brüt marj, yani 0,3 ile 0,55; ürün 5 ile 15 müşteri çarpı 20 ile 30 bin dolar, yani 0,1 ile 0,45 milyon dolar ARR, yüzde 70 ile 78 brüt marj, yani 0,07 ile 0,35.",
+"geri_odeme": "Orta senaryoda yaklaşık 3,5 yıl: kümülatif nakit yıl 3 sonunda eksi 0,15, yıl 4 sonunda artı 0,13 milyon dolar. Ürün tutmazsa iş hizmet şirketi olarak kalır ve geri ödeme 5 ile 6 yıla uzar. Yıl 5 sonunda ürün tarafının değeri 1,2 milyon dolar ARR çarpı 3,1 ile 4,0 kat yani 3,7 ile 4,8 milyon dolar. Tahmin. Karşı okuma: orta senaryoda 5 ile 6 yıl; satış ve pazarlama gideri ayrıca eklenmeli.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kâr 0,4 ile 1,0 milyon dolar (karşı okuma düzeltmesi; ilk senaryo 1,0 ile 2,4): hizmet 0,3 ile 0,55, dar alan ürünü 0,07 ile 0,35 milyon dolar, tahmin.",
+"varsayimlar": "1 dolar 46 TL, tahmin. Ortalama brüt maaş aylık 120.000 TL, tahmin; kaynak bandı ortalama 75.200 TL ve kıdemli 75.000 ile 200.000 TL. İşveren maliyeti brütün 1,25 katı, tahmin; kişi başı yıllık yaklaşık 40 bin dolar. Ticari çözücü koltuğu yılda 25 bin dolar, tahmin; dayanak ANSYS Mechanical kalıcı teklif yaklaşık 22 bin dolar, tek kaynak. GPU ve bulut yılda 30 ile 50 bin dolar, tahmin, kaynak bulunamadı. Ürün fiyatı müşteri başı yılda 30 bin dolar, tahmin; dayanak SolidWorks Professional koltuk başına 4.152 avro ve ANSYS kurumsal ortalama 320 bin dolar arası. Hizmet brüt marjı yüzde 35 ile 40, ürün yüzde 75 ile 80, tahmin. TÜBİTAK 1507 hibesi en çok 3,5 milyon TL bütçenin yüzde 75'i, yaklaşık 57 bin dolar; yalnız KOBİ ölçeğindeki şirket alabilir."
+},
+"emsaller": [
+{
+"tarih": "17 Temmuz 2025, duyuru 16 Ocak 2024",
+"taraflar": "Synopsys ile ANSYS",
+"bedel": "34,9 milyar dolar toplam bedel",
+"birim": "ANSYS 2024 geliri 2,54 milyar dolar; yaklaşık 13,7 kat gelir",
+"kaynak": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys ; bedel SEC 10-K açılamadı, tek kaynak, doğrulanamadı; https://stockanalysis.com/stocks/anss/revenue/"
+},
+{
+"tarih": "26 Mart 2025",
+"taraflar": "Siemens ile Altair Engineering",
+"bedel": "Yaklaşık 10 milyar dolar işletme değeri",
+"birim": "Altair 2024 geliri 0,66 milyar dolar; yaklaşık 15 kat gelir",
+"kaynak": "https://news.siemens.com/en-us/siemens-altair-engineering-closing/ ; https://companiesmarketcap.com/altair-engineering/revenue/"
+},
+{
+"tarih": "8 Haziran 2026",
+"taraflar": "PhysicsX C turu, lider Temasek",
+"bedel": "300 milyon dolar",
+"birim": "Yaklaşık 2,4 milyar dolar değerleme",
+"kaynak": "https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering"
+},
+{
+"tarih": "Haziran ve 20 Kasım 2025",
+"taraflar": "PhysicsX B turu, lider Atomico, uzatmada NVentures",
+"bedel": "Toplam 155 milyon dolar",
+"birim": "Yaklaşık 1 milyar dolar değerleme",
+"kaynak": "https://startuprise.co.uk/londons-physicsx-nears-unicorn-with-nvidia-vc-e133m-series-b/"
+},
+{
+"tarih": "18 Aralık 2025",
+"taraflar": "Neural Concept C turu, lider Goldman Sachs Growth Equity",
+"bedel": "100 milyon dolar",
+"birim": "Değerleme açıklanmadı; kurumsal gelir 18 ayda 4 kat",
+"kaynak": "https://am.gs.com/en-us/individual/news/press-release/2025/neural-concept-closes--100m-funding-round-led-by-growth-equity-a"
+},
+{
+"tarih": "15 Eylül 2025",
+"taraflar": "Luminary B turu, lider N47, NVentures ve Sutter Hill",
+"bedel": "72 milyon dolar",
+"birim": "Değerleme açıklanmadı",
+"kaynak": "https://www.luminarycloud.com/resources/luminary-cloud-secures-dollar72m-series-b-to-lead-the-physics-ai-era"
+},
+{
+"tarih": "19 Aralık 2024",
+"taraflar": "Backflip A turu, NEA ve Andreessen Horowitz",
+"bedel": "30 milyon dolar",
+"birim": "Değerleme açıklanmadı",
+"kaynak": "https://siliconangle.com/2024/12/19/ai-powered-3d-modelling-startup-backflip-closes-30m-round/"
+},
+{
+"tarih": "2026 ilk ve ikinci çeyrek",
+"taraflar": "Özel SaaS satın almaları medyanı, SEG 2026 ikinci çeyrek ve Aventis 2026 ilk çeyrek",
+"bedel": "-",
+"birim": "4,0 kat ve 3,1 kat gelir",
+"kaynak": "https://www.peony.ink/blog/saas-valuation-multiples"
+}
+],
+"cevaplar": [
+{
+"soru": "Bir Türk ekibi ANSYS ya da SolidWorks'e rakip olabilir mi?",
+"durum": "cevaplandi",
+"cevap": "Genel amaçlı rakip olamaz. ANSYS'in 2024 geliri 2,54 milyar dolar, PhysicsX tek başına 300'den fazla kişi ve yarım milyar dolara yakın yatırımla çalışıyor. Dar bir alanda hizmet artı yedek model yolu kazanılabilir.",
+"kaynak": "https://stockanalysis.com/stocks/anss/revenue/ ; https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering",
+"kime": "-"
+},
+{
+"soru": "Dünya pazarı ne kadar ve ne hızla büyüyor?",
+"durum": "cevaplandi",
+"cevap": "CAE 2025'te 11,6 ile 12,3 milyar dolar, yılda yaklaşık yüzde 10 büyüme; CAD 2027'de 16 milyar dolar, yılda yaklaşık yüzde 7.",
+"kaynak": "Cambashi, MarketsandMarkets, Jon Peddie Research",
+"kime": "-"
+},
+{
+"soru": "Türkiye CAD ve CAE pazarı ve kullanıcı sayısı ne?",
+"durum": "kismen",
+"cevap": "Resmi rakam bulunamadı. Kaba tahmin dünya pazarının yüzde 0,5 ile 1'i, yani 130 ile 260 milyon dolar; bu bir tahmindir.",
+"kaynak": "bulunamadı; tahmin",
+"kime": "Türkiye'deki Dassault, Siemens ve ANSYS bayileri; TOBB Bilişim Meclisi"
+},
+{
+"soru": "Lisans fiyatları nedir?",
+"durum": "cevaplandi",
+"cevap": "SolidWorks yılda 3.480 ile 5.496 avro; Onshape 1.500 ile 2.500 dolar; COMSOL temel kalıcı 4.500 dolar; ANSYS Mechanical kalıcı yaklaşık 22.000 dolar, kurumsal ortalama 320.000 dolar.",
+"kaynak": "ohmycad.com, capterra.com, purdue.edu, thepricer.org",
+"kime": "-"
+},
+{
+"soru": "Geometri çekirdeği ve çözücü lisans koşulları ne?",
+"durum": "kismen",
+"cevap": "Open CASCADE LGPL 2.1 artı istisna ile ücretsiz kullanılabilir; OpenFOAM GPL v3. Parasolid ücreti açıklanmıyor; Shapr3D Parasolid lisanslayarak 12 ayda ürün çıkardı.",
+"kaynak": "dev.opencascade.org, openfoam.com, blogs.sw.siemens.com",
+"kime": "Siemens PLM Components satış ekibi, Parasolid fiyatı için"
+},
+{
+"soru": "SSB ya da savunma tarafında yerli mühendislik yazılımı programı var mı?",
+"durum": "gorusme",
+"cevap": "Bu turda özel bir SSB programı bulunamadı. CAEeda'nın SSM ürün kataloğunda yer aldığı tek kaynakla bildiriliyor.",
+"kaynak": "kariyer.net firma profili, açılamadı, arama özetinden",
+"kime": "SSB Ar-Ge ve Teknoloji Yönetimi Daire Başkanlığı; ASELSAN, ROKETSAN ve TUSAŞ tasarım birimleri"
+},
+{
+"soru": "MEKA'nın elinde yedek model eğitecek kadar tasarım ve analiz verisi var mı?",
+"durum": "gorusme",
+"cevap": "Web'de yok. Kırıcı, elek ve beton santrali şasilerine ait geçmiş FEA dosyalarının sayısı ve biçimi öğrenilmeli.",
+"kaynak": "bulunamadı",
+"kime": "MEKA Ar-Ge ve tasarım müdürü"
+}
+],
+"kapilar": {
+"yatirim": "sirket",
+"butce": 2,
+"butce_not": "Önerilen yol, hizmet şirketi artı dar yedek model, ilk 24 ayda toplam yaklaşık 0,95 milyon dolar harcar: ilk 12 ayda 0,37 milyon dolar, ikinci 12 ayda 0,58 milyon dolar. Bu harcamanın bir kısmı hizmet geliriyle karşılanır; net nakit ihtiyacı 0,25 ile 0,35 milyon dolar, tahmin. Genel amaçlı platform yolu 6 ile 10 milyon dolar ister ve dilim 3'e girer; önerilmez.",
+"yol": "ikisi",
+"yol_not": "Hizmet şirketi ve dar yedek model kurulur. Yabancı bir yapay zekâ CAE şirketiyle, örneğin Neural Concept ya da Luminary, Türkiye iş ortaklığı ayrıca ortak yolu olarak denenir. Genel platform için tek başına kurmak yerine ancak büyük bir ortakla girilebilir."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "kismi",
+"acik_sorular": [
+"Kısmen cevaplandı: Türkiye CAD ve CAE pazarı ve kullanıcı sayısı ne?",
+"Kısmen cevaplandı: Geometri çekirdeği ve çözücü lisans koşulları ne?",
+"Görüşme gerekir: SSB ya da savunma tarafında yerli mühendislik yazılımı programı var mı? (SSB Ar-Ge ve Teknoloji Yönetimi Daire Başkanlığı; ASELSAN, ROKETSAN ve TUSAŞ tasarım birimleri)",
+"Görüşme gerekir: MEKA'nın elinde yedek model eğitecek kadar tasarım ve analiz verisi var mı? (MEKA Ar-Ge ve tasarım müdürü)"
+],
+"bant": "izle",
+"puan_metni": "Yönetici isteğiyle derin çalışma (25 Ekim 2026), bant önerisi izle: Genel amaçlı platform yolu elendi: bilet 6 ile 10 milyon dolar, rakipler yarım milyar dolarlık yatırımla koşuyor. Dar alanda hizmetle başlayıp yedek modele geçen yol küçük biletli, yaklaşık 0,95 milyon dolar, ve orta senaryoda yaklaşık 3,5 yılda geri ödüyor. Ama giren kazanır testi 10 üzerinden 5: mevzuat kapısı yok, büyükler hızla yetişiyor. Bu yüzden öne çıkan değil, ikincil.",
+"kapsam_notu": "25 Ekim 2026 derin çalışma: 16 arama, 29 sayfa; 7 açık sorunun 3 tanesi cevaplandı, 2 tanesi görüşme gerektiriyor. Çürütücü 16 sayfa açtı, güven 4/5. Türkiye CAD ve CAE pazar büyüklüğü, kullanıcı sayısı, SSB yerli yazılım programı, KOSGEB destekleri, Parasolid ücreti, Autodesk Fusion resmi fiyatı ve GPU birim maliyeti bulunamadı. Synopsys 10-K, Cooley, kariyer.net, Autodesk ve bir Siemens sayfası araştırmacı turunda açılamadı; ANSYS bedeli ve CAEeda bilgisi tek kaynaklı. Fiyatların çoğu bayi ya da ikincil derleme, tek kaynak. Ekonomi modelinin yıl 3 ve yıl 5 rakamları, müşteri sayıları ve geri ödeme süresi tahmindir. Dolar kuru 46 TL varsayıldı. MEKA'nın KOBİ ölçeğinde olup olmadığı ve 1507 uygunluğu bilinmiyor. Çürütücü 16 sayfa açtı; Capterra, Startup Rise, SiliconANGLE, açık kaynak lisans sayfaları, maaş sayfaları ve Alomaliye bu turda yeniden açılmadı. Karşı okuma ajanı 10 sayfa açtı, 10 arama yaptı.",
+"guven": 4,
+"tarih": "25 Ekim 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "Bağımsız",
+"kol_id": "bag_ozel",
+"kol_ad": "Özel firmalar",
+"kisa": "Yapay zekâlı simülasyon ve CAD yazılımı",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_yz_cae_cad",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 2.0,
+"H": 4.0,
+"R": 2.0,
+"E": 3.0,
+"M": 2.0,
+"S": 3.33,
+"B": 4,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 0,4 ile 1,0 milyon dolar, tahmin; alt uç 0,5 altında.",
+"H": "Hizmette ilk gelir 3 ile 6 ay, tahmin; mevcut ürün yok, ilk müşteri MEKA.",
+"R": "ANSYS SimAI ve Siemens PhysicsAI aynı işi satıyor; veri yetersizliği, mühendis güvensizliği.",
+"E": "İlk müşteri MEKA hazır; dış pazarda FİGES gibi ANSYS ortakları, lisanssız yazılım yaygın.",
+"M": "Makine ve tesis kullanılmaz; yalnız mühendislik ekibi ve FEA arşivi, dolaylı.",
+"S": "Teknoloji güçlü; Synopsys 2026 ilk yarı pakete kattı, pencere dar; gelir kısmen bağımsız."
+},
+"puan_yayilim": []
+},
+"gelecek_sehir": {
+"id": "gelecek_sehir",
+"dal": "meka",
+"kol": "ozel",
+"baslik": "Geleceğin şehirleri: NEOM gibi dev şehir projelerine tedarik ve ortaklık",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "Yönetici isteği",
+"bolum": "26 Ekim 2026: yönetici NEOM ve The Line gibi geleceğin şehri projelerine tedarik ya da ortaklık yapılıp yapılamayacağını sordu; derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı",
+"tarih": "26 Ekim 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_gelecek_sehir",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "Elkon",
+"rol": "rakip",
+"not": "NEOM'a 2023 ile 2024'te yaklaşık bir düzine santral verdi, Oxagon'da Elkomix-240 kurdu; 2025'te 265 santral sevk etti ve 65 milyon dolar ihracat yaptı, 2026 hedefi 75 milyon dolar; Körfez siparişleri savaş yüzünden beklemede.",
+"kaynak": "https://elkon.net/news/elkon-concrete-batching-plants-empower-mega-project-neom-in-saudi-arabia ; https://www.ekonomigazetesi.com/kose-yazisi/beton-santralinde-sira-var-savas-biterse-siparis-patlar-76978"
+},
+{
+"ad": "Polygonmach",
+"rol": "rakip",
+"not": "Türk santral ve kırma eleme üreticisi; Suudi dev projelerdeki varlığı bu turda bulunamadı.",
+"kaynak": "bulunamadı"
+},
+{
+"ad": "Fabo",
+"rol": "rakip",
+"not": "Türk santral ve kırma eleme üreticisi; Suudi dev projelerdeki varlığı bu turda bulunamadı.",
+"kaynak": "bulunamadı"
+},
+{
+"ad": "Liebherr",
+"rol": "rakip",
+"not": "Avrupalı santral üreticisi; Körfez satışları bu turda doğrulanamadı.",
+"kaynak": "bulunamadı"
+},
+{
+"ad": "Metso ve Sandvik",
+"rol": "rakip",
+"not": "Kırma eleme pazarının büyük oyuncuları; Suudi proje satışları bu turda doğrulanamadı.",
+"kaynak": "bulunamadı"
+},
+{
+"ad": "Nesma & Partners",
+"rol": "musteri",
+"not": "Expo 2030 ilk altyapı paketini Ocak 2026'da aldı; Qiddiya stadyumunda FCC ortağı.",
+"kaynak": "https://www.agbi.com/infrastructure/2026/01/saudi-arabia-awards-building-contract-for-expo-2030-site/ ; https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/"
+},
+{
+"ad": "Alyamama Company",
+"rol": "musteri",
+"not": "Expo ikinci altyapı aşamasının iki sözleşmesini Nisan 2026'da aldı.",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/"
+},
+{
+"ad": "FCC Construcción",
+"rol": "musteri",
+"not": "Qiddiya Prince Mohammed bin Salman stadyumunun ana yüklenicisi, Nesma ile Uptown Stadium Construction JV.",
+"kaynak": "https://www.arabnews.pk/business/saudi-chinese-consortium-wins-306m-qiddiya-stadium-contract-3004819"
+},
+{
+"ad": "Besix ve Albawani",
+"rol": "musteri",
+"not": "Aramco Dammam stadyumu, yaklaşık 1 milyar dolar, Şubat 2024.",
+"kaynak": "https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/"
+},
+{
+"ad": "China Railway Construction Corporation ve Sama",
+"rol": "musteri",
+"not": "Cidde merkez stadyumu, yaklaşık 1,8 milyar dolar, Ocak 2024.",
+"kaynak": "https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/"
+},
+{
+"ad": "Saudi Binladin Group",
+"rol": "musteri",
+"not": "King Fahd stadyumunun 92 bin kişiye genişletilmesi, Aralık 2024.",
+"kaynak": "https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/"
+},
+{
+"ad": "Freyssinet Saudi Arabia",
+"rol": "musteri",
+"not": "Expo metro istasyonu tasarım ve yapım sözleşmesi, Eylül 2026.",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/"
+},
+{
+"ad": "Webuild",
+"rol": "emsal",
+"not": "NEOM'daki 5 milyar dolarlık Trojena ve 2 milyar dolarlık demiryolu işleri iptal; tamamlanan işlerin ödendiğini söylüyor, Riyad metrosu ve Diriyah'ta sürüyor.",
+"kaynak": "https://www.agbi.com/giga-projects/2026/07/neom-exit-hasnt-derailed-webuilds-saudi-plans-ceo-says/"
+},
+{
+"ad": "Al-Ayuni Investment & Contracting",
+"rol": "ortak_adayi",
+"not": "MEKA ile 2017 anlaşması; 480 km demiryolu projesinde 180 m³/saat MEKA santrali; güncel ilişki bulunamadı.",
+"kaynak": "https://www.mekaglobal.com/en/showroom/meka-is-very-popular-in-all-the-regions-of-saudi-arabia"
+},
+{
+"ad": "NEOM",
+"rol": "kurum",
+"not": "Tedarikçi portalı ücretsiz; The Line ertelendi, harcama Oxagon ve limana kaydı.",
+"kaynak": "https://www.neom.com/en-us/our-business/suppliers ; https://www.semafor.com/article/05/22/2026/saudis-neom-halts-work-on-the-line-until-after-2030"
+},
+{
+"ad": "Expo 2030 Riyadh Company",
+"rol": "kurum",
+"not": "PIF'in Haziran 2025'te kurduğu şirket; 2026'da altyapı sözleşmelerini verdi.",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/"
+},
+{
+"ad": "LCGPA, Yerli İçerik ve Kamu Alımları Kurumu",
+"rol": "kurum",
+"not": "Yüzde 10 fiyat tercihi, yüzde 40 yerli içerik ağırlığı, Zorunlu Liste ve asgari yerli içerik şartını yönetiyor.",
+"kaynak": "https://saudipedia.com/en/article/1874/economy-and-business/investment/how-does-the-kingdom-support-local-content"
+},
+{
+"ad": "PIF",
+"rol": "yatirimci",
+"not": "Ağustos 2026'da yayımlanan 2026 ile 2030 stratejisi The Line ve Trojena'dan söz etmiyor; 2026 ilk yarısında proje sahipleri arasında beşinci.",
+"kaynak": "https://www.agbi.com/construction/2026/09/saudi-construction-activity-surges-despite-pif-taking-a-back-seat/"
+},
+{
+"ad": "Türkiye Müteahhitler Birliği",
+"rol": "kurum",
+"not": "Suudi Arabistan'ı yılda 10 milyar dolarlık potansiyel pazar olarak tanımladı; Türk müteahhitlere giriş kapısı.",
+"kaynak": "https://www.ekonomigazetesi.com/sektor-haberleri/turk-muteahhitler-rotayi-kalkinma-yolu-projesine-cevirdi-29483"
+}
+],
+"celiskiler": [
+"The Line için tarih çelişkisi: Wikipedia PIF'in işi 16 Eylül 2025'te durdurduğunu yazıyor; Semafor 22 Mayıs 2026'da ertelemeyi yeni haber olarak veriyor; Suudi Ekonomi Bakanı 2024'te ölçekte değişiklik olmadığını söylemişti.",
+"PIF 2026 ile 2030 stratejisinin tarihi: bir arama özeti 15 Nisan 2026'da onaylandığını, AGBI ise Ağustos 2026'da yayımlandığını yazıyor.",
+"Elkon Nisan 2026'da Körfez siparişlerinin savaş yüzünden beklemede olduğunu söylüyor; Scavo verisi aynı dönemde Suudi sözleşmelerinin yüzde 82 arttığını gösteriyor.",
+"Webuild NEOM'da tamamlanan bütün işlerin ödendiğini söylüyor; NEOM ise fesih ödemelerine 16 milyar dolar ayırmak zorunda kaldı; bu tutarın yüklenicilere tam ödenip ödenmeyeceği belirsiz.",
+"SABER sevkiyat belgesinin zorunlu olduğu tarih için iki kaynak farklı: 1 Ocak 2025 ve 1 Ekim 2025.",
+"Asya Kış Oyunları: Reuters 27 Ocak 2026'da Suudi Arabistan'ın oyunları bir önceki hafta sonu süresiz ertelediğini yazıyor; Almaty'ye verildiği tarih kaynaklara göre 2, 5 ya da 7 Şubat 2026.",
+"Türkiye'nin Suudi ihracatı 2024'te 4 milyar dolarla rekor kırdı, 2025'te 3,1 milyar dolara geriledi; normalleşme haberleri artış vurgusu yapsa da son yıl düşüş var.",
+"Karşı okuma (yuksek): Suudi inşaat pazarı güçlü ve büyüyor; santral talebi 2025 çimento satışındaki yüzde 10 artıştan hesaplandı. İtiraz: Talep tabanı geriliyor. 2026'da çimento satışı düşüyor. Eylül 2026'da satış yüzde 8 azaldı. NEOM bölgesindeki Tabuk Çimento yüzde 37 geriledi. Sekiz ayda toplam yüzde 2 düşüş var. 2025'te Suudi sözleşme ödülleri yüzde 48,5 azalarak 84,5 milyar dolara indi. Yüzde 82 artış haberi henüz betona yansımıyor. Hesap zirve yılın verisine dayanıyor.",
+"Karşı okuma (yuksek): Yeni santral talebi yılda 100 ile 240 adet; yenileme ve büyüme yılda yüzde 15 ile 20. İtiraz: Yüzde 15 ile 20 yenileme oranı çok yüksek. Bu oran her santralin 5 ile 7 yılda yenilendiği anlamına gelir. Sabit santraller genelde 15 yıl ve üstü çalışır. Çimento hacmi de düz ya da düşüyor, yani büyüme payı yok. Yüzde 5 ile 8 ile talep yılda yaklaşık 35 ile 95 santrale iner. Aynı yüzde 2 ile 5 pay ile MEKA'ya yılda 1 ile 5 santral düşer, çalışmadaki 6 ile",
+"Karşı okuma (yuksek): Santral ortalama fiyatı 0,35 milyon dolar. İtiraz: Fiyat iyimser. MEKA'nın en son yurt dışı siparişi santral başına yaklaşık 164 bin avro, yani yaklaşık 184 bin dolar. Elkon ortalaması 245 bin dolar. Çinli üreticiler 120 m³/saat santrali 50 ile 140 bin dolara listeliyor. Körfez'de Çin fiyat baskısı varken ortalama 0,2 ile 0,25 milyon dolar daha gerçekçi. Bu tek başına geliri yüzde 30 ile 40 düşürür.",
+"Karşı okuma (orta): Rekabette Elkon ve genel olarak Çinli ve Avrupalı üreticiler var; MEKA paket teklifle ayrışabilir. İtiraz: Rekabet çalışmadakinden sert. Zoomlion Suudi ağır ekipman pazarında yüzde 20 payı olduğunu ve yüzde 40 hedeflediğini söylüyor; Riyad, Cidde ve Dammam'da servis ve parça merkezleri var, yerel üretim düşünüyor. Ayrıca Suudi Arabistan'da yerli santral üreticileri var: Al Kifah Batching Plant yılda 30 ile 40 santral kapasitesiyle El Hasa'da üretim yapıyor, KiCE",
+"Karşı okuma (yuksek): Yıl 5 brüt kârı 0,72 ile 1,56 milyon dolar, marj yüzde 16 ile 20. İtiraz: Adet, fiyat ve marj aynı yönde iyimser. Ayrıca bu rakam yılda 0,25 milyon dolarlık sabit gider düşülmeden yazılmış; yıllık kâr potansiyeli diye sunulması yanıltıcı. Montaj santral başına 20 ile 30 bin dolar tahmin edilmiş ama marja açıkça işlenmemiş. Yüzde 21,5 marj tek kaynak ve iç pazar ağırlıklı; ihracatta Çin fiyatına karşı marj daha düşük olabilir.",
+"Karşı okuma (orta): Geri ödeme 2,5 ile 4 yıl. İtiraz: Düzeltilmiş adet ve fiyatla alt senaryoda brüt kâr sabit gideri ancak karşılar; 5 yılda geri ödeme yok. Üst senaryoda yaklaşık 4 yıl. Bu tahmin.",
+"Karşı okuma (orta): Dev projelerden para Expo, stadyum ve Riyad altyapısına kaydı; NEOM'dan gelir varsayılmadı. İtiraz: Bu doğru ve öneriyi destekliyor, ama kesinti NEOM ile sınırlı değil. Mart 2026'da The Line'da yaklaşık 1 milyar dolarlık tünel işi, Trojena'da 4,7 milyar dolarlık baraj işi ve Eversendai çelik işi iptal edildi. Red Sea Global'in de 2026 sonunda inşaatı durduracağı AFP kaynaklarıyla yazıldı; şirket yalanladı. NEOM konteyner terminali 2027'ye kaydı. Kesinti da",
+"Karşı okuma (orta): Ödeme riski: 2026'da yaygın ödememe haberi yok; avans ve akreditifle yönetilir. İtiraz: Ana çizgi doğru: 2026'da yaygın ödememe haberi bu turda da bulunamadı. Ama fesih bedeli kesin değil, pazarlıkla artabilir. 2016 petrol düşüşünde devletin yükleniciye gecikmiş borcu 100 milyar riyalı, kamu projelerinin yaklaşık yüzde 30'unu buldu, gecikme 3 ile 12 ay sürdü ve avanslar kısıldı. Bütçe açığı büyürken aynı örüntü tekrar edebilir. Bu durumda yükle",
+"Karşı okuma (orta): Türk müteahhitler üzerinden satış, yol e; TMB Suudi Arabistan'ı yılda 10 milyar dolarlık potansiyel diye tanımladı. İtiraz: 10 milyar dolar bir beklenti, gerçekleşen değil. Gerçekleşen rakam çok küçük: Türk müteahhitler 2024'ün ilk dokuz ayında Suudi Arabistan'da 2,3 milyar dolar iş aldı; yine de en büyük pazar oldu. 2025 ilk çeyrekte bütün yurt dışında toplam yalnız 560 milyon dolarlık iş alındı. Türk bankalarının teminat mektuplarının kabul edilmemesi sorunu sürüyor. Yol e geli"
+],
+"degisiklikler": [
+"26 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"26 Ekim 2026 bağımsız karşı okuma eklendi: yıl 5 brüt kâr 0,25 ile 0,85 milyon dolara düşürüldü, ilk 12 ay harcama sınırı 0,3 milyon dolar, 12 ayda bir ve 18 ayda iki sipariş şartı",
+"King Salman Stadyumu: 'MEED başlığı, içerik açılmadı, tek kaynak' kaydı düzeltildi. MEED sayfasına göre Spor Bakanlığı erken işler ihalesini 11 Ekim 2026'da çıkardı, teklif son günü 19 Kasım 2026, kapsam saha hazırlığı ve ilk inşaat işleri. Takvim, durum, rakamlar, proje tablosu ve açık sorular buna göre güncellendi.",
+"Takvime iki yeni satır eklendi: King Salman Stadyumu ana iş ön yeterliği Şubat 2026 ve Qiddiya stadyumu mekanik işlerinin Mayıs 2030 bitişi; ikisi de açılan sayfalarda var.",
+"Yerli içerik: 'Zorunlu Liste ürünleri ithal edilemez' ifadesi Saudipedia sayfasında yok, silindi. Yerine sayfada olan 'LCGPA Zorunlu Liste yayımlar ve yükleniciye asgari yerli içerik şartı koyar' yazıldı; rakamlar, firmalar ve calisma_md düzeltildi. Yüzde 10, yüzde 40 ve yüzde 60 doğrulandı.",
+"Expo ilk altyapı paketi: AGBI bedeli açıklanmadığını yazıyor; 267 milyon dolar MEED tahmini. Takvim satırına MEED kaynağı eklendi, tarih 1 Ocak 2026 yapıldı.",
+"Mukaab satırına Reuters bilgisi eklendi: Suudi Arabistan 2029 Asya Kış Oyunları'nı Ocak 2026'nın son hafta sonu süresiz erteledi; çelişkiler ve calisma_md Kapı bölümü güncellendi.",
+"Webuild cümlesi sayfaya göre netleştirildi: 'bütün işleri ödendi' yerine 'tamamlanan bütün işler ödendi ve durdurma maliyeti karşılandı'.",
+"Avro dolar 1,12 kurunun kaynağı [19] yerine açılıp görülen [25] yapıldı; sayfada 1,11961.",
+"NEOM yeni altyapı bütçesine dolar karşılığı eklendi: 40 milyar riyal, 10,7 milyar dolar, EnterpriseAM.",
+"PIF stratejisinin Ağustos 2026'da yayımlandığı bilgisi firmalar ve calisma_md'ye eklendi, AGBI sayfasında var.",
+"Elkon notuna sayfadaki 265 santral sevkiyatı ve 2026 için 75 milyon dolar ihracat hedefi eklendi.",
+"Ekonomi modeli yol a için satır satır kontrol edildi: yıl 3 ve yıl 5 gelir ve brüt kâr, geri ödeme tablosundaki bütün kümülatif değerler, santral talebi ve agrega hesabı ile KAP bandının dolar çevirisi doğru; değişiklik gerekmedi. b ile f yollarının marjları tutarlı, hepsi tahmin olarak işaretli.",
+"Doğrulanan ve değiştirilmeyenler: 16 milyar dolar ve 60 milyar riyal, The Line 2030 sonrası, 100 bin nüfus, 3 milyar dolar Oxagon, 152 milyar dolar, 20,6 milyar dolar, 4 ve 24 milyar dolar, 1,6 trilyon dolar, yüzde 82, 17 ve 32 milyar dolar, PIF beşinci, 7,99 milyar dolar ve 18 proje, 56,2 milyon ton ve 43,8 milyon ton, stadyum bedelleri, 306 milyon dolar ve 863 gün, Mukaab, Diriyah 60 milyar dolar, New Murabba 50 milyar dolar ve 2040, PIF 8 milyar dolar değer düşüşü, Elkon 265 santral ve 65 milyon dolar, MEKA 983 bin avro ve 6 santral, MEKA 2017 65 tesis ve 180 m³/saat, Expo tarihleri ve ERC'nin Haziran 2025 kuruluşu."
+],
+"ne": "NEOM, The Line ve benzeri dev şehir projelerine MEKA'nın beton santrali, kırma eleme ve ağır sac ürünlerini satmak ya da bu projelerde ortaklık kurmak. Çalışma, hangi projelerin gerçekten ihale açtığını ve MEKA'nın hangi kapıdan, ne kadar parayla girebileceğini ayırıyor.",
+"neden": "Dev şehirlerin ilk yıllarında yüzlerce santral ve kırma eleme tesisi gerekir. Suudi inşaat pazarı 2024'te 152 milyar dolarla rekor kırdı ve 2026'nın ilk yarısında yükleniciye verilen işler yüzde 82 arttı. MEKA bölgeyi tanıyor; 2017'de Suudi Arabistan'da 65 tesis kurduğunu duyurmuştu. Ama para NEOM'dan Expo 2030, Dünya Kupası stadyumları ve Riyad altyapısına kaydı; fırsat bu yeni ihale turundaki yüklenicilere satıştır.",
+"rakamlar": [
+{
+"deger": "16 milyar dolar, 60 milyar riyal",
+"aciklama": "NEOM'un 2026 ile 2030 bütçesinde sözleşme fesih ödemeleri ve cezaları için ayırdığı tutar; yeni altyapıya 40 milyar riyal, yani 10,7 milyar dolar. Semafor haberinin aktarımı.",
+"kaynak": "haber https://enterpriseam.com/menaplus/2026/06/10/saudi-may-end-up-with-an-outsized-cancelation-bill-in-neom/ ; haber https://www.agbi.com/giga-projects/2026/07/neom-exit-hasnt-derailed-webuilds-saudi-plans-ceo-says/"
+},
+{
+"deger": "2030 sonrası, 100 bin kişi",
+"aciklama": "The Line işleri en erken 2030 sonrasına ertelendi; NEOM'un 2030 nüfus hedefi 1,5 milyondan 100 bine indi. Oxagon için yaklaşık 3 milyar dolar ek harcama planlanıyor. Tek yayıncı, resmi açıklama yok.",
+"kaynak": "haber https://www.semafor.com/article/05/22/2026/saudis-neom-halts-work-on-the-line-until-after-2030"
+},
+{
+"deger": "152 milyar dolar",
+"aciklama": "Suudi Arabistan'ın 2024'te verdiği inşaat sözleşmeleri, rekor. 2025'in ilk yarısında 20,6 milyar dolar; dev projelere 2025'te 4 milyar dolar, 2024'te 24 milyar dolar. MEED verisi, Bloomberg aktarımı.",
+"kaynak": "haber https://gulfnews.com/business/economy/uae-overtakes-saudi-arabia-in-project-awards-as-kingdom-eases-up-1.500177820"
+},
+{
+"deger": "yüzde 82, 32 milyar dolar",
+"aciklama": "2026 ilk yarısında yükleniciye verilen işlerdeki yıllık artış ve bina işleri toplamı; bir yıl önce 17 milyar dolardı. PIF proje sahipleri arasında beşinci sıraya düştü. Scavo, Suudi Müteahhitler Kurumu verisi.",
+"kaynak": "haber https://www.agbi.com/construction/2026/09/saudi-construction-activity-surges-despite-pif-taking-a-back-seat/"
+},
+{
+"deger": "7,99 milyar dolar, 18 proje",
+"aciklama": "Mayıs 2026'da verilen inşaat sözleşmeleri, 2026'nın en yüksek ayı. Suudi Müteahhitler Kurumu aylık raporu.",
+"kaynak": "haber https://www.arabnews.com/node/2647366/amp"
+},
+{
+"deger": "56,2 milyon ton",
+"aciklama": "Suudi Arabistan 2025 çimento satışı, artış yüzde 10; klinker stoku 43,8 milyon ton. Al Rajhi Capital raporu.",
+"kaynak": "haber https://www.zawya.com/en/projects/construction/saudi-cement-sales-volume-down-18-in-december-dyb3dah1"
+},
+{
+"deger": "yılda 100 ile 240 santral, 25 ile 85 milyon dolar",
+"aciklama": "Suudi Arabistan'da yeni beton santrali talebi; çimento satışından metreküp başına 330 kg çimento, yüzde 60 ile 70 hazır beton payı, santral başına 100 ile 150 bin m³ ve yüzde 15 ile 20 yenileme ile hesaplandı. Tahmin.",
+"kaynak": "tahmin, çimento verisi https://www.zawya.com/en/projects/construction/saudi-cement-sales-volume-down-18-in-december-dyb3dah1"
+},
+{
+"deger": "265 santral, 65 milyon dolar",
+"aciklama": "Elkon'un 2025'te sevk ettiği beton santrali ve ihracatı; santral başına yaklaşık 245 bin dolar, hesap. Körfez siparişlerinin savaş nedeniyle beklemeye alındığını söylüyor. Firma beyanı.",
+"kaynak": "haber https://www.ekonomigazetesi.com/kose-yazisi/beton-santralinde-sira-var-savas-biterse-siparis-patlar-76978"
+},
+{
+"deger": "983 bin avro, 6 santral",
+"aciklama": "Meka İthalat İhracat'ın 22 Nisan 2026'da yurt dışı yerleşik şirketten aldığı beton santrali siparişi; santral başına yaklaşık 164 bin avro. Önceki KAP siparişleri santral başına 165 ile 490 bin avro.",
+"kaynak": "borsa bildirimi aktarımı https://www.borsagundem.com.tr/meka-globalden-yeni-siparis-aciklamasi"
+},
+{
+"deger": "yüzde 21,5",
+"aciklama": "MEKA 2025 konsolide brüt kâr marjı; satış 3.386,3 milyon TL, brüt kâr 728,9 milyon TL. Önceki çalışmadan alındı, tek kaynak.",
+"kaynak": "rapor https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=MEKAG"
+},
+{
+"deger": "yüzde 10 tercih, yüzde 40 ağırlık",
+"aciklama": "Suudi kamu alımlarında yerli ürüne yüzde 10 fiyat tercihi; mali değerlendirmede yerli içerik ve borsaya kote şirket için yüzde 40, fiyat için yüzde 60 ağırlık. LCGPA ayrıca yerli ürünlerden oluşan bir Zorunlu Liste yayımlıyor ve yükleniciye asgari yerli içerik şartı koyuyor. LCGPA kaynaklı.",
+"kaynak": "resmi https://saudipedia.com/en/article/1874/economy-and-business/investment/how-does-the-kingdom-support-local-content"
+},
+{
+"deger": "4 milyar dolar ve 3,1 milyar dolar",
+"aciklama": "Türkiye'nin Suudi Arabistan'a ihracatı: 2024'te yüzde 52 artışla 4 milyar dolar rekor, makineler 591 milyon dolar; 2025'te 3,1 milyar doların üstü. 2025 Ocak ile Temmuz arası 2,13 milyar dolar.",
+"kaynak": "resmi https://ticaret.gov.tr/data/63dcff5713b87627bc2a1f63/Suudi_Arabistan_Ulke_Sunumu_11_09_2025.pdf ; haber https://www.ekonomigazetesi.com/ekonomi/ticaret-dengesi-aleyhte-gelisiyor-70413"
+},
+{
+"deger": "15 stadyum, 11'i yeni",
+"aciklama": "2034 Dünya Kupası stadyum programı; King Salman Stadyumu 92 bin kişilik, 2029'da bitecek, erken işler ihalesi 11 Ekim 2026'da çıktı, teklif son günü 19 Kasım 2026; Jeddah Central stadyumu 1,8 milyar dolar, Dammam ve Qiddiya stadyumları birer milyar dolar.",
+"kaynak": "haber https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/"
+}
+],
+"durum": "NEOM'un vitrin projeleri durdu: The Line 2030 sonrasına ertelendi, Trojena yeni yatırım almıyor, 2029 Asya Kış Oyunları Almaty'ye gitti, Riyad'daki Mukaab askıya alındı. Suudi inşaat pazarı ise 2026'da toparlandı; ilk yarıda yükleniciye verilen işler yüzde 82 arttı ve para Expo 2030, Dünya Kupası stadyumları, Riyad metrosu, Diriyah ve Qiddiya'ya kaydı. Expo sahasında altyapı ve metro istasyonu sözleşmeleri 2026'da verildi. Spor Bakanlığı King Salman Stadyumu erken işler ihalesini 11 Ekim 2026'da çıkardı; teklif son günü 19 Kasım 2026. Rakip Elkon NEOM'a bir düzine santral verdi ama Nisan 2026'da Körfez siparişlerinin savaş yüzünden beklemede olduğunu söyledi. MEKA'nın bölgede 2017'den kalan bir geçmişi var; bugünkü bayi ve satış durumu web'de bulunamadı. Karşı okuma sonrası: Öneri kısmen ayakta. Geleceğin şehri ortaklığı reddi doğru. Suudi yüklenicilere ekipman satışı denenebilir, ama çalışmadaki kadar büyük değil ve düşük maliyetli bir test olarak. Talep tabanı zayıflıyor: 2025'te ödüller yarıya indi, 2026'da çimento satışı geriliyor. Çin fiyatı ve yerli üretici de baskı yapıyor. Yapılacak olan şu: ilk 12 ayda en çok 0,3 milyon dolar harca; ayrı Riyad ekibi kurma, mevcut ihracat ekibiyle ve bir bayi ya da Al-Ayuni üzerinden teklif ver; Expo ve stadyum yüklenicilerine santral ile kırma eleme paketini Çin fiyatına yakın, servis vaadiyle sun. Yüzde 30 ile 50 avans v",
+"adimlar": [
+{
+"adim": "Al-Ayuni ile eski ilişkiyi yeniden aç, 2017'den kalan kurulu parkın durumunu ve yeni proje ihtiyacını sor.",
+"kim": "MEKA ihracat müdürü",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "NEOM tedarikçi portalına ücretsiz kayıt yap; Expo 2030 Riyadh Company ve Qiddiya tedarikçi kayıt yollarını araştır.",
+"kim": "MEKA ihracat ekibi",
+"ne_zaman": "Kasım ve Aralık 2026"
+},
+{
+"adim": "SABER üzerinden santral ve kırma eleme için HS kodu, gümrük vergisi, ürün ve sevkiyat belgesi şartını netleştir.",
+"kim": "MEKA mali işler ve gümrük müşaviri",
+"ne_zaman": "Aralık 2026"
+},
+{
+"adim": "Nesma & Partners, Alyamama, FCC, Besix ve Albawani satın alma birimlerine teklif dosyası gönder.",
+"kim": "MEKA satış ekibi",
+"ne_zaman": "Ocak 2027"
+},
+{
+"adim": "Suudi Arabistan'da iş alan Türk müteahhitlerle TMB üzerinden görüş, ekipman tedarik çerçeve anlaşması öner.",
+"kim": "MEKA yönetimi",
+"ne_zaman": "Şubat 2027"
+},
+{
+"adim": "İlk iki siparişten sonra Riyad'da servis ve yedek parça noktası kararını ver; 18 ayda sipariş yoksa harcamayı durdur.",
+"kim": "MEKA yönetim kurulu",
+"ne_zaman": "2027 içinde, en geç Nisan 2028"
+}
+],
+"riskler": [
+"Savaş ve lojistik: Hürmüz kapalı, Yemen gerginliği artıyor; sevkiyat Mersin ile Cidde arası Süveyş hattından yapılmalı, sigortasız sevk yapılmamalı.",
+"Ödeme gecikmesi ve iptal: NEOM fesihlere 16 milyar dolar ayırdı, ülke bütçe açığı büyüdü; en az yüzde 30 ile 50 avans ve kalan için akreditif şart.",
+"PIF yeni projeleri erteleyebilir: Mukaab ve Trojena örnekleri var; odak Expo, stadyum ve özel yüklenicide tutulmalı.",
+"Rekabet: Elkon NEOM'a bir düzine santral verdi, Çinli ve Avrupalı üreticiler pazarda; kırma eleme ve santral paket teklifiyle ayrışmak gerek.",
+"Yerli içerik: kamu ihalelerinde yüzde 10 fiyat tercihi ve yüzde 40 yerli içerik ağırlığı ithal ürünü geriye iter; Türk müteahhit ya da Suudi bayi üzerinden satılmalı."
+],
+"takvim": [
+{
+"tarih": "16 Eylül 2025",
+"olay": "PIF The Line inşaatını yeni bir duyuruya kadar durdurdu.",
+"kaynak": "https://en.wikipedia.org/wiki/The_Line,_Saudi_Arabia",
+"iso": "2025-09-16"
+},
+{
+"tarih": "1 Ocak 2026",
+"olay": "Expo 2030 ilk altyapı paketi Nesma & Partners'a verildi; MEED tahmini yaklaşık 1 milyar riyal, 267 milyon dolar. Bedel resmi açıklanmadı.",
+"kaynak": "https://www.agbi.com/infrastructure/2026/01/saudi-arabia-awards-building-contract-for-expo-2030-site/ ; https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/",
+"iso": "2026-01-01"
+},
+{
+"tarih": "27 Ocak 2026",
+"olay": "Mukaab inşaatı kazık işleri sonrası askıya alındı; New Murabba 2040'a uzadı. Suudi Arabistan bir önceki hafta sonu 2029 Asya Kış Oyunları'nı süresiz erteledi.",
+"kaynak": "https://www.businessday.co.za/world/middle-east/2026-01-27-saudi-arabia-suspends-riyadhs-mukaab-megaproject-amid-vision-2030-rethink/",
+"iso": "2026-01-27"
+},
+{
+"tarih": "Şubat 2026",
+"olay": "2029 Asya Kış Oyunları Trojena'dan Almaty'ye taşındı; Trojena baraj ve çelik yapı sözleşmeleri iptal edildi.",
+"kaynak": "https://en.wikipedia.org/wiki/Trojena",
+"iso": "2026-02-15"
+},
+{
+"tarih": "Şubat 2026",
+"olay": "King Salman Stadyumu ana tasarım ve yapım işi için firmalar ön yeterlik belgesi verdi.",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/",
+"iso": "2026-02-15"
+},
+{
+"tarih": "Nisan 2026",
+"olay": "Expo ikinci altyapı aşaması Alyamama'ya verildi.",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/",
+"iso": "2026-04-15"
+},
+{
+"tarih": "22 Mayıs 2026",
+"olay": "The Line en erken 2030 sonrasına ertelendi; NEOM kıyı turizmi de ertelendi.",
+"kaynak": "https://www.semafor.com/article/05/22/2026/saudis-neom-halts-work-on-the-line-until-after-2030",
+"iso": "2026-05-22"
+},
+{
+"tarih": "2 Eylül 2026",
+"olay": "Expo metro istasyonu Freyssinet Saudi Arabia'ya verildi; ilk dikey işler geliyor.",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/",
+"iso": "2026-09-02"
+},
+{
+"tarih": "11 Ekim 2026",
+"olay": "Spor Bakanlığı King Salman Stadyumu erken işler ihalesini çıkardı: saha hazırlığı ve ilk inşaat işleri.",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/",
+"iso": "2026-10-11"
+},
+{
+"tarih": "21 Ekim 2026",
+"olay": "Qiddiya stadyumu cephe sözleşmesi IKK Fangda JV'ye verildi, 306 milyon dolar, 863 gün.",
+"kaynak": "https://www.arabnews.pk/business/saudi-chinese-consortium-wins-306m-qiddiya-stadium-contract-3004819",
+"iso": "2026-10-21"
+},
+{
+"tarih": "19 Kasım 2026",
+"olay": "King Salman Stadyumu erken işler ihalesinde teklif son günü.",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/",
+"iso": "2026-11-19"
+},
+{
+"tarih": "2026 ve 2027 başı",
+"olay": "Expo sahasında altyapı, yapı ve kamusal alan inşaatı aşamalı ilerleyecek.",
+"kaynak": "https://www.agbi.com/infrastructure/2026/01/saudi-arabia-awards-building-contract-for-expo-2030-site/",
+"iso": "2026-06-30"
+},
+{
+"tarih": "Mart 2027",
+"olay": "Türkiye'de 500 bin sosyal konutun teslimi başlayacak; arama özeti, tek kaynak.",
+"kaynak": "https://www.yenisafak.com/toki-son-deprem-konutlari-ne-zaman-teslim-edilecek-h-4780774",
+"iso": "2027-03-15"
+},
+{
+"tarih": "2028",
+"olay": "Irak Kalkınma Yolu ilk aşamasının bitmesi hedefleniyor; tasarım sonrası yedi parça halinde ihale.",
+"kaynak": "https://www.rudaw.net/english/middleeast/iraq/011220253",
+"iso": "2028-06-30"
+},
+{
+"tarih": "2029",
+"olay": "King Salman Stadyumu inşaatının bitmesi planlanıyor.",
+"kaynak": "https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/",
+"iso": "2029-06-30"
+},
+{
+"tarih": "Mayıs 2030",
+"olay": "Qiddiya stadyumunun mekanik işlerinin bitmesi planlanıyor.",
+"kaynak": "https://www.arabnews.pk/business/saudi-chinese-consortium-wins-306m-qiddiya-stadium-contract-3004819",
+"iso": "2030-05-15"
+},
+{
+"tarih": "1 Ekim 2030 ile 31 Mart 2031",
+"olay": "Expo 2030 Riyad.",
+"kaynak": "https://www.agbi.com/infrastructure/2026/01/saudi-arabia-awards-building-contract-for-expo-2030-site/",
+"iso": "2030-10-01"
+}
+],
+"web": [
+{
+"url": "https://www.semafor.com/article/05/22/2026/saudis-neom-halts-work-on-the-line-until-after-2030",
+"ne": "The Line 2030 sonrasına ertelendi, Oxagon 3 milyar dolar, nüfus hedefi 100 bin; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://en.wikipedia.org/wiki/The_Line,_Saudi_Arabia",
+"ne": "The Line durumu, Eylül 2025 durdurma",
+"tur": "diger"
+},
+{
+"url": "https://www.businessday.co.za/world/middle-east/2026-01-27-saudi-arabia-suspends-riyadhs-mukaab-megaproject-amid-vision-2030-rethink/",
+"ne": "Reuters: Mukaab askıya, Diriyah 60 milyar dolar, PIF 8 milyar dolar değer düşüşü, Asya Kış Oyunları ertelendi; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Trojena",
+"ne": "Trojena maliyet ve iptaller, Asya Kış Oyunları Almaty",
+"tur": "diger"
+},
+{
+"url": "https://www.agbi.com/giga-projects/2026/07/neom-exit-hasnt-derailed-webuilds-saudi-plans-ceo-says/",
+"ne": "Webuild NEOM iptalleri ve ödemeler; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://enterpriseam.com/menaplus/2026/06/10/saudi-may-end-up-with-an-outsized-cancelation-bill-in-neom/",
+"ne": "NEOM fesih bütçesi 60 milyar riyal, yeni altyapı 40 milyar riyal; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.agbi.com/construction/2026/09/saudi-construction-activity-surges-despite-pif-taking-a-back-seat/",
+"ne": "2026 ilk yarı sözleşmeleri yüzde 82 arttı, PIF beşinci; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://gulfnews.com/business/economy/uae-overtakes-saudi-arabia-in-project-awards-as-kingdom-eases-up-1.500177820",
+"ne": "MEED: 2024 152 milyar dolar, 2025 ilk yarı 20,6 milyar dolar; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.arabnews.com/node/2647366/amp",
+"ne": "Suudi Müteahhitler Kurumu Mayıs 2026 verisi; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.agbi.com/infrastructure/2026/01/saudi-arabia-awards-building-contract-for-expo-2030-site/",
+"ne": "Expo 2030 ilk altyapı paketi ve takvim, bedel açıklanmadı; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/",
+"ne": "Expo metro istasyonu, önceki Expo sözleşmeleri ve 26 Ekim 2026 King Salman Stadyumu ihale haberi; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/",
+"ne": "Dünya Kupası stadyum sözleşmeleri ve bedelleri; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.arabnews.pk/business/saudi-chinese-consortium-wins-306m-qiddiya-stadium-contract-3004819",
+"ne": "Qiddiya stadyumu cephe sözleşmesi Ekim 2026; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.zawya.com/en/projects/construction/saudi-cement-sales-volume-down-18-in-december-dyb3dah1",
+"ne": "Suudi çimento satışı 2025 56,2 milyon ton; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://saudipedia.com/en/article/1874/economy-and-business/investment/how-does-the-kingdom-support-local-content",
+"ne": "Yerli içerik kuralları, LCGPA kaynaklı; çürütücü açtı, ithal yasağı ifadesi sayfada yok",
+"tur": "resmi"
+},
+{
+"url": "https://saudipedia.com/en/additional-price-preference-initiative",
+"ne": "Ek fiyat tercihi girişimi",
+"tur": "resmi"
+},
+{
+"url": "https://www.neom.com/en-us/our-business/suppliers",
+"ne": "NEOM tedarikçi portalı",
+"tur": "resmi"
+},
+{
+"url": "https://ticaret.gov.tr/data/63dcff5713b87627bc2a1f63/Suudi_Arabistan_Ulke_Sunumu_11_09_2025.pdf",
+"ne": "Ticaret Bakanlığı Suudi Arabistan ülke sunumu, ticaret rakamları, SABER uyarıları",
+"tur": "resmi"
+},
+{
+"url": "https://www.ekonomigazetesi.com/ekonomi/ticaret-dengesi-aleyhte-gelisiyor-70413",
+"ne": "Türkiye Suudi ihracatı 2025 3,1 milyar dolar",
+"tur": "haber"
+},
+{
+"url": "https://www.ekonomigazetesi.com/sektor-haberleri/turk-muteahhitler-rotayi-kalkinma-yolu-projesine-cevirdi-29483",
+"ne": "TMB Suudi potansiyeli ve Kalkınma Yolu",
+"tur": "haber"
+},
+{
+"url": "https://www.mekaglobal.com/en/showroom/meka-is-very-popular-in-all-the-regions-of-saudi-arabia",
+"ne": "MEKA Suudi Arabistan 65 tesis, 2017; çürütücü açtı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://www.borsagundem.com.tr/meka-globalden-yeni-siparis-aciklamasi",
+"ne": "MEKA KAP 6 santral 983 bin avro; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://elkon.net/news/8-elkon-concrete-plants-delivered-to-saudi-mega-project-neom",
+"ne": "Elkon NEOM 8 santral",
+"tur": "firma"
+},
+{
+"url": "https://elkon.net/news/elkon-concrete-batching-plants-empower-mega-project-neom-in-saudi-arabia",
+"ne": "Elkon Oxagon santralleri",
+"tur": "firma"
+},
+{
+"url": "https://www.ekonomigazetesi.com/kose-yazisi/beton-santralinde-sira-var-savas-biterse-siparis-patlar-76978",
+"ne": "Elkon 2025 ihracatı ve Körfez siparişleri, avro dolar 1,12; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.rudaw.net/english/middleeast/iraq/011220253",
+"ne": "Irak Kalkınma Yolu 17 milyar dolar",
+"tur": "haber"
+},
+{
+"url": "https://en.wikipedia.org/wiki/New_Administrative_Capital",
+"ne": "Mısır Yeni Başkent durumu",
+"tur": "diger"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Nusantara_(city)",
+"ne": "Nusantara bütçe ve durum",
+"tur": "diger"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Bismayah_New_City",
+"ne": "Bismayah Hanwha kararı",
+"tur": "diger"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Woven_City",
+"ne": "Woven City açılışı",
+"tur": "diger"
+},
+{
+"url": "https://www.ntv.com.tr/ntvpara/bakan-kurum-yil-sonunda-evine-girmeyen-tek-bir-depremzede-birakmayacagiz-1694903",
+"ne": "Deprem konutları ve 500 bin sosyal konut",
+"tur": "haber"
+},
+{
+"url": "https://kap.org.tr/tr/api/BildirimPdf/1638385",
+"ne": "MEKA KAP sipariş bildirimi, önceki çalışmadan",
+"tur": "resmi"
+},
+{
+"url": "https://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=MEKAG",
+"ne": "MEKA brüt marj, önceki çalışmadan, tek kaynak",
+"tur": "rapor"
+},
+{
+"url": "https://www.yenisafak.com/toki-son-deprem-konutlari-ne-zaman-teslim-edilecek-h-4780774",
+"ne": "Deprem konutu teslim takvimi, arama özeti, açılmadı",
+"tur": "haber"
+},
+{
+"url": "https://graniteriverlabs.com/en-us/technical-blog/saudi-arabia-scoc-certification",
+"ne": "SABER belge şartı, arama özeti, açılmadı",
+"tur": "diger"
+},
+{
+"url": "https://ftnnews.com/travel-news/other-news/saudi-vision-2030-pivots-neom-sidelined-as-expo-2030-and-world-cup-take-center-stage/",
+"ne": "açılamadı, HTTP 403",
+"tur": "haber"
+},
+{
+"url": "https://www.kslaw.com/news-and-insights/outlook-and-opportunities-in-gcc-projects-into-2026-and-beyond",
+"ne": "açılamadı, HTTP 403; dev proje ihale stoku 55 milyar dolar rakamı tek kaynak",
+"tur": "rapor"
+},
+{
+"url": "https://www.iraqinews.com/iraq/iraq-advances-development-road-designs/",
+"ne": "açılamadı, HTTP 403",
+"tur": "haber"
+}
+],
+"ekonomi": {
+"bilet": "0,2 ile 0,7 milyon dolar ilk 24 ayda, önerilen yol a ve e için; satış müdürü, servis mühendisi, fuar, SABER ve seyahat; tahmin. Hesapta orta değer 0,5 milyon dolar, sonra yılda 0,25 milyon dolar sabit gider; tahmin. Karşı okuma: ilk 12 ayda en çok 0,3 milyon dolar; ayrı Riyad ekibi kurulmaz, mevcut ihracat ekibi ve bayi üzerinden teklif verilir.",
+"sure_ilk_gelir": "9 ile 15 ay: 6 ile 12 ay satış süreci ve 3 ile 4 ay üretim, tahmin. Avans siparişte gelir; MEKA yüzde 50 avanslı sipariş emsali var.",
+"yil3": "Gelir 2,6 ile 5,2 milyon dolar: 4 ile 8 santral x 0,35 milyon dolar artı 1 ile 2 kırma eleme x 1,2 milyon dolar; adetler tahmin, fiyatlar MEKA KAP bandından. Brüt kâr 0,42 ile 1,04 milyon dolar, marj yüzde 16 ile 20; MEKA yüzde 21,5 marjından ihracat ek maliyeti düşülerek, tahmin.",
+"yil5": "Gelir 4,5 ile 7,8 milyon dolar: 6 ile 12 santral ve 2 ile 3 kırma eleme, tahmin. Brüt kâr 0,72 ile 1,56 milyon dolar, marj yüzde 16 ile 20. Bağımsız karşı okuma düzeltmesi, planlamada bunu kullan: 0,25 ile 0,85 milyon dolar brüt kâr, tahmin; yılda 0,25 milyon dolar sabit gider sonrası 0 ile 0,6 milyon dolar. Dayanak: 3 ile 8 santral x 0,22 ile 0,25 milyon dolar, 1 ile 2 kırma eleme x 1,0 ile 1,2 milyon dolar, gelir 1,7 ile 4,4 milyon dolar, marj yüzde 15 ile 19.",
+"geri_odeme": "2,5 ile 4 yıl. Alt senaryo kümülatif: yıl 1 eksi 0,25, yıl 2 eksi 0,44, yıl 3 eksi 0,27, yıl 4 artı 0,05 milyon dolar. Üst senaryo: yıl 1 eksi 0,25, yıl 2 eksi 0,29, yıl 3 artı 0,50 milyon dolar. Karşı okuma: düzeltilmiş adet ve fiyatla alt senaryoda 5 yılda geri ödeme yok, üst senaryoda yaklaşık 4 yıl.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kâr 0,25 ile 0,85 milyon dolar (karşı okuma düzeltmesi; ilk senaryo 0,7 ile 1,6): 3 ile 8 santral ve 1 ile 2 kırma eleme, yüzde 15 ile 19 marj; yılda 0,25 milyon dolar sabit gider sonrası 0 ile 0,6 milyon dolar, tahmin.",
+"varsayimlar": "Santral ortalama fiyatı 0,35 milyon dolar, MEKA KAP bandı 185 ile 549 bin dolar ve Elkon ortalaması 245 bin dolar arasında seçildi, tahmin. Kırma eleme 1,2 milyon dolar, KAP bandı 0,73 ile 2,45 milyon dolar. Avro dolar 1,12. Nakliye ve gümrüğü alıcı öder. Montaj santral başına 20 ile 30 bin dolar, tahmin. Pay: Suudi yeni santral talebinin yüzde 2 ile 5'i, tahmin. NEOM'dan gelir varsayılmadı. Savaş lojistiği 2027'de normale döner varsayımı."
+},
+"emsaller": [
+{
+"tarih": "Ocak 2024",
+"taraflar": "Jeddah Central Development Company, China Railway Construction Corporation ve Sama",
+"bedel": "yaklaşık 6,7 milyar riyal, 1,8 milyar dolar",
+"birim": "46 bin kişilik stadyum ve çevresi",
+"kaynak": "https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/"
+},
+{
+"tarih": "Şubat 2024",
+"taraflar": "Saudi Aramco, Besix ve Albawani",
+"bedel": "yaklaşık 3,7 milyar riyal, 1 milyar dolar",
+"birim": "45 bin kişilik Dammam stadyumu",
+"kaynak": "https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/"
+},
+{
+"tarih": "Ekim 2024",
+"taraflar": "Qiddiya Investment Company, FCC ve Nesma & Partners",
+"bedel": "yaklaşık 3,7 milyar riyal, 1 milyar dolar",
+"birim": "45 bin kişilik stadyum",
+"kaynak": "https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/"
+},
+{
+"tarih": "Ocak 2026",
+"taraflar": "Expo 2030 Riyadh Company, Nesma & Partners",
+"bedel": "yaklaşık 1 milyar riyal, 267 milyon dolar, MEED tahmini",
+"birim": "50 km altyapı ağı",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/"
+},
+{
+"tarih": "21 Ekim 2026",
+"taraflar": "Uptown Stadium Construction JV, IKK Fangda JV",
+"bedel": "1,15 milyar riyal, 306 milyon dolar",
+"birim": "stadyum cephesi, 863 gün",
+"kaynak": "https://www.arabnews.pk/business/saudi-chinese-consortium-wins-306m-qiddiya-stadium-contract-3004819"
+},
+{
+"tarih": "2026 başı",
+"taraflar": "NEOM ve Webuild",
+"bedel": "5 milyar dolar ve 2 milyar dolar, iptal",
+"birim": "Trojena barajları ve Oxagon demiryolu",
+"kaynak": "https://www.agbi.com/giga-projects/2026/07/neom-exit-hasnt-derailed-webuilds-saudi-plans-ceo-says/"
+},
+{
+"tarih": "9 Mart 2023 ve 11 Mart 2024",
+"taraflar": "NEOM yüklenicileri ve Elkon",
+"bedel": "bulunamadı",
+"birim": "yaklaşık 12 beton santrali, Elkomix-120 ile Elkomix-240",
+"kaynak": "https://elkon.net/news/8-elkon-concrete-plants-delivered-to-saudi-mega-project-neom"
+},
+{
+"tarih": "22 Nisan 2026",
+"taraflar": "Meka İthalat İhracat ve yurt dışı yerleşik alıcı",
+"bedel": "983 bin avro",
+"birim": "6 beton santrali, santral başına yaklaşık 164 bin avro",
+"kaynak": "https://www.borsagundem.com.tr/meka-globalden-yeni-siparis-aciklamasi"
+},
+{
+"tarih": "27 Kasım 2017",
+"taraflar": "MEKA ve Al-Ayuni Investment & Contracting",
+"bedel": "bulunamadı",
+"birim": "Suudi Arabistan'da 65 kurulu tesis, 180 m³/saat santral",
+"kaynak": "https://www.mekaglobal.com/en/showroom/meka-is-very-popular-in-all-the-regions-of-saudi-arabia"
+}
+],
+"cevaplar": [
+{
+"soru": "Uydu gezegen city gibi bir şey yapılabilir mi, yani NEOM ya da The Line gibi bir projeye ortak olunabilir mi?",
+"durum": "cevaplandi",
+"cevap": "Ortaklık MEKA ölçeğinin çok üstünde ve bu projelerin parası kesiliyor; The Line 2030 sonrasına ertelendi, NEOM fesihlere 16 milyar dolar ayırdı. Yapılabilecek olan, yeni ihale turundaki Suudi yüklenicilere santral ve kırma eleme satmaktır.",
+"kaynak": "https://www.semafor.com/article/05/22/2026/saudis-neom-halts-work-on-the-line-until-after-2030 ; https://enterpriseam.com/menaplus/2026/06/10/saudi-may-end-up-with-an-outsized-cancelation-bill-in-neom/",
+"kime": ""
+},
+{
+"soru": "Hangi dev projeler gerçekten ihale açıyor?",
+"durum": "cevaplandi",
+"cevap": "Expo 2030 Riyad, Dünya Kupası stadyumları, Riyad metrosu ve havalimanı, Diriyah, Qiddiya ihale açıyor. King Salman Stadyumu erken işleri 11 Ekim 2026'da ihaleye çıktı. The Line, Trojena, Mukaab ve NEOM kıyı turizmi durdu. Irak Kalkınma Yolu tasarım sonrası yedi parça halinde ihaleye çıkacak.",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/ ; https://www.agbi.com/construction/2026/09/saudi-construction-activity-surges-despite-pif-taking-a-back-seat/ ; https://www.businessday.co.za/world/middle-east/2026-01-27-saudi-arabia-suspends-riyadhs-mukaab-megaproject-amid-vision-2030-rethink/ ; https://www.rudaw.net/english/middleeast/iraq/011220253",
+"kime": ""
+},
+{
+"soru": "NEOM tedarikçi kaydı nasıl yapılır?",
+"durum": "cevaplandi",
+"cevap": "Kayıt ücretsiz ve çevrimiçi: başvuru, profil ve belgeler, onay sonrası tedarikçi anketi ve ihaleye davet.",
+"kaynak": "https://www.neom.com/en-us/our-business/suppliers",
+"kime": ""
+},
+{
+"soru": "MEKA'nın Suudi Arabistan ve Körfez'deki bugünkü satış ve bayileri neler?",
+"durum": "gorusme",
+"cevap": "Web'de yalnız 27 Kasım 2017 tarihli duyuru var: 65 tesis ve Al-Ayuni anlaşması. Güncel bayi ve kurulu park bulunamadı.",
+"kaynak": "https://www.mekaglobal.com/en/showroom/meka-is-very-popular-in-all-the-regions-of-saudi-arabia",
+"kime": "MEKA ihracat müdürü"
+},
+{
+"soru": "Beton santrali Suudi Zorunlu Liste'de mi, gümrük vergisi ne?",
+"durum": "gorusme",
+"cevap": "Yerli içerik kuralları ve SABER şartı kaynaklı; ürüne özel liste ve vergi oranı bulunamadı.",
+"kaynak": "https://saudipedia.com/en/article/1874/economy-and-business/investment/how-does-the-kingdom-support-local-content ; https://ticaret.gov.tr/data/63dcff5713b87627bc2a1f63/Suudi_Arabistan_Ulke_Sunumu_11_09_2025.pdf",
+"kime": "Riyad Ticaret Müşavirliği ve Suudi gümrük müşaviri"
+},
+{
+"soru": "Türk müteahhitlerin Körfez ve Suudi payı nedir?",
+"durum": "kismen",
+"cevap": "TMB 22 Aralık 2023'te Suudi Arabistan'ı yılda 10 milyar dolarlık yeni iş potansiyeli olarak tanımladı; yurt dışı portföy 500 milyar dolar, ENR listesinde 40 Türk firması. 2025 ve 2026 Suudi payı bulunamadı.",
+"kaynak": "https://www.ekonomigazetesi.com/sektor-haberleri/turk-muteahhitler-rotayi-kalkinma-yolu-projesine-cevirdi-29483",
+"kime": "TMB"
+},
+{
+"soru": "Ödeme gecikmesi ve alacak riski ne durumda?",
+"durum": "kismen",
+"cevap": "Webuild NEOM'da tamamlanan bütün işlerin ödendiğini ve durdurma maliyetinin karşılandığını söyledi; ama NEOM fesih için 16 milyar dolar ayırdı ve Suudi Arabistan 2018'den beri en büyük çeyreklik açığını verdi. 2026'da yaygın ödememe haberi bulunamadı.",
+"kaynak": "https://www.agbi.com/giga-projects/2026/07/neom-exit-hasnt-derailed-webuilds-saudi-plans-ceo-says/ ; https://www.semafor.com/article/05/22/2026/saudis-neom-halts-work-on-the-line-until-after-2030",
+"kime": ""
+}
+],
+"kapilar": {
+"yatirim": "sirket",
+"butce": 2,
+"butce_not": "İlk 12 ayda 0,15 ile 0,3 milyon dolar: Big 5 Construct Saudi fuarı, SABER belgeleri, Riyad temsilcisi ya da bayi, seyahat ve teklif mühendisliği; tahmin. İlk 24 ayda toplam 0,2 ile 0,7 milyon dolar, dilim 2. Yerel montaj yolu seçilirse 2 ile 5 milyon dolar ile dilim 3'e çıkar.",
+"yol": "ikisi",
+"yol_not": "Satış ve teklif ekibini MEKA kendisi kurar; sahada Suudi bayi ya da Al-Ayuni gibi eski ortak ve Suudi Arabistan'da iş alan Türk müteahhitlerle çalışır. Yerel üretim ortaklığı ancak yılda 10 santrallik görünür sipariş olursa."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "kismi",
+"acik_sorular": [
+"Görüşme gerekir: MEKA'nın Suudi Arabistan ve Körfez'deki bugünkü satış ve bayileri neler? (MEKA ihracat müdürü)",
+"Görüşme gerekir: Beton santrali Suudi Zorunlu Liste'de mi, gümrük vergisi ne? (Riyad Ticaret Müşavirliği ve Suudi gümrük müşaviri)",
+"Kısmen cevaplandı: Türk müteahhitlerin Körfez ve Suudi payı nedir?",
+"Kısmen cevaplandı: Ödeme gecikmesi ve alacak riski ne durumda?"
+],
+"bant": "ikincil",
+"puan_metni": "Yönetici isteğiyle derin çalışma (26 Ekim 2026), bant önerisi ikincil: Geleceğin şehri ortaklığı biçimiyle fırsat zayıf: NEOM'un vitrin projeleri durdu ve bilet MEKA ölçeğinin çok üstünde. Ama Suudi inşaat pazarı 2026'da yüzde 82 büyüdü ve MEKA'nın ürünleri için küçük biletli, 9 ile 15 ayda gelir getiren bir satış yolu var. Giren kazanır testinden 10 üzerinden 4 aldı; boşluk yok, Elkon gibi rakipler içeride. Bu yüzden öne çıkan değil, ikincil: düzenli ihracat genişlemesi olarak yapılmalı.",
+"kapsam_notu": "26 Ekim 2026 derin çalışma: 18 arama, 31 sayfa; 7 açık sorunun 3 tanesi cevaplandı, 2 tanesi görüşme gerektiriyor. Çürütücü 16 sayfa açtı, güven 4/5. WebSearch bütçesi 18 aramayla doldu, Bing yedeği kullanılmadı. MEED makalelerinin çoğu abonelik istiyor; King Salman Stadyumu ihale haberi çürütücü turunda MEED sayfasının yan haberinden okundu. kslaw.com, ftnnews.com ve iraqinews.com 403 verdi; MISA bölgesel merkez sayfası boş döndü. Polygonmach, Fabo, Liebherr, Metso, Sandvik ve SBM'nin Suudi satışları, Türk müteahhitlerin 2025 Suudi payı, 2025 Suudi sözleşme toplamı, Masdar, Lusail, Red Sea Global ve King Salman Park güncel durumu, santral gümrük vergisi ve nakliye bedeli bulunamadı. MEKA marjı ve KAP sipariş bandı önceki çalışmalardan alındı, bu turda yeniden açılmadı. Santral talebi ve bütün adet, pay ve bilet rakamları tahmin. Çürütücü 16 sayfa açtı; Ticaret Bakanlığı PDF'i, Wikipedia sayfaları, Elkon sayfaları, TMB haberi, Rudaw ve Saudipedia ek tercih sayfası bu turda açılmadı, onlara dayanan rakamlar araştırmacının okumasına dayanıyor. Karşı okuma ajanı 12 sayfa açtı, 10 arama yaptı.",
+"guven": 4,
+"tarih": "26 Ekim 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "MEKA ile ilgili",
+"kol_id": "meka_ozel",
+"kol_ad": "Özel firmalar",
+"kisa": "Geleceğin şehirleri: NEOM ve Suudi projelerine ekipman",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_gelecek_sehir",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 1.0,
+"H": 3.0,
+"R": 2.0,
+"E": 3.0,
+"M": 5.0,
+"S": 1.0,
+"B": 4,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 0,25 ile 0,85 milyon dolar, tahmin; alt uç 0,5 altında.",
+"H": "İlk gelir 9 ile 15 ay, tahmin; üst uç 12 ayı aşıyor, mevcut ürün.",
+"R": "2025 ödülleri yüzde 48,5 düştü, 2026 çimento satışı düşüyor, NEOM fesihleri, Hürmüz kapalı.",
+"E": "Ortaklık kapalı; satış SABER belgesi, bayi ve Al-Ayuni ilişkisiyle mümkün, rekabet yoğun.",
+"M": "MEKA'nın kendi beton santrali ve kırma elemesi, mevcut ihracat ekibiyle satılıyor.",
+"S": "Mevcut işin uzantısı, teknoloji yok; Elkon, Zoomlion ve 50 bin dolarlık Çinliler pazarda."
 },
 "puan_yayilim": []
 },
@@ -42814,6 +44278,700 @@ window.MEKA_DATA = {
 },
 "puan_yayilim": []
 },
+"yz_muzik": {
+"id": "yz_muzik",
+"dal": "bagimsiz",
+"kol": "ozel",
+"baslik": "Yapay zekâlı müzik üretim programı: Suno benzeri uygulama",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "Yönetici isteği",
+"bolum": "25 Ekim 2026: yönetici Suno gibi bir yapay zekâ müzik programı yapmayı sordu; derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı",
+"tarih": "25 Ekim 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_yz_muzik",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "Suno",
+"rol": "rakip",
+"not": "2 milyon abone, 300 milyon $ gelir; Warner ile lisanslı, Universal ve Sony ile davalı, GEMA davasını Münih'te ilk derecede kaybetti.",
+"kaynak": "https://www.musicinafrica.net/node/384062"
+},
+{
+"ad": "Udio",
+"rol": "rakip",
+"not": "Universal ve Warner ile uzlaştı; 2026'da lisanslı, kapalı abonelik platformu açacak.",
+"kaynak": "https://www.musicbusinessworldwide.com/universal-music-settles-udio-lawsuit-strikes-deal-for-licensed-ai-music-platform"
+},
+{
+"ad": "ElevenLabs",
+"rol": "rakip",
+"not": "Eleven Music Ağustos 2025'te Merlin ve Kobalt lisansıyla çıktı; arama özeti, tek kaynak.",
+"kaynak": "https://alternativeto.net/news/2025/8/elevenlabs-launches-ai-music-platform-with-artist-backed-licensing-and-commercial-clearance"
+},
+{
+"ad": "Stability AI",
+"rol": "rakip",
+"not": "19 Kasım 2025'te Warner ile sorumlu yapay zekâ müziği ortaklığı kurdu.",
+"kaynak": "https://www.musicbusinessworldwide.com/warner-music-group-settles-with-suno-strikes-first-of-its-kind-deal-with-ai-song-generator/"
+},
+{
+"ad": "Google",
+"rol": "rakip",
+"not": "6 Mart 2026'da Lyria tabanlı ProducerAI'ı aldı; çıktılar SynthID ile işaretleniyor.",
+"kaynak": "https://www.privsource.com/acquisitions/deal/google-acquires-producerai-G5SYr8"
+},
+{
+"ad": "ACE-Step, StepFun",
+"rol": "tedarikci",
+"not": "ACE-Step 1.5 MIT lisanslı, ACE Studio ve StepFun ortak yürütüyor, ticari kullanım serbest, eğitim verisinin lisanslı olduğunu beyan ediyor.",
+"kaynak": "https://huggingface.co/ACE-Step/acestep-v15-base/blob/main/README.md"
+},
+{
+"ad": "HKUST ve M-A-P, YuE",
+"rol": "tedarikci",
+"not": "YuE ilk sürümü Apache 2.0; YuE2 ağırlıkları ticari olmayan lisansla, şirketler için ayrı lisans gerekiyor.",
+"kaynak": "https://raw.githubusercontent.com/multimodal-art-projection/YuE/main/README.md"
+},
+{
+"ad": "Soundraw",
+"rol": "rakip",
+"not": "Telifsiz yapay zekâ müziği aboneliği ayda 11,04 ile 16,99 $; 10 kişi ve üstü şirketlere kurumsal plan.",
+"kaynak": "https://soundraw.io/pricing"
+},
+{
+"ad": "Mubert",
+"rol": "rakip",
+"not": "İşletme ve ajans planı ayda 149,29 ile 199 $, uygulama geliştiricilere API.",
+"kaynak": "https://mubert.com/render/pricing"
+},
+{
+"ad": "Universal Music Group",
+"rol": "kurum",
+"not": "Udio ile uzlaşıp lisans verdi; Sony ile birlikte Suno davasını sürdürüyor.",
+"kaynak": "https://www.musicbusinessworldwide.com/umg-and-sony-accuse-suno-of-pirating-youtube-via-stream-ripping-to-train-its-ai/"
+},
+{
+"ad": "Sony Music",
+"rol": "kurum",
+"not": "Suno ve Udio ile uzlaşma bulunamadı; Suno davasında akış kopyalama iddiası eklendi.",
+"kaynak": "https://www.musicbusinessworldwide.com/umg-and-sony-accuse-suno-of-pirating-youtube-via-stream-ripping-to-train-its-ai/"
+},
+{
+"ad": "Warner Music Group",
+"rol": "kurum",
+"not": "Suno ve Udio ile uzlaşıp lisans verdi, Songkick'i Suno'ya sattı.",
+"kaynak": "https://www.musicbusinessworldwide.com/warner-music-group-settles-with-suno-strikes-first-of-its-kind-deal-with-ai-song-generator/"
+},
+{
+"ad": "GEMA",
+"rol": "kurum",
+"not": "31 Temmuz 2026'da Münih'te Suno'ya karşı kazandı; kesin olmayan karar.",
+"kaynak": "https://juve-patent.com/cases/munich-regional-court-stops-suno-using-gema-protected-music"
+},
+{
+"ad": "MESAM",
+"rol": "kurum",
+"not": "Genişletilmiş toplu lisans modelini savunuyor; MSG ile 2,5 milyar TL telif hacmi açıkladı.",
+"kaynak": "https://www.gazetebirlik.com/kultur-sanat/muzik-dunyasinda-devrim-niteliginde-bulusma-telif-haklarinda-yeni-donem-basliyor/981571"
+},
+{
+"ad": "MSG",
+"rol": "kurum",
+"not": "İşyerinde müzik yayını için MSG lisansının yasal zorunluluk olduğunu raporunda yazıyor; Başkan Ferhat Göçer çalıştayda konuştu.",
+"kaynak": "https://www.msg.org.tr/UploadedFiles/File/msg-yillik-seffaflik-raporu-2024-31082025.pdf"
+},
+{
+"ad": "MÜYAP",
+"rol": "ortak_adayi",
+"not": "Başkan Bülent Seyhan temel sorunun mevzuat eksikliği olduğunu söyledi; kayıt verisi için muhatap.",
+"kaynak": "https://www.gazetebirlik.com/kultur-sanat/muzik-sektorunde-yapay-zeka-ve-telif-haklari-icin-tarihi-zirve/971404"
+},
+{
+"ad": "Zoom Music",
+"rol": "ortak_adayi",
+"not": "Türk bağımsız plak şirketi; Nisan 2026 çalıştayında Engin Akıncı yapay zekâ konusunda söz aldı.",
+"kaynak": "https://www.gazetebirlik.com/kultur-sanat/muzik-sektorunde-yapay-zeka-ve-telif-haklari-icin-tarihi-zirve/971404"
+},
+{
+"ad": "Dokuz Sekiz Müzik",
+"rol": "ortak_adayi",
+"not": "WIN listesinde öne çıkan Türk bağımsız plak şirketi; veri lisansı adayı.",
+"kaynak": "https://winformusic.org/mp-files/bridge-country-factsheet-turkey.pdf/"
+},
+{
+"ad": "Bond Capital",
+"rol": "yatirimci",
+"not": "Suno'nun Haziran 2026 D serisine öncülük etti.",
+"kaynak": "https://www.goodwinlaw.com/en/news-and-events/news/2026/06/announcements-technology-goodwin-guides-suno-400-million-series-d"
+},
+{
+"ad": "Menlo Ventures",
+"rol": "yatirimci",
+"not": "Suno'nun Kasım 2025 C serisine öncülük etti, NVentures da katıldı.",
+"kaynak": "https://www.musicbusinessworldwide.com/warner-music-group-settles-with-suno-strikes-first-of-its-kind-deal-with-ai-song-generator/"
+},
+{
+"ad": "Lambda",
+"rol": "tedarikci",
+"not": "A100 80 GB saati 2,79 $, H100 saati 3,99 $.",
+"kaynak": "https://lambda.ai/pricing"
+},
+{
+"ad": "Launchpoint ve Kashie.AI",
+"rol": "emsal",
+"not": "29 Ocak 2026'da 300 bin $ ile küçük yapay zekâ müzik girişimi alımı.",
+"kaynak": "https://www.privsource.com/acquisitions/deal/8WSJJG"
+},
+{
+"ad": "Splice ve Kits AI",
+"rol": "emsal",
+"not": "21 Ocak 2026'da lisanslı ses modelleri için alım, bedel açıklanmadı.",
+"kaynak": "https://www.privsource.com/acquisitions/deal/8WSJJG"
+}
+],
+"celiskiler": [
+"Grand View Research'e atfedilen 2024 üretken yapay zekâ müzik pazarı 569,7 milyon $; oysa Suno tek başına Kasım 2025'te 200 milyon $, Şubat 2026'da 300 milyon $ yıllık gelire ulaştı. Pazar tahminleri gerçeğin gerisinde.",
+"The Information'a atfedilen Ekim 2025 rakamı 150 milyon $ abonelik geliri ve 5 milyondan fazla abone ima ediyordu; Suno Şubat 2026'da 2 milyon abone açıkladı. Arama özeti, sayfa açılmadı.",
+"ACE-Step 1.5 lisansı Hugging Face model kartında MIT; ComfyUI Wiki Apache 2.0 yazıyor. Birincil kaynak MIT.",
+"YuE ilk sürümü 30 Ocak 2025'te Apache 2.0 oldu; YuE2 ağırlıkları ticari olmayan lisansla geliyor. Açık lisanslar sıkılaşıyor.",
+"Google'ın ProducerAI alımı CB Insights'ta Şubat 2026, PrivSource'ta 6 Mart 2026 tarihli.",
+"TÜBİTAK BİGG için 2026 haberinde yüzde 3 hisse karşılığı 1,35 milyon TL; 2022 özet formunda Aşama 2 hibesi en çok 450 bin TL. Haber sayfası açılamadı.",
+"WIN bilgi notunda etiketler karışık basılmış; 144,3 milyon $'ın kayıtlı müzik geliri olduğu yorumdur.",
+"Suno D serisi için araştırmada 3 Haziran 2026 yazıyordu; Goodwin duyurusu 8 Haziran 2026 tarihli, MBW yalnız Haziran 2026 diyor. Kesin kapanış günü bulunamadı.",
+"Karşı okuma (yuksek): Mağaza paketi ayda 1.750 TL, yaklaşık 40 $ fiyatla satılır. İtiraz: Bu fiyat, mağazanın kaçınmak istediği meslek birliği bedelinin 1,7 ile 3,5 katı. Telifsiz müziğin satış gerekçesi bu bedelden kurtulmaksa, fiyat bu bedelin altında kalmak zorunda. Avrupa'da tam lisanslı, milyonlarca parçalı mağaza servisi bile bölge başına ayda 29 avrodan başlıyor. Gerçekçi fiyat ayda 400 ile 1.000 TL, yani 10 ile 25 $ bandı.",
+"Karşı okuma (yuksek): İşyerinde lisans zorunlu olduğu için talep dayanağı var; 5. yılda 1.500 ile 3.000 mağaza abone olur. İtiraz: Zorunluluk kâğıt üzerinde. Küçük işletmelerin çoğu bugün hiç ödemiyor; ödemeyen mağaza telifsiz servise de para vermez. Mektup giden işletmelerin yalnız beşte biri sözleşme imzaladı. Mağaza sayısı varsayımı iyimser.",
+"Karşı okuma (yuksek): Türkiye'de bu işi yapan rakip yok; boşluk var. İtiraz: Çalışma yalnız yapay zekâ müzik girişimi aradı. Asıl rakip, mağazalara meslek birliği bedeli gerektirmeyen müzik satan yerli servisler. Symbie 2014'ten beri bunu yabancı bir müzik kütüphanesiyle yapıyor ve 2017'de büyük AVM'ler dahil bin noktayı geçmişti. Yani iş modeli yapay zekâsız da yapılıyor; model eğitmek fark yaratmıyor.",
+"Karşı okuma (yuksek): Lisanslı veriyle eğitilmiş model ve içerik üreticisi aboneliği sürdürülebilir; lisanslı katalog ilk girene koruma sağlar. İtiraz: Aynı modeli kuran Beatoven.ai, lisanslı veriyle kendi temel modelini eğitti, 2 milyon kullanıcıya ulaştı ve yine de tüketici hizmetini Ağustos 2026'da kapattı. Kurucu, kullanıcı tutmanın baş sorun olduğunu ve lisans almanın çok zor olduğunu söyledi. Ekip başka şirkete geçti, satış bedeli açıklanmadı. Lisanslı veri koruma değil, maliyet oldu.",
+"Karşı okuma (yuksek): 1.000 saat lisanslı ya da ısmarlama kayıt 100 bin $ tutar, saat başı 100 $. İtiraz: 1.000 saat yaklaşık 17.000 parça eder; bu da parça başı 6 $ demek. Pazar lideri telifsiz müzik şirketi sanatçıya parça başı 1.775 ile 8.000 $ sabit ücret ödüyor. Eğitim lisansı satın alma ile aynı değil, ama fark yüzlerce kat. Veri kalemi büyük olasılıkla birkaç kat düşük yazılmış.",
+"Karşı okuma (orta): Veri ortağına yüzde 15 pay verilir, brüt marj yüzde 75 olur. İtiraz: Emsal lisanslarda hak sahipleri gelir payı ve en çok kayırılan taraf maddesi istiyor; eser ve kayıt hakları ayrı ayrı lisanslanıyor, çıktı için dış denetimli içerik tanıma şartı konuyor. Türkiye'de de söz ve beste için MESAM ya da MSG, kayıt için plak şirketi ayrı taraf. Yüzde 15 düşük; yüzde 25 ile 35 daha gerçekçi, marj yüzde 60 ile 65.",
+"Karşı okuma (orta): Yapay zekâ müziği çalan işletme meslek birliği bedelinden kurtulur; fiyat avantajı buradan gelir. İtiraz: Meslek birlikleri cihaz ve kaynak ayırt etmeden ödeme istiyor; yabancı eserler için de talep ettikleri haberleştirildi. İspat yükü işletmede kalır; telifsiz servis müşteriyi ihtarnameden korumazsa satış gerekçesi çöker. Çalışma bunu durdurma koşulu yaptı ama ekonomi modeli bu koşulun olumlu çıkacağını varsayıyor.",
+"Karşı okuma (orta): Ajans ve içerik üreticisi gelirleri, ayda 150 $ ajans lisansı ve 4 $ üretici aboneliği ile yıl 5'te 0,42 ile 0,75 milyon $ getirir. İtiraz: Bu segmentte küresel dev var. Epidemic Sound 2024'te 181,6 milyon $ gelir yaptı ve dünyanın en büyük 200 YouTuber'ının yaklaşık yüzde 75'ine müzik veriyor. CEO, modellerin metaya dönüştüğünü, farkın veri sahipliği ve dağıtımda olduğunu söylüyor. Türk ajanslar ve üreticiler zaten küresel kataloglara erişiyor; yerel girişim için pay küçük kalır."
+],
+"degisiklikler": [
+"25 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"25 Ekim 2026 bağımsız karşı okuma eklendi: yıl 5 brüt kâr 0,17 ile 0,63 milyon dolara düşürüldü; 0,2 milyon dolarlık pilot yerine önce 15 bin dolarlık üç test",
+"Suno D serisi tarihi 3 Haziran 2026 yerine Haziran 2026 yapıldı; Goodwin sayfası 8 Haziran 2026 tarihli, sayfada 3 Haziran yok. Rakamlar, takvim, Bond Capital notu, emsaller ve calisma_md düzeltildi.",
+"GEMA kararında her ihlal için 250 bin avro ceza iddiası silindi; JUVE sayfasında yok. Yerine sayfadaki 6 eser ve tazminatın belirlenmediği bilgisi kondu.",
+"MESAM, MSG ve MÜYAP çalıştayı tarihi 7 Nisan 2026 yerine 4 Nisan 2026 yapıldı; haber 4 Nisan 2026'da yayımlanmış, 7 Nisan güncelleme tarihi. Takvim, cevaplar ve calisma_md düzeltildi.",
+"Takvimde Udio Nisan 2024 satırından 10 milyon $ çıkarıldı; dayandığı Universal ile Udio sayfasında bu tutar yok, yalnız a16z, will.i.am ve Mike Krieger desteği var. Tutar emsallerde arama özeti notuyla kaldı.",
+"Suno'nun 775 milyon $ üstü topladığı cümlesi [3]'e dayanıyordu; sayfada yok. Bilinen üç turun toplamı olarak [18][2][3] ile ve bizim hesabımız diye işaretlendi.",
+"Ekonomi: yıl 2 brüt kârı 0,19 yerine 0,18; 300 mağaza, 30 ajans, 1.000 içerik üreticisi 0,246 gelir ve yüzde 75 marjla 0,18 eder. Net nakit çıkışı yuvarlanmamış değerlerle 0,45 olarak kalır.",
+"Ekonomi: iyimser durumda birikimli nakit yıl 4 ortasında değil yıl 4'ün ilk yarısında, yaklaşık 3,3 yılda sıfırı geçer; 3,5 yıl özeti korundu. Kötümser 5 yıl doğrulandı.",
+"Suno 2024 turu emsalinde sayfada tarih olmadığı işaretlendi.",
+"Suno'nun 10 dolarlık aylık fiyatı ifadesi aylık ödemede yaklaşık 10 dolar diye netleştirildi; sayfada 8 $ yıllık ödemede, yüzde 20 indirimle.",
+"Suno C serisi katılımcılarına sayfadaki Hallwood Media eklendi.",
+"Takvime sayfada yazan 30 Eylül 2026 olgu toplama süresi sonu eklendi; MSG'nin yaklaşık 500 bin umuma açık mahalde telif takibi cevaplara eklendi.",
+"Kaynaksız tahminler işaretlendi: genel model 50 milyon $ üstü, sıfırdan model 0,4 ile 0,65 milyon $, ekonomi müşteri sayıları ve işletme giderleri.",
+"Doğrulanan ve değişmeyen: 300 milyon $, 2 milyon abone, 100 milyon kullanıcı, 2,45 ve 5,4 milyar $, 250 ve 400 milyon $, 8 ve 24 $, Mubert 149,29 ve 199 $, Soundraw 11,04 ve 16,99 $, Lambda 2,79 ve 3,99 $, WIN 144,3 milyon $ ve 99 TL, 2,5 milyar TL, ACE-Step 100.000 saat, 120 A100, 264 saat, 5 gün, 20.000 saat, 19 dil, 2 saniye, 4 GB, MIT, 560 eser, 84 milyon $, 61.026 kayıt, 18 ve 25 Ağustos, Kashie 300 bin $, AB 50. madde tarihleri ve 15 milyon avro, DataReportal 57,9 ve 77,5 milyon. Ekonomi yıl 3, yıl 5 ve bilet aritmetiği doğru."
+],
+"ne": "Metinden şarkı üreten Suno ve Udio benzeri bir yapay zekâ müzik programı yapmak. İncelenen altı giriş yolu: Suno'ya rakip genel model, açık modeli Türkçe ve makama ince ayarlayan tüketici uygulaması, hazır API üstüne uygulama, işletmelere lisanslı telifsiz müzik, Türk plak şirketiyle katalog ortaklığı ve bu alandaki bir girişime yatırım.",
+"neden": "Suno iki yılda 300 milyon dolar yıllık gelire ve 2 milyon ödeyen aboneye çıktı. Değerlemesi Kasım 2025 ile Haziran 2026 arasında 2,45 milyar dolardan 5,4 milyar dolara yükseldi. Ancak genel model yüz milyonlarca dolar ve lisanslı katalog ister. Küçük bir yatırımcı için anlamlı olan kısım, işletmelere lisanslı ve Türkçe telifsiz müzik satmak. Türkiye'de işyerinde müzik yayını için meslek birliği lisansı zorunlu. Türkiye'de bu işi yapan, yatırım almış bir girişim bulunamadı.",
+"rakamlar": [
+{
+"deger": "300 milyon $",
+"aciklama": "Suno yıllık yinelenen gelir, 25 Şubat 2026, şirket beyanı",
+"kaynak": "https://www.musicinafrica.net/node/384062"
+},
+{
+"deger": "2 milyon",
+"aciklama": "Suno ödeyen abone; toplam kullanıcı 100 milyonu aşkın, buradan yüzde 2 dönüşüm hesaplandı",
+"kaynak": "https://www.musicinafrica.net/node/384062"
+},
+{
+"deger": "5,4 milyar $",
+"aciklama": "Suno D serisi sonrası değerleme, Haziran 2026, 400 milyon $ üstü yatırım, yaklaşık 18 kat gelir; Goodwin duyurusu 8 Haziran 2026 tarihli",
+"kaynak": "https://www.goodwinlaw.com/en/news-and-events/news/2026/06/announcements-technology-goodwin-guides-suno-400-million-series-d"
+},
+{
+"deger": "8 $ ve 24 $",
+"aciklama": "Suno Pro ve Premier aylık fiyatı, yıllık ödemede; ücretsiz planda ticari hak yok",
+"kaynak": "https://suno.com/pricing"
+},
+{
+"deger": "149,29 $ ile 199 $",
+"aciklama": "Mubert Business aylık fiyatı, yıllık ve aylık ödemede, işletme ve ajans kullanımı",
+"kaynak": "https://mubert.com/render/pricing"
+},
+{
+"deger": "144,3 milyon $",
+"aciklama": "Türkiye kayıtlı müzik geliri, yüzde 60,1 büyüme, dünyada 24.; belge etiketleri karışık, okuma bizim",
+"kaynak": "https://winformusic.org/mp-files/bridge-country-factsheet-turkey.pdf/"
+},
+{
+"deger": "2,5 milyar TL",
+"aciklama": "MESAM ve MSG toplam telif hacmi, 27 Nisan 2026 açıklaması, tek kaynak",
+"kaynak": "https://www.gazetebirlik.com/kultur-sanat/muzik-dunyasinda-devrim-niteliginde-bulusma-telif-haklarinda-yeni-donem-basliyor/981571"
+},
+{
+"deger": "100.000 saat ve 46.080 kart saati",
+"aciklama": "ACE-Step ilk sürümünün eğitim verisi ve 120 A100 ile toplam hesap süresi: ana model 264 saat, ses sıkıştırıcı yaklaşık 5 gün",
+"kaynak": "https://arxiv.org/html/2506.00045v1"
+},
+{
+"deger": "2,79 $",
+"aciklama": "A100 80 GB bir saatlik bulut fiyatı; tek eğitim koşusu yaklaşık 129 bin $",
+"kaynak": "https://lambda.ai/pricing"
+},
+{
+"deger": "2 saniyenin altında",
+"aciklama": "ACE-Step 1.5 ile bir A100'de tam şarkı süresi; şarkı başı hesap maliyeti yaklaşık 0,0016 $",
+"kaynak": "https://huggingface.co/ACE-Step/acestep-v15-base/blob/main/README.md"
+},
+{
+"deger": "6 eser",
+"aciklama": "Münih Bölge Mahkemesi GEMA ile Suno kararında ihlal bulunan eser sayısı, 31 Temmuz 2026; tazminat tutarı belirlenmedi, karar kesin değil",
+"kaynak": "https://juve-patent.com/cases/munich-regional-court-stops-suno-using-gema-protected-music"
+},
+{
+"deger": "560 eser, yaklaşık 84 milyon $",
+"aciklama": "Universal ve Sony ile Suno davasında eser sayısı ve azami kanuni tazminat",
+"kaynak": "https://www.musicbusinessworldwide.com/umg-and-sony-accuse-suno-of-pirating-youtube-via-stream-ripping-to-train-its-ai/"
+},
+{
+"deger": "300 bin $",
+"aciklama": "Launchpoint'in Kashie.AI alımı, 29 Ocak 2026, küçük yapay zekâ müzik girişimi emsali",
+"kaynak": "https://www.privsource.com/acquisitions/deal/8WSJJG"
+},
+{
+"deger": "57,9 milyon",
+"aciklama": "Türkiye'de YouTube reklam erişimi, 2025 sonu",
+"kaynak": "https://datareportal.com/reports/digital-2026-turkey"
+}
+],
+"durum": "Pazar hızlı büyüyor ama hukukla şekilleniyor. Universal ve Warner, Udio ile; Warner, Suno ile 2025 sonunda uzlaştı ve lisans verdi; Universal ve Sony, Suno davasını sürdürüyor. Münih Bölge Mahkemesi 31 Temmuz 2026'da GEMA lehine karar verdi ve ezberleme varsa metin ve veri madenciliği istisnasının işlemediğini söyledi. AB Yapay Zekâ Yasası 50. madde 2 Ağustos 2026'dan beri uygulanıyor; önceden piyasada olan sistemler için işaretleme süresi 2 Aralık 2026'da doluyor. Türkiye'de meslek birlikleri genişletilmiş toplu lisans için yasa tasarısı hazırlıyor, tarih belli değil. MIT lisanslı ACE-Step 1.5 küçük bir ekibin ince ayar yapmasına imkân veriyor. Karşı okuma sonrası: Suno'ya rakip genel model yapılmamalı; bu hüküm ayakta. İşletmelere telifsiz müzik yolu da şu haliyle yatırım değil, izlenecek fikir. Gerekçe: mağaza fiyatı, kaçınılan meslek birliği bedelinin altında kalmak zorunda; küçük işletme bugün yılda 6.000 ile 12.500 TL ödüyor, çoğu hiç ödemiyor. Yerli rakip Symbie bu modeli yapay zekâsız, yabancı kütüphaneyle yıllardır yapıyor. Aynı lisanslı veri yolunu izleyen Beatoven.ai Ağustos 2026'da tüketici hizmetini kapattı. 0,2 milyon dolarlık pilot yerine önce üç ucuz test yapılmalı, toplam 15 bin doları geçmemeli: 20 mağazaya ayda 500 ile 900 TL fiyatla ni",
+"adimlar": [
+{
+"adim": "Fikri mülkiyet avukatından görüş: yapay zekâ çıktısının ve kaydın FSEK'teki durumu, mağaza yayınında meslek birliği ücreti",
+"kim": "Yönetim ve dış avukat",
+"ne_zaman": "15 Kasım 2026"
+},
+{
+"adim": "ACE-Step 1.5 ile 200 Türkçe ve makam örneği üret, 30 kişilik dinleyici paneliyle test et",
+"kim": "Bir makine öğrenmesi mühendisi ve bir müzisyen",
+"ne_zaman": "30 Kasım 2026"
+},
+{
+"adim": "Zoom Music, Dokuz Sekiz Müzik ve MÜYAP ile veri lisansı ve gelir paylaşımı görüşmesi",
+"kim": "İş geliştirme sorumlusu",
+"ne_zaman": "31 Aralık 2026"
+},
+{
+"adim": "20 mağaza ve AVM yöneticisi, 10 reklam ajansıyla talep görüşmesi ve niyet mektubu",
+"kim": "Satış sorumlusu",
+"ne_zaman": "31 Ocak 2027"
+},
+{
+"adim": "Pilot kararı: 0,2 milyon $ ve 9 ay; üç durdurma koşulu kontrol edilir",
+"kim": "Yönetim",
+"ne_zaman": "15 Şubat 2027"
+},
+{
+"adim": "Filigran ve makinece okunur işaretleme kurulumu, TÜBİTAK BİGG ya da teknokent başvurusu",
+"kim": "Ekip",
+"ne_zaman": "31 Mart 2027"
+}
+],
+"riskler": [
+"ACE-Step eğitim verisinin lisanslı olduğu şirket beyanıdır; lisanssız çıkarsa model değiştirilmek ya da yeniden eğitilmek zorunda kalır.",
+"MESAM, MSG ya da MÜYAP yapay zekâ müziği çalan işletmeden de ücret isterse fiyat avantajı kaybolur.",
+"Suno ve Udio Türkçe arayüzle zaten burada; lisanslı yeni modelleriyle Türkçe kaliteyi hızla yükseltebilirler.",
+"Türk tüketicinin ödeme gücü düşük; Spotify bireysel 99 TL, yani 2,26 $. Tüketici uygulaması gideri karşılamaz.",
+"Makam müziğinde kalite yetersiz kalabilir; yayımlanmış ölçüm yok.",
+"AB işaretleme kuralına uyulmazsa ceza 15 milyon avroya ya da cironun yüzde 3'üne kadar çıkar."
+],
+"takvim": [
+{
+"tarih": "Nisan 2024",
+"olay": "Udio halka açıldı; a16z, will.i.am ve Mike Krieger desteğiyle",
+"kaynak": "https://www.musicbusinessworldwide.com/universal-music-settles-udio-lawsuit-strikes-deal-for-licensed-ai-music-platform",
+"iso": "2024-04-15"
+},
+{
+"tarih": "29 Ekim 2025",
+"olay": "Universal ile Udio uzlaşması ve lisanslı platform anlaşması",
+"kaynak": "https://www.musicbusinessworldwide.com/universal-music-settles-udio-lawsuit-strikes-deal-for-licensed-ai-music-platform",
+"iso": "2025-10-29"
+},
+{
+"tarih": "19 Kasım 2025",
+"olay": "Warner ile Udio uzlaşması; Warner ile Stability AI ortaklığı",
+"kaynak": "https://www.musicbusinessworldwide.com/warner-music-group-settles-with-suno-strikes-first-of-its-kind-deal-with-ai-song-generator/",
+"iso": "2025-11-19"
+},
+{
+"tarih": "25 Kasım 2025",
+"olay": "Warner ile Suno lisans anlaşması ve Songkick satışı; Suno C serisi birkaç gün önce kapandı",
+"kaynak": "https://www.musicbusinessworldwide.com/warner-music-group-settles-with-suno-strikes-first-of-its-kind-deal-with-ai-song-generator/",
+"iso": "2025-11-25"
+},
+{
+"tarih": "25 Şubat 2026",
+"olay": "Suno 2 milyon abone ve 300 milyon $ yıllık gelir açıkladı",
+"kaynak": "https://www.musicinafrica.net/node/384062",
+"iso": "2026-02-25"
+},
+{
+"tarih": "4 Nisan 2026",
+"olay": "MESAM, MSG ve MÜYAP yapay zekâ ve telif çalıştayı haberi; toplu lisans tasarısı kararı",
+"kaynak": "https://www.gazetebirlik.com/kultur-sanat/muzik-sektorunde-yapay-zeka-ve-telif-haklari-icin-tarihi-zirve/971404",
+"iso": "2026-04-04"
+},
+{
+"tarih": "Haziran 2026",
+"olay": "Suno D serisi, 400 milyon $ üstü, 5,4 milyar $ değerleme; Goodwin duyurusu 8 Haziran 2026",
+"kaynak": "https://www.goodwinlaw.com/en/news-and-events/news/2026/06/announcements-technology-goodwin-guides-suno-400-million-series-d",
+"iso": "2026-06-15"
+},
+{
+"tarih": "31 Temmuz 2026",
+"olay": "Münih Bölge Mahkemesi GEMA ile Suno davasında GEMA lehine karar, kesin değil",
+"kaynak": "https://juve-patent.com/cases/munich-regional-court-stops-suno-using-gema-protected-music",
+"iso": "2026-07-31"
+},
+{
+"tarih": "2 Ağustos 2026",
+"olay": "AB Yapay Zekâ Yasası 50. madde şeffaflık yükümlülükleri yürürlükte",
+"kaynak": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-article50-watermarking-deadline/",
+"iso": "2026-08-02"
+},
+{
+"tarih": "18 ve 25 Ağustos 2026",
+"olay": "Yargıç Saylor akış kopyalama iddiasına izin verdi, düzeltilmiş dava dilekçesi verildi",
+"kaynak": "https://www.musicbusinessworldwide.com/umg-and-sony-accuse-suno-of-pirating-youtube-via-stream-ripping-to-train-its-ai/",
+"iso": "2026-08-25"
+},
+{
+"tarih": "30 Eylül 2026",
+"olay": "Universal ve Sony ile Suno davasında olgu toplama süresinin sonu, ardından adil kullanım özet karar talepleri",
+"kaynak": "https://www.musicbusinessworldwide.com/umg-and-sony-accuse-suno-of-pirating-youtube-via-stream-ripping-to-train-its-ai/",
+"iso": "2026-09-30"
+},
+{
+"tarih": "2 Aralık 2026",
+"olay": "Önceden piyasada olan üretken sistemler için makinece okunur işaretleme süresinin sonu",
+"kaynak": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-article50-watermarking-deadline/",
+"iso": "2026-12-02"
+},
+{
+"tarih": "2 Şubat 2027",
+"olay": "Şeffaflık uygulama kuralını imzalayanlar için ortak filigran tespiti",
+"kaynak": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-article50-watermarking-deadline/",
+"iso": "2027-02-02"
+}
+],
+"web": [
+{
+"url": "https://www.musicinafrica.net/node/384062",
+"ne": "Suno 2 milyon abone ve 300 milyon $ gelir, 100 milyon kullanıcı; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.musicbusinessworldwide.com/warner-music-group-settles-with-suno-strikes-first-of-its-kind-deal-with-ai-song-generator/",
+"ne": "Warner ile Suno anlaşması, Suno C serisi, Warner ile Udio ve Stability; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://www.goodwinlaw.com/en/news-and-events/news/2026/06/announcements-technology-goodwin-guides-suno-400-million-series-d",
+"ne": "Suno D serisi, hukuk bürosu duyurusu, 8 Haziran 2026 tarihli; çürütücü açtı",
+"tur": "firma"
+},
+{
+"url": "https://juve-patent.com/cases/munich-regional-court-stops-suno-using-gema-protected-music",
+"ne": "Münih Bölge Mahkemesi GEMA ile Suno kararı; çürütücü açtı, ceza tutarı sayfada yok",
+"tur": "haber"
+},
+{
+"url": "https://www.musicbusinessworldwide.com/universal-music-settles-udio-lawsuit-strikes-deal-for-licensed-ai-music-platform",
+"ne": "Universal ile Udio uzlaşması; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://www.musicbusinessworldwide.com/umg-and-sony-accuse-suno-of-pirating-youtube-via-stream-ripping-to-train-its-ai/",
+"ne": "Universal ve Sony ile Suno davası, Saylor kararları; çürütücü açtı, doğrulandı",
+"tur": "haber"
+},
+{
+"url": "https://huggingface.co/ACE-Step/acestep-v15-base/blob/main/README.md",
+"ne": "ACE-Step 1.5 model kartı, MIT lisansı, hız; çürütücü açtı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://arxiv.org/html/2506.00045v1",
+"ne": "ACE-Step teknik raporu, veri ve hesap süresi; çürütücü açtı, Tablo 3 ve 4 doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://raw.githubusercontent.com/multimodal-art-projection/YuE/main/README.md",
+"ne": "YuE2 lisansı",
+"tur": "firma"
+},
+{
+"url": "https://raw.githubusercontent.com/multimodal-art-projection/YuE/YuE-v1/README.md",
+"ne": "YuE ilk sürüm Apache 2.0 duyurusu",
+"tur": "firma"
+},
+{
+"url": "https://suno.com/pricing",
+"ne": "Suno fiyat ve plan koşulları; çürütücü açtı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://soundraw.io/pricing",
+"ne": "Soundraw fiyatları; çürütücü açtı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://mubert.com/render/pricing",
+"ne": "Mubert fiyatları; çürütücü açtı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://lambda.ai/pricing",
+"ne": "GPU bulut fiyatları; çürütücü açtı, doğrulandı",
+"tur": "firma"
+},
+{
+"url": "https://winformusic.org/mp-files/bridge-country-factsheet-turkey.pdf/",
+"ne": "Türkiye müzik pazarı bilgi notu, IFPI kaynaklı; çürütücü açtı, doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.gazetebirlik.com/kultur-sanat/muzik-sektorunde-yapay-zeka-ve-telif-haklari-icin-tarihi-zirve/971404",
+"ne": "MESAM, MSG ve MÜYAP yapay zekâ çalıştayı, 4 Nisan 2026 haberi; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://www.gazetebirlik.com/kultur-sanat/muzik-dunyasinda-devrim-niteliginde-bulusma-telif-haklarinda-yeni-donem-basliyor/981571",
+"ne": "MESAM ve MSG 2,5 milyar TL telif hacmi, 500 bin umuma açık mahal; çürütücü açtı",
+"tur": "haber"
+},
+{
+"url": "https://www.msg.org.tr/UploadedFiles/File/msg-yillik-seffaflik-raporu-2024-31082025.pdf",
+"ne": "MSG 2024 şeffaflık raporu, lisans zorunluluğu",
+"tur": "resmi"
+},
+{
+"url": "https://datareportal.com/reports/digital-2026-turkey",
+"ne": "Türkiye internet ve YouTube erişimi; çürütücü açtı, doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.copyright.gov/ai/",
+"ne": "ABD Telif Ofisi yapay zekâ raporu bölümleri ve tarihleri",
+"tur": "resmi"
+},
+{
+"url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-article50-watermarking-deadline/",
+"ne": "AB Yapay Zekâ Yasası 50. madde tarihleri ve ceza; çürütücü açtı, doğrulandı",
+"tur": "rapor"
+},
+{
+"url": "https://www.privsource.com/acquisitions/deal/8WSJJG",
+"ne": "Launchpoint ile Kashie.AI alımı, Splice ile Kits AI; çürütücü açtı, doğrulandı",
+"tur": "diger"
+},
+{
+"url": "https://www.privsource.com/acquisitions/deal/google-acquires-producerai-G5SYr8",
+"ne": "Google ile ProducerAI alımı ve diğer alımlar",
+"tur": "diger"
+},
+{
+"url": "https://www.internethaber.com/bigg-yatirim-programi-2026-ikinci-cagrisi-suruyor-kimler-basvurabilir-son-tarih-ne-zaman-2459072h.htm",
+"ne": "TÜBİTAK BİGG 2026 çağrısı; açılamadı, HTTP 403",
+"tur": "haber"
+},
+{
+"url": "https://gazeteoksijen.com/bilim-ve-teknoloji/spotifyin-turkiye-hamlesi-280109",
+"ne": "Spotify Türkiye kullanıcı tahmini; açılamadı, HTTP 403",
+"tur": "haber"
+},
+{
+"url": "https://github.com/ASLP-lab/DiffRhythm",
+"ne": "DiffRhythm lisansı; açılamadı",
+"tur": "firma"
+}
+],
+"ekonomi": {
+"bilet": "Önerilen d yolu: 24 ayda yaklaşık 0,66 milyon $, ilk 12 ayda 0,30 milyon $. Ekip 340 bin $, kayıt ve veri lisansı 100 bin $, ince ayar hesabı 42 bin $, barındırma 36 bin $, hukuk 40 bin $, satış 100 bin $. GPU fiyatı kaynaklı, diğerleri tahmin. Karşı okuma: model eğitmeden önce toplam 15 bin doları geçmeyen üç test; mağaza niyet mektubu, MESAM ve MSG yazılı görüşü, plak şirketinden yazılı veri fiyatı.",
+"sure_ilk_gelir": "7 ile 9 ay; pilot ürün ve ilk mağaza abonelikleri. Tahmin.",
+"yil3": "Gelir 0,47 ile 0,82 milyon $, brüt kâr 0,36 ile 0,61 milyon $. 600 ile 1.000 mağaza, 50 ile 80 ajans, 2.000 ile 4.000 içerik üreticisi varsayımı, tahmin.",
+"yil5": "Gelir 1,14 ile 2,19 milyon $, brüt kâr 0,86 ile 1,64 milyon $. 1.500 ile 3.000 mağaza, 100 ile 150 ajans, 5.000 ile 10.000 içerik üreticisi varsayımı, tahmin. Bağımsız karşı okuma düzeltmesi, planlamada bunu kullan: 0,17 ile 0,63 milyon $, tahmin. Dayanak: 800 ile 2.000 mağaza, ayda 15 ile 25 $; 50 ile 100 ajans, ayda 150 $; 1.000 ile 4.000 içerik üreticisi, ayda 4 $; toplam gelir 0,28 ile 0,97 milyon $; veri ortağı payı yüzde 25 ile 35 alınınca brüt marj yüzde 60 ile 65. Yıl 5 işletme gideri 0,5 milyon $ kalırsa alt uçta zarar sürer, geri ödeme 5 yıl içinde yok sayılmalı.",
+"geri_odeme": "Girişten itibaren 3,5 ile 5 yıl. Net nakit çıkışı yaklaşık 0,45 milyon $; yıl 1 brüt kârı 0,02, yıl 2 brüt kârı 0,18; işletme gideri yıl 3'te 0,38, yıl 4'te 0,45, yıl 5'te 0,5 milyon $ varsayıldı, tahmin. Karşı okuma: alt uçta zarar sürer; 5 yıl içinde geri ödeme yok sayılmalı.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kâr 0,17 ile 0,63 milyon dolar (karşı okuma düzeltmesi; ilk senaryo 0,86 ile 1,64): 800 ile 2.000 mağaza ayda 15 ile 25 dolar, 50 ile 100 ajans, 1.000 ile 4.000 içerik üreticisi; hak sahibi payı sonrası marj yüzde 60 ile 65, tahmin.",
+"varsayimlar": "Mağaza paketi ayda 1.750 TL, yaklaşık 40 $, tahmin; Mubert Business 149 ile 199 $ ve Soundraw 11 ile 17 $ arasına konumlandı. Ajans lisansı ayda 150 $, Mubert Business düzeyi. İçerik üreticisi ayda 4 $, tahmin. Ödeme dönüşümü yüzde 2, Suno'nun 2 milyon abone ve 100 milyon kullanıcı rakamından. Brüt marj yüzde 75, tahmin: veri ortağına yüzde 15, mağaza komisyonu ve barındırma yüzde 10. Kur 1 $ yaklaşık 43,8 TL, WIN Nisan 2026. Şarkı başı çıkarım 0,0016 $, dört kat payla 0,006 $. Ekip kişi başı yılda 40 bin $, tahmin."
+},
+"emsaller": [
+{
+"tarih": "Nisan 2024",
+"taraflar": "Udio tohum turu, a16z öncülüğünde, will.i.am ve Mike Krieger katılımıyla",
+"bedel": "10 milyon $",
+"birim": "değerleme açıklanmadı; arama sonucu, sayfa açılmadı",
+"kaynak": "https://www.musicbusinessworldwide.com/new-ai-powered-instant-music-making-app-udio-raises-10m-launches-with-backing-from-will-i-am-common-unitedmasters-a16z"
+},
+{
+"tarih": "2024, sayfada tarih yok",
+"taraflar": "Suno yatırım turu",
+"bedel": "125 milyon $",
+"birim": "yaklaşık 500 milyon $ değerleme",
+"kaynak": "https://www.musicbusinessworldwide.com/umg-and-sony-accuse-suno-of-pirating-youtube-via-stream-ripping-to-train-its-ai/"
+},
+{
+"tarih": "Kasım 2025",
+"taraflar": "Suno C serisi, Menlo Ventures öncülüğünde, NVentures, Hallwood Media, Lightspeed, Matrix",
+"bedel": "250 milyon $",
+"birim": "2,45 milyar $ değerleme, 200 milyon $ gelirle yaklaşık 12,3 kat",
+"kaynak": "https://www.musicbusinessworldwide.com/warner-music-group-settles-with-suno-strikes-first-of-its-kind-deal-with-ai-song-generator/"
+},
+{
+"tarih": "Haziran 2026",
+"taraflar": "Suno D serisi, Bond Capital öncülüğünde",
+"bedel": "400 milyon $ üstü",
+"birim": "5,4 milyar $ değerleme, 300 milyon $ gelirle yaklaşık 18 kat",
+"kaynak": "https://www.goodwinlaw.com/en/news-and-events/news/2026/06/announcements-technology-goodwin-guides-suno-400-million-series-d"
+},
+{
+"tarih": "29 Ekim 2025",
+"taraflar": "Universal Music Group ile Udio uzlaşması ve lisansı",
+"bedel": "açıklanmadı",
+"birim": "kayıt ve yayıncılık lisansı, kapalı platform",
+"kaynak": "https://www.musicbusinessworldwide.com/universal-music-settles-udio-lawsuit-strikes-deal-for-licensed-ai-music-platform"
+},
+{
+"tarih": "25 Kasım 2025",
+"taraflar": "Warner Music Group ile Suno lisansı ve Songkick satışı",
+"bedel": "açıklanmadı",
+"birim": "sanatçı onayı esaslı lisans",
+"kaynak": "https://www.musicbusinessworldwide.com/warner-music-group-settles-with-suno-strikes-first-of-its-kind-deal-with-ai-song-generator/"
+},
+{
+"tarih": "29 Ocak 2026",
+"taraflar": "Launchpoint, Kashie.AI'ı aldı",
+"bedel": "300 bin $",
+"birim": "ekip alımı, kurucular Launchpoint'e katıldı",
+"kaynak": "https://www.privsource.com/acquisitions/deal/8WSJJG"
+},
+{
+"tarih": "6 Mart 2026",
+"taraflar": "Google, ProducerAI'ı aldı",
+"bedel": "açıklanmadı",
+"birim": "ekip ve ürün, Google Labs",
+"kaynak": "https://www.privsource.com/acquisitions/deal/google-acquires-producerai-G5SYr8"
+}
+],
+"cevaplar": [
+{
+"soru": "Pazar ne kadar, Suno ve Udio ne kadar büyük?",
+"durum": "kismen",
+"cevap": "Suno 25 Şubat 2026'da 300 milyon $ yıllık gelir ve 2 milyon abone açıkladı. Genel pazar için resmi ölçüm yok; ikincil tahmin 2024 için 569,7 milyon $ ve Suno gelirinin gerisinde. Udio kullanıcı ve gelir rakamı bulunamadı.",
+"kaynak": "https://www.musicinafrica.net/node/384062",
+"kime": "Udio rakamları için sektör raporu ya da Udio yatırımcı ilişkileri"
+},
+{
+"soru": "Türkiye müzik pazarı ve işletme müziği talebi ne?",
+"durum": "kismen",
+"cevap": "Kayıtlı müzik geliri 144,3 milyon $, yüzde 87 dijital; MESAM ve MSG telif hacmi 2,5 milyar TL. MSG yaklaşık 500 bin umuma açık mahalde telif takibi yapıyor. İşyerinde müzik yayını için lisans zorunlu. Mağaza ve AVM tarife bedeli bulunamadı.",
+"kaynak": "https://winformusic.org/mp-files/bridge-country-factsheet-turkey.pdf/",
+"kime": "MSG ve MESAM tarife birimleri, bir AVM işletme müdürü"
+},
+{
+"soru": "Mevcut modellerin Türkçe ve makam kalitesi nasıl?",
+"durum": "gorusme",
+"cevap": "Yayımlanmış ölçüm bulunamadı. ACE-Step 1.5 50'den fazla dili destekliyor; makam koma aralıkları için test gerekiyor.",
+"kaynak": "https://huggingface.co/ACE-Step/acestep-v15-base/blob/main/README.md",
+"kime": "Bir makine öğrenmesi mühendisi ve Türk müziği icracısıyla 200 örneklik dinleyici testi"
+},
+{
+"soru": "Lisanssız veriyle eğitilmiş model Türkiye'de ve dünyada satılabilir mi?",
+"durum": "cevaplandi",
+"cevap": "Fiilen satılıyor ama hukuken korunmuyor. Almanya'da GEMA kararı var, ABD'de adil kullanım kararı bekleniyor, Türkiye FSEK'te metin ve veri madenciliği istisnası yok. Küçük bir girişim için lisanssız model satılmamalı.",
+"kaynak": "https://juve-patent.com/cases/munich-regional-court-stops-suno-using-gema-protected-music",
+"kime": "Türk hukuku okuması için fikri mülkiyet avukatı teyidi"
+},
+{
+"soru": "Model eğitmek ve ince ayarlamak ne ister?",
+"durum": "cevaplandi",
+"cevap": "Sıfırdan: 100.000 saat veri ve 46.080 A100 saati, tek koşu yaklaşık 129 bin $, denemelerle 0,4 ile 0,65 milyon $, tahmin; asıl engel lisanslı veri. İnce ayar: 1.000 saat veriyle beş koşu yaklaşık 42 bin $, saat sayısı tahmin. Şarkı başı çıkarım yaklaşık 0,0016 $.",
+"kaynak": "https://arxiv.org/html/2506.00045v1",
+"kime": "yok"
+},
+{
+"soru": "Türkiye'de yapay zekâ müzik girişimi var mı?",
+"durum": "kismen",
+"cevap": "Yatırım almış Türk yapay zekâ müzik girişimi bulunamadı.",
+"kaynak": "https://www.gazetebirlik.com/kultur-sanat/muzik-sektorunde-yapay-zeka-ve-telif-haklari-icin-tarihi-zirve/971404",
+"kime": "Startups.watch ve Webrazzi veri tabanları, teknokent yöneticileri"
+},
+{
+"soru": "MESAM ve MSG'nin tutumu ne?",
+"durum": "cevaplandi",
+"cevap": "4 Nisan 2026'da haberleştirilen çalıştayda MESAM, MSG ve MÜYAP genişletilmiş toplu lisans modelini savundu ve yasa tasarısı olarak Kültür ve Turizm Bakanlığına sunmaya karar verdi.",
+"kaynak": "https://www.gazetebirlik.com/kultur-sanat/muzik-sektorunde-yapay-zeka-ve-telif-haklari-icin-tarihi-zirve/971404",
+"kime": "Yapay zekâ müziği çalan işletmeden ücret alınıp alınmayacağı için MESAM hukuk birimi"
+}
+],
+"kapilar": {
+"yatirim": "ikisi",
+"butce": 2,
+"butce_not": "Önerilen yol için ilk 24 ayda toplam yaklaşık 0,66 milyon $, ilk 12 ayda yaklaşık 0,30 milyon $; önce 9 aylık 0,2 milyon $ pilot. Kalemler tahmin, GPU fiyatı kaynaklı. Suno'ya rakip genel model ise 50 milyon $ üstü ister, tahmin, dilim 4.",
+"yol": "ikisi",
+"yol_not": "Küçük ekip kurulur: bir makine öğrenmesi mühendisi, bir yazılım ve ürün kişisi, bir müzik yapımcısı, yarı zamanlı satış. Lisanslı Türkçe ve makam verisi için Türk plak şirketiyle ya da MÜYAP ile ortaklık yapılır."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "kismi",
+"acik_sorular": [
+"Kısmen cevaplandı: Pazar ne kadar, Suno ve Udio ne kadar büyük?",
+"Kısmen cevaplandı: Türkiye müzik pazarı ve işletme müziği talebi ne?",
+"Görüşme gerekir: Mevcut modellerin Türkçe ve makam kalitesi nasıl? (Bir makine öğrenmesi mühendisi ve Türk müziği icracısıyla 200 örneklik dinleyici testi)",
+"Kısmen cevaplandı: Türkiye'de yapay zekâ müzik girişimi var mı?"
+],
+"bant": "izle",
+"puan_metni": "Yönetici isteğiyle derin çalışma (25 Ekim 2026), bant önerisi izle: Pazar büyük ve kanıtlı, ama Suno'ya rakip genel model küçük bilete uymuyor ve hukuken kapalı. Küçük biletli işletme müziği yolunun geri ödemesi 3,5 ile 5 yıl ve müşteri sayıları tahmin. İki belirleyici soru açık: meslek birliklerinin yapay zekâ müziğine tutumu ve temel modelin veri temizliği. Giren kazanır testi 10 üzerinden 5. Bu yüzden izlenmeli; avukat görüşü ve dinleyici testi olumluysa 0,2 milyon $'lık pilotla ikincil banda çıkabilir.",
+"kapsam_notu": "25 Ekim 2026 derin çalışma: 16 arama, 24 sayfa; 7 açık sorunun 3 tanesi cevaplandı, 1 tanesi görüşme gerektiriyor. Çürütücü 18 sayfa açtı, güven 4/5. Türkçe ve makam müziğinde model kalitesine dair yayımlanmış ölçüm bulunamadı. Mağaza ve AVM müzik lisans tarifesi, MSG raporundaki gelir tabloları görsel olduğu için okunamadı. Udio kullanıcı ve gelir rakamı, ElevenLabs Music fiyatı, AIVA ve Boomy güncel rakamları bulunamadı. Udio 10 milyon $ turu, ElevenLabs lisansları, Grand View pazar tahmini ve BİGG 2026 tutarı yalnız arama özetinden; sayfaları açılmadı. FSEK'te metin ve veri madenciliği istisnası olmadığı ve yapay zekâ çıktısının korunmadığı yorumu doktrine ve bizim okumamıza dayanır; resmi metin açılmadı. ACE-Step'in lisanslı veri beyanı doğrulanmadı. Suno davasında olgu toplama süresinin 30 Eylül 2026'da kapandığı tek kaynaklı; özet karar tarihi bulunamadı. GEMA kararında tazminat tutarı henüz belirlenmedi. Suno D serisinin kesin kapanış günü bulunamadı. Ekonomi modelindeki müşteri sayıları, ekip maliyeti, veri lisans bedeli ve brüt marj tahmindir. GitHub, internethaber ve gazeteoksijen sayfaları açılamadı. Çürütücü 18 sayfa açtı; MSG raporu, ProducerAI, ABD Telif Ofisi, YuE ve Udio 10 milyon $ sayfaları bu turda yeniden açılmadı. Karşı okuma ajanı 11 sayfa açtı, 10 arama yaptı.",
+"guven": 4,
+"tarih": "25 Ekim 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "Bağımsız",
+"kol_id": "bag_ozel",
+"kol_ad": "Özel firmalar",
+"kisa": "Yapay zekâlı müzik programı (Suno gibi)",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_yz_muzik",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 1.0,
+"H": 3.67,
+"R": 1.0,
+"E": 2.0,
+"M": 1.0,
+"S": 3.0,
+"B": 4,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 0,17 ile 0,63 milyon dolar, tahmin; geri ödeme yok.",
+"H": "İlk gelir 7 ile 9 ay, tahmin; önce 9 aylık 0,2 milyon dolar pilot.",
+"R": "Beatoven.ai Ağustos 2026 kapattı; ACE-Step lisansı beyan, MESAM tutumu belirsiz, Suno rakip.",
+"E": "Veri lisansı MÜYAP ve plakçıyla görüşülecek; Symbie yerleşik, küçük işletmelerin çoğu ödemiyor.",
+"M": "Bağımsız alan; tesis, makine ve satış kanalıyla bağlantı yok.",
+"S": "Taş ve tozdan bağımsız; teknoloji açık model ince ayarı, Suno Türkçe zaten burada."
+},
+"puan_yayilim": []
+},
 "belirsiz": {
 "dal": "bagimsiz",
 "kol": "belirsiz",
@@ -43477,6 +45635,7 @@ window.MEKA_DATA = {
 "res_kule",
 "test_lab",
 "veri_merkezi",
+"gelecek_sehir",
 "izle_meka",
 "beylikova",
 "belediye",
@@ -43577,6 +45736,8 @@ window.MEKA_DATA = {
 "lisansli_ges",
 "elektroland",
 "hibrit_tohum",
+"yz_cae_cad",
+"yz_muzik",
 "izle_bagimsiz",
 "belirsiz"
 ]
@@ -43680,6 +45841,7 @@ window.MEKA_DATA = {
 "res_kule",
 "test_lab",
 "veri_merkezi",
+"gelecek_sehir",
 "izle_meka"
 ]
 },
@@ -44060,6 +46222,8 @@ window.MEKA_DATA = {
 "lisansli_ges",
 "elektroland",
 "hibrit_tohum",
+"yz_cae_cad",
+"yz_muzik",
 "izle_bagimsiz",
 "belirsiz"
 ]
@@ -44326,6 +46490,13 @@ window.MEKA_DATA = {
 "konu_id": ""
 },
 {
+"tarih": "26 Ekim 2026",
+"iso": "2026-10-26",
+"olay": "11. tur: yapay zekâlı simülasyon ve CAD yazılımı Suno gibi yapay zekâlı müzik programı ve NEOM gibi geleceğin şehirleri fırsatları eklendi ve puanlandı",
+"kaynak": "bu uygulama",
+"konu_id": ""
+},
+{
 "tarih": "27 Ekim 2026",
 "iso": "2026-10-27",
 "olay": "Türkiye ETS ilk izleme planları (tek kaynak)",
@@ -44389,6 +46560,13 @@ window.MEKA_DATA = {
 "konu_id": "mineral"
 },
 {
+"tarih": "9 Kasım 2026",
+"iso": "2026-11-09",
+"olay": "TÜBİTAK 1507 2026-2 kuruluş ön kayıt son günü",
+"kaynak": "https://www.tubitak.gov.tr/sites/default/files/2026-07/1507_KOBI_Ar-Ge_Baslangic_Destek_Programlari_2026-2_Proje_Cagri_Metni_13.07.2026_v2.pdf",
+"konu_id": "yz_cae_cad"
+},
+{
 "tarih": "10 Kasım 2026",
 "iso": "2026-11-10",
 "olay": "Çin'in lityum batarya ve malzeme ihracat kontrolü askıya alma süresinin bitişi; Meticulous aktarımı, doğrulandı",
@@ -44401,6 +46579,13 @@ window.MEKA_DATA = {
 "olay": "Çin Ekim 2025 askısının ilk bitiş tarihi; Rinnovabili'ye göre 10 Ocak 2027'ye uzatıldı.",
 "kaynak": "rapor https://www.fastmarkets.com/?p=135475 ; haber https://www.rinnovabili.net/policy-and-affairs/environmental-policies/chinese-rare-earth-exports-trump-xi-truce/",
 "konu_id": "nadir_toprak"
+},
+{
+"tarih": "11 Kasım 2026",
+"iso": "2026-11-11",
+"olay": "TÜBİTAK 1507 2026-2 çağrısı kapanıyor",
+"kaynak": "https://www.tubitak.gov.tr/sites/default/files/2026-07/1507_KOBI_Ar-Ge_Baslangic_Destek_Programlari_2026-2_Proje_Cagri_Metni_13.07.2026_v2.pdf",
+"konu_id": "yz_cae_cad"
 },
 {
 "tarih": "11 Kasım 2026",
@@ -44501,6 +46686,13 @@ window.MEKA_DATA = {
 "konu_id": "karbon_dogrula"
 },
 {
+"tarih": "19 Kasım 2026",
+"iso": "2026-11-19",
+"olay": "King Salman Stadyumu erken işler ihalesinde teklif son günü.",
+"kaynak": "https://guest.meed.com/rcrc-awards-riyadh-expo-metro-station-contract/",
+"konu_id": "gelecek_sehir"
+},
+{
 "tarih": "10 Ekim ile 20 Kasım 2026",
 "iso": "2026-11-20",
 "olay": "16 WOG Doğu Kalkanı malzemesi teslimleri (18 lot, 42,8 milyon PLN); 12 WOG D/29 ve 6 WOG 2026 sözleşmeleri de yıl sonuna kadar teslim.",
@@ -44569,6 +46761,13 @@ window.MEKA_DATA = {
 "olay": "Almanya dört TSO ilk olgunluk döngüsü bağlayıcı bağlantı teklifleri son günü; kabul için bir ay ve teminat ödemesi (Gleiss Lutz teyit). İngiltere Gate 2 Faz 1 dağıtım teklifleri tamamlanma hedefi iddiası doğrulanamadı.",
 "kaynak": "diger https://www.gleisslutz.com/de/know-how/update-finale-ausgestaltung-des-reifegradverfahrens-fuer-netzanschluesse-veroeffentlicht",
 "konu_id": "depolama_hak"
+},
+{
+"tarih": "2 Aralık 2026",
+"iso": "2026-12-02",
+"olay": "Önceden piyasada olan üretken sistemler için makinece okunur işaretleme süresinin sonu",
+"kaynak": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-article50-watermarking-deadline/",
+"konu_id": "yz_muzik"
 },
 {
 "tarih": "1 ile 5 Aralık 2026",
@@ -44837,6 +47036,13 @@ window.MEKA_DATA = {
 "konu_id": "cimento"
 },
 {
+"tarih": "2 Şubat 2027",
+"iso": "2027-02-02",
+"olay": "Şeffaflık uygulama kuralını imzalayanlar için ortak filigran tespiti",
+"kaynak": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-article50-watermarking-deadline/",
+"konu_id": "yz_muzik"
+},
+{
 "tarih": "Şubat 2027",
 "iso": "2027-02-15",
 "olay": "USGS Mineral Commodity Summaries 2027 yayını beklentisi; 2026 dosyasının tarihi 5 Şubat 2026 olarak PDF üst verisinde görüldü",
@@ -44905,6 +47111,13 @@ window.MEKA_DATA = {
 "olay": "6. ay karar kapısı: ortaklık imzası, en az bir niyet mektubu ve destekle 6 yılın altında geri ödeme varsa 1,5-2 M$ pilot kararı",
 "kaynak": "08, Öneriler ilk 6 ay; 07, İlk 6 ay; hesap",
 "konu_id": "termal"
+},
+{
+"tarih": "Mart 2027",
+"iso": "2027-03-15",
+"olay": "Türkiye'de 500 bin sosyal konutun teslimi başlayacak; arama özeti, tek kaynak.",
+"kaynak": "https://www.yenisafak.com/toki-son-deprem-konutlari-ne-zaman-teslim-edilecek-h-4780774",
+"konu_id": "gelecek_sehir"
 },
 {
 "tarih": "Mart 2027 ile Mart 2028",
@@ -45616,6 +47829,13 @@ window.MEKA_DATA = {
 {
 "tarih": "2028",
 "iso": "2028-06-30",
+"olay": "Irak Kalkınma Yolu ilk aşamasının bitmesi hedefleniyor; tasarım sonrası yedi parça halinde ihale.",
+"kaynak": "https://www.rudaw.net/english/middleeast/iraq/011220253",
+"konu_id": "gelecek_sehir"
+},
+{
+"tarih": "2028",
+"iso": "2028-06-30",
 "olay": "Somali üssünden ilk fırlatma hedefi (Yeni Şafak, arama özeti, sayfa açılmadı)",
 "kaynak": "https://www.yenisafak.com/hayat/somalide-turk-uzay-ussu-4667277 (açılamadı)",
 "konu_id": "lancer"
@@ -45698,6 +47918,13 @@ window.MEKA_DATA = {
 "konu_id": "sav_muhimmat"
 },
 {
+"tarih": "31 Aralık 2028",
+"iso": "2028-12-31",
+"olay": "Teknokent yazılım, tasarım ve Ar-Ge kazanç istisnasının bitişi, 4691 sayılı Kanun geçici 2. madde",
+"kaynak": "https://www.alomaliye.com/2026/02/10/teknokent-kazanclari-ve-vergi-istisnasi-nitelikli-harcamalarin-hesaplanmasi/",
+"konu_id": "yz_cae_cad"
+},
+{
 "tarih": "7 Mayıs 2029",
 "iso": "2029-05-07",
 "olay": "Roketsan laboratuvarının TÜRKAK sertifika geçerlilik sonu. Arama özeti, doğrulanamadı.",
@@ -45717,6 +47944,13 @@ window.MEKA_DATA = {
 "olay": "Uçak yer destek ekipmanı pazarı tahmini 7,4 milyar $; sektör tahmini.",
 "kaynak": "01 rapor, s_mro, 8.8 Askerî uçak yer destek ekipmanı",
 "konu_id": "sav_mro"
+},
+{
+"tarih": "2029",
+"iso": "2029-06-30",
+"olay": "King Salman Stadyumu inşaatının bitmesi planlanıyor.",
+"kaynak": "https://guest.meed.com/stadiums-become-main-event-for-saudi-construction/",
+"konu_id": "gelecek_sehir"
 },
 {
 "tarih": "2029",
@@ -45745,6 +47979,13 @@ window.MEKA_DATA = {
 "olay": "Kamu işlerinde klinker/çimento oranı üst sınırı 0,75'e iniyor.",
 "kaynak": "haber https://santiye.com.tr/yesil-cimento-nun-yayginlastirilmasina-iliskin-teblig-yayinlandi",
 "konu_id": "cimento"
+},
+{
+"tarih": "Mayıs 2030",
+"iso": "2030-05-15",
+"olay": "Qiddiya stadyumunun mekanik işlerinin bitmesi planlanıyor.",
+"kaynak": "https://www.arabnews.pk/business/saudi-chinese-consortium-wins-306m-qiddiya-stadium-contract-3004819",
+"konu_id": "gelecek_sehir"
 },
 {
 "tarih": "2030",
@@ -45794,6 +48035,13 @@ window.MEKA_DATA = {
 "olay": "HIT-30 toplam 30 milyar $ destek hedefi dönem sonu",
 "kaynak": "https://hit30.sanayi.gov.tr/en",
 "konu_id": "elektroland"
+},
+{
+"tarih": "1 Ekim 2030 ile 31 Mart 2031",
+"iso": "2030-10-01",
+"olay": "Expo 2030 Riyad.",
+"kaynak": "https://www.agbi.com/infrastructure/2026/01/saudi-arabia-awards-building-contract-for-expo-2030-site/",
+"konu_id": "gelecek_sehir"
 },
 {
 "tarih": "31 Aralık 2030",
@@ -46390,6 +48638,30 @@ window.MEKA_DATA = {
 "aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 6 açık sorunun 2 tanesi cevaplandı, 3 tanesi görüşmeye kaldı. 21 şirket, 6 emsal işlem. Kanıt 3/5."
 },
 {
+"no": "Ek",
+"ad": "Yapay zekâlı simülasyon ve CAD yazılımı: ANSYS ve SolidWorks benzeri program yapmak (derin çalışma)",
+"tarih": "25 Ekim 2026",
+"sayfa": 12,
+"pdf": "Calisma_yz_cae_cad.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 7 açık sorunun 3 tanesi cevaplandı, 2 tanesi görüşmeye kaldı. 22 şirket, 8 emsal işlem. Kanıt 3/5."
+},
+{
+"no": "Ek",
+"ad": "Yapay zekâlı müzik üretim programı: Suno benzeri uygulama (derin çalışma)",
+"tarih": "25 Ekim 2026",
+"sayfa": 11,
+"pdf": "Calisma_yz_muzik.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 7 açık sorunun 3 tanesi cevaplandı, 1 tanesi görüşmeye kaldı. 23 şirket, 8 emsal işlem. Kanıt 3/5."
+},
+{
+"no": "Ek",
+"ad": "Geleceğin şehirleri: NEOM gibi dev şehir projelerine tedarik ve ortaklık (derin çalışma)",
+"tarih": "26 Ekim 2026",
+"sayfa": 9,
+"pdf": "Calisma_gelecek_sehir.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 7 açık sorunun 3 tanesi cevaplandı, 2 tanesi görüşmeye kaldı. 19 şirket, 9 emsal işlem. Kanıt 3/5."
+},
+{
 "no": "Harita",
 "ad": "Fırsat haritası posteri",
 "tarih": "15 Ekim 2026",
@@ -46886,6 +49158,27 @@ window.MEKA_DATA = {
 "tur": "derin",
 "kisa": "Derin çalışma, 25 Ekim 2026",
 "sayfa_sayisi": 12
+},
+"c_yz_cae_cad": {
+"ad": "Yapay zekâlı simülasyon ve CAD yazılımı: ANSYS ve SolidWorks benzeri program yapmak: derin çalışma (25 Ekim 2026, 12 sayfa)",
+"pdf": "Calisma_yz_cae_cad.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 25 Ekim 2026",
+"sayfa_sayisi": 12
+},
+"c_yz_muzik": {
+"ad": "Yapay zekâlı müzik üretim programı: Suno benzeri uygulama: derin çalışma (25 Ekim 2026, 11 sayfa)",
+"pdf": "Calisma_yz_muzik.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 25 Ekim 2026",
+"sayfa_sayisi": 11
+},
+"c_gelecek_sehir": {
+"ad": "Geleceğin şehirleri: NEOM gibi dev şehir projelerine tedarik ve ortaklık: derin çalışma (26 Ekim 2026, 9 sayfa)",
+"pdf": "Calisma_gelecek_sehir.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 26 Ekim 2026",
+"sayfa_sayisi": 9
 }
 },
 "dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Alan ve grup yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz fırsatın hepsinin özeti var ve bölge sayıları haritayla tutuyor; fırsatlar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk fırsatlar arası ve fırsat ile bölge arası tutarlılıkta: haritanın ön bandı yedi fırsatta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir fırsatta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B fırsatlarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki fırsatın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
@@ -47376,7 +49669,7 @@ window.MEKA_DATA = {
 ],
 "esikler": {
 "yildiz": 41,
-"orta": 33
+"orta": 32
 },
 "yontem": [
 "Beş ölçüt (getiri, hız, risk, erişim, stratejik değer) üç bağımsız puanlayıcı tarafından, her fırsat için aynı kanıt paketinden 1 ile 5 arasında puanlandı. Üç puanın ortalaması alındı. MEKA uyumu da puanlanır ama genel puana katılmaz; yalnız işin MEKA ile ilgili alana mı bağımsız alana mı gireceğini belirleyen filtredir.",
@@ -47692,13 +49985,17 @@ window.MEKA_DATA = {
 ]
 },
 {
-"ad": "Yönetici soruları ve keşif: ATV, test laboratuvarı, veri merkezi, rüzgar kulesi",
-"tarih": "21 ile 25 Ekim 2026",
-"aciklama": "Yönetici ATV sektörünü (benzinli mi, elektrikli mi), titreşim test laboratuvarını ve veri merkezi kurmayı sordu: üçü de derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
+"ad": "Yönetici soruları ve keşif: ATV, test laboratuvarı, veri merkezi, yapay zekâ yazılımları, geleceğin şehirleri, rüzgar kulesi",
+"tarih": "21 ile 26 Ekim 2026",
+"aciklama": "Yönetici ATV sektörünü (benzinli mi, elektrikli mi), titreşim test laboratuvarını, veri merkezi kurmayı, yapay zekâlı simülasyon ve CAD programını Suno gibi bir müzik programını ve NEOM gibi geleceğin şehirlerini sordu: hepsi derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
 "yaprak_belgeleri": [
 {
 "yaprak": "res_kule",
 "dosya": "c_res_kule"
+},
+{
+"yaprak": "yz_cae_cad",
+"dosya": "c_yz_cae_cad"
 },
 {
 "yaprak": "atv_utv",
@@ -47711,6 +50008,14 @@ window.MEKA_DATA = {
 {
 "yaprak": "veri_merkezi",
 "dosya": "c_veri_merkezi"
+},
+{
+"yaprak": "gelecek_sehir",
+"dosya": "c_gelecek_sehir"
+},
+{
+"yaprak": "yz_muzik",
+"dosya": "c_yz_muzik"
 }
 ]
 },
