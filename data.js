@@ -2,9 +2,9 @@ window.MEKA_DATA = {
 "baslik": "İki alan, altı grup, 60 fırsat",
 "alt_baslik": "Her fırsatta bir sayfalık özet, altında tam çalışma. Üst alan kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 fırsat 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
-"derleme_tarihi": "26 Ekim 2026",
-"bugun_iso": "2026-10-26",
-"surum": "Sürüm 26 Ekim 2026, 11. tur · Yapay zekâlı simülasyon ve CAD, yapay zekâlı müzik ve geleceğin şehirleri fırsatları eklendi; 10. tur: veri merkezi; 9. tur: test laboratuvarı; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
+"derleme_tarihi": "2 Kasım 2026",
+"bugun_iso": "2026-11-02",
+"surum": "Sürüm 2 Kasım 2026, 12. tur · Çinli elektrikli otobüs üreticileri tek tek incelendi, 15 firma kartı Çin ortaklığı çalışmasına eklendi; 11. tur: Yapay zekâlı simülasyon ve CAD, yapay zekâlı müzik ve geleceğin şehirleri fırsatları eklendi; 10. tur: veri merkezi; 9. tur: test laboratuvarı; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
 "agac": [
 {
 "id": "meka",
@@ -5363,7 +5363,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 26 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört grubun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
+"butce_not": "Dilim 2 Kasım 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört grubun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
 "yol": "ortak",
 "yol_not": "Rapor yalnız alt yüklenicilik ve entegratörle ortaklık öneriyor; Koluman için doğal ortak ya da müşteri diyor. Kendi markalı vinç 1,55 puanla elenmiş. Yatırım tarafı varsayım: rapor Eskişehir tesisini esas alıyor, kişisel yatırım seçeneği çalışmalarda yok."
 },
@@ -5747,7 +5747,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 26 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
+"butce_not": "Dilim 2 Kasım 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
 "yol": "ikisi",
 "yol_not": "Varsayım. Rapor giriş yolu olarak NSPA tedarikçi kaydı ve Avrupa askerî MRO merkezlerine platform tedariki gösteriyor; bu MEKA'nın kendi ürettiği ürünün doğrudan satışı. Ayrıca TUSAŞ ve ASFAT ihracat programlarına alt yüklenicilik ile ASFAT portalı ve STM tedarikçi kaydı var. Ortaklık, lisans ya da pay alma önerisi çalışmalarda yok."
 },
@@ -7284,7 +7284,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "ikisi",
 "butce": 3,
-"butce_not": "Dilim 26 Ekim 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
+"butce_not": "Dilim 2 Kasım 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
 "yol": "ortak",
 "yol_not": "Yatırım kapısı 'ikisi' yapıldı: sahada MEKA makinesi gerekmiyor, şirket de kişi de girebilir (ajan değeri sirket). 08 Bölüm 5 önerilen karma: önce bölge EPC ve sözleşmeli imalat ortaklığı, üstüne hizmet olarak ısı pilotu, paralelde yerli firmaya yatırım keşfi. Sıfırdan Ar-Ge yalnız yerlileştirme mühendisliği düzeyinde; lisans ve yerel üretim ancak 2-3 referans sonra. Şirket üzerinden yürütme 07 ve 08'in MEKA odaklı kurgusundan çıkarım, varsayım. Yerli firmaya yatırım kişisel de olabilir, varsayım."
 },
@@ -13919,6 +13919,7 @@ window.MEKA_DATA = {
 "sonuc9 bağı, SSB batarya fırsatı: ASPİLSAN yerli batarya kaynağı olarak anılıyor; otobüs bataryası için fiyat ve kapasite bu turda bulunamadı."
 ],
 "degisiklikler": [
+"2 Kasım 2026: Çinli üreticilerin tek tek listesine yönlendirme eklendi",
 "20 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
 "Karsan 2025: sayfada 624 elektrikli satış rakamı yok; 555 ihracat ve 69 yurt içi satışın toplamı olduğu belirtildi, rakamlar, durum, firmalar, oyuncular tablosu ve çelişkiler listesine işlendi.",
 "OSD kapasite: açılan sayfada yüzde 68 otomotiv sektörünün Ocak ile Mayıs 2025 geneli, otobüs grubunun yıl geneli değil; rakamlar, riskler, özet, pazar tablosu, Türkiye bölümü ve çelişkiler buna göre düzeltildi, yüzde 62 ile 68 aralığı kaldırıldı.",
@@ -14504,38 +14505,92 @@ window.MEKA_DATA = {
 {
 "ad": "Yutong",
 "rol": "ortak_adayi",
-"not": "Kazakistan'da QazTehna ile ortak tesis, Katar'da Mowasalat ile ortaklık; Avrupa'da Yutong France ile ihale kazanıyor; Türkiye temsilcisi bulunamadı, Yutong ülke sitelerinde Türkiye yok.",
-"kaynak": "https://yutong.qa/pressmedia/yutong-news/2010/1670016910336593920.shtml"
+"not": "Öncelik ilk dalga. 2025 toplam teslimat 49.518 araç, artış yüzde 5,54. Yurt dışı ortakları: QazTehna (Kazakistan), Mowasalat (Katar). Türkiye: Türkiye distribütörü bulunamadı.",
+"kaynak": "https://tools.prnewswire.com/en-us/live/20813/release/20260128EN72885"
 },
 {
 "ad": "BYD",
 "rol": "ortak_adayi",
-"not": "Manisa otomobil fabrikası 10 Haziran 2026'da askıya alındı; Türkiye'de otobüs planı bulunamadı; Malezya'da Bus Cap ile otobüs montajı MOU'su.",
-"kaynak": "https://medyascope.tv/2026/06/10/byd-turkiye-fabrikasini-askiya-aldi/"
+"not": "Öncelik ikinci dalga. Otobüs için ayrı toplam satış rakamı bulunamadı. Yurt dışı ortakları: Castrosua (İspanya), Alexander Dennis (İngiltere). Türkiye: BYD Europe iletişim sayfasında Türkiye için ayrı otobüs satış adresi var: info.turkey@byd.com.",
+"kaynak": "https://www.chinabaogao.com/jingzheng/202511/769243.html"
 },
 {
-"ad": "Xiamen King Long",
+"ad": "Geely Yuancheng ve Farizon",
 "rol": "ortak_adayi",
-"not": "Dubrovnik 2026 e-otobüs ihalesinde kazananlar arasında; Türkiye bağı bulunamadı.",
-"kaynak": "https://ted.europa.eu/en/notice/-/detail/86930-2026"
+"not": "Öncelik ilk dalga. Bütün yeni enerjili ticari araç satışı 2025'te 162.019 (kamyon ve van dahil), dört yıldır Çin'de bu segmentte birinci. Yurt dışı ortakları: Handal Indonesia Motor, Arista Group (Endonezya), AMH, Automoción y Movilidad Hispania (İspanya). Türkiye: Türkiye distribütörü, satışı, ihale teklifi ve Türkiye planı bulunamadı.",
+"kaynak": "https://www.chinabaogao.com/jingzheng/202511/769243.html"
+},
+{
+"ad": "Zhongtong",
+"rol": "ortak_adayi",
+"not": "Öncelik ilk dalga. 2025 toplam satış 12.363 araç, artış yüzde 8,36. Yurt dışı ortakları: Al-Haj Automotive (Pakistan), Ghandhara Industries Limited (Pakistan). Türkiye: Türkiye distribütörü, satışı ya da ihale teklifi bulunamadı.",
+"kaynak": "https://pdf.dfcfw.com/pdf/H2_AN202604241821558136_1.pdf"
+},
+{
+"ad": "King Long",
+"rol": "ortak_adayi",
+"not": "Öncelik ikinci dalga. Tüm grubun 2025 rakamları Higer ve Golden Dragon dahil. Yurt dışı ortakları: Senegal hükümeti, Çin kredisiyle (Senegal), ATM Misr, bir Suudi şirketi (Mısır, Yeni Süveyş şehri). Türkiye: Türkiye distribütörü, satışı, ihale teklifi ya da Türkiye planı bulunamadı.",
+"kaynak": "https://pdf.dfcfw.com/pdf/H2_AN202604241821557062_1.pdf"
+},
+{
+"ad": "Golden Dragon",
+"rol": "ortak_adayi",
+"not": "Öncelik ilk dalga. 2025 üretimi 16.455 araç, kapasite 25.250, kullanım oranı yüzde 65,17. Yurt dışı ortakları: Ebusco (Avrupa pazarı için Çin'de üretim, teslim öncesi kontrol Hollanda ve Fransa'da), Yerel ortaklar, adı bulunamadı (Tunus). Türkiye: Türkiye distribütörü, satışı, ihale teklifi ya da planı bulunamadı.",
+"kaynak": "https://www.xmjl.com/HWFZ.html"
 },
 {
 "ad": "Higer",
 "rol": "ortak_adayi",
-"not": "Avrupa fuarlarında elektrikli modellerle aktif; Türkiye ve Kazakistan ortaklığı bu turda bulunamadı.",
-"kaynak": "https://www.sustainable-bus.com/events-public-transport/busworld-turkey-2026/"
+"not": "Öncelik ilk dalga. 2025 toplam satış 14.246 araç (Ticari Araçlar Dünyası, şirket beyanı, tek kaynak). Yurt dışı ortakları: Scania (İsveç), Mazouz grubu (Cezayir). Türkiye: Türkiye distribütörü bulunamadı.",
+"kaynak": "https://en.higer.com"
+},
+{
+"ad": "CRRC Electric Vehicle",
+"rol": "ortak_adayi",
+"not": "Öncelik ilk dalga. 6 metre üstü yeni enerjili otobüs 2025 Ocak-Eylül 2.015 adet, yüzde 10,41 artış, sektörde yedinci (观研). Yurt dışı ortakları: Ikarus (Macaristan), CaetanoBus (Portekiz). Türkiye: Türkiye distribütörü bulunamadı.",
+"kaynak": "https://zh.wikipedia.org/zh-cn/中车时代电动汽车"
+},
+{
+"ad": "Foton AUV",
+"rol": "ortak_adayi",
+"not": "Öncelik izle. Foton Motor otobüs satışı 2025 Ocak-Eylül: büyük otobüs 2.002, orta 2.094, hafif 30.251. Yurt dışı ortakları: KBES Bhd (Malezya), CP grubu (Tayland). Türkiye: Foton'un Türkiye'de kurulu ortağı var: Otokar, Foton Tunland pikabını kendi sitesinde Otokar Atlas ile birlikte satıyor; Vikipedi'ye göre Otokar Atlas kamyonu Foton lisansıyla üretiliyor (kaynaksız madde).",
+"kaynak": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600166&id=12631383"
+},
+{
+"ad": "Ankai",
+"rol": "ortak_adayi",
+"not": "Öncelik ilk dalga. 2025 toplam satış 8.569 otobüs, artış yüzde 46,8. Yurt dışı ortakları: SaryarkaAvtoProm, Kostanay (Kazakistan), Cho Thavee (Tayland). Türkiye: Türkiye distribütörü bulunamadı.",
+"kaynak": "https://www.itiger.com/news/1119391224"
 },
 {
 "ad": "Skywell",
 "rol": "ortak_adayi",
-"not": "Temmuz 2024'te Türkiye'de üretim hattı ve parça üretimi planından söz etti; somut adım bulunamadı.",
-"kaynak": "https://www.aa.com.tr/tr/ekonomi/cin-otomobil-markalari-turkiyede-yatirim-atagina-kalkti/3270007"
+"not": "Öncelik ikinci dalga. 2025 toplam satış, yeni enerjili otobüs adedi ve ihracat adedi bulunamadı. Yurt dışı ortakları: Skywell Ukrayna temsilciliği (Ukrayna), Ulu Motor (Türkiye ve ek olarak Bulgaristan'dan Avusturya'ya uzanan hatta 15 ülke (Hırvatistan, Slovenya, Slovakya, Bosna Hersek, Makedonya, Arnavutluk, Çekya, Gürcistan dahil)). Türkiye: Türkiye distribütörü Ulu Motor, Ulubaşlar Grubu şirketi; otomobil satışı Mart 2022'de başladı, ilk yıl 2.000 üstü sipariş, 8 satış noktası (Habertürk, 19 Aralık 2022).",
+"kaynak": "https://en.wikipedia.org/wiki/Nanjing_Golden_Dragon_Bus"
 },
 {
-"ad": "Golden Dragon, Zhongtong, Ankai, Foton, Sunwin, CRRC",
+"ad": "Asiastar",
 "rol": "ortak_adayi",
-"not": "Bu turda Türkiye ile ilgili kayıt bulunamadı; iletişim için Busworld Europe 2027.",
-"kaynak": "bulunamadı"
+"not": "Öncelik izle. 2025 toplam satış ve yeni enerjili otobüs adedi bulunamadı (borsadan çıktığı için aylık satış duyurusu yok). Yurt dışı ortakları: ortak adı bulunamadı (Tunus), ortak adları bulunamadı (Rusya, Malezya, BAE, Bahreyn, Senegal, Şili). Türkiye: Türkiye distribütörü, satış, ihale teklifi, Busworld Türkiye katılımı ve Türkiye planı bulunamadı.",
+"kaynak": "https://www.asiastarbuses.com/"
+},
+{
+"ad": "Sunwin",
+"rol": "ortak_adayi",
+"not": "Öncelik ikinci dalga. 6 metre üstü yeni enerjili otobüs 2025 Ocak ile Eylül arası 1.315 adet, yıllık artış yüzde 23,94 (chinabaogao, tek kaynak). Yurt dışı ortakları: Eurokars CV (Singapur), MG Commercial (Avrupa (marka ortaklığı, SAIC grubu içi)). Türkiye: bulunamadı.",
+"kaynak": "https://sunwinbus.com"
+},
+{
+"ad": "Zonson Smart Auto",
+"rol": "ortak_adayi",
+"not": "Öncelik ilk dalga. 2025 satış adedi: bulunamadı. Yurt dışı ortakları: NK Trailers (Yunanistan), Pagliani Service (İtalya ve İspanya). Türkiye: Türkiye distribütörü, satış, ihale teklifi ve Türkiye planı: bulunamadı.",
+"kaynak": "https://www.zxsmartauto.com/global/"
+},
+{
+"ad": "Dongfeng Special Automobile",
+"rol": "ortak_adayi",
+"not": "Öncelik izle. 2025 toplam satış: bulunamadı. Yurt dışı ortakları: Aayam Intercontinental (Nepal), Shanxi Pengfei Group (Çin). Türkiye: bulunamadı.",
+"kaynak": "https://www.sustainable-bus.com/news/china-bus-export-2024-figures-byd-yutong-higer/"
 },
 {
 "ad": "CATL",
@@ -14657,6 +14712,7 @@ window.MEKA_DATA = {
 "Bağ, sonuc9.json: otobüs ve araç montajı üzerine fırsat yok; kataforez kelimesi hiç geçmiyor, yani MEKA'nın kataforez hattı kaydı yok. Şasi kelimesi parçalayıcı, flat rack ve vinç fırsatlarında ağır şasi anlamında geçiyor; otobüs iskeleti ince cidarlı profil olduğu için bu yetkinlik sınırlı aktarılır."
 ],
 "degisiklikler": [
+"2 Kasım 2026: yönetici isteğiyle 15 Çinli elektrikli otobüs üreticisi tek tek incelendi; firma kartları, iletişim yolu, öncelik sırası ve ilk mesaj taslağı tam çalışmaya eklendi, firma listesi güncellendi",
 "20 Ekim 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
 "Kapasite kullanımı yüzde 68 rakamının kaynağı düzeltildi: OSD Aralık 2025 PDF'inde bu oran yok; AA aktarımlı OSD açıklaması (İşçi Haber, 19 Ocak 2026) kaynak gösterildi ve calisma_md'ye 30. kaynak olarak eklendi; ilgili atıflar [1] yerine [30] yapıldı.",
 "Otobüs üretimi 12.400 ve 9.900 yerine OSD tablosundaki 12.425 (2025) ve 9.908 (2024) yazıldı.",
@@ -14752,7 +14808,7 @@ window.MEKA_DATA = {
 "kaynak": "haber, DHA 10 Eylül 2026 https://www.dha.com.tr/gundem/sany-ve-fmt-turkiyede-elektrikli-kamyon-uretecek-5-yilda-500-milyon-dolarlik-yatirim-hedefi-video-2942455 ; Taşıma Dünyası 10 Eylül 2026 https://www.tasimadunyasi.com/sany-fmtden-turkiyeye-500-milyon-dolarlik-yatirim-hedefi ; Lojiport 14 Eylül 2026 https://www.lojiport.com/sany-ankarada-elektrikli-cekici-uretmeye-basladi-120112h.htm"
 }
 ],
-"durum": "Türkiye'de Çinli bir otobüs üreticisinin montaj ortaklığı ya da fabrikası bu turda bulunamadı. BYD'nin Temmuz 2024'teki 1 milyar dolarlık Manisa otomobil fabrikası anlaşması 10 Haziran 2026'da askıya alındı ve teşvikleri durduruldu. Belediye elektrikli otobüs alımları yerli üreticilere, özellikle AB fonlu ihalelerle Karsan'a gidiyor. Yutong Kazakistan'da QazTehna ile yılda yaklaşık 1.000 otobüslük kitten montaj tesisi işletiyor, BYD 18 Ağustos 2026'da Malezya'da Bus Cap ile otobüs montajı MOU'su imzaladı; yani Çinli üreticiler yurt dışı montaj ortaklığına açık. Otobüs için Çin menşeli ek vergi oranı ve yerli malı şartı resmi kaynaktan doğrulanamadı; ekonomi modeli büyük ölçüde tahmine dayanıyor.",
+"durum": "Türkiye'de Çinli bir otobüs üreticisinin montaj ortaklığı ya da fabrikası bu turda bulunamadı. BYD'nin Temmuz 2024'teki 1 milyar dolarlık Manisa otomobil fabrikası anlaşması 10 Haziran 2026'da askıya alındı ve teşvikleri durduruldu. Belediye elektrikli otobüs alımları yerli üreticilere, özellikle AB fonlu ihalelerle Karsan'a gidiyor. Yutong Kazakistan'da QazTehna ile yılda yaklaşık 1.000 otobüslük kitten montaj tesisi işletiyor, BYD 18 Ağustos 2026'da Malezya'da Bus Cap ile otobüs montajı MOU'su imzaladı; yani Çinli üreticiler yurt dışı montaj ortaklığına açık. Otobüs için Çin menşeli ek vergi oranı ve yerli malı şartı resmi kaynaktan doğrulanamadı; ekonomi modeli büyük ölçüde tahmine dayanıyor. 2 Kasım 2026: 15 Çinli üretici tek tek incelendi; hiçbirinin Türkiye'de otobüs ortağı yok. İlk dalgada yazılacaklar Golden Dragon, Zhongtong, Ankai, Higer, CRRC Electric Vehicle, Geely Farizon, Yutong ve Zonson.",
 "adimlar": [
 {
 "adim": "Yutong, King Long, Higer, Skywell ve BYD uluslararası birimlerine tek sayfalık ortaklık mektubu: Türkiye planı, kit fiyatı, lisans şartı",
@@ -46504,41 +46560,6 @@ window.MEKA_DATA = {
 "konu_id": "cimento"
 },
 {
-"tarih": "27 Ekim 2026",
-"iso": "2026-10-27",
-"olay": "Türkiye ETS ilk izleme metodolojisi planlarının son günü, süre uzatılmazsa. Başkanlık altı aya kadar uzatabilir.",
-"kaynak": "diger https://www.erdem-erdem.av.tr/turkiye-emisyon-ticaret-sistemi-yonetmeligi-yayimlandi",
-"konu_id": "cimento"
-},
-{
-"tarih": "27 Ekim 2026",
-"iso": "2026-10-27",
-"olay": "TR ETS pilot kapsamındaki işletmelerin ilk izleme metodolojisi planı son günü (yönetmelik yayımından iki ay); Başkanlık Geçici Madde 3 ile altı aya kadar uzatabilir.",
-"kaynak": "https://www.cnbce.com/haberler/ets-yonetmeligi-yayimlandi-iste-karbon-piyasasinin-yeni-kurallari-h35893 sayfa açıldı; https://www.hukukihaber.net/turkiye-emisyon-ticaret-sistemi-yonetmeligi Geçici Madde 3",
-"konu_id": "karbon_dogrula"
-},
-{
-"tarih": "31 Ekim 2026 (doğrulanamadı)",
-"iso": "2026-10-31",
-"olay": "İngiltere NESO Gate 2 Faz 1 bağlantı teklifleri için uzatılmış son gün iddiası, yaklaşık 62 teklif. Ofgem PDF metni okunamadı.",
-"kaynak": "resmi https://www.ofgem.gov.uk/sites/default/files/2026-10/Ofgem-agreement-for-revision-to-G2TWQ-timetable.pdf (PDF metni okunamadı)",
-"konu_id": "depolama_hak"
-},
-{
-"tarih": "1 Kasım 2026",
-"iso": "2026-11-01",
-"olay": "IGIS 2026 jeotermal toplantısı, Kapadokya, JESDER takvimi. Site bu turda açılmadı, tarih doğrulanamadı.",
-"kaynak": "firma https://www.jesder.org/ (bu turda açılmadı)",
-"konu_id": "jeotermal"
-},
-{
-"tarih": "1 Kasım 2026 (bu turda doğrulanmadı)",
-"iso": "2026-11-01",
-"olay": "Netze BW dağıtım şebekesi olgunluk usulü başvuru penceresi açılıyor iddiası.",
-"kaynak": "haber https://www.pv-magazine.de/2026/08/13/netze-bw-fuehrt-reifegradverfahren-fuer-netzanschluss-von-anlagen-ab-950-kilowatt-und-stand-alone-speicher-ein/ (açılmadı)",
-"konu_id": "depolama_hak"
-},
-{
 "tarih": "2 Kasım 2026",
 "iso": "2026-11-02",
 "olay": "Çağdaş Cam 1,6 mm solar cam hattının Manisa OSB'de devreye alınması planı; KAP açıklaması aktarımı, doğrulandı",
@@ -48601,9 +48622,9 @@ window.MEKA_DATA = {
 "no": "Ek",
 "ad": "Çinli elektrikli otobüs üreticisiyle Türkiye ortaklığı (derin çalışma)",
 "tarih": "20 Ekim 2026",
-"sayfa": 8,
+"sayfa": 28,
 "pdf": "Calisma_cin_otobus_ort.pdf",
-"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 7 açık sorunun 0 tanesi cevaplandı, 7 tanesi görüşmeye kaldı. 24 şirket, 13 emsal işlem. Kanıt 3/5."
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 7 açık sorunun 0 tanesi cevaplandı, 7 tanesi görüşmeye kaldı. 24 şirket, 13 emsal işlem. Kanıt 3/5. 2 Kasım 2026: 15 Çinli üreticinin firma kartları, iletişim yolu, öncelik sırası ve ilk mesaj taslağı eklendi."
 },
 {
 "no": "Ek",
@@ -49125,11 +49146,11 @@ window.MEKA_DATA = {
 "sayfa_sayisi": 9
 },
 "c_cin_otobus_ort": {
-"ad": "Çinli elektrikli otobüs üreticisiyle Türkiye ortaklığı: derin çalışma (20 Ekim 2026, 8 sayfa)",
+"ad": "Çinli elektrikli otobüs üreticisiyle Türkiye ortaklığı: derin çalışma (20 Ekim 2026, firma kartları 2 Kasım 2026, 28 sayfa)",
 "pdf": "Calisma_cin_otobus_ort.pdf",
 "tur": "derin",
 "kisa": "Derin çalışma, 20 Ekim 2026",
-"sayfa_sayisi": 8
+"sayfa_sayisi": 28
 },
 "c_atv_utv": {
 "ad": "ATV ve UTV: benzinli ve elektrikli arazi aracı: derin çalışma (21 Ekim 2026, 13 sayfa)",
