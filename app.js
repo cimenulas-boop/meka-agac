@@ -363,15 +363,16 @@
     return h + '</div>';
   }
 
+  function gizli(t, ad) { return (t.ozet_gizle || []).indexOf(ad) >= 0; }
   function ekonomiHtml(t) {
-    var x = t.ekonomi; if (!x) return '';
+    var x = t.ekonomi; if (!x || gizli(t, 'ekonomi')) return '';
     var rows = [['Giriş bileti', x.bilet], ['İlk gelire kadar', x.sure_ilk_gelir], ['Yıl 3', x.yil3], ['Yıl 5', x.yil5], ['Geri ödeme', x.geri_odeme], ['Yıllık kâr potansiyeli', x.yillik_kar_potansiyeli], ['Varsayımlar', x.varsayimlar]].filter(function (r) { return r[1]; });
     if (!rows.length) return '';
     var derin = !!(x.yil3 || x.yil5 || x.geri_odeme);
     return '<div class="card"><div class="eyebrow">' + (derin ? 'Ekonomi modeli (derin çalışma; kaynaklı rakamla tahmin ayrı yazıldı)' : 'Ekonomi (kaba tahmin)') + '</div><div class="kv">' + rows.map(function (r) { return '<div class="r"><div class="k" style="font-size:17px">' + e(r[0]) + '</div><div>' + e(r[1]) + '</div></div>'; }).join('') + '</div></div>' + emsallerHtml(t);
   }
   function emsallerHtml(t) {
-    var l = t.emsaller; if (!l || !l.length) return '';
+    var l = t.emsaller; if (!l || !l.length || gizli(t, 'emsaller')) return '';
     return '<div class="card"><div class="eyebrow">Emsal işlemler (satın alma, yatırım turu, ihale)</div><div class="kv">' + l.map(function (x) {
       return '<div class="r"><div class="k">' + e(x.tarih || '') + '</div><div><b>' + e(x.taraflar || '') + '</b>' + (x.bedel ? ': ' + e(x.bedel) : '') + (x.birim ? '<div class="muted">' + e(x.birim) + '</div>' : '') + (x.kaynak ? '<div class="src">' + linkify(x.kaynak) + '</div>' : '') + '</div></div>';
     }).join('') + '</div></div>';
@@ -408,7 +409,7 @@
     if (il.saha_puan || il.saha_not) h += '<div class="card" style="border-left:4px solid var(--ok)"><div class="eyebrow">Saha bilgisi' + (il.saha_tarih ? ' · ' + e(il.saha_tarih) : '') + '</div><div class="row">' + (il.saha_puan ? '<span class="pill ok">saha puanı ' + e(il.saha_puan) + '/5</span>' : '') + '</div>' + (il.saha_not ? '<p>' + e(il.saha_not) + '</p>' : '') + '</div>';
     h += '<div class="grid2">';
     if (t.adimlar && t.adimlar.length) h += '<div class="card"><div class="eyebrow">İlk adımlar</div><div class="steps">' + t.adimlar.map(function (s, i) { return '<div class="step"><div class="n">' + (i + 1) + '</div><div>' + e(s.adim) + '<div class="meta">' + e(s.kim) + ' · ' + e(s.ne_zaman) + '</div></div></div>'; }).join('') + '</div></div>';
-    h += '<div class="card"><div class="eyebrow">Kararlarla uyum</div><div class="match">' +
+    if (!gizli(t, 'kararlar')) h += '<div class="card"><div class="eyebrow">Kararlarla uyum</div><div class="match">' +
       '<div class="m"><span>Yatırım: <b>' + e(YAT_AD[k.yatirim] || '') + '</b></span><span class="pill ' + (u.yatirim ? 'ok' : 'warn') + '">' + (u.yatirim ? 'uyar' : 'uymaz') + '</span></div>' +
       '<div class="m"><span>Bütçe: <b>' + e(BUTCE_AD[k.butce] || '') + '</b></span><span class="pill ' + (u.butce ? 'ok' : 'warn') + '">' + (u.butce ? 'uyar' : 'uymaz') + '</span></div>' +
       '<div class="m"><span>Yol: <b>' + e(YOL_AD[k.yol] || '') + '</b></span><span class="pill ' + (u.yol ? 'ok' : 'warn') + '">' + (u.yol ? 'uyar' : 'uymaz') + '</span></div></div>' +

@@ -19674,6 +19674,7 @@ window.MEKA_DATA = {
 "Yüzde 21 yan sanayi payı strateji belgesinde yerli katkıya, Sanayileşme Süreçleri Rehberi'nde teklif bedeline göre tanımlanıyor."
 ],
 "degisiklikler": [
+"11 Kasım 2026: yönetim isteğiyle özet sayfası sadeleştirildi; ekonomi modeli, emsal işlemler ve kararlarla uyum kutuları ile şirket mali satırı çıkarıldı",
 "11 Kasım 2026: 5 sayfalık başvuru kılavuzu eklendi (nasıl ve hangi konularda, takvim, tanıtım yazısı taslağı); AQAP 2110 için not: strateji belgesi şart koşmuyor, SSB ve ana yüklenicilere sorulacak",
 "11 Kasım 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
 "11 Kasım 2026: Ahmet Bey'in isteğiyle yazıldı; çürütücü 12 sayfa açtı, 12 düzeltme: 5. bölge yerine öncelikli yatırım teşviki, taksonomi tarihi, yıl 3 ve yıl 5 aritmetiği, sayfa numaraları, belge adları."
@@ -19720,11 +19721,6 @@ window.MEKA_DATA = {
 "deger": "61 konu",
 "aciklama": "2026 kredi çağrısının öncelikli yatırım konuları; zırh, mühimmat kovanı, dişli, döküm, dövme dahil",
 "kaynak": "SSB Ek-1 listesi"
-},
-{
-"deger": "2,31 milyar TL ve 91,58 milyon TL zarar",
-"aciklama": "MEKA 2026 ilk dokuz ay hasılatı ve net zararı",
-"kaynak": "Midas, KAP özetleri"
 }
 ],
 "durum": "MEKA'nın savunma geçmişi, EYDEP sertifikası, AQAP belgesi ve NATO tedarikçi kodu bulunamadı. SSB'de ağır mekanik için açık bir yerlileştirme çağrısı yok; işler ana yüklenicinin alt yüklenici seçimiyle dağılıyor. SSB 2026 kredi çağrısı borsadaki şirketleri kapsam dışı bıraktı. Önerilen yol: YETEN kaydı, Sanayileşme Daire Başkanlığı'na tanıtım yazısı ve EYDEP talebi, AQAP 2110 ve kaynak belgeleri, ana yüklenicilere teklif. Birinci tercih mühimmat üretim altyapısı, ikinci kara platformu yapıları, üçüncü test, fırlatma ve tahkimat yapıları.",
@@ -19764,8 +19760,7 @@ window.MEKA_DATA = {
 "SSB kredisindeki borsa yasağı sürebilir",
 "EYDEP C seviyesinin altında kalabilir",
 "Ana yükleniciler mevcut tedarikçilerini değiştirmeyebilir",
-"Savunma işinde uzun kalifikasyon ve ödeme süresi",
-"MEKA'nın 2026 zararı yatırım iştahını kısabilir"
+"Savunma işinde uzun kalifikasyon ve ödeme süresi"
 ],
 "takvim": [
 {
@@ -19868,11 +19863,6 @@ window.MEKA_DATA = {
 "url": "https://kap.org.tr/tr/sirket-bilgileri/genel/5875-meka-global-makine-imalat-sanayi-ve-ticaret-a-s",
 "ne": "KAP, MEKA Global şirket bilgileri",
 "tur": "resmi"
-},
-{
-"url": "https://www.getmidas.com/canli-borsa/mekag-hisse/haber/",
-"ne": "Midas, MEKAG haberleri",
-"tur": "diger"
 },
 {
 "url": "https://www.mekaglobal.com/en/corporate/production-facilities",
@@ -19994,6 +19984,12 @@ window.MEKA_DATA = {
 "kapsam_notu": "11 Kasım 2026 derin çalışma: 14 arama, 33 sayfa; 4 açık sorunun 2 tanesi cevaplandı, 2 tanesi görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 4/5. YETEN portalı içeriği okunamadı; EYDEP ücreti ve süresi, daire başkanının adı ve Bursa çalıştayı sunumları bulunamadı. Taksonominin 2.0 sonrası sürümü bulunamadı. Ekonomi modeli tahmin.",
 "guven": 4,
 "tarih": "11 Kasım 2026 (derin çalışma, yönetici isteği)",
+"ozet_gizle": [
+"ekonomi",
+"emsaller",
+"kararlar"
+],
+"calisma_md": null,
 "dal_ad": "MEKA ile ilgili",
 "kol_id": "meka_devlet",
 "kol_ad": "Devlet firmaları",
