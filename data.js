@@ -30733,7 +30733,7 @@ window.MEKA_DATA = {
 "3 yıl, 30 yıl ve 5.000 hektar: Kanun metni okundu ve m.5, m.6 ile doğrulandı. Arama ruhsatının bir yıl uzatılabildiği eklendi. Tek kaynak ve kanun metni okunamadı ibareleri kaldırıldı.",
 "Devirde vadesi geçmiş borç şartı KOP rehberinde ve kanun metninde yok, silindi.",
 "Yabancı katılım: Kanun m.4/2 hükmü ve m.10 devir ile sicil hükmü eklendi. Yabancıya özel hüküm bulunamadı ifadesi bununla değiştirildi.",
-"Pi Makina: haber 21 Ağustos 2014 tarihli ve petrol sondaj kulesinden söz ediyor. MEKA'ya benzer iş grubu cümlesi kaynaksız olduğu için silindi.",
+"Pi Makina: haber 21 Ağustos 2014 tarihli ve petrol sondaj kulesinden söz ediyor. MEKA'ya benzer iş kolu cümlesi kaynaksız olduğu için silindi.",
 "Zorlu, Çelikler, Türkerler: haber tarihleri (22 Mart 2018, 10 Haziran 2019, 1 Kasım 2018) eklendi, rakamlar doğrulandı.",
 "Gürmat: 970 milyon dolar ve EBRD 150 milyon dolar rakamları doğrulanamadığı için silindi, kayıt doğrulanamadı olarak işaretlendi.",
 "Kipaş kaydı kaynaksız olduğu için firmalar listesinden silindi.",
@@ -36864,7 +36864,7 @@ window.MEKA_DATA = {
 "Fiyat savaşı ve kur: Almanya'da priwatt geçici iflas sürecinde, Hoymiles ve APSystems 2026 ilk yarıda zarar yazdı; Çinli markalar kural çıkınca pazar yerlerinden doğrudan girer, marj 20 puan altına inebilir.",
 "Ürün normu: Almanya'da Aralık 2025'ten geçerli DIN VDE V 0126-95 ev prizinde 960 Wp üstünü özel prize bağlıyor; Türkiye'de benzer bir norm çıkarsa dört panelli setler elektrikçi gerektirir ve tak çalıştır iddiası zayıflar.",
 "İthalat maliyeti belirsiz: 1 Ocak 2026 ilave gümrük vergisi, referans fiyat ve alüminyum çerçeve dampingi; GTİP bazlı oran doğrulanmadı, indi maliyet yüzde 15 ile 25 sapabilir.",
-"Borsaya kote şirkette küçük ama yeni iş grubu KAP açıklaması ve yönetim dikkati ister; kişisel yatırım tercih edilirse marka ve servis güveni daha zor kurulur."
+"Borsaya kote şirkette küçük ama yeni iş kolu KAP açıklaması ve yönetim dikkati ister; kişisel yatırım tercih edilirse marka ve servis güveni daha zor kurulur."
 ],
 "kapilar": {
 "yatirim": "ikisi",
@@ -48168,7 +48168,7 @@ window.MEKA_DATA = {
 "tarih": "25 Eylül 2026",
 "sayfa": 2,
 "pdf": "MEKA_Yeni_Alanlar_GPT_Astra_6_Claude_Opus_5_5.pdf",
-"aciklama": "Ayrı bir yapay zekânın görüşü: önce satış (inşaat ve yıkıntı atığından agrega), sonra yeni iş grubu."
+"aciklama": "Ayrı bir yapay zekânın görüşü: önce satış (inşaat ve yıkıntı atığından agrega), sonra yeni iş kolu."
 },
 {
 "no": "04",

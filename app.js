@@ -227,7 +227,7 @@
   // ---------------- sayfalar ----------------
   function homeHtml() {
     var h = '';
-    h += '<div><div class="eyebrow">MEKA Global · yeni iş alanı araştırmaları</div><h1>' + e(D.baslik) + '</h1><p class="muted">' + e(D.alt_baslik) + '</p></div>';
+    h += '<div><div class="eyebrow">MEKA Yeni İş Kolları · Fırsat haritası</div><h1>' + e(D.baslik) + '</h1><p class="muted">' + e(D.alt_baslik) + '</p></div>';
     h += gatesHtml();
     h += yolHtml();
     h += '<div class="card soft edit"><div class="eyebrow">Düzenleme modu nasıl işler</div><ul class="plain"><li>Bir fırsatı aç, en alttaki Durum kartında ilerleme, görevler ve saha puanını gir, Kaydet.</li><li>Saha puanı 1 ile 5: 3 nötr, 5 genel puana 10 puan ekler, 1 on puan düşürür. Görüşme notunu da yaz.</li><li>Notlar her fırsatta ayrı kartta; düzenleme moduna gerek yok.</li><li>Herkes görsün istersen sayfanın altından durumu dışa aktar, durum.json dosyasını GitHub deposunun köküne yükle.</li></ul></div>';
