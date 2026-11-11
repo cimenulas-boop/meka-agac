@@ -4,7 +4,7 @@ window.MEKA_DATA = {
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 fırsat 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
 "derleme_tarihi": "11 Kasım 2026",
 "bugun_iso": "2026-11-11",
-"surum": "Sürüm 11 Kasım 2026, 13. tur · SSB başvuru raporu eklendi (Ahmet Bey isteği); 12. tur: Çinli elektrikli otobüs üreticileri tek tek incelendi, 15 firma kartı Çin ortaklığı çalışmasına eklendi; 11. tur: Yapay zekâlı simülasyon ve CAD, yapay zekâlı müzik ve geleceğin şehirleri fırsatları eklendi; 10. tur: veri merkezi; 9. tur: test laboratuvarı; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
+"surum": "Sürüm 11 Kasım 2026, 13. tur · SSB başvuru raporu ve 5 sayfalık başvuru kılavuzu eklendi (Ahmet Bey isteği); 12. tur: Çinli elektrikli otobüs üreticileri tek tek incelendi, 15 firma kartı Çin ortaklığı çalışmasına eklendi; 11. tur: Yapay zekâlı simülasyon ve CAD, yapay zekâlı müzik ve geleceğin şehirleri fırsatları eklendi; 10. tur: veri merkezi; 9. tur: test laboratuvarı; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
 "agac": [
 {
 "id": "meka",
@@ -19612,6 +19612,11 @@ window.MEKA_DATA = {
 "dosya": "c_ssb_basvuru",
 "bolum_basligi": "",
 "sayfa": null
+},
+{
+"dosya": "ssb_kilavuz",
+"bolum_basligi": "",
+"sayfa": null
 }
 ],
 "firmalar": [
@@ -19669,6 +19674,7 @@ window.MEKA_DATA = {
 "Yüzde 21 yan sanayi payı strateji belgesinde yerli katkıya, Sanayileşme Süreçleri Rehberi'nde teklif bedeline göre tanımlanıyor."
 ],
 "degisiklikler": [
+"11 Kasım 2026: 5 sayfalık başvuru kılavuzu eklendi (nasıl ve hangi konularda, takvim, tanıtım yazısı taslağı); AQAP 2110 için not: strateji belgesi şart koşmuyor, SSB ve ana yüklenicilere sorulacak",
 "11 Kasım 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
 "11 Kasım 2026: Ahmet Bey'in isteğiyle yazıldı; çürütücü 12 sayfa açtı, 12 düzeltme: 5. bölge yerine öncelikli yatırım teşviki, taksonomi tarihi, yıl 3 ve yıl 5 aritmetiği, sayfa numaraları, belge adları."
 ],
@@ -19999,6 +20005,12 @@ window.MEKA_DATA = {
 "bolum_basligi": "",
 "sayfa": null,
 "rol": "tam"
+},
+{
+"dosya": "ssb_kilavuz",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "ana"
 }
 ],
 "puan": {
@@ -49203,6 +49215,14 @@ window.MEKA_DATA = {
 "tur": "ozet",
 "kisa": "Fırsat haritası posteri",
 "sayfa_sayisi": 1
+},
+"ssb_kilavuz": {
+"ad": "SSB başvuru kılavuzu: nasıl ve hangi konularda başvuracağız (11 Kasım 2026, 5 sayfa)",
+"pdf": "SSB_Basvuru_Kilavuzu.pdf",
+"tur": "rapor",
+"kisa": "Adımlar, konular, takvim ve yazı taslağı",
+"btn": "Başvuru kılavuzunu aç (5 sayfa)",
+"sayfa_sayisi": 5
 },
 "lityum_ek": {
 "ad": "Lityum ve batarya ek çalışması (30 Eylül 2026)",
