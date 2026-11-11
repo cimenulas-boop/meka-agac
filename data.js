@@ -1,10 +1,10 @@
 window.MEKA_DATA = {
-"baslik": "İki alan, altı grup, 60 fırsat",
+"baslik": "İki alan, altı grup, 61 fırsat",
 "alt_baslik": "Her fırsatta bir sayfalık özet, altında tam çalışma. Üst alan kuralı: MEKA üretim ya da kurulum yapıyorsa \"MEKA ile ilgili\".",
 "kok_notu": "On çalışma, 22-30 Eylül 2026. Özetler 15 Ekim 2026'da derlendi ve kaynağa karşı doğrulandı; kanıtı zayıf 14 fırsat 16 Ekim 2026'da iki turda web araştırmasıyla güncellendi.",
-"derleme_tarihi": "2 Kasım 2026",
-"bugun_iso": "2026-11-02",
-"surum": "Sürüm 2 Kasım 2026, 12. tur · Çinli elektrikli otobüs üreticileri tek tek incelendi, 15 firma kartı Çin ortaklığı çalışmasına eklendi; 11. tur: Yapay zekâlı simülasyon ve CAD, yapay zekâlı müzik ve geleceğin şehirleri fırsatları eklendi; 10. tur: veri merkezi; 9. tur: test laboratuvarı; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
+"derleme_tarihi": "11 Kasım 2026",
+"bugun_iso": "2026-11-11",
+"surum": "Sürüm 11 Kasım 2026, 13. tur · SSB başvuru raporu eklendi (Ahmet Bey isteği); 12. tur: Çinli elektrikli otobüs üreticileri tek tek incelendi, 15 firma kartı Çin ortaklığı çalışmasına eklendi; 11. tur: Yapay zekâlı simülasyon ve CAD, yapay zekâlı müzik ve geleceğin şehirleri fırsatları eklendi; 10. tur: veri merkezi; 9. tur: test laboratuvarı; 8. tur: ATV ve UTV ile rüzgar kulesi; 7. tur:  MEKA alanının en yüksek puanlı 8 fırsatı için kaynaklı ekonomi modeli ve emsal ihale sonuçları yazıldı; yönetici isteğiyle elektrikli otobüs ve Çinli üreticiyle ortaklık fırsatları eklendi; 50 fırsat üç puanlayıcı ve eleştirmenle aynı ölçekte puanlandı",
 "agac": [
 {
 "id": "meka",
@@ -53,7 +53,8 @@ window.MEKA_DATA = {
 "konular": [
 "beylikova",
 "belediye",
-"lancer"
+"lancer",
+"ssb_basvuru"
 ]
 },
 {
@@ -5363,7 +5364,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 2 Kasım 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört grubun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
+"butce_not": "Dilim 11 Kasım 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Rapor bu niş için ayrı bütçe vermiyor. Yatırım ihtiyacı kriteri 4 / 5, yani düşük ihtiyaç. Tüm 36 aylık yol haritasının belge, test ve altyapı maliyeti 400 ile 800 bin €; bu rakam dört grubun tamamı için. İlk dilim temas, belge ve numune parça; 100 bin dolar altı varsayım.",
 "yol": "ortak",
 "yol_not": "Rapor yalnız alt yüklenicilik ve entegratörle ortaklık öneriyor; Koluman için doğal ortak ya da müşteri diyor. Kendi markalı vinç 1,55 puanla elenmiş. Yatırım tarafı varsayım: rapor Eskişehir tesisini esas alıyor, kişisel yatırım seçeneği çalışmalarda yok."
 },
@@ -5747,7 +5748,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "sirket",
 "butce": 2,
-"butce_not": "Dilim 2 Kasım 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
+"butce_not": "Dilim 11 Kasım 2026'de tek kurala göre düzeltildi (ajan değeri 1): dört savunma grubunun ortak belgelendirme, test ve prototip bütçesi 400 ile 800 bin € (01 rapor, Tablo 9.2); pay dağıtılmadı, beş gruba aynı dilim. Ajan notu: Varsayım. Yatırım yolu da varsayım; rapor MEKA Global için yazılmış, kişisel yatırım seçeneği çalışmalarda yok. Giriş adımları ücretsiz kayıtlar, hukuki görüş ve küçük numune. 01 kartındaki 400 ila 800 bin avroluk belge, test ve altyapı bütçesi 36 aylık yol haritasının tümü için; bu iki niş yol haritasında yok ve ayrı bütçe almamış.",
 "yol": "ikisi",
 "yol_not": "Varsayım. Rapor giriş yolu olarak NSPA tedarikçi kaydı ve Avrupa askerî MRO merkezlerine platform tedariki gösteriyor; bu MEKA'nın kendi ürettiği ürünün doğrudan satışı. Ayrıca TUSAŞ ve ASFAT ihracat programlarına alt yüklenicilik ile ASFAT portalı ve STM tedarikçi kaydı var. Ortaklık, lisans ya da pay alma önerisi çalışmalarda yok."
 },
@@ -7284,7 +7285,7 @@ window.MEKA_DATA = {
 "kapilar": {
 "yatirim": "ikisi",
 "butce": 3,
-"butce_not": "Dilim 2 Kasım 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
+"butce_not": "Dilim 11 Kasım 2026'de tek kurala göre düzeltildi (ajan değeri 2): OSB'de hizmet olarak ısı pilotu yaklaşık 1,7 M$ (08); ortaklık yolu seçilirse 2. dilim. Ajan notu: İlk 6 ay 150-300 bin $ ve 2-3 mühendis, 08 Özet ve Öneriler, 08'in kendi deyişiyle varsayım. Bölge EPC ve imalat ortaklığı 0,3-1,5 M$, 08 Bölüm 5. Pilot ayrı karar: 6. ay kapısında 1,5-2 M$, bu dilim 3'e çıkar.",
 "yol": "ortak",
 "yol_not": "Yatırım kapısı 'ikisi' yapıldı: sahada MEKA makinesi gerekmiyor, şirket de kişi de girebilir (ajan değeri sirket). 08 Bölüm 5 önerilen karma: önce bölge EPC ve sözleşmeli imalat ortaklığı, üstüne hizmet olarak ısı pilotu, paralelde yerli firmaya yatırım keşfi. Sıfırdan Ar-Ge yalnız yerlileştirme mühendisliği düzeyinde; lisans ve yerel üretim ancak 2-3 referans sonra. Şirket üzerinden yürütme 07 ve 08'in MEKA odaklı kurgusundan çıkarım, varsayım. Yerli firmaya yatırım kişisel de olabilir, varsayım."
 },
@@ -19590,6 +19591,433 @@ window.MEKA_DATA = {
 "E": "Ortaklık kapalı; satış SABER belgesi, bayi ve Al-Ayuni ilişkisiyle mümkün, rekabet yoğun.",
 "M": "MEKA'nın kendi beton santrali ve kırma elemesi, mevcut ihracat ekibiyle satılıyor.",
 "S": "Mevcut işin uzantısı, teknoloji yok; Elkon, Zoomlion ve 50 bin dolarlık Çinliler pazarda."
+},
+"puan_yayilim": []
+},
+"ssb_basvuru": {
+"id": "ssb_basvuru",
+"dal": "meka",
+"kol": "devlet",
+"baslik": "SSB Sanayileşme Daire Başkanlığı'na başvuru: MEKA hangi alanda girmeli",
+"on_bant": "izle",
+"kaynaklar": [
+{
+"dosya": "Yönetici isteği",
+"bolum": "11 Kasım 2026: yönetici isteğiyle derin çalışma ve çürütücü ile yazıldı",
+"tarih": "11 Kasım 2026"
+}
+],
+"tam_calisma": [
+{
+"dosya": "c_ssb_basvuru",
+"bolum_basligi": "",
+"sayfa": null
+}
+],
+"firmalar": [
+{
+"ad": "SSB Sanayileşme Daire Başkanlığı",
+"rol": "kurum",
+"not": "Yan sanayi, EYDEP, YETEN, kredi ve offset işlerinin birimi; Sanayileşme ve Stratejik Planlama Başkan Yardımcılığına bağlı, Başkan Yardımcısı Prof. Dr. İhsan Kaya.",
+"kaynak": "https://www.ssb.gov.tr/teskilat-yapisi"
+},
+{
+"ad": "MKE",
+"rol": "musteri",
+"not": "Mühimmat kapasite artışı ve yeni tesislerin ana yüklenicisi; Kıraç Galvaniz 14 Nisan 2026'da tedarikçi oldu.",
+"kaynak": "https://paratic.com/kirac-galvanizden-savunma-sanayinde-kritik-adim/"
+},
+{
+"ad": "Roketsan",
+"rol": "musteri",
+"not": "Tanksavar ve füze tesisleri; SSB taahhüt listesinde.",
+"kaynak": "https://www.ssb.gov.tr/storage/img/sanayilesme-taahhudu-bulunan-firmalar-listesi.pdf"
+},
+{
+"ad": "ASELSAN, BMC, FNSS, STM, Nurol Makina",
+"rol": "musteri",
+"not": "SSB'ye sanayileşme taahhüdü olan ana yükleniciler; yüzde 21 yan sanayi payı yükümlülüğü.",
+"kaynak": "https://www.ssb.gov.tr/storage/img/sanayilesme-taahhudu-bulunan-firmalar-listesi.pdf"
+},
+{
+"ad": "Repkon",
+"rol": "emsal",
+"not": "Makine üreticisi; anahtar teslim mühimmat hatları kuruyor; 14 Ekim 2024 SSB ihracat ödülü.",
+"kaynak": "https://www.dha.com.tr/teknoloji/repkon-ileri-uretim-teknolojilerini-saha-2026da-tanitti-2868678"
+},
+{
+"ad": "Katmerciler",
+"rol": "emsal",
+"not": "Borsadaki araç üstü ekipman üreticisi; 2011 TOMA, 2013 tesis güvenlik belgesi, 2017 zırhlı araç izni.",
+"kaynak": "https://katmerciler.com.tr/wp-content/uploads/2026/06/Kurumsal-Sunum-06-2026.pdf"
+},
+{
+"ad": "Kıraç Galvaniz",
+"rol": "emsal",
+"not": "Borsadaki çelik firması; 14 Nisan 2026'da MKE tedarikçi başvurusunu geçti; tek kaynak.",
+"kaynak": "https://paratic.com/kirac-galvanizden-savunma-sanayinde-kritik-adim/"
+},
+{
+"ad": "Best Grup",
+"rol": "emsal",
+"not": "Zırhlı iş makinesi; 280'i aşkın teslimat, Eylül 2025 ilk ihracat.",
+"kaynak": "https://www.bursahakimiyet.com.tr/savunma-sanayi/yerli-uretim-tosun-bu-kez-ihracat-yolunda-1492223"
+}
+],
+"celiskiler": [
+"Strateji belgesi SSB onaylı yatırımın 5. bölge teşviki aldığını yazıyor (eski 2012/3305 karar); 9903 sayılı Karar bunu öncelikli yatırım teşviki olarak düzenliyor.",
+"Yüzde 21 yan sanayi payı strateji belgesinde yerli katkıya, Sanayileşme Süreçleri Rehberi'nde teklif bedeline göre tanımlanıyor."
+],
+"degisiklikler": [
+"11 Kasım 2026 yönetici isteğiyle eklendi; çürütücü düzeltmeleri:",
+"11 Kasım 2026: Ahmet Bey'in isteğiyle yazıldı; çürütücü 12 sayfa açtı, 12 düzeltme: 5. bölge yerine öncelikli yatırım teşviki, taksonomi tarihi, yıl 3 ve yıl 5 aritmetiği, sayfa numaraları, belge adları."
+],
+"ne": "SSB'nin Teknoloji Taksonomisi 2.0 ve 2023-2027 Sektörel Strateji Dokümanı MEKA'nın tasarım ve üretim kabiliyetiyle karşılaştırıldı. Konu, MEKA'nın savunmaya hangi alanda ve hangi yolla, yani YETEN kaydı ve EYDEP yetkinlik değerlendirmesiyle gireceği.",
+"neden": "Strateji belgesi sivil sanayinin savunmaya entegrasyonunu hedefliyor. Ana yükleniciler yerli katkının en az yüzde 21'i tutarında işi yan sanayiye, bunun en az yüzde 70'ini EYDEP sertifikalı firmalara vermek zorunda. MEKA'nın haritadaki sekiz savunma fırsatının ortak giriş kapısı bu başvuru.",
+"rakamlar": [
+{
+"deger": "yüzde 21",
+"aciklama": "Yerli yüklenicinin yan sanayiye vermesi gereken asgari iş payı, yerli katkıya göre",
+"kaynak": "SSB 2023-2027 Strateji Dokümanı, PDF s. 24"
+},
+{
+"deger": "yüzde 70",
+"aciklama": "Yan sanayi işlerinin EYDEP A, B ya da C seviyeli firmalara gitmesi gereken asgari oranı",
+"kaynak": "SSB 2023-2027 Strateji Dokümanı, PDF s. 24"
+},
+{
+"deger": "yüzde 2",
+"aciklama": "Yüklenicinin yurt içi firmalara teknoloji ve ürün kazanımı desteği yükümlülüğü, sözleşme bedelinin",
+"kaynak": "SSB 2023-2027 Strateji Dokümanı, PDF s. 24"
+},
+{
+"deger": "C 50-69, B 70-84, A 85-100",
+"aciklama": "EYDEP puan aralıkları; sertifika geçerliliği 3, 4 ve 5 yıl",
+"kaynak": "SSB 2023-2027 Strateji Dokümanı, PDF s. 22"
+},
+{
+"deger": "5.000 firma ve 10.000 ürün",
+"aciklama": "2027'ye kadar YETEN hedefi",
+"kaynak": "SSB 2023-2027 Strateji Dokümanı, PDF s. 22"
+},
+{
+"deger": "2,5 milyon dolar, yüzde 20,98",
+"aciklama": "SSB 2026 kredi çağrısı üst sınırı ve faizi; borsada işlem gören şirketler kapsam dışı",
+"kaynak": "SSB duyurusu, 13 Temmuz 2026"
+},
+{
+"deger": "55 firma",
+"aciklama": "SSB'ye sanayileşme taahhüdü bulunan firmalar; ASELSAN, BMC, FNSS, MKE, Roketsan, STM dahil; liste tarihsiz",
+"kaynak": "SSB taahhüt listesi"
+},
+{
+"deger": "61 konu",
+"aciklama": "2026 kredi çağrısının öncelikli yatırım konuları; zırh, mühimmat kovanı, dişli, döküm, dövme dahil",
+"kaynak": "SSB Ek-1 listesi"
+},
+{
+"deger": "2,31 milyar TL ve 91,58 milyon TL zarar",
+"aciklama": "MEKA 2026 ilk dokuz ay hasılatı ve net zararı",
+"kaynak": "Midas, KAP özetleri"
+}
+],
+"durum": "MEKA'nın savunma geçmişi, EYDEP sertifikası, AQAP belgesi ve NATO tedarikçi kodu bulunamadı. SSB'de ağır mekanik için açık bir yerlileştirme çağrısı yok; işler ana yüklenicinin alt yüklenici seçimiyle dağılıyor. SSB 2026 kredi çağrısı borsadaki şirketleri kapsam dışı bıraktı. Önerilen yol: YETEN kaydı, Sanayileşme Daire Başkanlığı'na tanıtım yazısı ve EYDEP talebi, AQAP 2110 ve kaynak belgeleri, ana yüklenicilere teklif. Birinci tercih mühimmat üretim altyapısı, ikinci kara platformu yapıları, üçüncü test, fırlatma ve tahkimat yapıları.",
+"adimlar": [
+{
+"adim": "YETEN firma kaydı, üç ürün ve 12 taksonomi kodu",
+"kim": "MEKA kalite ve iş geliştirme",
+"ne_zaman": "Kasım 2026"
+},
+{
+"adim": "Sanayileşme Daire Başkanlığı'na tanıtım yazısı ve EYDEP talebi",
+"kim": "Mehmet Kaybal",
+"ne_zaman": "Aralık 2026"
+},
+{
+"adim": "AQAP 2110 ve ISO 3834-2 belgelendirmesi, EN 1090 ve NCAGE",
+"kim": "MEKA kalite",
+"ne_zaman": "Ocak ile Haziran 2027"
+},
+{
+"adim": "MKE, Roketsan, ASELSAN, BMC, FNSS, STM ile tedarikçi görüşmeleri",
+"kim": "Ahmet Bey ve iş geliştirme",
+"ne_zaman": "Ocak ile Mart 2027"
+},
+{
+"adim": "EYDEP denetimi, hedef en az C",
+"kim": "MEKA kalite",
+"ne_zaman": "2027 ilk yarısı"
+},
+{
+"adim": "Yatırım çıkarsa SSB proje onayı ve öncelikli yatırım teşviki",
+"kim": "MEKA finans",
+"ne_zaman": "siparişe bağlı"
+}
+],
+"riskler": [
+"SSB kredisindeki borsa yasağı sürebilir",
+"EYDEP C seviyesinin altında kalabilir",
+"Ana yükleniciler mevcut tedarikçilerini değiştirmeyebilir",
+"Savunma işinde uzun kalifikasyon ve ödeme süresi",
+"MEKA'nın 2026 zararı yatırım iştahını kısabilir"
+],
+"takvim": [
+{
+"tarih": "13 Temmuz 2026",
+"olay": "SSB kredi çağrısı; borsadaki şirketler kapsam dışı",
+"kaynak": "SSB duyurusu",
+"iso": "2026-07-13"
+},
+{
+"tarih": "14 Ağustos 2026",
+"olay": "SSB kredi çağrısı son başvuru",
+"kaynak": "SSB duyurusu",
+"iso": "2026-08-14"
+},
+{
+"tarih": "18 Ekim 2026",
+"olay": "Alt Yüklenici ve Tedarik Yönetimi Çalıştayı sona erdi, Bursa",
+"kaynak": "SSB duyurusu",
+"iso": "2026-10-18"
+},
+{
+"tarih": "31 Aralık 2027",
+"olay": "2023-2027 strateji döneminin sonu; YETEN 5.000 firma hedefi",
+"kaynak": "SSB Strateji Dokümanı s. 22",
+"iso": "2027-12-31"
+}
+],
+"web": [
+{
+"url": "https://www.ssb.gov.tr/teskilat-yapisi",
+"ne": "SSB teşkilat yapısı",
+"tur": "resmi"
+},
+{
+"url": "https://www.ssb.gov.tr/duyuru/savunma-sanayii-yatirim-ve-gelistirme-faaliyetlerini-destekleme-programi-kredi-talebi-cagrisi-DReWQH",
+"ne": "SSB, Yatırım ve Geliştirme Faaliyetlerini Destekleme Programı kredi çağrısı, 13 Temmuz 2026",
+"tur": "resmi"
+},
+{
+"url": "https://www.ssb.gov.tr/duyuru/savunma-sanayii-yatirim-ve-gelistirme-faaliyetlerini-destekleme-programi-kredi-talebi-cagrisi-PmRCAy",
+"ne": "SSB, aynı programın 2025 çağrısı, 18 Temmuz 2025",
+"tur": "resmi"
+},
+{
+"url": "https://www.ssb.gov.tr/storage/img/ek-1-oncelikli-yatirim-konusu-listesi.pdf",
+"ne": "SSB, 2026 öncelikli yatırım konusu listesi",
+"tur": "resmi"
+},
+{
+"url": "https://www.ssb.gov.tr/storage/img/sanayilesme-surecleri-2023-rehber-dokumani.pdf",
+"ne": "SSB, Sanayileşme Süreçleri Rehber Dokümanı",
+"tur": "resmi"
+},
+{
+"url": "https://www.ssb.gov.tr/storage/img/sanayilesme-taahhudu-bulunan-firmalar-listesi.pdf",
+"ne": "SSB, sanayileşme taahhüdü bulunan firmalar listesi, tarihsiz",
+"tur": "resmi"
+},
+{
+"url": "https://www.ssb.gov.tr/duyuru/savunma-ve-havacilik-sektorunde-alt-yuklenici-ve-tedarik-yonetimi-calistayi-sunumlari-Lngucg",
+"ne": "SSB, Alt Yüklenici ve Tedarik Yönetimi Çalıştayı sunumları duyurusu",
+"tur": "resmi"
+},
+{
+"url": "https://www.ssb.gov.tr/duyuru/2027-yili-yurtdisi-savunma-fuarlari-katilim-destegi-basvurulari-basladi-FUQ21Y",
+"ne": "SSB, 2027 yurt dışı fuar katılım desteği",
+"tur": "resmi"
+},
+{
+"url": "https://arge.ssb.gov.tr/",
+"ne": "SSB Ar-Ge portalı",
+"tur": "resmi"
+},
+{
+"url": "https://yeten.ssb.gov.tr/",
+"ne": "YETEN portalı",
+"tur": "resmi"
+},
+{
+"url": "https://www.ekonomigazetesi.com/savunma-sanayi/savunmaya-tedarikci-olmak-isteyen-2-bin-898-firma-var-20871",
+"ne": "Ekonomi Gazetesi, Savunmaya tedarikçi olmak isteyen 2 bin 898 firma var",
+"tur": "diger"
+},
+{
+"url": "https://www.milliyet.com.tr/haber/7605977/",
+"ne": "Milliyet, KOSGEB kapasite geliştirme",
+"tur": "diger"
+},
+{
+"url": "https://www.alomaliye.com/2025/05/30/yatirimlarda-devlet-yardimlari-hakkinda-karar-karar-sayisi-9903/",
+"ne": "9903 sayılı Yatırımlarda Devlet Yardımları Hakkında Karar, 30 Mayıs 2025",
+"tur": "diger"
+},
+{
+"url": "https://www.foreks.com/haber/detay/6ae06435b16ee1777f55f9e8/AA/tr/savunma-sanayisinde-yerlilik-artacak-kuresel-rekabet-gucu-yukselecek-27-10-26/",
+"ne": "AA, Savunma sanayisinde yerlilik artacak, 27 Ekim 2026",
+"tur": "diger"
+},
+{
+"url": "https://kap.org.tr/tr/sirket-bilgileri/genel/5875-meka-global-makine-imalat-sanayi-ve-ticaret-a-s",
+"ne": "KAP, MEKA Global şirket bilgileri",
+"tur": "resmi"
+},
+{
+"url": "https://www.getmidas.com/canli-borsa/mekag-hisse/haber/",
+"ne": "Midas, MEKAG haberleri",
+"tur": "diger"
+},
+{
+"url": "https://www.mekaglobal.com/en/corporate/production-facilities",
+"ne": "MEKA, üretim tesisleri",
+"tur": "diger"
+},
+{
+"url": "https://www.mekaglobal.com/en/footer-links/quality-policy",
+"ne": "MEKA, kalite politikası",
+"tur": "diger"
+},
+{
+"url": "https://www.mekaglobal.com/Llms.txt",
+"ne": "MEKA, şirket tanıtım metni",
+"tur": "diger"
+},
+{
+"url": "https://katmerciler.com.tr/wp-content/uploads/2026/06/Kurumsal-Sunum-06-2026.pdf",
+"ne": "Katmerciler kurumsal sunum, Haziran 2026",
+"tur": "diger"
+},
+{
+"url": "https://www.bursahakimiyet.com.tr/savunma-sanayi/yerli-uretim-tosun-bu-kez-ihracat-yolunda-1492223",
+"ne": "Bursa Hakimiyet, TOSUN ihracat",
+"tur": "diger"
+},
+{
+"url": "https://www.dha.com.tr/teknoloji/repkon-ileri-uretim-teknolojilerini-saha-2026da-tanitti-2868678",
+"ne": "DHA, Repkon SAHA 2026",
+"tur": "diger"
+},
+{
+"url": "https://dailysabah.com/business/defense/turkish-defense-firm-repkon-awarded-for-intl-success-exports",
+"ne": "Daily Sabah, Repkon ihracat ödülü",
+"tur": "diger"
+},
+{
+"url": "https://paratic.com/kirac-galvanizden-savunma-sanayinde-kritik-adim/",
+"ne": "Paratic, Kıraç Galvaniz savunma adımı",
+"tur": "diger"
+},
+{
+"url": "https://www.ssb.gov.tr/duyurular",
+"ne": "SSB duyurular listesi",
+"tur": "resmi"
+}
+],
+"ekonomi": {
+"bilet": "İlk 24 ayda 0,2 ile 0,35 milyon dolar, tahmin.",
+"sure_ilk_gelir": "12 ile 24 ay: belge ve EYDEP süreci, ardından ilk alt yüklenici siparişi; tahmin.",
+"yil3": "Gelir 1 ile 3 milyon dolar, brüt kâr 0,18 ile 0,66 milyon dolar, tahmin.",
+"yil5": "Gelir 3 ile 7 milyon dolar, brüt kâr 0,54 ile 1,54 milyon dolar, tahmin.",
+"geri_odeme": "Yıl 3 sonu ya da yıl 4, tahmin; EYDEP çıkmazsa gerçekleşmez.",
+"yillik_kar_potansiyeli": "Yıl 5 brüt kâr 0,54 ile 1,54 milyon dolar; dayanak yılda bir iki mühimmat hattı paketi ve platform yapıları, yüzde 18 ile 22 marj; tahmin.",
+"varsayimlar": "Brüt marj MEKA'nın sivil işlerine yakın; paket büyüklüğü haritadaki mühimmat hattı ekipmanı çalışmasından; hepsi tahmin."
+},
+"emsaller": [
+{
+"tarih": "14 Ekim 2024",
+"taraflar": "Repkon, SSB ihracat ödülü",
+"bedel": "açıklanmadı",
+"birim": "ABD Teksas 155 mm tesisine 3 hat",
+"kaynak": "https://dailysabah.com/business/defense/turkish-defense-firm-repkon-awarded-for-intl-success-exports"
+},
+{
+"tarih": "14 Nisan 2026",
+"taraflar": "Kıraç Galvaniz ile MKE",
+"bedel": "açıklanmadı",
+"birim": "tedarikçi kabulü",
+"kaynak": "https://paratic.com/kirac-galvanizden-savunma-sanayinde-kritik-adim/"
+}
+],
+"cevaplar": [
+{
+"soru": "MEKA SSB'ye hangi alanda başvurmalı?",
+"durum": "cevaplandi",
+"cevap": "Birinci tercih mühimmat üretim altyapısı: hat ekipmanı, konveyör, çelik yapı, tesis kurulumu. İkinci kara platformu yapıları. Üçüncü test, fırlatma ve tahkimat yapıları.",
+"kaynak": "SSB 2023-2027 Strateji Dokümanı s. 56, 57, 68, 110, 172",
+"kime": "gerekmiyor"
+},
+{
+"soru": "Başvuru nasıl yapılır?",
+"durum": "cevaplandi",
+"cevap": "YETEN kaydı ve Ürün Kütüphanesi, Sanayileşme Daire Başkanlığı'na tanıtım yazısı, EYDEP değerlendirmesi.",
+"kaynak": "SSB Strateji Dokümanı s. 21-24; Sanayileşme Süreçleri Rehberi",
+"kime": "gerekmiyor"
+},
+{
+"soru": "EYDEP değerlendirmesinin ücreti ve süresi ne?",
+"durum": "gorusme",
+"cevap": "Bulunamadı.",
+"kaynak": "bulunamadı",
+"kime": "YETEN destek hattı"
+},
+{
+"soru": "Borsa yasağı 2027 kredi çağrısında sürecek mi?",
+"durum": "gorusme",
+"cevap": "Bulunamadı.",
+"kaynak": "bulunamadı",
+"kime": "SSB Sanayileşme Daire Başkanlığı"
+}
+],
+"kapilar": {
+"yatirim": "sirket",
+"butce": 2,
+"butce_not": "İlk 24 ayda 0,2 ile 0,35 milyon dolar: belge danışmanlığı, iki kişilik iş geliştirme ekibi, fuar ve kalifikasyon; ilk 12 ayda 0,1 ile 0,15; hepsi tahmin.",
+"yol": "ikisi",
+"yol_not": "Kayıt ve belgeler MEKA'nın kendi işi; işler ana yüklenicilerle alt yüklenici olarak."
+},
+"arastirildi": true,
+"kanit": 3,
+"kapsam": "tam",
+"acik_sorular": [
+"Görüşme gerekir: EYDEP değerlendirmesinin ücreti ve süresi ne? (YETEN destek hattı)",
+"Görüşme gerekir: Borsa yasağı 2027 kredi çağrısında sürecek mi? (SSB Sanayileşme Daire Başkanlığı)"
+],
+"bant": "ikincil",
+"puan_metni": "Yönetici isteğiyle derin çalışma (11 Kasım 2026), bant önerisi ikincil: Belgeler resmi ve yön açık, ama MEKA'nın EYDEP ve AQAP belgesi yok; ilk gelir 12 ile 24 ay sonra, ekonomi tahmine dayalı.",
+"kapsam_notu": "11 Kasım 2026 derin çalışma: 14 arama, 33 sayfa; 4 açık sorunun 2 tanesi cevaplandı, 2 tanesi görüşme gerektiriyor. Çürütücü 12 sayfa açtı, güven 4/5. YETEN portalı içeriği okunamadı; EYDEP ücreti ve süresi, daire başkanının adı ve Bursa çalıştayı sunumları bulunamadı. Taksonominin 2.0 sonrası sürümü bulunamadı. Ekonomi modeli tahmin.",
+"guven": 4,
+"tarih": "11 Kasım 2026 (derin çalışma, yönetici isteği)",
+"dal_ad": "MEKA ile ilgili",
+"kol_id": "meka_devlet",
+"kol_ad": "Devlet firmaları",
+"kisa": "SSB başvurusu: MEKA savunmaya hangi alanda girmeli",
+"puan_kisa": "",
+"butonlar": [
+{
+"dosya": "c_ssb_basvuru",
+"bolum_basligi": "",
+"sayfa": null,
+"rol": "tam"
+}
+],
+"puan": {
+"G": 2.0,
+"H": 2.33,
+"R": 2.33,
+"E": 3.0,
+"M": 4.0,
+"S": 3.0,
+"B": 4,
+"K": 3
+},
+"puan_not": {
+"G": "Yıl 5 brüt kâr 0,54 ile 1,54 milyon dolar, tamamı tahmin; tavan 2.",
+"H": "12 ile 24 ay tahmin; EYDEP, AQAP 2110 ve kalifikasyon üst ucu aşabilir.",
+"R": "EYDEP C altı, ana yüklenici tedarikçi değiştirmeyebilir, borsa yasağı; savunma geçmişi yok.",
+"E": "Yol belli: YETEN, EYDEP, AQAP; ama açık çağrı yok, işi ana yüklenici dağıtır.",
+"M": "Hat ekipmanı, konveyör, çelik yapı MEKA'nın sac, kaynak, lazer kapasitesiyle yapılır.",
+"S": "Savunma gelir taş işinden bağımsız, sekiz fırsata kapı; ilk giren avantajı zayıf, 55 firma var."
 },
 "puan_yayilim": []
 },
@@ -45696,6 +46124,7 @@ window.MEKA_DATA = {
 "beylikova",
 "belediye",
 "lancer",
+"ssb_basvuru",
 "milvus"
 ]
 },
@@ -45974,7 +46403,8 @@ window.MEKA_DATA = {
 "konu_ids": [
 "beylikova",
 "belediye",
-"lancer"
+"lancer",
+"ssb_basvuru"
 ]
 },
 "meka_teknokent": {
@@ -46558,48 +46988,6 @@ window.MEKA_DATA = {
 "olay": "Türkiye ETS ilk izleme planları (tek kaynak)",
 "kaynak": "10",
 "konu_id": "cimento"
-},
-{
-"tarih": "2 Kasım 2026",
-"iso": "2026-11-02",
-"olay": "Çağdaş Cam 1,6 mm solar cam hattının Manisa OSB'de devreye alınması planı; KAP açıklaması aktarımı, doğrulandı",
-"kaynak": "haber, https://www.foreks.com/haber/detay/6ab2a40f95016b5817e5e643/FRKS/tr/cagdas-cam-manisa-da-1-6-mm-solar-cam-uretim-hattini-2-kasim-da-faaliyete-gecirmeyi-planliyor-22-09-26/",
-"konu_id": "mineral"
-},
-{
-"tarih": "4 Kasım 2026",
-"iso": "2026-11-04",
-"olay": "Climeon 3. çeyrek raporu; önceki tur, bu turda yeniden açılmadı",
-"kaynak": "https://climeon.com/investors/",
-"konu_id": "pyramp"
-},
-{
-"tarih": "2 ile 6 Kasım 2026",
-"iso": "2026-11-06",
-"olay": "Unicera İstanbul, İFM; seramik, banyo, mutfak; bu kontrolde açılmadı",
-"kaynak": "diger, https://expoassist.net/etkinlik/unicera-istanbul-fuari",
-"konu_id": "mineral"
-},
-{
-"tarih": "9 Kasım 2026",
-"iso": "2026-11-09",
-"olay": "TÜBİTAK 1507 2026-2 kuruluş ön kayıt son günü",
-"kaynak": "https://www.tubitak.gov.tr/sites/default/files/2026-07/1507_KOBI_Ar-Ge_Baslangic_Destek_Programlari_2026-2_Proje_Cagri_Metni_13.07.2026_v2.pdf",
-"konu_id": "yz_cae_cad"
-},
-{
-"tarih": "10 Kasım 2026",
-"iso": "2026-11-10",
-"olay": "Çin'in lityum batarya ve malzeme ihracat kontrolü askıya alma süresinin bitişi; Meticulous aktarımı, doğrulandı",
-"kaynak": "https://www.meticulousresearch.com/product/military-batteries-market-6910",
-"konu_id": "ssb_batarya"
-},
-{
-"tarih": "10 Kasım 2026",
-"iso": "2026-11-10",
-"olay": "Çin Ekim 2025 askısının ilk bitiş tarihi; Rinnovabili'ye göre 10 Ocak 2027'ye uzatıldı.",
-"kaynak": "rapor https://www.fastmarkets.com/?p=135475 ; haber https://www.rinnovabili.net/policy-and-affairs/environmental-policies/chinese-rare-earth-exports-trump-xi-truce/",
-"konu_id": "nadir_toprak"
 },
 {
 "tarih": "11 Kasım 2026",
@@ -47647,6 +48035,13 @@ window.MEKA_DATA = {
 {
 "tarih": "31 Aralık 2027",
 "iso": "2027-12-31",
+"olay": "2023-2027 strateji döneminin sonu; YETEN 5.000 firma hedefi",
+"kaynak": "SSB Strateji Dokümanı s. 22",
+"konu_id": "ssb_basvuru"
+},
+{
+"tarih": "31 Aralık 2027",
+"iso": "2027-12-31",
 "olay": "Melek yatırımcı indiriminin kanundaki bitiş tarihi; Cumhurbaşkanı beş yıla kadar uzatabilir (bu turda doğrulanamadı).",
 "kaynak": "rapor https://www.turmob.org.tr/ebulten/mevzuatsirkuleri/2022/163-2022.pdf bu turda açılmadı",
 "konu_id": "odtu"
@@ -48683,6 +49078,14 @@ window.MEKA_DATA = {
 "aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 7 açık sorunun 3 tanesi cevaplandı, 2 tanesi görüşmeye kaldı. 19 şirket, 9 emsal işlem. Kanıt 3/5."
 },
 {
+"no": "Ek",
+"ad": "SSB Sanayileşme Daire Başkanlığı'na başvuru: MEKA hangi alanda girmeli (derin çalışma)",
+"tarih": "11 Kasım 2026",
+"sayfa": 10,
+"pdf": "Calisma_ssb_basvuru.pdf",
+"aciklama": "Yönetici isteğiyle eklenen yeni iş; derin web çalışması. 4 açık sorunun 2 tanesi cevaplandı, 2 tanesi görüşmeye kaldı. 8 şirket, 2 emsal işlem. Kanıt 3/5."
+},
+{
 "no": "Harita",
 "ad": "Fırsat haritası posteri",
 "tarih": "15 Ekim 2026",
@@ -49200,6 +49603,13 @@ window.MEKA_DATA = {
 "tur": "derin",
 "kisa": "Derin çalışma, 26 Ekim 2026",
 "sayfa_sayisi": 9
+},
+"c_ssb_basvuru": {
+"ad": "SSB Sanayileşme Daire Başkanlığı'na başvuru: MEKA hangi alanda girmeli: derin çalışma (11 Kasım 2026, 10 sayfa)",
+"pdf": "Calisma_ssb_basvuru.pdf",
+"tur": "derin",
+"kisa": "Derin çalışma, 11 Kasım 2026",
+"sayfa_sayisi": 10
 }
 },
 "dipnot": "Puanlar her çalışmanın kendi ölçeğidir ve birleştirilmedi. Alan ve grup yerleşimleri okuyucu tahminidir. Eleştirmen notu: Otuz dokuz fırsatın hepsinin özeti var ve bölge sayıları haritayla tutuyor; fırsatlar kendi içlerindeki çelişkileri büyük ölçüde yakalamış. Asıl boşluk fırsatlar arası ve fırsat ile bölge arası tutarlılıkta: haritanın ön bandı yedi fırsatta eski kalmış, enkaz iki bölgede farklı sırada, aynı görev üç ayrı son tarihle geçiyor ve 47 araç rakamı bir fırsatta olgu, diğerinde çelişki. Kapı değerleri programın filtre temeli olacak, ama bütçe dilimi iki farklı ölçüte göre verilmiş ve Liste B fırsatlarının yatırım kapısı aynı gerekçeyle farklı etiket almış; bu düzeltilmeden interaktif sıralama yanıltır. Kanıtı 2 ve altında olan on iki fırsatın dokuzu için gerçek araştırma ya da görüşme gerekiyor, en acili parçalayıcı, RES temeli, belediye EKAP taraması ve balkon GES mevzuatı. Takvimde Eylül ve Ekim 2026'nın on pencere kapandı ve hiçbirinin sonucu dosyalarda yok; program yayına girmeden önce bu kapanan pencerelerin sonucu tek tek sorulmalı.",
@@ -50006,9 +50416,9 @@ window.MEKA_DATA = {
 ]
 },
 {
-"ad": "Yönetici soruları ve keşif: ATV, test laboratuvarı, veri merkezi, yapay zekâ yazılımları, geleceğin şehirleri, rüzgar kulesi",
-"tarih": "21 ile 26 Ekim 2026",
-"aciklama": "Yönetici ATV sektörünü (benzinli mi, elektrikli mi), titreşim test laboratuvarını, veri merkezi kurmayı, yapay zekâlı simülasyon ve CAD programını Suno gibi bir müzik programını ve NEOM gibi geleceğin şehirlerini sordu: hepsi derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
+"ad": "Yönetici soruları ve keşif: ATV, test laboratuvarı, veri merkezi, yapay zekâ yazılımları, geleceğin şehirleri, SSB başvurusu, rüzgar kulesi",
+"tarih": "21 Ekim ile 11 Kasım 2026",
+"aciklama": "Yönetici ATV sektörünü (benzinli mi, elektrikli mi), titreşim test laboratuvarını, veri merkezi kurmayı, yapay zekâlı simülasyon ve CAD programını Suno gibi bir müzik programını ve NEOM gibi geleceğin şehirlerini sordu; Ahmet Bey SSB belgelerine göre hangi alanda başvurulacağını sordu: hepsi derin çalışma, çürütücü ve bağımsız karşı okuma ile yazıldı. İkinci keşif turunda 10 tarayıcı 51 aday buldu, jüri 10 adayı seçti, ön kontrolü yalnız rüzgar türbini çelik kulesi geçti; o da derin çalışma ve çürütücüyle yazıldı.",
 "yaprak_belgeleri": [
 {
 "yaprak": "res_kule",
@@ -50017,6 +50427,10 @@ window.MEKA_DATA = {
 {
 "yaprak": "yz_cae_cad",
 "dosya": "c_yz_cae_cad"
+},
+{
+"yaprak": "ssb_basvuru",
+"dosya": "c_ssb_basvuru"
 },
 {
 "yaprak": "atv_utv",
